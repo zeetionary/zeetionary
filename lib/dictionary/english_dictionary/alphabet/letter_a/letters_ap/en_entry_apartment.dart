@@ -209,58 +209,25 @@ class EnglishEntryapartment extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: دەستەژوور، دەستەخانوو، باڵاخانە، وارخان، ژوور، دیو
 
-١. (ناو) ژمارەیەک ژوور بۆ ژیان تێیدا، زۆرجار لە نھۆمێکی بینایەکی گەورە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ژمارەیەک ژوور بۆ ژیان تێیدا، زۆرجار لە نھۆمێکی بینایەکی گەورە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I was renting a two-bedroom apartment in an old building.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I was renting a two-bedroom apartment in an old building."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دەستەژوورێکی دوو ژووریم بە کرێ گرت‌بوو لە باڵەخانەیەکی کۆن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دەستەژوورێکی دوو ژووریم بە کرێ گرت‌بوو لە باڵەخانەیەکی کۆن."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakApartment1150("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakApartment1150(
                                     // REPLACE: apartment /əˈpɑːrtmənt/
                                     "en-US"),
@@ -271,46 +238,18 @@ class EnglishEntryapartment extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He was evicted from his Manhattan apartment.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He was evicted from his Manhattan apartment."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە دەستەژوورەکەی لە مانھاتن دەرکرا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "لە دەستەژوورەکەی لە مانھاتن دەرکرا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakApartment1152("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakApartment1152(
                                     // REPLACE: apartment /əˈpɑːrtmənt/
                                     "en-US"),
@@ -361,12 +300,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: apartment (derived forms: apartments) 
 1. A suite of rooms usually on one floor of an apartment house (= flat [Brit])
 "the estate agent took her on a walk-through of the apartment";
-'''),
+""",
+          )
         ],
       ),
     );

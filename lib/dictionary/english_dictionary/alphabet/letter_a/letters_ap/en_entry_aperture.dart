@@ -211,58 +211,25 @@ class EnglishEntryaperture extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: کون، قەڵەش، کەلەبەر، کەلێن، دەلاقە، ڕۆچنە، ڕۆژنە، دەربیجە، دەرچە، کونەڕووناکی
 
-١. (ناو) کونێکی بچووک لە شتێک""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کونێکی بچووک لە شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The soldier fired the rifle through a narrow aperture in a pile of sandbags.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The soldier fired the rifle through a narrow aperture in a pile of sandbags."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "سەربازەکە فیشەکێکی تەقاند لە کونێکی بچووکەوە لە کەڵەکەیەک کیسەلمەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "سەربازەکە فیشەکێکی تەقاند لە کونێکی بچووکەوە لە کەڵەکەیەک کیسەلمەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAperture201("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAperture201(
                                     // REPLACE: aperture /ˈæpərtʃʊr/
                                     "en-US"),
@@ -271,56 +238,22 @@ class EnglishEntryaperture extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ناو) کونێکی بچووک کە ڕێگە بە ڕووناکی دەدات بگات بە لێنزێک، بەتایبەتی لە کامێرادا""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) کونێکی بچووک کە ڕێگە بە ڕووناکی دەدات بگات بە لێنزێک، بەتایبەتی لە کامێرادا"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Binoculars of this aperture are very expensive.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Binoculars of this aperture are very expensive."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دووربینەکانی ئەم دەرچەیە زۆر گرانن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "دووربینەکانی ئەم دەرچەیە زۆر گرانن."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAperture204("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAperture204(
                                     // REPLACE: aperture /ˈæpərtʃʊr/
                                     "en-US"),
@@ -371,15 +304,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: aperture (derived forms: apertures)
 1. A variable-sized hole that controls the amount of light admitted to a camera
  
 2. A natural opening in something
  
 3. A man-made opening; usually small
-"""),
+""",
+          )
         ],
       ),
     );

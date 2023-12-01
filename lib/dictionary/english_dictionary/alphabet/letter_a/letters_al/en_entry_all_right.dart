@@ -276,58 +276,24 @@ class EnglishEntryallright extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: قایلکەر، باش، چاک، ڕاست، دروست، بێ‌گومان، حەتمەن، تا ڕادەیێ باش، باشە، بەڵێ
 
-١. (سەرسوڕمان) بۆ زانینی ئەوەی کەسێک ڕازییە یان تێگەشتووە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (سەرسوڕمان) بۆ زانینی ئەوەی کەسێک ڕازییە یان تێگەشتووە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "We've got to get up early, all right?",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We've got to get up early, all right?"),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دەبێت زوو لە خەو ھەستین، تێگەشتی؟",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "دەبێت زوو لە خەو ھەستین، تێگەشتی؟"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAllright124("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAllright124(
                                     // REPLACE: all right /ɔːl ˈraɪt/
                                     "en-US"),
@@ -335,56 +301,21 @@ class EnglishEntryallright extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (سەرسوڕمان) بۆ دەربڕینی ئەوەی کەسێک ڕازییە یان تێگەشتووە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (سەرسوڕمان) بۆ دەربڕینی ئەوەی کەسێک ڕازییە یان تێگەشتووە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "‘Can you do it?’ ‘Oh, all right.’",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "‘Can you do it?’ ‘Oh, all right.’"),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دەتوانی بیکەیت؟ ئاھ، بەڵێ.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "دەتوانی بیکەیت؟ ئاھ، بەڵێ."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAllright123("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAllright123(
                                     // REPLACE: all right /ɔːl ˈraɪt/
                                     "en-US"),
@@ -392,56 +323,23 @@ class EnglishEntryallright extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٣. (سەرسوڕمان) بۆ پەسەندکردنی سوپاس، یارمەتی، یان چاکە، یان کاتێک کەسێک داوای لێبووردن دەکات''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٣. (سەرسوڕمان) بۆ پەسەندکردنی سوپاس، یارمەتی، یان چاکە، یان کاتێک کەسێک داوای لێبووردن دەکات"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "‘I'm really sorry.’ ‘That's all right, don't worry.’",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "‘I'm really sorry.’ ‘That's all right, don't worry.’"),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "'زۆر داوای لێبووردن دەکەم'، 'کێشە نییە، نیگەران مەبە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "'زۆر داوای لێبووردن دەکەم'، 'کێشە نییە، نیگەران مەبە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAllright235("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAllright235(
                                     // REPLACE: all right /ɔːl ˈraɪt/
                                     "en-US"),
@@ -449,56 +347,22 @@ class EnglishEntryallright extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٤. (سەرسوڕمان) بۆ ڕاکێشانی سەرنج''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٤. (سەرسوڕمان) بۆ ڕاکێشانی سەرنج"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "All right class, turn to page 20.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "All right class, turn to page 20."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "زۆرباشە خوێندکاران، بیخەنە سەر پەڕەی ٢٠",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "زۆرباشە خوێندکاران، بیخەنە سەر پەڕەی ٢٠"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAllright23469("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAllright23469(
                                     // REPLACE: all right /ɔːl ˈraɪt/
                                     "en-US"),
@@ -506,56 +370,22 @@ class EnglishEntryallright extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٥. (ھاوەڵناو) شتێک کە کێشەی نییە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٥. (ھاوەڵناو) شتێک کە کێشەی نییە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Are you getting along all right in your new job?",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Are you getting along all right in your new job?"),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە کارە تازەکەت بێ کێشە ھەڵدەکەیت؟",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "لە کارە تازەکەت بێ کێشە ھەڵدەکەیت؟"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAllright5241("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAllright5241(
                                     // REPLACE: all right /ɔːl ˈraɪt/
                                     "en-US"),
@@ -563,56 +393,21 @@ class EnglishEntryallright extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٦. (ھاوەڵناو) باش و سەلامەت''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٦. (ھاوەڵناو) باش و سەلامەت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I hope the children are all right.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "I hope the children are all right."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھیوادارم منداڵەکان سەلامەت بن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "ھیوادارم منداڵەکان سەلامەت بن."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAllright3695("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAllright3695(
                                     // REPLACE: all right /ɔːl ˈraɪt/
                                     "en-US"),
@@ -620,56 +415,23 @@ class EnglishEntryallright extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٧. (ھاوەڵناو) شتێک کە خراپ نییە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٧. (ھاوەڵناو) شتێک کە خراپ نییە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Your work is all right but I'm sure you could do better.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Your work is all right but I'm sure you could do better."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کارەکەت خراپ نییە بەڵام دڵنیام ئەتتوانی باشتر بیت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کارەکەت خراپ نییە بەڵام دڵنیام ئەتتوانی باشتر بیت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAllright4577("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAllright4577(
                                     // REPLACE: all right /ɔːl ˈraɪt/
                                     "en-US"),
@@ -677,56 +439,23 @@ class EnglishEntryallright extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٨. (ھاوەڵناو) شتێک کە ڕێگەپێدراوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٨. (ھاوەڵناو) شتێک کە ڕێگەپێدراوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Are you sure it's all right for me to leave early?",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Are you sure it's all right for me to leave early?"),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دڵنیایت کە ئاسایی دەبێت زوو کار جێبھێڵم.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دڵنیایت کە ئاسایی دەبێت زوو کار جێبھێڵم."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAllright1056("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAllright1056(
                                     // REPLACE: all right /ɔːl ˈraɪt/
                                     "en-US"),
@@ -775,8 +504,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adverb: all right 
 1. An expression of agreement normally occurring at the beginning of a sentence (= very well, fine, alright, OK, all righty [non-standard], righty-ho [Brit, informal])
  
@@ -789,7 +518,8 @@ class EnglishMeaning extends StatelessWidget {
 - Adjective: all right 
 1. Being satisfactory or in satisfactory condition (= fine, o.k., OK, okay, hunky-dory [informal], cool [informal], alright, jake [N. Amer, Austral, NZ, informal])
 "the passengers were shaken up but are all right"; "is everything all right?";
-'''),
+""",
+          )
         ],
       ),
     );

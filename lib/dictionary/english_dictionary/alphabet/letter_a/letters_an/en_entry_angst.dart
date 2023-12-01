@@ -204,58 +204,25 @@ class EnglishEntryangst extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: (لە ئاڵمانی‌یەوە بە واتای "ترس.") نگەرانی، ترس، دەروون‌تەنگی، ئارام‌لێ‌ھەڵگیراوی، دڵەڕاوکێ، ناڕەحەتی (بەتایبەت لە ڕەوش و بارودۆخی جیھان‌دا)
 
-١. (ناو) ھەستی نیگەرانییەکی زۆر سەبارەت بە بارودۆخێک یان ژیانت''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ھەستی نیگەرانییەکی زۆر سەبارەت بە بارودۆخێک یان ژیانت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The boy’s mysterious disappearance has caused angst and guilt for the family.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The boy’s mysterious disappearance has caused angst and guilt for the family."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دیارنەمانی نادیاری کوڕەکە بووە بەھۆی نیگەرانی و ھەستی خەتاباری بۆ خێزانەکە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دیارنەمانی نادیاری کوڕەکە بووە بەھۆی نیگەرانی و ھەستی خەتاباری بۆ خێزانەکە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAngst250("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAngst250(
                                     // REPLACE: angst /æŋst/,  /ɑːŋst/
                                     "en-US"),
@@ -306,11 +273,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: angst (derived forms: angsts)
 1. An acute but unspecific feeling of anxiety; usually reserved for philosophical anxiety about the world or about personal freedom
-'''),
+""",
+          )
         ],
       ),
     );

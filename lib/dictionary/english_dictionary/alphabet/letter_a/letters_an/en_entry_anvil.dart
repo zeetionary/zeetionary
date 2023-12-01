@@ -208,50 +208,21 @@ class EnglishEntryanvil extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: دەزگا، سندان، زیندان، مێخ‌سندان، ئێسکی دەزگا(یی)، ئێسکۆلکەی دەزگایی
 
-١. (ناو) پارچە ئاسنێک کە ئاسنگەرێک پارچە کانزا دادەنا و بە چەکوش لێیان دەدات بۆ ڕێکخستنی شێوەکەیان''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) پارچە ئاسنێک کە ئاسنگەرێک پارچە کانزا دادەنا و بە چەکوش لێیان دەدات بۆ ڕێکخستنی شێوەکەیان"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "A good anvil does not fear the hammer.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "A good anvil does not fear the hammer."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "سندانێکی باش باکی بە چەکوش نییە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "سندانێکی باش باکی بە چەکوش نییە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnvil208("en-GB"),
                               ),
                               IconButton(
@@ -310,13 +281,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: anvil (derived forms: anvils)
 1. A heavy block of iron or steel on which hot metals are shaped by hammering
  
 2. The ossicle between the malleus and the stapes (= incus)
-'''),
+""",
+          )
         ],
       ),
     );

@@ -276,59 +276,24 @@ class EnglishEntrybadly extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: بەتوندی، توند، شپرزە، زۆر، گەلێ، یەکجار، خراپ، بەشێوەیەکی خراپ
 
-١. (ھاوەڵکار) بەشێوەیەکی نەشارەزایانە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵکار) بەشێوەیەکی نەشارەزایانە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "The event was really badly organized.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The event was really badly organized."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بۆنەکە لەڕاستیدا خراپ ڕێکخرا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "بۆنەکە لەڕاستیدا خراپ ڕێکخرا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBadlys1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakBadlys1(// REPLACE: badly
                                     "en-US"),
                               ),
@@ -336,57 +301,22 @@ class EnglishEntrybadly extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ھاوەڵکار) بەشێوەیەک کە سەرکەوتوو نەبووە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ھاوەڵکار) بەشێوەیەک کە سەرکەوتوو نەبووە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "Things have been going badly.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "Things have been going badly."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "شتەکان ئەم ماوە زۆر خراپ بەڕێوەچوونە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "شتەکان ئەم ماوە زۆر خراپ بەڕێوەچوونە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBadlys2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakBadlys2(// REPLACE: badly
                                     "en-US"),
                               ),
@@ -394,57 +324,21 @@ class EnglishEntrybadly extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٣. (ھاوەڵکار) بەشێوەیەک کە گونجاو نییە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٣. (ھاوەڵکار) بەشێوەیەک کە گونجاو نییە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "I think he behaved very badly.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "I think he behaved very badly."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پێموایە کە زۆر ناشرین ڕەفتاری کرد.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "پێموایە کە زۆر ناشرین ڕەفتاری کرد."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBadlys3("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakBadlys3(// REPLACE: badly
                                     "en-US"),
                               ),
@@ -454,47 +348,17 @@ class EnglishEntrybadly extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "I think he was treated very badly.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "I think he was treated very badly."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پێموایە زۆر خراپ مامەڵەی لەگەڵ کرا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "پێموایە زۆر خراپ مامەڵەی لەگەڵ کرا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBadlys4("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakBadlys4(// REPLACE: badly
                                     "en-US"),
                               ),
@@ -504,47 +368,19 @@ class EnglishEntrybadly extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "The kids took the dog's death very badly (= they were very unhappy).",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The kids took the dog's death very badly (= they were very unhappy)."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "منداڵەکان زۆر خراپ مامەڵەیان لەگەڵ مردنی سەگەکە کرد.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "منداڵەکان زۆر خراپ مامەڵەیان لەگەڵ مردنی سەگەکە کرد."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBadlys5("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakBadlys5(// REPLACE: badly
                                     "en-US"),
                               ),
@@ -552,57 +388,23 @@ class EnglishEntrybadly extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٤. (ھاوەڵکار) بەکاردێت بۆ جەختکردنەوە لە دژواری دۆخێک""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٤. (ھاوەڵکار) بەکاردێت بۆ جەختکردنەوە لە دژواری دۆخێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "The country has been badly affected by recession.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The country has been badly affected by recession."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "وڵاتەکە زۆر خراپ گیرۆدەی قەیرانی دارایی بووە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وڵاتەکە زۆر خراپ گیرۆدەی قەیرانی دارایی بووە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBadlys6("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakBadlys6(// REPLACE: badly
                                     "en-US"),
                               ),
@@ -610,57 +412,23 @@ class EnglishEntrybadly extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٥. (ھاوەڵکار) بەکاردێت بۆ جەختکردنەوە لەوەی کارێک دەبێت ڕووبدات""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٥. (ھاوەڵکار) بەکاردێت بۆ جەختکردنەوە لەوەی کارێک دەبێت ڕووبدات"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "The building is badly in need of repair.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The building is badly in need of repair."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بیناکە بەخراپی پێویستی بە نۆژەنکردنەوە ھەیە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بیناکە بەخراپی پێویستی بە نۆژەنکردنەوە ھەیە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBadlys7("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakBadlys7(// REPLACE: badly
                                     "en-US"),
                               ),
@@ -668,57 +436,23 @@ class EnglishEntrybadly extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٦. (ھاوەڵکار) بەشێوەیەک کە وادەکات کاریگەری نەرێنی لەسەر بۆچوونی خەڵکی ھەبێت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٦. (ھاوەڵکار) بەشێوەیەک کە وادەکات کاریگەری نەرێنی لەسەر بۆچوونی خەڵکی ھەبێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "The economic crisis reflects badly on the government's policies.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The economic crisis reflects badly on the government's policies."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "قەیرانە ئابوورییەکە وێنایەکی خراپ بۆ سیاسەتی حکومەت درووست‌دەکات.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "قەیرانە ئابوورییەکە وێنایەکی خراپ بۆ سیاسەتی حکومەت درووست‌دەکات."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBadlys8("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakBadlys8(// REPLACE: badly
                                     "en-US"),
                               ),
@@ -726,57 +460,23 @@ class EnglishEntrybadly extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٧. (ھاوەڵکار) ھەستکردن بە داخ یان شەرمەزاری سەبارەت بە شتێک""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٧. (ھاوەڵکار) ھەستکردن بە داخ یان شەرمەزاری سەبارەت بە شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "She felt badly about what she had done.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She felt badly about what she had done."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەستی بە داخ کرد سەبارەت بەوەی کردبووی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەستی بە داخ کرد سەبارەت بەوەی کردبووی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBadlys9("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakBadlys9(// REPLACE: badly
                                     "en-US"),
                               ),
@@ -826,8 +526,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adverb: badly
 1. To a severe or serious degree (= severely, gravely, seriously, critically)
 "fingers so badly frozen they had to be amputated"; "badly injured";
@@ -858,7 +558,8 @@ class EnglishMeaning extends StatelessWidget {
  
 10. With unusual distress, resentment, regret or emotional display
 "they took their defeat badly"; "took her father's death badly"; "conducted himself very badly at the time of the earthquake"
-"""),
+""",
+          )
         ],
       ),
     );

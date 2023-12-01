@@ -204,59 +204,24 @@ class EnglishEntrybaggy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: ھەراو، دەڵب، فش، گوشاد، نەتەنگ، توورەکەیی، توورکەئاسا، داھۆڕ
 
-١. (ھاوەڵناو) جلی فش""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) جلی فش"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "My T-shirt went all baggy in the wash.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "My T-shirt went all baggy in the wash."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "فانیلەکەم لە شۆردنەکەدا فش بووەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "فانیلەکەم لە شۆردنەکەدا فش بووەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBaggys1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakBaggys1(// REPLACE: baggy
                                     "en-US"),
                               ),
@@ -306,12 +271,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: baggy (derived forms: baggier, baggiest)
 1. Not fitting closely; hanging loosely (= loose-fitting, sloppy, saggy)
 "baggy trousers";
-"""),
+""",
+          )
         ],
       ),
     );

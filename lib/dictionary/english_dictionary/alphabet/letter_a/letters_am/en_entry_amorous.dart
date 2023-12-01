@@ -228,58 +228,25 @@ class EnglishEntryamorous extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ئەویندار، دڵبەستە، ئاشق، دڵدار، دڵدارانە، خۆشەویستی، ڕۆمانتیک
 
-١. (ھاوەڵناو) پیشاندانی حەزی سێکسی و خۆشەویستی بۆ کەسێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) پیشاندانی حەزی سێکسی و خۆشەویستی بۆ کەسێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Mary rejected Tony's amorous advances.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Mary rejected Tony's amorous advances."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ماری ھەوڵە ئەویندارییەکانی تۆنی‌ی ڕەتکردەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ماری ھەوڵە ئەویندارییەکانی تۆنی‌ی ڕەتکردەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAmorous441("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAmorous441(
                                     // REPLACE: amorous /ˈæmərəs/
                                     "en-US"),
@@ -328,15 +295,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: amorous 
 1. Inclined toward or displaying love (= amative)
 "feeling amorous";
  
 2. Expressive of or exciting sexual love or romance (= amatory, romantic)
 "amorous glances";
-'''),
+""",
+          )
         ],
       ),
     );

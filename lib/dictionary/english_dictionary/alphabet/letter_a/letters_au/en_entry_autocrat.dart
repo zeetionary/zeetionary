@@ -213,50 +213,20 @@ class EnglishEntryautocrat extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: تاک‌فەرمان‌دار، تاکەدەسەڵات‌دار، سەرکوتکەر،
 
-١. (ناو) سەرکردەیەک کە دەسەڵاتی تەواوی ھەیە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) سەرکردەیەک کە دەسەڵاتی تەواوی ھەیە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He governed as an autocrat.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "He governed as an autocrat."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "وەک سەرکوتکەرێک دەسەڵاتداریی دەکرد.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "وەک سەرکوتکەرێک دەسەڵاتداریی دەکرد."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAutocrat934("en-GB"),
                               ),
                               IconButton(
@@ -273,48 +243,20 @@ class EnglishEntryautocrat extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ناو) کەسێک کە چاوەڕێ دەکات کەسانی تر گوێڕایەڵی بکەن و گرنگی بە بۆچوونیان نادات""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) کەسێک کە چاوەڕێ دەکات کەسانی تر گوێڕایەڵی بکەن و گرنگی بە بۆچوونیان نادات"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The article painted her as an autocrat, angry with her husband and out of touch with her family.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The article painted her as an autocrat, angry with her husband and out of touch with her family."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "وتارەکە وەک ملھوڕێک وێنای دەکات کە لە ھاوسەرەکەی تووڕەییە و دابڕاوە لە خێزانەکەی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وتارەکە وەک ملھوڕێک وێنای دەکات کە لە ھاوسەرەکەی تووڕەییە و دابڕاوە لە خێزانەکەی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAutocrat937("en-GB"),
                               ),
                               IconButton(
@@ -373,12 +315,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: autocrat (derived forms: autocrats)
 1. A cruel and oppressive dictator (= tyrant, despot)
 "the propagandistic iconography of an autocrat";
-"""),
+""",
+          )
         ],
       ),
     );

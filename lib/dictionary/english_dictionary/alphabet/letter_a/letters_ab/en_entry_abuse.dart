@@ -194,55 +194,22 @@ class EnglishEntryabuse extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: چەوت یان خراپ بەکارھێنان، خراپ جووڵانەوە، ھەڵس‌وکەوتی خراپ، بە توندوتیژی جووڵانەوە، جنێو، دەم‌چەوتی، ڕەف، سخێف، دەس‌درێژی (ڕەگەزی)، ئەشکەنجەی لەشی/جەستەیی
 
-١. (ناو) بەکارھێنانی شتێک بەشێوەیەکی خراپ''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) بەکارھێنانی شتێک بەشێوەیەکی خراپ"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The legal system in this country is open to abuse.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "سیستەمی دادوەری لەم وڵاتە ئەکرێت خراپ بەکاربێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The legal system in this country is open to abuse."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "سیستەمی دادوەری لەم وڵاتە ئەکرێت خراپ بەکاربێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA26935("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA26935("en-US"),
                               ),
                             ],
@@ -250,303 +217,109 @@ class EnglishEntryabuse extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He was arrested on charges of corruption and abuse of power.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دەستگیرکرا بە تۆمەتەکانی گەندڵی و خراپ بەکارھێنانی دەسەڵات.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He was arrested on charges of corruption and abuse of power."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دەستگیرکرا بە تۆمەتەکانی گەندڵی و خراپ بەکارھێنانی دەسەڵات."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA45961("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA45961("en-US"),
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) مامەڵەی خراپ لەگەڵ کەسێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) مامەڵەی خراپ لەگەڵ کەسێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She suffered years of physical abuse.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بۆ چەندین ساڵ بەدەست توندوتیژی جەستەییەوە ناڵاندی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She suffered years of physical abuse."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بۆ چەندین ساڵ بەدەست توندوتیژی جەستەییەوە ناڵاندی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA25641("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA25641("en-US"),
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٣. (ناو) قسەی چەوت و ناشرین و لەلایەن کەسێکی توڕەوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٣. (ناو) قسەی چەوت و ناشرین و لەلایەن کەسێکی توڕەوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The man burst into a torrent of foul-mouthed racist abuse.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پیاوەکە دەستیکرد بە ژمارەیەکی زۆر لە قسەی پیسی ڕەگەزپەرستییانە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The man burst into a torrent of foul-mouthed racist abuse."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پیاوەکە دەستیکرد بە ژمارەیەکی زۆر لە قسەی پیسی ڕەگەزپەرستییانە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA14582("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA14582("en-US"),
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٤. (کردار) بەکارھێنانی شتێک بە خراپی، یان بەکارھێنانی شتێکی خراپ کە زیانی بۆ جەستە ھەیە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٤. (کردار) بەکارھێنانی شتێک بە خراپی، یان بەکارھێنانی شتێکی خراپ کە زیانی بۆ جەستە ھەیە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "People who abuse alcohol over a long period will develop health problems.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەو کەسانەی کە کە کحوول بۆ ماوەیەکی زۆر بەکاردێنن کێشەی تەندرووستییان بۆ درووستدەبێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "People who abuse alcohol over a long period will develop health problems."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەو کەسانەی کە کە کحوول بۆ ماوەیەکی زۆر بەکاردێنن کێشەی تەندرووستییان بۆ درووستدەبێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA1258("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA1258("en-US"),
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٥. (کردار) بەکارھێنانی زانیاری یان دەسەڵات بەشێوەیەکی خراپ''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٥. (کردار) بەکارھێنانی زانیاری یان دەسەڵات بەشێوەیەکی خراپ"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She abused her position as principal by giving jobs to her friends.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پێگەکەی خراپ بەکارھێنا وەک بەڕێوەبەرێک بە پێدانی کار بە ھاوڕێکانی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She abused her position as principal by giving jobs to her friends."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پێگەکەی خراپ بەکارھێنا وەک بەڕێوەبەرێک بە پێدانی کار بە ھاوڕێکانی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA15876("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA15876("en-US"),
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٦. (کردار) دەستدرێژیکردنە سەر کەسێک، زۆرجار دەستدرێژی سێکسی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٦. (کردار) دەستدرێژیکردنە سەر کەسێک، زۆرجار دەستدرێژی سێکسی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The boy had been sexually abused.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کوڕەکە دەستدرێژیی سێکسیی کرابووە سەر",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text: "The boy had been sexually abused."),
+                              const ExampleSentenceKurdish(
+                                  text: "کوڕەکە دەستدرێژیی سێکسیی کرابووە سەر"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA5741("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA5741("en-US"),
                               ),
                             ],
@@ -593,8 +366,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Verb: abuse (derived forms: abused, abuses, abusing)
 1. Treat badly (= mistreat, maltreat, ill-use, ill-treat, step on [informal])
 "This boss abuses his workers";
@@ -623,7 +396,8 @@ class EnglishMeaning extends StatelessWidget {
  
 4. (law) a statutory offence that provides that it is a crime to knowingly cause another person to engage in an unwanted sexual act by force or threat (= sexual assault, sexual abuse, sex crime, sex offense [US], sex offence [Brit, Cdn])
 "most states have replaced the common law definition of rape with statutes defining sexual abuse";
-'''),
+""",
+          )
         ],
       ),
     );

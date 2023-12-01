@@ -157,50 +157,20 @@ class EnglishEntryailing extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: نەخۆش، ناساخ، سیسەڵە، دەردەدار، لاواز، بێ‌بازاڕ
 
-١. (ھاوەڵناو) نەخۆش بەبێ باشتربوون''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) نەخۆش بەبێ باشتربوون"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She looked after her ailing father.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "She looked after her ailing father."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "چاودێری باوکە ناساخەکەی دەکات.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "چاودێری باوکە ناساخەکەی دەکات."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAiling25388("en-GB"),
                               ),
                               IconButton(
@@ -216,56 +186,23 @@ class EnglishEntryailing extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ھاوەڵناو) شتێک کە لە بارودۆخێکی باش نییە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ھاوەڵناو) شتێک کە لە بارودۆخێکی باش نییە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Ted asked me if I could help him fix his ailing car.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Ted asked me if I could help him fix his ailing car."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "تێد داوای لێکردم کە یارمەتی بدەم ئۆتۆمبێلە داشقەکەی چاکبکاتەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "تێد داوای لێکردم کە یارمەتی بدەم ئۆتۆمبێلە داشقەکەی چاکبکاتەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAiling4899956("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAiling4899956(
                                     // REPLACE: ailing /ˈeɪlɪŋ/
                                     "en-US"),
@@ -314,12 +251,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: ailing 
 1. Somewhat ill, feeling or being in bad health (= indisposed, peaked, poorly, sickly, unwell, under the weather [informal], seedy [archaic], off-colour [Brit, informal], out of sorts [informal], grotty [Brit, informal], crook [Austral, NZ, informal])
 "my poor ailing grandmother";
-'''),
+""",
+          )
         ],
       ),
     );

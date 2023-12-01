@@ -205,57 +205,22 @@ class EnglishEntryb extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ناو) دوومین پیتی ئەلفوبێی ئینگلیزی""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) دوومین پیتی ئەلفوبێی ئینگلیزی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "‘Butter’ begins with (a) B/‘B’.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "‘Butter’ begins with (a) B/‘B’."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "وشەی ‘Butter’ بە پیتی B دەستپێ‌دەکات.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وشەی ‘Butter’ بە پیتی B دەستپێ‌دەکات."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBs1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakBs1(// REPLACE: b
                                     "en-US"),
                               ),
@@ -263,57 +228,21 @@ class EnglishEntryb extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ناو) نمرەیەک کە خوێندکارێک وەری‌دەگرێت کە باشە بەڵام نایاب نییە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) نمرەیەک کە خوێندکارێک وەری‌دەگرێت کە باشە بەڵام نایاب نییە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "She got (a) B in history.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "She got (a) B in history."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە مێژوو باشەی ھێنا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "لە مێژوو باشەی ھێنا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBs2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakBs2(// REPLACE: b
                                     "en-US"),
                               ),
@@ -321,57 +250,21 @@ class EnglishEntryb extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٣. (ناو) بەکاردێت بۆ ئاماژە بە دووەم ھەڵبژاردە لە دوو یان کۆمەڵە ھەڵبژاردەیەک""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٣. (ناو) بەکاردێت بۆ ئاماژە بە دووەم ھەڵبژاردە لە دوو یان کۆمەڵە ھەڵبژاردەیەک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "Shall we go for plan A or plan B?",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "Shall we go for plan A or plan B?"),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پلانی A یان B ھەڵبژێرین؟.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "پلانی A یان B ھەڵبژێرین؟."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBs3("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakBs3(// REPLACE: b
                                     "en-US"),
                               ),
@@ -379,57 +272,21 @@ class EnglishEntryb extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٤. (ناو) بەکاردێت بۆ ئاماژە بە کەسێک لە دۆخی خەیاڵکردن یان بۆ شاردنی ناسنامە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٤. (ناو) بەکاردێت بۆ ئاماژە بە کەسێک لە دۆخی خەیاڵکردن یان بۆ شاردنی ناسنامە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "Let's pretend A meets B in the park.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "Let's pretend A meets B in the park."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "با وادابنێین A لە پارکەکە B دەبینێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "با وادابنێین A لە پارکەکە B دەبینێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBs4("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakBs4(// REPLACE: b
                                     "en-US"),
                               ),
@@ -479,8 +336,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: b (derived forms: bs)
 1. The 2nd letter of the Roman alphabet (= B)
  
@@ -496,7 +353,8 @@ class EnglishMeaning extends StatelessWidget {
 4. A trivalent metalloid element; occurs both in a hard black crystal and in the form of a yellow or brown powder (= boron, atomic number 5)
  
 5. Aerobic rod-shaped spore-producing bacterium; often occurring in chainlike formations; found primarily in soil (= bacillus)
-"""),
+""",
+          )
         ],
       ),
     );

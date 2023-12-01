@@ -156,55 +156,20 @@ class EnglishEntryacrid extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: توند، تاڵ، ناخۆش، تیژ، تفت، شیرین‌تاڵ
 
-١. (ھاوەڵناو) ھەبوونی بۆنێکی ناخۆش''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) ھەبوونی بۆنێکی ناخۆش"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "acrid smoke from burning tyres",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دووکەڵی بۆنناخۆش لە تایەی سووتاوەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text: "acrid smoke from burning tyres"),
+                              const ExampleSentenceKurdish(
+                                  text: "دووکەڵی بۆنناخۆش لە تایەی سووتاوەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAac4281id("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAac4281id(
                                     "en-US"), // REPLACE acrid /ˈækrɪd/
                               ),
@@ -252,15 +217,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: acrid 
 1. Strong and sharp (= pungent)
 "the acrid smell of burning rubber";
  
 2. Harsh or corrosive in tone (= acerb, acerbic, acid, bitter, blistering, caustic, sulfurous [N. Amer], sulphurous [Brit, Cdn], virulent, vitriolic, acidulous, sulphureous [Brit])
 "her acrid remarks make her many enemies";
-'''),
+""",
+          )
         ],
       ),
     );

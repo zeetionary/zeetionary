@@ -165,50 +165,22 @@ class EnglishEntryambush extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: بۆسە، داو، پارێز، کەسان یان سەربازانی بۆسەنشین، ھێرشی کت‌وپڕ یان خافڵگیرانە، ھێرشی بۆسەیی
 
-١. (ناو) بۆسە؛ خۆشاردنەوە لە شوێنێک و ئەنجامدانی ھێرشی لەناکاو''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) بۆسە؛ خۆشاردنەوە لە شوێنێک و ئەنجامدانی ھێرشی لەناکاو"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Two soldiers were killed in a terrorist ambush.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Two soldiers were killed in a terrorist ambush."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دوو سەرباز لە بۆسەیەکی تیرۆریستی کوژران.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دوو سەرباز لە بۆسەیەکی تیرۆریستی کوژران."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAmbush4355("en-GB"),
                               ),
                               IconButton(
@@ -225,48 +197,19 @@ class EnglishEntryambush extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (کردار) خستنە بۆسەوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (کردار) خستنە بۆسەوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The guerrillas ambushed them near the bridge.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The guerrillas ambushed them near the bridge."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "گەریلاکان خستنیانە بۆسەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "گەریلاکان خستنیانە بۆسەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAmbush4699("en-GB"),
                               ),
                               IconButton(
@@ -325,8 +268,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 Noun: ambush (derived forms: ambushed, ambushes, ambushing)
 1. The act of concealing yourself and lying in wait to attack by surprise (= ambuscade [archaic], lying in wait, trap)
 
@@ -335,7 +278,8 @@ Noun: ambush (derived forms: ambushed, ambushes, ambushing)
 "They read about the bold proposal of leading out a party of French and Indians to ambush the English in the woods";
  
 2. Hunt (quarry) by stalking and ambushing (= still-hunt [N. Amer])
-'''),
+""",
+          )
         ],
       ),
     );

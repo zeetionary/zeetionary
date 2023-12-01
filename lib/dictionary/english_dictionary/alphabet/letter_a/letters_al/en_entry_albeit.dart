@@ -156,58 +156,25 @@ class EnglishEntryalbeit extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: گەرچی، ھەرچەن کە، لەگەڵ ئەوەش، سەرەڕای ئەوەش
 
-١. (لێکدەر) سەرەڕای شتێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (لێکدەر) سەرەڕای شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He finally agreed, albeit reluctantly, to help us.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He finally agreed, albeit reluctantly, to help us."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە کۆتاییدا ڕازیبوو یارمەتیمان بدات، ئەگەرچی بەنابەدڵییەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لە کۆتاییدا ڕازیبوو یارمەتیمان بدات، ئەگەرچی بەنابەدڵییەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAlbeit3555("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAlbeit3555(
                                     // REPLACE: albeit /ˌɔːlˈbiːɪt/
                                     "en-US"),
@@ -256,12 +223,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Conjunction: albeit 
 1. Even though
 "The men received a meaningful, albeit boring, homecoming"
-'''),
+""",
+          )
         ],
       ),
     );

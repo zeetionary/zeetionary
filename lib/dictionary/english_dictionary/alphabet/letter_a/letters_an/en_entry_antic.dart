@@ -207,50 +207,22 @@ class EnglishEntryantic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ڕەفتار یان ھەڵس‌وکەوتی سەیر، شانۆی گاڵتەجاڕ
 
-١. (ناو) ڕەفتاری سەیر یان گاڵتەجاڕی بەشێوەیەک کە خەڵکی حەزیان لێیە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ڕەفتاری سەیر یان گاڵتەجاڕی بەشێوەیەک کە خەڵکی حەزیان لێیە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The bank staff got up to all sorts of antics to raise money for charity.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The bank staff got up to all sorts of antics to raise money for charity."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ستافی بانکەکە ھەموو جۆرە کارێکی سەیریان دەکرد بۆ کۆکردنەوەی پارە بۆ ڕێکخراوە خێرخوازییەکە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ستافی بانکەکە ھەموو جۆرە کارێکی سەیریان دەکرد بۆ کۆکردنەوەی پارە بۆ ڕێکخراوە خێرخوازییەکە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAntic923("en-GB"),
                               ),
                               IconButton(
@@ -269,38 +241,16 @@ class EnglishEntryantic extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Such an antic comedy does not need to be realistic.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Such an antic comedy does not need to be realistic."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بەرھەمێکی کۆمیدی وەھا گاڵتەجاڕی پێویست ناکات ڕاستی وێنا بکات.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بەرھەمێکی کۆمیدی وەھا گاڵتەجاڕی پێویست ناکات ڕاستی وێنا بکات."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAntic929("en-GB"),
                               ),
                               IconButton(
@@ -359,8 +309,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: antic (derived forms: antics)
 1. A ludicrous or grotesque act done for fun and amusement (= joke, prank, trick, caper [informal], put-on [N. Amer, informal], dido [N. Amer, informal])
 
@@ -372,7 +322,8 @@ Usage: archaic
 - Verb: antic (derived forms: antics, anticking, anticked)
 Usage: archaic
 - Act as or like a clown (= clown, clown around)
-'''),
+""",
+          )
         ],
       ),
     );

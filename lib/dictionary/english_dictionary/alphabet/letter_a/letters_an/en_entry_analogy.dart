@@ -206,58 +206,24 @@ class EnglishEntryanalogy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: لێکچوویی، ھاوشێوەیی، وەکیەکی، پێک‌گرتن، ھەڵسەنگاندن، پێوانە
 
-١. (ناو) بەراوردکارییەک لەگەڵ شتێک کە خاسیەتی لێکچووی ھەیە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) بەراوردکارییەک لەگەڵ شتێک کە خاسیەتی لێکچووی ھەیە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The teacher drew an analogy between the human heart and a pump.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The teacher drew an analogy between the human heart and a pump."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "مامۆستاکە دڵی مرۆڤی چواند بە پەمپێک.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "مامۆستاکە دڵی مرۆڤی چواند بە پەمپێک."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnalogy4805("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAnalogy4805(
                                     // REPLACE: analogy /əˈnælədʒi/
                                     "en-US"),
@@ -268,46 +234,18 @@ class EnglishEntryanalogy extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The computer is a useful analogy for the brain.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The computer is a useful analogy for the brain."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کۆمپیوتەر لێکچوویەکی باشە بۆ مێشک.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "کۆمپیوتەر لێکچوویەکی باشە بۆ مێشک."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnalogy8540("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAnalogy8540(
                                     // REPLACE: analogy /əˈnælədʒi/
                                     "en-US"),
@@ -316,56 +254,23 @@ class EnglishEntryanalogy extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) پڕۆسەی بەراوردکردنی دوو شتی لێكچوو''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) پڕۆسەی بەراوردکردنی دوو شتی لێكچوو"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "We can understand this theory by analogy with human beings.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We can understand this theory by analogy with human beings."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەتوانین لەم بیردۆزە تێ‌بگەین بە بەراوردکردنی بە مرۆڤ.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەتوانین لەم بیردۆزە تێ‌بگەین بە بەراوردکردنی بە مرۆڤ."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnalogy8704("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAnalogy8704(
                                     // REPLACE: analogy /əˈnælədʒi/
                                     "en-US"),
@@ -416,8 +321,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: analogy (derived forms: analogies)
 1. An inference that if things agree in some respects they probably agree in others
  
@@ -425,7 +330,8 @@ class EnglishMeaning extends StatelessWidget {
 "the operation of a computer presents an interesting analogy to the working of the brain"; "the models show by analogy how matter is built up"
  
 3. The religious belief that between creature and creator no similarity can be found so great but that the dissimilarity is always greater; any analogy between God and humans will always be inadequate (= doctrine of analogy)
-'''),
+""",
+          )
         ],
       ),
     );

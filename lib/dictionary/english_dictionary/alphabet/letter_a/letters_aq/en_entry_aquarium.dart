@@ -211,58 +211,25 @@ class EnglishEntryaquarium extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: ئەکواریۆم، مۆژەماسی، ئاوەژی‌خانە، ماسیدان
 
-١. (ناو) پارچە گڵاسێکی گەورە کە تێیدا ماسی و گیانلەبەری دیکەی ئاوی ھەڵدەگیرێن""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) پارچە گڵاسێکی گەورە کە تێیدا ماسی و گیانلەبەری دیکەی ئاوی ھەڵدەگیرێن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The aquarium has some interesting specimens of unusual fish.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The aquarium has some interesting specimens of unusual fish."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "مۆژەماسییەکە ھەندێک نموونەی سەرنجڕاکێشی ماسی دەگمەنی تێدایە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "مۆژەماسییەکە ھەندێک نموونەی سەرنجڕاکێشی ماسی دەگمەنی تێدایە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAquarium922("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAquarium922(
                                     // REPLACE: aquarium /əˈkweriəm/
                                     "en-US"),
@@ -271,56 +238,22 @@ class EnglishEntryaquarium extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ناو) شوێنێک کە تێیدا ژمارەیەک پارچە گڵاسی گەورە ھەیە کە ماسی و گیانلەبەری دیکەی ئاوییان تێدان و خەڵکی سەردانی دەکەن""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) شوێنێک کە تێیدا ژمارەیەک پارچە گڵاسی گەورە ھەیە کە ماسی و گیانلەبەری دیکەی ئاوییان تێدان و خەڵکی سەردانی دەکەن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "We went to the aquarium last week.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "We went to the aquarium last week."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەفتەی ڕابردوو چووین بۆ ئەکواریەمەکە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەفتەی ڕابردوو چووین بۆ ئەکواریەمەکە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAquarium926("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAquarium926(
                                     // REPLACE: aquarium /əˈkweriəm/
                                     "en-US"),
@@ -371,11 +304,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: aquarium (derived forms: aquaria, aquariums)
 1. A tank, pool or bowl filled with water for keeping live fish and underwater animals (= fish tank, marine museum)
-"""),
+""",
+          )
         ],
       ),
     );

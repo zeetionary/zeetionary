@@ -183,58 +183,25 @@ class EnglishEntryagreement extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ڕێک‌کەوتن، ھاتنەڕێ، ڕالێ‌بوون، بەرایی(دان)، وتەوبڕە، پێک‌ھاتن، تەبایی، سازان، گونجان، یەک‌بیری، قایل‌بوون، قەبووڵ‌کردن، پەسندکردن، بڕیار، بەڵێنی، گفت، پەیمان، ڕێک‌کەوتن‌نامە، (ڕێزمان) یەک‌گیری، یەک‌گرتنەوە یەکان‌گیری (ھەبوونی ھەمان ژمارە، دۆخ، چاوگ و کەس)
 
-١. (ناو) ڕێککەوتن''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ڕێککەوتن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "They had an agreement never to talk about work at home.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "They had an agreement never to talk about work at home."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ڕێککەوتنێکیان ھەبوو کە ھەرگیز لە ماڵەوە باسی کار نەکەن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕێککەوتنێکیان ھەبوو کە ھەرگیز لە ماڵەوە باسی کار نەکەن."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAgre45669("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAgre45669(
                                     // REPLACE: agreement /əˈɡriːmənt/
                                     "en-US"),
@@ -244,46 +211,19 @@ class EnglishEntryagreement extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The agreement (= the document recording the agreement) was signed during a meeting at the UN.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The agreement (= the document recording the agreement) was signed during a meeting at the UN."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ڕێککەوتنەکە واژۆکرا لە کۆبوونەوەیەکدا لە نەتەوە یەکگرتووەکان.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕێککەوتنەکە واژۆکرا لە کۆبوونەوەیەکدا لە نەتەوە یەکگرتووەکان."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAgre35666("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAgre35666(
                                     // REPLACE: agreement /əˈɡriːmənt/
                                     "en-US"),
@@ -291,56 +231,21 @@ class EnglishEntryagreement extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) ھاوڕایی لەگەڵ کەسێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) ھاوڕایی لەگەڵ کەسێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Is everybody in agreement now?",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "Is everybody in agreement now?"),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەمووان ھاوڕان؟",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "ھەمووان ھاوڕان؟"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAgreem3544("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAgreem3544(
                                     // REPLACE: agreement /əˈɡriːmənt/
                                     "en-US"),
@@ -348,56 +253,23 @@ class EnglishEntryagreement extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٣. (ناو) مۆڵەتپێدان بە شتێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٣. (ناو) مۆڵەتپێدان بە شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "You'll have to get your parents' agreement if you want to go on the trip.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "You'll have to get your parents' agreement if you want to go on the trip."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پێویستە مۆڵەتی دایک و باوکت وەربگری پێش ئەوەی گەشتەکە بکەیت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پێویستە مۆڵەتی دایک و باوکت وەربگری پێش ئەوەی گەشتەکە بکەیت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAgreeme25699("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAgreeme25699(
                                     // REPLACE: agreement /əˈɡriːmənt/
                                     "en-US"),
@@ -446,8 +318,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: agreement (derived forms: agreements)
 1. The statement (oral or written) of an exchange of promises (= understanding)
 "they had an agreement that they would not interfere in each other's business";
@@ -463,7 +335,8 @@ class EnglishMeaning extends StatelessWidget {
 5. The determination of grammatical inflection on the basis of word relations (= concord)
 
 6. The verbal act of agreeing
-'''),
+""",
+          )
         ],
       ),
     );

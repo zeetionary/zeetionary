@@ -210,44 +210,21 @@ class EnglishEntryarchaeological extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: شوێنەوارناسی‌یانە، سەربە کۆنەوارناسی، سەربە شوێنەوارناسی، سەربە یان پێوەندی بە باستان‌ناسی‌یەوە ھەیە
 
-١. (ھاوەڵناو) پەیوەندیدار بە شوێنەوارناسی (توێژینەوە لە کەلتوورە کۆنەکان و بە مێژوو بە ھەڵکۆڵینی ئەو شوێنەوارانەی لە زەویدا دەدۆزرێنەوە)""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) پەیوەندیدار بە شوێنەوارناسی (توێژینەوە لە کەلتوورە کۆنەکان و بە مێژوو بە ھەڵکۆڵینی ئەو شوێنەوارانەی لە زەویدا دەدۆزرێنەوە)"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Further archaeological excavations are now being carried out.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Further archaeological excavations are now being carried out."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەڵکۆڵینی شوێنەوارناسییانەی دیکە لە ئێستادا ئەنجام دەدرێن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەڵکۆڵینی شوێنەوارناسییانەی دیکە لە ئێستادا ئەنجام دەدرێن."),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
@@ -257,12 +234,7 @@ class EnglishEntryarchaeological extends StatelessWidget {
                                 onPressed: () =>
                                     speakArchaeological240("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakArchaeological240(
                                     // REPLACE: archaeological /ˌɑːrkiəˈlɑːdʒɪkl/
                                     "en-US"),
@@ -313,12 +285,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: archaeological
 1. Related to or dealing with or devoted to archaeology (= archeological [US], archaeologic, archeologic [US])
 "a dramatic archaeological discovery"; "an archaeological dig";
-"""),
+""",
+          )
         ],
       ),
     );

@@ -210,58 +210,25 @@ class EnglishEntryappreciable extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: ھەست‌پێکراو، بینراو، شیاوی نرخاندن، بەرچاو، دیار، گەورە
 
-١. (ھاوەڵناو) بەشی ھێندە گەورە بێت کە ببینرێت یان بە گرنگ دابنرێت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) بەشی ھێندە گەورە بێت کە ببینرێت یان بە گرنگ دابنرێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "There has been an appreciable increase in profits.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "There has been an appreciable increase in profits."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "زیادبوونێکی بەرچاو لە قازانجەکان ھەبووە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "زیادبوونێکی بەرچاو لە قازانجەکان ھەبووە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAppreciable944("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAppreciable944(
                                     // REPLACE: appreciable /əˈpriːʃəbl/
                                     "en-US"),
@@ -312,12 +279,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: appreciable  
 1. Enough to be estimated or measured
 "appreciable amounts of noxious wastes are dumped into the harbour"
-"""),
+""",
+          )
         ],
       ),
     );

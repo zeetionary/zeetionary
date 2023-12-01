@@ -167,209 +167,77 @@ class EnglishEntryaccommodate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (کردار) دابینکردنی شوێنی مانەوە بۆ کەسێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (کردار) دابینکردنی شوێنی مانەوە بۆ کەسێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The hotel can accommodate up to 500 guests.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھوتێلەکە ئەتوانێت ٥٠٠ میوان لەخۆبگرێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The hotel can accommodate up to 500 guests."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھوتێلەکە ئەتوانێت ٥٠٠ میوان لەخۆبگرێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA25631("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA25631("en-US"),
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (کردار) توانای لەخۆگرتنی شتێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (کردار) توانای لەخۆگرتنی شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The garage can accommodate three cars.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "گەراجەکە شوێنی سێ ئۆتۆمبێلی تێدا دەبێتەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The garage can accommodate three cars."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "گەراجەکە شوێنی سێ ئۆتۆمبێلی تێدا دەبێتەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA14258("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA14258("en-US"),
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٣. (کردار) لەبەرچاوگرتنی پێویستی یان بۆچوونی کەسێک و گرنگیپێدان پێی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٣. (کردار) لەبەرچاوگرتنی پێویستی یان بۆچوونی کەسێک و گرنگیپێدان پێی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Our proposal tries to accommodate the special needs of minority groups.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پێشنیارەکانمان ھەوڵ دەدات پێداویستییە تایبەتەکانی کەمایەتییەکان لەبەرچاوبگرێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Our proposal tries to accommodate the special needs of minority groups."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پێشنیارەکانمان ھەوڵ دەدات پێداویستییە تایبەتەکانی کەمایەتییەکان لەبەرچاوبگرێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAc2489("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAc2489("en-US"),
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٤. (کردار) یارمەتیدانی کەسێک بە پێدانی ئەوەی دەیەوێت''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٤. (کردار) یارمەتیدانی کەسێک بە پێدانی ئەوەی دەیەوێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I’m sure the bank will be able to accommodate you.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دڵنیام بانکەکە دەتوانێت یارمەتیت بدات.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I’m sure the bank will be able to accommodate you."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دڵنیام بانکەکە دەتوانێت یارمەتیت بدات."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA24698("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA24698("en-US"),
                               ),
                             ],
@@ -416,8 +284,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Verb: accommodate (derived forms: accommodated, accommodates, accommodating)
 1. Be agreeable or acceptable to (= suit, fit)
 "This accommodates my needs";
@@ -439,7 +307,8 @@ class EnglishMeaning extends StatelessWidget {
  
 7. Make (one thing) compatible with (another) (= reconcile, conciliate)
 "The scientists had to accommodate the new results with the existing theories";
-'''),
+""",
+          )
         ],
       ),
     );

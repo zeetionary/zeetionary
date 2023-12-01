@@ -140,55 +140,21 @@ class EnglishEntryaccomplish extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: بەدەستھێنان، دەستکەوتن
 
-١. (ناو) سەرکەوتن لە کردن یان تەواوکردنی شتێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) سەرکەوتن لە کردن یان تەواوکردنی شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The first part of the plan has been accomplished.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "یەکەم بەشی پلانەکە بەدەستھێندراوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The first part of the plan has been accomplished."),
+                              const ExampleSentenceKurdish(
+                                  text: "یەکەم بەشی پلانەکە بەدەستھێندراوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAc26934("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAc26934("en-US"),
                               ),
                             ],
@@ -235,15 +201,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Verb: accomplish (derived forms: accomplished, accomplishing, accomplishes)
 1. Cause to happen; complete successfully (= carry through, execute, carry out, action, fulfill [N. Amer], fulfil [Brit, Cdn])
 "accomplish the decision of the people";
  
 2. To gain with effort (= achieve, attain, reach)
 "she accomplished her goal despite setbacks";
-'''),
+""",
+          )
         ],
       ),
     );

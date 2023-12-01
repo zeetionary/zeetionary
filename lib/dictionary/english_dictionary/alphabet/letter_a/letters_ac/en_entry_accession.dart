@@ -149,107 +149,41 @@ class EnglishEntryaccession extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: دانیشتن، لەسەر تەخت دانیشتن، پێگەیشتن، گەیشتن (بە پۆست، سەروکایەتی یان ڕێبەراتی وڵاتی)، بەرزبوونەوە، بوونە کاربەدەست، بەدەس‌ھێنان، دەس‌خستن، گیرخستن، بە دەس‌گرتن، پێگەیشتن، خستنەسەر، پێوەنان، خستنەپاڵ، دانەدەم، پێوەنراو، زیادکراو، شتی زیادکراو یان سەرخراو
 
-١. (ناو) گەشتن بە پلەیەکی باڵا''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) گەشتن بە پلەیەکی باڵا"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "1926 was the year of Emperor Hirohito's accession to the throne.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ساڵی ١٩٢٦ ساڵی بوون بە پاشایی ئیمپراتۆر ھیرۆھیتۆ بوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "1926 was the year of Emperor Hirohito's accession to the throne."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ساڵی ١٩٢٦ ساڵی بوون بە پاشایی ئیمپراتۆر ھیرۆھیتۆ بوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAcc2154("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAcc2154("en-US"),
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) بوون بە بەشێک لە ڕێکخراوێکی نێودەوڵەتی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) بوون بە بەشێک لە ڕێکخراوێکی نێودەوڵەتی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "It is absolutely not right to speed up accession to Nato without public support.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھیچ درووست نییە چوونە ناو ناتۆ خێرابکرێت بەبێ پشتگیری خەڵک.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "It is absolutely not right to speed up accession to Nato without public support."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھیچ درووست نییە چوونە ناو ناتۆ خێرابکرێت بەبێ پشتگیری خەڵک."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAc58877("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAc58877("en-US"),
                               ),
                             ],
@@ -296,8 +230,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: accession (derived forms: accessioning, accessioned, accessions)
 1. A process of increasing by addition (as to a collection or group)
 "the art collection grew through accession"
@@ -317,7 +251,8 @@ class EnglishMeaning extends StatelessWidget {
 
 - Verb: accession
 1. (recording) make a record of additions to a collection, such as a library
-'''),
+""",
+          )
         ],
       ),
     );

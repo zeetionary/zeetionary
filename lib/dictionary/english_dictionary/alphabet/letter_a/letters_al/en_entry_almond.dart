@@ -156,50 +156,22 @@ class EnglishEntryalmond extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: بادەم، بایەم، بەھیڤ، کاکڵە بادام، چوالە، ناوکە بادام، درەخت یان داربادەم
 
-١. (ناو) بادەم''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) بادەم"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The almond cake is particularly sublime.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The almond cake is particularly sublime."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کێکە بادەمەکە بەتایبەتی سەرسوڕھێنەرە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کێکە بادەمەکە بەتایبەتی سەرسوڕھێنەرە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAlmond4211("en-GB"),
                               ),
                               IconButton(
@@ -256,14 +228,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: almond (derived forms: almonds)
 1. Small bushy deciduous tree native to Asia and North Africa having pretty pink blossoms and highly prized edible nuts enclosed in a hard green hull; cultivated in southern Australia and California (= sweet almond, Prunus dulcis, Prunus amygdalus, Amygdalus communis
 )
  
 2. Oval-shaped edible seed of the almond tree
-'''),
+""",
+          )
         ],
       ),
     );

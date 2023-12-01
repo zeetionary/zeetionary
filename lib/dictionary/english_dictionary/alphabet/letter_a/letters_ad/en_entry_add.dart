@@ -175,47 +175,17 @@ class EnglishEntryadd extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: خستنەسەر، کۆکردنەوە، پێوەنان
 
-١. (کردار) زیادکردنی شتێک بۆ شتێکی تر''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (کردار) زیادکردنی شتێک بۆ شتێکی تر"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Shall I add your name to the list?",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ناوت زیادبکەم بۆ لیستەکە؟",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text: "Shall I add your name to the list?"),
+                              const ExampleSentenceKurdish(
+                                  text: "ناوت زیادبکەم بۆ لیستەکە؟"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdd4257("en-GB"),
                               ),
                               IconButton(
@@ -233,35 +203,13 @@ class EnglishEntryadd extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Chlorine is added to the water to kill bacteria.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کلۆر زیاد دەکرێت بۆ ئاو بۆ کووشتنی بەکتریا",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Chlorine is added to the water to kill bacteria."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کلۆر زیاد دەکرێت بۆ ئاو بۆ کووشتنی بەکتریا"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdd45698("en-GB"),
                               ),
                               IconButton(
@@ -277,45 +225,16 @@ class EnglishEntryadd extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (کردار) کۆکردنەوەی ژمارە پێکەوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (کردار) کۆکردنەوەی ژمارە پێکەوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He knew how to add and subtract.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دەیزانی چۆن کۆکرنەوە و لێدەرکردن بکات.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text: "He knew how to add and subtract."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دەیزانی چۆن کۆکرنەوە و لێدەرکردن بکات."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdd241("en-GB"),
                               ),
                               IconButton(
@@ -331,45 +250,17 @@ class EnglishEntryadd extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٣. (کردار) زیادلرتنی قسەیەک بۆ شتێک کە پێشتر وتووتە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٣. (کردار) زیادلرتنی قسەیەک بۆ شتێک کە پێشتر وتووتە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I have nothing to add to my earlier statement.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھیچم نییە بۆ وتن زیاتر لەوەی پێشتر وتم.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I have nothing to add to my earlier statement."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھیچم نییە بۆ وتن زیاتر لەوەی پێشتر وتم."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdd459224("en-GB"),
                               ),
                               IconButton(
@@ -426,8 +317,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Verb: add (derived forms: added, adds, adding)
 1. Make an addition (to); join or combine or unite with others; increase the quality, quantity, size or scope of
 "We added two students to that dorm room"; "She added a personal note to her letter"; "Add insult to injury"; "Add some extra plates to the dinner table"
@@ -449,7 +340,8 @@ class EnglishMeaning extends StatelessWidget {
 
 - Noun: ADD
 A condition (mostly in boys) characterized by behavioral and learning disorders (= - attention deficit disorder, attention deficit hyperactivity disorder, ADHD, hyperkinetic syndrome, minimal brain dysfunction, minimal brain damage, MBD)
-'''),
+""",
+          )
         ],
       ),
     );

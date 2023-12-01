@@ -164,50 +164,20 @@ class EnglishEntryamble extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ھەنگاوی بەھێواشی، نەرمەھەنگاو، وێرغە، نەرمەڕەوت
 
-١. (کردار) ڕێکردن بە ھێواشی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (کردار) ڕێکردن بە ھێواشی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Mark ambled over to the girls.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "Mark ambled over to the girls."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "مارک بەھێواشی چوو بۆ لای کچەکان.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "مارک بەھێواشی چوو بۆ لای کچەکان."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAmble88544("en-GB"),
                               ),
                               IconButton(
@@ -266,15 +236,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Verb: amble (derived forms: ambled, ambles, ambling)
 1. Walk leisurely (= mosey [informal], truck [informal])
 "Bobbie told Reggie she was going to amble over to the post office";
 
 - Noun: amble (derived forms: ambled, ambles, ambling)
 1. A leisurely walk (usually in some public place) (= promenade, saunter, stroll, perambulation)
-'''),
+""",
+          )
         ],
       ),
     );

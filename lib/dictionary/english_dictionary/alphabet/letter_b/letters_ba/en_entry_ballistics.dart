@@ -204,51 +204,22 @@ class EnglishEntryballistics extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: ھاوێژەناسی، زانستی ھاوێژەمەنی، زانستی بزوانی شتە ھاوێژراوەکان؛ تایبەتمەندی فڕینی ھاوێژەکان
 
-١. (ناو) لێکۆڵینەوەی زانستی لەو شتانەی کە بە ھەوادا دەھاوێژرێن، وەک فیشەک و موشەک""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) لێکۆڵینەوەی زانستی لەو شتانەی کە بە ھەوادا دەھاوێژرێن، وەک فیشەک و موشەک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "He is a ballistics expert at the FBI lab in Quantico.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He is a ballistics expert at the FBI lab in Quantico."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پسپۆڕێکی ھاوێژەناسییە لە تاقیگەی ئێف-بی-ئای لە کوانتیکۆ.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پسپۆڕێکی ھاوێژەناسییە لە تاقیگەی ئێف-بی-ئای لە کوانتیکۆ."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBallisticss1("en-GB"),
                               ),
                               IconButton(
@@ -307,13 +278,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: ballistics
 1. The trajectory of an object in free flight (= ballistic trajectory)
  
 2. The science of flight dynamics
-"""),
+""",
+          )
         ],
       ),
     );

@@ -156,58 +156,25 @@ class EnglishEntryairport extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: فڕۆکەخانە، باڵافڕگە، فڕینگە
 
-١. (ناو) فڕۆکەخانە؛ شوێنێک کە تێیدا فڕۆکە دەفڕن و دەنیشنەوە بۆ گواستنەوەی گەشتیاران''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) فڕۆکەخانە؛ شوێنێک کە تێیدا فڕۆکە دەفڕن و دەنیشنەوە بۆ گواستنەوەی گەشتیاران"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She arrived at Sao Paulo international airport on Friday to begin her journey.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She arrived at Sao Paulo international airport on Friday to begin her journey."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ڕۆژی ھەینی گەشتە فڕۆکەخانەی نێودەڵەتیی ساوپاولۆ بۆ دەستپێکردنی گەشتەکەی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕۆژی ھەینی گەشتە فڕۆکەخانەی نێودەڵەتیی ساوپاولۆ بۆ دەستپێکردنی گەشتەکەی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAirport("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAirport45288(
                                     // REPLACE: airport /ˈerpɔːrt/
                                     "en-US"),
@@ -256,11 +223,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: airport (derived forms: airports)
 1. An airfield equipped with control tower and hangars as well as accommodations for passengers and cargo (= airdrome [N. Amer], aerodrome [Brit], drome)
-'''),
+""",
+          )
         ],
       ),
     );

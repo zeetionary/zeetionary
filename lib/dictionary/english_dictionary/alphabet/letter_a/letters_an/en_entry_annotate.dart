@@ -205,56 +205,22 @@ class EnglishEntryannotate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (کردار) تێبینی‌نووسین لەسەر لەسەر کتێبێک یان نووسراوێک ''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (کردار) تێبینی‌نووسین لەسەر لەسەر کتێبێک یان نووسراوێک """),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The text was annotated with her own comments.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The text was annotated with her own comments."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کتێبەکە ڕاڤەکرابوو بە کۆمێنتی خۆی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "کتێبەکە ڕاڤەکرابوو بە کۆمێنتی خۆی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnnotate158("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAnnotate158(
                                     // REPLACE: annotate /ˈænəteɪt/
                                     "en-US"),
@@ -305,15 +271,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Verb: annotate (derived forms: annotating, annotates, annotated)
 1. Add explanatory notes to or supply with critical comments (= footnote)
 "The scholar annotated the early edition of a famous novel";
  
 2. Provide interlinear explanations for words or phrases (= gloss, comment)
 "He annotated on what his teacher had written";
-'''),
+""",
+          )
         ],
       ),
     );

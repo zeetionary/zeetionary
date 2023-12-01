@@ -182,58 +182,24 @@ class EnglishEntryallowance extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: بڕانە، مووچە، جیرە، ڕۆژانە، مانگانە، خەرج، بەش، پشک، ڕێدان، ڕێ‌پێدان، ڕێگەپێدان، بواردان، ھێڵان، ھێشتن، خەرجی، پووڵ یان پارەی گیرفانی، لێ‌دەرکردن، لێ‌داشکاندن، بڕانە
 
-١. (ناو) بڕە پارەیەک کە بە بەردەوامی دەدرێت بە کەسێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) بڕە پارەیەک کە بە بەردەوامی دەدرێت بە کەسێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Do you get an allowance for clothing?",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Do you get an allowance for clothing?"),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پارە وەردەگریت بۆ جلوبەرگ؟",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "پارە وەردەگریت بۆ جلوبەرگ؟"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAllowance1298("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAllowance1298(
                                     // REPLACE: allowance /əˈlaʊəns/
                                     "en-US"),
@@ -243,46 +209,18 @@ class EnglishEntryallowance extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The weekly allowance for each child is £15.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The weekly allowance for each child is £15."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەفتانەی ھەر منداڵێک ١٥ پاوەندە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "ھەفتانەی ھەر منداڵێک ١٥ پاوەندە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAllowance4251("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAllowance4251(
                                     // REPLACE: allowance /əˈlaʊəns/
                                     "en-US"),
@@ -290,56 +228,23 @@ class EnglishEntryallowance extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) ڕێژەی ڕێگەپێدراو''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) ڕێژەی ڕێگەپێدراو"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The recommended daily allowance of vitamin C is 60–90 milligrams.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The recommended daily allowance of vitamin C is 60–90 milligrams."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ڕێژەی پێشنیازکراوی ڕۆژانەی ڤیتامین C ٦٠-٩٠ میلیگرامە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕێژەی پێشنیازکراوی ڕۆژانەی ڤیتامین C ٦٠-٩٠ میلیگرامە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAllowance12963("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAllowance12963(
                                     // REPLACE: allowance /əˈlaʊəns/
                                     "en-US"),
@@ -388,8 +293,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: allowance (derived forms: allowances)
 1. An amount allowed or granted (as during a given period)
 "travel allowance"; "my weekly allowance of two eggs"; "a child's allowance should not be too generous"
@@ -408,7 +313,8 @@ class EnglishMeaning extends StatelessWidget {
 
 - Verb: allowance (derived forms: allowanced, allowances, allowancing)
 1. Put on a fixed allowance, as of food
-'''),
+""",
+          )
         ],
       ),
     );

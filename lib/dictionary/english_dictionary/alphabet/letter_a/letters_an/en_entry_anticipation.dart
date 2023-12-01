@@ -208,58 +208,25 @@ class EnglishEntryanticipation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: چاوەڕوانی، تەماوەری، پێش‌بینی، مەزندە، دەس‌پێش‌کەری، دەست‌پێش‌خەری، دەست‌پێش‌خستن، بەرگیری، پێش‌گیری، پێش‌گرتن
 
-١. (ناو) پێشبینی‌کردنی ڕوودانی شتێک لە داھاتوو و ھەوڵ‌دان بۆ کردنی کارێک دەربارەی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) پێشبینی‌کردنی ڕوودانی شتێک لە داھاتوو و ھەوڵ‌دان بۆ کردنی کارێک دەربارەی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He bought extra food in anticipation of more people coming than he'd invited.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He bought extra food in anticipation of more people coming than he'd invited."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "خواردنی زیادەی کڕی لە پێشبینی ھاتنی خەڵکی زیاتر وەک لەوەی بانگھێشتی کردوون.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "خواردنی زیادەی کڕی لە پێشبینی ھاتنی خەڵکی زیاتر وەک لەوەی بانگھێشتی کردوون."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnticipation1053("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAnticipation1053(
                                     // REPLACE: anticipation /ænˌtɪsɪˈpeɪʃn/
                                     "en-US"),
@@ -270,46 +237,19 @@ class EnglishEntryanticipation extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Parents visit the school in anticipation that action will be taken.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Parents visit the school in anticipation that action will be taken."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دایکان و باوکان سەردانی قوتابخانەکە دەکەن بەھیوای ئەوەی ھەنگاو بنرێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دایکان و باوکان سەردانی قوتابخانەکە دەکەن بەھیوای ئەوەی ھەنگاو بنرێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnticipation1056("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAnticipation1056(
                                     // REPLACE: anticipation /ænˌtɪsɪˈpeɪʃn/
                                     "en-US"),
@@ -318,56 +258,22 @@ class EnglishEntryanticipation extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) ھەستێکی خۆش کە ھەتە سەبارەت بە ڕوودانی شتێکی خۆش''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) ھەستێکی خۆش کە ھەتە سەبارەت بە ڕوودانی شتێکی خۆش"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The courtroom was filled with anticipation.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The courtroom was filled with anticipation."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ژووری دادگا پڕ بوو لە تامەزرۆیی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "ژووری دادگا پڕ بوو لە تامەزرۆیی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnticipation1059("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAnticipation1059(
                                     // REPLACE: anticipation /ænˌtɪsɪˈpeɪʃn/
                                     "en-US"),
@@ -418,8 +324,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: anticipation (derived forms: anticipations)
 1. An expectation (= expectancy)
  
@@ -429,7 +335,8 @@ class EnglishMeaning extends StatelessWidget {
 3. The act of predicting (as by reasoning about the future) (= prediction, prevision)
  
 4. The feeling waiting to something happening, esp. looking forward with excitement (= expectation)
-'''),
+""",
+          )
         ],
       ),
     );

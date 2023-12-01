@@ -205,51 +205,22 @@ class EnglishEntrybanishment extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: دوورخستنەوە، شاربەدەرکردن، تاراندن
 
-١. (ناو) کرداری دوورخستنەوەی کەسێک لە شوێنێک یان وڵاتێک وەک سزا""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کرداری دوورخستنەوەی کەسێک لە شوێنێک یان وڵاتێک وەک سزا"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "A period of peace followed the successful banishment of the warlords from the country.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "A period of peace followed the successful banishment of the warlords from the country."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "سەردەمێک لە ئارامی درووستبوو بەھۆی دوورخستنەوەی سەرکەوتووانەی سەرکردە سەربازییەکانەوە لە وڵاتەکە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "سەردەمێک لە ئارامی درووستبوو بەھۆی دوورخستنەوەی سەرکەوتووانەی سەرکردە سەربازییەکانەوە لە وڵاتەکە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBanishments1("en-GB"),
                               ),
                               IconButton(
@@ -268,39 +239,16 @@ class EnglishEntrybanishment extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "Most area residents are very happy with the banishment of cars from the park.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Most area residents are very happy with the banishment of cars from the park."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "زۆرینەی ھاوڵاتیانیناوچەکە زۆر دڵخۆشن بە قەدەغەکردنی ئۆتۆمبێل لە پارکەکە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "زۆرینەی ھاوڵاتیانیناوچەکە زۆر دڵخۆشن بە قەدەغەکردنی ئۆتۆمبێل لە پارکەکە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBanishments2("en-GB"),
                               ),
                               IconButton(
@@ -359,14 +307,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: banishment (derived forms: banishments)
 1. The state of being banished or ostracized (excluded from society by general consent) (= ostracism, Coventry)
 "the association should get rid of its elderly members--not by euthanasia, of course, but by banishment";
  
 2. Rejection by means of an act of banishing or proscribing someone (= proscription)
-"""),
+""",
+          )
         ],
       ),
     );

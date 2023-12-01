@@ -211,58 +211,25 @@ class EnglishEntryaquatic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: بەئاوزیندوو، ئاوەژی، ئاوی، گیانەوەر یان ڕووەکی ئاوی
 
-١. (ھاوەڵناو) گیانلەبەرێک کە لە ئاو یان نزیکی ئاو دەژی""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) گیانلەبەرێک کە لە ئاو یان نزیکی ئاو دەژی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Many forms of aquatic life inhabit ponds.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Many forms of aquatic life inhabit ponds."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ژمارەیەکی زۆری گیانلەبەری ئاوی لە گۆماوەکاندا دەژین.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ژمارەیەکی زۆری گیانلەبەری ئاوی لە گۆماوەکاندا دەژین."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAquatic936("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAquatic936(
                                     // REPLACE: aquatic /əˈkwɑːtɪk/
                                     "en-US"),
@@ -271,56 +238,23 @@ class EnglishEntryaquatic extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ھاوەڵناو) پەیوەندیدار بە ئاو""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ھاوەڵناو) پەیوەندیدار بە ئاو"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Aquatic sports include swimming and rowing.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Aquatic sports include swimming and rowing."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "وەرزشی ئاوی مەلەکردن و بەلەمەوانی لەخۆدەگرێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وەرزشی ئاوی مەلەکردن و بەلەمەوانی لەخۆدەگرێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAquatic938("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAquatic938(
                                     // REPLACE: aquatic /əˈkwɑːtɪk/
                                     "en-US"),
@@ -371,8 +305,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: aquatic
 1. Relating to, consisting of, or being in water
 "an aquatic environment"
@@ -382,7 +316,8 @@ class EnglishMeaning extends StatelessWidget {
 
 - Noun: aquatic (derived forms: aquatics)
 1. A plant that lives in or on water
-"""),
+""",
+          )
         ],
       ),
     );

@@ -212,58 +212,25 @@ class EnglishEntryaspersion extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: تۆمەت، چەفتە، درۆ، ھەڵبەستە، ئابڕووبردن، نێوزڕاندن، زەم‌کردن، خراپەوتن، سووکایەتی (پێ‌کردن)
 
-١. (ناو) بڕیار یان لێدوانی نابەجێ""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) بڕیار یان لێدوانی نابەجێ"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I wouldn't want to cast aspersions on your honesty.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I wouldn't want to cast aspersions on your honesty."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "نامەوێ لێدوانی نابەجێ بدەم لەسەر سەرڕاستیت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "نامەوێ لێدوانی نابەجێ بدەم لەسەر سەرڕاستیت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAspersion518("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAspersion518(
                                     // REPLACE: aspersion /əˈspɜːrʒnz/
                                     "en-US"),
@@ -314,8 +281,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: aspersion (derived forms: aspersions)
 1. A disparaging remark (= slur)
 "in the 19th century any reference to female sexuality was considered a vile aspersion";
@@ -323,7 +290,8 @@ class EnglishMeaning extends StatelessWidget {
 2. An abusive attack on a person's character or good name (= calumny, slander, defamation, denigration)
  
 3. The act of sprinkling water in baptism (rare) (= sprinkling)
-"""),
+""",
+          )
         ],
       ),
     );

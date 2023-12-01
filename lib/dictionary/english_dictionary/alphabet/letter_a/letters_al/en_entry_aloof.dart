@@ -156,50 +156,22 @@ class EnglishEntryaloof extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: دوور، جیا، ساردوسڕ، گۆشەگیر، لاتەریک، خۆدوورگر، دوورەپەرێز
 
-١. (ھاوەڵناو) حەزنەکردن لە خەڵکی تر''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) حەزنەکردن لە خەڵکی تر"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He was a cold man, aloof and distant.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He was a cold man, aloof and distant."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کەسێکی ساردوسڕ و گۆشەگیر و دوورەپەرێز بوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کەسێکی ساردوسڕ و گۆشەگیر و دوورەپەرێز بوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAloof457("en-GB"),
                               ),
                               IconButton(
@@ -256,8 +228,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: aloof
 1. Remote in manner (= distant, upstage)
 "stood apart with aloof dignity";
@@ -265,7 +237,8 @@ class EnglishMeaning extends StatelessWidget {
 - Adverb: aloof 
 1. In an aloof manner
 "the local gentry and professional classes had held aloof for the school had accepted their sons readily enough"
-'''),
+""",
+          )
         ],
       ),
     );

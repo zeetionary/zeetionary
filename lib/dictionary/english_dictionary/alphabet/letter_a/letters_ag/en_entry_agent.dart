@@ -183,50 +183,22 @@ class EnglishEntryagent extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: نوێنەر، بریکار، دەڵاڵ، (ڕێزمان) کارا، بکەر، ھۆکار، بکەر، ئەنجام‌دەر، سیخوڕ، ئامێر، ئامراز، کەرەسە، ھۆ، (کیمیا) کارا (= ماک یان مادەیێ کە دەبێتە ھۆی کاردانەوەی کیمیایی)
 
-١. (ناو) کەسێک کە نوێنەری کەسێکی ترە لە بزنسێک یان سیاسەت''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کەسێک کە نوێنەری کەسێکی ترە لە بزنسێک یان سیاسەت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Our agent in New York deals with all US sales.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Our agent in New York deals with all US sales."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "نوێنەرەکەمان لە نیویۆرک مامەڵە لەگەڵ ھەموو فرۆشتنەکانمان لە ئەمریکا دەکات.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "نوێنەرەکەمان لە نیویۆرک مامەڵە لەگەڵ ھەموو فرۆشتنەکانمان لە ئەمریکا دەکات."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAgen25966("en-GB"),
                               ),
                               IconButton(
@@ -242,48 +214,18 @@ class EnglishEntryagent extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) کەسێک کە ڕێکخەری کاری گۆەانیبێژێک یان یاریزانێکە، یان بڵاوکەرەوە دەدۆزێتەوە بۆ نووسەرێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) کەسێک کە ڕێکخەری کاری گۆەانیبێژێک یان یاریزانێکە، یان بڵاوکەرەوە دەدۆزێتەوە بۆ نووسەرێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She got the work through an agent.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "She got the work through an agent."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە ڕێگەی بریکارێکەوە کارەکەی وەرگرت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "لە ڕێگەی بریکارێکەوە کارەکەی وەرگرت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAg15224("en-GB"),
                               ),
                               IconButton(
@@ -299,48 +241,20 @@ class EnglishEntryagent extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٣. (ناو) کەسێک کە بە نھێنی زانیاری بۆ حکومەتێک یان دامەزراوەیەک کۆدەکاتەوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٣. (ناو) کەسێک کە بە نھێنی زانیاری بۆ حکومەتێک یان دامەزراوەیەک کۆدەکاتەوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She was operating as an undercover agent in London.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She was operating as an undercover agent in London."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "وەک سیخوڕێکی نھێنی کاری دەکرد لە لەندەن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وەک سیخوڕێکی نھێنی کاری دەکرد لە لەندەن."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAge256999("en-GB"),
                               ),
                               IconButton(
@@ -356,48 +270,20 @@ class EnglishEntryagent extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٤. (ناو) کەسێک یان شتێک کە کاریگەرییەکی گرنگی لەسەر بارودۆخێک ھەیە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٤. (ناو) کەسێک یان شتێک کە کاریگەرییەکی گرنگی لەسەر بارودۆخێک ھەیە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The charity has been an agent for social change.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The charity has been an agent for social change."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ڕێکخراوەکە وەسیلەیەکی باش بووە بۆ گۆڕانکاری کۆمەڵایەتی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕێکخراوەکە وەسیلەیەکی باش بووە بۆ گۆڕانکاری کۆمەڵایەتی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAgent56922("en-GB"),
                               ),
                               IconButton(
@@ -454,8 +340,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: agent (derived forms: agents)
 1. An active and efficient cause; capable of producing a certain effect
 "their research uncovered new disease agents"
@@ -469,7 +355,8 @@ class EnglishMeaning extends StatelessWidget {
 5. Any agent or representative of a federal agency or bureau (= federal agent)
  
 6. The semantic role of the animate entity that instigates or causes the happening denoted by the verb in the clause (= agentive role)
-'''),
+""",
+          )
         ],
       ),
     );

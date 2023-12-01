@@ -213,56 +213,23 @@ class EnglishEntryascertain extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (کردار) دۆزینەوەی زانیاریی ڕاستی لەسەر شتێک""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (کردار) دۆزینەوەی زانیاریی ڕاستی لەسەر شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "It can be difficult to ascertain the facts.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "It can be difficult to ascertain the facts."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەکرێت سەخت بێ ڕاستییەکان پشت‌ڕاستبکەینەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەکرێت سەخت بێ ڕاستییەکان پشت‌ڕاستبکەینەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAscertain1239("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAscertain1239(
                                     // REPLACE: ascertain /ˌæsərˈteɪn/
                                     "en-US"),
@@ -273,46 +240,19 @@ class EnglishEntryascertain extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I ascertained that the driver was not badly hurt.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I ascertained that the driver was not badly hurt."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەکرێت سەخت بێ ڕاستییەکان پشت‌ڕاستبکەینەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەکرێت سەخت بێ ڕاستییەکان پشت‌ڕاستبکەینەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAscertain1240("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAscertain1240(
                                     // REPLACE: ascertain /ˌæsərˈteɪn/
                                     "en-US"),
@@ -363,8 +303,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Verb: ascertain (derived forms: ascertained, ascertains, ascertaining)
 1. Establish after a calculation, investigation, experiment, survey, or study (= determine, find, find out)
 "ascertain the product of two numbers";
@@ -375,7 +315,8 @@ class EnglishMeaning extends StatelessWidget {
 "ascertain whether the train leaves on time";
 
 4. Learn or discover with certainty
-"""),
+""",
+          )
         ],
       ),
     );

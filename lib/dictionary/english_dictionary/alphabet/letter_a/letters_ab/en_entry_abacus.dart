@@ -129,55 +129,22 @@ class EnglishEntryabacus extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: چۆتکە، چرت، چۆرتکە (بە خۆی ڕووسی‌یە)، ژمێرکە، چۆرت، ئەژمێر (چوارچێوەی مووروودار بۆ ژمارەکاری)
 
-١. (ناو) چوارچێوەیەک کە وایەری پێوەیە لەگەڵ تۆپی بچووک و بەکاردێت بۆ ژماردن''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) چوارچێوەیەک کە وایەری پێوەیە لەگەڵ تۆپی بچووک و بەکاردێت بۆ ژماردن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "In ancient times, people relied on an abacus to perform mathematical calculations.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە سەردەمانی کۆندا خەڵکی پشتیان بە ژمێرکە دەبەست بۆ لێکدانەوە بیرکارییەکان.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "In ancient times, people relied on an abacus to perform mathematical calculations."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لە سەردەمانی کۆندا خەڵکی پشتیان بە ژمێرکە دەبەست بۆ لێکدانەوە بیرکارییەکان."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speak145287("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speak145287("en-US"),
                               ),
                             ],
@@ -215,13 +182,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: abacus (derived forms: abacuses, abaci)
 1. A tablet placed horizontally on top of the capital of a column as an aid in supporting the architrave
 
 2. A calculator that performs arithmetic functions by manually sliding counters on rods or in grooves
-'''),
+""",
+          )
         ],
       ),
     );

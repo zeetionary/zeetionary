@@ -176,55 +176,22 @@ class EnglishEntryadministration extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: بەڕێوەبەری، بەڕێوەبردن، ھەڵسووڕاندن، بەڕێوەبەرایەتی، کارگێڕی،ج ێبەجێ‌کردن، پیادەکردن، سەرپەرشتی، سەرپەرستی، بەرپرسان، ھەڵسووڕێنەران، بەڕێوەبەران، میری، حکومەت، دان (سوێند)، بەڕێوەبەرایەتی، حکومەتی وڵات بەتایبەت لە ئەمریکا
 
-١. (ناو) بەڕێوەبردنی شوێنێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) بەڕێوەبردنی شوێنێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The university loses a lot of money through poor administration.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "زانکۆکە پارەیەکی زۆر لەدەستدەدات بەھۆی خراپ بەڕێوەبردن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The university loses a lot of money through poor administration."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "زانکۆکە پارەیەکی زۆر لەدەستدەدات بەھۆی خراپ بەڕێوەبردن."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdminis2547("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdminis2547(
                                     // REPLACE: administration /ədˌmɪnɪˈstreɪʃn/
                                     "en-US"),
@@ -232,53 +199,20 @@ class EnglishEntryadministration extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) حکومەتی وڵاتێک، بەتایبەتی ئەمریکا''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) حکومەتی وڵاتێک، بەتایبەتی ئەمریکا"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He was Secretary of Education in Obama's first administration.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "وەزیری پەروەردە بوو لە کابینەکەی ئۆباما",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He was Secretary of Education in Obama's first administration."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وەزیری پەروەردە بوو لە کابینەکەی ئۆباما"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdminist3547("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdminist3547(
                                     // REPLACE: administration /ədˌmɪnɪˈstreɪʃn/
                                     "en-US"),
@@ -286,53 +220,20 @@ class EnglishEntryadministration extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٣. (ناو) پڕۆسەی ڕێکخستنی شێوازی کردنی شتێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٣. (ناو) پڕۆسەی ڕێکخستنی شێوازی کردنی شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The administration of justice involves making sure that people are treated fairly in legal matters.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەڵسووڕاندنی کاری دادپەروەری ئەوە لەخۆدەگرێت کە دڵنیایی بدەیت کە خەڵکی بە یەکسانی مامەڵەیان لەگەڵ دەکرێت لە کێشە یاساییەکان.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The administration of justice involves making sure that people are treated fairly in legal matters."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەڵسووڕاندنی کاری دادپەروەری ئەوە لەخۆدەگرێت کە دڵنیایی بدەیت کە خەڵکی بە یەکسانی مامەڵەیان لەگەڵ دەکرێت لە کێشە یاساییەکان."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdministr2222("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdministr2222(
                                     // REPLACE: administration /ədˌmɪnɪˈstreɪʃn/
                                     "en-US"),
@@ -340,53 +241,20 @@ class EnglishEntryadministration extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٤. (ناو) ئەو کەسانەی کە شوێنێک بەڕێوەدەبەن''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٤. (ناو) ئەو کەسانەی کە شوێنێک بەڕێوەدەبەن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The hospital administration can refuse patients' access to their own records.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بەرپرسانی نەخۆشخانەکە دەتوانن ڕێگری لە نەخۆشان بکەن داتای خودی خۆیان ببینن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The hospital administration can refuse patients' access to their own records."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بەرپرسانی نەخۆشخانەکە دەتوانن ڕێگری لە نەخۆشان بکەن داتای خودی خۆیان ببینن."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdmi25682("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdmi25682(
                                     // REPLACE: administration /ədˌmɪnɪˈstreɪʃn/
                                     "en-US"),
@@ -394,53 +262,20 @@ class EnglishEntryadministration extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٥. (ناو) پێدانی دەرمان بە کەسێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٥. (ناو) پێدانی دەرمان بە کەسێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "There are strict controls on the administration of drugs.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کۆنترۆڵی توند ھەیە لەسەر پێدانی دەرمان.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "There are strict controls on the administration of drugs."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کۆنترۆڵی توند ھەیە لەسەر پێدانی دەرمان."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdm25589("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdm25589(
                                     // REPLACE: administration /ədˌmɪnɪˈstreɪʃn/
                                     "en-US"),
@@ -489,8 +324,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: administration (derived forms: administrations)
 1. The work of organizing and managing the affairs of a business, organization or activity (= admin [informal])
  
@@ -508,7 +343,8 @@ class EnglishMeaning extends StatelessWidget {
 "he had considerable experience of administration";
  
 7. The act of meting out justice according to the law (= judicature)
-'''),
+""",
+          )
         ],
       ),
     );

@@ -210,42 +210,17 @@ class EnglishEntryarabicnumeral extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ناو) ژمارەکانی 0، 1، 2، 3، 4، 5، ھتد کە بەکاردێن لە زۆر وڵاتدا""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) ژمارەکانی 0، 1، 2، 3، 4، 5، ھتد کە بەکاردێن لە زۆر وڵاتدا"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "1 and 2 are Arabic numerals.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "1 and 2 are Arabic numerals."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "1 و 2 ژمارەی عەرەبین.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text: "1 و 2 ژمارەی عەرەبین."),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
@@ -255,12 +230,7 @@ class EnglishEntryarabicnumeral extends StatelessWidget {
                                 onPressed: () =>
                                     speakArabicnumeral1032("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakArabicnumeral1032(
                                     // REPLACE: Arabic numeral /ˌærəbɪk ˈnuːmərəl/
                                     "en-US"),
@@ -311,11 +281,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: Arabic numeral (derived forms: Arabic numerals)
 1. One of the symbols 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 (= Hindu numeral, Hindu-Arabic numeral)
-"""),
+""",
+          )
         ],
       ),
     );

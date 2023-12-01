@@ -204,51 +204,22 @@ class EnglishEntryaxiomatic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: بەڵگەنەویست، (خۆ)دیار، بەرچاو، مسۆگەر، لەسەر بنچینەی بنەما یان پڕەنسیپی بەڵگەنەویست(ـەکان)
 
-١. (ھاوەڵناو) ھێندە ڕاست کە پێویستی بە بەڵگە نییە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) ھێندە ڕاست کە پێویستی بە بەڵگە نییە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "It seems axiomatic that everyone would benefit from a better scientific education.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "It seems axiomatic that everyone would benefit from a better scientific education."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەوە بەڵگەنەویست دیارە کە ھەمووان سوودمەند دەبن لە پەروەردەی زانستیی باشتر.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەوە بەڵگەنەویست دیارە کە ھەمووان سوودمەند دەبن لە پەروەردەی زانستیی باشتر."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAxiomatics1("en-GB"),
                               ),
                               IconButton(
@@ -307,8 +278,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: axiomatic
 1. Evident without proof or argument (= self-evident, taken for granted)
 "an axiomatic truth";
@@ -318,7 +289,8 @@ class EnglishMeaning extends StatelessWidget {
  
 3. Of or relating to or derived from axioms (= axiomatical, postulational)
 "axiomatic physics";
-"""),
+""",
+          )
         ],
       ),
     );

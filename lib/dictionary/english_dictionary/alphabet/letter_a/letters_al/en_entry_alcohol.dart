@@ -157,58 +157,25 @@ class EnglishEntryalcohol extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ئەلکحول، ئەڵکۆڵ، ئەڵکوھۆل، ئارەق
 
-١. (ناو) خواردنەوەی وەک بیرە و شەراب کە دەبێتەھۆی سەرخۆش بوون''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) خواردنەوەی وەک بیرە و شەراب کە دەبێتەھۆی سەرخۆش بوون"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He was unable to overcome his addiction to alcohol.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He was unable to overcome his addiction to alcohol."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "نەیدەتوانی زاڵ ببێت بەسەر ئاڵوودەیی بە کحوول.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "نەیدەتوانی زاڵ ببێت بەسەر ئاڵوودەیی بە کحوول."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAlcohol4538("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAlcohol4538(
                                     // REPLACE: alcohol /ˈælkəhɔːl/
                                     "en-US"),
@@ -216,56 +183,21 @@ class EnglishEntryalcohol extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) ئەو مادە شلەییەی کە لە خواردنەوەکانی وەک بیرە و شەرابدا ھەیە و بەکاردێت لە دەرمان و بەرھەمەکانی پاککردنەوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) ئەو مادە شلەییەی کە لە خواردنەوەکانی وەک بیرە و شەرابدا ھەیە و بەکاردێت لە دەرمان و بەرھەمەکانی پاککردنەوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Wine contains about 10% alcohol.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "Wine contains about 10% alcohol."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بیرە ڕێژەی ١٠٪ کحولی تێدایە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "بیرە ڕێژەی ١٠٪ کحولی تێدایە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAlcohol42566("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAlcohol42566(
                                     // REPLACE: alcohol /ˈælkəhɔːl/
                                     "en-US"),
@@ -314,14 +246,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: alcohol (derived forms: alcohols)
 1. Any of a series of volatile hydroxyl compounds that are made from hydrocarbons by distillation
  
 2. A liquor or brew containing alcohol as the active agent (= alcoholic drink, alcoholic beverage, intoxicant, inebriant, booze [informal], juice [N. Amer, informal])
 "alcohol ruined him";
-'''),
+""",
+          )
         ],
       ),
     );

@@ -203,49 +203,19 @@ class EnglishEntrybaptize extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (کردار) ئەنجامدانی ڕێوڕەسمی تەوفن (بۆنەیەک لە ئایینی مەسیحیدا کە تێیدا چەند دڵۆپە ئاوێک لەسەر کەسێک دەکرێت بۆ خێراتنکردنیان بۆ ناو کڵێسای مەسیحی، و زۆر جار بەپێدانی ناوێک ئەگەر منداڵ بێت)""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (کردار) ئەنجامدانی ڕێوڕەسمی تەوفن (بۆنەیەک لە ئایینی مەسیحیدا کە تێیدا چەند دڵۆپە ئاوێک لەسەر کەسێک دەکرێت بۆ خێراتنکردنیان بۆ ناو کڵێسای مەسیحی، و زۆر جار بەپێدانی ناوێک ئەگەر منداڵ بێت)"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "She was baptized Mary.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "She was baptized Mary."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "مەراسیمی تەوفنی بۆ کرا و ناونرا ماری.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "مەراسیمی تەوفنی بۆ کرا و ناونرا ماری."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBaptizes1("en-GB"),
                               ),
                               IconButton(
@@ -304,12 +274,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Verb: baptize (derived forms: baptizing, baptizes, baptized)
 1. Administer baptism to (= baptise [Brit], christen)
 "The parents had the child baptized";
-"""),
+""",
+          )
         ],
       ),
     );

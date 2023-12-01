@@ -204,51 +204,22 @@ class EnglishEntrybackgammon extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: یاری تەختەنەرد، نەردێن، تاوڵە
 
-١. (ناو) یارییەکی دوو کەسی کە لەسەر تەختەیەک دەکرێت کە سێگۆشەی باریک و درێژی لەسەرە. یاریزانەکان زارێک فڕێدەدەن و پارچەکانیان دەجوڵێنن""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) یارییەکی دوو کەسی کە لەسەر تەختەیەک دەکرێت کە سێگۆشەی باریک و درێژی لەسەرە. یاریزانەکان زارێک فڕێدەدەن و پارچەکانیان دەجوڵێنن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "I learned to play backgammon from my grandfather, and it has become one of my hobbies.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I learned to play backgammon from my grandfather, and it has become one of my hobbies."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە باوکمەوە فێری تاوڵەکردن بووم و بووە بە یەکێک لە حەزەکانم.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لە باوکمەوە فێری تاوڵەکردن بووم و بووە بە یەکێک لە حەزەکانم."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBackgammons1("en-GB"),
                               ),
                               IconButton(
@@ -307,11 +278,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: backgammon (derived forms: backgammons)
 1. A board game for two players; pieces move according to throws of the dice
-"""),
+""",
+          )
         ],
       ),
     );

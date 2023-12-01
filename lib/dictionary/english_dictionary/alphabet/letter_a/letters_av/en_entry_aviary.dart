@@ -204,51 +204,22 @@ class EnglishEntryaviary extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: ئیڤیەری، باڵندەخانە، مەلگە، شوێنی باڵندەکان (قەفەسێکی گەورە بۆ ڕاگرتنی باڵندەکان، بۆ نموونە لە باخچەی ئاژەڵان‌دا)
 
-١. (ناو) قەفەزێکی گەورە بۆ ڕاگرتنت باڵندە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) قەفەزێکی گەورە بۆ ڕاگرتنت باڵندە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "Our visitors will find hawks in the aviary.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Our visitors will find hawks in the aviary."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "سەردانکەرانمان دەتوانن ھەڵۆ لە قەفەزی باڵندەکان ببینن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "سەردانکەرانمان دەتوانن ھەڵۆ لە قەفەزی باڵندەکان ببینن."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAviarys1("en-GB"),
                               ),
                               IconButton(
@@ -307,11 +278,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: aviary  (derived forms: aviaries)
 1. A building where birds are kept (= bird sanctuary, volary)
-"""),
+""",
+          )
         ],
       ),
     );

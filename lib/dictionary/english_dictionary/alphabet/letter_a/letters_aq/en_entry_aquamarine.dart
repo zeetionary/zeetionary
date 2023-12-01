@@ -212,58 +212,25 @@ class EnglishEntryaquamarine extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: سەوزی مەیلەوشین، سەوزی شین‌باو، زمڕودی شین‌باو
 
-١. (ناو) بەردێکی سەوزی شین‌باوی گران‌بەھا""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) بەردێکی سەوزی شین‌باوی گران‌بەھا"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Beads made of aquamarine can bring luck in love.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Beads made of aquamarine can bring luck in love."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "مورووی زومروود دەکرێت بەخت‌ھێنەر بێت لە خۆشەویستیدا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "مورووی زومروود دەکرێت بەخت‌ھێنەر بێت لە خۆشەویستیدا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAquamarine857("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAquamarine857(
                                     // REPLACE: aquamarine /ˌɑːkwəməˈriːn/
                                     "en-US"),
@@ -272,56 +239,23 @@ class EnglishEntryaquamarine extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ناو) ڕەنگی سەوزی شین‌باوی ڕۆشن""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) ڕەنگی سەوزی شین‌باوی ڕۆشن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The television screen became a rectangle of icy aquamarine.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The television screen became a rectangle of icy aquamarine."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "شاشەی تەلەفیزیۆنەکە بوو بە پارچە لاکێشەیەکی سەھۆڵی سەوزی شین‌باو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "شاشەی تەلەفیزیۆنەکە بوو بە پارچە لاکێشەیەکی سەھۆڵی سەوزی شین‌باو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAquamarine902("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAquamarine902(
                                     // REPLACE: aquamarine /ˌɑːkwəməˈriːn/
                                     "en-US"),
@@ -330,56 +264,23 @@ class EnglishEntryaquamarine extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٣. (ھاوەڵناو) ڕەنگی سەوزی شین‌باوی ڕۆشن""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٣. (ھاوەڵناو) ڕەنگی سەوزی شین‌باوی ڕۆشن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The aquamarine sea sparkled under the bright sun, creating a breathtaking view.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The aquamarine sea sparkled under the bright sun, creating a breathtaking view."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دەریا سەوزە شین‌باوەکە ئەدرەوشایەوە لەژێج خۆرە ڕۆشنەکەدا و دیمەنێکی دڵ‌ڕفێنەری درووستکردبوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دەریا سەوزە شین‌باوەکە ئەدرەوشایەوە لەژێج خۆرە ڕۆشنەکەدا و دیمەنێکی دڵ‌ڕفێنەری درووستکردبوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAquamarine905("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAquamarine905(
                                     // REPLACE: aquamarine /ˌɑːkwəməˈriːn/
                                     "en-US"),
@@ -430,13 +331,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: aquamarine (derived forms: aquamarines)
 1. A transparent variety of beryl that is blue green in colour
  
 2. A shade of blue tinged with green (= greenish blue, aqua, turquoise, cobalt blue, peacock blue)
-"""),
+""",
+          )
         ],
       ),
     );

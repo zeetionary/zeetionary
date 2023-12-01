@@ -164,56 +164,23 @@ class EnglishEntryamoeba extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (ناو) زیندەوەرێکی سەرەتایی کە لە یەک خانە پێکھاتووە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) زیندەوەرێکی سەرەتایی کە لە یەک خانە پێکھاتووە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He is studying the ecology of amoeba.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He is studying the ecology of amoeba."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "توێژینەوە دەکات لەسەر ژینگەناسیی ئەمیبا",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "توێژینەوە دەکات لەسەر ژینگەناسیی ئەمیبا"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakamoeba352477("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakamoeba352477(
                                     // REPLACE: amoeba /əˈmiːbə/
                                     "en-US"),
@@ -264,12 +231,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: amoeba (derived forms: amoebae, amoebas)
 Usage: N. Amer (elsewhere: amoeba)
 1. Naked freshwater, marine or parasitic protozoa that form temporary pseudopods for feeding and locomotion (= amoeba)
-'''),
+""",
+          )
         ],
       ),
     );

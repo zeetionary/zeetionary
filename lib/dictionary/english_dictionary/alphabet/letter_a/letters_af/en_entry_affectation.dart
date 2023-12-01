@@ -157,55 +157,21 @@ class EnglishEntryaffectation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: (وا)خۆنیشان‌دان، (وا)خۆنواندن، واخۆدەرخستن، ھەڵس‌وکەوت یان جووڵانەوەی بەدرۆ، ئەدا (دەرھێنان)، تەوروئەدا، قەمزەوناز، نازوئەدا، کزونیر، خۆتەنگ‌کردنەوە، ناز
 
-١. (ناو) گفت و ڕەفتار کە سرووشتی نییە و ئامانج لێی ئەوەیە کەسانی تر سەرسام بکەی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) گفت و ڕەفتار کە سرووشتی نییە و ئامانج لێی ئەوەیە کەسانی تر سەرسام بکەی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She has many annoying little affectations.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ژمارەیەکی زۆر مەکربازیی بچووکی ھەیە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She has many annoying little affectations."),
+                              const ExampleSentenceKurdish(
+                                  text: "ژمارەیەکی زۆر مەکربازیی بچووکی ھەیە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAffecta25699("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAffecta25699(
                                     // REPLACE: affectation /ˌæfekˈteɪʃn/
                                     "en-US"),
@@ -215,43 +181,16 @@ class EnglishEntryaffectation extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He raised his eyebrows with an affectation of surprise (= pretending to be surprised).",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "برۆیەکانی بەرزکردەوە بە خۆنواندنی ئەوەی کە سەرسامە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He raised his eyebrows with an affectation of surprise (= pretending to be surprised)."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "برۆیەکانی بەرزکردەوە بە خۆنواندنی ئەوەی کە سەرسامە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAffect6277("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAffect6277(
                                     // REPLACE: affectation /ˌæfekˈteɪʃn/
                                     "en-US"),
@@ -300,11 +239,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: affectation (derived forms: affectations)
 1. A deliberate pretence or exaggerated display (= mannerism, pose, affectedness)
-'''),
+""",
+          )
         ],
       ),
     );

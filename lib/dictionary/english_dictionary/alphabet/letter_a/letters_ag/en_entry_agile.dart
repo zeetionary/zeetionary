@@ -158,50 +158,20 @@ class EnglishEntryagile extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: چالاک، گورج، ھەڵسووڕ، چاپک، مەزبووت، گورج‌وگۆڵ، توندوتۆڵ، زرنگ، زیرەک، زووبیرکەرەوە
 
-١. (ھاوەڵناو) ھەبوونی توانای خێرا و ئاسان جوڵان''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) ھەبوونی توانای خێرا و ئاسان جوڵان"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Monkeys are very agile climbers.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "Monkeys are very agile climbers."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "مەیموون پیاھەڵگژی گورجە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "مەیموون پیاھەڵگژی گورجە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAgile15621("en-GB"),
                               ),
                               IconButton(
@@ -217,48 +187,20 @@ class EnglishEntryagile extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ھاوەڵناو) ھەبوونی توانای بیرکردنەوە بەخێرایی و زیرەکانە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ھاوەڵناو) ھەبوونی توانای بیرکردنەوە بەخێرایی و زیرەکانە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "For a man of 80, he has a remarkably agile mind.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "For a man of 80, he has a remarkably agile mind."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لەگەڵ ئەوەی ٨٠ ساڵە، ھێشتا بیر و ھۆشێکی زرنگی ھەیە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لەگەڵ ئەوەی ٨٠ ساڵە، ھێشتا بیر و ھۆشێکی زرنگی ھەیە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAgi1778("en-GB"),
                               ),
                               IconButton(
@@ -274,48 +216,20 @@ class EnglishEntryagile extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٣. (ھاوەڵناو) جۆرێکی کارکردن کە تێیدا کارێک بەش بەش لەگەڵ ناوبڕ لانێوانیاندا بۆ ھەڵسەنگاندن''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٣. (ھاوەڵناو) جۆرێکی کارکردن کە تێیدا کارێک بەش بەش لەگەڵ ناوبڕ لانێوانیاندا بۆ ھەڵسەنگاندن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "They used agile methods to complete difficult tasks.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "They used agile methods to complete difficult tasks."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە کۆمپانیاکە کارەکانیان بەش بەش دەکرد.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لە کۆمپانیاکە کارەکانیان بەش بەش دەکرد."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAgil56663("en-GB"),
                               ),
                               IconButton(
@@ -372,8 +286,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: agile
 1. Moving quickly and lightly (= nimble, quick, spry)
 "sleek and agile as a gymnast";
@@ -382,7 +296,8 @@ class EnglishMeaning extends StatelessWidget {
 "an agile mind";
 
 3. Describes a method of project management (esp. software development), having short flexible work phases with regular adaption of plans as required to complete the work
-'''),
+""",
+          )
         ],
       ),
     );

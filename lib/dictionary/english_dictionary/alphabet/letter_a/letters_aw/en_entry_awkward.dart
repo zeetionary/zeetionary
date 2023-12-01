@@ -209,51 +209,20 @@ class EnglishEntryawkward extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: نەگونجاو، نالەبار، نەشیاو، ناشارەزا، سەرەندەرنەکردوو، دەس‌خاو، ناوەستایانە، ناشی، سەخت، گران، دژوار، چەتوون، ناخۆش، سەرلێ‌شێواو، پەشۆکاو، ناڕێک، ناقۆڵا، قۆڕ، ناجۆر، قەبە، ناتەرز، بارناخۆش، نالەبار، نابار، خراپ‌ھەڵکەوتوو، مەترسی‌دار، جێی‌ترس
 
-١. (ھاوەڵناو) بەشێوەیەک کە تووشی شەرمت دەکات""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) بەشێوەیەک کە تووشی شەرمت دەکات"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "There was an awkward silence.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "There was an awkward silence."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بێ‌دەنگییەکی شەرمھێنەر بوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "بێ‌دەنگییەکی شەرمھێنەر بوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAwkwards1("en-GB"),
                               ),
                               IconButton(
@@ -272,39 +241,16 @@ class EnglishEntryawkward extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "I felt awkward because they obviously wanted to be alone.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I felt awkward because they obviously wanted to be alone."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەستم بە شەرم دەکرد چونکە ئاشکرا بوو دەیانویست تەنھا بن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەستم بە شەرم دەکرد چونکە ئاشکرا بوو دەیانویست تەنھا بن."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAwkwards2("en-GB"),
                               ),
                               IconButton(
@@ -321,49 +267,19 @@ class EnglishEntryawkward extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ھاوەڵناو) شتێک کە ئاسان نییە مامەڵەی لەگەڵ بکەیت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ھاوەڵناو) شتێک کە ئاسان نییە مامەڵەی لەگەڵ بکەیت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "You've put me in an awkward position.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "You've put me in an awkward position."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "منت خستووەتە بارودۆخێکی نالەبارەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "منت خستووەتە بارودۆخێکی نالەبارەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAwkwards3("en-GB"),
                               ),
                               IconButton(
@@ -380,49 +296,18 @@ class EnglishEntryawkward extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٣. (ھاوەڵناو) نەگونجاو""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٣. (ھاوەڵناو) نەگونجاو"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "Have I come at an awkward time?",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "Have I come at an awkward time?"),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە کاتێکی نەگونجاو ھاتووم؟.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "لە کاتێکی نەگونجاو ھاتووم؟."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAwkwards4("en-GB"),
                               ),
                               IconButton(
@@ -439,49 +324,20 @@ class EnglishEntryawkward extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٤. (ھاوەڵناو) گران یان مەترسیدار بەھۆی شێوە و دیزاین""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٤. (ھاوەڵناو) گران یان مەترسیدار بەھۆی شێوە و دیزاین"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "This box is very awkward for one person to carry.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "This box is very awkward for one person to carry."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەم سندووقە زۆر نەشیاوە بۆ ھەڵگرتنی لەلایەن یەک کەس.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەم سندووقە زۆر نەشیاوە بۆ ھەڵگرتنی لەلایەن یەک کەس."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAwkwards5("en-GB"),
                               ),
                               IconButton(
@@ -498,49 +354,20 @@ class EnglishEntryawkward extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٥. (ھاوەڵناو) نا ئاسوودە؛ ڕۆشتن بەشێوەیەکی ناڕاست""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٥. (ھاوەڵناو) نا ئاسوودە؛ ڕۆشتن بەشێوەیەکی ناڕاست"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "I must have slept in an awkward position—I'm aching all over.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I must have slept in an awkward position—I'm aching all over."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دەبێت لەسەر لایەکی خراپ خەوتبم، تەواوی جەستەم دێشێ.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دەبێت لەسەر لایەکی خراپ خەوتبم، تەواوی جەستەم دێشێ."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAwkwards6("en-GB"),
                               ),
                               IconButton(
@@ -599,8 +426,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 Adjective: awkward (derived forms: awkwarder, awkwardest)
 1. Causing inconvenience
 "they arrived at an awkward time"
@@ -619,7 +446,8 @@ Adjective: awkward (derived forms: awkwarder, awkwardest)
  
 6. Socially uncomfortable; unsure and constrained in manner (= ill at ease, uneasy)
 "awkward and reserved at parties";
-"""),
+""",
+          )
         ],
       ),
     );

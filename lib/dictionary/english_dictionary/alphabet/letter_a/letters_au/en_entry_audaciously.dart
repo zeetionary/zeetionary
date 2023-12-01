@@ -212,50 +212,22 @@ class EnglishEntryaudaciously extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: ئازایانە، چاونەترسانە، جەربەزانە
 
-١. (ھاوەڵناو) بەشێوەیەک کە ئامادەی سەرکێشی ئەنجام بدەیت بەشێوەیەک خەڵکی سەرسام بکات""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) بەشێوەیەک کە ئامادەی سەرکێشی ئەنجام بدەیت بەشێوەیەک خەڵکی سەرسام بکات"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He audaciously applied for a promotion after only two months on the job.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He audaciously applied for a promotion after only two months on the job."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "چاونەترسانە داوای پلەبەرزکردنەوەی کرد تەنھا دوای دوو مانگ لە بوون لە کارەکە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "چاونەترسانە داوای پلەبەرزکردنەوەی کرد تەنھا دوای دوو مانگ لە بوون لە کارەکە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAudaciously1239("en-GB"),
                               ),
                               IconButton(
@@ -314,12 +286,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adverb: audaciously 
 1. In an audacious manner
 "an idea so daring and yet so audaciously tempting that a shiver of excitement quivered through him"
-"""),
+""",
+          )
         ],
       ),
     );

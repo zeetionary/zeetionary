@@ -157,55 +157,22 @@ class EnglishEntryadornment extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: جوان‌کردن، خەمڵاندن، ڕازاندنەوە، نەخشاندن، ئاڕایشت، خەمڵ، خشڵ، زەنبەر، شتی ڕازاندنەوە، سەروپۆتلاک
 
-١. (ناو) خشڵ و ئارایشتە جوانکاری''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) خشڵ و ئارایشتە جوانکاری"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "A plain necklace was her only adornment.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ملوانکەیەکی سادە تەنھا خشڵ بوو بەست بووی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "A plain necklace was her only adornment."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ملوانکەیەکی سادە تەنھا خشڵ بوو بەست بووی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdornm79534("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdornm79534(
                                     // REPLACE: adornment /əˈdɔːrnmənt/
                                     "en-US"),
@@ -213,53 +180,20 @@ class EnglishEntryadornment extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) جەانکاری و ڕازاندنەوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) جەانکاری و ڕازاندنەوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Precious stones have been used for the purposes of adornment for over 7000 years.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بەردی گرانبەھا بۆ ڕازاندنەوە بەکارھاتوون بۆ زیاتر لە ٧٠٠٠ ساڵ",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Precious stones have been used for the purposes of adornment for over 7000 years."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بەردی گرانبەھا بۆ ڕازاندنەوە بەکارھاتوون بۆ زیاتر لە ٧٠٠٠ ساڵ"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAd25698("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAd25698(
                                     // REPLACE: adornment /əˈdɔːrnmənt/
                                     "en-US"),
@@ -308,13 +242,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: adornment (derived forms: adornments)
 1. A decoration of colour or interest that is added to relieve plainness
  
 2. The action of decorating yourself with something colourful and interesting
-'''),
+""",
+          )
         ],
       ),
     );

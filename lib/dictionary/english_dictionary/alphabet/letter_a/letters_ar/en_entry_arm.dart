@@ -242,50 +242,20 @@ class EnglishEntryarm extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: دەس(ت)، باڵ، بازۆڵە، بازوو، باسک، قۆڵ، بەوش، باوش، باوەش، باخڵ، ھەنگڵ، لق، تا، بەشی کرداری گروپ، ڕێکخراوە، دامەزراوە یان چالاکی‌یێ، دەسک، جێ‌دەس، دەستە، چەک، تەرک، ھێز، دەسەڵات، (ڕووبار) لق
 
-١. (ناو) دەست؛ دوو بەشی جەستە کە لە شانەوە درێژەبنەوە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) دەست؛ دوو بەشی جەستە کە لە شانەوە درێژەبنەوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She threw her arms around his neck.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "She threw her arms around his neck."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دەستەکانی بەدەوری ملیدا بادا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "دەستەکانی بەدەوری ملیدا بادا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArm127("en-GB"),
                               ),
                               IconButton(
@@ -304,38 +274,16 @@ class EnglishEntryarm extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He was running forward, waving his arms.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He was running forward, waving his arms."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بۆ پێشەوە ڕای‌دەکرد و دەستەکانی ڕادەوەشاند.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بۆ پێشەوە ڕای‌دەکرد و دەستەکانی ڕادەوەشاند."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArm129("en-GB"),
                               ),
                               IconButton(
@@ -352,48 +300,19 @@ class EnglishEntryarm extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ناو) قۆڵی جلوبەرگ؛ ئەو بەشەی جلوبەرگ کە قۆڵ دادەپۆشێت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) قۆڵی جلوبەرگ؛ ئەو بەشەی جلوبەرگ کە قۆڵ دادەپۆشێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The arms will need shortening.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "The arms will need shortening."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "قۆڵەکەی پێویستیی بە کورتکردنەوە ھەیە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "قۆڵەکەی پێویستیی بە کورتکردنەوە ھەیە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArm131("en-GB"),
                               ),
                               IconButton(
@@ -410,48 +329,19 @@ class EnglishEntryarm extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٣. (ناو) لایەکانی کورسییەکەت کە دەستی لەسەر دادەنێیت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٣. (ناو) لایەکانی کورسییەکەت کە دەستی لەسەر دادەنێیت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She perched on the arm of his chair.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "She perched on the arm of his chair."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لەسەر جێ‌دەستی کورسییەکەی ئەو دانیشت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لەسەر جێ‌دەستی کورسییەکەی ئەو دانیشت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArm134("en-GB"),
                               ),
                               IconButton(
@@ -468,48 +358,20 @@ class EnglishEntryarm extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٤. (ناو) پارچەیەکی جوڵاوی ئامێرێک یان شتێکی تر""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٤. (ناو) پارچەیەکی جوڵاوی ئامێرێک یان شتێکی تر"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The fuel filler door is opened by a robotic arm.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The fuel filler door is opened by a robotic arm."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "تانکی بەنزینەکە دەکرێتەوە لەلایەن باڵێکی ڕۆبۆتییەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "تانکی بەنزینەکە دەکرێتەوە لەلایەن باڵێکی ڕۆبۆتییەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArm138("en-GB"),
                               ),
                               IconButton(
@@ -526,48 +388,20 @@ class EnglishEntryarm extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٥. (ناو) ڕێڕەوێکی بچووکی ئاو یان پارچە زەوی کە دەگەیەت بە یەکێکی گەورەتر""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٥. (ناو) ڕێڕەوێکی بچووکی ئاو یان پارچە زەوی کە دەگەیەت بە یەکێکی گەورەتر"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "A small bridge spans the arm of the river.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "A small bridge spans the arm of the river."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پردێکی بچووک بەسەر لقە ئاوەکەدا دەپەڕێتەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پردێکی بچووک بەسەر لقە ئاوەکەدا دەپەڕێتەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArm138("en-GB"),
                               ),
                               IconButton(
@@ -584,48 +418,20 @@ class EnglishEntryarm extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٦. (ناو) بەشێکی بچووکی دامەزراوەیەکی گەورەتر کە تەنھا یەک چالاکی ھەیە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٦. (ناو) بەشێکی بچووکی دامەزراوەیەکی گەورەتر کە تەنھا یەک چالاکی ھەیە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The bank plans to sell part of its US arm.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The bank plans to sell part of its US arm."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بانکەکە پلانی ھەیە بەشێکی لقی ئەمریکای بفرۆشێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بانکەکە پلانی ھەیە بەشێکی لقی ئەمریکای بفرۆشێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArm148("en-GB"),
                               ),
                               IconButton(
@@ -642,48 +448,20 @@ class EnglishEntryarm extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٧. (کردار) پێدانی چەک یان شتێکی تر بە کەسێک یان بەدەستخستنی بۆ خۆت بۆ ئەوەی پێێ بجەنگیت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٧. (کردار) پێدانی چەک یان شتێکی تر بە کەسێک یان بەدەستخستنی بۆ خۆت بۆ ئەوەی پێێ بجەنگیت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The men armed themselves with sticks and stones.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The men armed themselves with sticks and stones."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پیاوەکان بە دار و بەرد خۆیان قایم‌کرد.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پیاوەکان بە دار و بەرد خۆیان قایم‌کرد."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArm151("en-GB"),
                               ),
                               IconButton(
@@ -702,38 +480,16 @@ class EnglishEntryarm extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The country was arming against the enemy.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The country was arming against the enemy."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "وڵاتەکە خۆی چەکدار دەکرد دژ بە دووژمنەکەی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وڵاتەکە خۆی چەکدار دەکرد دژ بە دووژمنەکەی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArm152("en-GB"),
                               ),
                               IconButton(
@@ -750,48 +506,20 @@ class EnglishEntryarm extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٨. (کردار) پێدانی زانیاری بە کەسێک یان بەدەستخستنی بۆ خۆت بۆ تەواوکردنی شتێک""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٨. (کردار) پێدانی زانیاری بە کەسێک یان بەدەستخستنی بۆ خۆت بۆ تەواوکردنی شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She armed herself for the interview by finding out all she could about the company in advance.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She armed herself for the interview by finding out all she could about the company in advance."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پێش‌وەختە خۆی ئامادەکرد بۆ چاوپێکەوتنەکە بە دۆزینەوەی ھەر شتێک کە دەیتوانی بیکات سەبارەت بە کۆمپانیاکە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پێش‌وەختە خۆی ئامادەکرد بۆ چاوپێکەوتنەکە بە دۆزینەوەی ھەر شتێک کە دەیتوانی بیکات سەبارەت بە کۆمپانیاکە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArm156("en-GB"),
                               ),
                               IconButton(
@@ -850,8 +578,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: arm (derived forms: arms)
 1. A human limb; technically the part of the superior limb between the shoulder and the elbow but commonly used to refer to the whole superior limb
  
@@ -872,7 +600,8 @@ class EnglishMeaning extends StatelessWidget {
  
 2. Supply with arms
 "The U.S. armed the freedom fighters in Afghanistan"
-"""),
+""",
+          )
         ],
       ),
     );

@@ -205,51 +205,22 @@ class EnglishEntryavailability extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: ھەبوون، زۆری، بەدەستەوەبوون، لەبەردەستابوون، دەس‌پێڕاگەیشتن، بەردەستی
 
-١. (ناو) بەردەستێتی شتێک""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) بەردەستێتی شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "There is limited ticket availability, so book early to avoid disappointment.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "There is limited ticket availability, so book early to avoid disappointment."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ڕێژەی بەردەستێتی بلیت سنووردارە، بۆیە زوو شوێنێک بگرە بۆ ئەوەی تووشی نائومێدی نەبی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕێژەی بەردەستێتی بلیت سنووردارە، بۆیە زوو شوێنێک بگرە بۆ ئەوەی تووشی نائومێدی نەبی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAvailabilitys1("en-GB"),
                               ),
                               IconButton(
@@ -266,49 +237,20 @@ class EnglishEntryavailability extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ناو) ھەبوونی کات بۆ بینین یان قسەکردن لەگەڵ خەڵکی""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) ھەبوونی کات بۆ بینین یان قسەکردن لەگەڵ خەڵکی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "Check her availability before you schedule the meeting.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Check her availability before you schedule the meeting."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پێش ئەوەی چاوپێکەوتنەکە ڕێکبخەیت بزانە کاتی دەبێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پێش ئەوەی چاوپێکەوتنەکە ڕێکبخەیت بزانە کاتی دەبێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAvailabilitys2("en-GB"),
                               ),
                               IconButton(
@@ -367,11 +309,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: availability (derived forms: availabilities)
 1. The quality of being at hand when needed (= handiness, accessibility, availableness)
-"""),
+""",
+          )
         ],
       ),
     );

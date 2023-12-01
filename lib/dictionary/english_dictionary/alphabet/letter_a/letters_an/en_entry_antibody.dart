@@ -206,58 +206,25 @@ class EnglishEntryantibody extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: نەھێڵەلەش، ئەنتی‌بادی، دژەتەن، دژەتەن
 
-١. (ناو) مادەیەک کە لەش درووستی‌دەکات لە خوێندا، یان وەک کاردانەوە دژ بە شتێک کە دەخرێتە لەشەوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) مادەیەک کە لەش درووستی‌دەکات لە خوێندا، یان وەک کاردانەوە دژ بە شتێک کە دەخرێتە لەشەوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Antibodies found in breast milk protect newborn babies against infection.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Antibodies found in breast milk protect newborn babies against infection."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەو دژەتەنانەی لە شیری سرووشتیدان منداڵی ساوا دەپارێزن لە نەخۆشی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەو دژەتەنانەی لە شیری سرووشتیدان منداڵی ساوا دەپارێزن لە نەخۆشی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAntibody1019("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAntibody1019(
                                     // REPLACE: antibody /ˈæntibɑːdi/
                                     "en-US"),
@@ -308,11 +275,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: antibody (derived forms: antibodies)
 1. Any of a large variety of proteins normally present in the body or produced in response to an antigen which it neutralizes, thus producing an immune response
-'''),
+""",
+          )
         ],
       ),
     );

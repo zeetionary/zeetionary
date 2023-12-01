@@ -212,58 +212,25 @@ class EnglishEntryasparagus extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: (ڕووەک‌ناسی) گەوڵەزەر؟، بەنارۆمی؟، مارچێوە، ترچک
 
-١. (ناو) ڕووەکێکە کە قەدی سپی یان سەوزی ھەیە کە دەکوڵێندرێن و دەخورێن""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ڕووەکێکە کە قەدی سپی یان سەوزی ھەیە کە دەکوڵێندرێن و دەخورێن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Asparagus is a good source of vitamins A, C, and K, as well as fiber and potassium.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Asparagus is a good source of vitamins A, C, and K, as well as fiber and potassium."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەسپارگس ڤیتامین A و C و K تێدایە لەگەڵ ڕیشاڵ و پۆتاسیۆم.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەسپارگس ڤیتامین A و C و K تێدایە لەگەڵ ڕیشاڵ و پۆتاسیۆم."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAsparagus444("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAsparagus444(
                                     // REPLACE: asparagus /əˈspærəɡəs/
                                     "en-US"),
@@ -314,13 +281,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: asparagus (derived forms: asparaguses)
 1. Plant whose succulent young shoots are cooked and eaten as a vegetable (= edible asparagus, Asparagus officinales)
  
 2. Edible young shoots of the asparagus plant
-"""),
+""",
+          )
         ],
       ),
     );

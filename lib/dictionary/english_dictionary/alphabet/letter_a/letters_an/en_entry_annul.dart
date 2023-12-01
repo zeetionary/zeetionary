@@ -205,48 +205,20 @@ class EnglishEntryannul extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (کردار) بەفەرمی وتنی ئەوەی شتێک لەڕووی یاساییەوە نەناسراوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (کردار) بەفەرمی وتنی ئەوەی شتێک لەڕووی یاساییەوە نەناسراوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Their marriage was annulled after just six months.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Their marriage was annulled after just six months."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھاوسەرگیرییەکەیان ھەڵوەشێندرایەوە لەدوای تەنھا شەش مانگ.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھاوسەرگیرییەکەیان ھەڵوەشێندرایەوە لەدوای تەنھا شەش مانگ."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnnul859("en-GB"),
                               ),
                               IconButton(
@@ -305,15 +277,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Verb: annul (derived forms: annuls, annulled, annulling)
 1. Declare invalid (= invalidate, quash, void, avoid, nullify)
 "The contract was annulled";
  
 2. Cancel officially (= revoke, lift, countermand, reverse, repeal, overturn, rescind, vacate)
 "He annulled the ban on smoking";
-'''),
+""",
+          )
         ],
       ),
     );

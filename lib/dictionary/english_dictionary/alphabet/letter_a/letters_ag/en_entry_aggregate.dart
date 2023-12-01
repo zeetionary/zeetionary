@@ -158,58 +158,25 @@ class EnglishEntryaggregate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: کۆوەبوو، کەڵەکەکراو، کەڵەکەبەند، (لە) سەرجەم، لە کۆدا، کۆ، سەرجەم، تێکڕایی، گشتی، کۆمەڵە، دەستە، گروپ، ئاپۆرە، کۆمەڵکە، کۆما، کۆگا، تۆپەڵکە، ورکەبەرد (لە ڕێگاوبان و خانووبەرەدا
 
-١. (ناو) کۆی گشتی چەند یەکەیەکی بچووکتر''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کۆی گشتی چەند یەکەیەکی بچووکتر"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The three smaller parties gained an aggregate of 25 per cent of the vote.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The three smaller parties gained an aggregate of 25 per cent of the vote."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەر سێ پارتەکە پێکەوە ٢٥٪ دەنگەکانیان بەدەستھێنا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەر سێ پارتەکە پێکەوە ٢٥٪ دەنگەکانیان بەدەستھێنا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAggreg2622("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAggreg2622(
                                     // REPLACE: aggregate /ˈæɡrɪɡət/
                                     "en-US"),
@@ -217,56 +184,23 @@ class EnglishEntryaggregate extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (کردار) تێکڕای کۆمەڵە شتێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (کردار) تێکڕای کۆمەڵە شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The company aggregates news and information from a number of sources on its website.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The company aggregates news and information from a number of sources on its website."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کۆمپانیاکە ھەواڵ و زانیاری لە ژمارەیەک سەرچاوەوە کۆدەکاتەوە لەسەر وێبسایتەکەی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کۆمپانیاکە ھەواڵ و زانیاری لە ژمارەیەک سەرچاوەوە کۆدەکاتەوە لەسەر وێبسایتەکەی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAggre35944("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAggre35944(
                                     // REPLACE: aggregate /ˈæɡrɪɡət/
                                     "en-US"),
@@ -274,56 +208,23 @@ class EnglishEntryaggregate extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٣. (ھاوەڵناو) درووستبوو بە تێکڕای کۆمەڵە ژمارەیەک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٣. (ھاوەڵناو) درووستبوو بە تێکڕای کۆمەڵە ژمارەیەک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The seven companies made an aggregate profit of 10 million dollars.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The seven companies made an aggregate profit of 10 million dollars."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەر حەوت کۆمپانیاکە پێکەوە ١٠ ملیۆن دۆلار قازانجیان کرد.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەر حەوت کۆمپانیاکە پێکەوە ١٠ ملیۆن دۆلار قازانجیان کرد."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAggreg5266("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAggreg5266(
                                     // REPLACE: aggregate /ˈæɡrɪɡət/
                                     "en-US"),
@@ -372,8 +273,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: aggregate (derived forms: aggregating, aggregates, aggregated)
 1. A sum total of many heterogenous things taken together (= congeries, conglomeration)
  
@@ -392,7 +293,8 @@ class EnglishMeaning extends StatelessWidget {
 1. Amount in the aggregate to
  
 2. Gather in a mass, sum, or whole (= combine)
-'''),
+""",
+          )
         ],
       ),
     );

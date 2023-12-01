@@ -156,58 +156,25 @@ class EnglishEntryaforementioned extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ناوبراو، نێودێرکراو، لەوەپێش‌گوتراو، باس‌کراو، لەسەرۆھاتوو
 
-١. (ھاوەڵناو) کەسێک یان شتێک کە پێشتر باسکراوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) کەسێک یان شتێک کە پێشتر باسکراوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The aforementioned person was seen acting suspiciously.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The aforementioned person was seen acting suspiciously."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ناوبراو بینرا کە بە گومانەوە ڕەفتاری دەکرد.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ناوبراو بینرا کە بە گومانەوە ڕەفتاری دەکرد."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAforemen96("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAforemen96(
                                     // REPLACE: aforementioned /əˈfɔːmenʃənd/,  /əˌfɔːˈmenʃənd/
                                     "en-US"),
@@ -256,12 +223,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: aforementioned 
 1. Being the one previously mentioned or spoken of (= aforesaid, said, aforenamed)
 "works of all the aforementioned authors";
-'''),
+""",
+          )
         ],
       ),
     );

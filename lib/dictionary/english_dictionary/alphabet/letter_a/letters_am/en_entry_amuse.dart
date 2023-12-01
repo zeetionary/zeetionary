@@ -204,48 +204,20 @@ class EnglishEntryamuse extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (کردار) خستنەپێکەنین''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (کردار) خستنەپێکەنین"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I've brought an article from yesterday's paper that I thought might amuse you.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I've brought an article from yesterday's paper that I thought might amuse you."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "وتارێکم لە چاپی دوێنێی ڕۆژنامەکە ھێناوە کە پێم‌وایە دەتخاتە پێکەنین.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وتارێکم لە چاپی دوێنێی ڕۆژنامەکە ھێناوە کە پێم‌وایە دەتخاتە پێکەنین."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAmuse448096("en-GB"),
                               ),
                               IconButton(
@@ -304,15 +276,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Verb: amuse (derived forms: amuses, amusing, amused)
 1. Occupy in an agreeable, entertaining or pleasant fashion (= divert, disport)
 "The play amused the ladies";
  
 2. Make (somebody) laugh
 "The clown amused the children"
-'''),
+""",
+          )
         ],
       ),
     );

@@ -212,50 +212,22 @@ class EnglishEntryauspicious extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: پیرۆز، مەبارەک، موبارەک، بەودم، بەھات، ھات، شوومی باشە، ھەزەخ، بەختەوەر، بەختیار
 
-١. (ھاوەڵناو) پیشاندانی ئاماژەی ئەوەی شتێک لە داھاتوودا سەرکەوتوو دەبێت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) پیشاندانی ئاماژەی ئەوەی شتێک لە داھاتوودا سەرکەوتوو دەبێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "It was an auspicious date for a wedding.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "It was an auspicious date for a wedding."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ڕێکەوتێکی پیرۆز بوو بۆ ھاوسەرگیرییەکە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕێکەوتێکی پیرۆز بوو بۆ ھاوسەرگیرییەکە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAuspicious438("en-GB"),
                               ),
                               IconButton(
@@ -314,12 +286,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: auspicious
 1. Auguring favourable circumstances and good luck
 "an auspicious beginning for the campaign"
-"""),
+""",
+          )
         ],
       ),
     );

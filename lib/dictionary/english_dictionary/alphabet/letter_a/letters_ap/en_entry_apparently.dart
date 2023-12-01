@@ -211,58 +211,24 @@ class EnglishEntryapparently extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: بەڕواڵەت، لەو جۆرەی کەوا دیارە، وادیارە، باقڵ، بە ئەقڵ، گوایە، ویدەچێ
 
-١. (ھاوەڵناو) بەپێی ئەوەی بیستووتە یان خوێندووتەوە؛ بەپێی ئەوەی دەردەکەوێ""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) بەپێی ئەوەی بیستووتە یان خوێندووتەوە؛ بەپێی ئەوەی دەردەکەوێ"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Apparently they are getting divorced soon.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Apparently they are getting divorced soon."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "وادیارە بەم‌نزیکانە جیادەبنەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "وادیارە بەم‌نزیکانە جیادەبنەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakApparently907("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakApparently907(
                                     // REPLACE: apparently /əˈpærəntli/
                                     "en-US"),
@@ -273,46 +239,19 @@ class EnglishEntryapparently extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I thought she had retired, but apparently she hasn't.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I thought she had retired, but apparently she hasn't."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "وامزانی خانەنشین‌بووە، بەڵام وادیارە وانییە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وامزانی خانەنشین‌بووە، بەڵام وادیارە وانییە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakApparently909("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakApparently909(
                                     // REPLACE: apparently /əˈpærəntli/
                                     "en-US"),
@@ -363,15 +302,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adverb: apparently 
 1. From appearances alone (= seemingly, ostensibly, on the face of it)
 "irrigation often produces bumper crops from apparently desert land";
  
 2. Unmistakably; visibly clear; in an evident manner (= obviously, evidently, manifestly, patently, plainly, plain, obvs [non-standard, informal], clearly)
 "she has apparently been living here for some time"; "I thought he owned the property, but apparently not";
-"""),
+""",
+          )
         ],
       ),
     );

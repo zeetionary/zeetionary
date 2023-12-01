@@ -157,55 +157,22 @@ class EnglishEntryaffection extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: خۆشەویستی، دڵ‌تێچوون، دڵ‌پێدان، دڵ‌بەستەیی، ئەڤینداری، میر، حەز، ویست، مەیل، ئارەزوو، ھۆگری، سۆز، سۆزداری، نەخۆشی، تووش‌بوون، (پیا)پیاکران، گرتن، دوچار بوون، پێوەبوون، کارتێ‌کردن، کارلێ‌کردن، کارتێ‌کران
 
-١. (ناو) سۆز و خۆشەویستی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) سۆز و خۆشەویستی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Children need lots of love and affection.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "منداڵان پێویستیان بە سۆز و خەشەویستی زۆر ھەیە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Children need lots of love and affection."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "منداڵان پێویستیان بە سۆز و خەشەویستی زۆر ھەیە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAffe6811("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAffe6811(
                                     // REPLACE: affection /əˈfekʃn/
                                     "en-US"),
@@ -215,43 +182,15 @@ class EnglishEntryaffection extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I have a great affection for New York.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "خۆشەویستی زۆرم بۆ نیویۆرک ھەیە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I have a great affection for New York."),
+                              const ExampleSentenceKurdish(
+                                  text: "خۆشەویستی زۆرم بۆ نیویۆرک ھەیە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAffec3599("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAffec3599(
                                     // REPLACE: affection /əˈfekʃn/
                                     "en-US"),
@@ -300,12 +239,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: affection (derived forms: affections)
 1. A positive feeling of liking (= affectionateness, fondness, tenderness, heart, warmness, warmheartedness, philia)
 "he had trouble expressing the affection he felt";
-'''),
+""",
+          )
         ],
       ),
     );

@@ -211,58 +211,25 @@ class EnglishEntryanxiety extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: دڵەتەپە، دڵەخورپێ، دڵەڕاوکێ، خەتەرە، نگەرانی، ناڕەحەتی، خەم، پەرێشانی، ئارام‌لێ‌ھەڵگیراوی، تامەزرۆیی، گوڕوتین، پەرۆش، مەراق
 
-١. (ناو) دۆخی ھەستکردن بە شڵەژاوی و نیگەرانی سەبارەت بەوەی شتێکی خراپ ڕوودەدات''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) دۆخی ھەستکردن بە شڵەژاوی و نیگەرانی سەبارەت بەوەی شتێکی خراپ ڕوودەدات"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Some hospital patients experience high levels of anxiety.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Some hospital patients experience high levels of anxiety."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەندێک لە نەخۆشانی نەخۆشخانە بە دڵەڕاوکێی زۆردا تێپەڕدەبن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەندێک لە نەخۆشانی نەخۆشخانە بە دڵەڕاوکێی زۆردا تێپەڕدەبن."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnxiety651("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAnxiety651(
                                     // REPLACE: anxiety /æŋˈzaɪəti/
                                     "en-US"),
@@ -273,46 +240,19 @@ class EnglishEntryanxiety extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "A lot of anxiety surrounds the issue of human cloning.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "A lot of anxiety surrounds the issue of human cloning."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دڵەڕاوکێی زۆر ھەیە سەبارەت بۆ کۆپی‌کردنی مرۆڤ.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دڵەڕاوکێی زۆر ھەیە سەبارەت بۆ کۆپی‌کردنی مرۆڤ."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnxiety656("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAnxiety656(
                                     // REPLACE: anxiety /æŋˈzaɪəti/
                                     "en-US"),
@@ -321,56 +261,23 @@ class EnglishEntryanxiety extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) نەخۆشییەکی دەروونی کە دەبێتەھۆی ئەوەی کەسێک ھێندە زۆر نیگەران بێت کە کاریگەری نەرێنی زۆری لەسەریان ھەبێت''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) نەخۆشییەکی دەروونی کە دەبێتەھۆی ئەوەی کەسێک ھێندە زۆر نیگەران بێت کە کاریگەری نەرێنی زۆری لەسەریان ھەبێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Some people are feeling the pressure and suffering from anxiety and depression.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Some people are feeling the pressure and suffering from anxiety and depression."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەندێک کەس ھەست بە پەستان و ئازاری دڵەخورپە و بێزاری دەکەن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەندێک کەس ھەست بە پەستان و ئازاری دڵەخورپە و بێزاری دەکەن."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnxiety700("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAnxiety700(
                                     // REPLACE: anxiety /æŋˈzaɪəti/
                                     "en-US"),
@@ -379,56 +286,23 @@ class EnglishEntryanxiety extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٣. (ناو) نیگەرانی و ترس دەربارەی شتێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٣. (ناو) نیگەرانی و ترس دەربارەی شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "If you're worried about your health, share your anxieties with your doctor.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "If you're worried about your health, share your anxieties with your doctor."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەگەر نیگەرانیت بۆ تەندرووستیت، لای دکتۆرەکەت نیگەرانییەکانت باس بکە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەگەر نیگەرانیت بۆ تەندرووستیت، لای دکتۆرەکەت نیگەرانییەکانت باس بکە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnxiety705("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAnxiety705(
                                     // REPLACE: anxiety /æŋˈzaɪəti/
                                     "en-US"),
@@ -437,56 +311,23 @@ class EnglishEntryanxiety extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٤. (ناو) ھەستێکی بەھێز بۆ ویستنی کردنی شتێک یان ویستنی ڕوودانی شتێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٤. (ناو) ھەستێکی بەھێز بۆ ویستنی کردنی شتێک یان ویستنی ڕوودانی شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "A couple of photographers fell over themselves in their anxiety to get a shot of her.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "A couple of photographers fell over themselves in their anxiety to get a shot of her."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ژمارەیەک ڕۆژنامەنووس کەوتن بە مل خۆیاندا لە تامەزرۆییان بۆ گرتنی چەند وێنەیەکی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ژمارەیەک ڕۆژنامەنووس کەوتن بە مل خۆیاندا لە تامەزرۆییان بۆ گرتنی چەند وێنەیەکی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnxiety708("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAnxiety708(
                                     // REPLACE: anxiety /æŋˈzaɪəti/
                                     "en-US"),
@@ -537,13 +378,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: anxiety (derived forms: anxieties)
 1. (psychiatry) a relatively permanent state of worry and nervousness occurring in a variety of mental disorders, usually accompanied by compulsive behaviour or attacks of panic (= anxiousness)
  
 2. A vague unpleasant emotion that is experienced in anticipation of some (usually ill-defined) misfortun
-'''),
+""",
+          )
         ],
       ),
     );

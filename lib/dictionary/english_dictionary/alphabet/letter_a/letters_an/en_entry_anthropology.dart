@@ -206,56 +206,23 @@ class EnglishEntryanthropology extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (ناو) زانستی لێکۆڵینەوە لە مێژووی مرۆڤایەتی، بەتایبەتی سەرچاوە و گەشە و نەریت و باوەڕەکانی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) زانستی لێکۆڵینەوە لە مێژووی مرۆڤایەتی، بەتایبەتی سەرچاوە و گەشە و نەریت و باوەڕەکانی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Social anthropology examines family relationships in detail.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Social anthropology examines family relationships in detail."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "مرۆڤ‌ناسیی کۆمەڵایەتی بەوردی لێکۆڵینەوە دەکات لە پەیوەندیی خێزانی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "مرۆڤ‌ناسیی کۆمەڵایەتی بەوردی لێکۆڵینەوە دەکات لە پەیوەندیی خێزانی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnthropology845("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAnthropology845(
                                     // REPLACE: anthropology /ˌænθrəˈpɑːlədʒi/
                                     "en-US"),
@@ -306,11 +273,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: anthropology (derived forms: anthropologies)
 1. The social science that studies the origins and social relationships of human beings
-'''),
+""",
+          )
         ],
       ),
     );

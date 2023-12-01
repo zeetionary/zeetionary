@@ -205,13 +205,9 @@ class EnglishEntrybackbencher extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ناو) لە پەرلەماندا، کەسێکە کە لە پشتەوە دادەنیشێت و ڕۆڵێکی گرنگی نییە لە حکومەت یان ئۆپۆزسیۆندا""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                              // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                              """
+١. (ناو) لە پەرلەماندا، کەسێکە کە لە پشتەوە دادەنیشێت و ڕۆڵێکی گرنگی نییە لە حکومەت یان ئۆپۆزسیۆندا"""),
                           // Row(
                           //   children: [
                           //     const Expanded(
@@ -303,12 +299,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: backbencher (derived forms: backbenchers)
 Usage: Brit, Cdn
 1. A member of the House of Commons who is not a party leader
-"""),
+""",
+          )
         ],
       ),
     );

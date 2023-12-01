@@ -213,50 +213,22 @@ class EnglishEntryattainment extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: بەدەس‌ھێنان، گیرخستن، دەس‌خستن، گەیشتن، پێگەیشتن، سەرکەوتن، پێشکەوتن، دەسکەوت، بەرھەم، ھونەر، شارەزایی
 
-١. (ناو) شتێک کە بەدەستتھێناوە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) شتێک کە بەدەستتھێناوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "His scientific attainments are well known.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "His scientific attainments are well known."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بەدەستھێنانە زانستییەکانی شتێکی زانراوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بەدەستھێنانە زانستییەکانی شتێکی زانراوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAttainment730("en-GB"),
                               ),
                               IconButton(
@@ -273,48 +245,20 @@ class EnglishEntryattainment extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ناو) سەرکەوتن لە بەدەستھێنانی شتێک""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) سەرکەوتن لە بەدەستھێنانی شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She values educational attainment above all else.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She values educational attainment above all else."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بەدەستھێنانی خوێندن لە سەروو ھەموو شتێکی دادەنا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بەدەستھێنانی خوێندن لە سەروو ھەموو شتێکی دادەنا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAttainment732("en-GB"),
                               ),
                               IconButton(
@@ -373,8 +317,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: attainment (derived forms: attainments)
 1. The act of achieving an aim
 "the attainment of independence"
@@ -383,7 +327,8 @@ class EnglishMeaning extends StatelessWidget {
 "his attainment of puberty was delayed by malnutrition"
  
 3. An ability that has been acquired by training (= skill, accomplishment, acquirement, acquisition)
-"""),
+""",
+          )
         ],
       ),
     );

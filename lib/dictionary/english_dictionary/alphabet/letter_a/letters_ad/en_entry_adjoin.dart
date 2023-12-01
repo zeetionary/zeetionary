@@ -156,47 +156,19 @@ class EnglishEntryadjoin extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: 
 
-١. (کردار) بوون لە تەنیشت شتێک، یان گرێدراو پێوەی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (کردار) بوون لە تەنیشت شتێک، یان گرێدراو پێوەی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "It's at this point that these three neighbourhoods adjoin.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لەم خاڵەدایە کە ھەر سێ گەڕەکەکە یەکدەگرن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "It's at this point that these three neighbourhoods adjoin."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لەم خاڵەدایە کە ھەر سێ گەڕەکەکە یەکدەگرن."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdjo77444("en-GB"),
                               ),
                               IconButton(
@@ -253,8 +225,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Verb: adjoin (derived forms: adjoins, adjoining, adjoined)
 1. Lie adjacent to another or share a boundary (= border, edge, abut, march, butt, butt against, butt on)
 "Canada adjoins the U.S.";
@@ -264,7 +236,8 @@ class EnglishMeaning extends StatelessWidget {
  
 3. Attach or add
 "I adjoin a copy of my lawyer's letter"
-'''),
+""",
+          )
         ],
       ),
     );

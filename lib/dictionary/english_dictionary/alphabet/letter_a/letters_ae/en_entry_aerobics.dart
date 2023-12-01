@@ -155,14 +155,8 @@ class EnglishEntryaerobics extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (ناو) ڕاھێنانی جەستەیی بۆ بەھێزکردنی دڵ و سنگ، زۆرجار بەکۆمەڵ دەکرێت لەگەل میوزیک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          DefinitionKurdish(text: """
+١. (ناو) ڕاھێنانی جەستەیی بۆ بەھێزکردنی دڵ و سنگ، زۆرجار بەکۆمەڵ دەکرێت لەگەل میوزیک"""),
                         ],
                       ),
                     ),
@@ -205,11 +199,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: aerobics 
 1. Exercise that increases the need for oxygen (= aerobic exercise)
-'''),
+""",
+          )
         ],
       ),
     );

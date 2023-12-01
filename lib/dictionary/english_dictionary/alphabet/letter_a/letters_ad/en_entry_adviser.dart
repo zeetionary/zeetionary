@@ -156,47 +156,19 @@ class EnglishEntryadviser extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ڕاوێژکار، ڕاوێژەر، شیرەتڤان، ئامۆژگار، بەپرس‌وڕا
 
-١. (ناو) کەسێک کە کاری ڕاوێژکاری دەکات؛ ئامۆژگاری بە کەسێک دەدات''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کەسێک کە کاری ڕاوێژکاری دەکات؛ ئامۆژگاری بە کەسێک دەدات"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "You ought to consult an independent legal adviser.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پێویستە ڕاوێژ بە ڕاوێژکارێکی یاسایی سەربەخۆ بکەیت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "You ought to consult an independent legal adviser."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پێویستە ڕاوێژ بە ڕاوێژکارێکی یاسایی سەربەخۆ بکەیت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAd36528("en-GB"),
                               ),
                               IconButton(
@@ -253,12 +225,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: adviser (derived forms: advisers)
 1. An expert who gives advice (= advisor, consultant)
 "an adviser helped students select their courses";
-'''),
+""",
+          )
         ],
       ),
     );

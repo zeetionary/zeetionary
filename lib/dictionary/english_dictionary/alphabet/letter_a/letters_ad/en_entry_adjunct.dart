@@ -156,55 +156,21 @@ class EnglishEntryadjunct extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: پاشکۆ، سەرخستە، یاریدەدەر، کۆمەک، یارمەتی‌دەر، ئاوەڵکار یان فریزێ کە واتای کارەکە لە ڕستەدا یان لە بەشێکی ڕستەدا زیاد دەکا، ڕێزمان، شتی لاوەکی، بەشی زیادی یان سەرخراو
 
-١. (ناو) ھاوەڵکارێک یان دەستەواژەیەک کە واتا زیاددەکات بۆ کرداری ڕستەیەک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) شتێک کە زیاددەکرێت بۆ شتێکی تر''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ھاوەڵکارێک یان دەستەواژەیەک کە واتا زیاددەکات بۆ کرداری ڕستەیەک"""),
+                          const DefinitionKurdish(text: """
+٢. (ناو) شتێک کە زیاددەکرێت بۆ شتێکی تر"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The course would be a useful adjunct to my studies.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کۆرسەکە سەرخستەیەکی باش دەبێت بۆ خوێندنەکەم.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The course would be a useful adjunct to my studies."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کۆرسەکە سەرخستەیەکی باش دەبێت بۆ خوێندنەکەم."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdj58692("en-GB"),
                               ),
                               IconButton(
@@ -261,8 +227,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: adjunct (derived forms: adjuncts)
 1. Something added to another thing but not an essential part of it
  
@@ -275,7 +241,8 @@ class EnglishMeaning extends StatelessWidget {
 "an adjunct pump";
  
 2. Of or relating to a person who is subordinate to another (= assistant)
-'''),
+""",
+          )
         ],
       ),
     );

@@ -155,16 +155,10 @@ class EnglishEntryacrobat extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          DefinitionKurdish(text: """
 کوردی: تەناف‌باز، جامباز
 
-١. (ناو) کەسێک کە نمایشی گیانبازی دەکات، زۆرجار لە گرووپێکی سێرکس''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کەسێک کە نمایشی گیانبازی دەکات، زۆرجار لە گرووپێکی سێرکس"""),
                         ],
                       ),
                     ),
@@ -207,11 +201,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: acrobat (derived forms: acrobats)
 An athlete who performs acts requiring skill and agility and coordination
-'''),
+""",
+          )
         ],
       ),
     );

@@ -205,58 +205,25 @@ class EnglishEntryannulment extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ھەڵوەشاندنەوە، ھەڵوەشاندن، پووچەڵ‌کردنەوە، بەتاڵ‌کردنەوە، پووکاندنەوە
 
-١. (ناو) کرداری بەفەرمی ناساندنی ئەوەی شتێک، بەتایبەتی ھاوسەرگیری، لەڕووی یاساییەوە نەناسراوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کرداری بەفەرمی ناساندنی ئەوەی شتێک، بەتایبەتی ھاوسەرگیری، لەڕووی یاساییەوە نەناسراوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The king sought an annulment of his marriage to Catherine of Aragon.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The king sought an annulment of his marriage to Catherine of Aragon."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پاشا ھەوڵی‌دا ھەڵوەشاندنەوەی ھاوسەرگیرییەکەی لەگەڵ کاسرینی ئاراگۆن دا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پاشا ھەوڵی‌دا ھەڵوەشاندنەوەی ھاوسەرگیرییەکەی لەگەڵ کاسرینی ئاراگۆن دا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnnulment917("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAnnulment917(
                                     // REPLACE: annulment /əˈnʌlmənt/
                                     "en-US"),
@@ -307,15 +274,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: annulment (derived forms: annulments)
 1. The state of being cancelled or annulled (= revocation)
  
 2. (law) a formal termination (of a relationship or a judicial proceeding etc) (= invalidation)
  
 3. The act of abrogating; an official or legal cancellation (= abrogation, repeal)
-'''),
+""",
+          )
         ],
       ),
     );

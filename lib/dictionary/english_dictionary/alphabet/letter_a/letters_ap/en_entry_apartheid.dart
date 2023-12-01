@@ -208,56 +208,23 @@ class EnglishEntryapartheid extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ناو) سیستەمی پێشووتری حکومڕانیی ئەفریقای باشوور کە تێیدا تەنھا سپی‌پێستەکان مافی تەواوی سیاسییان ھەبوو و ئەوانی تر، بەتایبەتی ڕەشپێستەکان، ناچاردەکران بەجیا بژین و بچنە و قوتابخانە و دامەزراوەی دیکەی خۆیان""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) سیستەمی پێشووتری حکومڕانیی ئەفریقای باشوور کە تێیدا تەنھا سپی‌پێستەکان مافی تەواوی سیاسییان ھەبوو و ئەوانی تر، بەتایبەتی ڕەشپێستەکان، ناچاردەکران بەجیا بژین و بچنە و قوتابخانە و دامەزراوەی دیکەی خۆیان"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "During the late 1980s and 1990s, South Africa was undergoing its dramatic transition from apartheid to black majority rule.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "During the late 1980s and 1990s, South Africa was undergoing its dramatic transition from apartheid to black majority rule."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە ساڵانی ١٩٨٠ و ١٩٩٠ ەکان ئەفریقای باشوور بە بە گۆڕانی بەرچاو تێدەپەڕی لە سیستەمی ئەپارتەیدەوە بۆ سیستەمی زۆرینە ڕەشپێست.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لە ساڵانی ١٩٨٠ و ١٩٩٠ ەکان ئەفریقای باشوور بە بە گۆڕانی بەرچاو تێدەپەڕی لە سیستەمی ئەپارتەیدەوە بۆ سیستەمی زۆرینە ڕەشپێست."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakApartheid1139("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakApartheid1139(
                                     // REPLACE: apartheid /əˈpɑːrtaɪt/,  /əˈpɑːrteɪt/
                                     "en-US"),
@@ -308,11 +275,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 Noun: apartheid (derived forms: apartheids)
 1. A social policy or racial segregation involving political and economic and legal discrimination against people who are not Whites; the former official policy in South Africa
-'''),
+""",
+          )
         ],
       ),
     );

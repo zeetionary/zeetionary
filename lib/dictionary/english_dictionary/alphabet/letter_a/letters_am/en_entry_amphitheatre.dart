@@ -204,44 +204,20 @@ class EnglishEntryamphitheatre extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: پیشانگای خڕ، ئامفی‌تەئەتر، ئامفی‌تیاتر؛ ئۆدیۆتۆریۆمێکی زۆر گەورە، شانۆپان (شانۆ + گۆڕەپان)، شوێنێ بۆ سەرگەرمی گشتی (وەک بۆ کۆنسێرت و یاری‌یەکان)، چاڵ، تەختایی‌یێکی دەوردراو بە لێژایی توند
 
-١. (ناو) بینایەکی بازنەیی کە سەقفی نییە و ڕیزە جێگای پلەپلەی دانیشتنی ھەیە بە دەوری گۆڕەپانێک لە ناوەڕاستی بیناکەدا. ئەم بینایانە زیاتر لە یۆنان و ڕۆمی کۆندا بەکاردەھاتن بۆ ئاھەنگە چێژبەخشەکان''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) بینایەکی بازنەیی کە سەقفی نییە و ڕیزە جێگای پلەپلەی دانیشتنی ھەیە بە دەوری گۆڕەپانێک لە ناوەڕاستی بیناکەدا. ئەم بینایانە زیاتر لە یۆنان و ڕۆمی کۆندا بەکاردەھاتن بۆ ئاھەنگە چێژبەخشەکان"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The amphitheatre is well worth a visit.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The amphitheatre is well worth a visit."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "شانۆپانەکە شایەنی سەردانییەکە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text: "شانۆپانەکە شایەنی سەردانییەکە."),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
@@ -251,12 +227,7 @@ class EnglishEntryamphitheatre extends StatelessWidget {
                                 onPressed: () =>
                                     speakAmphitheatre150089("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAmphitheatre150089(
                                     // REPLACE: amphitheatre /ˈæmfɪθiːətər/
                                     "en-US"),
@@ -265,14 +236,8 @@ class EnglishEntryamphitheatre extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           // const DividerSentences(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) ژوورێک، ھۆڵێک، یان سینەمایەک کە جێگەی دانیشتنی تێدایە کە پلەپلە بەرزدەبنەوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) ژوورێک، ھۆڵێک، یان سینەمایەک کە جێگەی دانیشتنی تێدایە کە پلەپلە بەرزدەبنەوە"""),
                           // const DividerDefinition(),
                           // const DividerSentences(),
                         ],
@@ -317,13 +282,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 Noun: amphitheatre (derived forms: amphitheatres)
 1. (dramaturgy) a sloping gallery with seats for spectators (as in an operating room or theatre) (= amphitheater [US])
  
 2. An oval large stadium with tiers of seats; an arena in which contests and spectacles are held (= amphitheater [US], coliseum)
-'''),
+""",
+          )
         ],
       ),
     );

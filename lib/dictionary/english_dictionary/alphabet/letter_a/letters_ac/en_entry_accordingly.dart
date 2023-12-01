@@ -149,107 +149,41 @@ class EnglishEntryaccordingly extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: جا کەوایە، لەبەر ئەوە، بەم شێوەیە، بەم جۆرە، بەم پێیە، بەگوێرەی، بە ھەمان شێوە
 
-١. (ھاوەڵکار) بەشێوەیەک کە لەگەڵ بارودۆخەکە دەگونجێت''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵکار) بەشێوەیەک کە لەگەڵ بارودۆخەکە دەگونجێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "We have to discover his plans and act accordingly.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پێویستە پلانەکانی بدۆزینەوە و بە گونجاوی کردار بنێین.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We have to discover his plans and act accordingly."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پێویستە پلانەکانی بدۆزینەوە و بە گونجاوی کردار بنێین."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAc75924("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAc75924("en-US"),
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ھاوەڵکار) بۆ دەربڕینی ئەنجامی ھۆکارێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ھاوەڵکار) بۆ دەربڕینی ئەنجامی ھۆکارێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The cost of materials rose sharply last year. Accordingly, we were forced to increase our prices.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "نرخی کەرەستەکان ساڵی ڕابردوو بەرزبوویەوە، لەبەر ئەوە ناچاربووین نرخەکان بەرزبکەینەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The cost of materials rose sharply last year. Accordingly, we were forced to increase our prices."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "نرخی کەرەستەکان ساڵی ڕابردوو بەرزبوویەوە، لەبەر ئەوە ناچاربووین نرخەکان بەرزبکەینەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA25143("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA25143("en-US"),
                               ),
                             ],
@@ -296,15 +230,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adverb: accordingly
 1. (sentence connectors) because of the reason given (= consequently)
 "continued to have severe headaches and accordingly returned to the doctor";
  
 2. In accordance with
 "she acted accordingly"
-'''),
+""",
+          )
         ],
       ),
     );

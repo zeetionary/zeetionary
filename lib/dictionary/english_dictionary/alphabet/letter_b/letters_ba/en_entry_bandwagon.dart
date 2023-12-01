@@ -204,49 +204,20 @@ class EnglishEntrybandwagon extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ناو) چالاکییەک کە خەڵکی زیاتر و زیاتر تێیدا بەژدار دەبن""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) چالاکییەک کە خەڵکی زیاتر و زیاتر تێیدا بەژدار دەبن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "They seem to have got an anti-government bandwagon rolling.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "They seem to have got an anti-government bandwagon rolling."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "وادیارن کە بەرەیەکی ناڕەزایی دژ بە حکومەتیان دەستپێ‌کردووە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وادیارن کە بەرەیەکی ناڕەزایی دژ بە حکومەتیان دەستپێ‌کردووە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBandwagons1("en-GB"),
                               ),
                               IconButton(
@@ -305,15 +276,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: bandwagon (derived forms: bandwagons)
 1. A popular trend that attracts growing support
 "when they saw how things were going everybody jumped on the bandwagon"
  
 2. A large ornate wagon for carrying a musical band
 "the gaudy bandwagon led the circus parade"
-"""),
+""",
+          )
         ],
       ),
     );

@@ -156,53 +156,20 @@ class EnglishEntryadulterous extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (ھاوەڵناو) پەیوەندیدار بە پەیوەنسییەکی نابەجێ کە لە دەرەوەی ھاوسەرگیرییە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ھاوەڵناو) پەیوەندیدار بە پەیوەنسییەکی نابەجێ کە لە دەرەوەی ھاوسەرگیرییە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He had an adulterous relationship with his wife's best friend.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پەیوەندی نابەجێی جەستەیی ھەبوو لەگەڵ باشترین ھاوڕێی ژنەکەی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He had an adulterous relationship with his wife's best friend."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پەیوەندی نابەجێی جەستەیی ھەبوو لەگەڵ باشترین ھاوڕێی ژنەکەی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdul2534("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdul2534(
                                     // REPLACE: adulterous /əˈdʌltərəs/
                                     "en-US"),
@@ -251,15 +218,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: adulterous 
 1. Characterized by adultery (= extramarital, extracurricular)
 "an adulterous relationship";
  
 2. Not faithful to a spouse or lover (= cheating, two-timing)
 "adulterous husbands and wives";
-'''),
+""",
+          )
         ],
       ),
     );

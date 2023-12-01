@@ -156,56 +156,23 @@ class EnglishEntryadvent extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: دەرکەوتن، سەرھەڵدان، پەیدابوون، چوونەنێو، ھاتن، ھاتنەوەی (پێغەمبەر) مەسیح (چوار حەوتوو پێش کریسمەس لە ئایینی کریستانیەت‌دا)
 
 
-١. (ناو) گەشتنی کەسێک، بۆنەیەک، یان داھێنانێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) گەشتنی کەسێک، بۆنەیەک، یان داھێنانێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Before the advent of the railways, communications were slow and difficult.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پێش داھێنانی سکەی ئاسنین، پەیوەندیکردن زۆر سەخت بوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Before the advent of the railways, communications were slow and difficult."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پێش داھێنانی سکەی ئاسنین، پەیوەندیکردن زۆر سەخت بوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdvent25677("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdvent25677(
                                     // REPLACE: advent /ˈædvent/
                                     "en-US"),
@@ -254,8 +221,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: advent (derived forms: advents)
 1. Arrival that has been awaited (especially of something momentous) (= coming)
 "the advent of the computer";
@@ -264,7 +231,8 @@ class EnglishMeaning extends StatelessWidget {
 1. (Christian theology) the reappearance of Jesus as judge for the Last Judgment (= Second Coming, Second Coming of Christ, Second Advent, Parousia)
  
 2. The season including the four Sundays preceding Christmas
-'''),
+""",
+          )
         ],
       ),
     );

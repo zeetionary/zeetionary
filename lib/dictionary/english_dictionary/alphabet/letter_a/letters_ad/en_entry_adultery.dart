@@ -156,55 +156,21 @@ class EnglishEntryadultery extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: زینا، پێوەندی سێکسی یان ناڕەوا
 
-١. (ناو) سێکس لە نێوان کەسێکی خێزاندار و کەسێکی تر کە خێزانەکەی نییە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) سێکس لە نێوان کەسێکی خێزاندار و کەسێکی تر کە خێزانەکەی نییە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He was accused of committing adultery.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "تاوانبارکرا بە ئەنجامدانی زینا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He was accused of committing adultery."),
+                              const ExampleSentenceKurdish(
+                                  text: "تاوانبارکرا بە ئەنجامدانی زینا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdult53891("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdult53891(
                                     // REPLACE: adultery /əˈdʌltəri/
                                     "en-US"),
@@ -253,12 +219,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: adultery
 1. Extramarital sex that wilfully and maliciously interferes with marriage relations (= criminal conversation)
 "adultery is often cited as grounds for divorce";
-'''),
+""",
+          )
         ],
       ),
     );

@@ -204,51 +204,22 @@ class EnglishEntrybalustrade extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: نەردە، چاغ، سیاج، شوورە
 
-١. (ناو) سیاجی پلەکانە یان بەرھەیوان بۆ ڕێگری لە کەوتنەخوارەوە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) سیاجی پلەکانە یان بەرھەیوان بۆ ڕێگری لە کەوتنەخوارەوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "The balustrade of the grand staircase has been painted white.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The balustrade of the grand staircase has been painted white."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "سیاجی پلەکانە گەورەکە بۆیەی سپی کراوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "سیاجی پلەکانە گەورەکە بۆیەی سپی کراوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBalustrades1("en-GB"),
                               ),
                               IconButton(
@@ -307,11 +278,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: balustrade (derived forms: balustrades)
 1. A railing at the side of a staircase or balcony to prevent people from falling (= bannister, banister, balusters, handrail)
-"""),
+""",
+          )
         ],
       ),
     );

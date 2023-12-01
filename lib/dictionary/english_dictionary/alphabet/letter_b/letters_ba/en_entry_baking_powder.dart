@@ -204,59 +204,25 @@ class EnglishEntrybakingpowder extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: ھەوێن، گەردەی ھەوێن، ئامیان، گەردە یا ھاڕاوەی نان‌کردن
 
-١. (ناو) تێکەڵەیەکی ژمارەیەک ھاڕاوە کە بەکاردێن بۆ ئەوەی وابکات کێک بەرزببێتەوە و بدرەوشێتەوە لەکاتی برژاندن""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) تێکەڵەیەکی ژمارەیەک ھاڕاوە کە بەکاردێن بۆ ئەوەی وابکات کێک بەرزببێتەوە و بدرەوشێتەوە لەکاتی برژاندن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "Add one teaspoon of baking powder to the flour and whisk together.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Add one teaspoon of baking powder to the flour and whisk together."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "یەک کەوچک چایی دەرمانی کێک بکە ئاردەکەوە و تێکەڵیان بکە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "یەک کەوچک چایی دەرمانی کێک بکە ئاردەکەوە و تێکەڵیان بکە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBakingpowders1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakBakingpowders1(
                                     // REPLACE: baking powder
                                     "en-US"),
@@ -307,11 +273,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: baking powder (derived forms: baking powders)
 1. Any of various powdered mixtures used in baking as a substitute for yeast
-"""),
+""",
+          )
         ],
       ),
     );

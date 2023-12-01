@@ -204,49 +204,20 @@ class EnglishEntrybarcode extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ناو) نەخشێکی ھێڵی باریک و ئەستوور کە لەسەر شت دادەنرێت کە دەیکڕیت. نەخشەکە زانیاری لەخۆدەگرێت کە کۆمپیوتەر دەتوانێت بیخوێنێتەوە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) نەخشێکی ھێڵی باریک و ئەستوور کە لەسەر شت دادەنرێت کە دەیکڕیت. نەخشەکە زانیاری لەخۆدەگرێت کە کۆمپیوتەر دەتوانێت بیخوێنێتەوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "A handheld scanner is used to read bar codes.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "A handheld scanner is used to read bar codes."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "سکانەرێکی دەستی بەکاردێت بۆ خوێندنەوەی بارکۆد.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "سکانەرێکی دەستی بەکاردێت بۆ خوێندنەوەی بارکۆد."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBarcodes1("en-GB"),
                               ),
                               IconButton(
@@ -305,14 +276,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: barcode (derived forms: barcodes)
 1. Code consisting of a series of vertical bars of variable width that are scanned by a laser; printed on consumer product packages to identify the item for a computer that provides the price and registers inventory information (= Universal Product Code)
 
 - Verb: barcode (derived forms: barcoded, barcodes, barcoding)
 1. Mark with a barcode
-"""),
+""",
+          )
         ],
       ),
     );

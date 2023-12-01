@@ -212,58 +212,25 @@ class EnglishEntryartefact extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: دەس‌کار، دەس‌کرد، دەس‌ساز 
 
-١. (ناو) پارچەیەکی دەستکرد کە لەلایەن کەسێکەوە درووست‌کراوە، بەتایبەتی شتێک کە گرنگی مێژوویی یان کەلتووری ھەیە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) پارچەیەکی دەستکرد کە لەلایەن کەسێکەوە درووست‌کراوە، بەتایبەتی شتێک کە گرنگی مێژوویی یان کەلتووری ھەیە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The museum has a superb collection of ancient artefacts from Nubia.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The museum has a superb collection of ancient artefacts from Nubia."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "مۆزەخانەکە کۆمەڵە دەسکارێکی کۆنی ناوازەی نوبیای ھەیە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "مۆزەخانەکە کۆمەڵە دەسکارێکی کۆنی ناوازەی نوبیای ھەیە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArtefact112("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakArtefact112(
                                     // REPLACE: artefact /ˈɑːrtɪfækt/
                                     "en-US"),
@@ -314,15 +281,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: artefact (derived forms: artefacts)
 Usage: Brit (N. Amer: artifact)
 1. A man-made object taken as a whole (= artifact [N. Amer])
  
 2. Something that appears in a scientific result that is not a true feature of thing being studied, but instead a result of the experimental or analysis method, or observational error (= artifact [N. Amer])
 "the method has no artefacts from using a low-resolution pixelization";
-"""),
+""",
+          )
         ],
       ),
     );

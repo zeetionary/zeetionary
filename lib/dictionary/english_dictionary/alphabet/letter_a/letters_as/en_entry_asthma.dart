@@ -212,50 +212,22 @@ class EnglishEntryasthma extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: ڕبۆ، ڕەبوو، ھەناسەسواری، تەنگەھەناسە، ھەناسەتەنگی، بەرھەنگ، گژم، پشووسواری
 
-١. (ناو) بارودۆخێکی تەندرووستی کە دەبێتەھۆی ھەناسەتوندی""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) بارودۆخێکی تەندرووستی کە دەبێتەھۆی ھەناسەتوندی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "We have thousands of asthma cases a year.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We have thousands of asthma cases a year."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ساڵانە ھەزاران کەیسی ھەناسەتوندیمان ھەیە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ساڵانە ھەزاران کەیسی ھەناسەتوندیمان ھەیە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAsthma1012("en-GB"),
                               ),
                               IconButton(
@@ -314,11 +286,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: asthma (derived forms: asthmas)
 1. Respiratory disorder characterized by wheezing; usually of allergic origin (= asthma attack, bronchial asthma)
-"""),
+""",
+          )
         ],
       ),
     );

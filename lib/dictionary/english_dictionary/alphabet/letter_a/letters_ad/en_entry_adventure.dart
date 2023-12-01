@@ -156,55 +156,22 @@ class EnglishEntryadventure extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ڕووداو، سەرکێش، سەربردە، (بە)سەرھات، جەربەزەیی، سەروردی، کێشەخوازی، مەترسی‌کاری، سەرەڕۆیی، سەرلەکێشەخوران، مەترسی، کاری مەترسی‌دار یان خەتەر، کاری سەیر
 
-١. (ناو) کارێکی مەترسیدار کە زۆرجار چێژبەخشە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کارێکی مەترسیدار کە زۆرجار چێژبەخشە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "They fly around in their rocket ship and go on exciting adventures.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە کەشتییە ئاسمانییەکەیان دەفڕن و دەچنە گەشتی جەربەزەیی چێژبەخش",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "They fly around in their rocket ship and go on exciting adventures."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لە کەشتییە ئاسمانییەکەیان دەفڕن و دەچنە گەشتی جەربەزەیی چێژبەخش"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdven356871("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdven356871(
                                     // REPLACE: adventure /ədˈventʃər/
                                     "en-US"),
@@ -253,8 +220,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: adventure (derived forms: adventured, adventures, adventuring)
 1. A wild and exciting undertaking (not necessarily lawful) (= escapade, risky venture, dangerous undertaking)
  
@@ -267,7 +234,8 @@ class EnglishMeaning extends StatelessWidget {
 "When you buy these stocks you are adventuring";
  
 2. Put at risk (= venture, hazard, stake, jeopardize, jeopardise [Brit])
-'''),
+""",
+          )
         ],
       ),
     );

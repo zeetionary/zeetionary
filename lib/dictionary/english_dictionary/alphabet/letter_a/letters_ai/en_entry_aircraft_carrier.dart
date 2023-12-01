@@ -155,14 +155,8 @@ class EnglishEntryaircraftcarrier extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (ناو) فڕۆکەھەڵگر؛ کەشتییەکی گەورە کە فڕۆکە لەسەری دەفڕن و دەنیشنەوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          DefinitionKurdish(text: """
+١. (ناو) فڕۆکەھەڵگر؛ کەشتییەکی گەورە کە فڕۆکە لەسەری دەفڕن و دەنیشنەوە"""),
                         ],
                       ),
                     ),
@@ -205,11 +199,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: aircraft carrier (derived forms: aircraft carriers, aircraft carrier)
 1. A large warship that carries planes and has a long flat deck for takeoffs and landings (= carrier, flattop [US, informal], attack aircraft carrier)
-'''),
+""",
+          )
         ],
       ),
     );

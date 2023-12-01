@@ -228,56 +228,23 @@ class EnglishEntrymakeamends extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (کاری لێکدراو) کردنی شتێک بۆ کەسێک بۆ پیشاندانی پەشیمانی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (کاری لێکدراو) کردنی شتێک بۆ کەسێک بۆ پیشاندانی پەشیمانی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She tried to make amends for what she had said to her mother by buying her some flowers.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She tried to make amends for what she had said to her mother by buying her some flowers."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەوڵی دا دڵی دایکی ئاشت بکاتەوە لەدوای ئەوەی پێی گوتبوو بە کڕینی گوڵ بۆی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەوڵی دا دڵی دایکی ئاشت بکاتەوە لەدوای ئەوەی پێی گوتبوو بە کڕینی گوڵ بۆی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakMakeamends3466("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakMakeamends3466(
                                     // REPLACE: make amends /meɪk əˈmendz/
                                     "en-US"),
@@ -328,11 +295,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Verb: make amends (derived forms: makes amends, made amends, making amends)
 1. Make up for, compensate or make reparation for wrongdoing or causing offence (= expiate, aby [archaic], abye [archaic], atone)
-'''),
+""",
+          )
         ],
       ),
     );

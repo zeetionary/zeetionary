@@ -210,15 +210,11 @@ class EnglishEntryark extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                              // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                              """
 کوردی: (لە ئینجیلدا) کەشتی نووح، سنووق، دارەمەیت، داڵدە، پەنا
 
-١. (ناو) کەشتییەکی گەورە کە پێغەمبەر نوح درووستی‌کرد بۆ ڕزگارکردنی شوێنکەوتووانی و جووتێک لە ھەر ئاژەڵێک""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کەشتییەکی گەورە کە پێغەمبەر نوح درووستی‌کرد بۆ ڕزگارکردنی شوێنکەوتووانی و جووتێک لە ھەر ئاژەڵێک"""),
                           // Row(
                           //   children: [
                           //     const Expanded(
@@ -311,8 +307,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: ark (derived forms: arks)
 1. (Bible) a boat built by Noah to save his family and animals from the flood
 
@@ -321,7 +317,8 @@ class EnglishMeaning extends StatelessWidget {
 
 - Noun: Ark (derived forms: Arks)
 1. (Judaism) sacred chest where the ancient Hebrews kept the two tablets containing the Ten Commandments (= Ark of the Covenant)
-"""),
+""",
+          )
         ],
       ),
     );

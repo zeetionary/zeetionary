@@ -212,56 +212,23 @@ class EnglishEntryassassinate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (کردار) کووشتن یان تیرۆرکردنی کەسێکی بەناوبانگ یان گرنگ بۆ پارە یان بەھۆکاری سیاسی""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (کردار) کووشتن یان تیرۆرکردنی کەسێکی بەناوبانگ یان گرنگ بۆ پارە یان بەھۆکاری سیاسی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The prime minister was assassinated by extremists.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The prime minister was assassinated by extremists."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "سەرۆک وەزیران لەلایەن توندڕەوانەوە کوژرا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "سەرۆک وەزیران لەلایەن توندڕەوانەوە کوژرا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAssassinate1009("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAssassinate1009(
                                     // REPLACE: assassinate /əˈsæsɪneɪt/
                                     "en-US"),
@@ -312,15 +279,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Verb: assassinate (derived forms: assassinated, assassinates, assassinating)
 1. Murder; especially of socially prominent persons
 "Anwar Sadat was assassinated because many people did not like his peace politics with Israel"
  
 2. Destroy or damage seriously, as of someone's reputation
 "He assassinated his enemy's character"
-"""),
+""",
+          )
         ],
       ),
     );

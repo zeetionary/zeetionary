@@ -156,55 +156,22 @@ class EnglishEntryaerobatics extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ئاسمان‌بازی، ئێرۆباتیکس
 
-١. (ناو) ئەنجامدانی جوڵەی سەرکێشی بە فڕۆکە لە ئاسماندا''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ئەنجامدانی جوڵەی سەرکێشی بە فڕۆکە لە ئاسماندا"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The crowd was entertained with a display of aerobatics.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "جەماوەرەکە دڵخۆشبوون بە نمایشی فڕۆکەکان.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The crowd was entertained with a display of aerobatics."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "جەماوەرەکە دڵخۆشبوون بە نمایشی فڕۆکەکان."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAeroba35699("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAeroba35699(
                                     // REPLACE: aerobatics /ˌerəˈbætɪks/
                                     "en-US"),
@@ -253,11 +220,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: aerobatics 
 1. The performance of stunts while in flight in an aircraft (= acrobatics, stunting, stunt flying)
-'''),
+""",
+          )
         ],
       ),
     );

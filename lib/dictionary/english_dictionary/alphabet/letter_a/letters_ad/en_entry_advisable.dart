@@ -156,55 +156,22 @@ class EnglishEntryadvisable extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: باش، چاک، ژیرانە، بەجێ، جێی بەرژەوەندی
 
-١. (ھاوەڵناو) بیرۆکەیەکی ژیرانە و باش''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) بیرۆکەیەکی ژیرانە و باش"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "We thought it advisable to seek police assistance.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پێمان وابوو باشتروایە داوای یارمەتی لە پۆلیس بکەین.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We thought it advisable to seek police assistance."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پێمان وابوو باشتروایە داوای یارمەتی لە پۆلیس بکەین."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdvis35996("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdvis35996(
                                     // REPLACE: advisable /ədˈvaɪzəbl/
                                     "en-US"),
@@ -253,14 +220,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: advisable 
 1. Worthy of being recommended or suggested; prudent or wise
 "such action is neither necessary nor advisable"; "extreme caution is advisable"; "it is advisable to telephone first"
  
 2. (of a person) capable of being advised or willing to be advised
-'''),
+""",
+          )
         ],
       ),
     );

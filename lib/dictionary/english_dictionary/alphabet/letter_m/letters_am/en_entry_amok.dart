@@ -228,50 +228,22 @@ class EnglishEntryamok extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: خۆپێ‌ڕانەگیران، شێتی، بەربوون، ھەوسار پساندن (بەتایبەت لە شوێنە گشتی‌یەکان‌دا)، وەک شێت و ھار
 
-١. (ھاوەڵکار) لەناکاو توڕەبوون یان تووشی خرۆشان، و ڕەفتارکردن بە توندوتیژانە، بەتایبەتی لە شوێنێکی گشتی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵکار) لەناکاو توڕەبوون یان تووشی خرۆشان، و ڕەفتارکردن بە توندوتیژانە، بەتایبەتی لە شوێنێکی گشتی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The army ran amok after one of its senior officers was killed.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The army ran amok after one of its senior officers was killed."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "سوپاکە شێت‌وھار بوون لەدوای ئەوەی یەکێک لە سەرکردە باڵاکانیان کوژرا",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "سوپاکە شێت‌وھار بوون لەدوای ئەوەی یەکێک لە سەرکردە باڵاکانیان کوژرا"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAmok46669("en-GB"),
                               ),
                               IconButton(
@@ -328,8 +300,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: amok 
 1. Wildly frenzied and out of control (= amuck, berserk)
 "the soldier was completely amok";
@@ -340,7 +312,8 @@ class EnglishMeaning extends StatelessWidget {
  
 2. In a murderous frenzy (= amuck, murderously)
 "rioters running amok and throwing sticks and bottles and stones";
-'''),
+""",
+          )
         ],
       ),
     );

@@ -212,50 +212,22 @@ class EnglishEntryaubergine extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: باینجانەڕەشە، کەدووەڕەشە، ڕووەک یان پنجی باینجانەڕەشە یا کەدووەڕەشە
 
-١. (ناو) پێناسسەوزەیەک کە توێکڵی درەوشاوەی مۆری تاریکی ھەیە و لە ناوەوە و سپی و نەرمە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) پێناسسەوزەیەک کە توێکڵی درەوشاوەی مۆری تاریکی ھەیە و لە ناوەوە و سپی و نەرمە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The chef sliced the aubergine into thin rounds and grilled them.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The chef sliced the aubergine into thin rounds and grilled them."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "شێفەکە باینجانەکەی وەک ئەڵقە ئەڵقەی باریک پاککرد و برژاندنی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "شێفەکە باینجانەکەی وەک ئەڵقە ئەڵقەی باریک پاککرد و برژاندنی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAubergine1132("en-GB"),
                               ),
                               IconButton(
@@ -314,14 +286,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: aubergine (derived forms: aubergines)
 Usage: UK (=eggplant)
 1. Egg-shaped vegetable having a shiny skin typically dark purple but occasionally white or yellow (= eggplant [N. Amer, Austral, NZ], mad apple)
  
 2. Hairy upright herb native to southeastern Asia but widely cultivated for its large glossy edible fruit commonly used as a vegetable (= eggplant [N. Amer, Austral, NZ], brinjal [S.Africa, Asia], eggplant bush [N. Amer, Austral, NZ], garden egg [N. Amer], mad apple, Solanum melongena)
-"""),
+""",
+          )
         ],
       ),
     );

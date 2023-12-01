@@ -210,50 +210,22 @@ class EnglishEntryaplomb extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: لەخۆڕادیتن، خۆباوەڕی، باوەڕبەخۆیی، لەسەرەخۆیی، مەندی
 
-١. (ناو) باوەڕبەخۆبوون و متمانە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) باوەڕبەخۆبوون و متمانە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He delivered the speech with his usual aplomb.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He delivered the speech with his usual aplomb."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "وتارەکەی پێشکەش‌کرد بە باوەڕبەخۆبوونی ھەردەمی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وتارەکەی پێشکەش‌کرد بە باوەڕبەخۆبوونی ھەردەمی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAplomb246("en-GB"),
                               ),
                               IconButton(
@@ -312,11 +284,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: aplomb (derived forms: aplombs)
 1. Great coolness and composure under strain (= assuredness, cool, poise, sang-froid, sangfroid)
-"""),
+""",
+          )
         ],
       ),
     );

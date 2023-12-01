@@ -205,58 +205,25 @@ class EnglishEntryanalogous extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ھاوشێوە، لێکچوو، ھاوتا، وەکیەک، ھاوچەشن، شیاوی ھەڵسەنگاندن، ھاوتەریب
 
-١. (ھاوەڵناو) لێکچوو لەگەڵ شتێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) لێکچوو لەگەڵ شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Sleep has often been thought of as being in some way analogous to death.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Sleep has often been thought of as being in some way analogous to death."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "خەوتن زۆرجار بەجۆرێک لە جۆرەکان بە مردن چوێندراوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "خەوتن زۆرجار بەجۆرێک لە جۆرەکان بە مردن چوێندراوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnalogous852401("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAnalogous852401(
                                     // REPLACE: analogous /əˈnæləɡəs/
                                     "en-US"),
@@ -267,46 +234,18 @@ class EnglishEntryanalogous extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The two situations are roughly analogous.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The two situations are roughly analogous."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەردوو بارودۆخەکە تاڕادەیەک لێکچوون.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "ھەردوو بارودۆخەکە تاڕادەیەک لێکچوون."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnalogous8401("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAnalogous8401(
                                     // REPLACE: analogous /əˈnæləɡəs/
                                     "en-US"),
@@ -357,15 +296,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: analogous 
 1. Similar or equivalent in some respects though otherwise dissimilar. (= correspondent)
 "salmon roe is marketed as analogous to caviar"; "brains and computers are often considered analogous";
  
 2. (biology) corresponding in function but not in evolutionary origin
 "the wings of a bee and those of a hummingbird are analogous"
-'''),
+""",
+          )
         ],
       ),
     );

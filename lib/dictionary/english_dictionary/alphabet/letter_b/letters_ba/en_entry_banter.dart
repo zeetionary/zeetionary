@@ -205,51 +205,21 @@ class EnglishEntrybanter extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: شۆخی، گاڵتە، جەفەنگ، حەنەک
 
-١. (ناو) نوکتە و گاڵتەوگەپ""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) نوکتە و گاڵتەوگەپ"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "He enjoyed exchanging banter with the customers.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He enjoyed exchanging banter with the customers."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "حەزی لە شۆخیکردن لەگەڵ کڕیاران بوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "حەزی لە شۆخیکردن لەگەڵ کڕیاران بوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBanters1("en-GB"),
                               ),
                               IconButton(
@@ -266,51 +236,22 @@ class EnglishEntrybanter extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: شۆخی، گاڵتە، جەفەنگ، حەنەک
 
-٢. (کردار) شۆخیکردن""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+٢. (کردار) شۆخیکردن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "He bantered with reporters and posed for photographers.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He bantered with reporters and posed for photographers."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "شۆخی لەگەڵ پەیامنێران کرد و بۆ وێنەگران وەستا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "شۆخی لەگەڵ پەیامنێران کرد و بۆ وێنەگران وەستا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBanters2("en-GB"),
                               ),
                               IconButton(
@@ -369,14 +310,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: banter (derived forms: banters)
 1. Light teasing repartee (= raillery, give-and-take, backchat [Brit, informal], josh [N. Amer, informal], bants [Brit, informal], borak [Austral, informal], borax [Austral, informal])
 
 - Verb: banter (derived forms: bantered, bantering, banters)
 1. Be silly or tease one another (= kid [informal], chaff, jolly [informal], josh [informal])
-"""),
+""",
+          )
         ],
       ),
     );

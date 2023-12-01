@@ -212,58 +212,25 @@ class EnglishEntryaural extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: گوێیی، سەربە گوێ، پێوەندی بە گوێ‌یەوە ھەیە، سەربە ھەستی بیستن یان ژنەفتن
 
-١. (ھاوەڵناو) پەیوەندیدار بە بیستن و گوێگرتن""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) پەیوەندیدار بە بیستن و گوێگرتن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She doesn’t speak English well, but her aural comprehension is good.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She doesn’t speak English well, but her aural comprehension is good."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ناتوانێ بە باشی بە ئینگلیزی قسەبکات، بەڵام توانای بیستنی باشە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ناتوانێ بە باشی بە ئینگلیزی قسەبکات، بەڵام توانای بیستنی باشە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAural422("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAural422(// REPLACE: aural
                                     "en-US"),
                               ),
@@ -313,15 +280,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: aural
 1. Of or pertaining to hearing or the ear
 "an animal with a very sensitive aural apparatus"
  
 2. Relating to or characterized by an aura
 "various aural effects that precede a migraine headache"
-"""),
+""",
+          )
         ],
       ),
     );

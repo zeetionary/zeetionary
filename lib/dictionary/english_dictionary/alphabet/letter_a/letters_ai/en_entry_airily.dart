@@ -156,50 +156,22 @@ class EnglishEntryairily extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: بە بێ‌خەیاڵی، کەمتەرخەمانە
 
-١. (ھاوەڵکار) بەشێوەیەک کە شتێک لات گرنگ نییە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵکار) بەشێوەیەک کە شتێک لات گرنگ نییە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "'He can do what he likes - it doesn't bother me,' she said airily.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "'He can do what he likes - it doesn't bother me,' she said airily."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەو خەمساردییەوە وتی «چی دەکات با بیکات، گرنگ نییە لام»",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەو خەمساردییەوە وتی «چی دەکات با بیکات، گرنگ نییە لام»"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAirily2566("en-GB"),
                               ),
                               IconButton(
@@ -256,12 +228,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adverb: airily 
 1. In a flippant manner (= flippantly)
 "this cannot be airily explained to your children";
-'''),
+""",
+          )
         ],
       ),
     );

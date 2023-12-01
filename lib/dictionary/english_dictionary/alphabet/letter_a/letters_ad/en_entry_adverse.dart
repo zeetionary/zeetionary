@@ -156,55 +156,22 @@ class EnglishEntryadverse extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: خراپ، ناخۆش، نالەبار، شپرزە، زیاناوی، دژ، دژبەر، نەیار، ڕکەبەر
 
-١. (ھاوەڵناو) شتێک کە ئەنجامی باشی نابێت''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) شتێک کە ئەنجامی باشی نابێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "This drug is known to have adverse side effects.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەم دەرمانە ناسراوە بەوەی کاریگەری لاوەکیی خراپی دەبێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "This drug is known to have adverse side effects."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەم دەرمانە ناسراوە بەوەی کاریگەری لاوەکیی خراپی دەبێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAd3658("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAd3658(
                                     // REPLACE: adverse /ˈædvɜːrs/,  /ədˈvɜːrs/
                                     "en-US"),
@@ -253,15 +220,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: adverse 
 1. Contrary to your interests or welfare (= inauspicious, untoward)
 "adverse circumstances";
  
 2. In an opposing direction (= contrary)
 "adverse currents";
-'''),
+""",
+          )
         ],
       ),
     );

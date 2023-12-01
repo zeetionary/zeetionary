@@ -204,51 +204,22 @@ class EnglishEntryaviation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: فڕینەوانی، فڕین، کەشگەڕی، کەشڕەوی، (پیشەسازی) فڕۆکەسازی
 
-١. (ناو) دیزاین و درووستکردن و فڕاندنی فڕۆکە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) دیزاین و درووستکردن و فڕاندنی فڕۆکە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "Orville and Wilbur Wright were aviation trail blazers.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Orville and Wilbur Wright were aviation trail blazers."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئۆرڤڵ و ویڵبەر ڕێچکەشکێنی فڕینەوانی بوون.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئۆرڤڵ و ویڵبەر ڕێچکەشکێنی فڕینەوانی بوون."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAviations1("en-GB"),
                               ),
                               IconButton(
@@ -307,8 +278,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: aviation (derived forms: aviations)
 1. (military) the aggregation of a country's military aircraft (= air power)
  
@@ -318,7 +289,8 @@ class EnglishMeaning extends StatelessWidget {
  
 4. Travel via aircraft (= air travel, air)
 "aviation involves too much waiting in airports";
-"""),
+""",
+          )
         ],
       ),
     );

@@ -210,13 +210,9 @@ class EnglishEntryapplet extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ناو) پڕۆگرامێک کە لەناو یەکێکی تردا کاردەکات، بۆ نموونە پڕۆگرامێک کە لەناو گەڕانچییەک، بۆ نموونە کرۆم، کاربکات""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                              // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                              """
+١. (ناو) پڕۆگرامێک کە لەناو یەکێکی تردا کاردەکات، بۆ نموونە پڕۆگرامێک کە لەناو گەڕانچییەک، بۆ نموونە کرۆم، کاربکات"""),
                           // Row(
                           //   children: [
                           //     const Expanded(
@@ -309,11 +305,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: applet 
 1. A Java application; an application program that uses the client's web browser to provide a user interface (derived forms: applets)
-"""),
+""",
+          )
         ],
       ),
     );

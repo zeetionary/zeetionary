@@ -155,16 +155,10 @@ class EnglishEntryacuteaccent extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          DefinitionKurdish(text: """
 کوردی: زەبر یان ھێزی سووک، نیشانەیێ (´) لەسەر بزوێنێ کە دەبێ گۆ بکرێ، وەکوو e لە وشەکانی fiancé یان café دا
 
-١. (ناو) ئاماژەیەک کە لەسەر پیتێکی بزوێن دادەنرێت بۆ پیشاندانی چۆنیەتیی خوێندنەوەی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ئاماژەیەک کە لەسەر پیتێکی بزوێن دادەنرێت بۆ پیشاندانی چۆنیەتیی خوێندنەوەی"""),
                         ],
                       ),
                     ),
@@ -207,11 +201,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: acute accent (derived forms: acute accents)
 1. A mark placed above a vowel to indicate pronunciation (= acute, ague)
-'''),
+""",
+          )
         ],
       ),
     );

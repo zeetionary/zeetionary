@@ -149,55 +149,22 @@ class EnglishEntryaccessory extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ەدەکی، پارچەی زیادە، لەگەڵ، شت‌ومەکی لاوەکی
 
-١. (ناو) پارچەیەکی شتێک کە زۆر گرنگ نییە، بەڵام دەکرێت زیاد بکرێت وەک جوانکاری''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) پارچەیەکی شتێک کە زۆر گرنگ نییە، بەڵام دەکرێت زیاد بکرێت وەک جوانکاری"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "We stock a large range of bicycle accessories.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ڕێژەیەکی زۆر جیاواز لە جوانکارییەکانی پاسکیل ھەڵدەگرین.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We stock a large range of bicycle accessories."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕێژەیەکی زۆر جیاواز لە جوانکارییەکانی پاسکیل ھەڵدەگرین."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAc2598("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAc2598("en-US"),
                               ),
                             ],
@@ -205,43 +172,16 @@ class EnglishEntryaccessory extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Sunglasses are much more than a fashion accessory.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "چاویلکە زۆر تەنھا بۆ جوانکاری و مۆدە نییە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Sunglasses are much more than a fashion accessory."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "چاویلکە زۆر تەنھا بۆ جوانکاری و مۆدە نییە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAcc711459("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAcc711459("en-US"),
                               ),
                             ],
@@ -288,8 +228,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: accessory 
 1. Aiding and abetting in a crime (= accessary)
 "he was charged with being accessory to the crime";
@@ -303,7 +243,8 @@ class EnglishMeaning extends StatelessWidget {
 2. A supplementary component that improves capability (= appurtenance, supplement, add-on, bolt-on)
  
 3. Someone who helps another person commit a crime (= accessary)
-'''),
+""",
+          )
         ],
       ),
     );

@@ -228,11 +228,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: barbiturate (derived forms: barbiturates)
 1. Organic compound having powerful soporific effect; overdose can be fatal
-"""),
+""",
+          )
         ],
       ),
     );

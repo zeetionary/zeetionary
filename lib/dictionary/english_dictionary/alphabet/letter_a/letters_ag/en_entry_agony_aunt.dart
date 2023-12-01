@@ -155,14 +155,8 @@ class EnglishEntryagonyaunt extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (ناو) کەسێک کە لە ڕۆژنامە، گۆڤار، یان وێبسایتێک وەڵامی خەڵکی دەداتەوە و ڕاوێژیان پێدەدا لەسەر کێشەکانیان''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          DefinitionKurdish(text: """
+١. (ناو) کەسێک کە لە ڕۆژنامە، گۆڤار، یان وێبسایتێک وەڵامی خەڵکی دەداتەوە و ڕاوێژیان پێدەدا لەسەر کێشەکانیان"""),
                         ],
                       ),
                     ),
@@ -205,11 +199,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: agony aunt (derived forms: agony aunts)
 1. A newspaper columnist who answers questions and offers advice on personal problems to people who write in
-'''),
+""",
+          )
         ],
       ),
     );

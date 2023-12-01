@@ -210,58 +210,25 @@ class EnglishEntryapprehensive extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: نگەران، دڵ‌لەدوا، بێ‌ئارام، ئۆقرەلێھەڵگیراو، زووتێگەیشتوو، زیرەک
 
-١. (ھاوەڵناو) نیگەران یان تۆقاو لە ڕوودانی شتێکی خراپ""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) نیگەران یان تۆقاو لە ڕوودانی شتێکی خراپ"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I was a little apprehensive about the effects of what I had said.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I was a little apprehensive about the effects of what I had said."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کەمێک نیگەران بووم سەبارەت بە کاریگەرییەکانی ئەوەی وتم.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کەمێک نیگەران بووم سەبارەت بە کاریگەرییەکانی ئەوەی وتم."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakApprehensive946("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakApprehensive946(
                                     // REPLACE: apprehensive /ˌæprɪˈhensɪv/
                                     "en-US"),
@@ -312,8 +279,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: apprehensive 
 1. Quick to understand (= discerning)
 "a kind and apprehensive friend";
@@ -323,7 +290,8 @@ class EnglishMeaning extends StatelessWidget {
  
 3. In fear or dread of possible evil or harm
 "apprehensive for one's life"; "apprehensive of danger"
-"""),
+""",
+          )
         ],
       ),
     );

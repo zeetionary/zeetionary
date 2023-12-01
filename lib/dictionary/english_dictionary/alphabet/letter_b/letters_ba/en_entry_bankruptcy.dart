@@ -204,51 +204,22 @@ class EnglishEntrybankruptcy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: مایەپووچی، مایەبۆشی، نابووتی، لاتی، سەرنەکەوتوویی، تێشکان
 
-١. (ناو) دۆخی بێ پارەیی بۆ دانەوەی ئەوەی قەرزاری""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) دۆخی بێ پارەیی بۆ دانەوەی ئەوەی قەرزاری"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "There could be further bankruptcies among small farmers.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "There could be further bankruptcies among small farmers."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەگەری ھەیە مایە]ووچبوونی زیاتر ڕووبدات لەناو جوتیارە بچووکەکاندا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەگەری ھەیە مایە]ووچبوونی زیاتر ڕووبدات لەناو جوتیارە بچووکەکاندا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBankruptcys1("en-GB"),
                               ),
                               IconButton(
@@ -307,8 +278,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: bankruptcy (derived forms: bankruptcies)
 1. A state of complete lack of some abstract property
 "spiritual bankruptcy"; "moral bankruptcy"; "intellectual bankruptcy"
@@ -317,7 +288,8 @@ class EnglishMeaning extends StatelessWidget {
 "the company had to declare bankruptcy";
  
 3. (law) a legal process intended to insure equality among the creditors of a corporation declared to be insolvent
-"""),
+""",
+          )
         ],
       ),
     );

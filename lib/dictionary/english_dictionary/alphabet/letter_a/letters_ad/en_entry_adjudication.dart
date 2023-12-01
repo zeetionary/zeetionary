@@ -156,55 +156,22 @@ class EnglishEntryadjudication extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: دادوەری، دادگەری، شەرع‌کردن، نێوگژیوانی، ناوبەری، نێوبژیوانی
 
-١. (ناو) پڕۆسەی ناوبژی کە نێوان دوو لایەن''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) پڕۆسەی ناوبژی کە نێوان دوو لایەن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The case was referred to a higher court for adjudication.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کەیسەکە نێردرا بۆ داگایەکی باڵاتر بۆ ناوبژی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The case was referred to a higher court for adjudication."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کەیسەکە نێردرا بۆ داگایەکی باڵاتر بۆ ناوبژی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdjudi5684("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdjudi5684(
                                     // REPLACE: adjudication /əˌdʒuːdɪˈkeɪʃn/
                                     "en-US"),
@@ -253,11 +220,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: adjudication (derived forms: adjudications)
 1. The final judgment in a legal proceeding; the act of pronouncing judgment based on the evidence presented
-'''),
+""",
+          )
         ],
       ),
     );

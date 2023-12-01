@@ -156,47 +156,18 @@ class EnglishEntryadvert extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: بانگەواز، دانەزانین، ئاگاداری
 
-١. (ناو) وێنەیەک یان ڤیدیۆیەک کە دەیەوێت کەسێک ڕازیبکات بۆ کڕینی شتێک.''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) وێنەیەک یان ڤیدیۆیەک کە دەیەوێت کەسێک ڕازیبکات بۆ کڕینی شتێک."""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "A lot of claims are made in the advert.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بانگەشەی زۆر لە ڕیکلامەکەدا دەکرێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "A lot of claims are made in the advert."),
+                              const ExampleSentenceKurdish(
+                                  text: "بانگەشەی زۆر لە ڕیکلامەکەدا دەکرێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdv36914("en-GB"),
                               ),
                               IconButton(
@@ -253,8 +224,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: advert (derived forms: adverts)
 1. A public promotion of some product or service (= ad [informal], advertisement, advertizement [US, non-standard], advertising, advertizing [US, non-standard])
 
@@ -265,7 +236,8 @@ class EnglishMeaning extends StatelessWidget {
 2. Make a more or less disguised reference to (= allude, touch)
  
 3. Make reference to (= mention, bring up, cite, name, refer)
-'''),
+""",
+          )
         ],
       ),
     );

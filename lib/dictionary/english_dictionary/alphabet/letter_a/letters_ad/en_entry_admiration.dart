@@ -156,55 +156,21 @@ class EnglishEntryadmiration extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: پیاھەڵوتن، ستایشت(کردن)، پەسن‌دان، تاریف‌دان، مایەی پیاھەڵدان
 
-١. (ناو) ھەبوونی ڕێزگرتن بۆ کەسێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ھەبوونی ڕێزگرتن بۆ کەسێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I have great admiration for her as a writer.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ڕێزی زۆرم بۆی وەک نووسەرێک ھەیە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I have great admiration for her as a writer."),
+                              const ExampleSentenceKurdish(
+                                  text: "ڕێزی زۆرم بۆی وەک نووسەرێک ھەیە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdmira85971("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdmira85971(
                                     // REPLACE: admiration /ˌædməˈreɪʃn/
                                     "en-US"),
@@ -253,8 +219,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: admiration (derived forms: admirations)
 1. A feeling of delighted approval and liking (= esteem)
  
@@ -262,7 +228,8 @@ class EnglishMeaning extends StatelessWidget {
  
 3. A favourable judgment (= appreciation)
 "a small token in admiration of your works";
-'''),
+""",
+          )
         ],
       ),
     );

@@ -156,55 +156,22 @@ class EnglishEntryadvisory extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ڕاوێژکاری، ڕاوێژکاری‌یانە
 
-١. (ھاوەڵناو) ھەبوونی ڕۆڵی ڕاوێژکاری''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) ھەبوونی ڕۆڵی ڕاوێژکاری"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She is employed by the president in an advisory capacity.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بۆ سەرۆک کاردەکات لە ئاستی ڕاوێژکاری.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She is employed by the president in an advisory capacity."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بۆ سەرۆک کاردەکات لە ئاستی ڕاوێژکاری."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdvi36511("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdvi36511(
                                     // REPLACE: advisory /ədˈvaɪzəri/
                                     "en-US"),
@@ -253,8 +220,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: advisory
 1. Giving advice (= consultative, consultatory, consultive)
 "an advisory memorandum";
@@ -265,7 +232,8 @@ class EnglishMeaning extends StatelessWidget {
 - Noun: advisory (derived forms: advisories)
 1. An announcement that usually advises or warns the public of some threat
 "a frost advisory"
-'''),
+""",
+          )
         ],
       ),
     );

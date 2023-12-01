@@ -229,29 +229,7 @@ class EnglishEntrybargain extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: سەودا، مامەڵە، ئاڵ‌ووێر، پێکھاتن، سازان، ڕێککەوتن، ھەرزان، کەڵەپوور، ئەندازە، نرخ‌باش
-
-١. (ناو) شتێک کە دەکڕدرێت ھەرزانتر لە نرخی ئاسایی"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I picked up a few good bargains in the sale."), // DOPSUM_WRITE_A_SENTENCE
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک شتی ھەرزانم کڕی لە ھەڕاجییەکەدا."),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBargains1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBargains1("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (کردار) مامەڵەکردنی لەگەڵ کەسێک بۆ گەشتنە ڕێككەوتن"""),
+٣. (کردار) مامەڵەکردن لەگەڵ کەسێک بۆ گەشتنە ڕێككەوتن"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

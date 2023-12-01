@@ -156,55 +156,21 @@ class EnglishEntryaffectionate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: بەسۆز، دڵسۆز، بەبەزەیی، بەخرۆش
 
-١. (ھاوەڵناو) ھەبوونی خاسیەتی ھەست و سۆز پیشاندان''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) ھەبوونی خاسیەتی ھەست و سۆز پیشاندان"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He is very affectionate towards his children.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "زۆر بەسۆزە لەگەڵ منداڵەکانی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He is very affectionate towards his children."),
+                              const ExampleSentenceKurdish(
+                                  text: "زۆر بەسۆزە لەگەڵ منداڵەکانی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAffect25699("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAffect25699(
                                     // REPLACE: affectionate /əˈfekʃənət/
                                     "en-US"),
@@ -253,12 +219,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: affectionate 
 1. Having or displaying warmth or affection (= fond, lovesome, tender)
 "affectionate children";
-'''),
+""",
+          )
         ],
       ),
     );

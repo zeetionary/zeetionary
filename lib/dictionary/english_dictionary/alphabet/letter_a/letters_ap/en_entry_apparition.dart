@@ -210,58 +210,25 @@ class EnglishEntryapparition extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: دەرکەوتن، پەیدابوون، ھاتنەڕوو، سەرھەڵدان (سەیر یان چاوەڕوان‌نەکراو)، خێو، تارمایی، ڕۆح، تاپۆ
 
-١. (ھاوەڵناو) تارمایی کەسێکی مردوو""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) تارمایی کەسێکی مردوو"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Apparitions of a woman in white robes have been reported.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Apparitions of a woman in white robes have been reported."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "تارمایی ژنێک بە ڕۆبەی سپییەوە ڕاگەیەندراوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "تارمایی ژنێک بە ڕۆبەی سپییەوە ڕاگەیەندراوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakApparition917("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakApparition917(
                                     // REPLACE: apparition /ˌæpəˈrɪʃn/
                                     "en-US"),
@@ -312,8 +279,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: apparition (derived forms: apparitions)
 1. A ghostly appearing figure (= phantom, phantasm, phantasma, fantasm, specter [US], spectre [Brit, Cdn])
 "we were unprepared for the apparition that confronted us";
@@ -326,7 +293,8 @@ class EnglishMeaning extends StatelessWidget {
  
 4. An act of appearing or becoming visible unexpectedly
 "natives were amazed at the apparition of this white stranger"
-"""),
+""",
+          )
         ],
       ),
     );

@@ -140,53 +140,20 @@ class EnglishEntryaccost extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. چوون بۆ لای کەسێک و قسەکردن لەگەڵی بەشێوەیەکی بێڕێزانە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. چوون بۆ لای کەسێک و قسەکردن لەگەڵی بەشێوەیەکی بێڕێزانە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She was accosted in the street by a complete stranger.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لەلایەن بێگانەیەکەوە لەسەر شەقام قسەیپێکرا ",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She was accosted in the street by a complete stranger."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لەلایەن بێگانەیەکەوە لەسەر شەقام قسەیپێکرا "),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA532476("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA532476("en-US"),
                               ),
                             ],
@@ -233,14 +200,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Verb: accost (derived forms: accosted, accosting, accosts)
 1. Get someone's attention in order to speak them, esp. against their will or to influence them (= buttonhole [informal], nobble [Brit, informal])
  
 2. Approach with an offer of sexual favours (= solicit)
 "he was accosted by a prostitute";
-'''),
+""",
+          )
         ],
       ),
     );

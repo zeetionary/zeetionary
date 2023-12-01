@@ -248,8 +248,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: barber (derived forms: barbers)
 1. A hairdresser who cuts hair and shaves beards as a trade
 
@@ -258,7 +258,8 @@ class EnglishMeaning extends StatelessWidget {
 
 - Noun: Barber
 1. United States composer (1910-1981) (= Samuel Barber)
-"""),
+""",
+          )
         ],
       ),
     );

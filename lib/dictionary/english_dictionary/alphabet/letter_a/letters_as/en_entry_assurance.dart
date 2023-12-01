@@ -214,58 +214,25 @@ class EnglishEntryassurance extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: لەخۆڕادیتن، لەخۆمسۆگەربوون، خۆباوەڕی، لەخۆراپەڕموون، باوەڕ بە خۆبوون، متمانە بە خۆ بوون، بەڵێنی، گفت، دڵنیایی، متمانە، بیمە
 
-١. (ناو) لێدوانێک سەبارەت بەوەی شتێک بە دڵنیاییەوە ڕاستە، یان ڕوودەدات""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) لێدوانێک سەبارەت بەوەی شتێک بە دڵنیاییەوە ڕاستە، یان ڕوودەدات"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "They called for assurances that the government is committed to its education policy.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "They called for assurances that the government is committed to its education policy."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "داوای دڵنیاییان کرد کە حکومەت پابەند دەبێت بە پلانی پەروەردەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "داوای دڵنیاییان کرد کە حکومەت پابەند دەبێت بە پلانی پەروەردەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAssurance848("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAssurance848(
                                     // REPLACE: assurance /əˈʃʊrəns/
                                     "en-US"),
@@ -276,46 +243,19 @@ class EnglishEntryassurance extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I must have your assurance that there will be no repetition of this conduct.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I must have your assurance that there will be no repetition of this conduct."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەبێت بەڵێنم پێ‌بدەیت کە ئەم ڕەفتارە دووبارە نابێتەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەبێت بەڵێنم پێ‌بدەیت کە ئەم ڕەفتارە دووبارە نابێتەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAssurance849("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAssurance849(
                                     // REPLACE: assurance /əˈʃʊrəns/
                                     "en-US"),
@@ -324,56 +264,23 @@ class EnglishEntryassurance extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ناو) متمانە بە ھێز و توانای خۆت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) متمانە بە ھێز و توانای خۆت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Even at a very young age she showed a great deal of assurance.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Even at a very young age she showed a great deal of assurance."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "تەنانەت لە تەمەنێکی گەنجیشدا لەخۆڕادیتنی زۆری پیشان دەدا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "تەنانەت لە تەمەنێکی گەنجیشدا لەخۆڕادیتنی زۆری پیشان دەدا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAssurance852("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAssurance852(
                                     // REPLACE: assurance /əˈʃʊrəns/
                                     "en-US"),
@@ -424,8 +331,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: assurance (derived forms: assurances)
 1. Freedom from doubt; belief in yourself and your abilities (= self-assurance, confidence, self-confidence, authority, sureness)
 "his assurance in his superiority did not make him popular"; "his self-assurance in his superiority did not make him popular";
@@ -437,7 +344,8 @@ class EnglishMeaning extends StatelessWidget {
 "the President's assurances were not respected"
  
 4. [Brit] Term for some kinds of insurance
-"""),
+""",
+          )
         ],
       ),
     );

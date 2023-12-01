@@ -212,50 +212,22 @@ class EnglishEntryastonishing extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: سەرسووڕمێن، گێژکەر
 
-١. (ھاوەڵناو) زۆر سەرسوڕھێنەر""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) زۆر سەرسوڕھێنەر"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She ran 100m in an astonishing 10.6 seconds.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She ran 100m in an astonishing 10.6 seconds."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "١٠٠ مەتری بڕی بە ڕاکردن لە ١٠,٦ چرکەدا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "١٠٠ مەتری بڕی بە ڕاکردن لە ١٠,٦ چرکەدا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAstonishing1043("en-GB"),
                               ),
                               IconButton(
@@ -314,15 +286,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: astonishing 
 1. Surprising greatly (= amazing, jaw-dropping [informal], incredible)
 "the dog was capable of astonishing tricks";
  
 2. So surprisingly impressive as to stun or overwhelm (= astounding, staggering, stupefying)
 "such an enormous response was astonishing";
-"""),
+""",
+          )
         ],
       ),
     );

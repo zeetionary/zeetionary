@@ -210,58 +210,25 @@ class EnglishEntryarguably extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: مشت‌ومڕلەسەرانە، بە ئەگەرێکی زۆرەوە، زۆر لەوەدەچێ، زۆر لەوانەیە
 
-١. (ھاوەڵکار) بەشێوەیەک کە باوەڕت وایە ئەتوانیت ئەوە بسەلمێنیت کە دەیڵێیت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵکار) بەشێوەیەک کە باوەڕت وایە ئەتوانیت ئەوە بسەلمێنیت کە دەیڵێیت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He is arguably the best actor of his generation.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He is arguably the best actor of his generation."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بە ئەگەرێکی زۆرەوە باشترین ئەکتەری سەردەمی خۆی بووە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بە ئەگەرێکی زۆرەوە باشترین ئەکتەری سەردەمی خۆی بووە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArguably1020("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakArguably1020(
                                     // REPLACE: arguably /ˈɑːrɡjuəbli/
                                     "en-US"),
@@ -312,12 +279,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adverb: arguably 
 1. As can be shown by argument
 "she is arguably the best"
-"""),
+""",
+          )
         ],
       ),
     );

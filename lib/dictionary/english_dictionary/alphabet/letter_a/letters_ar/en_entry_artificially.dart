@@ -213,58 +213,25 @@ class EnglishEntryartificially extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: بەشێوەیەکی دەسکرد یان نائاسایی، دەسکردانە
 
-١. (ھاوەڵکار) بەشێوەیەک کە کۆپی شتێکی سرووشتییە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵکار) بەشێوەیەک کە کۆپی شتێکی سرووشتییە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Most mushrooms sold in supermarkets have been grown artificially in manure.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Most mushrooms sold in supermarkets have been grown artificially in manure."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "زۆرینەی قارچکەکان  کە لە سوپەرمارکێتەکان  دەفرۆشرێن  بەشێوەی دەستکردانە لە پەییندا سەوزبوونە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "زۆرینەی قارچکەکان  کە لە سوپەرمارکێتەکان  دەفرۆشرێن  بەشێوەی دەستکردانە لە پەییندا سەوزبوونە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArtificially954("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakArtificially954(
                                     // REPLACE: artificially /ˌɑːrtɪˈfɪʃəli/
                                     "en-US"),
@@ -273,56 +240,23 @@ class EnglishEntryartificially extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ھاوەڵکار) بەشێوەیەک کە سرووشتی نییە و کاریگەریی مرۆڤی لەسەرە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ھاوەڵکار) بەشێوەیەک کە سرووشتی نییە و کاریگەریی مرۆڤی لەسەرە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "They are keeping their prices artificially low.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "They are keeping their prices artificially low."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "نرخەکانیان بەخواستی خۆیان بە نزمی دەھێڵنەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "نرخەکانیان بەخواستی خۆیان بە نزمی دەھێڵنەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArtificially956("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakArtificially956(
                                     // REPLACE: artificially /ˌɑːrtɪˈfɪʃəli/
                                     "en-US"),
@@ -373,12 +307,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adverb: artificially (unnaturally, by artificial means)
 1. Not according to nature; not by natural means
 "artificially induced conditions";
-"""),
+""",
+          )
         ],
       ),
     );

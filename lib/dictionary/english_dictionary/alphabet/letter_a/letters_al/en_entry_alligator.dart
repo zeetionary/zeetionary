@@ -156,56 +156,23 @@ class EnglishEntryalligator extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (ناو) خشۆکێکی گەورە کە وەک تیمساحە و کلکی درێژ و پێستی قایم و کەڵبەی بەھێزی ھەیە و لە ئەمریکای باکوور و باشوور و وڵاتی چیندا دەژین''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) خشۆکێکی گەورە کە وەک تیمساحە و کلکی درێژ و پێستی قایم و کەڵبەی بەھێزی ھەیە و لە ئەمریکای باکوور و باشوور و وڵاتی چیندا دەژین"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "It could be the size of an alligator.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "It could be the size of an alligator."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بارستاییەکەی ھێندەی تیمساحێکی ئەمریکی دەبێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بارستاییەکەی ھێندەی تیمساحێکی ئەمریکی دەبێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAlligator4596("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAlligator4596(
                                     // REPLACE: alligator /ˈælɪɡeɪtər/
                                     "en-US"),
@@ -254,8 +221,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: alligator (derived forms: alligators, alligatoring, alligatored)
 1. Leather made from alligator's hide
  
@@ -263,7 +230,8 @@ class EnglishMeaning extends StatelessWidget {
 
 - Verb: alligator  
 1. Crack and acquire the appearance of alligator hide, as from weathering or improper application; of paint and varnishes
-'''),
+""",
+          )
         ],
       ),
     );

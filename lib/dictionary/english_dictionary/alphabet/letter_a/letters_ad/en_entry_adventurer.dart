@@ -156,55 +156,22 @@ class EnglishEntryadventurer extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: کێشەخواز، سەرکێش، جەربەزە، مەترسی‌کار، سەرورد، سەرەڕۆ، (بنیادەم) بەجەرگ
 
-١. (ناو) کەسێک کە حەزی بە ئەزموونی تازە و بەجۆشھێنەرە، بەتایبەتی ڕۆیشتن بۆ شوێنی تازە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کەسێک کە حەزی بە ئەزموونی تازە و بەجۆشھێنەرە، بەتایبەتی ڕۆیشتن بۆ شوێنی تازە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He was something of an adventurer, living most of his life abroad.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کەسێکی تا ڕادەیەک سەرکێش بوو کە زۆرینەی ژیانی لە دەرەوە بەسەر دەبرد.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He was something of an adventurer, living most of his life abroad."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کەسێکی تا ڕادەیەک سەرکێش بوو کە زۆرینەی ژیانی لە دەرەوە بەسەر دەبرد."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdve3566("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdve3566(
                                     // REPLACE: adventurer /ədˈventʃərər/
                                     "en-US"),
@@ -253,13 +220,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: adventurer (derived forms: adventurers)
 1. A person who enjoys taking risks (= venturer)
  
 2. Someone who travels into little known regions (especially for some scientific purpose) (= explorer)
-'''),
+""",
+          )
         ],
       ),
     );

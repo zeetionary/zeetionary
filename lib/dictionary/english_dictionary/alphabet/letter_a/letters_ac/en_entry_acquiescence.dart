@@ -156,55 +156,22 @@ class EnglishEntryacquiescence extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ملنان، قایل‌بوون، ڕەزامەندی (بە زۆری)، ڕێ‌داگرتن، ھاتنەسەرڕێ، دژایەتی‌نەکردن، پەسندکردن (بەنابەدڵی)
 
-١. (ھاوەڵناو) ڕازیبوون بە شتێک ئەگەرچی باوەڕت پێی نییە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) ڕازیبوون بە شتێک ئەگەرچی باوەڕت پێی نییە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I must admit, your acquiescence surprised me.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دەبێت دانی پێدا بنێم، ڕازیبوونت سەرسامی کردم.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I must admit, your acquiescence surprised me."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دەبێت دانی پێدا بنێم، ڕازیبوونت سەرسامی کردم."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAcquiesc2596("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAcquiesc2596(
                                     "en-US"), // REPLACE acquiescence /ˌækwiˈesns/
                               ),
@@ -252,14 +219,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: acquiescence (derived forms: acquiescences)
 1. Acceptance without protest
  
 2. Agreement with a statement or proposal to do something (= assent)
 "a murmur of acquiescence from the assembly";
-'''),
+""",
+          )
         ],
       ),
     );

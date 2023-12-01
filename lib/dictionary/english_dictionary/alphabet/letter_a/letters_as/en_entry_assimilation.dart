@@ -213,58 +213,25 @@ class EnglishEntryassimilation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: تو(و)انەوە، حەلان، گرتن، مژین، لێکچواندن، چونیەک‌کردن، وێکچواندن، ھاوشێوەکردن، یەکسان‌کردن، یەکاندن، وەکیەک‌کردن، چونیەکی، ھەرس(کردن)، (دەنگ‌ناسی) ھاوشێوەیی
 
-١. (ناو) پڕۆسەی تێگەشتن لە بیرۆکەی تازە بۆ ئەوەی خۆت بتوانی بەکاریان‌بێنی""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) پڕۆسەی تێگەشتن لە بیرۆکەی تازە بۆ ئەوەی خۆت بتوانی بەکاریان‌بێنی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "In the fast-paced world of technology, the rapid assimilation of new ideas is essential for companies to survive.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "In the fast-paced world of technology, the rapid assimilation of new ideas is essential for companies to survive."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە جیھانی خێرا-گوزەری تەکنەلۆژیادا، لەخۆگرتنی بیرۆکەی تازە گرنگە بۆ کۆمپانیاکان بۆ مانەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لە جیھانی خێرا-گوزەری تەکنەلۆژیادا، لەخۆگرتنی بیرۆکەی تازە گرنگە بۆ کۆمپانیاکان بۆ مانەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAssimilation833("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAssimilation833(
                                     // REPLACE: assimilation /əˌsɪməˈleɪʃn/
                                     "en-US"),
@@ -273,56 +240,23 @@ class EnglishEntryassimilation extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ناو) پڕۆسەی بوون بە بەشێک لە وڵاتێک یان خەڵکی نەتەوەیەک""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) پڕۆسەی بوون بە بەشێک لە وڵاتێک یان خەڵکی نەتەوەیەک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The assimilation of ethnic Germans in the US was accelerated by the two world wars.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The assimilation of ethnic Germans in the US was accelerated by the two world wars."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "توانەوەی بەڕەچەڵەک ئەڵمانییەکان لە ئەمریکا خێراتر بوو بەھۆی دوو جەنگە جیھانییەکەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "توانەوەی بەڕەچەڵەک ئەڵمانییەکان لە ئەمریکا خێراتر بوو بەھۆی دوو جەنگە جیھانییەکەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAssimilation835("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAssimilation835(
                                     // REPLACE: assimilation /əˌsɪməˈleɪʃn/
                                     "en-US"),
@@ -331,14 +265,8 @@ class EnglishEntryassimilation extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٣. (ناو) پڕۆسەی خوێندنەوەی دوو دەنگ کە لە وشەیەکدا لە نزیک یەکن وەکو یەک، بۆ نموونە خوێندنەوەی /t/ لە football بە /p/""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٣. (ناو) پڕۆسەی خوێندنەوەی دوو دەنگ کە لە وشەیەکدا لە نزیک یەکن وەکو یەک، بۆ نموونە خوێندنەوەی /t/ لە football بە /p/"""),
                           // const DividerSentences(),
                           // const DividerDefinition(),
                         ],
@@ -383,8 +311,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: assimilation (derived forms: assimilations)
 1. The state of being assimilated; people of different backgrounds come to see themselves as part of a larger national family
  
@@ -397,7 +325,8 @@ class EnglishMeaning extends StatelessWidget {
 5. The process of assimilating new ideas into an existing cognitive structure (= acculturation)
  
 6. In the theories of Jean Piaget: the application of a general schema to a particular instance
-"""),
+""",
+          )
         ],
       ),
     );

@@ -156,55 +156,20 @@ class EnglishEntryaccuse extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: گوناھبارکردن، گومان‌لێ‌کردن، تۆمەت‌بارکردن، بوختان‌کردن
 
-١. (کردار) وتنی ئەوەی کەسێک کارێکی ھەڵەی کردووە یان تۆمەتبارە بۆی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (کردار) وتنی ئەوەی کەسێک کارێکی ھەڵەی کردووە یان تۆمەتبارە بۆی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She accused him of lying.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بە درۆکردن تۆمەتباری کرد.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text: "She accused him of lying."),
+                              const ExampleSentenceKurdish(
+                                  text: "بە درۆکردن تۆمەتباری کرد."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA14587("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA14587("en-US"),
                               ),
                             ],
@@ -212,43 +177,15 @@ class EnglishEntryaccuse extends StatelessWidget {
                           const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The government was accused of incompetence.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "حکومەت بە ناکارامەیی تۆمەتبارکرا",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The government was accused of incompetence."),
+                              const ExampleSentenceKurdish(
+                                  text: "حکومەت بە ناکارامەیی تۆمەتبارکرا"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA45691("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA45691("en-US"),
                               ),
                             ],
@@ -295,15 +232,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Verb: accuse (derived forms: accuses, accused, accusing)
 1. Bring an accusation against; level a charge against (= impeach, incriminate, criminate)
 "The neighbours accused the man of spousal abuse";
  
 2. Blame for, make a claim of wrongdoing or misbehaviour against (= charge)
 "he accused the director with indifference";
-'''),
+""",
+          )
         ],
       ),
     );

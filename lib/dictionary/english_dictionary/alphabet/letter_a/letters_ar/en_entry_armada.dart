@@ -210,58 +210,25 @@ class EnglishEntryarmada extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: کۆمەڵەکەشتی، کەشتی‌گەل، دەستەکەشتی (ھی شەڕ)
 
-١. (ناو) ژمارەیەکی زۆری کەشتی جەنگی""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ژمارەیەکی زۆری کەشتی جەنگی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The Spanish Armada was sent to attack England in 1588.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The Spanish Armada was sent to attack England in 1588."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کەشتی‌گەلی ئیسپانیا نێردرا بۆ ھێرشکردنە سەر ئینگلتەرە لە ساڵی ١٥٨٨.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کەشتی‌گەلی ئیسپانیا نێردرا بۆ ھێرشکردنە سەر ئینگلتەرە لە ساڵی ١٥٨٨."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArmada423("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakArmada423(
                                     // REPLACE: armada /ɑːrˈmɑːdə/
                                     "en-US"),
@@ -312,11 +279,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: armada (derived forms: armadas)
 1. A large fleet
-"""),
+""",
+          )
         ],
       ),
     );

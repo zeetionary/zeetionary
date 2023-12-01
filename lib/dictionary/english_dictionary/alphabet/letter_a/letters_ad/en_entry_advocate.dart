@@ -157,55 +157,22 @@ class EnglishEntryadvocate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: لایەنگر، لاگیر، داژدار، پشتیوان، دەستە، داکۆکی‌کار، پارێزەر، ئاووکات، بەرەڤانی‌کار
 
-١. (ناو) لایەنگر و داکۆکیکاری شتێک ''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) لایەنگر و داکۆکیکاری شتێک """),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Canada was one of the strongest advocates of sanctions.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کەنەدا یەکێک لە سەختترین داکۆکیکارانی سزاکان بوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Canada was one of the strongest advocates of sanctions."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کەنەدا یەکێک لە سەختترین داکۆکیکارانی سزاکان بوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdvo3569("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdvo3569(
                                     // REPLACE: advocate /ˈædvəkət/
                                     "en-US"),
@@ -213,53 +180,20 @@ class EnglishEntryadvocate extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (کردار) پشتگیریکردنی شتێک بەشێوەیەکی گشتی ''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (کردار) پشتگیریکردنی شتێک بەشێوەیەکی گشتی """),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The group does not advocate the use of violence.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "گرووپەکە پشتیوانی بەکارھێنانی توندوتیژی ناکات.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The group does not advocate the use of violence."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "گرووپەکە پشتیوانی بەکارھێنانی توندوتیژی ناکات."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdvo2564("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdvo2564(
                                     // REPLACE: advocate /ˈædvəkət/
                                     "en-US"),
@@ -308,8 +242,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Verb: advocate (derived forms: advocates, advocated, advocating)
 1. Push for something (= recommend, urge, encourage)
 "The travel agent advocated strongly that we not travel on Thanksgiving Day";
@@ -321,7 +255,8 @@ class EnglishMeaning extends StatelessWidget {
 1. A person who pleads for a cause or propounds an idea (= advocator, proponent, exponent)
  
 2. (law) a lawyer who pleads cases in court (= counsel, counselor [US], counsellor [Brit, Cdn], counselor-at-law [US, Ireland], pleader)
-'''),
+""",
+          )
         ],
       ),
     );

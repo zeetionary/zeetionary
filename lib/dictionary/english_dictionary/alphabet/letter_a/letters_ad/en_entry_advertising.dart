@@ -156,55 +156,22 @@ class EnglishEntryadvertising extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: بانگەشە، ئاگاداری، ئاگادارکردنەوە، پیشەسازی بانگەشە یان ڕاگەیاندن، پیشەگەری بانگەشە، پیشەی پلان‌دانان و داڕشتن و نووسینی بانگەشەکان
 
-١. (ناو) چالاکی یان پیشەسازی ڕیکلامکرن''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) چالاکی یان پیشەسازی ڕیکلامکرن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Paid advertising on social media is an assured way to reach out to customers.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ڕیکلامکردن لەسەر سۆشیال میدیا ڕێگایەکی زۆرباشە بۆ گەشتن بە کڕیاران.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Paid advertising on social media is an assured way to reach out to customers."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕیکلامکردن لەسەر سۆشیال میدیا ڕێگایەکی زۆرباشە بۆ گەشتن بە کڕیاران."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdver2537("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdver2537(
                                     // REPLACE: advertising /ˈædvərtaɪzɪŋ/
                                     "en-US"),
@@ -253,13 +220,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: advertising 
 1. A public promotion of some product or service (= ad [informal], advertisement, advertizement [US, non-standard], advertizing [US, non-standard], advert [Brit])
  
 2. The business of drawing public attention to goods and services (= publicizing, merchandising, publicising [Brit])
-'''),
+""",
+          )
         ],
       ),
     );

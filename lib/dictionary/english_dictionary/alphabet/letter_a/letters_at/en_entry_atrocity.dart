@@ -212,50 +212,22 @@ class EnglishEntryatrocity extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: بێ‌بەزەییێتی، ھۆڤیگەری، دڵڕەقی، دڕندەیی، خوێن‌ڕێژی، زەبروزەنگ، توندوتیژی، کردەوەی دڕندانە
 
-١. (ناو) کارێکی دڕندانە، بەتایبەتی لە جەنگدا""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کارێکی دڕندانە، بەتایبەتی لە جەنگدا"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "In the war, both sides committed atrocities.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "In the war, both sides committed atrocities."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە جەنگەکەدا، ھەردوو لا تاوانکارییان ئەنجامدا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لە جەنگەکەدا، ھەردوو لا تاوانکارییان ئەنجامدا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAtrocity310("en-GB"),
                               ),
                               IconButton(
@@ -314,13 +286,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: atrocity (derived forms: atrocities)
 1. The quality of being shockingly cruel and inhumane (= atrociousness, barbarity, barbarousness, heinousness)
  
 2. An act of atrocious cruelty (= inhumanity)
-"""),
+""",
+          )
         ],
       ),
     );

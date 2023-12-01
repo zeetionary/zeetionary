@@ -189,9 +189,7 @@ class EnglishEntrybarbecue extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                              // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                              """
+                          const DefinitionKurdish(text: """
 ٢. (ناو) ژەمە خواردنێک کە لە دەرەوە دەیخۆیت و خواردن لەسەر مەقاڵە دەکەیت"""),
                           Row(
                             children: [
@@ -211,9 +209,7 @@ class EnglishEntrybarbecue extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                              // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                              """
+                          const DefinitionKurdish(text: """
 ٣. (ناو) ئامادەکردنی خواردن لەسەر مەقاڵە"""),
                           Row(
                             children: [
@@ -275,8 +271,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: barbecue (derived forms: barbecuing, barbecues, barbecued)
 1. An event or meal at which food is cooked outdoors over an open grill or fire (= barbeque, barbie [Brit, informal], BBQ [Brit])
  
@@ -287,7 +283,8 @@ class EnglishMeaning extends StatelessWidget {
 - Verb: barbecue (derived forms: barbecuing, barbecues, barbecued)
 1. (cooking) cook outdoors on a barbecue grill (= barbeque, cook out [N. Amer])
 "let's barbecue that meat";
-"""),
+""",
+          )
         ],
       ),
     );

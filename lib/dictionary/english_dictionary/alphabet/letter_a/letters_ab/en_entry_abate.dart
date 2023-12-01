@@ -131,55 +131,22 @@ class EnglishEntryabate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: دامرکان، داکوژان، ئارام‌گرتن
 
-١. (کردار) لەدەستدانی ھێز و لاوازبوون''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (کردار) لەدەستدانی ھێز و لاوازبوون"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The storm showed no signs of abating.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "زریانەکە ھیچ ئاماژەیەکی دامرکانی پیشان نەدەدا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The storm showed no signs of abating."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "زریانەکە ھیچ ئاماژەیەکی دامرکانی پیشان نەدەدا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speak1142566("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speak1142566("en-US"),
                               ),
                             ],
@@ -217,14 +184,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Verb: abate (abating, abated, abates)
 1.Make less active or intense (=slake, slack)
 
 2. Become less in amount or intensity (=let up, slack off, slack, die away)
 "The storm abated";
-'''),
+""",
+          )
         ],
       ),
     );

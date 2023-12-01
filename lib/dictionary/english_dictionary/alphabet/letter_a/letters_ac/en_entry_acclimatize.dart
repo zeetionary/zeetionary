@@ -140,55 +140,21 @@ class EnglishEntryacclimatize extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: خۆگونجاندن 
 
-١. خۆگونجاندن لەگەڵ شوێنێک، بارودۆخێک، یان ئاووھەوایەکی نوێ''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. خۆگونجاندن لەگەڵ شوێنێک، بارودۆخێک، یان ئاووھەوایەکی نوێ"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "We haven’t got acclimatized to village life yet.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھێشتا بە ژیانی لادێ ڕانەھاتووین.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We haven’t got acclimatized to village life yet."),
+                              const ExampleSentenceKurdish(
+                                  text: "ھێشتا بە ژیانی لادێ ڕانەھاتووین."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA14998("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA14998("en-US"),
                               ),
                             ],
@@ -235,12 +201,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Verb: acclimatize (derived forms: acclimatized, acclimatizes, acclimatizing)
 1. Get used to a certain climate (= acclimatise [Brit], acclimate [N. Amer])
 "They never acclimatized in Egypt";
-'''),
+""",
+          )
         ],
       ),
     );

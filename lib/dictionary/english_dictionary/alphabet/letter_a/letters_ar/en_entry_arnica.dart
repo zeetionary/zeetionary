@@ -210,15 +210,11 @@ class EnglishEntryarnica extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                              // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                              """
 کوردی: یۆزخنکێن، گوڵەپشمین
 
-١. (ھاوەڵناو) چارەسەرێکی سرووشتی کە لە ڕووەکی ئارنیکا درووست‌دەکرێت و بەکاردێت بۆ چارەسەری ڕووشاوی پێست""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) چارەسەرێکی سرووشتی کە لە ڕووەکی ئارنیکا درووست‌دەکرێت و بەکاردێت بۆ چارەسەری ڕووشاوی پێست"""),
                           // Row(
                           //   children: [
                           //     const Expanded(
@@ -311,15 +307,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: arnica (derived forms: arnicas)
 1. Used especially in treating bruises
  
 2. Any of various rhizomatous usually perennial plants of the genus Arnica
  
 3. An ointment used in treating bruises
-"""),
+""",
+          )
         ],
       ),
     );

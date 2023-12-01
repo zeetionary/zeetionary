@@ -156,55 +156,22 @@ class EnglishEntryacupuncture extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ئەکیوپەنکچێر، نۆژداری بە دەرزی، دەرزی‌ئاژنینی نەخۆش، دەرزی‌ئاژنی، چارەسەرکردن بە دەرزی
 
-١. (ناو) ڕێگایەکی چارەسەرکردنی ئازار و نەخۆشی بە بەکارھێنانی دەرزیی تایبەتی باریک کە دەکرێن بە بەشەکانی جەستەدا''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ڕێگایەکی چارەسەرکردنی ئازار و نەخۆشی بە بەکارھێنانی دەرزیی تایبەتی باریک کە دەکرێن بە بەشەکانی جەستەدا"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Acupuncture has been practised in China for thousands of years.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دەرزی ئاژنین ھەزاران ساڵە لە چین پەیڕەو دەکرێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Acupuncture has been practised in China for thousands of years."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دەرزی ئاژنین ھەزاران ساڵە لە چین پەیڕەو دەکرێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAcupunct457("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAcupunct457(
                                     // REPLACE: acupuncture /ˈækjupʌŋktʃər/
                                     "en-US"),
@@ -253,11 +220,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: acupuncture (derived forms: acupunctures)
 1. Treatment of pain or disease by inserting the tips of needles at specific points on the skin (stylostixis)
-'''),
+""",
+          )
         ],
       ),
     );

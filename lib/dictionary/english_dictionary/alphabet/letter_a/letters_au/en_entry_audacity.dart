@@ -212,50 +212,21 @@ class EnglishEntryaudacity extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: نەترسی، ئازایەتی، بێ‌باکی، چاونەترسی، مەترسی‌کاری، ، ڕووشەیی، ڕووداری، ڕووھەڵمالراوی، بێ‌شەرمی
 
-١. (ناو) بوێری و جەربەزەیی""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) بوێری و جەربەزەیی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He had the audacity to say I was too fat.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He had the audacity to say I was too fat."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بوێری ئەوەی بوو بڵێت من زۆر قەڵەوم.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "بوێری ئەوەی بوو بڵێت من زۆر قەڵەوم."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAudacity1246("en-GB"),
                               ),
                               IconButton(
@@ -314,14 +285,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: audacity (derived forms: audacities)
 1. Fearless daring (= audaciousness, temerity)
  
 2. Aggressive boldness or unmitigated effrontery (= audaciousness)
 "he had the audacity to question my decision";
-"""),
+""",
+          )
         ],
       ),
     );

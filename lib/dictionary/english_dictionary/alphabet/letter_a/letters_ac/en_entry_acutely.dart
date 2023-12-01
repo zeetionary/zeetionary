@@ -167,47 +167,19 @@ class EnglishEntryacutely extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: بەتوندی، توند
 
-١. (ھاوەڵکار) تێبینی و ھەستکردن بە شتێک زۆر بە باشی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵکار) تێبینی و ھەستکردن بە شتێک زۆر بە باشی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I am acutely aware of the difficulties we face.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "زۆرباش ئاگاداری ئەو ناڕەحەتییانەم کە تووشیان دەبین.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I am acutely aware of the difficulties we face."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "زۆرباش ئاگاداری ئەو ناڕەحەتییانەم کە تووشیان دەبین."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAcu427("en-GB"),
                               ),
                               IconButton(
@@ -225,43 +197,16 @@ class EnglishEntryacutely extends StatelessWidget {
                           const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She acutely identified all the main problems.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "زیرەکانە ھەموو کێشە سەرەکییەکانی دەستنیشانکرد.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She acutely identified all the main problems."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "زیرەکانە ھەموو کێشە سەرەکییەکانی دەستنیشانکرد."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAcute7481("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAcute7481(
                                     // REPLACE: acutely /əˈkjuːtli/
                                     "en-US"),
@@ -269,53 +214,20 @@ class EnglishEntryacutely extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ھاوەڵکار) دەرکەوتنی ھەستێکی خراپ زۆر بە زەقی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ھاوەڵکار) دەرکەوتنی ھەستێکی خراپ زۆر بە زەقی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Another scandal would be acutely embarrassing for the government.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئابڕووچوونێکی تر زۆر شەرمھێنەر دەبێت بۆ حکومەت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Another scandal would be acutely embarrassing for the government."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئابڕووچوونێکی تر زۆر شەرمھێنەر دەبێت بۆ حکومەت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAcute666632("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAcute666632(
                                     // REPLACE: acutely /əˈkjuːtli/
                                     "en-US"),
@@ -364,8 +276,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adverb: acutely  
 1. In a keen or penetrating way (= keenly)
 "she pitied her sister acutely"; "acutely aware";
@@ -378,7 +290,8 @@ class EnglishMeaning extends StatelessWidget {
  
 4. In a shrewd manner (= astutely, shrewdly, sagaciously, sapiently, perspicaciously, advisably)
 "he was acutely insightful";
-'''),
+""",
+          )
         ],
       ),
     );

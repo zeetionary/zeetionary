@@ -204,43 +204,19 @@ class EnglishEntryballisticmissile extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ناو) مووشەکی بالیستیکی؛ موشەکێک کە بە خێرایی و گۆشەیەکی دیاریکراو دەھاوێژرێت بۆ ئەوەی لە شوێنی مەبەست بکەوێتە خوارەوە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) مووشەکی بالیستیکی؛ موشەکێک کە بە خێرایی و گۆشەیەکی دیاریکراو دەھاوێژرێت بۆ ئەوەی لە شوێنی مەبەست بکەوێتە خوارەوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "The regime was planning on developing long-range ballistic missiles that could travel 600 miles or more.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The regime was planning on developing long-range ballistic missiles that could travel 600 miles or more."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ڕژێمەکە پلانی گەشەپێدانی موشەکی بالیستیکی مەودا درێژی ھەبوو کە دەیتوانی ٦٠٠ میل یان زیاتر ببڕێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕژێمەکە پلانی گەشەپێدانی موشەکی بالیستیکی مەودا درێژی ھەبوو کە دەیتوانی ٦٠٠ میل یان زیاتر ببڕێت."),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
@@ -250,12 +226,7 @@ class EnglishEntryballisticmissile extends StatelessWidget {
                                 onPressed: () =>
                                     speakBallisticmissiles1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakBallisticmissiles1(
                                     // REPLACE: ballistic missile
                                     "en-US"),
@@ -306,11 +277,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: ballistic missile (derived forms: ballistic missiles)
 1. A missile that is guided in the first part of its flight but falls freely as it approaches target
-"""),
+""",
+          )
         ],
       ),
     );

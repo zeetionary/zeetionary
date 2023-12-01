@@ -204,51 +204,22 @@ class EnglishEntryawning extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: سێبەر(ە)، سابات، چەتر، چادر، سەیوان، پەنا
 
-١. (ناو) پارچە چادرێک کە دەدرێت بەسەر دەرگایەکدا بۆ ڕێگری لە تیشکی خۆر""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) پارچە چادرێک کە دەدرێت بەسەر دەرگایەکدا بۆ ڕێگری لە تیشکی خۆر"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "We sat under the blue and white awning of the cafe.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We sat under the blue and white awning of the cafe."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لەژێر ساباتە ڕەنگ شین و سپییەکەی قاوەخانەکە دانیشتین.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لەژێر ساباتە ڕەنگ شین و سپییەکەی قاوەخانەکە دانیشتین."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAwnings1("en-GB"),
                               ),
                               IconButton(
@@ -307,12 +278,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: awning (derived forms: awnings)
 1. A canopy made of canvas to shelter people or things from rain or sun (= sunshade, sunblind)
 "The awning extends several feet over the pavement";
-"""),
+""",
+          )
         ],
       ),
     );

@@ -156,55 +156,22 @@ class EnglishEntryadrenaline extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ئادرێنالین، ئادرناڵین، ئەدرینالین
 
-١. (ھاوەڵناو) مادەیەک کە لە جەستەدا بەرھەم دێت کاتێک خرۆشاویت، ترساویت یان توڕەیت. وا دەکات دڵ خێراتر لێبدات و وزە و توانای جوڵەی خێرات زیاد دەکات''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) مادەیەک کە لە جەستەدا بەرھەم دێت کاتێک خرۆشاویت، ترساویت یان توڕەیت. وا دەکات دڵ خێراتر لێبدات و وزە و توانای جوڵەی خێرات زیاد دەکات"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The excitement at the start of a race can really get the adrenaline flowing.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "جۆشوخرۆشی لە سەرەتای پێشبڕکێیەک دەکرێت وابکات ئەدریناڵین زیادبکات.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The excitement at the start of a race can really get the adrenaline flowing."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "جۆشوخرۆشی لە سەرەتای پێشبڕکێیەک دەکرێت وابکات ئەدریناڵین زیادبکات."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdren235874("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdren235874(
                                     // REPLACE: adrenaline /əˈdrenəlɪn/
                                     "en-US"),
@@ -253,11 +220,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: adrenaline (derived forms: adrenalines)
 1. A catecholamine secreted by the adrenal medulla in response to stress (trade name Adrenalin); stimulates autonomic nerve action (= epinephrine, epinephrin, Adrenalin)
-'''),
+""",
+          )
         ],
       ),
     );

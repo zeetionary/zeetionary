@@ -531,15 +531,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 Article:
 1. Indefinite article, "an" is used before a vowel sound, "a" otherwise
 
 Noun: AN
 1. An associate degree in nursing
 - Associate in Nursing
-'''),
+""",
+          )
         ],
       ),
     );

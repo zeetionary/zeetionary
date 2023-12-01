@@ -156,58 +156,24 @@ class EnglishEntryalgae extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: قەوزە، کەژاو، کەوزەر، جەلاوی، گاوەک، قەوزوگەل
 
-١. (ناو) خانەی زۆر سەرەتایی کە ھیچ ڕەگ و قەد و بنەچەیان نییە و لە نزیک ئاو دەژین''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) خانەی زۆر سەرەتایی کە ھیچ ڕەگ و قەد و بنەچەیان نییە و لە نزیک ئاو دەژین"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Algae has clogged the intake to the water stem.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Algae has clogged the intake to the water stem."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "قەوزە ڕێگای ڕێڕەوی ئاوەکەی گرتبوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "قەوزە ڕێگای ڕێڕەوی ئاوەکەی گرتبوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAlgae4524("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAlgae4524(
                                     // REPLACE: algae /ˈældʒiː/,  /ˈælɡiː/
                                     "en-US"),
@@ -256,11 +222,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: algae (derived forms: algaes)
 1. Primitive chlorophyll-containing mainly aquatic eukaryotic organisms lacking true stems and roots and leaves (= alga)
-'''),
+""",
+          )
         ],
       ),
     );

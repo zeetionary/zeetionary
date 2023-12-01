@@ -156,55 +156,22 @@ class EnglishEntryacrimonious extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: توند، تاڵ، ناخۆش، ڕەق، تیژ
 
-١. (ھاوەڵناو) مشتومڕێک یان کێشەیەک کە پڕە لە ھەست و قسەی ناخۆش''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) مشتومڕێک یان کێشەیەک کە پڕە لە ھەست و قسەی ناخۆش"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "His parents went through an acrimonious divorce.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دایک و باوکی بە جیابوونەوەیەکی تاڵدا تێپەڕین.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "His parents went through an acrimonious divorce."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دایک و باوکی بە جیابوونەوەیەکی تاڵدا تێپەڕین."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAcrim237("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAcrim237(
                                     "en-US"), // REPLACE acrimonious /ˌækrɪˈməʊniəs/
                               ),
@@ -252,12 +219,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: acrimonious 
 1. Marked by strong resentment or cynicism (= bitter)
 "an acrimonious dispute";
-'''),
+""",
+          )
         ],
       ),
     );

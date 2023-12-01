@@ -131,14 +131,8 @@ class EnglishEntryaboveyourself extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. کاتێک کە خۆت بە زیاتر لەوەی ھەیت دەزانیت''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          DefinitionKurdish(text: """
+١. کاتێک کە خۆت بە زیاتر لەوەی ھەیت دەزانیت"""),
                         ],
                       ),
                     ),
@@ -181,11 +175,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 Idiom: above yourself
 1. ​(disapproving) having too high an opinion of yourself
-'''),
+""",
+          )
         ],
       ),
     );

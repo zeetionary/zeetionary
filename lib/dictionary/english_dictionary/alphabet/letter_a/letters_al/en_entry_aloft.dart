@@ -155,50 +155,20 @@ class EnglishEntryaloft extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: لەحەوا، لە سەروو، لە ژوور، ژوورسەروو، بان، لە فڕین‌دا، بەسەر داراڵای کەشتی لەسەرووی پشتی کەشتی
 
-١. (ھاوەڵناو) لە حەوادا''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) لە حەوادا"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She held the glass aloft.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "She held the glass aloft."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "گڵاسەکەی لەحەوادا گرت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "گڵاسەکەی لەحەوادا گرت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAloft4256("en-GB"),
                               ),
                               IconButton(
@@ -255,8 +225,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adverb: aloft
 1. At or on or to the masthead or upper rigging of a ship
 "climbed aloft to unfurl the sail"
@@ -269,7 +239,8 @@ class EnglishMeaning extends StatelessWidget {
  
 4. In the higher atmosphere above the earth
 "weather conditions aloft are fine"
-'''),
+""",
+          )
         ],
       ),
     );

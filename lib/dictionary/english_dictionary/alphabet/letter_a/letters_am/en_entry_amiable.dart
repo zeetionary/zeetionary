@@ -228,58 +228,23 @@ class EnglishEntryamiable extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ڕووخۆش، دەم‌بەپێکەنین، ڕەزاسووک، زمان‌خۆش، خوڵک‌خۆش، گەرم، شیرین
 
-١. (ھاوەڵناو) ڕووخۆش و ڕەزاسووک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) ڕووخۆش و ڕەزاسووک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Her parents seemed very amiable.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "Her parents seemed very amiable."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دایک و باوکی ڕووخۆش بوون.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "دایک و باوکی ڕووخۆش بوون."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAmiable455666("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAmiable455666(
                                     // REPLACE: amiable /ˈeɪmiəbl/
                                     "en-US"),
@@ -328,15 +293,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: amiable 
 1. Disposed to please (= good-humored [US], good-humoured [Brit, Cdn])
 "an amiable villain with a cocky sidelong grin";
  
 2. Diffusing warmth and friendliness (= affable, cordial, genial)
 "an amiable gathering";
-'''),
+""",
+          )
         ],
       ),
     );

@@ -157,55 +157,21 @@ class EnglishEntryadequate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: لێھاتوو، ژێھاتی، لێوەشاو، گونجاو، بەس، بەش‌کردوو، سەروزیاد، سەرومڕ، سەروبەر، بێ‌کەم‌وزیاد، تەواو
 
-١. (ھاوەڵناو) بە پێی پێویست باش یان زۆر بۆ مەبەستێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) بە پێی پێویست باش یان زۆر بۆ مەبەستێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The room was small but adequate.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ژوورەکە بچووک بوو، بەڵام بەشمانی دەکرد.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text: "The room was small but adequate."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ژوورەکە بچووک بوو، بەڵام بەشمانی دەکرد."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdequa44855("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdequa44855(
                                     // REPLACE: adequate /ˈædɪkwət/
                                     "en-US"),
@@ -215,43 +181,15 @@ class EnglishEntryadequate extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He didn't give an adequate answer to the question.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "وەڵامێکی تەواوی پرسیارەکەی نەداوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He didn't give an adequate answer to the question."),
+                              const ExampleSentenceKurdish(
+                                  text: "وەڵامێکی تەواوی پرسیارەکەی نەداوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdequ99965("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdequ99965(
                                     // REPLACE: adequate /ˈædɪkwət/
                                     "en-US"),
@@ -300,8 +238,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: adequate 
 1. Having the requisite qualities or resources to meet a task (= equal)
 "she had adequate training"; "her training was adequate"; "she was adequate to the job";
@@ -311,7 +249,8 @@ class EnglishMeaning extends StatelessWidget {
  
 3. About average; acceptable (= passable, fair to middling, tolerable)
 "more than adequate as a secretary";
-'''),
+""",
+          )
         ],
       ),
     );

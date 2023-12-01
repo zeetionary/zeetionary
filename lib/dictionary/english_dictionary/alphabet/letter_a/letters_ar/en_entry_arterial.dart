@@ -212,56 +212,23 @@ class EnglishEntryarterial extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ھاوەڵناو) پەیوەندیدار بە خوێنبەرەکانی لەشی مرۆڤ""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ھاوەڵناو) پەیوەندیدار بە خوێنبەرەکانی لەشی مرۆڤ"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "These symptoms are often the first evidence of arterial disease.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "These symptoms are often the first evidence of arterial disease."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەم نیشانانە زۆرجار سەلمێنەری سەرەتایی نەخۆشییە لە خوێنبەرەکان.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەم نیشانانە زۆرجار سەلمێنەری سەرەتایی نەخۆشییە لە خوێنبەرەکان."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArterial158("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakArterial158(
                                     // REPLACE: arterial /ɑːrˈtɪriəl/
                                     "en-US"),
@@ -312,15 +279,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: arterial
 1. Of, involving or contained in the arteries
 "arterial disease"; "the arterial system"; "arterial blood"
  
 2. Of or relating to a major route
 "Suburban arterial roads with two (or more) lanes of traffic pose certain challenges to the cyclist"
-"""),
+""",
+          )
         ],
       ),
     );

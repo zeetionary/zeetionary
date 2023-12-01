@@ -205,58 +205,25 @@ class EnglishEntryantagonism extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: دوژمنایەتی، قین‌گێڕی، دژایەتی، ناکۆکی، بەربەرەکایەتی، ڕکەبەرایەتی
 
-١. (ناو) ھەستی ڕکابەری و ڕق''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ھەستی ڕکابەری و ڕق"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The antagonism he felt towards his old enemy was still very strong.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The antagonism he felt towards his old enemy was still very strong."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەو دوژمنایەتییەی دژ بە دووژمنە کۆنەکەی ھەیبوو ھێشتا بەھێز بوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەو دوژمنایەتییەی دژ بە دووژمنە کۆنەکەی ھەیبوو ھێشتا بەھێز بوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAntagonism1204("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAntagonism1204(
                                     // REPLACE: antagonism /ænˈtæɡənɪzəm/
                                     "en-US"),
@@ -307,8 +274,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: antagonism (derived forms: antagonisms)
 1. A state of deep-seated ill-will (= hostility, enmity)
  
@@ -318,7 +285,8 @@ class EnglishMeaning extends StatelessWidget {
 3. An actively expressed feeling of dislike and hostility
  
 4. (biochemistry) interference in or inhibition of the physiological action of a chemical substance by another having a similar structure
-'''),
+""",
+          )
         ],
       ),
     );

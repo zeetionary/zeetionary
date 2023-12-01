@@ -149,107 +149,41 @@ class EnglishEntryaccord extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ڕێک‌کەوتن یان پێک‌ھاتنی فەرمی (حکومی یان ڕێکخراوەیی)، پەیمان، بڕیار، سازان، پێک‌ھاتن، کۆکی، ڕێک‌کەوتن، گونجان، مەیل، ویست
 
-١. (ناو) ڕێککەوتنێکی فەرمی نێوان دوو وڵات/دامەزراوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ڕێککەوتنێکی فەرمی نێوان دوو وڵات/دامەزراوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The two sides signed a peace accord last July.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەردوو لا ڕێککەوتنێکی ئاشتییان واژۆکرد لە تەممووزی ڕابردوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The two sides signed a peace accord last July."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەردوو لا ڕێککەوتنێکی ئاشتییان واژۆکرد لە تەممووزی ڕابردوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAc48962("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAc48962("en-US"),
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (کردار) پێدانی گرنگی تایبەت بە شتێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (کردار) پێدانی گرنگی تایبەت بە شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Our society accords great importance to the family.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کۆمەڵگاکەمان گرنگی تایبەت دەدات بە خێزان.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Our society accords great importance to the family."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کۆمەڵگاکەمان گرنگی تایبەت دەدات بە خێزان."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA15874("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA15874("en-US"),
                               ),
                             ],
@@ -296,8 +230,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Verb: accord (derived forms: accords)
 1. Go well together (= harmonize, harmonise [Brit], consort, concord, fit in, agree)
 "The colours don't accord";
@@ -318,7 +252,8 @@ class EnglishMeaning extends StatelessWidget {
 4. Sympathetic compatibility
  
 5. (law) an agreement between parties
-'''),
+""",
+          )
         ],
       ),
     );

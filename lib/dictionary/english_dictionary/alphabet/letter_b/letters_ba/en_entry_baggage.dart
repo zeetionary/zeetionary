@@ -207,49 +207,18 @@ class EnglishEntrybaggage extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ناو) جانتایەک کە کەلوپەل و شتومەکی کەسێکی تێدایە لەکاتی گەشتکردن""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) جانتایەک کە کەلوپەل و شتومەکی کەسێکی تێدایە لەکاتی گەشتکردن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "We loaded our baggage into the car.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "We loaded our baggage into the car."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "جانتاکانمان سەرخستە ناو ئۆتۆمبێلەکە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "جانتاکانمان سەرخستە ناو ئۆتۆمبێلەکە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBaggages1("en-GB"),
                               ),
                               IconButton(
@@ -268,39 +237,14 @@ class EnglishEntrybaggage extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "Let's claim our baggage first.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "Let's claim our baggage first."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "با سەرەتا جانتاکانمان وەربگرینەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "با سەرەتا جانتاکانمان وەربگرینەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBaggages2("en-GB"),
                               ),
                               IconButton(
@@ -317,49 +261,20 @@ class EnglishEntrybaggage extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ناو) ئەو کەلوپەلانەی کە سوپایەک لەگەڵ خۆی دەیانبات""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) ئەو کەلوپەلانەی کە سوپایەک لەگەڵ خۆی دەیانبات"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "Extensive baggage trains followed the troops.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Extensive baggage trains followed the troops."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "شەمەندەفەری پڕ لە کەلوپەل دوای سەربازەکان گەشتن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "شەمەندەفەری پڕ لە کەلوپەل دوای سەربازەکان گەشتن."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBaggages3("en-GB"),
                               ),
                               IconButton(
@@ -376,14 +291,8 @@ class EnglishEntrybaggage extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٣. (ناو) دیدگا و ڕەفتاری کەسێک بەھۆی ئەزموونی ڕابردوویان""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٣. (ناو) دیدگا و ڕەفتاری کەسێک بەھۆی ئەزموونی ڕابردوویان"""),
                           // Row(
                           //   children: [
                           //     const Expanded(
@@ -475,8 +384,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: baggage (derived forms: baggages)
 1. Cases used to carry belongings when travelling (= luggage)
  
@@ -486,7 +395,8 @@ class EnglishMeaning extends StatelessWidget {
  
 4. Past history, experiences or opinions that may have been disadvantageous or have negative effect
 "It is important for parents to be aware of the emotional baggage that they bring from childhood into their children's lives"
-"""),
+""",
+          )
         ],
       ),
     );

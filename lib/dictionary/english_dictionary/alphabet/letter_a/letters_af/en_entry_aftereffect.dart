@@ -156,58 +156,25 @@ class EnglishEntryaftereffect extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: (زۆرتر کۆ) نیشانەکانی دواتر، پاشە(ئە)نجام، کاریگەری پاشین یان دواتر، پاش‌نیشانە (وەک ھی دەرمان، نەخۆشی و ھتد)
 
-١. (ناو) کاریگەری دەرمانێک یان ڕووداوێک کە دواتر دەردەکەوێت''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کاریگەری دەرمانێک یان ڕووداوێک کە دواتر دەردەکەوێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Headaches are an aftereffect of this sort of accident.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Headaches are an aftereffect of this sort of accident."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "سەرئێشە دەرئەنجامی ئەم جۆرە ڕووداوانەیە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "سەرئێشە دەرئەنجامی ئەم جۆرە ڕووداوانەیە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAftere3599("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAftere3599(
                                     // REPLACE: aftereffect /ˈɑːftər ɪfekt/
                                     "en-US"),
@@ -256,14 +223,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: aftereffect (derived forms: aftereffects)
 1. Any result that follows its cause after an interval
  
 2. A delayed effect of a drug or therapy
 "the drug had unexpected aftereffects"
-'''),
+""",
+          )
         ],
       ),
     );

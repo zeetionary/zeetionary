@@ -156,50 +156,22 @@ class EnglishEntryaide extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: یاریدەدەر، فریاکەوتوو، ئالیکار، یارمەتی‌دەر، ڕاوێژکار
 
-١. (ناو) کەسێک کە یارمەتی کەسێکی تر دەدات بۆ کردنی شتێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کەسێک کە یارمەتی کەسێکی تر دەدات بۆ کردنی شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He served as an aide to the former president.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He served as an aide to the former president."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "وەک یاریدەدەری سەرۆکی پێشوو کاری کرد.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وەک یاریدەدەری سەرۆکی پێشوو کاری کرد."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAid3596484("en-GB"),
                               ),
                               IconButton(
@@ -256,13 +228,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: aide (derived forms: aides)
 1. Someone who acts as assistant (= auxiliary)
  
 2. (military) an officer who acts as military assistant to a more senior officer (= adjutant, aide-de-camp)
-'''),
+""",
+          )
         ],
       ),
     );

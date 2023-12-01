@@ -212,56 +212,21 @@ class EnglishEntryasphyxiate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (کردار) خنکان یان خنکاندن، ھەناسە‌لێ‌بڕان""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (کردار) خنکان یان خنکاندن، ھەناسە‌لێ‌بڕان"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He was asphyxiated by the smoke.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "He was asphyxiated by the smoke."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بە دووکەڵەکە خنکا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "بە دووکەڵەکە خنکا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAsphyxiate617("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAsphyxiate617(
                                     // REPLACE: asphyxiate /əsˈfɪksieɪt/
                                     "en-US"),
@@ -312,8 +277,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Verb: asphyxiate 
 1. Deprive of oxygen and prevent from breathing (= smother, suffocate)
 "Othello asphyxiated Desdemona with a pillow";
@@ -323,7 +288,8 @@ class EnglishMeaning extends StatelessWidget {
  
 3. Be asphyxiated; die from lack of oxygen (= suffocate, stifle) (derived forms: asphyxiated, asphyxiates, asphyxiating)
 "The child asphyxiated under the pillow";
-"""),
+""",
+          )
         ],
       ),
     );

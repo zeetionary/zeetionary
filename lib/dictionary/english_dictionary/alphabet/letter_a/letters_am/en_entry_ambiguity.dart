@@ -156,58 +156,25 @@ class EnglishEntryambiguity extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: تەژمەیی، تەماوی‌بوون، دووواتایی، دوومانایی، بەپێچ‌وپەنایی، تەم‌ومژاوی‌بوون، ڕوون‌نەبوون، ئاڵۆزی، لێڵی، ناڕوونی، ناکۆکی، یەک‌نەگرتنەوە، دژایەتی، یەک‌نەخوێندنەوە
 
-١. (ناو) ھەبوونی ناڕوونی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ھەبوونی ناڕوونی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Write clear definitions in order to avoid ambiguity.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Write clear definitions in order to avoid ambiguity."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پێناسەی ڕوون بنووسە بۆ ئەوەی لە ناڕوونی بەدوور بیت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پێناسەی ڕوون بنووسە بۆ ئەوەی لە ناڕوونی بەدوور بیت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAmbiguity23555("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAmbiguity23555(
                                     // REPLACE: ambiguity /ˌæmbɪˈɡjuːəti/
                                     "en-US"),
@@ -256,13 +223,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: ambiguity (derived forms: ambiguities)
 1. An expression whose meaning cannot be determined from its context
  
 2. Unclearness by virtue of having more than one meaning (= equivocalness)
-'''),
+""",
+          )
         ],
       ),
     );

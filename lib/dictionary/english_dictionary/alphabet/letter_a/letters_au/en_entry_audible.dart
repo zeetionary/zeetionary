@@ -212,50 +212,22 @@ class EnglishEntryaudible extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: شیاوی بیستن، ڕوون، ڕەوان
 
-١. (ھاوەڵناو) دەنگێک کە ھێندە بەرزە ببیسترێت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) دەنگێک کە ھێندە بەرزە ببیسترێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Her voice was barely audible above the noise.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Her voice was barely audible above the noise."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دەنگەکەی بە ئەستەم زیاتر لە ورتەورت بوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دەنگەکەی بە ئەستەم زیاتر لە ورتەورت بوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAudible1255("en-GB"),
                               ),
                               IconButton(
@@ -314,15 +286,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: audible (derived forms: audibles)
 1. Heard or perceptible by the ear (= hearable)
 "he spoke in an audible whisper";
 
 - Noun: audible 
 1. (American football) the act of or an instance of changing the play at the line of scrimmage by yelling out a new one
-"""),
+""",
+          )
         ],
       ),
     );

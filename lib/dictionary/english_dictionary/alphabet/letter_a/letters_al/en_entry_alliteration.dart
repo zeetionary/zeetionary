@@ -155,16 +155,10 @@ class EnglishEntryalliteration extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          DefinitionKurdish(text: """
 کوردی: ھاوپیتی، لێکچوون یان ھاوچەشنی دەنگی
 
-١. (ناو) ھاتنی یەک پیت یان دەنگ لە سەرەتای دوو یان چەند وشە کە بە دوای یەکدا دێن''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ھاتنی یەک پیت یان دەنگ لە سەرەتای دوو یان چەند وشە کە بە دوای یەکدا دێن"""),
                         ],
                       ),
                     ),
@@ -207,12 +201,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 Noun: alliteration (derived forms: alliterations)
 1. Use of the same consonant at the beginning of each stressed syllable in a line of verse (= initial rhyme, beginning rhyme, head rhyme)
 "consonantal alliteration"; "'Round the rugged rocks the ragged rascal ran' uses alliteration.";
-'''),
+""",
+          )
         ],
       ),
     );

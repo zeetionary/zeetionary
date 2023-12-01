@@ -156,55 +156,21 @@ class EnglishEntryaffliction extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: مەینەتی، بەدبەختی، سەختی، پەژارە، خەم، ڕەنج، ئێش، ژان، سوێ، ئازار، بەڵا، ئاسێو، دەرد
 
-١. (ناو) ئازار و مەینەتی، یان شتێک کە ببێتە ھۆکاری''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ئازار و مەینەتی، یان شتێک کە ببێتە ھۆکاری"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "These poor people are in great affliction.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەم خەڵکە ھەژارە لە مەینەتی زۆرن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "These poor people are in great affliction."),
+                              const ExampleSentenceKurdish(
+                                  text: "ئەم خەڵکە ھەژارە لە مەینەتی زۆرن."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAfflict9644("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAfflict9644(
                                     // REPLACE: affliction /əˈflɪkʃn/
                                     "en-US"),
@@ -253,15 +219,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: affliction (derived forms: afflictions)
 1. A state of great suffering and distress due to adversity
  
 2. A condition of suffering or distress due to ill health
  
 3. A cause of great suffering and distress
-'''),
+""",
+          )
         ],
       ),
     );

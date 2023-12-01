@@ -204,57 +204,23 @@ class EnglishEntrybalti extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ناو) خواردنێکی توونی باشووری ئاسیایە کە لە دەفرێکی ئاسندا دەکرێت و بە نانەوە دەخورێت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) خواردنێکی توونی باشووری ئاسیایە کە لە دەفرێکی ئاسندا دەکرێت و بە نانەوە دەخورێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "I enjoyed a delicious balti chicken dish at an Indian restaurant.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I enjoyed a delicious balti chicken dish at an Indian restaurant."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "نانێکی بەتامی مریشکی باڵتیم لە چێشتخانەیەکی ھندی خوارد.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "نانێکی بەتامی مریشکی باڵتیم لە چێشتخانەیەکی ھندی خوارد."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBaltis1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakBaltis1(// REPLACE: balti
                                     "en-US"),
                               ),
@@ -304,12 +270,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: balti (derived forms: baltis)
 Usage: Brit
 1. A curry dish cooked and served in a flat-bottomed metal pot; the pot
-"""),
+""",
+          )
         ],
       ),
     );

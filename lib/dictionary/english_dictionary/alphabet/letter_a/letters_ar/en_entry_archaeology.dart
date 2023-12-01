@@ -210,58 +210,25 @@ class EnglishEntryarchaeology extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: شوێنەوارناسی، باستان‌ناسی، کۆنەوارناسی، باستانەوانی
 
-١. (ناو) توێژینەوە لە کەلتوورە کۆنەکان و بە مێژوو بە ھەڵکۆڵینی ئەو شوێنەوارانەی لە زەویدا دەدۆزرێنەوە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) توێژینەوە لە کەلتوورە کۆنەکان و بە مێژوو بە ھەڵکۆڵینی ئەو شوێنەوارانەی لە زەویدا دەدۆزرێنەوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Daniel is very interested in history and archaeology, and often visits historic sites.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Daniel is very interested in history and archaeology, and often visits historic sites."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دانیاڵ زۆری حەز بە مێژوو و شوێنەوارناسییە و زۆرجار سەردانی شوێنەوارە مێژووییەکان دەکات.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دانیاڵ زۆری حەز بە مێژوو و شوێنەوارناسییە و زۆرجار سەردانی شوێنەوارە مێژووییەکان دەکات."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArchaeology224("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakArchaeology224(
                                     // REPLACE: archaeology /ˌɑːrkiˈɑːlədʒi/
                                     "en-US"),
@@ -312,11 +279,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: archaeology (derived forms: archaeologies)
 The branch of anthropology that studies prehistoric people and their cultures through their material remains (= archeology [US])
-"""),
+""",
+          )
         ],
       ),
     );

@@ -205,49 +205,20 @@ class EnglishEntrybacteria extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ناو) بەکتریا؛ بچووکترین خانەی زیندوو. بەکتریا بە ژمارەیەکی زۆرەوە ھەن لە ھەوا و ئاو و خاک و خانەی زیندوو و مردوو و ڕووەکدا، و زۆرجار دەبنەھۆی نەخۆشی""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) بەکتریا؛ بچووکترین خانەی زیندوو. بەکتریا بە ژمارەیەکی زۆرەوە ھەن لە ھەوا و ئاو و خاک و خانەی زیندوو و مردوو و ڕووەکدا، و زۆرجار دەبنەھۆی نەخۆشی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "Food that is contaminated with bacteria may not look or smell bad.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Food that is contaminated with bacteria may not look or smell bad."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "خواردنێک کە بە بەکتریا پیس بووە مەرج نییە شێوە و تامی خراپ بێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "خواردنێک کە بە بەکتریا پیس بووە مەرج نییە شێوە و تامی خراپ بێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBacterias1("en-GB"),
                               ),
                               IconButton(
@@ -266,39 +237,16 @@ class EnglishEntrybacteria extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "These beneficial bacteria naturally reside in the intestines.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "These beneficial bacteria naturally reside in the intestines."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەم بەکتریا سوودبەخشانە بەشێوەیەکی سرووشتی لە ڕیخۆڵەدا دەژین.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەم بەکتریا سوودبەخشانە بەشێوەیەکی سرووشتی لە ڕیخۆڵەدا دەژین."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBacterias2("en-GB"),
                               ),
                               IconButton(
@@ -357,11 +305,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: bacteria
 1. (microbiology) single-celled or noncellular spherical or spiral or rod-shaped organisms lacking chlorophyll that reproduce by fission; important as pathogens and for biochemical properties; taxonomy is difficult; often considered to be plants (= bacterium)
-"""),
+""",
+          )
         ],
       ),
     );

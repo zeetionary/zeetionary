@@ -205,50 +205,22 @@ class EnglishEntryannals extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: (ساڵ بە ساڵ) ساڵ‌نامە، ڕووداونامە، تۆمارنامە، مێژوونامە، مێژوو، تۆمارە مێژویی‌یەکان
 
-١. (ھاوەڵناو) تۆماری مێژوویی؛ تۆماری فەرمی ڕووداو و چالاکیی ساڵانە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) تۆماری مێژوویی؛ تۆماری فەرمی ڕووداو و چالاکیی ساڵانە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "His deeds went down in the annals of British history.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "His deeds went down in the annals of British history."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کارەکانی چوونە تۆماری مێژووی بەریتانیاوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کارەکانی چوونە تۆماری مێژووی بەریتانیاوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnnals1123("en-GB"),
                               ),
                               IconButton(
@@ -267,38 +239,16 @@ class EnglishEntryannals extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "This is a historic day in the annals of the team.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "This is a historic day in the annals of the team."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەمە ڕۆژێکی مێژووییە لە مێژوونامەی تیمەکە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەمە ڕۆژێکی مێژووییە لە مێژوونامەی تیمەکە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnnals1125("en-GB"),
                               ),
                               IconButton(
@@ -357,13 +307,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: annals
 1. Reports of the work of a society or learned body etc
  
 2. A chronological account of events in successive years (= chronological record)
-'''),
+""",
+          )
         ],
       ),
     );

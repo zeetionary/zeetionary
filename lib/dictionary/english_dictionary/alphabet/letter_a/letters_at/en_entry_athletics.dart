@@ -212,50 +212,22 @@ class EnglishEntryathletics extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: وەرزش, یاری‌یە وەرزشی‌یەکان
 
-١. (ھاوەڵناو) یارییە وەرزشییەکانی وەک ڕاکردن و بازدان و ھەڵدان""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) یارییە وەرزشییەکانی وەک ڕاکردن و بازدان و ھەڵدان"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "My daughter wants to compete in athletics.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "My daughter wants to compete in athletics."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کچەکەم دەیەوێت بەژداری لە یارییە وەرزشییەکاندا بکات.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کچەکەم دەیەوێت بەژداری لە یارییە وەرزشییەکاندا بکات."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAthletics825("en-GB"),
                               ),
                               IconButton(
@@ -314,15 +286,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: athletics 
 1. (weight class) an active diversion requiring physical exertion and competition (= sport)
  
 2. A contest between athletes (= athletic contest, athletic competition)
  
 3. Participation in sports events as an extracurricular activity
-"""),
+""",
+          )
         ],
       ),
     );

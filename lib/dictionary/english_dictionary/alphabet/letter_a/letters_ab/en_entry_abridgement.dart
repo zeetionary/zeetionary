@@ -140,55 +140,22 @@ class EnglishEntryabridgement extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: کورت‌کردنەوە، لێ‌کردنەوە، پوختە، کورتە
 
-١. (ناو) کتێبێک یان نووسراوێک کە ھەندێک لە بەشەکانی لادراوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کتێبێک یان نووسراوێک کە ھەندێک لە بەشەکانی لادراوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Abridgement of this complex text was extremely difficult.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کورتکردنەوەی ئەم نووسینە ئاڵۆزە کارێکی سەخت بوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Abridgement of this complex text was extremely difficult."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کورتکردنەوەی ئەم نووسینە ئاڵۆزە کارێکی سەخت بوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA3912("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA3912("en-US"),
                               ),
                             ],
@@ -235,11 +202,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: abridgement (derived forms: abridgements)
 1. A shortened version of a written work (= condensation, abridgment, capsule)
-'''),
+""",
+          )
         ],
       ),
     );

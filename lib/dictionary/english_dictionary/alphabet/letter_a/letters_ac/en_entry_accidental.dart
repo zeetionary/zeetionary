@@ -140,55 +140,22 @@ class EnglishEntryaccidental extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ڕێکەوت، بەڕێکەوت، بەھەڵکەوت، ھەڵکەوتی، تووشی، پلان‌دانەنراو، چاوەڕوان‌نەکراو، پێش‌بینی‌نەکراو
 
-١. (ھاوەڵناو) شتێک بە ڕێکەوت ڕووبدات، نەک بە پلان''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) شتێک بە ڕێکەوت ڕووبدات، نەک بە پلان"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I didn't think our meeting was accidental—he must have known I would be there.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "وا ھەست ناکەم چاوپێکەوتنەکەمان بە ھەڵکەوت بووبێت، ئەبێت زانیبێتی من لەوێ دەبم.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I didn't think our meeting was accidental—he must have known I would be there."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وا ھەست ناکەم چاوپێکەوتنەکەمان بە ھەڵکەوت بووبێت، ئەبێت زانیبێتی من لەوێ دەبم."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA1598("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA1598("en-US"),
                               ),
                             ],
@@ -235,8 +202,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: accidental 
 1. Happening by chance, unexpectedly or unintentionally (= inadvertent)
 "accidental poisoning"; "an accidental shooting";
@@ -249,7 +216,8 @@ class EnglishMeaning extends StatelessWidget {
 
 - Noun: accidental 
 1. A musical notation that makes a note sharp, flat or natural although that is not part of the key signature
-'''),
+""",
+          )
         ],
       ),
     );

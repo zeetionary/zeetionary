@@ -204,51 +204,22 @@ class EnglishEntryavaricious extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: ماڵ‌پەرست، بەتەماح، چاوبرسی، چاوچنۆک، پیسکە، بەھەڵپە
 
-١. (ھاوەڵناو) ھەبوونی حەزێکی زۆر بۆ پارە و سامان""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) ھەبوونی حەزێکی زۆر بۆ پارە و سامان"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "She turned out to be a crafty and avaricious politician.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She turned out to be a crafty and avaricious politician."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "وادەرچوو سیاسەتوانێکی زۆرزان و چاوچنۆک بێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وادەرچوو سیاسەتوانێکی زۆرزان و چاوچنۆک بێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAvariciouss1("en-GB"),
                               ),
                               IconButton(
@@ -307,12 +278,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: avaricious
 1. Immoderately desirous of acquiring e.g. wealth (= covetous, grabby [N. Amer, informal], grasping, greedy, prehensile)
 "they are avaricious and will do anything for money";
-"""),
+""",
+          )
         ],
       ),
     );

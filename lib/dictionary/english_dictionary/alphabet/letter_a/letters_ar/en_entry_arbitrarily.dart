@@ -211,58 +211,25 @@ class EnglishEntryarbitrarily extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: سەرپشکانە، بەشێوەیەکی سەرپشک، بەڕێکەوت، ڕەمەکی‌یانە، ھەڕەمەکی‌یانە، بەزۆر، زۆرەملی‌یانە، زۆردارانە
 
-١. (ھاوەڵکار) لەخۆوە؛ شتێک کە پشتی بە ھیچ لۆژیکێک، سیستەنێک، یان پلانێک نەبەستووە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵکار) لەخۆوە؛ شتێک کە پشتی بە ھیچ لۆژیکێک، سیستەنێک، یان پلانێک نەبەستووە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The leaders of the groups were chosen arbitrarily.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The leaders of the groups were chosen arbitrarily."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "سەرکردەی گرووپەکان بە ھەڕەمەکییانە ھەڵبژێردران.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "سەرکردەی گرووپەکان بە ھەڕەمەکییانە ھەڵبژێردران."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArbitrarily1132("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakArbitrarily1132(
                                     // REPLACE: arbitrarily /ˌɑːrbɪˈtrerəli/
                                     "en-US"),
@@ -271,56 +238,23 @@ class EnglishEntryarbitrarily extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ھاوەڵکار) بەشێوەیەک کە دەسەڵات بەکاردێت بە بێ‌سنووری و بە بێ گرنگیدان بە کەسانی تر""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ھاوەڵکار) بەشێوەیەک کە دەسەڵات بەکاردێت بە بێ‌سنووری و بە بێ گرنگیدان بە کەسانی تر"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The political frontiers in Africa were often arbitrarily drawn up by the old colonial powers.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The political frontiers in Africa were often arbitrarily drawn up by the old colonial powers."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "سنوورە سیاسییەکان لە ئەفریقا زۆرجار بە زۆرەملێیانە لەلایەن دەسەڵاتە داگیرکەرەکانی کۆنەوە دەکێشران.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "سنوورە سیاسییەکان لە ئەفریقا زۆرجار بە زۆرەملێیانە لەلایەن دەسەڵاتە داگیرکەرەکانی کۆنەوە دەکێشران."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArbitrarily1135("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakArbitrarily1135(
                                     // REPLACE: arbitrarily /ˌɑːrbɪˈtrerəli/
                                     "en-US"),
@@ -371,15 +305,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adverb: arbitrarily 
 1. In a random manner (= randomly, indiscriminately, haphazardly, willy-nilly, at random, every which way)
 "the houses were arbitrarily scattered";
  
 2. [technical] Taking any value, without any limit
 "the function can be arbitrarily large"
-"""),
+""",
+          )
         ],
       ),
     );

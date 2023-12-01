@@ -156,47 +156,19 @@ class EnglishEntryaerosol extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: پڕژێنە، پڕژێنەک، پژێنە، پژپژە، (کیمیا) ڕاگرتنی (پارچۆلکەکانی) شلە یان تەنێ لە ھەوا یا لە گازدا (دووکەڵ و تەم و مژ ئێرۆسۆلن)
 
-١. (ناو) شلەیەک کە لەناو بوتڵێک دەخرێت و وەک سپرەی دەڕژێنرێت''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) شلەیەک کە لەناو بوتڵێک دەخرێت و وەک سپرەی دەڕژێنرێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Aerosol cans are banned from aircraft cabins.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "قوتووە پرژێنە قەدەغەیە لەناو فڕۆکەدا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Aerosol cans are banned from aircraft cabins."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "قوتووە پرژێنە قەدەغەیە لەناو فڕۆکەدا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAero63844("en-GB"),
                               ),
                               IconButton(
@@ -253,13 +225,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: aerosol  (derived forms: aerosols)
 1. A cloud of solid or liquid particles in a gas
  
 2. A dispenser that holds a substance under pressure and that can release it as a fine spray (usually by means of a propellant gas) (= aerosol container, aerosol can, aerosol bomb, spray can)
-'''),
+""",
+          )
         ],
       ),
     );

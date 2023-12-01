@@ -155,16 +155,10 @@ class EnglishEntryacuteangle extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          DefinitionKurdish(text: """
 کوردی: گۆشەی تیژ یان توند یان ڕژد (کەم‌تر لە ٩٠ پلە بێ)
 
-١. (ناو) گۆشەیەک کە پلەکەی کەمترە لە ٩٠ پلە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) گۆشەیەک کە پلەکەی کەمترە لە ٩٠ پلە"""),
                         ],
                       ),
                     ),
@@ -207,11 +201,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: acute angle (derived forms: acute angles)
 1. An angle less than 90 degrees but more than 0 degrees
-'''),
+""",
+          )
         ],
       ),
     );

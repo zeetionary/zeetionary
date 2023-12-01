@@ -204,51 +204,20 @@ class EnglishEntrybanknote extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: پارە، پارەی درشت، پارەی کاغەز
 
-١. (ھاوەڵناو) یەک پارچە پارەی کاغەز""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) یەک پارچە پارەی کاغەز"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "They issue both banknotes and coins.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "They issue both banknotes and coins."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پارەی کاغەز و دراویش دەردەکەن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "پارەی کاغەز و دراویش دەردەکەن."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBanknotes1("en-GB"),
                               ),
                               IconButton(
@@ -307,12 +276,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: banknote (derived forms: banknotes, bank notes)
 1. A piece of paper money (especially one issued by a central bank) (= bill [N. Amer], note, government note [US], bank bill, banker's bill [N. Amer], bank note, Federal Reserve note [US], greenback [US, informal])
 "he peeled off five one-thousand-zloty banknotes";
-"""),
+""",
+          )
         ],
       ),
     );

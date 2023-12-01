@@ -156,55 +156,22 @@ class EnglishEntryacquisitive extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: بەدەست‌ھێنەر، بەدەست‌خەر، زۆرخواز
 
-١. (ھاوەڵناو) زۆر ئەزکەر لە شتی تازە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) زۆر ئەزکەر لە شتی تازە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "It is an acquisitive company looking for ways to expand.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کۆمپانیایەکی زۆرخوازە کە بەشوێن ڕێگادا دەگەڕێت بۆ فراوانبوون.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "It is an acquisitive company looking for ways to expand."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کۆمپانیایەکی زۆرخوازە کە بەشوێن ڕێگادا دەگەڕێت بۆ فراوانبوون."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAcq12469("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAcq12469(
                                     "en-US"), // REPLACE acquisitive /əˈkwɪzətɪv/
                               ),
@@ -252,12 +219,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: acquisitive
 1. Eager to acquire and possess things especially material possessions or ideas
 "an acquisitive mind"; "an acquisitive society in which the craving for material things seems never satisfied"
-'''),
+""",
+          )
         ],
       ),
     );

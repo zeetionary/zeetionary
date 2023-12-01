@@ -149,55 +149,20 @@ class EnglishEntryabundant extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: زۆر، زۆر و زەبەند، زیاد، فرە، فراوان، بەون، بێ‌ژمار، بۆش، فت‌وفراوان، بەپیت، بەبەرەکەت، فەرێح، فت‌وفراوان، گەلێک، پڕ، لێواولێو، پڕاوپڕ، زیاتر لە پێویست
 
-١. (ھاوەڵناو) کاتێک شتێک ئێجگار زۆرە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) کاتێک شتێک ئێجگار زۆرە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Fish are abundant in the lake.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ماسی ئێجگار زۆرە لە دەریاچەکە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text: "Fish are abundant in the lake."),
+                              const ExampleSentenceKurdish(
+                                  text: "ماسی ئێجگار زۆرە لە دەریاچەکە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA96852("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA96852("en-US"),
                               ),
                             ],
@@ -205,43 +170,16 @@ class EnglishEntryabundant extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "We have abundant evidence to prove his guilt..",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بەڵگەی زۆرمان ھەیە بۆ سەلماندنی تاوانەکەی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We have abundant evidence to prove his guilt.."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بەڵگەی زۆرمان ھەیە بۆ سەلماندنی تاوانەکەی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA15742("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA15742("en-US"),
                               ),
                             ],
@@ -288,12 +226,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: abundant
 1. Present in great quantity
 "an abundant supply of water"
-'''),
+""",
+          )
         ],
       ),
     );

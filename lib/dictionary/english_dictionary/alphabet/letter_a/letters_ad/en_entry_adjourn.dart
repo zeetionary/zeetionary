@@ -157,53 +157,19 @@ class EnglishEntryadjourn extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (کردار) وەستاندنی کۆبوونەوەیەک بۆ ماوەیەک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (کردار) وەستاندنی کۆبوونەوەیەک بۆ ماوەیەک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The court adjourned for lunch.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دادگا دانیشتنەکەی ھەڵپەسارد تاوەکو نیوەڕۆ.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text: "The court adjourned for lunch."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دادگا دانیشتنەکەی ھەڵپەسارد تاوەکو نیوەڕۆ."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdjo952871("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdjo952871(
                                     // REPLACE: adjourn /əˈdʒɜːrn/
                                     "en-US"),
@@ -213,35 +179,11 @@ class EnglishEntryadjourn extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The case was adjourned for a week.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کەیسەکە بۆ ھەفتەیەک ھەڵپەسێردرا",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text: "The case was adjourned for a week."),
+                              const ExampleSentenceKurdish(
+                                  text: "کەیسەکە بۆ ھەفتەیەک ھەڵپەسێردرا"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAd4582("en-GB"),
                               ),
                               IconButton(
@@ -298,15 +240,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Verb: adjourn (derived forms: adjourns, adjourned, adjourning)
 1. Close at the end of a session (= recess, break up)
 "The court adjourned";
  
 2. Break from a meeting or gathering (= withdraw, retire)
 "We adjourned for lunch";
-'''),
+""",
+          )
         ],
       ),
     );

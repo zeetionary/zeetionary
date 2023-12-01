@@ -204,50 +204,22 @@ class EnglishEntryankle extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: قولەپێ، قولاپە، قولەپا، گوێزینگ، گۆزینک، قول
 
-١. (ناو) ئەو بەشەی جەستە کە پێ و لاق پێکەوە دەبەستێت''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ئەو بەشەی جەستە کە پێ و لاق پێکەوە دەبەستێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She suffered a serious ankle injury in training.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She suffered a serious ankle injury in training."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "تووشی گورزێکی کوشندە بوو لە قولەپێ‌یدا لەکاتی ڕاھێنان.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "تووشی گورزێکی کوشندە بوو لە قولەپێ‌یدا لەکاتی ڕاھێنان."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnkle1112("en-GB"),
                               ),
                               IconButton(
@@ -266,38 +238,14 @@ class EnglishEntryankle extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "My ankles have swollen.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "My ankles have swollen."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "قولەپێ‌یەکانم ئاوساون.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "قولەپێ‌یەکانم ئاوساون."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnkle1114("en-GB"),
                               ),
                               IconButton(
@@ -356,15 +304,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 Noun: ankle (derived forms: ankles)
 1. The joint connecting the foot with the leg (derived forms: ankling, ankles, ankled)
 
 Verb: ankle (derived forms: ankling, ankles, ankled)
 Usage: N. Amer, informal
 1. Walk (= foot [informal], leg it [informal], hoof [informal], hoof it [informal])
-'''),
+""",
+          )
         ],
       ),
     );

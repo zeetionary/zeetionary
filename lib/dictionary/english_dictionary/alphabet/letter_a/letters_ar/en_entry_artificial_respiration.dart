@@ -212,42 +212,19 @@ class EnglishEntryartificialrespiration extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ناو) پڕۆسەی یارمەتیدانی کەسێک کە لە ھەناسەدان کەوتووە دووبارە ھەناسە بداتەوە، زۆرجار بە پێدانی ھەوا پێیان لە ڕێگەی دەم یان لووتەوە، یان بە بەکارھێنانی ئامێری تایبەت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) پڕۆسەی یارمەتیدانی کەسێک کە لە ھەناسەدان کەوتووە دووبارە ھەناسە بداتەوە، زۆرجار بە پێدانی ھەوا پێیان لە ڕێگەی دەم یان لووتەوە، یان بە بەکارھێنانی ئامێری تایبەت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Rescuers pulled the child from the river, and she was given artificial respiration.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Rescuers pulled the child from the river, and she was given artificial respiration."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ڕزگارکەران منداڵەکەیان لە ڕووبارەکە ھێنایە دەرەوە و ھەناسەدانی دەستکردیان بۆ کرد.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕزگارکەران منداڵەکەیان لە ڕووبارەکە ھێنایە دەرەوە و ھەناسەدانی دەستکردیان بۆ کرد."),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
@@ -257,12 +234,7 @@ class EnglishEntryartificialrespiration extends StatelessWidget {
                                 onPressed: () =>
                                     speakArtificialrespiration943("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakArtificialrespiration943(
                                     // REPLACE: artificial respiration /ˌɑːrtɪfɪʃl respəˈreɪʃn/
                                     "en-US"),
@@ -313,11 +285,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: artificial respiration 
 1. An emergency procedure whereby breathing is maintained artificially
-"""),
+""",
+          )
         ],
       ),
     );

@@ -205,58 +205,25 @@ class EnglishEntryantagonist extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: دوژمن، نەیار، ھەڤڕک، ناکۆک، پێک‌دژ، بەرھەڵست، دژ، دژبەر
 
-١. (ناو) کەسێک کە بە سەرسەختی دژی کەسێک یان شتێکە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کەسێک کە بە سەرسەختی دژی کەسێک یان شتێکە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He has always been the prime minister’s most formidable antagonist in Parliament.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He has always been the prime minister’s most formidable antagonist in Parliament."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەمیشە گەورەترین نەیاری سەرۆک وەزیران بووە لە پەرلەمان.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەمیشە گەورەترین نەیاری سەرۆک وەزیران بووە لە پەرلەمان."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAntagonist1255("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAntagonist1255(
                                     // REPLACE: antagonist /ænˈtæɡənɪst/
                                     "en-US"),
@@ -307,8 +274,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: antagonist (derived forms: antagonists) (= adversary, opponent, opposer, resister)
 1. Someone who offers opposition
 
@@ -316,7 +283,8 @@ class EnglishMeaning extends StatelessWidget {
 "when bending the elbow the triceps are the antagonist"
  
 3. A drug that neutralizes or counteracts the effects of another drug
-'''),
+""",
+          )
         ],
       ),
     );

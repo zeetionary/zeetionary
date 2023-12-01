@@ -210,58 +210,23 @@ class EnglishEntryarmadillo extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: (گیانەوەرناسی) زرێپۆشە، زرێدار، ئەرمادیلۆ
 
-١. (ناو) گیانلەبەرێکی ئەمریکی کە توێکڵێکی ڕەقی وەک کیسەڵ ھەیە لە ئێسک پێکھاتووە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) گیانلەبەرێکی ئەمریکی کە توێکڵێکی ڕەقی وەک کیسەڵ ھەیە لە ئێسک پێکھاتووە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I have never seen an armadillo.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "I have never seen an armadillo."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەرگیز ئەرمادیلۆیەکم نەدیوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "ھەرگیز ئەرمادیلۆیەکم نەدیوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArmadillo440("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakArmadillo440(
                                     // REPLACE: armadillo /ˌɑːrməˈdɪləʊ/
                                     "en-US"),
@@ -312,11 +277,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: armadillo (derived forms: armadillos)
 1. Burrowing chiefly nocturnal mammal with body covered with strong horny plates
-"""),
+""",
+          )
         ],
       ),
     );

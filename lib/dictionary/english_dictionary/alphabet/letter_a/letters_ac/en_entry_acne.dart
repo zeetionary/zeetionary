@@ -156,55 +156,20 @@ class EnglishEntryacne extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: زیپکە (ی لاوێتی) جوانەزۆ، جوانەژۆ، ئازەبە
 
-١. (ناو) ژمارەیەک زیپکە کە لە تەمەنی گەنجیدا دەردەکەوێت لەسەر ڕووخسار و مل''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ژمارەیەک زیپکە کە لە تەمەنی گەنجیدا دەردەکەوێت لەسەر ڕووخسار و مل"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Acne often clears up by itself.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئاکنی بەزۆری بۆ خۆی لادەچێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text: "Acne often clears up by itself."),
+                              const ExampleSentenceKurdish(
+                                  text: "ئاکنی بەزۆری بۆ خۆی لادەچێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAcn1259("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAcn1259(
                                     "en-US"), // REPLACE acne /ˈækni/
                               ),
@@ -252,11 +217,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: acne (derived forms: acnes)
 1. An inflammatory disease involving the sebaceous glands of the skin; characterized by papules, pustules or comedones
-'''),
+""",
+          )
         ],
       ),
     );

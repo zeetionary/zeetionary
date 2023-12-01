@@ -212,50 +212,22 @@ class EnglishEntryaudacious extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: چاونەترس، ئازا، بوێر، سڵ‌نەکەر، بێ‌باک، ، ڕوودار، بێ‌شەرم، ڕووشە، بێ‌حەیا، ڕووھەڵماڵراو، ئازایانە، چاونەترسانە
 
-١. (ھاوەڵناو) بوێرانە و چاونەترس""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) بوێرانە و چاونەترس"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He described the plan as ambitious and audacious.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He described the plan as ambitious and audacious."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پلانەکەی بە تەماحکارانە و چاونەترسی ناوھێنا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پلانەکەی بە تەماحکارانە و چاونەترسی ناوھێنا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAudacious1231("en-GB"),
                               ),
                               IconButton(
@@ -314,8 +286,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: audacious 
 1. Invulnerable to fear or intimidation (= brave, dauntless, fearless, hardy, intrepid, unfearing)
 "audacious explorers";
@@ -325,7 +297,8 @@ class EnglishMeaning extends StatelessWidget {
  
 3. Disposed to venture or take risks (= daring, venturesome, venturous)
 "audacious visions of the total conquest of space"; "an audacious interpretation of two Jacobean dramas";
-"""),
+""",
+          )
         ],
       ),
     );

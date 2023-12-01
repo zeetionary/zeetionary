@@ -213,58 +213,25 @@ class EnglishEntryartfully extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: زیرەکانە، فێڵبازانە، زۆڵانە
 
-١. (ھاوەڵکار) بەشێوەیەکی زیرەکانە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵکار) بەشێوەیەکی زیرەکانە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "In our conversation, he was artfully vague about his plans.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "In our conversation, he was artfully vague about his plans."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە گفتوگۆکەماندا بەشێوەیەکی زیرەکانە ناڕوون بوو سەبارەت بە پلانەکانی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لە گفتوگۆکەماندا بەشێوەیەکی زیرەکانە ناڕوون بوو سەبارەت بە پلانەکانی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArtfully441("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakArtfully441(
                                     // REPLACE: artfully /ˈɑːrtfəli/
                                     "en-US"),
@@ -273,56 +240,23 @@ class EnglishEntryartfully extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ھاوەڵکار) بەشێوەیەکی زیرەکانە و وتنی درۆ""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ھاوەڵکار) بەشێوەیەکی زیرەکانە و وتنی درۆ"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She opened her right hand but artfully concealed the key in her left hand.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She opened her right hand but artfully concealed the key in her left hand."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دەستی ڕاستی کردەوە بەڵام بە زۆڵانە کلیلەکەی لە دەستی چەپی شاردەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دەستی ڕاستی کردەوە بەڵام بە زۆڵانە کلیلەکەی لە دەستی چەپی شاردەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArtfully443("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakArtfully443(
                                     // REPLACE: artfully /ˈɑːrtfəli/
                                     "en-US"),
@@ -373,8 +307,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adverb: artfully 
 1. In a manner exhibiting art or skill
 "her foot pointed artfully toward tapering toes"
@@ -384,7 +318,8 @@ class EnglishMeaning extends StatelessWidget {
  
 3. In an subtle, cunning manner (= craftily, cunningly, foxily, knavishly, slyly, trickily, slily)
 "he artfully arranged to be there when the decision was announced";
-"""),
+""",
+          )
         ],
       ),
     );

@@ -156,47 +156,18 @@ class EnglishEntryafoot extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: لەسەرپێ، بەپێوە، لە پەرەسەندن‌دا، لە پێشکەوتن‌دا، لە ئامادەبوون‌دا، لە حاڵی کردن‌دا، لە جووڵەدا، بەڕێگاوە، نزیک، ھاکاھات
 
-١. (ھاوەڵناو) شتێک کە لە پلاندایە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) شتێک کە لە پلاندایە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "There are plans afoot to increase taxation.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پلان لە ئارادایە بۆ زیادکردنی باج",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "There are plans afoot to increase taxation."),
+                              const ExampleSentenceKurdish(
+                                  text: "پلان لە ئارادایە بۆ زیادکردنی باج"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAfoo4599("en-GB"),
                               ),
                               IconButton(
@@ -253,8 +224,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: afoot 
 1. Travelling by foot
 "she was afoot when I saw her this morning"
@@ -265,7 +236,8 @@ class EnglishMeaning extends StatelessWidget {
 - Adverb: afoot 
 1. On foot; walking
 "they went to the village afoot"; "quail are hunted either afoot or on horseback"
-'''),
+""",
+          )
         ],
       ),
     );

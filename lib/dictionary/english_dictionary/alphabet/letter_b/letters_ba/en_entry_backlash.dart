@@ -204,59 +204,25 @@ class EnglishEntrybacklash extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: کاردانەوە(توند)، بەرپەرچ‌دانەوە (لە لایەن ژمارەیێکی زۆری خەڵکەوە)، گەڕانەوە، ئاڵۆسکان، تێک‌ئاڵان، لێک‌ئاڵان
 
-١. (ناو) کاردانەوەی توندی کۆمەڵێک خەڵک بەرامبەر شتێک""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کاردانەوەی توندی کۆمەڵێک خەڵک بەرامبەر شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "The government is facing an angry backlash from voters over the new tax.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The government is facing an angry backlash from voters over the new tax."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "حکومەت ڕووبەڕووی کاردانەوەی توندی دەنگدەران بووە بەھۆی باجە نوێیەکەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "حکومەت ڕووبەڕووی کاردانەوەی توندی دەنگدەران بووە بەھۆی باجە نوێیەکەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakB3s1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakB3s1(// REPLACE: backlash
                                     "en-US"),
                               ),
@@ -306,8 +272,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: backlash (derived forms: backlashed, backlashes, backlashing)
 1. A movement back from an impact (= recoil, repercussion, rebound)
  
@@ -317,7 +283,8 @@ class EnglishMeaning extends StatelessWidget {
 - Verb: backlash
 1. Come back to the originator of an action with an undesired effect (= backfire, recoil)
 "the political movie backlashed on the Democrats";
-"""),
+""",
+          )
         ],
       ),
     );

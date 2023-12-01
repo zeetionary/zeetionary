@@ -204,58 +204,25 @@ class EnglishEntryanaerobic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: بێ‌ھەواژی، ھەوانەویست، ئۆکسیژێن‌نەویست
 
-١. (ھاوەڵناو) ناپێویست بە ئۆکسجین''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) ناپێویست بە ئۆکسجین"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Some bacteria can only live in anaerobic conditions.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Some bacteria can only live in anaerobic conditions."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەندێک بەکتریا تەنھا لە شوێنی بێ‌ئۆکسجیندا دەژین.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەندێک بەکتریا تەنھا لە شوێنی بێ‌ئۆکسجیندا دەژین."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnaerobic0896("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAnaerobic0896(
                                     // REPLACE: anaerobic /ˌænəˈrəʊbɪk/
                                     "en-US"),
@@ -306,15 +273,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: anaerobic 
 1. Living or active in the absence of free oxygen (= anaerobiotic)
 "anaerobic bacteria";
  
 2. Not aerobic
 "isometric exercises are anaerobic"
-'''),
+""",
+          )
         ],
       ),
     );

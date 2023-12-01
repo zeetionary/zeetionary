@@ -211,50 +211,22 @@ class EnglishEntryarcade extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: ڕێڕەوی کەوانەسەر یان تاق‌دار، بازار، قەیسەری، ڕاستەبازاڕ، زنجیرەتاق، بازاڕی سەرداپۆشراو
 
-١. (ناو) ڕێگایەکی سەر داخراو کە کەوانەی تێدایە و تەنیشتەکانی بینایە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ڕێگایەکی سەر داخراو کە کەوانەی تێدایە و تەنیشتەکانی بینایە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Families like to spend time together at the shopping arcade on weekends.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Families like to spend time together at the shopping arcade on weekends."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "خێزانەکان حەزدەکەن پێکەوە کات بەسەر ببەن لە قەیسەرییەکە لە ڕۆژانی کۆتایی ھەفتە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "خێزانەکان حەزدەکەن پێکەوە کات بەسەر ببەن لە قەیسەرییەکە لە ڕۆژانی کۆتایی ھەفتە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArcade105("en-GB"),
                               ),
                               IconButton(
@@ -271,48 +243,20 @@ class EnglishEntryarcade extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ناو) شوێنێک کە دەتوانی یاری بە ئامێر بکەیت بە پێدانی دراو""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) شوێنێک کە دەتوانی یاری بە ئامێر بکەیت بە پێدانی دراو"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Playing arcade games can be a fun way to spend time with friends and family.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Playing arcade games can be a fun way to spend time with friends and family."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کردنی یارییە ئارکەیدییەکان دەکرێت ڕێگایەکی خۆش بێت بۆ بەسەربردنی ھەندێک کات لەگەڵ ھاوڕێیان و خێزان.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کردنی یارییە ئارکەیدییەکان دەکرێت ڕێگایەکی خۆش بێت بۆ بەسەربردنی ھەندێک کات لەگەڵ ھاوڕێیان و خێزان."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArcade109("en-GB"),
                               ),
                               IconButton(
@@ -371,13 +315,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: arcade (derived forms: arcades)
 1. A covered passageway with shops and stalls on either side
  
 2. A structure composed of a series of arches supported by columns (= colonnade)
-"""),
+""",
+          )
         ],
       ),
     );

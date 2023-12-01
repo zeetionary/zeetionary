@@ -156,47 +156,19 @@ class EnglishEntryactress extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ڕۆڵ‌گێڕ، دەورگێڕ، ئەکتێر، ئەکتەر (ژن)
 
-١. (ناو) ژنێک کە کاری ڕۆڵگێڕان لە شانۆ و فیلم ئەکات''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ژنێک کە کاری ڕۆڵگێڕان لە شانۆ و فیلم ئەکات"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The Oscar-winning actress has taken a break from acting.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "خانمە ئەکتەرەکەی براوەی خەڵاتی ئۆسکار بۆ ماوەیەک پشووی لە ڕۆڵگێڕان وەرگرتووە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The Oscar-winning actress has taken a break from acting."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "خانمە ئەکتەرەکەی براوەی خەڵاتی ئۆسکار بۆ ماوەیەک پشووی لە ڕۆڵگێڕان وەرگرتووە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakActress527("en-GB"),
                               ),
                               IconButton(
@@ -253,11 +225,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: actress
 1. A female actor
-'''),
+""",
+          )
         ],
       ),
     );

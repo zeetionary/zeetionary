@@ -212,50 +212,22 @@ class EnglishEntryauctioneer extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: دەڵاڵی مەزات یان ھەڕاج، ھەڕاج‌گەر
 
-١. (ناو) کەسێک کە لە زیادکردنی ئاشکرادا شت دەفرۆشێت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کەسێک کە لە زیادکردنی ئاشکرادا شت دەفرۆشێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "‘Yours for £200,’ said the auctioneer.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "‘Yours for £200,’ said the auctioneer."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دەڵاڵەکە وتی 'ھی تۆیە بە ٢٠٠ پاوەند'.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دەڵاڵەکە وتی 'ھی تۆیە بە ٢٠٠ پاوەند'."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAuctioneer1221("en-GB"),
                               ),
                               IconButton(
@@ -314,14 +286,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: auctioneer (derived forms: auctioneer)
 1. An agent who conducts an auction
 
 - Verb: auctioneer (derived forms: auctioneers, auctioneered, auctioneering)
 1. Sell at an auction (= auction, auction off)
-"""),
+""",
+          )
         ],
       ),
     );

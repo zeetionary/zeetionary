@@ -213,50 +213,20 @@ class EnglishEntryautograph extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: ئیمزا، مۆر، دەس‌وخەت، دەس‌نووس، بە مۆر یان ئیمزای نووسەرەوە
 
-١. (ناو) ئیمزای کەسێکی بەناوبانگ""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ئیمزای کەسێکی بەناوبانگ"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Could I have your autograph?",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "Could I have your autograph?"),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دەتوانی ئیمزایەکم بۆ بکەیت؟.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "دەتوانی ئیمزایەکم بۆ بکەیت؟."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAutograph1002("en-GB"),
                               ),
                               IconButton(
@@ -273,48 +243,20 @@ class EnglishEntryautograph extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (کردار) کێشانی ئیمزا لەلایەن کەسێکی بەناوبانگەوە لەسەر شتێک بۆ کەسێک""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (کردار) کێشانی ئیمزا لەلایەن کەسێکی بەناوبانگەوە لەسەر شتێک بۆ کەسێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The whole team has autographed a football, which will be used as a prize.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The whole team has autographed a football, which will be used as a prize."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "تەواوی تیمەکە ئیمزایان لەسەر تۆپێک کردووە کە وەک دیارییەک بەکاردێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "تەواوی تیمەکە ئیمزایان لەسەر تۆپێک کردووە کە وەک دیارییەک بەکاردێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAutograph1005("en-GB"),
                               ),
                               IconButton(
@@ -373,8 +315,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: autograph (derived forms: autographs)
 1. Something written by one's own hand
  
@@ -383,7 +325,8 @@ class EnglishMeaning extends StatelessWidget {
 -Verb: autograph (derived forms: autographs, autographing, autographed)
 1. Mark with one's signature (= inscribe)
 "The author autographed his book";
-"""),
+""",
+          )
         ],
       ),
     );

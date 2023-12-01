@@ -212,50 +212,22 @@ class EnglishEntryastutely extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: زیرەکانە، ڕەندانە، بلیمەتانە، زرنگانە
 
-١. (ھاوەڵکار) بەشێوەیەکی بلیمەتی و بیرتیژانە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵکار) بەشێوەیەکی بلیمەتی و بیرتیژانە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She astutely points out the differences between the two accounts.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She astutely points out the differences between the two accounts."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بەشێوەیەکی بلیمەتانە جیاوازییەکانی نێوان دوو گێڕانەوەکە دەخاتە بەرچاو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بەشێوەیەکی بلیمەتانە جیاوازییەکانی نێوان دوو گێڕانەوەکە دەخاتە بەرچاو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAstutely529("en-GB"),
                               ),
                               IconButton(
@@ -314,12 +286,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adverb: astutely 
 1. In a shrewd manner (= shrewdly, sagaciously, sapiently, acutely, perspicaciously, advisably)
 "he invested his fortune astutely";
-"""),
+""",
+          )
         ],
       ),
     );

@@ -204,59 +204,25 @@ class EnglishEntrybandy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: لاق‌چەوێڵ، پێ‌چەوێڵ، لاق یان پێی کەوانەیی
 
-١. (ھاوەڵناو) لاق چەماوە و بڵاو""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) لاق چەماوە و بڵاو"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "I couldn't help laughing at his bandy legs.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I couldn't help laughing at his bandy legs."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "نەمدەتوانی خۆم بگرم لە پێکەنین بە لاقە چەماوەکانی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "نەمدەتوانی خۆم بگرم لە پێکەنین بە لاقە چەماوەکانی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBandys1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakBandys1(// REPLACE: bandy
                                     "en-US"),
                               ),
@@ -306,8 +272,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: bandy (derived forms: bandiest, bandier)
 1. Have legs that curve outward at the knees (= bandy-legged, bowed[2], bowleg, bowlegged)
 "The tall man hit the bandy-legged fellow over the mouth"; 
@@ -319,7 +285,8 @@ class EnglishMeaning extends StatelessWidget {
  
 3. Discuss lightly (= kick around)
 "We bandied around these difficult questions";
-"""),
+""",
+          )
         ],
       ),
     );

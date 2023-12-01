@@ -156,47 +156,19 @@ class EnglishEntryaccuser extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: گوناھبارکەر، گومان‌لێ‌کەر، تۆمەت‌باز، بوختان‌باز، سکاڵاکەر، شکات‌کەر، دادبەر
 
-١. (ناو) کەسێک کە کەسێک بە تۆمەتباری ڕووداوێک دەزانێت''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کەسێک کە کەسێک بە تۆمەتباری ڕووداوێک دەزانێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He demanded the right to face his accusers at a public hearing.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "داوای مافی ڕووبەڕووبوونەوەی لە گفتوگۆیەکی گشتی کرد بەرامبەر بە سکاڵالێکەرانی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He demanded the right to face his accusers at a public hearing."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "داوای مافی ڕووبەڕووبوونەوەی لە گفتوگۆیەکی گشتی کرد بەرامبەر بە سکاڵالێکەرانی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA91573("en-GB"),
                               ),
                               IconButton(
@@ -252,11 +224,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: accuser (derived forms: accusers)
 1. Someone who imputes guilt or blame
-'''),
+""",
+          )
         ],
       ),
     );

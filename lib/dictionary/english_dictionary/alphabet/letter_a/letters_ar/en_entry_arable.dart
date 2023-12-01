@@ -210,50 +210,22 @@ class EnglishEntryarable extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: بەپیت، کێڵڕاو، شیاوی چاندن یان کێڵان، کێڵگە، زەوی گونجاو بۆ کێڵان، زەوی جووتیاری
 
-١. (ھاوەڵناو) زەوییەک کە بەپیتە بۆ کشتوکاڵ""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) زەوییەک کە بەپیتە بۆ کشتوکاڵ"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The small village centre is surrounded by arable farms.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The small village centre is surrounded by arable farms."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ناوەڕاستی گوندە بچووکەکە بە زەویی بەپیت دەوردراوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ناوەڕاستی گوندە بچووکەکە بە زەویی بەپیت دەوردراوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArable1042("en-GB"),
                               ),
                               IconButton(
@@ -312,8 +284,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: arable 
 1. (of farmland) capable of being farmed productively (= cultivable, cultivatable, tillable)
 "Asia has 58 percent of the world's population but only 26 percent of the arable land";
@@ -321,7 +293,8 @@ class EnglishMeaning extends StatelessWidget {
 - Noun: arable (derived forms: arables)
 1. Arable land that is worked by ploughing and sowing and raising crops (= cultivated land, farmland, plowland [US], ploughland [Brit, Cdn], tilled land, tillage, tilth, cropland, arable land)
 "a thousand hectares of arable land were destroyed";
-"""),
+""",
+          )
         ],
       ),
     );

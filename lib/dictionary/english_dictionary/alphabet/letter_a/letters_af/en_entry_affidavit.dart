@@ -156,55 +156,22 @@ class EnglishEntryaffidavit extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: سوێندنامە، نامەی سوێند (وەک بەڵگەیێ لە دادگا)
 
-١. (ناو) پارچە نووسراوێک کە سوێند دەخۆیت ڕاستە و لە دادگا دەکرێت وەک بەڵگە بەکاربێت''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) پارچە نووسراوێک کە سوێند دەخۆیت ڕاستە و لە دادگا دەکرێت وەک بەڵگە بەکاربێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He admitted he was one of a number of people stealing from the company, according to the affidavit filed by the shown to court.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دانیپێدانا کە ئەو یەکێکە لەو کەسانەی دزی لە کۆمپانیاکە کردووە بەپێی ئەو سوێندنامەی بە دادگا پیشان درا",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He admitted he was one of a number of people stealing from the company, according to the affidavit filed by the shown to court."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دانیپێدانا کە ئەو یەکێکە لەو کەسانەی دزی لە کۆمپانیاکە کردووە بەپێی ئەو سوێندنامەی بە دادگا پیشان درا"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAffi359("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAffi359(
                                     // REPLACE: affidavit /ˌæfəˈdeɪvɪt/
                                     "en-US"),
@@ -253,11 +220,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: affidavit (derived forms: affidavits)
 1. (law) written declaration made under oath; a written statement sworn to be true before someone legally authorized to administer an oath
-'''),
+""",
+          )
         ],
       ),
     );

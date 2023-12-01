@@ -204,51 +204,22 @@ class EnglishEntrybarbarity extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: دڕندایەتی، ھۆڤیگەری، دڕندەیی، بێ‌بەزەیێتی، دڵڕەقی، خوێن‌ڕێژی، کردەوەی دڕندانە
 
-١. (ناو) ڕەفتاری دڕندانە کە بەئەنقەست زۆر ئازاربەخشە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ڕەفتاری دڕندانە کە بەئەنقەست زۆر ئازاربەخشە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "The barbarity of the old regime was eventually exposed.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The barbarity of the old regime was eventually exposed."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دڕندەیی ڕژێمی پێشوو لەکۆتاییدا ئاشکرابوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دڕندەیی ڕژێمی پێشوو لەکۆتاییدا ئاشکرابوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBarbaritys1("en-GB"),
                               ),
                               IconButton(
@@ -307,14 +278,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: barbarity (derived forms: barbarities)
 1. The quality of being shockingly cruel and inhumane (= atrocity, atrociousness, barbarousness, heinousness)
  
 2. A barbarous, cruel, or savage act (= brutality, barbarism, savagery)
 "the people slowly progressed from barbarity to civilization";
-"""),
+""",
+          )
         ],
       ),
     );

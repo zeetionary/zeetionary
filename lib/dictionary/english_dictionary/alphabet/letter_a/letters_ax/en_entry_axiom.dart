@@ -204,59 +204,25 @@ class EnglishEntryaxiom extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: بنەما یان پڕەنسیپی بەڵگەنەویست، بنچینەی پەسندکراو، دیار، دیتبار، ئاشکرا، سەلماندن‌نەویست، ڕێسا یان بنەمایێکی جێگیر و دامەزراو
 
-١. (ناو) بنەما یان باوەڕێک کە زۆر کەس باوەڕیان وایە ڕاستە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) بنەما یان باوەڕێک کە زۆر کەس باوەڕیان وایە ڕاستە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "It is a widely held axiom that governments should not negotiate with terrorists.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "It is a widely held axiom that governments should not negotiate with terrorists."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەوە ڕێسایەکی بەربڵاوە کە حکومەتەکان نابێت مامەڵە لەگەڵ تیرۆریستان بکەن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەوە ڕێسایەکی بەربڵاوە کە حکومەتەکان نابێت مامەڵە لەگەڵ تیرۆریستان بکەن."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAxioms1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAxioms1(// REPLACE: axiom
                                     "en-US"),
                               ),
@@ -306,14 +272,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: axiom (derived forms: axioms)
 1. A saying that is widely accepted on its own merits (= maxim)
 "the doctrine of sovereign immunity originated with the axiom that the king can do no wrong";
  
 2. (logic) a proposition that is not susceptible of proof or disproof; its truth is assumed to be self-evident
-"""),
+""",
+          )
         ],
       ),
     );

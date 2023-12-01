@@ -208,44 +208,21 @@ class EnglishEntryantiperspirant extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: (دەرمانی) بۆن‌بەر، دژەئارەق، نەھێڵەئارەق
 
-١. (ناو) مادەیەک کە بەکاردێت دژ بە ئارەق، بەتایبەتی لەژێر باڵ''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) مادەیەک کە بەکاردێت دژ بە ئارەق، بەتایبەتی لەژێر باڵ"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Antiperspirant can make you more comfortable on hot days.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Antiperspirant can make you more comfortable on hot days."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە ڕۆژانی گەرمدا دژە-بۆن دەکرێت وابکات زیاتر ئاسوودە بیت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لە ڕۆژانی گەرمدا دژە-بۆن دەکرێت وابکات زیاتر ئاسوودە بیت."),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
@@ -255,12 +232,7 @@ class EnglishEntryantiperspirant extends StatelessWidget {
                                 onPressed: () =>
                                     speakAntiperspirant1117("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAntiperspirant1117(
                                     // REPLACE: antiperspirant /ˌæntiˈpɜːrspərənt/,  /ˌæntaɪˈpɜːrspərənt/
                                     "en-US"),
@@ -311,11 +283,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: antiperspirant (derived forms: antiperspirants)
 1. An astringent substance applied to the skin to reduce perspiration
-'''),
+""",
+          )
         ],
       ),
     );

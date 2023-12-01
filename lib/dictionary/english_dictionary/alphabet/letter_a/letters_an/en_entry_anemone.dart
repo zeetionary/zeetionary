@@ -204,58 +204,24 @@ class EnglishEntryanemone extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: گوڵەنیسان، گوڵاڵە، باتینۆک، گاگرۆ، گوڵ‌بەھار
 
-١. (ناو) ڕووەکێک کە گوڵی سوور و سپی و شین و مۆریان ھەیە، شێوەیان وەک پیاڵەیە و ناوەڕاستیان ڕەشە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ڕووەکێک کە گوڵی سوور و سپی و شین و مۆریان ھەیە، شێوەیان وەک پیاڵەیە و ناوەڕاستیان ڕەشە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "We saw wild anemones in the woods.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "We saw wild anemones in the woods."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "گوڵاڵەی دەشتیمان بینی لە دارستانەکان.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "گوڵاڵەی دەشتیمان بینی لە دارستانەکان."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnemone588("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAnemone588(
                                     // REPLACE: anemone /əˈneməni/
                                     "en-US"),
@@ -306,13 +272,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: anemone (derived forms: anemones)
 1. Any woodland plant of the genus Anemone grown for its beautiful flowers and whorls of dissected leaves (= windflower)
  
 2. Marine polyps that resemble flowers but have oral rings of tentacles; differ from corals in forming no hard skeleton (= sea anemone)
-'''),
+""",
+          )
         ],
       ),
     );

@@ -205,51 +205,22 @@ class EnglishEntryavalanche extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: ڕنوو، کڵێڵە، کلیلە، کەویەبەفر، سلخە، شاپە، شیپ، ھەرەس، سیپان، ئاشووت، لێشاو، کۆما، لۆدە، کەڵەک، (فیزیک) ھەرەسە: ڕەوت یا پرۆسەیێکی کەڵەکەبوو
 
-١. (ناو) ڕێژەیەکی زۆر بەفر، شەختە، یان بەرد کە لە شاخێکەوە دەکەوێتەخوارەوە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ڕێژەیەکی زۆر بەفر، شەختە، یان بەرد کە لە شاخێکەوە دەکەوێتەخوارەوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "He was killed in an avalanche while skiing.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He was killed in an avalanche while skiing."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە ھەرەسی شەختەبەفردا مرد لە کاتی بەفرەخلیسکێ.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لە ھەرەسی شەختەبەفردا مرد لە کاتی بەفرەخلیسکێ."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAvalanches1("en-GB"),
                               ),
                               IconButton(
@@ -268,39 +239,16 @@ class EnglishEntryavalanche extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "The issue has generated an avalanche of controversy.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The issue has generated an avalanche of controversy."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەم بابەتە ڕێژەیەکی زۆر مشتومڕی بەدوای‌خۆیداھێناوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەم بابەتە ڕێژەیەکی زۆر مشتومڕی بەدوای‌خۆیداھێناوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAvalanches2("en-GB"),
                               ),
                               IconButton(
@@ -359,8 +307,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: avalanche (derived forms: avalanches)
 1. A slide of large masses of snow and ice and mud down a mountain (= snowslide [N. Amer])
  
@@ -369,7 +317,8 @@ class EnglishMeaning extends StatelessWidget {
 
 - Verb: avalanche (derived forms: avalanches, avalanching, avalanched)
 1. Gather into a huge mass and roll down a mountain, of snow
-"""),
+""",
+          )
         ],
       ),
     );

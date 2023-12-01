@@ -210,58 +210,25 @@ class EnglishEntryarbitration extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: دادوەری، داوەری، نێوگژیوانی، ناوبژیوانی، بەریڤانی
 
-١. (ناو) پڕۆسەی دادوەری‌کردن لە ناکۆکی نێوان دوو لایەن""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) پڕۆسەی دادوەری‌کردن لە ناکۆکی نێوان دوو لایەن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Both sides in the dispute have agreed to go to arbitration.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Both sides in the dispute have agreed to go to arbitration."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەردوو لا ڕازی‌بوونە پەنا ببەنەبەر دادوەری‌کردن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەردوو لا ڕازی‌بوونە پەنا ببەنەبەر دادوەری‌کردن."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArbitration1158("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakArbitration1158(
                                     // REPLACE: arbitration /ˌɑːrbɪˈtreɪʃn/
                                     "en-US"),
@@ -312,14 +279,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: arbitration (derived forms: arbitrations)
 1. (law) the hearing and determination of a dispute by an impartial referee agreed to by both parties (often used to settle disputes between labour and management)
  
 2. The act of deciding as an arbiter; giving authoritative judgment (= arbitrament, arbitrement)
 "they submitted their disagreement to arbitration";
-"""),
+""",
+          )
         ],
       ),
     );

@@ -204,51 +204,22 @@ class EnglishEntryaversion extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: بێزاری، خۆش‌نەویستن، قین‌لێ‌بوون، ڕق(لێ‌بوون)، بێزەون، مایەی بێزاری، دژایەتی
 
-١. (ناو) ڕقێکی زۆر بۆ شتێک""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ڕقێکی زۆر بۆ شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "He had an aversion to getting up early.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He had an aversion to getting up early."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دوژمنایەتی لەگەڵ زوو لەخەوھەستان ھەبوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دوژمنایەتی لەگەڵ زوو لەخەوھەستان ھەبوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAversions1("en-GB"),
                               ),
                               IconButton(
@@ -307,13 +278,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: aversion (derived forms: aversions)
 1. A feeling of intense dislike (= antipathy, distaste, disrelish [archaic])
  
 2. The act of turning yourself (or your gaze) away (= averting)
-"""),
+""",
+          )
         ],
       ),
     );

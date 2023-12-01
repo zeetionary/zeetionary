@@ -156,44 +156,21 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: کۆئەندامی ھەرس، بۆری یا جۆگەی ھەرس
 
-١. (ناو) جۆگەی خۆراک لە دەمەوە بۆ کۆم''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) جۆگەی خۆراک لە دەمەوە بۆ کۆم"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I had an abscess in the lower part of my alimentary canal.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I had an abscess in the lower part of my alimentary canal."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دومەڵێکم ھەبوو لە بەشی خوارەوەی جۆگەی ھەرسم.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دومەڵێکم ھەبوو لە بەشی خوارەوەی جۆگەی ھەرسم."),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
@@ -203,12 +180,7 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
                                 onPressed: () =>
                                     speakAlimentarycanal42588("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAlimentarycanal42588(
                                     // REPLACE: alimentary canal /ˌælɪmentəri kəˈnæl/
                                     "en-US"),
@@ -257,11 +229,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: alimentary canal (derived forms: alimentary canals)
 1. Tubular passage of mucous membrane and muscle extending about 8.3 meters from mouth to anus; functions in digestion and elimination (= alimentary tract, digestive tube, digestive tract, gastrointestinal tract, GI tract)
-'''),
+""",
+          )
         ],
       ),
     );

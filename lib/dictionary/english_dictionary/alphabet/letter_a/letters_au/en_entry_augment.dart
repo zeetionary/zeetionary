@@ -212,48 +212,20 @@ class EnglishEntryaugment extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (کردار) زیادکردنی بڕ، نرخ، یان قەبارەی شتێک""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (کردار) زیادکردنی بڕ، نرخ، یان قەبارەی شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He wrote magazine articles in order to augment his income.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He wrote magazine articles in order to augment his income."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "وتاری بۆ گۆڤار دەنووسی بۆ زیادکردنی داھاتی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وتاری بۆ گۆڤار دەنووسی بۆ زیادکردنی داھاتی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAugment304("en-GB"),
                               ),
                               IconButton(
@@ -312,8 +284,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Verb: augment (derived forms: augmented, augmenting, augments)
 1. Enlarge or increase
 "The recent speech of the president augmented tensions in the Near East"
@@ -322,7 +294,8 @@ class EnglishMeaning extends StatelessWidget {
 "The pressure augmented"
  
 3. (music) increase an interval by a semitone
-"""),
+""",
+          )
         ],
       ),
     );

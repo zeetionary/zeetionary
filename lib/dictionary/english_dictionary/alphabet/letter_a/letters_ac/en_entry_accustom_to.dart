@@ -157,47 +157,19 @@ class EnglishEntryaccustomto extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ڕاھاتن، گونجان، خووگرتن، ئالوودەبوون، ھۆگربوون، گیرۆدەبوون
 
-١. (کاری لێکدراو) خۆگونجاندن لەگەڵ شتێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (کاری لێکدراو) خۆگونجاندن لەگەڵ شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "It took him a while to accustom himself to the idea.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ماوەیەکی پێچوو تا خۆی بە بیرۆکەکە ڕابێنێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "It took him a while to accustom himself to the idea."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ماوەیەکی پێچوو تا خۆی بە بیرۆکەکە ڕابێنێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAc25469("en-GB"),
                               ),
                               IconButton(
@@ -214,35 +186,13 @@ class EnglishEntryaccustomto extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Education should accustom children to thinking for themselves.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "خوێندن دەبێت منداڵان ڕابێنێت لەسەر بیرکردنەوەی خۆیان.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Education should accustom children to thinking for themselves."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "خوێندن دەبێت منداڵان ڕابێنێت لەسەر بیرکردنەوەی خۆیان."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAc25467("en-GB"),
                               ),
                               IconButton(
@@ -298,12 +248,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Phrasal verb: accustom to (derived forms: accustoms, accustoming, accustomed)
 1. Make psychologically or physically used (to something) (= habituate)
 "She became accustomed to the background music";
-'''),
+""",
+          )
         ],
       ),
     );

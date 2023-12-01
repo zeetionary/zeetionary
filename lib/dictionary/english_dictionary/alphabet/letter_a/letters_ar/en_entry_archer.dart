@@ -210,50 +210,21 @@ class EnglishEntryarcher extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: تیراوێژ، تیرھاوێژ، تیرخەر، کەوانەوان
 
-١. (ھاوەڵناو) کەسێک کە تیر و کەوان بەکاردێنێت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) کەسێک کە تیر و کەوان بەکاردێنێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The archer can bend a strong bow.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "The archer can bend a strong bow."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "تیراوێژەکە دەتوانێت کەوانێکی بەھێز بچەمێنێتەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "تیراوێژەکە دەتوانێت کەوانێکی بەھێز بچەمێنێتەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArcher334("en-GB"),
                               ),
                               IconButton(
@@ -312,8 +283,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: archer (derived forms: archers)
 1. A person who is expert in the use of a bow and arrow (= bowman)
 
@@ -327,7 +298,8 @@ class EnglishMeaning extends StatelessWidget {
  
 2. Naughtily or annoyingly playful (= impish, implike, mischievous, pixilated, prankish, puckish, wicked [informal], scampish [rare], pixillated)
 "teasing and worrying with arch laughter";
-"""),
+""",
+          )
         ],
       ),
     );

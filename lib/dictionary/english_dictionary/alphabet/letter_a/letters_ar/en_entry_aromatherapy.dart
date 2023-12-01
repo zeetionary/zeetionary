@@ -210,56 +210,23 @@ class EnglishEntryaromatherapy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ناو) بەکارھێنانی جۆرە جیاوازەکانی ڕۆنی سرووشتی کە بۆنیان خۆشە بۆ بەھێزکردنی لەش لە لایەنی جەستەیی و دەروونی بە ساوینی ڕۆنەکە بە لەشدا یان بۆنکردنیان""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) بەکارھێنانی جۆرە جیاوازەکانی ڕۆنی سرووشتی کە بۆنیان خۆشە بۆ بەھێزکردنی لەش لە لایەنی جەستەیی و دەروونی بە ساوینی ڕۆنەکە بە لەشدا یان بۆنکردنیان"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Owen received aromatherapy massage weekly for about three months.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Owen received aromatherapy massage weekly for about three months."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئۆون ھەفتانە بۆ نزیکەی سێ مانگ مەساجی ئارۆماسێرەپی دەکرد.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئۆون ھەفتانە بۆ نزیکەی سێ مانگ مەساجی ئارۆماسێرەپی دەکرد."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAromatherapy915("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAromatherapy915(
                                     // REPLACE: aromatherapy /əˌrəʊməˈθerəpi/
                                     "en-US"),
@@ -310,11 +277,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: aromatherapy (derived forms: aromatherapies)
 1. The therapeutic use of aromatic plant extracts and essential oils in baths or massage
-"""),
+""",
+          )
         ],
       ),
     );

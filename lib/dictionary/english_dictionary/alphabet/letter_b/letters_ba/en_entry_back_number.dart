@@ -204,49 +204,20 @@ class EnglishEntrybacknumber extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ناو) کۆپی پێشووتری گۆڤار یان ڕۆژنامە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) کۆپی پێشووتری گۆڤار یان ڕۆژنامە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "Readers can easily find back numbers of the magazine they require.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Readers can easily find back numbers of the magazine they require."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "خوێنەران بە ئاسانی دەتوانن کۆپییەکانی پێشووتری گۆڤارەکە بدۆزنەوە کە دەیانەوێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "خوێنەران بە ئاسانی دەتوانن کۆپییەکانی پێشووتری گۆڤارەکە بدۆزنەوە کە دەیانەوێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA3s1("en-GB"),
                               ),
                               IconButton(
@@ -305,13 +276,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: back number (derived forms: back numbers)
 1. A copy of a newspaper or magazine from a date in the past
 
 2. Someone who is no longer popular (= has-been)
-"""),
+""",
+          )
         ],
       ),
     );

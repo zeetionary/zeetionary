@@ -207,56 +207,23 @@ class EnglishEntryanticlockwise extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (ھاوەڵناو، ھاوەڵکار) پێچەوانەی سووڕانی میلەکانی سەعات''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ھاوەڵناو، ھاوەڵکار) پێچەوانەی سووڕانی میلەکانی سەعات"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "'How do I get the top off this bottle?'' 'Push it down and twist it anticlockwise.'",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "'How do I get the top off this bottle?'' 'Push it down and twist it anticlockwise.'"),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "«چۆن سەری ئەم بوتڵە بکەمەوە؟» «پاڵی‌بنە خوار و بە پێچەوانەی میلی کاتژمێر بیسووڕێنە»",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "«چۆن سەری ئەم بوتڵە بکەمەوە؟» «پاڵی‌بنە خوار و بە پێچەوانەی میلی کاتژمێر بیسووڕێنە»"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnticlockwise856("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAnticlockwise856(
                                     // REPLACE: anticlockwise /ˌæntiˈklɑːkwaɪz/,  /ˌæntaɪˈklɑːkwaɪz/
                                     "en-US"),
@@ -267,46 +234,19 @@ class EnglishEntryanticlockwise extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Turn the key anticlockwise/in an anticlockwise direction.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Turn the key anticlockwise/in an anticlockwise direction."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کلیلەکە بە ئاراستەی پێچيوانەی میلی کاتژمێر",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کلیلەکە بە ئاراستەی پێچيوانەی میلی کاتژمێر"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnticlockwise859("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAnticlockwise859(
                                     // REPLACE: anticlockwise /ˌæntiˈklɑːkwaɪz/,  /ˌæntaɪˈklɑːkwaɪz/
                                     "en-US"),
@@ -357,8 +297,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: anticlockwise 
 Usage: Brit (N. Amer: counterclockwise)
 1. In the direction opposite to the rotation of the hands of a clock (= counterclockwise [N. Amer], contraclockwise [non-standard])
@@ -367,7 +307,8 @@ Usage: Brit (N. Amer: counterclockwise)
 Usage: Brit (N. Amer: counterclockwise)
 1. In a direction opposite to the direction in which the hands of a clock move (= counterclockwise [N. Amer])
 "please move anticlockwise in a circle!";
-'''),
+""",
+          )
         ],
       ),
     );

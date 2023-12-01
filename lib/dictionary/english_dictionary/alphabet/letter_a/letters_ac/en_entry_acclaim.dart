@@ -149,107 +149,41 @@ class EnglishEntryacclaim extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: چەپڵەلێدان، چەپک‌لێدان، لەقریوەدان، خۆشی‌دەربڕی، پەسن‌دان، قیژاندن و قریوەی خۆشی
 
-١. (کردار) بەرزنرخاندنی شتێک بەشێوەیەکی گشتی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (کردار) بەرزنرخاندنی شتێک بەشێوەیەکی گشتی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "This book has been widely acclaimed as a modern classic.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەم کتێبە بەشێوەیەکی بەرفراوان پەسندراوە وەک کتێبێکی کلاسیکی سەردەم.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "This book has been widely acclaimed as a modern classic."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەم کتێبە بەشێوەیەکی بەرفراوان پەسندراوە وەک کتێبێکی کلاسیکی سەردەم."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA21598("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA21598("en-US"),
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) ستایش و مەحتکردن''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) ستایش و مەحتکردن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "His discoveries earned him wide acclaim.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دۆزینەوەکانی ستایشی بەرفراوانیان بەدوای خۆیاندا ھێنا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "His discoveries earned him wide acclaim."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دۆزینەوەکانی ستایشی بەرفراوانیان بەدوای خۆیاندا ھێنا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA2158("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA2158("en-US"),
                               ),
                             ],
@@ -296,8 +230,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Verb: acclaim (derived forms: acclaimed, acclaiming, acclaims)
 1. Praise vociferously (= hail, herald)
 "The critics acclaimed the young pianist as a new Rubinstein";
@@ -307,7 +241,8 @@ class EnglishMeaning extends StatelessWidget {
 - Noun: acclaim  u'kleym (derived forms: acclaims)
 1. Enthusiastic approval (= acclamation, plaudits, plaudit, éclat)
 "the book met with modest acclaim";
-'''),
+""",
+          )
         ],
       ),
     );

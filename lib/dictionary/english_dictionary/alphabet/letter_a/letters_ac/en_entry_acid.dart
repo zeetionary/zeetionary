@@ -157,117 +157,44 @@ class EnglishEntryacid extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ترش، ترشەڵۆک
 
-١. (ناو) مادەیەکی کیمیایی کە زۆرجار ترشە و ھایدرۆجینی تێدایە، ھایدرۆجینەکە دەکرێت بگۆڕدرێتەوە بە کانزایەک بۆ درووستکردنی خوێ. ئەسید بەزۆری ترشییەکی زۆری ھەیە کە دەکرێت کون درووستبکات لە شتێکدا یان زیان بگەیەنێت''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) مادەیەکی کیمیایی کە زۆرجار ترشە و ھایدرۆجینی تێدایە، ھایدرۆجینەکە دەکرێت بگۆڕدرێتەوە بە کانزایەک بۆ درووستکردنی خوێ. ئەسید بەزۆری ترشییەکی زۆری ھەیە کە دەکرێت کون درووستبکات لە شتێکدا یان زیان بگەیەنێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The acid burned a hole in her coat.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەسیدەکە کونێکی درووستکرد لە پاڵتاوەکەی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text: "The acid burned a hole in her coat."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەسیدەکە کونێکی درووستکرد لە پاڵتاوەکەی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAc12846("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAc12846(
                                     "en-US"), // REPLACE acid /ˈæsɪd/
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ھاوەڵناو) شتێک کە ئەسیدی تێدایە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ھاوەڵناو) شتێک کە ئەسیدی تێدایە"""),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٣. (ناو) شتێک کە زۆر ترشە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٣. (ناو) شتێک کە زۆر ترشە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "It’s a very juicy fruit with a slightly acid flavour.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "میوەیەکی زۆر ئاودارە لەگەڵ بوونی کەمێک تامی ترشی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "It’s a very juicy fruit with a slightly acid flavour."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "میوەیەکی زۆر ئاودارە لەگەڵ بوونی کەمێک تامی ترشی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAcid1598("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAcid1598(
                                     "en-US"), // REPLACE acid /ˈæsɪd/
                               ),
@@ -315,8 +242,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: acid (derived forms: acids)
 1. Any of various water-soluble compounds having a sour taste and capable of turning litmus red and reacting with a base to form a salt
  
@@ -338,7 +265,8 @@ class EnglishMeaning extends StatelessWidget {
 "acid house"
  
 5. (geology) rich in silica
-'''),
+""",
+          )
         ],
       ),
     );

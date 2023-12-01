@@ -139,55 +139,20 @@ class EnglishEntryabysmal extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: یەکجار خراپ، شپرزە، ترسناک، ھیچ، بازاڕی، ئایەخ، ستانداردنزم
 
-١. (ھاوەڵناو) شتێک کە زۆر خراپ بێت''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) شتێک کە زۆر خراپ بێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "His manners are abysmal.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەڵسوکەوتی زۆر خراپە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text: "His manners are abysmal."),
+                              const ExampleSentenceKurdish(
+                                  text: "ھەڵسوکەوتی زۆر خراپە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA1547("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA1547("en-US"),
                               ),
                             ],
@@ -234,8 +199,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: abysmal
 1. Very bad
 "it was an abysmal performance"
@@ -245,7 +210,8 @@ class EnglishMeaning extends StatelessWidget {
  
 3. [literary] Resembling an abyss in depth; so deep as to be unmeasurable (= abyssal, unfathomable)
 "the abysmal depths of the ocean";
-'''),
+""",
+          )
         ],
       ),
     );

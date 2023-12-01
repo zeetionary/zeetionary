@@ -140,55 +140,20 @@ class EnglishEntryabsorbent extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: مژەر، مژۆک، ھەڵمژ، ھەڵمژێنەر، ھەڵمژەر، کێشەر، ئاوگر، ئاوکێش، شێگر، وشک‌کەرەوە
 
-١. (ھاوەڵناو) ھەبوونی توانای ھەڵمژین، بەتایبەتی ھەڵمژینی شلە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) ھەبوونی توانای ھەڵمژین، بەتایبەتی ھەڵمژینی شلە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The towels are highly absorbent.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "خاولییەکان زۆر ھەڵمژن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text: "The towels are highly absorbent."),
+                              const ExampleSentenceKurdish(
+                                  text: "خاولییەکان زۆر ھەڵمژن."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA2473("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA2473("en-US"),
                               ),
                             ],
@@ -235,15 +200,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: absorbent (derived forms: absorbents)
 1. Having power or capacity or tendency to absorb or soak up something (liquids or energy etc.) (= absorptive)
 "as absorbent as a sponge";
 
 - Noun: absorbent  ub'sor-bunt or ub'zor-bunt
 1. A material having capacity or tendency to absorb another substance (= absorbent material)
-'''),
+""",
+          )
         ],
       ),
     );

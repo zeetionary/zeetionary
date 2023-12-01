@@ -210,58 +210,25 @@ class EnglishEntryapplied extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: ناتیۆریک، نابیردۆزی، کردارەکی، کارپێکراو، کارەکی، کردەنی، کارپێکەرانە، بەکارھێنەرانە
 
-١. (ھاوەڵناو) بەکارھێنانی کرداریی شتێک، نەک تەنھا بوونی وەک بیردۆزێک""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) بەکارھێنانی کرداریی شتێک، نەک تەنھا بوونی وەک بیردۆزێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "In medicine, applied science is vital for developing new treatments and medical technologies.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "In medicine, applied science is vital for developing new treatments and medical technologies."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە دەرمانسازیدا زانستی کرداری گرنگە بۆ چارەسەری تازە و تەکنۆلۆژیای تەندرووستی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لە دەرمانسازیدا زانستی کرداری گرنگە بۆ چارەسەری تازە و تەکنۆلۆژیای تەندرووستی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakApplied806("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakApplied806(
                                     // REPLACE: applied /əˈplaɪd/
                                     "en-US"),
@@ -312,12 +279,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: applied 
 1. Concerned with concrete problems or data rather than with fundamental principles
 "applied physics"; "applied psychology"; "technical problems in medicine, engineering, economics and other applied disciplines"
-"""),
+""",
+          )
         ],
       ),
     );

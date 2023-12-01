@@ -210,58 +210,25 @@ class EnglishEntryarmistice extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: شەڕڕاگرتن، ئاگربەست، شەڕوێستاندن، چەک‌دانان 
 
-١. (ناو) ڕێککەوتنێکی فەرمی لە کاتی جەنگدا بۆ کۆتایی ھێنان بە جەنگ و دەستپێ‌کردنی گفروگۆی ئاشتی""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ڕێککەوتنێکی فەرمی لە کاتی جەنگدا بۆ کۆتایی ھێنان بە جەنگ و دەستپێ‌کردنی گفروگۆی ئاشتی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The armistice was signed on 4 December.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The armistice was signed on 4 December."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئاگربەستەکە واژۆکرا لە ڕۆژی ٥ی کانوونی یەکەم.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئاگربەستەکە واژۆکرا لە ڕۆژی ٥ی کانوونی یەکەم."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArmistice508("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakArmistice508(
                                     // REPLACE: armistice /ˈɑːrmɪstɪs/
                                     "en-US"),
@@ -312,12 +279,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: armistice (derived forms: armistices)
 1. A state of peace agreed to between opponents so they can discuss peace terms (= cease-fire, truce, ceasefire)
 "The stock market soared after the armistice was announced";
-"""),
+""",
+          )
         ],
       ),
     );

@@ -212,50 +212,22 @@ class EnglishEntryastute extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: زیرەک، ئاگرپارە، وریا، زووتێگەیشتوو، ڕەند، زۆرزان، زرینگ، زووزان
 
-١. (ھاوەڵناو) زیرەک و خێرا لە کردنی کاری درووست""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) زیرەک و خێرا لە کردنی کاری درووست"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "It was an astute move to sell the shares then.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "It was an astute move to sell the shares then."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "فرۆشتنی پشکەکان ئەوکات ھەنگاوێکی بلیمەتانە بوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "فرۆشتنی پشکەکان ئەوکات ھەنگاوێکی بلیمەتانە بوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAstute522("en-GB"),
                               ),
                               IconButton(
@@ -314,12 +286,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: astute (derived forms: astutest, astuter)
 1. Marked by practical hardheaded intelligence (= sharp, shrewd, argute [literary], savvy [informal])
 "an astute tenant always reads the small print in a lease";
-"""),
+""",
+          )
         ],
       ),
     );

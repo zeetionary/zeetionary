@@ -210,58 +210,23 @@ class EnglishEntryarmoured extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: زرێ‌دار، زرێیی، زرێپۆشی
 
-١. (ھاوەڵناو) پارێزراو بە زرێ""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) پارێزراو بە زرێ"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The tank was heavily armoured.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "The tank was heavily armoured."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "تانکەکە بە سەختی زرێپۆش‌کرابوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "تانکەکە بە سەختی زرێپۆش‌کرابوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArmoured618("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakArmoured618(
                                     // REPLACE: armoured /ˈɑːrmərd/
                                     "en-US"),
@@ -312,8 +277,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: armoured 
 Usage: Brit, Cdn (US: armored)
 1. (military) protected by armour (used of persons or things military) (= armored [US])
@@ -321,7 +286,8 @@ Usage: Brit, Cdn (US: armored)
 2. Used of animals; provided with protective covering (= armored [US])
  
 3. Equipped with the complete arms and armour of a warrior (= armored [US], panoplied)
-"""),
+""",
+          )
         ],
       ),
     );

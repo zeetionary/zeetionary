@@ -210,44 +210,21 @@ class EnglishEntryapologetically extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: لێبوردن‌خوازانە، بە داوای لێبوردنەوە
 
-١. (ھاوەڵکار) بەشێوەیەک کە پیشانی دەدات پەشیمانیت بۆ شتێکی ھەڵە کە کردووتە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵکار) بەشێوەیەک کە پیشانی دەدات پەشیمانیت بۆ شتێکی ھەڵە کە کردووتە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "‘I'm sorry I'm late,’ he murmured apologetically.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "‘I'm sorry I'm late,’ he murmured apologetically."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بە پەشیمانییەوە چرپاندی 'ببوورە کە دواکەوتووم'.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بە پەشیمانییەوە چرپاندی 'ببوورە کە دواکەوتووم'."),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
@@ -257,12 +234,7 @@ class EnglishEntryapologetically extends StatelessWidget {
                                 onPressed: () =>
                                     speakApologetically512("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakApologetically512(
                                     // REPLACE: apologetically /əˌpɑːləˈdʒetɪkli/
                                     "en-US"),
@@ -313,12 +285,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adverb: apologetically 
 1. In an apologetic manner
 "he spoke apologetically about his past"
-"""),
+""",
+          )
         ],
       ),
     );

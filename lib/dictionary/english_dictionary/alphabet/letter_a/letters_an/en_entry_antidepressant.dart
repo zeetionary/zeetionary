@@ -206,44 +206,21 @@ class EnglishEntryantidepressant extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: (دەرمانی) دژەدڵتەنگی یان دژی خەمۆکی، دڵتەنگی‌ڕەوێن
 
-١. (ناو) دەرمانێک کە بەکاردێت بۆ چارەسەری بێزاری''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) دەرمانێک کە بەکاردێت بۆ چارەسەری بێزاری"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She's been on antidepressants ever since her husband died.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She's been on antidepressants ever since her husband died."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لەوەتەی ھاوسەرەکەی مردووە دژە-خەمۆکی دەخوات.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لەوەتەی ھاوسەرەکەی مردووە دژە-خەمۆکی دەخوات."),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
@@ -253,12 +230,7 @@ class EnglishEntryantidepressant extends StatelessWidget {
                                 onPressed: () =>
                                     speakAntidepressant1005("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAntidepressant1005(
                                     // REPLACE: antidepressant /ˌæntidɪˈpresnt/,  /ˌæntaɪdɪˈpresnt/
                                     "en-US"),
@@ -309,11 +281,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: antidepressant (derived forms: antidepressants)
 1. Any of a class of drugs used to treat depression; often have undesirable side effects (= antidepressant drug)
-'''),
+""",
+          )
         ],
       ),
     );

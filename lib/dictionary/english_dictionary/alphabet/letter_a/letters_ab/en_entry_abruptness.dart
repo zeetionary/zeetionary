@@ -140,55 +140,22 @@ class EnglishEntryabruptness extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: کتوپڕی، لەناکاوی
 
-١. (ناو) بەشێوەیەکی لەناکاو و کتوپڕ''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) بەشێوەیەکی لەناکاو و کتوپڕ"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The abruptness of the ending comes as a shock after the long slow build-up.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لەناکاوی کۆتاییپێھێنانەکە وەک شۆکێک وابوو لەدوای ئەو ھەموو خۆئامادەکرنە دوور و درێژە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The abruptness of the ending comes as a shock after the long slow build-up."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لەناکاوی کۆتاییپێھێنانەکە وەک شۆکێک وابوو لەدوای ئەو ھەموو خۆئامادەکرنە دوور و درێژە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA6417("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA6417("en-US"),
                               ),
                             ],
@@ -235,8 +202,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: abruptness  
 1. An abrupt discourteous manner (= brusqueness, curtness, gruffness, shortness)
 "his antagonistic abruptness";
@@ -244,7 +211,8 @@ class EnglishMeaning extends StatelessWidget {
 2. The property possessed by a slope that is very steep (= precipitousness, steepness)
  
 3. The quality of happening with headlong haste or without warning (= precipitateness, precipitousness, precipitance, precipitancy, suddenness)
-'''),
+""",
+          )
         ],
       ),
     );

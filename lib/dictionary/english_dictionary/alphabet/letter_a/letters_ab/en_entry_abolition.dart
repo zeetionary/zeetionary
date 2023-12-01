@@ -135,55 +135,22 @@ class EnglishEntryabolition extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: سڕینەوە، ھەڵوەشانەوە، ھەڵوەشاندنەوە، پووکاندنەوە، پووچ‌کردنەوە بەتاڵ‌کردنەوە، ھەڵگرتن، نەھێشتن، لە بڕەوخستن، پووچەڵ کردنەوە
 
-١. (ناو) کۆتایی پێھێنانی یاسایەک، سیستەمێک، یان دامەزراوەیەک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کۆتایی پێھێنانی یاسایەک، سیستەمێک، یان دامەزراوەیەک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The report recommended the complete abolition of the tax.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ڕاپۆرتەکە پێشنیاری بەتەواوی ھەڵوەشاندنی باجەکەی دەکرد.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The report recommended the complete abolition of the tax."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕاپۆرتەکە پێشنیاری بەتەواوی ھەڵوەشاندنی باجەکەی دەکرد."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAb24("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAb24("en-US"),
                               ),
                             ],
@@ -225,12 +192,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: abolition (derived forms: abolitions)
 1. The act of abolishing a system, practice or institution (especially abolishing slavery) (=abolishment)
 "the abolition of capital punishment";
-'''),
+""",
+          )
         ],
       ),
     );

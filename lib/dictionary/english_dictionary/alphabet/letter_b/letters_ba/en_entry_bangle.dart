@@ -204,51 +204,22 @@ class EnglishEntrybangle extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: بازن(ـە)، خڕخڕە، پاوانە، خرخاڵ، پێمووزرە، پاموورە
 
-١. (ناو) پارچە خشڵێک کە لە مەچەکدا دەبەسترێت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) پارچە خشڵێک کە لە مەچەکدا دەبەسترێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "The bangles were a traditional part of her culture.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The bangles were a traditional part of her culture."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بازنەکان بەشێکی کۆن لە کەلتوورەکەی بوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بازنەکان بەشێکی کۆن لە کەلتوورەکەی بوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBangles1("en-GB"),
                               ),
                               IconButton(
@@ -307,13 +278,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: bangle (derived forms: bangles)
 1. Jewellery worn around the wrist for decoration (= bracelet)
  
 2. Cheap showy jewellery or ornament on clothing (= bauble, gaud [archaic], gewgaw, novelty, fallal [archaic], trinket, geegaw, kickshaw [N. Amer])
-"""),
+""",
+          )
         ],
       ),
     );

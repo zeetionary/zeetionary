@@ -157,44 +157,21 @@ class EnglishEntryamalgamation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: تێک‌خستن، تێک‌ھەڵکێشان، تێکەڵ‌کردن، تێک‌وەردان، یەکخستن، لێک‌دان، داڕشتن، ئەمەلگاندن
 
-١. (ھاوەڵناو) پڕۆسەی یەکخستن، یان ئەوەی درووست دەبێت لە ئەنجامی ئەم پڕۆسەیە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) پڕۆسەی یەکخستن، یان ئەوەی درووست دەبێت لە ئەنجامی ئەم پڕۆسەیە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "We look towards the amalgamation of some of the neighborhood factories.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We look towards the amalgamation of some of the neighborhood factories."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بە نیازین ژمارەیەک لە کارگەکانی گەڕەکەکە یەکبخەین.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بە نیازین ژمارەیەک لە کارگەکانی گەڕەکەکە یەکبخەین."),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
@@ -204,12 +181,7 @@ class EnglishEntryamalgamation extends StatelessWidget {
                                 onPressed: () =>
                                     speakAmalgamation45999("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAmalgamation45999(
                                     // REPLACE: amalgamation /əˌmælɡəˈmeɪʃn/
                                     "en-US"),
@@ -219,46 +191,19 @@ class EnglishEntryamalgamation extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The proposed amalgamation of the two institutes has mow fallen through.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The proposed amalgamation of the two institutes has mow fallen through."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پڕۆسەی پێشنیازکراوی یەکخستنی دوو پەیمانگاکە شکستی ھێناوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پڕۆسەی پێشنیازکراوی یەکخستنی دوو پەیمانگاکە شکستی ھێناوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAmalgamation4444("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAmalgamation4444(
                                     // REPLACE: amalgamation /əˌmælɡəˈmeɪʃn/
                                     "en-US"),
@@ -307,11 +252,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: amalgamation (derived forms: amalgamations)
 1. The combination of two or more commercial companies (= merger, uniting)
-'''),
+""",
+          )
         ],
       ),
     );

@@ -213,50 +213,22 @@ class EnglishEntryasylum extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: پەنا، داڵدە، (سیاسی) پەنابەرێتی، پەناخوازی، شێت‌خانە، دینگە، چاوەدێری، پەناگە، تیمارستان
 
-١. (ناو) مافی پەنابەرێتی؛ پارێزگارییەک کە حکومەتێک دەیدات بە کەسێک کە وڵاتی خۆی جێھێشتووە، زۆرجار بەھۆی مەترسی لەسەر ژیانی""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) مافی پەنابەرێتی؛ پارێزگارییەک کە حکومەتێک دەیدات بە کەسێک کە وڵاتی خۆی جێھێشتووە، زۆرجار بەھۆی مەترسی لەسەر ژیانی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "There was a nationwide debate on whether the asylum laws should be changed.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "There was a nationwide debate on whether the asylum laws should be changed."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دیبەیتی سەرتاسەری ھەبوو لەسەر ئەوەی ئاخۆ یاساکانی پەنابەری بگۆڕدرێن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دیبەیتی سەرتاسەری ھەبوو لەسەر ئەوەی ئاخۆ یاساکانی پەنابەری بگۆڕدرێن."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAsylum617("en-GB"),
                               ),
                               IconButton(
@@ -273,48 +245,19 @@ class EnglishEntryasylum extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ناو) نەخۆشخانەی چاودێری بۆ ئەو کەسانەی کە لە ڕووی دەروونییەوە ناتەواون""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) نەخۆشخانەی چاودێری بۆ ئەو کەسانەی کە لە ڕووی دەروونییەوە ناتەواون"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Conditions in the asylum were deplorable.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Conditions in the asylum were deplorable."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بارودۆخی شێتخانەکە جەرگبڕ.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "بارودۆخی شێتخانەکە جەرگبڕ."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAsylum620("en-GB"),
                               ),
                               IconButton(
@@ -373,13 +316,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: asylum (derived forms: asylums)
 1. A shelter from danger or hardship (= refuge, sanctuary)
  
 2. A hospital for mentally incompetent or unbalanced person (= mental hospital, psychiatric hospital, mental institution, institution, mental home, insane asylum)
-"""),
+""",
+          )
         ],
       ),
     );

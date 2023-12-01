@@ -155,48 +155,20 @@ class EnglishEntryaids extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (ناو) نەخۆشییەکی کوشندە کە لە ڕێگەی ڤایرۆسی ئێچ ئای ڤییەوە لە کەسێک بۆ کەسێکی تر دەگوازرێتەوە و دەبێتەھۆی لاوازی جەستە بەرامبەر نەخۆشی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) نەخۆشییەکی کوشندە کە لە ڕێگەی ڤایرۆسی ئێچ ئای ڤییەوە لە کەسێک بۆ کەسێکی تر دەگوازرێتەوە و دەبێتەھۆی لاوازی جەستە بەرامبەر نەخۆشی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She died of an AIDs-related illness at the age of 54.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She died of an AIDs-related illness at the age of 54."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە تەمەنی ٥٤ ساڵی بە نەخۆشییەکی پەیوەندیدار بە ئایدز گیانی لەدەستدا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لە تەمەنی ٥٤ ساڵی بە نەخۆشییەکی پەیوەندیدار بە ئایدز گیانی لەدەستدا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAids538666("en-GB"),
                               ),
                               IconButton(
@@ -253,11 +225,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: AIDS 
 1. A serious (often fatal) disease of the immune system transmitted through blood products especially by sexual contact or contaminated needles. (= acquired immune deficiency syndrome)
-'''),
+""",
+          )
         ],
       ),
     );

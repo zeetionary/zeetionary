@@ -156,55 +156,22 @@ class EnglishEntryadhoc extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: پلان‌بۆدانەنراو، بێ‌بنچینە
 
-١. (ھاوەڵناو) ڕوودان لە ھەر کاتێکدا کە پێویست بکات، نەک بە پلانی پێشوەختە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) ڕوودان لە ھەر کاتێکدا کە پێویست بکات، نەک بە پلانی پێشوەختە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The meetings will be held on an ad hoc basis.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کۆبوونەوەکان ڕێکدەخرێن ھەرکە پێویست بکەن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The meetings will be held on an ad hoc basis."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کۆبوونەوەکان ڕێکدەخرێن ھەرکە پێویست بکەن."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdhoc2414("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdhoc2414(
                                     // REPLACE: ad hoc /ˌæd ˈhɑːk/
                                     "en-US"),
@@ -212,53 +179,18 @@ class EnglishEntryadhoc extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ھاوەڵکار) بۆ مەبەستێکی تایبەت، نەک بەشێوەیەکی گشتی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ھاوەڵکار) بۆ مەبەستێکی تایبەت، نەک بەشێوەیەکی گشتی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The decisions were made ad hoc.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بڕیارەکان گەرماوگەرم  دران.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text: "The decisions were made ad hoc."),
+                              const ExampleSentenceKurdish(
+                                  text: "بڕیارەکان گەرماوگەرم  دران."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdhoc2414("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdhoc2414(
                                     // REPLACE: ad hoc /ˌæd ˈhɑːk/
                                     "en-US"),
@@ -307,8 +239,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: ad hoc 
 1. Often improvised or impromptu
 "an ad hoc committee meeting"
@@ -319,7 +251,8 @@ class EnglishMeaning extends StatelessWidget {
 - Adverb: ad hoc 
 1. For one specific case
 "they were appointed ad hoc"
-'''),
+""",
+          )
         ],
       ),
     );

@@ -156,55 +156,21 @@ class EnglishEntryairplane extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: فڕۆکە، باڵافڕ، تەیارە
 
-١. (ناو) فڕۆکە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) فڕۆکە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The airplane was carrying 350 people.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "فڕۆکەکە ٣٥٠ کەسی ھەڵگرتبوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The airplane was carrying 350 people."),
+                              const ExampleSentenceKurdish(
+                                  text: "فڕۆکەکە ٣٥٠ کەسی ھەڵگرتبوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAerop3658("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAerop3658(
                                     // REPLACE: airplane /ˈerəpleɪn/
                                     "en-US"),
@@ -253,12 +219,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: airplane (derived forms: airplanes)
 1. An aircraft that has a fixed wing and is powered by propellers or jets (= aeroplane [N. Amer], plane)
 "the flight was delayed due to trouble with the airplane";
-'''),
+""",
+          )
         ],
       ),
     );

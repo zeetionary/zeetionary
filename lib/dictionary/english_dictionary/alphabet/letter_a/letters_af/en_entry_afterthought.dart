@@ -156,58 +156,25 @@ class EnglishEntryafterthought extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: پاشەبیر، بیرۆکەی دواتر، بیرکردنەوەی لەکارترازاو
 
-١. (ناو) شتێک کە دەیکەیت تەنھا لە دواییدا و بە تەواوی بیری لێ ناکەیتەوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) شتێک کە دەیکەیت تەنھا لە دواییدا و بە تەواوی بیری لێ ناکەیتەوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "They only invited Jack and Sarah as an afterthought.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "They only invited Jack and Sarah as an afterthought."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "جاک و سارایان بانگھێشت کرد تەنھا دوای ئەوەی بیریانکەوتەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "جاک و سارایان بانگھێشت کرد تەنھا دوای ئەوەی بیریانکەوتەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAfterth369("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAfterth369(
                                     // REPLACE: afterthought /ˈɑːftərθɔːt/
                                     "en-US"),
@@ -256,14 +223,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: afterthought (derived forms: afterthoughts)
 1. Thinking again about a choice previously made (= reconsideration, second thought, rethink)
  
 2. An addition that was not included in the original plan
 "the garage was an afterthought"
-'''),
+""",
+          )
         ],
       ),
     );

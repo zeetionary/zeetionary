@@ -158,55 +158,22 @@ class EnglishEntryaffiliate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: کۆمپانی، ناوکۆیی، دامەزراوە یان ڕێکخراوەی پشت‌بەستوو، ڕێکخراوەی پاشکۆ، ئەندامی ناسەربەخۆ یان پشت‌بەستوو، پێوەبەند، پاشکۆ، پشت‌پێ‌بەستوو، خۆبەستە، ناسەربەخۆ، سەربەدی، (پێوە)بەستراو
 
-١. (کردار) گرێدراو بە شتێکەوە، بوون بە بەشێک لە شتێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (کردار) گرێدراو بە شتێکەوە، بوون بە بەشێک لە شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The group is not affiliated to any political party.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "گرووپەکە گرێدراو نییە بە ھیچ پارتێکی سیاسییەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The group is not affiliated to any political party."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "گرووپەکە گرێدراو نییە بە ھیچ پارتێکی سیاسییەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAffil3588("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAffil3588(
                                     // REPLACE: affiliate /əˈfɪlieɪt/
                                     "en-US"),
@@ -216,43 +183,16 @@ class EnglishEntryaffiliate extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The hospital is affiliated with the university.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "نەخۆشخانەکە گرێدراو نییە بە زانکۆکەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The hospital is affiliated with the university."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "نەخۆشخانەکە گرێدراو نییە بە زانکۆکەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAffi2699("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAffi2699(
                                     // REPLACE: affiliate /əˈfɪlieɪt/
                                     "en-US"),
@@ -260,53 +200,19 @@ class EnglishEntryaffiliate extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) کۆمپانیایەک یان دامەزراوەیەک کە بەشێکە لە یەکێکی گەورەتر''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) کۆمپانیایەک یان دامەزراوەیەک کە بەشێکە لە یەکێکی گەورەتر"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Our college is an affiliate of the university.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کۆلێژەکەمان بەشێکە لە زانکۆکە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Our college is an affiliate of the university."),
+                              const ExampleSentenceKurdish(
+                                  text: "کۆلێژەکەمان بەشێکە لە زانکۆکە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAffi25699("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAffi25699(
                                     // REPLACE: affiliate /əˈfɪlieɪt/
                                     "en-US"),
@@ -355,8 +261,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: affiliate (derived forms: affiliates)
 1. A subordinate or subsidiary associate; a person who is affiliated with another or with an organization
  
@@ -369,7 +275,8 @@ class EnglishMeaning extends StatelessWidget {
 
 2. Join in an affiliation
 "The two colleges affiliated"; "They affiliated with a national group"
-'''),
+""",
+          )
         ],
       ),
     );

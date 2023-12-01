@@ -140,55 +140,22 @@ class EnglishEntryabsolutezero extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: سفر یان ھیچی ڕەھا (273/15 پلەی سانتی‌گراد)
 
-١. (ناو) ئەو پلەی ساردییەی کە باوەڕ وایە نزمترینە بتوانرێت بەدەستبھێندرێت''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ئەو پلەی ساردییەی کە باوەڕ وایە نزمترینە بتوانرێت بەدەستبھێندرێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "We repeat the process until we reache the value of absolute zero.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پڕۆسەکە دووبارە دەکەینەوە تا دەگەین بە سفری ڕەھا",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We repeat the process until we reache the value of absolute zero."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پڕۆسەکە دووبارە دەکەینەوە تا دەگەین بە سفری ڕەھا"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAbs2531("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAbs2531("en-US"),
                               ),
                             ],
@@ -235,11 +202,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: absolute zero
 1. (cryogenics) the lowest temperature theoretically attainable (at which the kinetic energy of atoms and molecules is minimal); 0 Kelvin or -273.15 centigrade or -459.67 Fahrenheit
-'''),
+""",
+          )
         ],
       ),
     );

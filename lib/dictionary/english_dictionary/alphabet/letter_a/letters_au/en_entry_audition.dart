@@ -214,48 +214,20 @@ class EnglishEntryaudition extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ناو) کورتە نمایشێک لەلایەن ئەکتەرێک یان گۆرانیبێژێک بۆ ئەوەی بڕیار لەسەر تواناکانیان بدرێت بۆ بەژداری لە بەرھەمێک""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) کورتە نمایشێک لەلایەن ئەکتەرێک یان گۆرانیبێژێک بۆ ئەوەی بڕیار لەسەر تواناکانیان بدرێت بۆ بەژداری لە بەرھەمێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Auditions will be held from 9–12 on Friday.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Auditions will be held from 9–12 on Friday."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "نمایشەکان لە کاتژمێر ٩-١٢ لە رۆژی ھەینی دەبێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "نمایشەکان لە کاتژمێر ٩-١٢ لە رۆژی ھەینی دەبێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAudition238("en-GB"),
                               ),
                               IconButton(
@@ -272,48 +244,19 @@ class EnglishEntryaudition extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (کردار) پیشاندانی کورتە نمایشێک لەلایەن ئەکتەرێک یان گۆرانیبێژێک بۆ ئەوەی بڕیار لەسەر تواناکانیان بدرێت بۆ بەژداری لە بەرھەمێک""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (کردار) پیشاندانی کورتە نمایشێک لەلایەن ئەکتەرێک یان گۆرانیبێژێک بۆ ئەوەی بڕیار لەسەر تواناکانیان بدرێت بۆ بەژداری لە بەرھەمێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She was auditioning for the role of Lady Macbeth.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She was auditioning for the role of Lady Macbeth."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "تاقیکرایەوە بۆ ڕۆڵی خاتوو ماکبێس.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "تاقیکرایەوە بۆ ڕۆڵی خاتوو ماکبێس."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAudition240("en-GB"),
                               ),
                               IconButton(
@@ -330,48 +273,20 @@ class EnglishEntryaudition extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٣. (کردار) بەژداریکردن وەک دادوەرێک بۆ بڕیاردان لە کورتە نمایشێک کە لەلایەن ئەکتەرێک یان گۆرانیبێژێکەوە پێشکەش دەکرێت بۆ ئەوەی بڕیار لەسەر تواناکانیان بدرێت بۆ بەژداری لە بەرھەمێک""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٣. (کردار) بەژداریکردن وەک دادوەرێک بۆ بڕیاردان لە کورتە نمایشێک کە لەلایەن ئەکتەرێک یان گۆرانیبێژێکەوە پێشکەش دەکرێت بۆ ئەوەی بڕیار لەسەر تواناکانیان بدرێت بۆ بەژداری لە بەرھەمێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "We auditioned over 200 children for the part.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We auditioned over 200 children for the part."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "زیاتر لە ٢٠٠ منداڵمان تاقیکردەوە بۆ ڕۆڵەکە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "زیاتر لە ٢٠٠ منداڵمان تاقیکردەوە بۆ ڕۆڵەکە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAudition243("en-GB"),
                               ),
                               IconButton(
@@ -430,8 +345,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Verb: audition (derived forms: auditioned, auditioning, auditions)
 1. (performing arts) perform in order to get a role (= try out)
 "She auditioned for a role on Broadway";
@@ -441,7 +356,8 @@ class EnglishMeaning extends StatelessWidget {
 "his audition was impaired";
  
 2. A test of the suitability of a performer (= tryout)
-"""),
+""",
+          )
         ],
       ),
     );

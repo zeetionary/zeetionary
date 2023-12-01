@@ -157,53 +157,20 @@ class EnglishEntryacuteness extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (ناو) ڕێژەی کوشندەیی و سەختی شتێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) ڕێژەی کوشندەیی و سەختی شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The choice of drug depends upon the severity, acuteness and cause of the pain.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەڵبژاردنی دەرمانەکە دەکەوێتە سەرکوشندەیی، دژواری، و ھۆکاری ئازارەکە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The choice of drug depends upon the severity, acuteness and cause of the pain."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەڵبژاردنی دەرمانەکە دەکەوێتە سەرکوشندەیی، دژواری، و ھۆکاری ئازارەکە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAcute2471("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAcute2471(
                                     // REPLACE: acuteness /əˈkjuːtnəs/
                                     "en-US"),
@@ -211,53 +178,20 @@ class EnglishEntryacuteness extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) ڕێژەی ھەستیاریی ھەستێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) ڕێژەی ھەستیاریی ھەستێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He is remembered for the acuteness of his intellect.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "یاد دەکرێتەوە بۆ بوونی داناییەکی زۆر.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He is remembered for the acuteness of his intellect."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "یاد دەکرێتەوە بۆ بوونی داناییەکی زۆر."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAcuten524("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAcuten524(
                                     // REPLACE: acuteness /əˈkjuːtnəs/
                                     "en-US"),
@@ -306,8 +240,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: acuteness 
 1. A sensitivity that is keen and highly developed
 "dogs have a remarkable acuteness of smell"
@@ -316,7 +250,8 @@ class EnglishMeaning extends StatelessWidget {
 "he argued with great acuteness";
  
 3. The quality of having a sharp edge or point
-'''),
+""",
+          )
         ],
       ),
     );

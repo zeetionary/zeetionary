@@ -2476,7 +2476,7 @@ final loggedInRoute = RouteMap(routes: {
   "/english-arsenic": (_) => MaterialPage(child: EnglishEntryarsenic()),
   "/english-arson": (_) => MaterialPage(child: EnglishEntryarson()),
   "/english-art": (_) => MaterialPage(child: EnglishEntryart()),
-  "/english-art gallery": (_) => MaterialPage(child: EnglishEntryartgallery()),
+  "/english-art-gallery": (_) => MaterialPage(child: EnglishEntryartgallery()),
   "/english-artefact": (_) => MaterialPage(child: EnglishEntryartefact()),
   "/english-artery": (_) => MaterialPage(child: EnglishEntryartery()),
   "/english-arterial": (_) => MaterialPage(child: EnglishEntryarterial()),
@@ -2493,9 +2493,9 @@ final loggedInRoute = RouteMap(routes: {
   "/english-articulation": (_) =>
       MaterialPage(child: EnglishEntryarticulation()),
   "/english-artificial": (_) => MaterialPage(child: EnglishEntryartificial()),
-  "/english-artificial intelligence": (_) =>
+  "/english-artificial-intelligence": (_) =>
       MaterialPage(child: EnglishEntryartificialintelligence()),
-  "/english-artificial respiration": (_) =>
+  "/english-artificial-respiration": (_) =>
       MaterialPage(child: EnglishEntryartificialrespiration()),
   "/english-artificially": (_) =>
       MaterialPage(child: EnglishEntryartificially()),

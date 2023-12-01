@@ -210,58 +210,25 @@ class EnglishEntryaristocrat extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: ئەریستۆکرات، گەورەزادە، بەگزادە، سەرچین، خانەدان
 
-١. (ناو) ئەندامێکی چینی باڵای کۆمەڵگە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ئەندامێکی چینی باڵای کۆمەڵگە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The castle has been owned by a succession of wealthy aristocrats.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The castle has been owned by a succession of wealthy aristocrats."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "قەڵاکە لەلایەن ژمارەیەک خانەدانی یەک لەدوای یەک خاوەندارێتی کراوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "قەڵاکە لەلایەن ژمارەیەک خانەدانی یەک لەدوای یەک خاوەندارێتی کراوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAristocrat1207("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAristocrat1207(
                                     // REPLACE: aristocrat /əˈrɪstəkræt/
                                     "en-US"),
@@ -312,12 +279,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: aristocrat (derived forms: aristocrats)
 1. A member of the aristocracy (= blue blood, patrician, aristo [informal])
 "the conduct of a gambling aristocrat";
-"""),
+""",
+          )
         ],
       ),
     );

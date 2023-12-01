@@ -131,14 +131,8 @@ class EnglishEntryabovebelowthefold extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. کاتێک شتێک لە شوێنێک دەردەکەوێت کە بە ئاسانی دەبینرێت یان نابینرێت''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          DefinitionKurdish(text: """
+١. کاتێک شتێک لە شوێنێک دەردەکەوێت کە بە ئاسانی دەبینرێت یان نابینرێت"""),
                         ],
                       ),
                     ),
@@ -181,12 +175,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Idiom: above/below-the-fold
 1. In a position where it is seen/not seen first, for example on the top/bottom half of the front page of a newspaper or in the part of a web page that you see first/last when you open it
 "above-the-fold images"; "the company logo must be placed in an above-the-fold position."
-'''),
+""",
+          )
         ],
       ),
     );

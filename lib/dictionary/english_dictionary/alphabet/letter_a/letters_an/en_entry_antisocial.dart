@@ -209,58 +209,25 @@ class EnglishEntryantisocial extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: دژی داب‌ونەریتی کۆمەڵ و مایەی ھەراسانی خەڵکانی تر، دژەکۆمەڵ، دژی کۆمەڵ(گا)، دژی بەرژەوەندی کۆمەڵ(گا)، ناکۆمەڵایەتی، دوژمنی کۆمەڵ، گۆشەگیر، لاتەریک، دوورەپەرێز
 
-١. (ھاوەڵناو) خراپ و زیان‌بەخش بۆ کەسێک یان کۆمەڵگە بەگشتی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) خراپ و زیان‌بەخش بۆ کەسێک یان کۆمەڵگە بەگشتی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Increasingly, smoking is regarded as an antisocial habit.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Increasingly, smoking is regarded as an antisocial habit."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "جگەرەکێشان زیاتر و زیاتر لەلایەن خەڵکییەوە دادەنرێت بە شتێکی ناکۆمەڵایەتی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "جگەرەکێشان زیاتر و زیاتر لەلایەن خەڵکییەوە دادەنرێت بە شتێکی ناکۆمەڵایەتی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAntisocial1238("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAntisocial1238(
                                     // REPLACE: antisocial /ˌæntiˈsəʊʃl/,  /ˌæntaɪˈsəʊʃl/
                                     "en-US"),
@@ -269,56 +236,23 @@ class EnglishEntryantisocial extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ھاوەڵناو) حەزنەکردن لە کات بەسەربردن لەگەڵ کەسانی تر''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ھاوەڵناو) حەزنەکردن لە کات بەسەربردن لەگەڵ کەسانی تر"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "They'll think you're being antisocial if you don't go.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "They'll think you're being antisocial if you don't go."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "وابیردەکەنەوە ناکۆمەڵایەتیت ئەگەر نەچیت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وابیردەکەنەوە ناکۆمەڵایەتیت ئەگەر نەچیت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAntisocial1240("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAntisocial1240(
                                     // REPLACE: antisocial /ˌæntiˈsəʊʃl/,  /ˌæntaɪˈsəʊʃl/
                                     "en-US"),
@@ -369,15 +303,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: antisocial  
 1. Shunning contact with others
 "standoffish and antisocial"; "he's not antisocial; just shy"
  
 2. Hostile to or disruptive of normal standards of social behaviour (= asocial)
 "criminal behaviour or conduct that violates the rights of other individuals is antisocial"; "an antisocial deed";
-'''),
+""",
+          )
         ],
       ),
     );

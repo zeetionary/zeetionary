@@ -204,56 +204,23 @@ class EnglishEntryangling extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (ناو) ماسیگری، ڕاوەماسی؛ چوون بۆ ڕاوەماسی بە قولاب، زیاتر بۆ خۆشی یان وەک وەرزش''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) ماسیگری، ڕاوەماسی؛ چوون بۆ ڕاوەماسی بە قولاب، زیاتر بۆ خۆشی یان وەک وەرزش"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "On weekends, they often go angling by the lake.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "On weekends, they often go angling by the lake."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە ڕۆژانی کۆتایی ھەفتە زۆرجار  دەچوون بۆ ڕاوەماسی لە دەریاچەکە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لە ڕۆژانی کۆتایی ھەفتە زۆرجار  دەچوون بۆ ڕاوەماسی لە دەریاچەکە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAngling558("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAngling558(
                                     // REPLACE: angling /ˈæŋɡlɪŋ/
                                     "en-US"),
@@ -304,11 +271,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: angling 
 1. Fishing with a hook and line (and usually a pole)
-'''),
+""",
+          )
         ],
       ),
     );

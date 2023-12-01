@@ -5551,7 +5551,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   }
                   if (wordsEnglish == "art gallery") {
                     saveToHistory(wordsEnglish);
-                    Routemaster.of(context).push("/english-art gallery");
+                    Routemaster.of(context).push("/english-art-gallery");
                   }
                   if (wordsEnglish == "artefact") {
                     saveToHistory(wordsEnglish);
@@ -5620,12 +5620,12 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   if (wordsEnglish == "artificial intelligence") {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context)
-                        .push("/english-artificial intelligence");
+                        .push("/english-artificial-intelligence");
                   }
                   if (wordsEnglish == "artificial respiration") {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context)
-                        .push("/english-artificial respiration");
+                        .push("/english-artificial-respiration");
                   }
                   if (wordsEnglish == "artificially") {
                     saveToHistory(wordsEnglish);
@@ -7215,10 +7215,10 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-bareness");
                   }
-                  // if (wordsEnglish == "bargain") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bargain");
-                  // }
+                  if (wordsEnglish == "bargain") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bargain");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");

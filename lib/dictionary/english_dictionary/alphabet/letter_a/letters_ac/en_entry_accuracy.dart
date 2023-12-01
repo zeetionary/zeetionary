@@ -157,55 +157,22 @@ class EnglishEntryaccuracy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ڕاستی، دروستی، ساغی، وردی
 
-١. (ناو) ڕاستی و درووستی شتێک و ئایا تا چەند تەواوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ڕاستی و درووستی شتێک و ئایا تا چەند تەواوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "They questioned the accuracy of the information in the file.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "گومانیان خستەسەر ئەو زانیارییانەی لە فایلەکە بوون.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "They questioned the accuracy of the information in the file."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "گومانیان خستەسەر ئەو زانیارییانەی لە فایلەکە بوون."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA25498("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA25498("en-US"),
                               ),
                             ],
@@ -213,43 +180,15 @@ class EnglishEntryaccuracy extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She hits the ball with great accuracy.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە تۆپەکە دەدات بە وردیی زۆرەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She hits the ball with great accuracy."),
+                              const ExampleSentenceKurdish(
+                                  text: "لە تۆپەکە دەدات بە وردیی زۆرەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA21547("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA21547("en-US"),
                               ),
                             ],
@@ -296,8 +235,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: accuracy (derived forms: accuracies)
 1. The quality of being correct, true, or close to the true value (= truth, veracity)
 "he was beginning to doubt the accuracy of his compass";
@@ -307,7 +246,8 @@ class EnglishMeaning extends StatelessWidget {
  
 3. (mathematics) the number of significant figures given in a number
 "the atomic clock enabled scientists to measure time with much greater accuracy"
-'''),
+""",
+          )
         ],
       ),
     );

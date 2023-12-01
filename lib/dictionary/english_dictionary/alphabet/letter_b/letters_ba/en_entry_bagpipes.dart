@@ -204,51 +204,22 @@ class EnglishEntrybagpipes extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: مەشکە(نایە)، ھەمبانە، باگ‌پایپس
 
-١. (ناو) ئامێرێکی میوزیکە کە زیاتر لە سکۆتلەندا باوە. ژەنیارەکە فوو دەکات بە کیسەیەکدا کە لەژێر باڵی گریویەتی، و دواتر پەستان دەخاتە سەر لوولەکان بۆ درووستکردنی دەنگ""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ئامێرێکی میوزیکە کە زیاتر لە سکۆتلەندا باوە. ژەنیارەکە فوو دەکات بە کیسەیەکدا کە لەژێر باڵی گریویەتی، و دواتر پەستان دەخاتە سەر لوولەکان بۆ درووستکردنی دەنگ"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "She started learning the bagpipes three years ago.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She started learning the bagpipes three years ago."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "سێ ساڵ پێش ئێستا دەستیکرد بە فێربوونی باگ‌پایپس.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "سێ ساڵ پێش ئێستا دەستیکرد بە فێربوونی باگ‌پایپس."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBagpipess1("en-GB"),
                               ),
                               IconButton(
@@ -307,11 +278,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: bagpipe (derived forms: bagpipes)
 1. A tubular wind instrument; the player blows air into a bag and squeezes it out through the drone
-"""),
+""",
+          )
         ],
       ),
     );

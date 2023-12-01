@@ -155,16 +155,10 @@ class EnglishEntryacorn extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          DefinitionKurdish(text: """
 کوردی: (بەر یان دەنکەکەی) بەڕوو، کۆپەک
 
-١. (ھاوەڵناو) کاکڵەی بچووکی دار بەڕوو''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) کاکڵەی بچووکی دار بەڕوو"""),
                         ],
                       ),
                     ),
@@ -207,11 +201,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: acorn (derived forms: acorns)
 1. Fruit of the oak tree: a smooth thin-walled nut in a woody cup-shaped base
-'''),
+""",
+          )
         ],
       ),
     );

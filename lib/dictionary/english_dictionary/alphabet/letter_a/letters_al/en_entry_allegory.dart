@@ -156,58 +156,23 @@ class EnglishEntryallegory extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: چیروکی ھێمایی، ھێماچیرۆک، چیرۆما (چیرۆک + ھێما)، ھێرۆک (ھێما + چیرۆک)، ھێما، نیشانە، خوازە
 
-١. (ناو) چیرۆکێک کە تێیدا ھەر کارەکتەرێک سمبولە بۆ بیرۆکەیەک یان چەمکێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) چیرۆکێک کە تێیدا ھەر کارەکتەرێک سمبولە بۆ بیرۆکەیەک یان چەمکێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The play can be read as allegory.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "The play can be read as allegory."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "شانۆکە دەکرێت وەک  ھێرۆک ببینرێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "شانۆکە دەکرێت وەک  ھێرۆک ببینرێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAllegory3566("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAllegory3566(
                                     // REPLACE: allegory /ˈæləɡɔːri/
                                     "en-US"),
@@ -256,15 +221,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: allegory (derived forms: allegories)
 1. A short moral story (often with animal characters) (= fable, parable, apologue, exemplum)
  
 2. A visible symbol representing an abstract idea (= emblem)
  
 3. An expressive style that uses fictional characters and events to describe some subject by suggestive resemblances; an extended metaphor
-'''),
+""",
+          )
         ],
       ),
     );

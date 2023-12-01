@@ -131,14 +131,8 @@ class EnglishEntryabovebeyondsuspicion extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. کەسێک کە لە ھەڵە و جێگەی گومان بەدەرە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          DefinitionKurdish(text: """
+١. کەسێک کە لە ھەڵە و جێگەی گومان بەدەرە"""),
                         ],
                       ),
                     ),
@@ -181,12 +175,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Idiom: above/beyond suspicion
 ​1. Too good, honest, etc. to have done something wrong, illegal or dishonest
 "Nobody who was near the scene of the crime is above suspicion."; "They thought the head teacher was beyond suspicion.";
-'''),
+""",
+          )
         ],
       ),
     );

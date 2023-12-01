@@ -212,58 +212,25 @@ class EnglishEntryarrogantly extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: بە دەمارەوە، بە تڕوتۆپەوە، لووت‌بەرزانە
 
-١. (ھاوەڵکار) بەشێوەیەکی خۆبەزلزانانە و بەبێ حساب‌کردن بۆ کەسانی تر""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵکار) بەشێوەیەکی خۆبەزلزانانە و بەبێ حساب‌کردن بۆ کەسانی تر"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I think he arrogantly assumed he'd just get away with it.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I think he arrogantly assumed he'd just get away with it."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پێم وایە بە خۆبەزلزانییەوە وای‌دانا لەمە دەربازی دەبێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پێم وایە بە خۆبەزلزانییەوە وای‌دانا لەمە دەربازی دەبێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArrogantly734("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakArrogantly734(
                                     // REPLACE: arrogantly /ˈærəɡəntli/
                                     "en-US"),
@@ -314,12 +281,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adverb: arrogantly 
 1. In an arrogant manner (= self-importantly, overweeningly)
 "in the old days she had been harsh and stiff; afraid of her husband and yet arrogantly proud that she had a husband strong and fierce enough to make her afraid";
-"""),
+""",
+          )
         ],
       ),
     );

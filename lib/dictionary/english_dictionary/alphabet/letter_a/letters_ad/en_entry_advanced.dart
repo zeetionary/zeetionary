@@ -157,55 +157,22 @@ class EnglishEntryadvanced extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: پێشکەوتوو، بەرکەوتوو، پێشوەچوو، پێشبڕۆ، سەرە، زۆر، لەسەرێ، بەسەرچوو، ڕابردوو
 
-١. (ھاوەڵناو) ھەبوونی شتی سەردەمی و بیردۆز و ئایدیای تازە پەرەپێدراو''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) ھەبوونی شتی سەردەمی و بیردۆز و ئایدیای تازە پەرەپێدراو"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Scientists are working on highly advanced technology to replace fossil fuels.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "زاناکان کار دەکەن لەسەر تەکنۆلۆژیای زۆر پێشکەوتوو بۆ شوێنگرتنەوەی سوتەمەنی بەبەردبوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Scientists are working on highly advanced technology to replace fossil fuels."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "زاناکان کار دەکەن لەسەر تەکنۆلۆژیای زۆر پێشکەوتوو بۆ شوێنگرتنەوەی سوتەمەنی بەبەردبوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdvanc2534("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdvanc2534(
                                     // REPLACE: advanced /ədˈvænst/
                                     "en-US"),
@@ -213,53 +180,20 @@ class EnglishEntryadvanced extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ھاوەڵناو) لە ئاستێکی بەرزدا''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ھاوەڵناو) لە ئاستێکی بەرزدا"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He hopes to pursue an advanced degree in economics.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھیواخوازە بڕوانامەیەکی بەرز لە ئابووریدا بەدەستبھێنێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He hopes to pursue an advanced degree in economics."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھیواخوازە بڕوانامەیەکی بەرز لە ئابووریدا بەدەستبھێنێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdvan2546("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdvan2546(
                                     // REPLACE: advanced /ədˈvænst/
                                     "en-US"),
@@ -308,8 +242,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: advanced 
 1. Farther along in physical or mental development
 "the child's skeletal age was classified as 'advanced'"; "children in the advanced classes in elementary school read far above grade average"
@@ -334,7 +268,8 @@ class EnglishMeaning extends StatelessWidget {
  
 8. Situated ahead or going before (= advance, in advance)
 "at that time the most advanced outpost was still east of the Rockies";
-'''),
+""",
+          )
         ],
       ),
     );

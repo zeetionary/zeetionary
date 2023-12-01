@@ -208,42 +208,19 @@ class EnglishEntryantiretroviral extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (ھاوەڵناو) دەرمانێک کە درووست‌کراوە بۆ ڕێگری لە ڤایرۆسی وەک ئێچ-ئای-ڤی کە دەبێتەھۆی ئایدز''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ھاوەڵناو) دەرمانێک کە درووست‌کراوە بۆ ڕێگری لە ڤایرۆسی وەک ئێچ-ئای-ڤی کە دەبێتەھۆی ئایدز"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Antiretroviral drugs are the only way to treat HIV.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Antiretroviral drugs are the only way to treat HIV."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئانتی‌ریترۆڤایرڵ تەنھا ڕێگەی چارەسەری ئایدزە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئانتی‌ریترۆڤایرڵ تەنھا ڕێگەی چارەسەری ئایدزە."),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
@@ -253,12 +230,7 @@ class EnglishEntryantiretroviral extends StatelessWidget {
                                 onPressed: () =>
                                     speakAntiretroviral1208("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAntiretroviral1208(
                                     // REPLACE: antiretroviral /ˌæntiˌretrəʊˈvaɪrəl/,  /ˌæntaɪˌretrəʊˈvaɪrəl/
                                     "en-US"),
@@ -309,14 +281,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: antiretroviral
 1. Acting to combats infection by retroviruses such as HIV
 
 - Noun: antiretroviral (derived forms: antiretrovirals)
 1. An antiretroviral drug
-'''),
+""",
+          )
         ],
       ),
     );

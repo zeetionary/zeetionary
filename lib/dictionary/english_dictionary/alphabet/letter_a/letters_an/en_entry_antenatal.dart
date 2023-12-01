@@ -206,58 +206,25 @@ class EnglishEntryantenatal extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: کۆرپەلەیی، ئاوەڵمەیی، پێش لە دایک‌بوون، پێش‌بوون، سەربە ژنانی سکپڕ، تێ‌ڕوانینی قۆناخی سکپڕی، تێ‌ڕوانینی پزشکی لەسەر ژنانی سکپڕ، تێ‌ڕوانینی پزشکی سەردەمی سکپڕی
 
-١. (ھاوەڵناو) پەیوەندیدار بە چاودێریی ژنانی دووگیان''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) پەیوەندیدار بە چاودێریی ژنانی دووگیان"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Your blood pressure will be monitored at all antenatal checks.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Your blood pressure will be monitored at all antenatal checks."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پەستانی خوێنت وەردەگیرێت لە ھەموو پشکنینەکانی دووگیانی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پەستانی خوێنت وەردەگیرێت لە ھەموو پشکنینەکانی دووگیانی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAntenatal504("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAntenatal504(
                                     // REPLACE: antenatal /ˌæntiˈneɪtl/
                                     "en-US"),
@@ -308,13 +275,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: antenatal 
 Usage: Brit (N. Amer: prenatal)
 1. Occurring or existing before birth (= prenatal [N. Amer], antepartum)
 "antenatal care";
-'''),
+""",
+          )
         ],
       ),
     );

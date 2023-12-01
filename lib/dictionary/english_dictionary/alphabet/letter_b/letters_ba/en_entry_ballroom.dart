@@ -204,51 +204,22 @@ class EnglishEntryballroom extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: سەماخانە، خانەی ھەڵپەڕکێ، ھۆڵی ھەڵپەڕکێ یان سەما
 
-١. (ناو) ژوورێکی گەورە کە بۆ سەماکردن بەکاردێت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ژوورێکی گەورە کە بۆ سەماکردن بەکاردێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "He entered the palatial ballroom and later danced with a beautiful girl.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He entered the palatial ballroom and later danced with a beautiful girl."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "چووە سەماخانە کۆشک‌ئاساکە و دواتر سەمای لەگەڵ کچێکی جوان کرد.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "چووە سەماخانە کۆشک‌ئاساکە و دواتر سەمای لەگەڵ کچێکی جوان کرد."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBallrooms1("en-GB"),
                               ),
                               IconButton(
@@ -307,12 +278,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: ballroom (derived forms: ballrooms)
 1. Large room used mainly for dancing (= dance hall, dance palace)
 "she made a graceful entrée into the ballroom";
-"""),
+""",
+          )
         ],
       ),
     );

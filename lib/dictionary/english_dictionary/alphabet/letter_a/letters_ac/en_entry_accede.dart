@@ -149,105 +149,39 @@ class EnglishEntryaccede extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (کردار) ڕازیبوون بە داوایەک/پێشنیارێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (کردار) ڕازیبوون بە داوایەک/پێشنیارێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He acceded to demands for his resignation.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ملیدا بۆ داواکارییەکانی دەستلەکارکێشانەوەی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He acceded to demands for his resignation."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ملیدا بۆ داواکارییەکانی دەستلەکارکێشانەوەی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA25963("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA25963("en-US"),
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (کردار) وەرگرتنی پۆستێکی باڵا، بۆ نموونە پۆستی پاشا یان شاژنی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (کردار) وەرگرتنی پۆستێکی باڵا، بۆ نموونە پۆستی پاشا یان شاژنی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Queen Victoria acceded to the throne in 1837.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "شاژن ڤیکتۆریا چووە سەر تەختی شاھانە لە ساڵی ١٨٣٧",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Queen Victoria acceded to the throne in 1837."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "شاژن ڤیکتۆریا چووە سەر تەختی شاھانە لە ساڵی ١٨٣٧"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA24698("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA24698("en-US"),
                               ),
                             ],
@@ -294,8 +228,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Verb: accede (derived forms: acceded, accedes, acceding)
 1. Yield to another's wish or opinion (= submit, bow[2], defer, give in)
 "The government acceded to the military pressure";
@@ -305,7 +239,8 @@ class EnglishMeaning extends StatelessWidget {
  
 3. To agree or express agreement (= assent, acquiesce)
 "The Maestro acceded to the request for an encore";
-'''),
+""",
+          )
         ],
       ),
     );

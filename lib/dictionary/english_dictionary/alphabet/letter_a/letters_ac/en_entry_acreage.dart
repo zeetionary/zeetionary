@@ -156,55 +156,22 @@ class EnglishEntryacreage extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ئەکرپێوی، پێوانی ڕووبەر بەپێی ئەکر یان گاوەخان
 
-١. (ناو) پارچە زەوییەک کە بە گاوەخان پێوراوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) پارچە زەوییەک کە بە گاوەخان پێوراوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The aim is to double the forestry acreage by the end of the decade.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئامانجەکە ئەوەیە ڕووبەری دارستانەکە دوو ھێندە بکرێت تا کۆتایی ئەم دەیەیە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The aim is to double the forestry acreage by the end of the decade."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئامانجەکە ئەوەیە ڕووبەری دارستانەکە دوو ھێندە بکرێت تا کۆتایی ئەم دەیەیە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAcr21374("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAcr21374(
                                     "en-US"), // REPLACE acreage /ˈeɪkərɪdʒ/
                               ),
@@ -252,12 +219,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 Noun: acreage (derived forms: acreages)
 1. An area of ground used for some particular purpose (such as building or farming) (= land area)
 "he wanted some acreage to build on";
-'''),
+""",
+          )
         ],
       ),
     );

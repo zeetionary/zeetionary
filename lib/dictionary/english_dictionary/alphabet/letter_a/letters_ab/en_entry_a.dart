@@ -522,8 +522,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 Article:
 1. Indefinite article, "an" is used before a vowel sound, "a" otherwise
 
@@ -543,7 +543,8 @@ Noun: A
 5. (biochemistry) purine base found in DNA and RNA; pairs with thymine in DNA and with uracil in RNA
 
 6. The blood group whose red cells carry the A antigen
-'''),
+""",
+          )
         ],
       ),
     );

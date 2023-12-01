@@ -212,56 +212,23 @@ class EnglishEntryarsenic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ناو) زەرنیخ؛ مادەیەکی کیمیایی رەساسی کە زۆر ژەھراوییە، بەتایبەتی ئەگەر لەگەڵ مادەی دیکە یەکبگرێت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) زەرنیخ؛ مادەیەکی کیمیایی رەساسی کە زۆر ژەھراوییە، بەتایبەتی ئەگەر لەگەڵ مادەی دیکە یەکبگرێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The doctor found traces of arsenic in his body.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The doctor found traces of arsenic in his body."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پزیشکەکە پاشماوەی زەرنیخی لە لەشیدا دۆزییەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پزیشکەکە پاشماوەی زەرنیخی لە لەشیدا دۆزییەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArsenic900("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakArsenic900(
                                     // REPLACE: arsenic /ˈɑːrsnɪk/
                                     "en-US"),
@@ -312,13 +279,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: arsenic (derived forms: arsenics)
 1. A very poisonous metallic element that has three allotropic forms; arsenic and arsenic compounds are used as herbicides and insecticides and in various alloys; found in arsenopyrite and orpiment and realgar (= As, atomic number 33)
  
 2. A white powdered poisonous trioxide of arsenic; used in manufacturing glass and as a pesticide (rat poison) and weed killer (= arsenic trioxide, arsenous anhydride, arsenous oxide, white arsenic, ratsbane)
-"""),
+""",
+          )
         ],
       ),
     );

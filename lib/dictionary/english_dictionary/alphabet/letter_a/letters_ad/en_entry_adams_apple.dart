@@ -155,16 +155,10 @@ class EnglishEntryadamsapple extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          DefinitionKurdish(text: """
 کوردی: سێوی ئادەم، کەڵەشێرە، قورتمە، زەنگەلووک، کەڵەبابەی گەردن، قوڕقوڕاگە (لەو داستانەوە گیراوەتەوە کە تێکەیێ لە میوەی قەدەخەکراو لە گەرووی ئادەم‌دا گیری کردووە (یان بۆتە گرێ)
 
-١. (ناو) ئەو بەشەی قوڕگە کە ھاتووەتە دەرەوە و سەرووخوار دەکات کە شت دۆخۆیت''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ئەو بەشەی قوڕگە کە ھاتووەتە دەرەوە و سەرووخوار دەکات کە شت دۆخۆیت"""),
                         ],
                       ),
                     ),
@@ -207,13 +201,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: Adam's apple (derived forms: Adam's apples)
 1. The largest cartilage of the larynx (= thyroid cartilage)
  
 2. Tropical shrub having glossy foliage and fragrant nocturnal flowers with crimped or wavy corollas; northern India to Thailand (= crape jasmine, crepe jasmine, crepe gardenia, pinwheel flower, East Indian rosebay, Nero's crown, coffee rose, Tabernaemontana divaricate)
-'''),
+""",
+          )
         ],
       ),
     );

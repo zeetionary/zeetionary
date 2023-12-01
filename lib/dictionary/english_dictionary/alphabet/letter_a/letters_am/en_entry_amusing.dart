@@ -204,58 +204,25 @@ class EnglishEntryamusing extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: پێکەنینی، خۆش، گاڵتەجاڕ
 
-١. (ھاوەڵناو) جێگەی خۆشی و پێکەنین''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) جێگەی خۆشی و پێکەنین"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I didn't find the joke at all amusing.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I didn't find the joke at all amusing."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "نوکتەکەم ھیچ بە جێگەی پێکەنین نەبینی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "نوکتەکەم ھیچ بە جێگەی پێکەنین نەبینی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAmusing7603("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAmusing7603(
                                     // REPLACE: amusing /əˈmjuːzɪŋ/
                                     "en-US"),
@@ -306,15 +273,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: amusing
 1. Providing enjoyment; pleasantly entertaining (= amusive, diverting, fun)
 "an amusing speaker";
  
 2. Arousing or provoking laughter (= comic, comical, funny, laughable, mirthful, risible, rib-tickling [informal])
 "an amusing film with a steady stream of pranks and pratfalls";
-'''),
+""",
+          )
         ],
       ),
     );

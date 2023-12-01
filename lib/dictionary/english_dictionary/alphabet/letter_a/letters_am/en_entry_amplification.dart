@@ -205,58 +205,25 @@ class EnglishEntryamplification extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: فراوان‌کردن، گەورەکردنەوە، گەوراندن، ھێزاندن، پێزداری، دەنگ‌پێدان، تیشک‌خستنەسەر، ڕوون‌کردنەوە، لێکدانەوە، باسکردن، وردەکاری خستنەسەر
 
-١. (ناو) زیادکردنی ھێزی شتێک، بەتایبەتی دەنگ''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) زیادکردنی ھێزی شتێک، بەتایبەتی دەنگ"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Amplification of this energy promotes fertilization of the surrounding area.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Amplification of this energy promotes fertilization of the surrounding area."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بەھێزکردنی ئەم وزەیە یارمەتیدەرە بۆ پیتاندنی ناوچەی دەورووبەر",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بەھێزکردنی ئەم وزەیە یارمەتیدەرە بۆ پیتاندنی ناوچەی دەورووبەر"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAmplification102("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAmplification102(
                                     // REPLACE: amplification /ˌæmplɪfɪˈkeɪʃn/
                                     "en-US"),
@@ -265,42 +232,19 @@ class EnglishEntryamplification extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) زیادکردنی ڕوونکردنەوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) زیادکردنی ڕوونکردنەوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "That comment needs some amplification.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "That comment needs some amplification."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەو لێدوانە پێویستی بە ھەندێک ڕوونکردنەوە ھەیە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەو لێدوانە پێویستی بە ھەندێک ڕوونکردنەوە ھەیە."),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
@@ -310,12 +254,7 @@ class EnglishEntryamplification extends StatelessWidget {
                                 onPressed: () =>
                                     speakAmplification44140("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAmplification44140(
                                     // REPLACE: amplification /ˌæmplɪfɪˈkeɪʃn/
                                     "en-US"),
@@ -366,8 +305,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: amplification (derived forms: amplifications)
 1. Addition of extra material, illustration or clarifying detail (= elaboration)
 "a few remarks added in amplification and defence";
@@ -375,7 +314,8 @@ class EnglishMeaning extends StatelessWidget {
 2. The amount of increase in signal power, voltage or current expressed as the ratio of output to input (= gain)
  
 3. (electronics) the act of increasing voltage, power or current
-'''),
+""",
+          )
         ],
       ),
     );

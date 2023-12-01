@@ -248,8 +248,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: bareback
 1. Riding without a saddle (= barebacked)
 "a bareback rider";
@@ -257,7 +257,8 @@ class EnglishMeaning extends StatelessWidget {
 - Adverb: bareback
 1. Without a saddle (barebacked)
 "she prefers to ride her horse bareback";
-"""),
+""",
+          )
         ],
       ),
     );

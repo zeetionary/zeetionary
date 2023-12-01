@@ -204,58 +204,25 @@ class EnglishEntryangelic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: فریشتەئاسا، فریشتەیی، ئاسمانی
 
-١. (ھاوەڵناو) فریشتەئاسا؛ باش و میھرەبان و جوان''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) فریشتەئاسا؛ باش و میھرەبان و جوان"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She smiled, revealing her angelic face to everyone around.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She smiled, revealing her angelic face to everyone around."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پێکەنی و ڕووخسارە فریشتەئاساکەی پیشانی ھەمووان دا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پێکەنی و ڕووخسارە فریشتەئاساکەی پیشانی ھەمووان دا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAngelic790("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAngelic790(
                                     // REPLACE: angelic /ænˈdʒelɪk/
                                     "en-US"),
@@ -306,8 +273,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: angelic 
 1. Marked by utter benignity; resembling or befitting an angel or saint (= angelical, beatific, saintlike, saintly, sainted)
 "angelic beneficence";
@@ -317,7 +284,8 @@ class EnglishMeaning extends StatelessWidget {
  
 3. Of or relating to angels (= angelical)
 "angelic messenger";
-'''),
+""",
+          )
         ],
       ),
     );

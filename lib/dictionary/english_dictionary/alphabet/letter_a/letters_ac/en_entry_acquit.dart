@@ -156,53 +156,18 @@ class EnglishEntryacquit extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (کردار) لێخۆشبوون لە گومانلێکراوێک لە دادگا''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (کردار) لێخۆشبوون لە گومانلێکراوێک لە دادگا"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She was acquitted on all charges.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە ھەموو تۆمەتەکان بێبەریکرا",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text: "She was acquitted on all charges."),
+                              const ExampleSentenceKurdish(
+                                  text: "لە ھەموو تۆمەتەکان بێبەریکرا"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAc12569("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAc12569(
                                     "en-US"), // REPLACE acquit /əˈkwɪt/
                               ),
@@ -250,15 +215,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Verb: acquit (derived forms: acquits, acquitting, acquitted)
 1. Pronounce not guilty of criminal charges (= assoil [archaic], clear, discharge, exonerate, exculpate)
 "The suspect was acquitted of the murder charges";
  
 2. Behave in a certain manner (= behave, bear, deport, conduct, comport, carry)
 "he acquitted himself with dignity";
-'''),
+""",
+          )
         ],
       ),
     );

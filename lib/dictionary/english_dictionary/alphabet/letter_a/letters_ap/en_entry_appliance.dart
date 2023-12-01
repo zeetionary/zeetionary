@@ -210,58 +210,25 @@ class EnglishEntryappliance extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: دەزگا، ئامێر، کەرەسە، ئامراز، کەل‌وپەل، ھەجەت، بەکارھێنان، پیادەکردن، خستنەکار، کاربەندی، ماشێنی ئاگرکوژاندنەوە
 
-١. (ناو) ئامێرێکی ماڵەوە کە دیزاین کراوە بۆ کردنی کارێک، بۆ نموونە ئامادەکردنی خۆراک، گەرمکردنەوە، یان پاککردنەوە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ئامێرێکی ماڵەوە کە دیزاین کراوە بۆ کردنی کارێک، بۆ نموونە ئامادەکردنی خۆراک، گەرمکردنەوە، یان پاککردنەوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Always switch off appliances that are not in use.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Always switch off appliances that are not in use."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەمیشە ئەو ئامێرانە بکوژێنەوە کە لە کاردا نین.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەمیشە ئەو ئامێرانە بکوژێنەوە کە لە کاردا نین."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAppliance623("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAppliance623(
                                     // REPLACE: appliance /əˈplaɪəns/
                                     "en-US"),
@@ -312,13 +279,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: appliance (derived forms: appliances)
 1. A device or control that is very useful for a particular job (= contraption, contrivance, convenience, gadget, gizmo [informal], gismo [informal], widget)
  
 2. Durable goods for home or office use
-"""),
+""",
+          )
         ],
       ),
     );

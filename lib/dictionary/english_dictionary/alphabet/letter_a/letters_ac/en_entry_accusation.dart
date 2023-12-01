@@ -157,55 +157,22 @@ class EnglishEntryaccusation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: تاوانبار کردن، گوناھبار کردن، گومان لێ‌کردن، تۆمەت، بوختان‌پێ‌کردن
 
-١. (ناو) کاتێک کەسێک بە کردنی کارێکی ھەڵە تۆمەتبار دەکەیت''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کاتێک کەسێک بە کردنی کارێکی ھەڵە تۆمەتبار دەکەیت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "There was a hint of accusation in her voice.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئاماژەیەکی گومان لێکردن ھەبوو لە دەنگیدا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "There was a hint of accusation in her voice."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئاماژەیەکی گومان لێکردن ھەبوو لە دەنگیدا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA125698("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA125698("en-US"),
                               ),
                             ],
@@ -213,43 +180,16 @@ class EnglishEntryaccusation extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "At the time, no one believed her accusations against him.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کاتی خۆی ھیچ کەس باوەڕی بە تۆمەتەکانی دژ بە ئەو نەکرد.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "At the time, no one believed her accusations against him."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کاتی خۆی ھیچ کەس باوەڕی بە تۆمەتەکانی دژ بە ئەو نەکرد."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA147296("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA147296("en-US"),
                               ),
                             ],
@@ -296,14 +236,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: accusation (derived forms: accusations)
 1. A formal charge of wrongdoing brought against a person; the act of imputing blame or guilt (= accusal)
  
 2. An assertion that someone is guilty of a fault or offence (= charge)
 "the newspaper published accusations that Jones was guilty of drunken driving";
-'''),
+""",
+          )
         ],
       ),
     );

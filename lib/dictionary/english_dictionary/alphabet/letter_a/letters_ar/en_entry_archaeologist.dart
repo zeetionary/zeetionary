@@ -210,58 +210,25 @@ class EnglishEntryarchaeologist extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: شوێنەوارناس، باستان‌ناس، کۆنەوارناس، باستانەوان
 
-١. (ناو) کەسێکی شوێنەوارناس""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کەسێکی شوێنەوارناس"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He's an archaeologist and has been on a dig in Crete for the past year.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He's an archaeologist and has been on a dig in Crete for the past year."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "شوێنەوارناسە و بۆ ماوەی یەک ساڵی ڕابردوو خەریکی ھەڵکۆڵینی شوێنەوارێک بووە لە کریت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "شوێنەوارناسە و بۆ ماوەی یەک ساڵی ڕابردوو خەریکی ھەڵکۆڵینی شوێنەوارێک بووە لە کریت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArchaeologist251("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakArchaeologist251(
                                     // REPLACE: archaeologist /ˌɑːrkiˈɑːlədʒɪst/
                                     "en-US"),
@@ -312,11 +279,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: archaeologist (derived forms: archaeologists)
 1. An anthropologist who studies prehistoric people and their culture (= archeologist [US])
-"""),
+""",
+          )
         ],
       ),
     );

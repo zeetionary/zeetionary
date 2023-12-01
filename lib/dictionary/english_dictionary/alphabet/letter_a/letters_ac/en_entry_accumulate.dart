@@ -149,55 +149,21 @@ class EnglishEntryaccumulate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: خڕکردنەوە، کۆکردنەوە
 
-١. (کردار) کۆکردنەوەی شتێک بە تێپەڕبوونی کات''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (کردار) کۆکردنەوەی شتێک بە تێپەڕبوونی کات"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I seem to have accumulated a lot of books.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "وادیارە کتێبی زۆرم خڕکردووەتەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I seem to have accumulated a lot of books."),
+                              const ExampleSentenceKurdish(
+                                  text: "وادیارە کتێبی زۆرم خڕکردووەتەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA92574("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA92574("en-US"),
                               ),
                             ],
@@ -205,43 +171,16 @@ class EnglishEntryaccumulate extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Dust and dirt soon accumulate if a house is not cleaned regularly.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "تەپوتۆز ھەرزوو زیاددەکەن ئەگەر خانوویەک بە بەردەوامی پاکنەکرێتەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Dust and dirt soon accumulate if a house is not cleaned regularly."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "تەپوتۆز ھەرزوو زیاددەکەن ئەگەر خانوویەک بە بەردەوامی پاکنەکرێتەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA1547("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA1547("en-US"),
                               ),
                             ],
@@ -288,15 +227,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Verb: accumulate (derived forms: accumulated, accumulates, accumulating)
 1. Get or gather together (a large number of something) (= roll up, collect, pile up, amass, compile, hoard)
 "I am accumulating evidence for the man's unfaithfulness to his wife";
  
 2. Collect in one place, esp. growing to a large number or quantity (= cumulate, conglomerate, pile up, gather, amass)
 "Journals are accumulating in my office";
-'''),
+""",
+          )
         ],
       ),
     );

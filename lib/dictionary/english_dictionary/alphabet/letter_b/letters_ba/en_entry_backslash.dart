@@ -206,13 +206,9 @@ class EnglishEntrybackslash extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ناو) نیشانەی ( \ ) کە لە کۆمپیوتەردا بەکاردێت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                              // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                              """
+١. (ناو) نیشانەی ( \ ) کە لە کۆمپیوتەردا بەکاردێت"""),
                           // Row(
                           //   children: [
                           //     const Expanded(
@@ -304,12 +300,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: backslash (derived forms: backslashes)
 1. The backward slash character "\"
 "often quotation marks are escaped by prefixing with a backslash"
-"""),
+""",
+          )
         ],
       ),
     );

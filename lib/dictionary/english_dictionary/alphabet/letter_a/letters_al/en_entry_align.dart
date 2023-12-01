@@ -157,50 +157,22 @@ class EnglishEntryalign extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ھاوڕێکی، ھاوھێڵی، ھاوتەختی، لاڕێککردن، لاگرتن (ڕێکخستنی دەق، وێنە، ھتد، بۆ لای ڕاست، ناوەڕاست یان چەپ.)
 
-١. (کردار) ھاوتەریب یان ھاوئاراستەکردن''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (کردار) ھاوتەریب یان ھاوئاراستەکردن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The top and bottom line of each column on the page should align.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The top and bottom line of each column on the page should align."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھێڵی سەرەوە و خوارەوەی ستوونی سەر پەڕەکە دەبێت لەسەر یەک ھێڵ بن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھێڵی سەرەوە و خوارەوەی ستوونی سەر پەڕەکە دەبێت لەسەر یەک ھێڵ بن."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAlign43659("en-GB"),
                               ),
                               IconButton(
@@ -218,38 +190,16 @@ class EnglishEntryalign extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "This pillar is roughly aligned with the others.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "This pillar is roughly aligned with the others."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پایەکە تاڕادەیەک تەریبە لەگەڵ ئەوانی تر",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پایەکە تاڕادەیەک تەریبە لەگەڵ ئەوانی تر"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAlign35255("en-GB"),
                               ),
                               IconButton(
@@ -306,8 +256,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Verb: align (derived forms: aligned, aligning, aligns)
 1. Place in a line or arrange so as to be parallel or straight (= aline [non-standard], line up, adjust)
 "align the car with the curb";
@@ -318,7 +268,8 @@ class EnglishMeaning extends StatelessWidget {
  
 4. Bring (components or parts) into proper or desirable coordination (= ordinate, coordinate)
 "align the wheels of my car"; 
-'''),
+""",
+          )
         ],
       ),
     );

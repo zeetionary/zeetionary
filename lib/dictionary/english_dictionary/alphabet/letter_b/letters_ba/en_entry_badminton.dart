@@ -204,49 +204,20 @@ class EnglishEntrybadminton extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ناو) یارییەکە کە وەک تێنسە و لەلایەن دوو یان چوار کەسەوە دەکرێت. یاریزانان لە تۆپێک دەدەن کە پەڕدارە بە دەسکێک بەسەر تۆڕێکی بەرزدا""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) یارییەکە کە وەک تێنسە و لەلایەن دوو یان چوار کەسەوە دەکرێت. یاریزانان لە تۆپێک دەدەن کە پەڕدارە بە دەسکێک بەسەر تۆڕێکی بەرزدا"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "I enjoyed watching the badminton tournament, even though I didn't understand all the rules.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I enjoyed watching the badminton tournament, even though I didn't understand all the rules."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "چێژم بینی لە سەیرکردنی یاری بادمینتۆنەکە، ئەگەرچی لە ھەموو یاساکان تێنەدەگەشتم.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "چێژم بینی لە سەیرکردنی یاری بادمینتۆنەکە، ئەگەرچی لە ھەموو یاساکان تێنەدەگەشتم."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBadmintons1("en-GB"),
                               ),
                               IconButton(
@@ -305,11 +276,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: badminton (derived forms: badmintons)
 1. A game played on a court with light long-handled rackets used to volley a shuttlecock over a net
-"""),
+""",
+          )
         ],
       ),
     );

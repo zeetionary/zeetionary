@@ -204,59 +204,25 @@ class EnglishEntrybaddy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: مرۆی خراپ، کەسێتی یان کەسایەتی خراپ (لە فیلم، شانۆ و کتێب و...)
 
-١. (ناو) کارەکتەرێکی خراپ لە فیلمێک، کتێبێک، شانۆیەک، ھتد""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کارەکتەرێکی خراپ لە فیلمێک، کتێبێک، شانۆیەک، ھتد"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "As usual, the cops get the baddies in the end.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "As usual, the cops get the baddies in the end."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "وەک ھەمیشە، پۆلیس لەکۆتاییدا کەسە خراپەکان دەگرن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وەک ھەمیشە، پۆلیس لەکۆتاییدا کەسە خراپەکان دەگرن."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBaddys1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakBaddys1(// REPLACE: baddy
                                     "en-US"),
                               ),
@@ -306,12 +272,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: baddy
 Usage: informal
 1. The principal bad character in a film or work of fiction (= villain, baddie)
-"""),
+""",
+          )
         ],
       ),
     );

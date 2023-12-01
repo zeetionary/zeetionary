@@ -156,58 +156,25 @@ class EnglishEntryaltruism extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: لەخۆبردوویی، گیان‌بازی، ئەویدی‌خوازی، فەداکاری، مرۆڤ‌دۆستی، (گیانەوەرناسی) ئەویدی‌خوازی: ھەڵس‌وکەوتی گیانەوەرێ بە سوودی یەکێکی تر تا خۆی
 
-١. (ناو) یارمەتیدانی خۆنەویستانەی کەسانی تر''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) یارمەتیدانی خۆنەویستانەی کەسانی تر"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Politicians are not necessarily motivated by altruism.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Politicians are not necessarily motivated by altruism."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "سیاسەتمەداران کارناکەن بە گیانی لەخۆبردووی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "سیاسەتمەداران کارناکەن بە گیانی لەخۆبردووی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAltruism4693("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAltruism4693(
                                     // REPLACE: altruism /ˈæltruɪzəm/
                                     "en-US"),
@@ -256,12 +223,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: altruism (derived forms: altruisms)
 1. The quality of unselfish concern for the welfare of others (= selflessness)
 "among his gifts is his capacity for true altruism";
-'''),
+""",
+          )
         ],
       ),
     );

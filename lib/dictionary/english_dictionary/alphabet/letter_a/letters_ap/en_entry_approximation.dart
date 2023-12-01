@@ -212,44 +212,21 @@ class EnglishEntryapproximation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: نزیکاندن، نزیک‌کردنەوە، نزیکی، لە ڕاستی‌یەوە نزیک، لێکچوویی، ھاوشێوەیی (زۆر)، مەزندە، نرخاندن، ھەڵسەنگاندن، قرساندن
 
-١. (ناو) ژمارەیەک کە خەمڵاندنە و تەواو نییە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ژمارەیەک کە خەمڵاندنە و تەواو نییە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "An approximation of the numbers expected to attend would be 350.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "An approximation of the numbers expected to attend would be 350."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ڕێژەی خەمڵێندراوی بەژداربووان پێشبینی‌دەکرێت بگاتە ٣٥٠ کەس.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕێژەی خەمڵێندراوی بەژداربووان پێشبینی‌دەکرێت بگاتە ٣٥٠ کەس."),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
@@ -259,12 +236,7 @@ class EnglishEntryapproximation extends StatelessWidget {
                                 onPressed: () =>
                                     speakApproximation1020("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakApproximation1020(
                                     // REPLACE: approximation /əˌprɑːksɪˈmeɪʃn/
                                     "en-US"),
@@ -275,32 +247,15 @@ class EnglishEntryapproximation extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "We do not have the true figures so we will have to make some approximations.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We do not have the true figures so we will have to make some approximations."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ژمارەی تەواومان لەبەردەست نییە، بۆیە دەبێت خەمڵاندن بکەین.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ژمارەی تەواومان لەبەردەست نییە، بۆیە دەبێت خەمڵاندن بکەین."),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
@@ -310,12 +265,7 @@ class EnglishEntryapproximation extends StatelessWidget {
                                 onPressed: () =>
                                     speakApproximation1021("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakApproximation1021(
                                     // REPLACE: approximation /əˌprɑːksɪˈmeɪʃn/
                                     "en-US"),
@@ -324,42 +274,19 @@ class EnglishEntryapproximation extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ناو) شتێک بەنزیکەیی وەک شتێکی تر وایە، بەڵام بەتەواوی لێکچووی نییە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) شتێک بەنزیکەیی وەک شتێکی تر وایە، بەڵام بەتەواوی لێکچووی نییە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Our results should be a good approximation of the true state of affairs.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Our results should be a good approximation of the true state of affairs."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەنجامەکانمان دەبێت ھاوشێوەیەکی باشی ڕاستی بارودۆخەکە بێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەنجامەکانمان دەبێت ھاوشێوەیەکی باشی ڕاستی بارودۆخەکە بێت."),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
@@ -369,12 +296,7 @@ class EnglishEntryapproximation extends StatelessWidget {
                                 onPressed: () =>
                                     speakApproximation1026("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakApproximation1026(
                                     // REPLACE: approximation /əˌprɑːksɪˈmeɪʃn/
                                     "en-US"),
@@ -425,8 +347,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: approximation (derived forms: approximations)
 1. An approximate calculation of quantity, degree or worth (= estimate, estimation, idea)
 "an approximation of what it would cost";
@@ -437,7 +359,8 @@ class EnglishMeaning extends StatelessWidget {
 "newspapers gave only an approximation of the actual events"
  
 4. The act of bringing near or bringing together especially the cut edges of tissue (= bringing close together)
-"""),
+""",
+          )
         ],
       ),
     );

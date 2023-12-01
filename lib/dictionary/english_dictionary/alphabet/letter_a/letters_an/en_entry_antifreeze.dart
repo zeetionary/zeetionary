@@ -206,58 +206,25 @@ class EnglishEntryantifreeze extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: نەبەست، نەھێڵەبەست، دژبەست، دژەبەست
 
-١. (ناو) مادەیەکی کیمیایی کە زیاد دەکرێت بۆ سیستەمی ساردکەرەوەی ئۆتۆمبێل بۆ ئەوەی ڕێگری لە بەستن بکات''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) مادەیەکی کیمیایی کە زیاد دەکرێت بۆ سیستەمی ساردکەرەوەی ئۆتۆمبێل بۆ ئەوەی ڕێگری لە بەستن بکات"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Lack of antifreeze is a major cause of highway breakdowns.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Lack of antifreeze is a major cause of highway breakdowns."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کەمی دژەبەستن ھۆکارێکی سەرەکی تێکچوونی ڕێگاکانە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کەمی دژەبەستن ھۆکارێکی سەرەکی تێکچوونی ڕێگاکانە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAntifreeze1051("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAntifreeze1051(
                                     // REPLACE: antifreeze /ˈæntifriːz/
                                     "en-US"),
@@ -308,11 +275,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: antifreeze (derived forms: antifreezes)
 1. A liquid added to the water in a cooling system to lower its freezing point
-'''),
+""",
+          )
         ],
       ),
     );

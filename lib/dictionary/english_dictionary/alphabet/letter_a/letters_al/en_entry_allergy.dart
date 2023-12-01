@@ -157,58 +157,23 @@ class EnglishEntryallergy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ئالێرژی، ھەستیاری، پێ‌نەکەوتن، پێ‌نەکەوتوویی، دڵ‌ھەڵکەوتن، پێ‌نەکەوتە، بێزاری، بێزلێ‌ھاتنەوە، قین‌لێ‌بوون
 
-١. (ناو) حاڵەتێکی تەندرووستی کە وات لێ داکات بارودۆخت تێک بچێت یان نەخۆش بکەویت ئەگەر شتێک بۆخیت یان دەست لە شتێک بدەیت''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) حاڵەتێکی تەندرووستی کە وات لێ داکات بارودۆخت تێک بچێت یان نەخۆش بکەویت ئەگەر شتێک بۆخیت یان دەست لە شتێک بدەیت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I have an allergy to animal hair.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "I have an allergy to animal hair."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەستیاریم بە مووی ئاژەڵ ھەیە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "ھەستیاریم بە مووی ئاژەڵ ھەیە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAllergy462555("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAllergy462555(
                                     // REPLACE: allergy /ˈælərdʒi/
                                     "en-US"),
@@ -218,46 +183,17 @@ class EnglishEntryallergy extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He developed an allergy to wheat.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "He developed an allergy to wheat."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەستیاری بە گەنمی بۆ درووست بوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "ھەستیاری بە گەنمی بۆ درووست بوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAllergy53699("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAllergy53699(
                                     // REPLACE: allergy /ˈælərdʒi/
                                     "en-US"),
@@ -306,11 +242,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: allergy (derived forms: allergies)
 1. Hypersensitivity reaction to a particular allergen; symptoms can vary greatly in intensity (= allergic reaction)
-'''),
+""",
+          )
         ],
       ),
     );

@@ -140,53 +140,20 @@ class EnglishEntryabseil extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (کردار و ناو) ھاتنەخوارە بە تەناف‌دا (لە ھەڵدێرەوە) بە بەکارھێنانی پێیەکانت بۆ دوورخستنەوەی جەستەت لە ھەڵدێرەکە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (کردار و ناو) ھاتنەخوارە بە تەناف‌دا (لە ھەڵدێرەوە) بە بەکارھێنانی پێیەکانت بۆ دوورخستنەوەی جەستەت لە ھەڵدێرەکە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I was a little scared when I first abseiled.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کەمێک تەساوبووم کە یەکەمجار بە ھەڵدێرێکدا ھاتمە خوارەوە بە تەناف",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I was a little scared when I first abseiled."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کەمێک تەساوبووم کە یەکەمجار بە ھەڵدێرێکدا ھاتمە خوارەوە بە تەناف"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA6271("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA6271("en-US"),
                               ),
                             ],
@@ -233,15 +200,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: abseil (N. Amer: rappel) (derived forms: abseiled, abseils, abseiling)
 1. (mountaineering) a descent of a vertical cliff or wall made by using a doubled rope that is fixed to a higher point and wrapped around the body (= rappel)
 
 - Verb: abseil
 1. (sport) descend by means of a rappel (= rappel, rope down)
 "You have to learn how to abseil when you want to do technical climbing";
-'''),
+""",
+          )
         ],
       ),
     );

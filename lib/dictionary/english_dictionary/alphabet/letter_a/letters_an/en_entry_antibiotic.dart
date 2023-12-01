@@ -206,58 +206,24 @@ class EnglishEntryantibiotic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: دژەزیندە، ئانتی‌بیوتیک، زیندەدژ، دژەبەکتریا (بەتایبەت پێنی‌سیلین)
 
-١. (ناو) مادەیەک، بۆ نموونە پێنی‌سیلین، کە دەتوانێت گەشەی بەکتریا بوەستێنێت و تووشبوون بە نەخۆشی چارەسەر بکات''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) مادەیەک، بۆ نموونە پێنی‌سیلین، کە دەتوانێت گەشەی بەکتریا بوەستێنێت و تووشبوون بە نەخۆشی چارەسەر بکات"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The doctor put her on antibiotics (= told her to take them).",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The doctor put her on antibiotics (= told her to take them)."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دکتۆرەکە پێی‌گوت دژەبەکتریا بخوات.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "دکتۆرەکە پێی‌گوت دژەبەکتریا بخوات."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAntibiotic958("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAntibiotic958(
                                     // REPLACE: antibiotic /ˌæntibaɪˈɑːtɪk/,  /ˌæntaɪbaɪˈɑːtɪk/
                                     "en-US"),
@@ -308,15 +274,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: antibiotic (derived forms: antibiotics)
 1. A chemical substance derivable from a mould or bacterium that can kill microorganisms and cure bacterial infections (= antibiotic drug)
 "when antibiotics were first discovered they were called wonder drugs";
 
 - Adjective: antibiotic 
 1. Of or relating to antibiotic drugs
-'''),
+""",
+          )
         ],
       ),
     );

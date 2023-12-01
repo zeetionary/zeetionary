@@ -131,55 +131,21 @@ class EnglishEntryaccomplished extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: شارەزا، لێھاتوو، لێزان، کارامە، پوخت، زانا، سەرەندەرکردوو، سەرلێ‌دەرھاتوو
 
-١. (ھاوەڵناو) ھەبوونی ژمارەیەکی زۆر شارەزایی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) ھەبوونی ژمارەیەکی زۆر شارەزایی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She was an elegant and accomplished woman.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ژنێکی ڕێکپۆش و کارامە بوو بوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She was an elegant and accomplished woman."),
+                              const ExampleSentenceKurdish(
+                                  text: "ژنێکی ڕێکپۆش و کارامە بوو بوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAccomplished("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAccomplished("en-US"),
                               ),
                             ],
@@ -226,8 +192,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: accomplished  u'kúm-plisht
 1. Highly skilled (= complete)
 "an accomplished pianist";
@@ -237,7 +203,8 @@ class EnglishMeaning extends StatelessWidget {
  
 3. Settled securely and unconditionally (= effected, established)
 "that smoking causes health problems is an accomplished fact";
-'''),
+""",
+          )
         ],
       ),
     );

@@ -156,56 +156,23 @@ class EnglishEntryalludeto extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (کاری لێکدراو) ئاماژەکردن بۆ شتێک؛ باسکردنی شتێک بە ناڕاستەوخۆ''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (کاری لێکدراو) ئاماژەکردن بۆ شتێک؛ باسکردنی شتێک بە ناڕاستەوخۆ"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The problem had been alluded to briefly in earlier discussions.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The problem had been alluded to briefly in earlier discussions."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە گفتوگۆکانی پێشووتر کێشەکە بە کورتی ئاماژەی پێکراوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لە گفتوگۆکانی پێشووتر کێشەکە بە کورتی ئاماژەی پێکراوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAlludeto35477("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAlludeto35477(
                                     // REPLACE: allude to /əˈluːd tə/
                                     "en-US"),
@@ -254,12 +221,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 Phrasal verb: allude to (derived forms: alluding to, alludes to, alluded to)
 1. Make a more or less disguised reference to (= touch, advert [rare])
 "He alluded to the problem but did not mention it";
-'''),
+""",
+          )
         ],
       ),
     );

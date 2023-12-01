@@ -212,44 +212,21 @@ class EnglishEntryassassination extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: تیرۆر، کوشتن، پیاوکوژی، ڕەشەکوژی 
 
-١. (ناو) کوشتنی کەسێکی بەناوبانگ یان سیاسی، بەتایبەتی بۆ پارە یان ھۆکاری سیاسی""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کوشتنی کەسێکی بەناوبانگ یان سیاسی، بەتایبەتی بۆ پارە یان ھۆکاری سیاسی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The president survived a number of assassination attempts.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The president survived a number of assassination attempts."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "سەرۆکەکە لە ژمارەیەک ھەوڵی تیرۆرکردن ڕزگاری‌بوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "سەرۆکەکە لە ژمارەیەک ھەوڵی تیرۆرکردن ڕزگاری‌بوو."),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
@@ -259,12 +236,7 @@ class EnglishEntryassassination extends StatelessWidget {
                                 onPressed: () =>
                                     speakAssassination1017("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAssassination1017(
                                     // REPLACE: assassination /əˌsæsɪˈneɪʃn/
                                     "en-US"),
@@ -315,13 +287,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: assassination (derived forms: assassinations)
 1. An attack intended to ruin someone's reputation (= character assassination, blackwash)
  
 2. Murder of a public figure by surprise attack
-"""),
+""",
+          )
         ],
       ),
     );

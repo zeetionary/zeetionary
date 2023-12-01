@@ -212,50 +212,22 @@ class EnglishEntryaskew extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: خواروخێچ، بەدگونیا، لارەولار، بەلایەکەوە، لابەلا، لار، گەڕاو، خوار، خێسەخێس، مۆنەمۆن
 
-١. (ھاوەڵناو و ھاوەڵکار) شتێک کە ڕاست نییە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو و ھاوەڵکار) شتێک کە ڕاست نییە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "His glasses had been knocked askew by the blow.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "His glasses had been knocked askew by the blow."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "چاویلکەکەی خواروخێچ بووبوو بەھۆی باکەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "چاویلکەکەی خواروخێچ بووبوو بەھۆی باکەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAskew813("en-GB"),
                               ),
                               IconButton(
@@ -314,8 +286,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: askew 
 1. Turned or twisted toward one side (= awry, cockeyed [informal], lopsided, wonky [informal], skew-whiff [Brit, informal])
 "a...youth with a gorgeous red necktie all askew";
@@ -323,7 +295,8 @@ class EnglishMeaning extends StatelessWidget {
 - Adverb: askew 
 1. Turned or twisted to one side (= awry, skew-whiff [Brit, informal])
 "rugs lying askew";
-"""),
+""",
+          )
         ],
       ),
     );

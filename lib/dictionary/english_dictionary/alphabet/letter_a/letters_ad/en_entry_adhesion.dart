@@ -155,16 +155,10 @@ class EnglishEntryadhesion extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          DefinitionKurdish(text: """
 کوردی: پیانووسان، پیالکان، پێکانووسان، پیاچەسپان، پێدانووسان، جۆش‌خواردن، چەسپان، لچکان، گرتن، پشتیوانی، لایەنگری، داژداری، وەفاداری، بەئەمەگی، دڵسۆزی
 
-١. (ناو) توانای نووساندن''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) توانای نووساندن"""),
                         ],
                       ),
                     ),
@@ -207,8 +201,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: adhesion (derived forms: adhesions)
 1. The property of sticking together (as of glue and wood) or the joining of surfaces of different composition (= adhesiveness, adherence, bond)
 "a heated hydraulic press was required for adhesion";
@@ -219,7 +213,8 @@ class EnglishMeaning extends StatelessWidget {
  
 4. Faithfully following a program, regime, party or religion (= attachment, adherence)
 "the adhesion of Seville was decisive";
-'''),
+""",
+          )
         ],
       ),
     );

@@ -155,16 +155,10 @@ class EnglishEntryadder extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          DefinitionKurdish(text: """
 کوردی: بەرگیر (مار)، مارگیسک، بۆ ناوی مارە ھاوشێوە یان پێوەندی‌دارەکان بەکاردێنرێ
 
-١. (ناو) مارێکی بچووکە کە خاڵی شێوە ئەڵماسی لەسەر پشتی ھەیە. ئەم مارە تەنھا ماری ژەھراوییە لە بەریتانیا''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) مارێکی بچووکە کە خاڵی شێوە ئەڵماسی لەسەر پشتی ھەیە. ئەم مارە تەنھا ماری ژەھراوییە لە بەریتانیا"""),
                         ],
                       ),
                     ),
@@ -207,15 +201,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: adder (derived forms: adders)
 1. A person who adds numbers
  
 2. A machine that adds numbers
  
 3. Small terrestrial viper common in northern Eurasia (= common viper, Vipera berus)
-'''),
+""",
+          )
         ],
       ),
     );

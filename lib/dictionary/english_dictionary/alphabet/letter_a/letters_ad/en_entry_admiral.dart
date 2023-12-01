@@ -156,45 +156,17 @@ class EnglishEntryadmiral extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (ناو) ئەفسەرێکی زۆر پایەبەرزی ھێزی دەریایی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) ئەفسەرێکی زۆر پایەبەرزی ھێزی دەریایی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The admiral visited the ships under his command.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەدمیراڵەکە سەردانی کەشتییەکانی ژێر دەسەڵاتی کرد.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The admiral visited the ships under his command."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەدمیراڵەکە سەردانی کەشتییەکانی ژێر دەسەڵاتی کرد."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdmi2568("en-GB"),
                               ),
                               IconButton(
@@ -251,13 +223,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: admiral (derived forms: admirals)
 1. The supreme commander of a fleet; ranks above a vice admiral and below a fleet admiral (= full admiral)
  
 2. Any of several brightly coloured butterflies
-'''),
+""",
+          )
         ],
       ),
     );

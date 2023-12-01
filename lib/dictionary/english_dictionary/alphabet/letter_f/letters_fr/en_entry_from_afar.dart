@@ -156,47 +156,19 @@ class EnglishEntryafar extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: دوور، لە دوور، دوورادوور، دووراودوور
 
-١. (ئیدیەم) لە دوورەوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ئیدیەم) لە دوورەوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Even from afar the castle was most impressive.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "تەنانەت دووراودووریش قەڵاکە ھەر سەرنجڕاکێش بوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Even from afar the castle was most impressive."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "تەنانەت دووراودووریش قەڵاکە ھەر سەرنجڕاکێش بوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAfa2569("en-GB"),
                               ),
                               IconButton(
@@ -253,12 +225,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Idiom: from afar 
 1. (old-fashioned) at, from or to a great distance; far
 "we travelled afar"; "we could see the ship afar off"; "the Magi came from afar"
-'''),
+""",
+          )
         ],
       ),
     );

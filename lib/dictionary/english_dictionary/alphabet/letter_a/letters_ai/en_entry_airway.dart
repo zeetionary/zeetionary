@@ -156,50 +156,22 @@ class EnglishEntryairway extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ڕێگای گەیشتنی ھەوا بۆ سی‌یەکان، ھەواڕێ؛ لوولەی ھەوا لە کاتی تەنگەتاوی سی‌یەکان‌دا، (کان) ھەواکێش، ئاسمانەڕێ، ڕێ یان ھێڵی ئاسمانی، ھەواڕێ
 
-١. (ناو) ڕێڕەوی ھەوا بۆ سییەکان''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ڕێڕەوی ھەوا بۆ سییەکان"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Prevent the tongue falling back and obstructing the airway.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Prevent the tongue falling back and obstructing the airway."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ڕێگە لە قوتدانی زمان بگرە لەوەی ڕێڕەوی ھەوا بگرێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕێگە لە قوتدانی زمان بگرە لەوەی ڕێڕەوی ھەوا بگرێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAirway4555("en-GB"),
                               ),
                               IconButton(
@@ -256,8 +228,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: airway (derived forms: airways)
 1. A duct that provides ventilation (as in mines) (= air passage, air duct)
  
@@ -266,7 +238,8 @@ class EnglishMeaning extends StatelessWidget {
 3. The passages through which air enters and leaves the body (= respiratory tract)
  
 4. A commercial enterprise that provides scheduled flights for passengers (= airline, airline business)
-'''),
+""",
+          )
         ],
       ),
     );

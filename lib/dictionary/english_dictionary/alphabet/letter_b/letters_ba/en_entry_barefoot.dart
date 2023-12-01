@@ -248,8 +248,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: barefoot
 1. Without shoes (= barefooted, shoeless)
 "the barefoot boy";
@@ -257,7 +257,8 @@ class EnglishMeaning extends StatelessWidget {
 - Adverb: barefoot
 1. Without shoes on (= barefooted)
 "he chased her barefoot across the meadow";
-"""),
+""",
+          )
         ],
       ),
     );

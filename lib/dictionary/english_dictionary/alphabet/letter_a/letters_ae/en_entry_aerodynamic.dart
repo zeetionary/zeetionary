@@ -155,14 +155,8 @@ class EnglishEntryaerodynamic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (ھاوەڵناو) پەیوەندیدار بە خاسیەتەکانی شتێک کە کاردەکاتە سەر جووڵەی لە ھەوادا''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          DefinitionKurdish(text: """
+١. (ھاوەڵناو) پەیوەندیدار بە خاسیەتەکانی شتێک کە کاردەکاتە سەر جووڵەی لە ھەوادا"""),
                         ],
                       ),
                     ),
@@ -205,13 +199,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: aerodynamic 
 1. Designed or arranged to offer the least resistance to fluid flow (= streamlined, flowing, sleek)
  
 2. (physics) of or relating to aerodynamics
-'''),
+""",
+          )
         ],
       ),
     );

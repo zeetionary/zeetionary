@@ -204,57 +204,23 @@ class EnglishEntrybalsa extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ناو) تەختەی داتی بالسا کە زۆر نەرمە و بە ئاسانی دەبڕدرێت، ھەندێک جار بۆ درووستکردنی نموونەی کاری ئەندازیاری""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) تەختەی داتی بالسا کە زۆر نەرمە و بە ئاسانی دەبڕدرێت، ھەندێک جار بۆ درووستکردنی نموونەی کاری ئەندازیاری"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "The balsa trees are native to South America and can grow up to 100 feet tall.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The balsa trees are native to South America and can grow up to 100 feet tall."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "داری بالسا بەسرووشتی لە ئەمریکای باشوور ھەن و تاوەکو ١٠٠ پێ گەشەدەکەن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "داری بالسا بەسرووشتی لە ئەمریکای باشوور ھەن و تاوەکو ١٠٠ پێ گەشەدەکەن."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBalsas1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakBalsas1(// REPLACE: balsa
                                     "en-US"),
                               ),
@@ -304,13 +270,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: balsa (derived forms: balsas)
 1. Strong lightweight wood of the balsa tree used especially for floats (= balsa wood)
  
 2. Forest tree of lowland Central America having a strong very light wood; used for making floats and rafts and in crafts (= Ochroma lagopus)
-"""),
+""",
+          )
         ],
       ),
     );

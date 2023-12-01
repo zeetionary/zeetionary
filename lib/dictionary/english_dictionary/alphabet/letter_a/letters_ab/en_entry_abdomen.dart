@@ -131,17 +131,11 @@ class EnglishEntryabdomen extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: سک، زگ، ورگ، سگ
 
 ١. (ناو) ئەو بەشەی لەشە کە دەکەوێتە ژێر سنگ و گەدە و ڕیخۆڵەکان و ئەندامی دیکەی تێدایە
-                            ''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                            """),
                           Row(
                             children: [
                               const Expanded(
@@ -171,20 +165,10 @@ Patients reported pain in the lower chest or upper abdomen.
                                   ),
                                 ),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAb64("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAb64("en-US"),
                               ),
                             ],
@@ -222,13 +206,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: abdomen (plural: abdomens)
 1. The region of the body of a vertebrate between the thorax and the pelvis (=venter, stomach, belly)
  
 2. The cavity containing the major viscera; in mammals it is separated from the thorax by the diaphragm (=abdominal cavity)
-'''),
+""",
+          )
         ],
       ),
     );

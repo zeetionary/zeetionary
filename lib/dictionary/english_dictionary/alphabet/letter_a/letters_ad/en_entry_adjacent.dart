@@ -156,55 +156,22 @@ class EnglishEntryadjacent extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: نزیک، دراوسێ، ھاوسێ، دیواربەدیوار، تەنیشت‌بەتەنیشت، ئاوماڵ، لێک‌نزیک، لەپاڵیەک
 
-١. (ھاوەڵناو) نزیک لە شتێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) نزیک لە شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Our farm land was adjacent to the river.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "زەوییە جوتیارییەکەمان نزیک بوو لە ڕووبارەکە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Our farm land was adjacent to the river."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "زەوییە جوتیارییەکەمان نزیک بوو لە ڕووبارەکە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdj255("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdj255(
                                     // REPLACE: adjacent /əˈdʒeɪsnt/
                                     "en-US"),
@@ -253,8 +220,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: adjacent
 1. Nearest in space or position; immediately adjoining without intervening space (= next, side by side)
 "had adjacent rooms";
@@ -264,7 +231,8 @@ class EnglishMeaning extends StatelessWidget {
 
 3. Near or close to but not necessarily touching
 "lands adjacent to the mountains"; "New York and adjacent cities"
-'''),
+""",
+          )
         ],
       ),
     );

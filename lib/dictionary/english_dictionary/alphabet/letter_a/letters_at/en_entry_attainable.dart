@@ -212,50 +212,22 @@ class EnglishEntryattainable extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: لەپێگەیشتن‌ھاتوو، گیرکەوتوو، بەدەس‌ھێنراو، بە دەس دێنرێ، بە دەس دەکەوێ، لەدەس‌خستن‌ھاتوو
 
-١. (ھاوەڵناو) شتێک کە توانای بەدەستھاتنی ھەیە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) شتێک کە توانای بەدەستھاتنی ھەیە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "This standard is easily attainable by most students.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "This standard is easily attainable by most students."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەم پێوەرە بە ئاسانی لەلایەن زۆرینەی خوێندکاران بەدەستدێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەم پێوەرە بە ئاسانی لەلایەن زۆرینەی خوێندکاران بەدەستدێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAttainable715("en-GB"),
                               ),
                               IconButton(
@@ -314,12 +286,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: attainable 
 1. Capable of being attained or accomplished (= come-at-able)
 "choose an attainable goal";
-"""),
+""",
+          )
         ],
       ),
     );

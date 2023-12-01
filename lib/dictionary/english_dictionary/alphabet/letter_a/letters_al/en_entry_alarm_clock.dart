@@ -156,58 +156,24 @@ class EnglishEntryalarmclock extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: سەعاتی زەنگی، کات‌ژمێری زەنگ‌دار
 
-١. (ناو) کاتژمێرێکی زەنگدار کە دەتوانێت لە کاتێکی دیاریکراو زەنگ لێبدات و لە خەو ھەڵت بسێنێت''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کاتژمێرێکی زەنگدار کە دەتوانێت لە کاتێکی دیاریکراو زەنگ لێبدات و لە خەو ھەڵت بسێنێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I set the alarm clock for 7 o'clock.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "I set the alarm clock for 7 o'clock."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "زەنگی کاتژمێرەکەم بۆ کاتژمێر ٧ چالاککرد.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "زەنگی کاتژمێرەکەم بۆ کاتژمێر ٧ چالاککرد."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAlarmclock349("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAlarmclock349(
                                     // REPLACE: alarm clock /əˈlɑːrm klɑːk/
                                     "en-US"),
@@ -256,11 +222,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: alarm clock (derived forms: alarm clocks)
 1. A clock that wakes a sleeper at some preset time (= alarm)
-'''),
+""",
+          )
         ],
       ),
     );

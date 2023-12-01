@@ -156,55 +156,22 @@ class EnglishEntryacre extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ئەکر، گاوەخان (= یەکەی پێوانی زەوی، بەرامبەر بە ٤.٨٤ یاردی چوارگۆشە و ٤.٠٥٠ میتری چوارگۆشە یان ٠.٤٠٥ ھێکتار
 
-١. (ناو) یەکەی پێوانی زەوی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) یەکەی پێوانی زەوی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Each house has acres of space around it (= a lot of space).",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەر ماڵێک ڕێژەیەکی زۆر بۆشی لە دەوری ھەبوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Each house has acres of space around it (= a lot of space)."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەر ماڵێک ڕێژەیەکی زۆر بۆشی لە دەوری ھەبوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAcr1527("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAcr1527(
                                     "en-US"), // REPLACE acre /ˈeɪkər/
                               ),
@@ -252,8 +219,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: acre (derived forms: Acres, acres)
 1. A unit of area (4840 square yards) used in English-speaking countries
 "clear-cut an acre of forest"
@@ -262,7 +229,8 @@ class EnglishMeaning extends StatelessWidget {
 1. A town and port in northwestern Israel (= Akko, Akka, Accho)
  
 2. A state in western Brazil bordering on Bolivia and Peru
-'''),
+""",
+          )
         ],
       ),
     );

@@ -140,55 +140,22 @@ class EnglishEntryaccidentally extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: بەڕێکەوت، بێ‌مەبەستانە
 
-١. بە ھەڵکەوت ڕوودان''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. بە ھەڵکەوت ڕوودان"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The damage couldn't have been caused accidentally.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەو زیانە ڕێی تێ ناچێ بە ڕێکەوت ڕوویدابێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The damage couldn't have been caused accidentally."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەو زیانە ڕێی تێ ناچێ بە ڕێکەوت ڕوویدابێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA21589("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA21589("en-US"),
                               ),
                             ],
@@ -235,8 +202,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adverb: accidentally 
 1. Without advance planning (= by chance, circumstantially, unexpectedly)
 "they met accidentally";
@@ -246,7 +213,8 @@ class EnglishMeaning extends StatelessWidget {
  
 3. Without intention; in an unintentional manner (= unintentionally)
 "she hit him accidentally";
-'''),
+""",
+          )
         ],
       ),
     );

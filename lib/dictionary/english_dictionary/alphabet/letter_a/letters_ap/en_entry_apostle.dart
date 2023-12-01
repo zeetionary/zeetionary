@@ -211,58 +211,25 @@ class EnglishEntryapostle extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: حەواری، پێشەوا، ڕێبەر، مامۆستا، نێردراو، نێردە، ڕاگەیێنەر
 
-١. (ناو) ھەریەک لەو دوازدە کەسەی لەلایەن پەیامبەر عیسا ھەڵبژێردران بۆ بڵاوکردنەوەی ناوی خۆی و ئامۆژگارییەکانی""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ھەریەک لەو دوازدە کەسەی لەلایەن پەیامبەر عیسا ھەڵبژێردران بۆ بڵاوکردنەوەی ناوی خۆی و ئامۆژگارییەکانی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "James was beheaded in Jerusalem, the first apostle to be martyred.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "James was beheaded in Jerusalem, the first apostle to be martyred."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "جەیمس لە قودس سەربڕدرا و بوو بە یەکەم حەواری کە بکوژرێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "جەیمس لە قودس سەربڕدرا و بوو بە یەکەم حەواری کە بکوژرێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakApostle627("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakApostle627(
                                     // REPLACE: apostle /əˈpɑːsl/
                                     "en-US"),
@@ -271,56 +238,23 @@ class EnglishEntryapostle extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ناو) کەسێک کە بە پەرۆشییەوە باوەڕی بە سیاسەتێک یان بیرۆکەیەک ھەیە و ھەوڵی بڵاوکردنەوەی دەدات""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) کەسێک کە بە پەرۆشییەوە باوەڕی بە سیاسەتێک یان بیرۆکەیەک ھەیە و ھەوڵی بڵاوکردنەوەی دەدات"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Her mother was a dedicated apostle of healthy eating.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Her mother was a dedicated apostle of healthy eating."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دایکی داکۆکی‌کارێکی سەرسەختی خواردنی تەندرووست بوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دایکی داکۆکی‌کارێکی سەرسەختی خواردنی تەندرووست بوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakApostle630("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakApostle630(
                                     // REPLACE: apostle /əˈpɑːsl/
                                     "en-US"),
@@ -371,8 +305,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: apostle (derived forms: apostles)
 1. An ardent early supporter of a cause or reform
 "an apostle of revolution"
@@ -381,7 +315,8 @@ class EnglishMeaning extends StatelessWidget {
 1. (New Testament) one of the original 12 disciples chosen by Christ to preach his gospel
  
 2. Any important early teacher of Christianity or a Christian missionary to a people (= Apostelic Father)
-"""),
+""",
+          )
         ],
       ),
     );

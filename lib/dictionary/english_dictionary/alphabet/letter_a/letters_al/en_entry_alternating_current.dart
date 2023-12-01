@@ -156,44 +156,21 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: تەزوو یا تەوژمی گۆڕاو یا دوولایەنە، تەوژمی نۆرەکی
 
-١. (ناو) جۆرە تەزوویەکی کارەبا کە ئاراستەی دەگۆڕێت بە خێرایی جێگیر لە ماوەی چەند چرکەیەکدا''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) جۆرە تەزوویەکی کارەبا کە ئاراستەی دەگۆڕێت بە خێرایی جێگیر لە ماوەی چەند چرکەیەکدا"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Unlike Edison, George Westinghouse was a proponent of alternating current.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Unlike Edison, George Westinghouse was a proponent of alternating current."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پێچەوانەی تۆماس ئەدیسۆن، جۆرج وێستینگھاوس لایەنگیری تەزووی گۆڕاو بوو ",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پێچەوانەی تۆماس ئەدیسۆن، جۆرج وێستینگھاوس لایەنگیری تەزووی گۆڕاو بوو "),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
@@ -203,12 +180,7 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
                                 onPressed: () =>
                                     speakAlternatingcurrent124("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAlternatingcurrent124(
                                     // REPLACE: alternating current /ˌɔːltərneɪtɪŋ ˈkɜːrənt/
                                     "en-US"),
@@ -257,12 +229,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: alternating current (derived forms: alternating currents)
 1. An electric current that reverses direction sinusoidally (= AC, alternating electric current)
 "In the US most household current is alternating current at 60 cycles per second"; 
-'''),
+""",
+          )
         ],
       ),
     );

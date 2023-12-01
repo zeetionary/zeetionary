@@ -140,55 +140,22 @@ class EnglishEntryabsentee extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: (کەس) نادیار، نائامادە، نەھاتە، ناپەیدا، نالێرە، نەھاتوو
 
-١. (ناو) کەسێکی نائامادە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کەسێکی نائامادە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "There are several absentees from school this week, because a lot of people have flu.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ژمارەیەک کەس نەھاتوون بۆ خوێندنگە ئەم ھەفتە بەھۆی ئەوەی ژمارەیەکی زۆر خەڵک ئەنفلۆنزایان ھەیە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "There are several absentees from school this week, because a lot of people have flu."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ژمارەیەک کەس نەھاتوون بۆ خوێندنگە ئەم ھەفتە بەھۆی ئەوەی ژمارەیەکی زۆر خەڵک ئەنفلۆنزایان ھەیە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA3546("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA3546("en-US"),
                               ),
                             ],
@@ -235,11 +202,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: absentee (derived forms: absentees)
 1. One that is absent or not in residence
-'''),
+""",
+          )
         ],
       ),
     );

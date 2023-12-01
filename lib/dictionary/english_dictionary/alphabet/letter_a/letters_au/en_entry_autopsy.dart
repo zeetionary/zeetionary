@@ -204,51 +204,21 @@ class EnglishEntryautopsy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: یەکاڵاکردنەوە، توێکاری مردوو، لەش‌دانەوە (جەستە و ھۆی زانینی مردن)
 
-١. (ناو) توێکاری لەشی مردوو""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) توێکاری لەشی مردوو"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "The autopsy revealed that he had been poisoned.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The autopsy revealed that he had been poisoned."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "توێکارییەکە دەریخست ژەھرخواردکراوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "توێکارییەکە دەریخست ژەھرخواردکراوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAutopsys1("en-GB"),
                               ),
                               IconButton(
@@ -307,14 +277,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: autopsy (derived forms: autopsies)
 1. An examination and dissection of a dead body to determine cause of death or the changes produced by disease (= necropsy, postmortem, post-mortem, PM, postmortem examination, post-mortem examination)
 
 - Verb: autopsy (derived forms: autopsies, autopsied, autopsying)
 1. (medicine) perform an autopsy on a dead body; do a post-mortem
-"""),
+""",
+          )
         ],
       ),
     );

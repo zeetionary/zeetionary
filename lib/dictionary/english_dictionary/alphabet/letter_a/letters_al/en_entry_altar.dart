@@ -156,50 +156,22 @@ class EnglishEntryaltar extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: مێحراب، مێراو، مێحراو، مێھراو، مێھراوە، پێش‌نوێژگە، کوشتنگە، قوربانیگا، جێ‌قوربانی، گۆڕیگە
 
-١. (ناو) مێزێک کە لە کڵێسا دادەنرێت لەکاتی بۆنەی ئاینی و شتە پیرۆزەکانی لەسەر دادەنرێت''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) مێزێک کە لە کڵێسا دادەنرێت لەکاتی بۆنەی ئاینی و شتە پیرۆزەکانی لەسەر دادەنرێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He built an altar to God and made a sacrifice.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He built an altar to God and made a sacrifice."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پێش‌نوێژگەیەکی بۆ خودا دانا و قوربانی ئەنجامدا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پێش‌نوێژگەیەکی بۆ خودا دانا و قوربانی ئەنجامدا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAltar45966("en-GB"),
                               ),
                               IconButton(
@@ -256,13 +228,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: altar (derived forms: altars)
 1. The table in Christian churches where communion is given (= communion table, Lord's table)
  
 2. A raised structure on which gifts or sacrifices to a god are made
-'''),
+""",
+          )
         ],
       ),
     );

@@ -212,13 +212,9 @@ class EnglishEntryassetstripping extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ناو) کڕینی کۆمپانیایەک لە کاتی قەیراناویدا بە مەبەستی دواتر فرۆشتنی و قازانج‌کردن لێی""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                              // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                              """
+١. (ناو) کڕینی کۆمپانیایەک لە کاتی قەیراناویدا بە مەبەستی دواتر فرۆشتنی و قازانج‌کردن لێی"""),
                           // Row(
                           //   children: [
                           //     const Expanded(
@@ -311,12 +307,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: asset-stripping
 Usage: Brit
 1. the practice of buying a company that is not successful at a low price and then selling its property (such as buildings or land) to make a profit
-"""),
+""",
+          )
         ],
       ),
     );

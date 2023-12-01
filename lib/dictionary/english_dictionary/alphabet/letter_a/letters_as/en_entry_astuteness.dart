@@ -212,50 +212,21 @@ class EnglishEntryastuteness extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: زرینگی، زیرەکی، مدریکی، وریایی، ڕەندی، بەرژەوەندبینی
 
-١. (ناو) زیرەک و خێرا لە تێگەشتن""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) زیرەک و خێرا لە تێگەشتن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She is admired for her political astuteness.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She is admired for her political astuteness."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ڕێزلێگیراوە بۆ بیرتیژیی لە سیاسەتدا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "ڕێزلێگیراوە بۆ بیرتیژیی لە سیاسەتدا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAstuteness606("en-GB"),
                               ),
                               IconButton(
@@ -314,14 +285,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: astuteness
 1. Intelligence manifested by being astute (as in business dealings) (= shrewdness, perspicacity, perspicaciousness)
 "a Soviet leader of proven astuteness";
  
 2. The intellectual ability to penetrate deeply into ideas (= profundity, profoundness, depth, deepness)
-"""),
+""",
+          )
         ],
       ),
     );

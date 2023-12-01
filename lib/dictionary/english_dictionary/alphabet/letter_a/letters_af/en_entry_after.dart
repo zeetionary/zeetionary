@@ -279,16 +279,10 @@ class EnglishEntryafter extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: دوای، پاش، دوای ئەوەی کە، لە پاش، پاش ئەوەی کە، سەرەڕای، لەگەڵ ئەوەش (کە)، بە شێوازی، بەشێوەی، بە شوێن، بەدوو، بە دوای، لە پەی، پشتەسەر، پاشین، پاش، دواوە، دادێ، بەپێی، بەگوێرەی
 
-١. (ئامراز) لەدوای شتێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ئامراز) لەدوای شتێک"""),
                           Row(
                             children: [
                               const Expanded(
@@ -317,12 +311,7 @@ class EnglishEntryafter extends StatelessWidget {
                                   ),
                                 ),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAfter157("en-GB"),
                               ),
                               IconButton(
@@ -366,12 +355,7 @@ class EnglishEntryafter extends StatelessWidget {
                                   ),
                                 ),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAfter2499("en-GB"),
                               ),
                               IconButton(
@@ -387,14 +371,8 @@ class EnglishEntryafter extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ئامراز) لەدوای کەسێک یان شتێکەوە لە ڕیزبەندییەکدا''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ئامراز) لەدوای کەسێک یان شتێکەوە لە ڕیزبەندییەکدا"""),
                           Row(
                             children: [
                               const Expanded(
@@ -423,12 +401,7 @@ class EnglishEntryafter extends StatelessWidget {
                                   ),
                                 ),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAfter4888("en-GB"),
                               ),
                               IconButton(
@@ -472,12 +445,7 @@ class EnglishEntryafter extends StatelessWidget {
                                   ),
                                 ),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAfter4666("en-GB"),
                               ),
                               IconButton(
@@ -493,14 +461,8 @@ class EnglishEntryafter extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٣. (ئامراز) لەدوای کەسێکی ڕۆشتوو''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٣. (ئامراز) لەدوای کەسێکی ڕۆشتوو"""),
                           Row(
                             children: [
                               const Expanded(
@@ -529,12 +491,7 @@ class EnglishEntryafter extends StatelessWidget {
                                   ),
                                 ),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAfter7928("en-GB"),
                               ),
                               IconButton(
@@ -550,14 +507,8 @@ class EnglishEntryafter extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٤. (ئامراز) بەراورد بە شتێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٤. (ئامراز) بەراورد بە شتێک"""),
                           Row(
                             children: [
                               const Expanded(
@@ -586,12 +537,7 @@ class EnglishEntryafter extends StatelessWidget {
                                   ),
                                 ),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAfter4855("en-GB"),
                               ),
                               IconButton(
@@ -607,14 +553,8 @@ class EnglishEntryafter extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٥. (ئامراز) لە ئەنجامی شتێک کە ڕوویداوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٥. (ئامراز) لە ئەنجامی شتێک کە ڕوویداوە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -643,12 +583,7 @@ class EnglishEntryafter extends StatelessWidget {
                                   ),
                                 ),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAfter5622("en-GB"),
                               ),
                               IconButton(
@@ -664,14 +599,8 @@ class EnglishEntryafter extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٦. (ئامراز) سەرەڕای شتێک کە ڕوویداوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٦. (ئامراز) سەرەڕای شتێک کە ڕوویداوە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -700,12 +629,7 @@ class EnglishEntryafter extends StatelessWidget {
                                   ),
                                 ),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAfter96771("en-GB"),
                               ),
                               IconButton(
@@ -721,14 +645,8 @@ class EnglishEntryafter extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٧. (ئامراز) بەکاردێت بۆ وتنی ئەوەی شتێک زۆر یان بەبەردەوامی ڕوویداوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٧. (ئامراز) بەکاردێت بۆ وتنی ئەوەی شتێک زۆر یان بەبەردەوامی ڕوویداوە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -757,12 +675,7 @@ class EnglishEntryafter extends StatelessWidget {
                                   ),
                                 ),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAfter152888("en-GB"),
                               ),
                               IconButton(
@@ -778,14 +691,8 @@ class EnglishEntryafter extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٨. (ئامراز) ھەوڵدان بۆ گرتنی کەسێک یان شتێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٨. (ئامراز) ھەوڵدان بۆ گرتنی کەسێک یان شتێک"""),
                           Row(
                             children: [
                               const Expanded(
@@ -814,12 +721,7 @@ class EnglishEntryafter extends StatelessWidget {
                                   ),
                                 ),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAfter1255("en-GB"),
                               ),
                               IconButton(
@@ -835,14 +737,8 @@ class EnglishEntryafter extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٩. (ئامراز) دەربارەی کەسێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٩. (ئامراز) دەربارەی کەسێک"""),
                           Row(
                             children: [
                               const Expanded(
@@ -871,12 +767,7 @@ class EnglishEntryafter extends StatelessWidget {
                                   ),
                                 ),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAfter945111("en-GB"),
                               ),
                               IconButton(
@@ -892,14 +783,8 @@ class EnglishEntryafter extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١٠. (ئامراز) ناونانی کەسێک بەناوی کەسێکی ترەوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١٠. (ئامراز) ناونانی کەسێک بەناوی کەسێکی ترەوە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -928,12 +813,7 @@ class EnglishEntryafter extends StatelessWidget {
                                   ),
                                 ),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAfter459322("en-GB"),
                               ),
                               IconButton(
@@ -949,14 +829,8 @@ class EnglishEntryafter extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١١. (لێکدەر) لەدوای ڕوودانی شتێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١١. (لێکدەر) لەدوای ڕوودانی شتێک"""),
                           Row(
                             children: [
                               const Expanded(
@@ -985,12 +859,7 @@ class EnglishEntryafter extends StatelessWidget {
                                   ),
                                 ),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAft2566("en-GB"),
                               ),
                               IconButton(
@@ -1034,12 +903,7 @@ class EnglishEntryafter extends StatelessWidget {
                                   ),
                                 ),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAfte499352("en-GB"),
                               ),
                               IconButton(
@@ -1055,14 +919,8 @@ class EnglishEntryafter extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١٢. (ھاوەڵکار) لەدوای کاتێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١٢. (ھاوەڵکار) لەدوای کاتێک"""),
                           Row(
                             children: [
                               const Expanded(
@@ -1091,12 +949,7 @@ class EnglishEntryafter extends StatelessWidget {
                                   ),
                                 ),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAfte98332("en-GB"),
                               ),
                               IconButton(
@@ -1112,14 +965,8 @@ class EnglishEntryafter extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١٣. (ھاوەڵناو) لەدوای کاتێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١٣. (ھاوەڵناو) لەدوای کاتێک"""),
                           Row(
                             children: [
                               const Expanded(
@@ -1147,12 +994,7 @@ class EnglishEntryafter extends StatelessWidget {
                                   ),
                                 ),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAfter5355("en-GB"),
                               ),
                               IconButton(
@@ -1209,8 +1051,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Preposition: after
 1. Subsequently to; at a later time than
 "I went for a walk after dinner"
@@ -1246,7 +1088,8 @@ class EnglishMeaning extends StatelessWidget {
 - Conjunction: after 
 1. In the following period of time
 "I went home after the match finished"
-'''),
+""",
+          )
         ],
       ),
     );

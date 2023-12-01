@@ -212,42 +212,19 @@ class EnglishEntryartificialintelligence extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ناو) لێکۆڵینەوە لە کۆمپیوتەر بۆ ئەوەی توانای بیرکردنەوەیان وەک مێشکی مرۆڤ ھەبێت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) لێکۆڵینەوە لە کۆمپیوتەر بۆ ئەوەی توانای بیرکردنەوەیان وەک مێشکی مرۆڤ ھەبێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Language is crucial to the development of artificial intelligence.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Language is crucial to the development of artificial intelligence."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "زمان زۆر گرنگە بۆ پەرەپێدانی ژیریی دەستکرد.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "زمان زۆر گرنگە بۆ پەرەپێدانی ژیریی دەستکرد."),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
@@ -257,12 +234,7 @@ class EnglishEntryartificialintelligence extends StatelessWidget {
                                 onPressed: () =>
                                     speakArtificialintelligence927("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakArtificialintelligence927(
                                     // REPLACE: artificial intelligence /ˌɑːrtɪfɪʃl ɪnˈtelɪdʒəns/
                                     "en-US"),
@@ -313,12 +285,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: artificial intelligence 
 1. The branch of computer science that deal with writing computer programs that can solve problems creatively (= AI)
 "workers in artificial intelligence hope to imitate or duplicate intelligence in computers and robots";
-"""),
+""",
+          )
         ],
       ),
     );

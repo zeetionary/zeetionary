@@ -140,53 +140,20 @@ class EnglishEntryaccountfor extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (کاری لێکدراو) شتێک کە ھۆکاری شتێک ڕووندەکاتەوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (کاری لێکدراو) شتێک کە ھۆکاری شتێک ڕووندەکاتەوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The poor weather may have accounted for the small crowd.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "خراپی کەشوھەوا ڕەنگە ھۆکاربووبێت بۆ بچووکی گردبوونەوەکە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The poor weather may have accounted for the small crowd."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "خراپی کەشوھەوا ڕەنگە ھۆکاربووبێت بۆ بچووکی گردبوونەوەکە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA79658("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA79658("en-US"),
                               ),
                             ],
@@ -233,15 +200,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Verb: account for (derived forms: accounted for, accounts for, accounting for)
 1. Be the reason or explanation for
 "The recession accounts for the slow retail business"
  
 2. Give reasons for
 "Can you account for all these absences?"
-'''),
+""",
+          )
         ],
       ),
     );

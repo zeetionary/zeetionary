@@ -156,53 +156,20 @@ class EnglishEntryachillesheel extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (ناو) خاڵی لاواز ''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) خاڵی لاواز """),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The enemy had an Achilles heel somewhere, if only we could find it.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دووژمن خاڵێکی لاوازی ھەبوو، تەنھا ئەگەر بمانزانیایە لە کوێ.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The enemy had an Achilles heel somewhere, if only we could find it."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دووژمن خاڵێکی لاوازی ھەبوو، تەنھا ئەگەر بمانزانیایە لە کوێ."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAc153864("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAc153864(
                                     "en-US"), // REPLACE Achilles' heel /əˌkɪliːz ˈhiːl/
                               ),
@@ -250,11 +217,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: Achilles' heel (derived forms: Achilles' heels)
 1. A seemingly small but actual mortal weakness 
-'''),
+""",
+          )
         ],
       ),
     );

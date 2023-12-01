@@ -157,47 +157,18 @@ class EnglishEntryadlib extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: خۆوێژی، سەرپێیی، بێ‌ئامادەبوون، بێ‌ئامادەیی، بێ‌بیر لێ‌کردنەوە، ئازادانە، بێ‌ھیچ بەربەستێ، ھەر ئەندازە، بێ‌بەربەستانە
 
-١. (ھاوەڵکار) پێشکەشکردنی شتێک بەبێ ئامادەکاریی پێشوەختە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵکار) پێشکەشکردنی شتێک بەبێ ئامادەکاریی پێشوەختە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She delivered her speech ad lib.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "وتارەکەی بەبێ ئامادەکاریی پێشوەختە پێشکەشکرد.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text: "She delivered her speech ad lib."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وتارەکەی بەبێ ئامادەکاریی پێشوەختە پێشکەشکرد."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdlib4587("en-GB"),
                               ),
                               IconButton(
@@ -213,53 +184,20 @@ class EnglishEntryadlib extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ھاوەڵکار) وتنی شتێک بەبێ ئامادەکاریی پێشوەختە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ھاوەڵکار) وتنی شتێک بەبێ ئامادەکاریی پێشوەختە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I lost my notes and had to ad-lib the whole speech.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "تێبینییەکانمم ونکرد و ناچاربووم تەواوی وتارەکە لەخۆوە پێشکەش بکەم ",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I lost my notes and had to ad-lib the whole speech."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "تێبینییەکانمم ونکرد و ناچاربووم تەواوی وتارەکە لەخۆوە پێشکەش بکەم "),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdlib42587("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdlib42587(
                                     // REPLACE: ad lib /ˌæd ˈlɪb/
                                     "en-US"),
@@ -308,8 +246,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: ad-lib (derived forms: ad-libbed, ad-libbing, ad-libs)
 1. With little or no preparation or forethought (extemporaneous, extemporary, extempore, impromptu, offhand, offhanded, off-the-cuff, unrehearsed)
 "his ad-lib comments showed poor judgment";
@@ -328,7 +266,8 @@ class EnglishMeaning extends StatelessWidget {
 - Adverb: ad lib  ad lib
 1. Without advance preparation (= ad libitum, spontaneously, impromptu)
 "he spoke ad lib";
-'''),
+""",
+          )
         ],
       ),
     );

@@ -156,55 +156,21 @@ class EnglishEntryadolescent extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: نیمچەجەحێڵ، مێرمناڵ، مێرمنداڵ، تازەلاو، نۆجوان، ھەرزەکار، بزەڵە
 
-١. (ھاوەڵناو) کەسێکی ھەرزەکار''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) کەسێکی ھەرزەکار"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Stop acting like an adolescent!",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "وازبێنە لە ڕەفتارکردن وەک ھەرزەکارێک!",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text: "Stop acting like an adolescent!"),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وازبێنە لە ڕەفتارکردن وەک ھەرزەکارێک!"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdol12589("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdol12589(
                                     // REPLACE: adolescent /ˌædəˈlesnt/
                                     "en-US"),
@@ -253,8 +219,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: adolescent (derived forms: adolescents)
 1. Being of the age 13 through 19 (teen, teenage, teenaged)
 "the adolescent years";
@@ -270,7 +236,8 @@ class EnglishMeaning extends StatelessWidget {
 
 - Noun: adolescent 
 1. A juvenile between the onset of puberty and maturity (= (= stripling, teenager, teen))
-'''),
+""",
+          )
         ],
       ),
     );

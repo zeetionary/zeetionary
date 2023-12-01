@@ -156,44 +156,21 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: کۆنتڕۆڵ‌وانی فڕین یان نیشتنەوە
 
-١. (ناو) کەسێک کە بە ڕادیۆ ڕێنمایی دەدات بە فڕۆکەوانان بۆ ئەوەی بزانن لە کوێ بفڕن و بنیشنەوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کەسێک کە بە ڕادیۆ ڕێنمایی دەدات بە فڕۆکەوانان بۆ ئەوەی بزانن لە کوێ بفڕن و بنیشنەوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Ron Connolly sometimes had to function on four hours of sleep or less when he worked as an air traffic controller.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Ron Connolly sometimes had to function on four hours of sleep or less when he worked as an air traffic controller."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ڕۆن کۆنۆڵی پێویست بوو چوار کاتژمێر یان کەمتر بخەوێت کاتێک وەک کۆنترۆڵوانی فڕۆکە کاری دەکرد.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕۆن کۆنۆڵی پێویست بوو چوار کاتژمێر یان کەمتر بخەوێت کاتێک وەک کۆنترۆڵوانی فڕۆکە کاری دەکرد."),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
@@ -203,12 +180,7 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
                                 onPressed: () =>
                                     speakAirtrafficcontroller4255("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAirtrafficcontroller4255(
                                     // REPLACE: air traffic controller /ˌer træfɪk kənˈtrəʊlər/
                                     "en-US"),
@@ -257,10 +229,11 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: air traffic controller
-a person who is responsible for remotely monitoring and directing the movements of aircraft as part of a system of air traffic control'''),
+a person who is responsible for remotely monitoring and directing the movements of aircraft as part of a system of air traffic control""",
+          )
         ],
       ),
     );

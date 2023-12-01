@@ -155,16 +155,10 @@ class EnglishEntryalsatian extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          DefinitionKurdish(text: """
 کوردی: سەگ‌گورگی، سەگورگی
 
-١. (ناو) سەگێکی گەورە کە بەکاردێت لە یارمەتیدانی پۆلیس، بۆ پاسەوانی، یان ڕێنوینی نابینایان''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) سەگێکی گەورە کە بەکاردێت لە یارمەتیدانی پۆلیس، بۆ پاسەوانی، یان ڕێنوینی نابینایان"""),
                         ],
                       ),
                     ),
@@ -207,8 +201,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: alsatian (derived forms: alsatians, Alsatians)
 1. Breed of large shepherd dogs used in police work and as a guide for the blind (= German shepherd, German shepherd dog, German police dog)
 
@@ -217,7 +211,8 @@ class EnglishMeaning extends StatelessWidget {
 
 - Adjective: Alsatian 
 1. Of or relating to or characteristic of Alsace or its inhabitants
-'''),
+""",
+          )
         ],
       ),
     );

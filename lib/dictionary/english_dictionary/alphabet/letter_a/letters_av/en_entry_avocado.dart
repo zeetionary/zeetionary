@@ -204,51 +204,22 @@ class EnglishEntryavocado extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: ئاڤۆکادۆ، میوەی ئاڤۆکادۆ (ھەرمێ‌ئاسا)، ڕەنگی سەوزی گەش (بە ڕەنگی توێکڵی ئەڤۆکادۆ)
 
-١. (ناو) میوەیەک کە تویکڵێکی سەختی سەوزی کاڵی ھەیە لەگەڵ ناوێکی نەرمی سەوزی ڕۆشن کە شیرین نییە و تۆوێکی گەورەی تێدایە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) میوەیەک کە تویکڵێکی سەختی سەوزی کاڵی ھەیە لەگەڵ ناوێکی نەرمی سەوزی ڕۆشن کە شیرین نییە و تۆوێکی گەورەی تێدایە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "Half an avocado contains about 160 calories.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Half an avocado contains about 160 calories."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "نیوەی ئەڤۆکادۆیەک نزیکەی ١٦٠ کالۆری تێدایە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "نیوەی ئەڤۆکادۆیەک نزیکەی ١٦٠ کالۆری تێدایە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAvocados1("en-GB"),
                               ),
                               IconButton(
@@ -307,8 +278,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: avocado (derived forms: avocados)
 1. A pear-shaped tropical fruit with green or blackish skin and rich yellowish pulp enclosing a single large seed (= alligator pear [N. Amer], avocado pear, aguacate, avo [informal])
  
@@ -318,7 +289,8 @@ class EnglishMeaning extends StatelessWidget {
 
 - Adjective: avocado
 1. Of the dull yellowish green of the meat of an avocado
-"""),
+""",
+          )
         ],
       ),
     );

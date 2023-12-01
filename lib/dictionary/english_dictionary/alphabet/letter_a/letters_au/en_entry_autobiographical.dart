@@ -212,44 +212,21 @@ class EnglishEntryautobiographical extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: خۆژین‌نامەیی، خۆژیان‌نامەیی
 
-١. (ھاوەڵناو) پەوەندیدار بە خۆژین‌نامە؛ کتێبی ژیاننامەی کەسێک کە لەلایەن خۆیەوە نووسراوە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) پەوەندیدار بە خۆژین‌نامە؛ کتێبی ژیاننامەی کەسێک کە لەلایەن خۆیەوە نووسراوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The novel is largely autobiographical.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The novel is largely autobiographical."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ڕۆمانەکە تاڕادەیەکی زۆر خۆژین‌نامەییە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕۆمانەکە تاڕادەیەکی زۆر خۆژین‌نامەییە."),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
@@ -259,12 +236,7 @@ class EnglishEntryautobiographical extends StatelessWidget {
                                 onPressed: () =>
                                     speakAutobiographical911("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAutobiographical911(
                                     // REPLACE: autobiographical
                                     "en-US"),
@@ -315,15 +287,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: autobiographical 
 1. Of or relating to or characteristic of an autobiographer (= autobiographic)
 "he seldom suppressed his autobiographical tendencies";
  
 2. Relating to or in the style of an autobiography (= autobiographic)
 "they compiled an autobiographical history of the movement";
-"""),
+""",
+          )
         ],
       ),
     );

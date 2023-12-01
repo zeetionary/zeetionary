@@ -41,7 +41,8 @@ class EnglishEntrybackhanded extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("In a backhanded compliment she said he looked very good for his age."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "In a backhanded compliment she said he looked very good for his age."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBackhandeds3(String languageCode) async {
@@ -135,9 +136,9 @@ class EnglishEntrybackhanded extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakBackhanded(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakBackhanded(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
@@ -203,51 +204,22 @@ class EnglishEntrybackhanded extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: ناڕوون، لێڵ، تەژمە، بەپێچ‌وپەنا، ناڕاستەوخۆ، تەماوی
 
-١. (ھاوەڵناو) شتێک کە دەکرێت واتایەکی شاراوەی ھەبێت کە پێچەوانەی واتا ڕوونەکەی بێت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) شتێک کە دەکرێت واتایەکی شاراوەی ھەبێت کە پێچەوانەی واتا ڕوونەکەی بێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "In a backhanded compliment she said he looked very good for his age.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "In a backhanded compliment she said he looked very good for his age."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە پەسنێکی دڵپاکانەدا وتی زۆر گەنجە بەپێی تەمەنی خۆی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لە پەسنێکی دڵپاکانەدا وتی زۆر گەنجە بەپێی تەمەنی خۆی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBackhandeds2("en-GB"),
                               ),
                               IconButton(
@@ -306,14 +278,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: backhanded
 1. (of racket strokes) made across the body with back of hand facing direction of stroke (= backhand)
  
 2. Roundabout or ambiguous
 "attacks from that source amounted to a backhanded compliment to his integrity"; "a backhanded and dishonest way of reaching his goal"
-"""),
+""",
+          )
         ],
       ),
     );

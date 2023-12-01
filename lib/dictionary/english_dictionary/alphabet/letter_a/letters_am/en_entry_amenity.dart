@@ -229,58 +229,25 @@ class EnglishEntryamenity extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: شت یان کەرەسەی ئاسوودەیی، کەل‌وپەلی خۆش‌گوزەرانی، خۆشی، تایبەتمەندی خۆشی، ئاسان‌کاری، کەل‌وپەلی ئاسوودەیی، شمەکی ئاسایش و ڕابواردن
 
-١. (ناو) خزمەتگوزاری؛ ئەو خزمەتگوزارییانەی وا دەکەن شوێنێک بە کەڵکی ژیان بێت، یان ژیانکردن تێیدا خۆش بێت ''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) خزمەتگوزاری؛ ئەو خزمەتگوزارییانەی وا دەکەن شوێنێک بە کەڵکی ژیان بێت، یان ژیانکردن تێیدا خۆش بێت """),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Many of the houses lacked even basic amenities (= baths, showers, hot water, etc.).",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Many of the houses lacked even basic amenities (= baths, showers, hot water, etc.)."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ژمارەیەکی زۆر لە خانووەکان تەنانەت خزمەتگوزارییە سەرەتاییەکانیشیان تێدا نییە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ژمارەیەکی زۆر لە خانووەکان تەنانەت خزمەتگوزارییە سەرەتاییەکانیشیان تێدا نییە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAmenity4777("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAmenity4777(
                                     // REPLACE: amenity /əˈmenəti/,  /əˈmiːnəti/
                                     "en-US"),
@@ -290,46 +257,17 @@ class EnglishEntryamenity extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The hotel has excellent amenities.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "The hotel has excellent amenities."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھوتێلەکە خزمەتگوزاریی نایابی تێدایە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "ھوتێلەکە خزمەتگوزاریی نایابی تێدایە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAmenity7622("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAmenity7622(
                                     // REPLACE: amenity /əˈmenəti/,  /əˈmiːnəti/
                                     "en-US"),
@@ -378,12 +316,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: amenity (derived forms: amenities)
 1. Pleasantness resulting from agreeable conditions (= agreeableness)
 "he discovered the amenities of reading at an early age";
-'''),
+""",
+          )
         ],
       ),
     );

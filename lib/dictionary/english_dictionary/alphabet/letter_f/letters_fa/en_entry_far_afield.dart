@@ -156,55 +156,22 @@ class EnglishEntryfarafield extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: لە دەشت، دوور، دوور لە، لە دوورەوە، لە ڕێگای دوورەوە، دوورەدەست، چەپەک، دوور لە نیشتیمان
 
-١. (ئیدیەم) لە دوورییەکی زۆرەوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ئیدیەم) لە دوورییەکی زۆرەوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "We export our products to countries as far afield as Japan and Canada.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بەرھەمەکانمان ھەناردە ئەکەین بۆ وڵاتانی دووری وەک ژاپۆن و کەنەدا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We export our products to countries as far afield as Japan and Canada."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بەرھەمەکانمان ھەناردە ئەکەین بۆ وڵاتانی دووری وەک ژاپۆن و کەنەدا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakFaraf45228("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakFaraf45228(
                                     // REPLACE: afield /fɑːr əˈfiːld/
                                     "en-US"),
@@ -253,8 +220,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adverb: afield 
 1. Faraway from home or one's usual surroundings (= abroad)
 "looking afield for new lands to conquer";
@@ -264,7 +231,8 @@ class EnglishMeaning extends StatelessWidget {
  
 3. Off the subject; beyond the point at issue
 "such digressions can lead us too far afield"
-'''),
+""",
+          )
         ],
       ),
     );

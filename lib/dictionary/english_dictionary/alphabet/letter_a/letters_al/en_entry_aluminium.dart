@@ -156,58 +156,25 @@ class EnglishEntryaluminium extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: فافۆن، ئاڵومینیۆم
 
-١. (ناو) مادەیەکی سووکی کانزاییە کە بەکاردێت بۆ درووستکردنی کەرەستەی خواردن و پیشەسازی ئۆتۆمبێل''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) مادەیەکی سووکی کانزاییە کە بەکاردێت بۆ درووستکردنی کەرەستەی خواردن و پیشەسازی ئۆتۆمبێل"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    " Aluminium is rapidly oxidized in air.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      " Aluminium is rapidly oxidized in air."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئاڵومینیۆم بەخێرایی ژەنگ دەکات لە ھەوادا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئاڵومینیۆم بەخێرایی ژەنگ دەکات لە ھەوادا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAluminium55555("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAluminium55555(
                                     // REPLACE: aluminium /ˌæljəˈmɪniəm/,  /ˌæləˈmɪniəm/
                                     "en-US"),
@@ -256,12 +223,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: aluminium (derived forms: aluminiums)
 Usage: Brit, Cdn (US: aluminum)
 1. A silvery ductile metallic element found primarily in bauxite (= aluminum [N. Amer], Al, atomic number 13)
-'''),
+""",
+          )
         ],
       ),
     );

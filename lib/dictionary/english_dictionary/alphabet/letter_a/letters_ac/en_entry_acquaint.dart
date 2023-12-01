@@ -156,55 +156,22 @@ class EnglishEntryacquaint extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ناساندن، ئاشناکردن
 
-١. (کردار) ئاشناکردنی کەسێک بە کەسێکی تر یان شتێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (کردار) ئاشناکردنی کەسێک بە کەسێکی تر یان شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Please acquaint me with the facts of the case.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "تکایە ئاشنام بکە بە ڕاستییەکانی کەیسەکە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Please acquaint me with the facts of the case."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "تکایە ئاشنام بکە بە ڕاستییەکانی کەیسەکە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAc2567("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAc2567(
                                     "en-US"), // REPLACE acquaint /əˈkweɪnt/
                               ),
@@ -252,8 +219,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Verb: acquaint (derived forms: acquainted, acquaints, acquainting)
 1. Cause to come to know personally (= introduce, present)
 "permit me to acquaint you with my son";
@@ -263,7 +230,8 @@ class EnglishMeaning extends StatelessWidget {
  
 3. Inform
 "Please acquaint your colleagues of your plans to move"
-'''),
+""",
+          )
         ],
       ),
     );

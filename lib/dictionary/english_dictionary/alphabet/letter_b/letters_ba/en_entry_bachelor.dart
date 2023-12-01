@@ -205,59 +205,24 @@ class EnglishEntrybachelor extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: پیاوی سەڵت یان بێ‌ژن، زگورد، زوگورتی، زوگورتە، لیسانس، بەکالۆریۆس، شیڤالیە یان شۆڕەسواری تازەکار adjective سەڵت‌وسەبات، ڕەبەن
 
-١. (ناو) پیاوێک کە ھیچ کات ھاوسەرگیری نەکردووە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) پیاوێک کە ھیچ کات ھاوسەرگیری نەکردووە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "He was 38, and a confirmed bachelor.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "He was 38, and a confirmed bachelor."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "تەمەنی ٣٨ ساڵ بوو ھیچ ھاوسەرگیری نەکردبوو (و ناشیەوێت).",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "تەمەنی ٣٨ ساڵ بوو ھیچ ھاوسەرگیری نەکردبوو (و ناشیەوێت)."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA3s1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA3s1(// REPLACE: bachelor
                                     "en-US"),
                               ),
@@ -265,57 +230,23 @@ class EnglishEntrybachelor extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ناو) کەسێک کە بڕوانامەی بەکالۆریۆسی ھەیە (یەکەم بڕوانامەی زانکۆ)، یان بڕوانامەکە خۆی""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) کەسێک کە بڕوانامەی بەکالۆریۆسی ھەیە (یەکەم بڕوانامەی زانکۆ)، یان بڕوانامەکە خۆی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "The bachelor of arts graduate was eager to start her career.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The bachelor of arts graduate was eager to start her career."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەوەی دەرچووی بەکالۆریۆس لە ھونەر بوو بەپەرۆش بوو کارەکەی دەستپێ‌بکات.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەوەی دەرچووی بەکالۆریۆس لە ھونەر بوو بەپەرۆش بوو کارەکەی دەستپێ‌بکات."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA3s2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA3s2(// REPLACE: bachelor
                                     "en-US"),
                               ),
@@ -365,8 +296,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: bachelor (derived forms: bachelors)
 1. A man who has never been married (= unmarried man)
  
@@ -376,7 +307,8 @@ class EnglishMeaning extends StatelessWidget {
 
 - Verb: bachelor
 1. Lead a bachelor's existence (= bach [US, Austral, NZ])
-"""),
+""",
+          )
         ],
       ),
     );

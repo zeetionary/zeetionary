@@ -205,51 +205,22 @@ class EnglishEntrybadger extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: چالەکە، چواڵوو، کوڕەبەش، تژی، کوڕبەشە، گۆڕھەڵکەنە، گۆڕھەڵتەکێنە
 
-١. (ناو) ئاژەڵێکە کە فەرووی خۆڵەمێشی ھەیە لەگەڵ ھێڵی ڕەش و سپی لەسەر سەری. ئاژەڵەکە زیاتر لە شەودا چالاکە و لە کوندا دەژین""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ئاژەڵێکە کە فەرووی خۆڵەمێشی ھەیە لەگەڵ ھێڵی ڕەش و سپی لەسەر سەری. ئاژەڵەکە زیاتر لە شەودا چالاکە و لە کوندا دەژین"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "The owl's predators include hawks, larger owls, snakes, and badgers.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The owl's predators include hawks, larger owls, snakes, and badgers."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئاژەڵە ڕاوکەرەکانی کوندەپەپوو بریتین لە ھەڵۆ، کوندەپەپووی گەورەتر، مار، و گۆڕھەڵکەنە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئاژەڵە ڕاوکەرەکانی کوندەپەپوو بریتین لە ھەڵۆ، کوندەپەپووی گەورەتر، مار، و گۆڕھەڵکەنە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBadgers1("en-GB"),
                               ),
                               IconButton(
@@ -266,49 +237,19 @@ class EnglishEntrybadger extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (کردار) پەستان خستنەسەر کەسێک بە دووبارە و دووبارە پرسیارکردن یان داواکردنی شتێک""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (کردار) پەستان خستنەسەر کەسێک بە دووبارە و دووبارە پرسیارکردن یان داواکردنی شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "I finally badgered him into coming with us.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I finally badgered him into coming with us."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لەکۆتاییدا ناچار بە ھاتنم کرد.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "لەکۆتاییدا ناچار بە ھاتنم کرد."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBadgers2("en-GB"),
                               ),
                               IconButton(
@@ -367,8 +308,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Verb: badger (derived forms: badgering, badgered, Badgers, badgers)
 1. Annoy persistently (= tease, pester, bug, beleaguer)
 "The children badgered the boy because of his stammer";
@@ -380,7 +321,8 @@ class EnglishMeaning extends StatelessWidget {
 
 - Noun: Badger (derived forms: Badgers)
 1. A native or resident of Wisconsin (= Wisconsinite)
-"""),
+""",
+          )
         ],
       ),
     );

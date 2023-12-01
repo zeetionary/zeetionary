@@ -205,59 +205,25 @@ class EnglishEntrybarb extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: دڕوو، چقڵ، تیکان، زی، لاس، چزوو، (قولاپی ڕاوەماسی) نووک، سەر، سەری تیر، توانج، قسەی تاڵ یان ڕەق، ڕیشاڵ، کوڵکە، ڕیش، سمێڵ
 
-١. (ناو) نووکی قولابی ماسی کە بەرەو ناوەوە چەماوەتەوە بۆ ئەوەی دەرنەیەت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) نووکی قولابی ماسی کە بەرەو ناوەوە چەماوەتەوە بۆ ئەوەی دەرنەیەت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "The barbed fishing hook caught the fish firmly in its mouth.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The barbed fishing hook caught the fish firmly in its mouth."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "قولابە نوکدارەکەی ماسیگرتن ئاڵا بە دەمی ماسییەکەدا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "قولابە نوکدارەکەی ماسیگرتن ئاڵا بە دەمی ماسییەکەدا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBarbs1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakBarbs1(// REPLACE: barb
                                     "en-US"),
                               ),
@@ -265,57 +231,23 @@ class EnglishEntrybarb extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ناو) لێدوانێک کە پێکەنیناوییە بەڵام توندە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) لێدوانێک کە پێکەنیناوییە بەڵام توندە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "I tried to ignore their barbs about my new jacket.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I tried to ignore their barbs about my new jacket."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەوڵمدا توانجەکانیان سەبارەت بە چاکەتە تازەکەم پشتگوێ‌ بخەم.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەوڵمدا توانجەکانیان سەبارەت بە چاکەتە تازەکەم پشتگوێ‌ بخەم."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBarbs2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakBarbs2(// REPLACE: barb
                                     "en-US"),
                               ),
@@ -365,8 +297,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: barb (derived forms: barbs, barbed, barbing)
 1. An aggressive remark directed at a person like a missile and intended to have a telling effect (= shot, shaft, slam, dig [informal], jibe, gibe)
 "his parting barb was 'drop dead'";
@@ -380,7 +312,8 @@ class EnglishMeaning extends StatelessWidget {
 - Verb: barb
 1. Provide with barbs
 "barbed wire"
-"""),
+""",
+          )
         ],
       ),
     );

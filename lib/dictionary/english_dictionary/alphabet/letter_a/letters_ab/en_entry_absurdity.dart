@@ -140,55 +140,22 @@ class EnglishEntryabsurdity extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: پڕوپووچێتی، ناژیرانەیی، نالۆژیکی، ھیچێتی، ھیچەکەیی، بێ‌واتایی، بێ‌مانایی، قسەی ھیچەکە، بێھوودەیی
 
-١. (ناو) شتێک کە تەواو گاڵتەجاڕانەیە و ھیچ لۆژیکی تێدا نییە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) شتێک کە تەواو گاڵتەجاڕانەیە و ھیچ لۆژیکی تێدا نییە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "It was only later that she could see the absurdity of the situation.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "تەنھا لە دواتردا بوو کە پڕوپووچێتی بارودۆخەکەی بۆدەرکەوت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "It was only later that she could see the absurdity of the situation."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "تەنھا لە دواتردا بوو کە پڕوپووچێتی بارودۆخەکەی بۆدەرکەوت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA27416("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA27416("en-US"),
                               ),
                             ],
@@ -235,14 +202,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: absurdity
 1. Something that is absurd or ridiculous; a logical contradiction (= absurdness, ridiculousness)
  
 2. A ludicrous folly (= fatuity, fatuousness, silliness)
 "the crowd laughed at the absurdity of the clown's behaviour";
-'''),
+""",
+          )
         ],
       ),
     );

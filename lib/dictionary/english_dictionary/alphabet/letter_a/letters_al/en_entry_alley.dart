@@ -156,50 +156,22 @@ class EnglishEntryalley extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: کۆڵان، کووچە، ڕێگا، گوزەر، جێڕەو، ڕەوگە، شەقام
 
-١. (ناو) ڕێگایەکی باریک لە نێوان خانوو و باڵەخانە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ڕێگایەکی باریک لە نێوان خانوو و باڵەخانە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The car was hidden down a narrow alley.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The car was hidden down a narrow alley."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئۆتۆمبێلەکە لە کۆڵانێکی باریک شاردرابوویەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئۆتۆمبێلەکە لە کۆڵانێکی باریک شاردرابوویەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAlley452("en-GB"),
                               ),
                               IconButton(
@@ -256,13 +228,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: alley (derived forms: alleys)
 1. A narrow street with walls on both sides (= alleyway, back street, backstreet)
  
 2. A lane down which a bowling ball is rolled toward pins (= bowling alley, skittle alley)
-'''),
+""",
+          )
         ],
       ),
     );

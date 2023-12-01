@@ -204,59 +204,25 @@ class EnglishEntrybanal extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: ئاسایی، ڕەمەکی، سەرپێیی، ناسەرنج‌ڕاکێش، ھیچەکە، ناگرنگ، ئایەخ
 
-١. (ھاوەڵناو) شتێکی ئاسایی کە ھیچی سەرنجڕاکێشی تێدا نییە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) شتێکی ئاسایی کە ھیچی سەرنجڕاکێشی تێدا نییە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "He knew how banal the question was as soon as he had asked it.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He knew how banal the question was as soon as he had asked it."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دەیزانی پرسیارەکە چەندە ھیچ بوو ھەرکە پرسی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دەیزانی پرسیارەکە چەندە ھیچ بوو ھەرکە پرسی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBanals1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakBanals1(// REPLACE: banal
                                     "en-US"),
                               ),
@@ -306,12 +272,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: banal 
 1. Repeated too often; overfamiliar through overuse (= commonplace, hackneyed, old-hat [informal], shopworn [N. Amer], stock, threadbare, timeworn, tired, trite, well-worn, shop-soiled [Brit])
 "his remarks were trite and banal";
-"""),
+""",
+          )
         ],
       ),
     );

@@ -228,58 +228,24 @@ class EnglishEntryammonia extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ئێمۆنیا، ئەمۆنیا، ئەمۆنیاو
 
-١. (ناو) گاسێک کە بۆنێکی تیژی ھەیە و لە مادەی پاککەرەوە، پەیین، و تەقەمەنی‌دا بەکاردێت''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) گاسێک کە بۆنێکی تیژی ھەیە و لە مادەی پاککەرەوە، پەیین، و تەقەمەنی‌دا بەکاردێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "It is dangerous to inhale ammonia fumes.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "It is dangerous to inhale ammonia fumes."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەڵمژینی دووکەڵی ئەمۆنیا زیانبەخشە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "ھەڵمژینی دووکەڵی ئەمۆنیا زیانبەخشە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAmmonia74555("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAmmonia74555(
                                     // REPLACE: ammonia /əˈməʊniə/
                                     "en-US"),
@@ -328,13 +294,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: ammonia (derived forms: ammonias)
 1. A pungent gas compounded of nitrogen and hydrogen (NH3)
  
 2. A water solution of ammonia (= ammonia water, ammonium hydroxide)
-'''),
+""",
+          )
         ],
       ),
     );

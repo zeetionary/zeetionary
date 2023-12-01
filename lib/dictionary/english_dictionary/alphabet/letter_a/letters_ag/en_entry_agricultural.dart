@@ -156,58 +156,23 @@ class EnglishEntryagricultural extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: کشت‌وکاڵی، جووت‌بەندەیی، وەرزێری، جووتیاری، وەرزیانە
 
-١. (ھاوەڵناو) پەیوەندیدار بە زانست و کاری کشتوکاڵی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) پەیوەندیدار بە زانست و کاری کشتوکاڵی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She's studying agricultural science.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "She's studying agricultural science."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "زانستی کشتوکاڵ دەخوێنێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "زانستی کشتوکاڵ دەخوێنێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAgricul35699("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAgricul35699(
                                     // REPLACE: agricultural /ˌæɡrɪˈkʌltʃərəl/
                                     "en-US"),
@@ -256,15 +221,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: agricultural 
 1. Relating to or used in or promoting agriculture or farming
 "agricultural engineering"; "modern agricultural (or farming) methods"; "agricultural (or farm) equipment"; "an agricultural college"
  
 2. Relating to farming or agriculture (= agrarian, farming)
 "an agricultural society";
-'''),
+""",
+          )
         ],
       ),
     );

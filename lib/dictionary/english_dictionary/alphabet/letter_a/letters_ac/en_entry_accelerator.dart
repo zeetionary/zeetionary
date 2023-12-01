@@ -140,55 +140,22 @@ class EnglishEntryaccelerator extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: (فیزیک) تاودەر (= دەزگایێ بۆ تاودانی پارچۆلکە بنەڕەتی‌یە بارگاوی‌یەکان بە خێرایی‌یێکی یەکجار زۆر)، پێداڵی گاز، گاز
 
-١. ئەو بەشەی ئۆتۆمبێل کە بەکاردێت بۆ کۆنترۆڵی خێرایی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. ئەو بەشەی ئۆتۆمبێل کە بەکاردێت بۆ کۆنترۆڵی خێرایی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She put her foot on the accelerator and we sped through the traffic lights.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پێی لەسەر بەنزین دانا و بەخێرایی بە ترافیک لایتەکە تێپەڕین.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She put her foot on the accelerator and we sped through the traffic lights."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پێی لەسەر بەنزین دانا و بەخێرایی بە ترافیک لایتەکە تێپەڕین."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAc45871("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAc45871("en-US"),
                               ),
                             ],
@@ -235,8 +202,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: accelerator (derived forms: accelerators)
 1. A pedal that controls the throttle valve (= accelerator pedal, gas pedal [N. Amer], gas [N. Amer], throttle)
 "he stepped on the accelerator";
@@ -246,7 +213,8 @@ class EnglishMeaning extends StatelessWidget {
 3. (chemistry) a substance that initiates or accelerates a chemical reaction without itself being affected (= catalyst)
  
 4. A scientific instrument that increases the kinetic energy of charged particles (= particle accelerator, atom smasher)
-'''),
+""",
+          )
         ],
       ),
     );

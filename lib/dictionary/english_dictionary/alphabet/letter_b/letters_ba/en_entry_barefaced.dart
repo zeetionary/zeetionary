@@ -249,15 +249,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: barefaced
 1. With no effort to conceal (= bald)
 "a barefaced lie";
  
 2. Unrestrained by convention or propriety (= audacious, bodacious [N. Amer, informal], bald-faced, brassy, brazen, brazen-faced, insolent)
 "a barefaced hypocrite";
-"""),
+""",
+          )
         ],
       ),
     );

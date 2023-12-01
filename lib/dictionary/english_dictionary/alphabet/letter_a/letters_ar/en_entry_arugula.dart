@@ -212,56 +212,23 @@ class EnglishEntryarugula extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ناو) سەوزەیەک کە گەڵای درێژ و بۆنی تیژی ھەیە و ھایە بە تەنھا لەناو زەڵاتەدا دەخورێت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) سەوزەیەک کە گەڵای درێژ و بۆنی تیژی ھەیە و ھایە بە تەنھا لەناو زەڵاتەدا دەخورێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I love the peppery flavor of arugula in salads.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I love the peppery flavor of arugula in salads."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "حەزم لە چێژی توونی ئوروگولایە لە زەڵاتەدا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "حەزم لە چێژی توونی ئوروگولایە لە زەڵاتەدا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArugula1018("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakArugula1018(
                                     // REPLACE: arugula /əˈruːɡələ/
                                     "en-US"),
@@ -312,12 +279,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: arugula (derived forms: arugulas)
 Usage: N. Amer (elsewhere: rocket)
 1. Erect European annual often grown as a salad crop to be harvested when young and tender (= rocket, roquette, garden rocket, rocket salad, Eruca sativa, Eruca vesicaria sativa, rucola [N. Amer], rugola [N. Amer])
-"""),
+""",
+          )
         ],
       ),
     );

@@ -204,51 +204,22 @@ class EnglishEntryautumn extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: پاییز، گەڵاڕێزان، خەزەڵوەر
 
-١. (ناو) پاییز؛ وەرزی نێوان ھاوین و زستان، کە گەڵای دار دەست بە وەری دەکات و کەشوھەوا سارد دەکات""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) پاییز؛ وەرزی نێوان ھاوین و زستان، کە گەڵای دار دەست بە وەری دەکات و کەشوھەوا سارد دەکات"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "Demand always rises during the autumn and winter months.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Demand always rises during the autumn and winter months."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "خواست ھەمیشە لە پاییز و زستاندا بەرزدەبێتەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "خواست ھەمیشە لە پاییز و زستاندا بەرزدەبێتەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAutumns1("en-GB"),
                               ),
                               IconButton(
@@ -307,12 +278,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: autumn (derived forms: autumns)
 1. The season when the leaves fall from the trees (= fall [N. Amer])
 "in the autumn of 1973";
-"""),
+""",
+          )
         ],
       ),
     );

@@ -210,58 +210,25 @@ class EnglishEntryapplause extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: چەپڵەڕێزان، چەپڵەلێدان، چەپک‌لێدان، پەسن‌دان، پیاھەڵوتن
 
-١. (ناو) چەپڵەڕێزان و ھاواری گرووپێک لە خەڵک بەھۆی بەدڵبوونی شتێک یان دەربڕینی خۆشی""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) چەپڵەڕێزان و ھاواری گرووپێک لە خەڵک بەھۆی بەدڵبوونی شتێک یان دەربڕینی خۆشی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He left the stage to thunderous applause.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He left the stage to thunderous applause."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ستەیجەکەی جێھێشت لەگەڵ چەپڵەڕێزانێکی زۆر.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ستەیجەکەی جێھێشت لەگەڵ چەپڵەڕێزانێکی زۆر."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakApplause534("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakApplause534(
                                     // REPLACE: applause /əˈplɔːz/
                                     "en-US"),
@@ -312,12 +279,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: applause (derived forms: applauses)
 1. A demonstration of approval by clapping the hands together (= hand clapping, clapping)
 "the speaker's finishing was greeted with applause";
-"""),
+""",
+          )
         ],
       ),
     );

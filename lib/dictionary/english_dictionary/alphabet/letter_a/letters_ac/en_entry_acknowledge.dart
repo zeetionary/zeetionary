@@ -191,53 +191,20 @@ class EnglishEntryacknowledge extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (کردار) داننان بە ڕاستی شتێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (کردار) داننان بە ڕاستی شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I have to acknowledge the fact that I am partly responsible.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دەبێت دان بەو ڕاستییە بنێم کە من بەرپرسیارم بۆ بەشێکی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I have to acknowledge the fact that I am partly responsible."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دەبێت دان بەو ڕاستییە بنێم کە من بەرپرسیارم بۆ بەشێکی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAckn1254("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAckn1254(
                                     "en-US"), // REPLACE acknowledge /əkˈnɒlɪdʒ/
                               ),
@@ -246,149 +213,56 @@ class EnglishEntryacknowledge extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He does not acknowledge that he has done anything wrong.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دان بەوەدا نانێت کە ھیچ شتێکی ھەڵەی کردبێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He does not acknowledge that he has done anything wrong."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دان بەوەدا نانێت کە ھیچ شتێکی ھەڵەی کردبێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAckn1427("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAckn1427(
                                     "en-US"), // REPLACE acknowledge /əkˈnɒlɪdʒ/
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (کردار) ناساندنی شتێک وەک ڕاستی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (کردار) ناساندنی شتێک وەک ڕاستی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He is widely acknowledged as the best player in the world.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بەشێوەیەکی گشتی ناسێندراوە بە باشتری یاریزانی جیھان.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He is widely acknowledged as the best player in the world."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بەشێوەیەکی گشتی ناسێندراوە بە باشتری یاریزانی جیھان."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAckn12569("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAckn12569(
                                     "en-US"), // REPLACE acknowledge /əkˈnɒlɪdʒ/
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٣. (کردار) بە کەسێک وتن کە شتێکت پێگەیشتووە کە بۆی ناردوویت''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٣. (کردار) بە کەسێک وتن کە شتێکت پێگەیشتووە کە بۆی ناردوویت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "All applications will be acknowledged.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "تەواوی داخوازینامەکان وەڵام دەدرێنەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "All applications will be acknowledged."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "تەواوی داخوازینامەکان وەڵام دەدرێنەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAckn647("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAckn647(
                                     "en-US"), // REPLACE acknowledge /əkˈnɒlɪdʒ/
                               ),
@@ -436,8 +310,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Verb: acknowledge (derived forms: acknowledged, acknowledges, acknowledging)
 1. Concede the existence, reality or truth of (= admit)
 "She acknowledged that she might have forgotten"; "she was the last to acknowledge the mistake";
@@ -456,7 +330,8 @@ class EnglishMeaning extends StatelessWidget {
  
 6. Accept (someone) to be what is claimed or accept his power and authority (= recognize, recognise [Brit], know)
 "The Crown Prince was acknowledged as the true heir to the throne";
-'''),
+""",
+          )
         ],
       ),
     );

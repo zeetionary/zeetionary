@@ -205,51 +205,22 @@ class EnglishEntrybarbarian extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: (لە سەردەمانی کۆن‌دا) بەڕبەڕ، بێگانە (بەتایبەت نایۆنانی، ناڕۆمی یان ناکریستانی)، مرۆی دڕندە یان ناشارستانی، بەڕبەڕ، ھۆڤ، ناشارستانی، بێ‌ژیار، بیانی، دەرەکی، دەشتەکی، بێگانە
 
-١. (ناو) لە سەردەمی کۆندا بە کەسێک دەگوترا کە سەر بە شارستانییەکی گەورە نەبوو، بۆ نموونە ڕۆم و یۆنان، و بە دڕندە و ناشارستانییەت دادەنران""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) لە سەردەمی کۆندا بە کەسێک دەگوترا کە سەر بە شارستانییەکی گەورە نەبوو، بۆ نموونە ڕۆم و یۆنان، و بە دڕندە و ناشارستانییەت دادەنران"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "The walled city was attacked by barbarian hordes.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The walled city was attacked by barbarian hordes."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "شارە بە شوورا دەوردراوەکە لە لایەن خێڵە دەشتەکییەکانەوە بەر ھێرش درا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "شارە بە شوورا دەوردراوەکە لە لایەن خێڵە دەشتەکییەکانەوە بەر ھێرش درا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBarbarians1("en-GB"),
                               ),
                               IconButton(
@@ -266,49 +237,20 @@ class EnglishEntrybarbarian extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ناو) کەسێک کە خوێندنی نەکردووە و حەزی لە کەلتوور و ھونەر نییە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) کەسێک کە خوێندنی نەکردووە و حەزی لە کەلتوور و ھونەر نییە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "How can you call those barbarians your friends?",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "How can you call those barbarians your friends?"),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "چۆن ئەو ناشارستانیەتییانە بە ھاوڕێت دادەنێیت؟",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "چۆن ئەو ناشارستانیەتییانە بە ھاوڕێت دادەنێیت؟"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBarbarians2("en-GB"),
                               ),
                               IconButton(
@@ -367,8 +309,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: barbarian
 1. Without civilizing influences (= barbaric, savage, uncivilized, uncivilised [Brit], wild)
 "barbarian invaders";
@@ -377,7 +319,8 @@ class EnglishMeaning extends StatelessWidget {
 1. A member of an uncivilized people (= savage)
  
 2. A crude uncouth ill-bred person lacking culture or refinement (= peasant, boor, churl, Goth, tyke [informal], tike [informal])
-"""),
+""",
+          )
         ],
       ),
     );

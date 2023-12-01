@@ -156,58 +156,25 @@ class EnglishEntryambiguous extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ئاڵۆز، تەماوی، بەتوێکڵ، دووواتان، دوومانا، بەپێچ‌وپەنا، تەژمە، تەم‌ومژاوی، لێڵ، گرکی، نەڕوون
 
-١. (ھاوەڵناو) شتێک کە دەکرێت زیاتر لە یەک لێکدانەوەی ھەبێت''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) شتێک کە دەکرێت زیاتر لە یەک لێکدانەوەی ھەبێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The paragraph is rendered ambiguous by the writer's careless use of pronouns.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The paragraph is rendered ambiguous by the writer's careless use of pronouns."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پەرەگرافەکە ناڕوون بووە بەھۆی کەمتەرخەمانە بەکارھێنانی جێناوەکان لەلایەن نووسەرەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پەرەگرافەکە ناڕوون بووە بەھۆی کەمتەرخەمانە بەکارھێنانی جێناوەکان لەلایەن نووسەرەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAmbiguous7666("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAmbiguous7666(
                                     // REPLACE: ambiguous /æmˈbɪɡjuəs/
                                     "en-US"),
@@ -256,8 +223,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: ambiguous 
 1. Open to two or more interpretations; or of uncertain nature or significance; or (often) intended to mislead (= equivocal)
 "the polling had a complex and ambiguous message for potential female candidates";
@@ -267,7 +234,8 @@ class EnglishMeaning extends StatelessWidget {
  
 3. (psychology) having no intrinsic or objective meaning; not organized in conventional patterns
 "an ambiguous situation with no frame of reference"; "ambiguous inkblots"
-'''),
+""",
+          )
         ],
       ),
     );

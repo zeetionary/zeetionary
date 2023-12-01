@@ -156,58 +156,25 @@ class EnglishEntryairterminal extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: فڕۆکەخانە، دواوێسگە یان تێرمیناڵی ئاسمانی
 
-١. (ناو) بینای فڕۆکەخانە کە تێیدا گەشتیاران کارەکانیان ئەنجام دەدەن و چاوەڕێی فڕۆکە دەکەن''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) بینای فڕۆکەخانە کە تێیدا گەشتیاران کارەکانیان ئەنجام دەدەن و چاوەڕێی فڕۆکە دەکەن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Passengers are conveyed by bus to the air terminal.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Passengers are conveyed by bus to the air terminal."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "گەشتیاران بە پاس دەگوازرێنەوە دواوێستگەی فڕۆکەخانەکە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "گەشتیاران بە پاس دەگوازرێنەوە دواوێستگەی فڕۆکەخانەکە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAirterminal3566("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAirterminal3566(
                                     // REPLACE: air terminal /ˈer tɜːrmɪnl/
                                     "en-US"),
@@ -256,11 +223,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: air terminal (derived forms: air terminals)
 1. A terminal that serves air travellers or air freight (= airport terminal)
-'''),
+""",
+          )
         ],
       ),
     );

@@ -155,55 +155,20 @@ class EnglishEntryacrylic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ئەکریلیک، سەربە یان لە ترشەڵۆکی ئەکریلیک وەرگیراوە، لە ئەکریلیک دروست کراوە یان پێکھاتووە
 
-١. (ھاوەڵناو) درووستکراو لە مادەیەک کە بە پڕۆسەی کیمیایی درووستکراوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) درووستکراو لە مادەیەک کە بە پڕۆسەی کیمیایی درووستکراوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "an acrylic sweater",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "فانیلەیەلی ئەکریلیک",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text: "an acrylic sweater"),
+                              const ExampleSentenceKurdish(
+                                  text: "فانیلەیەلی ئەکریلیک"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAcryl1256("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAcryl1256(
                                     "en-US"), // REPLACE acrylic /əˈkrɪlɪk/
                               ),
@@ -212,43 +177,14 @@ class EnglishEntryacrylic extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "acrylic paint",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بۆیەی ئەکریلیک",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text: "acrylic paint"),
+                              const ExampleSentenceKurdish(
+                                  text: "بۆیەی ئەکریلیک"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAcry4289("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAcry4289(
                                     "en-US"), // REPLACE acrylic /əˈkrɪlɪk/
                               ),
@@ -296,8 +232,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: acrylic (derived forms: acrylics)
 1. Polymerized from acrylonitrile (= acrylic fiber)
  
@@ -306,7 +242,8 @@ class EnglishMeaning extends StatelessWidget {
 3. Used especially by artists (= acrylic paint)
  
 4. A synthetic fabric made from polyacrylonitrile 
-'''),
+""",
+          )
         ],
       ),
     );

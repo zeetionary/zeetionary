@@ -207,16 +207,10 @@ class EnglishEntryanus extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          DefinitionKurdish(text: """
 کوردی: کۆم، کونی کۆم، زڕتک، پندرۆ، ڕەش، تریزە، کۆڤک
 
-١. (ھاوەڵناو) ئەندامێکی جەستەی مرۆڤ کە کونێکە لە ڕێگەیەوە خواردن دەکرێتە دەرەوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) ئەندامێکی جەستەی مرۆڤ کە کونێکە لە ڕێگەیەوە خواردن دەکرێتە دەرەوە"""),
                           // Row(
                           //   children: [
                           //     const Expanded(
@@ -307,11 +301,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: anus (derived forms: anuses)
 1. The excretory opening at the end of the alimentary canal
-'''),
+""",
+          )
         ],
       ),
     );

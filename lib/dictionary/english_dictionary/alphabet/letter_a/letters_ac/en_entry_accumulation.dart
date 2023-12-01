@@ -157,55 +157,22 @@ class EnglishEntryaccumulation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: خڕکردنەوە، کەڵەکەکردن، کۆمەڵ(کە)کردن، کۆمەڵ‌کردن، کەوتنەسەرک، سەریەکنان، کەڵەکەبوون، خڕبوونەوە، کۆبوونەوە
 
-١. پێناسە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. پێناسە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Despite this accumulation of evidence, the government persisted in doing nothing.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "سەرەڕای زیادبوونی بەڵگە، حکوومەت سووربوولەسەر ئەوەی ھیچ شتێکی ھەڵەی نەکردووە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Despite this accumulation of evidence, the government persisted in doing nothing."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "سەرەڕای زیادبوونی بەڵگە، حکوومەت سووربوولەسەر ئەوەی ھیچ شتێکی ھەڵەی نەکردووە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAc1548("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAc1548("en-US"),
                               ),
                             ],
@@ -213,43 +180,16 @@ class EnglishEntryaccumulation extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Accumulations of sand can be formed by the action of waves on coastal beaches.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کۆبوونەوەی خۆڵ ئەکرێت درووستببێت بەھۆی شەپۆل لە کەنار دەریاییەکان.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Accumulations of sand can be formed by the action of waves on coastal beaches."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کۆبوونەوەی خۆڵ ئەکرێت درووستببێت بەھۆی شەپۆل لە کەنار دەریاییەکان."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA122158("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA122158("en-US"),
                               ),
                             ],
@@ -296,8 +236,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: accumulation (derived forms: accumulations)
 1. An increase by natural growth or addition(= accretion)
  
@@ -306,7 +246,8 @@ class EnglishMeaning extends StatelessWidget {
 3. The act of accumulating (= accrual, accruement)
  
 4. (finance) profits that are not paid out as dividends but are added to the capital base of the corporation
-'''),
+""",
+          )
         ],
       ),
     );

@@ -131,16 +131,10 @@ class EnglishEntryaccordion extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          DefinitionKurdish(text: """
 کوردی: (میوزیک) ئاکۆردیەن، ئاکاردیۆن
 
-١. (ناو) ئامێرێکی میوزیکییە کە بە ھەردوو دەستت دەیگریت و بە پاڵنان و ڕاکێشانی ھەردوو بەشەکەی و پەنجەنان بە کلیلەکانی سەری دەنگ درووست دەکات''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ئامێرێکی میوزیکییە کە بە ھەردوو دەستت دەیگریت و بە پاڵنان و ڕاکێشانی ھەردوو بەشەکەی و پەنجەنان بە کلیلەکانی سەری دەنگ درووست دەکات"""),
                         ],
                       ),
                     ),
@@ -183,11 +177,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: accordion (derived forms: accordions)
 1. A portable box-shaped free-reed instrument; the reeds are made to vibrate by air from the bellows controlled by the player (= squeeze box)
-'''),
+""",
+          )
         ],
       ),
     );

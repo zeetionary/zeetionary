@@ -212,58 +212,25 @@ class EnglishEntryascendant extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: سەردەست، باڵادەست، دەسەڵات‌دار، دەسەڵات‌بەدەست، زاڵ، سوار، سەرکەوتوو، دەس‌ڕۆیشتوو، سەرتر، باڵاڕەو، پیاھەڵچوو، بەرزەڕەو، پیاسەرکەوتوو، ڕوولەپەرە، ڕوولەپێشکەوتن یا زۆربوون، ڕوولەگەشە، بەرزەوەبوو، دەس‌ڕۆیشتوو، خاوەن‌دەسەڵات، ھێزبەدەست
 
-١. (ناو) (فەلەکناسی) ئەو بەشەی ناوچەی کەلووەکان کە دەکەوێتە ئاسۆی ڕۆژھەڵات لە کات و شوێنی ڕووداوێکدا""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) (فەلەکناسی) ئەو بەشەی ناوچەی کەلووەکان کە دەکەوێتە ئاسۆی ڕۆژھەڵات لە کات و شوێنی ڕووداوێکدا"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I’m a Capricorn but my ascendant is Leo.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I’m a Capricorn but my ascendant is Leo."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە بورجی بزنم، بەڵام کەلووگەم بورجی شێرە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لە بورجی بزنم، بەڵام کەلووگەم بورجی شێرە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAscendant1217("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAscendant1217(
                                     // REPLACE: ascendant /əˈsendənt/
                                     "en-US"),
@@ -314,8 +281,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: ascendant 
 1. Tending or directed upward (= ascendent, ascensive)
 "rooted and ascendant strength like that of foliage";
@@ -328,7 +295,8 @@ class EnglishMeaning extends StatelessWidget {
 "that idea was in the ascendant";
  
 2. Someone from whom you are descended (but usually more remote than a grandparent) (= ancestor, ascendent, antecedent, root)
-"""),
+""",
+          )
         ],
       ),
     );

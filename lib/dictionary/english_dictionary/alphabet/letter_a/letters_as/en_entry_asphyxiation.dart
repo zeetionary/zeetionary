@@ -212,58 +212,23 @@ class EnglishEntryasphyxiation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: خنکان، تاسەنە، پشوولێ‌بڕان، ھەناسە‌لێ‌بڕان
 
-١. (ناو) ھەناسەلێ‌بڕان تاوەکو مردن یان بێ‌ھۆش‌کەوتن""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ھەناسەلێ‌بڕان تاوەکو مردن یان بێ‌ھۆش‌کەوتن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The cause of death was asphyxiation.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "The cause of death was asphyxiation."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھۆکاری مردنەکە خنکان بوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "ھۆکاری مردنەکە خنکان بوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAsphyxiation625("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAsphyxiation625(
                                     // REPLACE: asphyxiation /əsˌfɪksiˈeɪʃn/
                                     "en-US"),
@@ -314,15 +279,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: asphyxiation (derived forms: asphyxiations)
 1. The condition of being deprived of oxygen (as by having breathing stopped) (= suffocation)
 "asphyxiation is sometimes used as a form of torture";
  
 Killing by depriving of oxygen
 - suffocation
-"""),
+""",
+          )
         ],
       ),
     );

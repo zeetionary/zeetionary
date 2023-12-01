@@ -157,50 +157,22 @@ class EnglishEntryalibi extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: بیانوو، بەھانە، ئەلیبای، شوێنیکی تر، نەبوون لە شوێنی ڕوودانی تاوان‌دا (بەڵگە و شایەتەکان بۆ سەلماندنی نەبوونی کەسێ لە شوێنی ڕوودانی تاوانێک‌دا)، شوێنێکی تر، جێیێکی دی
 
-١. (ناو) بەڵگەی ئەوەی گومانلێکراوێک لەکاتی ئەنجامدانی تاوانێک لە شوێنێکی تر بووە بۆیە تاوانبار نییە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) بەڵگەی ئەوەی گومانلێکراوێک لەکاتی ئەنجامدانی تاوانێک لە شوێنێکی تر بووە بۆیە تاوانبار نییە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The suspects all had alibis for the day of the robbery.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The suspects all had alibis for the day of the robbery."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "گومانلێکراوان ھەموویان بەڵگەی بێتاوانی خۆیان ھەبوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "گومانلێکراوان ھەموویان بەڵگەی بێتاوانی خۆیان ھەبوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAlibi4588("en-GB"),
                               ),
                               IconButton(
@@ -216,48 +188,20 @@ class EnglishEntryalibi extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) بیانوو بۆ خۆدزینەوە لە شتێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) بیانوو بۆ خۆدزینەوە لە شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "After eight years in power, the government can no longer use the previous government's policy as an alibi for its own failure.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "After eight years in power, the government can no longer use the previous government's policy as an alibi for its own failure."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لەدوای ھەشت ساڵ بوون لە دەسەڵات، حکومەت چیتر ناتوانێت سیاسەتی حکومەتی پێشووتر وەک بیانوو بۆ شکستی خۆی بێنێتەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لەدوای ھەشت ساڵ بوون لە دەسەڵات، حکومەت چیتر ناتوانێت سیاسەتی حکومەتی پێشووتر وەک بیانوو بۆ شکستی خۆی بێنێتەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAlibi499253("en-GB"),
                               ),
                               IconButton(
@@ -314,8 +258,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: alibi (derived forms: alibis)
 1. (law) a defence by an accused person purporting to show that he or she could not have committed the crime in question
  
@@ -324,7 +268,8 @@ class EnglishMeaning extends StatelessWidget {
 
 - Verb: alibi (derived forms: alibied, alibis, alibiing)
 1. Exonerate by means of an alibi
-'''),
+""",
+          )
         ],
       ),
     );

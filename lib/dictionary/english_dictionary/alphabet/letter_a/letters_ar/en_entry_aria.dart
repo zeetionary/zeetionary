@@ -210,48 +210,20 @@ class EnglishEntryaria extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ناو) پارچە میوزیکێک کە لەلایەن یەک کەسەوە لە ئۆپێرایەک دەوترێت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) پارچە میوزیکێک کە لەلایەن یەک کەسەوە لە ئۆپێرایەک دەوترێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Such was the enthusiasm that you might have thought that the singer had just sung an aria.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Such was the enthusiasm that you might have thought that the singer had just sung an aria."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "جۆشوخرۆشییەکە ھێندە زۆربوو کە وابیرت‌دەکردەوە گۆرانیبێژەکە تازەگی ئاریایەکی وتبێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "جۆشوخرۆشییەکە ھێندە زۆربوو کە وابیرت‌دەکردەوە گۆرانیبێژەکە تازەگی ئاریایەکی وتبێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAria1117("en-GB"),
                               ),
                               IconButton(
@@ -310,12 +282,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: aria (derived forms: arias)
 1. An elaborate song for solo voice
 "This song takes off from a famous aria"
-"""),
+""",
+          )
         ],
       ),
     );

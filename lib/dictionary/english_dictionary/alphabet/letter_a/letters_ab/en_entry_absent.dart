@@ -140,55 +140,21 @@ class EnglishEntryabsent extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: نائامادە، نالێرە، ون، بزر، نادیار، دیارنەبوو، نەھاتوو، نەپەیدا، نەبوو(ن)، نییە، لەبوون‌بەدەر، وڕ، کاس، گێژ، ھۆش‌بڵاو، ھۆش‌پەرت
 
-١. (ھاوەڵناو) ئامادەنەبوو لە شوێنێک بە ھۆکارێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) ئامادەنەبوو لە شوێنێک بە ھۆکارێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He was absent from work for two weeks.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بۆ ماوەی دوو ھەفتە لە کار نەبوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He was absent from work for two weeks."),
+                              const ExampleSentenceKurdish(
+                                  text: "بۆ ماوەی دوو ھەفتە لە کار نەبوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA3691("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA3691("en-US"),
                               ),
                             ],
@@ -196,43 +162,15 @@ class EnglishEntryabsent extends StatelessWidget {
                           const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He was absent from work for two weeks.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بۆ ماوەی دوو ھەفتە لە کار نەبوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He was absent from work for two weeks."),
+                              const ExampleSentenceKurdish(
+                                  text: "بۆ ماوەی دوو ھەفتە لە کار نەبوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA3691("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA3691("en-US"),
                               ),
                             ],
@@ -279,8 +217,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: absent 
 1. Not being in a specified place
  
@@ -297,7 +235,8 @@ class EnglishMeaning extends StatelessWidget {
 - Preposition: absent
 1. In absence of (= without)
 "absent the latter assumption, we get a different result";
-'''),
+""",
+          )
         ],
       ),
     );

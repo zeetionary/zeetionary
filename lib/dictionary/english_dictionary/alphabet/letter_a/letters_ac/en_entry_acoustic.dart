@@ -156,55 +156,22 @@ class EnglishEntryacoustic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: دەنگی، دەنگ‌ناسی‌یانە، سەربە دەنگ‌ناسی، سەربە بیستن
 
-١. (ھاوەڵناو) پەیوەندیدار بە دەنگ، یان ھەستی بیستن''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) پەیوەندیدار بە دەنگ، یان ھەستی بیستن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The microphone converts acoustic waves to electrical signals for transmission.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "مایکرۆفۆنەکە شەپۆلی دەنگی دەگۆڕێت بۆ نیشانەی کارەبایی بۆ گواستنەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The microphone converts acoustic waves to electrical signals for transmission."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "مایکرۆفۆنەکە شەپۆلی دەنگی دەگۆڕێت بۆ نیشانەی کارەبایی بۆ گواستنەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAco1537("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAco1537(
                                     "en-US"), // REPLACE acoustic /əˈkuːstɪk/
                               ),
@@ -252,8 +219,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: acoustic 
 1. Of or relating to the science of acoustics (= acoustical)
 "acoustic properties of a hall";
@@ -263,7 +230,8 @@ class EnglishMeaning extends StatelessWidget {
 
 - Noun: acoustic (derived forms: acoustics)
 1. A remedy for hearing loss or deafness
-'''),
+""",
+          )
         ],
       ),
     );

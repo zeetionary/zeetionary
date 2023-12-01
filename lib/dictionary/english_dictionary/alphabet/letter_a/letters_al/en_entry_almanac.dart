@@ -156,58 +156,25 @@ class EnglishEntryalmanac extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ئۆلمەنەک، ڕۆژمێر، ساڵنامە
 
-١. (ناو) پەرتووکێک یان سەرچاوەیەکی ئەلیکترۆنی کە ھەموو ساڵێک بڵاودەکرێتەوە بۆ چالاکییەکانی ساڵە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) پەرتووکێک یان سەرچاوەیەکی ئەلیکترۆنی کە ھەموو ساڵێک بڵاودەکرێتەوە بۆ چالاکییەکانی ساڵە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The almanac says there will be above normal rainfall in the first half of the winter in California.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The almanac says there will be above normal rainfall in the first half of the winter in California."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ساڵنامەکە دەڵێت ئەمساڵ زیاتر لە کاتی ئاسایی باران دەبێت لە نیوەی یەکەمی زستان لە کالیفۆرنیا",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ساڵنامەکە دەڵێت ئەمساڵ زیاتر لە کاتی ئاسایی باران دەبێت لە نیوەی یەکەمی زستان لە کالیفۆرنیا"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAlmanac4932("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAlmanac4932(
                                     // REPLACE: almanac  /ˈɔːlmənæk/,  /ˈælmənæk/
                                     "en-US"),
@@ -256,13 +223,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: almanac (derived forms: almanacs)
 1. An annual publication including weather forecasts and other miscellaneous information arranged according to the calendar of a given year (= farmer's calendar, almanack [non-standard])
  
 2. An annual publication containing tabular information in a particular field or fields arranged according to the calendar of a given year (= almanack [non-standard])
-'''),
+""",
+          )
         ],
       ),
     );

@@ -213,50 +213,21 @@ class EnglishEntryattendance extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: ھاتن، ئامادەبوون، ھاتووان، ئامادەبووان، لێرەبووان، لێرەبوون، خزمەت کردن، چاولێ‌وەبوون، ئاگاداری، چاودێری، ئاگالێ‌بوون، بەدیارەوەبوون، پێ‌ڕاگەیشتن، بەلاوەبوون، لەگەڵ‌بوون، خزمەت، ڕاژە
 
-١. (ناو) ئامادەبوون لە شوێنێک""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ئامادەبوون لە شوێنێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Attendance at these lectures is not compulsory.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Attendance at these lectures is not compulsory."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئامادەبوون لەم وانانە ناچاری نییە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "ئامادەبوون لەم وانانە ناچاری نییە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAttendance817("en-GB"),
                               ),
                               IconButton(
@@ -273,48 +244,19 @@ class EnglishEntryattendance extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ناو) ژمارەی کەسانی ئامادەبوو لە شوێنێک""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) ژمارەی کەسانی ئامادەبوو لە شوێنێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "There was an attendance of 42 at the meeting.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "There was an attendance of 42 at the meeting."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "٤٢ کەس لە چاوپێکەوتنەکە بوون.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "٤٢ کەس لە چاوپێکەوتنەکە بوون."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAttendance819("en-GB"),
                               ),
                               IconButton(
@@ -373,8 +315,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: attendance (derived forms: attendances)
 1. The act of being present (at a meeting or event etc.) (= attending)
  
@@ -383,7 +325,8 @@ class EnglishMeaning extends StatelessWidget {
  
 3. The number of people that are present
 "attendance was up by 50 per cent"
-"""),
+""",
+          )
         ],
       ),
     );

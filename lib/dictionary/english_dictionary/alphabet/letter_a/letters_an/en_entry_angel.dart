@@ -206,50 +206,20 @@ class EnglishEntryangel extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: فریشتە، مەلایەکەت، کۆینی بەرینی ئینگلتەرە، پەیام یان سیگناڵێکی ڕوونەوەنەبووی ڕادارێ، کەسێکی یەکجار جوان یان باش، ڕووپەری، فریشتە
 
-١. (ناو) بوونێک کە باوەڕوایە خزمەتگوزاری خودان و دەنێردرێن بۆ گەیاندنی پەیامێک یان بەجێھێنانی ئەرکێک. زۆرجار فریشتە بە جلی سپی و باڵەوە پیشان‌دەدرێن''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) بوونێک کە باوەڕوایە خزمەتگوزاری خودان و دەنێردرێن بۆ گەیاندنی پەیامێک یان بەجێھێنانی ئەرکێک. زۆرجار فریشتە بە جلی سپی و باڵەوە پیشان‌دەدرێن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She looks like an angel.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "She looks like an angel."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەڵێی فریشتەیە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "ئەڵێی فریشتەیە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAngel405("en-GB"),
                               ),
                               IconButton(
@@ -268,38 +238,16 @@ class EnglishEntryangel extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She wore a white costume with big furry angel wings.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She wore a white costume with big furry angel wings."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "جلێکی سپی لەبەرکرد بە باڵی فریشتەیی پەڕدارەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "جلێکی سپی لەبەرکرد بە باڵی فریشتەیی پەڕدارەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAngel407("en-GB"),
                               ),
                               IconButton(
@@ -316,48 +264,18 @@ class EnglishEntryangel extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) کەسێکی زۆرباش و میھرەبان''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) کەسێکی زۆرباش و میھرەبان"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Mary’s children are little angels.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "Mary’s children are little angels."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "منداڵەکانی ماری فریشتەی وردیلەن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "منداڵەکانی ماری فریشتەی وردیلەن."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAngel9963("en-GB"),
                               ),
                               IconButton(
@@ -374,48 +292,18 @@ class EnglishEntryangel extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٣. (ناو) بۆ ناوھێنانی کەسێک کە سوپاسگوزاری بۆی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٣. (ناو) بۆ ناوھێنانی کەسێک کە سوپاسگوزاری بۆی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Thanks Dad, you're an angel.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "Thanks Dad, you're an angel."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "سوپاس باوکە، تۆ فریشتەیت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "سوپاس باوکە، تۆ فریشتەیت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAngel4850("en-GB"),
                               ),
                               IconButton(
@@ -474,8 +362,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: angel (derived forms: angels)
 1. A supernatural messenger from a deity, or a divine attendant; often represented as a human with wings
  
@@ -487,7 +375,8 @@ class EnglishMeaning extends StatelessWidget {
 
 - Noun: Angel  
 1. The highest waterfall; has more than one leap; flow varies seasonally (= Angel Falls)
-'''),
+""",
+          )
         ],
       ),
     );

@@ -157,47 +157,17 @@ class EnglishEntrytheaccused extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISHH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: گومان‌لێ‌کراو، تاوانبار، گوناھباران
 
-١. (ناو) کەسێک کە لە دادگا گومانلێکراوە بە تاوانێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کەسێک کە لە دادگا گومانلێکراوە بە تاوانێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The accused was found innocent.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "گومانلێکراو بە بێتاوان ناسێندرا",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text: "The accused was found innocent."),
+                              const ExampleSentenceKurdish(
+                                  text: "گومانلێکراو بە بێتاوان ناسێندرا"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakTh1547("en-GB"),
                               ),
                               IconButton(
@@ -214,35 +184,12 @@ class EnglishEntrytheaccused extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "All the accused have pleaded guilty.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەموو گومانلێکراوان دانیان بە تاوانەکەدا نا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text: "All the accused have pleaded guilty."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەموو گومانلێکراوان دانیان بە تاوانەکەدا نا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakT21536("en-GB"),
                               ),
                               IconButton(
@@ -298,12 +245,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: the accused 
 1. A defendant in a criminal proceeding
 "no evidence that the choking was done by the accused"
-'''),
+""",
+          )
         ],
       ),
     );

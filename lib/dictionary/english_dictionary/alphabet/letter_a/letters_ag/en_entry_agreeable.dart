@@ -156,58 +156,24 @@ class EnglishEntryagreeable extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: خۆش، وەش، باش، بەردڵ، چاک، ڕێک‌کەوتوو، دڵ‌ساز، سازاو، کۆک، ساز
 
-١. (ھاوەڵناو) شتێکی خۆش و دڵگیر''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) شتێکی خۆش و دڵگیر"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She did her best to make herself agreeable.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She did her best to make herself agreeable."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەموو شتێکی کرد بۆ ئەوەی دڵگیر بێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "ھەموو شتێکی کرد بۆ ئەوەی دڵگیر بێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAgree75888("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAgree75888(
                                     // REPLACE: agreeable /əˈɡriːəbl/
                                     "en-US"),
@@ -256,8 +222,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: agreeable 
 1. Conforming to your own liking, feelings or nature
 "Is the plan agreeable to you?"; "he's an agreeable fellow"; "My idea of an agreeable person...is a person who agrees with me"; "an agreeable manner"
@@ -267,7 +233,8 @@ class EnglishMeaning extends StatelessWidget {
  
 3. Prepared to agree or consent
 "agreeable to the plan"
-'''),
+""",
+          )
         ],
       ),
     );

@@ -212,58 +212,25 @@ class EnglishEntryasbestos extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: ئاورێشمی بەردین، پەموو یا لۆکەی نەسووت، لۆکەکێوی، ئازبێست
 
-١. (ھاوەڵناو) کەرەستەیەکی نائەندانی کە ناسوتێت و دەکرێت بکرێت بە پارچە و جاران بەکاردەھات بۆ پاراستنی بینا لە سووتان. ئازبێستۆس دەکرێ مەترسیدار بێت ئەگەر ھەڵیبمژی""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) کەرەستەیەکی نائەندانی کە ناسوتێت و دەکرێت بکرێت بە پارچە و جاران بەکاردەھات بۆ پاراستنی بینا لە سووتان. ئازبێستۆس دەکرێ مەترسیدار بێت ئەگەر ھەڵیبمژی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The asbestos-laden ceiling tiles were falling apart, so they had to be replaced.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The asbestos-laden ceiling tiles were falling apart, so they had to be replaced."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کاشییەکانی دەقفەکە کە ئەزبێستۆسیان لێدرابوو دەکەوتنەخوارەوە، بۆیە دەبوو بگۆڕدرێن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کاشییەکانی دەقفەکە کە ئەزبێستۆسیان لێدرابوو دەکەوتنەخوارەوە، بۆیە دەبوو بگۆڕدرێن."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAsbestos1111("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAsbestos1111(
                                     // REPLACE: asbestos /æzˈbestəs/
                                     "en-US"),
@@ -314,11 +281,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: asbestos (derived forms: asbestoses)
 1. A fibrous amphibole; used for making fireproof articles; inhaling fibers can cause asbestosis or lung cancer
-"""),
+""",
+          )
         ],
       ),
     );

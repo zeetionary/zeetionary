@@ -203,16 +203,10 @@ class EnglishEntryanagram extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          DefinitionKurdish(text: """
 کوردی: (زمانەوانی) وشاوەژوو، پاش‌وپێش‌خستە
 
-١. (ناو) وشەیەک کە لە دووبارە ڕێکخستنەوەی پیتەکانی وشەیەکی تر درووست‌بووە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) وشەیەک کە لە دووبارە ڕێکخستنەوەی پیتەکانی وشەیەکی تر درووست‌بووە"""),
                           // Row(
                           //   children: [
                           //     const Expanded(
@@ -303,15 +297,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: anagram (derived forms: anagrammed, anagramming, anagrams)
 1. A word or phrase spelled by rearranging the letters of another word or phrase
 "An anagram of ‘Elvis’ is ‘lives’."; ""Neat" is an anagram of "a net".";
 
 - Verb: anagram (anagrammatize, anagrammatise [Brit])
 1. Read letters out of order to discover a hidden meaning
-'''),
+""",
+          )
         ],
       ),
     );

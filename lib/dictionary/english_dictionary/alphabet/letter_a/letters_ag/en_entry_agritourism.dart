@@ -155,14 +155,8 @@ class EnglishEntryagritourism extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (ناو) سێکتەرێکی بازرگانی کە تێیدا شوێنی مانەوە لەلایەن جوتیاران دەدرێت بە کەسێک کە دەچێت و لەگەڵیان دەمێنێتەوە وەک بەشێک لە پشووی کارکردنی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          DefinitionKurdish(text: """
+١. (ناو) سێکتەرێکی بازرگانی کە تێیدا شوێنی مانەوە لەلایەن جوتیاران دەدرێت بە کەسێک کە دەچێت و لەگەڵیان دەمێنێتەوە وەک بەشێک لە پشووی کارکردنی"""),
                         ],
                       ),
                     ),
@@ -205,11 +199,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: agritourism 
 1. Tourism where visitors visit and/or stay on farms in rural areas
-'''),
+""",
+          )
         ],
       ),
     );

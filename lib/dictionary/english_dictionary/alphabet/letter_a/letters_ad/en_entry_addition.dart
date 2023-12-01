@@ -158,47 +158,19 @@ class EnglishEntryaddition extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: خستنەسەر، سەرخستن، پێ‌زیادکردن، کۆ، کۆکردنەوە، پێوەنان، خستنەپاڵ، دانەدەم، زیادی، پترلەپێویست، زیادە، سەربار، خراوەسەر، سەرخستە، سەرخراو، پاشکۆ
 
-١. (ناو) شتێک کە زیاد دەکرێت بۆ شتێکی تر''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) شتێک کە زیاد دەکرێت بۆ شتێکی تر"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "All of these technologies are fairly recent additions.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەموو ئەم تەکنۆلۆژییانە تازە زیادکراون.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "All of these technologies are fairly recent additions."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەموو ئەم تەکنۆلۆژییانە تازە زیادکراون."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAddi14("en-GB"),
                               ),
                               IconButton(
@@ -214,45 +186,17 @@ class EnglishEntryaddition extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) کردەی زیادکردنی شتێک بۆ شتێکی تر''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) کردەی زیادکردنی شتێک بۆ شتێکی تر"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Add salt, tasting with every addition.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "خوێی تێبکە و لەگەڵ ھەر تێکردنێک تامی بکە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Add salt, tasting with every addition."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "خوێی تێبکە و لەگەڵ ھەر تێکردنێک تامی بکە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdditi769("en-GB"),
                               ),
                               IconButton(
@@ -268,45 +212,17 @@ class EnglishEntryaddition extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٣. (ناو) بەشیکی تازە کە زیاددەکرێت بۆ بینایەک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٣. (ناو) بەشیکی تازە کە زیاددەکرێت بۆ بینایەک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The addition should match the architecture of the house.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بەشە زیادکراوەکە دەبێت بگونجێت لەگەڵ نەخشەی خانووەکە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The addition should match the architecture of the house."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بەشە زیادکراوەکە دەبێت بگونجێت لەگەڵ نەخشەی خانووەکە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAddit445("en-GB"),
                               ),
                               IconButton(
@@ -363,8 +279,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: addition (derived forms: additions)
 1. A component that is added to something to improve it (add-on, improver)
 "the addition of a bathroom was a major improvement";
@@ -382,7 +298,8 @@ class EnglishMeaning extends StatelessWidget {
  
 6. The arithmetic operation of summing; calculating the sum of two or more numbers (= summation, plus)
 "the addition of four and three gives seven";
-'''),
+""",
+          )
         ],
       ),
     );

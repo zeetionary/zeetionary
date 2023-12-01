@@ -210,50 +210,20 @@ class EnglishEntryapron extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: بەڕەڵبێنە، بەرسینگە، بەران‌پێچ، بەرکۆشە، بەروانکە، پێشەوەی شانۆ یان پەردە، گۆڕەپانی فڕۆکە، ڕاگیرگەی فڕۆکە
 
-١. (ناو) بەروانکە؛ پارچە کراسێک کە لەبەر دەکرێت بۆ داپۆشینی سنگ بەرەو خوارەوە، و لەنزیکی کەمەردا دەبسترێت. بەروانکە بەسەر جلی تر دەبەسترێت بۆ پاکڕاگرتنیاین، بۆ نموونە لەکاتی خواردن ئامادەکردن، یان کە منداڵ خواردن دەخوات""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) بەروانکە؛ پارچە کراسێک کە لەبەر دەکرێت بۆ داپۆشینی سنگ بەرەو خوارەوە، و لەنزیکی کەمەردا دەبسترێت. بەروانکە بەسەر جلی تر دەبەسترێت بۆ پاکڕاگرتنیاین، بۆ نموونە لەکاتی خواردن ئامادەکردن، یان کە منداڵ خواردن دەخوات"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Her apron was speckled with oil.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "Her apron was speckled with oil."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بەروانکەکەی خاڵ خاڵ ڕۆنی پێوەبوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "بەروانکەکەی خاڵ خاڵ ڕۆنی پێوەبوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakApron728("en-GB"),
                               ),
                               IconButton(
@@ -312,8 +282,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: apron (derived forms: aprons)
 1. A garment of cloth, leather or plastic that is tied about the waist and worn to protect your clothing
  
@@ -322,7 +292,8 @@ class EnglishMeaning extends StatelessWidget {
 3. The part of a modern theatre stage between the curtain and the orchestra (i.e., in front of the curtain) (= proscenium, forestage)
  
 4. A paved surface where aircraft stand while not being used
-"""),
+""",
+          )
         ],
       ),
     );

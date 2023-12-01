@@ -157,58 +157,25 @@ class EnglishEntryagenda extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: کارنامە، بەرنامەی کار، بابەت‌نامەی کۆبوونەوە
 
-١. (ناو) کۆمەڵە بابەتێک کە لە کۆبوونەوەیەک باسدەکرێن''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کۆمەڵە بابەتێک کە لە کۆبوونەوەیەک باسدەکرێن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "We have a very full agenda of issues to discuss.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We have a very full agenda of issues to discuss."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کارنامەمان بابەتێکی زۆر لەخۆدەگرێت بۆ باسکردن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کارنامەمان بابەتێکی زۆر لەخۆدەگرێت بۆ باسکردن."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAgend562221("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAgend562221(
                                     // REPLACE: agenda /əˈdʒendə/
                                     "en-US"),
@@ -216,56 +183,23 @@ class EnglishEntryagenda extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) کۆمەڵە شتێک کە دەبێت بکرێن، یان کۆمەڵە کێشەیەک کە دەبێت چارەسەر بکرێن''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) کۆمەڵە شتێک کە دەبێت بکرێن، یان کۆمەڵە کێشەیەک کە دەبێت چارەسەر بکرێن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Education is now at the top of the government's agenda (= most important).",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Education is now at the top of the government's agenda (= most important)."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پەروەردە و فێرکردن لە گرنگترین خاڵەکانی کارنامەی حکومەتە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پەروەردە و فێرکردن لە گرنگترین خاڵەکانی کارنامەی حکومەتە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAgenda15622("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAgenda15622(
                                     // REPLACE: agenda /əˈdʒendə/
                                     "en-US"),
@@ -314,8 +248,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 -Noun: agenda (derived forms: agendas)
 1. A temporally organized plan for matters to be attended to (= docket, schedule)
  
@@ -323,7 +257,8 @@ class EnglishMeaning extends StatelessWidget {
  
 3. Individual objectives or perspective
 "Ultimately, each individual has his own agenda, and will look for the slant that fits his own cause"; "Each member organization had its own agenda and programs"
-'''),
+""",
+          )
         ],
       ),
     );

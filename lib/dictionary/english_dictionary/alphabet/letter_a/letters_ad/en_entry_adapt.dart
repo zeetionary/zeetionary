@@ -156,47 +156,19 @@ class EnglishEntryadapt extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: سازکردن، گونجاندن
 
-١. (کردار) خۆگونجاندن لەگەڵ بارودۆخێکی جیاواز''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (کردار) خۆگونجاندن لەگەڵ بارودۆخێکی جیاواز"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "We have had to adapt quickly to the new system.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پێویستبووە زوو خۆمان بە سیستەمە نووێیەکە ڕابێنین.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We have had to adapt quickly to the new system."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پێویستبووە زوو خۆمان بە سیستەمە نووێیەکە ڕابێنین."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAda4567("en-GB"),
                               ),
                               IconButton(
@@ -253,15 +225,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Verb: adapt (derived forms: adapts, adapting, adapted)
 1. Make fit for, or change to suit a new purpose (= accommodate)
 "Adapt our native cuisine to the available food resources of the new country";
  
 2. Adapt or conform oneself to new or different conditions (= adjust, conform)
 "We must adapt to the bad economic situation";
-'''),
+""",
+          )
         ],
       ),
     );

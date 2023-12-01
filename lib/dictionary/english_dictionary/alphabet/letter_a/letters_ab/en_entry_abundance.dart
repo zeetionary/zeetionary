@@ -140,55 +140,22 @@ class EnglishEntryabundance extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: زۆری، فراوانی، فرەیی، فت‌وفراوانی، بۆشی، پیت، بەرەکەت، ھەرزانی، زۆر و زەبەنی، بەونی، فەرێحی، زیاتر لە پێویست بوون
 
-١. (ناو) کاتێک شتێک بوونی ھەیە زیاد لە پێویست''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کاتێک شتێک بوونی ھەیە زیاد لە پێویست"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The country has an abundance of natural resources.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "وڵاتەکە ڕێژەیەکی زۆر سامانی سرووشتی ھەیە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The country has an abundance of natural resources."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وڵاتەکە ڕێژەیەکی زۆر سامانی سرووشتی ھەیە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA15967("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA15967("en-US"),
                               ),
                             ],
@@ -235,8 +202,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: abundance (derived forms: abundances)
 1. The property of a more than adequate quantity or supply (= copiousness, teemingness)
 "an age of abundance";
@@ -244,7 +211,8 @@ class EnglishMeaning extends StatelessWidget {
 2. (physics) the ratio of the number of atoms of a specific isotope of an element to the total number of isotopes present
  
 3. (chemistry) the ratio of the total mass of an element in the earth's crust to the total mass of the earth's crust; expressed as a percentage or in parts per million
-'''),
+""",
+          )
         ],
       ),
     );

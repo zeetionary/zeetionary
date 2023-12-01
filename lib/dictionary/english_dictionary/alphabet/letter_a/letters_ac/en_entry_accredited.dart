@@ -149,55 +149,22 @@ class EnglishEntryaccredited extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: جێ‌باوەڕ، باوەڕپێ‌کراو، پشت‌پێ‌بەستراو، ڕێگەدراو، ڕێدراو، دەستووردراو، دەستوورلەسەر، دەسەڵات‌دار، باوەڕلەسەر، قانوونی، فەرمی
 
-١. (ھاوەڵناو) کەسێک کە بە فەرمی ناسێنراوە وەک شتێک، یان شتێک کە بە کوالێتی باش ناسراوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) کەسێک کە بە فەرمی ناسێنراوە وەک شتێک، یان شتێک کە بە کوالێتی باش ناسراوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Only accredited journalists were allowed entry.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "تەنھا ڕۆژنامەنووسانی جێباوەڕ ڕێگەیان پێدرا بچنەژوورەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Only accredited journalists were allowed entry."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "تەنھا ڕۆژنامەنووسانی جێباوەڕ ڕێگەیان پێدرا بچنەژوورەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA2548("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA2548("en-US"),
                               ),
                             ],
@@ -205,43 +172,16 @@ class EnglishEntryaccredited extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The university was the most accredited around the country.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "زانکۆکە لە ھەموو ئەوانی تر زیاتر باوەڕپێکراو بوو لە وڵاتەکە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The university was the most accredited around the country."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "زانکۆکە لە ھەموو ئەوانی تر زیاتر باوەڕپێکراو بوو لە وڵاتەکە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAccredited46923("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAccredited46923("en-US"),
                               ),
                             ],
@@ -288,8 +228,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: accredited
 1. Given official approval to act (commissioned, licensed, licenced [Brit, Cdn])
 "an accredited college";
@@ -302,7 +242,8 @@ class EnglishMeaning extends StatelessWidget {
  
 3. Ascribe an achievement to (= credit)
 "She was not properly accredited in the program";
-'''),
+""",
+          )
         ],
       ),
     );

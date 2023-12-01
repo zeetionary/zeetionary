@@ -212,58 +212,25 @@ class EnglishEntryashtray extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: ژێرسیگاری، تەپڵەک، ژێر سێغاری، ژێرجگەرە، جێ سووتوو
 
-١. (ناو) جێیەک کە کەسانی جگەرەکێش سووتووی جھەرەی تێ‌دەکەن""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) جێیەک کە کەسانی جگەرەکێش سووتووی جھەرەی تێ‌دەکەن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The ashtrays in the restaurant were emptied and cleaned regularly.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The ashtrays in the restaurant were emptied and cleaned regularly."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "تەپڵەکی چێشتخانەکان بەزوویی بەتاڵ و پاک دەکرانەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "تەپڵەکی چێشتخانەکان بەزوویی بەتاڵ و پاک دەکرانەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAshtray509("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAshtray509(
                                     // REPLACE: ashtray /ˈæʃtreɪ/
                                     "en-US"),
@@ -314,11 +281,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: ashtray (derived forms: ashtrays)
 1. A receptacle for the ash from smokers' cigars or cigarettes
-"""),
+""",
+          )
         ],
       ),
     );

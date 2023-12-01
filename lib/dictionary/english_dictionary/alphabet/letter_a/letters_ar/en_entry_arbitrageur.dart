@@ -210,56 +210,23 @@ class EnglishEntryarbitrageur extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ھاوەڵناو) ئاربیتراژۆر؛ کەسێک کە شتێک لە شوێنێک دەکڕێت و لە شوێنێکی تر بە نرخێکی زیاتر دەیفرۆشێتەوە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ھاوەڵناو) ئاربیتراژۆر؛ کەسێک کە شتێک لە شوێنێک دەکڕێت و لە شوێنێکی تر بە نرخێکی زیاتر دەیفرۆشێتەوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He is one of Wall Street’s most famous arbitrageurs.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He is one of Wall Street’s most famous arbitrageurs."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەو یەکێکە لە بەناوبانگترین ئاربیتراژۆرەکانی وۆڵ ستریت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەو یەکێکە لە بەناوبانگترین ئاربیتراژۆرەکانی وۆڵ ستریت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArbitrageur1107("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakArbitrageur1107(
                                     // REPLACE: arbitrageur /ˌɑːrbɪtrɑːˈʒɜːr/
                                     "en-US"),
@@ -310,11 +277,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: arbitrageur (derived forms: arbitrageurs)
 1. Someone who engages in arbitrage (who purchases securities in one market for immediate resale in another in the hope of profiting from the price differential) (= arbitrager, arb)
-"""),
+""",
+          )
         ],
       ),
     );

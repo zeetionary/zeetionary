@@ -228,42 +228,19 @@ class EnglishEntrytakesomethingamiss extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (ئیدیەم) زویربوون بە شتێک بەھۆی ئەوەی بە ھەڵە لێی تێگەشتووی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ئیدیەم) زویربوون بە شتێک بەھۆی ئەوەی بە ھەڵە لێی تێگەشتووی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Would she take it amiss if I offered to help?",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Would she take it amiss if I offered to help?"),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بە ھەڵە تێدەگات ئەگەر یارمەتی پێشکەش بکەم؟",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بە ھەڵە تێدەگات ئەگەر یارمەتی پێشکەش بکەم؟"),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
@@ -273,12 +250,7 @@ class EnglishEntrytakesomethingamiss extends StatelessWidget {
                                 onPressed: () =>
                                     speakTakesomethingamiss411("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakTakesomethingamiss411(
                                     // REPLACE: take something amiss /teɪk əˈmɪs/
                                     "en-US"),
@@ -327,12 +299,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Idiom: take amiss 
 1. In an improper, mistaken or unfortunate manner
 "if you think him guilty you judge amiss"; "he spoke amiss"; "no one took it amiss when she spoke frankly"
-'''),
+""",
+          )
         ],
       ),
     );

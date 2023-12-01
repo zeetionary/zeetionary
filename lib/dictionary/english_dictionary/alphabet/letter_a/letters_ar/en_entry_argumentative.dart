@@ -210,44 +210,20 @@ class EnglishEntryargumentative extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: بەڵگەھێنانەوەیی، مشت‌ومڕباز، فێرەمشت‌ومڕ، مشت‌ومڕخواز، فرەوێژ، دەمەوەر، سەربەکێشە، زمان‌باز
 
-١. (ھاوەڵناو) کەسێک کە حەزی بە مشتومڕە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) کەسێک کە حەزی بە مشتومڕە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Everyone in the family was argumentative.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Everyone in the family was argumentative."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەموو ئەندامێکی خێزانەکە چەنەبازن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text: "ھەموو ئەندامێکی خێزانەکە چەنەبازن."),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
@@ -257,12 +233,7 @@ class EnglishEntryargumentative extends StatelessWidget {
                                 onPressed: () =>
                                     speakArgumentative1050("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakArgumentative1050(
                                     // REPLACE: argumentative /ˌɑːrɡjuˈmentətɪv/
                                     "en-US"),
@@ -313,12 +284,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: argumentative 
 1. Given to or characterized by argument
 "an argumentative discourse"; "argumentative to the point of being cantankerous"; "an intelligent but argumentative child"
-"""),
+""",
+          )
         ],
       ),
     );

@@ -156,45 +156,16 @@ class EnglishEntryadorn extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (کردار) خۆجوانکردن بە شتی جوان''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (کردار) خۆجوانکردن بە شتی جوان"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The children adorned themselves with flowers.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "منداڵەکان خۆیان بە گوڵ ڕازاندەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The children adorned themselves with flowers."),
+                              const ExampleSentenceKurdish(
+                                  text: "منداڵەکان خۆیان بە گوڵ ڕازاندەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdor59631("en-GB"),
                               ),
                               IconButton(
@@ -251,8 +222,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Verb: adorn (derived forms: adorned, adorns, adorning)
 1. Make more attractive by adding ornament, colour, etc. (= decorate, grace, ornament, embellish, beautify)
 "adorn the room for the party";
@@ -261,7 +232,8 @@ class EnglishMeaning extends StatelessWidget {
 "Flowers adorned the tables everywhere";
  
 3. Furnish with power or authority; of kings or emperors (= invest, clothe)
-'''),
+""",
+          )
         ],
       ),
     );

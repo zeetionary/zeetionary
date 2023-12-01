@@ -212,50 +212,22 @@ class EnglishEntryaugusttwo extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: بەشکۆ، مەزن، پایەبەرز، گەورە، بەئەندێش، بەسام، بەشەوکەت
 
-١. (ھاوەڵناو) ھەبوونی گرنگی زۆر و لە بەرزترین ئاستی کۆمەڵگە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) ھەبوونی گرنگی زۆر و لە بەرزترین ئاستی کۆمەڵگە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He had dared to challenge the views of an august body of imperial historians.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He had dared to challenge the views of an august body of imperial historians."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بوێری ئەوەی دژایەتی ڕای لیژنەیەکی بەشکۆی مێژوونووسانی شاھانە بکات.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بوێری ئەوەی دژایەتی ڕای لیژنەیەکی بەشکۆی مێژوونووسانی شاھانە بکات."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAugusttwo338("en-GB"),
                               ),
                               IconButton(
@@ -314,15 +286,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: august
 1. Of or befitting a lord (grand, lordly)
 "of august lineage";
  
 2. Profoundly honoured (= revered, venerable)
 "august holy men";
-"""),
+""",
+          )
         ],
       ),
     );

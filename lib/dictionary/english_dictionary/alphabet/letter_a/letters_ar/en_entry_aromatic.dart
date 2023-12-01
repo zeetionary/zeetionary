@@ -210,58 +210,23 @@ class EnglishEntryaromatic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: بۆن‌خوش، بەبۆن و بەرامە
 
-١. (ھاوەڵناو) بوونی بۆنێکی خۆش کە بە ئاسانی ھەستی پێ‌دەکرێت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) بوونی بۆنێکی خۆش کە بە ئاسانی ھەستی پێ‌دەکرێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The plant is strongly aromatic.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "The plant is strongly aromatic."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ڕووەکەکە بۆنێکی توندی خۆشی ھەیە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "ڕووەکەکە بۆنێکی توندی خۆشی ھەیە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAromatic857("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAromatic857(
                                     // REPLACE: aromatic /ˌærəˈmætɪk/
                                     "en-US"),
@@ -312,8 +277,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: aromatic
 1. Having a strong pleasant odour (= redolent)
 "the pine woods were more aromatic";
@@ -323,7 +288,8 @@ class EnglishMeaning extends StatelessWidget {
 
 - Noun: aromatic (derived forms: aromatics)
 A fragrant plant or spice
-"""),
+""",
+          )
         ],
       ),
     );

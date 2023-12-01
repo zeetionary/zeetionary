@@ -155,16 +155,10 @@ class EnglishEntryadverb extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          DefinitionKurdish(text: """
 کوردی: ئاوەڵ‌کار، ئاوەڵکار، ئاوەڵ‌فرمان
 
-١. (ناو) وشەیەک کە زانیاری زیاد دەکات لەسەر کات، شوێن، شێواز، ھۆکار، یان ئاست بۆ کردارێک، ھاوەڵناوێک، دەستەواژەیەک، یان ھاوەڵکارێکی تر''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) وشەیەک کە زانیاری زیاد دەکات لەسەر کات، شوێن، شێواز، ھۆکار، یان ئاست بۆ کردارێک، ھاوەڵناوێک، دەستەواژەیەک، یان ھاوەڵکارێکی تر"""),
                         ],
                       ),
                     ),
@@ -207,13 +201,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: adverb (derived forms: adverbs)
 1. The word class that qualifies verbs or clauses
  
 2. A word that modifies something other than a noun
-'''),
+""",
+          )
         ],
       ),
     );

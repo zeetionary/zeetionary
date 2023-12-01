@@ -212,58 +212,24 @@ class EnglishEntryassertive extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: لەخۆڕادیتوو، خوباوەڕ، بڕا، بەزاکوون، شێلگیر، چاونەترس، پێداگر، سوور، یەکلایی‌کەرەوە، کۆتایی‌پێھێن، بڕێنەرەوە 
 
-١. (ھاوەڵناو) دەربڕینی بۆچوون و ویستەکان و بەتوندی بۆ ئەوەی کەسانی تر ھەستی پێ‌بکەن""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) دەربڕینی بۆچوون و ویستەکان و بەتوندی بۆ ئەوەی کەسانی تر ھەستی پێ‌بکەن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "You should try and be more assertive.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "You should try and be more assertive."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دەبێت زیاتر خۆسەپێنەر بیت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "دەبێت زیاتر خۆسەپێنەر بیت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAssertive1059("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAssertive1059(
                                     // REPLACE: assertive /əˈsɜːrtɪv/
                                     "en-US"),
@@ -314,12 +280,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: assertive (self-asserting, self-assertive)
 1. Confident and self-assured in putting forward one's opinions and wishes
 "an energetic assertive boy who was always ready to argue"; "pointing directly at a listener is an assertive act"; "an energetic self-assertive boy who was always ready to argue";
-"""),
+""",
+          )
         ],
       ),
     );

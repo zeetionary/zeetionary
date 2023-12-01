@@ -214,58 +214,25 @@ class EnglishEntryassumption extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: وادانان، گریمان، وابۆچوون، پێ‌وابوون، وازانین، بۆچوون، خەیاڵ، گومان، خۆبەزلزانی، بەدەماری، بەھەوایی، لەخۆبایی‌بوون. گرتنەمل، خۆبەستەیی، دەربەستی، گرتنەئەستۆ، واخۆنیشان‌دان، واخۆدەرخستن، گرتنەدەست
 
-١. (ناو) گریمانە؛ دانانی شتێک وەک ڕاستی یان ئەوەی کە ڕوودەدات بەبێ زانیاری""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) گریمانە؛ دانانی شتێک وەک ڕاستی یان ئەوەی کە ڕوودەدات بەبێ زانیاری"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "We need to challenge some of the basic assumptions of Western philosophy.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We need to challenge some of the basic assumptions of Western philosophy."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دەبێت پرسیار بخەینە سەر ھەندێک لە گریمانەکانی فەلسەفەی ڕۆژئاوا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دەبێت پرسیار بخەینە سەر ھەندێک لە گریمانەکانی فەلسەفەی ڕۆژئاوا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAssumption903("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAssumption903(
                                     // REPLACE: assumption /əˈsʌmpʃn/
                                     "en-US"),
@@ -276,46 +243,19 @@ class EnglishEntryassumption extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "We are working on the assumption that everyone invited will turn up.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We are working on the assumption that everyone invited will turn up."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کارەکان دەکەین بە گریمانەکردنی ئەوەی ھەموو ئەوانەی بانگھێشتکراون ئامادە دەبن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کارەکان دەکەین بە گریمانەکردنی ئەوەی ھەموو ئەوانەی بانگھێشتکراون ئامادە دەبن."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAssumption904("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAssumption904(
                                     // REPLACE: assumption /əˈsʌmpʃn/
                                     "en-US"),
@@ -324,56 +264,23 @@ class EnglishEntryassumption extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ناو) گرتنی دەسەڵات""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) گرتنی دەسەڵات"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The revolutionaries' assumption of power took the army by surprise.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The revolutionaries' assumption of power took the army by surprise."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "گرتنی دەسەڵات لەلایەن شۆڕشگێڕانەوە سوپای سەرسام کرد.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "گرتنی دەسەڵات لەلایەن شۆڕشگێڕانەوە سوپای سەرسام کرد."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAssumption906("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAssumption906(
                                     // REPLACE: assumption /əˈsʌmpʃn/
                                     "en-US"),
@@ -424,8 +331,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: assumption (derived forms: assumptions)
 1. A statement that is assumed to be true and from which a conclusion can be drawn (= premise, premiss)
 "on the assumption that he has been injured we can infer that he will not play";
@@ -446,7 +353,8 @@ class EnglishMeaning extends StatelessWidget {
 1. (Christianity) the taking up of the body and soul of the Virgin Mary when her earthly life had ended
  
 2. Celebration in the Roman Catholic Church of the Virgin Mary's being taken up into heaven when her earthly life ended; corresponds to the Dormition in the Eastern Orthodox Church (= Assumption of Mary, August 15)
-"""),
+""",
+          )
         ],
       ),
     );

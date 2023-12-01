@@ -495,8 +495,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: bare (derived forms: barer, barest)
 1. Having no clothes on the body (= au naturel, naked, nude)
 "bare bodies";
@@ -536,7 +536,8 @@ class EnglishMeaning extends StatelessWidget {
 "She bared her opinions on welfare";
  
 3. Remove or clear everything so that nothing is left (= denude, denudate, strip)
-"""),
+""",
+          )
         ],
       ),
     );

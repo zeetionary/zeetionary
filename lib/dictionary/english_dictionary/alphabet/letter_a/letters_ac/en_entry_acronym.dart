@@ -155,16 +155,10 @@ class EnglishEntryacronym extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          DefinitionKurdish(text: """
 کوردی: سەروشە، سەرناو، نووکەناو
 
-١. (ناو) وشەیەک کە تەنھا لە چەند پیتی سەرەتای وشەیەک پێکھاتووە.''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) وشەیەک کە تەنھا لە چەند پیتی سەرەتای وشەیەک پێکھاتووە."""),
                         ],
                       ),
                     ),
@@ -207,12 +201,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: acronym (derived forms: acronyms)
 1. A word formed from the initial letters of the several words in the name and pronounced as one word 
 "AIDS is an acronym for acquired immune deficiency syndrome"; "the word 'scuba' is an acronym for s(elf)-c(ontained) u(nderwater) b(reathing) a(pparatus)"
-'''),
+""",
+          )
         ],
       ),
     );

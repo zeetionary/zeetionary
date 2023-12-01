@@ -204,50 +204,21 @@ class EnglishEntryangler extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ماسیگر، ڕاوچی (ماسی)
 
-١. (ناو) کەسێک کە ماسی دەگرێت بۆ خۆشی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کەسێک کە ماسی دەگرێت بۆ خۆشی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The angler reeled in and went home.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "The angler reeled in and went home."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ماسیگرەکە قولابەکەیی کۆکردەوە و چووەوە ماڵەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ماسیگرەکە قولابەکەیی کۆکردەوە و چووەوە ماڵەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAngler402("en-GB"),
                               ),
                               IconButton(
@@ -306,15 +277,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: angler (derived forms: anglers)
 1. A scheming person; someone who schemes to gain an advantage
  
 2. A fisherman who uses a hook and line (= troller)
  
 3. Fishes having large mouths with a wormlike filament attached for luring prey (= goosefish, anglerfish, angler fish, monkfish, lotte, allmouth, Lophius Americanus)
-'''),
+""",
+          )
         ],
       ),
     );

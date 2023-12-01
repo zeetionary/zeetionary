@@ -205,51 +205,22 @@ class EnglishEntrybarbaric extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: بێ‌شارستانیەت، بێ‌ژیار، دڕندە، ھۆف، بەڕبەڕ، دڕندانە، بێ‌بەزەیی‌یانە، توندوتیژ، بەزەبروزەنگ، سەربە بەڕبەڕەکان، سادە، سەرەتایی
 
-١. (ھاوەڵناو) دڕندە و توندوتیژ بەشێوەیەک کە لە کەسانی خوێندەوار کە ڕێزی یەکدی دەگرن""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) دڕندە و توندوتیژ بەشێوەیەک کە لە کەسانی خوێندەوار کە ڕێزی یەکدی دەگرن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "The way these animals are killed is barbaric.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The way these animals are killed is barbaric."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "شێوازی کووشتنی ئەم ئاژەڵانە ناشارستانیەتانەیە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "شێوازی کووشتنی ئەم ئاژەڵانە ناشارستانیەتانەیە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBarbarics1("en-GB"),
                               ),
                               IconButton(
@@ -266,49 +237,20 @@ class EnglishEntrybarbaric extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ھاوەڵناو) پەیوەندیدار بە خەڵکی دەشتەکی""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ھاوەڵناو) پەیوەندیدار بە خەڵکی دەشتەکی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "The tribe lived a barbaric existence, isolated from the rest of the world.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The tribe lived a barbaric existence, isolated from the rest of the world."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "خێڵەکە ژیانێکی ناشارستانی دەژیان، دابڕاو لە جیھانی دەرەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "خێڵەکە ژیانێکی ناشارستانی دەژیان، دابڕاو لە جیھانی دەرەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBarbarics2("en-GB"),
                               ),
                               IconButton(
@@ -367,15 +309,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: barbaric
 1. Without civilizing influences (= barbarian, savage, uncivilized, uncivilised [Brit], wild)
 "barbaric practices";
  
 2. Unrestrained and crudely rich
 "barbaric use of colour or ornament"
-"""),
+""",
+          )
         ],
       ),
     );

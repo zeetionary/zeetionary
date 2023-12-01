@@ -156,44 +156,21 @@ class EnglishEntryambidextrous extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: دوودەستە، جووت‌دەستە، دووڕوو، ڕیایی‌باز
 
-١. (ھاوەڵناو) ھەبوونی توانای بەکارھێنانی دەستە ڕاست و چەپ وەک یەک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) ھەبوونی توانای بەکارھێنانی دەستە ڕاست و چەپ وەک یەک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I am naturally left-handed, but was not allowed to write with my left hand, with the result that I became ambidextrous.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I am naturally left-handed, but was not allowed to write with my left hand, with the result that I became ambidextrous."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بەشێوەیەکی سرووشتی چەپلەرم، بەڵام ڕێگەم پێ‌نەدرا بە دەستە چەپم بنووسم، و لە ئەنجامدا بوومە دوودەستە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بەشێوەیەکی سرووشتی چەپلەرم، بەڵام ڕێگەم پێ‌نەدرا بە دەستە چەپم بنووسم، و لە ئەنجامدا بوومە دوودەستە."),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
@@ -203,12 +180,7 @@ class EnglishEntryambidextrous extends StatelessWidget {
                                 onPressed: () =>
                                     speakAmbidextrous525555("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAmbidextrous525555(
                                     // REPLACE: ambidextrous /ˌæmbiˈdekstrəs/
                                     "en-US"),
@@ -257,14 +229,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: ambidextrous 
 1. Equally skilful with each hand (= two-handed)
 "an ambidextrous surgeon";
  
 2. Marked by deliberate deceptiveness especially by pretending one set of feelings and acting under the influence of another (= deceitful, double-dealing, duplicitous, Janus-faced, two-faced, double-faced, double-tongued)
-'''),
+""",
+          )
         ],
       ),
     );

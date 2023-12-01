@@ -156,55 +156,22 @@ class EnglishEntryactivate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: چالاکێنردن، گورج‌کردن
 
-١. (کردار) چالاککردنی شتێک، بۆ نموونە ئامێرێک یان پڕۆسەیەکی کیمیایی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (کردار) چالاککردنی شتێک، بۆ نموونە ئامێرێک یان پڕۆسەیەکی کیمیایی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The gene is activated by a specific protein.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "جینەکە لەلایەن پڕۆتینێکی تایبەتەوە چالاک دەکرێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The gene is activated by a specific protein."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "جینەکە لەلایەن پڕۆتینێکی تایبەتەوە چالاک دەکرێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAct2537("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAct2537(
                                     "en-US"), // REPLACE activate /ˈæktɪveɪt/
                               ),
@@ -252,8 +219,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Verb: activate (derived forms: activating, activated, activates)
 1. Put in motion, initiate (a device, reaction, circuit, etc) (= actuate, trigger, set off, spark off, spark, trigger off, touch off)
 "activate the circuits";
@@ -267,7 +234,8 @@ class EnglishMeaning extends StatelessWidget {
 4. Aerate (sewage) so as to favour the growth of organisms that decompose organic matter (= aerate)
  
 5. Make (substances) radioactive
-'''),
+""",
+          )
         ],
       ),
     );

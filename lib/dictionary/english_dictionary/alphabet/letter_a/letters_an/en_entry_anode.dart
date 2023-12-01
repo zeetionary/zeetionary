@@ -205,50 +205,22 @@ class EnglishEntryanode extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ژوورک(ە)، جەمسەری ئەرێنی، جەمسەری گەرم، ئانۆد، گەرمەجەمسەر
 
-١. (ناو) جەمسەری ئەرێنی؛ شوێنی چوونە ژوورەوەی تەزووی کارەبایی لە باتری یان ئامێری کارەبایی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) جەمسەری ئەرێنی؛ شوێنی چوونە ژوورەوەی تەزووی کارەبایی لە باتری یان ئامێری کارەبایی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "A red wire is often attached to the anode.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "A red wire is often attached to the anode."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "وایەرێکی سوور زۆرجار دەلکێنرێت بە جەمسەرە گەرمەکەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وایەرێکی سوور زۆرجار دەلکێنرێت بە جەمسەرە گەرمەکەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnode936("en-GB"),
                               ),
                               IconButton(
@@ -307,13 +279,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: anode (derived forms: anodes)
 1. A positively charged electrode by which electrons leave an electrical device
  
 2. The negatively charged terminal of a voltaic cell or storage battery that supplies current
-'''),
+""",
+          )
         ],
       ),
     );

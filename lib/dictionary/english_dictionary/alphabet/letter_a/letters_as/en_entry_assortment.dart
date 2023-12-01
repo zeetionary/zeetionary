@@ -212,58 +212,24 @@ class EnglishEntryassortment extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: کۆمەڵە، جۆرەکان، کۆمەڵەیەکی جۆراوجۆر یان ھەمەڕەنگ، ھەمەچەشنە، دەستەجۆر، جۆران، تێکەڵە، پۆلاندن، دەستەکردن، دەستاندن
 
-١. (ناو) کۆمەڵە شتێک، یان کۆمەڵە جۆرێکی جیاوازی یەک شت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کۆمەڵە شتێک، یان کۆمەڵە جۆرێکی جیاوازی یەک شت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He was dressed in an odd assortment of clothes.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He was dressed in an odd assortment of clothes."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دەستە جلێکی سەیری لەبەرکردبوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "دەستە جلێکی سەیری لەبەرکردبوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAssortment832("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAssortment832(
                                     // REPLACE: assortment /əˈsɔːrtmənt/
                                     "en-US"),
@@ -314,14 +280,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: assortment (derived forms: assortments)
 1. A collection containing many different types of things (= mixture, mixed bag [informal], miscellany, miscellanea, variety, salmagundi, smorgasbord, potpourri, motley, smörgåsbord)
 "a great assortment of cars was on display";
  
 2. The act of distributing things into classes or categories of the same type (= categorization, categorisation [Brit], classification, compartmentalization, compartmentalisation [Brit])
-"""),
+""",
+          )
         ],
       ),
     );

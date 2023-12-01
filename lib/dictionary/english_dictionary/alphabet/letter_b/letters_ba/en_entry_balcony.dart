@@ -205,51 +205,20 @@ class EnglishEntrybalcony extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: بەرھەیوان، بانجیلە، ھەوالە، باھۆ، (لە تیاتر یان سینەما) باڵکۆن، باڵاخانە، لۆژی سەرێ
 
-١. (ناو) شوێنێک کە لە بینایەکدا کە لە دەرەوەی نھۆمی سەرەوەوە درووست دەکرێت و سیاجی پارێزەری ھەیە بۆ ڕێگری لە کەوتنەخوارەوە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) شوێنێک کە لە بینایەکدا کە لە دەرەوەی نھۆمی سەرەوەوە درووست دەکرێت و سیاجی پارێزەری ھەیە بۆ ڕێگری لە کەوتنەخوارەوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "We had drinks on the hotel balcony.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "We had drinks on the hotel balcony."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە بەرھەیوانەکە خواردمانەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "لە بەرھەیوانەکە خواردمانەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBalconys1("en-GB"),
                               ),
                               IconButton(
@@ -266,49 +235,19 @@ class EnglishEntrybalcony extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ناو) بەشی سەرەوەی کوورسییەکانی سینەمایەک""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) بەشی سەرەوەی کوورسییەکانی سینەمایەک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "Our seats are in row F of the balcony.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Our seats are in row F of the balcony."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "جێگاکانمان لە ڕیزی Fی لۆژی سەرەوەیە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "جێگاکانمان لە ڕیزی Fی لۆژی سەرەوەیە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBalconys2("en-GB"),
                               ),
                               IconButton(
@@ -367,13 +306,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: balcony (derived forms: balconies)
 1. An upper floor projecting from the rear over the main floor in an auditorium
  
 2. A platform projecting from the wall of a building and surrounded by a balustrade, railing or parapet
-"""),
+""",
+          )
         ],
       ),
     );

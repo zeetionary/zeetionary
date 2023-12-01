@@ -212,48 +212,20 @@ class EnglishEntryatomicbomb extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ناو) بۆمبی ئەتۆمی؛ بۆمبێک کە دەتەقێتەوە بە بەکارھێنانی ئەو وزەیەی کە درووست دەبێت لە کاتی کەرتبوونی گەردیلە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) بۆمبی ئەتۆمی؛ بۆمبێک کە دەتەقێتەوە بە بەکارھێنانی ئەو وزەیەی کە درووست دەبێت لە کاتی کەرتبوونی گەردیلە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The atomic bombs dropped on Hiroshima and Nagasaki in 1945 caused widespread destruction and loss of life.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The atomic bombs dropped on Hiroshima and Nagasaki in 1945 caused widespread destruction and loss of life."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەو بۆمبە ئەتۆمییانەی لە ساڵی ١٩٤٥ بەسەر ھیرۆشیما و ناگازاکیدا بەردرانەوە بوونە ھۆی وێرانی و لەدەستچوونی ژیانی زۆر.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەو بۆمبە ئەتۆمییانەی لە ساڵی ١٩٤٥ بەسەر ھیرۆشیما و ناگازاکیدا بەردرانەوە بوونە ھۆی وێرانی و لەدەستچوونی ژیانی زۆر."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAtomicbomb1236("en-GB"),
                               ),
                               IconButton(
@@ -312,11 +284,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: atomic bomb (derived forms: atomic bombs)
 1. A nuclear weapon in which enormous energy is released by nuclear fission (splitting the nuclei of a heavy element like uranium 235 or plutonium 239) (= atom bomb, A-bomb, fission bomb, plutonium bomb)
-"""),
+""",
+          )
         ],
       ),
     );

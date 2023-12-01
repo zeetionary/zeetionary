@@ -155,16 +155,10 @@ class EnglishEntryaerospace extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          DefinitionKurdish(text: """
 کوردی: ھەواـ بۆشایی (= سازگەری یا سەنعەتی دروس‌کردنی ئەو فڕۆکە و کەل‌وپەل و دەزگایانەی کە بۆ بۆشایی یان ئاسمان دەنێردرێن)
 
-١. (ناو) پیشەسازی درووستکردنی فڕۆکە و کەشتی ئاسمانی و کەرەستە بۆ ناردنە بۆشایی ئاسمان''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) پیشەسازی درووستکردنی فڕۆکە و کەشتی ئاسمانی و کەرەستە بۆ ناردنە بۆشایی ئاسمان"""),
                         ],
                       ),
                     ),
@@ -207,13 +201,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: aerospace (derived forms: aerospaces)
 1. The atmosphere and outer space considered as a whole
  
 2. The industry and technology concerned with aviation, missiles, satellites and spacecraft
-'''),
+""",
+          )
         ],
       ),
     );

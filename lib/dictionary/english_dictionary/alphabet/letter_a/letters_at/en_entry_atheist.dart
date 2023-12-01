@@ -212,50 +212,22 @@ class EnglishEntryatheist extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: بێ‌دین، دیندڕ، لادین، ناخوداباوەڕ، بێ‌خودا، زەندیق، ماڕس
 
-١. (ناو) کەسێک کە باوەڕی بە بوونی خودا نییە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کەسێک کە باوەڕی بە بوونی خودا نییە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "As an atheist, I do not accept this religious argument.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "As an atheist, I do not accept this religious argument."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "وەک بێ‌دینێک گفتوگۆ ئاینییەکەی پەسەند ناکەم.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وەک بێ‌دینێک گفتوگۆ ئاینییەکەی پەسەند ناکەم."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAtheist743("en-GB"),
                               ),
                               IconButton(
@@ -314,15 +286,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: atheist 
 1. Related to or characterized by or given to atheism (= atheistic, atheistical)
 "atheist leanings";
 
 - Noun: atheist (derived forms: atheists)
 1. Someone who does not believe in the existence of a god
-"""),
+""",
+          )
         ],
       ),
     );

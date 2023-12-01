@@ -156,55 +156,21 @@ class EnglishEntryacrimony extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: توندی، تاڵی، ناخۆشی، ڕەقی، توندوتیژی، تیژی، ڕەنجان، زیزی
 
-١. (ھاوەڵناو) دەربڕینی بیر یان ھەست بە توندی و توڕەیی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) دەربڕینی بیر یان ھەست بە توندی و توڕەیی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The dispute was settled without acrimony.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بابەتەکە بەبێ ناخۆشی چارەسەرکرا",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The dispute was settled without acrimony."),
+                              const ExampleSentenceKurdish(
+                                  text: "بابەتەکە بەبێ ناخۆشی چارەسەرکرا"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAcrimo1254("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAcrimo1254(
                                     "en-US"), // REPLACE acrimony /ˈækrɪməni/
                               ),
@@ -252,11 +218,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: acrimony (derived forms: acrimonies)
 1. A rough and bitter manner (= bitterness, acerbity, jaundice, tartness, thorniness)
-'''),
+""",
+          )
         ],
       ),
     );

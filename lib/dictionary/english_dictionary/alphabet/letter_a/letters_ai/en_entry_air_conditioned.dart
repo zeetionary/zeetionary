@@ -156,42 +156,18 @@ class EnglishEntryairconditioned extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (ھاوەڵناو) شوێنێک کە سیستەمی فێنککەرەوەی تێدایە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ھاوەڵناو) شوێنێک کە سیستەمی فێنککەرەوەی تێدایە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The restaurant is air-conditioned.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "The restaurant is air-conditioned."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "چێشتخانەکە سیستەمی فێنککەرەوەی تێدایە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "چێشتخانەکە سیستەمی فێنککەرەوەی تێدایە."),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
@@ -201,12 +177,7 @@ class EnglishEntryairconditioned extends StatelessWidget {
                                 onPressed: () =>
                                     speakAirconditioned341("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAirconditioned341(
                                     // REPLACE: air-conditioned /ˈer kəndɪʃnd/
                                     "en-US"),
@@ -255,12 +226,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: air-conditioned 
 1. Cooled by air conditioning
 "the paintings were delivered to the museum in an air-conditioned armoured car"
-'''),
+""",
+          )
         ],
       ),
     );

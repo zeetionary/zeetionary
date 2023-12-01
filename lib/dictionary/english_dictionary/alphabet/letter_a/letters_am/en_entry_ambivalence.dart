@@ -156,44 +156,21 @@ class EnglishEntryambivalence extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: دوودڵی، دڕدۆنگی، ڕاڕایی‌بوون، تاوتاوی، ناکۆکی، یەک‌نەگرتنەوە، دژایەتی، (کیمیا) دووھاوھێزی، (دەروون‌ناسی) دوولایەنێتی، دوولا(یەنە)گەری
 
-١. (ھاوەڵناو) ھەبوونی دوودڵی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) ھەبوونی دوودڵی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I've never lied about my feelings, including my ambivalence about getting married again.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I've never lied about my feelings, including my ambivalence about getting married again."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەرگیز درۆم سەبارەت بە ھەستەکانم نەکردووە، لەنێوانیاندا دوودڵیم سەبارەت بە دووبارە ھاوسەرگیری کردن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەرگیز درۆم سەبارەت بە ھەستەکانم نەکردووە، لەنێوانیاندا دوودڵیم سەبارەت بە دووبارە ھاوسەرگیری کردن."),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
@@ -203,12 +180,7 @@ class EnglishEntryambivalence extends StatelessWidget {
                                 onPressed: () =>
                                     speakAmbivalence444722("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAmbivalence444722(
                                     // REPLACE: ambivalence /æmˈbɪvələns/
                                     "en-US"),
@@ -257,11 +229,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: ambivalence (derived forms: ambivalences)
 1. Mixed feelings or emotions (= ambivalency)
-'''),
+""",
+          )
         ],
       ),
     );

@@ -156,50 +156,21 @@ class EnglishEntryalloy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: داڕشتە، ئامێژەن، ئەمێژین، عەیار، بار، ڕێژە، ڕادە
 
-١. (ناو) داڕشتە؛ کانزایەک کە بە تێکەڵکردنی دوو کانزای تر، یان کانزایەک و مادەیەکی تر درووست بووە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) داڕشتە؛ کانزایەک کە بە تێکەڵکردنی دوو کانزای تر، یان کانزایەک و مادەیەکی تر درووست بووە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Brass is an alloy of copper and zinc.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Brass is an alloy of copper and zinc."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "مسی سپی داڕشتەی مس و زینکە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "مسی سپی داڕشتەی مس و زینکە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAlloy4277("en-GB"),
                               ),
                               IconButton(
@@ -256,8 +227,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: alloy (derived forms: alloys)
 1. A mixture containing two or more metallic elements or metallic and nonmetallic elements usually fused together or dissolving into each other when molten (= metal)
 "brass is an alloy of zinc and copper";
@@ -268,7 +239,8 @@ class EnglishMeaning extends StatelessWidget {
 1. (metallurgy) lower in value by increasing the base-metal content (= debase)
  
 2. (metallurgy) make an alloy of
-'''),
+""",
+          )
         ],
       ),
     );

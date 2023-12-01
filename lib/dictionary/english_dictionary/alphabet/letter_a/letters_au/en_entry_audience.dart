@@ -215,50 +215,22 @@ class EnglishEntryaudience extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: ئامادەبووان، ھاتووان، کۆوەبووان، ئاپۆرە، جەماوەر، کۆبوونەوە، جڤین، گوێدەران، بیسەران، گوێگران، بینەران، خوێنەران، بیستن، گوێدان، گوێ‌گرتن، چاوپێ‌کەوتن، دیدەنی، یەکتربینین
 
-١. (ناو) ئامادەبووانی شانۆیەک، کۆنسێرتێک، وتارێک، ھتد""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ئامادەبووانی شانۆیەک، کۆنسێرتێک، وتارێک، ھتد"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The audience was/were clapping for 10 minutes.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The audience was/were clapping for 10 minutes."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئامادەبووان بۆ ماوەی ١٠ خولەک چەپڵەیان لێدا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئامادەبووان بۆ ماوەی ١٠ خولەک چەپڵەیان لێدا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAudience117("en-GB"),
                               ),
                               IconButton(
@@ -277,38 +249,16 @@ class EnglishEntryaudience extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The museum is trying to attract a wider audience.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The museum is trying to attract a wider audience."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "مۆزەخانەکە ھەوڵ دەدات سەردانیکاری زیاتر ڕابکێشێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "مۆزەخانەکە ھەوڵ دەدات سەردانیکاری زیاتر ڕابکێشێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAudience118("en-GB"),
                               ),
                               IconButton(
@@ -325,48 +275,20 @@ class EnglishEntryaudience extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ناو) ئەو کەسانەی کە گوێگر، بینەر، یان خوێنەری ھەمان شتن""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) ئەو کەسانەی کە گوێگر، بینەر، یان خوێنەری ھەمان شتن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "His book reached an even wider audience when it was made into a movie.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "His book reached an even wider audience when it was made into a movie."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کتێبەکەی گەشت بە ھەواداری زیاتر کە کرا بە فیلم.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کتێبەکەی گەشت بە ھەواداری زیاتر کە کرا بە فیلم."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAudience121("en-GB"),
                               ),
                               IconButton(
@@ -383,48 +305,20 @@ class EnglishEntryaudience extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٣. (ناو) کۆبوونەوە لەگەڵ کەسێکی گرنگ""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٣. (ناو) کۆبوونەوە لەگەڵ کەسێکی گرنگ"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She had a private audience with the king.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She had a private audience with the king."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کۆبوونەوەیەکی تایبەتی ھەبوو لەگەڵ پاشا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کۆبوونەوەیەکی تایبەتی ھەبوو لەگەڵ پاشا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAudience123("en-GB"),
                               ),
                               IconButton(
@@ -483,8 +377,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: audience (derived forms: audiences)
 1. A gathering of spectators or listeners at a (usually public) performance
 "the audience applauded"; "someone in the audience began to cough"
@@ -497,7 +391,8 @@ class EnglishMeaning extends StatelessWidget {
  
 4. A conference (usually with someone important) (= consultation, interview)
 "he requested an audience with the king";
-"""),
+""",
+          )
         ],
       ),
     );

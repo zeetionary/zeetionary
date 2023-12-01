@@ -211,50 +211,22 @@ class EnglishEntryarena extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: شەڕگە یان گۆڕەپان یان مەیدانی شەڕی شەڕگەر یان گلادیاتۆرەکانی ڕۆم، گۆڕەپان، مەیدان، کایە، پانتایی، قاد، مەڵبەند، شوێنی چالاکی یان پێش‌بڕکێ، گۆڕ، وەرزشگا، لمانی، ستادیۆم، یاریگا 
 
-١. (ناو) بینایەکی بازنەیی کە سەقفی نییە و ڕیزە جێگای پلەپلەی دانیشتنی ھەیە بە دەوری گۆڕەپانێک لە ناوەڕاستی بیناکەدا """,
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) بینایەکی بازنەیی کە سەقفی نییە و ڕیزە جێگای پلەپلەی دانیشتنی ھەیە بە دەوری گۆڕەپانێک لە ناوەڕاستی بیناکەدا """),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The rider has to halt the horse in the arena.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The rider has to halt the horse in the arena."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "سوارەکە دەبێت ئەسپەکە لە گۆڕەپانەکەدا بوەستێنێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "سوارەکە دەبێت ئەسپەکە لە گۆڕەپانەکەدا بوەستێنێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArena1042("en-GB"),
                               ),
                               IconButton(
@@ -271,48 +243,20 @@ class EnglishEntryarena extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ناو) کایەیەکی چالاکی کە خەڵکی گرنگی پێ‌دەدەن و بەسەر لایەنەکانیدا بە بیروڕای جیاوازەوە دابەش‌دەبن """,
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) کایەیەکی چالاکی کە خەڵکی گرنگی پێ‌دەدەن و بەسەر لایەنەکانیدا بە بیروڕای جیاوازەوە دابەش‌دەبن """),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The company has been very successful in the commercial arena.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The company has been very successful in the commercial arena."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کۆمپانیاکە زۆر سەرکەوتوو بووە لەلایەنی بازرگانییەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کۆمپانیاکە زۆر سەرکەوتوو بووە لەلایەنی بازرگانییەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArena1045("en-GB"),
                               ),
                               IconButton(
@@ -371,8 +315,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: arena (derived forms: arenas)
 1. A particular environment or walk of life (= sphere, domain, area, orbit, field)
 "his social arena is limited";
@@ -382,7 +326,8 @@ class EnglishMeaning extends StatelessWidget {
 3. A large structure for open-air sports or entertainments (= stadium, bowl, sports stadium)
  
 4. A playing field where sports events take place (= scene of action)
-"""),
+""",
+          )
         ],
       ),
     );

@@ -126,22 +126,10 @@ class EnglishEntryaborigine extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (ناو) بنەنشین یا دانیشتووی ڕەسەنی ئەوسترالیا''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) بنەنشین یا دانیشتووی ڕەسەنی وڵاتێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          DefinitionKurdish(text: """
+١. (ناو) بنەنشین یا دانیشتووی ڕەسەنی ئەوسترالیا"""),
+                          DefinitionKurdish(text: """
+٢. (ناو) بنەنشین یا دانیشتووی ڕەسەنی وڵاتێک"""),
                         ],
                       ),
                     ),
@@ -179,15 +167,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: aborigine (derived forms: aborigines)
 1. An indigenous person who was born in a particular place (= native, indigen, indigene, aboriginal)
 "the art of the aborigines of the northwest coast";
 
 - Noun: Aborigine (derived forms: Aborigines)
 1. A member of the people living in Australia when Europeans arrived (= native Australian, Australian Aborigine, Aboriginal)
-'''),
+""",
+          )
         ],
       ),
     );

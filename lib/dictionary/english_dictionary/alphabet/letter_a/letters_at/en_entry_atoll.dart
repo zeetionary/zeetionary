@@ -212,50 +212,22 @@ class EnglishEntryatoll extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: دوڕگەی شیلانی، شیلانەدوڕگە، شیلانی بازنەیی
 
-١. (ھاوەڵناو) دوورگەیەک کە لە شیلانە لە شێوەی ئەڵقەیەکدا پێکھاتووە لەگەڵ دەریاچەیەک لە ناوەڕاستیدا""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) دوورگەیەک کە لە شیلانە لە شێوەی ئەڵقەیەکدا پێکھاتووە لەگەڵ دەریاچەیەک لە ناوەڕاستیدا"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The Maldives is a group of atolls in the Indian Ocean.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The Maldives is a group of atolls in the Indian Ocean."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ماڵدیف کۆمەڵە شیلانەدوورگەیەکە لە زەریای ھندی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ماڵدیف کۆمەڵە شیلانەدوورگەیەکە لە زەریای ھندی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAtoll1156("en-GB"),
                               ),
                               IconButton(
@@ -314,12 +286,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: atoll (derived forms: atolls)
 1. An island consisting of a circular coral reef surrounding a lagoon
 "bomb tests resulted in the annihilation of the atoll"
-"""),
+""",
+          )
         ],
       ),
     );

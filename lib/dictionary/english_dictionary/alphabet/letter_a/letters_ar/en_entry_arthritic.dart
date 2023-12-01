@@ -212,56 +212,23 @@ class EnglishEntryarthritic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ھاوەڵناو) پەیوەندیدار بە نەخۆشی ھەوکردنی جومگەکان""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ھاوەڵناو) پەیوەندیدار بە نەخۆشی ھەوکردنی جومگەکان"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Her hands were swollen and arthritic.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Her hands were swollen and arthritic."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دەستەکانی ئاوساوبوون و تووشی ھەوکردن بووبوون.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دەستەکانی ئاوساوبوون و تووشی ھەوکردن بووبوون."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArthritic457("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakArthritic457(
                                     // REPLACE: arthritic /ɑːrˈθrɪtɪk/
                                     "en-US"),
@@ -312,8 +279,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: arthritic 
 1. Of or pertaining to arthritis (= creaky, rheumatic, rheumatoid, rheumy)
 "my arthritic old joints";
@@ -321,7 +288,8 @@ class EnglishMeaning extends StatelessWidget {
 - Noun: arthritic ((derived forms: arthritics))
 1. A person afflicted with arthritis
 "the hands of an elderly arthritic"
-"""),
+""",
+          )
         ],
       ),
     );

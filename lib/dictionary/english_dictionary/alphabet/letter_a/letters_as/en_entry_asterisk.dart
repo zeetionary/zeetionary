@@ -213,58 +213,25 @@ class EnglishEntryasterisk extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: نیشانەی ئەستێرە، ئەستێرۆکە (*)
 
-١. (کردار) دانانی نیشانەی ئەستێرە (*) لە تەنیشت شتێک""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (کردار) دانانی نیشانەی ئەستێرە (*) لە تەنیشت شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I've asterisked the tasks I want you to do first.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I've asterisked the tasks I want you to do first."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەستێرەم لە تەنیشت ئەو ئەرکانە داناوە کە دەمەوێت سەرەتا بیانکەیت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەستێرەم لە تەنیشت ئەو ئەرکانە داناوە کە دەمەوێت سەرەتا بیانکەیت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAsterisk940("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAsterisk940(
                                     // REPLACE: asterisk /ˈæstərɪsk/
                                     "en-US"),
@@ -273,56 +240,23 @@ class EnglishEntryasterisk extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ناو) نیشانەی ئەستێرە (*) کە بەکاردێت بۆ دەرخستنی زیاتری وشەیەک یان دەستەواژەیەک، یان وەک ئاماژە بەوەی زانیاری زیاتر لە شوێنی تر دراوە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) نیشانەی ئەستێرە (*) کە بەکاردێت بۆ دەرخستنی زیاتری وشەیەک یان دەستەواژەیەک، یان وەک ئاماژە بەوەی زانیاری زیاتر لە شوێنی تر دراوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I've placed an asterisk next to the tasks I want you to do first.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I've placed an asterisk next to the tasks I want you to do first."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەستێرەم لە تەنیشت ئەو ئەرکانە داناوە کە دەمەوێت سەرەتا بیانکەیت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەستێرەم لە تەنیشت ئەو ئەرکانە داناوە کە دەمەوێت سەرەتا بیانکەیت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAsterisk943("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAsterisk943(
                                     // REPLACE: asterisk /ˈæstərɪsk/
                                     "en-US"),
@@ -373,15 +307,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: asterisk (derived forms: asterisks)
 1. A star-shaped character * used in printing (= star)
 
 - Verb: asterisk (derived forms: asterisks, asterisking, asterisked)
 1. Mark with an asterisk (= star)
 "Linguists asterisk unacceptable sentences";
-"""),
+""",
+          )
         ],
       ),
     );

@@ -206,44 +206,21 @@ class EnglishEntryantihistamine extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: دەرمانی دژەھەستیاری یان پێنەکەوتن
 
-١. (ناو) دەرمانێک بۆ چارەسەری ھەستیاری، بەتایبەتی ھەستیارییەک کە تووشی دەبیت لە چاو و لوت و قوڕگدا بەھۆی ھەڵمژینی ھەڵاڵەی گوڵ''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) دەرمانێک بۆ چارەسەری ھەستیاری، بەتایبەتی ھەستیارییەک کە تووشی دەبیت لە چاو و لوت و قوڕگدا بەھۆی ھەڵمژینی ھەڵاڵەی گوڵ"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Antihistamine is often used to treat hay fever and insect bites.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Antihistamine is often used to treat hay fever and insect bites."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دژە-ھەستیاری زۆرجار بەکاردێت بۆ چارەسەری ھەستیاری بە ھەڵاڵەی گوڵ یان گەستنی مێروو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دژە-ھەستیاری زۆرجار بەکاردێت بۆ چارەسەری ھەستیاری بە ھەڵاڵەی گوڵ یان گەستنی مێروو."),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
@@ -253,12 +230,7 @@ class EnglishEntryantihistamine extends StatelessWidget {
                                 onPressed: () =>
                                     speakAntihistamine1105("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAntihistamine1105(
                                     // REPLACE: antihistamine /ˌæntiˈhɪstəmiːn/
                                     "en-US"),
@@ -309,11 +281,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: antihistamine (derived forms: antihistamines)
 1. A medicine used to treat allergies and hypersensitive reactions and colds; works by counteracting the effects of histamine on a receptor site
-'''),
+""",
+          )
         ],
       ),
     );

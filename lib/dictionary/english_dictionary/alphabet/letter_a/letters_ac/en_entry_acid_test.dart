@@ -156,55 +156,22 @@ class EnglishEntryacidtest extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: پێوەر یان پێوانەی دیاری‌کەر، بەردی مەحەک، تاقی‌کردنەوەی سەخت
 
-١. (ناو) ڕێگای دیاریکردنی ئەوەی کەسێک/شتێک سەرکەوتووە یان نا''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ڕێگای دیاریکردنی ئەوەی کەسێک/شتێک سەرکەوتووە یان نا"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The acid test of a good driver is whether they remain calm in an emergency.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "سەنگی مەحەک بۆ شۆفێرێکی باش ئەوەیە کە بە ئارامی دەمێنێتەوە لە حاڵەتی نەخوازراو یان نا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The acid test of a good driver is whether they remain calm in an emergency."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "سەنگی مەحەک بۆ شۆفێرێکی باش ئەوەیە کە بە ئارامی دەمێنێتەوە لە حاڵەتی نەخوازراو یان نا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAcidt14587("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAcidt14587(
                                     "en-US"), // REPLACE acid test /ˌæsɪd ˈtest/
                               ),
@@ -252,11 +219,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: acid test (derived forms: acid tests)
 1. A rigorous or crucial appraisal
-'''),
+""",
+          )
         ],
       ),
     );

@@ -156,44 +156,20 @@ class EnglishEntryairingcupboard extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: کاپ‌بۆردی وشک‌کەرەوەی جل، دۆڵابی بەرگ وشک‌کەرەوە، دۆڵابی بەرگ وشک‌کردنەوە
 
-١. (ناو) دۆڵابێک کە جلوبەرگی پاکی تێدەخەیت بۆ ئەوەی دڵنیابیت بە تەواوی وشکن''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) دۆڵابێک کە جلوبەرگی پاکی تێدەخەیت بۆ ئەوەی دڵنیابیت بە تەواوی وشکن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Put the clothes in the airing cupboard.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Put the clothes in the airing cupboard."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "جلەکان بخە دۆڵابەکە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text: "جلەکان بخە دۆڵابەکە."),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
@@ -203,12 +179,7 @@ class EnglishEntryairingcupboard extends StatelessWidget {
                                 onPressed: () =>
                                     speakAiringcupboard4588("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAiringcupboard4588(
                                     // REPLACE: airing cupboard /ˈerɪŋ kʌbərd/
                                     "en-US"),
@@ -257,12 +228,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: airing cupboard (derived forms: airing cupboards)
 Usage: UK
 1. A warm cupboard where you put newly washed clothes until they are completely dry (= hot press [Ireland])
-'''),
+""",
+          )
         ],
       ),
     );

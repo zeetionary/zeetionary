@@ -174,54 +174,22 @@ class EnglishEntryaffinity extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: بەستراوی، پێوەستایەتی، پشت‌پێ‌بەستوویی، خۆبەستەیی، سەربەدی‌یەتی، پاشکۆیی، پێوەبەندایەتی، دیبەندایەتی، لێکچوویی، لێک‌نزیکی، وەکھەڤی، نزیکی، وەکیەکی، پێوەندی، تێکەڵی، خزمایەتی ژن‌ومێردایەتی، ئەوینداری، مەیل، (کیمیا) ھۆگرێتی، ڕاکێشان، ڕاکێشەرێتی
 
-١. (ناو) بوونی ھەستێکی بەھێز کە لە شتێک تێدەگەیت و حەزت بۆی ھەیە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) بوونی ھەستێکی بەھێز کە لە شتێک تێدەگەیت و حەزت بۆی ھەیە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Sam was born in the country and had a deep affinity with nature.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction1
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "سام لە لادێ لەدایکبووبوو و ھۆگرییەکی قووڵی بۆ سرووشت ھەبوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Sam was born in the country and had a deep affinity with nature."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "سام لە لادێ لەدایکبووبوو و ھۆگرییەکی قووڵی بۆ سرووشت ھەبوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAffi5699("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAffi5699(
                                     // REPLACE: affinity /əˈfɪnəti/
                                     "en-US"),
@@ -231,34 +199,13 @@ class EnglishEntryaffinity extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Humans have a special affinity for dolphins.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction1
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "مرۆڤ ھۆگرییەکی تایبەتی بۆ دۆڵفین ھەیە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Humans have a special affinity for dolphins."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "مرۆڤ ھۆگرییەکی تایبەتی بۆ دۆڵفین ھەیە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAf155("en-GB"),
                               ),
                               IconButton(
@@ -274,52 +221,20 @@ class EnglishEntryaffinity extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) بوونی خاسیەتی لێکچوو''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) بوونی خاسیەتی لێکچوو"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "There is a close affinity between Italian and Spanish.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction1
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لێکچوونی زۆر ھەیە لەنێوان زمانەکانی ئیسپانی و ئیتالی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "There is a close affinity between Italian and Spanish."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لێکچوونی زۆر ھەیە لەنێوان زمانەکانی ئیسپانی و ئیتالی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAffinity145("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAffinity145(
                                     // REPLACE: affinity /əˈfɪnəti/
                                     "en-US"),
@@ -368,8 +283,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: affinity (derived forms: affinities)
 1. A natural attraction or feeling of kinship
 "an affinity for politics"; "the mysterious affinity between them"; "James's affinity with Sam"
@@ -388,7 +303,8 @@ class EnglishMeaning extends StatelessWidget {
 6. (anthropology) kinship by marriage or adoption; not a blood relationship
  
 7. (immunology) the attraction between an antigen and an antibody
-'''),
+""",
+          )
         ],
       ),
     );

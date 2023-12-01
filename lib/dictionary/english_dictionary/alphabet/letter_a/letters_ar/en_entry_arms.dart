@@ -211,48 +211,20 @@ class EnglishEntryarms extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ناو) ئەو چەکانەی لەلایەن سوپاوە بەکاردێن""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) ئەو چەکانەی لەلایەن سوپاوە بەکاردێن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The UN imposed an arms embargo on the country.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The UN imposed an arms embargo on the country."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "نەتەوە یەکگرتووەکان گەمارۆی چەک و تەقەمەنی بەسەر وڵاتەکەدا سەپاند.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "نەتەوە یەکگرتووەکان گەمارۆی چەک و تەقەمەنی بەسەر وڵاتەکەدا سەپاند."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArms705("en-GB"),
                               ),
                               IconButton(
@@ -271,38 +243,16 @@ class EnglishEntryarms extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He's the world's most notorious arms dealer.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He's the world's most notorious arms dealer."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بەناوبانگترین بازرگانی چەک و تەقەمەنییە لە جیھاندا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بەناوبانگترین بازرگانی چەک و تەقەمەنییە لە جیھاندا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArms706("en-GB"),
                               ),
                               IconButton(
@@ -361,8 +311,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: arms 
 1. Weapons considered collectively (= weaponry, implements of war, weapons system, munition)
  
@@ -388,7 +338,8 @@ class EnglishMeaning extends StatelessWidget {
  
 2. Supply with arms
 "The U.S. armed the freedom fighters in Afghanistan"
-"""),
+""",
+          )
         ],
       ),
     );

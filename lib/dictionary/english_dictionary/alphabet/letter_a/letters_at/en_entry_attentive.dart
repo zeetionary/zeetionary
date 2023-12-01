@@ -213,50 +213,20 @@ class EnglishEntryattentive extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: بەسەرنج، ورد، گوێگر، سەرنج‌پێداو، وردەوەبوو، بەزەین، ئاگادار، وریا، ھۆشیار، پڕ(ھۆ)شیار، چاودێر
 
-١. (ھاوەڵناو) گوێگرتن یان سەیرکردن بە وریایی و حەزەوە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) گوێگرتن یان سەیرکردن بە وریایی و حەزەوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He listened, quiet and attentive.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "He listened, quiet and attentive."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "گوێی گرت بە ئارامی و سەرنجەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "گوێی گرت بە ئارامی و سەرنجەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAttentive904("en-GB"),
                               ),
                               IconButton(
@@ -273,48 +243,20 @@ class EnglishEntryattentive extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ھاوەڵناو) یارمەتیدەر، دڵنیاییکردنەوە لەوەی ھەموو شتێک خەڵکی دەیەوێت بەردەستە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ھاوەڵناو) یارمەتیدەر، دڵنیاییکردنەوە لەوەی ھەموو شتێک خەڵکی دەیەوێت بەردەستە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The hotel staff are friendly and attentive.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The hotel staff are friendly and attentive."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ستافی ھوتێلەکە زۆر ڕووخۆش و یارمەتیدەرن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ستافی ھوتێلەکە زۆر ڕووخۆش و یارمەتیدەرن."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAttentive906("en-GB"),
                               ),
                               IconButton(
@@ -373,14 +315,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: attentive 
 1. (often followed by 'to') giving care or attention
 "attentive to details"; "the nurse was attentive to her patient"; "an attentive suitor"
  
 2. Taking heed; giving close and thoughtful attention (= heedful, thoughtful, paying attention)
-"""),
+""",
+          )
         ],
       ),
     );

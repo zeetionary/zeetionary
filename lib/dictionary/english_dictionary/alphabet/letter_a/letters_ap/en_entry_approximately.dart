@@ -211,44 +211,21 @@ class EnglishEntryapproximately extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: نزیکەی، بە مەزندە، لە دەوروبەری، بڵێین، تەقریبەن، تا ئەندازەیێ، بەلای نزیکی‌یەوە
 
-١. (ھاوەڵکار) بەنزیکەیی""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵکار) بەنزیکەیی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The journey took approximately seven hours.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The journey took approximately seven hours."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "گەشتەکە بەنزیکەیی حەوت کاتژمێری پێچوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "گەشتەکە بەنزیکەیی حەوت کاتژمێری پێچوو."),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
@@ -258,12 +235,7 @@ class EnglishEntryapproximately extends StatelessWidget {
                                 onPressed: () =>
                                     speakApproximately1010("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakApproximately1010(
                                     // REPLACE: approximately /əˈprɑːksɪmətli/
                                     "en-US"),
@@ -274,32 +246,15 @@ class EnglishEntryapproximately extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The two buildings were approximately equal in size.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The two buildings were approximately equal in size."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بیناکان بەنزیکەیی یەکسان بوون لە ئەندازەدا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بیناکان بەنزیکەیی یەکسان بوون لە ئەندازەدا."),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
@@ -309,12 +264,7 @@ class EnglishEntryapproximately extends StatelessWidget {
                                 onPressed: () =>
                                     speakApproximately1011("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakApproximately1011(
                                     // REPLACE: approximately /əˈprɑːksɪmətli/
                                     "en-US"),
@@ -365,12 +315,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adverb: approximately 
 1. (of quantities) imprecise but fairly close to correct (= about, close to, just about, some, roughly, more or less, around, or so, loosely)
 "lasted approximately an hour";
-"""),
+""",
+          )
         ],
       ),
     );

@@ -156,55 +156,21 @@ class EnglishEntryadamant extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: کەللەڕەق، لاسار، کوڕڕە، یەکبڕیار، سەرڕەق، سوور، بڕا
 
-١. (ھاوەڵناو) بەردەوامبوون لەسەر بۆچوونی خۆت''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) بەردەوامبوون لەسەر بۆچوونی خۆت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Eva was adamant that she would not come.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئێڤا سوور بوو لەسەر ئەوەی کە نایەت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Eva was adamant that she would not come."),
+                              const ExampleSentenceKurdish(
+                                  text: "ئێڤا سوور بوو لەسەر ئەوەی کە نایەت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdam35871("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdam35871(
                                     // REPLACE: adamant /ˈædəmənt/
                                     "en-US"),
@@ -253,15 +219,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: adamant (derived forms: adamants)
 1. Impervious to pleas, persuasion, requests, reason (= adamantine, inexorable, intransigent, unbudgeable)
 "he is adamant in his refusal to change his mind";
 
 - Noun: adamant 
 1. Very hard native crystalline carbon valued as a gem (= diamond)
-'''),
+""",
+          )
         ],
       ),
     );

@@ -149,107 +149,41 @@ class EnglishEntryabsence extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: نەبوون، نەبوونی، نائامادەیی، نالێرەیی، نەھاتن، دووری، دیارنەبوون، بزرێتی، ناپەیدایی، نادیاری، نەھاتوویی، دژی
 
-١. (ناو) کاتێک کەسێک لە شوێنێک ئامادە نییە لەکاتێکدا زۆرینەی کات لەوێیە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کاتێک کەسێک لە شوێنێک ئامادە نییە لەکاتێکدا زۆرینەی کات لەوێیە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "We did not receive any news during his long absence.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھیچ ھەواڵێکمان پێنەگەیشت لەو ماوە زۆرەی بزر بوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We did not receive any news during his long absence."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھیچ ھەواڵێکمان پێنەگەیشت لەو ماوە زۆرەی بزر بوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA2689("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA2689("en-US"),
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) کاتی نەبوونی شتێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) کاتی نەبوونی شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The case was dismissed in the absence of any definite proof.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کەیسەکە کۆتایی پێھێنرا بەھۆی نەبوونی بەڵگەی ئاشکرا",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The case was dismissed in the absence of any definite proof."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کەیسەکە کۆتایی پێھێنرا بەھۆی نەبوونی بەڵگەی ئاشکرا"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakA2134("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakA2134("en-US"),
                               ),
                             ],
@@ -296,8 +230,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: absence (derived forms: absences)
 1. The state of being absent
 "he was surprised by the absence of any explanation"
@@ -308,7 +242,8 @@ class EnglishMeaning extends StatelessWidget {
 "he visited during my absence"
  
 4.The occurrence of an abrupt, transient loss or impairment of consciousness (which is not subsequently remembered), sometimes with light twitching, fluttering eyelids, etc.; common in petit mal epilepsy (= absence seizure)
-'''),
+""",
+          )
         ],
       ),
     );

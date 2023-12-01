@@ -204,58 +204,25 @@ class EnglishEntryamputation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: پەل‌کردن، لێ‌کردنەوە، بڕینەوە، قەڵخ‌کردن، قەڵخاندن، ئەندام‌بڕی
 
-١. (ھاوەڵناو) کردەی بڕینەوەی باڵ، لاق، یان پەنجەی کەسێک بە نەشتەرگەری''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) کردەی بڕینەوەی باڵ، لاق، یان پەنجەی کەسێک بە نەشتەرگەری"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "A boyhood accident led to the amputation of one of his legs.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "A boyhood accident led to the amputation of one of his legs."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ڕووداوێک لەکاتی منداڵی‌یدا بوو بەھۆی بڕینەوەی لاقێکی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕووداوێک لەکاتی منداڵی‌یدا بوو بەھۆی بڕینەوەی لاقێکی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAmputation7704("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAmputation7704(
                                     // REPLACE: amputation /ˌæmpjuˈteɪʃn/
                                     "en-US"),
@@ -306,13 +273,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: amputation (derived forms: amputations)
 1. A condition of disability resulting from the loss of one or more limbs
  
 2. A surgical removal of all or part of a limb
-'''),
+""",
+          )
         ],
       ),
     );

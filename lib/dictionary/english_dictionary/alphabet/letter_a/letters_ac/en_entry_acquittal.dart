@@ -156,55 +156,20 @@ class EnglishEntryacquittal extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: بێ‌تاوانبار ناسران، پاک‌دەرچوون، بەردران، پاکانە، پاک‌بوونەوە، لێخۆشبوون
 
-١. (ھاوەڵناو) ناساندنی گومانلێکراوێک لە دادگا بە بێ گوناح''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) ناساندنی گومانلێکراوێک لە دادگا بە بێ گوناح"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The case resulted in an acquittal.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کەیسەکە بە لێخۆشبوون کۆتایی ھات.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text: "The case resulted in an acquittal."),
+                              const ExampleSentenceKurdish(
+                                  text: "کەیسەکە بە لێخۆشبوون کۆتایی ھات."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAcqu21647("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAcqu21647(
                                     "en-US"), // REPLACE acquittal /əˈkwɪtl/
                               ),
@@ -252,11 +217,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: acquittal (derived forms: acquittals)
 (law) a judgment of not guilty
-'''),
+""",
+          )
         ],
       ),
     );

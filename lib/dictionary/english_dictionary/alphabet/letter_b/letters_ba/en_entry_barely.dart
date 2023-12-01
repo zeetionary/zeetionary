@@ -291,8 +291,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adverb: barely
 1. Only a very short time before (= hardly, just, scarcely, scarce)
  
@@ -301,7 +301,8 @@ class EnglishMeaning extends StatelessWidget {
  
 3. By a little (= just)
 "it was barely 5 a.m."; "the network has barely 5 percent of viewers";
-"""),
+""",
+          )
         ],
       ),
     );

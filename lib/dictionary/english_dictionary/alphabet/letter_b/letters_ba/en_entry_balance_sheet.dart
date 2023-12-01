@@ -204,59 +204,25 @@ class EnglishEntrybalancesheet extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: نامەی ھاوسەنگی، ھاوسەنگی‌نامە، تەرازنامە
 
-١. (ناو) نامەیەک کە سەروەت و سامانی کۆمپانیایەکی تێدایە لەگەڵ لیستی خەرجی و پارەدان""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) نامەیەک کە سەروەت و سامانی کۆمپانیایەکی تێدایە لەگەڵ لیستی خەرجی و پارەدان"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "He points out that the company has the strongest balance sheet.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He points out that the company has the strongest balance sheet."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "خستییەبەرچاو کە کۆمپانیاکە بەھێزترین تەرازنامەی ھەیە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "خستییەبەرچاو کە کۆمپانیاکە بەھێزترین تەرازنامەی ھەیە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBalancesheets1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakBalancesheets1(
                                     // REPLACE: balance sheet
                                     "en-US"),
@@ -307,11 +273,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: balance sheet (derived forms: balance sheets) 
 1. A record of the financial situation of an institution on a particular date by listing its assets and the claims against those assets
-"""),
+""",
+          )
         ],
       ),
     );

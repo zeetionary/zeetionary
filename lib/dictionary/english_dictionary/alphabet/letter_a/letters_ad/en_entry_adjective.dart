@@ -155,55 +155,20 @@ class EnglishEntryadjective extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ئاوەڵ‌ناو، ڕەنگدێر، سەربە یا وەک ئاوەڵ‌ناو کار دەکا
 
-١. (ناو) وشەیەک زانیاریی زیادە دەدات لەسەر کەسێک یان شتێک، بۆ نموونە  وشەی جوان لە "ماڵێکی جوان."''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) وشەیەک زانیاریی زیادە دەدات لەسەر کەسێک یان شتێک، بۆ نموونە  وشەی جوان لە "ماڵێکی جوان."""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Adjectives qualify nouns.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھاوەڵناو پێناسەی ناو دەکات.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text: "Adjectives qualify nouns."),
+                              const ExampleSentenceKurdish(
+                                  text: "ھاوەڵناو پێناسەی ناو دەکات."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdje1411("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdje1411(
                                     // REPLACE: adjective /ˈædʒɪktɪv/
                                     "en-US"),
@@ -252,8 +217,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: adjective (derived forms: adjectives)
 1. A word that expresses an attribute of something
  
@@ -265,7 +230,8 @@ Of or relating to or functioning as an adjective (= adjectival)
  
 2. (law) relating to court practice and procedure as opposed to the principles of law (= procedural)
 "adjective law";
-'''),
+""",
+          )
         ],
       ),
     );

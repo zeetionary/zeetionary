@@ -205,50 +205,22 @@ class EnglishEntryautonomy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: خۆبەڕێوەبەری، لاسەربەخۆیی، سەربەخۆیی نێوخۆیی، خودموختاری، سەربەخۆیی، ئازادی
 
-١. (ناو) مافی خۆبەڕێوبەری بۆ خاکێک یان دامەزراوەیەک""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) مافی خۆبەڕێوبەری بۆ خاکێک یان دامەزراوەیەک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "There is pressure for some degree of autonomy from minorities in the north of the country.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "There is pressure for some degree of autonomy from minorities in the north of the country."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "داوا ھەیە بۆ ھەندێک خۆبەڕێوبەری لەلایەن کەمینەکانی باکووری وڵاتەکەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "داوا ھەیە بۆ ھەندێک خۆبەڕێوبەری لەلایەن کەمینەکانی باکووری وڵاتەکەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAutonomyS1("en-GB"),
                               ),
                               IconButton(
@@ -265,48 +237,20 @@ class EnglishEntryautonomy extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ناو) توانای بڕیاردان و ژیانکردن بە سەربەخۆیانە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) توانای بڕیاردان و ژیانکردن بە سەربەخۆیانە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "One of the aims of modern nursing is to encourage patient autonomy.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "One of the aims of modern nursing is to encourage patient autonomy."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "یەکێک لە ئامانجەکانی کاری پەرستاری لەم سەردەمەدا ئەوەیە نەخۆش بتوانێت سەربەخۆ بێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "یەکێک لە ئامانجەکانی کاری پەرستاری لەم سەردەمەدا ئەوەیە نەخۆش بتوانێت سەربەخۆ بێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAutonomyS2("en-GB"),
                               ),
                               IconButton(
@@ -365,15 +309,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: autonomy (derived forms: autonomies)
 1. Immunity from arbitrary exercise of authority: political independence (= liberty)
  
 2. Personal independence (= self-direction, self-reliance, self-sufficiency)
  
 3. The capacity of a system to make its own decisions about its actions
-"""),
+""",
+          )
         ],
       ),
     );

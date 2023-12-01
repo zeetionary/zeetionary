@@ -155,14 +155,8 @@ class EnglishEntryalacarte extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (ھاوەڵناو و ھاوەڵکار) ھەڵبژاردنی خواردن لە چێشتخانەیەک بە دیاریکردنی بەش بەش لە کۆمەڵە خواردنێک کە نرخیان جیاوازە، لە جیاتی ھەڵبژاردنی یەک ژەم کە نرخێکی دیاریکراوی ھەیە ''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          DefinitionKurdish(text: """
+١. (ھاوەڵناو و ھاوەڵکار) ھەڵبژاردنی خواردن لە چێشتخانەیەک بە دیاریکردنی بەش بەش لە کۆمەڵە خواردنێک کە نرخیان جیاوازە، لە جیاتی ھەڵبژاردنی یەک ژەم کە نرخێکی دیاریکراوی ھەیە """),
                         ],
                       ),
                     ),
@@ -205,8 +199,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: à la carte 
 1. A menu having individual dishes listed with separate prices
 
@@ -216,7 +210,8 @@ class EnglishMeaning extends StatelessWidget {
 
 - Adjective: à la carte  
 1. (of a restaurant meal) having unlimited choices with a separate price for each item
-'''),
+""",
+          )
         ],
       ),
     );

@@ -205,58 +205,25 @@ class EnglishEntryanomaly extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: نائاسایێتی، سەیربوون، ناڕێکی، بێ‌ڕێسایی، شتێکی نائاسایی، دۆخی نائاسایی
 
-١. (ھاوەڵناو) شتێک یان بارودۆخێک کە نائاساییە وەک لەوەی چاوەڕوانکراوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) شتێک یان بارودۆخێک کە نائاساییە وەک لەوەی چاوەڕوانکراوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "There are areas of anomaly in the report.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "There are areas of anomaly in the report."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەندێک بەشی نائاسایی لە ڕاپۆرتەکە ھەیە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەندێک بەشی نائاسایی لە ڕاپۆرتەکە ھەیە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnomaly1003("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAnomaly1003(
                                     // REPLACE: anomaly /əˈnɑːməli/
                                     "en-US"),
@@ -307,15 +274,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: anomaly (derived forms: anomalies)
 1. Deviation from the normal or common order or form or rule (= anomalousness)
  
 2. A person who is unusual (= unusual person)
  
 3. (astronomy) position of a planet as defined by its angular distance from its perihelion (as observed from the sun)
-'''),
+""",
+          )
         ],
       ),
     );

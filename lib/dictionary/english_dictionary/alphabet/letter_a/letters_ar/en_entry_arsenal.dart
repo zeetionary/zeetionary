@@ -213,58 +213,25 @@ class EnglishEntryarsenal extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: جبەخانە، قۆڕخانە، باڕووت‌خانە، چەک‌وچۆڵ، چەکەمەنی، (کارخانە) چەک‌سازی، تۆکمەسازی، عەماری چەک‌وچۆڵ و تەقەمەنی، عەمار، کۆگا، ھەمار، پاشکەوت‌خانە
 
-١. (ناو) چەک و تەقەمەنی""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) چەک و تەقەمەنی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The treaty requires them to reduce their nuclear arsenal by 30%.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The treaty requires them to reduce their nuclear arsenal by 30%."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ڕێککەوتنەکە ناچاریان دەکات چەکی ئەتۆمییان بە ڕێژەی ٣٠٪ کەم بکەنەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕێککەوتنەکە ناچاریان دەکات چەکی ئەتۆمییان بە ڕێژەی ٣٠٪ کەم بکەنەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArsenal825("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakArsenal825(
                                     // REPLACE: arsenal /ˈɑːrsənl/
                                     "en-US"),
@@ -273,56 +240,23 @@ class EnglishEntryarsenal extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ناو) کۆگای چەک و تەقەمەنی""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) کۆگای چەک و تەقەمەنی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The building was used as an arsenal until the eighteenth century.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The building was used as an arsenal until the eighteenth century."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بیناکە وەک جبەخانەیەک بەکارھات تاوەکو سەدەی ھەژدە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بیناکە وەک جبەخانەیەک بەکارھات تاوەکو سەدەی ھەژدە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArsenal826("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakArsenal826(
                                     // REPLACE: arsenal /ˈɑːrsənl/
                                     "en-US"),
@@ -373,8 +307,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: arsenal (derived forms: arsenals)
 1. All the weapons and equipment that a country has (= armory [US], armoury [Brit, Cdn])
  
@@ -384,7 +318,8 @@ class EnglishMeaning extends StatelessWidget {
  
 4. A supply of something available for future use (= store, stock, fund)
 "he brought back a large arsenal of Cuban cigars";
-"""),
+""",
+          )
         ],
       ),
     );

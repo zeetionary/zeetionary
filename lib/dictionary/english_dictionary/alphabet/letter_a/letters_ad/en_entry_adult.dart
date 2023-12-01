@@ -157,55 +157,22 @@ class EnglishEntryadult extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: کامڵ، پێگەیشتوو، پێگەییو، گەورە، ڕەسیدە، خۆناسیو، باڵق، تەواوھەڵداو، گەورەساڵ، بە تەمەنی قانوونی‌گەیشتوو (بۆ دەنگدان و ھاوسەر گرتن)
 
-١. (ناو) کەسێک کە لە ڕووی یاساییەوە بەرپرسە بۆ کردارەکانی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کەسێک کە لە ڕووی یاساییەوە بەرپرسە بۆ کردارەکانی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Children must be accompanied by an adult.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "منداڵان دەبێت کەسێکی پێگەیشتوویان لەگەڵدا بێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Children must be accompanied by an adult."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "منداڵان دەبێت کەسێکی پێگەیشتوویان لەگەڵدا بێت."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdult12568("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdult12568(
                                     // REPLACE: adult /ˈædʌlt/, /əˈdʌlt/
                                     "en-US"),
@@ -213,53 +180,20 @@ class EnglishEntryadult extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) ئاژەڵێکی تەواو پێگەیشتوو''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) ئاژەڵێکی تەواو پێگەیشتوو"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The fish return to the river as adults in order to breed.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ماسییەکان کە تەواو گەورە دەبن دەگەڕێنەوە ناو ڕووبارەکە بۆ زاوزێ.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The fish return to the river as adults in order to breed."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ماسییەکان کە تەواو گەورە دەبن دەگەڕێنەوە ناو ڕووبارەکە بۆ زاوزێ."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdul458237("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdul458237(
                                     // REPLACE: adult /ˈædʌlt/, /əˈdʌlt/
                                     "en-US"),
@@ -308,8 +242,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: adult (derived forms: adults)
 1. A fully developed person from maturity onward (= grownup)
  
@@ -321,7 +255,8 @@ class EnglishMeaning extends StatelessWidget {
  
 3. Designed to arouse lust (= pornographic, porn [informal])
 "adult movies";
-'''),
+""",
+          )
         ],
       ),
     );

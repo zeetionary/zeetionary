@@ -155,14 +155,8 @@ class EnglishEntryaerodynamics extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (ناو) ئەو خاسیەتانەی شتێک کە کاردەکاتە سەر جووڵەی لە ھەوادا''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          DefinitionKurdish(text: """
+١. (ناو) ئەو خاسیەتانەی شتێک کە کاردەکاتە سەر جووڵەی لە ھەوادا"""),
                         ],
                       ),
                     ),
@@ -205,11 +199,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: aerodynamics 
 1. The branch of mechanics that deals with the motion of gases (especially air) and their effects on bodies in the flow (= aeromechanics)
-'''),
+""",
+          )
         ],
       ),
     );

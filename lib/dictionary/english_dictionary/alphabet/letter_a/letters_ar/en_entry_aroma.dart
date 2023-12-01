@@ -210,50 +210,22 @@ class EnglishEntryaroma extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: بۆنی خۆش، بەرامە، عەتر، گوڵاو، کەش، تایبەتمەندی، تام‌وبۆ، سەنگ‌وڕەنگ، ڕەنگ‌وبۆ
 
-١. (ناو) بۆنێکی خۆش کە بە ئاسانی ھەستی پێ دەکرێت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) بۆنێکی خۆش کە بە ئاسانی ھەستی پێ دەکرێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "A delicious aroma was coming from the kitchen.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "A delicious aroma was coming from the kitchen."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بۆن و بەرامەیەکی بەلەزەت لە چێشتخانەکەوە دەھات.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بۆن و بەرامەیەکی بەلەزەت لە چێشتخانەکەوە دەھات."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAroma822("en-GB"),
                               ),
                               IconButton(
@@ -312,13 +284,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: aroma (derived forms: aromas)
 1. Any property detected by the olfactory system (= olfactory property, smell, odor [US], odour [Brit, Cdn], scent)
  
 2. A distinctive odour that is pleasant (= fragrance, perfume, scent)
-"""),
+""",
+          )
         ],
       ),
     );

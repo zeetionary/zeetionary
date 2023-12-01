@@ -212,58 +212,25 @@ class EnglishEntryartichoke extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: (ڕووەک‌ناسی) ئارتیشۆک، شەکرۆکە، دڕەبا
 
-١. (ناو) سەوزەیەکی خڕ کە کە گەڵای ئەستووری زۆری ھەیە. بەشی خوارەوەی گەڵاکان و ناوەوەی سەوزەکە دەکرێت بخورێت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) سەوزەیەکی خڕ کە کە گەڵای ئەستووری زۆری ھەیە. بەشی خوارەوەی گەڵاکان و ناوەوەی سەوزەکە دەکرێت بخورێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Cut the artichoke into long quarters and remove the choke (the purple spikes and blond fluff).",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Cut the artichoke into long quarters and remove the choke (the purple spikes and blond fluff)."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئارتیشۆکەکە بکە چوار بەشی یەکسانەوە و ناوەکەی لابدە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئارتیشۆکەکە بکە چوار بەشی یەکسانەوە و ناوەکەی لابدە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArtichoke510("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakArtichoke510(
                                     // REPLACE: artichoke /ˈɑːrtɪtʃəʊk/
                                     "en-US"),
@@ -314,13 +281,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: artichoke (derived forms: artichokes)
 1. Mediterranean thistlelike plant widely cultivated for its large edible flower head (= globe artichoke, artichoke plant, Cynara scolymus)
  
 2. A thistlelike flower head with edible fleshy leaves and heart (= globe artichoke)
-"""),
+""",
+          )
         ],
       ),
     );

@@ -140,55 +140,22 @@ class EnglishEntryaccommodating extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: سازاو، گونجاو، دڵسۆز، بەبەزەیی، بەتەنگ خەڵکەوەبوو، یاریدەدەر
 
-١. (ھاوەڵناو) کەسێک کە یارمەتیی کەسانی تر دەدات''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) کەسێک کە یارمەتیی کەسانی تر دەدات"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "They are very accommodating to people with special needs.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "زۆر بە تەنگ کەسانی خاوەن پێداویستی تایبەتەوە دەچن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "They are very accommodating to people with special needs."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "زۆر بە تەنگ کەسانی خاوەن پێداویستی تایبەتەوە دەچن."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAc24687("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAc24687("en-US"),
                               ),
                             ],
@@ -235,15 +202,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: accommodating 
 1. Obliging; willing to do favours
 "made a special effort to be accommodating"
  
 2. Helpful in bringing about a harmonious adaptation (= accommodative)
 "made a special effort to be accommodating"; "the warden was always accommodating in allowing visitors in";
-'''),
+""",
+          )
         ],
       ),
     );

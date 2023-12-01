@@ -206,56 +206,23 @@ class EnglishEntryanthrax extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (ناو) نەخۆشییەکی کوشندە کە دەکرێت تووشی مەڕ و مانگا و ھەندێک جاریش مرۆڤ ببێت و ببێتەھۆی مردن''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) نەخۆشییەکی کوشندە کە دەکرێت تووشی مەڕ و مانگا و ھەندێک جاریش مرۆڤ ببێت و ببێتەھۆی مردن"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Humans can contract anthrax by handling products from infected animals.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Humans can contract anthrax by handling products from infected animals."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "مرۆڤ دەکرێت تووشی ڕەشەبرین ببێت بەھۆی دەستدان لە ئاژەڵی تووشبوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "مرۆڤ دەکرێت تووشی ڕەشەبرین ببێت بەھۆی دەستدان لە ئاژەڵی تووشبوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnthrax833("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAnthrax833(
                                     // REPLACE: anthrax /ˈænθræks/
                                     "en-US"),
@@ -306,13 +273,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: anthrax (derived forms: anthraces)
 1. A highly infectious animal disease (especially of cattle and sheep); it can be transmitted to people (= splenic fever)
  
 2. A disease of humans that is not communicable; caused by infection with Bacillus anthracis followed by septicemia
-'''),
+""",
+          )
         ],
       ),
     );

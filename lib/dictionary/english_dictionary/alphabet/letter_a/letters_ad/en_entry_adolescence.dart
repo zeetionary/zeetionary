@@ -156,55 +156,22 @@ class EnglishEntryadolescence extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: نیمچەجەحێڵی، مێرمناڵی، نۆجوانی، تازەلاوی، ھەرزەکاری، سەروبەندی مێرمنداڵی یان نۆجوانی، قۆناخی پەرەسەندن بەرلە پێگەیشتوویی
 
-١. (ناو) قۆناغی بوون بە ھەرزەکار''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) قۆناغی بوون بە ھەرزەکار"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Adolescence brings about major changes in a young person’s body.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەرزەکاری گۆڕانکاریی گرنگ دێنێتە جەستەی کەسێکی گەنج",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Adolescence brings about major changes in a young person’s body."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەرزەکاری گۆڕانکاریی گرنگ دێنێتە جەستەی کەسێکی گەنج"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdoles69874("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdoles69874(
                                     // REPLACE: adolescence /ˌædəˈlesns/
                                     "en-US"),
@@ -253,13 +220,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: adolescence (derived forms: adolescences)
 1. The time period between the beginning of puberty and adulthood
  
 2. The state that someone is in between puberty and adulthood
-'''),
+""",
+          )
         ],
       ),
     );

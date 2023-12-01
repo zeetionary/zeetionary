@@ -212,50 +212,22 @@ class EnglishEntryautomobile extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: ماشێن، خۆڕەو، ئۆتۆمبیل
 
-١. (ناو) ئۆتۆمبیل""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ئۆتۆمبیل"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Learning to drive an automobile is not easy.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Learning to drive an automobile is not easy."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "فێربوونی لێخوڕینی ئۆتۆمبێل ئاسان نییە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "فێربوونی لێخوڕینی ئۆتۆمبێل ئاسان نییە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAutomobile847("en-GB"),
                               ),
                               IconButton(
@@ -314,8 +286,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: automobile (derived forms: automobiles)
 Usage: N. Amer
 1. A motor vehicle with four wheels; usually propelled by an internal combustion engine (= car, auto [informal], motorcar, whip [US, informal], wheel [informal], autocar [archaic])
@@ -323,7 +295,8 @@ Usage: N. Amer
 - Verb: automobile (derived forms: automobiling, automobiles, automobiled)
 Usage: N. Amer
 1. Travel in an automobile
-"""),
+""",
+          )
         ],
       ),
     );

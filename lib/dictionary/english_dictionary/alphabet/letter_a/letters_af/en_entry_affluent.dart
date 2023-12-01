@@ -156,55 +156,20 @@ class EnglishEntryaffluent extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ھەڵقوڵیو، گوڕبوو، لێشاو، زۆروزەبەند، دەوڵەمەند، خۆش‌گوزەران
 
-١. (ھاوەڵناو) دەوڵەمەند و خۆشگوزەران''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) دەوڵەمەند و خۆشگوزەران"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "We live in an affluent neighborhood.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە گەڕەکێکی دەوڵەمەند دەژین.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text: "We live in an affluent neighborhood."),
+                              const ExampleSentenceKurdish(
+                                  text: "لە گەڕەکێکی دەوڵەمەند دەژین."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAfflu4922("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAfflu4922(
                                     // REPLACE: affluent /ˈæfluənt/
                                     "en-US"),
@@ -253,8 +218,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: affluent 
 1. Having an abundant supply of money or possessions of value (= flush, loaded [informal], moneyed, wealthy, substantial, minted [informal])
 "an affluent banker";
@@ -264,7 +229,8 @@ class EnglishMeaning extends StatelessWidget {
 "the so-called emerging affluents"
  
 2. A branch that flows into the main stream (= feeder, tributary, confluent)
-'''),
+""",
+          )
         ],
       ),
     );

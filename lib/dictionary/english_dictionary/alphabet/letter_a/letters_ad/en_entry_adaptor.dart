@@ -155,32 +155,14 @@ class EnglishEntryadaptor extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          DefinitionKurdish(text: """
 کوردی: پێکبەست، بەستەر، گونجێنەر، (کارەبا) گونجێنە، ئاداپتۆر
 
-١. (ناو) ئامێرێک کە بەکاردێت بۆ پێکەوەلکاندنی دوو پارچەی کارەبایی کە پێکەوە ناگونجێن''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) ئامێرێک کە بەکاردێت بۆ لکاندنی زیاتر لە یەک ئامێری کارەبایی بە پلاکێکەوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٣. (ناو) کەسێک کە کتێبێک یان شانۆیەک دووبارە دەنووسێتەوە بۆ ئەوەی بگونجێت لەگەڵ کردنی بە شانۆ یان فیلم''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ئامێرێک کە بەکاردێت بۆ پێکەوەلکاندنی دوو پارچەی کارەبایی کە پێکەوە ناگونجێن"""),
+                          DefinitionKurdish(text: """
+٢. (ناو) ئامێرێک کە بەکاردێت بۆ لکاندنی زیاتر لە یەک ئامێری کارەبایی بە پلاکێکەوە"""),
+                          DefinitionKurdish(text: """
+٣. (ناو) کەسێک کە کتێبێک یان شانۆیەک دووبارە دەنووسێتەوە بۆ ئەوەی بگونجێت لەگەڵ کردنی بە شانۆ یان فیلم"""),
                         ],
                       ),
                     ),
@@ -223,13 +205,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: adaptor (derived forms: adaptors)
 1. Device that enables something to be used in a way different from that for which it was intended or makes different pieces of apparatus compatible (= adapter)
  
 2. A musician who adapts a composition for particular voices or instruments or for another style of performance (= arranger, adapter, transcriber)
-'''),
+""",
+          )
         ],
       ),
     );

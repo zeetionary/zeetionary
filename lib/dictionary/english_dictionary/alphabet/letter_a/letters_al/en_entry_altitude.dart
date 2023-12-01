@@ -155,58 +155,24 @@ class EnglishEntryaltitude extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: بەرزایی، بەرزی، بڵیندایی، گڤاندە
 
-١. (ناو) بەرزایی لە سەروو ئاستی دەریا''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) بەرزایی لە سەروو ئاستی دەریا"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "We are flying at an altitude of 6 000 metres.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We are flying at an altitude of 6 000 metres."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە بەرزی ٦٠٠٠ مەتردا دەفڕین.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "لە بەرزی ٦٠٠٠ مەتردا دەفڕین."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAltitude("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAltitude(
                                     // REPLACE: altitude /ˈæltɪtuːd/
                                     "en-US"),
@@ -255,8 +221,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: altitude (derived forms: altitudes)
 1. Elevation especially above sea level or above the earth's surface (= height)
 "the altitude gave her a headache";
@@ -264,7 +230,8 @@ class EnglishMeaning extends StatelessWidget {
 2. The perpendicular distance from the base of a geometric figure to the opposite vertex (or side if parallel)
  
 3. Angular distance above the horizon (especially of a celestial object) (= elevation, EL, ALT)
-'''),
+""",
+          )
         ],
       ),
     );

@@ -205,48 +205,18 @@ class EnglishEntryanoint extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (ھاوەڵناو) دانانی ڕۆن یان ئاو لەسەر سەر یان جەستەی کەسێک وەک بەشێک لە ڕێوڕەسمێکی ئاینی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ھاوەڵناو) دانانی ڕۆن یان ئاو لەسەر سەر یان جەستەی کەسێک وەک بەشێک لە ڕێوڕەسمێکی ئاینی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The priest anointed her with oil.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "The priest anointed her with oil."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "قەشەکە بە ڕۆن چەوری کرد.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "قەشەکە بە ڕۆن چەوری کرد."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnoint949("en-GB"),
                               ),
                               IconButton(
@@ -305,14 +275,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Verb: anoint (derived forms: anointed, anoints, anointing)
 1. Choose by or as if by divine intervention
 "She was anointed the head of the Christian fundamentalist group"
  
 2. Administer an oil or ointment to; often in a religious ceremony of blessing (= inunct, oil, anele [archaic], embrocate)
-'''),
+""",
+          )
         ],
       ),
     );

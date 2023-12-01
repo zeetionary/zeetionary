@@ -206,49 +206,20 @@ class EnglishEntrybandwidth extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ناو) مەودایەک لە لەرە کە بەکاردێت بۆ ناردنی شەپۆلی ئەلیکترۆنی""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) مەودایەک لە لەرە کە بەکاردێت بۆ ناردنی شەپۆلی ئەلیکترۆنی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "The radio station broadcasts on a bandwidth of 92.1 MHz.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The radio station broadcasts on a bandwidth of 92.1 MHz."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "وێستگەی ڕادیۆکە لەسەر مەودای ٩٢,١ MHz پەخشدەکات.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وێستگەی ڕادیۆکە لەسەر مەودای ٩٢,١ MHz پەخشدەکات."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBandwidths1("en-GB"),
                               ),
                               IconButton(
@@ -265,49 +236,20 @@ class EnglishEntrybandwidth extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ناو) بڕێک لە زانیاری کە کۆمپیوتەرێک یان ھێڵی ئینتەرنێت دەتوانێت بینێرێت لەکاتێکی دیاریکراودا""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) بڕێک لە زانیاری کە کۆمپیوتەرێک یان ھێڵی ئینتەرنێت دەتوانێت بینێرێت لەکاتێکی دیاریکراودا"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "Upgrade to a higher bandwidth to increase your download limits.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Upgrade to a higher bandwidth to increase your download limits."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "باندبەرینێکی بەرزتر بەکاربێنە بۆ زیادکردنی سنووری دابەزاندن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "باندبەرینێکی بەرزتر بەکاربێنە بۆ زیادکردنی سنووری دابەزاندن."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBandwidths2("en-GB"),
                               ),
                               IconButton(
@@ -324,49 +266,20 @@ class EnglishEntrybandwidth extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٣. (ناو) وزە یان توانای پێویست بۆ کردنی شتێک""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٣. (ناو) وزە یان توانای پێویست بۆ کردنی شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "The team does not have the bandwidth to take on new projects at the moment.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The team does not have the bandwidth to take on new projects at the moment."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "تیمەکە توانای ئەوەی نییە پڕۆژەی دیکە دەستپێ‌بکات لە ئێستادا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "تیمەکە توانای ئەوەی نییە پڕۆژەی دیکە دەستپێ‌بکات لە ئێستادا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBandwidths3("en-GB"),
                               ),
                               IconButton(
@@ -425,13 +338,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: bandwidth (derived forms: bandwidths)
 1. A data transmission rate; the maximum amount of information (bits/second) that can be transmitted along a channel
  
 2. The difference between the highest and lowest frequencies of a transmission, usually measured in hertz
-"""),
+""",
+          )
         ],
       ),
     );

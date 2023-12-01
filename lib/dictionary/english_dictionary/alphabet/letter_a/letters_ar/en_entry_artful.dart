@@ -212,50 +212,22 @@ class EnglishEntryartful extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: فێڵباز، گزیکار، فێڵاوی، دەس‌ڕەنگین، شارەزا، کارامە، زیرەک، پڕفێڵ، بە فێڵەوە 
 
-١. (ھاوەڵناو) زیرەک لە بەدەستھێنانی ئەوەی دەتەوێت، زۆرجار بە بەکارھێنانی درۆ""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) زیرەک لە بەدەستھێنانی ئەوەی دەتەوێت، زۆرجار بە بەکارھێنانی درۆ"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He was artful and cunning, and I didn’t really trust him.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He was artful and cunning, and I didn’t really trust him."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کەسێکی پڕفێڵ و تەڵەکەباز بوو، و لەڕاستیدا باوەڕم پێی‌نەبوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کەسێکی پڕفێڵ و تەڵەکەباز بوو، و لەڕاستیدا باوەڕم پێی‌نەبوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArtful209("en-GB"),
                               ),
                               IconButton(
@@ -314,15 +286,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: artful 
 1. Not straightforward or candid; giving a false appearance of frankness (= disingenuous)
 "an ambitious, artful, philistine, and hypocritical operator, who...exemplified...the most disagreeable traits of his time";
  
 2. Marked by skill in achieving a desired end especially with cunning or craft
 "the artful dodger"; "an artful choice of metaphors"
-"""),
+""",
+          )
         ],
       ),
     );

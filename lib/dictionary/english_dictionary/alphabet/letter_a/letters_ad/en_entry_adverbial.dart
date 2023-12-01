@@ -155,24 +155,12 @@ class EnglishEntryadverbial extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          DefinitionKurdish(text: """
 کوردی: ئاوەڵ‌کاری، سەربە ئاوەڵ‌کار، کار ئاوەڵ‌کار دەکا
 
-١. (ھاوەڵناو) زانیاری زیادکردن لەسەر کات، شوێن، شێواز، ھۆکار، یان ئاست بۆ کردارێک، ھاوەڵناوێک، دەستەواژەیەک، یان ھاوەڵکارێکی تر''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) وشەیەک یان دەستەواژەیەک کە زانیاری زیاد دەکات لەسەر کات، شوێن، شێواز، ھۆکار، یان ئاست بۆ کردارێک، ھاوەڵناوێک، دەستەواژەیەک، یان ھاوەڵکارێکی تر''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) زانیاری زیادکردن لەسەر کات، شوێن، شێواز، ھۆکار، یان ئاست بۆ کردارێک، ھاوەڵناوێک، دەستەواژەیەک، یان ھاوەڵکارێکی تر"""),
+                          DefinitionKurdish(text: """
+٢. (ناو) وشەیەک یان دەستەواژەیەک کە زانیاری زیاد دەکات لەسەر کات، شوێن، شێواز، ھۆکار، یان ئاست بۆ کردارێک، ھاوەڵناوێک، دەستەواژەیەک، یان ھاوەڵکارێکی تر"""),
                         ],
                       ),
                     ),
@@ -215,15 +203,16 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: adverbial (derived forms: adverbials)
 1. Of or relating to or functioning as an adverb
 "adverbial syntax"
 
 - Noun: adverbial  ad'vur-bee-ul
 1. A word or group of words function as an adverb
-'''),
+""",
+          )
         ],
       ),
     );

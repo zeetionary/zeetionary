@@ -212,50 +212,22 @@ class EnglishEntryaudiovisual extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: گۆھداری و دیداری، بسیتن و دیتن
 
-١. (ھاوەڵناو) لەخۆگرتنی دەنگ و وێنە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) لەخۆگرتنی دەنگ و وێنە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The audiovisual presentation included slides of the birds and tapes of their songs.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The audiovisual presentation included slides of the birds and tapes of their songs."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پریزێنتەیشنەکە کە وێنە و دەنگیش بوو سلایدی باڵندە و تۆماری دەنگیانی لەخۆگرتبوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پریزێنتەیشنەکە کە وێنە و دەنگیش بوو سلایدی باڵندە و تۆماری دەنگیانی لەخۆگرتبوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAudiovisual151("en-GB"),
                               ),
                               IconButton(
@@ -314,8 +286,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: audiovisual
 1. Involving both hearing and seeing (usually relating to teaching aids)
 "the school's audiovisual department"
@@ -323,7 +295,8 @@ class EnglishMeaning extends StatelessWidget {
 - Noun: audiovisual (derived forms: audiovisuals)
 1. Materials using sight or sound to present information (= audiovisual aid)
 "language tapes and videocassettes and other audiovisuals";
-"""),
+""",
+          )
         ],
       ),
     );

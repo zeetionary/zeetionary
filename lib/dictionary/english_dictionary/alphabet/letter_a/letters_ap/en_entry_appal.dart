@@ -210,48 +210,20 @@ class EnglishEntryappal extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (کردار) کەسێک بە تەواوی بتاسێنی و ھەست بکات شتێک خراپە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (کردار) کەسێک بە تەواوی بتاسێنی و ھەست بکات شتێک خراپە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The idea of sharing a room appalled her.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The idea of sharing a room appalled her."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بیرۆکەی ھاوبەشی‌کردنی ژوورەکە تاساندی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بیرۆکەی ھاوبەشی‌کردنی ژوورەکە تاساندی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAppal737("en-GB"),
                               ),
                               IconButton(
@@ -310,8 +282,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Verb: appal (derived forms: appalling, appals)
 Usage: Brit, Cdn (US: appall)
 1. Strike with disgust or revulsion (= shock, offend, scandalize, scandalise [Brit], appall [US], outrage)
@@ -319,7 +291,8 @@ Usage: Brit, Cdn (US: appall)
  
 2. Fill with apprehension or alarm; cause to be unpleasantly surprised (= dismay, alarm, appall [US], horrify)
 "I was appalled at the thought of being late for my interview";
-"""),
+""",
+          )
         ],
       ),
     );

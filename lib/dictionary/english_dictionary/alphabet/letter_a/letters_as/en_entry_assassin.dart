@@ -212,58 +212,23 @@ class EnglishEntryassassin extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: پیاوکوژ (پیشەیی)، بکوژ، تروریست، کوشتن‌کار، ڕەشەکوژ
 
-١. (ناو) کەسێک کە کەسێکی بەناوبانگ یان گرنگ دەکوژێت بۆ پارە یان ھۆکاری سیاسی""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) کەسێک کە کەسێکی بەناوبانگ یان گرنگ دەکوژێت بۆ پارە یان ھۆکاری سیاسی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He was killed by a hired assassin.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text: "He was killed by a hired assassin."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لەلایەن بکوژێکی بەکرێگیراو کوژرا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "لەلایەن بکوژێکی بەکرێگیراو کوژرا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAssassin958("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAssassin958(
                                     // REPLACE: assassin /əˈsæsn/
                                     "en-US"),
@@ -314,14 +279,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: assassin (derived forms: assassins)
 1. A murderer (especially one who kills a prominent political figure) who kills by a surprise attack and often is hired to do the deed (= assassinator, bravo)
 "his assassins were hunted down like animals";
 
 2. A member of a secret order of Muslims (founded in the 12th century) who terrorized and killed Christian Crusaders
-"""),
+""",
+          )
         ],
       ),
     );

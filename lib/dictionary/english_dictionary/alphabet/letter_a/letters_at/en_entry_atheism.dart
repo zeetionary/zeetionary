@@ -212,50 +212,22 @@ class EnglishEntryatheism extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: بێ‌دینی، دیندڕی، لادینی، بێ‌خودایی، زەندیقی، ناخوداباوەڕی
 
-١. (ناو) باوەڕی ئەوەی کە خودا بوونی نییە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) باوەڕی ئەوەی کە خودا بوونی نییە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She is torn between atheism and the religious traditions she was raised with.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She is torn between atheism and the religious traditions she was raised with."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "گیری‌خواردووە لە نێوان ئەیسییزم و ئەو باوەڕە ئاینییانەی لەسەری گەورەکرا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "گیری‌خواردووە لە نێوان ئەیسییزم و ئەو باوەڕە ئاینییانەی لەسەری گەورەکرا."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAtheism731("en-GB"),
                               ),
                               IconButton(
@@ -314,11 +286,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: atheism (derived forms: atheisms)
 1. A lack of belief in the existence of God or gods
-"""),
+""",
+          )
         ],
       ),
     );

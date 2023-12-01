@@ -210,50 +210,21 @@ class EnglishEntryarmpit extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: بن‌ھەنگڵ، بەرەنگڵ، بن‌باڵ، بن‌پیل، بن‌باخڵ، کڵێشە، خەرک
 
-١. (ناو) بن‌باڵ؛ بەشی خوارەوەی جومگەی شان""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) بن‌باڵ؛ بەشی خوارەوەی جومگەی شان"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "To my mind, a hairless armpit looks unnatural.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "To my mind, a hairless armpit looks unnatural."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بۆ من، بن‌باڵی بێ موو نا سرووشتییە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "بۆ من، بن‌باڵی بێ موو نا سرووشتییە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArmpit412("en-GB"),
                               ),
                               IconButton(
@@ -312,12 +283,13 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: armpit (derived forms: armpits)
 1. The hollow under the arm where it is joined to the shoulder (= axilla, axillary cavity, axillary fossa, underarm)
 "they were up to their armpits in water";
-"""),
+""",
+          )
         ],
       ),
     );

@@ -204,58 +204,25 @@ class EnglishEntryanaemia extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: کەم‌خوێنی، زەردەڵی، بێ‌خوێنی، لاوازی
 
-١. (ناو) بارودۆخێکی تەندرووستی کە تێیدا کەسێک خڕۆکەی سوور یان ھیمۆگلۆبینی کەمە و دەبێتە ھۆی لاوازی و ڕەنگ‌پەڕیوی ''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) بارودۆخێکی تەندرووستی کە تێیدا کەسێک خڕۆکەی سوور یان ھیمۆگلۆبینی کەمە و دەبێتە ھۆی لاوازی و ڕەنگ‌پەڕیوی """),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The main symptoms of anaemia are tiredness and pallor.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The main symptoms of anaemia are tiredness and pallor."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "نیشانە سەرەکییەکانی ئەنیمیا ماندوێتی و ڕەنگ‌پەڕیویە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "نیشانە سەرەکییەکانی ئەنیمیا ماندوێتی و ڕەنگ‌پەڕیویە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAnaemia558("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAnaemia558(
                                     // REPLACE: anaemia /əˈniːmiə/
                                     "en-US"),
@@ -306,14 +273,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: anaemia (derived forms: anaemias)
 Usage: Brit, Cdn (US: anemia)
 1. A deficiency of red blood cells (= anemia [N. Amer])
  
 2. A lack of vitality (= anemia [N. Amer])
-'''),
+""",
+          )
         ],
       ),
     );

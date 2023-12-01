@@ -129,55 +129,22 @@ class EnglishEntryabashed extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: تریقەوەبوو، بەخۆداشکاو، شەرم‌داگرتوو، خەجاڵەتبار، شەرمەزار، ڕووزەرد، سەرلێ‌شێواو، تاساو، پەشۆکاو، دەس(ە)پاچە، عەبەسراو، واق‌وڕماو
 
-١. (ھاوەڵناو) شەرمەزار بەھۆی شتێک کە کردووتە                            ''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) شەرمەزار بەھۆی شتێک کە کردووتە                            """),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He glanced at Juliet accusingly and she looked abashed.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بە چاوی گومانەوە لە جولیای دەڕوانی و ئەویش شەرمەزار بوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He glanced at Juliet accusingly and she looked abashed."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بە چاوی گومانەوە لە جولیای دەڕوانی و ئەویش شەرمەزار بوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speak25476("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speak25476("en-US"),
                               ),
                             ],
@@ -215,8 +182,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: abashed
 1. Feeling or caused to feel ill at ease or self-conscious or ashamed (=chagrined, embarrassed, chagrinned)
 "felt abashed at the extravagant praise";
@@ -224,7 +191,8 @@ class EnglishMeaning extends StatelessWidget {
 - Verb: abash
 2۔ Cause to be embarrassed; cause to feel self-conscious (=embarrass)
 "One would think that Owen's failure even to pick up the hammer at the bell-ringing contest would thoroughly abash him, but he laughed about it";
-'''),
+""",
+          )
         ],
       ),
     );

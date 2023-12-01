@@ -212,50 +212,22 @@ class EnglishEntryautomation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: ماشێنی‌کردن، خۆکارگێڕی، بەخۆکارکردن
 
-١. (ناو) بەکارھێنانی ئامێر و کۆمپیوتەر بۆ کردنی ئەو کارانەی کە پێشتر لەلایەن مرۆڤەوە دەکران""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) بەکارھێنانی ئامێر و کۆمپیوتەر بۆ کردنی ئەو کارانەی کە پێشتر لەلایەن مرۆڤەوە دەکران"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Automation meant the loss of many factory jobs.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Automation meant the loss of many factory jobs."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بەخۆکارکردن لەدەستچوونی زۆر کاری لە کارگەکاندا بەدواداھات.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بەخۆکارکردن لەدەستچوونی زۆر کاری لە کارگەکاندا بەدواداھات."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAutomation838("en-GB"),
                               ),
                               IconButton(
@@ -314,8 +286,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: automation (derived forms: automations)
 1. The act of implementing the control of equipment with advanced technology; usually involving electronic hardware (= mechanization, mechanisation [Brit])
 "automation replaces human workers by machines";
@@ -325,7 +297,8 @@ class EnglishMeaning extends StatelessWidget {
  
 3. Equipment used to achieve automatic control or operation
 "this factory floor is a showcase for automation and robotic equipment"
-"""),
+""",
+          )
         ],
       ),
     );

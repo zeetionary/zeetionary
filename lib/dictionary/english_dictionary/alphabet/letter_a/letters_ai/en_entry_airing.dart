@@ -157,50 +157,22 @@ class EnglishEntryairing extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: ھەواگۆڕی، ھەواخۆری، لەبەر ھەوادا دانان، وشک‌کردنەوە، کزرکردنەوە، ھەڵخستن، دەربڕین، دەرنوو، بڵاوکردنەوەی تەلەفزیۆنی یا ڕادیۆیی
 
-١. (ناو) گەنگەشەی بابەتێک لەبەردەم ڕای گشتی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) گەنگەشەی بابەتێک لەبەردەم ڕای گشتی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The subject got a thorough airing in the British press.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The subject got a thorough airing in the British press."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بابەتەکە گەنگەشەی تەواوی لەسەر کرا لە میدیای بەریتانیا",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بابەتەکە گەنگەشەی تەواوی لەسەر کرا لە میدیای بەریتانیا"),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAiring4522("en-GB"),
                               ),
                               IconButton(
@@ -216,48 +188,20 @@ class EnglishEntryairing extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) ڕێگەدان بە ھەواگۆڕکێ بۆ ئەوەی شتێک تازە و وشک بکاتەوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) ڕێگەدان بە ھەواگۆڕکێ بۆ ئەوەی شتێک تازە و وشک بکاتەوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Open the windows and give the house a good airing.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Open the windows and give the house a good airing."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پەنجەرەکان بکەوە و ھەواگۆڕکێیەکی باش بدە بە ژوورەکە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پەنجەرەکان بکەوە و ھەواگۆڕکێیەکی باش بدە بە ژوورەکە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAiring4155("en-GB"),
                               ),
                               IconButton(
@@ -314,8 +258,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: airing 
 1. The opening of a subject to widespread discussion and debate (= dissemination, public exposure, spreading)
  
@@ -323,7 +267,8 @@ class EnglishMeaning extends StatelessWidget {
 "he took the dogs for an airing"
  
 3. The act of supplying fresh air and getting rid of foul air (= ventilation)
-'''),
+""",
+          )
         ],
       ),
     );

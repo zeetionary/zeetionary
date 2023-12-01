@@ -156,55 +156,22 @@ class EnglishEntryadulthood extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: تەمەنی پێگەیشتن، کامڵی، باڵق بوون، گەورەساڵی
 
-١. (ھاوەڵناو) تەمەنی پێگەیشتووی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) تەمەنی پێگەیشتووی"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Her childhood problems persisted into adulthood.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کێشەکانی منداڵیی بەردەوام بوون لە پێگەیشتوویی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Her childhood problems persisted into adulthood."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کێشەکانی منداڵیی بەردەوام بوون لە پێگەیشتوویی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAdul35729("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAdul35729(
                                     // REPLACE: adulthood /ˈædʌlthʊd/, /əˈdʌlthʊd/
                                     "en-US"),
@@ -253,13 +220,14 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: adulthood (derived forms: adulthoods)
 1. The period of time in your life after your physical growth has stopped and you are fully developed (= maturity)
  
 2. The state (and responsibilities) of a person who has attained maturity
-'''),
+""",
+          )
         ],
       ),
     );

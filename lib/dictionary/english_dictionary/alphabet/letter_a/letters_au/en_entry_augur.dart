@@ -212,58 +212,25 @@ class EnglishEntryaugur extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: (لە ڕۆمی کۆن‌دا) فاڵگرەوە، گێرزان، پێشزان
 
-١. (کردار) بوون بە ئاماژەیەک بەوەی شتێک سەرکەوتوو دەبێت یان نا لە داھاتوودا""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (کردار) بوون بە ئاماژەیەک بەوەی شتێک سەرکەوتوو دەبێت یان نا لە داھاتوودا"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Conflicts among the various groups do not augur well for the future of the peace talks.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Conflicts among the various groups do not augur well for the future of the peace talks."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پێکدادان لە نێوان لایەنەکاندا ئاماژەیەکی باش نابێت بۆ داھاتووی گفتوگۆی ئاشتی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پێکدادان لە نێوان لایەنەکاندا ئاماژەیەکی باش نابێت بۆ داھاتووی گفتوگۆی ئاشتی."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAugur315("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAugur315(// REPLACE: augur
                                     "en-US"),
                               ),
@@ -313,8 +280,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: augur (derived forms: augurs)
 1. (ancient Rome) a religious official who interpreted omens to guide public policy (= auspex)
 
@@ -323,7 +290,8 @@ class EnglishMeaning extends StatelessWidget {
 "These signs augur bad news";
  
 2. Predict from an omen
-"""),
+""",
+          )
         ],
       ),
     );

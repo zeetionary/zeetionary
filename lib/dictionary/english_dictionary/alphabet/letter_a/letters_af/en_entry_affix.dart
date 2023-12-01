@@ -156,47 +156,19 @@ class EnglishEntryaffix extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: (ڕێزمان) نێوگر، بەند، ناوبەند، نێوبەند
 
-١. (کردار) لکاندنی شتێک بە شتێکەوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (کردار) لکاندنی شتێک بە شتێکەوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The sticker must be affixed to your windshield.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ستیکەرەکە ئەبێت بلکێنرێت بە جامی ئۆتۆمبێلەکەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The sticker must be affixed to your windshield."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ستیکەرەکە ئەبێت بلکێنرێت بە جامی ئۆتۆمبێلەکەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAffix911("en-GB"),
                               ),
                               IconButton(
@@ -212,14 +184,8 @@ class EnglishEntryaffix extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) پێشگر و پاشگر لە ڕێزماندا''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+٢. (ناو) پێشگر و پاشگر لە ڕێزماندا"""),
                         ],
                       ),
                     ),
@@ -262,8 +228,8 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Verb: affix (derived forms: affixing, affixes, affixed)
 1. Stick or fasten to (= stick on)
 "affix the seal here";
@@ -276,7 +242,8 @@ class EnglishMeaning extends StatelessWidget {
 
 - Noun: affix (derived forms: affixing, affixes, affixed)
 1. A linguistic element added to a word to produce an inflected or derived form
-'''),
+""",
+          )
         ],
       ),
     );

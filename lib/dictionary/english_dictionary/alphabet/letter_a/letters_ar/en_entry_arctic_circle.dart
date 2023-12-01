@@ -210,58 +210,25 @@ class EnglishEntryarcticcircle extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: سووڕگەی باکووران، خولگەی جەمسەری باکووری
 
-١. (ناو) ھێڵی درێژی سەروو ٧٠ پلەی باکوور کە دەوری خولگەی جەمسەری باکوور دەدات""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) ھێڵی درێژی سەروو ٧٠ پلەی باکوور کە دەوری خولگەی جەمسەری باکوور دەدات"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Soviet Union tested atomic bomb in Arctic Circle.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Soviet Union tested atomic bomb in Arctic Circle."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "یەکێتیی سۆڤییەت چەکی ئەتۆمی لە خولگەی جەمسەری باکوور تاقیدەکردەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "یەکێتیی سۆڤییەت چەکی ئەتۆمی لە خولگەی جەمسەری باکوور تاقیدەکردەوە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakArcticcircle505("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakArcticcircle505(
                                     // REPLACE: the Arctic Circle /ði ˌɑːrktɪk ˈsɜːrkl/
                                     "en-US"),
@@ -312,11 +279,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Noun: Arctic Circle
 1. A line of latitude near but to the south of the north pole; it marks the northernmost point at which the sun is visible on the northern winter solstice and the southernmost point at which the midnight sun can be seen on the northern summer solstice
-"""),
+""",
+          )
         ],
       ),
     );

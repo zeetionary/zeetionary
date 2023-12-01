@@ -204,51 +204,22 @@ class EnglishEntrybarbarous extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
+                          const DefinitionKurdish(text: """
 کوردی: دڕندە، دڕ، کێوی، ھۆڤ، دڕندانە، بێ‌بەزەیی، دڵڕەق، زۆردار، زاڵم، توندوتیژ، بەزەبروزەنگ، بێگانە، بیانی، ناشارستانی، بێ‌فەرھەنگ، بێ‌ڕەوشت، بێ‌تۆرە، ناڕۆشنبیر، بەدەنگ‌وھەرا، پڕ لە زەنازەنا، سەر زمان‌نەکەوتوو
 
-١. (ھاوەڵناو) پڕ لە دڕندەیی کە تووشی شۆکت بکات""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) پڕ لە دڕندەیی کە تووشی شۆکت بکات"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "His murder was an outrageous and barbarous act.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "His murder was an outrageous and barbarous act."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "تیرۆرەکەی کردەیەکی جەرگبڕ و دڕندانە بوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "تیرۆرەکەی کردەیەکی جەرگبڕ و دڕندانە بوو."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakBarbarouss1("en-GB"),
                               ),
                               IconButton(
@@ -307,14 +278,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 - Adjective: barbarous
 1. (of persons or their actions) able or disposed to inflict pain or suffering (= brutal, cruel, fell, roughshod, savage, vicious)
 "a barbarous crime";
  
 2. Primitive in customs and culture
-"""),
+""",
+          )
         ],
       ),
     );

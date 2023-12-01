@@ -156,58 +156,24 @@ class EnglishEntryairtight extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: بێ‌کون، کیپ، ھەوابڕ، ھەوانەکێش، مووبڕ، بێ‌بابوێر، بێ‌عەیب، بێ‌ئەملاوئەولا، یەکلایی‌یەوەبوو، بێ‌چەندوچۆن
 
-١. (ھاوەڵناو) ڕێگەنەدان بە ھاتووچۆی ھەوا''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ھاوەڵناو) ڕێگەنەدان بە ھاتووچۆی ھەوا"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Store the cake in an airtight container.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Store the cake in an airtight container."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کێکەکە لە دەفرێکی ھەوانەکێش ھەڵبگرە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceKurdish(
+                                  text: "کێکەکە لە دەفرێکی ھەوانەکێش ھەڵبگرە."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAirtight45222("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAirtight45222(
                                     // REPLACE: airtight /ˈertaɪt/
                                     "en-US"),
@@ -256,14 +222,15 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Adjective: airtight 
 1. Having no weak points (= air-tight)
 "an airtight argument";
  
 2. Not allowing air or gas to pass in or out (= air-tight, gas-tight)
-'''),
+""",
+          )
         ],
       ),
     );

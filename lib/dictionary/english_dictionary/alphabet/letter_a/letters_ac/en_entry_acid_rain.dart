@@ -156,55 +156,22 @@ class EnglishEntryacidrain extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                          const DefinitionKurdish(text: """
 کوردی: بارانی ترشەڵۆکی، ترشەباران
 
-١. (ناو) بارانێک کە مادەی کیمیایی زیانبەخشی دووکەڵی کارگەکانی تێدایە کە دەبێتە ھۆی زیان بۆ درەختەکان، دانەوێڵە، و بیناکان''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+١. (ناو) بارانێک کە مادەی کیمیایی زیانبەخشی دووکەڵی کارگەکانی تێدایە کە دەبێتە ھۆی زیان بۆ درەختەکان، دانەوێڵە، و بیناکان"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Sulphur, falling as acid rain, is killing fish in the Great Lakes.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "سلفەر ئەگەر لەگەڵ ترشە باران بێت دەبێتە ھۆی کووشتنی ماسی لە دەریاچەکان.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Sulphur, falling as acid rain, is killing fish in the Great Lakes."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "سلفەر ئەگەر لەگەڵ ترشە باران بێت دەبێتە ھۆی کووشتنی ماسی لە دەریاچەکان."),
+                              CustomIconButtonBritish(
                                 onPressed: () => speakAci1256("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakAci1256(
                                     "en-US"), // REPLACE acid rain /ˌæsɪd ˈreɪn/
                               ),
@@ -252,11 +219,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
+          EnglishMeaningConst(
+            text: """
 - Noun: acid rain (derived forms: acid rains)
 1. Rain containing acids that form in the atmosphere when industrial gas emissions (especially sulphur dioxide and nitrogen oxides) combine with water (= acid precipitation)
-'''),
+""",
+          )
         ],
       ),
     );

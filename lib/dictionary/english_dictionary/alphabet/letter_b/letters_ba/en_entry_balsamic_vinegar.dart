@@ -204,43 +204,19 @@ class EnglishEntrybalsamicvinegar extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١. (ناو) سرکەیەکی ڕەشی شیرینی ئیتالی کە لە بەرمیلی دارینی خڕدا ھەڵدەگیرێت بۆ ئەوەی تامێکی تایبەتی پێبدا""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: """
+١. (ناو) سرکەیەکی ڕەشی شیرینی ئیتالی کە لە بەرمیلی دارینی خڕدا ھەڵدەگیرێت بۆ ئەوەی تامێکی تایبەتی پێبدا"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "Drizzle some balsamic vinegar over your salad for a touch of sweetness.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Drizzle some balsamic vinegar over your salad for a touch of sweetness."),
                               // const SizedBox(
                               //   width: 30,
                               // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەندێک سرکەی بالزامیک بپرژێنە بەسەر زەڵاتەکەدا بۆ ئەوەی ھەندێک شیرینی پێبدا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەندێک سرکەی بالزامیک بپرژێنە بەسەر زەڵاتەکەدا بۆ ئەوەی ھەندێک شیرینی پێبدا."),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
@@ -250,12 +226,7 @@ class EnglishEntrybalsamicvinegar extends StatelessWidget {
                                 onPressed: () =>
                                     speakBalsamicvinegars1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () => speakBalsamicvinegars1(
                                     // REPLACE: balsamic vinegar
                                     "en-US"),
@@ -306,11 +277,12 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text("""
+          EnglishMeaningConst(
+            text: """
 Noun: balsamic vinegar
 1. An aged Italian vinegar made from the must of white grapes
-"""),
+""",
+          )
         ],
       ),
     );

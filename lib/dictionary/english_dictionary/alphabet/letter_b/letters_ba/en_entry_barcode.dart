@@ -33,7 +33,8 @@ class EnglishEntrybarcode extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("A handheld scanner is used to read bar codes."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "A handheld scanner is used to read bar codes."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBarcodes2(String languageCode) async {
@@ -206,7 +207,7 @@ class EnglishEntrybarcode extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١. (ناو) نەخشێکی هێڵی باریک و ئەستوور کە لەسەر شت دادەنرێت کە دەیکڕیت. نەخشەکە زانیاری لەخۆدەگرێت کە کۆمپیوتەر دەتوانێت بیخوێنێتەوە""",
+١. (ناو) نەخشێکی ھێڵی باریک و ئەستوور کە لەسەر شت دادەنرێت کە دەیکڕیت. نەخشەکە زانیاری لەخۆدەگرێت کە کۆمپیوتەر دەتوانێت بیخوێنێتەوە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -254,8 +255,9 @@ class EnglishEntrybarcode extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBarcodes1(// REPLACE: barcode
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBarcodes1(// REPLACE: barcode
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -305,10 +307,10 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: barcode (Derived forms: barcodes)
+- Noun: barcode (derived forms: barcodes)
 1. Code consisting of a series of vertical bars of variable width that are scanned by a laser; printed on consumer product packages to identify the item for a computer that provides the price and registers inventory information (= Universal Product Code)
 
-- Verb: barcode (Derived forms: barcoded, barcodes, barcoding)
+- Verb: barcode (derived forms: barcoded, barcodes, barcoding)
 1. Mark with a barcode
 """),
         ],
@@ -322,7 +324,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/5K8UpMNYIPo?t=";
+  static String myVideoId = "5K8UpMNYIPo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -347,7 +349,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/FKdCQkM5_8g?t=";
+  static String myVideoId = "FKdCQkM5_8g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -372,7 +374,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/tPeOW3nLEws?t=";
+  static String myVideoId = "tPeOW3nLEws";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -397,7 +399,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/DBREP1Pdtpc?t=";
+  static String myVideoId = "DBREP1Pdtpc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -422,7 +424,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/q-wm5NvZGD4?t=";
+  static String myVideoId = "q-wm5NvZGD4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -446,8 +448,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  
-  static String myVideoId = "https://youtu.be/5kZRY5xlP6Y?t=";
+
+  static String myVideoId = "5kZRY5xlP6Y";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -471,8 +473,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  
-  static String myVideoId = "https://youtu.be/qnKtglBqe78?t=";
+
+  static String myVideoId = "qnKtglBqe78";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -496,7 +498,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  
+
   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
@@ -521,7 +523,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  
+
   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
@@ -546,7 +548,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  
+
   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
@@ -571,7 +573,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
-  
+
   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
@@ -596,7 +598,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
-  
+
   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(

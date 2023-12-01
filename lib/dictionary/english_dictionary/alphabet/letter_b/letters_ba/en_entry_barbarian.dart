@@ -33,7 +33,8 @@ class EnglishEntrybarbarian extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The walled city was attacked by barbarian hordes."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The walled city was attacked by barbarian hordes."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBarbarians2(String languageCode) async {
@@ -41,7 +42,8 @@ class EnglishEntrybarbarian extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("How can you call those barbarians your friends?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "How can you call those barbarians your friends?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBarbarians3(String languageCode) async {
@@ -135,9 +137,9 @@ class EnglishEntrybarbarian extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakBarbarian(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakBarbarian(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
@@ -206,7 +208,7 @@ class EnglishEntrybarbarian extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: (لە سەردەمانی کۆن‌دا) بەڕبەڕ، بێگانە (بەتایبەت نایۆنانی، ناڕۆمی یان ناکریستانی)، مرۆی دڕندە یان ناشارستانی، بەڕبەڕ، هۆڤ، ناشارستانی، بێ‌ژیار، بیانی، دەرەکی، دەشتەکی، بێگانە
+کوردی: (لە سەردەمانی کۆن‌دا) بەڕبەڕ، بێگانە (بەتایبەت نایۆنانی، ناڕۆمی یان ناکریستانی)، مرۆی دڕندە یان ناشارستانی، بەڕبەڕ، ھۆڤ، ناشارستانی، بێ‌ژیار، بیانی، دەرەکی، دەشتەکی، بێگانە
 
 ١. (ناو) لە سەردەمی کۆندا بە کەسێک دەگوترا کە سەر بە شارستانییەکی گەورە نەبوو، بۆ نموونە ڕۆم و یۆنان، و بە دڕندە و ناشارستانییەت دادەنران""",
                             style: TextStyle(fontSize: 18),
@@ -235,7 +237,7 @@ class EnglishEntrybarbarian extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "شارە بە شوورا دەوردراوەکە لە لایەن خێڵە دەشتەکییەکانەوە بەر هێرش درا.",
+                                    "شارە بە شوورا دەوردراوەکە لە لایەن خێڵە دەشتەکییەکانەوە بەر ھێرش درا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -256,8 +258,9 @@ class EnglishEntrybarbarian extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBarbarians1(// REPLACE: barbarian
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBarbarians1(// REPLACE: barbarian
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -266,7 +269,7 @@ class EnglishEntrybarbarian extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ناو) کەسێک کە خوێندنی نەکردووە و حەزی لە کەلتوور و هونەر نییە""",
+٢. (ناو) کەسێک کە خوێندنی نەکردووە و حەزی لە کەلتوور و ھونەر نییە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -293,7 +296,7 @@ class EnglishEntrybarbarian extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "چۆن ئەو ناشارستانیەتییانە بە هاوڕێت دادەنێیت؟",
+                                    "چۆن ئەو ناشارستانیەتییانە بە ھاوڕێت دادەنێیت؟",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -314,8 +317,9 @@ class EnglishEntrybarbarian extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBarbarians2(// REPLACE: barbarian
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBarbarians2(// REPLACE: barbarian
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -369,7 +373,7 @@ class EnglishMeaning extends StatelessWidget {
 1. Without civilizing influences (= barbaric, savage, uncivilized, uncivilised [Brit], wild)
 "barbarian invaders";
 
-- Noun: barbarian (Derived forms: barbarians)
+- Noun: barbarian (derived forms: barbarians)
 1. A member of an uncivilized people (= savage)
  
 2. A crude uncouth ill-bred person lacking culture or refinement (= peasant, boor, churl, Goth, tyke [informal], tike [informal])
@@ -385,7 +389,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/iTrSXm5-bV4?t=";
+  static String myVideoId = "iTrSXm5-bV4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -410,7 +414,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/jMtP5OuP5SI?t=";
+  static String myVideoId = "jMtP5OuP5SI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -435,7 +439,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/Gfj5f0GVLZ0?t=";
+  static String myVideoId = "Gfj5f0GVLZ0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -460,7 +464,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/Ix6vtM4gP8g?t=";
+  static String myVideoId = "Ix6vtM4gP8g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -485,7 +489,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/Ii3Avr8SqiM?t=";
+  static String myVideoId = "Ii3Avr8SqiM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -509,8 +513,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  
-  static String myVideoId = "https://youtu.be/VlpxsiMUkZg?t=";
+
+  static String myVideoId = "VlpxsiMUkZg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -534,8 +538,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  
-  static String myVideoId = "https://youtu.be/3_Z2AnIpgOc?t=";
+
+  static String myVideoId = "3_Z2AnIpgOc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -559,8 +563,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  
-  static String myVideoId = "https://youtu.be/juDbb5LNIlY?t=";
+
+  static String myVideoId = "juDbb5LNIlY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -584,8 +588,8 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  
-  static String myVideoId = "https://youtu.be/A5P6vJs1jmY?t=";
+
+  static String myVideoId = "A5P6vJs1jmY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -609,8 +613,8 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  
-  static String myVideoId = "https://youtu.be/grBKt5mJ1og?t=";
+
+  static String myVideoId = "grBKt5mJ1og";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -634,8 +638,8 @@ class YoutubeEmbeddedten extends StatelessWidget {
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
-  
-  static String myVideoId = "https://youtu.be/zL7SobTAnuQ?t=";
+
+  static String myVideoId = "zL7SobTAnuQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -659,8 +663,8 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
-  
-  static String myVideoId = "https://youtu.be/DHzxypIB9vU?t=";
+
+  static String myVideoId = "DHzxypIB9vU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

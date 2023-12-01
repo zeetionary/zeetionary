@@ -33,7 +33,8 @@ class EnglishEntrybaptism extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("We’re hoping to be able to get to Pasadena for the baptism of our grandson."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We’re hoping to be able to get to Pasadena for the baptism of our grandson."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBaptisms2(String languageCode) async {
@@ -233,7 +234,7 @@ class EnglishEntrybaptism extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەهیواین بتوانین پاسادینا بهێنین بۆ مەراسیمی تەوفنی کوڕەزاکەمان.",
+                                    "بەھیواین بتوانین پاسادینا بھێنین بۆ مەراسیمی تەوفنی کوڕەزاکەمان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -254,8 +255,9 @@ class EnglishEntrybaptism extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBaptisms1(// REPLACE: baptism
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBaptisms1(// REPLACE: baptism
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -305,7 +307,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: baptism (Derived forms: baptisms)
+- Noun: baptism (derived forms: baptisms)
 1. A Christian sacrament signifying spiritual cleansing and rebirth
 "most churches baptize infants but some insist on adult baptism"
 """),
@@ -320,7 +322,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/aTMsfOcHiJg?t=";
+  static String myVideoId = "aTMsfOcHiJg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -345,7 +347,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/rMNAdHqGMhs?t=";
+  static String myVideoId = "rMNAdHqGMhs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -370,7 +372,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/QpyHrQYeoIE?t=";
+  static String myVideoId = "QpyHrQYeoIE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -395,7 +397,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/vVloMqJEsME?t=";
+  static String myVideoId = "vVloMqJEsME";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -420,7 +422,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/WWRTZ8IHFg4?t=";
+  static String myVideoId = "WWRTZ8IHFg4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -444,8 +446,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
-  
-  static String myVideoId = "https://youtu.be/q6zPd5xE_Y8?t=";
+
+  static String myVideoId = "q6zPd5xE_Y8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -459,7 +461,6 @@ class YoutubeEmbeddedsix extends StatelessWidget {
     ),
   );
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -470,8 +471,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
-  
-  static String myVideoId = "https://youtu.be/sK6qDTtsZs8?t=";
+
+  static String myVideoId = "sK6qDTtsZs8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -485,7 +486,6 @@ class YoutubeEmbeddedseven extends StatelessWidget {
     ),
   );
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -496,8 +496,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
-  
-  static String myVideoId = "https://youtu.be/4RKOBJMpjeE?t=";
+
+  static String myVideoId = "4RKOBJMpjeE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -511,7 +511,6 @@ class YoutubeEmbeddedeight extends StatelessWidget {
     ),
   );
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -522,8 +521,8 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
-  
-  static String myVideoId = "https://youtu.be/-a_WqkoQxVM?t=";
+
+  static String myVideoId = "-a_WqkoQxVM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -547,7 +546,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
-  
+
   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
@@ -572,7 +571,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
-  
+
   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
@@ -597,7 +596,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
-  
+
   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(

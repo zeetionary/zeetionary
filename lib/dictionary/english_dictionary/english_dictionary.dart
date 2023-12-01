@@ -1370,29 +1370,29 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "banquet",
     "bantam",
     "banter",
-    // "baptism",
-    // "baptize",
-    // "bar",
-    // "barb",
-    // "barbarian",
-    // "barbaric",
-    // "barbarity",
-    // "barbarous",
-    // "barbecue",
-    // "barbed",
-    // "barcode",
-    // "barmaid",
-    // "barman",
-    // "bartender",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    "baptism",
+    "baptize",
+    "bar",
+    "barb",
+    "barbarian",
+    "barbaric",
+    "barbarity",
+    "barbarous",
+    "barbecue",
+    "barbed",
+    "barber",
+    "barbiturate",
+    "barcode",
+    "bare",
+    "bareback",
+    "barefaced",
+    "barefoot",
+    "barely",
+    "bareness",
+    "bargain",
+    "barmaid",
+    "barman",
+    "bartender",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -7127,97 +7127,97 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-banter");
                   }
-                  // if (wordsEnglish == "baptism") {
+                  if (wordsEnglish == "baptism") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-baptism");
+                  }
+                  if (wordsEnglish == "baptize") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-baptize");
+                  }
+                  if (wordsEnglish == "bar") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bar");
+                  }
+                  if (wordsEnglish == "barcode") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barcode");
+                  }
+                  if (wordsEnglish == "barman") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barman");
+                  }
+                  if (wordsEnglish == "bartender") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barman");
+                  }
+                  if (wordsEnglish == "barmaid") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barmaid");
+                  }
+                  if (wordsEnglish == "barb") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barb");
+                  }
+                  if (wordsEnglish == "barbed") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barbed");
+                  }
+                  if (wordsEnglish == "barbarian") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barbarian");
+                  }
+                  if (wordsEnglish == "barbaric") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barbaric");
+                  }
+                  if (wordsEnglish == "barbarity") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barbarity");
+                  }
+                  if (wordsEnglish == "barbarous") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barbarous");
+                  }
+                  if (wordsEnglish == "barbecue") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barbecue");
+                  }
+                  if (wordsEnglish == "barber") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barber");
+                  }
+                  if (wordsEnglish == "barbiturate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barbiturate");
+                  }
+                  if (wordsEnglish == "bare") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bare");
+                  }
+                  if (wordsEnglish == "bareback") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bareback");
+                  }
+                  if (wordsEnglish == "barefaced") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barefaced");
+                  }
+                  if (wordsEnglish == "barefoot") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barefoot");
+                  }
+                  if (wordsEnglish == "barely") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barely");
+                  }
+                  if (wordsEnglish == "bareness") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bareness");
+                  }
+                  // if (wordsEnglish == "bargain") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-baptism");
-                  // }
-                  // if (wordsEnglish == "baptize") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-baptize");
-                  // }
-                  // if (wordsEnglish == "bar") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bar");
-                  // }
-                  // if (wordsEnglish == "barcode") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-barcode");
-                  // }
-                  // if (wordsEnglish == "barman") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-barman");
-                  // }
-                  // if (wordsEnglish == "bartender") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-barman");
-                  // }
-                  // if (wordsEnglish == "barmaid") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-barmaid");
-                  // }
-                  // if (wordsEnglish == "barb") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-barb");
-                  // }
-                  // if (wordsEnglish == "barbed") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-barbed");
-                  // }
-                  // if (wordsEnglish == "barbarian") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-barbarian");
-                  // }
-                  // if (wordsEnglish == "barbaric") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-barbaric");
-                  // }
-                  // if (wordsEnglish == "barbarity") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-barbarity");
-                  // }
-                  // if (wordsEnglish == "barbarous") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-barbarous");
-                  // }
-                  // if (wordsEnglish == "barbecue") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-barbecue");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-bargain");
                   // }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);

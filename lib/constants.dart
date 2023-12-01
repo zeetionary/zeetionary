@@ -266,3 +266,160 @@ class YouTubeContainerDesign extends StatelessWidget {
     // );
   }
 }
+
+class EntryTitle extends StatelessWidget {
+  final String word;
+
+  const EntryTitle({super.key, required this.word});
+
+  @override
+  Widget build(BuildContext context) {
+    return Expanded(
+      child: Text(
+        word,
+        style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+      ),
+    );
+  }
+}
+
+class IPAofEnglish extends StatelessWidget {
+  final String text;
+
+  const IPAofEnglish({super.key, required this.text});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      constraints: const BoxConstraints(maxWidth: 300),
+      child: Text(
+        text,
+        style: const TextStyle(fontSize: 14),
+      ),
+    );
+  }
+}
+
+class DefinitionKurdish extends StatelessWidget {
+  final String text;
+
+  const DefinitionKurdish({super.key, required this.text});
+
+  @override
+  Widget build(BuildContext context) {
+    return Text(
+      text,
+      style: const TextStyle(fontSize: 18),
+      textAlign: TextAlign.right,
+      textDirection: TextDirection.rtl,
+    );
+  }
+}
+
+class ExampleSentenceEnglish extends StatelessWidget {
+  final String text;
+
+  const ExampleSentenceEnglish({super.key, required this.text});
+
+  @override
+  Widget build(BuildContext context) {
+    return Expanded(
+      child: Align(
+        alignment: Alignment.topLeft,
+        child: Text(
+          text,
+          style: const TextStyle(fontSize: 14),
+          textDirection: TextDirection.ltr,
+          textAlign: TextAlign.left,
+        ),
+      ),
+    );
+  }
+}
+
+class ExampleSentenceKurdish extends StatelessWidget {
+  final String text;
+
+  const ExampleSentenceKurdish({super.key, required this.text});
+
+  @override
+  Widget build(BuildContext context) {
+    return Expanded(
+      child: Align(
+        alignment: Alignment.topLeft,
+        child: Text(
+          text,
+          style: const TextStyle(fontSize: 14),
+          textDirection: TextDirection.rtl,
+          textAlign: TextAlign.right,
+        ),
+      ),
+    );
+  }
+}
+
+class CustomIconButtonBritish extends StatelessWidget {
+  final VoidCallback? onPressed;
+
+  const CustomIconButtonBritish({
+    super.key,
+    this.onPressed,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return IconButton(
+      iconSize: 18,
+      icon: const Icon(
+        Icons.record_voice_over,
+        color: Colors.blue,
+      ),
+      onPressed: onPressed,
+    );
+  }
+}
+
+class CustomIconButtonAmerican extends StatelessWidget {
+  final VoidCallback? onPressed;
+
+  const CustomIconButtonAmerican({
+    super.key,
+    this.onPressed,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return IconButton(
+      iconSize: 18,
+      icon: const Icon(
+        Icons.record_voice_over,
+        color: Colors.red,
+      ),
+      onPressed: onPressed,
+    );
+  }
+}
+
+class EnglishMeaningConst extends StatelessWidget {
+  final String text;
+
+  const EnglishMeaningConst({
+    super.key,
+    required this.text,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            text,
+            style: const TextStyle(fontSize: 18),
+          ),
+        ],
+      ),
+    );
+  }
+}

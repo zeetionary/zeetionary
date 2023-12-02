@@ -205,12 +205,7 @@ class EnglishEntryastronomer extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAstronomer503("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAstronomer503(// REPLACE: astronomer
                                         "en-US"),

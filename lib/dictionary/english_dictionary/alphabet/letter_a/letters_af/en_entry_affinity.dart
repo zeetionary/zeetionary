@@ -189,12 +189,7 @@ class EnglishEntryaffinity extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAf155("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAf155(// REPLACE: affinity /əˈfɪnəti/
                                         "en-US"),

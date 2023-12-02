@@ -206,12 +206,7 @@ class EnglishEntryassess extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAssess1114("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAssess1114(// REPLACE: assess /əˈses/
                                         "en-US"),
@@ -236,12 +231,7 @@ class EnglishEntryassess extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAssess1116("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAssess1116(// REPLACE: assess /əˈses/
                                         "en-US"),

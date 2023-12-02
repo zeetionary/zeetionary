@@ -207,12 +207,7 @@ class EnglishEntryassist extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAssist848("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAssist848(// REPLACE: assist /əˈsɪst/
                                         "en-US"),
@@ -235,12 +230,7 @@ class EnglishEntryassist extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAssist849("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAssist849(// REPLACE: assist /əˈsɪst/
                                         "en-US"),
@@ -265,12 +255,7 @@ class EnglishEntryassist extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAssist852("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAssist852(// REPLACE: assist /əˈsɪst/
                                         "en-US"),

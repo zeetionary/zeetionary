@@ -233,12 +233,7 @@ class EnglishEntryarea extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArea957("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArea957(// REPLACE: area /ˈeriə/
                                         "en-US"),
@@ -261,12 +256,7 @@ class EnglishEntryarea extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArea1002("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArea1002(// REPLACE: area /ˈeriə/
                                         "en-US"),
@@ -291,12 +281,7 @@ class EnglishEntryarea extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArea1005("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArea1005(// REPLACE: area /ˈeriə/
                                         "en-US"),
@@ -321,12 +306,7 @@ class EnglishEntryarea extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArea1015("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArea1015(// REPLACE: area /ˈeriə/
                                         "en-US"),
@@ -350,12 +330,7 @@ class EnglishEntryarea extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArea1018("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArea1018(// REPLACE: area /ˈeriə/
                                         "en-US"),
@@ -378,12 +353,7 @@ class EnglishEntryarea extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArea1020("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArea1020(// REPLACE: area /ˈeriə/
                                         "en-US"),
@@ -407,12 +377,7 @@ class EnglishEntryarea extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArea1022("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArea1022(// REPLACE: area /ˈeriə/
                                         "en-US"),

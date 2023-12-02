@@ -195,12 +195,7 @@ class EnglishEntryawaken extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwakens2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAwakens2(// REPLACE: awaken
                                         "en-US"),

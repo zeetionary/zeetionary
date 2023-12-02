@@ -154,12 +154,7 @@ class EnglishEntryadjunct extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdj58692("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdj58692(// REPLACE: adjunct /ˈædʒʌŋkt/
                                         "en-US"),

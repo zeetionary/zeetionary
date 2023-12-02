@@ -197,12 +197,7 @@ class EnglishEntrybackhanded extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBackhandeds2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBackhandeds2(// REPLACE: backhanded
                                         "en-US"),

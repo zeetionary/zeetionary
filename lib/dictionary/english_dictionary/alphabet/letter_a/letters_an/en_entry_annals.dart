@@ -198,12 +198,7 @@ class EnglishEntryannals extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnnals1123("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnnals1123(// REPLACE: annals /ˈænlz/
                                         "en-US"),
@@ -226,12 +221,7 @@ class EnglishEntryannals extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnnals1125("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnnals1125(// REPLACE: annals /ˈænlz/
                                         "en-US"),

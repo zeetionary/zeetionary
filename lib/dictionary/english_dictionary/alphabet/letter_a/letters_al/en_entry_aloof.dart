@@ -159,12 +159,7 @@ class EnglishEntryaloof extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAloof457("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAloof457(// REPLACE: aloof /əˈluːf/
                                         "en-US"),

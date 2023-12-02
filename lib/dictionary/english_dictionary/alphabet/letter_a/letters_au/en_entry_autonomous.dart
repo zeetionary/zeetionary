@@ -207,12 +207,7 @@ class EnglishEntryautonomous extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAutonomous909("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAutonomous909(// REPLACE: autonomous
                                         "en-US"),
@@ -237,12 +232,7 @@ class EnglishEntryautonomous extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAutonomous912("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAutonomous912(// REPLACE: autonomous
                                         "en-US"),
@@ -267,12 +257,7 @@ class EnglishEntryautonomous extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAutonomous916("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAutonomous916(// REPLACE: autonomous
                                         "en-US"),

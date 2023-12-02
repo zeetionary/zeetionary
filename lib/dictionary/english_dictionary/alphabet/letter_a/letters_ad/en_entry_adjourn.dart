@@ -167,12 +167,7 @@ class EnglishEntryadjourn extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAd4582("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAd4582(// REPLACE: adjourn /əˈdʒɜːrn/
                                         "en-US"),

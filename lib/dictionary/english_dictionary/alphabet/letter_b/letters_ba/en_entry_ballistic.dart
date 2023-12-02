@@ -196,12 +196,7 @@ class EnglishEntryballistic extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBallistics1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBallistics1(// REPLACE: ballistic
                                         "en-US"),

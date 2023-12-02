@@ -201,12 +201,7 @@ class EnglishEntryapple extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakApple547("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakApple547(// REPLACE: apple /ˈæpl/
                                         "en-US"),
@@ -227,12 +222,7 @@ class EnglishEntryapple extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakApple549("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakApple549(// REPLACE: apple /ˈæpl/
                                         "en-US"),

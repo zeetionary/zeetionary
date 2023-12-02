@@ -251,12 +251,7 @@ class EnglishEntryask extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAsk721("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAsk721(// REPLACE: ask /æsk/
                                         "en-US"),
@@ -278,12 +273,7 @@ class EnglishEntryask extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAsk723("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAsk723(// REPLACE: ask /æsk/
                                         "en-US"),
@@ -308,12 +298,7 @@ class EnglishEntryask extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAsk725("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAsk725(// REPLACE: ask /æsk/
                                         "en-US"),
@@ -336,12 +321,7 @@ class EnglishEntryask extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAsk727("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAsk727(// REPLACE: ask /æsk/
                                         "en-US"),
@@ -364,12 +344,7 @@ class EnglishEntryask extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAsk728("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAsk728(// REPLACE: ask /æsk/
                                         "en-US"),
@@ -390,12 +365,7 @@ class EnglishEntryask extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAsk729("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAsk729(// REPLACE: ask /æsk/
                                         "en-US"),
@@ -418,12 +388,7 @@ class EnglishEntryask extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAsk731("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAsk731(// REPLACE: ask /æsk/
                                         "en-US"),
@@ -446,12 +411,7 @@ class EnglishEntryask extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAsk735("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAsk735(// REPLACE: ask /æsk/
                                         "en-US"),
@@ -475,12 +435,7 @@ class EnglishEntryask extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAsk737("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAsk737(// REPLACE: ask /æsk/
                                         "en-US"),
@@ -503,12 +458,7 @@ class EnglishEntryask extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAsk739("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAsk739(// REPLACE: ask /æsk/
                                         "en-US"),

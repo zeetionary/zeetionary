@@ -207,12 +207,7 @@ class EnglishEntryattractive extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttractive1043("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttractive1043(// REPLACE: attractive
                                         "en-US"),
@@ -236,12 +231,7 @@ class EnglishEntryattractive extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttractive1045("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttractive1045(// REPLACE: attractive
                                         "en-US"),
@@ -266,12 +256,7 @@ class EnglishEntryattractive extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttractive1047("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttractive1047(// REPLACE: attractive
                                         "en-US"),

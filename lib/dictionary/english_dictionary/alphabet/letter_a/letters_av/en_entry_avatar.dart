@@ -195,12 +195,7 @@ class EnglishEntryavatar extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAvatars1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAvatars1(// REPLACE: avatar
                                         "en-US"),
@@ -225,12 +220,7 @@ class EnglishEntryavatar extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAvatars2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAvatars2(// REPLACE: avatar
                                         "en-US"),

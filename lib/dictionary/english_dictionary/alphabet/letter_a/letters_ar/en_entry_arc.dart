@@ -205,12 +205,7 @@ class EnglishEntryarc extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArc1246("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArc1246(// REPLACE: arc /ɑːrk/
                                         "en-US"),
@@ -235,12 +230,7 @@ class EnglishEntryarc extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArc1249("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArc1249(// REPLACE: arc /ɑːrk/
                                         "en-US"),
@@ -265,12 +255,7 @@ class EnglishEntryarc extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArc1252("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArc1252(// REPLACE: arc /ɑːrk/
                                         "en-US"),

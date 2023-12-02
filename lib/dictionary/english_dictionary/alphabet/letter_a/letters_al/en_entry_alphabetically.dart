@@ -154,12 +154,7 @@ class EnglishEntryalphabetically extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ناوی براوەکانی پێشبڕکێیەکە بەپێی ئەلفوبێ ڕیزکراون."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakAlphabetically548("en-GB"),
                               ),

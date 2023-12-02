@@ -200,12 +200,7 @@ class EnglishEntryartificialintelligence extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زمان زۆر گرنگە بۆ پەرەپێدانی ژیریی دەستکرد."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakArtificialintelligence927("en-GB"),
                               ),

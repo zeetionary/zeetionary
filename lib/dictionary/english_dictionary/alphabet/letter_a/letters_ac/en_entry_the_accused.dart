@@ -151,12 +151,7 @@ class EnglishEntrytheaccused extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakTh1547("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakTh1547("en-US"), // find Dopsum1
                               ),
@@ -173,12 +168,7 @@ class EnglishEntrytheaccused extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakT21536("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakT21536("en-US"), // find Dopsum1
                               ),

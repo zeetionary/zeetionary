@@ -203,12 +203,7 @@ class EnglishEntryardent extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArdent516("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArdent516(// REPLACE: ardent /ˈɑːrdnt/
                                         "en-US"),

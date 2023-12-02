@@ -206,12 +206,7 @@ class EnglishEntryattorney extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttorney1101("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttorney1101(// REPLACE: attorney
                                         "en-US"),
@@ -234,12 +229,7 @@ class EnglishEntryattorney extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttorney1103("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttorney1103(// REPLACE: attorney
                                         "en-US"),
@@ -264,12 +254,7 @@ class EnglishEntryattorney extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttorney1107("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttorney1107(// REPLACE: attorney
                                         "en-US"),

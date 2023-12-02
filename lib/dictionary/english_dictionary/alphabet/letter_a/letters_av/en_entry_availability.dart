@@ -198,12 +198,7 @@ class EnglishEntryavailability extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAvailabilitys1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAvailabilitys1(// REPLACE: availability
                                         "en-US"),
@@ -228,12 +223,7 @@ class EnglishEntryavailability extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAvailabilitys2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAvailabilitys2(// REPLACE: availability
                                         "en-US"),

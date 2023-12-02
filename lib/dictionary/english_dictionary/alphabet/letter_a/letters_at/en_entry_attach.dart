@@ -210,12 +210,7 @@ class EnglishEntryattach extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttach319("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttach319(// REPLACE: attach
                                         "en-US"),
@@ -238,12 +233,7 @@ class EnglishEntryattach extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttach321("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttach321(// REPLACE: attach
                                         "en-US"),
@@ -267,12 +257,7 @@ class EnglishEntryattach extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttach322("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttach322(// REPLACE: attach
                                         "en-US"),
@@ -296,12 +281,7 @@ class EnglishEntryattach extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttach325("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttach325(// REPLACE: attach
                                         "en-US"),
@@ -326,12 +306,7 @@ class EnglishEntryattach extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttach327("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttach327(// REPLACE: attach
                                         "en-US"),
@@ -355,12 +330,7 @@ class EnglishEntryattach extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttach329("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttach329(// REPLACE: attach
                                         "en-US"),
@@ -383,12 +353,7 @@ class EnglishEntryattach extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttach331("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttach331(// REPLACE: attach
                                         "en-US"),

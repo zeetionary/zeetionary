@@ -256,12 +256,7 @@ class EnglishEntrybalance extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBalances1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBalances1(// REPLACE: balance
                                         "en-US"),
@@ -284,12 +279,7 @@ class EnglishEntrybalance extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBalances2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBalances2(// REPLACE: balance
                                         "en-US"),
@@ -314,12 +304,7 @@ class EnglishEntrybalance extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBalances3("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBalances3(// REPLACE: balance
                                         "en-US"),
@@ -344,12 +329,7 @@ class EnglishEntrybalance extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBalances4("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBalances4(// REPLACE: balance
                                         "en-US"),
@@ -374,12 +354,7 @@ class EnglishEntrybalance extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBalances5("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBalances5(// REPLACE: balance
                                         "en-US"),
@@ -404,12 +379,7 @@ class EnglishEntrybalance extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBalances6("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBalances6(// REPLACE: balance
                                         "en-US"),
@@ -434,12 +404,7 @@ class EnglishEntrybalance extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBalances7("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBalances7(// REPLACE: balance
                                         "en-US"),
@@ -462,12 +427,7 @@ class EnglishEntrybalance extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBalances8("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBalances8(// REPLACE: balance
                                         "en-US"),
@@ -492,12 +452,7 @@ class EnglishEntrybalance extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBalances9("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBalances9(// REPLACE: balance
                                         "en-US"),
@@ -522,12 +477,7 @@ class EnglishEntrybalance extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBalances10("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBalances10(// REPLACE: balance
                                         "en-US"),
@@ -552,12 +502,7 @@ class EnglishEntrybalance extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBalances11("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBalances11(// REPLACE: balance
                                         "en-US"),
@@ -582,12 +527,7 @@ class EnglishEntrybalance extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBalances12("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBalances12(// REPLACE: balance
                                         "en-US"),
@@ -612,12 +552,7 @@ class EnglishEntrybalance extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBalances13("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBalances13(// REPLACE: balance
                                         "en-US"),

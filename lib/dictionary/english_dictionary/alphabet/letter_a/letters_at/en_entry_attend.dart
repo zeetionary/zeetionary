@@ -208,12 +208,7 @@ class EnglishEntryattend extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttend759("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttend759(// REPLACE: attend
                                         "en-US"),
@@ -236,12 +231,7 @@ class EnglishEntryattend extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttend800("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttend800(// REPLACE: attend
                                         "en-US"),
@@ -265,12 +255,7 @@ class EnglishEntryattend extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttend802("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttend802(// REPLACE: attend
                                         "en-US"),
@@ -294,12 +279,7 @@ class EnglishEntryattend extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttend808("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttend808(// REPLACE: attend
                                         "en-US"),
@@ -324,12 +304,7 @@ class EnglishEntryattend extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttend809("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttend809(// REPLACE: attend
                                         "en-US"),

@@ -203,12 +203,7 @@ class EnglishEntryarid extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArid1126("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArid1126(// REPLACE: arid /ˈærɪd/
                                         "en-US"),
@@ -231,12 +226,7 @@ class EnglishEntryarid extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArid1129("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArid1129(// REPLACE: arid /ˈærɪd/
                                         "en-US"),
@@ -261,12 +251,7 @@ class EnglishEntryarid extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArid1131("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArid1131(// REPLACE: arid /ˈærɪd/
                                         "en-US"),

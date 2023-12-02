@@ -188,12 +188,7 @@ class EnglishEntryagree extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgree6778("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAgree6778(// REPLACE: agree /əˈɡriː/
                                         "en-US"),
@@ -216,12 +211,7 @@ class EnglishEntryagree extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAg2256("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAg2256(// REPLACE: agree /əˈɡriː/
                                         "en-US"),
@@ -245,12 +235,7 @@ class EnglishEntryagree extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgree2344("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAgree2344(// REPLACE: agree /əˈɡriː/
                                         "en-US"),
@@ -273,12 +258,7 @@ class EnglishEntryagree extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgre3555("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAgre3555(// REPLACE: agree /əˈɡriː/
                                         "en-US"),
@@ -300,12 +280,7 @@ class EnglishEntryagree extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgree37859("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAgree37859(// REPLACE: agree /əˈɡriː/
                                         "en-US"),
@@ -329,12 +304,7 @@ class EnglishEntryagree extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgr3544("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAgr3544(// REPLACE: agree /əˈɡriː/
                                         "en-US"),

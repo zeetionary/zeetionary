@@ -204,12 +204,7 @@ class EnglishEntryaudition extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAudition238("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAudition238(// REPLACE: audition
                                         "en-US"),
@@ -233,12 +228,7 @@ class EnglishEntryaudition extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAudition240("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAudition240(// REPLACE: audition
                                         "en-US"),
@@ -263,12 +253,7 @@ class EnglishEntryaudition extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAudition243("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAudition243(// REPLACE: audition
                                         "en-US"),

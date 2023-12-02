@@ -206,12 +206,7 @@ class EnglishEntryatmospheric extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAtmospheric1140("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAtmospheric1140(// REPLACE: atmospheric
                                         "en-US"),
@@ -235,12 +230,7 @@ class EnglishEntryatmospheric extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAtmospheric1145("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAtmospheric1145(// REPLACE: atmospheric
                                         "en-US"),

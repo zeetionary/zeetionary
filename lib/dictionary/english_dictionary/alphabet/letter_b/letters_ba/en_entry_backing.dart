@@ -198,12 +198,7 @@ class EnglishEntrybacking extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBackings1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBackings1(// REPLACE: backing
                                         "en-US"),
@@ -228,12 +223,7 @@ class EnglishEntrybacking extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBackings2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBackings2(// REPLACE: backing
                                         "en-US"),
@@ -258,12 +248,7 @@ class EnglishEntrybacking extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBackings3("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBackings3(// REPLACE: backing
                                         "en-US"),

@@ -197,12 +197,7 @@ class EnglishEntrybanner extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBanners1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBanners1(// REPLACE: banner
                                         "en-US"),
@@ -227,12 +222,7 @@ class EnglishEntrybanner extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBanners2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBanners2(// REPLACE: banner
                                         "en-US"),

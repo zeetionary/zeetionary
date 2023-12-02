@@ -203,12 +203,7 @@ class EnglishEntryarson extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArson912("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArson912(// REPLACE: arson /ˈɑːrsn/
                                         "en-US"),

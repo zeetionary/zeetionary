@@ -216,12 +216,7 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "کەمێک بەخت خراپ نابێت ئێستا!"),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakNotcomegoamiss142("en-GB"),
                               ),

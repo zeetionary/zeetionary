@@ -205,12 +205,7 @@ class EnglishEntryaskew extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAskew813("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAskew813(// REPLACE: askew /əˈskjuː/
                                         "en-US"),

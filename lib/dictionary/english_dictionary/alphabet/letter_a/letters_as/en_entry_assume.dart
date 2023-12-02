@@ -209,12 +209,7 @@ class EnglishEntryassume extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAssume843("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAssume843(// REPLACE: assume /əˈsuːm/
                                         "en-US"),
@@ -237,12 +232,7 @@ class EnglishEntryassume extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAssume844("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAssume844(// REPLACE: assume /əˈsuːm/
                                         "en-US"),
@@ -267,12 +257,7 @@ class EnglishEntryassume extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAssume846("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAssume846(// REPLACE: assume /əˈsuːm/
                                         "en-US"),
@@ -297,12 +282,7 @@ class EnglishEntryassume extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAssume848("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAssume848(// REPLACE: assume /əˈsuːm/
                                         "en-US"),
@@ -327,12 +307,7 @@ class EnglishEntryassume extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAssume851("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAssume851(// REPLACE: assume /əˈsuːm/
                                         "en-US"),

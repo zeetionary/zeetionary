@@ -159,12 +159,7 @@ class EnglishEntryaisle extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAisle3888("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAisle3888(// REPLACE: aisle /aɪl/
                                         "en-US"),

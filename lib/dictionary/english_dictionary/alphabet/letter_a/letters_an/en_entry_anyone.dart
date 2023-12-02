@@ -202,12 +202,7 @@ class EnglishEntryanyone extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnyone926("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnyone926(// REPLACE: anyone /ˈeniwʌn/
                                         "en-US"),
@@ -229,12 +224,7 @@ class EnglishEntryanyone extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnyone927("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnyone927(// REPLACE: anyone /ˈeniwʌn/
                                         "en-US"),
@@ -258,12 +248,7 @@ class EnglishEntryanyone extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnyone929("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnyone929(// REPLACE: anyone /ˈeniwʌn/
                                         "en-US"),
@@ -288,12 +273,7 @@ class EnglishEntryanyone extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnyone931("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnyone931(// REPLACE: anyone /ˈeniwʌn/
                                         "en-US"),

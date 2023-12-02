@@ -193,20 +193,10 @@ class EnglishEntryan extends StatelessWidget {
                                     ),
                                   ),
                                 ),
-                                IconButton(
-                                  iconSize: 18,
-                                  icon: const Icon(
-                                    Icons.record_voice_over,
-                                    color: Colors.blue,
-                                  ),
+                                CustomIconButtonBritish(
                                   onPressed: () => speak142574("en-GB"),
                                 ),
-                                IconButton(
-                                  iconSize: 18,
-                                  icon: const Icon(
-                                    Icons.record_voice_over,
-                                    color: Colors.red,
-                                  ),
+                                CustomIconButtonAmerican(
                                   onPressed: () => speak142574("en-US"),
                                 ),
                               ],
@@ -237,20 +227,10 @@ class EnglishEntryan extends StatelessWidget {
                                     ),
                                   ),
                                 ),
-                                IconButton(
-                                  iconSize: 18,
-                                  icon: const Icon(
-                                    Icons.record_voice_over,
-                                    color: Colors.blue,
-                                  ),
+                                CustomIconButtonBritish(
                                   onPressed: () => speak48652("en-GB"),
                                 ),
-                                IconButton(
-                                  iconSize: 18,
-                                  icon: const Icon(
-                                    Icons.record_voice_over,
-                                    color: Colors.red,
-                                  ),
+                                CustomIconButtonAmerican(
                                   onPressed: () => speak48652("en-US"),
                                 ),
                               ],
@@ -288,20 +268,10 @@ class EnglishEntryan extends StatelessWidget {
                                     ),
                                   ),
                                 ),
-                                IconButton(
-                                  iconSize: 18,
-                                  icon: const Icon(
-                                    Icons.record_voice_over,
-                                    color: Colors.blue,
-                                  ),
+                                CustomIconButtonBritish(
                                   onPressed: () => speak45287("en-GB"),
                                 ),
-                                IconButton(
-                                  iconSize: 18,
-                                  icon: const Icon(
-                                    Icons.record_voice_over,
-                                    color: Colors.red,
-                                  ),
+                                CustomIconButtonAmerican(
                                   onPressed: () => speak45287("en-US"),
                                 ),
                               ],
@@ -339,20 +309,10 @@ class EnglishEntryan extends StatelessWidget {
                                     ),
                                   ),
                                 ),
-                                IconButton(
-                                  iconSize: 18,
-                                  icon: const Icon(
-                                    Icons.record_voice_over,
-                                    color: Colors.blue,
-                                  ),
+                                CustomIconButtonBritish(
                                   onPressed: () => speak197524("en-GB"),
                                 ),
-                                IconButton(
-                                  iconSize: 18,
-                                  icon: const Icon(
-                                    Icons.record_voice_over,
-                                    color: Colors.red,
-                                  ),
+                                CustomIconButtonAmerican(
                                   onPressed: () => speak197524("en-US"),
                                 ),
                               ],
@@ -390,20 +350,10 @@ class EnglishEntryan extends StatelessWidget {
                                     ),
                                   ),
                                 ),
-                                IconButton(
-                                  iconSize: 18,
-                                  icon: const Icon(
-                                    Icons.record_voice_over,
-                                    color: Colors.blue,
-                                  ),
+                                CustomIconButtonBritish(
                                   onPressed: () => speak475968("en-GB"),
                                 ),
-                                IconButton(
-                                  iconSize: 18,
-                                  icon: const Icon(
-                                    Icons.record_voice_over,
-                                    color: Colors.red,
-                                  ),
+                                CustomIconButtonAmerican(
                                   onPressed: () => speak475968("en-US"),
                                 ),
                               ],
@@ -449,20 +399,10 @@ class EnglishEntryan extends StatelessWidget {
                                     ),
                                   ),
                                 ),
-                                IconButton(
-                                  iconSize: 18,
-                                  icon: const Icon(
-                                    Icons.record_voice_over,
-                                    color: Colors.blue,
-                                  ),
+                                CustomIconButtonBritish(
                                   onPressed: () => speak63328("en-GB"),
                                 ),
-                                IconButton(
-                                  iconSize: 18,
-                                  icon: const Icon(
-                                    Icons.record_voice_over,
-                                    color: Colors.red,
-                                  ),
+                                CustomIconButtonAmerican(
                                   onPressed: () => speak63328("en-US"),
                                 ),
                               ],

@@ -195,12 +195,7 @@ class EnglishEntryamply extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmply459("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmply459(// REPLACE: amply /ˈæmpli/
                                         "en-US"),

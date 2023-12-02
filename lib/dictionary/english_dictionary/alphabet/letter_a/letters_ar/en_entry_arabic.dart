@@ -204,12 +204,7 @@ class EnglishEntryarabic extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArabic1010("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArabic1010(// REPLACE: arabic /ˈærəbɪk/
                                         "en-US"),
@@ -232,12 +227,7 @@ class EnglishEntryarabic extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArabic1012("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArabic1012(// REPLACE: arabic /ˈærəbɪk/
                                         "en-US"),
@@ -262,12 +252,7 @@ class EnglishEntryarabic extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArabic1017("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArabic1017(// REPLACE: arabic /ˈærəbɪk/
                                         "en-US"),

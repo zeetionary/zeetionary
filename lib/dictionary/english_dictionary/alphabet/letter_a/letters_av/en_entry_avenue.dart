@@ -198,12 +198,7 @@ class EnglishEntryavenue extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAvenues1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAvenues1(// REPLACE: avenue
                                         "en-US"),
@@ -228,12 +223,7 @@ class EnglishEntryavenue extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAvenues2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAvenues2(// REPLACE: avenue
                                         "en-US"),
@@ -258,12 +248,7 @@ class EnglishEntryavenue extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAvenues3("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAvenues3(// REPLACE: avenue
                                         "en-US"),

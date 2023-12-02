@@ -215,12 +215,7 @@ class EnglishEntryamericanfootball extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ھیچ حەزم بە تۆپێنی ئەمریکی نییە."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakAmericanfootball45777("en-GB"),
                               ),

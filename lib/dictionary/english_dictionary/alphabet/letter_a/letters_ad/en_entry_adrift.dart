@@ -154,12 +154,7 @@ class EnglishEntryadrift extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdri458692("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdri458692(// REPLACE: adrift /əˈdrɪft/
                                         "en-US"),
@@ -179,12 +174,7 @@ class EnglishEntryadrift extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdri52369("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdri52369(// REPLACE: adrift /əˈdrɪft/
                                         "en-US"),
@@ -205,12 +195,7 @@ class EnglishEntryadrift extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdrif52317("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdrif52317(// REPLACE: adrift /əˈdrɪft/
                                         "en-US"),

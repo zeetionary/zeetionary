@@ -198,12 +198,7 @@ class EnglishEntrybanger extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBangers1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBangers1(// REPLACE: banger
                                         "en-US"),
@@ -228,12 +223,7 @@ class EnglishEntrybanger extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBangers2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBangers2(// REPLACE: banger
                                         "en-US"),
@@ -258,12 +248,7 @@ class EnglishEntrybanger extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBangers3("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBangers3(// REPLACE: banger
                                         "en-US"),
@@ -286,12 +271,7 @@ class EnglishEntrybanger extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBangers4("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBangers4(// REPLACE: banger
                                         "en-US"),

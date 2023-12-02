@@ -209,12 +209,7 @@ class EnglishEntryaid extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAid2522("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAid2522(// REPLACE: aid /eɪd/
                                         "en-US"),
@@ -236,12 +231,7 @@ class EnglishEntryaid extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAid38996("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAid38996(// REPLACE: aid /eɪd/
                                         "en-US"),
@@ -265,12 +255,7 @@ class EnglishEntryaid extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAid35288("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAid35288(// REPLACE: aid /eɪd/
                                         "en-US"),
@@ -292,12 +277,7 @@ class EnglishEntryaid extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAid37844("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAid37844(// REPLACE: aid /eɪd/
                                         "en-US"),
@@ -321,12 +301,7 @@ class EnglishEntryaid extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAid35882555("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAid35882555(// REPLACE: aid /eɪd/
                                         "en-US"),
@@ -348,12 +323,7 @@ class EnglishEntryaid extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAid45269("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAid45269(// REPLACE: aid /eɪd/
                                         "en-US"),
@@ -377,12 +347,7 @@ class EnglishEntryaid extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAid43748("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAid43748(// REPLACE: aid /eɪd/
                                         "en-US"),
@@ -402,12 +367,7 @@ class EnglishEntryaid extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAid35999("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAid35999(// REPLACE: aid /eɪd/
                                         "en-US"),

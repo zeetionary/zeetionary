@@ -152,12 +152,7 @@ class EnglishEntryadept extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakA2588("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakA2588(// REPLACE: adept /əˈdept/
                                         "en-US"),

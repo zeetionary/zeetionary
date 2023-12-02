@@ -194,12 +194,7 @@ class EnglishEntryavianflu extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAvianflus1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAvianflus1(// REPLACE: avian flu
                                         "en-US"),

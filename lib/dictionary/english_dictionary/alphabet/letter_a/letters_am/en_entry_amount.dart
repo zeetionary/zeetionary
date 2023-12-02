@@ -202,12 +202,7 @@ class EnglishEntryamount extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmount4447("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmount4447(// REPLACE: amount /əˈmaʊnt/
                                         "en-US"),
@@ -251,12 +246,7 @@ class EnglishEntryamount extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmount3522("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmount3522(// REPLACE: amount /əˈmaʊnt/
                                         "en-US"),
@@ -280,12 +270,7 @@ class EnglishEntryamount extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmount5523("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmount5523(// REPLACE: amount /əˈmaʊnt/
                                         "en-US"),
@@ -309,12 +294,7 @@ class EnglishEntryamount extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmount5622("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmount5622(// REPLACE: amount /əˈmaʊnt/
                                         "en-US"),
@@ -336,12 +316,7 @@ class EnglishEntryamount extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmount514("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmount514(// REPLACE: amount /əˈmaʊnt/
                                         "en-US"),

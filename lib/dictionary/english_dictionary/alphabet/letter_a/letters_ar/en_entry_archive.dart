@@ -201,12 +201,7 @@ class EnglishEntryarchive extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArchive("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArchive(// REPLACE: archive /ˈɑːrkaɪv/
                                         "en-US"),

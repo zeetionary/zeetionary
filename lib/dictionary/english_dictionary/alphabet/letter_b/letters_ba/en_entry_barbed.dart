@@ -197,12 +197,7 @@ class EnglishEntrybarbed extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarbeds1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBarbeds1(// REPLACE: barbed
                                         "en-US"),
@@ -227,12 +222,7 @@ class EnglishEntrybarbed extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarbeds2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBarbeds2(// REPLACE: barbed
                                         "en-US"),

@@ -201,12 +201,7 @@ class EnglishEntryapron extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakApron728("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakApron728(// REPLACE: apron /ˈeɪprən/
                                         "en-US"),

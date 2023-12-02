@@ -88,7 +88,9 @@ class EnglishEntryamble extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈæmbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /ˈæmbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAmble(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
@@ -153,12 +155,7 @@ class EnglishEntryamble extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmble88544("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmble88544(// REPLACE: amble /ˈæmbl/
                                         "en-US"),

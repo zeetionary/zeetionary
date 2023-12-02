@@ -203,12 +203,7 @@ class EnglishEntryautocrat extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAutocrat934("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAutocrat934(// REPLACE: autocrat
                                         "en-US"),
@@ -233,12 +228,7 @@ class EnglishEntryautocrat extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAutocrat937("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAutocrat937(// REPLACE: autocrat
                                         "en-US"),

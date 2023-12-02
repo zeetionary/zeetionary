@@ -196,12 +196,7 @@ class EnglishEntryarabicnumeral extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "1 و 2 ژمارەی عەرەبین."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakArabicnumeral1032("en-GB"),
                               ),

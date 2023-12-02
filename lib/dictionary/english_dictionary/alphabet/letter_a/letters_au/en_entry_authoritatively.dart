@@ -203,12 +203,7 @@ class EnglishEntryauthoritatively extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەدەستووردەرانەوە وتی ئەدەبی کلاسیک پەیوەندی بە ھەژارانەوە نییە."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakAuthoritatively753("en-GB"),
                               ),
@@ -234,12 +229,7 @@ class EnglishEntryauthoritatively extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەسەر ئەم بابەتانە دەتوانێت بەجێگەی باوەڕەوە قسەبکات."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakAuthoritatively755("en-GB"),
                               ),

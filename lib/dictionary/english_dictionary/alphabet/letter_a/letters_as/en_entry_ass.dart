@@ -206,12 +206,7 @@ class EnglishEntryass extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAss834("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAss834(// REPLACE: arse /ɑːrs/
                                         "en-US"),
@@ -234,12 +229,7 @@ class EnglishEntryass extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAss837("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAss837(// REPLACE: arse /ɑːrs/
                                         "en-US"),
@@ -264,12 +254,7 @@ class EnglishEntryass extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAss842("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAss842(// REPLACE: arse /ɑːrs/
                                         "en-US"),

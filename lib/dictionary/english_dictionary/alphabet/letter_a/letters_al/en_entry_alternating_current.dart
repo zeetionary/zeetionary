@@ -156,12 +156,7 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێچەوانەی تۆماس ئەدیسۆن، جۆرج وێستینگھاوس لایەنگیری تەزووی گۆڕاو بوو "),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakAlternatingcurrent124("en-GB"),
                               ),

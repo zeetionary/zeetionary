@@ -134,7 +134,9 @@ class EnglishEntryaplomb extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /əˈplɒm/av"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /əˈplɒm/av"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAplomb(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
@@ -201,12 +203,7 @@ class EnglishEntryaplomb extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAplomb246("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAplomb246(// REPLACE: aplomb /əˈplɒm/av
                                         "en-US"),

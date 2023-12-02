@@ -205,12 +205,7 @@ class EnglishEntryausterely extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAusterely506("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAusterely506(// REPLACE: austerely
                                         "en-US"),
@@ -235,12 +230,7 @@ class EnglishEntryausterely extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAusterely509("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAusterely509(// REPLACE: austerely
                                         "en-US"),

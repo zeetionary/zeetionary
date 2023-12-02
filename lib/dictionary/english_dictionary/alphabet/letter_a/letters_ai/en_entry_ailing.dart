@@ -154,12 +154,7 @@ class EnglishEntryailing extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAiling25388("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAiling25388(// REPLACE: ailing /ˈeɪlɪŋ/
                                         "en-US"),

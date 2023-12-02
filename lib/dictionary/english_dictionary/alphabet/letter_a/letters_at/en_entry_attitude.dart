@@ -206,12 +206,7 @@ class EnglishEntryattitude extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttitude1030("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttitude1030(// REPLACE: attitude
                                         "en-US"),
@@ -236,12 +231,7 @@ class EnglishEntryattitude extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttitude1034("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttitude1034(// REPLACE: attitude
                                         "en-US"),
@@ -266,12 +256,7 @@ class EnglishEntryattitude extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttitude1036("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttitude1036(// REPLACE: attitude
                                         "en-US"),

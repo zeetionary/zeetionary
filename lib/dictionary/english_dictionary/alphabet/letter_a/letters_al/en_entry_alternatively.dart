@@ -156,12 +156,7 @@ class EnglishEntryalternatively extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئاژانسەکە کاری ڕێکخستنی گەشتەکەت بۆ دەکات. بەجێی‌ئەوە، خۆت دەتوانیت سەفەرەکەت ڕێک بخەیت."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakAlternatively5244("en-GB"),
                               ),

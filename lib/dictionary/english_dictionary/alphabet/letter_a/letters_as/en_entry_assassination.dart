@@ -202,12 +202,7 @@ class EnglishEntryassassination extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەرۆکەکە لە ژمارەیەک ھەوڵی تیرۆرکردن ڕزگاری‌بوو."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakAssassination1017("en-GB"),
                               ),

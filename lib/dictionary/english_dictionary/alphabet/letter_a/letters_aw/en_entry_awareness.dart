@@ -197,12 +197,7 @@ class EnglishEntryawareness extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwarenesss1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAwarenesss1(// REPLACE: awareness
                                         "en-US"),
@@ -227,12 +222,7 @@ class EnglishEntryawareness extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwarenesss2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAwarenesss2(// REPLACE: awareness
                                         "en-US"),

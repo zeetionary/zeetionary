@@ -193,12 +193,7 @@ class EnglishEntryavidly extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAvidlys1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAvidlys1(// REPLACE: avidly
                                         "en-US"),

@@ -207,12 +207,7 @@ class EnglishEntryarch extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArch135("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArch135(// REPLACE: arch /ɑːrtʃ/
                                         "en-US"),
@@ -237,12 +232,7 @@ class EnglishEntryarch extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArch140("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArch140(// REPLACE: arch /ɑːrtʃ/
                                         "en-US"),
@@ -265,12 +255,7 @@ class EnglishEntryarch extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArch143("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArch143(// REPLACE: arch /ɑːrtʃ/
                                         "en-US"),
@@ -295,12 +280,7 @@ class EnglishEntryarch extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArch148("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArch148(// REPLACE: arch /ɑːrtʃ/
                                         "en-US"),
@@ -323,12 +303,7 @@ class EnglishEntryarch extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArch148("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArch148(// REPLACE: arch /ɑːrtʃ/
                                         "en-US"),
@@ -352,12 +327,7 @@ class EnglishEntryarch extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArch152("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArch152(// REPLACE: arch /ɑːrtʃ/
                                         "en-US"),
@@ -382,12 +352,7 @@ class EnglishEntryarch extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArch159("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArch159(// REPLACE: arch /ɑːrtʃ/
                                         "en-US"),

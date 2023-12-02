@@ -158,12 +158,7 @@ class EnglishEntryamber extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmber4447("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmber4447(// REPLACE: amber /ˈæmbər/
                                         "en-US"),
@@ -187,12 +182,7 @@ class EnglishEntryamber extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmber46922("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmber46922(// REPLACE: amber /ˈæmbər/
                                         "en-US"),
@@ -215,12 +205,7 @@ class EnglishEntryamber extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmber4699("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmber4699(// REPLACE: amber /ˈæmbər/
                                         "en-US"),

@@ -203,12 +203,7 @@ class EnglishEntryaspire extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAspire700("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAspire700(// REPLACE: aspire /əˈspaɪər/
                                         "en-US"),

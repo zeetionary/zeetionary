@@ -198,12 +198,7 @@ class EnglishEntryample extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmple001("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmple001(// REPLACE: ample /ˈæmpl/
                                         "en-US"),
@@ -227,12 +222,7 @@ class EnglishEntryample extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmple4408("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmple4408(// REPLACE: ample /ˈæmpl/
                                         "en-US"),

@@ -194,12 +194,7 @@ class EnglishEntrybanking extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBankings1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBankings1(// REPLACE: banking
                                         "en-US"),

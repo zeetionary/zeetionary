@@ -242,12 +242,7 @@ class EnglishEntryadvance extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdv2567("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdv2567(// REPLACE: advance /ədˈvɑːns/
                                         "en-US"),
@@ -288,12 +283,7 @@ class EnglishEntryadvance extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdv253("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdv253(// REPLACE: advance /ədˈvɑːns/
                                         "en-US"),
@@ -314,12 +304,7 @@ class EnglishEntryadvance extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdv23574("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdv23574(// REPLACE: advance /ədˈvɑːns/
                                         "en-US"),
@@ -361,12 +346,7 @@ class EnglishEntryadvance extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAd456("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAd456(// REPLACE: advance /ədˈvɑːns/
                                         "en-US"),
@@ -387,12 +367,7 @@ class EnglishEntryadvance extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdv3568("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdv3568(// REPLACE: advance /ədˈvɑːns/
                                         "en-US"),
@@ -411,12 +386,7 @@ class EnglishEntryadvance extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdva391("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdva391(// REPLACE: advance /ədˈvɑːns/
                                         "en-US"),
@@ -437,12 +407,7 @@ class EnglishEntryadvance extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdva7864("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdva7864(// REPLACE: advance /ədˈvɑːns/
                                         "en-US"),
@@ -463,12 +428,7 @@ class EnglishEntryadvance extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdva8529("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdva8529(// REPLACE: advance /ədˈvɑːns/
                                         "en-US"),
@@ -489,12 +449,7 @@ class EnglishEntryadvance extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdv9678("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdv9678(// REPLACE: advance /ədˈvɑːns/
                                         "en-US"),

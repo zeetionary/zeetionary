@@ -386,12 +386,7 @@ class EnglishEntryallow extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllow3255("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAllow3255(// REPLACE: allow /əˈlaʊ/
                                         "en-US"),
@@ -413,12 +408,7 @@ class EnglishEntryallow extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllow535("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAllow535(// REPLACE: allow /əˈlaʊ/
                                         "en-US"),
@@ -442,12 +432,7 @@ class EnglishEntryallow extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllow369("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAllow369(// REPLACE: allow /əˈlaʊ/
                                         "en-US"),
@@ -470,12 +455,7 @@ class EnglishEntryallow extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllow4721("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAllow4721(// REPLACE: allow /əˈlaʊ/
                                         "en-US"),
@@ -499,12 +479,7 @@ class EnglishEntryallow extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllow36541("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAllow36541(// REPLACE: allow /əˈlaʊ/
                                         "en-US"),
@@ -528,12 +503,7 @@ class EnglishEntryallow extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllow2341("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAllow2341(// REPLACE: allow /əˈlaʊ/
                                         "en-US"),

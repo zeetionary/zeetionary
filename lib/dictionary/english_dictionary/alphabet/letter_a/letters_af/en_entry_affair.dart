@@ -187,12 +187,7 @@ class EnglishEntryaffair extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAff25941("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAff25941(// REPLACE: affair /əˈfeər/
                                         "en-US"),
@@ -211,12 +206,7 @@ class EnglishEntryaffair extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffa35228("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAffa35228(// REPLACE: affair /əˈfeər/
                                         "en-US"),
@@ -237,12 +227,7 @@ class EnglishEntryaffair extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffa25677("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAffa25677(// REPLACE: affair /əˈfeər/
                                         "en-US"),
@@ -263,12 +248,7 @@ class EnglishEntryaffair extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffa2411("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAffa2411(// REPLACE: affair /əˈfeər/
                                         "en-US"),

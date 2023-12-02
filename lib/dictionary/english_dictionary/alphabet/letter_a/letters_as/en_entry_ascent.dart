@@ -206,12 +206,7 @@ class EnglishEntryascent extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAscent1230("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAscent1230(// REPLACE: ascent /əˈsent/
                                         "en-US"),
@@ -234,12 +229,7 @@ class EnglishEntryascent extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAscent1232("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAscent1232(// REPLACE: ascent /əˈsent/
                                         "en-US"),

@@ -222,12 +222,7 @@ class EnglishEntryamid extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmid77744("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmid77744(// REPLACE: amid /əˈmɪd/
                                         "en-US"),
@@ -251,12 +246,7 @@ class EnglishEntryamid extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmid7741("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmid7741(// REPLACE: amid /əˈmɪd/
                                         "en-US"),

@@ -152,12 +152,7 @@ class EnglishEntryadviser extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAd36528("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAd36528(// REPLACE: adviser /ədˈvaɪzər/
                                         "en-US"),

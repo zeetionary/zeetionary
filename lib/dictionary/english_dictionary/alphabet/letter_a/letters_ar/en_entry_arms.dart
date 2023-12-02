@@ -202,12 +202,7 @@ class EnglishEntryarms extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArms705("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArms705(// REPLACE: arms /ɑːrmz/
                                         "en-US"),
@@ -230,12 +225,7 @@ class EnglishEntryarms extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArms706("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArms706(// REPLACE: arms /ɑːrmz/
                                         "en-US"),

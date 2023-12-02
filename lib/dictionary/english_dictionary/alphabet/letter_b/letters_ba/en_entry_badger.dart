@@ -197,12 +197,7 @@ class EnglishEntrybadger extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBadgers1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBadgers1(// REPLACE: badger
                                         "en-US"),
@@ -226,12 +221,7 @@ class EnglishEntrybadger extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBadgers2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBadgers2(// REPLACE: badger
                                         "en-US"),

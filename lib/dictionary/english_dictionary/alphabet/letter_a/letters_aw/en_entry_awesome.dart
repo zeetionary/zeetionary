@@ -196,12 +196,7 @@ class EnglishEntryawesome extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwesomes1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAwesomes1(// REPLACE: awesome
                                         "en-US"),
@@ -222,12 +217,7 @@ class EnglishEntryawesome extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwesomes2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAwesomes2(// REPLACE: awesome
                                         "en-US"),
@@ -251,12 +241,7 @@ class EnglishEntryawesome extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwesomes3("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAwesomes3(// REPLACE: awesome
                                         "en-US"),

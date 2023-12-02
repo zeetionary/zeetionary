@@ -195,12 +195,7 @@ class EnglishEntrybackup extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBackups1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBackups1(// REPLACE: backup
                                         "en-US"),
@@ -223,12 +218,7 @@ class EnglishEntrybackup extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBackups2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBackups2(// REPLACE: backup
                                         "en-US"),

@@ -194,12 +194,7 @@ class EnglishEntrybarcode extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarcodes1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBarcodes1(// REPLACE: barcode
                                         "en-US"),

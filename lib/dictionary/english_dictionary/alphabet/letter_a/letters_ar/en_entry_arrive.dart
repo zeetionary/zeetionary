@@ -206,12 +206,7 @@ class EnglishEntryarrive extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArrive524("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArrive524(// REPLACE: arrive /əˈraɪv/
                                         "en-US"),
@@ -232,12 +227,7 @@ class EnglishEntryarrive extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArrive525("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArrive525(// REPLACE: arrive /əˈraɪv/
                                         "en-US"),
@@ -261,12 +251,7 @@ class EnglishEntryarrive extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArrive527("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArrive527(// REPLACE: arrive /əˈraɪv/
                                         "en-US"),
@@ -289,12 +274,7 @@ class EnglishEntryarrive extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArrive528("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArrive528(// REPLACE: arrive /əˈraɪv/
                                         "en-US"),

@@ -152,12 +152,7 @@ class EnglishEntryafar extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfa2569("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfa2569(// REPLACE: afar /əˈfɑːr/
                                         "en-US"),

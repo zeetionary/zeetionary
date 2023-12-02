@@ -202,12 +202,7 @@ class EnglishEntryarmpit extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArmpit412("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArmpit412(// REPLACE: armpit /ˈɑːrmpɪt/
                                         "en-US"),

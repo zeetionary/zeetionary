@@ -152,12 +152,7 @@ class EnglishEntryaccuser extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakA91573("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakA91573("en-US"), // FIND: /əˈkjuːzər/
                               ),

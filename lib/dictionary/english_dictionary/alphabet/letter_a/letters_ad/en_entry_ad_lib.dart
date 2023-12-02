@@ -152,12 +152,7 @@ class EnglishEntryadlib extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdlib4587("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdlib4587(// REPLACE: ad lib /ˌæd ˈlɪb/
                                         "en-US"),

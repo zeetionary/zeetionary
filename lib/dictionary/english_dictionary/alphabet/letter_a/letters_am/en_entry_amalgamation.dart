@@ -157,12 +157,7 @@ class EnglishEntryamalgamation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە نیازین ژمارەیەک لە کارگەکانی گەڕەکەکە یەکبخەین."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakAmalgamation45999("en-GB"),
                               ),

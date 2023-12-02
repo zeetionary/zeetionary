@@ -204,12 +204,7 @@ class EnglishEntryastronomy extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAstronomy456("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAstronomy456(// REPLACE: astronomy
                                         "en-US"),

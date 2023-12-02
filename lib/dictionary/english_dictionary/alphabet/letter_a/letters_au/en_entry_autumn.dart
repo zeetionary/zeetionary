@@ -196,12 +196,7 @@ class EnglishEntryautumn extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAutumns1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAutumns1(// REPLACE: autumn
                                         "en-US"),

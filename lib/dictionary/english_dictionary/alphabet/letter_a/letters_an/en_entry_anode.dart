@@ -198,12 +198,7 @@ class EnglishEntryanode extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnode936("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnode936(// REPLACE: anode /ˈænəʊd/
                                         "en-US"),

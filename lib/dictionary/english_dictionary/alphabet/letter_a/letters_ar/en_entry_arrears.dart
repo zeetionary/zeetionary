@@ -206,12 +206,7 @@ class EnglishEntryarrears extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArrears400("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArrears400(// REPLACE: arrears /əˈrɪrz/
                                         "en-US"),
@@ -234,12 +229,7 @@ class EnglishEntryarrears extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArrears404("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArrears404(// REPLACE: arrears /əˈrɪrz/
                                         "en-US"),

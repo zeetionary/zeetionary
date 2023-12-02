@@ -176,12 +176,7 @@ class EnglishEntryalight extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlight3996("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlight3996(// REPLACE: alight /əˈlaɪt/
                                         "en-US"),
@@ -205,12 +200,7 @@ class EnglishEntryalight extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlight35244("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlight35244(// REPLACE: alight /əˈlaɪt/
                                         "en-US"),
@@ -233,12 +223,7 @@ class EnglishEntryalight extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlight32852("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlight32852(// REPLACE: alight /əˈlaɪt/
                                         "en-US"),

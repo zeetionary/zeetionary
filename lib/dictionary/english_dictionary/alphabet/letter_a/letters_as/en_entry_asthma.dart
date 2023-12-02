@@ -205,12 +205,7 @@ class EnglishEntryasthma extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAsthma1012("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAsthma1012(// REPLACE: asthma /ˈæzmə/
                                         "en-US"),

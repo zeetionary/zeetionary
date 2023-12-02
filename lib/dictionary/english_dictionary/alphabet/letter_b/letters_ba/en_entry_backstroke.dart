@@ -195,12 +195,7 @@ class EnglishEntrybackstroke extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakB3s1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakB3s1(// REPLACE: backstroke
                                         "en-US"),

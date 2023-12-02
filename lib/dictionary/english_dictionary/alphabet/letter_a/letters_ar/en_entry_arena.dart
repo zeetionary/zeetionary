@@ -204,12 +204,7 @@ class EnglishEntryarena extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArena1042("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArena1042(// REPLACE: arena /əˈriːnə/
                                         "en-US"),
@@ -234,12 +229,7 @@ class EnglishEntryarena extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArena1045("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArena1045(// REPLACE: arena /əˈriːnə/
                                         "en-US"),

@@ -183,55 +183,6 @@ class EnglishEntrybackbencher extends StatelessWidget {
                               // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                               """
 ١. (ناو) لە پەرلەماندا، کەسێکە کە لە پشتەوە دادەنیشێت و ڕۆڵێکی گرنگی نییە لە حکومەت یان ئۆپۆزسیۆندا"""),
-                          // Row(
-                          //   children: [
-                          //     const Expanded(
-                          //       child: Align(
-                          //         alignment: Alignment.topLeft,
-                          //         child: Text( // DOPSUM_WRITE_A_SENTENCE
-                          //           "The advantage of being a backbencher is that you can speak your mind.",
-                          //           textDirection: TextDirection
-                          //               .ltr, // Right-to-left direction
-                          //           textAlign: TextAlign.left,
-                          //         ),
-                          //       ),
-                          //     ),
-                          //     // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                          //     // const SizedBox(
-                          //     //   width: 30,
-                          //     // ),
-                          //     const Expanded(
-                          //       child: Align(
-                          //         alignment: Alignment.topLeft,
-                          //         child: Text(
-                          //           "سوودی.",
-                          //           textAlign: TextAlign
-                          //               .right, // Right-to-left direction
-                          //           textDirection: TextDirection.rtl,
-                          //         ),
-                          //       ),
-                          //     ),
-                          //     IconButton(
-                          //       iconSize: 18,
-                          //       icon: const Icon(
-                          //         Icons.record_voice_over,
-                          //         color: Colors.blue,
-                          //       ),
-                          //       onPressed: () => speakA3s1("en-GB"),
-                          //     ),
-                          //     IconButton(
-                          //       iconSize: 18,
-                          //       icon: const Icon(
-                          //         Icons.record_voice_over,
-                          //         color: Colors.red,
-                          //       ),
-                          //       onPressed: () => speakA3s1(// REPLACE: backbencher
-                          //           "en-US"),
-                          //     ),
-                          //   ],
-                          // ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),

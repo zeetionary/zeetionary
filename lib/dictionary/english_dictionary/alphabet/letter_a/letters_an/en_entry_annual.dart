@@ -201,12 +201,7 @@ class EnglishEntryannual extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnnual817("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnnual817(// REPLACE: annual /ˈænjuəl/
                                         "en-US"),
@@ -229,12 +224,7 @@ class EnglishEntryannual extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnnual819("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnnual819(// REPLACE: annual /ˈænjuəl/
                                         "en-US"),
@@ -259,12 +249,7 @@ class EnglishEntryannual extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnnual821("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnnual821(// REPLACE: annual /ˈænjuəl/
                                         "en-US"),
@@ -289,12 +274,7 @@ class EnglishEntryannual extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnnual829("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnnual829(// REPLACE: annual /ˈænjuəl/
                                         "en-US"),

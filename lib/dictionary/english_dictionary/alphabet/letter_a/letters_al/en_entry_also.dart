@@ -169,12 +169,7 @@ class EnglishEntryalso extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlso74823("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlso74823(// REPLACE: also /ˈɔːlsəʊ/
                                         "en-US"),
@@ -196,12 +191,7 @@ class EnglishEntryalso extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlso459("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlso459(// REPLACE: also /ˈɔːlsəʊ/
                                         "en-US"),

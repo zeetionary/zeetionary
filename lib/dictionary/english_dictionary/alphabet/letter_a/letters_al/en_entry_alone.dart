@@ -194,12 +194,7 @@ class EnglishEntryalone extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlone1255("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlone1255(// REPLACE: alone /əˈləʊn/
                                         "en-US"),
@@ -220,12 +215,7 @@ class EnglishEntryalone extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlone4692("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlone4692(// REPLACE: alone /əˈləʊn/
                                         "en-US"),
@@ -248,12 +238,7 @@ class EnglishEntryalone extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlone4598("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlone4598(// REPLACE: alone /əˈləʊn/
                                         "en-US"),
@@ -276,12 +261,7 @@ class EnglishEntryalone extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlone9652("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlone9652(// REPLACE: alone /əˈləʊn/
                                         "en-US"),
@@ -305,12 +285,7 @@ class EnglishEntryalone extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlone7451("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlone7451(// REPLACE: alone /əˈləʊn/
                                         "en-US"),

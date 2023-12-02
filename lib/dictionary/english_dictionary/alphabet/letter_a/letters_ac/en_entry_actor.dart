@@ -173,12 +173,7 @@ class EnglishEntryactor extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakActor25687("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakActor25687(// REPLACE: actor
                                         "en-US"),

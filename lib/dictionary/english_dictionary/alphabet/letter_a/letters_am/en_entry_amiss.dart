@@ -222,12 +222,7 @@ class EnglishEntryamiss extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmiss7741("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmiss7741(// REPLACE: amiss /əˈmɪs/
                                         "en-US"),
@@ -249,12 +244,7 @@ class EnglishEntryamiss extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmiss8899("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmiss8899(// REPLACE: amiss /əˈmɪs/
                                         "en-US"),

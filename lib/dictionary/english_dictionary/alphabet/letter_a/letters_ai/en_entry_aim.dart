@@ -193,12 +193,7 @@ class EnglishEntryaim extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAim86555("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAim86555(// REPLACE: aim /eɪm/
                                         "en-US"),
@@ -220,12 +215,7 @@ class EnglishEntryaim extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAim475699("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAim475699(// REPLACE: aim /eɪm/
                                         "en-US"),
@@ -249,12 +239,7 @@ class EnglishEntryaim extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAim456933("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAim456933(// REPLACE: aim /eɪm/
                                         "en-US"),
@@ -276,12 +261,7 @@ class EnglishEntryaim extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAim5283("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAim5283(// REPLACE: aim /eɪm/
                                         "en-US"),
@@ -305,12 +285,7 @@ class EnglishEntryaim extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAim371595446("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAim371595446(// REPLACE: aim /eɪm/
                                         "en-US"),
@@ -334,12 +309,7 @@ class EnglishEntryaim extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAim78562("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAim78562(// REPLACE: aim /eɪm/
                                         "en-US"),
@@ -363,12 +333,7 @@ class EnglishEntryaim extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAim46011635("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAim46011635(// REPLACE: aim /eɪm/
                                         "en-US"),

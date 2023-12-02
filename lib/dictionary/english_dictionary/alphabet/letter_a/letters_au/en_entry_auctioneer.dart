@@ -205,12 +205,7 @@ class EnglishEntryauctioneer extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuctioneer1221("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAuctioneer1221(// REPLACE: auctioneer
                                         "en-US"),

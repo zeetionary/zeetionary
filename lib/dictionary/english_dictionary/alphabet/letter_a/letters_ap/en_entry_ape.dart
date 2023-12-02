@@ -202,12 +202,7 @@ class EnglishEntryape extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakApe129("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakApe129(// REPLACE: ape /eɪp/
                                         "en-US"),
@@ -232,12 +227,7 @@ class EnglishEntryape extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakApe132("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakApe132(// REPLACE: ape /eɪp/
                                         "en-US"),
@@ -262,12 +252,7 @@ class EnglishEntryape extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakApe134("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakApe134(// REPLACE: ape /eɪp/
                                         "en-US"),

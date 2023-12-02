@@ -182,54 +182,6 @@ class EnglishEntryanagram extends StatelessWidget {
 کوردی: (زمانەوانی) وشاوەژوو، پاش‌وپێش‌خستە
 
 ١. (ناو) وشەیەک کە لە دووبارە ڕێکخستنەوەی پیتەکانی وشەیەکی تر درووست‌بووە"""),
-                          // Row(
-                          //   children: [
-                          //     const Expanded(
-                          //       child: Align(
-                          //         alignment: Alignment.topLeft,
-                          //         child: Text(
-                          //           "DOPSUM_WRITE_A_SENTENCE",
-                          //           textDirection: TextDirection
-                          //               .ltr, // Right-to-left direction
-                          //         ),
-                          //       ),
-                          //     ),
-                          //     // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                          //     // const SizedBox(
-                          //     //   width: 30,
-                          //     // ),
-                          //     const Expanded(
-                          //       child: Align(
-                          //         alignment: Alignment.topLeft,
-                          //         child: Text(
-                          //           "رستە_رستە_رستە_رستە.",
-                          //           textAlign: TextAlign
-                          //               .right, // Right-to-left direction
-                          //         ),
-                          //       ),
-                          //     ),
-                          //     IconButton(
-                          //       iconSize: 18,
-                          //       icon: const Icon(
-                          //         Icons.record_voice_over,
-                          //         color: Colors.blue,
-                          //       ),
-                          //       onPressed: () => speakAnagram("en-GB"),
-                          //     ),
-                          //     IconButton(
-                          //       iconSize: 18,
-                          //       icon: const Icon(
-                          //         Icons.record_voice_over,
-                          //         color: Colors.red,
-                          //       ),
-                          //       onPressed: () =>
-                          //           speakAnagram(// REPLACE: anagram /ˈænəɡræm/
-                          //               "en-US"),
-                          //     ),
-                          //   ],
-                          // ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),

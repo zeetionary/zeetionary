@@ -194,12 +194,7 @@ class EnglishEntryaverse extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAverses1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAverses1(// REPLACE: averse
                                         "en-US"),
@@ -220,12 +215,7 @@ class EnglishEntryaverse extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAverses2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAverses2(// REPLACE: averse
                                         "en-US"),

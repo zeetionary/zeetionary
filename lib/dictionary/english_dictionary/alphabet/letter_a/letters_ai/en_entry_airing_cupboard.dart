@@ -155,12 +155,7 @@ class EnglishEntryairingcupboard extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "جلەکان بخە دۆڵابەکە."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakAiringcupboard4588("en-GB"),
                               ),

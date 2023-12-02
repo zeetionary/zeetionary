@@ -212,12 +212,7 @@ class EnglishEntryarrest extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArrest420("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArrest420(// REPLACE: arrest /əˈrest/
                                         "en-US"),
@@ -239,12 +234,7 @@ class EnglishEntryarrest extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArrest421("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArrest421(// REPLACE: arrest /əˈrest/
                                         "en-US"),
@@ -269,12 +259,7 @@ class EnglishEntryarrest extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArrest425("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArrest425(// REPLACE: arrest /əˈrest/
                                         "en-US"),
@@ -297,12 +282,7 @@ class EnglishEntryarrest extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArrest426("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArrest426(// REPLACE: arrest /əˈrest/
                                         "en-US"),
@@ -327,12 +307,7 @@ class EnglishEntryarrest extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArrest428("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArrest428(// REPLACE: arrest /əˈrest/
                                         "en-US"),
@@ -357,12 +332,7 @@ class EnglishEntryarrest extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArrest430("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArrest430(// REPLACE: arrest /əˈrest/
                                         "en-US"),
@@ -385,12 +355,7 @@ class EnglishEntryarrest extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArrest432("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArrest432(// REPLACE: arrest /əˈrest/
                                         "en-US"),
@@ -414,12 +379,7 @@ class EnglishEntryarrest extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArrest435("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArrest435(// REPLACE: arrest /əˈrest/
                                         "en-US"),

@@ -150,12 +150,7 @@ class EnglishEntryadmiral extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdmi2568("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdmi2568(// REPLACE: admiral /ˈædmərəl/
                                         "en-US"),

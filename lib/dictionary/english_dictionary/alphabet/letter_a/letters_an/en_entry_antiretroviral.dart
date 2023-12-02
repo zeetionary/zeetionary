@@ -196,12 +196,7 @@ class EnglishEntryantiretroviral extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئانتی‌ریترۆڤایرڵ تەنھا ڕێگەی چارەسەری ئایدزە."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakAntiretroviral1208("en-GB"),
                               ),

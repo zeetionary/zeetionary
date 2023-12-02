@@ -160,12 +160,7 @@ class EnglishEntryairing extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAiring4522("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAiring4522(// REPLACE: airing /ˈerɪŋ/
                                         "en-US"),
@@ -189,12 +184,7 @@ class EnglishEntryairing extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAiring4155("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAiring4155(// REPLACE: airing /ˈerɪŋ/
                                         "en-US"),

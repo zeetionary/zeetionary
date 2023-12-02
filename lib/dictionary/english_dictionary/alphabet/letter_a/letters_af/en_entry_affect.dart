@@ -169,12 +169,7 @@ class EnglishEntryaffect extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffe5699("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAffe5699(// REPLACE: affect /əˈfekt/
                                         "en-US"),
@@ -193,12 +188,7 @@ class EnglishEntryaffect extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffe741("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAffe741(// REPLACE: affect /əˈfekt/
                                         "en-US"),
@@ -219,12 +209,7 @@ class EnglishEntryaffect extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffe25699("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAffe25699(// REPLACE: affect /əˈfekt/
                                         "en-US"),
@@ -244,12 +229,7 @@ class EnglishEntryaffect extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAff2566("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAff2566(// REPLACE: affect /əˈfekt/
                                         "en-US"),

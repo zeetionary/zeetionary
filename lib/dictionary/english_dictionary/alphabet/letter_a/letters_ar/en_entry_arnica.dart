@@ -190,56 +190,6 @@ class EnglishEntryarnica extends StatelessWidget {
 کوردی: یۆزخنکێن، گوڵەپشمین
 
 ١. (ھاوەڵناو) چارەسەرێکی سرووشتی کە لە ڕووەکی ئارنیکا درووست‌دەکرێت و بەکاردێت بۆ چارەسەری ڕووشاوی پێست"""),
-                          // Row(
-                          //   children: [
-                          //     const Expanded(
-                          //       child: Align(
-                          //         alignment: Alignment.topLeft,
-                          //         child: Text(
-                          //           "DOPSUM_WRITE_A_SENTENCE",
-                          //           textDirection: TextDirection
-                          //               .ltr, // Right-to-left direction
-                          //           textAlign: TextAlign.left,
-                          //         ),
-                          //       ),
-                          //     ),
-                          //     // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                          //     // const SizedBox(
-                          //     //   width: 30,
-                          //     // ),
-                          //     const Expanded(
-                          //       child: Align(
-                          //         alignment: Alignment.topLeft,
-                          //         child: Text(
-                          //           "رستە_رستە_رستە_رستە.",
-                          //           textAlign: TextAlign
-                          //               .right, // Right-to-left direction
-                          //           textDirection: TextDirection.rtl,
-                          //         ),
-                          //       ),
-                          //     ),
-                          //     IconButton(
-                          //       iconSize: 18,
-                          //       icon: const Icon(
-                          //         Icons.record_voice_over,
-                          //         color: Colors.blue,
-                          //       ),
-                          //       onPressed: () => speakArnica("en-GB"),
-                          //     ),
-                          //     IconButton(
-                          //       iconSize: 18,
-                          //       icon: const Icon(
-                          //         Icons.record_voice_over,
-                          //         color: Colors.red,
-                          //       ),
-                          //       onPressed: () =>
-                          //           speakArnica(// REPLACE: arnica /ˈɑːrnɪkə/
-                          //               "en-US"),
-                          //     ),
-                          //   ],
-                          // ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),

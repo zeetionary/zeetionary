@@ -198,12 +198,7 @@ class EnglishEntryangry extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngry4102("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAngry4102(// REPLACE: angry /ˈæŋɡri/
                                         "en-US"),
@@ -226,12 +221,7 @@ class EnglishEntryangry extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngry0158("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAngry0158(// REPLACE: angry /ˈæŋɡri/
                                         "en-US"),
@@ -254,12 +244,7 @@ class EnglishEntryangry extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngry4952("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAngry4952(// REPLACE: angry /ˈæŋɡri/
                                         "en-US"),
@@ -284,12 +269,7 @@ class EnglishEntryangry extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngry4506("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAngry4506(// REPLACE: angry /ˈæŋɡri/
                                         "en-US"),

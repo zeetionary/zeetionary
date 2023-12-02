@@ -170,12 +170,7 @@ class EnglishEntryadmit extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdmi4527("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdmi4527(// REPLACE: admit /ədˈmɪt/
                                         "en-US"),
@@ -194,12 +189,7 @@ class EnglishEntryadmit extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdmit4568("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdmit4568(// REPLACE: admit /ədˈmɪt/
                                         "en-US"),
@@ -218,12 +208,7 @@ class EnglishEntryadmit extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdmit34587("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdmit34587(// REPLACE: admit /ədˈmɪt/
                                         "en-US"),
@@ -244,12 +229,7 @@ class EnglishEntryadmit extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdmit45682("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdmit45682(// REPLACE: admit /ədˈmɪt/
                                         "en-US"),
@@ -270,12 +250,7 @@ class EnglishEntryadmit extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdmit458796("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdmit458796(// REPLACE: admit /ədˈmɪt/
                                         "en-US"),

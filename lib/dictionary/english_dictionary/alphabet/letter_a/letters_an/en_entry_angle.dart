@@ -221,12 +221,7 @@ class EnglishEntryangle extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngle11480("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAngle11480(// REPLACE: angle /ˈæŋɡl/
                                         "en-US"),
@@ -251,12 +246,7 @@ class EnglishEntryangle extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngle46055("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAngle46055(// REPLACE: angle /ˈæŋɡl/
                                         "en-US"),
@@ -281,12 +271,7 @@ class EnglishEntryangle extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngle45906("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAngle45906(// REPLACE: angle /ˈæŋɡl/
                                         "en-US"),
@@ -309,12 +294,7 @@ class EnglishEntryangle extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngle440("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAngle440(// REPLACE: angle /ˈæŋɡl/
                                         "en-US"),
@@ -339,12 +319,7 @@ class EnglishEntryangle extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngle450("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAngle450(// REPLACE: angle /ˈæŋɡl/
                                         "en-US"),
@@ -369,12 +344,7 @@ class EnglishEntryangle extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngle905("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAngle905(// REPLACE: angle /ˈæŋɡl/
                                         "en-US"),
@@ -399,12 +369,7 @@ class EnglishEntryangle extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngle225870("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAngle225870(// REPLACE: angle /ˈæŋɡl/
                                         "en-US"),
@@ -428,12 +393,7 @@ class EnglishEntryangle extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngle5401("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAngle5401(// REPLACE: angle /ˈæŋɡl/
                                         "en-US"),
@@ -458,12 +418,7 @@ class EnglishEntryangle extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngle5580("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAngle5580(// REPLACE: angle /ˈæŋɡl/
                                         "en-US"),

@@ -202,12 +202,7 @@ class EnglishEntryattacker extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttacker637("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttacker637(// REPLACE: attacker
                                         "en-US"),

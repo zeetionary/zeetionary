@@ -152,12 +152,7 @@ class EnglishEntryaerosol extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAero63844("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAero63844(// REPLACE: aerosol /ˈerəsɒl/
                                         "en-US"),

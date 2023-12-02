@@ -151,12 +151,7 @@ class EnglishEntryafoot extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfoo4599("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfoo4599(// REPLACE: afoot /əˈfʊt/
                                         "en-US"),

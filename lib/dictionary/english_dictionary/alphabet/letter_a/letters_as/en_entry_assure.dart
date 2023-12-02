@@ -208,12 +208,7 @@ class EnglishEntryassure extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAssure902("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAssure902(// REPLACE: assure /əˈʃʊr/
                                         "en-US"),
@@ -234,12 +229,7 @@ class EnglishEntryassure extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAssure903("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAssure903(// REPLACE: assure /əˈʃʊr/
                                         "en-US"),
@@ -264,12 +254,7 @@ class EnglishEntryassure extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAssure905("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAssure905(// REPLACE: assure /əˈʃʊr/
                                         "en-US"),
@@ -294,12 +279,7 @@ class EnglishEntryassure extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAssure921("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAssure921(// REPLACE: assure /əˈʃʊr/
                                         "en-US"),

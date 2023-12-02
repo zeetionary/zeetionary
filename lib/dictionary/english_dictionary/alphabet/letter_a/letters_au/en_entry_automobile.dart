@@ -205,12 +205,7 @@ class EnglishEntryautomobile extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAutomobile847("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAutomobile847(// REPLACE: automobile
                                         "en-US"),

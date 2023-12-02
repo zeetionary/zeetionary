@@ -200,12 +200,7 @@ class EnglishEntryapprenticeship extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە دووەم ساڵی شاگردییەکەی بوو وەک دارتاشێک."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakApprenticeship1013("en-GB"),
                               ),

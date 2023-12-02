@@ -162,7 +162,7 @@ class EnglishEntryad extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ھاوەڵکار) لە دوای لەدایکبوونی پێغەمبەر عیسا"""),
+٢. (ھاوەڵکار) لە دوای لەدایکبوونی پێغەمبەر عیسا."""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -172,12 +172,7 @@ class EnglishEntryad extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAd4247("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAd4247(// REPLACE: ad /æd/, /ˌeɪˈdiː/
                                         "en-US"),

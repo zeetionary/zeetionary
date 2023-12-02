@@ -190,56 +190,6 @@ class EnglishEntryassetstripping extends StatelessWidget {
                               // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                               """
 ١. (ناو) کڕینی کۆمپانیایەک لە کاتی قەیراناویدا بە مەبەستی دواتر فرۆشتنی و قازانج‌کردن لێی"""),
-                          // Row(
-                          //   children: [
-                          //     const Expanded(
-                          //       child: Align(
-                          //         alignment: Alignment.topLeft,
-                          //         child: Text(
-                          //           "DOPSUM_WRITE_A_SENTENCE",
-                          //           textDirection: TextDirection
-                          //               .ltr, // Right-to-left direction
-                          //           textAlign: TextAlign.left,
-                          //         ),
-                          //       ),
-                          //     ),
-                          //     // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                          //     // const SizedBox(
-                          //     //   width: 30,
-                          //     // ),
-                          //     const Expanded(
-                          //       child: Align(
-                          //         alignment: Alignment.topLeft,
-                          //         child: Text(
-                          //           "رستە_رستە_رستە_رستە.",
-                          //           textAlign: TextAlign
-                          //               .right, // Right-to-left direction
-                          //           textDirection: TextDirection.rtl,
-                          //         ),
-                          //       ),
-                          //     ),
-                          //     IconButton(
-                          //       iconSize: 18,
-                          //       icon: const Icon(
-                          //         Icons.record_voice_over,
-                          //         color: Colors.blue,
-                          //       ),
-                          //       onPressed: () => speakAssetstripping("en-GB"),
-                          //     ),
-                          //     IconButton(
-                          //       iconSize: 18,
-                          //       icon: const Icon(
-                          //         Icons.record_voice_over,
-                          //         color: Colors.red,
-                          //       ),
-                          //       onPressed: () =>
-                          //           speakAssetstripping(// REPLACE: asset-stripping /ˈæset strɪpɪŋ/
-                          //               "en-US"),
-                          //     ),
-                          //   ],
-                          // ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),

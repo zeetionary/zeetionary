@@ -152,12 +152,7 @@ class EnglishEntryadditive extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAddit699("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAddit699(// REPLACE: additive /ˈædətɪv/
                                         "en-US"),

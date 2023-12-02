@@ -202,12 +202,7 @@ class EnglishEntryarcher extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArcher334("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArcher334(// REPLACE: archer /ˈɑːrtʃər/
                                         "en-US"),

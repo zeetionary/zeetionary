@@ -195,12 +195,7 @@ class EnglishEntrybaggage extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBaggages1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBaggages1(// REPLACE: baggage
                                         "en-US"),
@@ -221,12 +216,7 @@ class EnglishEntrybaggage extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBaggages2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBaggages2(// REPLACE: baggage
                                         "en-US"),
@@ -251,12 +241,7 @@ class EnglishEntrybaggage extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBaggages3("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBaggages3(// REPLACE: baggage
                                         "en-US"),
@@ -267,55 +252,6 @@ class EnglishEntrybaggage extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) دیدگا و ڕەفتاری کەسێک بەھۆی ئەزموونی ڕابردوویان"""),
-                          // Row(
-                          //   children: [
-                          //     const Expanded(
-                          //       child: Align(
-                          //         alignment: Alignment.topLeft,
-                          //         child: Text( // DOPSUM_WRITE_A_SENTENCE
-                          //           "She was carrying a lot of emotional baggage.",
-                          //           textDirection: TextDirection
-                          //               .ltr, // Right-to-left direction
-                          //           textAlign: TextAlign.left,
-                          //         ),
-                          //       ),
-                          //     ),
-                          //     // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                          //     // const SizedBox(
-                          //     //   width: 30,
-                          //     // ),
-                          //     const Expanded(
-                          //       child: Align(
-                          //         alignment: Alignment.topLeft,
-                          //         child: Text(
-                          //           "ڕێژەیەکی زۆر .",
-                          //           textAlign: TextAlign
-                          //               .right, // Right-to-left direction
-                          //           textDirection: TextDirection.rtl,
-                          //         ),
-                          //       ),
-                          //     ),
-                          //     IconButton(
-                          //       iconSize: 18,
-                          //       icon: const Icon(
-                          //         Icons.record_voice_over,
-                          //         color: Colors.blue,
-                          //       ),
-                          //       onPressed: () => speakBaggages4("en-GB"),
-                          //     ),
-                          //     IconButton(
-                          //       iconSize: 18,
-                          //       icon: const Icon(
-                          //         Icons.record_voice_over,
-                          //         color: Colors.red,
-                          //       ),
-                          //       onPressed: () => speakBaggages4(// REPLACE: baggage
-                          //           "en-US"),
-                          //     ),
-                          //   ],
-                          // ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),

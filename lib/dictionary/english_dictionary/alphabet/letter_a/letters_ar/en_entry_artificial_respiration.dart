@@ -200,12 +200,7 @@ class EnglishEntryartificialrespiration extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕزگارکەران منداڵەکەیان لە ڕووبارەکە ھێنایە دەرەوە و ھەناسەدانی دەستکردیان بۆ کرد."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakArtificialrespiration943("en-GB"),
                               ),

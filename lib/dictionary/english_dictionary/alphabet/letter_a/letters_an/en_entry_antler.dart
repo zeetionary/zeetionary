@@ -199,12 +199,7 @@ class EnglishEntryantler extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAntler101("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAntler101(// REPLACE: antler /ˈæntlər/
                                         "en-US"),

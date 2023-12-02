@@ -208,12 +208,7 @@ class EnglishEntryassert extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAssert1024("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAssert1024(// REPLACE: assert /əˈsɜːrt/
                                         "en-US"),
@@ -236,12 +231,7 @@ class EnglishEntryassert extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAssert1026("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAssert1026(// REPLACE: assert /əˈsɜːrt/
                                         "en-US"),
@@ -266,12 +256,7 @@ class EnglishEntryassert extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAssert1030("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAssert1030(// REPLACE: assert /əˈsɜːrt/
                                         "en-US"),
@@ -296,12 +281,7 @@ class EnglishEntryassert extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAssert1032("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAssert1032(// REPLACE: assert /əˈsɜːrt/
                                         "en-US"),

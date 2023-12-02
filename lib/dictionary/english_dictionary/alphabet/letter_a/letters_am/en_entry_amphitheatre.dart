@@ -193,12 +193,7 @@ class EnglishEntryamphitheatre extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "شانۆپانەکە شایەنی سەردانییەکە."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakAmphitheatre150089("en-GB"),
                               ),

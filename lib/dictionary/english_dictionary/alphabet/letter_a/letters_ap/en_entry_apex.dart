@@ -202,12 +202,7 @@ class EnglishEntryapex extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakApex213("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakApex213(// REPLACE: apex /ˈeɪpeks/
                                         "en-US"),
@@ -230,12 +225,7 @@ class EnglishEntryapex extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakApex215("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakApex215(// REPLACE: apex /ˈeɪpeks/
                                         "en-US"),

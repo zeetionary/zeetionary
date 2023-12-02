@@ -163,12 +163,7 @@ class EnglishEntryacutely extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAcu427("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAcu427(// REPLACE: acutely /əˈkjuːtli/
                                         "en-US"),

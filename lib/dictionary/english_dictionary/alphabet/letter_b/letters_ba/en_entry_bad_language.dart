@@ -196,12 +196,7 @@ class EnglishEntrybadlanguage extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBadlanguages1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBadlanguages1(// REPLACE: bad language
                                         "en-US"),

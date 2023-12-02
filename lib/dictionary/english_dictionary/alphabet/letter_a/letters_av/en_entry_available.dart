@@ -198,12 +198,7 @@ class EnglishEntryavailable extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAvailables1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAvailables1(// REPLACE: available
                                         "en-US"),
@@ -227,12 +222,7 @@ class EnglishEntryavailable extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAvailables2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAvailables2(// REPLACE: available
                                         "en-US"),
@@ -255,12 +245,7 @@ class EnglishEntryavailable extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAvailables3("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAvailables3(// REPLACE: available
                                         "en-US"),

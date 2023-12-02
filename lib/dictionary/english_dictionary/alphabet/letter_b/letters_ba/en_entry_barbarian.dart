@@ -197,12 +197,7 @@ class EnglishEntrybarbarian extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarbarians1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBarbarians1(// REPLACE: barbarian
                                         "en-US"),
@@ -227,12 +222,7 @@ class EnglishEntrybarbarian extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarbarians2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBarbarians2(// REPLACE: barbarian
                                         "en-US"),

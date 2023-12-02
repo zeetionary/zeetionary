@@ -206,12 +206,7 @@ class EnglishEntryausterity extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAusterity518("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAusterity518(// REPLACE: austerity
                                         "en-US"),
@@ -236,12 +231,7 @@ class EnglishEntryausterity extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAusterity523("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAusterity523(// REPLACE: austerity
                                         "en-US"),
@@ -265,12 +255,7 @@ class EnglishEntryausterity extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAusterity524("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAusterity524(// REPLACE: austerity
                                         "en-US"),
@@ -295,12 +280,7 @@ class EnglishEntryausterity extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAusterity527("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAusterity527(// REPLACE: austerity
                                         "en-US"),

@@ -196,12 +196,7 @@ class EnglishEntryannul extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnnul859("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnnul859(// REPLACE: annul /əˈnʌl/
                                         "en-US"),

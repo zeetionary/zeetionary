@@ -196,12 +196,7 @@ class EnglishEntryavoidance extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAvoidances1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAvoidances1(// REPLACE: avoidance
                                         "en-US"),

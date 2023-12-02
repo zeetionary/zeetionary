@@ -199,12 +199,7 @@ class EnglishEntryaorta extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAorta1053("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAorta1053(// REPLACE: aorta /eɪˈɔːrtə/
                                         "en-US"),

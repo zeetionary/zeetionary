@@ -160,12 +160,7 @@ class EnglishEntryalign extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlign43659("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlign43659(// REPLACE: align /əˈlaɪn/
                                         "en-US"),
@@ -187,12 +182,7 @@ class EnglishEntryalign extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlign35255("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlign35255(// REPLACE: align /əˈlaɪn/
                                         "en-US"),

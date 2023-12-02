@@ -159,12 +159,7 @@ class EnglishEntryallay extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllay36299("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAllay36299(// REPLACE: allay /əˈleɪ/
                                         "en-US"),

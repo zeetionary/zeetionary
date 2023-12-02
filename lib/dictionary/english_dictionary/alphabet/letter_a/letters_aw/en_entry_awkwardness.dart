@@ -198,12 +198,7 @@ class EnglishEntryawkwardness extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwkwardnesss1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAwkwardnesss1(// REPLACE: awkwardness
                                         "en-US"),
@@ -228,12 +223,7 @@ class EnglishEntryawkwardness extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwkwardnesss2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAwkwardnesss2(// REPLACE: awkwardness
                                         "en-US"),
@@ -258,12 +248,7 @@ class EnglishEntryawkwardness extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwkwardnesss3("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAwkwardnesss3(// REPLACE: awkwardness
                                         "en-US"),

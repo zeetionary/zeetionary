@@ -205,12 +205,7 @@ class EnglishEntryasylum extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAsylum617("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAsylum617(// REPLACE: asylum
                                         "en-US"),
@@ -234,12 +229,7 @@ class EnglishEntryasylum extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAsylum620("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAsylum620(// REPLACE: asylum
                                         "en-US"),

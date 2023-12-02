@@ -193,12 +193,7 @@ class EnglishEntryballpoint extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBallpoints1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBallpoints1(// REPLACE: ballpoint
                                         "en-US"),

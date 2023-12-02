@@ -203,12 +203,7 @@ class EnglishEntryleadastray extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAeadastray1140("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAeadastray1140(// REPLACE: lead astray
                                         "en-US"),

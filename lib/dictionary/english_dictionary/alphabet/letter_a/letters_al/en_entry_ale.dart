@@ -157,12 +157,7 @@ class EnglishEntryale extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAle346("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAle346(// REPLACE: ale /eɪl/
                                         "en-US"),

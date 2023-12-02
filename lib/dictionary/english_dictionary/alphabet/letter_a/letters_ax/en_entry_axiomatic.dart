@@ -196,12 +196,7 @@ class EnglishEntryaxiomatic extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAxiomatics1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAxiomatics1(// REPLACE: axiomatic
                                         "en-US"),

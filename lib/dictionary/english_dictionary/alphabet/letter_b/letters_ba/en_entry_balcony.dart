@@ -195,12 +195,7 @@ class EnglishEntrybalcony extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBalconys1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBalconys1(// REPLACE: balcony
                                         "en-US"),
@@ -224,12 +219,7 @@ class EnglishEntrybalcony extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBalconys2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBalconys2(// REPLACE: balcony
                                         "en-US"),

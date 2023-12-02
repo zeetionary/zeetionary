@@ -282,12 +282,7 @@ class EnglishEntryart extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArt925("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArt925(// REPLACE: art /ɑːrt/
                                         "en-US"),
@@ -310,12 +305,7 @@ class EnglishEntryart extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArt927("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArt927(// REPLACE: art /ɑːrt/
                                         "en-US"),
@@ -340,12 +330,7 @@ class EnglishEntryart extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArt930("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArt930(// REPLACE: art /ɑːrt/
                                         "en-US"),
@@ -368,12 +353,7 @@ class EnglishEntryart extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArt936("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArt936(// REPLACE: art /ɑːrt/
                                         "en-US"),
@@ -398,12 +378,7 @@ class EnglishEntryart extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArt939("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArt939(// REPLACE: art /ɑːrt/
                                         "en-US"),
@@ -428,12 +403,7 @@ class EnglishEntryart extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArt950("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArt950(// REPLACE: art /ɑːrt/
                                         "en-US"),
@@ -458,12 +428,7 @@ class EnglishEntryart extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArt939("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArt939(// REPLACE: art /ɑːrt/
                                         "en-US"),
@@ -487,12 +452,7 @@ class EnglishEntryart extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArt939("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArt939(// REPLACE: art /ɑːrt/
                                         "en-US"),

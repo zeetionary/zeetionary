@@ -155,12 +155,7 @@ class EnglishEntryaide extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAid3596484("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAid3596484(// REPLACE: aide /eɪd/
                                         "en-US"),

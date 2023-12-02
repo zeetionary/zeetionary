@@ -152,12 +152,7 @@ class EnglishEntryadvise extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdv399865("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdv399865(// REPLACE: advise /ədˈvaɪz/
                                         "en-US"),
@@ -197,12 +192,7 @@ class EnglishEntryadvise extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdvi789255("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdvi789255(// REPLACE: advise /ədˈvaɪz/
                                         "en-US"),

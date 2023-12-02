@@ -196,12 +196,7 @@ class EnglishEntryangler extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngler402("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAngler402(// REPLACE: angler /ˈæŋɡlər/
                                         "en-US"),

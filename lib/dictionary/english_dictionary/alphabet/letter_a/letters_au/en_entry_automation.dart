@@ -205,12 +205,7 @@ class EnglishEntryautomation extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAutomation838("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAutomation838(// REPLACE: automation
                                         "en-US"),

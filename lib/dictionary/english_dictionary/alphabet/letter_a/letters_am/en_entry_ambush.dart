@@ -158,12 +158,7 @@ class EnglishEntryambush extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmbush4355("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmbush4355(// REPLACE: ambush /ˈæmbʊʃ/
                                         "en-US"),
@@ -187,12 +182,7 @@ class EnglishEntryambush extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmbush4699("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmbush4699(// REPLACE: ambush /ˈæmbʊʃ/
                                         "en-US"),

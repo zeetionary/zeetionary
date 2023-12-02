@@ -205,12 +205,7 @@ class EnglishEntryarty extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArty1008("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArty1008(// REPLACE: arty /ˈɑːrti/
                                         "en-US"),

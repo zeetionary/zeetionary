@@ -198,12 +198,7 @@ class EnglishEntrybailiff extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBailiffs1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBailiffs1(// REPLACE: bailiff
                                         "en-US"),
@@ -228,12 +223,7 @@ class EnglishEntrybailiff extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBailiffs2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBailiffs2(// REPLACE: bailiff
                                         "en-US"),
@@ -258,12 +248,7 @@ class EnglishEntrybailiff extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBailiffs3("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBailiffs3(// REPLACE: bailiff
                                         "en-US"),

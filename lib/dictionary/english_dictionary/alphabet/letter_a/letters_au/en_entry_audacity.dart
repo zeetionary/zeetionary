@@ -203,12 +203,7 @@ class EnglishEntryaudacity extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAudacity1246("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAudacity1246(// REPLACE: audacity
                                         "en-US"),

@@ -194,12 +194,7 @@ class EnglishEntrybadminton extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBadmintons1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBadmintons1(// REPLACE: badminton
                                         "en-US"),

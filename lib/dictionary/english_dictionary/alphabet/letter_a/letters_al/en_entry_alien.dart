@@ -188,12 +188,7 @@ class EnglishEntryalien extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlien46588("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlien46588(// REPLACE: alien /ˈeɪliən/
                                         "en-US"),
@@ -217,12 +212,7 @@ class EnglishEntryalien extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlien369222("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlien369222(// REPLACE: alien /ˈeɪliən/
                                         "en-US"),
@@ -246,12 +236,7 @@ class EnglishEntryalien extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlien49255("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlien49255(// REPLACE: alien /ˈeɪliən/
                                         "en-US"),
@@ -275,12 +260,7 @@ class EnglishEntryalien extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlien3411("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlien3411(// REPLACE: alien /ˈeɪliən/
                                         "en-US"),
@@ -302,12 +282,7 @@ class EnglishEntryalien extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlien34177("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlien34177(// REPLACE: alien /ˈeɪliən/
                                         "en-US"),
@@ -331,12 +306,7 @@ class EnglishEntryalien extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlien35288("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlien35288(// REPLACE: alien /ˈeɪliən/
                                         "en-US"),

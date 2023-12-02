@@ -196,12 +196,7 @@ class EnglishEntryawning extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwnings1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAwnings1(// REPLACE: awning
                                         "en-US"),

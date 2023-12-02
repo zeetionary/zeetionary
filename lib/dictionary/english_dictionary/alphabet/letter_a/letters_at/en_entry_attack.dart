@@ -339,12 +339,7 @@ class EnglishEntryattack extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttack453("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttack453(// REPLACE: attack
                                         "en-US"),
@@ -367,12 +362,7 @@ class EnglishEntryattack extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttack455("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttack455(// REPLACE: attack
                                         "en-US"),
@@ -397,12 +387,7 @@ class EnglishEntryattack extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttack457("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttack457(// REPLACE: attack
                                         "en-US"),
@@ -425,12 +410,7 @@ class EnglishEntryattack extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttack500("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttack500(// REPLACE: attack
                                         "en-US"),
@@ -453,12 +433,7 @@ class EnglishEntryattack extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttack503("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttack503(// REPLACE: attack
                                         "en-US"),
@@ -483,12 +458,7 @@ class EnglishEntryattack extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttack506("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttack506(// REPLACE: attack
                                         "en-US"),
@@ -513,12 +483,7 @@ class EnglishEntryattack extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttack508("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttack508(// REPLACE: attack
                                         "en-US"),
@@ -543,12 +508,7 @@ class EnglishEntryattack extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttack510("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttack510(// REPLACE: attack
                                         "en-US"),
@@ -573,12 +533,7 @@ class EnglishEntryattack extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttack512("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttack512(// REPLACE: attack
                                         "en-US"),
@@ -603,12 +558,7 @@ class EnglishEntryattack extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttack515("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttack515(// REPLACE: attack
                                         "en-US"),
@@ -633,12 +583,7 @@ class EnglishEntryattack extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttack517("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttack517(// REPLACE: attack
                                         "en-US"),
@@ -662,12 +607,7 @@ class EnglishEntryattack extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttack519("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttack519(// REPLACE: attack
                                         "en-US"),
@@ -692,12 +632,7 @@ class EnglishEntryattack extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttack523("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttack523(// REPLACE: attack
                                         "en-US"),
@@ -722,12 +657,7 @@ class EnglishEntryattack extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttack525("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttack525(// REPLACE: attack
                                         "en-US"),
@@ -752,12 +682,7 @@ class EnglishEntryattack extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttack526("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttack526(// REPLACE: attack
                                         "en-US"),
@@ -781,12 +706,7 @@ class EnglishEntryattack extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttack528("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttack528(// REPLACE: attack
                                         "en-US"),

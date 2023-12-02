@@ -193,12 +193,7 @@ class EnglishEntryawhile extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwhiles1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAwhiles1(// REPLACE: awhile
                                         "en-US"),

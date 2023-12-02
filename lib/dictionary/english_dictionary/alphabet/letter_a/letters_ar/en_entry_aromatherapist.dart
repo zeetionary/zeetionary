@@ -199,12 +199,7 @@ class EnglishEntryaromatherapist extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "حەزم لە چارەسەری سرووشتی و گیادەرمانی بوو و بوون بە ئێرۆماسێراپیست."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakAromatherapist1046("en-GB"),
                               ),

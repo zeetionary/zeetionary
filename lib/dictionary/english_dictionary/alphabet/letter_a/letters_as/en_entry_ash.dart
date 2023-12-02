@@ -230,12 +230,7 @@ class EnglishEntryash extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAsh446("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAsh446(// REPLACE: ash /æʃ/
                                         "en-US"),
@@ -259,12 +254,7 @@ class EnglishEntryash extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAsh454("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAsh454(// REPLACE: ash /æʃ/
                                         "en-US"),
@@ -289,12 +279,7 @@ class EnglishEntryash extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAsh456("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAsh456(// REPLACE: ash /æʃ/
                                         "en-US"),

@@ -204,12 +204,7 @@ class EnglishEntryarctic extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArctic449("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArctic449(// REPLACE: Arctic /ˈɑːrktɪk/
                                         "en-US"),
@@ -234,12 +229,7 @@ class EnglishEntryarctic extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArctic451("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArctic451(// REPLACE: Arctic /ˈɑːrktɪk/
                                         "en-US"),
@@ -262,12 +252,7 @@ class EnglishEntryarctic extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArctic452("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArctic452(// REPLACE: Arctic /ˈɑːrktɪk/
                                         "en-US"),

@@ -169,12 +169,7 @@ class EnglishEntryache extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakA125698("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakA125698("en-US"), // REPLACE /eɪk/
                               ),
@@ -192,12 +187,7 @@ class EnglishEntryache extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakA4973256("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakA4973256("en-US"), // REPLACE /eɪk/
                               ),
@@ -215,12 +205,7 @@ class EnglishEntryache extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakA456268("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakA456268("en-US"), // REPLACE /eɪk/
                               ),
@@ -238,12 +223,7 @@ class EnglishEntryache extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakA14568("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakA14568("en-US"), // REPLACE /eɪk/
                               ),

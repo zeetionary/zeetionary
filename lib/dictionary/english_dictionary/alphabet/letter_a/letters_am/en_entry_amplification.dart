@@ -220,12 +220,7 @@ class EnglishEntryamplification extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو لێدوانە پێویستی بە ھەندێک ڕوونکردنەوە ھەیە."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakAmplification44140("en-GB"),
                               ),

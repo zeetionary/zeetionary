@@ -196,12 +196,7 @@ class EnglishEntryballoon extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBalloons1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBalloons1(// REPLACE: balloon
                                         "en-US"),
@@ -224,12 +219,7 @@ class EnglishEntryballoon extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBalloons2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBalloons2(// REPLACE: balloon
                                         "en-US"),
@@ -252,12 +242,7 @@ class EnglishEntryballoon extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBalloons3("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBalloons3(// REPLACE: balloon
                                         "en-US"),
@@ -281,12 +266,7 @@ class EnglishEntryballoon extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBalloons4("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBalloons4(// REPLACE: balloon
                                         "en-US"),
@@ -311,12 +291,7 @@ class EnglishEntryballoon extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBalloons5("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBalloons5(// REPLACE: balloon
                                         "en-US"),

@@ -202,12 +202,7 @@ class EnglishEntryaugment extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAugment304("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAugment304(// REPLACE: augment
                                         "en-US"),

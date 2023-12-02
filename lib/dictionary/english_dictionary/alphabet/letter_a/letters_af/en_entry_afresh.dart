@@ -154,12 +154,7 @@ class EnglishEntryafresh extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfre411("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfre411(// REPLACE: afresh /əˈfreʃ/
                                         "en-US"),

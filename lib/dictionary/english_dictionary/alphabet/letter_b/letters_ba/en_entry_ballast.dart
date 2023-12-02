@@ -197,12 +197,7 @@ class EnglishEntryballast extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBallasts1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBallasts1(// REPLACE: ballast
                                         "en-US"),
@@ -227,12 +222,7 @@ class EnglishEntryballast extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBallasts2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBallasts2(// REPLACE: ballast
                                         "en-US"),

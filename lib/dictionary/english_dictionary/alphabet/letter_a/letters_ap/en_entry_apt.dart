@@ -206,12 +206,7 @@ class EnglishEntryapt extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakApt739("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakApt739(// REPLACE: apt /æpt/
                                         "en-US"),
@@ -234,12 +229,7 @@ class EnglishEntryapt extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakApt745("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakApt745(// REPLACE: apt /æpt/
                                         "en-US"),
@@ -264,12 +254,7 @@ class EnglishEntryapt extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakApt754("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakApt754(// REPLACE: apt /æpt/
                                         "en-US"),
@@ -294,12 +279,7 @@ class EnglishEntryapt extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakApt757("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakApt757(// REPLACE: apt /æpt/
                                         "en-US"),

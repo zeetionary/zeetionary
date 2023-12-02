@@ -197,12 +197,7 @@ class EnglishEntryballgame extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBallgames1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBallgames1(// REPLACE: ball game
                                         "en-US"),
@@ -225,12 +220,7 @@ class EnglishEntryballgame extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBallgames2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBallgames2(// REPLACE: ball game
                                         "en-US"),

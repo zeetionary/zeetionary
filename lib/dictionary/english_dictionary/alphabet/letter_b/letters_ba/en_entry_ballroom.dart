@@ -196,12 +196,7 @@ class EnglishEntryballroom extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBallrooms1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBallrooms1(// REPLACE: ballroom
                                         "en-US"),

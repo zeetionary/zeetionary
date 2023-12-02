@@ -89,9 +89,12 @@ class EnglishEntryamend extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /əˈmend/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /əˈmend/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmend("en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAmend(
+                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
                         ),
@@ -153,12 +156,7 @@ class EnglishEntryamend extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmend466("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmend466(// REPLACE: amend /əˈmend/
                                         "en-US"),
@@ -181,12 +179,7 @@ class EnglishEntryamend extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmend49996("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmend49996(// REPLACE: amend /əˈmend/
                                         "en-US"),

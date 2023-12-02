@@ -199,12 +199,7 @@ class EnglishEntryawkward extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwkwards1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAwkwards1(// REPLACE: awkward
                                         "en-US"),
@@ -227,12 +222,7 @@ class EnglishEntryawkward extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwkwards2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAwkwards2(// REPLACE: awkward
                                         "en-US"),
@@ -256,12 +246,7 @@ class EnglishEntryawkward extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwkwards3("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAwkwards3(// REPLACE: awkward
                                         "en-US"),
@@ -284,12 +269,7 @@ class EnglishEntryawkward extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwkwards4("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAwkwards4(// REPLACE: awkward
                                         "en-US"),
@@ -314,12 +294,7 @@ class EnglishEntryawkward extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwkwards5("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAwkwards5(// REPLACE: awkward
                                         "en-US"),
@@ -344,12 +319,7 @@ class EnglishEntryawkward extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwkwards6("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAwkwards6(// REPLACE: awkward
                                         "en-US"),

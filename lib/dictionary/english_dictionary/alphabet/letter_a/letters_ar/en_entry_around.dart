@@ -371,12 +371,7 @@ class EnglishEntryaround extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAround1058("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAround1058(// REPLACE: around /əˈraʊnd/
                                         "en-US"),
@@ -397,12 +392,7 @@ class EnglishEntryaround extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAround1100("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAround1100(// REPLACE: around /əˈraʊnd/
                                         "en-US"),
@@ -426,12 +416,7 @@ class EnglishEntryaround extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAround1106("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAround1106(// REPLACE: around /əˈraʊnd/
                                         "en-US"),
@@ -452,12 +437,7 @@ class EnglishEntryaround extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAround1107("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAround1107(// REPLACE: around /əˈraʊnd/
                                         "en-US"),
@@ -480,12 +460,7 @@ class EnglishEntryaround extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAround1109("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAround1109(// REPLACE: around /əˈraʊnd/
                                         "en-US"),
@@ -510,12 +485,7 @@ class EnglishEntryaround extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAround1112("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAround1112(// REPLACE: around /əˈraʊnd/
                                         "en-US"),
@@ -540,12 +510,7 @@ class EnglishEntryaround extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAround1114("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAround1114(// REPLACE: around /əˈraʊnd/
                                         "en-US"),
@@ -570,12 +535,7 @@ class EnglishEntryaround extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAround1115("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAround1115(// REPLACE: around /əˈraʊnd/
                                         "en-US"),
@@ -599,12 +559,7 @@ class EnglishEntryaround extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAround1117("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAround1117(// REPLACE: around /əˈraʊnd/
                                         "en-US"),
@@ -628,12 +583,7 @@ class EnglishEntryaround extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAround1118("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAround1118(// REPLACE: around /əˈraʊnd/
                                         "en-US"),
@@ -657,12 +607,7 @@ class EnglishEntryaround extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAround1120("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAround1120(// REPLACE: around /əˈraʊnd/
                                         "en-US"),
@@ -686,12 +631,7 @@ class EnglishEntryaround extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAround1123("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAround1123(// REPLACE: around /əˈraʊnd/
                                         "en-US"),
@@ -716,12 +656,7 @@ class EnglishEntryaround extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAround1125("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAround1125(// REPLACE: around /əˈraʊnd/
                                         "en-US"),
@@ -745,12 +680,7 @@ class EnglishEntryaround extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAround1128("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAround1128(// REPLACE: around /əˈraʊnd/
                                         "en-US"),
@@ -775,12 +705,7 @@ class EnglishEntryaround extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAround1130("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAround1130(// REPLACE: around /əˈraʊnd/
                                         "en-US"),
@@ -803,12 +728,7 @@ class EnglishEntryaround extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAround1131("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAround1131(// REPLACE: around /əˈraʊnd/
                                         "en-US"),
@@ -833,12 +753,7 @@ class EnglishEntryaround extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAround1133("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAround1133(// REPLACE: around /əˈraʊnd/
                                         "en-US"),

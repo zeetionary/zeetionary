@@ -207,12 +207,7 @@ class EnglishEntryarmy extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArmy747("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArmy747(// REPLACE: army /ˈɑːrmi/
                                         "en-US"),
@@ -233,12 +228,7 @@ class EnglishEntryarmy extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArmy749("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArmy749(// REPLACE: army /ˈɑːrmi/
                                         "en-US"),
@@ -261,12 +251,7 @@ class EnglishEntryarmy extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArmy751("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArmy751(// REPLACE: army /ˈɑːrmi/
                                         "en-US"),
@@ -289,12 +274,7 @@ class EnglishEntryarmy extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArmy752("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArmy752(// REPLACE: army /ˈɑːrmi/
                                         "en-US"),
@@ -319,12 +299,7 @@ class EnglishEntryarmy extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArmy800("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArmy800(// REPLACE: army /ˈɑːrmi/
                                         "en-US"),
@@ -347,12 +322,7 @@ class EnglishEntryarmy extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArmy801("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArmy801(// REPLACE: army /ˈɑːrmi/
                                         "en-US"),

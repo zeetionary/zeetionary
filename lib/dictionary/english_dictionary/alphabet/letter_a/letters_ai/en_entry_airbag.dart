@@ -153,12 +153,7 @@ class EnglishEntryairbag extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAirbag46282("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAirbag46282(// REPLACE: airbag /ˈerbæɡ/
                                         "en-US"),

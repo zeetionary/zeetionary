@@ -204,12 +204,7 @@ class EnglishEntryatrocity extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAtrocity310("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAtrocity310(// REPLACE: atrocity
                                         "en-US"),

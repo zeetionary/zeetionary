@@ -157,12 +157,7 @@ class EnglishEntryalto extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlto4565("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlto4565(// REPLACE: alto /ˈæltəʊ/
                                         "en-US"),

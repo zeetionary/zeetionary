@@ -206,12 +206,7 @@ class EnglishEntryassent extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAssent1012("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAssent1012(// REPLACE: assent /əˈsent/
                                         "en-US"),
@@ -236,12 +231,7 @@ class EnglishEntryassent extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAssent1015("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAssent1015(// REPLACE: assent /əˈsent/
                                         "en-US"),

@@ -204,12 +204,7 @@ class EnglishEntryapathy extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakApathy1212("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakApathy1212(// REPLACE: apathy /ˈæpəθi/
                                         "en-US"),
@@ -232,12 +227,7 @@ class EnglishEntryapathy extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakApathy1215("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakApathy1215(// REPLACE: apathy /ˈæpəθi/
                                         "en-US"),

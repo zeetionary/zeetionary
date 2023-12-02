@@ -153,12 +153,7 @@ class EnglishEntryafflict extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffl455("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAffl455(// REPLACE: afflict /əˈflɪkt/
                                         "en-US"),
@@ -176,12 +171,7 @@ class EnglishEntryafflict extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffli994("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAffli994(// REPLACE: afflict /əˈflɪkt/
                                         "en-US"),

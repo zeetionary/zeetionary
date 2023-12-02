@@ -196,12 +196,7 @@ class EnglishEntrybandage extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBandages1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBandages1(// REPLACE: bandage
                                         "en-US"),
@@ -224,12 +219,7 @@ class EnglishEntrybandage extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBandages2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBandages2(// REPLACE: bandage
                                         "en-US"),

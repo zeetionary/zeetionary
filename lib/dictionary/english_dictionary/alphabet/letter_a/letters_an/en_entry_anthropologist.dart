@@ -194,12 +194,7 @@ class EnglishEntryanthropologist extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "مرۆڤناسێک ھەڵکۆڵینی کرد و ئێسکی کۆنی دۆزییەوە لە زەوییەکەدا."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakAnthropologist857("en-GB"),
                               ),

@@ -196,12 +196,7 @@ class EnglishEntryantihistamine extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دژە-ھەستیاری زۆرجار بەکاردێت بۆ چارەسەری ھەستیاری بە ھەڵاڵەی گوڵ یان گەستنی مێروو."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakAntihistamine1105("en-GB"),
                               ),

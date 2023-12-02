@@ -155,12 +155,7 @@ class EnglishEntryagitate extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgit125("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAgit125(// REPLACE: agitate /ˈædʒɪteɪt/
                                         "en-US"),

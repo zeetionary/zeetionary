@@ -192,12 +192,7 @@ class EnglishEntrybaldly extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBaldlys1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBaldlys1(// REPLACE: baldly
                                         "en-US"),

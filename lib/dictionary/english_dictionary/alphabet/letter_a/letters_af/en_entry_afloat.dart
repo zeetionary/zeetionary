@@ -169,12 +169,7 @@ class EnglishEntryafloat extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAflo45("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAflo45(// REPLACE: afloat /əˈfləʊt/
                                         "en-US"),
@@ -195,12 +190,7 @@ class EnglishEntryafloat extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfl5988("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfl5988(// REPLACE: afloat /əˈfləʊt/
                                         "en-US"),

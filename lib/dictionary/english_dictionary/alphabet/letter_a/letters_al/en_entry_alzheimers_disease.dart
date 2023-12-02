@@ -74,26 +74,6 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                             // ),
                           ],
                         ),
-                        // Row(
-                        //   children: [
-                        //     const Expanded(
-                        //       child: Text(
-                        //         "IpaUK: /ˈæltshaɪməz dɪziːz/,  /ˈɔːltshaɪməz dɪziːz/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                        //         style: TextStyle(fontSize: 14),
-                        //       ),
-                        //     ),
-                        //     IconButton(
-                        //       iconSize: 16,
-                        //       icon: const Icon(
-                        //         Icons.record_voice_over,
-                        //         color: Colors.blue,
-                        //       ),
-                        //       onPressed: () => speakAlzheimersdisease(
-                        //           // DOPSUM: CHANGE THE WORD ABOVE
-                        //           "en-GB"),
-                        //     ),
-                        //   ],
-                        // ),
                         Row(
                           children: [
                             const IPAofEnglish(
@@ -174,12 +154,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "باوترین جۆری خەڵەفاوی نەخۆشی ئالزایمێرە."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakAlzheimersdisease6555("en-GB"),
                               ),

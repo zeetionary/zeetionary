@@ -205,12 +205,7 @@ class EnglishEntryatrocious extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAtrocious1244("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAtrocious1244(// REPLACE: atrocious
                                         "en-US"),
@@ -235,12 +230,7 @@ class EnglishEntryatrocious extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAtrocious1246("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAtrocious1246(// REPLACE: atrocious
                                         "en-US"),

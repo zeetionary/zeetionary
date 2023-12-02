@@ -169,12 +169,7 @@ class EnglishEntryadopt extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAd256471("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAd256471(// REPLACE: adopt /əˈdɑːpt/
                                         "en-US"),
@@ -194,12 +189,7 @@ class EnglishEntryadopt extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAd25673("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAd25673(// REPLACE: adopt /əˈdɑːpt/
                                         "en-US"),
@@ -220,12 +210,7 @@ class EnglishEntryadopt extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdo45826("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdo45826(// REPLACE: adopt /əˈdɑːpt/
                                         "en-US"),
@@ -246,12 +231,7 @@ class EnglishEntryadopt extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdo7259("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdo7259(// REPLACE: adopt /əˈdɑːpt/
                                         "en-US"),

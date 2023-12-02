@@ -196,12 +196,7 @@ class EnglishEntrybandstand extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBandstands1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBandstands1(// REPLACE: bandstand
                                         "en-US"),

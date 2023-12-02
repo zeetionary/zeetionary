@@ -204,12 +204,7 @@ class EnglishEntryauditor extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuditor222("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAuditor222(// REPLACE: auditor
                                         "en-US"),
@@ -234,12 +229,7 @@ class EnglishEntryauditor extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuditor226("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAuditor226(// REPLACE: auditor
                                         "en-US"),
@@ -264,12 +254,7 @@ class EnglishEntryauditor extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuditor227("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAuditor227(// REPLACE: auditor
                                         "en-US"),

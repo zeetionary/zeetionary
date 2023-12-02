@@ -200,12 +200,7 @@ class EnglishEntryapologetically extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە پەشیمانییەوە چرپاندی 'ببوورە کە دواکەوتووم'."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakApologetically512("en-GB"),
                               ),

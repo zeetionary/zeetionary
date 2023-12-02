@@ -258,12 +258,7 @@ class EnglishEntryact extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAct7859("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAct7859("en-US"), // REPLACE act /ækt/
                               ),
@@ -281,12 +276,7 @@ class EnglishEntryact extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAct42693("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAct42693("en-US"), // REPLACE act /ækt/
                               ),
@@ -306,12 +296,7 @@ class EnglishEntryact extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAct7691("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAct7691("en-US"), // REPLACE act /ækt/
                               ),
@@ -329,12 +314,7 @@ class EnglishEntryact extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAct4589("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAct4589("en-US"), // REPLACE act /ækt/
                               ),
@@ -354,12 +334,7 @@ class EnglishEntryact extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAct15932("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAct15932("en-US"), // REPLACE act /ækt/
                               ),
@@ -377,12 +352,7 @@ class EnglishEntryact extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAct1527("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAct1527("en-US"), // REPLACE act /ækt/
                               ),
@@ -401,12 +371,7 @@ class EnglishEntryact extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAct3541("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAct3541("en-US"), // REPLACE act /ækt/
                               ),
@@ -425,12 +390,7 @@ class EnglishEntryact extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAct75381("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAct75381("en-US"), // REPLACE act /ækt/
                               ),
@@ -448,12 +408,7 @@ class EnglishEntryact extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc25341("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAc25341("en-US"), // REPLACE act /ækt/
                               ),
@@ -472,12 +427,7 @@ class EnglishEntryact extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAct1258("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAct1258("en-US"), // REPLACE act /ækt/
                               ),
@@ -496,12 +446,7 @@ class EnglishEntryact extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAct75638("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAct75638("en-US"), // REPLACE act /ækt/
                               ),

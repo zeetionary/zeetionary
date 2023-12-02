@@ -289,12 +289,7 @@ class EnglishEntryair extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAir11524("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAir11524(// REPLACE: air /er/
                                         "en-US"),
@@ -316,12 +311,7 @@ class EnglishEntryair extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAir42112("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAir42112(// REPLACE: air /er/
                                         "en-US"),
@@ -343,12 +333,7 @@ class EnglishEntryair extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAir2133("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAir2133(// REPLACE: air /er/
                                         "en-US"),
@@ -368,12 +353,7 @@ class EnglishEntryair extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAir4144("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAir4144(// REPLACE: air /er/
                                         "en-US"),
@@ -397,12 +377,7 @@ class EnglishEntryair extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAir45666("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAir45666(// REPLACE: air /er/
                                         "en-US"),
@@ -426,12 +401,7 @@ class EnglishEntryair extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAir3544("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAir3544(// REPLACE: air /er/
                                         "en-US"),
@@ -453,12 +423,7 @@ class EnglishEntryair extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAir58999("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAir58999(// REPLACE: air /er/
                                         "en-US"),
@@ -482,12 +447,7 @@ class EnglishEntryair extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAir49258("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAir49258(// REPLACE: air /er/
                                         "en-US"),
@@ -511,12 +471,7 @@ class EnglishEntryair extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAir96354("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAir96354(// REPLACE: air /er/
                                         "en-US"),
@@ -538,12 +493,7 @@ class EnglishEntryair extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAir74952("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAir74952(// REPLACE: air /er/
                                         "en-US"),

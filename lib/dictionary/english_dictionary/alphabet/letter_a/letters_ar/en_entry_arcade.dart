@@ -204,12 +204,7 @@ class EnglishEntryarcade extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArcade105("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArcade105(// REPLACE: arcade /ɑːrˈkeɪd/
                                         "en-US"),
@@ -234,12 +229,7 @@ class EnglishEntryarcade extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArcade109("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArcade109(// REPLACE: arcade /ɑːrˈkeɪd/
                                         "en-US"),

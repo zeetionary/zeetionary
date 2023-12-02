@@ -203,12 +203,7 @@ class EnglishEntryautograph extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAutograph1002("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAutograph1002(// REPLACE: autograph
                                         "en-US"),
@@ -233,12 +228,7 @@ class EnglishEntryautograph extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAutograph1005("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAutograph1005(// REPLACE: autograph
                                         "en-US"),

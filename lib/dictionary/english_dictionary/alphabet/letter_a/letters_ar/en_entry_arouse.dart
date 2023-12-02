@@ -207,12 +207,7 @@ class EnglishEntryarouse extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArouse1147("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArouse1147(// REPLACE: arouse /əˈraʊz/
                                         "en-US"),
@@ -236,12 +231,7 @@ class EnglishEntryarouse extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArouse1154("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArouse1154(// REPLACE: arouse /əˈraʊz/
                                         "en-US"),
@@ -265,12 +255,7 @@ class EnglishEntryarouse extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArouse1155("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArouse1155(// REPLACE: arouse /əˈraʊz/
                                         "en-US"),
@@ -295,12 +280,7 @@ class EnglishEntryarouse extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArouse1157("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArouse1157(// REPLACE: arouse /əˈraʊz/
                                         "en-US"),

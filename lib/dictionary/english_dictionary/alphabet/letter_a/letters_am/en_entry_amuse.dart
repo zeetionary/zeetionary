@@ -195,12 +195,7 @@ class EnglishEntryamuse extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmuse448096("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmuse448096(// REPLACE: amuse /əˈmjuːz/
                                         "en-US"),

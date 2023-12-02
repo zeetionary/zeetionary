@@ -209,12 +209,7 @@ class EnglishEntryattract extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttract1005("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttract1005(// REPLACE: attract
                                         "en-US"),
@@ -237,12 +232,7 @@ class EnglishEntryattract extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttract1006("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttract1006(// REPLACE: attract
                                         "en-US"),
@@ -265,12 +255,7 @@ class EnglishEntryattract extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttract1007("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttract1007(// REPLACE: attract
                                         "en-US"),
@@ -295,12 +280,7 @@ class EnglishEntryattract extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttract1009("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttract1009(// REPLACE: attract
                                         "en-US"),
@@ -323,12 +303,7 @@ class EnglishEntryattract extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttract1010("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttract1010(// REPLACE: attract
                                         "en-US"),
@@ -353,12 +328,7 @@ class EnglishEntryattract extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttract1013("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttract1013(// REPLACE: attract
                                         "en-US"),

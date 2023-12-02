@@ -196,12 +196,7 @@ class EnglishEntrybackwards extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBackwardss1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBackwardss1(// REPLACE: backwards
                                         "en-US"),
@@ -226,12 +221,7 @@ class EnglishEntrybackwards extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBackwardss2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBackwardss2(// REPLACE: backward
                                         "en-US"),
@@ -253,12 +243,7 @@ class EnglishEntrybackwards extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBackwardss3("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBackwardss3(// REPLACE: backward
                                         "en-US"),
@@ -283,12 +268,7 @@ class EnglishEntrybackwards extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBackwardss4("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBackwardss4(// REPLACE: backward
                                         "en-US"),

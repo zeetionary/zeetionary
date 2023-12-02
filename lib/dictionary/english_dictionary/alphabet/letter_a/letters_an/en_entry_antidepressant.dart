@@ -196,12 +196,7 @@ class EnglishEntryantidepressant extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەوەتەی ھاوسەرەکەی مردووە دژە-خەمۆکی دەخوات."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakAntidepressant1005("en-GB"),
                               ),

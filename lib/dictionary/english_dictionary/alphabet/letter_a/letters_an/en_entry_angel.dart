@@ -197,12 +197,7 @@ class EnglishEntryangel extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngel405("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAngel405(// REPLACE: angel /ˈeɪndʒl/
                                         "en-US"),
@@ -225,12 +220,7 @@ class EnglishEntryangel extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngel407("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAngel407(// REPLACE: angel /ˈeɪndʒl/
                                         "en-US"),
@@ -253,12 +243,7 @@ class EnglishEntryangel extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngel9963("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAngel9963(// REPLACE: angel /ˈeɪndʒl/
                                         "en-US"),
@@ -281,12 +266,7 @@ class EnglishEntryangel extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngel4850("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAngel4850(// REPLACE: angel /ˈeɪndʒl/
                                         "en-US"),

@@ -200,12 +200,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBankrupts1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBankrupts1(// REPLACE: bankrupt
                                         "en-US"),
@@ -228,12 +223,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBankrupts2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBankrupts2(// REPLACE: bankrupt
                                         "en-US"),
@@ -258,12 +248,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBankrupts3("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBankrupts3(// REPLACE: bankrupt
                                         "en-US"),
@@ -288,12 +273,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBankrupts4("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBankrupts4(// REPLACE: bankrupt
                                         "en-US"),
@@ -317,12 +297,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBankrupts5("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBankrupts5(// REPLACE: bankrupt
                                         "en-US"),

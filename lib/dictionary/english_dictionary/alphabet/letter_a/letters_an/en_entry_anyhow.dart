@@ -246,12 +246,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnyhow847("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnyhow847(// REPLACE: anyhow /ˈeniweɪ/
                                         "en-US"),
@@ -276,12 +271,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnyhow849("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnyhow849(// REPLACE: anyhow /ˈeniweɪ/
                                         "en-US"),
@@ -306,12 +296,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnyhow855("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnyhow855(// REPLACE: anyhow /ˈeniweɪ/
                                         "en-US"),
@@ -336,12 +321,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnyhow858("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnyhow858(// REPLACE: anyhow /ˈeniweɪ/
                                         "en-US"),
@@ -364,12 +344,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnyhow900("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnyhow900(// REPLACE: anyhow /ˈeniweɪ/
                                         "en-US"),
@@ -394,12 +369,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnyhow908("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnyhow908(// REPLACE: anyhow /ˈeniweɪ/
                                         "en-US"),

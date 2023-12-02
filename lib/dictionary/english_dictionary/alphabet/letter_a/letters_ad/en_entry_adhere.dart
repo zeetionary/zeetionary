@@ -151,12 +151,7 @@ class EnglishEntryadhere extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdhe55661("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdhe55661(// REPLACE: adhere /ədˈhɪr/
                                         "en-US"),
@@ -175,12 +170,7 @@ class EnglishEntryadhere extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdhe2537("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdhe2537(// REPLACE: adhere /ədˈhɪr/
                                         "en-US"),

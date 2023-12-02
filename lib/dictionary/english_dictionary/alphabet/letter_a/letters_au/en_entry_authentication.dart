@@ -203,12 +203,7 @@ class EnglishEntryauthentication extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەکاتی کڕینی خشڵ، دڵنیابە لەوەی سەنەدی ڕەسەنێتی خشڵەکە وەربگری."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakAuthentication643("en-GB"),
                               ),
@@ -234,12 +229,7 @@ class EnglishEntryauthentication extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەلماندنی ناسنامە زۆرجار بە تێپڕەوشە ئەنجام دەدرێت."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakAuthentication645("en-GB"),
                               ),

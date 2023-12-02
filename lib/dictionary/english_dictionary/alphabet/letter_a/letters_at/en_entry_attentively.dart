@@ -205,12 +205,7 @@ class EnglishEntryattentively extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttentively913("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttentively913(// REPLACE: attentively
                                         "en-US"),
@@ -235,12 +230,7 @@ class EnglishEntryattentively extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttentively917("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttentively917(// REPLACE: attentively
                                         "en-US"),

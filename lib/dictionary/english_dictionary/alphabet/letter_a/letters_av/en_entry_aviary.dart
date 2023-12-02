@@ -196,12 +196,7 @@ class EnglishEntryaviary extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAviarys1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAviarys1(// REPLACE: aviary
                                         "en-US"),

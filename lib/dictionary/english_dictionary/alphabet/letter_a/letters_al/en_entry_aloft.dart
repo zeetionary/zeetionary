@@ -156,12 +156,7 @@ class EnglishEntryaloft extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAloft4256("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAloft4256(// REPLACE: aloft /əˈlɔːft/
                                         "en-US"),

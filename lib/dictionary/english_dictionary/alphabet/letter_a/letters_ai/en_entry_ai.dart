@@ -153,12 +153,7 @@ class EnglishEntryai extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAi934262("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAi934262(// REPLACE: AI /ˌeɪ ˈaɪ/
                                         "en-US"),

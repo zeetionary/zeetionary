@@ -223,12 +223,7 @@ class EnglishEntryamong extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmong7655("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmong7655(// REPLACE: among /əˈmʌŋ/
                                         "en-US"),
@@ -251,12 +246,7 @@ class EnglishEntryamong extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmong4666("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmong4666(// REPLACE: among /əˈmʌŋ/
                                         "en-US"),
@@ -280,12 +270,7 @@ class EnglishEntryamong extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmong4111("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmong4111(// REPLACE: among /əˈmʌŋ/
                                         "en-US"),

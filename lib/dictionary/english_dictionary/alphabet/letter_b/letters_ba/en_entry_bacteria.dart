@@ -195,12 +195,7 @@ class EnglishEntrybacteria extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBacterias1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBacterias1(// REPLACE: bacteria
                                         "en-US"),
@@ -223,12 +218,7 @@ class EnglishEntrybacteria extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBacterias2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBacterias2(// REPLACE: bacteria
                                         "en-US"),

@@ -196,12 +196,7 @@ class EnglishEntryballotbox extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBallotboxs1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBallotboxs1(// REPLACE: ballot box
                                         "en-US"),
@@ -226,12 +221,7 @@ class EnglishEntryballotbox extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBallotboxs2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBallotboxs2(// REPLACE: ballot box
                                         "en-US"),

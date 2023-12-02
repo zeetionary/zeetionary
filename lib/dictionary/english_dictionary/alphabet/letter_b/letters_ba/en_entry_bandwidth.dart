@@ -196,12 +196,7 @@ class EnglishEntrybandwidth extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBandwidths1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBandwidths1(// REPLACE: bandwidth
                                         "en-US"),
@@ -226,12 +221,7 @@ class EnglishEntrybandwidth extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBandwidths2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBandwidths2(// REPLACE: bandwidth
                                         "en-US"),
@@ -256,12 +246,7 @@ class EnglishEntrybandwidth extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBandwidths3("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBandwidths3(// REPLACE: bandwidth
                                         "en-US"),

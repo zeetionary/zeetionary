@@ -159,12 +159,7 @@ class EnglishEntryalas extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlas2569("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlas2569(// REPLACE: alas /əˈlæs/
                                         "en-US"),

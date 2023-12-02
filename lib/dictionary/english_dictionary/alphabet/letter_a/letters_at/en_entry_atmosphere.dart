@@ -210,12 +210,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAtmosphere1119("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAtmosphere1119(// REPLACE: atmosphere
                                         "en-US"),
@@ -238,12 +233,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAtmosphere1121("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAtmosphere1121(// REPLACE: atmosphere
                                         "en-US"),
@@ -268,12 +258,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAtmosphere1123("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAtmosphere1123(// REPLACE: atmosphere
                                         "en-US"),
@@ -298,12 +283,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAtmosphere1126("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAtmosphere1126(// REPLACE: atmosphere
                                         "en-US"),
@@ -328,12 +308,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAtmosphere1128("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAtmosphere1128(// REPLACE: atmosphere
                                         "en-US"),
@@ -356,12 +331,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAtmosphere1129("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAtmosphere1129(// REPLACE: atmosphere
                                         "en-US"),

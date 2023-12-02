@@ -152,12 +152,7 @@ class EnglishEntryacumen extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAcum527("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAcum527(// REPLACE: acumen /ˈækjəmən/
                                         "en-US"),

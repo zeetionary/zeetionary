@@ -203,12 +203,7 @@ class EnglishEntryappend extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppend109("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAppend109(// REPLACE: append /əˈpend/
                                         "en-US"),
@@ -231,12 +226,7 @@ class EnglishEntryappend extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppend111("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAppend111(// REPLACE: append /əˈpend/
                                         "en-US"),

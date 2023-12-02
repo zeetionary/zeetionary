@@ -209,12 +209,7 @@ class EnglishEntryalong extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlong457("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlong457(// REPLACE: along /əˈlɔːŋ/
                                         "en-US"),
@@ -238,12 +233,7 @@ class EnglishEntryalong extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlong4451("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlong4451(// REPLACE: along /əˈlɔːŋ/
                                         "en-US"),
@@ -267,12 +257,7 @@ class EnglishEntryalong extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlong451("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlong451(// REPLACE: along /əˈlɔːŋ/
                                         "en-US"),
@@ -296,12 +281,7 @@ class EnglishEntryalong extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlong45169("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlong45169(// REPLACE: along /əˈlɔːŋ/
                                         "en-US"),
@@ -324,12 +304,7 @@ class EnglishEntryalong extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlong4516("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlong4516(// REPLACE: along /əˈlɔːŋ/
                                         "en-US"),

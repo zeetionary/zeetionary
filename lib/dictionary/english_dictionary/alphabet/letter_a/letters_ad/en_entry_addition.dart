@@ -154,12 +154,7 @@ class EnglishEntryaddition extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAddi14("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAddi14(// REPLACE: addition /əˈdɪʃn/
                                         "en-US"),
@@ -180,12 +175,7 @@ class EnglishEntryaddition extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdditi769("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdditi769(// REPLACE: addition /əˈdɪʃn/
                                         "en-US"),
@@ -206,12 +196,7 @@ class EnglishEntryaddition extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAddit445("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAddit445(// REPLACE: addition /əˈdɪʃn/
                                         "en-US"),

@@ -204,12 +204,7 @@ class EnglishEntryatheism extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAtheism731("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAtheism731(// REPLACE: atheism
                                         "en-US"),

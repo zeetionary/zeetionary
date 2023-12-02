@@ -161,12 +161,7 @@ class EnglishEntryallied extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllied425("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAllied425(// REPLACE: allied /ˈælaɪd/
                                         "en-US"),
@@ -190,12 +185,7 @@ class EnglishEntryallied extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllied459("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAllied459(// REPLACE: allied /ˈælaɪd/
                                         "en-US"),
@@ -219,12 +209,7 @@ class EnglishEntryallied extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllied4399("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAllied4399(// REPLACE: allied /ˈælaɪd/
                                         "en-US"),

@@ -196,12 +196,7 @@ class EnglishEntryaviation extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAviations1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAviations1(// REPLACE: aviation
                                         "en-US"),

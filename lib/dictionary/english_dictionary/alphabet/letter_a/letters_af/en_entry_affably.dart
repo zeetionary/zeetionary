@@ -150,12 +150,7 @@ class EnglishEntryaffably extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAf3658("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAf3658(// REPLACE: affably /ˈæfəbli/
                                         "en-US"),

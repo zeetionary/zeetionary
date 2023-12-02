@@ -197,12 +197,7 @@ class EnglishEntryavalanche extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAvalanches1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAvalanches1(// REPLACE: avalanche
                                         "en-US"),
@@ -225,12 +220,7 @@ class EnglishEntryavalanche extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAvalanches2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAvalanches2(// REPLACE: avalanche
                                         "en-US"),

@@ -204,12 +204,7 @@ class EnglishEntryaustere extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAustere453("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAustere453(// REPLACE: austere
                                         "en-US"),
@@ -232,12 +227,7 @@ class EnglishEntryaustere extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAustere456("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAustere456(// REPLACE: austere
                                         "en-US"),
@@ -262,12 +252,7 @@ class EnglishEntryaustere extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAustere458("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAustere458(// REPLACE: austere
                                         "en-US"),

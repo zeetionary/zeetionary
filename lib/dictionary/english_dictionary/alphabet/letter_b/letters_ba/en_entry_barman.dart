@@ -194,12 +194,7 @@ class EnglishEntrybarman extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarmans1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBarmans1(// REPLACE: barman
                                         "en-US"),

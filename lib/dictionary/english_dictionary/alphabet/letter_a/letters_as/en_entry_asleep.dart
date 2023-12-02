@@ -207,12 +207,7 @@ class EnglishEntryasleep extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAsleep929("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAsleep929(// REPLACE: asleep /əˈsliːp/
                                         "en-US"),
@@ -235,12 +230,7 @@ class EnglishEntryasleep extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAsleep930("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAsleep930(// REPLACE: asleep /əˈsliːp/
                                         "en-US"),
@@ -265,12 +255,7 @@ class EnglishEntryasleep extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAsleep933("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAsleep933(// REPLACE: asleep /əˈsliːp/
                                         "en-US"),

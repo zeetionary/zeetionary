@@ -205,12 +205,7 @@ class EnglishEntryattain extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttain646("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttain646(// REPLACE: attain
                                         "en-US"),
@@ -235,12 +230,7 @@ class EnglishEntryattain extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttain648("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttain648(// REPLACE: attain
                                         "en-US"),

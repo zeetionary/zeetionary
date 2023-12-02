@@ -196,12 +196,7 @@ class EnglishEntryanew extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnew407("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnew407(// REPLACE: anew /əˈnuː/
                                         "en-US"),

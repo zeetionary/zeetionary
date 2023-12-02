@@ -156,12 +156,7 @@ class EnglishEntryambidextrous extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەشێوەیەکی سرووشتی چەپلەرم، بەڵام ڕێگەم پێ‌نەدرا بە دەستە چەپم بنووسم، و لە ئەنجامدا بوومە دوودەستە."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakAmbidextrous525555("en-GB"),
                               ),

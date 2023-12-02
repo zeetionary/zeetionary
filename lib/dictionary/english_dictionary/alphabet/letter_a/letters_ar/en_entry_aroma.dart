@@ -203,12 +203,7 @@ class EnglishEntryaroma extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAroma822("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAroma822(// REPLACE: aroma /əˈrəʊmə/
                                         "en-US"),

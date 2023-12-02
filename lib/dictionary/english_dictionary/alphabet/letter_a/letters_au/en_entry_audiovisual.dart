@@ -205,12 +205,7 @@ class EnglishEntryaudiovisual extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAudiovisual151("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAudiovisual151(// REPLACE: audiovisual
                                         "en-US"),

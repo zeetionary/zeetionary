@@ -153,12 +153,7 @@ class EnglishEntryaerial extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAeri5692("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAeri5692(// REPLACE: aerial /ˈeriəl/
                                         "en-US"),
@@ -179,12 +174,7 @@ class EnglishEntryaerial extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAeria2567("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAeria2567(// REPLACE: aerial /ˈeriəl/
                                         "en-US"),

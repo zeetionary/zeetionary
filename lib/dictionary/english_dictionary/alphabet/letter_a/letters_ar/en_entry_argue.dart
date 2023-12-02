@@ -204,12 +204,7 @@ class EnglishEntryargue extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArgue957("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArgue957(// REPLACE: argue /ˈɑːrɡjuː/
                                         "en-US"),
@@ -232,12 +227,7 @@ class EnglishEntryargue extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArgue958("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArgue958(// REPLACE: argue /ˈɑːrɡjuː/
                                         "en-US"),
@@ -260,12 +250,7 @@ class EnglishEntryargue extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArgue1000("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArgue1000(// REPLACE: argue /ˈɑːrɡjuː/
                                         "en-US"),
@@ -290,12 +275,7 @@ class EnglishEntryargue extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArgue1002("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArgue1002(// REPLACE: argue /ˈɑːrɡjuː/
                                         "en-US"),

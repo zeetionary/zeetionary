@@ -158,12 +158,7 @@ class EnglishEntryallege extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllege46398("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAllege46398(// REPLACE: allege /əˈledʒ/
                                         "en-US"),

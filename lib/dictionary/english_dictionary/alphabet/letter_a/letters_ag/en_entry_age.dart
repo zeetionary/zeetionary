@@ -223,12 +223,7 @@ class EnglishEntryage extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAge938665("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAge938665(// REPLACE: age /eɪdʒ/
                                         "en-US"),
@@ -250,12 +245,7 @@ class EnglishEntryage extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAge28225("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAge28225(// REPLACE: age /eɪdʒ/
                                         "en-US"),
@@ -277,12 +267,7 @@ class EnglishEntryage extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAge45562("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAge45562(// REPLACE: age /eɪdʒ/
                                         "en-US"),
@@ -300,16 +285,11 @@ class EnglishEntryage extends StatelessWidget {
                               //   width: 30,
                               // ),
                               const ExampleSentenceKurdish(
-                                  text: "لە پیرێتی دەترسا"),
+                                  text: "لە پیرێتی دەترسا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAge41663("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAge41663(// REPLACE: age /eɪdʒ/
                                         "en-US"),
@@ -328,16 +308,11 @@ class EnglishEntryage extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە سەردەمی دەسەڵاتداریی ئیلیزابێس ژیا"),
+                                      "لە سەردەمی دەسەڵاتداریی ئیلیزابێس ژیا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAge955887("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAge955887(// REPLACE: age /eɪdʒ/
                                         "en-US"),
@@ -351,21 +326,13 @@ class EnglishEntryage extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "As he aged, his memory got worse."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کە تەمەنی دەکرد بیر و ھۆشی خراپتر دەبوو."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAge471114("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAge471114(// REPLACE: age /eɪdʒ/
                                         "en-US"),
@@ -389,12 +356,7 @@ class EnglishEntryage extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAge25221("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAge25221(// REPLACE: age /eɪdʒ/
                                         "en-US"),

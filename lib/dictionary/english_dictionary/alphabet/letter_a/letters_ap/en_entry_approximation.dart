@@ -202,12 +202,7 @@ class EnglishEntryapproximation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێژەی خەمڵێندراوی بەژداربووان پێشبینی‌دەکرێت بگاتە ٣٥٠ کەس."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakApproximation1020("en-GB"),
                               ),
@@ -231,12 +226,7 @@ class EnglishEntryapproximation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ژمارەی تەواومان لەبەردەست نییە، بۆیە دەبێت خەمڵاندن بکەین."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakApproximation1021("en-GB"),
                               ),
@@ -262,12 +252,7 @@ class EnglishEntryapproximation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەنجامەکانمان دەبێت ھاوشێوەیەکی باشی ڕاستی بارودۆخەکە بێت."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakApproximation1026("en-GB"),
                               ),

@@ -152,12 +152,7 @@ class EnglishEntryafraid extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfrai4177("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfrai4177(// REPLACE: afraid /əˈfreɪd/
                                         "en-US"),
@@ -177,12 +172,7 @@ class EnglishEntryafraid extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfrai955("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfrai955(// REPLACE: afraid /əˈfreɪd/
                                         "en-US"),

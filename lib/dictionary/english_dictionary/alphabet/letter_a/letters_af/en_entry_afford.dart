@@ -161,12 +161,7 @@ class EnglishEntryafford extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffor458("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAffor458(// REPLACE: afford /əˈfɔːrd/
                                         "en-US"),
@@ -184,12 +179,7 @@ class EnglishEntryafford extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAff6665("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAff6665(// REPLACE: afford /əˈfɔːrd/
                                         "en-US"),
@@ -209,12 +199,7 @@ class EnglishEntryafford extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAff4511("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAff4511(// REPLACE: afford /əˈfɔːrd/
                                         "en-US"),
@@ -234,12 +219,7 @@ class EnglishEntryafford extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAf44922("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAf44922(// REPLACE: afford /əˈfɔːrd/
                                         "en-US"),

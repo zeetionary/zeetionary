@@ -197,12 +197,7 @@ class EnglishEntryawakening extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwakenings1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAwakenings1(// REPLACE: awakening
                                         "en-US"),
@@ -227,12 +222,7 @@ class EnglishEntryawakening extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwakenings2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAwakenings2(// REPLACE: awakening
                                         "en-US"),

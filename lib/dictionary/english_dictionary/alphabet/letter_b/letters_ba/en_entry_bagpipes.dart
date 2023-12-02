@@ -196,12 +196,7 @@ class EnglishEntrybagpipes extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBagpipess1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBagpipess1(// REPLACE: bagpipes
                                         "en-US"),

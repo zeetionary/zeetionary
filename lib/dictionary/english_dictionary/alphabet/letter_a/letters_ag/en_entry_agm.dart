@@ -153,12 +153,7 @@ class EnglishEntryagm extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgm74888("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAgm74888(// REPLACE: AGM /ˌeɪ dʒiː ˈem/
                                         "en-US"),

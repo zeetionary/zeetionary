@@ -159,12 +159,7 @@ class EnglishEntryalcove extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlcove3477("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlcove3477(// REPLACE: alcove /ˈælkəʊv/
                                         "en-US"),

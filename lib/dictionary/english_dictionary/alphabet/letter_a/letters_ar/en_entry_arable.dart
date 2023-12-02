@@ -203,12 +203,7 @@ class EnglishEntryarable extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArable1042("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArable1042(// REPLACE: arable /ˈærəbl/
                                         "en-US"),

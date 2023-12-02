@@ -162,12 +162,7 @@ class EnglishEntryactivity extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAactiv2537("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAactiv2537(// REPLACE: activity
                                         "en-US"),
@@ -186,12 +181,7 @@ class EnglishEntryactivity extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAactivi4687("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAactivi4687(// REPLACE: activity
                                         "en-US"),
@@ -212,12 +202,7 @@ class EnglishEntryactivity extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAactivi4584("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAactivi4584(// REPLACE: activity
                                         "en-US"),
@@ -238,12 +223,7 @@ class EnglishEntryactivity extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAactiv2468("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAactiv2468(// REPLACE: activity
                                         "en-US"),

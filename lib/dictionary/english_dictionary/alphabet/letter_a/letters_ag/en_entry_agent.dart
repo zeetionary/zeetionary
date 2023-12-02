@@ -182,12 +182,7 @@ class EnglishEntryagent extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgen25966("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAgen25966(// REPLACE: agent /ˈeɪdʒənt/
                                         "en-US"),
@@ -209,12 +204,7 @@ class EnglishEntryagent extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAg15224("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAg15224(// REPLACE: agent /ˈeɪdʒənt/
                                         "en-US"),
@@ -238,12 +228,7 @@ class EnglishEntryagent extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAge256999("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAge256999(// REPLACE: agent /ˈeɪdʒənt/
                                         "en-US"),
@@ -267,12 +252,7 @@ class EnglishEntryagent extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgent56922("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAgent56922(// REPLACE: agent /ˈeɪdʒənt/
                                         "en-US"),

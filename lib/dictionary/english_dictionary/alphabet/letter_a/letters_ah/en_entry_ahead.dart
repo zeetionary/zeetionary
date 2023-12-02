@@ -188,12 +188,7 @@ class EnglishEntryahead extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAhead24999("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAhead24999(// REPLACE: ahead /əˈhed/
                                         "en-US"),
@@ -215,12 +210,7 @@ class EnglishEntryahead extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAhead12555("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAhead12555(// REPLACE: ahead /əˈhed/
                                         "en-US"),
@@ -243,12 +233,7 @@ class EnglishEntryahead extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAhead43582("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAhead43582(// REPLACE: ahead /əˈhed/
                                         "en-US"),
@@ -270,12 +255,7 @@ class EnglishEntryahead extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAhead24331("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAhead24331(// REPLACE: ahead /əˈhed/
                                         "en-US"),

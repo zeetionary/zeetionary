@@ -221,12 +221,7 @@ class EnglishEntryamok extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmok46669("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmok46669(// REPLACE: amok /əˈmɑːk/
                                         "en-US"),

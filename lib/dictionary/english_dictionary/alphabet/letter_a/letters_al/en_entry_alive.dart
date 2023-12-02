@@ -212,12 +212,7 @@ class EnglishEntryalive extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlive65666("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlive65666(// REPLACE: alive /əˈlaɪv/
                                         "en-US"),
@@ -238,12 +233,7 @@ class EnglishEntryalive extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlive69142("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlive69142(// REPLACE: alive /əˈlaɪv/
                                         "en-US"),
@@ -265,12 +255,7 @@ class EnglishEntryalive extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlive3599("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlive3599(// REPLACE: alive /əˈlaɪv/
                                         "en-US"),
@@ -294,12 +279,7 @@ class EnglishEntryalive extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlive75236("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlive75236(// REPLACE: alive /əˈlaɪv/
                                         "en-US"),
@@ -321,12 +301,7 @@ class EnglishEntryalive extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlive378514("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlive378514(// REPLACE: alive /əˈlaɪv/
                                         "en-US"),
@@ -350,12 +325,7 @@ class EnglishEntryalive extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlive35961("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlive35961(// REPLACE: alive /əˈlaɪv/
                                         "en-US"),

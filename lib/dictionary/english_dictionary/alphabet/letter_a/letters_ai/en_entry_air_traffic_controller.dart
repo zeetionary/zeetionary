@@ -156,12 +156,7 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕۆن کۆنۆڵی پێویست بوو چوار کاتژمێر یان کەمتر بخەوێت کاتێک وەک کۆنترۆڵوانی فڕۆکە کاری دەکرد."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakAirtrafficcontroller4255("en-GB"),
                               ),

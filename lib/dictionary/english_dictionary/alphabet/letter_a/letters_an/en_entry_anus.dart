@@ -186,54 +186,6 @@ class EnglishEntryanus extends StatelessWidget {
 کوردی: کۆم، کونی کۆم، زڕتک، پندرۆ، ڕەش، تریزە، کۆڤک
 
 ١. (ھاوەڵناو) ئەندامێکی جەستەی مرۆڤ کە کونێکە لە ڕێگەیەوە خواردن دەکرێتە دەرەوە"""),
-                          // Row(
-                          //   children: [
-                          //     const Expanded(
-                          //       child: Align(
-                          //         alignment: Alignment.topLeft,
-                          //         child: Text(
-                          //           "DOPSUM_WRITE_A_SENTENCE",
-                          //           textDirection: TextDirection
-                          //               .ltr, // Right-to-left direction
-                          //         ),
-                          //       ),
-                          //     ),
-                          //     // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                          //     // const SizedBox(
-                          //     //   width: 30,
-                          //     // ),
-                          //     const Expanded(
-                          //       child: Align(
-                          //         alignment: Alignment.topLeft,
-                          //         child: Text(
-                          //           "رستە_رستە_رستە_رستە.",
-                          //           textAlign: TextAlign
-                          //               .right, // Right-to-left direction
-                          //         ),
-                          //       ),
-                          //     ),
-                          //     IconButton(
-                          //       iconSize: 18,
-                          //       icon: const Icon(
-                          //         Icons.record_voice_over,
-                          //         color: Colors.blue,
-                          //       ),
-                          //       onPressed: () => speakAnus("en-GB"),
-                          //     ),
-                          //     IconButton(
-                          //       iconSize: 18,
-                          //       icon: const Icon(
-                          //         Icons.record_voice_over,
-                          //         color: Colors.red,
-                          //       ),
-                          //       onPressed: () =>
-                          //           speakAnus(// REPLACE: anus /ˈeɪnəs/
-                          //               "en-US"),
-                          //     ),
-                          //   ],
-                          // ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),

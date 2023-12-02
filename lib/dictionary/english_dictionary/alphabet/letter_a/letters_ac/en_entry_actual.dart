@@ -154,12 +154,7 @@ class EnglishEntryactual extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakActual4528("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakActual4528(// REPLACE: actual
                                         "en-US"),
@@ -176,12 +171,7 @@ class EnglishEntryactual extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakActual4967("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakActual4967(// REPLACE: actual
                                         "en-US"),

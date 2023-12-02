@@ -168,12 +168,7 @@ class EnglishEntryacute extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAcute1247("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAcute1247(// REPLACE: acute /əˈkjuːt/
                                         "en-US"),
@@ -192,12 +187,7 @@ class EnglishEntryacute extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAcut3749("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAcut3749(// REPLACE: acute /əˈkjuːt/
                                         "en-US"),
@@ -216,12 +206,7 @@ class EnglishEntryacute extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAcute42("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAcute42(// REPLACE: acute /əˈkjuːt/
                                         "en-US"),
@@ -240,12 +225,7 @@ class EnglishEntryacute extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAcu5268("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAcu5268(// REPLACE: acute /əˈkjuːt/
                                         "en-US"),
@@ -264,12 +244,7 @@ class EnglishEntryacute extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAcu5269("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAcu5269(// REPLACE: acute /əˈkjuːt/
                                         "en-US"),

@@ -205,12 +205,7 @@ class EnglishEntrygoastray extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakGoastray1127("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakGoastray1127(// REPLACE: go astray
                                         "en-US"),
@@ -235,12 +230,7 @@ class EnglishEntrygoastray extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakGoastray1129("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakGoastray1129(// REPLACE: go astray
                                         "en-US"),

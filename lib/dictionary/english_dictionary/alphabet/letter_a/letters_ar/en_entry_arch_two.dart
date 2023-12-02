@@ -201,12 +201,7 @@ class EnglishEntryarchtwo extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArchtwo213("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArchtwo213(// REPLACE: arch- /haʊ/
                                         "en-US"),

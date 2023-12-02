@@ -204,12 +204,7 @@ class EnglishEntryapart extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakApart1105("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakApart1105(// REPLACE: apart /əˈpɑːrt/
                                         "en-US"),
@@ -232,12 +227,7 @@ class EnglishEntryapart extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakApart1106("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakApart1106(// REPLACE: apart /əˈpɑːrt/
                                         "en-US"),
@@ -260,12 +250,7 @@ class EnglishEntryapart extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakApart1108("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakApart1108(// REPLACE: apart /əˈpɑːrt/
                                         "en-US"),
@@ -290,12 +275,7 @@ class EnglishEntryapart extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakApart1110("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakApart1110(// REPLACE: apart /əˈpɑːrt/
                                         "en-US"),
@@ -320,12 +300,7 @@ class EnglishEntryapart extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakApart1112("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakApart1112(// REPLACE: apart /əˈpɑːrt/
                                         "en-US"),

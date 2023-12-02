@@ -194,12 +194,7 @@ class EnglishEntrybaptism extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBaptisms1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBaptisms1(// REPLACE: baptism
                                         "en-US"),

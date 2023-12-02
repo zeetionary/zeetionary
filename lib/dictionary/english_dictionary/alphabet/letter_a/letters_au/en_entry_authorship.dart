@@ -205,12 +205,7 @@ class EnglishEntryauthorship extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuthorship731("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAuthorship731(// REPLACE: authorship
                                         "en-US"),
@@ -235,12 +230,7 @@ class EnglishEntryauthorship extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuthorship733("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAuthorship733(// REPLACE: authorship
                                         "en-US"),

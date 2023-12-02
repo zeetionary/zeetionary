@@ -207,12 +207,7 @@ class EnglishEntryattention extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttention846("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttention846(// REPLACE: attention
                                         "en-US"),
@@ -234,12 +229,7 @@ class EnglishEntryattention extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttention847("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttention847(// REPLACE: attention
                                         "en-US"),
@@ -263,12 +253,7 @@ class EnglishEntryattention extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttention848("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttention848(// REPLACE: attention
                                         "en-US"),
@@ -293,12 +278,7 @@ class EnglishEntryattention extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttention852("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttention852(// REPLACE: attention
                                         "en-US"),
@@ -323,12 +303,7 @@ class EnglishEntryattention extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttention856("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttention856(// REPLACE: attention
                                         "en-US"),

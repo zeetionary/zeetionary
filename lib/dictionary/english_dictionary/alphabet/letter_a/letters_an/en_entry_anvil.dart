@@ -200,12 +200,7 @@ class EnglishEntryanvil extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnvil208("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnvil208(// REPLACE: anvil /ˈænvɪl/
                                         "en-US"),

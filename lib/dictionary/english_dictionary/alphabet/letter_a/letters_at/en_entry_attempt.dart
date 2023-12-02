@@ -207,12 +207,7 @@ class EnglishEntryattempt extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttempt742("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttempt742(// REPLACE: attempt
                                         "en-US"),
@@ -236,12 +231,7 @@ class EnglishEntryattempt extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttempt743("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttempt743(// REPLACE: attempt
                                         "en-US"),
@@ -266,12 +256,7 @@ class EnglishEntryattempt extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttempt749("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttempt749(// REPLACE: attempt
                                         "en-US"),
@@ -293,12 +278,7 @@ class EnglishEntryattempt extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttempt750("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAttempt750(// REPLACE: attempt
                                         "en-US"),

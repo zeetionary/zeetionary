@@ -160,12 +160,7 @@ class EnglishEntryally extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlly4211("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlly4211(// REPLACE: ally /ˈælaɪ/
                                         "en-US"),
@@ -189,12 +184,7 @@ class EnglishEntryally extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlly4322("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlly4322(// REPLACE: ally /ˈælaɪ/
                                         "en-US"),

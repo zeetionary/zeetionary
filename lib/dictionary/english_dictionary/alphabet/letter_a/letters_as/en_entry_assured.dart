@@ -205,12 +205,7 @@ class EnglishEntryassured extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAssured929("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAssured929(// REPLACE: assured /əˈʃʊrd/
                                         "en-US"),
@@ -233,12 +228,7 @@ class EnglishEntryassured extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAssured931("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAssured931(// REPLACE: assured /əˈʃʊrd/
                                         "en-US"),
@@ -263,12 +253,7 @@ class EnglishEntryassured extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAssured932("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAssured932(// REPLACE: assured /əˈʃʊrd/
                                         "en-US"),

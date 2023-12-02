@@ -195,12 +195,7 @@ class EnglishEntrybankholiday extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBankholidays1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBankholidays1(// REPLACE: bank holiday
                                         "en-US"),

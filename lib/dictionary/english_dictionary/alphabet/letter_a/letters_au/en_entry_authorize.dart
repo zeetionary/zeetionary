@@ -205,12 +205,7 @@ class EnglishEntryauthorize extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuthorize840("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAuthorize840(// REPLACE: authorize
                                         "en-US"),
@@ -233,12 +228,7 @@ class EnglishEntryauthorize extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuthorize842("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAuthorize842(// REPLACE: authorize
                                         "en-US"),

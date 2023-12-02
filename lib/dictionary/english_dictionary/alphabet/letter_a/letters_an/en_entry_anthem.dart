@@ -199,12 +199,7 @@ class EnglishEntryanthem extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnthem542("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnthem542(// REPLACE: anthem /ˈænθəm/
                                         "en-US"),

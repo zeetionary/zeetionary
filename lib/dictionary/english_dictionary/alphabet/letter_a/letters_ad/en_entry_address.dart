@@ -214,12 +214,7 @@ class EnglishEntryaddress extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdd774("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdd774(// REPLACE: address /əˈdres/
                                         "en-US"),
@@ -238,12 +233,7 @@ class EnglishEntryaddress extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAddress452("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAddress452(// REPLACE: address /əˈdres/
                                         "en-US"),
@@ -262,12 +252,7 @@ class EnglishEntryaddress extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAddr2458("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAddr2458(// REPLACE: address /əˈdres/
                                         "en-US"),
@@ -288,12 +273,7 @@ class EnglishEntryaddress extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAddr624("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAddr624(// REPLACE: address /əˈdres/
                                         "en-US"),
@@ -314,12 +294,7 @@ class EnglishEntryaddress extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdd99("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdd99(// REPLACE: address /əˈdres/
                                         "en-US"),
@@ -340,12 +315,7 @@ class EnglishEntryaddress extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAddr11("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAddr11(// REPLACE: address /əˈdres/
                                         "en-US"),
@@ -366,12 +336,7 @@ class EnglishEntryaddress extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAddre444("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAddre444(// REPLACE: address /əˈdres/
                                         "en-US"),
@@ -392,12 +357,7 @@ class EnglishEntryaddress extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAddr766("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAddr766(// REPLACE: address /əˈdres/
                                         "en-US"),

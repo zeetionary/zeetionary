@@ -201,12 +201,7 @@ class EnglishEntrybackground extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakB3s1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakB3s1(// REPLACE: background
                                         "en-US"),
@@ -231,12 +226,7 @@ class EnglishEntrybackground extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakB3s2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakB3s2(// REPLACE: background
                                         "en-US"),
@@ -260,12 +250,7 @@ class EnglishEntrybackground extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakB3s3("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakB3s3(// REPLACE: background
                                         "en-US"),
@@ -290,12 +275,7 @@ class EnglishEntrybackground extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakB3s4("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakB3s4(// REPLACE: background
                                         "en-US"),
@@ -320,12 +300,7 @@ class EnglishEntrybackground extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakB3s5("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakB3s5(// REPLACE: background
                                         "en-US"),

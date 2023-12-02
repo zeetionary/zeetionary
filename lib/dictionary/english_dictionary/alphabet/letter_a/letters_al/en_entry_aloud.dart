@@ -159,12 +159,7 @@ class EnglishEntryaloud extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAloud469("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAloud469(// REPLACE: aloud /əˈlaʊd/
                                         "en-US"),
@@ -186,12 +181,7 @@ class EnglishEntryaloud extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAloud462("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAloud462(// REPLACE: aloud /əˈlaʊd/
                                         "en-US"),
@@ -213,12 +203,7 @@ class EnglishEntryaloud extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAloud596("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAloud596(// REPLACE: aloud /əˈlaʊd/
                                         "en-US"),

@@ -213,12 +213,7 @@ class EnglishEntryalert extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlert3524("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlert3524(// REPLACE: alert /əˈlɜːrt/
                                         "en-US"),
@@ -240,12 +235,7 @@ class EnglishEntryalert extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlert352("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlert352(// REPLACE: alert /əˈlɜːrt/
                                         "en-US"),
@@ -269,12 +259,7 @@ class EnglishEntryalert extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlert29637("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlert29637(// REPLACE: alert /əˈlɜːrt/
                                         "en-US"),
@@ -298,12 +283,7 @@ class EnglishEntryalert extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlert6277("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlert6277(// REPLACE: alert /əˈlɜːrt/
                                         "en-US"),
@@ -327,12 +307,7 @@ class EnglishEntryalert extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlert96526("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlert96526(// REPLACE: alert /əˈlɜːrt/
                                         "en-US"),
@@ -355,12 +330,7 @@ class EnglishEntryalert extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlert34655("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlert34655(// REPLACE: alert /əˈlɜːrt/
                                         "en-US"),
@@ -383,12 +353,7 @@ class EnglishEntryalert extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlert3566("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlert3566(// REPLACE: alert /əˈlɜːrt/
                                         "en-US"),

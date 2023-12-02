@@ -155,12 +155,7 @@ class EnglishEntryaground extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgro3441("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAgro3441(// REPLACE: aground /əˈɡraʊnd/
                                         "en-US"),

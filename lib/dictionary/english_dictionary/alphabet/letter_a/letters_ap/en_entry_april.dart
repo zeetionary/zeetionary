@@ -201,12 +201,7 @@ class EnglishEntryapril extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakApril1055("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakApril1055(// REPLACE: April /ˈeɪprəl/
                                         "en-US"),
@@ -227,12 +222,7 @@ class EnglishEntryapril extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakApril1056("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakApril1056(// REPLACE: April /ˈeɪprəl/
                                         "en-US"),

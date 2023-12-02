@@ -198,12 +198,7 @@ class EnglishEntrybanishment extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBanishments1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBanishments1(// REPLACE: banishment
                                         "en-US"),
@@ -226,12 +221,7 @@ class EnglishEntrybanishment extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBanishments2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBanishments2(// REPLACE: banishment
                                         "en-US"),

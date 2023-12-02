@@ -204,12 +204,7 @@ class EnglishEntryastrology extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAstrology408("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAstrology408(// REPLACE: astrology
                                         "en-US"),

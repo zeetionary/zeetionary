@@ -203,12 +203,7 @@ class EnglishEntryashore extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAshore607("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAshore607(// REPLACE: ashore /əˈʃɔːr/
                                         "en-US"),
@@ -231,12 +226,7 @@ class EnglishEntryashore extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAshore609("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAshore609(// REPLACE: ashore /əˈʃɔːr/
                                         "en-US"),

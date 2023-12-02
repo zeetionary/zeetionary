@@ -197,12 +197,7 @@ class EnglishEntrybanker extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBankers1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBankers1(// REPLACE: banker
                                         "en-US"),
@@ -225,12 +220,7 @@ class EnglishEntrybanker extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBankers2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBankers2(// REPLACE: banker
                                         "en-US"),

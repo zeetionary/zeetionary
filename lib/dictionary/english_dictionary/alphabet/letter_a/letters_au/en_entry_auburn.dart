@@ -203,12 +203,7 @@ class EnglishEntryauburn extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuburn1140("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAuburn1140(// REPLACE: auburn
                                         "en-US"),

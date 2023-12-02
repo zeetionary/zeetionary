@@ -197,12 +197,7 @@ class EnglishEntrybankruptcy extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBankruptcys1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBankruptcys1(// REPLACE: bankruptcy
                                         "en-US"),

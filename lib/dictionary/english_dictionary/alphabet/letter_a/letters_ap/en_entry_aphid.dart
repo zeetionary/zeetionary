@@ -203,12 +203,7 @@ class EnglishEntryaphid extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAphid229("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAphid229(// REPLACE: aphid /ˈeɪfɪd/
                                         "en-US"),

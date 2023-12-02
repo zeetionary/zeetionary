@@ -152,12 +152,7 @@ am not/is not/are not"""),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAint286599("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAint286599(// REPLACE: ain't /eɪnt/
                                         "en-US"),
@@ -179,12 +174,7 @@ has not/have not"""),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAint8411("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAint8411(// REPLACE: ain't /eɪnt/
                                         "en-US"),

@@ -197,12 +197,7 @@ class EnglishEntryankle extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnkle1112("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnkle1112(// REPLACE: ankle /ˈæŋkl/
                                         "en-US"),
@@ -223,12 +218,7 @@ class EnglishEntryankle extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnkle1114("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnkle1114(// REPLACE: ankle /ˈæŋkl/
                                         "en-US"),

@@ -206,12 +206,7 @@ class EnglishEntryarmour extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArmour530("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArmour530(// REPLACE: armour /ˈɑːrmər/
                                         "en-US"),
@@ -234,12 +229,7 @@ class EnglishEntryarmour extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArmour531("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArmour531(// REPLACE: armour /ˈɑːrmər/
                                         "en-US"),
@@ -263,12 +253,7 @@ class EnglishEntryarmour extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArmour536("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArmour536(// REPLACE: armour /ˈɑːrmər/
                                         "en-US"),
@@ -293,12 +278,7 @@ class EnglishEntryarmour extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArmour540("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArmour540(// REPLACE: armour /ˈɑːrmər/
                                         "en-US"),

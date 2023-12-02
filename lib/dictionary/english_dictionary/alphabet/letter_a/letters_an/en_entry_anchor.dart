@@ -202,12 +202,7 @@ class EnglishEntryanchor extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnchor08996("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnchor08996(// REPLACE: anchor /ˈæŋkər/
                                         "en-US"),
@@ -229,12 +224,7 @@ class EnglishEntryanchor extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnchor104("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnchor104(// REPLACE: anchor /ˈæŋkər/
                                         "en-US"),
@@ -259,12 +249,7 @@ class EnglishEntryanchor extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnchor10("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnchor10(// REPLACE: anchor /ˈæŋkər/
                                         "en-US"),
@@ -289,12 +274,7 @@ class EnglishEntryanchor extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnchor1044("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnchor1044(// REPLACE: anchor /ˈæŋkər/
                                         "en-US"),
@@ -318,12 +298,7 @@ class EnglishEntryanchor extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnchor0995("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnchor0995(// REPLACE: anchor /ˈæŋkər/
                                         "en-US"),
@@ -347,12 +322,7 @@ class EnglishEntryanchor extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnchor550("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnchor550(// REPLACE: anchor /ˈæŋkər/
                                         "en-US"),
@@ -377,12 +347,7 @@ class EnglishEntryanchor extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnchor5006("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnchor5006(// REPLACE: anchor /ˈæŋkər/
                                         "en-US"),
@@ -407,12 +372,7 @@ class EnglishEntryanchor extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnchor444("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnchor444(// REPLACE: anchor /ˈæŋkər/
                                         "en-US"),

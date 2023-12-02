@@ -155,12 +155,7 @@ class EnglishEntryamtwo extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmtwo4555("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmtwo4555(// REPLACE: a.m. /haʊ/
                                         "en-US"),

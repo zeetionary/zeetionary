@@ -205,12 +205,7 @@ class EnglishEntryastral extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAstral1111("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAstral1111(// REPLACE: astral
                                         "en-US"),
@@ -235,12 +230,7 @@ class EnglishEntryastral extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAstral1115("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAstral1115(// REPLACE: astral
                                         "en-US"),

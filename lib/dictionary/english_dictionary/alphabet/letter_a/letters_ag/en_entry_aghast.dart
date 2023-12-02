@@ -154,12 +154,7 @@ class EnglishEntryaghast extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAghas15622("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAghas15622(// REPLACE: aghast /əˈɡɑːst/
                                         "en-US"),

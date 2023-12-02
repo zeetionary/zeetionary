@@ -206,12 +206,7 @@ class EnglishEntryarise extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArise1141("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArise1141(// REPLACE: arise /əˈraɪz/
                                         "en-US"),
@@ -234,12 +229,7 @@ class EnglishEntryarise extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArise1144("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArise1144(// REPLACE: arise /əˈraɪz/
                                         "en-US"),
@@ -264,12 +254,7 @@ class EnglishEntryarise extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArise1145("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArise1145(// REPLACE: arise /əˈraɪz/
                                         "en-US"),
@@ -294,12 +279,7 @@ class EnglishEntryarise extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArise1147("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArise1147(// REPLACE: arise /əˈraɪz/
                                         "en-US"),
@@ -322,12 +302,7 @@ class EnglishEntryarise extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArise1149("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArise1149(// REPLACE: arise /əˈraɪz/
                                         "en-US"),

@@ -153,12 +153,7 @@ class EnglishEntryaddict extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdd2354("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdd2354(// REPLACE: addict /ˈædɪkt/
                                         "en-US"),
@@ -177,12 +172,7 @@ class EnglishEntryaddict extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAddi2541("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAddi2541(// REPLACE: addict /ˈædɪkt/
                                         "en-US"),

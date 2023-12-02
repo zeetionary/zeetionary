@@ -198,12 +198,7 @@ class EnglishEntryantiperspirant extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە ڕۆژانی گەرمدا دژە-بۆن دەکرێت وابکات زیاتر ئاسوودە بیت."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakAntiperspirant1117("en-GB"),
                               ),

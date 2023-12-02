@@ -201,12 +201,7 @@ class EnglishEntryanimal extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnimal858("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnimal858(// REPLACE: animal /ˈænɪml/
                                         "en-US"),
@@ -227,12 +222,7 @@ class EnglishEntryanimal extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnimal0052("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnimal0052(// REPLACE: animal /ˈænɪml/
                                         "en-US"),
@@ -257,12 +247,7 @@ class EnglishEntryanimal extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnimal440("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnimal440(// REPLACE: animal /ˈænɪml/
                                         "en-US"),
@@ -287,12 +272,7 @@ class EnglishEntryanimal extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnimal4608("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnimal4608(// REPLACE: animal /ˈænɪml/
                                         "en-US"),
@@ -317,12 +297,7 @@ class EnglishEntryanimal extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnimal4390("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnimal4390(// REPLACE: animal /ˈænɪml/
                                         "en-US"),
@@ -347,12 +322,7 @@ class EnglishEntryanimal extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnimal4077("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnimal4077(// REPLACE: animal /ˈænɪml/
                                         "en-US"),
@@ -374,12 +344,7 @@ class EnglishEntryanimal extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnimal914("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnimal914(// REPLACE: animal /ˈænɪml/
                                         "en-US"),

@@ -158,12 +158,7 @@ class EnglishEntryamass extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmass5555("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmass5555(// REPLACE: amass /əˈmæs/
                                         "en-US"),
@@ -185,12 +180,7 @@ class EnglishEntryamass extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmass4447("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmass4447(// REPLACE: amass /əˈmæs/
                                         "en-US"),

@@ -204,12 +204,7 @@ class EnglishEntryaubergine extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAubergine1132("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAubergine1132(// REPLACE: aubergine
                                         "en-US"),

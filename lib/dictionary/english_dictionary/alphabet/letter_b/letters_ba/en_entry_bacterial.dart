@@ -194,12 +194,7 @@ class EnglishEntrybacterial extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBacterials1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBacterials1(// REPLACE: bacterial
                                         "en-US"),

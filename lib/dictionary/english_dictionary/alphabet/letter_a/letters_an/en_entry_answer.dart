@@ -263,12 +263,7 @@ class EnglishEntryanswer extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnswer1019("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnswer1019(// REPLACE: answer /ˈɑːnsər/
                                         "en-US"),
@@ -290,12 +285,7 @@ class EnglishEntryanswer extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnswer1021("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnswer1021(// REPLACE: answer /ˈɑːnsər/
                                         "en-US"),
@@ -317,12 +307,7 @@ class EnglishEntryanswer extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnswer1022("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnswer1022(// REPLACE: answer /ˈɑːnsər/
                                         "en-US"),
@@ -347,12 +332,7 @@ class EnglishEntryanswer extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnswer1025("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnswer1025(// REPLACE: answer /ˈɑːnsər/
                                         "en-US"),
@@ -374,12 +354,7 @@ class EnglishEntryanswer extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnswer1026("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnswer1026(// REPLACE: answer /ˈɑːnsər/
                                         "en-US"),
@@ -403,12 +378,7 @@ class EnglishEntryanswer extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnswer1027("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnswer1027(// REPLACE: answer /ˈɑːnsər/
                                         "en-US"),
@@ -431,12 +401,7 @@ class EnglishEntryanswer extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnswer1029("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnswer1029(// REPLACE: answer /ˈɑːnsər/
                                         "en-US"),
@@ -461,12 +426,7 @@ class EnglishEntryanswer extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnswer1032("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnswer1032(// REPLACE: answer /ˈɑːnsər/
                                         "en-US"),
@@ -487,12 +447,7 @@ class EnglishEntryanswer extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnswer1034("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnswer1034(// REPLACE: answer /ˈɑːnsər/
                                         "en-US"),
@@ -515,12 +470,7 @@ class EnglishEntryanswer extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnswer1036("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnswer1036(// REPLACE: answer /ˈɑːnsər/
                                         "en-US"),
@@ -545,12 +495,7 @@ class EnglishEntryanswer extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnswer1039("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnswer1039(// REPLACE: answer /ˈɑːnsər/
                                         "en-US"),

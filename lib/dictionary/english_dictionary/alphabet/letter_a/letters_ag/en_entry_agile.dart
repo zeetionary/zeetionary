@@ -155,12 +155,7 @@ class EnglishEntryagile extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgile15621("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAgile15621(// REPLACE: agile /ˈædʒl/
                                         "en-US"),
@@ -184,12 +179,7 @@ class EnglishEntryagile extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgi1778("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAgi1778(// REPLACE: agile /ˈædʒl/
                                         "en-US"),
@@ -213,12 +203,7 @@ class EnglishEntryagile extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgil56663("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAgil56663(// REPLACE: agile /ˈædʒl/
                                         "en-US"),

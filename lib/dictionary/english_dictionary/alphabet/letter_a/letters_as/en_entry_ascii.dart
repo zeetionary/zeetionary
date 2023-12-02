@@ -201,12 +201,7 @@ class EnglishEntryASCII extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAscii130("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAscii130(// REPLACE: ASCII /ˈæski/
                                         "en-US"),

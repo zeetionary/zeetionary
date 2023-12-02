@@ -195,12 +195,7 @@ class EnglishEntryamp extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmp4599("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmp4599(// REPLACE: amp /æmp/
                                         "en-US"),

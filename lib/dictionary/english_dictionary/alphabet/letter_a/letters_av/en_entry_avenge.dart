@@ -196,12 +196,7 @@ class EnglishEntryavenge extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAvenges1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAvenges1(// REPLACE: avenge
                                         "en-US"),

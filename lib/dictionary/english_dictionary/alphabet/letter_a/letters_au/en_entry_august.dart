@@ -201,12 +201,7 @@ class EnglishEntryaugust extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAugust327("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAugust327(// REPLACE: August
                                         "en-US"),

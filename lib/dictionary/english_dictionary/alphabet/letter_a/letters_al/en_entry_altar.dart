@@ -159,12 +159,7 @@ class EnglishEntryaltar extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAltar45966("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAltar45966(// REPLACE: altar /ˈɔːltər/
                                         "en-US"),

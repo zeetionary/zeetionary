@@ -211,12 +211,7 @@ class EnglishEntryaspect extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAspect455("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAspect455(// REPLACE: aspect /ˈæspekt/
                                         "en-US"),
@@ -239,12 +234,7 @@ class EnglishEntryaspect extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAspect456("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAspect456(// REPLACE: aspect /ˈæspekt/
                                         "en-US"),
@@ -269,12 +259,7 @@ class EnglishEntryaspect extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAspect458("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAspect458(// REPLACE: aspect /ˈæspekt/
                                         "en-US"),
@@ -297,12 +282,7 @@ class EnglishEntryaspect extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAspect500("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAspect500(// REPLACE: aspect /ˈæspekt/
                                         "en-US"),
@@ -327,12 +307,7 @@ class EnglishEntryaspect extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAspect508("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAspect508(// REPLACE: aspect /ˈæspekt/
                                         "en-US"),

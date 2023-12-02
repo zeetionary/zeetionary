@@ -151,12 +151,7 @@ class EnglishEntryadmire extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdmi2561("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdmi2561(// REPLACE: admire /ədˈmaɪər/
                                         "en-US"),
@@ -175,12 +170,7 @@ class EnglishEntryadmire extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdm96871("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAdm96871(// REPLACE: admire /ədˈmaɪər/
                                         "en-US"),

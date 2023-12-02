@@ -250,12 +250,7 @@ class EnglishEntryauthority extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuthority804("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAuthority804(// REPLACE: authority
                                         "en-US"),
@@ -278,12 +273,7 @@ class EnglishEntryauthority extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuthority805("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAuthority805(// REPLACE: authority
                                         "en-US"),
@@ -308,12 +298,7 @@ class EnglishEntryauthority extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuthority808("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAuthority808(// REPLACE: authority
                                         "en-US"),
@@ -336,12 +321,7 @@ class EnglishEntryauthority extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuthority809("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAuthority809(// REPLACE: authority
                                         "en-US"),
@@ -365,12 +345,7 @@ class EnglishEntryauthority extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuthority811("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAuthority811(// REPLACE: authority
                                         "en-US"),
@@ -395,12 +370,7 @@ class EnglishEntryauthority extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuthority814("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAuthority814(// REPLACE: authority
                                         "en-US"),
@@ -424,12 +394,7 @@ class EnglishEntryauthority extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuthority816("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAuthority816(// REPLACE: authority
                                         "en-US"),

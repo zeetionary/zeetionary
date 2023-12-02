@@ -204,12 +204,7 @@ class EnglishEntryaudible extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAudible1255("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAudible1255(// REPLACE: audible
                                         "en-US"),

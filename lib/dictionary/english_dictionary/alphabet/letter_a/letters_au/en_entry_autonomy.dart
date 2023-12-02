@@ -197,12 +197,7 @@ class EnglishEntryautonomy extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAutonomyS1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAutonomyS1(// REPLACE: autonomy
                                         "en-US"),
@@ -227,12 +222,7 @@ class EnglishEntryautonomy extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAutonomyS2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAutonomyS2(// REPLACE: autonomy
                                         "en-US"),

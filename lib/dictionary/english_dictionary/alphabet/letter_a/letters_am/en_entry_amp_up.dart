@@ -197,12 +197,7 @@ class EnglishEntryampup extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmpup4414("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmpup4414(// REPLACE: amp up /æmp ʌp/
                                         "en-US"),
@@ -226,12 +221,7 @@ class EnglishEntryampup extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmpup5560("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmpup5560(// REPLACE: amp up /æmp ʌp/
                                         "en-US"),
@@ -255,12 +245,7 @@ class EnglishEntryampup extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmpup44855("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmpup44855(// REPLACE: amp up /æmp ʌp/
                                         "en-US"),

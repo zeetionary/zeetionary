@@ -202,12 +202,7 @@ class EnglishEntryastound extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAstound1101("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAstound1101(// REPLACE: astound
                                         "en-US"),

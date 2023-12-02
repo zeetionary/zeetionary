@@ -152,12 +152,7 @@ class EnglishEntryaimlessly extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کە چاوەڕێی دەکرد بێ مەبەستانە لە گەراجەکەدا دەسوڕایەوە."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakAimlessly76511981("en-GB"),
                               ),

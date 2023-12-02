@@ -160,12 +160,7 @@ class EnglishEntryalibi extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlibi4588("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlibi4588(// REPLACE: alibi /ˈæləbaɪ/
                                         "en-US"),
@@ -189,12 +184,7 @@ class EnglishEntryalibi extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlibi499253("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlibi499253(// REPLACE: alibi /ˈæləbaɪ/
                                         "en-US"),

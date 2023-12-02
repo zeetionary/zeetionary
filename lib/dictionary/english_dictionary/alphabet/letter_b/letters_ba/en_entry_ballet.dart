@@ -198,12 +198,7 @@ class EnglishEntryballet extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBallets1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBallets1(// REPLACE: ballet
                                         "en-US"),
@@ -228,12 +223,7 @@ class EnglishEntryballet extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBallets2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBallets2(// REPLACE: ballet
                                         "en-US"),
@@ -258,12 +248,7 @@ class EnglishEntryballet extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBallets3("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBallets3(// REPLACE: ballet
                                         "en-US"),

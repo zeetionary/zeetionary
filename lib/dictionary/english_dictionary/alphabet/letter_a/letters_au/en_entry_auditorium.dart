@@ -204,12 +204,7 @@ class EnglishEntryauditorium extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuditorium252("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAuditorium252(// REPLACE: auditorium
                                         "en-US"),
@@ -234,12 +229,7 @@ class EnglishEntryauditorium extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuditorium255("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAuditorium255(// REPLACE: auditorium
                                         "en-US"),

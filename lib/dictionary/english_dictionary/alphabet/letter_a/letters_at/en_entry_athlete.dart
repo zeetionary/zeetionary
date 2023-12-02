@@ -204,12 +204,7 @@ class EnglishEntryathlete extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAthlete754("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAthlete754(// REPLACE: athlete
                                         "en-US"),

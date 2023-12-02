@@ -202,12 +202,7 @@ class EnglishEntryathletic extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAthletic808("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAthletic808(// REPLACE: athletic
                                         "en-US"),
@@ -232,12 +227,7 @@ class EnglishEntryathletic extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAthletic813("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAthletic813(// REPLACE: athletic
                                         "en-US"),

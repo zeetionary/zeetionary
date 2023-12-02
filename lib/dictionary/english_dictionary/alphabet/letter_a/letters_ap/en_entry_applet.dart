@@ -188,56 +188,6 @@ class EnglishEntryapplet extends StatelessWidget {
                               // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                               """
 ١. (ناو) پڕۆگرامێک کە لەناو یەکێکی تردا کاردەکات، بۆ نموونە پڕۆگرامێک کە لەناو گەڕانچییەک، بۆ نموونە کرۆم، کاربکات"""),
-                          // Row(
-                          //   children: [
-                          //     const Expanded(
-                          //       child: Align(
-                          //         alignment: Alignment.topLeft,
-                          //         child: Text(
-                          //           "DOPSUM_WRITE_A_SENTENCE",
-                          //           textDirection: TextDirection
-                          //               .ltr, // Right-to-left direction
-                          //           textAlign: TextAlign.left,
-                          //         ),
-                          //       ),
-                          //     ),
-                          //     // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                          //     // const SizedBox(
-                          //     //   width: 30,
-                          //     // ),
-                          //     const Expanded(
-                          //       child: Align(
-                          //         alignment: Alignment.topLeft,
-                          //         child: Text(
-                          //           "رستە_رستە_رستە_رستە.",
-                          //           textAlign: TextAlign
-                          //               .right, // Right-to-left direction
-                          //           textDirection: TextDirection.rtl,
-                          //         ),
-                          //       ),
-                          //     ),
-                          //     IconButton(
-                          //       iconSize: 18,
-                          //       icon: const Icon(
-                          //         Icons.record_voice_over,
-                          //         color: Colors.blue,
-                          //       ),
-                          //       onPressed: () => speakApplet("en-GB"),
-                          //     ),
-                          //     IconButton(
-                          //       iconSize: 18,
-                          //       icon: const Icon(
-                          //         Icons.record_voice_over,
-                          //         color: Colors.red,
-                          //       ),
-                          //       onPressed: () =>
-                          //           speakApplet(// REPLACE: applet /ˈæplət/
-                          //               "en-US"),
-                          //     ),
-                          //   ],
-                          // ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),

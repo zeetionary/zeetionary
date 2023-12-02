@@ -149,12 +149,7 @@ class EnglishEntryairconditioned extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "چێشتخانەکە سیستەمی فێنککەرەوەی تێدایە."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakAirconditioned341("en-GB"),
                               ),

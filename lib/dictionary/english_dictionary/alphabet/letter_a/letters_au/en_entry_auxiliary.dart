@@ -199,12 +199,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuxiliarys1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAuxiliarys1(// REPLACE: auxiliary
                                         "en-US"),
@@ -229,12 +224,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuxiliarys2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAuxiliarys2(// REPLACE: auxiliary
                                         "en-US"),
@@ -259,12 +249,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuxiliarys3("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAuxiliarys3(// REPLACE: auxiliary
                                         "en-US"),
@@ -289,12 +274,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuxiliarys4("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAuxiliarys4(// REPLACE: auxiliary
                                         "en-US"),

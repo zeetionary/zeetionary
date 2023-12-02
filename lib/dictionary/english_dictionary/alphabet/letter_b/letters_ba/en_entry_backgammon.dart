@@ -197,12 +197,7 @@ class EnglishEntrybackgammon extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBackgammons1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBackgammons1(// REPLACE: backgammon
                                         "en-US"),

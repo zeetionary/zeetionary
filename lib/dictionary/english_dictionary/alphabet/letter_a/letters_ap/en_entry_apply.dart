@@ -206,12 +206,7 @@ class EnglishEntryapply extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakApply736("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakApply736(// REPLACE: apply /əˈplaɪ/
                                         "en-US"),
@@ -234,12 +229,7 @@ class EnglishEntryapply extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakApply738("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakApply738(// REPLACE: apply /əˈplaɪ/
                                         "en-US"),
@@ -264,12 +254,7 @@ class EnglishEntryapply extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakApply741("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakApply741(// REPLACE: apply /əˈplaɪ/
                                         "en-US"),
@@ -294,12 +279,7 @@ class EnglishEntryapply extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakApply744("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakApply744(// REPLACE: apply /əˈplaɪ/
                                         "en-US"),
@@ -322,12 +302,7 @@ class EnglishEntryapply extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakApply747("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakApply747(// REPLACE: apply /əˈplaɪ/
                                         "en-US"),
@@ -352,12 +327,7 @@ class EnglishEntryapply extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakApply749("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakApply749(// REPLACE: apply /əˈplaɪ/
                                         "en-US"),

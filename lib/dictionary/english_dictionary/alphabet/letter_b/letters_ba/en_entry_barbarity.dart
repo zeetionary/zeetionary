@@ -196,12 +196,7 @@ class EnglishEntrybarbarity extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarbaritys1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakBarbaritys1(// REPLACE: barbarity
                                         "en-US"),

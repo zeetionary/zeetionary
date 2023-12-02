@@ -200,12 +200,7 @@ class EnglishEntryanger extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnger104("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnger104(// REPLACE: anger /ˈæŋɡər/
                                         "en-US"),
@@ -228,12 +223,7 @@ class EnglishEntryanger extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnger407("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnger407(// REPLACE: anger /ˈæŋɡər/
                                         "en-US"),
@@ -256,12 +246,7 @@ class EnglishEntryanger extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnger005("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnger005(// REPLACE: anger /ˈæŋɡər/
                                         "en-US"),
@@ -284,12 +269,7 @@ class EnglishEntryanger extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnger950("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAnger950(// REPLACE: anger /ˈæŋɡər/
                                         "en-US"),

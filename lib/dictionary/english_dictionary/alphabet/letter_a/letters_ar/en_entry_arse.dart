@@ -203,12 +203,7 @@ class EnglishEntryarse extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArse803("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArse803(// REPLACE: arse /ɑːrs/
                                         "en-US"),

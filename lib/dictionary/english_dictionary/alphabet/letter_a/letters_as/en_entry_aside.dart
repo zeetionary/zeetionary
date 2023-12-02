@@ -208,12 +208,7 @@ class EnglishEntryaside extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAside625("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAside625(// REPLACE: aside /əˈsaɪd/
                                         "en-US"),
@@ -236,12 +231,7 @@ class EnglishEntryaside extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAside626("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAside626(// REPLACE: aside /əˈsaɪd/
                                         "en-US"),
@@ -265,12 +255,7 @@ class EnglishEntryaside extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAside628("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAside628(// REPLACE: aside /əˈsaɪd/
                                         "en-US"),
@@ -295,12 +280,7 @@ class EnglishEntryaside extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAside633("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAside633(// REPLACE: aside /əˈsaɪd/
                                         "en-US"),
@@ -325,12 +305,7 @@ class EnglishEntryaside extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAside642("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAside642(// REPLACE: aside /əˈsaɪd/
                                         "en-US"),
@@ -353,12 +328,7 @@ class EnglishEntryaside extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAside644("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAside644(// REPLACE: aside /əˈsaɪd/
                                         "en-US"),

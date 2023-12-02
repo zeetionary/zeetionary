@@ -153,12 +153,7 @@ class EnglishEntryagony extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgo1488("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAgo1488(// REPLACE: agony /ˈæɡəni/
                                         "en-US"),
@@ -179,12 +174,7 @@ class EnglishEntryagony extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgo1566("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAgo1566(// REPLACE: agony /ˈæɡəni/
                                         "en-US"),

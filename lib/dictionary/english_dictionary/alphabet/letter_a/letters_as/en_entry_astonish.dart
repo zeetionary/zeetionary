@@ -202,12 +202,7 @@ class EnglishEntryastonish extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAstonish1031("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAstonish1031(// REPLACE: astonish
                                         "en-US"),

@@ -159,12 +159,7 @@ class EnglishEntryairy extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAiry7352("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAiry7352(// REPLACE: airy /ˈeri/
                                         "en-US"),
@@ -187,12 +182,7 @@ class EnglishEntryairy extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAiry748("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAiry748(// REPLACE: airy /ˈeri/
                                         "en-US"),
@@ -216,12 +206,7 @@ class EnglishEntryairy extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAiry4255("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAiry4255(// REPLACE: airy /ˈeri/
                                         "en-US"),

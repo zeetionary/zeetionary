@@ -158,12 +158,7 @@ class EnglishEntryamaze extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmaze6222("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmaze6222(// REPLACE: amaze /əˈmeɪz/
                                         "en-US"),
@@ -185,12 +180,7 @@ class EnglishEntryamaze extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmaze4211("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAmaze4211(// REPLACE: amaze /əˈmeɪz/
                                         "en-US"),

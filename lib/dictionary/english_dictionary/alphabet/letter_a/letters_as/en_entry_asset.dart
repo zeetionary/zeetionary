@@ -205,12 +205,7 @@ class EnglishEntryasset extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAsset632("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAsset632(// REPLACE: asset /ˈæset/
                                         "en-US"),
@@ -233,12 +228,7 @@ class EnglishEntryasset extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAsset633("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAsset633(// REPLACE: asset /ˈæset/
                                         "en-US"),

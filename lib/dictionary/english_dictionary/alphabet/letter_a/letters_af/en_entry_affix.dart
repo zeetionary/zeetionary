@@ -152,12 +152,7 @@ class EnglishEntryaffix extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffix911("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAffix911(// REPLACE: affix /əˈfɪks/
                                         "en-US"),

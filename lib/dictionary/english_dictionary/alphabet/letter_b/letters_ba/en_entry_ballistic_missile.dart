@@ -192,12 +192,7 @@ class EnglishEntryballisticmissile extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕژێمەکە پلانی گەشەپێدانی موشەکی بالیستیکی مەودا درێژی ھەبوو کە دەیتوانی ٦٠٠ میل یان زیاتر ببڕێت."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakBallisticmissiles1("en-GB"),
                               ),

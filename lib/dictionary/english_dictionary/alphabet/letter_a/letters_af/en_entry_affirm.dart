@@ -151,12 +151,7 @@ class EnglishEntryaffirm extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAff25699("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAff25699(// REPLACE: affirm /əˈfɜːrm/
                                         "en-US"),
@@ -177,12 +172,7 @@ class EnglishEntryaffirm extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffirm411("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAffirm411(// REPLACE: affirm /əˈfɜːrm/
                                         "en-US"),

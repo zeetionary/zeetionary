@@ -216,12 +216,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ژنانی سکپڕی سەروو ٣٥ ساڵان ئەمنیۆسێنتێسیسیان بۆ دەکرێت."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakAmniocentesis4799("en-GB"),
                               ),

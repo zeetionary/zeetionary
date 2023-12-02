@@ -192,12 +192,7 @@ class EnglishEntrybalsamicvinegar extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەندێک سرکەی بالزامیک بپرژێنە بەسەر زەڵاتەکەدا بۆ ئەوەی ھەندێک شیرینی پێبدا."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakBalsamicvinegars1("en-GB"),
                               ),

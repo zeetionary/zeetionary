@@ -156,12 +156,7 @@ class EnglishEntryambivalence extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەرگیز درۆم سەبارەت بە ھەستەکانم نەکردووە، لەنێوانیاندا دوودڵیم سەبارەت بە دووبارە ھاوسەرگیری کردن."),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakAmbivalence444722("en-GB"),
                               ),

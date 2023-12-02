@@ -201,12 +201,7 @@ class EnglishEntryaria extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAria1117("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAria1117(// REPLACE: aria /ˈɑːriə/
                                         "en-US"),

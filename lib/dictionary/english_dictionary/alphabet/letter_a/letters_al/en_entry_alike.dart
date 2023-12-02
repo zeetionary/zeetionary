@@ -177,12 +177,7 @@ class EnglishEntryalike extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlike76522("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlike76522(// REPLACE: alike /əˈlaɪk/
                                         "en-US"),
@@ -206,12 +201,7 @@ class EnglishEntryalike extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlike46789("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlike46789(// REPLACE: alike /əˈlaɪk/
                                         "en-US"),
@@ -233,12 +223,7 @@ class EnglishEntryalike extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlike3632("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlike3632(// REPLACE: alike /əˈlaɪk/
                                         "en-US"),

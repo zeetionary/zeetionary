@@ -216,12 +216,7 @@ class EnglishEntrytakesomethingamiss extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە ھەڵە تێدەگات ئەگەر یارمەتی پێشکەش بکەم؟"),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
+                              CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakTakesomethingamiss411("en-GB"),
                               ),

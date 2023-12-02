@@ -205,12 +205,7 @@ class EnglishEntryasthmatic extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAsthmatic1021("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAsthmatic1021(// REPLACE: asthmatic
                                         "en-US"),
@@ -235,12 +230,7 @@ class EnglishEntryasthmatic extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAsthmatic1024("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAsthmatic1024(// REPLACE: asthmatic
                                         "en-US"),

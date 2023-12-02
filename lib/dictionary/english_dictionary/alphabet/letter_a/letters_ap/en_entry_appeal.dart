@@ -209,12 +209,7 @@ class EnglishEntryappeal extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppeal932("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAppeal932(// REPLACE: appeal /əˈpiːl/
                                         "en-US"),
@@ -237,12 +232,7 @@ class EnglishEntryappeal extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppeal939("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAppeal939(// REPLACE: appeal /əˈpiːl/
                                         "en-US"),
@@ -267,12 +257,7 @@ class EnglishEntryappeal extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppeal946("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAppeal946(// REPLACE: appeal /əˈpiːl/
                                         "en-US"),
@@ -297,12 +282,7 @@ class EnglishEntryappeal extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppeal950("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAppeal950(// REPLACE: appeal /əˈpiːl/
                                         "en-US"),
@@ -327,12 +307,7 @@ class EnglishEntryappeal extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppeal953("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAppeal953(// REPLACE: appeal /əˈpiːl/
                                         "en-US"),
@@ -357,12 +332,7 @@ class EnglishEntryappeal extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppeal956("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAppeal956(// REPLACE: appeal /əˈpiːl/
                                         "en-US"),
@@ -387,12 +357,7 @@ class EnglishEntryappeal extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppeal958("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAppeal958(// REPLACE: appeal /əˈpiːl/
                                         "en-US"),

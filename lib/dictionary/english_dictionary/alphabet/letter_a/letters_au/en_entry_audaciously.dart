@@ -205,12 +205,7 @@ class EnglishEntryaudaciously extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAudaciously1239("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAudaciously1239(// REPLACE: audaciously
                                         "en-US"),

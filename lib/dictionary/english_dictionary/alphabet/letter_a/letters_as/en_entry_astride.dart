@@ -206,12 +206,7 @@ class EnglishEntryastride extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAstride351("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAstride351(// REPLACE: astride
                                         "en-US"),
@@ -234,12 +229,7 @@ class EnglishEntryastride extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAstride352("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAstride352(// REPLACE: astride
                                         "en-US"),
@@ -262,12 +252,7 @@ class EnglishEntryastride extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAstride354("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAstride354(// REPLACE: astride
                                         "en-US"),

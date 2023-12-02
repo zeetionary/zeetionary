@@ -160,12 +160,7 @@ class EnglishEntryallot extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllot4266("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAllot4266(// REPLACE: allot  /əˈlɑːt/
                                         "en-US"),
@@ -186,12 +181,7 @@ class EnglishEntryallot extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllot42566("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAllot42566(// REPLACE: allot  /əˈlɑːt/
                                         "en-US"),

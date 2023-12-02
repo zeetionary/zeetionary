@@ -201,12 +201,7 @@ class EnglishEntryaverage extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAverages1("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAverages1(// REPLACE: average
                                         "en-US"),
@@ -231,12 +226,7 @@ class EnglishEntryaverage extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAverages2("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAverages2(// REPLACE: average
                                         "en-US"),
@@ -260,12 +250,7 @@ class EnglishEntryaverage extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAverages3("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAverages3(// REPLACE: average
                                         "en-US"),
@@ -290,12 +275,7 @@ class EnglishEntryaverage extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAverages4("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAverages4(// REPLACE: average
                                         "en-US"),
@@ -320,12 +300,7 @@ class EnglishEntryaverage extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAverages5("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAverages5(// REPLACE: average
                                         "en-US"),
@@ -350,12 +325,7 @@ class EnglishEntryaverage extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAverages6("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAverages6(// REPLACE: average
                                         "en-US"),
@@ -380,12 +350,7 @@ class EnglishEntryaverage extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAverages7("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAverages7(// REPLACE: average
                                         "en-US"),

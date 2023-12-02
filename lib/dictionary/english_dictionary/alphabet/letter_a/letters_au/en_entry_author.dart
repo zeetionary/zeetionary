@@ -206,12 +206,7 @@ class EnglishEntryauthor extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuthor717("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAuthor717(// REPLACE: author
                                         "en-US"),
@@ -234,12 +229,7 @@ class EnglishEntryauthor extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuthor719("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAuthor719(// REPLACE: author
                                         "en-US"),
@@ -264,12 +254,7 @@ class EnglishEntryauthor extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuthor721("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAuthor721(// REPLACE: author
                                         "en-US"),
@@ -292,12 +277,7 @@ class EnglishEntryauthor extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuthor722("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAuthor722(// REPLACE: author
                                         "en-US"),

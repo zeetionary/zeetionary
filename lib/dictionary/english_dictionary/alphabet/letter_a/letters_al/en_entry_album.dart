@@ -158,12 +158,7 @@ class EnglishEntryalbum extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlbum42599("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlbum42599(// REPLACE: album /ˈælbəm/
                                         "en-US"),
@@ -187,12 +182,7 @@ class EnglishEntryalbum extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlbum3655("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAlbum3655(// REPLACE: album /ˈælbəm/
                                         "en-US"),

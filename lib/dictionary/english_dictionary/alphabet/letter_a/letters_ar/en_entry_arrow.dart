@@ -206,12 +206,7 @@ class EnglishEntryarrow extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArrow745("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArrow745(// REPLACE: arrow /ˈærəʊ/
                                         "en-US"),
@@ -234,12 +229,7 @@ class EnglishEntryarrow extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArrow746("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArrow746(// REPLACE: arrow /ˈærəʊ/
                                         "en-US"),
@@ -262,12 +252,7 @@ class EnglishEntryarrow extends StatelessWidget {
                               CustomIconButtonBritish(
                                 onPressed: () => speakArrow750("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakArrow750(// REPLACE: arrow /ˈærəʊ/
                                         "en-US"),

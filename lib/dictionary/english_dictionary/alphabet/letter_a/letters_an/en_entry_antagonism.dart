@@ -106,17 +106,10 @@ class EnglishEntryantagonism extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Expanded(
-                              child: Text(
-                                "antagonism", // DOPSUM: CHANGE WORD ENTRY - Find /ænˈtæɡənɪzəm/
-                                style: TextStyle(
-                                    fontSize: 20, fontWeight: FontWeight.bold),
-                              ),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "antagonism"), // DOPSUM: CHANGE WORD ENTRY - Find /ænˈtæɡənɪzəm/
+                            // divvviiider
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -124,19 +117,10 @@ class EnglishEntryantagonism extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            Container(
-                              constraints: const BoxConstraints(maxWidth: 300),
-                              child: const Text(
-                                "IpaUK: /ænˈtæɡənɪzəm/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                                style: TextStyle(fontSize: 14),
-                              ),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUK: /ænˈtæɡənɪzəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            CustomIconButtonBritish(
                               onPressed: () => speakAntagonism(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -145,19 +129,10 @@ class EnglishEntryantagonism extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            Container(
-                              constraints: const BoxConstraints(maxWidth: 300),
-                              child: const Text(
-                                "IpaUS: /ænˈtæɡənɪzəm/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                                style: TextStyle(fontSize: 14),
-                              ),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /ænˈtæɡənɪzəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAntagonism(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

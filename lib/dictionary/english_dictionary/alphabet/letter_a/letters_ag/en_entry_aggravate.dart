@@ -66,15 +66,10 @@ class EnglishEntryaggravate extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "aggravate", // DOPSUM: CHANGE WORD ENTRY - Find /ˈæɡrəveɪt/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "aggravate"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæɡrəveɪt/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -82,16 +77,8 @@ class EnglishEntryaggravate extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /ˈæɡrəveɪt/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/ˈæɡrəveɪt/"),
+                            CustomIconButtonBritish(
                               onPressed: () => speakAggravate(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -100,16 +87,10 @@ class EnglishEntryaggravate extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /ˈæɡrəveɪt/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /ˈæɡrəveɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAggravate(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

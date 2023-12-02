@@ -66,15 +66,10 @@ class EnglishEntryamaze extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "amaze", // DOPSUM: CHANGE WORD ENTRY - Find /əˈmeɪz/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "amaze"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈmeɪz/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -86,12 +81,7 @@ class EnglishEntryamaze extends StatelessWidget {
                               "IpaUK: /əˈmeɪz/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAmaze(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -104,12 +94,7 @@ class EnglishEntryamaze extends StatelessWidget {
                               "IpaUS: /əˈmeɪz/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAmaze(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

@@ -65,15 +65,10 @@ class EnglishEntryagoraphobic extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "agoraphobic", // DOPSUM: CHANGE WORD ENTRY - Find /ˌæɡərəˈfəʊbɪk/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "agoraphobic"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌæɡərəˈfəʊbɪk/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -81,16 +76,8 @@ class EnglishEntryagoraphobic extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /ˌæɡərəˈfəʊbɪk/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/ˌæɡərəˈfəʊbɪk/"),
+                            CustomIconButtonBritish(
                               onPressed: () => speakAgoraphobic(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -99,16 +86,10 @@ class EnglishEntryagoraphobic extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /ˌæɡərəˈfəʊbɪk/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /ˌæɡərəˈfəʊbɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAgoraphobic(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

@@ -49,15 +49,9 @@ class EnglishEntryabiding extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              'abiding', // DOPSUM: CHANGE WORD ENTRY
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word: "abiding"), // DOPSUM: CHANGE WORD ENTRY
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -65,16 +59,8 @@ class EnglishEntryabiding extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /əˈbaɪdɪŋ/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/əˈbaɪdɪŋ/"),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAbiding(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -83,16 +69,10 @@ class EnglishEntryabiding extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /əˈbaɪdɪŋ/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /əˈbaɪdɪŋ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAbiding(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

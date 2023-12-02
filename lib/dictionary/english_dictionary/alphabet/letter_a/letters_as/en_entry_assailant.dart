@@ -113,17 +113,10 @@ class EnglishEntryassailant extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Expanded(
-                              child: Text(
-                                "assailant", // DOPSUM: CHANGE WORD ENTRY - Find /əˈseɪlənt/
-                                style: TextStyle(
-                                    fontSize: 20, fontWeight: FontWeight.bold),
-                              ),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "assailant"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈseɪlənt/
+                            // divvviiider
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -131,19 +124,10 @@ class EnglishEntryassailant extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            Container(
-                              constraints: const BoxConstraints(maxWidth: 300),
-                              child: const Text(
-                                "IpaUK: /əˈseɪlənt/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                                style: TextStyle(fontSize: 14),
-                              ),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUK: /əˈseɪlənt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            CustomIconButtonBritish(
                               onPressed: () => speakAssailant(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -152,19 +136,10 @@ class EnglishEntryassailant extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            Container(
-                              constraints: const BoxConstraints(maxWidth: 300),
-                              child: const Text(
-                                "IpaUS: /əˈseɪlənt/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
-                                style: TextStyle(fontSize: 14),
-                              ),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /əˈseɪlənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAssailant(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

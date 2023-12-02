@@ -66,15 +66,10 @@ class EnglishEntryagency extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "agency", // DOPSUM: CHANGE WORD ENTRY - Find /ˈeɪdʒənsi/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "agency"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeɪdʒənsi/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -82,16 +77,8 @@ class EnglishEntryagency extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /ˈeɪdʒənsi/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/ˈeɪdʒənsi/"),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAgency(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -100,16 +87,10 @@ class EnglishEntryagency extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /ˈeɪdʒənsi/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /ˈeɪdʒənsi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAgency(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

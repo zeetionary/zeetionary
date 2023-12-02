@@ -65,15 +65,10 @@ class EnglishEntryalternation extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "alternation", // DOPSUM: CHANGE WORD ENTRY - Find /ˌɔːltəˈneɪʃn/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "alternation"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌɔːltəˈneɪʃn/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -85,12 +80,7 @@ class EnglishEntryalternation extends StatelessWidget {
                               "IpaUK: /ˌɔːltəˈneɪʃn/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            CustomIconButtonBritish(
                               onPressed: () => speakAlternation(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -103,12 +93,7 @@ class EnglishEntryalternation extends StatelessWidget {
                               "IpaUS: /ˌɔːltərˈneɪʃn/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAlternation(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

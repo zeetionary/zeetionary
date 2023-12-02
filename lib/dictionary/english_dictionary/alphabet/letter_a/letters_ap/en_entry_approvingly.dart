@@ -111,17 +111,10 @@ class EnglishEntryapprovingly extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Expanded(
-                              child: Text(
-                                "approvingly", // DOPSUM: CHANGE WORD ENTRY - Find /əˈpruːvɪŋli/
-                                style: TextStyle(
-                                    fontSize: 20, fontWeight: FontWeight.bold),
-                              ),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "approvingly"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈpruːvɪŋli/
+                            // divvviiider
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -129,19 +122,10 @@ class EnglishEntryapprovingly extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            Container(
-                              constraints: const BoxConstraints(maxWidth: 300),
-                              child: const Text(
-                                "IpaUK: /əˈpruːvɪŋli/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                                style: TextStyle(fontSize: 14),
-                              ),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUK: /əˈpruːvɪŋli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            CustomIconButtonBritish(
                               onPressed: () => speakApprovingly(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -150,19 +134,10 @@ class EnglishEntryapprovingly extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            Container(
-                              constraints: const BoxConstraints(maxWidth: 300),
-                              child: const Text(
-                                "IpaUS: /əˈpruːvɪŋli/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
-                                style: TextStyle(fontSize: 14),
-                              ),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /əˈpruːvɪŋli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            CustomIconButtonAmerican(
                               onPressed: () => speakApprovingly(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

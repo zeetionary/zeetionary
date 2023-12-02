@@ -106,17 +106,10 @@ class EnglishEntryannul extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Expanded(
-                              child: Text(
-                                "annul", // DOPSUM: CHANGE WORD ENTRY - Find /əˈnʌl/
-                                style: TextStyle(
-                                    fontSize: 20, fontWeight: FontWeight.bold),
-                              ),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "annul"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈnʌl/
+                            // divvviiider
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -124,19 +117,10 @@ class EnglishEntryannul extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            Container(
-                              constraints: const BoxConstraints(maxWidth: 300),
-                              child: const Text(
-                                "IpaUK: /əˈnʌl/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                                style: TextStyle(fontSize: 14),
-                              ),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUK: /əˈnʌl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAnnul(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -145,19 +129,10 @@ class EnglishEntryannul extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            Container(
-                              constraints: const BoxConstraints(maxWidth: 300),
-                              child: const Text(
-                                "IpaUS: /əˈnʌl/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                                style: TextStyle(fontSize: 14),
-                              ),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /əˈnʌl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAnnul(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

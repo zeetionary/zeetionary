@@ -155,15 +155,10 @@ class EnglishEntryadvance extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "advance", // DOPSUM: CHANGE WORD ENTRY - Find /ədˈvɑːns/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "advance"), // DOPSUM: CHANGE WORD ENTRY - Find /ədˈvɑːns/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -171,16 +166,8 @@ class EnglishEntryadvance extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /ədˈvɑːns/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/ədˈvɑːns/"),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAdvance(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -189,16 +176,10 @@ class EnglishEntryadvance extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /ədˈvɑːns/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /ədˈvɑːns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAdvance(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

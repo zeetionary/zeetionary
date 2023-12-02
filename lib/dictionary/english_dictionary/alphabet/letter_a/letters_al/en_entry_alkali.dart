@@ -65,15 +65,10 @@ class EnglishEntryalkali extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "alkali", // DOPSUM: CHANGE WORD ENTRY - Find /ˈælkəlaɪ/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "alkali"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈælkəlaɪ/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -85,12 +80,7 @@ class EnglishEntryalkali extends StatelessWidget {
                               "IpaUK: /ˈælkəlaɪ/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAlkali(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -103,12 +93,7 @@ class EnglishEntryalkali extends StatelessWidget {
                               "IpaUS: /ˈælkəlaɪ/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAlkali(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

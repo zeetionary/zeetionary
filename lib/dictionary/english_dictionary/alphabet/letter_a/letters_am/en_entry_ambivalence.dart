@@ -65,15 +65,10 @@ class EnglishEntryambivalence extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "ambivalence", // DOPSUM: CHANGE WORD ENTRY - Find /æmˈbɪvələns/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "ambivalence"), // DOPSUM: CHANGE WORD ENTRY - Find /æmˈbɪvələns/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -85,12 +80,7 @@ class EnglishEntryambivalence extends StatelessWidget {
                               "IpaUK: /æmˈbɪvələns/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            CustomIconButtonBritish(
                               onPressed: () => speakAmbivalence(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -103,12 +93,7 @@ class EnglishEntryambivalence extends StatelessWidget {
                               "IpaUS: /æmˈbɪvələns/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAmbivalence(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

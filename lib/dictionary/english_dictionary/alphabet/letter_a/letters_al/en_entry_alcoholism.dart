@@ -65,15 +65,10 @@ class EnglishEntryalcoholism extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "alcoholism", // DOPSUM: CHANGE WORD ENTRY - Find /ˈælkəhɒlɪzəm/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "alcoholism"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈælkəhɒlɪzəm/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -85,12 +80,7 @@ class EnglishEntryalcoholism extends StatelessWidget {
                               "IpaUK: /ˈælkəhɒlɪzəm/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            CustomIconButtonBritish(
                               onPressed: () => speakAlcoholism(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -103,12 +93,7 @@ class EnglishEntryalcoholism extends StatelessWidget {
                               "IpaUS: /ˈælkəhɑːlɪzəm/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAlcoholism(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

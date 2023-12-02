@@ -64,15 +64,10 @@ class EnglishEntryaids extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "AIDS", // DOPSUM: CHANGE WORD ENTRY - Find /eɪdz/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "AIDS"), // DOPSUM: CHANGE WORD ENTRY - Find /eɪdz/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -80,16 +75,8 @@ class EnglishEntryaids extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /eɪdz/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/eɪdz/"),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAids(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -98,16 +85,10 @@ class EnglishEntryaids extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /eɪdz/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /eɪdz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAids(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

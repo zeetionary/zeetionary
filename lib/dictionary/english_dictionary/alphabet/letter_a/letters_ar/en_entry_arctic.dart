@@ -113,17 +113,10 @@ class EnglishEntryarctic extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Expanded(
-                              child: Text(
-                                "Arctic", // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːktɪk/
-                                style: TextStyle(
-                                    fontSize: 20, fontWeight: FontWeight.bold),
-                              ),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "Arctic"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːktɪk/
+                            // divvviiider
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -131,19 +124,10 @@ class EnglishEntryarctic extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            Container(
-                              constraints: const BoxConstraints(maxWidth: 300),
-                              child: const Text(
-                                "IpaUK: /ˈɑːktɪk/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                                style: TextStyle(fontSize: 14),
-                              ),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUK: /ˈɑːktɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakArctic(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -152,19 +136,10 @@ class EnglishEntryarctic extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            Container(
-                              constraints: const BoxConstraints(maxWidth: 300),
-                              child: const Text(
-                                "IpaUS: /ˈɑːrktɪk/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
-                                style: TextStyle(fontSize: 14),
-                              ),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /ˈɑːrktɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            CustomIconButtonAmerican(
                               onPressed: () => speakArctic(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

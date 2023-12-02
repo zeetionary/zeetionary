@@ -65,15 +65,10 @@ class EnglishEntryadulterous extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "adulterous", // DOPSUM: CHANGE WORD ENTRY - Find /əˈdʌltərəs/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "adulterous"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈdʌltərəs/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -81,16 +76,8 @@ class EnglishEntryadulterous extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /əˈdʌltərəs/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/əˈdʌltərəs/"),
+                            CustomIconButtonBritish(
                               onPressed: () => speakAdulterous(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -99,16 +86,10 @@ class EnglishEntryadulterous extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /əˈdʌltərəs/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /əˈdʌltərəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAdulterous(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

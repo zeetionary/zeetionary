@@ -65,15 +65,10 @@ class EnglishEntryaluminium extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "aluminium", // DOPSUM: CHANGE WORD ENTRY - Find /ˌæljəˈmɪniəm/,  /ˌæləˈmɪniəm/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "aluminium"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌæljəˈmɪniəm/,  /ˌæləˈmɪniəm/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -85,12 +80,7 @@ class EnglishEntryaluminium extends StatelessWidget {
                               "IpaUK: /ˌæljəˈmɪniəm/,  /ˌæləˈmɪniəm/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            CustomIconButtonBritish(
                               onPressed: () => speakAluminium(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -103,12 +93,7 @@ class EnglishEntryaluminium extends StatelessWidget {
                               "IpaUS: /ˌæljəˈmɪniəm/,  /ˌæləˈmɪniəm/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAluminium(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

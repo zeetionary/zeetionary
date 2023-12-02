@@ -65,15 +65,10 @@ class EnglishEntryadamant extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              'adamant', // DOPSUM: CHANGE WORD ENTRY - Find /ˈædəmənt/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "adamant"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈædəmənt/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -81,16 +76,8 @@ class EnglishEntryadamant extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /ˈædəmənt/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/ˈædəmənt/"),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAdamant(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -99,16 +86,10 @@ class EnglishEntryadamant extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /ˈædəmənt/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /ˈædəmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAdamant(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

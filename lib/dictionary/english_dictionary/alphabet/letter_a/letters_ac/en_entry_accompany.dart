@@ -67,15 +67,9 @@ class EnglishEntryaccompany extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              'accompany', // DOPSUM: CHANGE WORD ENTRY
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word: "accompany"), // DOPSUM: CHANGE WORD ENTRY
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -83,16 +77,8 @@ class EnglishEntryaccompany extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /əˈkʌmpəni/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/əˈkʌmpəni/"),
+                            CustomIconButtonBritish(
                               onPressed: () => speakAccompany(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -101,16 +87,10 @@ class EnglishEntryaccompany extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /əˈkʌmpəni/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /əˈkʌmpəni/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAccompany(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

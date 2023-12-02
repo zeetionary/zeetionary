@@ -65,15 +65,10 @@ class EnglishEntryaglow extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "aglow", // DOPSUM: CHANGE WORD ENTRY - Find /əˈɡləʊ/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "aglow"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈɡləʊ/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -81,16 +76,8 @@ class EnglishEntryaglow extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /əˈɡləʊ/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/əˈɡləʊ/"),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAglow(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -99,16 +86,10 @@ class EnglishEntryaglow extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /əˈɡləʊ/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /əˈɡləʊ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAglow(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

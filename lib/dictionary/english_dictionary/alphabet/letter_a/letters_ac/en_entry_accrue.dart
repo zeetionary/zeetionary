@@ -40,15 +40,9 @@ class EnglishEntryaccrue extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              'accrue', // DOPSUM: CHANGE WORD ENTRY
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word: "accrue"), // DOPSUM: CHANGE WORD ENTRY
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -56,16 +50,8 @@ class EnglishEntryaccrue extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /əˈkruː/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/əˈkruː/"),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAccrue(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -74,16 +60,10 @@ class EnglishEntryaccrue extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /əˈkruː/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /əˈkruː/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAccrue(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

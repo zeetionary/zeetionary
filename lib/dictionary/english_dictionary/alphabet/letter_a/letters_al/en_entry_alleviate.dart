@@ -66,15 +66,10 @@ class EnglishEntryalleviate extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "alleviate", // DOPSUM: CHANGE WORD ENTRY - Find /əˈliːvieɪt/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "alleviate"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈliːvieɪt/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -86,12 +81,7 @@ class EnglishEntryalleviate extends StatelessWidget {
                               "IpaUK: /əˈliːvieɪt/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            CustomIconButtonBritish(
                               onPressed: () => speakAlleviate(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -104,12 +94,7 @@ class EnglishEntryalleviate extends StatelessWidget {
                               "IpaUS: /əˈliːvieɪt/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAlleviate(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

@@ -65,15 +65,10 @@ class EnglishEntryairingcupboard extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "airing cupboard", // DOPSUM: CHANGE WORD ENTRY - Find /ˈeərɪŋ kʌbəd/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "airing cupboard"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeərɪŋ kʌbəd/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -85,12 +80,7 @@ class EnglishEntryairingcupboard extends StatelessWidget {
                               "IpaUK: /ˈeərɪŋ kʌbəd/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            CustomIconButtonBritish(
                               onPressed: () => speakAiringcupboard(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -103,12 +93,7 @@ class EnglishEntryairingcupboard extends StatelessWidget {
                               "IpaUS: /ˈerɪŋ kʌbərd/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAiringcupboard(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

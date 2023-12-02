@@ -65,15 +65,10 @@ class EnglishEntryaltruistic extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "altruistic", // DOPSUM: CHANGE WORD ENTRY - Find /ˌæltruˈɪstɪk/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "altruistic"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌæltruˈɪstɪk/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -85,12 +80,7 @@ class EnglishEntryaltruistic extends StatelessWidget {
                               "IpaUK: /ˌæltruˈɪstɪk/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            CustomIconButtonBritish(
                               onPressed: () => speakAltruistic(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -103,12 +93,7 @@ class EnglishEntryaltruistic extends StatelessWidget {
                               "IpaUS: /ˌæltruˈɪstɪk/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAltruistic(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

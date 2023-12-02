@@ -65,15 +65,10 @@ class EnglishEntryalloy extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "alloy", // DOPSUM: CHANGE WORD ENTRY - Find /ˈælɔɪ/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "alloy"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈælɔɪ/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -85,12 +80,7 @@ class EnglishEntryalloy extends StatelessWidget {
                               "IpaUK: /ˈælɔɪ/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAlloy(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -103,12 +93,7 @@ class EnglishEntryalloy extends StatelessWidget {
                               "IpaUS: /ˈælɔɪ/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAlloy(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

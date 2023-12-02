@@ -74,15 +74,9 @@ class EnglishEntryabandon extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              'abandon', // DOPSUM: CHANGE WORD ENTRY
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word: "abandon"), // DOPSUM: CHANGE WORD ENTRY
+                            // nothing heereee
                             //   '(verb)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -90,16 +84,8 @@ class EnglishEntryabandon extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /əˈbændən/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/əˈbændən/"),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAbandon(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -108,16 +94,10 @@ class EnglishEntryabandon extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /əˈbændən/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /əˈbændən/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAbandon(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

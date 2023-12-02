@@ -66,15 +66,10 @@ class EnglishEntryageing extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "ageing (or aging)", // DOPSUM: CHANGE WORD ENTRY - Find /ˈeɪdʒɪŋ/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "ageing (or aging)"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeɪdʒɪŋ/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -82,16 +77,8 @@ class EnglishEntryageing extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /ˈeɪdʒɪŋ/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/ˈeɪdʒɪŋ/"),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAgeing(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -100,16 +87,10 @@ class EnglishEntryageing extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /ˈeɪdʒɪŋ/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /ˈeɪdʒɪŋ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAgeing(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

@@ -84,15 +84,10 @@ class EnglishEntryalight extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "alight", // DOPSUM: CHANGE WORD ENTRY - Find /əˈlaɪt/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "alight"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈlaɪt/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -104,12 +99,7 @@ class EnglishEntryalight extends StatelessWidget {
                               "IpaUK: /əˈlaɪt/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAlight(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -122,12 +112,7 @@ class EnglishEntryalight extends StatelessWidget {
                               "IpaUS: /əˈlaɪt/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAlight(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

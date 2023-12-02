@@ -66,15 +66,10 @@ class EnglishEntryallege extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "allege", // DOPSUM: CHANGE WORD ENTRY - Find /əˈledʒ/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "allege"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈledʒ/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -86,12 +81,7 @@ class EnglishEntryallege extends StatelessWidget {
                               "IpaUK: /əˈledʒ/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAllege(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -104,12 +94,7 @@ class EnglishEntryallege extends StatelessWidget {
                               "IpaUS: /əˈledʒ/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAllege(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

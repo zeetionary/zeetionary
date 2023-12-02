@@ -66,15 +66,10 @@ class EnglishEntryagreeably extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "agreeably", // DOPSUM: CHANGE WORD ENTRY - Find /əˈɡriːəbli/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "agreeably"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈɡriːəbli/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -82,16 +77,8 @@ class EnglishEntryagreeably extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /əˈɡriːəbli/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/əˈɡriːəbli/"),
+                            CustomIconButtonBritish(
                               onPressed: () => speakAgreeably(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -100,16 +87,10 @@ class EnglishEntryagreeably extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /əˈɡriːəbli/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /əˈɡriːəbli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAgreeably(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

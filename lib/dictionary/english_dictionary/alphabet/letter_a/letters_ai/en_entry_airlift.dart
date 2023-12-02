@@ -66,15 +66,10 @@ class EnglishEntryairlift extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "airlift", // DOPSUM: CHANGE WORD ENTRY - Find /ˈeəlɪft/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "airlift"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeəlɪft/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -82,16 +77,8 @@ class EnglishEntryairlift extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /ˈeəlɪft/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/ˈeəlɪft/"),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAirlift(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -100,16 +87,10 @@ class EnglishEntryairlift extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /ˈerlɪft/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /ˈerlɪft/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAirlift(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

@@ -65,15 +65,10 @@ class EnglishEntryairplane extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "airplane (or aeroplane)", // DOPSUM: CHANGE WORD ENTRY - Find /ˈeərəpleɪn/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "airplane (or aeroplane)"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeərəpleɪn/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -81,16 +76,8 @@ class EnglishEntryairplane extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /ˈeəpleɪn/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/ˈeəpleɪn/"),
+                            CustomIconButtonBritish(
                               onPressed: () => speakairplane(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -99,16 +86,10 @@ class EnglishEntryairplane extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /ˈeəpleɪn/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /ˈeəpleɪn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakairplane(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

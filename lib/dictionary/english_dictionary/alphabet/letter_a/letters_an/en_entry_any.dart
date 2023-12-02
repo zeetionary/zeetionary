@@ -155,17 +155,10 @@ class EnglishEntryany extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Expanded(
-                              child: Text(
-                                "any", // DOPSUM: CHANGE WORD ENTRY - Find /ˈeni/
-                                style: TextStyle(
-                                    fontSize: 20, fontWeight: FontWeight.bold),
-                              ),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "any"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeni/
+                            // divvviiider
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -173,19 +166,10 @@ class EnglishEntryany extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            Container(
-                              constraints: const BoxConstraints(maxWidth: 300),
-                              child: const Text(
-                                "IpaUK: /ˈeni/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                                style: TextStyle(fontSize: 14),
-                              ),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUK: /ˈeni/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAny(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -194,19 +178,10 @@ class EnglishEntryany extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            Container(
-                              constraints: const BoxConstraints(maxWidth: 300),
-                              child: const Text(
-                                "IpaUS: /ˈeni/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
-                                style: TextStyle(fontSize: 14),
-                              ),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /ˈeni/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAny(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
@@ -262,29 +237,12 @@ class EnglishEntryany extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I didn't eat any meat."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھیچ گۆشتم نەخوارد.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text: "ھیچ گۆشتم نەخوارد."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAny812("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAny812(// REPLACE: any /ˈeni/
                                         "en-US"),
@@ -297,29 +255,12 @@ class EnglishEntryany extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "You can't go out without any shoes."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ناتوانی بێ ھیچ پێڵاوێک بچیتە دەرەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text: "ناتوانی بێ ھیچ پێڵاوێک بچیتە دەرەوە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAny814("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAny814(// REPLACE: any /ˈeni/
                                         "en-US"),
@@ -332,29 +273,13 @@ class EnglishEntryany extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He forbids any talking in class."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەموو جۆرە قسەکردنێک لە پۆلدا قەدەغە دەکات.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەموو جۆرە قسەکردنێک لە پۆلدا قەدەغە دەکات."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAny815("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAny815(// REPLACE: any /ˈeni/
                                         "en-US"),
@@ -369,29 +294,12 @@ class EnglishEntryany extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Take any book you like."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەر کتێبێکت دەوێت بیبە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text: "ھەر کتێبێکت دەوێت بیبە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAny817("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAny817(// REPLACE: any /ˈeni/
                                         "en-US"),
@@ -405,29 +313,13 @@ class EnglishEntryany extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Any teacher will tell you that students learn at different rates."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەموو مامۆستایەک پێت دەڵێت قوتابیان بە خێرایی جیاواز فێردەبن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەموو مامۆستایەک پێت دەڵێت قوتابیان بە خێرایی جیاواز فێردەبن."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAny819("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAny819(// REPLACE: any /ˈeni/
                                         "en-US"),
@@ -443,29 +335,13 @@ class EnglishEntryany extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It isn't just any day—it's my birthday!"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەمڕۆ ھەر ڕۆژێکی وا ئاسایی نییە، لەدایکبوونی منە!",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەمڕۆ ھەر ڕۆژێکی وا ئاسایی نییە، لەدایکبوونی منە!"),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAny821("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAny821(// REPLACE: any /ˈeni/
                                         "en-US"),
@@ -481,29 +357,13 @@ class EnglishEntryany extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We need some more paint; there isn't any left."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پێویستیمان بە ھەندێکی تر بۆیەیە؛ ھیچ نەماوە.",
-                                    textDirection: TextDirection.rtl,
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پێویستیمان بە ھەندێکی تر بۆیەیە؛ ھیچ نەماوە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAny944("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAny944(// REPLACE: any /ˈeni/
                                         "en-US"),
@@ -518,29 +378,12 @@ class EnglishEntryany extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I'll take any you don't want."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەوەیان دەبەم کە ناتەوێ.",
-                                    textDirection: TextDirection.rtl,
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text: "ئەوەیان دەبەم کە ناتەوێ."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAny947("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAny947(// REPLACE: any /ˈeni/
                                         "en-US"),
@@ -555,29 +398,12 @@ class EnglishEntryany extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He wasn't any good at French."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھیچ لە فەرەنسی باش نەبوو.",
-                                    textDirection: TextDirection.rtl,
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(
+                                  text: "ھیچ لە فەرەنسی باش نەبوو."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAny951("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAny951(// REPLACE: any /ˈeni/
                                         "en-US"),

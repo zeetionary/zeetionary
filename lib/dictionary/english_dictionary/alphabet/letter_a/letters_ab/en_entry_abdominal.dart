@@ -48,15 +48,9 @@ class EnglishEntryabdominal extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              'abdominal', // DOPSUM: CHANGE WORD ENTRY
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word: "abdominal"), // DOPSUM: CHANGE WORD ENTRY
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -64,16 +58,8 @@ class EnglishEntryabdominal extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /æbˈdɒmɪnl/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/æbˈdɒmɪnl/"),
+                            CustomIconButtonBritish(
                               onPressed: () => speakAbdominal(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -82,16 +68,10 @@ class EnglishEntryabdominal extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /æbˈdɑːmɪnl/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /æbˈdɑːmɪnl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAbdominal(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

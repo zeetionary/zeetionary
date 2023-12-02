@@ -64,15 +64,10 @@ class EnglishEntryadversity extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "adversity", // DOPSUM: CHANGE WORD ENTRY - Find /ədˈvɜːsəti/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "adversity"), // DOPSUM: CHANGE WORD ENTRY - Find /ədˈvɜːsəti/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -80,16 +75,8 @@ class EnglishEntryadversity extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /ədˈvɜːsəti/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/ədˈvɜːsəti/"),
+                            CustomIconButtonBritish(
                               onPressed: () => speakAdversity(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -98,16 +85,10 @@ class EnglishEntryadversity extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /ədˈvɜːrsəti/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /ədˈvɜːrsəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAdversity(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

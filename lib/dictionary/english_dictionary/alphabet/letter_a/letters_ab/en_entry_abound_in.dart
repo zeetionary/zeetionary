@@ -48,15 +48,10 @@ class EnglishEntryaboundin extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              'abound in (or abound with)', // DOPSUM: CHANGE WORD ENTRY
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "abound in (or abound with)"), // DOPSUM: CHANGE WORD ENTRY
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -64,16 +59,8 @@ class EnglishEntryaboundin extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /əˈbaʊnd ɪn/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/əˈbaʊnd ɪn/"),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAboundin(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -82,16 +69,10 @@ class EnglishEntryaboundin extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /əˈbaʊnd ɪn/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /əˈbaʊnd ɪn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAboundin(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

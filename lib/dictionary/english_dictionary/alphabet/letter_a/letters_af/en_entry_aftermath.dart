@@ -65,15 +65,10 @@ class EnglishEntryaftermath extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "aftermath", // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːftəmæθ/,  /ˈɑːftəmɑːθ/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "aftermath"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːftəmæθ/,  /ˈɑːftəmɑːθ/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -81,16 +76,9 @@ class EnglishEntryaftermath extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /ˈɑːftəmæθ/,  /ˈɑːftəmɑːθ/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(
+                                text: "/ˈɑːftəmæθ/,  /ˈɑːftəmɑːθ/"),
+                            CustomIconButtonBritish(
                               onPressed: () => speakAftermath(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -99,16 +87,10 @@ class EnglishEntryaftermath extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /ˈɑːftərmæθ/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /ˈɑːftərmæθ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAftermath(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

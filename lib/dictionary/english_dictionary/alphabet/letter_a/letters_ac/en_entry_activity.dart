@@ -76,15 +76,10 @@ class EnglishEntryactivity extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              'activity', // DOPSUM: CHANGE WORD ENTRY - Find /ækˈtɪvəti/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "activity"), // DOPSUM: CHANGE WORD ENTRY - Find /ækˈtɪvəti/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -92,16 +87,8 @@ class EnglishEntryactivity extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /ækˈtɪvəti/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/ækˈtɪvəti/"),
+                            CustomIconButtonBritish(
                               onPressed: () => speakAactivity(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -110,16 +97,10 @@ class EnglishEntryactivity extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /ækˈtɪvəti/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /ækˈtɪvəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAactivity(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

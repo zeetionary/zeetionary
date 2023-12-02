@@ -65,15 +65,10 @@ class EnglishEntryairforce extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "air force", // DOPSUM: CHANGE WORD ENTRY - Find /ˈeə fɔːs/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "air force"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeə fɔːs/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -81,16 +76,8 @@ class EnglishEntryairforce extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /ˈeə fɔːs/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/ˈeə fɔːs/"),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAirforce(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -99,16 +86,10 @@ class EnglishEntryairforce extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /ˈer fɔːrs/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /ˈer fɔːrs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAirforce(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

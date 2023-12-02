@@ -65,15 +65,10 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "air traffic controller", // DOPSUM: CHANGE WORD ENTRY - Find /ˌeə træfɪk kənˈtrəʊlə(r)/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "air traffic controller"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌeə træfɪk kənˈtrəʊlə(r)/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -85,12 +80,7 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
                               "IpaUK: /ˌeə træfɪk kənˈtrəʊlə(r)/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            CustomIconButtonBritish(
                               onPressed: () => speakAirtrafficcontroller(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -103,12 +93,7 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
                               "IpaUS: /ˌer træfɪk kənˈtrəʊlər/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAirtrafficcontroller(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

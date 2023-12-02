@@ -66,15 +66,10 @@ class EnglishEntryadvocate extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "advocate", // DOPSUM: CHANGE WORD ENTRY - Find /ˈædvəkət/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "advocate"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈædvəkət/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -82,16 +77,8 @@ class EnglishEntryadvocate extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /ˈædvəkət/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/ˈædvəkət/"),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAdvocate(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -100,16 +87,10 @@ class EnglishEntryadvocate extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /ˈædvəkət/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /ˈædvəkət/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAdvocate(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

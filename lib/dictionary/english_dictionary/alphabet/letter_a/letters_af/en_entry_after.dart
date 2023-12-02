@@ -188,15 +188,10 @@ class EnglishEntryafter extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "after", // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːftə(r)/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "after"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːftə(r)/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -204,16 +199,8 @@ class EnglishEntryafter extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /ˈɑːftə(r)/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/ˈɑːftə(r)/"),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAfter(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -222,16 +209,10 @@ class EnglishEntryafter extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /ˈɑːftər/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /ˈɑːftər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAfter(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
@@ -285,41 +266,15 @@ class EnglishEntryafter extends StatelessWidget {
 ١. (ئامراز) لەدوای شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "We'll leave after lunch.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لەدوای نانی نیوەڕۆ دەچین.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We'll leave after lunch."),
+                              const ExampleSentenceKurdish(
+                                  text: "لەدوای نانی نیوەڕۆ دەچین."), // nnothing kurdi
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfter157("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfter157(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
@@ -329,41 +284,15 @@ class EnglishEntryafter extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "After winning the prize she became famous overnight.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لەدوای بردنەوەی خەڵاتەکە لە شەو و ڕۆژێکدا بەناوبانگ بوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "After winning the prize she became famous overnight."),
+                              const ExampleSentenceKurdish(
+                                  text: "لەدوای بردنەوەی خەڵاتەکە لە شەو و ڕۆژێکدا بەناوبانگ بوو."), // nnothing kurdi
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfter2499("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfter2499(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
@@ -375,41 +304,15 @@ class EnglishEntryafter extends StatelessWidget {
 ٢. (ئامراز) لەدوای کەسێک یان شتێکەوە لە ڕیزبەندییەکدا"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Your name comes after mine in the list.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ناوت لەدوای ھی منەوەیە لە لیستەکەدا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Your name comes after mine in the list."),
+                              const ExampleSentenceKurdish(
+                                  text: "ناوت لەدوای ھی منەوەیە لە لیستەکەدا."), // nnothing kurdi
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfter4888("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfter4888(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
@@ -419,41 +322,15 @@ class EnglishEntryafter extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He's the tallest, after Richard.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لەدوای ڕیچارد ئەو بەرزترینە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He's the tallest, after Richard."),
+                              const ExampleSentenceKurdish(
+                                  text: "لەدوای ڕیچارد ئەو بەرزترینە."), // nnothing kurdi
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfter4666("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfter4666(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
@@ -465,41 +342,15 @@ class EnglishEntryafter extends StatelessWidget {
 ٣. (ئامراز) لەدوای کەسێکی ڕۆشتوو"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Shut the door after you.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دەرگاکە بگرە لەدوای خۆت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Shut the door after you."),
+                              const ExampleSentenceKurdish(
+                                  text: "دەرگاکە بگرە لەدوای خۆت."), // nnothing kurdi
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfter7928("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfter7928(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
@@ -511,41 +362,15 @@ class EnglishEntryafter extends StatelessWidget {
 ٤. (ئامراز) بەراورد بە شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "It was pleasantly cool in the house after the heat outside.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە ماڵەوە فێنک و خۆش بوو بەراورد بە گەرماکەی دەرەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "It was pleasantly cool in the house after the heat outside."),
+                              const ExampleSentenceKurdish(
+                                  text: "لە ماڵەوە فێنک و خۆش بوو بەراورد بە گەرماکەی دەرەوە."), // nnothing kurdi
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfter4855("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfter4855(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
@@ -557,41 +382,15 @@ class EnglishEntryafter extends StatelessWidget {
 ٥. (ئامراز) لە ئەنجامی شتێک کە ڕوویداوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I'll never forgive him after what he said.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەرگیز لێی خۆشنابم لەدوای ئەوەی وتی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I'll never forgive him after what he said."),
+                              const ExampleSentenceKurdish(
+                                  text: "ھەرگیز لێی خۆشنابم لەدوای ئەوەی وتی."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfter5622("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfter5622(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
@@ -603,41 +402,15 @@ class EnglishEntryafter extends StatelessWidget {
 ٦. (ئامراز) سەرەڕای شتێک کە ڕوویداوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I can't believe she'd do that, not after all I've done for her.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "باوەڕناکەم ئەوەی کرد، سەرەڕای ئەو ھەموو شتەی بۆم کردە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I can't believe she'd do that, not after all I've done for her."), // nnothing
+                              const ExampleSentenceKurdish(
+                                  text: "باوەڕناکەم ئەوەی کرد، سەرەڕای ئەو ھەموو شتەی بۆم کردە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfter96771("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfter96771(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
@@ -649,41 +422,15 @@ class EnglishEntryafter extends StatelessWidget {
 ٧. (ئامراز) بەکاردێت بۆ وتنی ئەوەی شتێک زۆر یان بەبەردەوامی ڕوویداوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I've told you time after time not to do that.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دووبارە و دووبارە پێم وتووی ئەوە نەکەیت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I've told you time after time not to do that."), // nnothing
+                              const ExampleSentenceKurdish(
+                                  text: "دووبارە و دووبارە پێم وتووی ئەوە نەکەیت."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfter152888("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfter152888(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
@@ -695,41 +442,15 @@ class EnglishEntryafter extends StatelessWidget {
 ٨. (ئامراز) ھەوڵدان بۆ گرتنی کەسێک یان شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The police are after him.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const SizedBox(
-                                width: 60,
-                              ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پۆلیس بەدوایەتی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The police are after him."),
+                              const ExampleSentenceKurdish(
+                                  text: "پۆلیس بەدوایەتی."), // nnothing kurdi
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfter1255("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfter1255(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
@@ -741,41 +462,15 @@ class EnglishEntryafter extends StatelessWidget {
 ٩. (ئامراز) دەربارەی کەسێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She asked after you (= how you were).",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const SizedBox(
-                                width: 60,
-                              ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەواڵی پرسیت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She asked after you (= how you were)."),
+                              const ExampleSentenceKurdish(
+                                  text: "ھەواڵی پرسیت."), // nnothing kurdi
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfter945111("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfter945111(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
@@ -787,41 +482,15 @@ class EnglishEntryafter extends StatelessWidget {
 ١٠. (ئامراز) ناونانی کەسێک بەناوی کەسێکی ترەوە"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "We named the baby Ena after her grandmother.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "منداڵەکەمان بەناوی داپیرەیەوە ناونا ئێنا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "We named the baby Ena after her grandmother."), // nnothing
+                              const ExampleSentenceKurdish(
+                                  text: "منداڵەکەمان بەناوی داپیرەیەوە ناونا ئێنا."), // nnothing kurdi
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfter459322("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfter459322(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
@@ -833,41 +502,15 @@ class EnglishEntryafter extends StatelessWidget {
 ١١. (لێکدەر) لەدوای ڕوودانی شتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I'll call you after I've spoken to them.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پەیوەندیت پێوە دەکەم لەدوای ئەوەی قسەیان لەگەڵ دەکەم.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I'll call you after I've spoken to them."), // nnothing
+                              const ExampleSentenceKurdish(
+                                  text: "پەیوەندیت پێوە دەکەم لەدوای ئەوەی قسەیان لەگەڵ دەکەم."), // nnothing kurdi
                               CustomIconButtonBritish(
                                 onPressed: () => speakAft2566("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAft2566(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
@@ -877,41 +520,15 @@ class EnglishEntryafter extends StatelessWidget {
                           const DividerDefinition(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Several years after they'd split up they met again by chance in Paris.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "چەند ساڵێک دوای ئەوەی جیابوونەوە، بە شانس یەکیان لە پاریس دیتەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Several years after they'd split up they met again by chance in Paris."), // nnothing
+                              const ExampleSentenceKurdish(
+                                  text: "چەند ساڵێک دوای ئەوەی جیابوونەوە، بە شانس یەکیان لە پاریس دیتەوە."), // nnothing kurdi
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfte499352("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfte499352(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
@@ -923,41 +540,15 @@ class EnglishEntryafter extends StatelessWidget {
 ١٢. (ھاوەڵکار) لەدوای کاتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I could come next week, or the week after.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەفتەی دواتر دێم، یان ھەفتەی دوای ئەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I could come next week, or the week after."), // nnothing
+                              const ExampleSentenceKurdish(
+                                  text: "ھەفتەی دواتر دێم، یان ھەفتەی دوای ئەوە."), // nnothing kurdi
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfte98332("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfte98332(// REPLACE: after /ˈɑːftər/
                                         "en-US"),
@@ -969,40 +560,15 @@ class EnglishEntryafter extends StatelessWidget {
 ١٣. (ھاوەڵناو) لەدوای کاتێک"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "In after years we never heard from him.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ساڵانی دواتر ھیچمان لێ نەبیست.",
-                                    textAlign:
-                                        TextAlign.right, // Right-to-left p
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "In after years we never heard from him."), // nnothing
+                              const ExampleSentenceKurdish(
+                                  text: "ساڵانی دواتر ھیچمان لێ نەبیست."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfter5355("en-GB"),
                               ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
+                              CustomIconButtonAmerican(
                                 onPressed: () =>
                                     speakAfter5355(// REPLACE: after /ˈɑːftər/
                                         "en-US"),

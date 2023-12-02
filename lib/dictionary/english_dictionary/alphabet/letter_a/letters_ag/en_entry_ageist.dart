@@ -65,15 +65,10 @@ class EnglishEntryageist extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "ageist", // DOPSUM: CHANGE WORD ENTRY - Find /ˈeɪdʒɪst/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "ageist"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeɪdʒɪst/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -81,16 +76,8 @@ class EnglishEntryageist extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /ˈeɪdʒɪst/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/ˈeɪdʒɪst/"),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAgeist(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -99,16 +86,10 @@ class EnglishEntryageist extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /ˈeɪdʒɪst/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /ˈeɪdʒɪst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAgeist(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

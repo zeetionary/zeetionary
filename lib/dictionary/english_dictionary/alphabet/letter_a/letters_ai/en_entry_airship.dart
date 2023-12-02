@@ -65,15 +65,10 @@ class EnglishEntryairship extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "airship", // DOPSUM: CHANGE WORD ENTRY - Find /ˈeəʃɪp/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "airship"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeəʃɪp/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -85,12 +80,7 @@ class EnglishEntryairship extends StatelessWidget {
                               "IpaUK: /ˈeəʃɪp/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAirship(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -103,12 +93,7 @@ class EnglishEntryairship extends StatelessWidget {
                               "IpaUS: /ˈerʃɪp/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAirship(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

@@ -65,15 +65,10 @@ class EnglishEntryairport extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "airport", // DOPSUM: CHANGE WORD ENTRY - Find /ˈeəpɔːt/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "airport"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeəpɔːt/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -85,12 +80,7 @@ class EnglishEntryairport extends StatelessWidget {
                               "IpaUK: /ˈeəpɔːt/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAirport(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -103,12 +93,7 @@ class EnglishEntryairport extends StatelessWidget {
                               "IpaUS: /ˈerpɔːrt/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAirport(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

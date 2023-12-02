@@ -64,15 +64,10 @@ class EnglishEntryacuteaccent extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              'acute accent', // DOPSUM: CHANGE WORD ENTRY - Find /əˌkjuːt ˈæksent/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "acute accent"), // DOPSUM: CHANGE WORD ENTRY - Find /əˌkjuːt ˈæksent/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -80,16 +75,8 @@ class EnglishEntryacuteaccent extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /əˌkjuːt ˈæksent/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/əˌkjuːt ˈæksent/"),
+                            CustomIconButtonBritish(
                               onPressed: () => speakAcuteaccent(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -98,16 +85,10 @@ class EnglishEntryacuteaccent extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /əˌkjuːt ˈæksent/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /əˌkjuːt ˈæksent/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAcuteaccent(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

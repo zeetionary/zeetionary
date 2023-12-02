@@ -67,15 +67,10 @@ class EnglishEntryaccomplishment extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              'accomplishment', // DOPSUM: CHANGE WORD ENTRY
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "accomplishment"), // DOPSUM: CHANGE WORD ENTRY
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -83,16 +78,8 @@ class EnglishEntryaccomplishment extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /əˈkʌmplɪʃmənt/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/əˈkʌmplɪʃmənt/"),
+                            CustomIconButtonBritish(
                               onPressed: () => speakAccomplishment(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -101,16 +88,10 @@ class EnglishEntryaccomplishment extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /əˈkɑːmplɪʃmənt/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /əˈkɑːmplɪʃmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAccomplishment(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

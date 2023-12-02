@@ -130,17 +130,10 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Expanded(
-                              child: Text(
-                                "not come/go amiss", // DOPSUM: CHANGE WORD ENTRY - Find /nɒt kʌm/ɡəʊ əˈmɪs/
-                                style: TextStyle(
-                                    fontSize: 20, fontWeight: FontWeight.bold),
-                              ),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "not come/go amiss"), // DOPSUM: CHANGE WORD ENTRY - Find /nɒt kʌm/ɡəʊ əˈmɪs/
+                            // divvviiider
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -148,19 +141,10 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            Container(
-                              constraints: const BoxConstraints(maxWidth: 300),
-                              child: const Text(
-                                "IpaUK: /nɒt kʌm/ɡəʊ əˈmɪs/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                                style: TextStyle(fontSize: 14),
-                              ),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUK: /nɒt kʌm/ɡəʊ əˈmɪs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            CustomIconButtonBritish(
                               onPressed: () => speakNotcomegoamiss(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -169,19 +153,10 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            Container(
-                              constraints: const BoxConstraints(maxWidth: 300),
-                              child: const Text(
-                                "IpaUS: /nɑːt kʌm/ɡəʊ əˈmɪs/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                                style: TextStyle(fontSize: 14),
-                              ),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /nɑːt kʌm/ɡəʊ əˈmɪs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakNotcomegoamiss(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

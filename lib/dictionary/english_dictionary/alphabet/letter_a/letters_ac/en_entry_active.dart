@@ -166,15 +166,10 @@ class EnglishEntryactive extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              'active', // DOPSUM: CHANGE WORD ENTRY - Find /ˈæktɪv/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "active"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæktɪv/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -182,16 +177,8 @@ class EnglishEntryactive extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /ˈæktɪv/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/ˈæktɪv/"),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakActive(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -200,16 +187,10 @@ class EnglishEntryactive extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /ˈæktɪv/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /ˈæktɪv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakActive(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

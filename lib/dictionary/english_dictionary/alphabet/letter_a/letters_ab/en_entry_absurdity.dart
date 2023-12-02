@@ -49,15 +49,9 @@ class EnglishEntryabsurdity extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              'absurdity', // DOPSUM: CHANGE WORD ENTRY
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word: "absurdity"), // DOPSUM: CHANGE WORD ENTRY
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -65,16 +59,8 @@ class EnglishEntryabsurdity extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /əbˈsɜːdəti/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/əbˈsɜːdəti/"),
+                            CustomIconButtonBritish(
                               onPressed: () => speakAabsurdity(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -83,16 +69,10 @@ class EnglishEntryabsurdity extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /əbˈsɜːrdəti/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /əbˈsɜːrdəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAabsurdity(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

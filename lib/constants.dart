@@ -139,7 +139,7 @@ class KurdIconForTab extends StatelessWidget {
     return Tab(
       icon: Image.asset(
         'assets/images/kurd_one.png',
-        width: 48,
+        width: 58,
         height: 24,
       ),
     );
@@ -156,7 +156,7 @@ class UkIconForTab extends StatelessWidget {
     return Tab(
       icon: Image.asset(
         'assets/images/uk_one.png',
-        width: 48,
+        width: 58,
         height: 24,
       ),
     );
@@ -275,26 +275,49 @@ class EntryTitle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Expanded(
-      child: Text(
-        word,
-        style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 4.0),
+        child: Text(
+          word,
+          style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+        ),
       ),
     );
   }
 }
 
+// class IPAofEnglish extends StatelessWidget {
+//   final String text;
+
+//   const IPAofEnglish({super.key, required this.text});
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return Container(
+//       constraints: const BoxConstraints(maxWidth: 300),
+//       child: Text(
+//         text,
+//         style: const TextStyle(fontSize: 18),
+//       ),
+//     );
+//   }
+// }
+
 class IPAofEnglish extends StatelessWidget {
   final String text;
 
+  // const IPAofEnglish({Key? key, required this.text}) : super(key: key);
   const IPAofEnglish({super.key, required this.text});
 
   @override
   Widget build(BuildContext context) {
     return Container(
       constraints: const BoxConstraints(maxWidth: 300),
+      padding: const EdgeInsets.symmetric(horizontal: 4.0),
+      // padding: const EdgeInsets.all(8.0), // Add padding here
       child: Text(
         text,
-        style: const TextStyle(fontSize: 14),
+        style: const TextStyle(fontSize: 16),
       ),
     );
   }
@@ -307,11 +330,14 @@ class DefinitionKurdish extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text(
-      text,
-      style: const TextStyle(fontSize: 18),
-      textAlign: TextAlign.right,
-      textDirection: TextDirection.rtl,
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 4.0),
+      child: Text(
+        text,
+        style: const TextStyle(fontSize: 18),
+        textAlign: TextAlign.right,
+        textDirection: TextDirection.rtl,
+      ),
     );
   }
 }
@@ -324,13 +350,16 @@ class ExampleSentenceEnglish extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Expanded(
-      child: Align(
-        alignment: Alignment.topLeft,
-        child: Text(
-          text,
-          style: const TextStyle(fontSize: 14),
-          textDirection: TextDirection.ltr,
-          textAlign: TextAlign.left,
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 4.0),
+        child: Align(
+          alignment: Alignment.topLeft,
+          child: Text(
+            text,
+            style: const TextStyle(fontSize: 14),
+            textDirection: TextDirection.ltr,
+            textAlign: TextAlign.left,
+          ),
         ),
       ),
     );
@@ -411,14 +440,17 @@ class EnglishMeaningConst extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            text,
-            style: const TextStyle(fontSize: 16),
-          ),
-        ],
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 4.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              text,
+              style: const TextStyle(fontSize: 16),
+            ),
+          ],
+        ),
       ),
     );
   }

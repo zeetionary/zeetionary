@@ -76,15 +76,10 @@ class EnglishEntryadjust extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "adjust", // DOPSUM: CHANGE WORD ENTRY - Find /əˈdʒʌst/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "adjust"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈdʒʌst/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -92,16 +87,8 @@ class EnglishEntryadjust extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /əˈdʒʌst/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/əˈdʒʌst/"),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAdjust(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -110,16 +97,10 @@ class EnglishEntryadjust extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /əˈdʒʌst/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /əˈdʒʌst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAdjust(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

@@ -65,15 +65,10 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "alimentary canal", // DOPSUM: CHANGE WORD ENTRY - Find /ˌælɪmentəri kəˈnæl/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "alimentary canal"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌælɪmentəri kəˈnæl/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -85,12 +80,7 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
                               "IpaUK: /ˌælɪmentəri kəˈnæl/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            CustomIconButtonBritish(
                               onPressed: () => speakAlimentarycanal(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -103,12 +93,7 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
                               "IpaUS: /ˌælɪmentəri kəˈnæl/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAlimentarycanal(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

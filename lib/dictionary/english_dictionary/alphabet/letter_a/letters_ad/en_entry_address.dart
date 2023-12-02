@@ -127,15 +127,10 @@ class EnglishEntryaddress extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "address", // DOPSUM: CHANGE WORD ENTRY - Find /əˈdres/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "address"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈdres/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -143,16 +138,8 @@ class EnglishEntryaddress extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /əˈdres/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/əˈdres/"),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAddress(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -161,16 +148,10 @@ class EnglishEntryaddress extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /əˈdres/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /əˈdres/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAddress(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

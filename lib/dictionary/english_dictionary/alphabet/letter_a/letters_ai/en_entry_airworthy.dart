@@ -65,15 +65,10 @@ class EnglishEntryairworthy extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "airworthy", // DOPSUM: CHANGE WORD ENTRY - Find /ˈeəwɜːði/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "airworthy"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeəwɜːði/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -85,12 +80,7 @@ class EnglishEntryairworthy extends StatelessWidget {
                               "IpaUK: /ˈeəwɜːði/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            CustomIconButtonBritish(
                               onPressed: () => speakAirworthy(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -103,12 +93,7 @@ class EnglishEntryairworthy extends StatelessWidget {
                               "IpaUS: /ˈerwɜːrði/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAirworthy(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

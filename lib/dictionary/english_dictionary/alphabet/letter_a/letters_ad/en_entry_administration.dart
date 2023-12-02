@@ -85,15 +85,10 @@ class EnglishEntryadministration extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "administration", // DOPSUM: CHANGE WORD ENTRY - Find /ədˌmɪnɪˈstreɪʃn/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "administration"), // DOPSUM: CHANGE WORD ENTRY - Find /ədˌmɪnɪˈstreɪʃn/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -101,16 +96,8 @@ class EnglishEntryadministration extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /ədˌmɪnɪˈstreɪʃn/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/ədˌmɪnɪˈstreɪʃn/"),
+                            CustomIconButtonBritish(
                               onPressed: () => speakAdministration(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -119,16 +106,10 @@ class EnglishEntryadministration extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /ədˌmɪnɪˈstreɪʃn/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /ədˌmɪnɪˈstreɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAdministration(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

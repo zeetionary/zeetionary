@@ -83,15 +83,10 @@ class EnglishEntryaffinity extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "affinity", // DOPSUM: CHANGE WORD ENTRY - Find /əˈfɪnəti/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "affinity"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈfɪnəti/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -99,16 +94,8 @@ class EnglishEntryaffinity extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /əˈfɪnəti/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/əˈfɪnəti/"),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAffinity(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -117,16 +104,10 @@ class EnglishEntryaffinity extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /əˈfɪnəti/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /əˈfɪnəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAffinity(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

@@ -65,15 +65,10 @@ class EnglishEntryalarmclock extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "alarm clock", // DOPSUM: CHANGE WORD ENTRY - Find /əˈlɑːm klɒk/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "alarm clock"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈlɑːm klɒk/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -85,12 +80,7 @@ class EnglishEntryalarmclock extends StatelessWidget {
                               "IpaUK: /əˈlɑːm klɒk/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            CustomIconButtonBritish(
                               onPressed: () => speakAlarmclock(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -103,12 +93,7 @@ class EnglishEntryalarmclock extends StatelessWidget {
                               "IpaUS: /əˈlɑːrm klɑːk/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAlarmclock(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

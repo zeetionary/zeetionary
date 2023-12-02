@@ -66,15 +66,10 @@ class EnglishEntryacuteness extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              'acuteness', // DOPSUM: CHANGE WORD ENTRY - Find /əˈkjuːtnəs/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "acuteness"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈkjuːtnəs/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -82,16 +77,8 @@ class EnglishEntryacuteness extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /əˈkjuːtnəs/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/əˈkjuːtnəs/"),
+                            CustomIconButtonBritish(
                               onPressed: () => speakAcuteness(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -100,16 +87,10 @@ class EnglishEntryacuteness extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /əˈkjuːtnəs/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /əˈkjuːtnəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAcuteness(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

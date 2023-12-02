@@ -76,15 +76,10 @@ class EnglishEntryamateur extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "amateur", // DOPSUM: CHANGE WORD ENTRY - Find /ˈæmətə(r)/,  /ˈæmətʃə(r)/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "amateur"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæmətə(r)/,  /ˈæmətʃə(r)/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -96,12 +91,7 @@ class EnglishEntryamateur extends StatelessWidget {
                               "IpaUK: /ˈæmətə(r)/,  /ˈæmətʃə(r)/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAmateur(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -114,12 +104,7 @@ class EnglishEntryamateur extends StatelessWidget {
                               "IpaUS: /ˈæmətər/,  /ˈæmətʃər/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAmateur(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

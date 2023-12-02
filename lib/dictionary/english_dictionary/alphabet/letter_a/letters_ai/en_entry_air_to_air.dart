@@ -65,15 +65,10 @@ class EnglishEntryairtoair extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "air-to-air", // DOPSUM: CHANGE WORD ENTRY - Find /ˌeə tu ˈeə(r)/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "air-to-air"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌeə tu ˈeə(r)/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -85,12 +80,7 @@ class EnglishEntryairtoair extends StatelessWidget {
                               "IpaUK: /ˌeə tu ˈeə(r)/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAirtoair(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -103,12 +93,7 @@ class EnglishEntryairtoair extends StatelessWidget {
                               "IpaUS: /ˌer tu ˈer/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAirtoair(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

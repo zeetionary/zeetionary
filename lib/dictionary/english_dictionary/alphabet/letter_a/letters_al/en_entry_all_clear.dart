@@ -67,15 +67,10 @@ class EnglishEntryallclear extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "all-clear", // DOPSUM: CHANGE WORD ENTRY - Find /ði ˌɔːl ˈklɪə(r)/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "all-clear"), // DOPSUM: CHANGE WORD ENTRY - Find /ði ˌɔːl ˈklɪə(r)/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -87,12 +82,7 @@ class EnglishEntryallclear extends StatelessWidget {
                               "IpaUK: /ði ˌɔːl ˈklɪə(r)/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAllclear(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -105,12 +95,7 @@ class EnglishEntryallclear extends StatelessWidget {
                               "IpaUS: /ði ˌɔːl ˈklɪr/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAllclear(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

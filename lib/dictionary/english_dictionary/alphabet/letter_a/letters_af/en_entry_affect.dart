@@ -84,15 +84,10 @@ class EnglishEntryaffect extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "affect", // DOPSUM: CHANGE WORD ENTRY - Find /əˈfekt/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "affect"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈfekt/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -100,16 +95,8 @@ class EnglishEntryaffect extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /əˈfekt/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/əˈfekt/"),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAffect(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -118,16 +105,10 @@ class EnglishEntryaffect extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /əˈfekt/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /əˈfekt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAffect(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

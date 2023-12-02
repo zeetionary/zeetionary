@@ -67,15 +67,10 @@ class EnglishEntryacquisition extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              'acquisition', // DOPSUM: CHANGE WORD ENTRY - Find /ˌækwɪˈzɪʃn/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "acquisition"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌækwɪˈzɪʃn/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -83,16 +78,8 @@ class EnglishEntryacquisition extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /ˌækwɪˈzɪʃn/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/ˌækwɪˈzɪʃn/"),
+                            CustomIconButtonBritish(
                               onPressed: () => speakAcquisition(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
@@ -101,16 +88,10 @@ class EnglishEntryacquisition extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /ˌækwɪˈzɪʃn/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /ˌækwɪˈzɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAcquisition(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

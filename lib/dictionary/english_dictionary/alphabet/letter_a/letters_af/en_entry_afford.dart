@@ -76,15 +76,10 @@ class EnglishEntryafford extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "afford", // DOPSUM: CHANGE WORD ENTRY - Find /əˈfɔːd/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "afford"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈfɔːd/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -92,16 +87,8 @@ class EnglishEntryafford extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /əˈfɔːd/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/əˈfɔːd/"),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAfford(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -110,16 +97,10 @@ class EnglishEntryafford extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /əˈfɔːrd/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /əˈfɔːrd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAfford(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

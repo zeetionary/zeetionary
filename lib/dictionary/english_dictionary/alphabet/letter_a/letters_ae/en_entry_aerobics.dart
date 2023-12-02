@@ -64,15 +64,10 @@ class EnglishEntryaerobics extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "aerobics", // DOPSUM: CHANGE WORD ENTRY - Find /eəˈrəʊbɪks/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "aerobics"), // DOPSUM: CHANGE WORD ENTRY - Find /eəˈrəʊbɪks/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -80,16 +75,8 @@ class EnglishEntryaerobics extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /eəˈrəʊbɪks/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            const IPAofEnglish(text: "/eəˈrəʊbɪks/"),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAerobics(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -98,16 +85,10 @@ class EnglishEntryaerobics extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /eˈrəʊbɪks/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /eˈrəʊbɪks/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAerobics(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

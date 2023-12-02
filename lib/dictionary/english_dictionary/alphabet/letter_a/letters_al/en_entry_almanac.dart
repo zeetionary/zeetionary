@@ -65,15 +65,10 @@ class EnglishEntryalmanac extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "almanac", // DOPSUM: CHANGE WORD ENTRY - Find  /ˈɔːlmənæk/,  /ˈælmənæk/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "almanac"), // DOPSUM: CHANGE WORD ENTRY - Find  /ˈɔːlmənæk/,  /ˈælmənæk/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -85,12 +80,7 @@ class EnglishEntryalmanac extends StatelessWidget {
                               "IpaUK:  /ˈɔːlmənæk/,  /ˈælmənæk/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAlmanac(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -103,12 +93,7 @@ class EnglishEntryalmanac extends StatelessWidget {
                               "IpaUS: /ˈɔːlmənæk/,  /ˈælmənæk/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAlmanac(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

@@ -64,15 +64,10 @@ class EnglishEntryallah extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "Allah", // DOPSUM: CHANGE WORD ENTRY - Find /ˈælə/,  /əˈlɑː/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
-                            ),
-                            // SizedBox(
-                            //   width: 10,
-                            // ),
-                            // Text(
+                            EntryTitle(
+                                word:
+                                    "Allah"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈælə/,  /əˈlɑː/
+                            // nothing heereee
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -84,12 +79,7 @@ class EnglishEntryallah extends StatelessWidget {
                               "IpaUK: /ˈælə/,  /əˈlɑː/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.blue,
-                              ),
+                            CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAllah(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
@@ -102,12 +92,7 @@ class EnglishEntryallah extends StatelessWidget {
                               "IpaUS: /ˈælə/,  /ˈɑːlə/,  /ɑːˈlɑː/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
-                            IconButton(
-                              iconSize: 16,
-                              icon: const Icon(
-                                Icons.record_voice_over,
-                                color: Colors.red,
-                              ),
+                            CustomIconButtonAmerican(
                               onPressed: () => speakAllah(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),

@@ -114,17 +114,17 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               label: 'کوردی',
             ),
             const NavigationDestination(
-              // selectedIcon: Icon(Icons.home),
+              selectedIcon: Icon(Icons.home),
               icon: Icon(Icons.book),
               label: 'Grammar',
             ),
             const NavigationDestination(
-              // selectedIcon: Icon(Icons.home),
+              selectedIcon: Icon(Icons.home),
               icon: Icon(Icons.question_answer),
               label: 'Q&A',
             ),
             const NavigationDestination(
-              // selectedIcon: Icon(Icons.home),
+              selectedIcon: Icon(Icons.home),
               icon: Icon(Icons.quiz),
               label: 'Quiz',
             ),

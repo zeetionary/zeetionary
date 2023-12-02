@@ -182,7 +182,7 @@ class EnglishEntrybackfire extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: پێشەتەقین، پێشەسووتە، پڕمەئیگزۆز
 
-١. (کردار) ھەبوونی ئەنجامێک کە پێچەوانەی ئەوەیە کە چاوەڕواندەکرا"""),
+١. (کردار) ھەبوونی ئەنجامێک کە پێچەوانەی ئەوەیە کە چاوەڕواندەکرا."""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

@@ -163,7 +163,7 @@ class EnglishEntryadjourn extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "The case was adjourned for a week."),
                               const ExampleSentenceKurdish(
-                                  text: "کەیسەکە بۆ ھەفتەیەک ھەڵپەسێردرا"),
+                                  text: "کەیسەکە بۆ ھەفتەیەک ھەڵپەسێردرا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAd4582("en-GB"),
                               ),

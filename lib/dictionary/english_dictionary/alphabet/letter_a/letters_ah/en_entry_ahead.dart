@@ -239,7 +239,7 @@ class EnglishEntryahead extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئاھەنگەکە چەندین ھەفتە پێشتر پلانی بۆ دانرا"),
+                                      "ئاھەنگەکە چەندین ھەفتە پێشتر پلانی بۆ دانرا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAhead43582("en-GB"),
                               ),

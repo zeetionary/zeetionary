@@ -357,7 +357,7 @@ class EnglishEntryadvance extends StatelessWidget {
                                       "The troops were finally given the order to advance."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سەربازان لە کۆتاییدا فەرمانی پێشڕەوییان پێدرا"),
+                                      "سەربازان لە کۆتاییدا فەرمانی پێشڕەوییان پێدرا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAd456("en-GB"),
                               ),

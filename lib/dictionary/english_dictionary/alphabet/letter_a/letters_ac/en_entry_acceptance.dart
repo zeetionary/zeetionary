@@ -212,7 +212,7 @@ class EnglishEntryacceptance extends StatelessWidget {
                                       "The idea was slow to gain general acceptance."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بیرۆکەکە بەھێواشی لەلایەن ڕای گشتییەوە پەسەنددەکرا"),
+                                      "بیرۆکەکە بەھێواشی لەلایەن ڕای گشتییەوە پەسەنددەکرا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc2522("en-GB"),
                               ),

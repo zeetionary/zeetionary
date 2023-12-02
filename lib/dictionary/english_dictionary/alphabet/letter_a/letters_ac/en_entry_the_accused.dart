@@ -147,7 +147,7 @@ class EnglishEntrytheaccused extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "The accused was found innocent."),
                               const ExampleSentenceKurdish(
-                                  text: "گومانلێکراو بە بێتاوان ناسێندرا"),
+                                  text: "گومانلێکراو بە بێتاوان ناسێندرا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakTh1547("en-GB"),
                               ),

@@ -215,7 +215,7 @@ class EnglishEntryamicable extends StatelessWidget {
                               //   width: 30,
                               // ),
                               const ExampleSentenceKurdish(
-                                  text: "ڕێککەوتنێکی بێ‌مشتومڕ بەدەستھێنرا"),
+                                  text: "ڕێککەوتنێکی بێ‌مشتومڕ بەدەستھێنرا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmicable4477("en-GB"),
                               ),

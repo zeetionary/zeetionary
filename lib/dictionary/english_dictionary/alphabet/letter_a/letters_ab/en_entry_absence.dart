@@ -159,7 +159,7 @@ class EnglishEntryabsence extends StatelessWidget {
                                       "The case was dismissed in the absence of any definite proof."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کەیسەکە کۆتایی پێھێنرا بەھۆی نەبوونی بەڵگەی ئاشکرا"),
+                                      "کەیسەکە کۆتایی پێھێنرا بەھۆی نەبوونی بەڵگەی ئاشکرا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA2134("en-GB"),
                               ),

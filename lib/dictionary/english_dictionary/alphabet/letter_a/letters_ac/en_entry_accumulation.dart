@@ -149,7 +149,7 @@ class EnglishEntryaccumulation extends StatelessWidget {
                                       "Despite this accumulation of evidence, the government persisted in doing nothing."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سەرەڕای زیادبوونی بەڵگە، حکوومەت سووربوولەسەر ئەوەی ھیچ شتێکی ھەڵەی نەکردووە."),
+                                      "سەرەڕای زیادبوونی بەڵگە، حکوومەت سووربوو لەسەر ئەوەی ھیچ نەکات."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc1548("en-GB"),
                               ),

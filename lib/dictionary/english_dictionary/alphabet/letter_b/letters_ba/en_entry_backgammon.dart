@@ -193,7 +193,7 @@ class EnglishEntrybackgammon extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە باوکمەوە فێری تاوڵەکردن بووم و بووە بە یەکێک لە حەزەکانم."),
+                                      "لە باپیرمەوە فێری تاوڵەکردن بووم و بووە بە یەکێک لە حەزەکانم."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBackgammons1("en-GB"),
                               ),

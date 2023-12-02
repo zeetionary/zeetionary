@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: annexe  'a,neks or a-niks
+- Noun: annexe
 Usage: Brit (N. Amer: annex)
 1. An addition that extends a main building (= annex, extension, wing)
 """,

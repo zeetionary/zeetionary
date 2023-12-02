@@ -208,7 +208,7 @@ class EnglishEntryaccount extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "My YouTube account was terminated."),
                               const ExampleSentenceKurdish(
-                                  text: "ھەژمارەکەم لەسەر یووتیووب سڕکرا"),
+                                  text: "ھەژمارەکەم لەسەر یووتیووب سڕکرا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA14258("en-GB"),
                               ),

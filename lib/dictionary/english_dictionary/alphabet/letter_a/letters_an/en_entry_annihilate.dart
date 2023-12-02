@@ -219,7 +219,7 @@ class EnglishEntryannihilate extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕکابەرەکەی تێکشکاند کە ھیچ ئەوەی یارییەکی نەبردەوە."),
+                                      "ڕکابەرەکەی تێکشکاند کە نەیتوانی ھیچ یارییەک بباتەوە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnnihilate116("en-GB"),
                               ),

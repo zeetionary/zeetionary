@@ -534,7 +534,7 @@ class EnglishEntryair extends StatelessWidget {
                               //   width: 30,
                               // ),
                               const ExampleSentenceKurdish(
-                                  text: "پڕۆگرامەکە ھەفتەی ڕابردوو پێشکەشکرا"),
+                                  text: "پڕۆگرامەکە ھەفتەی ڕابردوو پێشکەشکرا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAir74952("en-GB"),
                               ),

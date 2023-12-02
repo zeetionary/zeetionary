@@ -161,7 +161,7 @@ class EnglishEntryabominable extends StatelessWidget {
                                   text:
                                       "We were served the most abominable coffee."),
                               const ExampleSentenceKurdish(
-                                  text: "ناخۆشترین قاوەمان پێشکەشکرا"),
+                                  text: "ناخۆشترین قاوەمان پێشکەشکرا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAbo27("en-GB"),
                               ),

@@ -147,7 +147,7 @@ class EnglishEntryacrimony extends StatelessWidget {
                                   text:
                                       "The dispute was settled without acrimony."),
                               const ExampleSentenceKurdish(
-                                  text: "بابەتەکە بەبێ ناخۆشی چارەسەرکرا"),
+                                  text: "بابەتەکە بەبێ ناخۆشی چارەسەرکرا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAcrimo1254("en-GB"),
                               ),

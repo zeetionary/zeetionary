@@ -184,7 +184,7 @@ class EnglishEntryalien extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لەکاتی جەنگەکەدا وەک ھاوڵاتییەکی دووژمن زیندانی کرا"),
+                                      "لەکاتی جەنگەکەدا وەک ھاوڵاتییەکی دووژمن زیندانی کرا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlien46588("en-GB"),
                               ),

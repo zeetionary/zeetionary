@@ -222,7 +222,7 @@ class EnglishEntrybanishment extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "زۆرینەی ھاوڵاتیانیناوچەکە زۆر دڵخۆشن بە قەدەغەکردنی ئۆتۆمبێل لە پارکەکە."),
+                                      "زۆرینەی ھاوڵاتیانی ناوچەکە زۆر دڵخۆشن بە قەدەغەکردنی ئۆتۆمبێل لە پارکەکە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBanishments2("en-GB"),
                               ),

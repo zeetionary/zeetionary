@@ -161,7 +161,7 @@ class EnglishEntryaccuse extends StatelessWidget {
                                   text:
                                       "The government was accused of incompetence."),
                               const ExampleSentenceKurdish(
-                                  text: "حکومەت بە ناکارامەیی تۆمەتبارکرا"),
+                                  text: "حکومەت بە ناکارامەیی تۆمەتبارکرا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA45691("en-GB"),
                               ),

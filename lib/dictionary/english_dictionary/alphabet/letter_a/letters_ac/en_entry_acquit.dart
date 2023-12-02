@@ -144,7 +144,7 @@ class EnglishEntryacquit extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "She was acquitted on all charges."),
                               const ExampleSentenceKurdish(
-                                  text: "لە ھەموو تۆمەتەکان بێبەریکرا"),
+                                  text: "لە ھەموو تۆمەتەکان بێبەریکرا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc12569("en-GB"),
                               ),

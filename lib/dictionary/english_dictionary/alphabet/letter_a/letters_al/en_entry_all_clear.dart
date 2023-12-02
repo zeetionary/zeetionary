@@ -155,7 +155,7 @@ class EnglishEntryallclear extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "منداڵەکان خۆیان لەژێر زەمینەکە شاردەوە تاوەکو ئاماژەی سەلامەتییان پێدرا"),
+                                      "منداڵەکان خۆیان لەژێر زەمینەکە شاردەوە تاوەکو ئاماژەی سەلامەتییان پێدرا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllclear37455("en-GB"),
                               ),

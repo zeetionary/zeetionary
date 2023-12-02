@@ -149,7 +149,7 @@ class EnglishEntryairliner extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "فڕۆکەکە لەلایەن ژمارەیەک تیرۆریستەوە ڕفێندرا"),
+                                      "فڕۆکەکە لەلایەن ژمارەیەک تیرۆریستەوە ڕفێندرا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAirliner3522("en-GB"),
                               ),

@@ -336,7 +336,7 @@ class EnglishEntryaddress extends StatelessWidget {
                                       "The letter was correctly addressed, but delivered to the wrong house."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "نامەکە بە درووستی ناو و ناونیشانی لەسەر نووسرابوو، بەڵام بۆ ماڵێکی ھەڵە نێردرا"),
+                                      "نامەکە بە درووستی ناو و ناونیشانی لەسەر نووسرابوو، بەڵام بۆ ماڵێکی ھەڵە نێردرا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAddr11("en-GB"),
                               ),

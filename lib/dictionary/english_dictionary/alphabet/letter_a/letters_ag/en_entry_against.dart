@@ -190,7 +190,7 @@ class EnglishEntryagainst extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دژ بە ویستی خۆی ناچار بە ھاوسەرگیری کرا"),
+                                      "دژ بە ویستی خۆی ناچار بە ھاوسەرگیری کرا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgain2566("en-GB"),
                               ),

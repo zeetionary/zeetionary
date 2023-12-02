@@ -148,7 +148,7 @@ class EnglishEntryaffidavit extends StatelessWidget {
                                       "He admitted he was one of a number of people stealing from the company, according to the affidavit filed by the shown to court."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دانیپێدانا کە ئەو یەکێکە لەو کەسانەی دزی لە کۆمپانیاکە کردووە بەپێی ئەو سوێندنامەی بە دادگا پیشان درا"),
+                                      "دانیپێدانا کە ئەو یەکێکە لەو کەسانەی دزی لە کۆمپانیاکە کردووە بەپێی ئەو سوێندنامەی بە دادگا پیشان درا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffi359("en-GB"),
                               ),

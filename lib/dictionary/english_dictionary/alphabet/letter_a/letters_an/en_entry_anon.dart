@@ -180,7 +180,7 @@ class EnglishEntryanon extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-١. (ھاوەڵکار) دەسبەجێ، لەڕێوە، زوو، بەزوویی، خێرا"""),
+١. (ھاوەڵکار) دەسبەجێ، لەڕێوە، زوو، بەزوویی، خێرا."""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

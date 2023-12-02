@@ -141,7 +141,7 @@ class EnglishEntryaccumulation extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: خڕکردنەوە، کەڵەکەکردن، کۆمەڵ(کە)کردن، کۆمەڵ‌کردن، کەوتنەسەرک، سەریەکنان، کەڵەکەبوون، خڕبوونەوە، کۆبوونەوە
 
-١. پێناسە"""),
+١. پڕۆسەی خڕبوونەوە بەهێواشی لە ماوەیەکی درێژدا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

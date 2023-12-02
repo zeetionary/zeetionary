@@ -193,7 +193,7 @@ class EnglishEntrybankruptcy extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەگەری ھەیە مایە]ووچبوونی زیاتر ڕووبدات لەناو جوتیارە بچووکەکاندا."),
+                                      "ئەگەری ھەیە مایەپووچبوونی زیاتر ڕووبدات لەناو جوتیارە کەمدەرامەتەکاندا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBankruptcys1("en-GB"),
                               ),

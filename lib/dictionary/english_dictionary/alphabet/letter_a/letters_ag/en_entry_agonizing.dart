@@ -140,7 +140,7 @@ class EnglishEntryagonizing extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: بەژان، بەئازار، مایەی مەینەتی، دەرد
 
-١. (ھاوەڵناو) پێناسە"""),
+١. (ھاوەڵناو) شتێک کە دەبێتەهۆی ئازار و ناڕەحەتی زۆر"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

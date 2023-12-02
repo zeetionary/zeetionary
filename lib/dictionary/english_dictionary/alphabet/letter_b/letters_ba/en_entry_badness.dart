@@ -189,7 +189,7 @@ class EnglishEntrybadness extends StatelessWidget {
                               //   width: 30,
                               // ),
                               const ExampleSentenceKurdish(
-                                  text: "زۆر ئاماژەی خراپەکاری تێدابوو."),
+                                  text: "هیچ ئاماژەی خراپەکاری تێدابوو."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBadnesss1("en-GB"),
                               ),

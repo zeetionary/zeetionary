@@ -6,88 +6,92 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "Dopsum1" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
+// Define the word "bash" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
 
-// replace Dopsum1 - replace EnglishEntry2
+// replace bash - replace EnglishEntrybash
 
-// replace speakB3 - haʊʊʊʊʊʊʊ4
+// replace speakBash - /bæʃ/
 
 enum TtsState { playing }
 
-class EnglishEntry2 extends StatelessWidget {
+class EnglishEntrybash extends StatelessWidget {
 // blank divider
-  EnglishEntry2({super.key});
+  EnglishEntrybash({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakB3(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
+  Future<void> speakBash(String languageCode) async {
+    // DOPSUM: CHANGE speakBash
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bash"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s1(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
+  Future<void> speakBashs1(String languageCode) async {
+    // DOPSUM: CHANGE speakBash
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakB3s11"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He stood up, bashing his head on the ceiling."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s2(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
+  Future<void> speakBashs2(String languageCode) async {
+    // DOPSUM: CHANGE speakBash
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakB3s22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Bashing politicians is normal practice in the press."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s3(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
+  Future<void> speakBashs3(String languageCode) async {
+    // DOPSUM: CHANGE speakBash
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakB3s33"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He gave Mike a bash on the nose."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s4(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
+  Future<void> speakBashs4(String languageCode) async {
+    // DOPSUM: CHANGE speakBash
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakB3s44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She gave a big 40th birthday bash for her husband."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s5(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
+  Future<void> speakBashs5(String languageCode) async {
+    // DOPSUM: CHANGE speakBash
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakB3s55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBashs55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s6(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
+  Future<void> speakBashs6(String languageCode) async {
+    // DOPSUM: CHANGE speakBash
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakB3s66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBashs66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s7(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
+  Future<void> speakBashs7(String languageCode) async {
+    // DOPSUM: CHANGE speakBash
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakB3s77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBashs77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 2, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -104,22 +108,22 @@ class EnglishEntry2 extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "Dopsum1"),
+                            EntryTitle(word: "bash"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUK: /bæʃ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakB3("en-GB"),
+                              onPressed: () => speakBash("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUS: /bæʃ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakB3("en-US"),
+                              onPressed: () => speakBash("en-US"),
                             ),
                           ],
                         ),
@@ -133,18 +137,18 @@ class EnglishEntry2 extends StatelessWidget {
                 tabs: const [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  // VideoIconForTab(), // 01
-                  // VideoIconForTab(), // 02
-                  // VideoIconForTab(), // 03
-                  // VideoIconForTab(), // 04
-                  // VideoIconForTab(), // 05
-                  // VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 2
-                  // VideoIconForTab(), // 07 --- FIND: speakB3s11
-                  // VideoIconForTab(), // 08
-                  // VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
+                  VideoIconForTab(), // 01
+                  VideoIconForTab(), // 02
+                  VideoIconForTab(), // 03
+                  VideoIconForTab(), // 04
+                  VideoIconForTab(), // 05
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
+                  VideoIconForTab(), // 07 --- FIND:
+                  VideoIconForTab(), // 08
+                  VideoIconForTab(), // 09
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -166,19 +170,80 @@ class EnglishEntry2 extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: 
+کوردی: گورز، لێدان، مشت، میوانی یان ئاهەنگێکی گەورە، (بریتانیا) حەول، تێکۆشان
 
-١. (ھاوەڵناو) پێناسە"""),
+١. (کردار) لێدانێکی سەخت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(text: "speakB3s11"),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He stood up, bashing his head on the ceiling."),
                               const ExampleSentenceKurdish(
-                                  text: "رستە_رستە_رستە_رستە."),
+                                  text:
+                                      "هەستایە سەرپێ و سەری کێشای بە سەقفەکەدا."),
                               CustomIconButtonBritish(
-                                onPressed: () => speakB3s1("en-GB"),
+                                onPressed: () => speakBashs1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakB3s1("en-US"),
+                                onPressed: () => speakBashs1("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٢. (کردار) ڕەخنەگرتنی توند"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Bashing politicians is normal practice in the press."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕەخنەی توند لە سیاسییەکان شتێکی ڕۆژانەیە لە میدیادا."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBashs2("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBashs2("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          // const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٣. (ناو) لێدانێکی توند"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "He gave Mike a bash on the nose."),
+                              const ExampleSentenceKurdish(
+                                  text: "مشتێکی کێشا بە لووتی مایکدا."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBashs3("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBashs3("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          // const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٤. (ناو) ئاهەنگێکی گەورە"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She gave a big 40th birthday bash for her husband."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئاهەنگێکی گەورەی گێڕا بۆ ٤٠هەمین ساڵیادی لەدایکبوونی هاوژینەکەی."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBashs4("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBashs4("en-US"),
                               ),
                             ],
                           ),
@@ -188,17 +253,17 @@ class EnglishEntry2 extends StatelessWidget {
                       ),
                     ),
                     YoutubeEmbeddedone(),
-                    // YoutubeEmbeddedtwo(),
-                    // YoutubeEmbeddedthree(),
-                    // YoutubeEmbeddedfour(),
-                    // YoutubeEmbeddedfive(),
-                    // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                    // YoutubeEmbeddedseven(),
-                    // YoutubeEmbeddedeight(),
-                    // YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedtwo(),
+                    YoutubeEmbeddedthree(),
+                    YoutubeEmbeddedfour(),
+                    YoutubeEmbeddedfive(),
+                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    YoutubeEmbeddedseven(),
+                    YoutubeEmbeddedeight(),
+                    YoutubeEmbeddednine(),
+                    YoutubeEmbeddedten(),
+                    YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -228,10 +293,19 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
+- Verb: bash (Derived forms: bashed, bashing, bashes)
+Usage: informal
+1. Hit hard (= sock [informal], bop [informal], whop [informal], whap [N. Amer, informal], bonk [informal], clonk [informal], boink [N. Amer, informal], whack [informal], wham [informal], wallop [informal], lamp [UK, informal], clock [UK, informal], belt [informal])
+"He bashed his opponent";
 
-WORD_WEB haʊʊʊʊʊʊʊ4
-
-WORD_WEB
+- Noun: bash 
+Usage: informal
+1. A vigorous blow (= knock, bang, smash, belt [informal], sock [informal])
+"he took a bash right in his face";
+ 
+2. A party or social event (= do)
+ 
+3. [Brit, informal] A usually brief attempt (= crack, fling, go, pass, whirl [informal], offer)
 """,
           )
         ],
@@ -245,12 +319,12 @@ WORD_WEB
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/YrMGIqecu0Y?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 330, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -270,12 +344,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/-7bIDbaU_zQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 1020, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -295,12 +369,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/7aIS-SLQmOk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 224, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -320,12 +394,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/k9oBTSIV8To?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 195, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -345,12 +419,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/X1ncuW-bLsw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 2645, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -370,12 +444,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/JcuDwD2CzIc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 233, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -395,12 +469,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/Zqe0u55j1gk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 872, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -420,12 +494,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/gO2xAHIaUUA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 74, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -445,12 +519,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/vKxJnJ0OipU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 444, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -470,12 +544,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/pgzfdXFfzXQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 293, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -495,12 +569,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/Tmg5WOvPKpU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 599, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -520,12 +594,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/QxCRRcWSt4I?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 343, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -635,105 +709,4 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
   }
 }
 
-// end Dopsum1
-
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-
-// Future<void> speakBands8(String languageCode) async {
-//     // DOPSUM: CHANGE speakBand
-//     await flutterTts.setLanguage(languageCode);
-//     await flutterTts.setPitch(1.0);
-//     await flutterTts.setSpeechRate(0.5);
-//     await flutterTts.speak("speakBands88"); // DOPSUM: CHANGE TEXT
-//   }
-
-//   Future<void> speakBands9(String languageCode) async {
-//     // DOPSUM: CHANGE speakBand
-//     await flutterTts.setLanguage(languageCode);
-//     await flutterTts.setPitch(1.0);
-//     await flutterTts.setSpeechRate(0.5);
-//     await flutterTts.speak("speakBands99"); // DOPSUM: CHANGE TEXT
-//   }
-
-//   Future<void> speakBands10(String languageCode) async {
-//     // DOPSUM: CHANGE speakBand
-//     await flutterTts.setLanguage(languageCode);
-//     await flutterTts.setPitch(1.0);
-//     await flutterTts.setSpeechRate(0.5);
-//     await flutterTts.speak("speakBands1010"); // DOPSUM: CHANGE TEXT
-//   }
-
-//   Future<void> speakBands11(String languageCode) async {
-//     // DOPSUM: CHANGE speakBand
-//     await flutterTts.setLanguage(languageCode);
-//     await flutterTts.setPitch(1.0);
-//     await flutterTts.setSpeechRate(0.5);
-//     await flutterTts.speak("speakBands1111"); // DOPSUM: CHANGE TEXT
-//   }
-
-//   Future<void> speakBands12(String languageCode) async {
-//     // DOPSUM: CHANGE speakBand
-//     await flutterTts.setLanguage(languageCode);
-//     await flutterTts.setPitch(1.0);
-//     await flutterTts.setSpeechRate(0.5);
-//     await flutterTts.speak("speakBands1212"); // DOPSUM: CHANGE TEXT
-//   }
-
-//   Future<void> speakBands13(String languageCode) async {
-//     // DOPSUM: CHANGE speakBand
-//     await flutterTts.setLanguage(languageCode);
-//     await flutterTts.setPitch(1.0);
-//     await flutterTts.setSpeechRate(0.5);
-//     await flutterTts.speak("speakBands1313"); // DOPSUM: CHANGE TEXT
-//   }
-
-//   Future<void> speakBands14(String languageCode) async {
-//     // DOPSUM: CHANGE speakBand
-//     await flutterTts.setLanguage(languageCode);
-//     await flutterTts.setPitch(1.0);
-//     await flutterTts.setSpeechRate(0.5);
-//     await flutterTts.speak("speakBands1414"); // DOPSUM: CHANGE TEXT
-//   }
-
-//   Future<void> speakBands15(String languageCode) async {
-//     // DOPSUM: CHANGE speakBand
-//     await flutterTts.setLanguage(languageCode);
-//     await flutterTts.setPitch(1.0);
-//     await flutterTts.setSpeechRate(0.5);
-//     await flutterTts.speak("speakBands1515"); // DOPSUM: CHANGE TEXT
-//   }
-
-//   Future<void> speakBands16(String languageCode) async {
-//     // DOPSUM: CHANGE speakBand
-//     await flutterTts.setLanguage(languageCode);
-//     await flutterTts.setPitch(1.0);
-//     await flutterTts.setSpeechRate(0.5);
-//     await flutterTts.speak("speakBands1616"); // DOPSUM: CHANGE TEXT
-//   }
-
-//   Future<void> speakBands17(String languageCode) async {
-//     // DOPSUM: CHANGE speakBand
-//     await flutterTts.setLanguage(languageCode);
-//     await flutterTts.setPitch(1.0);
-//     await flutterTts.setSpeechRate(0.5);
-//     await flutterTts.speak("speakBands1717"); // DOPSUM: CHANGE TEXT
-//   }
+// end bash// TODO Implement this library.

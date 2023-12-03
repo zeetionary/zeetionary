@@ -6,88 +6,88 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "Dopsum1" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
+// Define the word "basement" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
 
-// replace Dopsum1 - replace EnglishEntry2
+// replace basement - replace EnglishEntrybasement
 
-// replace speakB3 - haʊʊʊʊʊʊʊ4
+// replace speakBasement - /ˈbeɪsmənt/
 
 enum TtsState { playing }
 
-class EnglishEntry2 extends StatelessWidget {
+class EnglishEntrybasement extends StatelessWidget {
 // blank divider
-  EnglishEntry2({super.key});
+  EnglishEntrybasement({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakB3(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
+  Future<void> speakBasement(String languageCode) async {
+    // DOPSUM: CHANGE speakBasement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("basement"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s1(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
+  Future<void> speakBasements1(String languageCode) async {
+    // DOPSUM: CHANGE speakBasement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakB3s11"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She lives in a two-room basement flat."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s2(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
+  Future<void> speakBasements2(String languageCode) async {
+    // DOPSUM: CHANGE speakBasement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakB3s22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBasements22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s3(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
+  Future<void> speakBasements3(String languageCode) async {
+    // DOPSUM: CHANGE speakBasement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakB3s33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBasements33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s4(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
+  Future<void> speakBasements4(String languageCode) async {
+    // DOPSUM: CHANGE speakBasement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakB3s44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBasements44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s5(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
+  Future<void> speakBasements5(String languageCode) async {
+    // DOPSUM: CHANGE speakBasement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakB3s55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBasements55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s6(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
+  Future<void> speakBasements6(String languageCode) async {
+    // DOPSUM: CHANGE speakBasement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakB3s66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBasements66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s7(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
+  Future<void> speakBasements7(String languageCode) async {
+    // DOPSUM: CHANGE speakBasement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakB3s77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBasements77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 2, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -104,22 +104,22 @@ class EnglishEntry2 extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "Dopsum1"),
+                            EntryTitle(word: "basement"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbeɪsmənt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakB3("en-GB"),
+                              onPressed: () => speakBasement("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbeɪsmənt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakB3("en-US"),
+                              onPressed: () => speakBasement("en-US"),
                             ),
                           ],
                         ),
@@ -133,17 +133,17 @@ class EnglishEntry2 extends StatelessWidget {
                 tabs: const [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  // VideoIconForTab(), // 01
-                  // VideoIconForTab(), // 02
-                  // VideoIconForTab(), // 03
-                  // VideoIconForTab(), // 04
-                  // VideoIconForTab(), // 05
-                  // VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 2
-                  // VideoIconForTab(), // 07 --- FIND: speakB3s11
-                  // VideoIconForTab(), // 08
-                  // VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
+                  VideoIconForTab(), // 01
+                  VideoIconForTab(), // 02
+                  VideoIconForTab(), // 03
+                  VideoIconForTab(), // 04
+                  VideoIconForTab(), // 05
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
+                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 08
+                  VideoIconForTab(), // 09
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
@@ -166,19 +166,19 @@ class EnglishEntry2 extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: 
+کوردی: ژێرخان، ژێرزەوی، ژێرزەمین، ناویس، وارنشین، 
 
-١. (ھاوەڵناو) پێناسە"""),
+١. (ناو) ژێرزەمینی بینایەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(text: "speakB3s11"),
+                              const ExampleSentenceEnglish(text: "She lives in a two-room basement flat."),
                               const ExampleSentenceKurdish(
-                                  text: "رستە_رستە_رستە_رستە."),
+                                  text: "لە فلاتێکی دوو ژووری ژێرزەمینی دەژی."),
                               CustomIconButtonBritish(
-                                onPressed: () => speakB3s1("en-GB"),
+                                onPressed: () => speakBasements1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakB3s1("en-US"),
+                                onPressed: () => speakBasements1("en-US"),
                               ),
                             ],
                           ),
@@ -188,16 +188,16 @@ class EnglishEntry2 extends StatelessWidget {
                       ),
                     ),
                     YoutubeEmbeddedone(),
-                    // YoutubeEmbeddedtwo(),
-                    // YoutubeEmbeddedthree(),
-                    // YoutubeEmbeddedfour(),
-                    // YoutubeEmbeddedfive(),
-                    // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                    // YoutubeEmbeddedseven(),
-                    // YoutubeEmbeddedeight(),
-                    // YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwo(),
+                    YoutubeEmbeddedthree(),
+                    YoutubeEmbeddedfour(),
+                    YoutubeEmbeddedfive(),
+                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    YoutubeEmbeddedseven(),
+                    YoutubeEmbeddedeight(),
+                    YoutubeEmbeddednine(),
+                    YoutubeEmbeddedten(),
+                    YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
@@ -228,10 +228,10 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-
-WORD_WEB haʊʊʊʊʊʊʊ4
-
-WORD_WEB
+- Noun: basement (Derived forms: basements)
+1. The lowermost portion of a structure partly or wholly below ground level; often used for storage (= cellar)
+ 
+2. The ground floor facade or interior in Renaissance architecture
 """,
           )
         ],
@@ -245,12 +245,12 @@ WORD_WEB
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/f2fUhZrAq_s?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 11, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -270,12 +270,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/zR9ATf-hi_w?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 15, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -295,12 +295,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/zdBdbqMSgBA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -320,12 +320,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/JwQAAYctdFY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 5, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -345,12 +345,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/upuxp3OowbY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 67, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -370,12 +370,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/zfMRyjoIam4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 53, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -395,12 +395,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/ujSHQdIhLpg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -420,12 +420,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/IPMXZrSdEMM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -445,12 +445,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/QPN7-8yGbzo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 54, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -470,12 +470,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/jKzULRwtX0I?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 176, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -495,12 +495,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/AaqeJhvyqrY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 70, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -635,105 +635,4 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
   }
 }
 
-// end Dopsum1
-
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-
-// Future<void> speakBands8(String languageCode) async {
-//     // DOPSUM: CHANGE speakBand
-//     await flutterTts.setLanguage(languageCode);
-//     await flutterTts.setPitch(1.0);
-//     await flutterTts.setSpeechRate(0.5);
-//     await flutterTts.speak("speakBands88"); // DOPSUM: CHANGE TEXT
-//   }
-
-//   Future<void> speakBands9(String languageCode) async {
-//     // DOPSUM: CHANGE speakBand
-//     await flutterTts.setLanguage(languageCode);
-//     await flutterTts.setPitch(1.0);
-//     await flutterTts.setSpeechRate(0.5);
-//     await flutterTts.speak("speakBands99"); // DOPSUM: CHANGE TEXT
-//   }
-
-//   Future<void> speakBands10(String languageCode) async {
-//     // DOPSUM: CHANGE speakBand
-//     await flutterTts.setLanguage(languageCode);
-//     await flutterTts.setPitch(1.0);
-//     await flutterTts.setSpeechRate(0.5);
-//     await flutterTts.speak("speakBands1010"); // DOPSUM: CHANGE TEXT
-//   }
-
-//   Future<void> speakBands11(String languageCode) async {
-//     // DOPSUM: CHANGE speakBand
-//     await flutterTts.setLanguage(languageCode);
-//     await flutterTts.setPitch(1.0);
-//     await flutterTts.setSpeechRate(0.5);
-//     await flutterTts.speak("speakBands1111"); // DOPSUM: CHANGE TEXT
-//   }
-
-//   Future<void> speakBands12(String languageCode) async {
-//     // DOPSUM: CHANGE speakBand
-//     await flutterTts.setLanguage(languageCode);
-//     await flutterTts.setPitch(1.0);
-//     await flutterTts.setSpeechRate(0.5);
-//     await flutterTts.speak("speakBands1212"); // DOPSUM: CHANGE TEXT
-//   }
-
-//   Future<void> speakBands13(String languageCode) async {
-//     // DOPSUM: CHANGE speakBand
-//     await flutterTts.setLanguage(languageCode);
-//     await flutterTts.setPitch(1.0);
-//     await flutterTts.setSpeechRate(0.5);
-//     await flutterTts.speak("speakBands1313"); // DOPSUM: CHANGE TEXT
-//   }
-
-//   Future<void> speakBands14(String languageCode) async {
-//     // DOPSUM: CHANGE speakBand
-//     await flutterTts.setLanguage(languageCode);
-//     await flutterTts.setPitch(1.0);
-//     await flutterTts.setSpeechRate(0.5);
-//     await flutterTts.speak("speakBands1414"); // DOPSUM: CHANGE TEXT
-//   }
-
-//   Future<void> speakBands15(String languageCode) async {
-//     // DOPSUM: CHANGE speakBand
-//     await flutterTts.setLanguage(languageCode);
-//     await flutterTts.setPitch(1.0);
-//     await flutterTts.setSpeechRate(0.5);
-//     await flutterTts.speak("speakBands1515"); // DOPSUM: CHANGE TEXT
-//   }
-
-//   Future<void> speakBands16(String languageCode) async {
-//     // DOPSUM: CHANGE speakBand
-//     await flutterTts.setLanguage(languageCode);
-//     await flutterTts.setPitch(1.0);
-//     await flutterTts.setSpeechRate(0.5);
-//     await flutterTts.speak("speakBands1616"); // DOPSUM: CHANGE TEXT
-//   }
-
-//   Future<void> speakBands17(String languageCode) async {
-//     // DOPSUM: CHANGE speakBand
-//     await flutterTts.setLanguage(languageCode);
-//     await flutterTts.setPitch(1.0);
-//     await flutterTts.setSpeechRate(0.5);
-//     await flutterTts.speak("speakBands1717"); // DOPSUM: CHANGE TEXT
-//   }
+// end basement// TODO Implement this library.

@@ -1397,6 +1397,16 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_barricade.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_barrier.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_barring.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_barrister.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_barrow.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_barter.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_base.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_baseless.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_base_metal.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_baseball.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_basement.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_bash.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
@@ -2949,15 +2959,15 @@ final loggedInRoute = RouteMap(routes: {
   "/english-barricade": (_) => MaterialPage(child: EnglishEntrybarricade()),
   "/english-barrier": (_) => MaterialPage(child: EnglishEntrybarrier()),
   "/english-barring": (_) => MaterialPage(child: EnglishEntrybarring()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-barrister": (_) => MaterialPage(child: EnglishEntrybarrister()),
+  "/english-barrow": (_) => MaterialPage(child: EnglishEntrybarrow()),
+  "/english-barter": (_) => MaterialPage(child: EnglishEntrybarter()),
+  "/english-base": (_) => MaterialPage(child: EnglishEntrybase()),
+  "/english-baseless": (_) => MaterialPage(child: EnglishEntrybaseless()),
+  "/english-base-metal": (_) => MaterialPage(child: EnglishEntrybasemetal()),
+  "/english-baseball": (_) => MaterialPage(child: EnglishEntrybaseball()),
+  "/english-basement": (_) => MaterialPage(child: EnglishEntrybasement()),
+  "/english-bash": (_) => MaterialPage(child: EnglishEntrybash()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

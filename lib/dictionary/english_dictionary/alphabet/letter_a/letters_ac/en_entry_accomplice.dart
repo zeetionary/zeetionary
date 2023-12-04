@@ -60,7 +60,7 @@ class EnglishEntryaccomplice extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈkʌmplɪs/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈkʌmplɪs/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAccomplice(
                                   // DOPSUM: CHANGE THE WORD ABOVE

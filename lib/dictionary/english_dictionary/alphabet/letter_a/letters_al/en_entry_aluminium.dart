@@ -76,10 +76,9 @@ class EnglishEntryaluminium extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              "IpaUK: /ˌæljəˈmɪniəm/,  /ˌæləˈmɪniəm/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUK: /ˌæljəˈmɪniəm/,  /ˌæləˈmɪniəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakAluminium(
                                   // DOPSUM: CHANGE THE WORD ABOVE
@@ -89,10 +88,9 @@ class EnglishEntryaluminium extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              "IpaUS: /ˌæljəˈmɪniəm/,  /ˌæləˈmɪniəm/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /ˌæljəˈmɪniəm/,  /ˌæləˈmɪniəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAluminium(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

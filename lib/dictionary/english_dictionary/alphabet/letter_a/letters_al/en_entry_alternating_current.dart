@@ -76,10 +76,9 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              "IpaUK: /ˌɔːltəneɪtɪŋ ˈkʌrənt/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUK: /ˌɔːltəneɪtɪŋ ˈkʌrənt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakAlternatingcurrent(
                                   // DOPSUM: CHANGE THE WORD ABOVE
@@ -89,10 +88,9 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              "IpaUS: /ˌɔːltərneɪtɪŋ ˈkɜːrənt/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /ˌɔːltərneɪtɪŋ ˈkɜːrənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAlternatingcurrent(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

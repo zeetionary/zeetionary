@@ -76,10 +76,9 @@ class EnglishEntryallowable extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              "IpaUK: /əˈlaʊəbl/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUK: /əˈlaʊəbl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakAllowable(
                                   // DOPSUM: CHANGE THE WORD ABOVE
@@ -89,10 +88,9 @@ class EnglishEntryallowable extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              "IpaUS: /əˈlaʊəbl/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /əˈlaʊəbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAllowable(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

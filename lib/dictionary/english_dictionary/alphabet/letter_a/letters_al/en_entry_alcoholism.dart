@@ -76,10 +76,9 @@ class EnglishEntryalcoholism extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              "IpaUK: /ˈælkəhɒlɪzəm/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUK: /ˈælkəhɒlɪzəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakAlcoholism(
                                   // DOPSUM: CHANGE THE WORD ABOVE
@@ -89,10 +88,9 @@ class EnglishEntryalcoholism extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              "IpaUS: /ˈælkəhɑːlɪzəm/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /ˈælkəhɑːlɪzəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAlcoholism(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

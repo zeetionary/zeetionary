@@ -76,7 +76,7 @@ class EnglishEntryadolescent extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˌædəˈlesnt/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌædəˈlesnt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAdolescent(
                                   // DOPSUM: CHANGE THE WORD ABOVE

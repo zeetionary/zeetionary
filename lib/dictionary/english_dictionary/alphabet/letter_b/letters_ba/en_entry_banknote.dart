@@ -129,7 +129,7 @@ class EnglishEntrybanknote extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈbæŋknəʊt"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˈbæŋknəʊt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakBanknote(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

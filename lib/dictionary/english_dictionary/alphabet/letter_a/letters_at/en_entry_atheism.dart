@@ -137,7 +137,7 @@ class EnglishEntryatheism extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈeɪθiɪzəm"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˈeɪθiɪzəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAtheism(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

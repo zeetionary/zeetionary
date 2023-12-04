@@ -129,7 +129,7 @@ class EnglishEntryawayday extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /əˈweɪdeɪ"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /əˈweɪdeɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAwayday(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

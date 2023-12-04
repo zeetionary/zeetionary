@@ -130,7 +130,7 @@ class EnglishEntrybackgammon extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈbækɡæmən"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˈbækɡæmən/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakBackgammon(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

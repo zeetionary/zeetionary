@@ -76,10 +76,9 @@ class EnglishEntryambidextrous extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              "IpaUK: /ˌæmbiˈdekstrəs/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUK: /ˌæmbiˈdekstrəs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakAmbidextrous(
                                   // DOPSUM: CHANGE THE WORD ABOVE
@@ -89,10 +88,9 @@ class EnglishEntryambidextrous extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              "IpaUS: /ˌæmbiˈdekstrəs/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /ˌæmbiˈdekstrəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAmbidextrous(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

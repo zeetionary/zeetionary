@@ -137,7 +137,7 @@ class EnglishEntryatm extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˌeɪ tiː ˈem"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˌeɪ tiː ˈem/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAtm(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

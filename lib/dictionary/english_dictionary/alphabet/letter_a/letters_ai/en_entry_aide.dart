@@ -76,7 +76,7 @@ class EnglishEntryaide extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/eɪd/"),
+                            const IPAofEnglish(text: "IpaUK: /eɪd/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAide(// DOPSUM: CHANGE THE WORD ABOVE

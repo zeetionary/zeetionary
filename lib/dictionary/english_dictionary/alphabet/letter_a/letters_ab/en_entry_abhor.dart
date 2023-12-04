@@ -68,7 +68,7 @@ class EnglishEntryabhor extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əbˈhɔː(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /əbˈhɔː(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAbhor(// DOPSUM: CHANGE THE WORD ABOVE

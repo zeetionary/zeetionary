@@ -75,7 +75,7 @@ class EnglishEntryagonyaunt extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈæɡəni ɑːnt/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈæɡəni ɑːnt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAgonyaunt(
                                   // DOPSUM: CHANGE THE WORD ABOVE

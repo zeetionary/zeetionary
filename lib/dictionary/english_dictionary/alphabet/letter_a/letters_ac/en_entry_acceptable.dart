@@ -87,7 +87,7 @@ class EnglishEntryacceptable extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əkˈseptəbl/"),
+                            const IPAofEnglish(text: "IpaUK: /əkˈseptəbl/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAacceptable(
                                   // DOPSUM: CHANGE THE WORD ABOVE
@@ -159,7 +159,7 @@ class EnglishEntryacceptable extends StatelessWidget {
                                       "It is perfectly acceptable for you as an employee to say no."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "شتێکی تەواو ئاساییە بۆ تۆ وەک کرێکارێک بڵێت نەخێر"),
+                                      "شتێکی تەواو ئاساییە بۆ تۆ وەک کرێکارێک بڵێت نەخێر."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAa231564("en-GB"),
                               ),

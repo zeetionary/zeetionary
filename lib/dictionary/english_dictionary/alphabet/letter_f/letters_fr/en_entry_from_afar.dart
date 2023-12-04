@@ -76,7 +76,7 @@ class EnglishEntryafar extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/frəm əˈfɑː(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /frəm əˈfɑː(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAfar(// DOPSUM: CHANGE THE WORD ABOVE

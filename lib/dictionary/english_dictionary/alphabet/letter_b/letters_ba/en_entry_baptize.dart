@@ -128,7 +128,7 @@ class EnglishEntrybaptize extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈbæptaɪz"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˈbæptaɪz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakBaptize(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

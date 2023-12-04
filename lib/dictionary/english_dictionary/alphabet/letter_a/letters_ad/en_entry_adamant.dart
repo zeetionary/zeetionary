@@ -76,7 +76,7 @@ class EnglishEntryadamant extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈædəmənt/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈædəmənt/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAdamant(// DOPSUM: CHANGE THE WORD ABOVE

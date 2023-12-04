@@ -33,7 +33,7 @@ class EnglishEntryballad extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBallads11"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Adele's 'Someone Like You' is a ballad about lost love."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBallads2(String languageCode) async {
@@ -128,7 +128,7 @@ class EnglishEntryballad extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈbæləd"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˈbæləd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakBallad(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

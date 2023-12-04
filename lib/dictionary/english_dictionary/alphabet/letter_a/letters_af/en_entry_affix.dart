@@ -76,7 +76,7 @@ class EnglishEntryaffix extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈfɪks/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈfɪks/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAffix(// DOPSUM: CHANGE THE WORD ABOVE

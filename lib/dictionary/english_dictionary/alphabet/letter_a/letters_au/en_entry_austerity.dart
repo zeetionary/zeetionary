@@ -140,7 +140,7 @@ class EnglishEntryausterity extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ɔːˈsterəti"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ɔːˈsterəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAusterity(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

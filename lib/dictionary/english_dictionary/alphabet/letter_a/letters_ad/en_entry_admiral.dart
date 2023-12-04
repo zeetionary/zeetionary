@@ -76,7 +76,7 @@ class EnglishEntryadmiral extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈædmərəl/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈædmərəl/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAdmiral(// DOPSUM: CHANGE THE WORD ABOVE

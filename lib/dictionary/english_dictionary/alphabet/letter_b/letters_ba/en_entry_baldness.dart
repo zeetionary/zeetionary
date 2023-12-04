@@ -129,7 +129,7 @@ class EnglishEntrybaldness extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈbɔːldnəs"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˈbɔːldnəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakBaldness(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

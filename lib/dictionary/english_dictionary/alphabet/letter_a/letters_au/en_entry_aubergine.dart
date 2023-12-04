@@ -137,7 +137,7 @@ class EnglishEntryaubergine extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈəʊbərʒiːn"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˈəʊbərʒiːn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAubergine(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

@@ -78,7 +78,7 @@ class EnglishEntryacknowledgement extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əkˈnɒlɪdʒmənt/"),
+                            const IPAofEnglish(text: "IpaUK: /əkˈnɒlɪdʒmənt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAcknowledgement(
                                   // DOPSUM: CHANGE THE WORD ABOVE

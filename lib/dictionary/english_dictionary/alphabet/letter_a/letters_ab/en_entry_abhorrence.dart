@@ -60,7 +60,7 @@ class EnglishEntryabhorrence extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əbˈhɒrəns/"),
+                            const IPAofEnglish(text: "IpaUK: /əbˈhɒrəns/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAbhorrence(
                                   // DOPSUM: CHANGE THE WORD ABOVE

@@ -76,7 +76,7 @@ class EnglishEntryaccuracy extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈækjərəsi/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈækjərəsi/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAccuracy(// DOPSUM: CHANGE THE WORD ABOVE

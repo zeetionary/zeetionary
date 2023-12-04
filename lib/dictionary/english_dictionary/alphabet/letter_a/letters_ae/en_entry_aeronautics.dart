@@ -75,7 +75,7 @@ class EnglishEntryaeronautics extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˌeərəˈnɔːtɪks/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌeərəˈnɔːtɪks/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAeronautics(
                                   // DOPSUM: CHANGE THE WORD ABOVE

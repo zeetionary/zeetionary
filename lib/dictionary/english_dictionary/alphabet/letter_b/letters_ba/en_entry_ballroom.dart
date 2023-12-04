@@ -129,7 +129,7 @@ class EnglishEntryballroom extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈbɔːlruːm/,  /ˈbɔːlrʊm"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˈbɔːlruːm/,  /ˈbɔːlrʊm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakBallroom(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

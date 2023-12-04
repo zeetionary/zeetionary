@@ -130,7 +130,7 @@ class EnglishEntrybackbencher extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˌbækˈbentʃər"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˌbækˈbentʃər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakA3(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

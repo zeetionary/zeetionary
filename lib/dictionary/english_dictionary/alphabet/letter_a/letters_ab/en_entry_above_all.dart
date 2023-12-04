@@ -58,7 +58,7 @@ class EnglishEntryaboveall extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈbʌv ɔːl/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈbʌv ɔːl/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAboveall(// DOPSUM: CHANGE THE WORD ABOVE

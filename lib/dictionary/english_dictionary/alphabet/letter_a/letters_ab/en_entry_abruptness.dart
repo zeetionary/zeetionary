@@ -60,7 +60,7 @@ class EnglishEntryabruptness extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈbrʌptnəs/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈbrʌptnəs/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAbruptness(
                                   // DOPSUM: CHANGE THE WORD ABOVE

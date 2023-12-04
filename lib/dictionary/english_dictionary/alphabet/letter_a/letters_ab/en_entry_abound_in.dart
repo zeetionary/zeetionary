@@ -59,7 +59,7 @@ class EnglishEntryaboundin extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈbaʊnd ɪn/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈbaʊnd ɪn/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAboundin(// DOPSUM: CHANGE THE WORD ABOVE

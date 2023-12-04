@@ -129,7 +129,7 @@ class EnglishEntrybadminton extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈbædmɪntən"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˈbædmɪntən/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakBadminton(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

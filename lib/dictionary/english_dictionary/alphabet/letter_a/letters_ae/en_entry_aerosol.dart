@@ -76,7 +76,7 @@ class EnglishEntryaerosol extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈeərəsɒl/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈeərəsɒl/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAerosol(// DOPSUM: CHANGE THE WORD ABOVE

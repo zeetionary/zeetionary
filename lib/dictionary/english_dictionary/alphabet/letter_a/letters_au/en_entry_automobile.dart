@@ -138,7 +138,7 @@ class EnglishEntryautomobile extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈɔːtəməbiːl"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˈɔːtəməbiːl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAutomobile(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

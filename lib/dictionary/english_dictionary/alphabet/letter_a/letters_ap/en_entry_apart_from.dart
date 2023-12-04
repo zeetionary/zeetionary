@@ -211,7 +211,7 @@ class EnglishEntryapartfrom extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ئامراز) سەرەڕای شتێک، ھەروەھا"""),
+٢. (ئامراز) سەرەڕای شتێک، ھەروەھا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

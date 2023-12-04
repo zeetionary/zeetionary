@@ -77,7 +77,7 @@ class EnglishEntryadvanced extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ədˈvɑːnst/"),
+                            const IPAofEnglish(text: "IpaUK: /ədˈvɑːnst/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAdvanced(// DOPSUM: CHANGE THE WORD ABOVE

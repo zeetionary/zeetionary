@@ -130,7 +130,7 @@ class EnglishEntrybankholiday extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˌbæŋk ˈhɑːlədeɪ"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˌbæŋk ˈhɑːlədeɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakBankholiday(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

@@ -186,7 +186,7 @@ class EnglishEntrybaroque extends StatelessWidget {
                             ],
                           ),
                           // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) پەیوەندیدار بە ستایلی ناوازە و پڕ لە ڕازاندنەوەی بیناسازی و ھونەر و میوزیکی ئەورووپی لە سەدەکانی ١٧ و ١٨ """),
                           Row(

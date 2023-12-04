@@ -19,7 +19,7 @@ class Pallete {
   static var redColor = Colors.red.shade500;
   static var blueColor = Colors.blue.shade300;
   static var tabsbackgroundColor =
-      Color.fromARGB(113, 244, 67, 54); // fromARGB(110, 162, 239, 20);
+      const Color.fromARGB(113, 244, 67, 54); // fromARGB(110, 162, 239, 20);
   // static var tabsbackgroundColor =
   //     const Color.fromARGB(110, 162, 239, 20); // fromARGB(110, 162, 239, 20);
 

@@ -133,7 +133,7 @@ class EnglishEntryaward extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /əˈwɔːrd"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /əˈwɔːrd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAward(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

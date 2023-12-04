@@ -76,7 +76,7 @@ class EnglishEntryaghast extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈɡɑːst/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈɡɑːst/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAghast(// DOPSUM: CHANGE THE WORD ABOVE

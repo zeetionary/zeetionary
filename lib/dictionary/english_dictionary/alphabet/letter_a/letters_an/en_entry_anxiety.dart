@@ -65,7 +65,8 @@ class EnglishEntryanxiety extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anxiety"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "A couple of photographers fell over themselves in their anxiety to get a shot of her."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAnxiety(String languageCode) async {

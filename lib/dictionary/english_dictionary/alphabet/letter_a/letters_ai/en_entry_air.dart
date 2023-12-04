@@ -212,7 +212,7 @@ class EnglishEntryair extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/eə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /eə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAir(// DOPSUM: CHANGE THE WORD ABOVE

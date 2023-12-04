@@ -58,7 +58,7 @@ class EnglishEntryabbey extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈæbi/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈæbi/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAbbey(// DOPSUM: CHANGE THE WORD ABOVE

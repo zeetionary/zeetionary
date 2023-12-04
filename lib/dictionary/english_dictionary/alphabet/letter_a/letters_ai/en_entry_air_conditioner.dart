@@ -76,7 +76,8 @@ class EnglishEntryairconditioner extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈeə kəndɪʃənə(r)/"),
+                            const IPAofEnglish(
+                                text: "IpaUK:/ˈeə kəndɪʃənə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAirconditioner(
                                   // DOPSUM: CHANGE THE WORD ABOVE

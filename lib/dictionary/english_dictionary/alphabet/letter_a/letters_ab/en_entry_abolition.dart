@@ -59,7 +59,7 @@ class EnglishEntryabolition extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˌæbəˈlɪʃn/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌæbəˈlɪʃn/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAbolition(
                                   // DOPSUM: CHANGE THE WORD ABOVE

@@ -210,7 +210,7 @@ class EnglishEntrybash extends StatelessWidget {
                             ],
                           ),
                           // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) لێدانێکی توند"""),
                           Row(
@@ -228,7 +228,7 @@ class EnglishEntrybash extends StatelessWidget {
                             ],
                           ),
                           // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) ئاھەنگێکی گەورە"""),
                           Row(

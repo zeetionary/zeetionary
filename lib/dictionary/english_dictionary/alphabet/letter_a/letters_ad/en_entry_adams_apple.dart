@@ -75,7 +75,7 @@ class EnglishEntryadamsapple extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˌædəmz ˈæpl/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌædəmz ˈæpl/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAdamsapple(
                                   // DOPSUM: CHANGE THE WORD ABOVE

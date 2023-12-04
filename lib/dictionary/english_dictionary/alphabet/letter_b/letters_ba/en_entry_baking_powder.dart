@@ -130,7 +130,7 @@ class EnglishEntrybakingpowder extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈbeɪkɪŋ paʊdər"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˈbeɪkɪŋ paʊdər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakBakingpowder(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

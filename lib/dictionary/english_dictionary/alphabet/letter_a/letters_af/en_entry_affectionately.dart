@@ -76,7 +76,7 @@ class EnglishEntryaffectionately extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈfekʃənətli/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈfekʃənətli/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAffectionately(
                                   // DOPSUM: CHANGE THE WORD ABOVE

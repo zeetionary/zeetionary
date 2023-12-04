@@ -76,7 +76,7 @@ class EnglishEntryacrimony extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈækrɪməni/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈækrɪməni/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAcrimony(
                                   // DOPSUM: CHANGE THE WORD ABOVE

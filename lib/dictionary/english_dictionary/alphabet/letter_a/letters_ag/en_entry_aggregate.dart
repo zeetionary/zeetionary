@@ -78,7 +78,7 @@ class EnglishEntryaggregate extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈæɡrɪɡət/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈæɡrɪɡət/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAggregate(
                                   // DOPSUM: CHANGE THE WORD ABOVE

@@ -76,7 +76,7 @@ class EnglishEntryadjudication extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˌdʒuːdɪˈkeɪʃn/"),
+                            const IPAofEnglish(text: "IpaUK: /əˌdʒuːdɪˈkeɪʃn/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAdjudication(
                                   // DOPSUM: CHANGE THE WORD ABOVE

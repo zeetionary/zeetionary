@@ -129,7 +129,7 @@ class EnglishEntrybarbarity extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /bɑːrˈbærəti"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /bɑːrˈbærəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakBarbarity(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

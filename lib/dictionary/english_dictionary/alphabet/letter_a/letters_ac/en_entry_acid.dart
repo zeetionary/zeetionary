@@ -77,7 +77,7 @@ class EnglishEntryacid extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈæsɪd/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈæsɪd/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAcid(// DOPSUM: CHANGE THE WORD ABOVE

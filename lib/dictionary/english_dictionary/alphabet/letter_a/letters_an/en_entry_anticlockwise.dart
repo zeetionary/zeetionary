@@ -217,7 +217,7 @@ class EnglishEntryanticlockwise extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کلیلەکە بە ئاراستەی پێچيوانەی میلی کاتژمێر"),
+                                      "کلیلەکە بە ئاراستەی پێچيوانەی میلی کاتژمێر."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnticlockwise859("en-GB"),
                               ),

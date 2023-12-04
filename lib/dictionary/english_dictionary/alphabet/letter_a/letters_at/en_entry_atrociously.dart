@@ -139,7 +139,7 @@ class EnglishEntryatrociously extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /əˈtrəʊʃəsli"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /əˈtrəʊʃəsli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAtrociously(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

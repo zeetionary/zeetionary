@@ -60,7 +60,8 @@ class EnglishEntryabsolutemajority extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˌæbsəluːt məˈdʒɒrəti/"),
+                            const IPAofEnglish(
+                                text: "IpaUK:/ˌæbsəluːt məˈdʒɒrəti/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAbsolutemajority(
                                   // DOPSUM: CHANGE THE WORD ABOVE

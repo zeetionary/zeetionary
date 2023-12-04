@@ -138,7 +138,7 @@ class EnglishEntryatomicbomb extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /əˌtɑːmɪk ˈbɑːm"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /əˌtɑːmɪk ˈbɑːm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAtomicbomb(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

@@ -77,7 +77,7 @@ class EnglishEntryaddictive extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈdɪktɪv/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈdɪktɪv/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAddictive(
                                   // DOPSUM: CHANGE THE WORD ABOVE

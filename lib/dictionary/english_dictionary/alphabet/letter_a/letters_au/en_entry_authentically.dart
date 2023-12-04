@@ -138,7 +138,7 @@ class EnglishEntryauthentically extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ɔːˈθentɪkli"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ɔːˈθentɪkli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAuthentically(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

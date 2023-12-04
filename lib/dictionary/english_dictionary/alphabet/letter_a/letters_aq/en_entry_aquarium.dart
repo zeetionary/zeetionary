@@ -214,7 +214,7 @@ class EnglishEntryaquarium extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) شوێنێک کە تێیدا ژمارەیەک پارچە گڵاسی گەورە ھەیە کە ماسی و گیانلەبەری دیکەی ئاوییان تێدان و خەڵکی سەردانی دەکەن"""),
+٢. (ناو) شوێنێک کە تێیدا ژمارەیەک پارچە گڵاسی گەورە ھەیە کە ماسی و گیانلەبەری دیکەی ئاوییان تێدان و خەڵکی سەردانی دەکەن"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

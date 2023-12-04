@@ -76,7 +76,7 @@ class EnglishEntryagronomy extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈɡrɒnəmi/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈɡrɒnəmi/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAgronomy(// DOPSUM: CHANGE THE WORD ABOVE

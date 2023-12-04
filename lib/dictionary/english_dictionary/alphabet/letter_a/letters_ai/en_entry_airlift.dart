@@ -77,7 +77,7 @@ class EnglishEntryairlift extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈeəlɪft/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈeəlɪft/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAirlift(// DOPSUM: CHANGE THE WORD ABOVE

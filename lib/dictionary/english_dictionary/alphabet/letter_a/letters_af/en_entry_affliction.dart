@@ -76,7 +76,7 @@ class EnglishEntryaffliction extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈflɪkʃn/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈflɪkʃn/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAffliction(
                                   // DOPSUM: CHANGE THE WORD ABOVE

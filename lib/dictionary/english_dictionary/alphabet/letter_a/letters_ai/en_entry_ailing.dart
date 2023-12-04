@@ -77,7 +77,7 @@ class EnglishEntryailing extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈeɪlɪŋ/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈeɪlɪŋ/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAiling(// DOPSUM: CHANGE THE WORD ABOVE

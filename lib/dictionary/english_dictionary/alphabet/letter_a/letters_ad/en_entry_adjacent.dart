@@ -76,7 +76,7 @@ class EnglishEntryadjacent extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈdʒeɪsnt/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈdʒeɪsnt/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAdjacent(// DOPSUM: CHANGE THE WORD ABOVE

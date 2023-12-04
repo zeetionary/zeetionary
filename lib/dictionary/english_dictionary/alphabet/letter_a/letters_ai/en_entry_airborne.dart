@@ -76,7 +76,7 @@ class EnglishEntryairborne extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈeəbɔːn/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈeəbɔːn/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAirborne(// DOPSUM: CHANGE THE WORD ABOVE

@@ -57,7 +57,7 @@ class EnglishEntryabacus extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈæbəkəs/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈæbəkəs/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAbacus(// DOPSUM: CHANGE THE WORD ABOVE

@@ -131,7 +131,7 @@ class EnglishEntrybandwidth extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈbændwɪdθ/,  /ˈbændwɪtθ"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˈbændwɪdθ/,  /ˈbændwɪtθ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakBandwidth(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

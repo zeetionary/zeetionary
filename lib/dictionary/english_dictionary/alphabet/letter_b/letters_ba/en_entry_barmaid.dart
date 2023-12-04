@@ -129,7 +129,7 @@ class EnglishEntrybarmaid extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈbɑːrmeɪd"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˈbɑːrmeɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakBarmaid(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

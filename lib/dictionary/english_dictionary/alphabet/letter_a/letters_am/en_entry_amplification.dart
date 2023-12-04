@@ -194,7 +194,7 @@ class EnglishEntryamplification extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەھێزکردنی ئەم وزەیە یارمەتیدەرە بۆ پیتاندنی ناوچەی دەورووبەر"),
+                                      "بەھێزکردنی ئەم وزەیە یارمەتیدەرە بۆ پیتاندنی ناوچەی دەورووبەر."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmplification102("en-GB"),
                               ),

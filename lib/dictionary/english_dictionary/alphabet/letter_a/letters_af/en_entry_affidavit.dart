@@ -76,7 +76,7 @@ class EnglishEntryaffidavit extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˌæfəˈdeɪvɪt/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌæfəˈdeɪvɪt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAffidavit(
                                   // DOPSUM: CHANGE THE WORD ABOVE

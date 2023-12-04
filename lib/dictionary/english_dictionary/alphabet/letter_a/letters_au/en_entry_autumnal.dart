@@ -129,7 +129,7 @@ class EnglishEntryautumnal extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ɔːˈtʌmnəl"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ɔːˈtʌmnəl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAutumnal(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

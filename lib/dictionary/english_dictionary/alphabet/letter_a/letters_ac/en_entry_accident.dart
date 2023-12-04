@@ -77,7 +77,7 @@ class EnglishEntryaccident extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈæksɪdənt/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈæksɪdənt/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAccident(// DOPSUM: CHANGE THE WORD ABOVE

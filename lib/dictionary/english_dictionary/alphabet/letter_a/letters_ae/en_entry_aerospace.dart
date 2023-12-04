@@ -75,7 +75,7 @@ class EnglishEntryaerospace extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈeərəʊspeɪs/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈeərəʊspeɪs/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAerospace(
                                   // DOPSUM: CHANGE THE WORD ABOVE

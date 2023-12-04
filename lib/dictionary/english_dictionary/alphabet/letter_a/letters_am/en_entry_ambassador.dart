@@ -77,10 +77,9 @@ class EnglishEntryambassador extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              "IpaUK: /æmˈbæsədə(r)/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUK: /æmˈbæsədə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () => speakAmbassador(
                                   // DOPSUM: CHANGE THE WORD ABOVE
@@ -90,10 +89,9 @@ class EnglishEntryambassador extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              "IpaUS: /æmˈbæsədər/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /æmˈbæsədər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAmbassador(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
@@ -156,7 +154,7 @@ class EnglishEntryambassador extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "باڵیۆزی ئەمریکا لە ناڕەزاییدا کشێندرایەوە لە میسر"),
+                                      "باڵیۆزی ئەمریکا لە ناڕەزاییدا کشێندرایەوە لە میسر."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmbassador56661("en-GB"),
                               ),

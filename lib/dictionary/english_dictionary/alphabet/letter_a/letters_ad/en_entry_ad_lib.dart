@@ -77,7 +77,7 @@ class EnglishEntryadlib extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˌæd ˈlɪb/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌæd ˈlɪb/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAdlib(// DOPSUM: CHANGE THE WORD ABOVE

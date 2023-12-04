@@ -138,7 +138,7 @@ class EnglishEntryattachecase extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˌætəˈʃeɪ keɪs"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˌætəˈʃeɪ keɪs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAttachecase(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

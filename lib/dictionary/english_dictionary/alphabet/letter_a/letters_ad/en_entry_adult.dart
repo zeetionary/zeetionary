@@ -77,7 +77,8 @@ class EnglishEntryadult extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈædʌlt/, /əˈdʌlt/"),
+                            const IPAofEnglish(
+                                text: "IpaUK:/ˈædʌlt/, /əˈdʌlt/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAdult(// DOPSUM: CHANGE THE WORD ABOVE

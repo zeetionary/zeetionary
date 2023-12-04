@@ -77,7 +77,7 @@ class EnglishEntryafternoon extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˌɑːftəˈnuːn/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌɑːftəˈnuːn/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAfternoon(
                                   // DOPSUM: CHANGE THE WORD ABOVE

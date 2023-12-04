@@ -76,7 +76,7 @@ class EnglishEntryaglow extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈɡləʊ/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈɡləʊ/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAglow(// DOPSUM: CHANGE THE WORD ABOVE

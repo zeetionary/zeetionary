@@ -188,7 +188,7 @@ class EnglishEntrybareback extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ھاوەڵکار) سوارچاکی بەبێ زین"""),
+٢. (ھاوەڵکار) سوارچاکی بەبێ زین"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

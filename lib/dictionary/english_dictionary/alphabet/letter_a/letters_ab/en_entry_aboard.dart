@@ -68,7 +68,7 @@ class EnglishEntryaboard extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈbɔːd/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈbɔːd/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAboard(// DOPSUM: CHANGE THE WORD ABOVE

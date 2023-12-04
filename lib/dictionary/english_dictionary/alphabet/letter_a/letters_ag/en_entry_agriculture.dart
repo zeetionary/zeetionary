@@ -76,7 +76,7 @@ class EnglishEntryagriculture extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈæɡrɪkʌltʃə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈæɡrɪkʌltʃə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAgriculture(
                                   // DOPSUM: CHANGE THE WORD ABOVE

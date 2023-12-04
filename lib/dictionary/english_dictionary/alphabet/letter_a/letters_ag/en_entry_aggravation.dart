@@ -77,7 +77,7 @@ class EnglishEntryaggravation extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˌæɡrəˈveɪʃn/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌæɡrəˈveɪʃn/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAggravation(
                                   // DOPSUM: CHANGE THE WORD ABOVE

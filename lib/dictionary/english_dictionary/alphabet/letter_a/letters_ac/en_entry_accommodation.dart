@@ -87,7 +87,7 @@ class EnglishEntryaccommodation extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˌkɒməˈdeɪʃn/"),
+                            const IPAofEnglish(text: "IpaUK: /əˌkɒməˈdeɪʃn/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAccommodation(
                                   // DOPSUM: CHANGE THE WORD ABOVE

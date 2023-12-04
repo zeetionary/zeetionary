@@ -60,7 +60,7 @@ class EnglishEntryabbreviation extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˌbriːviˈeɪʃn/"),
+                            const IPAofEnglish(text: "IpaUK: /əˌbriːviˈeɪʃn/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAbbreviation(
                                   // DOPSUM: CHANGE THE WORD ABOVE

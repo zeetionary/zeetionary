@@ -60,7 +60,7 @@ class EnglishEntryaccountant extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈkaʊntənt/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈkaʊntənt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAccountant(
                                   // DOPSUM: CHANGE THE WORD ABOVE

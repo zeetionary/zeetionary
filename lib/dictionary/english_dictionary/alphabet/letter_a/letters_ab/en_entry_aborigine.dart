@@ -50,7 +50,7 @@ class EnglishEntryaborigine extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˌæbəˈrɪdʒəni/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌæbəˈrɪdʒəni/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAborigine(
                                   // DOPSUM: CHANGE THE WORD ABOVE

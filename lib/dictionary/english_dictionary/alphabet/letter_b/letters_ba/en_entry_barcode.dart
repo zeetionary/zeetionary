@@ -129,7 +129,7 @@ class EnglishEntrybarcode extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈbɑːrkəʊd"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˈbɑːrkəʊd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakBarcode(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

@@ -93,7 +93,7 @@ class EnglishEntryafloat extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈfləʊt/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈfləʊt/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAfloat(// DOPSUM: CHANGE THE WORD ABOVE

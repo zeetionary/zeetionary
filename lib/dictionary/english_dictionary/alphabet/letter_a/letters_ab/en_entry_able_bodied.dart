@@ -60,7 +60,7 @@ class EnglishEntryablebodied extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˌeɪbl ˈbɒdid/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌeɪbl ˈbɒdid/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAblebodied(
                                   // DOPSUM: CHANGE THE WORD ABOVE
@@ -121,7 +121,7 @@ class EnglishEntryablebodied extends StatelessWidget {
                                       "Military service is compulsory for every able-bodied male between 18 and 27."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "خزمەتی سەربازی بەزۆرەملێیە بۆ کەسانی 18 بۆ 27 ساڵ "),
+                                      "خزمەتی سەربازی بەزۆرەملێیە بۆ کەسانی تەندرووستی 18 بۆ 27 ساڵ "),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAb254("en-GB"),
                               ),

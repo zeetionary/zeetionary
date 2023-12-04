@@ -78,7 +78,7 @@ class EnglishEntryabsorption extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əbˈzɔːpʃn/"),
+                            const IPAofEnglish(text: "IpaUK: /əbˈzɔːpʃn/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAbsorption(
                                   // DOPSUM: CHANGE THE WORD ABOVE
@@ -161,7 +161,7 @@ class EnglishEntryabsorption extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) پڕۆسەی گرتنەخۆی گروپێکی بچووک لەلایەن یەکێکی گەورەترەوە """),
+٢. (ناو) پڕۆسەی گرتنەخۆی گروپێکی بچووک لەلایەن یەکێکی گەورەترەوە """),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -180,7 +180,7 @@ class EnglishEntryabsorption extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) کاتێک کەسێک زۆر حەز لە شتێک دەکات """),
+٣. (ناو) کاتێک کەسێک زۆر حەز لە شتێک دەکات """),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

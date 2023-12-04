@@ -95,7 +95,7 @@ class EnglishEntryadopt extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈdɒpt/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈdɒpt/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAdopt(// DOPSUM: CHANGE THE WORD ABOVE
@@ -185,7 +185,7 @@ class EnglishEntryadopt extends StatelessWidget {
                                   text:
                                       "The police adopted tighter security measures."),
                               const ExampleSentenceKurdish(
-                                  text: "پۆلیس ڕێکاری توندتری گرتەبەر"),
+                                  text: "پۆلیس ڕێکاری توندتری گرتەبەر."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAd25673("en-GB"),
                               ),

@@ -209,7 +209,7 @@ class EnglishEntrybarrow extends StatelessWidget {
                             ],
                           ),
                           // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) عەرەبانەی دەستی"""),
                           Row(

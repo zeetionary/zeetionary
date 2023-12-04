@@ -75,7 +75,7 @@ class EnglishEntryadverbial extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ædˈvɜːbiəl/"),
+                            const IPAofEnglish(text: "IpaUK: /ædˈvɜːbiəl/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAdverbial(
                                   // DOPSUM: CHANGE THE WORD ABOVE

@@ -77,7 +77,7 @@ class EnglishEntryagnostic extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/æɡˈnɒstɪk/"),
+                            const IPAofEnglish(text: "IpaUK: /æɡˈnɒstɪk/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAgnostic(// DOPSUM: CHANGE THE WORD ABOVE

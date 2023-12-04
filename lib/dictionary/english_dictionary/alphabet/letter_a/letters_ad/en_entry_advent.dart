@@ -76,7 +76,7 @@ class EnglishEntryadvent extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈædvent/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈædvent/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAdvent(// DOPSUM: CHANGE THE WORD ABOVE

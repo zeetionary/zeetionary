@@ -129,7 +129,7 @@ class EnglishEntryaviation extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˌeɪviˈeɪʃn"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˌeɪviˈeɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAviation(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

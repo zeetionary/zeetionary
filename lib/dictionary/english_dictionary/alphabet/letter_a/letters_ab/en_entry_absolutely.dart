@@ -76,7 +76,7 @@ class EnglishEntryabsolutely extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈæbsəluːtli/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈæbsəluːtli/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAbsolutely(
                                   // DOPSUM: CHANGE THE WORD ABOVE
@@ -172,7 +172,7 @@ class EnglishEntryabsolutely extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ھاوەڵکار) لەگەڵ ھاوەڵناو بەکاردێت بۆ دەربڕینی ھەست بەتەواوی"""),
+٢. (ھاوەڵکار) لەگەڵ ھاوەڵناو بەکاردێت بۆ دەربڕینی ھەست بەتەواوی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

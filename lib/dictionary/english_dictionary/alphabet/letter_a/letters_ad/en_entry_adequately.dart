@@ -76,7 +76,7 @@ class EnglishEntryadequately extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈædɪkwətli/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈædɪkwətli/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAdequately(
                                   // DOPSUM: CHANGE THE WORD ABOVE

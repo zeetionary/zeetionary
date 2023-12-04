@@ -77,7 +77,8 @@ class EnglishEntryaccumulation extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˌkjuːmjəˈleɪʃn/"),
+                            const IPAofEnglish(
+                                text: "IpaUK: /əˌkjuːmjəˈleɪʃn/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAccumulation(
                                   // DOPSUM: CHANGE THE WORD ABOVE

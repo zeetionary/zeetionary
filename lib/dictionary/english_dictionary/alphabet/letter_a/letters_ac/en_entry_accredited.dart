@@ -69,7 +69,7 @@ class EnglishEntryaccredited extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈkredɪtɪd/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈkredɪtɪd/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAccredited(
                                   // DOPSUM: CHANGE THE WORD ABOVE

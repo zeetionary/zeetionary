@@ -95,7 +95,7 @@ class EnglishEntryadd extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/æd/"),
+                            const IPAofEnglish(text: "IpaUK: /æd/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAdd(// DOPSUM: CHANGE THE WORD ABOVE
@@ -217,7 +217,7 @@ class EnglishEntryadd extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (کردار) زیادلرتنی قسەیەک بۆ شتێک کە پێشتر وتووتە"""),
+٣. (کردار) زیادکردنی قسەیەک بۆ شتێک کە پێشتر وتووتە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

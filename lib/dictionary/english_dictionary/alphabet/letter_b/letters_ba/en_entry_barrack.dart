@@ -186,7 +186,7 @@ class EnglishEntrybarrack extends StatelessWidget {
                             ],
                           ),
                           // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ھاوارکردن بۆ قسەبڕین بە کەسێک کە لەگەڵی ناڕازیت"""),
                           Row(

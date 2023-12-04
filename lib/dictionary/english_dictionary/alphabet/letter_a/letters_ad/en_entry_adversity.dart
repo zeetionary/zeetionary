@@ -75,7 +75,7 @@ class EnglishEntryadversity extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ədˈvɜːsəti/"),
+                            const IPAofEnglish(text: "IpaUK: /ədˈvɜːsəti/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAdversity(
                                   // DOPSUM: CHANGE THE WORD ABOVE

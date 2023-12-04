@@ -77,7 +77,7 @@ class EnglishEntryadjourn extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈdʒɜːn/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈdʒɜːn/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAdjourn(// DOPSUM: CHANGE THE WORD ABOVE

@@ -129,7 +129,7 @@ class EnglishEntryabove extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈbʌv/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈbʌv/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAbove(// DOPSUM: CHANGE THE WORD ABOVE
@@ -319,7 +319,7 @@ class EnglishEntryabove extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "children aged 12 and above"),
                               const ExampleSentenceKurdish(
-                                  text: "منداڵانی تەمەن ١٢ ساڵ یان زیاتر"),
+                                  text: "منداڵانی تەمەن ١٢ ساڵ یان زیاتر."),
                               CustomIconButtonBritish(
                                 onPressed: () => speak1529("en-GB"),
                               ),

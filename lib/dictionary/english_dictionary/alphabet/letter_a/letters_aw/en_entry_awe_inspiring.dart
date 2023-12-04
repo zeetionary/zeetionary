@@ -130,7 +130,7 @@ class EnglishEntryaweinspiring extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈɔː ɪnspaɪərɪŋ"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˈɔː ɪnspaɪərɪŋ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAweinspiring(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

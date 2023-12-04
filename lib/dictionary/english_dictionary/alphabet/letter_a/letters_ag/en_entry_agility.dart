@@ -77,7 +77,7 @@ class EnglishEntryagility extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈdʒɪləti/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈdʒɪləti/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAgility(// DOPSUM: CHANGE THE WORD ABOVE

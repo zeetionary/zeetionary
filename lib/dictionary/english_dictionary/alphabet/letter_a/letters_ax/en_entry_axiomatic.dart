@@ -129,7 +129,7 @@ class EnglishEntryaxiomatic extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˌæksiəˈmætɪk"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˌæksiəˈmætɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAxiomatic(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

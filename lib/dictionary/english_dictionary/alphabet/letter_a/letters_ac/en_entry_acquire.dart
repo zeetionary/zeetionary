@@ -78,7 +78,7 @@ class EnglishEntryacquire extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈkwaɪə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈkwaɪə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAcquire(// DOPSUM: CHANGE THE WORD ABOVE

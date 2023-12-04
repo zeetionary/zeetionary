@@ -75,7 +75,7 @@ class EnglishEntryacorn extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈeɪkɔːn/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈeɪkɔːn/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAcorn(// DOPSUM: CHANGE THE WORD ABOVE

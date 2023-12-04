@@ -296,7 +296,8 @@ class EnglishEntryabuse extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "The boy had been sexually abused."),
                               const ExampleSentenceKurdish(
-                                  text: "کوڕەکە دەستدرێژیی سێکسیی کرابووە سەر"),
+                                  text:
+                                      "کوڕەکە دەستدرێژیی سێکسیی کرابووە سەر."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA5741("en-GB"),
                               ),

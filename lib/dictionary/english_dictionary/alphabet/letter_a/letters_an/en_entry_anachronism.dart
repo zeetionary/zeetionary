@@ -219,7 +219,7 @@ class EnglishEntryanachronism extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کتێبەکە پڕە لە پاش‌وپێش‌گەری، ئەمەش واتە ھەندێکی دووبارە نووسرایەوە لە سەدەکانی دواتر"),
+                                      "کتێبەکە پڕە لە پاش‌وپێش‌گەری، ئەمەش واتە ھەندێکی دووبارە نووسرایەوە لە سەدەکانی دواتر."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnachronism0205("en-GB"),
                               ),

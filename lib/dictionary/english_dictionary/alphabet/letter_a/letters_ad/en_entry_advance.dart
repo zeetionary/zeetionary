@@ -166,7 +166,7 @@ class EnglishEntryadvance extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ədˈvɑːns/"),
+                            const IPAofEnglish(text: "IpaUK: /ədˈvɑːns/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAdvance(// DOPSUM: CHANGE THE WORD ABOVE
@@ -445,7 +445,7 @@ class EnglishEntryadvance extends StatelessWidget {
                                       "Participants advance through the program by answering a series of questions."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەژداربووان دەچنە قۆناغەکانی دواتری پڕۆگرامەکە بە وەڵامدانەوەی ژمارەیەک پرسیار"),
+                                      "بەژداربووان دەچنە قۆناغەکانی دواتری پڕۆگرامەکە بە وەڵامدانەوەی ژمارەیەک پرسیار."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdv9678("en-GB"),
                               ),

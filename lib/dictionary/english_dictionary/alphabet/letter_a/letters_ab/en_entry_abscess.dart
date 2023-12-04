@@ -50,7 +50,7 @@ class EnglishEntryabscess extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈæbses/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈæbses/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAbscess(// DOPSUM: CHANGE THE WORD ABOVE

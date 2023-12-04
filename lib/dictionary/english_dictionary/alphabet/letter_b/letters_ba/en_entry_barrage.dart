@@ -189,7 +189,7 @@ class EnglishEntrybarrage extends StatelessWidget {
                             ],
                           ),
                           // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ڕێژەیەکی زۆر لە شتێک، بۆ نموونە پرسیار و ڕەخنە، ڕووبەڕووی کەسێک یەک‌ لەدوای یەک و بەخێرایی، زۆرجار بەشێوەیەکی توند"""),
                           Row(
@@ -209,7 +209,7 @@ class EnglishEntrybarrage extends StatelessWidget {
                             ],
                           ),
                           // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) دیوارێک کە لەسەر ڕووبارێک درووستدەکرێت بۆ کۆگاکردنی ئاو، ڕێگری لە لافاو، ھتد."""),
                           Row(

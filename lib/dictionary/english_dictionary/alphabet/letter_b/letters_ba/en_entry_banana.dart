@@ -129,7 +129,7 @@ class EnglishEntrybanana extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /bəˈnænə"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /bəˈnænə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakBanana(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

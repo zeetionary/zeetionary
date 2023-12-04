@@ -76,7 +76,7 @@ class EnglishEntryacquiescence extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˌækwiˈesns/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌækwiˈesns/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAcquiescence(
                                   // DOPSUM: CHANGE THE WORD ABOVE

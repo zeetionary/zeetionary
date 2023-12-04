@@ -59,7 +59,7 @@ class EnglishEntryabridge extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈbrɪdʒ/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈbrɪdʒ/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAbridge(// DOPSUM: CHANGE THE WORD ABOVE

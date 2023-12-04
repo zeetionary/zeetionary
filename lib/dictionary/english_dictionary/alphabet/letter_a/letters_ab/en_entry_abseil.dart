@@ -59,7 +59,7 @@ class EnglishEntryabseil extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈæbseɪl/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈæbseɪl/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAbseil(// DOPSUM: CHANGE THE WORD ABOVE
@@ -129,7 +129,7 @@ class EnglishEntryabseil extends StatelessWidget {
                                       "I was a little scared when I first abseiled."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کەمێک تەساوبووم کە یەکەمجار بە ھەڵدێرێکدا ھاتمە خوارەوە بە تەناف"),
+                                      "کەمێک تاساوبووم کە یەکەمجار بە ھەڵدێرێکدا ھاتمە خوارەوە بە تەناف."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA6271("en-GB"),
                               ),

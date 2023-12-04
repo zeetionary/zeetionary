@@ -76,7 +76,7 @@ class EnglishEntryacquaint extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈkweɪnt/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈkweɪnt/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAcquaint(// DOPSUM: CHANGE THE WORD ABOVE

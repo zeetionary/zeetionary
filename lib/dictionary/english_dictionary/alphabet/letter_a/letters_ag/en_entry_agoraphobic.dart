@@ -76,7 +76,7 @@ class EnglishEntryagoraphobic extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˌæɡərəˈfəʊbɪk/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌæɡərəˈfəʊbɪk/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAgoraphobic(
                                   // DOPSUM: CHANGE THE WORD ABOVE

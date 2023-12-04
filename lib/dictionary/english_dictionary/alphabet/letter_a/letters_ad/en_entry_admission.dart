@@ -95,7 +95,7 @@ class EnglishEntryadmission extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ədˈmɪʃn/"),
+                            const IPAofEnglish(text: "IpaUK: /ədˈmɪʃn/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAdmission(
                                   // DOPSUM: CHANGE THE WORD ABOVE

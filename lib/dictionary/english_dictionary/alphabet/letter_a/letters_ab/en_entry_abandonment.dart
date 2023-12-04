@@ -60,7 +60,7 @@ class EnglishEntryabandonment extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈbændənmənt/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈbændənmənt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAbandonment(
                                   // DOPSUM: CHANGE THE WORD ABOVE

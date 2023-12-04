@@ -69,7 +69,7 @@ class EnglishEntryacademically extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˌækəˈdemɪkli/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌækəˈdemɪkli/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAcademically(
                                   // DOPSUM: CHANGE THE WORD ABOVE

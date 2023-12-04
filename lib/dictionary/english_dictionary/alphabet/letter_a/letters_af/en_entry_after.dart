@@ -199,7 +199,7 @@ class EnglishEntryafter extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈɑːftə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈɑːftə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAfter(// DOPSUM: CHANGE THE WORD ABOVE
@@ -267,10 +267,10 @@ class EnglishEntryafter extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "We'll leave after lunch."),
+                                  text: "We'll leave after lunch."),
                               const ExampleSentenceKurdish(
-                                  text: "لەدوای نانی نیوەڕۆ دەچین."), // nnothing kurdi
+                                  text:
+                                      "لەدوای نانی نیوەڕۆ دەچین."), // nnothing kurdi
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfter157("en-GB"),
                               ),
@@ -288,7 +288,8 @@ class EnglishEntryafter extends StatelessWidget {
                                   text:
                                       "After winning the prize she became famous overnight."),
                               const ExampleSentenceKurdish(
-                                  text: "لەدوای بردنەوەی خەڵاتەکە لە شەو و ڕۆژێکدا بەناوبانگ بوو."), // nnothing kurdi
+                                  text:
+                                      "لەدوای بردنەوەی خەڵاتەکە لە شەو و ڕۆژێکدا بەناوبانگ بوو."), // nnothing kurdi
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfter2499("en-GB"),
                               ),
@@ -308,7 +309,8 @@ class EnglishEntryafter extends StatelessWidget {
                                   text:
                                       "Your name comes after mine in the list."),
                               const ExampleSentenceKurdish(
-                                  text: "ناوت لەدوای ھی منەوەیە لە لیستەکەدا."), // nnothing kurdi
+                                  text:
+                                      "ناوت لەدوای ھی منەوەیە لە لیستەکەدا."), // nnothing kurdi
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfter4888("en-GB"),
                               ),
@@ -323,10 +325,10 @@ class EnglishEntryafter extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "He's the tallest, after Richard."),
+                                  text: "He's the tallest, after Richard."),
                               const ExampleSentenceKurdish(
-                                  text: "لەدوای ڕیچارد ئەو بەرزترینە."), // nnothing kurdi
+                                  text:
+                                      "لەدوای ڕیچارد ئەو بەرزترینە."), // nnothing kurdi
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfter4666("en-GB"),
                               ),
@@ -343,10 +345,10 @@ class EnglishEntryafter extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "Shut the door after you."),
+                                  text: "Shut the door after you."),
                               const ExampleSentenceKurdish(
-                                  text: "دەرگاکە بگرە لەدوای خۆت."), // nnothing kurdi
+                                  text:
+                                      "دەرگاکە بگرە لەدوای خۆت."), // nnothing kurdi
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfter7928("en-GB"),
                               ),
@@ -366,7 +368,8 @@ class EnglishEntryafter extends StatelessWidget {
                                   text:
                                       "It was pleasantly cool in the house after the heat outside."),
                               const ExampleSentenceKurdish(
-                                  text: "لە ماڵەوە فێنک و خۆش بوو بەراورد بە گەرماکەی دەرەوە."), // nnothing kurdi
+                                  text:
+                                      "لە ماڵەوە فێنک و خۆش بوو بەراورد بە گەرماکەی دەرەوە."), // nnothing kurdi
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfter4855("en-GB"),
                               ),
@@ -406,7 +409,8 @@ class EnglishEntryafter extends StatelessWidget {
                                   text:
                                       "I can't believe she'd do that, not after all I've done for her."), // nnothing
                               const ExampleSentenceKurdish(
-                                  text: "باوەڕناکەم ئەوەی کرد، سەرەڕای ئەو ھەموو شتەی بۆم کردە."),
+                                  text:
+                                      "باوەڕناکەم ئەوەی کرد، سەرەڕای ئەو ھەموو شتەی بۆم کردە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfter96771("en-GB"),
                               ),
@@ -426,7 +430,8 @@ class EnglishEntryafter extends StatelessWidget {
                                   text:
                                       "I've told you time after time not to do that."), // nnothing
                               const ExampleSentenceKurdish(
-                                  text: "دووبارە و دووبارە پێم وتووی ئەوە نەکەیت."),
+                                  text:
+                                      "دووبارە و دووبارە پێم وتووی ئەوە نەکەیت."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfter152888("en-GB"),
                               ),
@@ -443,8 +448,7 @@ class EnglishEntryafter extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "The police are after him."),
+                                  text: "The police are after him."),
                               const ExampleSentenceKurdish(
                                   text: "پۆلیس بەدوایەتی."), // nnothing kurdi
                               CustomIconButtonBritish(
@@ -486,7 +490,8 @@ class EnglishEntryafter extends StatelessWidget {
                                   text:
                                       "We named the baby Ena after her grandmother."), // nnothing
                               const ExampleSentenceKurdish(
-                                  text: "منداڵەکەمان بەناوی داپیرەیەوە ناونا ئێنا."), // nnothing kurdi
+                                  text:
+                                      "منداڵەکەمان بەناوی داپیرەیەوە ناونا ئێنا."), // nnothing kurdi
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfter459322("en-GB"),
                               ),
@@ -506,7 +511,8 @@ class EnglishEntryafter extends StatelessWidget {
                                   text:
                                       "I'll call you after I've spoken to them."), // nnothing
                               const ExampleSentenceKurdish(
-                                  text: "پەیوەندیت پێوە دەکەم لەدوای ئەوەی قسەیان لەگەڵ دەکەم."), // nnothing kurdi
+                                  text:
+                                      "پەیوەندیت پێوە دەکەم لەدوای ئەوەی قسەیان لەگەڵ دەکەم."), // nnothing kurdi
                               CustomIconButtonBritish(
                                 onPressed: () => speakAft2566("en-GB"),
                               ),
@@ -524,7 +530,8 @@ class EnglishEntryafter extends StatelessWidget {
                                   text:
                                       "Several years after they'd split up they met again by chance in Paris."), // nnothing
                               const ExampleSentenceKurdish(
-                                  text: "چەند ساڵێک دوای ئەوەی جیابوونەوە، بە شانس یەکیان لە پاریس دیتەوە."), // nnothing kurdi
+                                  text:
+                                      "چەند ساڵێک دوای ئەوەی جیابوونەوە، بە شانس یەکیان لە پاریس دیتەوە."), // nnothing kurdi
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfte499352("en-GB"),
                               ),
@@ -544,7 +551,8 @@ class EnglishEntryafter extends StatelessWidget {
                                   text:
                                       "I could come next week, or the week after."), // nnothing
                               const ExampleSentenceKurdish(
-                                  text: "ھەفتەی دواتر دێم، یان ھەفتەی دوای ئەوە."), // nnothing kurdi
+                                  text:
+                                      "ھەفتەی دواتر دێم، یان ھەفتەی دوای ئەوە."), // nnothing kurdi
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfte98332("en-GB"),
                               ),

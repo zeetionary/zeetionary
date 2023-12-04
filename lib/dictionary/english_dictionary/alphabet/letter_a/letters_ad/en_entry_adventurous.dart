@@ -77,7 +77,7 @@ class EnglishEntryadventurous extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ədˈventʃərəs/"),
+                            const IPAofEnglish(text: "IpaUK: /ədˈventʃərəs/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAdventurous(
                                   // DOPSUM: CHANGE THE WORD ABOVE

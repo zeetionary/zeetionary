@@ -93,7 +93,7 @@ class EnglishEntryace extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/eɪs/"),
+                            const IPAofEnglish(text: "IpaUK: /eɪs/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAce(// DOPSUM: CHANGE THE WORD ABOVE

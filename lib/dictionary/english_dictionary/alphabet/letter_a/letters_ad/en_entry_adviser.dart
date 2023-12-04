@@ -76,7 +76,7 @@ class EnglishEntryadviser extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ədˈvaɪzə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /ədˈvaɪzə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAdviser(// DOPSUM: CHANGE THE WORD ABOVE

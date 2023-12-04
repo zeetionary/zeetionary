@@ -76,7 +76,7 @@ class EnglishEntryafraid extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈfreɪd/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈfreɪd/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAfraid(// DOPSUM: CHANGE THE WORD ABOVE

@@ -60,7 +60,7 @@ class EnglishEntryabdication extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˌæbdɪˈkeɪʃn/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌæbdɪˈkeɪʃn/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAbdication(
                                   // DOPSUM: CHANGE THE WORD ABOVE

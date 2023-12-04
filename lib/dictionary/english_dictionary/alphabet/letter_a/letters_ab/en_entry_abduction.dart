@@ -58,7 +58,7 @@ class EnglishEntryabduction extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/æbˈdʌkʃn/"),
+                            const IPAofEnglish(text: "IpaUK: /æbˈdʌkʃn/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAbduction(
                                   // DOPSUM: CHANGE THE WORD ABOVE

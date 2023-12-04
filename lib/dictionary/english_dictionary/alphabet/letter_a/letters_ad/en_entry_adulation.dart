@@ -76,7 +76,7 @@ class EnglishEntryadulation extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˌædjuˈleɪʃn/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌædjuˈleɪʃn/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAdulation(
                                   // DOPSUM: CHANGE THE WORD ABOVE

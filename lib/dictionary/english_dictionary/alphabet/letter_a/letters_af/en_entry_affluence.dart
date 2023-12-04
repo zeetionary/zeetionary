@@ -77,7 +77,7 @@ class EnglishEntryaffluence extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈæfluəns/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈæfluəns/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAffluence(
                                   // DOPSUM: CHANGE THE WORD ABOVE

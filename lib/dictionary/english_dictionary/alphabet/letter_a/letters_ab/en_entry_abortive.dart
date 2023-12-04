@@ -68,7 +68,7 @@ class EnglishEntryabortive extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈbɔːtɪv/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈbɔːtɪv/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAbortive(// DOPSUM: CHANGE THE WORD ABOVE

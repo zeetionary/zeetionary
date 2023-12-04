@@ -68,7 +68,7 @@ class EnglishEntryabsurd extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əbˈsɜːd/"),
+                            const IPAofEnglish(text: "IpaUK: /əbˈsɜːd/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAbsurd(// DOPSUM: CHANGE THE WORD ABOVE

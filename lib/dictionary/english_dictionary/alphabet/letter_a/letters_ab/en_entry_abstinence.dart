@@ -60,7 +60,7 @@ class EnglishEntryabstinence extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈæbstɪnəns/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈæbstɪnəns/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAbstinence(
                                   // DOPSUM: CHANGE THE WORD ABOVE

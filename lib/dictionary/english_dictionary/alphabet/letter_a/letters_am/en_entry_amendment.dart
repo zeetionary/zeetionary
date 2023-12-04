@@ -155,7 +155,7 @@ class EnglishEntryamendment extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پەرلەمان پڕۆژە یاساکەی تێپەڕاند بەبێ گۆڕانکاری زیاتر"),
+                                      "پەرلەمان پڕۆژە یاساکەی تێپەڕاند بەبێ گۆڕانکاری زیاتر."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmendment1244("en-GB"),
                               ),

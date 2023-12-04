@@ -129,7 +129,7 @@ class EnglishEntrybagpipes extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈbæɡpaɪps"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˈbæɡpaɪps/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakBagpipes(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

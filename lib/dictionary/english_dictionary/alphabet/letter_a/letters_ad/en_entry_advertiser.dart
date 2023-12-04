@@ -76,7 +76,7 @@ class EnglishEntryadvertiser extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈædvətaɪzə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈædvətaɪzə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAdvertiser(
                                   // DOPSUM: CHANGE THE WORD ABOVE

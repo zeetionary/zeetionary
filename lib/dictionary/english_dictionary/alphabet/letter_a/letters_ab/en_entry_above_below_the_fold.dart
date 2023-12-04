@@ -51,7 +51,8 @@ class EnglishEntryabovebelowthefold extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈbʌv/bɪˈləʊ ðə fəʊld/"),
+                            const IPAofEnglish(
+                                text: "IpaUK:/əˈbʌv/bɪˈləʊ ðə fəʊld/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAbovebelowthefold(
                                   // DOPSUM: CHANGE THE WORD ABOVE

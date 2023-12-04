@@ -77,7 +77,7 @@ class EnglishEntryabortion extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈbɔːʃn/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈbɔːʃn/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAbortion(// DOPSUM: CHANGE THE WORD ABOVE

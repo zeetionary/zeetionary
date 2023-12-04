@@ -76,7 +76,7 @@ class EnglishEntryacquainted extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈkweɪntɪd/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈkweɪntɪd/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAcquainted(
                                   // DOPSUM: CHANGE THE WORD ABOVE
@@ -146,7 +146,7 @@ class EnglishEntryacquainted extends StatelessWidget {
                                       "The students are already acquainted with the works of Shakespeare."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "خوێندکاران لەمێژە ئاشنان لەگەڵ کارەکانی شکسپیر"),
+                                      "خوێندکاران لەمێژە ئاشنان لەگەڵ کارەکانی شکسپیر."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAcqua24("en-GB"),
                               ),

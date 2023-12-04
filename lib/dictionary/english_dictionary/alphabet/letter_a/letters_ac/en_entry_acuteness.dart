@@ -77,7 +77,7 @@ class EnglishEntryacuteness extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈkjuːtnəs/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈkjuːtnəs/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAcuteness(
                                   // DOPSUM: CHANGE THE WORD ABOVE

@@ -87,7 +87,7 @@ class EnglishEntryadjust extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈdʒʌst/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈdʒʌst/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAdjust(// DOPSUM: CHANGE THE WORD ABOVE

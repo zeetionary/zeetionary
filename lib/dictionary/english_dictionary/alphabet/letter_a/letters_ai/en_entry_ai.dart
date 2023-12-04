@@ -76,7 +76,7 @@ class EnglishEntryai extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˌeɪ ˈaɪ/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌeɪ ˈaɪ/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAi(// DOPSUM: CHANGE THE WORD ABOVE

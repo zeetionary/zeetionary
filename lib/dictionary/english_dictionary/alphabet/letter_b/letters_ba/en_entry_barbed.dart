@@ -130,7 +130,7 @@ class EnglishEntrybarbed extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /bɑːrbd"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /bɑːrbd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakBarbed(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

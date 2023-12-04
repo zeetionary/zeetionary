@@ -94,7 +94,7 @@ class EnglishEntryaffinity extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈfɪnəti/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈfɪnəti/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAffinity(// DOPSUM: CHANGE THE WORD ABOVE

@@ -76,7 +76,7 @@ class EnglishEntryagronomist extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈɡrɒnəmɪst/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈɡrɒnəmɪst/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAgronomist(
                                   // DOPSUM: CHANGE THE WORD ABOVE
@@ -151,7 +151,7 @@ class EnglishEntryagronomist extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "شارەزایانی کشتوکاڵ کاریان لەسەر ڕێگای تازە دەکرد بۆ بەرھەمھێنانی خواردنی تەندرووستتر"),
+                                      "شارەزایانی کشتوکاڵ کاریان لەسەر ڕێگای تازە دەکرد بۆ بەرھەمھێنانی خواردنی تەندرووستتر."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgronom35111("en-GB"),
                               ),

@@ -77,7 +77,7 @@ class EnglishEntryadornment extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈdɔːnmənt/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈdɔːnmənt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAdornment(
                                   // DOPSUM: CHANGE THE WORD ABOVE

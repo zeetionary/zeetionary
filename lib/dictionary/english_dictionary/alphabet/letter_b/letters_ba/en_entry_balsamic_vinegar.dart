@@ -130,7 +130,7 @@ class EnglishEntrybalsamicvinegar extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /bɔːlˌsæmɪk ˈvɪnɪɡər"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /bɔːlˌsæmɪk ˈvɪnɪɡər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakBalsamicvinegar(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

@@ -60,7 +60,7 @@ class EnglishEntryaccreditation extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˌkredɪˈteɪʃn/"),
+                            const IPAofEnglish(text: "IpaUK: /əˌkredɪˈteɪʃn/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAccreditation(
                                   // DOPSUM: CHANGE THE WORD ABOVE
@@ -132,7 +132,7 @@ class EnglishEntryaccreditation extends StatelessWidget {
                                       "The college was given full accreditation in 1965."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کۆلێژەکە باوەڕنامەی فەرمی پێدرا لە ساڵی ١٩٦٥"),
+                                      "کۆلێژەکە باوەڕنامەی فەرمی پێدرا لە ساڵی ١٩٦٥."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA24894("en-GB"),
                               ),

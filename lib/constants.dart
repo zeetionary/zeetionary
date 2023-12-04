@@ -139,7 +139,7 @@ class KurdIconForTab extends StatelessWidget {
     return Tab(
       icon: Image.asset(
         'assets/images/kurd_one.png',
-        width: 80,
+        width: 70,
         height: 24,
       ),
     );
@@ -156,7 +156,7 @@ class UkIconForTab extends StatelessWidget {
     return Tab(
       icon: Image.asset(
         'assets/images/uk_one.png',
-        width: 80,
+        width: 70,
         height: 24,
       ),
     );

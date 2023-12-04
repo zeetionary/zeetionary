@@ -129,7 +129,7 @@ class EnglishEntryballerina extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˌbæləˈriːnə"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˌbæləˈriːnə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakBallerina(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

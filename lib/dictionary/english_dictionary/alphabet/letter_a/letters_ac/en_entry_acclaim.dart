@@ -68,7 +68,7 @@ class EnglishEntryacclaim extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈkleɪm/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈkleɪm/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAcclaim(// DOPSUM: CHANGE THE WORD ABOVE

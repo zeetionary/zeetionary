@@ -129,7 +129,7 @@ class EnglishEntryavoidable extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /əˈvɔɪdəbl"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /əˈvɔɪdəbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAvoidable(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

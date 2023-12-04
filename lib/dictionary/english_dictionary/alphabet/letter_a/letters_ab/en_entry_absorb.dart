@@ -104,7 +104,7 @@ class EnglishEntryabsorb extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əbˈzɔːb/"),
+                            const IPAofEnglish(text: "IpaUK: /əbˈzɔːb/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAbsorb(// DOPSUM: CHANGE THE WORD ABOVE

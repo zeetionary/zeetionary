@@ -75,10 +75,9 @@ class EnglishEntryallah extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              "IpaUK: /ˈælə/,  /əˈlɑː/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUK: /ˈælə/,  /əˈlɑː/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAllah(// DOPSUM: CHANGE THE WORD ABOVE
@@ -88,10 +87,9 @@ class EnglishEntryallah extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              "IpaUS: /ˈælə/,  /ˈɑːlə/,  /ɑːˈlɑː/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /ˈælə/,  /ˈɑːlə/,  /ɑːˈlɑː/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAllah(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

@@ -68,7 +68,7 @@ class EnglishEntryabide extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈbaɪd/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈbaɪd/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAbide(// DOPSUM: CHANGE THE WORD ABOVE

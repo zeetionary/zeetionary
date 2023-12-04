@@ -103,7 +103,7 @@ class EnglishEntryactually extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈæktʃuəli/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈæktʃuəli/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakActually(// DOPSUM: CHANGE THE WORD ABOVE

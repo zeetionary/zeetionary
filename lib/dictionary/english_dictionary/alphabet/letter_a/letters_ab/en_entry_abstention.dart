@@ -69,7 +69,7 @@ class EnglishEntryabstention extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əbˈstenʃn/"),
+                            const IPAofEnglish(text: "IpaUK: /əbˈstenʃn/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAbstention(
                                   // DOPSUM: CHANGE THE WORD ABOVE
@@ -152,7 +152,7 @@ class EnglishEntryabstention extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) خۆبەدوورگرتن لە شتێک کە حەزت لێیە"""),
+٢. (ناو) خۆبەدوورگرتن لە شتێک کە حەزت لێیە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

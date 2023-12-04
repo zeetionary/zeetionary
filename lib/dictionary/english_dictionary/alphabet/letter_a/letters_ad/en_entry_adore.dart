@@ -76,7 +76,7 @@ class EnglishEntryadore extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈdɔː(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈdɔː(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAdore(// DOPSUM: CHANGE THE WORD ABOVE

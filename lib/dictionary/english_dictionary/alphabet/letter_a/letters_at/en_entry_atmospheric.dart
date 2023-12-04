@@ -139,7 +139,7 @@ class EnglishEntryatmospheric extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˌætməsˈfɪrɪk/,  /ˌætməsˈferɪk"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˌætməsˈfɪrɪk/,  /ˌætməsˈferɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAtmospheric(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

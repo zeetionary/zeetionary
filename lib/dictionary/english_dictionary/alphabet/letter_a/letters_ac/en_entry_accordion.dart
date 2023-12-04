@@ -50,7 +50,7 @@ class EnglishEntryaccordion extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈkɔːdiən/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈkɔːdiən/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAaccordion(
                                   // DOPSUM: CHANGE THE WORD ABOVE

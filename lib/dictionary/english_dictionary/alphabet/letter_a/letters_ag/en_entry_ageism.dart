@@ -76,7 +76,7 @@ class EnglishEntryageism extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈeɪdʒɪzəm/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈeɪdʒɪzəm/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAgeism(// DOPSUM: CHANGE THE WORD ABOVE

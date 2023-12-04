@@ -130,7 +130,7 @@ class EnglishEntrybarbarian extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /bɑːrˈberiən"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /bɑːrˈberiən/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakBarbarian(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

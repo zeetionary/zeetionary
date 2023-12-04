@@ -68,7 +68,7 @@ class EnglishEntryabrasive extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈbreɪsɪv/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈbreɪsɪv/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAbrasive(// DOPSUM: CHANGE THE WORD ABOVE

@@ -60,7 +60,7 @@ class EnglishEntryaccompanist extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈkʌmpənɪst/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈkʌmpənɪst/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAccompanist(
                                   // DOPSUM: CHANGE THE WORD ABOVE

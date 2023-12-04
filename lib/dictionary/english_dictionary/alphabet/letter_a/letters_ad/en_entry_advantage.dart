@@ -87,7 +87,7 @@ class EnglishEntryadvantage extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ədˈvɑːntɪdʒ/"),
+                            const IPAofEnglish(text: "IpaUK: /ədˈvɑːntɪdʒ/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAdvantage(
                                   // DOPSUM: CHANGE THE WORD ABOVE

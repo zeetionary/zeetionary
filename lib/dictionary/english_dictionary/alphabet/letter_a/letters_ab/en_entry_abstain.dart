@@ -68,7 +68,7 @@ class EnglishEntryabstain extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əbˈsteɪn/"),
+                            const IPAofEnglish(text: "IpaUK: /əbˈsteɪn/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAbstain(// DOPSUM: CHANGE THE WORD ABOVE
@@ -151,14 +151,14 @@ class EnglishEntryabstain extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (کردار) خۆبەدوورگرتن لە شتێک کە حەزت لێیە، بەھۆی ئەوەی خراپە"""),
+٢. (کردار) خۆبەدوورگرتن لە شتێک کە حەزت لێیە، بەھۆی ئەوەی خراپە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "to abstain from alcohol/sex/drugs"),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "خۆبەدوورگرتن لە کحول/سێکس/مادەی خۆشبەر"),
+                                      "خۆبەدوورگرتن لە کحول/سێکس/مادەی خۆشبەر."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA23485("en-GB"),
                               ),

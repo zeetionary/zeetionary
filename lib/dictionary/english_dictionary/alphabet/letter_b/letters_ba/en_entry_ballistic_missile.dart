@@ -130,7 +130,7 @@ class EnglishEntryballisticmissile extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /bəˌlɪstɪk ˈmɪsl"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /bəˌlɪstɪk ˈmɪsl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakBallisticmissile(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

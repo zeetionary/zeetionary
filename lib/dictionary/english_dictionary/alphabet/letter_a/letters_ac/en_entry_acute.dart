@@ -94,7 +94,7 @@ class EnglishEntryacute extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈkjuːt/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈkjuːt/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAcute(// DOPSUM: CHANGE THE WORD ABOVE

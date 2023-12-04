@@ -139,7 +139,7 @@ class EnglishEntryauditorium extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˌɔːdɪˈtɔːriəm"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˌɔːdɪˈtɔːriəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAuditorium(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

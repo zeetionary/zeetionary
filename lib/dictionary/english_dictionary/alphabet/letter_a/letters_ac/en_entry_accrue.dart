@@ -50,7 +50,7 @@ class EnglishEntryaccrue extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈkruː/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈkruː/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAccrue(// DOPSUM: CHANGE THE WORD ABOVE

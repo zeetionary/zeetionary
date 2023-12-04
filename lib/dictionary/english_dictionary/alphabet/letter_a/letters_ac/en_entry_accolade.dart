@@ -59,7 +59,7 @@ class EnglishEntryaccolade extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈækəleɪd/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈækəleɪd/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAccolade(// DOPSUM: CHANGE THE WORD ABOVE

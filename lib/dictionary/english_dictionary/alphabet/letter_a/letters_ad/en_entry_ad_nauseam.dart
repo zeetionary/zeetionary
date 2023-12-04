@@ -76,7 +76,7 @@ class EnglishEntryadnauseam extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˌæd ˈnɔːziəm/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌæd ˈnɔːziəm/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAdnauseam(
                                   // DOPSUM: CHANGE THE WORD ABOVE

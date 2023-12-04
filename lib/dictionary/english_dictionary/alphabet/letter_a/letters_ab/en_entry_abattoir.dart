@@ -59,7 +59,7 @@ class EnglishEntryAbattoir extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈæbətwɑː(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈæbətwɑː(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAbattoir(// DOPSUM: CHANGE THE WORD ABOVE

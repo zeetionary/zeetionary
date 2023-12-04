@@ -76,7 +76,7 @@ class EnglishEntryagonizing extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈæɡənaɪzɪŋ/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈæɡənaɪzɪŋ/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAgonizing(
                                   // DOPSUM: CHANGE THE WORD ABOVE

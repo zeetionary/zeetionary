@@ -68,7 +68,7 @@ class EnglishEntryabrasion extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈbreɪʒn/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈbreɪʒn/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAbrasion(// DOPSUM: CHANGE THE WORD ABOVE
@@ -151,7 +151,7 @@ class EnglishEntryabrasion extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) زیانگەشتن بەڕووی شتێ بەھۆی داڕووشان"""),
+٢. (ناو) زیانگەشتن بەڕووی شتێ بەھۆی داڕووشان"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

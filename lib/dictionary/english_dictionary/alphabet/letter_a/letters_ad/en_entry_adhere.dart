@@ -77,7 +77,7 @@ class EnglishEntryadhere extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ədˈhɪə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /ədˈhɪə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAdhere(// DOPSUM: CHANGE THE WORD ABOVE

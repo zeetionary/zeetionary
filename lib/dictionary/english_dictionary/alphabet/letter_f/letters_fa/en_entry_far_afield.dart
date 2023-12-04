@@ -76,7 +76,7 @@ class EnglishEntryfarafield extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/fɑː(r) əˈfiːld/"),
+                            const IPAofEnglish(text: "IpaUK: /fɑː(r) əˈfiːld/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakFarafield(
                                   // DOPSUM: CHANGE THE WORD ABOVE

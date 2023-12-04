@@ -76,7 +76,7 @@ class EnglishEntryacrobatics extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˌækrəˈbætɪks/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌækrəˈbætɪks/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAcrobatics(
                                   // DOPSUM: CHANGE THE WORD ABOVE

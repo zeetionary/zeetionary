@@ -130,7 +130,7 @@ class EnglishEntrybadlanguage extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˌbæd ˈlæŋɡwɪdʒ"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˌbæd ˈlæŋɡwɪdʒ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakBadlanguage(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

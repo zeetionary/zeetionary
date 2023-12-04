@@ -68,7 +68,7 @@ class EnglishEntryabrupt extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈbrʌpt/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈbrʌpt/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAbrupt(// DOPSUM: CHANGE THE WORD ABOVE
@@ -151,7 +151,7 @@ class EnglishEntryabrupt extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ھاوەڵناو) قسەکردن بەشێوەیەکی ناشرین، زۆرجار بە بەکارھێنانی وشەی کەمتر لەوەی پێویستە"""),
+٢. (ھاوەڵناو) قسەکردن بەشێوەیەکی ناشرین، زۆرجار بە بەکارھێنانی وشەی کەمتر لەوەی پێویستە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

@@ -78,7 +78,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˌæfəˈmeɪʃn/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌæfəˈmeɪʃn/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAffirmation(
                                   // DOPSUM: CHANGE THE WORD ABOVE

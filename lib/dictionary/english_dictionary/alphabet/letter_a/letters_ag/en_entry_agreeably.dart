@@ -77,7 +77,7 @@ class EnglishEntryagreeably extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈɡriːəbli/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈɡriːəbli/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAgreeably(
                                   // DOPSUM: CHANGE THE WORD ABOVE

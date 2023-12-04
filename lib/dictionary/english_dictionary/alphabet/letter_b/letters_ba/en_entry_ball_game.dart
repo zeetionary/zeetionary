@@ -130,7 +130,7 @@ class EnglishEntryballgame extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈbɔːl ɡeɪm"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˈbɔːl ɡeɪm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakBallgame(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

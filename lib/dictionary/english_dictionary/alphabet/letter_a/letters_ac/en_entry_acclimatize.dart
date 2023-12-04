@@ -60,7 +60,7 @@ class EnglishEntryacclimatize extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈklaɪmətaɪz/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈklaɪmətaɪz/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAcclimatize(
                                   // DOPSUM: CHANGE THE WORD ABOVE

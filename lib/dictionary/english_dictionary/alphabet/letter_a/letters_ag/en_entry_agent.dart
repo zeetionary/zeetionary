@@ -103,7 +103,7 @@ class EnglishEntryagent extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈeɪdʒənt/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈeɪdʒənt/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAgent(// DOPSUM: CHANGE THE WORD ABOVE

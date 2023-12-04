@@ -78,7 +78,7 @@ class EnglishEntryaccompaniment extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈkʌmpənimənt/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈkʌmpənimənt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAccompaniment(
                                   // DOPSUM: CHANGE THE WORD ABOVE

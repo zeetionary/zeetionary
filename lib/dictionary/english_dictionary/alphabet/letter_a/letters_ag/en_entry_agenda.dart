@@ -77,7 +77,7 @@ class EnglishEntryagenda extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈdʒendə/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈdʒendə/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAgenda(// DOPSUM: CHANGE THE WORD ABOVE

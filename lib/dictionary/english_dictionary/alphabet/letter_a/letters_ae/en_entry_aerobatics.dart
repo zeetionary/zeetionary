@@ -76,7 +76,7 @@ class EnglishEntryaerobatics extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˌeərəˈbætɪks/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌeərəˈbætɪks/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAerobatics(
                                   // DOPSUM: CHANGE THE WORD ABOVE

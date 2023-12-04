@@ -33,7 +33,7 @@ class EnglishEntry2 extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakB3s11"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakB3s111111111"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakB3s2(String languageCode) async {
@@ -139,7 +139,7 @@ class EnglishEntry2 extends StatelessWidget {
                   // VideoIconForTab(), // 04
                   // VideoIconForTab(), // 05
                   // VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 2
-                  // VideoIconForTab(), // 07 --- FIND: speakB3s11
+                  // VideoIconForTab(), // 07 --- FIND: speakB3s111111111
                   // VideoIconForTab(), // 08
                   // VideoIconForTab(), // 09
                   // VideoIconForTab(), // 10
@@ -171,7 +171,8 @@ class EnglishEntry2 extends StatelessWidget {
 ١. (ھاوەڵناو) پێناسە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(text: "speakB3s11"),
+                              const ExampleSentenceEnglish(
+                                  text: "speakB3s111111111"),
                               const ExampleSentenceKurdish(
                                   text: "رستە_رستە_رستە_رستە."),
                               CustomIconButtonBritish(

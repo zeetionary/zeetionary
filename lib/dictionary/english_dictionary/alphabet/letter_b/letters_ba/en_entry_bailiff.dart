@@ -131,7 +131,7 @@ class EnglishEntrybailiff extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈbeɪlɪf"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˈbeɪlɪf/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakBailiff(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

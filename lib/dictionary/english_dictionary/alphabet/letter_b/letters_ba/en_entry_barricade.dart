@@ -189,7 +189,7 @@ class EnglishEntrybarricade extends StatelessWidget {
                             ],
                           ),
                           // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) بەرگری کردن یان گرتنی شوێنێک بە دانانی بەربەست"""),
                           Row(

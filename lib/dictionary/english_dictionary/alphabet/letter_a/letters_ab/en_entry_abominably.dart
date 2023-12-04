@@ -60,7 +60,7 @@ class EnglishEntryabominably extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈbɒmɪnəbli/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈbɒmɪnəbli/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAbominably(
                                   // DOPSUM: CHANGE THE WORD ABOVE

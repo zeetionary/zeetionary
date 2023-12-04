@@ -87,7 +87,7 @@ class EnglishEntryaggressive extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈɡresɪv/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈɡresɪv/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAggressive(
                                   // DOPSUM: CHANGE THE WORD ABOVE
@@ -186,7 +186,7 @@ class EnglishEntryaggressive extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پێویستە سەرسەختتر بین لە شەڕی دژ بە تیرۆر"),
+                                      "پێویستە سەرسەختتر بین لە شەڕی دژ بە تیرۆر."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAggre2256("en-GB"),
                               ),

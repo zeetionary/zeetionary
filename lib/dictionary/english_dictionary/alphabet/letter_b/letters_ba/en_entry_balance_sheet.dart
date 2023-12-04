@@ -130,7 +130,7 @@ class EnglishEntrybalancesheet extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈbæləns ʃiːt"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˈbæləns ʃiːt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakBalancesheet(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

@@ -130,7 +130,7 @@ class EnglishEntrybackhanded extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˌbækˈhændɪd"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˌbækˈhændɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakBackhanded(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

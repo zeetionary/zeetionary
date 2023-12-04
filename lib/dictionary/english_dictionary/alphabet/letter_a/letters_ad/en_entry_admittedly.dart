@@ -76,7 +76,7 @@ class EnglishEntryadmittedly extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ədˈmɪtɪdli/"),
+                            const IPAofEnglish(text: "IpaUK: /ədˈmɪtɪdli/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAdmittedly(
                                   // DOPSUM: CHANGE THE WORD ABOVE

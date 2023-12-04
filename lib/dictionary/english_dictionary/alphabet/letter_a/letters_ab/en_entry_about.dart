@@ -137,7 +137,7 @@ class EnglishEntryabout extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈbaʊt/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈbaʊt/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAbout(// DOPSUM: CHANGE THE WORD ABOVE

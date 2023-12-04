@@ -130,7 +130,7 @@ class EnglishEntrybackfire extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˌbækˈfaɪər"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˌbækˈfaɪər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakB3(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

@@ -77,7 +77,7 @@ class EnglishEntryaffront extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈfrʌnt/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈfrʌnt/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAffront(// DOPSUM: CHANGE THE WORD ABOVE

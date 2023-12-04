@@ -60,7 +60,7 @@ class EnglishEntryabstemious extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əbˈstiːmiəs/"),
+                            const IPAofEnglish(text: "IpaUK: /əbˈstiːmiəs/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAbstemious(
                                   // DOPSUM: CHANGE THE WORD ABOVE

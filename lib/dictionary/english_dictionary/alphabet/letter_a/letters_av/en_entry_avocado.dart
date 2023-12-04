@@ -129,7 +129,7 @@ class EnglishEntryavocado extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˌævəˈkɑːdəʊ"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˌævəˈkɑːdəʊ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAvocado(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

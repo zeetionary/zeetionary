@@ -138,7 +138,7 @@ class EnglishEntryautobiography extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˌɔːtəbaɪˈɑːɡrəfi"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˌɔːtəbaɪˈɑːɡrəfi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAutobiography(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

@@ -76,7 +76,7 @@ class EnglishEntryaint extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/eɪnt/"),
+                            const IPAofEnglish(text: "IpaUK: /eɪnt/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAint(// DOPSUM: CHANGE THE WORD ABOVE

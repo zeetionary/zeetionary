@@ -132,7 +132,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ɔːɡˈzɪliəri"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ɔːɡˈzɪliəri/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAuxiliary(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

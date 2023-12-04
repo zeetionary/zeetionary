@@ -60,7 +60,8 @@ class EnglishEntryaccelerator extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əkˈseləreɪtə(r)/"),
+                            const IPAofEnglish(
+                                text: "IpaUK: /əkˈseləreɪtə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAccelerator(
                                   // DOPSUM: CHANGE THE WORD ABOVE

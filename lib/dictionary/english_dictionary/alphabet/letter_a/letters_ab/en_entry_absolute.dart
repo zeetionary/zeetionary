@@ -95,7 +95,7 @@ class EnglishEntryabsolute extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈæbsəluːt/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈæbsəluːt/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAbsolute(// DOPSUM: CHANGE THE WORD ABOVE

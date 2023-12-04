@@ -60,7 +60,7 @@ class EnglishEntryabridgement extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈbrɪdʒmənt/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈbrɪdʒmənt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAbridgement(
                                   // DOPSUM: CHANGE THE WORD ABOVE

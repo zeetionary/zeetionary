@@ -76,7 +76,7 @@ class EnglishEntryacreage extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈeɪkərɪdʒ/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈeɪkərɪdʒ/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAcreage(// DOPSUM: CHANGE THE WORD ABOVE

@@ -68,7 +68,7 @@ class EnglishEntryaccord extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈkɔːd/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈkɔːd/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAccord(// DOPSUM: CHANGE THE WORD ABOVE

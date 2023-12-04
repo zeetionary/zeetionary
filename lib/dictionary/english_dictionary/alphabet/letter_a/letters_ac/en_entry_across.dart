@@ -131,7 +131,7 @@ class EnglishEntryacross extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈkrɒs/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈkrɒs/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAcross(// DOPSUM: CHANGE THE WORD ABOVE

@@ -77,7 +77,8 @@ class EnglishEntryadministrator extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ədˈmɪnɪstreɪtə(r)/"),
+                            const IPAofEnglish(
+                                text: "IpaUK:/ədˈmɪnɪstreɪtə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAdministrator(
                                   // DOPSUM: CHANGE THE WORD ABOVE

@@ -76,7 +76,7 @@ class EnglishEntryaffable extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈæfəbl/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈæfəbl/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAffable(// DOPSUM: CHANGE THE WORD ABOVE

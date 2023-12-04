@@ -76,7 +76,7 @@ class EnglishEntryadulterate extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈdʌltəreɪt/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈdʌltəreɪt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAdulterate(
                                   // DOPSUM: CHANGE THE WORD ABOVE

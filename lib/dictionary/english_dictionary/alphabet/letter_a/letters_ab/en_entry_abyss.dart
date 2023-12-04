@@ -59,7 +59,7 @@ class EnglishEntryabyss extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈbɪs/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈbɪs/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAbyss(// DOPSUM: CHANGE THE WORD ABOVE

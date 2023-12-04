@@ -76,7 +76,7 @@ class EnglishEntryagony extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈæɡəni/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈæɡəni/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAgony(// DOPSUM: CHANGE THE WORD ABOVE

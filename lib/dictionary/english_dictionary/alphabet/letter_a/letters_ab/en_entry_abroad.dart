@@ -77,7 +77,7 @@ class EnglishEntryabroad extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈbrɔːd/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈbrɔːd/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAbroad(// DOPSUM: CHANGE THE WORD ABOVE
@@ -175,7 +175,7 @@ class EnglishEntryabroad extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ھاوەڵکار) شتێک کە لەلایەن زۆر کەسەوە باس دەکرێت"""),
+٢. (ھاوەڵکار) شتێک کە لەلایەن زۆر کەسەوە باس دەکرێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

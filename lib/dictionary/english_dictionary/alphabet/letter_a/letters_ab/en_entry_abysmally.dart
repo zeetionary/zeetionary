@@ -59,7 +59,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈbɪzməli/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈbɪzməli/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAbysmally(
                                   // DOPSUM: CHANGE THE WORD ABOVE

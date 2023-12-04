@@ -77,7 +77,7 @@ class EnglishEntryadaptation extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˌædæpˈteɪʃn/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌædæpˈteɪʃn/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAdaptation(
                                   // DOPSUM: CHANGE THE WORD ABOVE
@@ -169,7 +169,7 @@ class EnglishEntryadaptation extends StatelessWidget {
                                   text:
                                       "a screen adaptation of Shakespeare’s ‘Macbeth’"),
                               const ExampleSentenceKurdish(
-                                  text: "سازاندنی فیلمیی ماکبێسی شکسپیر"),
+                                  text: "سازاندنی فیلمیی ماکبێسی شکسپیر."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdaptat2489("en-GB"),
                               ),

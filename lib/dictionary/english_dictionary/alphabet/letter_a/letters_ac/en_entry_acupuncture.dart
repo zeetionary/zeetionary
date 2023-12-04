@@ -76,7 +76,8 @@ class EnglishEntryacupuncture extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈækjupʌŋktʃə(r)/"),
+                            const IPAofEnglish(
+                                text: "IpaUK: /ˈækjupʌŋktʃə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAcupuncture(
                                   // DOPSUM: CHANGE THE WORD ABOVE

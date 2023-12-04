@@ -130,7 +130,7 @@ class EnglishEntrybankruptcy extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈbæŋkrʌptsi"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˈbæŋkrʌptsi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakBankruptcy(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

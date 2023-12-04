@@ -111,7 +111,8 @@ class EnglishEntryagain extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈɡen/,  /əˈɡeɪn/"),
+                            const IPAofEnglish(
+                                text: "IpaUK:/əˈɡen/,  /əˈɡeɪn/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAgain(// DOPSUM: CHANGE THE WORD ABOVE
@@ -252,7 +253,7 @@ class EnglishEntryagain extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "نرخەکەی نیوەی نرخی دوو ساڵ پێش ئێستای خۆی چووەتە سەر"),
+                                      "نرخەکەی نیوەی نرخی دوو ساڵ پێش ئێستای خۆی چووەتە سەر."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAga256("en-GB"),
                               ),

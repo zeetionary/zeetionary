@@ -78,7 +78,7 @@ class EnglishEntryadrift extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈdrɪft/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈdrɪft/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAdrift(// DOPSUM: CHANGE THE WORD ABOVE

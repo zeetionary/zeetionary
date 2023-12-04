@@ -76,7 +76,7 @@ class EnglishEntryafterthought extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈɑːftəθɔːt/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈɑːftəθɔːt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAfterthought(
                                   // DOPSUM: CHANGE THE WORD ABOVE

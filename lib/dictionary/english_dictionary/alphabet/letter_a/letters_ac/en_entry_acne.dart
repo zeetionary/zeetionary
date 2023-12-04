@@ -76,7 +76,7 @@ class EnglishEntryacne extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈækni/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈækni/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAcne(// DOPSUM: CHANGE THE WORD ABOVE

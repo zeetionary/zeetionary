@@ -75,7 +75,7 @@ class EnglishEntryacronym extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈækrənɪm/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈækrənɪm/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAcronym(// DOPSUM: CHANGE THE WORD ABOVE

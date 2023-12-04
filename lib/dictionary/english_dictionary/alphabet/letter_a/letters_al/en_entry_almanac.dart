@@ -77,9 +77,7 @@ class EnglishEntryalmanac extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              "IpaUK:  /ˈɔːlmənæk/,  /ˈælmənæk/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
-                            ),
+                                "IpaUK:  /ˈɔːlmənæk/,  /ˈælmənæk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAlmanac(// DOPSUM: CHANGE THE WORD ABOVE
@@ -89,10 +87,9 @@ class EnglishEntryalmanac extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              "IpaUS: /ˈɔːlmənæk/,  /ˈælmənæk/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
-                            ),
+                            const IPAofEnglish(
+                                text:
+                                    "IpaUS: /ˈɔːlmənæk/,  /ˈælmənæk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
                               onPressed: () => speakAlmanac(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

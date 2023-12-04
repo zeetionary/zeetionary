@@ -138,7 +138,7 @@ class EnglishEntryauctioneer extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˌɔːkʃəˈnɪr"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˌɔːkʃəˈnɪr/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAuctioneer(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

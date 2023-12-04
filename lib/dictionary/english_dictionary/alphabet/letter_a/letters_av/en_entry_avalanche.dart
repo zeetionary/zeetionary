@@ -130,7 +130,7 @@ class EnglishEntryavalanche extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /ˈævəlæntʃ"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /ˈævəlæntʃ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakAvalanche(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

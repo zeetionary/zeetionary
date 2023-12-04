@@ -95,7 +95,8 @@ class EnglishEntryagainst extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈɡenst/,  /əˈɡeɪnst/"),
+                            const IPAofEnglish(
+                                text: "IpaUK:/əˈɡenst/,  /əˈɡeɪnst/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAgainst(// DOPSUM: CHANGE THE WORD ABOVE
@@ -257,7 +258,7 @@ class EnglishEntryagainst extends StatelessWidget {
                               //   width: 30,
                               // ),
                               const ExampleSentenceKurdish(
-                                  text: "ڕێکاریان دژ بە ئاگرەکە گرتەبەر"),
+                                  text: "ڕێکاریان دژ بە ئاگرەکە گرتەبەر."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAga98274("en-GB"),
                               ),

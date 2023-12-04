@@ -76,7 +76,7 @@ class EnglishEntryactivist extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈæktɪvɪst/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈæktɪvɪst/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakActivist(// DOPSUM: CHANGE THE WORD ABOVE

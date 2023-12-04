@@ -76,7 +76,7 @@ class EnglishEntryagrochemical extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˌæɡrəʊˈkemɪkl/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌæɡrəʊˈkemɪkl/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAgrochemical(
                                   // DOPSUM: CHANGE THE WORD ABOVE

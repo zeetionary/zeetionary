@@ -76,7 +76,7 @@ class EnglishEntryacoustic extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈkuːstɪk/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈkuːstɪk/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAcoustic(// DOPSUM: CHANGE THE WORD ABOVE

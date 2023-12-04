@@ -75,7 +75,7 @@ class EnglishEntryadjective extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈædʒɪktɪv/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈædʒɪktɪv/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAdjective(
                                   // DOPSUM: CHANGE THE WORD ABOVE

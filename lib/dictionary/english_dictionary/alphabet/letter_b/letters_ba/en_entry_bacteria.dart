@@ -130,7 +130,7 @@ class EnglishEntrybacteria extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUS: /bækˈtɪriə"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                    "IpaUS: /bækˈtɪriə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
                               onPressed: () => speakBacteria(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE

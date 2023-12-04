@@ -130,7 +130,7 @@ class EnglishEntryaid extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/eɪd/"),
+                            const IPAofEnglish(text: "IpaUK: /eɪd/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAid(// DOPSUM: CHANGE THE WORD ABOVE

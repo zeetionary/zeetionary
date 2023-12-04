@@ -76,7 +76,7 @@ class EnglishEntryafoot extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈfʊt/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈfʊt/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAfoot(// DOPSUM: CHANGE THE WORD ABOVE

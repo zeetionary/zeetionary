@@ -77,7 +77,7 @@ class EnglishEntryaffirmative extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈfɜːmətɪv/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈfɜːmətɪv/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAffirmative(
                                   // DOPSUM: CHANGE THE WORD ABOVE

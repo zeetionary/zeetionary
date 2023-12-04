@@ -95,7 +95,7 @@ class EnglishEntryablaze extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/əˈbleɪz/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈbleɪz/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAblaze(// DOPSUM: CHANGE THE WORD ABOVE

@@ -76,7 +76,7 @@ class EnglishEntryacrid extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˈækrɪd/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈækrɪd/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAacrid(// DOPSUM: CHANGE THE WORD ABOVE

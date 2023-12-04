@@ -69,7 +69,7 @@ class EnglishEntryaberration extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˌæbəˈreɪʃn/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌæbəˈreɪʃn/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAberration(
                                   // DOPSUM: CHANGE THE WORD ABOVE

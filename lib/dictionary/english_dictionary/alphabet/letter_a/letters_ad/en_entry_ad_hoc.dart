@@ -76,7 +76,7 @@ class EnglishEntryadhoc extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "/ˌæd ˈhɒk/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌæd ˈhɒk/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAdhoc(// DOPSUM: CHANGE THE WORD ABOVE

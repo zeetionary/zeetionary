@@ -170,7 +170,7 @@ class EnglishEntrybarter extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: ئاڵشت، ئاڵ‌ووێر، ئاڵ‌وگۆڕ، گۆڕینەوە
 
-١. (ناو) سیستەمی ئاڵوگۆڕی سەربەسەری شتومەک بەبێ بەکارهێنانی پارە"""),
+١. (ناو) سیستەمی ئاڵوگۆڕی سەربەسەری شتومەک بەبێ بەکارھێنانی پارە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -190,7 +190,7 @@ class EnglishEntrybarter extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (کردار) سیستەمی ئاڵوگۆڕی سەربەسەری شتومەک بەبێ بەکارهێنانی پارە"""),
+٢. (کردار) سیستەمی ئاڵوگۆڕی سەربەسەری شتومەک بەبێ بەکارھێنانی پارە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -198,7 +198,7 @@ class EnglishEntrybarter extends StatelessWidget {
                                       "The local people bartered wheat for tools."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هاوڵاتییە خۆجێییەکان گەنمیان بە ئامێر دەگۆڕییەوە."),
+                                      "ھاوڵاتییە خۆجێییەکان گەنمیان بە ئامێر دەگۆڕییەوە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarters2("en-GB"),
                               ),
@@ -253,11 +253,11 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: barter (Derived forms: barters)
+- Noun: barter (derived forms: barters)
 1. An equal exchange (= swap, swop, trade)
 "we had no money so we had to live by barter";
 
-- Verb: barter (Derived forms: bartered, barters, bartering)
+- Verb: barter (derived forms: bartered, barters, bartering)
 1. Exchange goods without involving money
 """,
           )
@@ -272,7 +272,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/Oz9zw7-_vhM?t=";
+  static String myVideoId = "Oz9zw7-_vhM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -297,7 +297,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/Mx8JkGHaGUI?t=";
+  static String myVideoId = "Mx8JkGHaGUI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -322,7 +322,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/PLt9fRYT92M?t=";
+  static String myVideoId = "PLt9fRYT92M";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -347,7 +347,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/b4lbarlnur4?t=";
+  static String myVideoId = "b4lbarlnur4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -372,7 +372,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/6Y2JOcZ_x6o?t=";
+  static String myVideoId = "6Y2JOcZ_x6o";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -397,7 +397,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/EH6vE97qIP4?t=";
+  static String myVideoId = "EH6vE97qIP4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -422,7 +422,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/e5R4PNfPVwk?t=";
+  static String myVideoId = "e5R4PNfPVwk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -447,7 +447,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/_OpC4fH3mEk?t=";
+  static String myVideoId = "_OpC4fH3mEk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

@@ -174,7 +174,8 @@ class EnglishEntrybasemetal extends StatelessWidget {
                                   text:
                                       "Iron, copper, and zinc are among the most common base metals in the world."),
                               const ExampleSentenceKurdish(
-                                  text: "ئاسن و مس و زینک لەناو بەربڵاوترین کانزا نزمەکانی جیهانن."),
+                                  text:
+                                      "ئاسن و مس و زینک لەناو بەربڵاوترین کانزا نزمەکانی جیھانن."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBasemetals1("en-GB"),
                               ),
@@ -229,7 +230,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-Noun: base metal (Derived forms: base metals)
+Noun: base metal (derived forms: base metals)
 1. A metal that is common and not considered precious
 "lead, iron, copper, tin, and zinc are base metals"
 """,
@@ -245,7 +246,7 @@ Noun: base metal (Derived forms: base metals)
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/TM8MDrZFz7Y?t=";
+  static String myVideoId = "TM8MDrZFz7Y";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -270,7 +271,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/CQWllJbSM5E?t=";
+  static String myVideoId = "CQWllJbSM5E";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -295,7 +296,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/ZZvMsnSUDqo?t=";
+  static String myVideoId = "ZZvMsnSUDqo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -320,7 +321,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/CMa0_Xktf7k?t=";
+  static String myVideoId = "CMa0_Xktf7k";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -345,7 +346,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/HhuwO8AjM7k?t=";
+  static String myVideoId = "HhuwO8AjM7k";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -370,7 +371,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/ee_lmZIAwek?t=";
+  static String myVideoId = "ee_lmZIAwek";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -395,7 +396,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/gxiLuz9kHi0?t=";
+  static String myVideoId = "gxiLuz9kHi0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -420,7 +421,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/O91ttLY40KM?t=";
+  static String myVideoId = "O91ttLY40KM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

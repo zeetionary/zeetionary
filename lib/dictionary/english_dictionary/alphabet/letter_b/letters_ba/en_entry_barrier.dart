@@ -33,7 +33,8 @@ class EnglishEntrybarrier extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The crowd had to stand behind barriers."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The crowd had to stand behind barriers."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBarriers2(String languageCode) async {
@@ -41,7 +42,8 @@ class EnglishEntrybarrier extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Scan your ticket at the barrier and it will automatically lift."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Scan your ticket at the barrier and it will automatically lift."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBarriers3(String languageCode) async {
@@ -49,7 +51,8 @@ class EnglishEntrybarrier extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Despite the language barrier, they soon became good friends."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Despite the language barrier, they soon became good friends."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBarriers4(String languageCode) async {
@@ -57,7 +60,8 @@ class EnglishEntrybarrier extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The cream acts as a protective barrier against sun damage."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The cream acts as a protective barrier against sun damage."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBarriers5(String languageCode) async {
@@ -65,7 +69,8 @@ class EnglishEntrybarrier extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He was the first player whose earnings passed the £10 million barrier."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He was the first player whose earnings passed the £10 million barrier."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBarriers6(String languageCode) async {
@@ -139,7 +144,7 @@ class EnglishEntrybarrier extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 15
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -172,9 +177,11 @@ class EnglishEntrybarrier extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "The crowd had to stand behind barriers."),
+                                  text:
+                                      "The crowd had to stand behind barriers."),
                               const ExampleSentenceKurdish(
-                                  text: "جەماوەرەکە دەبوو لە پشتی بەربەستەوە بوەستن."),
+                                  text:
+                                      "جەماوەرەکە دەبوو لە پشتی بەربەستەوە بوەستن."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarriers1("en-GB"),
                               ),
@@ -186,13 +193,15 @@ class EnglishEntrybarrier extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ناو) دەروازەی گەراجی ئۆتۆمبێل کە بەرز و نزم دەبێتەوە بۆ ڕێگەدان بە هاتووچۆ"""),
+٢. (ناو) دەروازەی گەراجی ئۆتۆمبێل کە بەرز و نزم دەبێتەوە بۆ ڕێگەدان بە ھاتووچۆ"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "Scan your ticket at the barrier and it will automatically lift."),
+                                  text:
+                                      "Scan your ticket at the barrier and it will automatically lift."),
                               const ExampleSentenceKurdish(
-                                  text: "بلیتەکەت سکان بکە لە دەروازەکە و بە ئۆتۆماتیکی بەرزدەبێتەوە."),
+                                  text:
+                                      "بلیتەکەت سکان بکە لە دەروازەکە و بە ئۆتۆماتیکی بەرزدەبێتەوە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarriers2("en-GB"),
                               ),
@@ -208,9 +217,11 @@ class EnglishEntrybarrier extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "Despite the language barrier (= not speaking the same language), they soon became good friends."),
+                                  text:
+                                      "Despite the language barrier (= not speaking the same language), they soon became good friends."),
                               const ExampleSentenceKurdish(
-                                  text: "ئەگەرچی ئاستەنگی زمانی لە نێوانیان بوو (زمانی یەکدیان نەدەزانی)، بەڵام زوو بوون بە دۆست."),
+                                  text:
+                                      "ئەگەرچی ئاستەنگی زمانی لە نێوانیان بوو (زمانی یەکدیان نەدەزانی)، بەڵام زوو بوون بە دۆست."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarriers3("en-GB"),
                               ),
@@ -222,13 +233,15 @@ class EnglishEntrybarrier extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٤. (ناو) شتێک کە لەنێوان دوو شت یان کەسدا هەیە و جیایان دەکاتەوە"""),
+٤. (ناو) شتێک کە لەنێوان دوو شت یان کەسدا ھەیە و جیایان دەکاتەوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "The cream acts as a protective barrier against sun damage."),
+                                  text:
+                                      "The cream acts as a protective barrier against sun damage."),
                               const ExampleSentenceKurdish(
-                                  text: "کرێمەکە وەک مادەیەکی پارێزەر کاردەکات دژ بە خۆر."),
+                                  text:
+                                      "کرێمەکە وەک مادەیەکی پارێزەر کاردەکات دژ بە خۆر."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarriers4("en-GB"),
                               ),
@@ -244,9 +257,11 @@ class EnglishEntrybarrier extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "He was the first player whose earnings passed the £10 million barrier."),
+                                  text:
+                                      "He was the first player whose earnings passed the £10 million barrier."),
                               const ExampleSentenceKurdish(
-                                  text: "ئەو یەکەم یاریزان بوو کە قازانجەکانی بەربەستی ١٠ ملیۆن دۆلاری تێپەڕاند."),
+                                  text:
+                                      "ئەو یەکەم یاریزان بوو کە قازانجەکانی بەربەستی ١٠ ملیۆن دۆلاری تێپەڕاند."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarriers5("en-GB"),
                               ),
@@ -301,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: barrier (Derived forms: barriers)
+- Noun: barrier (derived forms: barriers)
 1. A structure or object that impedes free movement
  
 2. Any condition that makes it difficult to make progress or to achieve an objective (= roadblock)
@@ -321,7 +336,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/d02d9hjDLBk?t=";
+  static String myVideoId = "d02d9hjDLBk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -346,7 +361,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/Xzv84ZdtlE0?t=";
+  static String myVideoId = "Xzv84ZdtlE0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -371,7 +386,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/GVsUOuSjvcg?t=";
+  static String myVideoId = "GVsUOuSjvcg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -396,7 +411,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/y-1o06rBgGA?t=";
+  static String myVideoId = "y-1o06rBgGA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -421,7 +436,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/OwDiONfCt2s?t=";
+  static String myVideoId = "OwDiONfCt2s";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -446,7 +461,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/hhE6ittsUGs?t=";
+  static String myVideoId = "hhE6ittsUGs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -471,7 +486,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/wUnb9TEuUgo?t=";
+  static String myVideoId = "wUnb9TEuUgo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -496,7 +511,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/UcqqFftEjKQ?t=";
+  static String myVideoId = "UcqqFftEjKQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -521,7 +536,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/70grWA2rZUM?t=";
+  static String myVideoId = "70grWA2rZUM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -546,7 +561,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/e9sN9gOEdG4?t=";
+  static String myVideoId = "e9sN9gOEdG4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -571,7 +586,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/noWwbvmdhL0?t=";
+  static String myVideoId = "noWwbvmdhL0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -596,7 +611,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/N0-YD32ujYY?t=";
+  static String myVideoId = "N0-YD32ujYY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -623,7 +638,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 class YoutubeEmbeddedthirteen extends StatelessWidget {
   YoutubeEmbeddedthirteen({super.key});
 
-  static String myVideoId = "https://youtu.be/cCP9vjp4kSg?t=";
+  static String myVideoId = "cCP9vjp4kSg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -637,7 +652,7 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
     ),
   );
 
-  static String myVideoIdTwo = "https://youtu.be/L87HuKmGwVQ?t=";
+  static String myVideoIdTwo = "L87HuKmGwVQ";
 
   final YoutubePlayerController _controllertwo = YoutubePlayerController(
     initialVideoId: myVideoIdTwo,
@@ -651,7 +666,7 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
     ),
   );
 
-  static String myVideoIdThree = "https://youtu.be/Y_N0AxCzVLg?t=";
+  static String myVideoIdThree = "Y_N0AxCzVLg";
 
   final YoutubePlayerController _controllerthree = YoutubePlayerController(
     initialVideoId: myVideoIdThree,
@@ -665,7 +680,7 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
     ),
   );
 
-  static String myVideoIdFour = "https://youtu.be/Ir3eJ1t13fk?t=";
+  static String myVideoIdFour = "Ir3eJ1t13fk";
 
   final YoutubePlayerController _controllerfour = YoutubePlayerController(
     initialVideoId: myVideoIdFour,
@@ -679,7 +694,7 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
     ),
   );
 
-  static String myVideoIdFive = "https://youtu.be/doiFDlS6zHI?t=";
+  static String myVideoIdFive = "doiFDlS6zHI";
 
   final YoutubePlayerController _controllerfive = YoutubePlayerController(
     initialVideoId: myVideoIdFive,

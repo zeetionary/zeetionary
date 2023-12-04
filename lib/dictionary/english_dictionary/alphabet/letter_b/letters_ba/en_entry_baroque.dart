@@ -33,7 +33,8 @@ class EnglishEntrybaroque extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The villa is an eccentric fusion of the classical, the baroque and the modernist."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The villa is an eccentric fusion of the classical, the baroque and the modernist."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBaroques2(String languageCode) async {
@@ -41,7 +42,8 @@ class EnglishEntrybaroque extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The baroque St Martin's church is considered one of the most beautiful churches in the country."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The baroque St Martin's church is considered one of the most beautiful churches in the country."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBaroques3(String languageCode) async {
@@ -139,7 +141,7 @@ class EnglishEntrybaroque extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 10
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   // VideoIconForTab(), // 09
                   // VideoIconForTab(), // 10
@@ -166,14 +168,15 @@ class EnglishEntrybaroque extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-١. (ناو) ستایلی ناوازە و پڕ لە ڕازاندنەوەی بیناسازی و هونەر و میوزیکی ئەورووپی لە سەدەکانی ١٧ و ١٨ """),
+١. (ناو) ستایلی ناوازە و پڕ لە ڕازاندنەوەی بیناسازی و ھونەر و میوزیکی ئەورووپی لە سەدەکانی ١٧ و ١٨ """),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
                                       "The villa is an eccentric fusion of the classical, the baroque and the modernist."),
                               const ExampleSentenceKurdish(
-                                  text: "ڤێلاکە تێکەڵەیەکی سەیروسەمەرەی کلاسیک و بروک و سەردەمیانەیە."),
+                                  text:
+                                      "ڤێلاکە تێکەڵەیەکی سەیروسەمەرەی کلاسیک و بروک و سەردەمیانەیە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBaroques1("en-GB"),
                               ),
@@ -185,14 +188,15 @@ class EnglishEntrybaroque extends StatelessWidget {
                           // const DividerSentences(),
                           // const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (هاوەڵناو) پەیوەندیدار بە ستایلی ناوازە و پڕ لە ڕازاندنەوەی بیناسازی و هونەر و میوزیکی ئەورووپی لە سەدەکانی ١٧ و ١٨ """),
+٢. (ھاوەڵناو) پەیوەندیدار بە ستایلی ناوازە و پڕ لە ڕازاندنەوەی بیناسازی و ھونەر و میوزیکی ئەورووپی لە سەدەکانی ١٧ و ١٨ """),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
                                       "The baroque St Martin's church is considered one of the most beautiful churches in the country."),
                               const ExampleSentenceKurdish(
-                                  text: "کڵێسای ڕازاوەی سان مارتن بە یەکێک لە جوانترین کڵێساکان لە وڵاتەکەدا دادەنرێت."),
+                                  text:
+                                      "کڵێسای ڕازاوەی سان مارتن بە یەکێک لە جوانترین کڵێساکان لە وڵاتەکەدا دادەنرێت."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBaroques2("en-GB"),
                               ),
@@ -253,7 +257,7 @@ class EnglishMeaning extends StatelessWidget {
  
 2. Of or relating to or characteristic of the elaborately ornamented style of architecture, art, and music popular in Europe between 1600 and 1750 (= Baroque)
 
-- Noun: baroque (Derived forms: baroques)
+- Noun: baroque (derived forms: baroques)
 1. Elaborate and extensive ornamentation in decorative art and architecture that flourished in Europe in the 17th century (= baroqueness)
 
 - Noun: Baroque
@@ -271,7 +275,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/FCZ06Sfr9Cg?t=";
+  static String myVideoId = "FCZ06Sfr9Cg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -296,7 +300,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/kKkjTbt9ArQ?t=";
+  static String myVideoId = "kKkjTbt9ArQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -321,7 +325,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/RGiZtld9ssc?t=";
+  static String myVideoId = "RGiZtld9ssc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -346,7 +350,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/VKuurDOxvVA?t=";
+  static String myVideoId = "VKuurDOxvVA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -371,7 +375,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/4Omkh8QFAdg?t=";
+  static String myVideoId = "4Omkh8QFAdg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -396,7 +400,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/BFKzX7u-3yg?t=";
+  static String myVideoId = "BFKzX7u-3yg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -421,7 +425,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/hjVkIoNCnyU?t=";
+  static String myVideoId = "hjVkIoNCnyU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -446,7 +450,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/RykewR-BdzA?t=";
+  static String myVideoId = "RykewR-BdzA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

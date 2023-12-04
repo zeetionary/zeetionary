@@ -19,7 +19,9 @@ class Pallete {
   static var redColor = Colors.red.shade500;
   static var blueColor = Colors.blue.shade300;
   static var tabsbackgroundColor =
-      const Color.fromARGB(110, 162, 239, 20); // fromARGB(110, 162, 239, 20);
+      Color.fromARGB(113, 244, 67, 54); // fromARGB(110, 162, 239, 20);
+  // static var tabsbackgroundColor =
+  //     const Color.fromARGB(110, 162, 239, 20); // fromARGB(110, 162, 239, 20);
 
   // Themes
   static var darkModeAppTheme = ThemeData.dark(useMaterial3: true).copyWith(

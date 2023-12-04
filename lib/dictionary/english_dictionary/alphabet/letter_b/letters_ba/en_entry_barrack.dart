@@ -33,7 +33,8 @@ class EnglishEntrybarrack extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The soldiers trudged back to their barrack quarters after a long day of maneuvers."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The soldiers trudged back to their barrack quarters after a long day of maneuvers."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBarracks2(String languageCode) async {
@@ -41,7 +42,8 @@ class EnglishEntrybarrack extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Every time the minister got up to speak he was barracked mercilessly."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Every time the minister got up to speak he was barracked mercilessly."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBarracks3(String languageCode) async {
@@ -139,7 +141,7 @@ class EnglishEntrybarrack extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -173,7 +175,8 @@ class EnglishEntrybarrack extends StatelessWidget {
                                   text:
                                       "The soldiers trudged back to their barrack quarters after a long day of maneuvers."),
                               const ExampleSentenceKurdish(
-                                  text: "سەربازەکان بە لاتەلات گەڕانەوە بۆ ژوورەکانی سەربازگەکەیان لەدوای ڕۆژێکی درێژ لە لە مەشق و ڕاهێنان."),
+                                  text:
+                                      "سەربازەکان بە لاتەلات گەڕانەوە بۆ ژوورەکانی سەربازگەکەیان لەدوای ڕۆژێکی درێژ لە لە مەشق و ڕاھێنان."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarracks1("en-GB"),
                               ),
@@ -185,14 +188,15 @@ class EnglishEntrybarrack extends StatelessWidget {
                           // const DividerSentences(),
                           // const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (کردار) هاوارکردن بۆ قسەبڕین بە کەسێک کە لەگەڵی ناڕازیت"""),
+٢. (کردار) ھاوارکردن بۆ قسەبڕین بە کەسێک کە لەگەڵی ناڕازیت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
                                       "Every time the minister got up to speak he was barracked mercilessly."),
                               const ExampleSentenceKurdish(
-                                  text: "هەر کە وەزیرەکە دەیویست قسەبکات بێ‌ڕەحمانە وتافی دژ دەوترا."),
+                                  text:
+                                      "ھەر کە وەزیرەکە دەیویست قسەبکات بێ‌ڕەحمانە وتافی دژ دەوترا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarracks2("en-GB"),
                               ),
@@ -247,7 +251,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Verb: barrack (Derived forms: barracked, barracks, barracking)
+- Verb: barrack (derived forms: barracked, barracks, barracking)
 1. Lodge in barracks
  
 2. [Austral, NZ] Spur on or encourage especially by cheers and shouts (= cheer, root on [N. Amer, informal], inspire, urge, urge on, exhort)
@@ -267,7 +271,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/gdgPAetNY5U?t=";
+  static String myVideoId = "gdgPAetNY5U";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -292,7 +296,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/q86QWx7uACI?t=";
+  static String myVideoId = "q86QWx7uACI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -317,7 +321,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/J1fyhCCxsr0?t=";
+  static String myVideoId = "J1fyhCCxsr0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -342,7 +346,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/WnfYRp50xws?t=";
+  static String myVideoId = "WnfYRp50xws";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -367,7 +371,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/UPC0nRENZww?t=";
+  static String myVideoId = "UPC0nRENZww";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -392,7 +396,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/P7s90t8wr8k?t=";
+  static String myVideoId = "P7s90t8wr8k";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -417,7 +421,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/qqa4UwybjzE?t=";
+  static String myVideoId = "qqa4UwybjzE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -442,7 +446,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/trNydu4pVNc?t=";
+  static String myVideoId = "trNydu4pVNc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -467,7 +471,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/qV3qL51tH_8?t=";
+  static String myVideoId = "qV3qL51tH_8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -492,7 +496,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/LQILa44AeCU?t=";
+  static String myVideoId = "LQILa44AeCU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

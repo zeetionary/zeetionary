@@ -1417,20 +1417,20 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "barrister",
     "barrow",
     "bartender",
-    // "barter",
-    // "base",
-    // "baseless",
-    // "base metal",
-    // "baseball",
-    // "basement",
-    // "bash",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    "barter",
+    "base",
+    "baseless",
+    "base metal",
+    "baseball",
+    "basement",
+    "bash",
+    "bashful",
+    "bashfully",
+    "BASIC",
+    "basic",
+    "basically",
+    "basics",
+    "basil",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -7635,158 +7635,158 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-bargain");
                   }
-                  // if (wordsEnglish == "barge") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-barge");
-                  // }
-                  // if (wordsEnglish == "barista") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-barista");
-                  // }
-                  // if (wordsEnglish == "baritone") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-baritone");
-                  // }
-                  // if (wordsEnglish == "bark") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bark");
-                  // }
-                  // if (wordsEnglish == "barley") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-barley");
-                  // }
-                  // if (wordsEnglish == "barmy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-barmy");
-                  // }
-                  // if (wordsEnglish == "barn") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-barn");
-                  // }
-                  // if (wordsEnglish == "barnacle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-barnacle");
-                  // }
-                  // if (wordsEnglish == "barometer") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-barometer");
-                  // }
-                  // if (wordsEnglish == "baron") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-baron");
-                  // }
-                  // if (wordsEnglish == "baroness") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-baroness");
-                  // }
-                  // if (wordsEnglish == "baronet") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-baronet");
-                  // }
-                  // if (wordsEnglish == "baroque") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-baroque");
-                  // }
-                  // if (wordsEnglish == "barrack") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-barrack");
-                  // }
-                  // if (wordsEnglish == "barracks") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-barracks");
-                  // }
-                  // if (wordsEnglish == "barrage") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-barrage");
-                  // }
-                  // if (wordsEnglish == "barrel") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-barrel");
-                  // }
-                  // if (wordsEnglish == "barrel organ") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-barrel-organ");
-                  // }
-                  // if (wordsEnglish == "barren") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-barren");
-                  // }
-                  // if (wordsEnglish == "barricade") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-barricade");
-                  // }
-                  // if (wordsEnglish == "barrier") {
-                  //   saveToHistory(wordsEnglish);
-                  // Routemaster.of(context).push("/english-barrier");
-                  // }
-                  // if (wordsEnglish == "barring") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-barring");
-                  // }
-                  // if (wordsEnglish == "barrister") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-barrister");
-                  // }
-                  // if (wordsEnglish == "barrow") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-barrow");
-                  // }
-                  // if (wordsEnglish == "barter") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-barter");
-                  // }
-                  // if (wordsEnglish == "base") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-base");
-                  // }
-                  // if (wordsEnglish == "baseless") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-baseless");
-                  // }
-                  // if (wordsEnglish == "base metal") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-base-metal");
-                  // }
-                  // if (wordsEnglish == "baseball") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-baseball");
-                  // }
-                  // if (wordsEnglish == "basement") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-basement");
-                  // }
-                  // if (wordsEnglish == "bash") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bash");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
+                  if (wordsEnglish == "barge") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barge");
+                  }
+                  if (wordsEnglish == "barista") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barista");
+                  }
+                  if (wordsEnglish == "baritone") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-baritone");
+                  }
+                  if (wordsEnglish == "bark") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bark");
+                  }
+                  if (wordsEnglish == "barley") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barley");
+                  }
+                  if (wordsEnglish == "barmy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barmy");
+                  }
+                  if (wordsEnglish == "barn") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barn");
+                  }
+                  if (wordsEnglish == "barnacle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barnacle");
+                  }
+                  if (wordsEnglish == "barometer") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barometer");
+                  }
+                  if (wordsEnglish == "baron") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-baron");
+                  }
+                  if (wordsEnglish == "baroness") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-baroness");
+                  }
+                  if (wordsEnglish == "baronet") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-baronet");
+                  }
+                  if (wordsEnglish == "baroque") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-baroque");
+                  }
+                  if (wordsEnglish == "barrack") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barrack");
+                  }
+                  if (wordsEnglish == "barracks") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barracks");
+                  }
+                  if (wordsEnglish == "barrage") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barrage");
+                  }
+                  if (wordsEnglish == "barrel") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barrel");
+                  }
+                  if (wordsEnglish == "barrel organ") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barrel-organ");
+                  }
+                  if (wordsEnglish == "barren") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barren");
+                  }
+                  if (wordsEnglish == "barricade") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barricade");
+                  }
+                  if (wordsEnglish == "barrier") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barrier");
+                  }
+                  if (wordsEnglish == "barring") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barring");
+                  }
+                  if (wordsEnglish == "barrister") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barrister");
+                  }
+                  if (wordsEnglish == "barrow") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barrow");
+                  }
+                  if (wordsEnglish == "barter") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-barter");
+                  }
+                  if (wordsEnglish == "base") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-base");
+                  }
+                  if (wordsEnglish == "baseless") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-baseless");
+                  }
+                  if (wordsEnglish == "base metal") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-base-metal");
+                  }
+                  if (wordsEnglish == "baseball") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-baseball");
+                  }
+                  if (wordsEnglish == "basement") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-basement");
+                  }
+                  if (wordsEnglish == "bash") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bash");
+                  }
+                  if (wordsEnglish == "bashful") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bashful");
+                  }
+                  if (wordsEnglish == "bashfully") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bashfully");
+                  }
+                  if (wordsEnglish == "BASIC") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-basic-one");
+                  }
+                  if (wordsEnglish == "basic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-basic-two");
+                  }
+                  if (wordsEnglish == "basically") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-basically");
+                  }
+                  if (wordsEnglish == "basics") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-basics");
+                  }
+                  if (wordsEnglish == "basil") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-basil");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");

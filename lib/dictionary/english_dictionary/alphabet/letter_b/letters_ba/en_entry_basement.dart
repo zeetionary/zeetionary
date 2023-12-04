@@ -33,7 +33,8 @@ class EnglishEntrybasement extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She lives in a two-room basement flat."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She lives in a two-room basement flat."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBasements2(String languageCode) async {
@@ -139,7 +140,7 @@ class EnglishEntrybasement extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -171,7 +172,9 @@ class EnglishEntrybasement extends StatelessWidget {
 ١. (ناو) ژێرزەمینی بینایەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(text: "She lives in a two-room basement flat."),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She lives in a two-room basement flat."),
                               const ExampleSentenceKurdish(
                                   text: "لە فلاتێکی دوو ژووری ژێرزەمینی دەژی."),
                               CustomIconButtonBritish(
@@ -228,7 +231,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: basement (Derived forms: basements)
+- Noun: basement (derived forms: basements)
 1. The lowermost portion of a structure partly or wholly below ground level; often used for storage (= cellar)
  
 2. The ground floor facade or interior in Renaissance architecture
@@ -245,7 +248,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/f2fUhZrAq_s?t=";
+  static String myVideoId = "f2fUhZrAq_s";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -270,7 +273,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/zR9ATf-hi_w?t=";
+  static String myVideoId = "zR9ATf-hi_w";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -295,7 +298,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/zdBdbqMSgBA";
+  static String myVideoId = "zdBdbqMSgBA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -320,7 +323,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/JwQAAYctdFY?t=";
+  static String myVideoId = "JwQAAYctdFY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -345,7 +348,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/upuxp3OowbY?t=";
+  static String myVideoId = "upuxp3OowbY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -370,7 +373,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/zfMRyjoIam4?t=";
+  static String myVideoId = "zfMRyjoIam4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -395,7 +398,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/ujSHQdIhLpg?t=";
+  static String myVideoId = "ujSHQdIhLpg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -420,7 +423,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/IPMXZrSdEMM?t=";
+  static String myVideoId = "IPMXZrSdEMM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -445,7 +448,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/QPN7-8yGbzo?t=";
+  static String myVideoId = "QPN7-8yGbzo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -470,7 +473,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/jKzULRwtX0I?t=";
+  static String myVideoId = "jKzULRwtX0I";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -495,7 +498,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/AaqeJhvyqrY?t=";
+  static String myVideoId = "AaqeJhvyqrY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

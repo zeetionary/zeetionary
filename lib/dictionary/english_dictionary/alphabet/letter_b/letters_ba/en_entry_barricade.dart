@@ -33,7 +33,8 @@ class EnglishEntrybarricade extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The police stormed the barricades the demonstrators had put up."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The police stormed the barricades the demonstrators had put up."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBarricades2(String languageCode) async {
@@ -41,7 +42,8 @@ class EnglishEntrybarricade extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They barricaded all the doors and windows."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They barricaded all the doors and windows."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBarricades3(String languageCode) async {
@@ -109,7 +111,8 @@ class EnglishEntrybarricade extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbærɪkeɪd/,  /ˌbærɪˈkeɪd/"),
+                            const IPAofEnglish(
+                                text: "IpaUK: /ˈbærɪkeɪd/,  /ˌbærɪˈkeɪd/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakBarricade("en-GB"),
                             ),
@@ -139,7 +142,7 @@ class EnglishEntrybarricade extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -175,7 +178,8 @@ class EnglishEntrybarricade extends StatelessWidget {
                                   text:
                                       "The police stormed the barricades the demonstrators had put up."),
                               const ExampleSentenceKurdish(
-                                  text: "پۆلیس دای بەسەر ئەو بەربەستانەدا کە خۆپیشاندەران دایان نابوو."),
+                                  text:
+                                      "پۆلیس دای بەسەر ئەو بەربەستانەدا کە خۆپیشاندەران دایان نابوو."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarricades1("en-GB"),
                               ),
@@ -194,7 +198,8 @@ class EnglishEntrybarricade extends StatelessWidget {
                                   text:
                                       "They barricaded all the doors and windows."),
                               const ExampleSentenceKurdish(
-                                  text: "هەموو دەرگا و پەنجەرەکانیان بەربەست کرد."),
+                                  text:
+                                      "ھەموو دەرگا و پەنجەرەکانیان بەربەست کرد."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarricades2("en-GB"),
                               ),
@@ -249,13 +254,13 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: barricade (Derived forms: barricades)
+- Noun: barricade (derived forms: barricades)
 1. A barrier set up by police to stop traffic on a street or road in order to catch a fugitive or inspect traffic etc. (= roadblock)
  
 2. A barrier (usually thrown up hastily) to impede the advance of an enemy
 "they stormed the barricade"
 
-- Verb: barricade (Derived forms: barricades, barricaded, barricading)
+- Verb: barricade (derived forms: barricades, barricaded, barricading)
 1. Render unsuitable for passage (= block, blockade, stop, block off, block up, bar)
 "barricade the streets";
  
@@ -276,7 +281,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/f7QWMUCMYOE?t=";
+  static String myVideoId = "f7QWMUCMYOE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -301,7 +306,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/C_MDnd7px-I?t=";
+  static String myVideoId = "C_MDnd7px-I";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -326,7 +331,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/U38i32CpYow?t=";
+  static String myVideoId = "U38i32CpYow";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -351,7 +356,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/Yo4JMwop1CU?t=";
+  static String myVideoId = "Yo4JMwop1CU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -376,7 +381,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/LEWjyJjOTpA?t=";
+  static String myVideoId = "LEWjyJjOTpA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -401,7 +406,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/OP7l1n_8Lh4?t=";
+  static String myVideoId = "OP7l1n_8Lh4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -426,7 +431,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/H7Quhnm-Z8A?t=";
+  static String myVideoId = "H7Quhnm-Z8A";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -451,7 +456,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/OPVZcsdy9RY?t=";
+  static String myVideoId = "OPVZcsdy9RY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -476,7 +481,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/ri2Aj44PA8E?t=";
+  static String myVideoId = "ri2Aj44PA8E";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -501,7 +506,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/Lh0x54GC1sw?t=";
+  static String myVideoId = "Lh0x54GC1sw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -526,7 +531,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/rF95MJL63Rs?t=";
+  static String myVideoId = "rF95MJL63Rs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

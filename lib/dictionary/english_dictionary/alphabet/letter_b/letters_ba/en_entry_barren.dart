@@ -170,7 +170,7 @@ class EnglishEntrybarren extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: بوورە، بەیار، شۆرەکات، ڕووتەن، مووش، نەکێڵ، خەرشۆڤ، وشک، قاقڕ، بێ‌بەر، زڕ، خرس، پەرک (دار)، بێ‌بەرهەم، بەیچەڵ، نەزۆک، ستێور، قرد، بێهوودە، بێ‌ئەنجام، بێ‌نرخ، بێ‌بڕەو، بێ‌بایەخ، چیزۆ
+کوردی: بوورە، بەیار، شۆرەکات، ڕووتەن، مووش، نەکێڵ، خەرشۆڤ، وشک، قاقڕ، بێ‌بەر، زڕ، خرس، پەرک (دار)، بێ‌بەرھەم، بەیچەڵ، نەزۆک، ستێور، قرد، بێھوودە، بێ‌ئەنجام، بێ‌نرخ، بێ‌بڕەو، بێ‌بایەخ، چیزۆ
 
 ١. (ھاوەڵناو) زەوییەک کە ڕووەک گەشەی لەسەر ناکات"""),
                           Row(
@@ -231,7 +231,7 @@ class EnglishEntrybarren extends StatelessWidget {
                           // const DividerSentences(),
                           // const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٤. (ھاوەڵناو) دۆخێک کە هیچی بەسوود و سەرکەوتووانەی لێ سەوز نابێت"""),
+٤. (ھاوەڵناو) دۆخێک کە ھیچی بەسوود و سەرکەوتووانەی لێ سەوز نابێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -294,7 +294,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Adjective: barren (Derived forms: barrenest, barrener)
+- Adjective: barren (derived forms: barrenest, barrener)
 1. Providing no shelter or sustenance (= bare, bleak, desolate, stark)
 "barren lands";
  
@@ -306,7 +306,7 @@ class EnglishMeaning extends StatelessWidget {
  
 4. Having little or no vegetation; desolate and lifeless
 
-- Noun: barren (Derived forms: barrens)
+- Noun: barren (derived forms: barrens)
 1. An uninhabited wilderness that is worthless for cultivation (= waste, wasteland)
 "the barrens of central Africa";
 """,
@@ -322,7 +322,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/Sotko8Um9e0?t=";
+  static String myVideoId = "Sotko8Um9e0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -347,7 +347,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/oD2OrBjqVtY?t=";
+  static String myVideoId = "oD2OrBjqVtY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -372,7 +372,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/-obKX-mqjXQ?t=";
+  static String myVideoId = "-obKX-mqjXQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -397,7 +397,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/NcRifDitRnU?t=";
+  static String myVideoId = "NcRifDitRnU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -422,7 +422,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/PhQksV8fbKw?t=";
+  static String myVideoId = "PhQksV8fbKw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -447,7 +447,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/ilj8fZroRw0?t=";
+  static String myVideoId = "ilj8fZroRw0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -472,7 +472,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/Ix6vtM4gP8g?t=";
+  static String myVideoId = "Ix6vtM4gP8g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -497,7 +497,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/HtLddZHaXOk?t=";
+  static String myVideoId = "HtLddZHaXOk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -522,7 +522,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/0J3RQCVXLcA?t=";
+  static String myVideoId = "0J3RQCVXLcA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -547,7 +547,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/FVVT8EBqK3g?t=";
+  static String myVideoId = "FVVT8EBqK3g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

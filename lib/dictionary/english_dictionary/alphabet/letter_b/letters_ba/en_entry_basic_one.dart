@@ -6,89 +6,89 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "barmy" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
+// Define the word "BASIC" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
 
-// replace barmy - replace EnglishEntrybarmy
+// replace BASIC - replace EnglishEntrybasicone
 
-// replace speakBarmy - /ˈbɑːmi/
+// replace speakBasicone - /ˈbeɪsɪk/
 
 enum TtsState { playing }
 
-class EnglishEntrybarmy extends StatelessWidget {
+class EnglishEntrybasicone extends StatelessWidget {
 // blank divider
-  EnglishEntrybarmy({super.key});
+  EnglishEntrybasicone({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBarmy(String languageCode) async {
-    // DOPSUM: CHANGE speakBarmy
+  Future<void> speakBasicone(String languageCode) async {
+    // DOPSUM: CHANGE speakBasicone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("barmy"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("BASIC"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarmys1(String languageCode) async {
-    // DOPSUM: CHANGE speakBarmy
+  Future<void> speakBasicones1(String languageCode) async {
+    // DOPSUM: CHANGE speakBasicone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The music is driving me barmy."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "BASIC was one of the first programming languages that I learned."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarmys2(String languageCode) async {
-    // DOPSUM: CHANGE speakBarmy
+  Future<void> speakBasicones2(String languageCode) async {
+    // DOPSUM: CHANGE speakBasicone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarmys22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBasicones22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarmys3(String languageCode) async {
-    // DOPSUM: CHANGE speakBarmy
+  Future<void> speakBasicones3(String languageCode) async {
+    // DOPSUM: CHANGE speakBasicone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarmys33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBasicones33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarmys4(String languageCode) async {
-    // DOPSUM: CHANGE speakBarmy
+  Future<void> speakBasicones4(String languageCode) async {
+    // DOPSUM: CHANGE speakBasicone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarmys44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBasicones44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarmys5(String languageCode) async {
-    // DOPSUM: CHANGE speakBarmy
+  Future<void> speakBasicones5(String languageCode) async {
+    // DOPSUM: CHANGE speakBasicone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarmys55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBasicones55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarmys6(String languageCode) async {
-    // DOPSUM: CHANGE speakBarmy
+  Future<void> speakBasicones6(String languageCode) async {
+    // DOPSUM: CHANGE speakBasicone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarmys66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBasicones66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarmys7(String languageCode) async {
-    // DOPSUM: CHANGE speakBarmy
+  Future<void> speakBasicones7(String languageCode) async {
+    // DOPSUM: CHANGE speakBasicone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarmys77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBasicones77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 9, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 8, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -105,22 +105,22 @@ class EnglishEntrybarmy extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "barmy"),
+                            EntryTitle(word: "BASIC"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbɑːmi/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbeɪsɪk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBarmy("en-GB"),
+                              onPressed: () => speakBasicone("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbɑːrmi/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbeɪsɪk/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBarmy("en-US"),
+                              onPressed: () => speakBasicone("en-US"),
                             ),
                           ],
                         ),
@@ -139,8 +139,8 @@ class EnglishEntrybarmy extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 9
-                  VideoIconForTab(), // 07 --- FIND: The music is driving me barmy.
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 8
+                  // VideoIconForTab(), // 07 --- FIND:
                   // VideoIconForTab(), // 08
                   // VideoIconForTab(), // 09
                   // VideoIconForTab(), // 10
@@ -167,20 +167,20 @@ class EnglishEntrybarmy extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: شێت، دەلوو، گەوج، کەر
-
-١. (ھاوەڵناو) کەمێک بێزار"""),
+١. (ناو) زمانێک بە ئینگلیزییەکی ئاسان بۆ نووسینی پڕۆگرامی کۆمپیوتەر"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "The music is driving me barmy."),
+                                  text:
+                                      "BASIC was one of the first programming languages that I learned."),
                               const ExampleSentenceKurdish(
-                                  text: "میوزیکەکە وەڕەسم دەکات."),
+                                  text:
+                                      "بەیسیک یەکێک لە یەکەمین زمانەکانی پڕۆگرامسازی بوو کە فێری بووم."),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBarmys1("en-GB"),
+                                onPressed: () => speakBasicones1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBarmys1("en-US"),
+                                onPressed: () => speakBasicones1("en-US"),
                               ),
                             ],
                           ),
@@ -195,7 +195,7 @@ class EnglishEntrybarmy extends StatelessWidget {
                     YoutubeEmbeddedfour(),
                     YoutubeEmbeddedfive(),
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                    YoutubeEmbeddedseven(),
+                    // YoutubeEmbeddedseven(),
                     // YoutubeEmbeddedeight(),
                     // YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
@@ -230,10 +230,8 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Adjective: barmy (derived forms: barmiest, barmier)
-Usage: slang
-1. Informal or slang term meaning insane, strange, eccentric or stupid (= balmy [archaic, slang], bats [slang], batty [slang], bonkers [slang], buggy [N. Amer, slang], cracked [slang], crackers [slang], daft [Brit, slang], dotty [slang], fruity [slang], haywire [slang], kooky [slang], kookie [slang], loco [slang], loony [slang], loopy [slang], nuts [slang], nutty [slang], round the bend [slang], around the bend [slang], wacky [slang], whacky [slang], doolally [Brit, slang], dippy [slang], daffy [slang], nutsy [N. Amer, slang], potty [Brit, slang], daft as a brush [Brit, slang], round the twist [Brit, slang], wacko [slang], dumbass [N. Amer, slang], bughouse [N. Amer, slang], cuckoo [slang], mental [slang], barking mad [Brit, slang], barking [Brit, slang])
-"it used to drive my husband barmy";
+- Noun: BASIC
+1. A popular programming language that is relatively easy to learn; an acronym for beginner's all-purpose symbolic instruction code; no longer in general use
 """,
           )
         ],
@@ -247,12 +245,12 @@ Usage: slang
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "TISVaYgT4K4";
+  static String myVideoId = "HWpi9n2H3kE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 149, // DOPSUM: CHANGE IT
+      startAt: 432, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -272,12 +270,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "v9SXdpj8mV4";
+  static String myVideoId = "wgi0A0YPXkE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1556, // DOPSUM: CHANGE IT
+      startAt: 960, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -297,12 +295,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "y9agSS0HPss";
+  static String myVideoId = "GgBSFe3hWcw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 485, // DOPSUM: CHANGE IT
+      startAt: 36, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -322,12 +320,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "hPMSzLkp4gA";
+  static String myVideoId = "KCbGsZHdjds";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1999, // DOPSUM: CHANGE IT
+      startAt: 641, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -347,12 +345,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "DSSm4QgvkCQ";
+  static String myVideoId = "a7V1_GcHW_Y";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 12498, // DOPSUM: CHANGE IT
+      startAt: 331, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -372,12 +370,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "CTYKzt_hH6U";
+  static String myVideoId = "H5Vzo-iPGCo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1013, // DOPSUM: CHANGE IT
+      startAt: 47, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -397,12 +395,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "y8t7a8wwWhM";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 177, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -637,4 +635,4 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
   }
 }
 
-// end barmy
+// end BASIC// TODO Implement this library.

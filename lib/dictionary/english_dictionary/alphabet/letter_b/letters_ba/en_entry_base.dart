@@ -95,7 +95,8 @@ class EnglishEntrybase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("All we got was base pay—we didn't reach profitability levels to award a bonus."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "All we got was base pay—we didn't reach profitability levels to award a bonus."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBases9(String languageCode) async {
@@ -103,7 +104,8 @@ class EnglishEntrybase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She used her family's history as a base for her novel."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She used her family's history as a base for her novel."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBases10(String languageCode) async {
@@ -111,7 +113,8 @@ class EnglishEntrybase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Put some moisturizer on as a base before applying your make-up."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Put some moisturizer on as a base before applying your make-up."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBases11(String languageCode) async {
@@ -119,7 +122,8 @@ class EnglishEntrybase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Sodium hydroxide (NaOH) is a strong base that is used in many industrial processes."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Sodium hydroxide (NaOH) is a strong base that is used in many industrial processes."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBases12(String languageCode) async {
@@ -127,7 +131,8 @@ class EnglishEntrybase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The base of the decimal system is 10, which uses the digits 0-9."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The base of the decimal system is 10, which uses the digits 0-9."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBases13(String languageCode) async {
@@ -135,7 +140,8 @@ class EnglishEntrybase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He acted from base motives."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He acted from base motives."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBases14(String languageCode) async {
@@ -252,9 +258,9 @@ class EnglishEntrybase extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: بنک، بن، خوارووی، بنکە، بێخ، بنج، بنچک، هیم، خیم، بنگە، پایە، بنەما، بنیات، بناخە، بنەڕەت، بنواشە، بنەواشە، بنکە، (کیمیا) تفت، باز، بەیس، کەرەسەی سەرەکی، مەتریاڵی بنەڕەتی، (مێعماری) ژێرکۆڵ، بن‌کۆڵ، بنک، (دار) بن، کۆلکە، (زمانەوانی) قەد، بن، ڕەگ، ڕیشە (هی وشە یان داڕشتەیێ)، فۆڕم یان وشەی گەردان‌نەکراو، (بیرکاری) بنک، بنچینە، (بەیسبۆڵ) گۆشە، سووک، نەگریس، جێی‌شەرم، ناحەز، بێ‌شەرمانە
+کوردی: بنک، بن، خوارووی، بنکە، بێخ، بنج، بنچک، ھیم، خیم، بنگە، پایە، بنەما، بنیات، بناخە، بنەڕەت، بنواشە، بنەواشە، بنکە، (کیمیا) تفت، باز، بەیس، کەرەسەی سەرەکی، مەتریاڵی بنەڕەتی، (مێعماری) ژێرکۆڵ، بن‌کۆڵ، بنک، (دار) بن، کۆلکە، (زمانەوانی) قەد، بن، ڕەگ، ڕیشە (ھی وشە یان داڕشتەیێ)، فۆڕم یان وشەی گەردان‌نەکراو، (بیرکاری) بنک، بنچینە، (بەیسبۆڵ) گۆشە، سووک، نەگریس، جێی‌شەرم، ناحەز، بێ‌شەرمانە
 
-١. (کردار) بەکارهێنانی شارێک، شارۆچکەیەک، هتد وەک شوێنی سەرەکی شتێک"""),
+١. (کردار) بەکارھێنانی شارێک، شارۆچکەیەک، ھتد وەک شوێنی سەرەکی شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -280,7 +286,7 @@ class EnglishEntrybase extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "The lamp has a heavy base."),
                               const ExampleSentenceKurdish(
-                                  text: "گڵۆپەکە بنکێکی قوورسی هەیە."),
+                                  text: "گڵۆپەکە بنکێکی قوورسی ھەیە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBases2("en-GB"),
                               ),
@@ -298,7 +304,7 @@ class EnglishEntrybase extends StatelessWidget {
                                       "He felt a sharp pain at the base of his spine."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەستی بە ئازارێکی توند دەکرد لە بەشی خوارەوەی بڕبڕەی پشتی."),
+                                      "ھەستی بە ئازارێکی توند دەکرد لە بەشی خوارەوەی بڕبڕەی پشتی."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBases3("en-GB"),
                               ),
@@ -318,7 +324,7 @@ class EnglishEntrybase extends StatelessWidget {
                                       "I spend a lot of time in Britain but Paris is still my base."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کاتێکی زۆر لە پاریس بەسەر دەبەم، بەڵام هێشتا پاریس هەوارگەی سەرەکیمە."),
+                                      "کاتێکی زۆر لە پاریس بەسەر دەبەم، بەڵام ھێشتا پاریس ھەوارگەی سەرەکیمە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBases4("en-GB"),
                               ),
@@ -337,7 +343,7 @@ class EnglishEntrybase extends StatelessWidget {
                                   text:
                                       "After the attack, they returned to base."),
                               const ExampleSentenceKurdish(
-                                  text: "لەدوای هێرشەکە گەڕانەوە بنکەکە."),
+                                  text: "لەدوای ھێرشەکە گەڕانەوە بنکەکە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBases5("en-GB"),
                               ),
@@ -349,7 +355,7 @@ class EnglishEntrybase extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٥. (ناو) ئەو کەس و چالاکییانەی کەسێک لێیانەوە هێز و پشتیوانی و پارە وەردەگرێت"""),
+٥. (ناو) ئەو کەس و چالاکییانەی کەسێک لێیانەوە ھێز و پشتیوانی و پارە وەردەگرێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -357,7 +363,7 @@ class EnglishEntrybase extends StatelessWidget {
                                       "These policies have a broad base of support."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەم سیاسەتانە بناغەیەکی فراوانی پشتیوانیان هەیە."),
+                                      "ئەم سیاسەتانە بناغەیەکی فراوانی پشتیوانیان ھەیە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBases6("en-GB"),
                               ),
@@ -375,7 +381,7 @@ class EnglishEntrybase extends StatelessWidget {
                                       "This course is an opportunity to expand my knowledge base."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەم کۆرسە هەلێکی بۆ فراوانکردنی بناغەی زانیاریم."),
+                                      "ئەم کۆرسە ھەلێکی بۆ فراوانکردنی بناغەی زانیاریم."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBases7("en-GB"),
                               ),
@@ -387,14 +393,15 @@ class EnglishEntrybase extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٦. (ناو) ئەو مووچەیەی کە وەریدەگری پێش ئەوەی هیچی تری بۆ زیادبکرێت بۆ (نموونە بەخشیش)"""),
+٦. (ناو) ئەو مووچەیەی کە وەریدەگری پێش ئەوەی ھیچی تری بۆ زیادبکرێت بۆ (نموونە بەخشیش)"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "All we got was base pay—we didn't reach profitability levels to award a bonus."),
+                                  text:
+                                      "All we got was base pay—we didn't reach profitability levels to award a bonus."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەموو ئەوەی مووچەکەی خۆمان بوو، نەگەشتین بەو ئاستەی قازانج کە بەخشیش بدرێت."),
+                                      "ھەموو ئەوەی مووچەکەی خۆمان بوو، نەگەشتین بەو ئاستەی قازانج کە بەخشیش بدرێت."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBases8("en-GB"),
                               ),
@@ -410,10 +417,11 @@ class EnglishEntrybase extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "She used her family's history as a base for her novel."),
+                                  text:
+                                      "She used her family's history as a base for her novel."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "مێژووی خێزانەکەی وەک سەرچاوە و ئیلهام بۆ ڕۆمانەکەی بەکارهێنا."),
+                                      "مێژووی خێزانەکەی وەک سەرچاوە و ئیلھام بۆ ڕۆمانەکەی بەکارھێنا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBases9("en-GB"),
                               ),
@@ -429,10 +437,11 @@ class EnglishEntrybase extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "Put some moisturizer on as a base before applying your make-up."),
+                                  text:
+                                      "Put some moisturizer on as a base before applying your make-up."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەندێک کرێمی شێدارکەرەوە بەکاربێنە وەک بناغە پێش ئەوەی مەیکەپەکەت بکەیت."),
+                                      "ھەندێک کرێمی شێدارکەرەوە بەکاربێنە وەک بناغە پێش ئەوەی مەیکەپەکەت بکەیت."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBases10("en-GB"),
                               ),
@@ -448,10 +457,11 @@ class EnglishEntrybase extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "Sodium hydroxide (NaOH) is a strong base that is used in many industrial processes."),
+                                  text:
+                                      "Sodium hydroxide (NaOH) is a strong base that is used in many industrial processes."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هایدرۆکسایدی سۆدیۆم تفتێکی بەهێزە کە لە زۆر پڕۆسەی پیشەسازیدا بەکاردێت."),
+                                      "ھایدرۆکسایدی سۆدیۆم تفتێکی بەھێزە کە لە زۆر پڕۆسەی پیشەسازیدا بەکاردێت."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBases11("en-GB"),
                               ),
@@ -467,7 +477,8 @@ class EnglishEntrybase extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "The base of the decimal system is 10, which uses the digits 0-9."),
+                                  text:
+                                      "The base of the decimal system is 10, which uses the digits 0-9."),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بنچینەی سیستەمی دەیان بریتییە لە ١٠ و ژمارەکانی ١-٩ بەکاردێنێت."),
@@ -482,14 +493,14 @@ class EnglishEntrybase extends StatelessWidget {
                           // const DividerSentences(),
                           // const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١١. (هاوەڵناو) کەسێک کە هیچ بەها و ئەخلاقی نییە"""),
+١١. (ھاوەڵناو) کەسێک کە ھیچ بەھا و ئەخلاقی نییە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He acted from base motives."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بە پاڵنەری کەسی هەنگاوی نا (بۆ بەرژەوەندی خۆی)."),
+                                      "بە پاڵنەری کەسی ھەنگاوی نا (بۆ بەرژەوەندی خۆی)."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBases13("en-GB"),
                               ),
@@ -544,7 +555,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Verb: base (Derived forms: basing, bases, based)
+- Verb: base (derived forms: basing, bases, based)
 1. Use as a basis for; found on (= establish, ground, found)
 "base a claim on some observation";
  
@@ -553,7 +564,7 @@ class EnglishMeaning extends StatelessWidget {
  
 3. Use (purified cocaine) by burning it and inhaling the fumes (= free-base)
 
-- Adjective: base (Derived forms: basest, baser)
+- Adjective: base (derived forms: basest, baser)
 1. Serving as or forming a base (= basal)
 "the painter applied a base coat followed by two finishing coats";
  
@@ -574,7 +585,7 @@ class EnglishMeaning extends StatelessWidget {
  
 7. [archaic] Illegitimate (= baseborn [archaic])
 
-- Noun: base (Derived forms: bases)
+- Noun: base (derived forms: bases)
 1. The bottom or lowest part
 "the base of the mountain"
  
@@ -644,7 +655,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/xvyj35Pd9C4?t=";
+  static String myVideoId = "xvyj35Pd9C4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -669,7 +680,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/ieQQMxW9A6E?t=";
+  static String myVideoId = "ieQQMxW9A6E";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -694,7 +705,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/MnExgQ81fhU?t=";
+  static String myVideoId = "MnExgQ81fhU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -719,7 +730,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/MGO4_8YRKro?t=";
+  static String myVideoId = "MGO4_8YRKro";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -744,7 +755,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/poHTA94-BeY?t=";
+  static String myVideoId = "poHTA94-BeY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -769,7 +780,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/zqllxbPWKNI?t=";
+  static String myVideoId = "zqllxbPWKNI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -794,7 +805,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/544DTGHIBM0?t=";
+  static String myVideoId = "544DTGHIBM0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -819,7 +830,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/s3B-qp3U5G0?t=";
+  static String myVideoId = "s3B-qp3U5G0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -844,7 +855,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/tsxmyL7TUJg?t=";
+  static String myVideoId = "tsxmyL7TUJg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -869,7 +880,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/qq9iRMrubzg?t=";
+  static String myVideoId = "qq9iRMrubzg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -894,7 +905,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/vp-8-WXeq-E?t=";
+  static String myVideoId = "vp-8-WXeq-E";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -919,7 +930,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/jrje73EyKag?t=";
+  static String myVideoId = "jrje73EyKag";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -946,7 +957,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 class YoutubeEmbeddedthirteen extends StatelessWidget {
   YoutubeEmbeddedthirteen({super.key});
 
-  static String myVideoId = "https://youtu.be/oD9BaNAH-eE?t=";
+  static String myVideoId = "oD9BaNAH-eE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -960,7 +971,7 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
     ),
   );
 
-  static String myVideoIdTwo = "https://youtu.be/a9m3GD0DbPY?t=";
+  static String myVideoIdTwo = "a9m3GD0DbPY";
 
   final YoutubePlayerController _controllertwo = YoutubePlayerController(
     initialVideoId: myVideoIdTwo,
@@ -974,7 +985,7 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
     ),
   );
 
-  static String myVideoIdThree = "https://youtu.be/pFEB0chiuJA?t=";
+  static String myVideoIdThree = "pFEB0chiuJA";
 
   final YoutubePlayerController _controllerthree = YoutubePlayerController(
     initialVideoId: myVideoIdThree,
@@ -988,7 +999,7 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
     ),
   );
 
-  static String myVideoIdFour = "https://youtu.be/qvNXPn4ptJM?t=";
+  static String myVideoIdFour = "qvNXPn4ptJM";
 
   final YoutubePlayerController _controllerfour = YoutubePlayerController(
     initialVideoId: myVideoIdFour,
@@ -1002,7 +1013,7 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
     ),
   );
 
-  static String myVideoIdFive = "https://youtu.be/_-cGBYAt2Fw?t=";
+  static String myVideoIdFive = "_-cGBYAt2Fw";
 
   final YoutubePlayerController _controllerfive = YoutubePlayerController(
     initialVideoId: myVideoIdFive,

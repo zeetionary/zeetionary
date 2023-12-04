@@ -6,89 +6,93 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "barmy" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
+// Define the word "basic" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
 
-// replace barmy - replace EnglishEntrybarmy
+// replace basic - replace EnglishEntrybasictwo
 
-// replace speakBarmy - /ˈbɑːmi/
+// replace speakBasictwo - /ˈbeɪsɪk/
 
 enum TtsState { playing }
 
-class EnglishEntrybarmy extends StatelessWidget {
+class EnglishEntrybasictwo extends StatelessWidget {
 // blank divider
-  EnglishEntrybarmy({super.key});
+  EnglishEntrybasictwo({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBarmy(String languageCode) async {
-    // DOPSUM: CHANGE speakBarmy
+  Future<void> speakBasictwo(String languageCode) async {
+    // DOPSUM: CHANGE speakBasictwo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("barmy"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("basic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarmys1(String languageCode) async {
-    // DOPSUM: CHANGE speakBarmy
+  Future<void> speakBasictwos1(String languageCode) async {
+    // DOPSUM: CHANGE speakBasictwo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The music is driving me barmy."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "There is a basic fault in the design of the engine."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarmys2(String languageCode) async {
-    // DOPSUM: CHANGE speakBarmy
+  Future<void> speakBasictwos2(String languageCode) async {
+    // DOPSUM: CHANGE speakBasictwo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarmys22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They haven't even given us the most basic information we need."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarmys3(String languageCode) async {
-    // DOPSUM: CHANGE speakBarmy
+  Future<void> speakBasictwos3(String languageCode) async {
+    // DOPSUM: CHANGE speakBasictwo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarmys33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "My knowledge of French is pretty basic."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarmys4(String languageCode) async {
-    // DOPSUM: CHANGE speakBarmy
+  Future<void> speakBasictwos4(String languageCode) async {
+    // DOPSUM: CHANGE speakBasictwo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarmys44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The crisis has led to price rises in basic foodstuffs, such as meat, cheese, and sugar."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarmys5(String languageCode) async {
-    // DOPSUM: CHANGE speakBarmy
+  Future<void> speakBasictwos5(String languageCode) async {
+    // DOPSUM: CHANGE speakBasictwo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarmys55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The basic pay of the average worker has risen by 3 per cent."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarmys6(String languageCode) async {
-    // DOPSUM: CHANGE speakBarmy
+  Future<void> speakBasictwos6(String languageCode) async {
+    // DOPSUM: CHANGE speakBasictwo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarmys66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBasictwos66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarmys7(String languageCode) async {
-    // DOPSUM: CHANGE speakBarmy
+  Future<void> speakBasictwos7(String languageCode) async {
+    // DOPSUM: CHANGE speakBasictwo
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarmys77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBasictwos77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 9, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -105,22 +109,22 @@ class EnglishEntrybarmy extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "barmy"),
+                            EntryTitle(word: "basic"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbɑːmi/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbeɪsɪk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBarmy("en-GB"),
+                              onPressed: () => speakBasictwo("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbɑːrmi/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbeɪsɪk/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBarmy("en-US"),
+                              onPressed: () => speakBasictwo("en-US"),
                             ),
                           ],
                         ),
@@ -139,13 +143,13 @@ class EnglishEntrybarmy extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 9
-                  VideoIconForTab(), // 07 --- FIND: The music is driving me barmy.
-                  // VideoIconForTab(), // 08
-                  // VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
+                  VideoIconForTab(), // 07 --- FIND:
+                  VideoIconForTab(), // 08
+                  VideoIconForTab(), // 09
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -167,20 +171,100 @@ class EnglishEntrybarmy extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: شێت، دەلوو، گەوج، کەر
+کوردی: بنەڕەتی، بنچینەیی، سەرەکی، بنەمایی، بنجی، بنگەھی، پێویست، پێدڤی، سەرەتایی، دەسپێک، گرنگ، بەرکەفتی، سادە
 
-١. (ھاوەڵناو) کەمێک بێزار"""),
+١. (ھاوەڵناو) پێکھێنەری بەشێکی شتێک کە گرنگترە لە ھەموو بەشەکانی تر"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "The music is driving me barmy."),
+                                  text:
+                                      "There is a basic fault in the design of the engine."),
                               const ExampleSentenceKurdish(
-                                  text: "میوزیکەکە وەڕەسم دەکات."),
+                                  text:
+                                      "ھەڵەیەکی بنچینەیی ھەیە لە دیزاینی بزوێنەرەکە."),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBarmys1("en-GB"),
+                                onPressed: () => speakBasictwos1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBarmys1("en-US"),
+                                onPressed: () => speakBasictwos1("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "They haven't even given us the most basic information we need."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھێشتا سەرەتاییترین زانیارییان پێ‌نەداوین کە پێویستمانە."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBasictwos2("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBasictwos2("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٢. (ھاوەڵناو) لە ئاستێکی سادە و سەرەتایی"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "My knowledge of French is pretty basic."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "زانیاریم لە زمانی فەرەنسی لە ئاستێکی سەرەتاییە."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBasictwos3("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBasictwos3("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٣. (ھاوەڵناو) شتێک کە بۆ ھەموو کەسێک گرنگە"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The crisis has led to price rises in basic foodstuffs, such as meat, cheese, and sugar."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "قەیرانەکە بووە بەھۆی بەرزبوونەوەی نرخی خواردەمەنی سەرەتایی وەک گۆشت و پەنیر و شەکر."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBasictwos4("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBasictwos4("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٤. (ھاوەڵناو) پێش زیادکردنی ھیچ شتێکی تر"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The basic pay of the average worker has risen by 3 per cent."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "مووچەی بنەڕەتی کرێکاری ئاسایی بە ڕێژەی ٣٪ زیادیکردووە."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBasictwos5("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBasictwos5("en-US"),
                               ),
                             ],
                           ),
@@ -196,11 +280,11 @@ class EnglishEntrybarmy extends StatelessWidget {
                     YoutubeEmbeddedfive(),
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
-                    // YoutubeEmbeddedeight(),
-                    // YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedeight(),
+                    YoutubeEmbeddednine(),
+                    YoutubeEmbeddedten(),
+                    YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -230,10 +314,23 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Adjective: barmy (derived forms: barmiest, barmier)
-Usage: slang
-1. Informal or slang term meaning insane, strange, eccentric or stupid (= balmy [archaic, slang], bats [slang], batty [slang], bonkers [slang], buggy [N. Amer, slang], cracked [slang], crackers [slang], daft [Brit, slang], dotty [slang], fruity [slang], haywire [slang], kooky [slang], kookie [slang], loco [slang], loony [slang], loopy [slang], nuts [slang], nutty [slang], round the bend [slang], around the bend [slang], wacky [slang], whacky [slang], doolally [Brit, slang], dippy [slang], daffy [slang], nutsy [N. Amer, slang], potty [Brit, slang], daft as a brush [Brit, slang], round the twist [Brit, slang], wacko [slang], dumbass [N. Amer, slang], bughouse [N. Amer, slang], cuckoo [slang], mental [slang], barking mad [Brit, slang], barking [Brit, slang])
-"it used to drive my husband barmy";
+- Adjective: basic 
+1. Reduced to the simplest and most significant form possible without loss of generality (= canonic, canonical)
+"a basic story line";
+ 
+2. Pertaining to or constituting a base or basis
+"a basic fact"; "the basic ingredients"; "basic changes in public opinion occur because of changes in priorities"
+ 
+3. Serving as a base or starting point (= introductory)
+"a basic course in Russian"; "basic training for raw recruits"; "a set of basic tools";
+ 
+4. (chemistry) of or denoting or of the nature of or containing a base
+ 
+5. (chemistry) relating to or containing an alkali; having a pH greater than 7 (= alkaline, alkalic)
+"basic soils derived from chalk or limestone";
+
+- Noun: basic (derived forms: basics)
+1. (usually in the plural) a necessary commodity for which demand is constant (= staple)
 """,
           )
         ],
@@ -247,12 +344,12 @@ Usage: slang
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "TISVaYgT4K4";
+  static String myVideoId = "hFZFjoX2cGg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 149, // DOPSUM: CHANGE IT
+      startAt: 221, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -272,12 +369,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "v9SXdpj8mV4";
+  static String myVideoId = "e09xig209cQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1556, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -297,12 +394,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "y9agSS0HPss";
+  static String myVideoId = "tXjHb5QmDV0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 485, // DOPSUM: CHANGE IT
+      startAt: 536, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -322,12 +419,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "hPMSzLkp4gA";
+  static String myVideoId = "rcKTZOGHTps";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1999, // DOPSUM: CHANGE IT
+      startAt: 316, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -347,12 +444,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "DSSm4QgvkCQ";
+  static String myVideoId = "t5ci74tWOdY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 12498, // DOPSUM: CHANGE IT
+      startAt: 606, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -372,12 +469,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "CTYKzt_hH6U";
+  static String myVideoId = "HB0CZ_5sPPw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1013, // DOPSUM: CHANGE IT
+      startAt: 134, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -397,12 +494,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "y8t7a8wwWhM";
+  static String myVideoId = "kHrjgWoy8qY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 177, // DOPSUM: CHANGE IT
+      startAt: 200, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -422,12 +519,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "tsxmyL7TUJg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 495, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -447,12 +544,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "pTysrwci0pU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 148, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -472,12 +569,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "a9m3GD0DbPY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 422, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -497,12 +594,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "Nun_4w8m_SY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 13, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -522,12 +619,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "nsnyl8llfH4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 51, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -637,4 +734,4 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
   }
 }
 
-// end barmy
+// end basic// TODO Implement this library.

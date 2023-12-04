@@ -6,83 +6,84 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "barmy" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
+// Define the word "basics" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
 
-// replace barmy - replace EnglishEntrybarmy
+// replace basics - replace EnglishEntrybasics
 
-// replace speakBarmy - /ˈbɑːmi/
+// replace speakBasics - /ˈbeɪsɪks/
 
 enum TtsState { playing }
 
-class EnglishEntrybarmy extends StatelessWidget {
+class EnglishEntrybasics extends StatelessWidget {
 // blank divider
-  EnglishEntrybarmy({super.key});
+  EnglishEntrybasics({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBarmy(String languageCode) async {
-    // DOPSUM: CHANGE speakBarmy
+  Future<void> speakBasics(String languageCode) async {
+    // DOPSUM: CHANGE speakBasics
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("barmy"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("basics"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarmys1(String languageCode) async {
-    // DOPSUM: CHANGE speakBarmy
+  Future<void> speakBasicss1(String languageCode) async {
+    // DOPSUM: CHANGE speakBasics
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The music is driving me barmy."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "This range of books for young children covers basics like the alphabet and numbers."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarmys2(String languageCode) async {
-    // DOPSUM: CHANGE speakBarmy
+  Future<void> speakBasicss2(String languageCode) async {
+    // DOPSUM: CHANGE speakBasics
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarmys22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I really must learn the basics of first aid."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarmys3(String languageCode) async {
-    // DOPSUM: CHANGE speakBarmy
+  Future<void> speakBasicss3(String languageCode) async {
+    // DOPSUM: CHANGE speakBasics
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarmys33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBasicss33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarmys4(String languageCode) async {
-    // DOPSUM: CHANGE speakBarmy
+  Future<void> speakBasicss4(String languageCode) async {
+    // DOPSUM: CHANGE speakBasics
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarmys44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBasicss44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarmys5(String languageCode) async {
-    // DOPSUM: CHANGE speakBarmy
+  Future<void> speakBasicss5(String languageCode) async {
+    // DOPSUM: CHANGE speakBasics
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarmys55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBasicss55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarmys6(String languageCode) async {
-    // DOPSUM: CHANGE speakBarmy
+  Future<void> speakBasicss6(String languageCode) async {
+    // DOPSUM: CHANGE speakBasics
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarmys66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBasicss66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBarmys7(String languageCode) async {
-    // DOPSUM: CHANGE speakBarmy
+  Future<void> speakBasicss7(String languageCode) async {
+    // DOPSUM: CHANGE speakBasics
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBarmys77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBasicss77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -105,22 +106,22 @@ class EnglishEntrybarmy extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "barmy"),
+                            EntryTitle(word: "basics"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbɑːmi/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbeɪsɪks/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBarmy("en-GB"),
+                              onPressed: () => speakBasics("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbɑːrmi/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbeɪsɪks/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBarmy("en-US"),
+                              onPressed: () => speakBasics("en-US"),
                             ),
                           ],
                         ),
@@ -140,7 +141,7 @@ class EnglishEntrybarmy extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 9
-                  VideoIconForTab(), // 07 --- FIND: The music is driving me barmy.
+                  VideoIconForTab(), // 07 --- FIND:
                   // VideoIconForTab(), // 08
                   // VideoIconForTab(), // 09
                   // VideoIconForTab(), // 10
@@ -167,20 +168,40 @@ class EnglishEntrybarmy extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: شێت، دەلوو، گەوج، کەر
+کوردی: بنەماکان، بنچینەکان، ڕاست‌یە پێویست و گرنگەکان، سەرەتاکان، کەل‌وپەلە سەرەکی‌یان، کەل‌وپەلی سەرەکی
 
-١. (ھاوەڵناو) کەمێک بێزار"""),
+١. (ناو) گرنگترین و پێویسترین زانیاری، شارەزایی، بیرۆکە، ھتد کە شتی تر لێیانەوە پەرەدەسێنێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "The music is driving me barmy."),
+                                  text:
+                                      "This range of books for young children covers basics like the alphabet and numbers."),
                               const ExampleSentenceKurdish(
-                                  text: "میوزیکەکە وەڕەسم دەکات."),
+                                  text:
+                                      "ئەم زنجیرە کتێبە بۆ منداڵان شتە گرنگەکانی وەک ئەلفوبێ و ژمارە باسدەکات."),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBarmys1("en-GB"),
+                                onPressed: () => speakBasicss1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBarmys1("en-US"),
+                                onPressed: () => speakBasicss1("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I really must learn the basics of first aid."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بەڕاستی دەبێت سەرەتاییترینی فریاگوزاری سەرەتایی فێرببم."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBasicss2("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBasicss2("en-US"),
                               ),
                             ],
                           ),
@@ -230,10 +251,14 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Adjective: barmy (derived forms: barmiest, barmier)
-Usage: slang
-1. Informal or slang term meaning insane, strange, eccentric or stupid (= balmy [archaic, slang], bats [slang], batty [slang], bonkers [slang], buggy [N. Amer, slang], cracked [slang], crackers [slang], daft [Brit, slang], dotty [slang], fruity [slang], haywire [slang], kooky [slang], kookie [slang], loco [slang], loony [slang], loopy [slang], nuts [slang], nutty [slang], round the bend [slang], around the bend [slang], wacky [slang], whacky [slang], doolally [Brit, slang], dippy [slang], daffy [slang], nutsy [N. Amer, slang], potty [Brit, slang], daft as a brush [Brit, slang], round the twist [Brit, slang], wacko [slang], dumbass [N. Amer, slang], bughouse [N. Amer, slang], cuckoo [slang], mental [slang], barking mad [Brit, slang], barking [Brit, slang])
-"it used to drive my husband barmy";
+- Noun: basics
+1. A statement of fundamental facts or principles (= rudiments, elements)
+ 
+2. Principles from which other truths can be derived (= fundamentals, fundamental principle, basic principle, bedrock)
+"let's get down to basics";
+
+- Noun: basic (= staple)
+1. (usually in the plural) a necessary commodity for which demand is constant
 """,
           )
         ],
@@ -247,12 +272,12 @@ Usage: slang
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "TISVaYgT4K4";
+  static String myVideoId = "55XJ1ObZKaM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 149, // DOPSUM: CHANGE IT
+      startAt: 1053, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -272,12 +297,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "v9SXdpj8mV4";
+  static String myVideoId = "9yjZpBq1XBE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1556, // DOPSUM: CHANGE IT
+      startAt: 4461, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -297,12 +322,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "y9agSS0HPss";
+  static String myVideoId = "MLVcmQ62luE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 485, // DOPSUM: CHANGE IT
+      startAt: 235, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -322,12 +347,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "hPMSzLkp4gA";
+  static String myVideoId = "rsNskDfd5CM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1999, // DOPSUM: CHANGE IT
+      startAt: 224, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -347,12 +372,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "DSSm4QgvkCQ";
+  static String myVideoId = "Uhh_An7FGek";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 12498, // DOPSUM: CHANGE IT
+      startAt: 437, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -372,12 +397,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "CTYKzt_hH6U";
+  static String myVideoId = "o9zCgPtsups";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1013, // DOPSUM: CHANGE IT
+      startAt: 102, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -397,12 +422,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "y8t7a8wwWhM";
+  static String myVideoId = "dI6GI-IQuhk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 177, // DOPSUM: CHANGE IT
+      startAt: 53, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -637,4 +662,4 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
   }
 }
 
-// end barmy
+// end basics// TODO Implement this library.

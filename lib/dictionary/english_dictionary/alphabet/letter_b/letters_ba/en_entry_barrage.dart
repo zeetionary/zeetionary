@@ -169,9 +169,9 @@ class EnglishEntrybarrage extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: بنەبەندکە، بناوان، ئەنباراو، ئاوگر، هێرشی لەسەریەک، هێرش‌باران، ڕەهێڵەباران، ڕێژنە
+کوردی: بنەبەندکە، بناوان، ئەنباراو، ئاوگر، ھێرشی لەسەریەک، ھێرش‌باران، ڕەھێڵەباران، ڕێژنە
 
-١. (ناو) ڕێژەیەکی زۆر لە هیرشی بە ئاراستەیەکدا، بەتایبەتی بۆ پاراستنی ئەو سەربازانەی کە هێرش دەکەن"""),
+١. (ناو) ڕێژەیەکی زۆر لە ھیرشی بە ئاراستەیەکدا، بەتایبەتی بۆ پاراستنی ئەو سەربازانەی کە ھێرش دەکەن"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -179,7 +179,7 @@ class EnglishEntrybarrage extends StatelessWidget {
                                       "Troops unleashed a barrage of grenades."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سەربازەکان ڕێژەیەکی زۆر نارنجۆکیان هاویشت."),
+                                      "سەربازەکان ڕێژەیەکی زۆر نارنجۆکیان ھاویشت."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarrages1("en-GB"),
                               ),
@@ -199,7 +199,7 @@ class EnglishEntrybarrage extends StatelessWidget {
                                       "The president is facing a barrage of criticism over his handling of the crisis."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سەرۆک ڕووبەڕووی ڕەخنەباران بووە بەهۆی مامەڵەکردنی لەگەڵ قەیرانەکە."),
+                                      "سەرۆک ڕووبەڕووی ڕەخنەباران بووە بەھۆی مامەڵەکردنی لەگەڵ قەیرانەکە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarrages2("en-GB"),
                               ),
@@ -211,7 +211,7 @@ class EnglishEntrybarrage extends StatelessWidget {
                           // const DividerSentences(),
                           // const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (ناو) دیوارێک کە لەسەر ڕووبارێک درووستدەکرێت بۆ کۆگاکردنی ئاو، ڕێگری لە لافاو، هتد."""),
+٣. (ناو) دیوارێک کە لەسەر ڕووبارێک درووستدەکرێت بۆ کۆگاکردنی ئاو، ڕێگری لە لافاو، ھتد."""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -273,7 +273,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: barrage (Derived forms: barrages)
+- Noun: barrage (derived forms: barrages)
 - The rapid and continuous delivery of linguistic communication (spoken or written) (= bombardment, outpouring, onslaught)
 "a barrage of questions";
  
@@ -282,7 +282,7 @@ class EnglishMeaning extends StatelessWidget {
  
 3. An artificial obstruction in a river designed to prevent flooding or divert its flow
 
-- Verb: barrage (Derived forms: barraged, barrages, barraging)
+- Verb: barrage (derived forms: barraged, barrages, barraging)
 1. Address with continuously or persistently, as if with a barrage (= bombard)
 "The speaker was barraged by an angry audience";
 """,
@@ -298,7 +298,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/VsJIpReqo5Q?t=";
+  static String myVideoId = "VsJIpReqo5Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -323,7 +323,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/NeZ4yXyzUG0?t=";
+  static String myVideoId = "NeZ4yXyzUG0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -348,7 +348,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/LJNtfyq3TDE?t=";
+  static String myVideoId = "LJNtfyq3TDE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -373,7 +373,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/VNZ0so0LCoM?t=";
+  static String myVideoId = "VNZ0so0LCoM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -398,7 +398,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/jFM_rJ5MtYk?t=";
+  static String myVideoId = "jFM_rJ5MtYk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -423,7 +423,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/YGs9-_Fe74g?t=";
+  static String myVideoId = "YGs9-_Fe74g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -448,7 +448,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/Aa-rfmbUG24?t=";
+  static String myVideoId = "Aa-rfmbUG24";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -473,7 +473,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/eaa5onIXG_0?t=";
+  static String myVideoId = "eaa5onIXG_0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -498,7 +498,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/U5qG3-dAcQc?t=";
+  static String myVideoId = "U5qG3-dAcQc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -523,7 +523,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/3FmJLE9-p4o?t=";
+  static String myVideoId = "3FmJLE9-p4o";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -548,7 +548,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/fpnp3jRxRTs?t=";
+  static String myVideoId = "fpnp3jRxRTs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -573,7 +573,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/gjA0kucziUk?t=";
+  static String myVideoId = "gjA0kucziUk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

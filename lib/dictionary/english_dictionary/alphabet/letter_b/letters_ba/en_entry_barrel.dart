@@ -33,7 +33,8 @@ class EnglishEntrybarrel extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They filled the barrels with cider."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They filled the barrels with cider."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBarrels2(String languageCode) async {
@@ -41,7 +42,8 @@ class EnglishEntrybarrel extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Crude oil prices hit record highs of more than £70 a barrel."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Crude oil prices hit record highs of more than £70 a barrel."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBarrels3(String languageCode) async {
@@ -49,7 +51,8 @@ class EnglishEntrybarrel extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The barrel was aimed directly at me."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The barrel was aimed directly at me."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBarrels4(String languageCode) async {
@@ -57,7 +60,8 @@ class EnglishEntrybarrel extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He came barreling down the hill and smashed into a parked car."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He came barreling down the hill and smashed into a parked car."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBarrels5(String languageCode) async {
@@ -139,7 +143,7 @@ class EnglishEntrybarrel extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -166,14 +170,13 @@ class EnglishEntrybarrel extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: پیپ، بەرمیل، کۆس، کووپەدارینە، بۆشکە، بۆڕی، (تفەنگ) لوولە، جەوهەردان (پاندێن)، جێگای زەمبەلەک لە سەعات‌دا، لۆدەیێ، دنیایێ، بڕێکی زۆر
+کوردی: پیپ، بەرمیل، کۆس، کووپەدارینە، بۆشکە، بۆڕی، (تفەنگ) لوولە، جەوھەردان (پاندێن)، جێگای زەمبەلەک لە سەعات‌دا، لۆدەیێ، دنیایێ، بڕێکی زۆر
 
-١. (ناو) هەڵگرێکی گەورەی خڕ کە سەرەکانی فلاتە و لایەکانی چەماوەیە، و لە دار یان ئاسن درووستکراوە"""),
+١. (ناو) ھەڵگرێکی گەورەی خڕ کە سەرەکانی فلاتە و لایەکانی چەماوەیە، و لە دار یان ئاسن درووستکراوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "They filled the barrels with cider."),
+                                  text: "They filled the barrels with cider."),
                               const ExampleSentenceKurdish(
                                   text: "بەرمیلەکانیان پڕکرد لە سێواو."),
                               CustomIconButtonBritish(
@@ -194,7 +197,8 @@ class EnglishEntrybarrel extends StatelessWidget {
                                   text:
                                       "Crude oil prices hit record highs of more than £70 a barrel."),
                               const ExampleSentenceKurdish(
-                                  text: "نرخی نەوتی خاو گەشتووە بە بەرزترین ڕیکۆردی ٧٠ پاوەند بۆ هەر بەرمیلێک."),
+                                  text:
+                                      "نرخی نەوتی خاو گەشتووە بە بەرزترین ڕیکۆردی ٧٠ پاوەند بۆ ھەر بەرمیلێک."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarrels2("en-GB"),
                               ),
@@ -210,10 +214,10 @@ class EnglishEntrybarrel extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "The barrel was aimed directly at me."),
+                                  text: "The barrel was aimed directly at me."),
                               const ExampleSentenceKurdish(
-                                  text: "لوولەی چەکەکە ڕاستەوخۆ ڕووی لە من بوو."),
+                                  text:
+                                      "لوولەی چەکەکە ڕاستەوخۆ ڕووی لە من بوو."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarrels3("en-GB"),
                               ),
@@ -232,7 +236,8 @@ class EnglishEntrybarrel extends StatelessWidget {
                                   text:
                                       "He came barreling down the hill and smashed into a parked car."),
                               const ExampleSentenceKurdish(
-                                  text: "بە گردەکەدا غلبووەوە و خۆی کێشا بە ئۆتۆمبێلێکی وەستاودا."),
+                                  text:
+                                      "بە گردەکەدا غلبووەوە و خۆی کێشا بە ئۆتۆمبێلێکی وەستاودا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarrels4("en-GB"),
                               ),
@@ -287,7 +292,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: barrel (Derived forms: barreling, barrelled, barrels, barrelling)
+- Noun: barrel (derived forms: barreling, barrelled, barrels, barrelling)
 1. A tube through which a bullet travels when a gun is fired (= gun barrel)
  
 2. A cylindrical container that holds liquids (= cask)
@@ -301,7 +306,7 @@ class EnglishMeaning extends StatelessWidget {
  
 6. The ribs and belly of a horse or pony
 
-- Verb: barrel (Derived forms: barreling, barrelled, barrels, barrelling)
+- Verb: barrel (derived forms: barreling, barrelled, barrels, barrelling)
 1. Put in barrels
  
 2. [informal] Move or travel very quickly (= rush, hotfoot, hasten, hie [archaic], speed, race, pelt along [informal], rush along, bucket along [informal], belt along [informal], step on it [informal], travel rapidly, hurry, zip [informal], zoom, zoom along, whizz [informal], whizz along [informal], bucket [informal], wing [informal], pelt [informal], rocket [informal], belt [informal])
@@ -318,7 +323,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/Cxqca4RQd_M?t=";
+  static String myVideoId = "Cxqca4RQd_M";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -343,7 +348,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/ivdlcHUwaEw?t=";
+  static String myVideoId = "ivdlcHUwaEw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -368,7 +373,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/QlO_5dzOI2U?t=";
+  static String myVideoId = "QlO_5dzOI2U";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -393,7 +398,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/Xzv84ZdtlE0?t=";
+  static String myVideoId = "Xzv84ZdtlE0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -418,7 +423,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/k8fsVzyj-PA?t=";
+  static String myVideoId = "k8fsVzyj-PA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -443,7 +448,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/JR7p4krjmZk?t=";
+  static String myVideoId = "JR7p4krjmZk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -468,7 +473,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/UG61a5vjxuI?t=";
+  static String myVideoId = "UG61a5vjxuI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -493,7 +498,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/cDPeXoQUrbI?t=";
+  static String myVideoId = "cDPeXoQUrbI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -518,7 +523,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/O6Duf496Ips?t=";
+  static String myVideoId = "O6Duf496Ips";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -543,7 +548,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/K2IOZ-5Nk5k?t=";
+  static String myVideoId = "K2IOZ-5Nk5k";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -568,7 +573,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/Ir3eJ1t13fk?t=";
+  static String myVideoId = "Ir3eJ1t13fk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

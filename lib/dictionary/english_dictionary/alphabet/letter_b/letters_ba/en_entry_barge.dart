@@ -33,7 +33,8 @@ class EnglishEntrybarge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The fuel was transported by barge."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The fuel was transported by barge."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBarges2(String languageCode) async {
@@ -41,7 +42,8 @@ class EnglishEntrybarge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He barged past me to get to the bar."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He barged past me to get to the bar."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBarges3(String languageCode) async {
@@ -49,7 +51,8 @@ class EnglishEntrybarge extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They barged their way through the crowds."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They barged their way through the crowds."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBarges4(String languageCode) async {
@@ -166,14 +169,15 @@ class EnglishEntrybarge extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-١. (ناو) بەلەمێکی گەورە کە ڕووەکەی فلاتە و بەکاردێت بۆ هەڵگرتنی کەلوپەل یان گەشتکردن لەسەری"""),
+١. (ناو) بەلەمێکی گەورە کە ڕووەکەی فلاتە و بەکاردێت بۆ ھەڵگرتنی کەلوپەل یان گەشتکردن لەسەری"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
                                       "The fuel was transported by barge."), // DOPSUM_WRITE_A_SENTENCE
                               const ExampleSentenceKurdish(
-                                  text: "سوتەمەنییەکە بە بەلەمی بارهەڵگر گواسترایەوە."),
+                                  text:
+                                      "سوتەمەنییەکە بە بەلەمی بارھەڵگر گواسترایەوە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarges1("en-GB"),
                               ),
@@ -192,7 +196,8 @@ class EnglishEntrybarge extends StatelessWidget {
                                   text:
                                       "He barged past me to get to the bar."), // DOPSUM_WRITE_A_SENTENCE
                               const ExampleSentenceKurdish(
-                                  text: "بەزۆر بەلامدا تێپەڕی بۆ ئەوەی بچێتە مەیخانەکە."),
+                                  text:
+                                      "بەزۆر بەلامدا تێپەڕی بۆ ئەوەی بچێتە مەیخانەکە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarges2("en-GB"),
                               ),
@@ -264,10 +269,10 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: barge (Derived forms: barges)
+- Noun: barge (derived forms: barges)
 1. A flatbottom boat for carrying heavy loads (especially on canals) (= flatboat, hoy, lighter)
 
-- Verb: (Derived forms: barges, barging, barged)
+- Verb: (derived forms: barges, barging, barged)
 1. Push one's way (= thrust ahead, push forward)
 "she barged into the meeting room";
  
@@ -285,7 +290,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/tsxmyL7TUJg?t=";
+  static String myVideoId = "tsxmyL7TUJg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -310,7 +315,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/-KEWWmfAUZk?t=";
+  static String myVideoId = "-KEWWmfAUZk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -335,7 +340,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/3aG3WroJHlk?t=";
+  static String myVideoId = "3aG3WroJHlk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -360,7 +365,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/O2mURzlsivY?t=";
+  static String myVideoId = "O2mURzlsivY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -385,7 +390,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/sgQ9chGRVYA?t=";
+  static String myVideoId = "sgQ9chGRVYA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -410,7 +415,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/3c-dud2Nv08?t=";
+  static String myVideoId = "3c-dud2Nv08";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -435,7 +440,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/fYVYvww-MsA?t=";
+  static String myVideoId = "fYVYvww-MsA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -460,7 +465,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/P6bVl47kdNk?t=";
+  static String myVideoId = "P6bVl47kdNk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -485,7 +490,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/CaOwcYLGTMo?t=";
+  static String myVideoId = "CaOwcYLGTMo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

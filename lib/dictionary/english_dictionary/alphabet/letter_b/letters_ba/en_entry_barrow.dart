@@ -33,7 +33,8 @@ class EnglishEntrybarrow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The market vendors pushed their barrows filled with fresh produce."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The market vendors pushed their barrows filled with fresh produce."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBarrows2(String languageCode) async {
@@ -41,7 +42,8 @@ class EnglishEntrybarrow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The archaeologists carefully excavated the ancient barrow, discovering a wealth of artifacts within."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The archaeologists carefully excavated the ancient barrow, discovering a wealth of artifacts within."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBarrows3(String languageCode) async {
@@ -49,7 +51,8 @@ class EnglishEntrybarrow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The barrow was leaning against the wall."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The barrow was leaning against the wall."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBarrows4(String languageCode) async {
@@ -139,7 +142,7 @@ class EnglishEntrybarrow extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -175,7 +178,8 @@ class EnglishEntrybarrow extends StatelessWidget {
                                   text:
                                       "The market vendors pushed their barrows filled with fresh produce."),
                               const ExampleSentenceKurdish(
-                                  text: "دەستگێڕەکانی بازاڕ عەرەبانەکانیان پاڵدەدا کە پڕبوون لە بەرهەمی تازە."),
+                                  text:
+                                      "دەستگێڕەکانی بازاڕ عەرەبانەکانیان پاڵدەدا کە پڕبوون لە بەرھەمی تازە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarrows1("en-GB"),
                               ),
@@ -194,7 +198,8 @@ class EnglishEntrybarrow extends StatelessWidget {
                                   text:
                                       "The archaeologists carefully excavated the ancient barrow, discovering a wealth of artifacts within."),
                               const ExampleSentenceKurdish(
-                                  text: "شوێنەوارناسان بەوریاییەوە تەپۆلکە دێرینەکەیان هەڵکۆڵی و ڕێژەیەکی زۆر لە پاشماوەیان تێیدا دۆزییەوە."),
+                                  text:
+                                      "شوێنەوارناسان بەوریاییەوە تەپۆلکە دێرینەکەیان ھەڵکۆڵی و ڕێژەیەکی زۆر لە پاشماوەیان تێیدا دۆزییەوە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarrows2("en-GB"),
                               ),
@@ -213,7 +218,8 @@ class EnglishEntrybarrow extends StatelessWidget {
                                   text:
                                       "The barrow was leaning against the wall."),
                               const ExampleSentenceKurdish(
-                                  text: "عەرەبانە دەستییەکە پاڵدرابوو بە دیوارەکەوە."),
+                                  text:
+                                      "عەرەبانە دەستییەکە پاڵدرابوو بە دیوارەکەوە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarrows3("en-GB"),
                               ),
@@ -268,7 +274,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-Noun: barrow (Derived forms: barrows)
+Noun: barrow (derived forms: barrows)
 1. A cart for carrying small loads; has handles and one or more wheels (= garden cart, lawn cart, wheelbarrow)
  
 2. The quantity that a barrow will hold (= barrowful)
@@ -287,7 +293,7 @@ Noun: barrow (Derived forms: barrows)
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/3GnsEcNDIs8?t=";
+  static String myVideoId = "3GnsEcNDIs8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -312,7 +318,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/yZvH4wIKGCM?t=";
+  static String myVideoId = "yZvH4wIKGCM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -337,7 +343,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/szEOubgj1Yc?t=";
+  static String myVideoId = "szEOubgj1Yc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -362,7 +368,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/u3F-L6ZN6AI?t=";
+  static String myVideoId = "u3F-L6ZN6AI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -387,7 +393,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/OU_OtTXWkDM?t=";
+  static String myVideoId = "OU_OtTXWkDM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -412,7 +418,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/1S7xQ72RjuM?t=";
+  static String myVideoId = "1S7xQ72RjuM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -437,7 +443,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/ygylcQOGr1g?t=";
+  static String myVideoId = "ygylcQOGr1g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -462,7 +468,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/Ums9E2hU-5A?t=";
+  static String myVideoId = "Ums9E2hU-5A";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -487,7 +493,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/523gI5kZSSA?t=";
+  static String myVideoId = "523gI5kZSSA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -512,7 +518,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/O6z_WpEqDzU?t=";
+  static String myVideoId = "O6z_WpEqDzU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -537,7 +543,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/GgWJSbdb4kI?t=";
+  static String myVideoId = "GgWJSbdb4kI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

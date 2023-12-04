@@ -42,7 +42,8 @@ class EnglishEntrybarn extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They live in a great barn of a house."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They live in a great barn of a house."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBarns3(String languageCode) async {
@@ -169,7 +170,7 @@ class EnglishEntrybarn extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: کادێن، مەرەک، تێولە، تەویلە، ئاخوڕ، پشتێر، گەوڕ (لە کێڵگەدا)، عەمار، عەماری، خەلەدان، دەغڵدان
 
-١. (ھاوەڵناو) گەوڕێکی گەورە بۆ هەڵگرتنی گەنم، یان بەخێوکردنی ئاژەڵ"""),
+١. (ھاوەڵناو) گەوڕێکی گەورە بۆ ھەڵگرتنی گەنم، یان بەخێوکردنی ئاژەڵ"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -196,8 +197,7 @@ class EnglishEntrybarn extends StatelessWidget {
                                   text:
                                       "They live in a great barn of a house."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "لە خانوویەکی قەبەدا دەژیان."),
+                                  text: "لە خانوویەکی قەبەدا دەژیان."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarns2("en-GB"),
                               ),
@@ -252,7 +252,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: barn (Derived forms: barns)
+- Noun: barn (derived forms: barns)
 1. An outlying farm building for storing grain or animal feed, or housing farm animals
  
 2. (physics) a unit of nuclear cross section; the effective circular area that one particle presents to another as a target for an encounter (= b)
@@ -269,7 +269,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/AAGIi62-sAU?t=";
+  static String myVideoId = "AAGIi62-sAU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -294,7 +294,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/6wAPCumZ1oU?t=";
+  static String myVideoId = "6wAPCumZ1oU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -319,7 +319,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/sV6uuMAnJUE?t=";
+  static String myVideoId = "sV6uuMAnJUE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -344,7 +344,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/a9m3GD0DbPY?t=";
+  static String myVideoId = "a9m3GD0DbPY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -369,7 +369,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/IlU-zDU6aQ0?t=";
+  static String myVideoId = "IlU-zDU6aQ0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -394,7 +394,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/v3ohyHjJy3M?t=";
+  static String myVideoId = "v3ohyHjJy3M";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -419,7 +419,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/HGsjNOOaRXg?t=";
+  static String myVideoId = "HGsjNOOaRXg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -444,7 +444,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/LkEVKw66Xf0?t=";
+  static String myVideoId = "LkEVKw66Xf0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -469,7 +469,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/TwPCoWgKtZI?t=";
+  static String myVideoId = "TwPCoWgKtZI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -494,7 +494,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/wVeLGKbeFkw?t=";
+  static String myVideoId = "wVeLGKbeFkw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -519,7 +519,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/y2K-_RwbMYc?t=";
+  static String myVideoId = "y2K-_RwbMYc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

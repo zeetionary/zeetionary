@@ -6,91 +6,90 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "basin" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
+// Define the word "bathrobe" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
 
-// replace basin - replace EnglishEntrybasin
+// replace bathrobe - replace EnglishEntrybathrobe
 
-// replace speakBasin - /ˈbeɪsn/
+// replace speakBathrobe - /ˈbɑːθrəʊb/
 
 enum TtsState { playing }
 
-class EnglishEntrybasin extends StatelessWidget {
+class EnglishEntrybathrobe extends StatelessWidget {
 // blank divider
-  EnglishEntrybasin({super.key});
+  EnglishEntrybathrobe({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBasin(String languageCode) async {
-    // DOPSUM: CHANGE speakBasin
+  Future<void> speakBathrobe(String languageCode) async {
+    // DOPSUM: CHANGE speakBathrobe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("basin"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bathrobe"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBasins1(String languageCode) async {
-    // DOPSUM: CHANGE speakBasin
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He washed his hands in the basin."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBasins2(String languageCode) async {
-    // DOPSUM: CHANGE speakBasin
+  Future<void> speakBathrobes1(String languageCode) async {
+    // DOPSUM: CHANGE speakBathrobe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The chef carefully placed the dough into a large basin."); // DOPSUM: CHANGE TEXT
+        "I stepped out of the shower and wrapped myself in a fluffy white bathrobe."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBasins3(String languageCode) async {
-    // DOPSUM: CHANGE speakBasin
+  Future<void> speakBathrobes2(String languageCode) async {
+    // DOPSUM: CHANGE speakBathrobe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The Amazon River Basin is the largest river basin in the world."); // DOPSUM: CHANGE TEXT
+        "He was wearing a bathrobe and slippers when I answered the door."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBasins4(String languageCode) async {
-    // DOPSUM: CHANGE speakBasin
+  Future<void> speakBathrobes3(String languageCode) async {
+    // DOPSUM: CHANGE speakBathrobe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBasins44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBathrobes33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBasins5(String languageCode) async {
-    // DOPSUM: CHANGE speakBasin
+  Future<void> speakBathrobes4(String languageCode) async {
+    // DOPSUM: CHANGE speakBathrobe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBasins55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBathrobes44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBasins6(String languageCode) async {
-    // DOPSUM: CHANGE speakBasin
+  Future<void> speakBathrobes5(String languageCode) async {
+    // DOPSUM: CHANGE speakBathrobe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBasins66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBathrobes55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBasins7(String languageCode) async {
-    // DOPSUM: CHANGE speakBasin
+  Future<void> speakBathrobes6(String languageCode) async {
+    // DOPSUM: CHANGE speakBathrobe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBasins77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBathrobes66"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBathrobes7(String languageCode) async {
+    // DOPSUM: CHANGE speakBathrobe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBathrobes77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -107,22 +106,22 @@ class EnglishEntrybasin extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "basin"),
+                            EntryTitle(word: "bathrobe"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbeɪsn/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbɑːθrəʊb/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBasin("en-GB"),
+                              onPressed: () => speakBathrobe("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbeɪsn/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbæθrəʊb/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBasin("en-US"),
+                              onPressed: () => speakBathrobe("en-US"),
                             ),
                           ],
                         ),
@@ -141,16 +140,16 @@ class EnglishEntrybasin extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
+                  VideoIconForTab(), // 06 --- 444444444 + VIDEOS REPLACE:length: 12
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
+                  VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
-                  // VideoIconForTab(), // 14
-                  // VideoIconForTab(), // 15
+                  // VideoIconForTab(), // British
+                  // VideoIconForTab(), // American
                 ],
                 indicator: BoxDecoration(
                   color: Pallete.tabsbackgroundColor,
@@ -169,60 +168,42 @@ class EnglishEntrybasin extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: مەخسەلە، کاسە، لەگەن، تاس، تەشت، سوێنە، قاپشۆری، لانجین، تەسە (ھی ھەویر)، گۆلاو، پەنگاو، گۆلکاو، سەرچاوەکان، چاڵاو
+کوردی: بەرگی حەمام، خاولی کڵاودار یان بەری
 
-١. (ناو) دەستشۆر کە دەلکێندرێت بە دیوارەوە و بەلووعەی پێوەیە"""),
+١. (ناو) جلێک کە لەپێش و پاش خۆشتن دەپۆشرێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "He washed his hands in the basin."),
+                                  text:
+                                      "I stepped out of the shower and wrapped myself in a fluffy white bathrobe."),
                               const ExampleSentenceKurdish(
-                                  text: "دەستەکانی لە دەستشۆرەکە شۆرد."),
+                                  text:
+                                      "لە گەرماوەکە هاتمە دەرەوە و خۆم ئاڵاند لە خاولییەکی نەرم."),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBasins1("en-GB"),
+                                onPressed: () => speakBathrobes1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBasins1("en-US"),
+                                onPressed: () => speakBathrobes1("en-US"),
                               ),
                             ],
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ناو) دەفرێکی گەورە بۆ ئاوتێکردن یان ئامادەکردنی خۆراک تێیدا"""),
+٢. (ناو) جلی ماڵەوە کە بەسەر جلی تردا لەبەردەکرێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The chef carefully placed the dough into a large basin."),
+                                      "He was wearing a bathrobe and slippers when I answered the door."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "شێفەکە بەوریاییەوە ھەویرەکەی خستە ناو دەفرەکەوە."),
+                                      "جلی ماڵەوەی لەبەربوو نەعلی لەپێبوو کە دەرگاکەم کردەوە."),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBasins2("en-GB"),
+                                onPressed: () => speakBathrobes2("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBasins2("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (ناو) ناوچەیەک کە لە تەبیشت ڕووبارێکی گەورەیە و لقی پێدا تێدەپەڕێت"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The Amazon River Basin is the largest river basin in the world."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گۆلاوی ڕووباری ئەمازۆن گەورەترین گۆلاوە لە جیھاندا."),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBasins3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBasins3("en-US"),
+                                onPressed: () => speakBathrobes2("en-US"),
                               ),
                             ],
                           ),
@@ -240,12 +221,12 @@ class EnglishEntrybasin extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
+                    YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddedfourteen(),
-                    // YoutubeEmbeddedfifteen(),
+                    // YoutubeEmbeddedbritish(),
+                    // YoutubeEmbeddedamerican(),
                   ],
                 ),
               ),
@@ -272,21 +253,8 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: basin (derived forms: basins)
-1. A bowl-shaped vessel; usually used for holding food or liquids
-"she mixed the dough in a large basin"
- 
-2. The quantity that a basin will hold (= basinful)
-"a basin of water";
- 
-3. A natural depression in the surface of the land often with a lake at the bottom of it
-"the basin of the Great Salt Lake"
- 
-4. The entire geographical area drained by a river and its tributaries; an area characterized by all runoff being conveyed to the same outlet (= river basin, watershed, drainage basin, catchment area, catchment basin, drainage area)
-"flood control in the Missouri basin";
- 
-5. A bathroom sink that is permanently installed and connected to a water supply and drainpipe; where you can wash your hands and face (= washbasin, washbowl, washstand, lavatory [N. Amer])
-"he ran some water in the basin and splashed it on his face";
+- Noun: bathrobe (Derived forms: bathrobes)
+1. A loose-fitting robe of towelling; worn after a bath or swim
 """,
           )
         ],
@@ -300,12 +268,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "RxR0In3DO_g";
+  static String myVideoId = "qIInciwWUDM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 217, // DOPSUM: CHANGE IT
+      startAt: 481, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -325,12 +293,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "kPyGk16AXgk";
+  static String myVideoId = "fyHr0dwzD_U";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 47, // DOPSUM: CHANGE IT
+      startAt: 281, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -350,12 +318,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "qUNYPkroz18";
+  static String myVideoId = "OHOkdEBpwDc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 296, // DOPSUM: CHANGE IT
+      startAt: 472, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -375,12 +343,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "S0sCk-Xrzb8";
+  static String myVideoId = "_opLYrCyjSo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 468, // DOPSUM: CHANGE IT
+      startAt: 79, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -400,12 +368,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "6Ivarp1iJaY";
+  static String myVideoId = "KlkO0_lHD8I";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 378, // DOPSUM: CHANGE IT
+      startAt: 22, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -425,12 +393,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "LXkO4HdQXdo";
+  static String myVideoId = "MqF2p6hx6mY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 291, // DOPSUM: CHANGE IT
+      startAt: 471, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -450,12 +418,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "CahQhevkcCM";
+  static String myVideoId = "duiRLPqQvDo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 242, // DOPSUM: CHANGE IT
+      startAt: 341, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -475,12 +443,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "8HL4RQb-ROA";
+  static String myVideoId = "g09wvXrh49E";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 234, // DOPSUM: CHANGE IT
+      startAt: 106, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -500,12 +468,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "Yv0Xk5KZcZE";
+  static String myVideoId = "U_FRZEQvV40";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 494, // DOPSUM: CHANGE IT
+      startAt: 276, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -525,12 +493,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "3hyBe3b1sS8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 513, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -597,97 +565,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
   }
 }
 
-// morethan one video, only first autoplay
-
-class YoutubeEmbeddedthirteen extends StatelessWidget {
-  YoutubeEmbeddedthirteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  static String myVideoIdTwo = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controllertwo = YoutubePlayerController(
-    initialVideoId: myVideoIdTwo,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: false,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  static String myVideoIdThree = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controllerthree = YoutubePlayerController(
-    initialVideoId: myVideoIdThree,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: false,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  static String myVideoIdFour = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controllerfour = YoutubePlayerController(
-    initialVideoId: myVideoIdFour,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: false,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  static String myVideoIdFive = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controllerfive = YoutubePlayerController(
-    initialVideoId: myVideoIdFive,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: false,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: Column(
-          children: [
-            YouTubeContainerDesign(controller: _controller),
-            YouTubeContainerDesign(controller: _controllertwo),
-            YouTubeContainerDesign(controller: _controllerthree),
-            YouTubeContainerDesign(controller: _controllerfour),
-            YouTubeContainerDesign(controller: _controllerfive),
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-// end basin// TODO Implement this library.
+// end bathrobe// TODO Implement this library.

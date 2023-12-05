@@ -122,7 +122,7 @@ class VideoIconForTab extends StatelessWidget {
     return Tab(
       icon: Image.asset(
         'assets/images/video_one.png',
-        width: 48,
+        width: 26,
         height: 24,
       ),
     );

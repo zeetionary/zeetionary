@@ -1426,19 +1426,19 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_bat.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_batsman.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_batch.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_bath.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_bathrobe.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_bathroom.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_bathtub.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_bathe.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_bather.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_baton.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_battalion.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_batten.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_batter.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_battered.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_battering_ram.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_battery.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
@@ -3015,19 +3015,19 @@ final loggedInRoute = RouteMap(routes: {
   "/english-bat": (_) => MaterialPage(child: EnglishEntrybat()),
   "/english-batsman": (_) => MaterialPage(child: EnglishEntrybatsman()),
   "/english-batch": (_) => MaterialPage(child: EnglishEntrybatch()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-bath": (_) => MaterialPage(child: EnglishEntrybath()),
+  "/english-bathrobe": (_) => MaterialPage(child: EnglishEntrybathrobe()),
+  "/english-bathroom": (_) => MaterialPage(child: EnglishEntrybathroom()),
+  "/english-bathtub": (_) => MaterialPage(child: EnglishEntrybathtub()),
+  "/english-bathe": (_) => MaterialPage(child: EnglishEntrybathe()),
+  "/english-bather": (_) => MaterialPage(child: EnglishEntrybather()),
+  "/english-baton": (_) => MaterialPage(child: EnglishEntrybaton()),
+  "/english-battalion": (_) => MaterialPage(child: EnglishEntrybattalion()),
+  "/english-batten": (_) => MaterialPage(child: EnglishEntrybatten()),
+  "/english-batter": (_) => MaterialPage(child: EnglishEntrybatter()),
+  "/english-battered": (_) => MaterialPage(child: EnglishEntrybattered()),
+  "/english-battering-ram": (_) => MaterialPage(child: EnglishEntrybatteringram()),
+  "/english-battery": (_) => MaterialPage(child: EnglishEntrybattery()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

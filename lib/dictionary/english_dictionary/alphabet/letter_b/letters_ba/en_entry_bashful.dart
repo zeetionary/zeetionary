@@ -177,7 +177,7 @@ class EnglishEntrybashful extends StatelessWidget {
                                   text:
                                       "He was too bashful to talk about sex."),
                               const ExampleSentenceKurdish(
-                                  text: "شەری دەکرد قسە لەسەر سێکس بکات."),
+                                  text: "شەرمی دەکرد قسە لەسەر سێکس بکات."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBashfuls1("en-GB"),
                               ),

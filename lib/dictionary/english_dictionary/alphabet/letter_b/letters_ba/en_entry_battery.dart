@@ -34,8 +34,7 @@ class EnglishEntrybattery extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "speakBatterys111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The battery is flat."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBatterys2(String languageCode) async {
@@ -43,7 +42,8 @@ class EnglishEntrybattery extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBatterys22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "My phone ran out of battery, so I plugged it in to charge."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBatterys3(String languageCode) async {
@@ -51,7 +51,8 @@ class EnglishEntrybattery extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBatterys33"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He faced a battery of questions."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBatterys4(String languageCode) async {
@@ -59,7 +60,8 @@ class EnglishEntrybattery extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBatterys44"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The shore battery opened fire."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBatterys5(String languageCode) async {
@@ -67,7 +69,8 @@ class EnglishEntrybattery extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBatterys55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The supermarket has pledged to stop selling eggs from battery hens by 2025."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBatterys6(String languageCode) async {
@@ -75,7 +78,8 @@ class EnglishEntrybattery extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBatterys66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Battery eggs are the cheapest type of eggs, but they are also the most cruel."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBatterys7(String languageCode) async {
@@ -89,7 +93,7 @@ class EnglishEntrybattery extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 2, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 16, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -136,20 +140,20 @@ class EnglishEntrybattery extends StatelessWidget {
                 tabs: const [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  // VideoIconForTab(), // 01
-                  // VideoIconForTab(), // 02
-                  // VideoIconForTab(), // 03
-                  // VideoIconForTab(), // 04
-                  // VideoIconForTab(), // 05
-                  // VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 2
-                  // VideoIconForTab(), // 07 --- FIND: speakBatterys111111111111111111111111111111111
-                  // VideoIconForTab(), // 08
-                  // VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
-                  // VideoIconForTab(), // 13
-                  // VideoIconForTab(), // 14
+                  VideoIconForTab(), // 01
+                  VideoIconForTab(), // 02
+                  VideoIconForTab(), // 03
+                  VideoIconForTab(), // 04
+                  VideoIconForTab(), // 05
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 16
+                  VideoIconForTab(), // 07 --- FIND:
+                  VideoIconForTab(), // 08
+                  VideoIconForTab(), // 09
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
+                  VideoIconForTab(), // 13
+                  VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                   // VideoIconForTab(), // 16
                   // VideoIconForTab(), // 17
@@ -174,16 +178,16 @@ class EnglishEntrybattery extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: 
+کوردی: باتری، خانکۆ، هێزە، پیل، قەوە، تۆپ‌خانە، (ماف) لێدان، کوتەک‌کاری، تاوانی هێرش‌کردنی جەستەیی، تێسرەواندن، تێبەربوون، دەستە، زنجیرە، کۆمەڵە، گروپ، قەفەسەی ڕاگرتنی مریشک، دەنگی تەپڵ یان دەهۆڵ
 
-١. (ھاوەڵناو) پێناسە"""),
+١. (ناو) ئامێرێک کە لەناو ئۆتۆمبێلێک، کاتژمێرێک، ڕادیۆیەک، هتد دادەنرێت کە یارمەتی دەدات کاربکات بە پێدانی وزە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "speakBatterys111111111111111111111111111111111"),
+                                      "The battery is flat (= it is no longer producing electricity)."),
                               const ExampleSentenceKurdish(
-                                  text: "رستە_رستە_رستە_رستە."),
+                                  text: "باترییەکە مردووە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBatterys1("en-GB"),
                               ),
@@ -193,24 +197,139 @@ class EnglishEntrybattery extends StatelessWidget {
                             ],
                           ),
                           // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٢. (ناو) هێزی کارەبایی باترییەک"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "My phone ran out of battery, so I plugged it in to charge."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "موبایلەکەم شەحنی نەما، بۆیە کردم بە شەحنەوە."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBatterys2("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBatterys2("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٣. (ناو) ڕێژەیەکی زۆر لە شتێک"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "He faced a battery of questions."),
+                              const ExampleSentenceKurdish(
+                                  text: "ڕووبەڕووی زنجیرەیەک پرسیار بوویەوە."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBatterys3("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBatterys3("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٤. (ناو) تۆپخانە"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "The shore battery opened fire."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "تۆپخانەی کەناراواکە دەستی بە تۆپباران کرد."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBatterys4("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBatterys4("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٥. (ناو) ڕێژەیەکی زۆر لە قەفەزی بچووک کە بەکاردێت بۆ ڕاگرتنی مریشک لە دەواجین"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The supermarket has pledged to stop selling eggs from battery hens by 2025."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "سەپەرمارکێتەکە بەڵێنی داوە کە بوەستێت لە فرۆشتنی هێلکەی مریشکی مەسلاحە پێش ساڵی ٢٠٢٥."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBatterys5("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBatterys5("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Battery eggs are the cheapest type of eggs, but they are also the most cruel."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "هێلکەی مەسلاحە هەرزانترین جۆری هێلکەن، بەڵام بە دڕندەترین شێوە بەرهەم دەهێنرێن."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBatterys6("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBatterys6("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٦. (ناو) تاوانی هێرشی جەستەیی بۆسەر کەسێک"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He was charged with battery after a fight at a night club."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "تاوانبارکرا بە کوتەک‌کاری دوابەداوی شەڕێک لە یانەیەکی شەوانە."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBatterys6("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBatterys6("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                         ],
                       ),
                     ),
-                    // YoutubeEmbeddedone(),
-                    // YoutubeEmbeddedtwo(),
-                    // YoutubeEmbeddedthree(),
-                    // YoutubeEmbeddedfour(),
-                    // YoutubeEmbeddedfive(),
-                    // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                    // YoutubeEmbeddedseven(),
-                    // YoutubeEmbeddedeight(),
-                    // YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
-                    // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddedfourteen(),
+                    YoutubeEmbeddedone(),
+                    YoutubeEmbeddedtwo(),
+                    YoutubeEmbeddedthree(),
+                    YoutubeEmbeddedfour(),
+                    YoutubeEmbeddedfive(),
+                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    YoutubeEmbeddedseven(),
+                    YoutubeEmbeddedeight(),
+                    YoutubeEmbeddednine(),
+                    YoutubeEmbeddedten(),
+                    YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedthirteen(),
+                    YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
                     // YoutubeEmbeddedsixteen(),
                     // YoutubeEmbeddedseventeen(),
@@ -424,12 +543,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/b88v-WvqzeQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 791, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -449,12 +568,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/hCxmn1ERbXc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 321, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -474,12 +593,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/SBrugxicHGY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 316, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -499,12 +618,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/ojVN3cF0i7k?t=56";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 56, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -524,12 +643,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/N5Nw5QWZbsI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 498, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -549,12 +668,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/9cKSLWbDk4s?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 77, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -574,12 +693,12 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 class YoutubeEmbeddedthirteen extends StatelessWidget {
   YoutubeEmbeddedthirteen({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/oU1QbUCBGO8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 37, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -599,12 +718,12 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
 class YoutubeEmbeddedfourteen extends StatelessWidget {
   YoutubeEmbeddedfourteen({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/AXv_4Tj1IKE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 480, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

@@ -7,90 +7,91 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "bayonet" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
+// Define the word "bean" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
 
-// replace bayonet - replace EnglishEntrybayonet
+// replace bean - replace EnglishEntrybean
 
-// replace speakBayonet - /ˈbeɪənət/
+// replace speakBean - /biːn/
 
 enum TtsState { playing }
 
-class EnglishEntrybayonet extends StatelessWidget {
+class EnglishEntrybean extends StatelessWidget {
 // blank divider
-  EnglishEntrybayonet({super.key});
+  EnglishEntrybean({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBayonet(String languageCode) async {
-    // DOPSUM: CHANGE speakBayonet
+  Future<void> speakBean(String languageCode) async {
+    // DOPSUM: CHANGE speakBean
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bayonet"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bean"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBayonets1(String languageCode) async {
-    // DOPSUM: CHANGE speakBayonet
+  Future<void> speakBeans1(String languageCode) async {
+    // DOPSUM: CHANGE speakBean
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The bayonets gleamed in the sunlight as the enemy approached."); // DOPSUM: CHANGE TEXT
+        "The villagers cultivate mostly maize and beans."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBayonets2(String languageCode) async {
-    // DOPSUM: CHANGE speakBayonet
+  Future<void> speakBeans2(String languageCode) async {
+    // DOPSUM: CHANGE speakBean
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Innocent civilians had been shot and bayoneted."); // DOPSUM: CHANGE TEXT
+        "Coffee beans are the seeds of the coffee tree."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBayonets3(String languageCode) async {
-    // DOPSUM: CHANGE speakBayonet
+  Future<void> speakBeans3(String languageCode) async {
+    // DOPSUM: CHANGE speakBean
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBayonets33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Use your bean, kiddo!"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBayonets4(String languageCode) async {
-    // DOPSUM: CHANGE speakBayonet
+  Future<void> speakBeans4(String languageCode) async {
+    // DOPSUM: CHANGE speakBean
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBayonets44"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I got beaned by a rock someone threw."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBayonets5(String languageCode) async {
-    // DOPSUM: CHANGE speakBayonet
+  Future<void> speakBeans5(String languageCode) async {
+    // DOPSUM: CHANGE speakBean
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBayonets55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBeans55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBayonets6(String languageCode) async {
-    // DOPSUM: CHANGE speakBayonet
+  Future<void> speakBeans6(String languageCode) async {
+    // DOPSUM: CHANGE speakBean
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBayonets66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBeans66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBayonets7(String languageCode) async {
-    // DOPSUM: CHANGE speakBayonet
+  Future<void> speakBeans7(String languageCode) async {
+    // DOPSUM: CHANGE speakBean
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBayonets77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBeans77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 16, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -107,22 +108,22 @@ class EnglishEntrybayonet extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bayonet"),
+                            EntryTitle(word: "bean"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbeɪənət/"),
+                            const IPAofEnglish(text: "IpaUK: /biːn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBayonet("en-GB"),
+                              onPressed: () => speakBean("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbeɪənət/"),
+                            const IPAofEnglish(text: "IpaUS: /biːn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBayonet("en-US"),
+                              onPressed: () => speakBean("en-US"),
                             ),
                           ],
                         ),
@@ -141,15 +142,15 @@ class EnglishEntrybayonet extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 16
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
-                  // VideoIconForTab(), // 13
-                  // VideoIconForTab(), // 14
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
+                  VideoIconForTab(), // 13
+                  VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                   // VideoIconForTab(), // 16
                   // VideoIconForTab(), // 17
@@ -174,42 +175,79 @@ class EnglishEntrybayonet extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: سونگی، سەرەڕم، سەرنەیزە، سەرنێزە (بۆ شەڕی دەستەویەخە)
+کوردی: پاقلە، لوبیا، فاسۆلیا، ڕووەکی لوبیا، سەر، مێشک، دەماخ، مەژی
 
-١. (ناو) چەقۆیەکی تیژ کە بەستراوە بە سەری تفەنگێکەوە و وەک چەک بەکاردێت لە شەڕدا"""),
+١. (ناو) تۆو، یان کەلووی تۆودار، کە هی ڕووەکێکی هەڵگژە و وەک سەوزە دەخورێت (فاسۆلیا، لۆبیا، پاقلە)"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The bayonets gleamed in the sunlight as the enemy approached."),
+                                      "The villagers cultivate mostly maize and beans."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سەرنێزەکان لەژێر تیشکی خۆردا دەدرەوشانەوە کە دووژمن نزیکبوویەوە."),
+                                      "گوندنشینەکان بەزۆری گەنمەشامی و لۆبیا و فاسۆلیا و پاقلە دەچێنن."),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBayonets1("en-GB"),
+                                onPressed: () => speakBeans1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBayonets1("en-US"),
+                                onPressed: () => speakBeans1("en-US"),
                               ),
                             ],
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (کردار) چەقاندنی سەرنێزەیەک بە کەسێکدا بۆ کوشتنی"""),
+٢. (ناو) تۆوی ڕووەکێک کە قاوەی لێ بەرهەمدێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Innocent civilians had been shot and bayoneted."),
+                                      "Coffee beans are the seeds of the coffee tree."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "هاوڵاتی بێ‌تاوان بە فیشەک و سەرنێزە لێیان دراوە."),
+                                  text: "دەنکە قاوە تۆوی داری قاوەیە."),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBayonets2("en-GB"),
+                                onPressed: () => speakBeans2("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBayonets2("en-US"),
+                                onPressed: () => speakBeans2("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٣. (ناو) سەر یان مێشکی کەسێک"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Use your bean, kiddo!"),
+                              const ExampleSentenceKurdish(
+                                  text: "مێشکت بەکاربێنە منداڵ!"),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBeans3("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBeans3("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٤. (کردار) لێدانی کەسێک لەسەر سەر"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I got beaned by a rock someone threw."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بەردێک کە کەسێک هاویشتی کێشای بە سەرمدا."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBeans4("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBeans4("en-US"),
                               ),
                             ],
                           ),
@@ -228,10 +266,10 @@ class EnglishEntrybayonet extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
-                    // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddedfourteen(),
+                    YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedthirteen(),
+                    YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
                     // YoutubeEmbeddedsixteen(),
                     // YoutubeEmbeddedseventeen(),
@@ -265,11 +303,18 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: bayonet (Derived forms: bayonets)
-1. A knife that can be fixed to the end of a rifle and used as a weapon
+Noun: bean (Derived forms: beans)
+1. Any of various edible seeds of plants of the family Leguminosae used for food (= edible bean)
+ 
+2. Any of various seeds or fruits that are beans or resemble beans
+ 
+3. Any of various leguminous plants grown for their edible seeds and pods (= bean plant)
+ 
+4. [informal] The upper part of the human body or the front part of the body in animals; contains the face and brains (= head, caput [technical], bonce [Brit, informal], noodle [informal], noggin [informal], dome [informal], nob [informal], napper [Brit, informal], skull [informal], nut [informal])
 
-- Verb: bayonet (Derived forms: bayonetted, bayonetting, bayonets, bayoneting, bayoneted)
-1. Stab or kill someone with a bayonet
+- Verb: bean (Derived forms: beans, beaning, beaned)
+Usage: N. Amer, informal
+1. Hit on the head, especially with a pitched baseball
 """,
           )
         ],
@@ -283,12 +328,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "sV6uuMAnJUE";
+  static String myVideoId = "lGSOWwUvJiU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 421, // DOPSUM: CHANGE IT
+      startAt: 702, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -308,12 +353,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "_0RTH57v66I";
+  static String myVideoId = "4t5WI5RF67Y";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 511, // DOPSUM: CHANGE IT
+      startAt: 113, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -333,12 +378,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "tZktTdGHaJY";
+  static String myVideoId = "jxRBzs9C3eU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 815, // DOPSUM: CHANGE IT
+      startAt: 124, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -358,12 +403,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "xDMq9qBpNZM";
+  static String myVideoId = "K0OtGIPRcAs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 130, // DOPSUM: CHANGE IT
+      startAt: 1369, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -383,12 +428,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "96BhTy93MN0";
+  static String myVideoId = "oZHqG0jR20A";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 331, // DOPSUM: CHANGE IT
+      startAt: 513, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -408,12 +453,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "bLApZfnLJoM";
+  static String myVideoId = "0tGObhyOZwE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 294, // DOPSUM: CHANGE IT
+      startAt: 8, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -433,12 +478,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "SBQXrhd7Cf0";
+  static String myVideoId = "ZKo7dTPXhls";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1027, // DOPSUM: CHANGE IT
+      startAt: 414, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -458,12 +503,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "uwMPGEo4zCs";
+  static String myVideoId = "DfsUn4uwWss";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 444, // DOPSUM: CHANGE IT
+      startAt: 179, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -483,12 +528,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "DOQJK5hUo9U";
+  static String myVideoId = "iZEM1cC86t8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 139, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -508,12 +553,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "o1nENiXSrJY";
+  static String myVideoId = "5Og7bbPZhsg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 821, // DOPSUM: CHANGE IT
+      startAt: 14, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -533,12 +578,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "cEnpukbSRFA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -558,12 +603,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "tA2AGtHp5PI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 31, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -583,12 +628,12 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 class YoutubeEmbeddedthirteen extends StatelessWidget {
   YoutubeEmbeddedthirteen({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "WIe5GKyLPek";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 991, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -608,12 +653,12 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
 class YoutubeEmbeddedfourteen extends StatelessWidget {
   YoutubeEmbeddedfourteen({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "9cIdauxVsHE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 305, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -782,4 +827,4 @@ class YoutubeEmbeddedtwenty extends StatelessWidget {
 
 // morethan one video, only first autoplay
 
-// end bayonet// TODO Implement this library.
+// end bean// TODO Implement this library.

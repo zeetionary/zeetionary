@@ -964,3 +964,107 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
 //     await flutterTts.setSpeechRate(0.5);
 //     await flutterTts.speak("speakBands1717"); // DOPSUM: CHANGE TEXT
 //   }
+
+//   Future<void> speakBands18(String languageCode) async {
+//     // DOPSUM: CHANGE speakBand
+//     await flutterTts.setLanguage(languageCode);
+//     await flutterTts.setPitch(1.0);
+//     await flutterTts.setSpeechRate(0.5);
+//     await flutterTts.speak("speakBands1818"); // DOPSUM: CHANGE TEXT
+//   }
+
+//   Future<void> speakBands19(String languageCode) async {
+//     // DOPSUM: CHANGE speakBand
+//     await flutterTts.setLanguage(languageCode);
+//     await flutterTts.setPitch(1.0);
+//     await flutterTts.setSpeechRate(0.5);
+//     await flutterTts.speak("speakBands1919"); // DOPSUM: CHANGE TEXT
+//   }
+
+//   Future<void> speakBands20(String languageCode) async {
+//     // DOPSUM: CHANGE speakBand
+//     await flutterTts.setLanguage(languageCode);
+//     await flutterTts.setPitch(1.0);
+//     await flutterTts.setSpeechRate(0.5);
+//     await flutterTts.speak("speakBands2020"); // DOPSUM: CHANGE TEXT
+//   }
+
+//   Future<void> speakBands21(String languageCode) async {
+//     // DOPSUM: CHANGE speakBand
+//     await flutterTts.setLanguage(languageCode);
+//     await flutterTts.setPitch(1.0);
+//     await flutterTts.setSpeechRate(0.5);
+//     await flutterTts.speak("speakBands2121"); // DOPSUM: CHANGE TEXT
+//   }
+
+//   Future<void> speakBands22(String languageCode) async {
+//     // DOPSUM: CHANGE speakBand
+//     await flutterTts.setLanguage(languageCode);
+//     await flutterTts.setPitch(1.0);
+//     await flutterTts.setSpeechRate(0.5);
+//     await flutterTts.speak("speakBands2222"); // DOPSUM: CHANGE TEXT
+//   }
+
+//   Future<void> speakBands23(String languageCode) async {
+//     // DOPSUM: CHANGE speakBand
+//     await flutterTts.setLanguage(languageCode);
+//     await flutterTts.setPitch(1.0);
+//     await flutterTts.setSpeechRate(0.5);
+//     await flutterTts.speak("speakBands2323"); // DOPSUM: CHANGE TEXT
+//   }
+
+//   Future<void> speakBands24(String languageCode) async {
+//     // DOPSUM: CHANGE speakBand
+//     await flutterTts.setLanguage(languageCode);
+//     await flutterTts.setPitch(1.0);
+//     await flutterTts.setSpeechRate(0.5);
+//     await flutterTts.speak("speakBands2424"); // DOPSUM: CHANGE TEXT
+//   }
+
+//   Future<void> speakBands25(String languageCode) async {
+//     // DOPSUM: CHANGE speakBand
+//     await flutterTts.setLanguage(languageCode);
+//     await flutterTts.setPitch(1.0);
+//     await flutterTts.setSpeechRate(0.5);
+//     await flutterTts.speak("speakBands2525"); // DOPSUM: CHANGE TEXT
+//   }
+
+//   Future<void> speakBands26(String languageCode) async {
+//     // DOPSUM: CHANGE speakBand
+//     await flutterTts.setLanguage(languageCode);
+//     await flutterTts.setPitch(1.0);
+//     await flutterTts.setSpeechRate(0.5);
+//     await flutterTts.speak("speakBands2626"); // DOPSUM: CHANGE TEXT
+//   }
+
+//   Future<void> speakBands27(String languageCode) async {
+//     // DOPSUM: CHANGE speakBand
+//     await flutterTts.setLanguage(languageCode);
+//     await flutterTts.setPitch(1.0);
+//     await flutterTts.setSpeechRate(0.5);
+//     await flutterTts.speak("speakBands2727"); // DOPSUM: CHANGE TEXT
+//   }
+
+//   Future<void> speakBands28(String languageCode) async {
+//     // DOPSUM: CHANGE speakBand
+//     await flutterTts.setLanguage(languageCode);
+//     await flutterTts.setPitch(1.0);
+//     await flutterTts.setSpeechRate(0.5);
+//     await flutterTts.speak("speakBands2828"); // DOPSUM: CHANGE TEXT
+//   }
+
+//   Future<void> speakBands29(String languageCode) async {
+//     // DOPSUM: CHANGE speakBand
+//     await flutterTts.setLanguage(languageCode);
+//     await flutterTts.setPitch(1.0);
+//     await flutterTts.setSpeechRate(0.5);
+//     await flutterTts.speak("speakBands2929"); // DOPSUM: CHANGE TEXT
+//   }
+
+//   Future<void> speakBands30(String languageCode) async {
+//     // DOPSUM: CHANGE speakBand
+//     await flutterTts.setLanguage(languageCode);
+//     await flutterTts.setPitch(1.0);
+//     await flutterTts.setSpeechRate(0.5);
+//     await flutterTts.speak("speakBands3030"); // DOPSUM: CHANGE TEXT
+//   }

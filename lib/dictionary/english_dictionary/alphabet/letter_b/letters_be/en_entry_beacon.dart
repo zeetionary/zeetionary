@@ -7,90 +7,91 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "bayonet" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
+// Define the word "beacon" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
 
-// replace bayonet - replace EnglishEntrybayonet
+// replace beacon - replace EnglishEntrybeacon
 
-// replace speakBayonet - /ˈbeɪənət/
+// replace speakBeacon - /ˈbiːkən/
 
 enum TtsState { playing }
 
-class EnglishEntrybayonet extends StatelessWidget {
+class EnglishEntrybeacon extends StatelessWidget {
 // blank divider
-  EnglishEntrybayonet({super.key});
+  EnglishEntrybeacon({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBayonet(String languageCode) async {
-    // DOPSUM: CHANGE speakBayonet
+  Future<void> speakBeacon(String languageCode) async {
+    // DOPSUM: CHANGE speakBeacon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bayonet"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("beacon"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBayonets1(String languageCode) async {
-    // DOPSUM: CHANGE speakBayonet
+  Future<void> speakBeacons1(String languageCode) async {
+    // DOPSUM: CHANGE speakBeacon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The bayonets gleamed in the sunlight as the enemy approached."); // DOPSUM: CHANGE TEXT
+        "The beacon flashed a warning signal, alerting the sailors to the approaching storm."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBayonets2(String languageCode) async {
-    // DOPSUM: CHANGE speakBayonet
+  Future<void> speakBeacons2(String languageCode) async {
+    // DOPSUM: CHANGE speakBeacon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Innocent civilians had been shot and bayoneted."); // DOPSUM: CHANGE TEXT
+        "He was a beacon of hope for the younger generation."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBayonets3(String languageCode) async {
-    // DOPSUM: CHANGE speakBayonet
+  Future<void> speakBeacons3(String languageCode) async {
+    // DOPSUM: CHANGE speakBeacon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBayonets33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The plane was guided in by radio beacon."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBayonets4(String languageCode) async {
-    // DOPSUM: CHANGE speakBayonet
+  Future<void> speakBeacons4(String languageCode) async {
+    // DOPSUM: CHANGE speakBeacon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBayonets44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBeacons44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBayonets5(String languageCode) async {
-    // DOPSUM: CHANGE speakBayonet
+  Future<void> speakBeacons5(String languageCode) async {
+    // DOPSUM: CHANGE speakBeacon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBayonets55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBeacons55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBayonets6(String languageCode) async {
-    // DOPSUM: CHANGE speakBayonet
+  Future<void> speakBeacons6(String languageCode) async {
+    // DOPSUM: CHANGE speakBeacon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBayonets66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBeacons66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBayonets7(String languageCode) async {
-    // DOPSUM: CHANGE speakBayonet
+  Future<void> speakBeacons7(String languageCode) async {
+    // DOPSUM: CHANGE speakBeacon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBayonets77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBeacons77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -107,22 +108,22 @@ class EnglishEntrybayonet extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bayonet"),
+                            EntryTitle(word: "beacon"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbeɪənət/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbiːkən/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBayonet("en-GB"),
+                              onPressed: () => speakBeacon("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbeɪənət/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbiːkən/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBayonet("en-US"),
+                              onPressed: () => speakBeacon("en-US"),
                             ),
                           ],
                         ),
@@ -141,12 +142,12 @@ class EnglishEntrybayonet extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
+                  VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
@@ -174,46 +175,64 @@ class EnglishEntrybayonet extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: سونگی، سەرەڕم، سەرنەیزە، سەرنێزە (بۆ شەڕی دەستەویەخە)
+کوردی: چرای دەریایی، ڕووناکی یان چرای ڕێنوێنی، تروکەشەوق، چرای تروکەیی (لە فڕۆکەخانە)، نیشانەی ئاگر (بۆ ڕێنوێنی یان وریاکردنەوە)، مەشخەڵ، چرای پەڕینەوەی پیادە، تیشکی ڕووناکی، وێسگەی ڕادیۆیی
 
-١. (ناو) چەقۆیەکی تیژ کە بەستراوە بە سەری تفەنگێکەوە و وەک چەک بەکاردێت لە شەڕدا"""),
+١. (ناو) لایتێک کە لە شوێنێک دادەنرێت بۆ ڕێنوێنیکردنی کەشتی، شەمەندەفەر، هتد و ئاگادارکردنیان لە مەترسی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The bayonets gleamed in the sunlight as the enemy approached."),
+                                      "The beacon flashed a warning signal, alerting the sailors to the approaching storm."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سەرنێزەکان لەژێر تیشکی خۆردا دەدرەوشانەوە کە دووژمن نزیکبوویەوە."),
+                                      "چرای ڕێنوێنییەکە ئاماژەیەکی ئاگادارکەرەوەی نارد بۆ ئاگادارکردنەی مەلەکەرەکان لە زریانە نزیکەوەبووەکە."),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBayonets1("en-GB"),
+                                onPressed: () => speakBeacons1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBayonets1("en-US"),
+                                onPressed: () => speakBeacons1("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He was a beacon of hope for the younger generation."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "(بەکارهێنانی خوازراو) ئەو هێمای هیوا بوو بۆ نەوەی نوێ."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBeacons2("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBeacons2("en-US"),
                               ),
                             ],
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (کردار) چەقاندنی سەرنێزەیەک بە کەسێکدا بۆ کوشتنی"""),
+٢. (ناو) وێستگەیەکی ڕادیۆیی کە یارمەتی کەشتی و فڕۆکە دەدات شوێنیان بدۆزنەوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Innocent civilians had been shot and bayoneted."),
+                                      "The plane was guided in by radio beacon."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هاوڵاتی بێ‌تاوان بە فیشەک و سەرنێزە لێیان دراوە."),
+                                      "فڕۆکەکە ڕێنوێنی کرایە فڕۆکەخانەکە لەلایەن وێستگەی ڕادیۆییەکەوە."),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBayonets2("en-GB"),
+                                onPressed: () => speakBeacons3("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBayonets2("en-US"),
+                                onPressed: () => speakBeacons3("en-US"),
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
+                          const DividerSentences(),
                           // const DividerDefinition(),
                         ],
                       ),
@@ -228,7 +247,7 @@ class EnglishEntrybayonet extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
@@ -265,11 +284,17 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: bayonet (Derived forms: bayonets)
-1. A knife that can be fixed to the end of a rifle and used as a weapon
+Noun: beacon (Derived forms: beacons)
+1. A fire (usually on a hill or tower) that can be seen from a distance (= beacon fire)
+ 
+2. A radio station that broadcasts a directional signal for navigational purposes (= radio beacon)
+ 
+3. A tower with a light that gives warning of shoals to passing ships (= lighthouse, beacon light, pharos [archaic])
 
-- Verb: bayonet (Derived forms: bayonetted, bayonetting, bayonets, bayoneting, bayoneted)
-1. Stab or kill someone with a bayonet
+- Verb: beacon (Derived forms: beaconed, beacons, beaconing)
+1. Shine like a beacon
+ 
+2. Guide with a beacon
 """,
           )
         ],
@@ -283,12 +308,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "sV6uuMAnJUE";
+  static String myVideoId = "tsxmyL7TUJg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 421, // DOPSUM: CHANGE IT
+      startAt: 568, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -308,12 +333,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "_0RTH57v66I";
+  static String myVideoId = "CupbRr2m_sM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 511, // DOPSUM: CHANGE IT
+      startAt: 398, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -333,12 +358,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "tZktTdGHaJY";
+  static String myVideoId = "tCqwT2MqLxI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 815, // DOPSUM: CHANGE IT
+      startAt: 1099, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -358,12 +383,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "xDMq9qBpNZM";
+  static String myVideoId = "fU-8Rg4CgeI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 130, // DOPSUM: CHANGE IT
+      startAt: 1531, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -383,12 +408,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "96BhTy93MN0";
+  static String myVideoId = "hCsPV0eiqxg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 331, // DOPSUM: CHANGE IT
+      startAt: 1536, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -408,12 +433,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "bLApZfnLJoM";
+  static String myVideoId = "NQZ5BfdjDv0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 294, // DOPSUM: CHANGE IT
+      startAt: 819, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -433,12 +458,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "SBQXrhd7Cf0";
+  static String myVideoId = "runjda4La_4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1027, // DOPSUM: CHANGE IT
+      startAt: 82, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -458,12 +483,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "uwMPGEo4zCs";
+  static String myVideoId = "thOifuHs6eY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 444, // DOPSUM: CHANGE IT
+      startAt: 253, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -483,12 +508,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "DOQJK5hUo9U";
+  static String myVideoId = "P0CnZlX0gXU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 139, // DOPSUM: CHANGE IT
+      startAt: 4523, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -508,12 +533,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "o1nENiXSrJY";
+  static String myVideoId = "pEkcumq_LHY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 821, // DOPSUM: CHANGE IT
+      startAt: 1108, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -533,12 +558,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "UCwZ1iI3pdw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 88, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -782,4 +807,4 @@ class YoutubeEmbeddedtwenty extends StatelessWidget {
 
 // morethan one video, only first autoplay
 
-// end bayonet// TODO Implement this library.
+// end beacon// TODO Implement this library.

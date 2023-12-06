@@ -1,0 +1,1676 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_tts/flutter_tts.dart';
+import 'package:zeetionary/constants.dart';
+import 'package:youtube_player_flutter/youtube_player_flutter.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
+import 'package:zeetionary/theme/pallete.dart';
+
+// More sentences is NOT done
+
+// Define the word "be" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
+
+// replace be - replace EnglishEntrybe
+
+// replace speakBe - /bi/, strong form  /biː/
+
+enum TtsState { playing }
+
+class EnglishEntrybe extends StatelessWidget {
+// blank divider
+  EnglishEntrybe({super.key});
+// blank divider
+  final FlutterTts flutterTts = FlutterTts();
+
+  Future<void> speakBe(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("be"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes1(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("Today is Monday."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes2(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("He is ten years old."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes3(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("Be quick!"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes4(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("It was really hot in the Spain."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes5(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "He thinks it's clever to make fun of people."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes6(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Is there a country called Canada?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes7(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("She's from Italy."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes8(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("The party is on Friday evening."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes9(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("She has been in her room for hours."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes10(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("I'll be at the party."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes11(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("It's two thirty."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes12(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "‘How much is that dress?’ ‘Eighty dollars.’"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes13(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("Three and three is six."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes14(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "How much is a thousand pounds in euros?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes15(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Is your jacket real leather?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes16(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("The money's not yours, it's John's."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes17(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Money isn't everything (= it is not the only important thing)."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes18(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "A thousand dollars is nothing to somebody as rich as he is."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes19(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("I am studying Chinese."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes20(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("I'll be seeing him soon."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes21(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("You're not hungry, are you?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes22(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("Ben's coming, isn't he?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes23(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("Where were they made?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes24(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Karen wasn't beaten in any of her games, but all the others were."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes25(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "I am to call them once I reach the airport."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes26(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("You are to report this to the police."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes27(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "He was to regret that decision for the rest of his life."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes28(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Anna was nowhere to be found."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes29(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("He was never to see his wife again."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes30(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "If we were to offer you more money, would you stay?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes31(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Were we to offer you more money, would you stay?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes32(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBes3232"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes33(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBes3333"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes34(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBes3434"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes35(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBes3535"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBes36(String languageCode) async {
+    // DOPSUM: CHANGE speakBe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBes3636"); // DOPSUM: CHANGE TEXT
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return DefaultTabController(
+      length: 22, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      child: Scaffold(
+        appBar: const ZeetionaryAppbar(),
+        body: Padding(
+          padding:
+              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
+          // EdgeInsets.zero,
+          child: Column(
+            children: [
+              SingleChildScrollView(
+                child: Column(
+                  children: [
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        const Row(
+                          children: [
+                            EntryTitle(word: "be"),
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            const IPAofEnglish(
+                                text: "IpaUK: /bi/, strong form  /biː/"),
+                            CustomIconButtonBritish(
+                              onPressed: () => speakBe("en-GB"),
+                            ),
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            const IPAofEnglish(
+                                text: "IpaUS: /bi/, strong form  /biː/"),
+                            CustomIconButtonAmerican(
+                              onPressed: () => speakBe("en-US"),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
+              ),
+              TabBar(
+                isScrollable: true,
+                tabs: const [
+                  UkIconForTab(),
+                  KurdIconForTab(),
+                  VideoIconForTab(), // 01
+                  VideoIconForTab(), // 02
+                  VideoIconForTab(), // 03
+                  VideoIconForTab(), // 04
+                  VideoIconForTab(), // 05
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 22
+                  VideoIconForTab(), // 07 --- FIND:
+                  VideoIconForTab(), // 08
+                  VideoIconForTab(), // 09
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
+                  VideoIconForTab(), // 13
+                  VideoIconForTab(), // 14
+                  VideoIconForTab(), // 15
+                  VideoIconForTab(), // 16
+                  VideoIconForTab(), // 17
+                  VideoIconForTab(), // 18
+                  VideoIconForTab(), // 19
+                  VideoIconForTab(), // 20
+                ],
+                indicator: BoxDecoration(
+                  color: Pallete.tabsbackgroundColor,
+                  borderRadius: BorderRadius.circular(16.0),
+                ),
+                indicatorSize: TabBarIndicatorSize.tab,
+                indicatorPadding: const EdgeInsets.all(4.0),
+              ),
+              Expanded(
+                child: TabBarView(
+                  children: [
+                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    SingleChildScrollView(
+                      // DOPSUM: KURDISH MEANING
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.end,
+                        children: [
+                          const DefinitionKurdish(text: """
+١. (کردار) وەک کرداری یاریدەدەر بەکاردێت بۆ ناونانی خەڵکی یان شت، یان بۆ ناساندنیان یان پێدانی زانیاریی زیاتر"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Today is Monday."),
+                              const ExampleSentenceKurdish(
+                                  text: "ئەمڕۆ دووشەممەیە."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes1("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes1("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "He is ten years old."),
+                              const ExampleSentenceKurdish(
+                                  text: "ئەو دە ساڵە."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes2("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes2("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(text: "Be quick!"),
+                              const ExampleSentenceKurdish(text: "خێرابە!"),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes3("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes3("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٢. (کردار) بەشێوەی is و was بەکاردێت لەگەڵ it بۆ باسکردنی دۆخێک یان دەربڕینی بۆچوونت لەسەری"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "It was really hot in the Spain."),
+                              const ExampleSentenceKurdish(
+                                  text: "زۆر گەرم بوو لە ئیسپانیا."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes4("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes4("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He thinks it's clever to make fun of people."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وابیردەکاتەوە ئازاییە گاڵتە بە خەڵکی بکەیت."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes5("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes5("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٣. (کردار) شتێک بوونی هەبێت"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I tried phoning but there was no answer."),
+                              const ExampleSentenceKurdish(
+                                  text: "تەلەفۆنم کرد بەڵام وەڵام نەدرایەوە."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes5("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes5("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Is there a country called Canada?"),
+                              const ExampleSentenceKurdish(
+                                  text: "وڵاتێک هەیە بەناوی کەنەدا؟."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes6("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes6("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٤. (کردار) بۆ دیاریکردنی شوێن"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "The town is three miles away."),
+                              const ExampleSentenceKurdish(
+                                  text: "شارۆچکەکە سێ میل دوورە."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes6("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes6("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٤. (کردار) بەکاردێت بۆ دیاریکردنی شوێنی لەدایکبوون یان شوێنی ژیانی کەسێک"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "She's from Italy."),
+                              const ExampleSentenceKurdish(
+                                  text: "خەڵکی ئیتالیایە."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes7("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes7("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٥. (کردار) بەکاردێت بۆ دیاریکردنی کاتی ڕوودانی شتێک"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "The party is on Friday evening."),
+                              const ExampleSentenceKurdish(
+                                  text: "ئاهەنگەکە لە شەوی هەینی دەبێت."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes8("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes8("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٦. (کردار) مانەوە لە شوێنێک"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "She has been in her room for hours."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بۆ چەندین کاتژمێرە لە ژوورەکەی ماوەتەوە."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes9("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes9("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٧. (کردار) بەژداربوون لە ئاهەنگێک یان ئامادەبوون لە شوێنێک"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "I'll be at the party."),
+                              const ExampleSentenceKurdish(
+                                  text: "لە ئاهەنگەکە دەبم."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes10("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes10("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٨. (کردار) بۆ وتنی کات"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "It's two thirty."),
+                              const ExampleSentenceKurdish(
+                                  text: "کاتژمێر دوو نیوە."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes11("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes11("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٩. (کردار) بۆ وتنی تێچووی شتێک"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "‘How much is that dress?’ ‘Eighty dollars.’"),
+                              const ExampleSentenceKurdish(
+                                  text: "'ئەو کراسە بە چەندە؟' 'هەشتا دۆلار.'"),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes12("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes12("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+١٠. (کردار) بۆ وتنی ئەوەی دوو شت یەکسانن"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Three and three is six."),
+                              const ExampleSentenceKurdish(
+                                  text: "سێ و سێ شەش دەکات."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes13("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes13("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "How much is a thousand pounds in euros?"),
+                              const ExampleSentenceKurdish(
+                                  text: "هەزار پاوەند بە یۆرۆ دەبێتە چەند؟"),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes14("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes14("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+١١. (کردار) سەردانکردن یان پەیوەندیکردن بە شوێنێکەوە"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "I've never been to Spain."),
+                              const ExampleSentenceKurdish(
+                                  text: "هەرگیز نەچوومەتە ئیسپانیا."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes14("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes14("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          // const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+١٢. (کردار) بۆ وتنی ئەوەی شتێک لە چی درووستکراوە"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Is your jacket real leather?"),
+                              const ExampleSentenceKurdish(
+                                  text: "چاکەتەکەت چەرمی ئەسڵییە؟"),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes15("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes15("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          // const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+١٣. (کردار) بۆ وتنی ئەوەی شتێک هی کێیە"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "The money's not yours, it's John's."),
+                              const ExampleSentenceKurdish(
+                                  text: "پارەکە هی تۆ نییە، هی جۆنە."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes16("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes16("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+١٤. (کردار) بۆ وتنی ئەوەی شتێک چەندە گرنگە بۆ کەسێک"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Money isn't everything (= it is not the only important thing)."),
+                              const ExampleSentenceKurdish(
+                                  text: "پارە هەموو شت نییە."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes17("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes17("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "A thousand dollars is nothing to somebody as rich as he is."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "هەزار دۆلار بۆ دەوڵەمەندێکی وەک ئەو هیچ نییە."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes18("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes18("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+١٥. (کاری یاریدەدەر) لەگەڵ کاری ڕانەبردووی تەواو (کردار + ing) بەکاردێت بۆ دیاریکردنی دەمی بەردەوامی"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "I am studying Chinese."),
+                              const ExampleSentenceKurdish(
+                                  text: "زمانی چینی دەخوێنم."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes19("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes19("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "I'll be seeing him soon."),
+                              const ExampleSentenceKurdish(
+                                  text: "بەم‌زوانە دەیبینم."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes20("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes20("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+١٥. (کاری یاریدەدەر) بەکاردێت بۆ درووستکردنی کلکە پرسیار"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "You're not hungry, are you?"),
+                              const ExampleSentenceKurdish(
+                                  text: "برسیت نییە، وایە؟."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes21("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes21("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Ben's coming, isn't he?"),
+                              const ExampleSentenceKurdish(
+                                  text: "بێن دێت، وایە؟."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes22("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes22("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+١٦. (کاری یاریدەدەر) لەگەڵ کاری ڕابردووی تەواو بەکاردێت بۆ درووستکردنی ڕستەی نادیار"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "He was killed in the war."),
+                              const ExampleSentenceKurdish(
+                                  text: "لە جەنگەکە کوژرا."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes22("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes22("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Where were they made?"),
+                              const ExampleSentenceKurdish(
+                                  text: "لەکوێ درووستکران؟."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes23("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes23("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+١٧. (کاری یاریدەدەر) بۆ دووربوون لە دووبارە بەکارهێنانەوەی تەواوی کردارێک لە دەمی نادیار یان بەردەوامی"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Karen wasn't beaten in any of her games, but all the others were."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کارن لە هیچ کام لە یارییەکانی شکستی پێ‌نەهێندرا، بەڵام توانرا بۆ تەواوی ئەوانی تر."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes24("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes24("en-US"),
+                              ),
+                            ],
+                          ),
+                          // // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+١٨. (کاری یاریدەدەر) بۆ پیشاندانی ئەوەی چی دەبێت یان پێویستە بکرێت"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I am to call them once I reach the airport."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دەبێت پەیوەندییان پێوە بکەم کە دەگەمە فڕۆکەخانەکە."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes25("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes25("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "You are to report this to the police."),
+                              const ExampleSentenceKurdish(
+                                  text: "دەبێت ئەمە بە پۆلیس بگەیەنی."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes26("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes26("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+١٩. (کاری یاریدەدەر) بۆ ئەوەی چی ڕێکخراوە بۆ ڕوودان"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "They are to be married in June."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پلان وایە لە حوزەیران هاوسەرگیری بکەن."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes26("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes26("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٢٠. (کاری یاریدەدەر) بۆ وتنی ئەوەی چی دواتر ڕوویدا"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He was to regret that decision for the rest of his life (= he did regret it)."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بۆ تەواوی ژیانی ماوەی خەفەتی لەو بڕیارە خوارد."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes27("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes27("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٢١. (کاری یاریدەدەر) بۆ وتنی ئەوەی شتێک ڕووینەدا"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Anna was nowhere to be found (= we could not find her anywhere)."),
+                              const ExampleSentenceKurdish(
+                                  text: "ئانا لە هیچ کوێیەک نەبوو."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes28("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes28("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He was never to see his wife again (= although he did not know it would be so at the time, he did not see her again)."),
+                              const ExampleSentenceKurdish(
+                                  text: "هەرگیز ژنەکەی نەدییەوە."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes29("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes29("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٢٢. (کاری یاریدەدەر) بۆ دەربڕینی مەرج"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "If we were to offer you more money, would you stay?"),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەگەر پارەی زیاترت پێ بدەین، دەمێنیتەوە؟."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes30("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes30("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Were we to offer you more money, would you stay?"),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەگەر پارەی زیاترت پێ بدەین، دەمێنیتەوە؟."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBes31("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBes31("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                        ],
+                      ),
+                    ),
+                    YoutubeEmbeddedone(),
+                    YoutubeEmbeddedtwo(),
+                    YoutubeEmbeddedthree(),
+                    YoutubeEmbeddedfour(),
+                    YoutubeEmbeddedfive(),
+                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    YoutubeEmbeddedseven(),
+                    YoutubeEmbeddedeight(),
+                    YoutubeEmbeddednine(),
+                    YoutubeEmbeddedten(),
+                    YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedthirteen(),
+                    YoutubeEmbeddedfourteen(),
+                    YoutubeEmbeddedfifteen(),
+                    YoutubeEmbeddedsixteen(),
+                    YoutubeEmbeddedseventeen(),
+                    YoutubeEmbeddedeighteen(),
+                    YoutubeEmbeddednineteen(),
+                    YoutubeEmbeddedtwenty(),
+                    // YoutubeEmbeddedmulti(),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+// DOPSUM: ENGLISH MEANING
+
+class EnglishMeaning extends StatelessWidget {
+  const EnglishMeaning({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const SingleChildScrollView(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          EnglishMeaningConst(
+            text: """
+- Verb: be (Derived forms: am)
+1. Have the quality of being; (copula, used with an adjective or a predicate noun)
+"John is rich"; "This is not a good answer"
+ 
+2. Be identical to; be someone or something
+"The president of the company is John Smith"; "This is my house"
+ 
+2. Occupy a certain position or area; be somewhere
+"Where is my umbrella?"; "The toolshed is in the back"; "What is behind this behavior?"
+ 
+4. Have reality; have an existence, be extant (= exist)
+"Is there a God?";
+ 
+5. Happen, occur, take place
+"I lost my wallet; this was during the visit to my parents' house"; "There was a lot of noise in the kitchen"
+ 
+6. Be identical or equivalent to (= equal)
+"One dollar is 1,000 rubles these days!";
+ 
+7. Form or compose (= constitute, represent, make up, comprise)
+"This money is my only income"; "The stone wall was the backdrop for the performance";
+ 
+8. Work in a specific place, with a specific subject, or in a specific function (= follow)
+"He is a herpetologist"; "She is our resident philosopher";
+ 
+9. Represent, as of a character on stage (= embody, personify)
+"Derek Jacobi was Hamlet";
+
+10. Spend or use time
+"I may be an hour"
+ 
+11. Have life, be alive (= live)
+"Our great leader is no more";
+ 
+12. To remain unmolested, undisturbed, or uninterrupted -- used only in infinitive form
+"let her be"
+ 
+13. Be priced at (= cost)
+
+- Noun: Be (Derived forms: Bes)
+1. A light strong brittle grey toxic bivalent metallic element (= beryllium, glucinium, atomic number 4)
+""",
+          )
+        ],
+      ),
+    );
+  }
+}
+
+// DOPSUM: FIRST YOUTUBE VIDEO
+
+class YoutubeEmbeddedone extends StatelessWidget {
+  YoutubeEmbeddedone({super.key});
+
+  static String myVideoId = "1ypyksuijLs";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 33, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedtwo extends StatelessWidget {
+  YoutubeEmbeddedtwo({super.key});
+
+  static String myVideoId = "lVoGZiL-kns";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 19, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedthree extends StatelessWidget {
+  YoutubeEmbeddedthree({super.key});
+
+  static String myVideoId = "AC_15fULavo";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 14, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedfour extends StatelessWidget {
+  YoutubeEmbeddedfour({super.key});
+
+  static String myVideoId = "wrr9J7BJ6vE";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 45, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedfive extends StatelessWidget {
+  YoutubeEmbeddedfive({super.key});
+
+  static String myVideoId = "hUBsxCcJeUc";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 9, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedsix extends StatelessWidget {
+  YoutubeEmbeddedsix({super.key});
+
+  static String myVideoId = "Y2T_rIZ4Pho";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 19, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedseven extends StatelessWidget {
+  YoutubeEmbeddedseven({super.key});
+
+  static String myVideoId = "Oq61TxejZ5g";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 27, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedeight extends StatelessWidget {
+  YoutubeEmbeddedeight({super.key});
+
+  static String myVideoId = "hFZFjoX2cGg";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 155, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddednine extends StatelessWidget {
+  YoutubeEmbeddednine({super.key});
+
+  static String myVideoId = "VrKW58MS12g";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 272, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedten extends StatelessWidget {
+  YoutubeEmbeddedten({super.key});
+
+  static String myVideoId = "DTvS9lvRxZ8";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 23, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedeleven extends StatelessWidget {
+  YoutubeEmbeddedeleven({super.key});
+
+  static String myVideoId = "w98l2EFR6dE";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 35, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedtwelve extends StatelessWidget {
+  YoutubeEmbeddedtwelve({super.key});
+
+  static String myVideoId = "hS2x1zl4rn0";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 99, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedthirteen extends StatelessWidget {
+  YoutubeEmbeddedthirteen({super.key});
+
+  static String myVideoId = "zAGVQLHvwOY";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 25, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedfourteen extends StatelessWidget {
+  YoutubeEmbeddedfourteen({super.key});
+
+  static String myVideoId = "3MOFv_8A3S0";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 191, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedfifteen extends StatelessWidget {
+  YoutubeEmbeddedfifteen({super.key});
+
+  static String myVideoId = "FHJ3CMWnVxY";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedsixteen extends StatelessWidget {
+  YoutubeEmbeddedsixteen({super.key});
+
+  static String myVideoId = "R_fZjGm2OrM";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 336, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedseventeen extends StatelessWidget {
+  YoutubeEmbeddedseventeen({super.key});
+
+  static String myVideoId = "iEKLFS-aKcw";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 15, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedeighteen extends StatelessWidget {
+  YoutubeEmbeddedeighteen({super.key});
+
+  static String myVideoId = "CleUrqPLCzU";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 80, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddednineteen extends StatelessWidget {
+  YoutubeEmbeddednineteen({super.key});
+
+  static String myVideoId = "ZQy89tZ-mRU";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 260, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedtwenty extends StatelessWidget {
+  YoutubeEmbeddedtwenty({super.key});
+
+  static String myVideoId = "66aG5P0kQpU";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 31, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+// morethan one video, only first autoplay
+
+// end be// TODO Implement this library.

@@ -7,90 +7,273 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "bayonet" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
+// Define the word "bear" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
 
-// replace bayonet - replace EnglishEntrybayonet
+// replace bear - replace EnglishEntrybear
 
-// replace speakBayonet - /ˈbeɪənət/
+// replace speakBear - /beə(r)/
 
 enum TtsState { playing }
 
-class EnglishEntrybayonet extends StatelessWidget {
+class EnglishEntrybear extends StatelessWidget {
 // blank divider
-  EnglishEntrybayonet({super.key});
+  EnglishEntrybear({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBayonet(String languageCode) async {
-    // DOPSUM: CHANGE speakBayonet
+  Future<void> speakBear(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bayonet"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bear"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBayonets1(String languageCode) async {
-    // DOPSUM: CHANGE speakBayonet
+  Future<void> speakBears1(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The bayonets gleamed in the sunlight as the enemy approached."); // DOPSUM: CHANGE TEXT
+        "A little bear cub ran right across the road in front of us."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBayonets2(String languageCode) async {
-    // DOPSUM: CHANGE speakBayonet
+  Future<void> speakBears2(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Innocent civilians had been shot and bayoneted."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBears22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBayonets3(String languageCode) async {
-    // DOPSUM: CHANGE speakBayonet
+  Future<void> speakBears3(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBayonets33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBears33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBayonets4(String languageCode) async {
-    // DOPSUM: CHANGE speakBayonet
+  Future<void> speakBears4(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBayonets44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBears44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBayonets5(String languageCode) async {
-    // DOPSUM: CHANGE speakBayonet
+  Future<void> speakBears5(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBayonets55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBears55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBayonets6(String languageCode) async {
-    // DOPSUM: CHANGE speakBayonet
+  Future<void> speakBears6(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBayonets66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBears66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBayonets7(String languageCode) async {
-    // DOPSUM: CHANGE speakBayonet
+  Future<void> speakBears7(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBayonets77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBears77"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBears8(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBears88"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBears9(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBears99"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBears10(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBears1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBears11(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBears1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBears12(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBears1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBears13(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBears1313"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBears14(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBears1414"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBears15(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBears1515"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBears16(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBears1616"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBears17(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBears1717"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBears18(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBears1818"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBears19(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBears1919"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBears20(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBears2020"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBears21(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBears2121"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBears22(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBears2222"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBears23(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBears2323"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBears24(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBears2424"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBears25(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBears2525"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBears26(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBears2626"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBears27(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBears2727"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBears28(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBears2828"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBears29(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBears2929"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBears30(String languageCode) async {
+    // DOPSUM: CHANGE speakBear
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBears3030"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 19, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -107,22 +290,22 @@ class EnglishEntrybayonet extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bayonet"),
+                            EntryTitle(word: "bear"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbeɪənət/"),
+                            const IPAofEnglish(text: "IpaUK: /beə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBayonet("en-GB"),
+                              onPressed: () => speakBear("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbeɪənət/"),
+                            const IPAofEnglish(text: "IpaUS: /ber/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBayonet("en-US"),
+                              onPressed: () => speakBear("en-US"),
                             ),
                           ],
                         ),
@@ -141,18 +324,18 @@ class EnglishEntrybayonet extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 19
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
-                  // VideoIconForTab(), // 13
-                  // VideoIconForTab(), // 14
-                  // VideoIconForTab(), // 15
-                  // VideoIconForTab(), // 16
-                  // VideoIconForTab(), // 17
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
+                  VideoIconForTab(), // 13
+                  VideoIconForTab(), // 14
+                  VideoIconForTab(), // 15
+                  VideoIconForTab(), // 16
+                  VideoIconForTab(), // 17
                   // VideoIconForTab(), // 18
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
@@ -174,42 +357,21 @@ class EnglishEntrybayonet extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: سونگی، سەرەڕم، سەرنەیزە، سەرنێزە (بۆ شەڕی دەستەویەخە)
+کوردی: 
 
-١. (ناو) چەقۆیەکی تیژ کە بەستراوە بە سەری تفەنگێکەوە و وەک چەک بەکاردێت لە شەڕدا"""),
+١. (ھاوەڵناو) پێناسە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The bayonets gleamed in the sunlight as the enemy approached."),
+                                      "A little bear cub ran right across the road in front of us."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرنێزەکان لەژێر تیشکی خۆردا دەدرەوشانەوە کە دووژمن نزیکبوویەوە."),
+                                  text: "رستە_رستە_رستە_رستە."),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBayonets1("en-GB"),
+                                onPressed: () => speakBears1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBayonets1("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (کردار) چەقاندنی سەرنێزەیەک بە کەسێکدا بۆ کوشتنی"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Innocent civilians had been shot and bayoneted."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هاوڵاتی بێ‌تاوان بە فیشەک و سەرنێزە لێیان دراوە."),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBayonets2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBayonets2("en-US"),
+                                onPressed: () => speakBears1("en-US"),
                               ),
                             ],
                           ),
@@ -228,13 +390,13 @@ class EnglishEntrybayonet extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
-                    // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddedfourteen(),
-                    // YoutubeEmbeddedfifteen(),
-                    // YoutubeEmbeddedsixteen(),
-                    // YoutubeEmbeddedseventeen(),
+                    YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedthirteen(),
+                    YoutubeEmbeddedfourteen(),
+                    YoutubeEmbeddedfifteen(),
+                    YoutubeEmbeddedsixteen(),
+                    YoutubeEmbeddedseventeen(),
                     // YoutubeEmbeddedeighteen(),
                     // YoutubeEmbeddednineteen(),
                     // YoutubeEmbeddedtwenty(),
@@ -265,11 +427,59 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: bayonet (Derived forms: bayonets)
-1. A knife that can be fixed to the end of a rifle and used as a weapon
+- Verb: bear (Derived forms: bearing, borne, bore, bears)
+1. Have as a feature; convey
+"bear a resemblance"; "bear a signature"
+ 
+2. Cause to be born (= give birth, deliver, birth, have)
+"My wife bore twins yesterday!";
+ 
+3. Put up with something or somebody unpleasant (= digest, endure, stick out, stomach, stand, tolerate, support, brook, abide, suffer, put up)
+"I cannot bear his constant criticism";
 
-- Verb: bayonet (Derived forms: bayonetted, bayonetting, bayonets, bayoneting, bayoneted)
-1. Stab or kill someone with a bayonet
+4. Move while holding up or supporting
+"Bear gifts"; "bear a heavy load"; "bear news"; "bearing orders"
+ 
+5. Bring forth (= turn out)
+"The apple tree bore delicious apples this year"; "The unidentified plant bore gorgeous flowers";
+ 
+6. Maintain (a theory, thoughts, or feelings) (= harbor [N. Amer], harbour [Brit, Cdn], hold, entertain, nurse)
+"bear a grudge";
+ 
+7. Take on as one's own the expenses or debts of another person (= take over, accept, assume)
+"She agreed to bear the responsibility";
+
+8. Have within (= hold, carry, contain)
+"The canteen bears fresh water";
+ 
+9. (investment) bring in (= yield, pay)
+"interest-bearing accounts";
+ 
+10. Have on one's person (= wear)
+"bear a scar";
+ 
+11. Behave in a certain manner (= behave, acquit, deport, conduct, comport, carry)
+"he bore himself with dignity";
+ 
+12. Have rightfully; of rights, titles, and offices (= hold)
+"She bears the title of Duchess";
+ 
+13. Support or hold in a certain manner (= hold, carry)
+"She bears her head high";
+
+14. Be pregnant with (= have a bun in the oven, carry, gestate, expect)
+"She is bearing his child";
+ 
+15. Move, proceed or be located in a specified direction
+"bear left at the next junction"
+
+- Noun: bear (Derived forms: bearing, borne, bore, bears)
+1. Large mammal with long shaggy coat and strong claws
+"The black bear is the most common bear species in North America, but they are less likely to attack humans than grizzly bears"
+ 
+2. An investor with a pessimistic market outlook; an investor who expects prices to fall and so sells now in order to buy later at a lower price
+ 
+3. A large hairy or rough man
 """,
           )
         ],
@@ -283,12 +493,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "sV6uuMAnJUE";
+  static String myVideoId = "dGkbkEol9fs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 421, // DOPSUM: CHANGE IT
+      startAt: 811, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -308,12 +518,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "_0RTH57v66I";
+  static String myVideoId = "yij2FpHYdwE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 511, // DOPSUM: CHANGE IT
+      startAt: 710, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -333,12 +543,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "tZktTdGHaJY";
+  static String myVideoId = "0lq1JIWQSlc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 815, // DOPSUM: CHANGE IT
+      startAt: 164, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -358,12 +568,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "xDMq9qBpNZM";
+  static String myVideoId = "yYjSYafjAjU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 130, // DOPSUM: CHANGE IT
+      startAt: 107, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -383,12 +593,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "96BhTy93MN0";
+  static String myVideoId = "MJDmjFPFFJc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 331, // DOPSUM: CHANGE IT
+      startAt: 3308, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -408,12 +618,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "bLApZfnLJoM";
+  static String myVideoId = "yCdR82Odndw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 294, // DOPSUM: CHANGE IT
+      startAt: 343, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -433,12 +643,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "SBQXrhd7Cf0";
+  static String myVideoId = "J3euEMWC8tg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1027, // DOPSUM: CHANGE IT
+      startAt: 217, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -458,12 +668,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "uwMPGEo4zCs";
+  static String myVideoId = "zj4zvXpQW1Y";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 444, // DOPSUM: CHANGE IT
+      startAt: 217, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -483,7 +693,82 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "DOQJK5hUo9U";
+  static String myVideoId = "Vv_wzaXDbUc";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 786, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedten extends StatelessWidget {
+  YoutubeEmbeddedten({super.key});
+
+  static String myVideoId = "G3v31UpO17g";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 2602, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedeleven extends StatelessWidget {
+  YoutubeEmbeddedeleven({super.key});
+
+  static String myVideoId = "ISmyk5d1gkg";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 957, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedtwelve extends StatelessWidget {
+  YoutubeEmbeddedtwelve({super.key});
+
+  static String myVideoId = "WUjVPIEtJd0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -505,90 +790,15 @@ class YoutubeEmbeddednine extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  static String myVideoId = "o1nENiXSrJY";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 821, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
 class YoutubeEmbeddedthirteen extends StatelessWidget {
   YoutubeEmbeddedthirteen({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "PZYcoWhEZxM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 702, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -608,12 +818,12 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
 class YoutubeEmbeddedfourteen extends StatelessWidget {
   YoutubeEmbeddedfourteen({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "oj6C9MJ89ho";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 1719, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -633,12 +843,12 @@ class YoutubeEmbeddedfourteen extends StatelessWidget {
 class YoutubeEmbeddedfifteen extends StatelessWidget {
   YoutubeEmbeddedfifteen({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "JpbWqiUy0YM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 285, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -658,12 +868,12 @@ class YoutubeEmbeddedfifteen extends StatelessWidget {
 class YoutubeEmbeddedsixteen extends StatelessWidget {
   YoutubeEmbeddedsixteen({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "idDSfBVuKRc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 620, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -683,12 +893,12 @@ class YoutubeEmbeddedsixteen extends StatelessWidget {
 class YoutubeEmbeddedseventeen extends StatelessWidget {
   YoutubeEmbeddedseventeen({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "KNStujHAjQA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 728, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -782,4 +992,4 @@ class YoutubeEmbeddedtwenty extends StatelessWidget {
 
 // morethan one video, only first autoplay
 
-// end bayonet// TODO Implement this library.
+// end bear// TODO Implement this library.

@@ -1456,11 +1456,81 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_bazooka.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_bbc.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_bc.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_be.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_be.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_beach.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_beach_ball.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_beachhead.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_beachwear.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_beacon.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_bead.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_beady.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_beak.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_beaker.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_beam.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_bean.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_bear.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
 
 final loggedOutRoute = RouteMap(routes: {
   "/": (_) => const MaterialPage(child: LoginScreen()),
@@ -2900,9 +2970,11 @@ final loggedInRoute = RouteMap(routes: {
   "/english-bake": (_) => MaterialPage(child: EnglishEntrybake()),
   "/english-baker": (_) => MaterialPage(child: EnglishEntrybaker()),
   "/english-bakery": (_) => MaterialPage(child: EnglishEntrybakery()),
-  "/english-baking-powder": (_) => MaterialPage(child: EnglishEntrybakingpowder()),
+  "/english-baking-powder": (_) =>
+      MaterialPage(child: EnglishEntrybakingpowder()),
   "/english-balance": (_) => MaterialPage(child: EnglishEntrybalance()),
-  "/english-balance-sheet": (_) => MaterialPage(child: EnglishEntrybalancesheet()),
+  "/english-balance-sheet": (_) =>
+      MaterialPage(child: EnglishEntrybalancesheet()),
   "/english-balcony": (_) => MaterialPage(child: EnglishEntrybalcony()),
   "/english-bald": (_) => MaterialPage(child: EnglishEntrybald()),
   "/english-balding": (_) => MaterialPage(child: EnglishEntrybalding()),
@@ -2918,7 +2990,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-ballerina": (_) => MaterialPage(child: EnglishEntryballerina()),
   "/english-ballet": (_) => MaterialPage(child: EnglishEntryballet()),
   "/english-ballistic": (_) => MaterialPage(child: EnglishEntryballistic()),
-  "/english-ballistic-missile": (_) => MaterialPage(child: EnglishEntryballisticmissile()),
+  "/english-ballistic-missile": (_) =>
+      MaterialPage(child: EnglishEntryballisticmissile()),
   "/english-ballistics": (_) => MaterialPage(child: EnglishEntryballistics()),
   "/english-balloon": (_) => MaterialPage(child: EnglishEntryballoon()),
   "/english-ballot": (_) => MaterialPage(child: EnglishEntryballot()),
@@ -2926,7 +2999,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-balm": (_) => MaterialPage(child: EnglishEntrybalm()),
   "/english-balmy": (_) => MaterialPage(child: EnglishEntrybalmy()),
   "/english-balsa": (_) => MaterialPage(child: EnglishEntrybalsa()),
-  "/english-balsamic-vinegar": (_) => MaterialPage(child: EnglishEntrybalsamicvinegar()),
+  "/english-balsamic-vinegar": (_) =>
+      MaterialPage(child: EnglishEntrybalsamicvinegar()),
   "/english-balti": (_) => MaterialPage(child: EnglishEntrybalti()),
   "/english-balustrade": (_) => MaterialPage(child: EnglishEntrybalustrade()),
   "/english-bamboo": (_) => MaterialPage(child: EnglishEntrybamboo()),
@@ -2950,7 +3024,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-banjo": (_) => MaterialPage(child: EnglishEntrybanjo()),
   "/english-bank": (_) => MaterialPage(child: EnglishEntrybank()),
   "/english-banker": (_) => MaterialPage(child: EnglishEntrybanker()),
-  "/english-bank-holiday": (_) => MaterialPage(child: EnglishEntrybankholiday()),
+  "/english-bank-holiday": (_) =>
+      MaterialPage(child: EnglishEntrybankholiday()),
   "/english-banking": (_) => MaterialPage(child: EnglishEntrybanking()),
   "/english-banknote": (_) => MaterialPage(child: EnglishEntrybanknote()),
   "/english-bankrupt": (_) => MaterialPage(child: EnglishEntrybankrupt()),
@@ -2999,7 +3074,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-barracks": (_) => MaterialPage(child: EnglishEntrybarracks()),
   "/english-barrage": (_) => MaterialPage(child: EnglishEntrybarrage()),
   "/english-barrel": (_) => MaterialPage(child: EnglishEntrybarrel()),
-  "/english-barrel-organ": (_) => MaterialPage(child: EnglishEntrybarrelorgan()),
+  "/english-barrel-organ": (_) =>
+      MaterialPage(child: EnglishEntrybarrelorgan()),
   "/english-barren": (_) => MaterialPage(child: EnglishEntrybarren()),
   "/english-barricade": (_) => MaterialPage(child: EnglishEntrybarricade()),
   "/english-barrier": (_) => MaterialPage(child: EnglishEntrybarrier()),
@@ -3044,7 +3120,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-batten": (_) => MaterialPage(child: EnglishEntrybatten()),
   "/english-batter": (_) => MaterialPage(child: EnglishEntrybatter()),
   "/english-battered": (_) => MaterialPage(child: EnglishEntrybattered()),
-  "/english-battering-ram": (_) => MaterialPage(child: EnglishEntrybatteringram()),
+  "/english-battering-ram": (_) =>
+      MaterialPage(child: EnglishEntrybatteringram()),
   "/english-battery": (_) => MaterialPage(child: EnglishEntrybattery()),
   "/english-battle": (_) => MaterialPage(child: EnglishEntrybattle()),
   "/english-battlefield": (_) => MaterialPage(child: EnglishEntrybattlefield()),
@@ -3064,18 +3141,18 @@ final loggedInRoute = RouteMap(routes: {
   "/english-bbc": (_) => MaterialPage(child: EnglishEntrybbc()),
   "/english-bc": (_) => MaterialPage(child: EnglishEntrybc()),
   "/english-be": (_) => MaterialPage(child: EnglishEntrybe()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-beach": (_) => MaterialPage(child: EnglishEntrybeach()),
+  "/english-beach-ball": (_) => MaterialPage(child: EnglishEntrybeachball()),
+  "/english-beachhead": (_) => MaterialPage(child: EnglishEntrybeachhead()),
+  "/english-beachwear": (_) => MaterialPage(child: EnglishEntrybeachwear()),
+  "/english-beacon": (_) => MaterialPage(child: EnglishEntrybeacon()),
+  "/english-bead": (_) => MaterialPage(child: EnglishEntrybead()),
+  "/english-beady": (_) => MaterialPage(child: EnglishEntrybeady()),
+  "/english-beak": (_) => MaterialPage(child: EnglishEntrybeak()),
+  "/english-beaker": (_) => MaterialPage(child: EnglishEntrybeaker()),
+  "/english-beam": (_) => MaterialPage(child: EnglishEntrybeam()),
+  "/english-bean": (_) => MaterialPage(child: EnglishEntrybean()),
+  "/english-bear": (_) => MaterialPage(child: EnglishEntrybear()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

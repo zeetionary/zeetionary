@@ -7,293 +7,234 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "bear" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
+// Define the word "beat" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
 
-// replace bear - replace EnglishEntrybear
+// replace beat - replace EnglishEntrybeat
 
-// replace speakBear - /beə(r)/
+// replace speakBeat - /biːt/
 
 enum TtsState { playing }
 
-class EnglishEntrybear extends StatelessWidget {
+class EnglishEntrybeat extends StatelessWidget {
 // blank divider
-  EnglishEntrybear({super.key});
+  EnglishEntrybeat({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBear(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
+  Future<void> speakBeat(String languageCode) async {
+    // DOPSUM: CHANGE speakBeat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bear"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("beat"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears1(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
+  Future<void> speakBeats1(String languageCode) async {
+    // DOPSUM: CHANGE speakBeat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A little bear cub ran right across the road in front of us."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He beat me at chess."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears2(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The pain was almost more than he could bear.The pain was almost more than he could bear."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBears3(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She bore it all with her usual patience."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBears4(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She bore the responsibility for most of the changes."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBears5(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "In the end it's consumers who bear the burden of higher prices."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBears6(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The ice is too thin to bear your weight."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBears7(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
+  Future<void> speakBeats2(String languageCode) async {
+    // DOPSUM: CHANGE speakBeat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The document bore her signature."); // DOPSUM: CHANGE TEXT
+        .speak("I beat her by just three points."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears8(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
+  Future<void> speakBeats3(String languageCode) async {
+    // DOPSUM: CHANGE speakBeat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He was badly wounded in the war and still bears the scars."); // DOPSUM: CHANGE TEXT
+        "The government's main aim is to beat inflation."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears9(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
+  Future<void> speakBeats4(String languageCode) async {
+    // DOPSUM: CHANGE speakBeat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She bears little resemblance to her mother."); // DOPSUM: CHANGE TEXT
+        "It is a problem that beats even the experts."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears10(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
+  Future<void> speakBeats5(String languageCode) async {
+    // DOPSUM: CHANGE speakBeat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Her later work does not bear comparison with her earlier novels."); // DOPSUM: CHANGE TEXT
+        "If we go early we should beat the traffic."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears11(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
+  Future<void> speakBeats6(String languageCode) async {
+    // DOPSUM: CHANGE speakBeat
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "At that time children were regularly beaten for quite minor offences."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBeats7(String languageCode) async {
+    // DOPSUM: CHANGE speakBeat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The plan won't bear close inspection."); // DOPSUM: CHANGE TEXT
+        .speak("A man was found beaten to death."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears12(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
+  Future<void> speakBeats8(String languageCode) async {
+    // DOPSUM: CHANGE speakBeat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The joke doesn't bear repeating."); // DOPSUM: CHANGE TEXT
+        .speak("Nothing beats home cooking."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears13(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
+  Future<void> speakBeats9(String languageCode) async {
+    // DOPSUM: CHANGE speakBeat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("He bears no resentment towards them."); // DOPSUM: CHANGE TEXT
+        .speak("Somebody was beating at the door."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears14(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
+  Future<void> speakBeats10(String languageCode) async {
+    // DOPSUM: CHANGE speakBeat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He's borne a grudge against me ever since that day."); // DOPSUM: CHANGE TEXT
+        "She's alive—her heart is still beating."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears15(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The stone plaque bearing his name was smashed to pieces."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBears16(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He returned bearing a basket of vegetables."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBears17(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
+  Future<void> speakBeats11(String languageCode) async {
+    // DOPSUM: CHANGE speakBeat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Her two sons helped bear the coffin."); // DOPSUM: CHANGE TEXT
+        .speak("We heard the drums beating."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears18(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
+  Future<void> speakBeats12(String languageCode) async {
+    // DOPSUM: CHANGE speakBeat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He bears himself proudly, like a soldier."); // DOPSUM: CHANGE TEXT
+        "Beat the mixture well, until it is creamy."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears19(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
+  Future<void> speakBeats13(String languageCode) async {
+    // DOPSUM: CHANGE speakBeat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("She had borne him six sons."); // DOPSUM: CHANGE TEXT
+        .speak("The metal had been beaten flat."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears20(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
+  Future<void> speakBeats14(String languageCode) async {
+    // DOPSUM: CHANGE speakBeat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "These trees take a long time to bear fruit."); // DOPSUM: CHANGE TEXT
+        "I put my head on his chest but I could feel no heartbeat."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears21(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
+  Future<void> speakBeats15(String languageCode) async {
+    // DOPSUM: CHANGE speakBeat
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("They danced to the beat of the drums."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBeats16(String languageCode) async {
+    // DOPSUM: CHANGE speakBeat
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("She felt the beat of his heart."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBeats17(String languageCode) async {
+    // DOPSUM: CHANGE speakBeat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "When you get to the fork in the road, bear right."); // DOPSUM: CHANGE TEXT
+        "He tapped his foot to the beat (= rhythm) of the music."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears22(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
+  Future<void> speakBeats18(String languageCode) async {
+    // DOPSUM: CHANGE speakBeat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBears2222"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "More police officers out on the beat may help to cut crime."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears23(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
+  Future<void> speakBeats19(String languageCode) async {
+    // DOPSUM: CHANGE speakBeat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBears2323"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I'm beat - I'm going to bed."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears24(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
+  Future<void> speakBeats20(String languageCode) async {
+    // DOPSUM: CHANGE speakBeat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBears2424"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBeats2020"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears25(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
+  Future<void> speakBeats21(String languageCode) async {
+    // DOPSUM: CHANGE speakBeat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBears2525"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBeats2121"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears26(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
+  Future<void> speakBeats22(String languageCode) async {
+    // DOPSUM: CHANGE speakBeat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBears2626"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBeats2222"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBears27(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
+  Future<void> speakBeats23(String languageCode) async {
+    // DOPSUM: CHANGE speakBeat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBears2727"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBears28(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBears2828"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBears29(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBears2929"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBears30(String languageCode) async {
-    // DOPSUM: CHANGE speakBear
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBears3030"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBeats2323"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 19, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -310,22 +251,22 @@ class EnglishEntrybear extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bear"),
+                            EntryTitle(word: "beat"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /beə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /biːt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBear("en-GB"),
+                              onPressed: () => speakBeat("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ber/"),
+                            const IPAofEnglish(text: "IpaUS: /biːt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBear("en-US"),
+                              onPressed: () => speakBeat("en-US"),
                             ),
                           ],
                         ),
@@ -344,18 +285,18 @@ class EnglishEntrybear extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 19
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
                   VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
-                  VideoIconForTab(), // 13
-                  VideoIconForTab(), // 14
-                  VideoIconForTab(), // 15
-                  VideoIconForTab(), // 16
-                  VideoIconForTab(), // 17
+                  // VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 13
+                  // VideoIconForTab(), // 14
+                  // VideoIconForTab(), // 15
+                  // VideoIconForTab(), // 16
+                  // VideoIconForTab(), // 17
                   // VideoIconForTab(), // 18
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
@@ -377,40 +318,262 @@ class EnglishEntrybear extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-١. (ناو) ورچ"""),
+کوردی: لێدان، پیاکێشان، کوتان، دەنگی لێدان، لێدان(پرتە و دڵ)، ترپە، ڕیتم (موسیقی)، کێش، هەڤدەن، زەبر، هێز (هەڵبەست)، ڕێڕەو، ڕێگا، جووڵەی باڵەکانی باڵندە، پێشکەوتن، پێش‌وەچوون، شوێنی تیاگەڕان، ناوچەی نۆبەداری (ئەفسەری پۆلیس)، نافەرمی هیلاک، شەکەت، ماندوو
+
+١. (کردار) شکستهێنان بە کەسێک لە یارییەک یان پێشبڕکێیەک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "A little bear cub ran right across the road in front of us."),
+                                  text: "He beat me at chess."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "بەچکە ورچێکی بچکۆلە بە ڕێگاکەدا پەڕییەوە بە ڕاکردن لە پێشمان."),
+                                  text: "لە شەترەنجدا لێی بردمەوە."),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBears1("en-GB"),
+                                onPressed: () => speakBeats1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBears1("en-US"),
+                                onPressed: () => speakBeats1("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "I beat her by just three points."),
+                              const ExampleSentenceKurdish(
+                                  text: "بە جیاوازی سێ خاڵ لێم بردەوە."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBeats2("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBeats2("en-US"),
                               ),
                             ],
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (کردار) داننان و مامەڵەکردن بە شتێکی ناخۆش کە ڕوویداوە"""),
+٢. (کردار) باشتربوون لە کەسێک"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Nothing beats home cooking."),
+                              const ExampleSentenceKurdish(
+                                  text: "هیچ باشتر نابێت لە خواردنی ماڵەوە."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBeats8("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBeats8("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٣. (کردار) سەپاندنی هەژموون بەسەر شتێکدا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The pain was almost more than he could bear.The pain was almost more than he could bear."),
+                                      "The government's main aim is to beat inflation."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئازارەکە تاڕادەیەکی زۆر زیاتر لەوە بوو کە دەیتوانی بەرگەی بگرێت."),
+                                      "ئامانجی سەرەکی حکومەت ئەوەیە کۆنترۆڵی هەڵاوسانی ئابووری بکات."),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBears2("en-GB"),
+                                onPressed: () => speakBeats3("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBears2("en-US"),
+                                onPressed: () => speakBeats3("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٤. (کردار) شتێک کە زۆر گران دەبێت"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "It is a problem that beats even the experts."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کێشەیەکە کە تەنانەت شارەزایانیش لێی تێ ناگەن."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBeats4("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBeats4("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٥. (کردار) دوورکەوتنەوە لە شتێک"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "If we go early we should beat the traffic."),
+                              const ExampleSentenceKurdish(
+                                  text: "ئەگەر زوو بچین لە ترافیک دوور دەبین."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBeats5("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBeats5("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٦. (کردار) لێدانی زۆر لە کەسێک بە مەبەستی ئازاردان"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "At that time children were regularly beaten for quite minor offences (= as a punishment)."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەو کات منداڵان کوتەکیان دەخوارد بە بەردەوامی بۆ هەڵەی زۆر بچووک."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBeats6("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBeats6("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "A man was found beaten to death."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پیاوێک دۆزرایەوە کە تا مردن لێی درابوو."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBeats7("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBeats7("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٧. (کردار) لێدان لە شتێک بۆ چەند جارێک"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Somebody was beating at the door."),
+                              const ExampleSentenceKurdish(
+                                  text: "کەسێک لە دەرگاکەی دەکووتا."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBeats9("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBeats9("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٨. (کردار) درووستکردنی دەنگێکی بەردەوام، یان وا لە شتێک بکەیت دەنگێکی بەردەوام دەربکات"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She's alive—her heart is still beating."),
+                              const ExampleSentenceKurdish(
+                                  text: "زیندووە، دڵی هێشتا لێدەدات."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBeats10("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBeats10("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "We heard the drums beating."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "گوێمان لە دەنگی لێدانی دەهۆڵەکان بوو."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBeats11("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBeats11("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٩. (کردار) تێکەڵکردنی شتێک"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Beat the mixture well, until it is creamy."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "تێکەڵەکە بەباشی تێکبدە تا کرێمدار دەبێت."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBeats12("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBeats12("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+١٠. (کردار) گۆڕینی شێوەی شتێک، بەتایبەتی کانزا، بە لێدانی بە چەکووش"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "The metal had been beaten flat."),
+                              const ExampleSentenceKurdish(
+                                  text: "کانزاکە بە لێدان پانکراوەتەوە."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBeats13("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBeats13("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+١١. (ناو) یەک لێدانی شتێک، بۆ نموونە یەک ترپەی دڵ، یان یەک لێدانی لە دەهۆڵ"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I put my head on his chest but I could feel no heartbeat."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "سەرم خستە سەر سنگی بەڵام گوێم لە هیچ ترپەیەکی دڵ نەبوو."),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBeats14("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBeats14("en-US"),
                               ),
                             ],
                           ),
@@ -420,350 +583,89 @@ class EnglishEntrybear extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "She bore it all with her usual patience."),
+                                      "They danced to the beat of the drums."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "بەرگەی هەمووی گرت بە پشوودرێژی هەمیشەییەوە."),
+                                  text: "سەمایان دەکرد لەگەڵ ڕیتمی دەهۆڵەکان."),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBears3("en-GB"),
+                                onPressed: () => speakBeats15("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBears3("en-US"),
+                                onPressed: () => speakBeats15("en-US"),
                               ),
                             ],
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (کردار) هەڵگرتنی بەرپرسیاریەتی"""),
+١٢. (ناو) زنجیرەیەک لە لێدانی شتێک، بۆ نموونە لێدانی دڵ یان دەهۆڵ"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "She bore the responsibility for most of the changes."),
+                                  text: "She felt the beat of his heart."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "بەرپرسیاریەتی بۆ زۆرینەی گۆڕانکارییەکان هەڵگرت."),
+                                  text: "هەستی بە لێدانی دڵی کرد."),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBears4("en-GB"),
+                                onPressed: () => speakBeats16("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBears4("en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In the end it's consumers who bear the burden of higher prices."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەکۆتاییدا ئەوە کڕیارانن بارگرانی بەرزبوونەوەی نرخ هەڵدەگرن."),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBears5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBears5("en-US"),
+                                onPressed: () => speakBeats16("en-US"),
                               ),
                             ],
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٤. (کردار) هەڵگرتنی کێشی کەسێک"""),
+١٣. (ناو) ڕیتمی سەرەکی، یان یەک یەکەی ڕیتمێک، لە پارچەیەک میوزیک یان هۆنراوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The ice is too thin to bear your weight."),
+                                      "He tapped his foot to the beat (= rhythm) of the music."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "سەهۆڵەکە زۆر باریکە کە بتوانێت کە بتوانێت بەرگەت بگرێت."),
+                                  text: "پێی دادەکوتی لەگەڵ ڕیتمی میوزیکەکە."),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBears6("en-GB"),
+                                onPressed: () => speakBeats17("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBears6("en-US"),
+                                onPressed: () => speakBeats17("en-US"),
                               ),
                             ],
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٥. (کردار) پیشاندان یان لەخۆگرتنی شتێک"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The document bore her signature."),
-                              const ExampleSentenceKurdish(
-                                  text: "دۆکیومێنتەکە واژۆی ئەوی پێوەبوو."),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBears7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBears7("en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
+١٤. (ناو) ناوچەیەک کە ئەفسەرێکی پۆلیس بەردەوام بەسەریدا دەچێت و بەرپرسە بۆی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "He was badly wounded in the war and still bears the scars."),
+                                      "More police officers out on the beat may help to cut crime."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە جەنگەکەدا بەخراپی برینداربوو و هێشتا برینەکانی پێوەیە."),
+                                      "پۆلیسی زیاتر لە نۆبەداریدا بن ئەگەری هەیە تاوان کەمبکاتەوە."),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBears8("en-GB"),
+                                onPressed: () => speakBeats18("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBears8("en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She bears little resemblance to her mother."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆر کەم لە دایکی دەکات."),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBears9("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBears9("en-US"),
+                                onPressed: () => speakBeats18("en-US"),
                               ),
                             ],
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٦. (کردار) نەگونجاو بۆشتێک"""),
+١٥. (هاوەڵناو) زۆر ماندوو"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "Her later work does not bear comparison with her earlier novels (= because it is not nearly as good)."),
+                                  text: "I'm beat - I'm going to bed."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "بەرهەمی دواتری بەراورد ناکرێت بە ڕۆمانەکانی پێشووتری."),
+                                  text: "زۆر ماندووم، دەچم دەنووم."),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBears10("en-GB"),
+                                onPressed: () => speakBeats19("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBears10("en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The plan won't bear close inspection (= it will be found to be unacceptable when carefully examined)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پلانەکە ناتوانێت بە پشکنینی ورددا دەربچێت."),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBears11("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBears11("en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The joke doesn't bear repeating (= because it is not funny or may offend people)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نوکتەکە بە کەڵکی دووبارەکردنەوە نایەت."),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBears12("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBears12("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٧. (کردار) هەبوونی هەستێکی نەرێنی"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He bears no resentment towards them."),
-                              const ExampleSentenceKurdish(
-                                  text: "هیچ ڕقێکی بەرامبەریان نییە."),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBears13("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBears13("en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He's borne a grudge against me ever since that day."),
-                              const ExampleSentenceKurdish(
-                                  text: "لەو ڕۆژەوە بوغزێکی دژم هەیە."),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBears14("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBears14("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٨. (کردار) هەبوونی ناوێک"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The stone plaque bearing his name was smashed to pieces."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو پارچەیەی کە ناوی هەڵگرتبوو وردوخاش کرا."),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBears15("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBears15("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٩. (کردار) هەڵگرتنی کەسێک یان شتێک"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He returned bearing a basket of vegetables."),
-                              const ExampleSentenceKurdish(
-                                  text: "گەڕایەوە بە سەبەتەیەک سەوزەوە."),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBears16("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBears16("en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Her two sons helped bear the coffin."),
-                              const ExampleSentenceKurdish(
-                                  text: "دوو کوڕەکەی تابووتەکەیان هەڵگرتبوو."),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBears17("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBears17("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-١٠. (کردار) مامەڵە و ڕەفتارکردن بەشێوەیەکی دیاریکراو"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He bears himself (= stands, walks, etc.) proudly, like a soldier."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە شانازییەوە ڕەفتار دەکات، وەک سەربازێک."),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBears18("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBears18("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-١١. (کردار) منداڵبوون"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She had borne him six sons."),
-                              const ExampleSentenceKurdish(
-                                  text: "شەش کوڕی پێبەخشیوە."),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBears19("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBears19("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-١٢. (کردار) درووستکردنی گوڵ و میوە"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "These trees take a long time to bear fruit."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم دارانە کاتێکی زۆریان پێدەچێت تا بەر بگرن."),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBears20("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBears20("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-١٣. (کردار) ڕۆشتن یان لادان بە ئاراستەیەکدا"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "When you get to the fork in the road, bear right."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە دەگەیت بە دووڕیانەکە لە ڕێگاکەدا، بە ڕاستدا بچۆ."),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBears21("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBears21("en-US"),
+                                onPressed: () => speakBeats19("en-US"),
                               ),
                             ],
                           ),
@@ -783,12 +685,12 @@ class EnglishEntrybear extends StatelessWidget {
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
                     YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
-                    YoutubeEmbeddedthirteen(),
-                    YoutubeEmbeddedfourteen(),
-                    YoutubeEmbeddedfifteen(),
-                    YoutubeEmbeddedsixteen(),
-                    YoutubeEmbeddedseventeen(),
+                    // YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedthirteen(),
+                    // YoutubeEmbeddedfourteen(),
+                    // YoutubeEmbeddedfifteen(),
+                    // YoutubeEmbeddedsixteen(),
+                    // YoutubeEmbeddedseventeen(),
                     // YoutubeEmbeddedeighteen(),
                     // YoutubeEmbeddednineteen(),
                     // YoutubeEmbeddedtwenty(),
@@ -819,59 +721,106 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Verb: bear (Derived forms: bearing, borne, bore, bears)
-1. Have as a feature; convey
-"bear a resemblance"; "bear a signature"
+- Verb: beat (Derived forms: beaten, beat, beating, beats)
+1. Hit repeatedly
+"beat on the door"; "beat the table with his shoe"
  
-2. Cause to be born (= give birth, deliver, birth, have)
-"My wife bore twins yesterday!";
+2. Give a beating to; subject to a beating, either as a punishment or as an act of aggression (= beat up, work over)
+"Thugs beat him up when he walked down the street late at night"; "The teacher used to beat the students";
  
-3. Put up with something or somebody unpleasant (= digest, endure, stick out, stomach, stand, tolerate, support, brook, abide, suffer, put up)
-"I cannot bear his constant criticism";
+3. Come out better in a competition, race, or conflict (= beat out, crush, shell, trounce, vanquish)
+"Agassi beat Becker in the tennis championship"; "We beat the competition";
+ 
+4. Move rhythmically (= pound, thump)
+"Her heart was beating fast";
+ 
+5. Shape by beating
+"beat swords into ploughshares"
+ 
+6. Make a rhythmic sound (= drum, thrum)
+"Rain beat against the windscreen";
+ 
+7. Glare or strike with great intensity
+"The sun was beating down on us"
+ 
+8. (of wings) move up and down with a thrashing motion (= flap)
+"The eagle beat its wings and soared high into the sky";
+ 
+9. Sail with much tacking or with difficulty
+"The boat beat in the strong wind"
+ 
+10. (cooking) stir vigorously (= scramble)
+"beat the cream";
+ 
+11. Strike (a part of one's own body) repeatedly, as in great emotion or in accompaniment to music
+"beat one's breast"; "beat one's foot rhythmically"
+ 
+12. Be superior
+"Reading beats watching television"; "This sure beats work!"
+ 
+13. Avoid paying (= bunk [informal])
+"beat the subway fare";
+ 
+14. Make a sound like a clock or a timer (= tick, ticktock, ticktack [N. Amer])
+"the grandfather clock beat midnight";
+ 
+15. Move with a flapping motion (= flap)
+"The bird's wings were beating";
+ 
+16. Indicate by beating, as with the fingers or drumsticks
+"Beat the rhythm"
+ 
+17. Move with or as if with a regular alternating motion (= pulsate, quiver)
+"the city beat with music and excitement";
+ 
+18. Make by pounding or trampling
+"beat a path through the forest"
+ 
+19. (music) produce a rhythm by striking repeatedly
+"beat the drum"
+ 
+20. Strike (water or bushes) repeatedly to rouse animals for hunting
+ 
+21. Beat through cleverness and wit (= outwit, overreach, outsmart, outfox, circumvent, outthink)
+"I beat the traffic";
 
-4. Move while holding up or supporting
-"Bear gifts"; "bear a heavy load"; "bear news"; "bearing orders"
- 
-5. Bring forth (= turn out)
-"The apple tree bore delicious apples this year"; "The unidentified plant bore gorgeous flowers";
- 
-6. Maintain (a theory, thoughts, or feelings) (= harbor [N. Amer], harbour [Brit, Cdn], hold, entertain, nurse)
-"bear a grudge";
- 
-7. Take on as one's own the expenses or debts of another person (= take over, accept, assume)
-"She agreed to bear the responsibility";
+22. Confuse or leave at a loss because of something complex or difficult to understand (= confuse, throw, fox, befuddle, fuddle, bedevil, confound, discombobulate [informal], perplex, vex, stick, get, puzzle, mystify, baffle, pose, bewilder, flummox, stupefy, nonplus, gravel, dumbfound)
+"This beats me!";
 
-8. Have within (= hold, carry, contain)
-"The canteen bears fresh water";
- 
-9. (investment) bring in (= yield, pay)
-"interest-bearing accounts";
- 
-10. Have on one's person (= wear)
-"bear a scar";
- 
-11. Behave in a certain manner (= behave, acquit, deport, conduct, comport, carry)
-"he bore himself with dignity";
- 
-12. Have rightfully; of rights, titles, and offices (= hold)
-"She bears the title of Duchess";
- 
-13. Support or hold in a certain manner (= hold, carry)
-"She bears her head high";
+23. [informal] Wear out completely (= exhaust, wash up, tucker [N. Amer, informal], tucker out [N. Amer, informal])
+"I'm beat";
 
-14. Be pregnant with (= have a bun in the oven, carry, gestate, expect)
-"She is bearing his child";
+- Noun: beat (Derived forms: beats)
+1. A regular route for a sentry or policeman (= round)
+"in the old days a policeman walked a beat and knew all his people by name";
  
-15. Move, proceed or be located in a specified direction
-"bear left at the next junction"
+2. The rhythmic contraction and expansion of the arteries with each beat of the heart (= pulse, pulsation, heartbeat)
+"he could feel the beat of her heart";
 
-- Noun: bear (Derived forms: bearing, borne, bore, bears)
-1. Large mammal with long shaggy coat and strong claws
-"The black bear is the most common bear species in North America, but they are less likely to attack humans than grizzly bears"
+3. The basic regular repeating sound unit in a piece of music (= rhythm, musical rhythm)
+"the conductor set the beat";
  
-2. An investor with a pessimistic market outlook; an investor who expects prices to fall and so sells now in order to buy later at a lower price
+4. A single pulsation of an oscillation produced by adding two waves of different frequencies; has a frequency equal to the difference between the two oscillations
  
-3. A large hairy or rough man
+5. A member of the beat generation; a nonconformist in dress and behaviour (= beatnik)
+ 
+6. The sound of stroke or blow
+"he heard the beat of a drum"
+ 
+7. (prosody) the accent in a metrical foot of verse (= meter [US], metre [Brit, Cdn], measure, cadence)
+ 
+8. A regular rate of repetition
+"the cox raised the beat"
+ 
+9. A stroke or blow
+"the signal was two beats on the steam pipe"
+ 
+10. The act of beating to windward; sailing as close as possible to the direction from which the wind is blowing
+
+- Adjective: beat
+Usage: informal
+1. Very tired (= all in, bushed, dead [informal])
+"so beat I could flop down and go to sleep anywhere";
 """,
           )
         ],
@@ -885,12 +834,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "dGkbkEol9fs";
+  static String myVideoId = "D-2799Y07Zc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 811, // DOPSUM: CHANGE IT
+      startAt: 593, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -910,12 +859,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "yij2FpHYdwE";
+  static String myVideoId = "hDHTxtp_IBo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 710, // DOPSUM: CHANGE IT
+      startAt: 152, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -935,12 +884,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "0lq1JIWQSlc";
+  static String myVideoId = "Cp-6nuo9_4o";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 164, // DOPSUM: CHANGE IT
+      startAt: 694, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -960,12 +909,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "yYjSYafjAjU";
+  static String myVideoId = "h31p4OLbqSc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 107, // DOPSUM: CHANGE IT
+      startAt: 1541, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -985,12 +934,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "MJDmjFPFFJc";
+  static String myVideoId = "MSfjCG4V2GM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 3308, // DOPSUM: CHANGE IT
+      startAt: 234, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1010,12 +959,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "yCdR82Odndw";
+  static String myVideoId = "_5yaoc_mGD0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 343, // DOPSUM: CHANGE IT
+      startAt: 320, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1035,12 +984,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "J3euEMWC8tg";
+  static String myVideoId = "3g7TOTQSKkE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 217, // DOPSUM: CHANGE IT
+      startAt: 396, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1060,12 +1009,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "zj4zvXpQW1Y";
+  static String myVideoId = "JhpSyGcuwJw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 217, // DOPSUM: CHANGE IT
+      startAt: 63, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1085,12 +1034,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "Vv_wzaXDbUc";
+  static String myVideoId = "-I6YmMAThZ8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 786, // DOPSUM: CHANGE IT
+      startAt: 728, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1110,12 +1059,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "G3v31UpO17g";
+  static String myVideoId = "hFZFjoX2cGg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2602, // DOPSUM: CHANGE IT
+      startAt: 301, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1135,12 +1084,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "ISmyk5d1gkg";
+  static String myVideoId = "rEdl2Uetpvo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 957, // DOPSUM: CHANGE IT
+      startAt: 270, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1160,12 +1109,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "WUjVPIEtJd0";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 139, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1185,12 +1134,12 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 class YoutubeEmbeddedthirteen extends StatelessWidget {
   YoutubeEmbeddedthirteen({super.key});
 
-  static String myVideoId = "PZYcoWhEZxM";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 702, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1210,12 +1159,12 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
 class YoutubeEmbeddedfourteen extends StatelessWidget {
   YoutubeEmbeddedfourteen({super.key});
 
-  static String myVideoId = "oj6C9MJ89ho";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1719, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1235,12 +1184,12 @@ class YoutubeEmbeddedfourteen extends StatelessWidget {
 class YoutubeEmbeddedfifteen extends StatelessWidget {
   YoutubeEmbeddedfifteen({super.key});
 
-  static String myVideoId = "JpbWqiUy0YM";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 285, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1260,12 +1209,12 @@ class YoutubeEmbeddedfifteen extends StatelessWidget {
 class YoutubeEmbeddedsixteen extends StatelessWidget {
   YoutubeEmbeddedsixteen({super.key});
 
-  static String myVideoId = "idDSfBVuKRc";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 620, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1285,12 +1234,12 @@ class YoutubeEmbeddedsixteen extends StatelessWidget {
 class YoutubeEmbeddedseventeen extends StatelessWidget {
   YoutubeEmbeddedseventeen({super.key});
 
-  static String myVideoId = "KNStujHAjQA";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 728, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1384,4 +1333,4 @@ class YoutubeEmbeddedtwenty extends StatelessWidget {
 
 // morethan one video, only first autoplay
 
-// end bear// TODO Implement this library.
+// end beat// TODO Implement this library.

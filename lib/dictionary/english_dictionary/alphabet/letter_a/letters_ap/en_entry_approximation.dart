@@ -263,7 +263,7 @@ class EnglishEntryapproximation extends StatelessWidget {
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                         ],
                       ),

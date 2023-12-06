@@ -360,7 +360,7 @@ class EnglishEntryappropriate extends StatelessWidget {
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                         ],
                       ),

@@ -251,7 +251,7 @@ class EnglishEntrybead extends StatelessWidget {
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                         ],
                       ),

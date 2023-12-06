@@ -246,7 +246,7 @@ class EnglishEntrybargain extends StatelessWidget {
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                         ],
                       ),

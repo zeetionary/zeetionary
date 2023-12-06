@@ -563,7 +563,7 @@ class EnglishEntrybe extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٤. (کردار) بەکاردێت بۆ دیاریکردنی شوێنی لەدایکبوون یان شوێنی ژیانی کەسێک"""),
+٥. (کردار) بەکاردێت بۆ دیاریکردنی شوێنی لەدایکبوون یان شوێنی ژیانی کەسێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -581,7 +581,7 @@ class EnglishEntrybe extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٥. (کردار) بەکاردێت بۆ دیاریکردنی کاتی ڕوودانی شتێک"""),
+٦. (کردار) بەکاردێت بۆ دیاریکردنی کاتی ڕوودانی شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -599,7 +599,7 @@ class EnglishEntrybe extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٦. (کردار) مانەوە لە شوێنێک"""),
+٧. (کردار) مانەوە لە شوێنێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -618,7 +618,7 @@ class EnglishEntrybe extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٧. (کردار) بەژداربوون لە ئاهەنگێک یان ئامادەبوون لە شوێنێک"""),
+٨. (کردار) بەژداربوون لە ئاهەنگێک یان ئامادەبوون لە شوێنێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -636,7 +636,7 @@ class EnglishEntrybe extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٨. (کردار) بۆ وتنی کات"""),
+٩. (کردار) بۆ وتنی کات"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -654,7 +654,7 @@ class EnglishEntrybe extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٩. (کردار) بۆ وتنی تێچووی شتێک"""),
+١٠. (کردار) بۆ وتنی تێچووی شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -673,7 +673,7 @@ class EnglishEntrybe extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١٠. (کردار) بۆ وتنی ئەوەی دوو شت یەکسانن"""),
+١١. (کردار) بۆ وتنی ئەوەی دوو شت یەکسانن"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -708,7 +708,7 @@ class EnglishEntrybe extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١١. (کردار) سەردانکردن یان پەیوەندیکردن بە شوێنێکەوە"""),
+١٢. (کردار) سەردانکردن یان پەیوەندیکردن بە شوێنێکەوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -724,9 +724,9 @@ class EnglishEntrybe extends StatelessWidget {
                             ],
                           ),
                           // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١٢. (کردار) بۆ وتنی ئەوەی شتێک لە چی درووستکراوە"""),
+١٣. (کردار) بۆ وتنی ئەوەی شتێک لە چی درووستکراوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -742,9 +742,9 @@ class EnglishEntrybe extends StatelessWidget {
                             ],
                           ),
                           // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١٣. (کردار) بۆ وتنی ئەوەی شتێک هی کێیە"""),
+١٤. (کردار) بۆ وتنی ئەوەی شتێک هی کێیە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -762,7 +762,7 @@ class EnglishEntrybe extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١٤. (کردار) بۆ وتنی ئەوەی شتێک چەندە گرنگە بۆ کەسێک"""),
+١٥. (کردار) بۆ وتنی ئەوەی شتێک چەندە گرنگە بۆ کەسێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -799,7 +799,7 @@ class EnglishEntrybe extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١٥. (کاری یاریدەدەر) لەگەڵ کاری ڕانەبردووی تەواو (کردار + ing) بەکاردێت بۆ دیاریکردنی دەمی بەردەوامی"""),
+١٦. (کاری یاریدەدەر) لەگەڵ کاری ڕانەبردووی تەواو (کردار + ing) بەکاردێت بۆ دیاریکردنی دەمی بەردەوامی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -833,7 +833,7 @@ class EnglishEntrybe extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١٥. (کاری یاریدەدەر) بەکاردێت بۆ درووستکردنی کلکە پرسیار"""),
+١٧. (کاری یاریدەدەر) بەکاردێت بۆ درووستکردنی کلکە پرسیار"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -867,7 +867,7 @@ class EnglishEntrybe extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١٦. (کاری یاریدەدەر) لەگەڵ کاری ڕابردووی تەواو بەکاردێت بۆ درووستکردنی ڕستەی نادیار"""),
+١٨. (کاری یاریدەدەر) لەگەڵ کاری ڕابردووی تەواو بەکاردێت بۆ درووستکردنی ڕستەی نادیار"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -901,7 +901,7 @@ class EnglishEntrybe extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١٧. (کاری یاریدەدەر) بۆ دووربوون لە دووبارە بەکارهێنانەوەی تەواوی کردارێک لە دەمی نادیار یان بەردەوامی"""),
+١٩. (کاری یاریدەدەر) بۆ دووربوون لە دووبارە بەکارهێنانەوەی تەواوی کردارێک لە دەمی نادیار یان بەردەوامی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -921,7 +921,7 @@ class EnglishEntrybe extends StatelessWidget {
                           // // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١٨. (کاری یاریدەدەر) بۆ پیشاندانی ئەوەی چی دەبێت یان پێویستە بکرێت"""),
+٢٠. (کاری یاریدەدەر) بۆ پیشاندانی ئەوەی چی دەبێت یان پێویستە بکرێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -958,7 +958,7 @@ class EnglishEntrybe extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١٩. (کاری یاریدەدەر) بۆ ئەوەی چی ڕێکخراوە بۆ ڕوودان"""),
+٢١. (کاری یاریدەدەر) بۆ ئەوەی چی ڕێکخراوە بۆ ڕوودان"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -977,7 +977,7 @@ class EnglishEntrybe extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢٠. (کاری یاریدەدەر) بۆ وتنی ئەوەی چی دواتر ڕوویدا"""),
+٢٢. (کاری یاریدەدەر) بۆ وتنی ئەوەی چی دواتر ڕوویدا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -997,7 +997,7 @@ class EnglishEntrybe extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢١. (کاری یاریدەدەر) بۆ وتنی ئەوەی شتێک ڕووینەدا"""),
+٢٣. (کاری یاریدەدەر) بۆ وتنی ئەوەی شتێک ڕووینەدا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -1033,7 +1033,7 @@ class EnglishEntrybe extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢٢. (کاری یاریدەدەر) بۆ دەربڕینی مەرج"""),
+٢٤. (کاری یاریدەدەر) بۆ دەربڕینی مەرج"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -1068,7 +1068,7 @@ class EnglishEntrybe extends StatelessWidget {
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                         ],
                       ),

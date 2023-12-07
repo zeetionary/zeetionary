@@ -174,16 +174,16 @@ class EnglishEntrybawl extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: گریان، زاق وزیق، هاوار کردن، هاوار
+کوردی: گریان، زاق وزیق، ھاوار کردن، ھاوار
 
-١. (کردار) هاوارکردن بە دەنگی بەرز و ناخۆش"""),
+١. (کردار) ھاوارکردن بە دەنگی بەرز و ناخۆش"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
                                       "She bawled at him in front of everyone."),
                               const ExampleSentenceKurdish(
-                                  text: "لەپێش هەمووان هاواری کرد بەسەریدا."),
+                                  text: "لەپێش ھەمووان ھاواری کرد بەسەریدا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBawls1("en-GB"),
                               ),
@@ -201,7 +201,7 @@ class EnglishEntrybawl extends StatelessWidget {
                                       "Some noisy students were bawling for more food."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەندێک خوێندکاری هاروهاج زاق‌وزیقیان بوو ڤۆ خواردن."),
+                                      "ھەندێک خوێندکاری ھاروھاج زاق‌وزیقیان بوو ڤۆ خواردن."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBawls2("en-GB"),
                               ),
@@ -281,7 +281,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Verb: bawl (Derived forms: bawls, bawling, bawled)
+- Verb: bawl (derived forms: bawls, bawling, bawled)
 1. Shout loudly and without restraint (= bellow)
  
 2. Make a raucous noise (= yawp)

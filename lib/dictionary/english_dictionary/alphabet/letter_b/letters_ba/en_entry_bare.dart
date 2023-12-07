@@ -282,8 +282,8 @@ class EnglishEntrybare extends StatelessWidget {
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

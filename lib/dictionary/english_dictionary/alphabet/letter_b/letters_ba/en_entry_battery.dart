@@ -178,9 +178,9 @@ class EnglishEntrybattery extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: باتری، خانکۆ، هێزە، پیل، قەوە، تۆپ‌خانە، (ماف) لێدان، کوتەک‌کاری، تاوانی هێرش‌کردنی جەستەیی، تێسرەواندن، تێبەربوون، دەستە، زنجیرە، کۆمەڵە، گروپ، قەفەسەی ڕاگرتنی مریشک، دەنگی تەپڵ یان دەهۆڵ
+کوردی: باتری، خانکۆ، ھێزە، پیل، قەوە، تۆپ‌خانە، (ماف) لێدان، کوتەک‌کاری، تاوانی ھێرش‌کردنی جەستەیی، تێسرەواندن، تێبەربوون، دەستە، زنجیرە، کۆمەڵە، گروپ، قەفەسەی ڕاگرتنی مریشک، دەنگی تەپڵ یان دەھۆڵ
 
-١. (ناو) ئامێرێک کە لەناو ئۆتۆمبێلێک، کاتژمێرێک، ڕادیۆیەک، هتد دادەنرێت کە یارمەتی دەدات کاربکات بە پێدانی وزە"""),
+١. (ناو) ئامێرێک کە لەناو ئۆتۆمبێلێک، کاتژمێرێک، ڕادیۆیەک، ھتد دادەنرێت کە یارمەتی دەدات کاربکات بە پێدانی وزە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -199,7 +199,7 @@ class EnglishEntrybattery extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ناو) هێزی کارەبایی باترییەک"""),
+٢. (ناو) ھێزی کارەبایی باترییەک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -264,7 +264,7 @@ class EnglishEntrybattery extends StatelessWidget {
                                       "The supermarket has pledged to stop selling eggs from battery hens by 2025."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سەپەرمارکێتەکە بەڵێنی داوە کە بوەستێت لە فرۆشتنی هێلکەی مریشکی مەسلاحە پێش ساڵی ٢٠٢٥."),
+                                      "سەپەرمارکێتەکە بەڵێنی داوە کە بوەستێت لە فرۆشتنی ھێلکەی مریشکی مەسلاحە پێش ساڵی ٢٠٢٥."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBatterys5("en-GB"),
                               ),
@@ -282,7 +282,7 @@ class EnglishEntrybattery extends StatelessWidget {
                                       "Battery eggs are the cheapest type of eggs, but they are also the most cruel."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هێلکەی مەسلاحە هەرزانترین جۆری هێلکەن، بەڵام بە دڕندەترین شێوە بەرهەم دەهێنرێن."),
+                                      "ھێلکەی مەسلاحە ھەرزانترین جۆری ھێلکەن، بەڵام بە دڕندەترین شێوە بەرھەم دەھێنرێن."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBatterys6("en-GB"),
                               ),
@@ -294,7 +294,7 @@ class EnglishEntrybattery extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٦. (ناو) تاوانی هێرشی جەستەیی بۆسەر کەسێک"""),
+٦. (ناو) تاوانی ھێرشی جەستەیی بۆسەر کەسێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -363,7 +363,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: battery (Derived forms: batteries)
+- Noun: battery (derived forms: batteries)
 1. A device that produces electricity; may have several primary or secondary cells arranged in parallel or series (= electric battery)
  
 2. (military) group of guns or missile launchers operated together at one place

@@ -282,7 +282,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: beaker (Derived forms: beakers)
+- Noun: beaker (derived forms: beakers)
 1. A flatbottomed jar made of glass or plastic; used for chemistry
  
 2. A cup (usually without a handle)

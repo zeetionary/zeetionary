@@ -168,9 +168,9 @@ class EnglishEntrybatten extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: تەسکەتەختە، تەختەباریک، تەختە (بۆ ڕاخستن لەژێر عەرزی ژوور و هتد)، بەستی دارین یان لەدار
+کوردی: تەسکەتەختە، تەختەباریک، تەختە (بۆ ڕاخستن لەژێر عەرزی ژوور و ھتد)، بەستی دارین یان لەدار
 
-١. (ناو) پارچە تەختەیەک کە بۆ هەڵواسینی شتی تر بەکاردێت"""),
+١. (ناو) پارچە تەختەیەک کە بۆ ھەڵواسینی شتی تر بەکاردێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -178,7 +178,7 @@ class EnglishEntrybatten extends StatelessWidget {
                                       "The battens were used to reinforce the frame of the door."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "تەختەکان بەکارهێندران بۆ بەهێزکردنی چوارچێوەی دەرگاکە."),
+                                      "تەختەکان بەکارھێندران بۆ بەھێزکردنی چوارچێوەی دەرگاکە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBattens1("en-GB"),
                               ),
@@ -239,12 +239,12 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: batten (Derived forms: battened, battening, battens)
+- Noun: batten (derived forms: battened, battening, battens)
 1. A strip fixed to something to hold it firm
  
 2. Stuffing made of rolls or sheets of cotton wool or synthetic fibre (= batting)
 
-- Verb: batten (Derived forms: battened, battening, battens)
+- Verb: batten (derived forms: battened, battening, battens)
 1. Furnish with battens (= batten down, secure)
 "batten ships";
  

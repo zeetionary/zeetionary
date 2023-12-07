@@ -182,7 +182,7 @@ class EnglishEntrybearable extends StatelessWidget {
                                       "She was the only thing that made life bearable for me."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "تەنها شت بوو کە وایکردبوو بەرگەی ژیان بگرم."),
+                                      "تەنھا شت بوو کە وایکردبوو بەرگەی ژیان بگرم."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBearables1("en-GB"),
                               ),

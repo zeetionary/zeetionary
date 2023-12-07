@@ -177,7 +177,7 @@ class EnglishEntrybeaver extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: سەگاو، مەیکێ ئاڤێ، پێستە یان کەوڵی سەگاو، فەروەی سەگاو، کڵاوێ لە پێستەی سەگاو
 
-١. (ناو) ئاژەڵیک کە کلکێکی بڵاو و پانی هەیە لەگەڵ ددانی بەهێز. ئاژەڵەکە لە ئاو و وشکانی دەژی و دەتوانێت بەربەست لە ئاودا درووست بکات کە لە دار و قوڕ درووست کرابێت. ئاژەڵەکە سمبولی فەرمی کەنەدایە"""),
+١. (ناو) ئاژەڵیک کە کلکێکی بڵاو و پانی ھەیە لەگەڵ ددانی بەھێز. ئاژەڵەکە لە ئاو و وشکانی دەژی و دەتوانێت بەربەست لە ئاودا درووست بکات کە لە دار و قوڕ درووست کرابێت. ئاژەڵەکە سمبولی فەرمی کەنەدایە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -205,7 +205,7 @@ class EnglishEntrybeaver extends StatelessWidget {
                                       "In the past, beaver fur was used to make hats, coats, and other garments."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "جاران فەرووی سەگاوی بەکاردەهات بۆ درووستکردنی کڵاو و پاڵتاو و جلوبەرگی تر."),
+                                      "جاران فەرووی سەگاوی بەکاردەھات بۆ درووستکردنی کڵاو و پاڵتاو و جلوبەرگی تر."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeavers2("en-GB"),
                               ),
@@ -285,7 +285,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: beaver (Derived forms: beavers, beavering, beavered)
+- Noun: beaver (derived forms: beavers, beavering, beavered)
 1. Large semiaquatic rodent with webbed hind feet and a broad flat tail; construct complex dams and underwater lodges
  
 2. The soft brown fur of the beaver (= beaver fur)
@@ -300,11 +300,11 @@ class EnglishMeaning extends StatelessWidget {
  
 7. [vulgar] Vulgar term for a woman's pubic hair or genitals
 
-- Verb: beaver (Derived forms: beavers, beavering, beavered)
+- Verb: beaver (derived forms: beavers, beavering, beavered)
 Usage: informal
 1. Work hard on something (= beaver away [informal], slave away, grind away)
 
-- Noun: Beaver (Derived forms: Beavers)
+- Noun: Beaver (derived forms: Beavers)
 1. A native or resident of Oregon (= Oregonian)
 """,
           )
@@ -319,7 +319,7 @@ Usage: informal
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/cIZgFqkuGFI?t=";
+  static String myVideoId = "cIZgFqkuGFI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -344,7 +344,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/lPLvkrtqkJ8?t=";
+  static String myVideoId = "lPLvkrtqkJ8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -369,7 +369,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/ONb2FVNe-7o?t=";
+  static String myVideoId = "ONb2FVNe-7o";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -394,7 +394,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/QLq6GEiHqR8?t=";
+  static String myVideoId = "QLq6GEiHqR8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -419,7 +419,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/Q8vNtLhdvqM?t=";
+  static String myVideoId = "Q8vNtLhdvqM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -444,7 +444,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/4U-u4CsnygA?t=";
+  static String myVideoId = "4U-u4CsnygA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -469,7 +469,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/HI1V5WJDey0?t=";
+  static String myVideoId = "HI1V5WJDey0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -494,7 +494,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/-ycN6RloF1w?t=";
+  static String myVideoId = "-ycN6RloF1w";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -519,7 +519,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/GHjpvpZyuow?t=";
+  static String myVideoId = "GHjpvpZyuow";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -544,7 +544,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/3P_KII-M2Kg?t=";
+  static String myVideoId = "3P_KII-M2Kg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -569,7 +569,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/aL8zc9LMbg4?t=";
+  static String myVideoId = "aL8zc9LMbg4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -594,7 +594,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/ePvAlpAyZI8?t=";
+  static String myVideoId = "ePvAlpAyZI8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

@@ -185,8 +185,8 @@ class EnglishEntrybaroness extends StatelessWidget {
                               ),
                             ],
                           ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) ژنی پیاوێک کە لە نزمترین ئاستی گەورەزادەکانە"""),
                           Row(

@@ -761,7 +761,7 @@ class EnglishEntryaround extends StatelessWidget {
                             ],
                           ),
                           // const DividerSentences(),
-                          const DividerDefinition(),
+                          // const DividerDefinition(),
                         ],
                       ),
                     ),

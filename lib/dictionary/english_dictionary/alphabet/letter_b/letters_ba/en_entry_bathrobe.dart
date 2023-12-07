@@ -178,7 +178,7 @@ class EnglishEntrybathrobe extends StatelessWidget {
                                       "I stepped out of the shower and wrapped myself in a fluffy white bathrobe."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە گەرماوەکە هاتمە دەرەوە و خۆم ئاڵاند لە خاولییەکی نەرم."),
+                                      "لە گەرماوەکە ھاتمە دەرەوە و خۆم ئاڵاند لە خاولییەکی نەرم."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBathrobes1("en-GB"),
                               ),
@@ -253,7 +253,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: bathrobe (Derived forms: bathrobes)
+- Noun: bathrobe (derived forms: bathrobes)
 1. A loose-fitting robe of towelling; worn after a bath or swim
 """,
           )

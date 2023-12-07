@@ -215,7 +215,7 @@ class EnglishEntrybeak extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (ناو) لەسێکی کە دەسەڵاتی هەیە، بەتایبەتی دادوەر"""),
+٣. (ناو) لەسێکی کە دەسەڵاتی ھەیە، بەتایبەتی دادوەر"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -284,7 +284,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: beak (Derived forms: beaks)
+- Noun: beak (derived forms: beaks)
 1. Horny projecting mouth of a bird (= bill, neb, nib, pecker)
  
 2. Beaklike mouth of animals other than birds (e.g., turtles)
@@ -297,7 +297,7 @@ class EnglishMeaning extends StatelessWidget {
  
 6. (nautical) the metal point fixed on the bows of a war galley, used as a ram
 
-- Verb: beak (Derived forms: beaks, beaking, beaked)
+- Verb: beak (derived forms: beaks, beaking, beaked)
 1. Hit lightly with a picking motion (= peck, pick)
 """,
           )

@@ -423,7 +423,7 @@ class EnglishEntrybear extends StatelessWidget {
                                       "She bore it all with her usual patience."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەرگەی هەمووی گرت بە پشوودرێژی هەمیشەییەوە."),
+                                      "بەرگەی ھەمووی گرت بە پشوودرێژی ھەمیشەییەوە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears3("en-GB"),
                               ),
@@ -435,7 +435,7 @@ class EnglishEntrybear extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (کردار) هەڵگرتنی بەرپرسیاریەتی"""),
+٣. (کردار) ھەڵگرتنی بەرپرسیاریەتی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -443,7 +443,7 @@ class EnglishEntrybear extends StatelessWidget {
                                       "She bore the responsibility for most of the changes."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەرپرسیاریەتی بۆ زۆرینەی گۆڕانکارییەکان هەڵگرت."),
+                                      "بەرپرسیاریەتی بۆ زۆرینەی گۆڕانکارییەکان ھەڵگرت."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears4("en-GB"),
                               ),
@@ -461,7 +461,7 @@ class EnglishEntrybear extends StatelessWidget {
                                       "In the end it's consumers who bear the burden of higher prices."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لەکۆتاییدا ئەوە کڕیارانن بارگرانی بەرزبوونەوەی نرخ هەڵدەگرن."),
+                                      "لەکۆتاییدا ئەوە کڕیارانن بارگرانی بەرزبوونەوەی نرخ ھەڵدەگرن."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears5("en-GB"),
                               ),
@@ -473,7 +473,7 @@ class EnglishEntrybear extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٤. (کردار) هەڵگرتنی کێشی کەسێک"""),
+٤. (کردار) ھەڵگرتنی کێشی کەسێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -481,7 +481,7 @@ class EnglishEntrybear extends StatelessWidget {
                                       "The ice is too thin to bear your weight."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سەهۆڵەکە زۆر باریکە کە بتوانێت کە بتوانێت بەرگەت بگرێت."),
+                                      "سەھۆڵەکە زۆر باریکە کە بتوانێت کە بتوانێت بەرگەت بگرێت."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears6("en-GB"),
                               ),
@@ -517,7 +517,7 @@ class EnglishEntrybear extends StatelessWidget {
                                       "He was badly wounded in the war and still bears the scars."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە جەنگەکەدا بەخراپی برینداربوو و هێشتا برینەکانی پێوەیە."),
+                                      "لە جەنگەکەدا بەخراپی برینداربوو و ھێشتا برینەکانی پێوەیە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears8("en-GB"),
                               ),
@@ -554,7 +554,7 @@ class EnglishEntrybear extends StatelessWidget {
                                       "Her later work does not bear comparison with her earlier novels (= because it is not nearly as good)."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەرهەمی دواتری بەراورد ناکرێت بە ڕۆمانەکانی پێشووتری."),
+                                      "بەرھەمی دواتری بەراورد ناکرێت بە ڕۆمانەکانی پێشووتری."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears10("en-GB"),
                               ),
@@ -602,13 +602,13 @@ class EnglishEntrybear extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٧. (کردار) هەبوونی هەستێکی نەرێنی"""),
+٧. (کردار) ھەبوونی ھەستێکی نەرێنی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He bears no resentment towards them."),
                               const ExampleSentenceKurdish(
-                                  text: "هیچ ڕقێکی بەرامبەریان نییە."),
+                                  text: "ھیچ ڕقێکی بەرامبەریان نییە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears13("en-GB"),
                               ),
@@ -625,7 +625,7 @@ class EnglishEntrybear extends StatelessWidget {
                                   text:
                                       "He's borne a grudge against me ever since that day."),
                               const ExampleSentenceKurdish(
-                                  text: "لەو ڕۆژەوە بوغزێکی دژم هەیە."),
+                                  text: "لەو ڕۆژەوە بوغزێکی دژم ھەیە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears14("en-GB"),
                               ),
@@ -637,7 +637,7 @@ class EnglishEntrybear extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٨. (کردار) هەبوونی ناوێک"""),
+٨. (کردار) ھەبوونی ناوێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -645,7 +645,7 @@ class EnglishEntrybear extends StatelessWidget {
                                       "The stone plaque bearing his name was smashed to pieces."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەو پارچەیەی کە ناوی هەڵگرتبوو وردوخاش کرا."),
+                                      "ئەو پارچەیەی کە ناوی ھەڵگرتبوو وردوخاش کرا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears15("en-GB"),
                               ),
@@ -657,7 +657,7 @@ class EnglishEntrybear extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٩. (کردار) هەڵگرتنی کەسێک یان شتێک"""),
+٩. (کردار) ھەڵگرتنی کەسێک یان شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -680,7 +680,7 @@ class EnglishEntrybear extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "Her two sons helped bear the coffin."),
                               const ExampleSentenceKurdish(
-                                  text: "دوو کوڕەکەی تابووتەکەیان هەڵگرتبوو."),
+                                  text: "دوو کوڕەکەی تابووتەکەیان ھەڵگرتبوو."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears17("en-GB"),
                               ),
@@ -819,7 +819,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Verb: bear (Derived forms: bearing, borne, bore, bears)
+- Verb: bear (derived forms: bearing, borne, bore, bears)
 1. Have as a feature; convey
 "bear a resemblance"; "bear a signature"
  
@@ -865,7 +865,7 @@ class EnglishMeaning extends StatelessWidget {
 15. Move, proceed or be located in a specified direction
 "bear left at the next junction"
 
-- Noun: bear (Derived forms: bearing, borne, bore, bears)
+- Noun: bear (derived forms: bearing, borne, bore, bears)
 1. Large mammal with long shaggy coat and strong claws
 "The black bear is the most common bear species in North America, but they are less likely to attack humans than grizzly bears"
  

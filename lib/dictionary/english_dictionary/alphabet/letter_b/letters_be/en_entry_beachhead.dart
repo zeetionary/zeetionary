@@ -173,7 +173,7 @@ class EnglishEntrybeachhead extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-١. (ناو) ناوچەیەکی کەناراوێک کە سوپایەک کۆنترۆڵی کردووە و هێرشی لێوە دەستپێ‌دەکات"""),
+١. (ناو) ناوچەیەکی کەناراوێک کە سوپایەک کۆنترۆڵی کردووە و ھێرشی لێوە دەستپێ‌دەکات"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -242,7 +242,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-Noun: beachhead (Derived forms: beachheads)
+Noun: beachhead (derived forms: beachheads)
 1. A bridgehead on the enemy's shoreline seized by an amphibious operation
 "the Germans were desperately trying to contain the Anzio beachhead"
  

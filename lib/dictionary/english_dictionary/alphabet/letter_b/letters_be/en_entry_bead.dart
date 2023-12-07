@@ -176,7 +176,7 @@ class EnglishEntrybead extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: موروو، کوژەکە، زەنگانە، زەنگیانە، نمنمۆک، منمنە، دەنکە یان دەنکی تەزبێح، دڵۆپ، تنۆک، سێرە، سیپەک، جاسووسە، نگ، سهرک (تفەنگ)، ڕیزەمووروو یان زنجیرەموورووی دیوار
+کوردی: موروو، کوژەکە، زەنگانە، زەنگیانە، نمنمۆک، منمنە، دەنکە یان دەنکی تەزبێح، دڵۆپ، تنۆک، سێرە، سیپەک، جاسووسە، نگ، سھرک (تفەنگ)، ڕیزەمووروو یان زنجیرەموورووی دیوار
 
 ١. (ناو) پارچەیەکی بچووک لە شووشە یان دار کە کونێکی تێدایە و دەکرێت بکرێت بە زنجیرەیەک و وەک خشڵ ببەسترێت"""),
                           Row(
@@ -303,7 +303,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: bead (Derived forms: beaded, beads, beading)
+- Noun: bead (derived forms: beaded, beads, beading)
 1. A small ball with a hole through the middle
  
 2. A shape that is spherical and small (= drop, pearl)
@@ -311,7 +311,7 @@ class EnglishMeaning extends StatelessWidget {
  
 3. A beaded moulding for edging or decorating furniture (= beading, beadwork, astragal)
 
-- Verb: bead (Derived forms: beaded, beads, beading)
+- Verb: bead (derived forms: beaded, beads, beading)
 1. Form into beads, as of water or sweat, for example
  
 2. Decorate by sewing beads onto

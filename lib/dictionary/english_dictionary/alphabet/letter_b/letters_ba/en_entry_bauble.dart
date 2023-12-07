@@ -182,7 +182,7 @@ class EnglishEntrybauble extends StatelessWidget {
                                       "It was a £50 000 antique diamond ring—not a mere ‘bauble’ as the judge said."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەڵقەیەکی ئەڵماسی ئەنتیکی ٥٠٠٠٠ پاوەندی بوو، نەک تەنها خشڵێکی کەم نرخ وەک ئەوەی دادوەرەکە."),
+                                      "ئەڵقەیەکی ئەڵماسی ئەنتیکی ٥٠٠٠٠ پاوەندی بوو، نەک تەنھا خشڵێکی کەم نرخ وەک ئەوەی دادوەرەکە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBaubles1("en-GB"),
                               ),
@@ -263,7 +263,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: bauble (Derived forms: baubles)
+- Noun: bauble (derived forms: baubles)
 1. A mock scepter carried by a court jester
  
 2. Cheap showy jewellery or ornament on clothing (= bangle, gaud [archaic], gewgaw, novelty, fallal [archaic], trinket, geegaw, kickshaw [N. Amer])

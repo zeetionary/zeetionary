@@ -177,7 +177,7 @@ class EnglishEntrybean extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: پاقلە، لوبیا، فاسۆلیا، ڕووەکی لوبیا، سەر، مێشک، دەماخ، مەژی
 
-١. (ناو) تۆو، یان کەلووی تۆودار، کە هی ڕووەکێکی هەڵگژە و وەک سەوزە دەخورێت (فاسۆلیا، لۆبیا، پاقلە)"""),
+١. (ناو) تۆو، یان کەلووی تۆودار، کە ھی ڕووەکێکی ھەڵگژە و وەک سەوزە دەخورێت (فاسۆلیا، لۆبیا، پاقلە)"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -197,7 +197,7 @@ class EnglishEntrybean extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ناو) تۆوی ڕووەکێک کە قاوەی لێ بەرهەمدێت"""),
+٢. (ناو) تۆوی ڕووەکێک کە قاوەی لێ بەرھەمدێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -242,7 +242,7 @@ class EnglishEntrybean extends StatelessWidget {
                                       "I got beaned by a rock someone threw."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەردێک کە کەسێک هاویشتی کێشای بە سەرمدا."),
+                                      "بەردێک کە کەسێک ھاویشتی کێشای بە سەرمدا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeans4("en-GB"),
                               ),
@@ -303,7 +303,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-Noun: bean (Derived forms: beans)
+Noun: bean (derived forms: beans)
 1. Any of various edible seeds of plants of the family Leguminosae used for food (= edible bean)
  
 2. Any of various seeds or fruits that are beans or resemble beans
@@ -312,7 +312,7 @@ Noun: bean (Derived forms: beans)
  
 4. [informal] The upper part of the human body or the front part of the body in animals; contains the face and brains (= head, caput [technical], bonce [Brit, informal], noodle [informal], noggin [informal], dome [informal], nob [informal], napper [Brit, informal], skull [informal], nut [informal])
 
-- Verb: bean (Derived forms: beans, beaning, beaned)
+- Verb: bean (derived forms: beans, beaning, beaned)
 Usage: N. Amer, informal
 1. Hit on the head, especially with a pitched baseball
 """,

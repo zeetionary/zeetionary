@@ -237,7 +237,7 @@ class EnglishEntrybath extends StatelessWidget {
                                       "My father took me to the baths every Sunday."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "باوکم هەموو یەکشەمەیەک دەیبردم بۆ مەلەوانگەکە."),
+                                      "باوکم ھەموو یەکشەمەیەک دەیبردم بۆ مەلەوانگەکە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBaths4("en-GB"),
                               ),
@@ -257,7 +257,7 @@ class EnglishEntrybath extends StatelessWidget {
                                       "Most families had no bathroom and used the public baths instead."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "زۆر خێزان گەرماویان نەبوو و گەرماوی گشتییان لەجیاتیدا بەکاردەهێنا."),
+                                      "زۆر خێزان گەرماویان نەبوو و گەرماوی گشتییان لەجیاتیدا بەکاردەھێنا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBaths5("en-GB"),
                               ),
@@ -293,7 +293,7 @@ class EnglishEntrybath extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "She baths every morning."),
                               const ExampleSentenceKurdish(
-                                  text: "هەموو بەیانییەک خۆی دەشوات."),
+                                  text: "ھەموو بەیانییەک خۆی دەشوات."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBaths7("en-GB"),
                               ),
@@ -348,7 +348,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: bath (Derived forms: baths)
+- Noun: bath (derived forms: baths)
 1. A vessel containing liquid in which something is immersed (as to process it or to maintain it at a constant temperature or to lubricate it)
 "she soaked the etching in an acid bath"
  

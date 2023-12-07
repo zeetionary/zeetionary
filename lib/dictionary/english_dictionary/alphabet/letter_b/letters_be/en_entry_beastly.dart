@@ -184,7 +184,7 @@ class EnglishEntrybeastly extends StatelessWidget {
                                       "This car’s been nothing but trouble—I wish I’d never bought the beastly thing!"),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئۆتۆمبێلەکە جگە لە کێشە هیچی تر نەبووە، خۆزگە هەرگیز ئەو شتە هیچەم نەکڕیایە!"),
+                                      "ئۆتۆمبێلەکە جگە لە کێشە ھیچی تر نەبووە، خۆزگە ھەرگیز ئەو شتە ھیچەم نەکڕیایە!"),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeastlys1("en-GB"),
                               ),
@@ -261,7 +261,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Adjective: beastly (Derived forms: beastlier, beastliest)
+- Adjective: beastly (derived forms: beastlier, beastliest)
 1. [informal] Very unpleasant (= hellish [informal], god-awful [informal], horrible [informal], hellacious [N. Amer, informal])
 "beastly weather";
  

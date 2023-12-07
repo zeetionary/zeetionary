@@ -346,7 +346,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: bay (Derived forms: bays)
+- Noun: bay (derived forms: bays)
 1. An indentation of a shoreline larger than a cove but smaller than a gulf (= embayment)
  
 2. The sound of a hound on the scent
@@ -365,7 +365,7 @@ class EnglishMeaning extends StatelessWidget {
  
 8. A brown colour, the colour of the coat of some horses
 
-- Verb: bay (Derived forms: bayed, bays, baying)
+- Verb: bay (derived forms: bayed, bays, baying)
 1. Utter in deep prolonged tones
  
 2. Bark with prolonged noises, of dogs (= quest)

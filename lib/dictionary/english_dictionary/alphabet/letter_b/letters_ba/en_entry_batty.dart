@@ -183,7 +183,7 @@ class EnglishEntrybatty extends StatelessWidget {
                                       "She has some batty ideas, but she's quite sweet."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەندێک بیرۆکەی شێتانەی هەبوو، بەڵام تەواو کەسێکی شیرینە."),
+                                      "ھەندێک بیرۆکەی شێتانەی ھەبوو، بەڵام تەواو کەسێکی شیرینە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBattys1("en-GB"),
                               ),
@@ -244,7 +244,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Adjective: batty (Derived forms: battier, battiest)
+- Adjective: batty (derived forms: battier, battiest)
 Usage: slang
 1. Informal or slang term meaning insane, strange, eccentric or stupid (= balmy [archaic, slang], barmy [slang], bats [slang], bonkers [slang], buggy [N. Amer, slang], cracked [slang], crackers [slang], daft [Brit, slang], dotty [slang], fruity [slang], haywire [slang], kooky [slang], kookie [slang], loco [slang], loony [slang], loopy [slang], nuts [slang], nutty [slang], round the bend [slang], around the bend [slang], wacky [slang], whacky [slang], doolally [Brit, slang], dippy [slang], daffy [slang], nutsy [N. Amer, slang], potty [Brit, slang], daft as a brush [Brit, slang], round the twist [Brit, slang], wacko [slang], dumbass [N. Amer, slang], bughouse [N. Amer, slang], cuckoo [slang], mental [slang], barking mad [Brit, slang], barking [Brit, slang])
 "it used to drive my husband batty";

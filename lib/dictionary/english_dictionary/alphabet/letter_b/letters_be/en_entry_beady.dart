@@ -175,7 +175,7 @@ class EnglishEntrybeady extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: چکۆلە و خڕ، زەنگیانەیی، مورووئاسا، موروویی، کونەدەرزی، کونەسووژن
 
-١. (ھاوەڵناو) چاوی بچووک و خڕ و درەوشاوە؛ سەیرکردنی هەموو شتێکی بە چاوێکی بز و زەقەوە چونکە گومانت هەیە شتێکی هەڵە و خراپ ڕوودەدات"""),
+١. (ھاوەڵناو) چاوی بچووک و خڕ و درەوشاوە؛ سەیرکردنی ھەموو شتێکی بە چاوێکی بز و زەقەوە چونکە گومانت ھەیە شتێکی ھەڵە و خراپ ڕوودەدات"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -243,7 +243,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Adjective: beady (Derived forms: beadiest, beadier)
+- Adjective: beady (derived forms: beadiest, beadier)
 1. Small and round and shiny like a shiny bead or button (= beadlike, buttony, buttonlike)
 "bright beady eyes";
 

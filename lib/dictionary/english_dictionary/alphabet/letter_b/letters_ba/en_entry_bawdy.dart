@@ -181,7 +181,7 @@ class EnglishEntrybawdy extends StatelessWidget {
                                       "The bawdy jokes of the comedian made the audience blush."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "نوکتە هەرزەکانی ئەکتەرە کۆمیدییەکە گوێگرانی خستە پێکەنین."),
+                                      "نوکتە ھەرزەکانی ئەکتەرە کۆمیدییەکە گوێگرانی خستە پێکەنین."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBawdys1("en-GB"),
                               ),
@@ -242,11 +242,11 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Adjective: bawdy (Derived forms: bawdier, bawdiest)
+- Adjective: bawdy (derived forms: bawdier, bawdiest)
 1. Humorously vulgar (= off-color [US], ribald, off-colour)
 "bawdy songs";
 
-- Noun: bawdy (Derived forms: bawdies, bawdier, bawdiest)
+- Noun: bawdy (derived forms: bawdies, bawdier, bawdiest)
 1. Lewd or obscene talk or writing (= bawdry [archaic])
 "they published a collection of Elizabethan bawdy";
 """,

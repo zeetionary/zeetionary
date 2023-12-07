@@ -177,7 +177,7 @@ class EnglishEntrybeacon extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: چرای دەریایی، ڕووناکی یان چرای ڕێنوێنی، تروکەشەوق، چرای تروکەیی (لە فڕۆکەخانە)، نیشانەی ئاگر (بۆ ڕێنوێنی یان وریاکردنەوە)، مەشخەڵ، چرای پەڕینەوەی پیادە، تیشکی ڕووناکی، وێسگەی ڕادیۆیی
 
-١. (ناو) لایتێک کە لە شوێنێک دادەنرێت بۆ ڕێنوێنیکردنی کەشتی، شەمەندەفەر، هتد و ئاگادارکردنیان لە مەترسی"""),
+١. (ناو) لایتێک کە لە شوێنێک دادەنرێت بۆ ڕێنوێنیکردنی کەشتی، شەمەندەفەر، ھتد و ئاگادارکردنیان لە مەترسی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -203,7 +203,7 @@ class EnglishEntrybeacon extends StatelessWidget {
                                       "He was a beacon of hope for the younger generation."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "(بەکارهێنانی خوازراو) ئەو هێمای هیوا بوو بۆ نەوەی نوێ."),
+                                      "(بەکارھێنانی خوازراو) ئەو ھێمای ھیوا بوو بۆ نەوەی نوێ."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeacons2("en-GB"),
                               ),
@@ -284,14 +284,14 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-Noun: beacon (Derived forms: beacons)
+Noun: beacon (derived forms: beacons)
 1. A fire (usually on a hill or tower) that can be seen from a distance (= beacon fire)
  
 2. A radio station that broadcasts a directional signal for navigational purposes (= radio beacon)
  
 3. A tower with a light that gives warning of shoals to passing ships (= lighthouse, beacon light, pharos [archaic])
 
-- Verb: beacon (Derived forms: beaconed, beacons, beaconing)
+- Verb: beacon (derived forms: beaconed, beacons, beaconing)
 1. Shine like a beacon
  
 2. Guide with a beacon

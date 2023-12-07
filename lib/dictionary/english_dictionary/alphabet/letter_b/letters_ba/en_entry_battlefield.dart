@@ -174,7 +174,7 @@ class EnglishEntrybattlefield extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: شەڕگە، گۆڕەپان یا مەیدانی شەڕ یا جەنگ، قاداشەڕ، ڕەزمگا، هێڵ
+کوردی: شەڕگە، گۆڕەپان یا مەیدانی شەڕ یا جەنگ، قاداشەڕ، ڕەزمگا، ھێڵ
 
 ١. (ناو) شوێنی ڕوودانی شەڕی نێوان دوو سوپا"""),
                           Row(
@@ -264,7 +264,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: battlefield (Derived forms: battlefields)
+- Noun: battlefield (derived forms: battlefields)
 1. A region where a battle is being (or has been) fought (= battleground, field of battle, field of honor [US], field)
 "they made a tour of Civil War battlefields";
 """,

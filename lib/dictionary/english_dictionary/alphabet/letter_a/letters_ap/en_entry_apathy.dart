@@ -235,7 +235,7 @@ class EnglishEntryapathy extends StatelessWidget {
                             ],
                           ),
                           // const DividerSentences(),
-                          const DividerDefinition(),
+                          // const DividerDefinition(),
                         ],
                       ),
                     ),

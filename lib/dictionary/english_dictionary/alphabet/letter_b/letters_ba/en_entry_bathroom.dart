@@ -209,7 +209,7 @@ class EnglishEntrybathroom extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ناو) (ئینگلیزی ئەمریکی) ژوورێک کە تەوالێتێک و دەستشۆرێک و هەندێکجار حەوزێکی خۆشتنی تێدایە"""),
+٢. (ناو) (ئینگلیزی ئەمریکی) ژوورێک کە تەوالێتێک و دەستشۆرێک و ھەندێکجار حەوزێکی خۆشتنی تێدایە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -272,7 +272,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: bathroom (Derived forms: bathrooms)
+- Noun: bathroom (derived forms: bathrooms)
 1. A room (as in a residence) containing a bathtub or shower and usually a washbasin and toilet
  
 2. A room or building equipped with one or more toilets (= toilet, lavatory, lav [informal], can [N. Amer, informal], john [informal], water closet [Brit, archaic], closet [archaic], W.C. [Brit], loo [Brit, informal], bog [Brit, informal], jacks [Ireland, informal])

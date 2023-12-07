@@ -182,7 +182,7 @@ class EnglishEntrybaton extends StatelessWidget {
                                       "Five people were injured in the baton charge (= one made by police carrying batons, to force a crowd back)."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سێ کەس برینداربوون لە هێرشی پۆلیسە کوتەک‌بەدەستەکان."),
+                                      "سێ کەس برینداربوون لە ھێرشی پۆلیسە کوتەک‌بەدەستەکان."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBatons1("en-GB"),
                               ),
@@ -194,7 +194,7 @@ class EnglishEntrybaton extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ناو) دارێک کە سەرپەرشتیاری ئۆرکێسترایەکەوە بەکاردەهێنرێت"""),
+٢. (ناو) دارێک کە سەرپەرشتیاری ئۆرکێسترایەکەوە بەکاردەھێنرێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -300,7 +300,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: baton (Derived forms: batons)
+- Noun: baton (derived forms: batons)
 1. A thin tapered rod used by a conductor to lead an orchestra or choir (= wand)
  
 2. A short stout club used primarily by policemen (= truncheon, nightstick [N. Amer], billy [N. Amer, informal], billystick [N. Amer], billy club [N. Amer])

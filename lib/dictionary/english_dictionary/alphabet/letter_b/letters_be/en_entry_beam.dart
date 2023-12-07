@@ -220,9 +220,9 @@ class EnglishEntrybeam extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: کاریتە، نیرگە، بەرازە، تەژ، دیرەک، ماخ، ڕاژ(ە)، وڕەس، دەستەک، تیرک، ئاڵوودار، لادار، گرس، شاهین، باهو، دارتەرازوو، میلە، میل، تریشک، لیزگ، تیشک، تیرێژ، تیرۆژ، باریکە ڕووناکی، هێڵە ڕۆشنایی، نیشانە یان ئاماژەی ڕادیۆیی یان ڕادارەکان (بۆ ڕێنوێنی کەشتی و فڕۆکەکان بەکاردێنرێ)، پانایی کەشتی، نیرگە یان کاریتەی کەشتی، بزە، پێکەنین، بسکە، زەردەخەنە، میلەی لەنگەر
+کوردی: کاریتە، نیرگە، بەرازە، تەژ، دیرەک، ماخ، ڕاژ(ە)، وڕەس، دەستەک، تیرک، ئاڵوودار، لادار، گرس، شاھین، باھو، دارتەرازوو، میلە، میل، تریشک، لیزگ، تیشک، تیرێژ، تیرۆژ، باریکە ڕووناکی، ھێڵە ڕۆشنایی، نیشانە یان ئاماژەی ڕادیۆیی یان ڕادارەکان (بۆ ڕێنوێنی کەشتی و فڕۆکەکان بەکاردێنرێ)، پانایی کەشتی، نیرگە یان کاریتەی کەشتی، بزە، پێکەنین، بسکە، زەردەخەنە، میلەی لەنگەر
 
-١. (ناو) هێڵێک لە ڕۆشنایی، شەپۆلی کارۆموگناتیسی، یان تەنۆلکە"""),
+١. (ناو) ھێڵێک لە ڕۆشنایی، شەپۆلی کارۆموگناتیسی، یان تەنۆلکە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -268,7 +268,7 @@ class EnglishEntrybeam extends StatelessWidget {
                                       "It was a charming cottage with original beams and a thatched roof."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "خانۆچکەیەکی دڵڕفێن بوو کە کاریتە خۆی پێوەبوو لەگەڵ لەگەڵ سەربانێکی هەڵاش بەسەردا دراو."),
+                                      "خانۆچکەیەکی دڵڕفێن بوو کە کاریتە خۆی پێوەبوو لەگەڵ لەگەڵ سەربانێکی ھەڵاش بەسەردا دراو."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeams3("en-GB"),
                               ),
@@ -280,7 +280,7 @@ class EnglishEntrybeam extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (ناو) داری یاری جیمناستیکس کە یاریزانێک لەسەری دەجووڵێت و هاوسەنگی ڕادەگرێت"""),
+٣. (ناو) داری یاری جیمناستیکس کە یاریزانێک لەسەری دەجووڵێت و ھاوسەنگی ڕادەگرێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -346,7 +346,7 @@ class EnglishEntrybeam extends StatelessWidget {
                                       "Live pictures of the ceremony were beamed around the world."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دیمەنی ڕاستەوخۆی ئاهەنگەکە بۆ تەواوی جیهان پەخشکرا."),
+                                      "دیمەنی ڕاستەوخۆی ئاھەنگەکە بۆ تەواوی جیھان پەخشکرا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeams7("en-GB"),
                               ),
@@ -425,7 +425,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: beam (Derived forms: beams)
+- Noun: beam (derived forms: beams)
 1. A signal transmitted along a narrow path; guides aeroplane pilots in darkness or bad weather (= radio beam)
  
 2. Long thick piece of wood, metal or concrete, etc., used in construction
@@ -441,7 +441,7 @@ class EnglishMeaning extends StatelessWidget {
  
 7. A gymnastic apparatus used by women gymnasts (= balance beam)
 
-- Verb: beam (Derived forms: beams, beaming, beamed)
+- Verb: beam (derived forms: beams, beaming, beamed)
 1. Smile radiantly; express joy through one's facial expression
  
 2. Emit light; be bright, as of the sun or a light (= shine)

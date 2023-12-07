@@ -169,7 +169,7 @@ class EnglishEntrybattalion extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: تابوور، هەنگ، هێز، تیپ 
+کوردی: تابوور، ھەنگ، ھێز، تیپ 
 
 ١. (ناو) ژمارەیەکی زۆر سەرباز کە بەشێکن لە لیوایەک"""),
                           Row(
@@ -191,7 +191,7 @@ class EnglishEntrybattalion extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ناو) ژمارەیەکی زۆر لە خەڵک کە زۆرجار ڕێکخراون و ئامانجێکیان هەیە"""),
+٢. (ناو) ژمارەیەکی زۆر لە خەڵک کە زۆرجار ڕێکخراون و ئامانجێکیان ھەیە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -199,7 +199,7 @@ class EnglishEntrybattalion extends StatelessWidget {
                                       "The battalion of scientists made a discovery that changed the world."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "تیمە زانستییەکە دۆزینەوەیەکیان ئەنجامدا کە جیهانی گۆڕی ."),
+                                      "تیمە زانستییەکە دۆزینەوەیەکیان ئەنجامدا کە جیھانی گۆڕی ."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBattalions2("en-GB"),
                               ),
@@ -260,7 +260,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-Noun: battalion (Derived forms: battalions)
+Noun: battalion (derived forms: battalions)
 1. An army unit usually consisting of a headquarters and three or more companies
  
 2. A large indefinite quantity (= large number, multitude, plurality, pack)

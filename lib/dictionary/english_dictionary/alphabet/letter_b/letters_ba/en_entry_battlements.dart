@@ -175,7 +175,7 @@ class EnglishEntrybattlements extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: کۆنگرە، کونگیرە، شوورە، قەڵبە، بڕگەدیوار
 
-١. (ناو) دیوارێک بە دەوری بەشی سەرەوەی قەڵایەکدا کە بۆشایی بە دەوریدا هەیە بۆ ئەوەی لێیەوە تیر بهاوێژن"""),
+١. (ناو) دیوارێک بە دەوری بەشی سەرەوەی قەڵایەکدا کە بۆشایی بە دەوریدا ھەیە بۆ ئەوەی لێیەوە تیر بھاوێژن"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -183,7 +183,7 @@ class EnglishEntrybattlements extends StatelessWidget {
                                       "The defenders poured boiling oil and arrows down upon the attacking army from the safety of the castle's battlements."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەرگریکاران نەوتی گەرم و تیریان هاویشت بەسەر سوپای هێرشکاردا لە بەشی ئارامی شوورای قەڵاکەوە."),
+                                      "بەرگریکاران نەوتی گەرم و تیریان ھاویشت بەسەر سوپای ھێرشکاردا لە بەشی ئارامی شوورای قەڵاکەوە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBattlementss1("en-GB"),
                               ),
@@ -244,7 +244,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: battlement (Derived forms: battlements)
+- Noun: battlement (derived forms: battlements)
 1. A rampart built around the top of a castle with regular gaps for firing arrows or guns (= crenelation, crenellation)
 """,
           )

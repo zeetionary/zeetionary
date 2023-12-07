@@ -175,7 +175,7 @@ class EnglishEntrybazooka extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: بەزووکا، بازووکا، تانک‌شکێن، دژەتانک
 
-١. (ناو) چەکێکی درێژ کە شیوەی لوولەیی هەیە و دەخرێتە سەر شان بۆ هاویشتنی دژ بە تانک و ئۆتۆمبێلی سەربازی"""),
+١. (ناو) چەکێکی درێژ کە شیوەی لوولەیی ھەیە و دەخرێتە سەر شان بۆ ھاویشتنی دژ بە تانک و ئۆتۆمبێلی سەربازی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -244,7 +244,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: bazooka (Derived forms: bazookas)
+- Noun: bazooka (derived forms: bazookas)
 1. A portable rocket launcher used by infantrymen as an antitank weapon
 """,
           )

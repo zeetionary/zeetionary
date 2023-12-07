@@ -176,9 +176,9 @@ class EnglishEntrybearer extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: هەڵگر، گەیێنەر، گەیەنەر، خاوەن، خودان، پەیام‌گەیێن، ڕاسپاردە، نامەبەر، بارهەڵگر، داری بەبەر یان بەردار، ئادان
+کوردی: ھەڵگر، گەیێنەر، گەیەنەر، خاوەن، خودان، پەیام‌گەیێن، ڕاسپاردە، نامەبەر، بارھەڵگر، داری بەبەر یان بەردار، ئادان
 
-١. (ناو) کەسێک کە هەڵگری شتێکە"""),
+١. (ناو) کەسێک کە ھەڵگری شتێکە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -186,7 +186,7 @@ class EnglishEntrybearer extends StatelessWidget {
                                       "He was a coffin bearer at his father's funeral."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەڵگری تابووتەکە بوو لە مەراسیمی ناشرنی باوکی."),
+                                      "ھەڵگری تابووتەکە بوو لە مەراسیمی ناشرنی باوکی."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBearers1("en-GB"),
                               ),
@@ -198,7 +198,7 @@ class EnglishEntrybearer extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ناو) هێنەری نامەیەک یان هەواڵێک"""),
+٢. (ناو) ھێنەری نامەیەک یان ھەواڵێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -206,7 +206,7 @@ class EnglishEntrybearer extends StatelessWidget {
                                       "I'm sorry to be the bearer of bad news."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەداخم بۆ بوون بە هێنەری هەواڵی خراپ ."),
+                                      "بەداخم بۆ بوون بە ھێنەری ھەواڵی خراپ ."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBearers2("en-GB"),
                               ),
@@ -307,7 +307,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: bearer (Derived forms: bearers)
+- Noun: bearer (derived forms: bearers)
 1. Someone whose employment involves carrying something (= carrier, toter)
 "the bonds were transmitted by bearer";
  

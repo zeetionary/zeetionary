@@ -214,7 +214,7 @@ class EnglishEntrybattle extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: شەڕ، جەنگ، هەرڤ، سواژ، نەبەرد، ڕەزم، پێکادان، لێکدان، تێک‌هەڵچوون، تێک‌بەربوون، بەربوونەیەک، لێک‌بەربوون، پێشبڕکێ، ڕکەبەرایەتی، پێشبەزین، بردنەوە، سەرکەوتن
+کوردی: شەڕ، جەنگ، ھەرڤ، سواژ، نەبەرد، ڕەزم، پێکادان، لێکدان، تێک‌ھەڵچوون، تێک‌بەربوون، بەربوونەیەک، لێک‌بەربوون، پێشبڕکێ، ڕکەبەرایەتی، پێشبەزین، بردنەوە، سەرکەوتن
 
 ١. (ناو) شەڕی لە نێوان سوپا، کەشتی، یان فڕۆکە، بەتایبەتی لەکاتی جەنگدا"""),
                           Row(
@@ -252,7 +252,7 @@ class EnglishEntrybattle extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ناو) پێشبڕکێ، یان هەوڵ و تێکۆشان بۆ بەدەستهێنانی شتێک"""),
+٢. (ناو) پێشبڕکێ، یان ھەوڵ و تێکۆشان بۆ بەدەستھێنانی شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -260,7 +260,7 @@ class EnglishEntrybattle extends StatelessWidget {
                                       "She finally won her six-year battle for compensation."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لەکۆتاییدا هەوڵە شەش ساڵییەکەی بردەوە بۆ قەرەبوو."),
+                                      "لەکۆتاییدا ھەوڵە شەش ساڵییەکەی بردەوە بۆ قەرەبوو."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBattles3("en-GB"),
                               ),
@@ -308,7 +308,7 @@ class EnglishEntrybattle extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (ناو) هەوڵیکی زۆر کە کەسێک دەیدات بۆ بەدەستهێنانی شتێک"""),
+٣. (ناو) ھەوڵیکی زۆر کە کەسێک دەیدات بۆ بەدەستھێنانی شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -325,8 +325,8 @@ class EnglishEntrybattle extends StatelessWidget {
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -334,7 +334,7 @@ class EnglishEntrybattle extends StatelessWidget {
                                       "They have been at the forefront of the battle to save the hospital."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە بەرەی پێشەوەی تێکۆشان بوونە بۆ هێشتنەوەی نەخۆشخانەکە."),
+                                      "لە بەرەی پێشەوەی تێکۆشان بوونە بۆ ھێشتنەوەی نەخۆشخانەکە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBattles5("en-GB"),
                               ),
@@ -346,7 +346,7 @@ class EnglishEntrybattle extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٤. (کردار) هەوڵدانی زۆر بۆ بەدەستهێنانی شتێکی سەخت یان مامەڵەکردن لەگەڵ شتێکی ناخۆش"""),
+٤. (کردار) ھەوڵدانی زۆر بۆ بەدەستھێنانی شتێکی سەخت یان مامەڵەکردن لەگەڵ شتێکی ناخۆش"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -354,7 +354,7 @@ class EnglishEntrybattle extends StatelessWidget {
                                       "The two leaders are battling for control of the government."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دوو سەرکردەکە تێدەکۆشن بۆ هەژموونیان بەسەر حکومەتدا."),
+                                      "دوو سەرکردەکە تێدەکۆشن بۆ ھەژموونیان بەسەر حکومەتدا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBattles8("en-GB"),
                               ),
@@ -371,7 +371,7 @@ class EnglishEntrybattle extends StatelessWidget {
                                   text:
                                       "She's still battling with a knee injury."),
                               const ExampleSentenceKurdish(
-                                  text: "هێشتا دەناڵێنێت بەسەر برینی ئەژنۆوە."),
+                                  text: "ھێشتا دەناڵێنێت بەسەر برینی ئەژنۆوە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBattles9("en-GB"),
                               ),
@@ -389,7 +389,7 @@ class EnglishEntrybattle extends StatelessWidget {
                                       "The two sides will battle it out in the final next week."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دوو بەرەکە هەفتەی داهاتوو بۆ کۆتا جار ڕووبەڕوو دەبنەوە."),
+                                      "دوو بەرەکە ھەفتەی داھاتوو بۆ کۆتا جار ڕووبەڕوو دەبنەوە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBattles10("en-GB"),
                               ),
@@ -450,7 +450,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: battle (Derived forms: battled, battles, battling)
+- Noun: battle (derived forms: battled, battles, battling)
 1. A hostile meeting of opposing military forces in the course of a war (= conflict, fight, engagement)
 "Grant won a decisive victory in the battle of Chattanooga";
  

@@ -288,7 +288,7 @@ class EnglishEntryarouse extends StatelessWidget {
                             ],
                           ),
                           // const DividerSentences(),
-                          const DividerDefinition(),
+                          // const DividerDefinition(),
                         ],
                       ),
                     ),

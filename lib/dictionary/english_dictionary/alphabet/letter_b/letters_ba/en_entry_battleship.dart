@@ -241,7 +241,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: battleship (Derived forms: battleships)
+- Noun: battleship (derived forms: battleships)
 1. Large and heavily armoured warship (= battlewagon)
 """,
           )

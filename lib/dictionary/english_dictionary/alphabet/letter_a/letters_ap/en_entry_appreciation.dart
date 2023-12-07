@@ -285,8 +285,8 @@ class EnglishEntryappreciation extends StatelessWidget {
                               ),
                             ],
                           ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (ناو) ھەستی سوپاسگوزری و پێزانین"""),
                           Row(

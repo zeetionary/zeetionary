@@ -175,7 +175,7 @@ class EnglishEntrybearded extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: ڕیشن، ڕیشی، ڕیش‌دار، ڕدێن‌دار
 
-١. (ھاوەڵناو) کەسێک کە ڕیشی هەیە"""),
+١. (ھاوەڵناو) کەسێک کە ڕیشی ھەیە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

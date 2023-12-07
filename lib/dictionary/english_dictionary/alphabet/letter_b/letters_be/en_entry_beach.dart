@@ -231,7 +231,7 @@ class EnglishEntrybeach extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (کردار) هێنانی بەلەمێک لە دەریاوە بۆ کەناراو"""),
+٢. (کردار) ھێنانی بەلەمێک لە دەریاوە بۆ کەناراو"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -239,7 +239,7 @@ class EnglishEntrybeach extends StatelessWidget {
                                       "He beached the boat and lifted the boy onto the shore."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەلەمەکەی هێنایە کەناراوەکە و منداڵەکەی بەرزکردەوە و خستیە گوێ‌ئاوەکە."),
+                                      "بەلەمەکەی ھێنایە کەناراوەکە و منداڵەکەی بەرزکردەوە و خستیە گوێ‌ئاوەکە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeachs4("en-GB"),
                               ),
@@ -259,7 +259,7 @@ class EnglishEntrybeach extends StatelessWidget {
                                       "We don't know what causes whales to beach."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "نازانین چی دەبێتەهۆی ئەوەی نەهەنگەکان لە وشکانی گیربخۆن."),
+                                      "نازانین چی دەبێتەھۆی ئەوەی نەھەنگەکان لە وشکانی گیربخۆن."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeachs5("en-GB"),
                               ),
@@ -320,10 +320,10 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: beach (Derived forms: beaches)
+- Noun: beach (derived forms: beaches)
 1. An area of sand sloping down to the water of a sea or lake
 
-- Verb: beach (Derived forms: beached, beaches, beaching)
+- Verb: beach (derived forms: beached, beaches, beaching)
 1. Land on a beach
 "the ship beached near the port"
 """,

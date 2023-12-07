@@ -204,7 +204,7 @@ class EnglishEntrybeating extends StatelessWidget {
                                       "The team has taken a few beatings this season."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "تیمەکە ئەم وەرزە چەند شکستێکی قورسیان هەبووە."),
+                                      "تیمەکە ئەم وەرزە چەند شکستێکی قورسیان ھەبووە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeatings2("en-GB"),
                               ),
@@ -216,7 +216,7 @@ class EnglishEntrybeating extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (ناو) زنجیرەیەک لە لێدان، بۆ نموونە لێدانی دەهۆڵ یان دڵ """),
+٣. (ناو) زنجیرەیەک لە لێدان، بۆ نموونە لێدانی دەھۆڵ یان دڵ """),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

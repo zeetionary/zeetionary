@@ -175,7 +175,7 @@ class EnglishEntrybathtub extends StatelessWidget {
                                       "The bathtub was so deep that I could completely submerge myself in the water."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "حەوزی خۆشتنەکە هێندە قووڵ بوو کە بەتەواوی خۆم نقووم کرد لە ئاوەکەدا."),
+                                      "حەوزی خۆشتنەکە ھێندە قووڵ بوو کە بەتەواوی خۆم نقووم کرد لە ئاوەکەدا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBathtubs1("en-GB"),
                               ),
@@ -230,7 +230,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: bathtub (Derived forms: bathtubs)
+- Noun: bathtub (derived forms: bathtubs)
 1. A relatively large open container that you fill with water and use to wash the body (= bathing tub, tub)
 "he played with his rubber ball in the bathtub";
 """,

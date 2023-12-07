@@ -176,7 +176,7 @@ class EnglishEntrybearing extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: هەڵوێست، قیافە، ڕەفتار، دەم‌ودوو، جووڵانەوە، هەڵس‌وکەوت، پێوەندی، تێکەڵی، دەخڵ، گرێدایی، بوار، لایەن
+کوردی: ھەڵوێست، قیافە، ڕەفتار، دەم‌ودوو، جووڵانەوە، ھەڵس‌وکەوت، پێوەندی، تێکەڵی، دەخڵ، گرێدایی، بوار، لایەن
 
 ١. (ناو) شێوەی پەیوەندی شتێک بە شتێکی ترەوە یان شیوەی کاریگەرییەکەی"""),
                           Row(
@@ -186,7 +186,7 @@ class EnglishEntrybearing extends StatelessWidget {
                                       "Recent events had no bearing on our decision."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕووداوەکانی ئەم دواییە هیچ کاریگەری لەسەر بڕیارەکەمان نابێت."),
+                                      "ڕووداوەکانی ئەم دواییە ھیچ کاریگەری لەسەر بڕیارەکەمان نابێت."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBearings1("en-GB"),
                               ),
@@ -204,7 +204,7 @@ class EnglishEntrybearing extends StatelessWidget {
                                       "Regular exercise has a direct bearing on fitness and health."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕاهێنانی بەردەوام کاریگەری ڕاستەوخۆی هەیە لەسەر هەیکەل و تەندرووستی."),
+                                      "ڕاھێنانی بەردەوام کاریگەری ڕاستەوخۆی ھەیە لەسەر ھەیکەل و تەندرووستی."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBearings2("en-GB"),
                               ),
@@ -223,7 +223,7 @@ class EnglishEntrybearing extends StatelessWidget {
                                   text:
                                       "She had a proud, distinguished bearing."),
                               const ExampleSentenceKurdish(
-                                  text: "هەیکەلێکی بەشکۆ و هەڵکەوتووی هەبوو."),
+                                  text: "ھەیکەلێکی بەشکۆ و ھەڵکەوتووی ھەبوو."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBearings3("en-GB"),
                               ),
@@ -307,7 +307,7 @@ class EnglishMeaning extends StatelessWidget {
 - Adjective: bearing
 1. (of a structural member) withstanding a weight or strain
 
-- Noun: bearing (Derived forms: bearings)
+- Noun: bearing (derived forms: bearings)
 1. Relevant relation or interconnection
 "those issues have no bearing on our situation"
  

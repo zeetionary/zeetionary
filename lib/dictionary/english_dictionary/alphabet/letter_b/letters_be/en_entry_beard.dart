@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: beard (Derived forms: bearding, bearded, beards)
+- Noun: beard (derived forms: bearding, bearded, beards)
 1. The hair growing on the lower part of a man's face (= face fungus, whiskers)
  
 2. A tuft or growth of hairs or bristles on certain plants such as iris or grasses

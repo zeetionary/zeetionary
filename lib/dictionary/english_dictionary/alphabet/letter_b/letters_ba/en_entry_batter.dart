@@ -177,7 +177,7 @@ class EnglishEntrybatter extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: مایە، هەویر (= تێکەڵاوێکە لە ئارد، شیر و هێلکە بۆ دروست‌کردنی شیرینی و هتد)، (بەیسبۆڵ) تۆپ‌هاوێژ، گۆهاوێژ، 
+کوردی: مایە، ھەویر (= تێکەڵاوێکە لە ئارد، شیر و ھێلکە بۆ دروست‌کردنی شیرینی و ھتد)، (بەیسبۆڵ) تۆپ‌ھاوێژ، گۆھاوێژ، 
 
 ١. (کردار) لێدانی شتێک بە بەردەوامی"""),
                           Row(
@@ -214,7 +214,7 @@ class EnglishEntrybatter extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ناو) تێکەڵەی هێلکە و شیر و ئارد کە دەکرێت بەسەر ماسی و مریشکدا پێش برژاندن، یان بۆ درووستکردنی شلکێنە"""),
+٢. (ناو) تێکەڵەی ھێلکە و شیر و ئارد کە دەکرێت بەسەر ماسی و مریشکدا پێش برژاندن، یان بۆ درووستکردنی شلکێنە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -222,7 +222,7 @@ class EnglishEntrybatter extends StatelessWidget {
                                       "I started mixing the batter for the pancakes."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەستمکرد بە تێکەڵکردنی هەویرەکە بۆ کێکەکە."),
+                                      "دەستمکرد بە تێکەڵکردنی ھەویرەکە بۆ کێکەکە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBatters3("en-GB"),
                               ),
@@ -234,7 +234,7 @@ class EnglishEntrybatter extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (ناو) تێکەڵەی هێلکە و شیر و ئارد کە بەکاردێت بۆ درووستکردنی کێک"""),
+٣. (ناو) تێکەڵەی ھێلکە و شیر و ئارد کە بەکاردێت بۆ درووستکردنی کێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -242,7 +242,7 @@ class EnglishEntrybatter extends StatelessWidget {
                                       "In most cake batters you typically add eggs to the batter."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە زۆرینەی هەویری کێکدا بەزۆری هێلکە زیاددەکرێت بۆ هەویرەکە."),
+                                      "لە زۆرینەی ھەویری کێکدا بەزۆری ھێلکە زیاددەکرێت بۆ ھەویرەکە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBatters4("en-GB"),
                               ),
@@ -262,7 +262,7 @@ class EnglishEntrybatter extends StatelessWidget {
                                       "Jimmy struck out the first batter with ease."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "جیمی بە ئاسانی یەکەم تۆپهاوێژی کردە دەرەوە."),
+                                      "جیمی بە ئاسانی یەکەم تۆپھاوێژی کردە دەرەوە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBatters5("en-GB"),
                               ),
@@ -323,7 +323,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Verb: batter (Derived forms: batters, battered, battering)
+- Verb: batter (derived forms: batters, battered, battering)
 1. Strike against forcefully (= buffet, knock about)
 "Winds battered the tent";
  
@@ -333,7 +333,7 @@ class EnglishMeaning extends StatelessWidget {
 3. Make a dent or impression in (= dinge)
 "batter a soft hat";
 
-- Noun: batter (Derived forms: batters)
+- Noun: batter (derived forms: batters)
 1. (baseball) a ballplayer who is batting (= hitter, slugger, batsman)
  
 2. A liquid or semiliquid mixture, as of flour, eggs, and milk, used in cooking

@@ -179,7 +179,7 @@ class EnglishEntrybbc extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "The BBC broadcasts every day."),
                               const ExampleSentenceKurdish(
-                                  text: "بی بی سی هەموو ڕۆژێک پەخشدەکات."),
+                                  text: "بی بی سی ھەموو ڕۆژێک پەخشدەکات."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBbcs1("en-GB"),
                               ),

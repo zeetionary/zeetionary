@@ -204,7 +204,7 @@ class EnglishEntrybeater extends StatelessWidget {
                                   text:
                                       "He was arrested for being a wife-beater."),
                               const ExampleSentenceKurdish(
-                                  text: "دەستگیرکرا بەهۆی لێدان لە ژنەکەی."),
+                                  text: "دەستگیرکرا بەھۆی لێدان لە ژنەکەی."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeaters2("en-GB"),
                               ),
@@ -224,7 +224,7 @@ class EnglishEntrybeater extends StatelessWidget {
                                       "He bought a cheap beater to get around until he could afford a new car. "),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئۆتۆمبێلە شڕەیەکی هەرزانی کڕی بۆ بەکارهێنان تاوەکو ئەوکاتەی دەتوانێت دانەیەکی تازە بکڕێت."),
+                                      "ئۆتۆمبێلە شڕەیەکی ھەرزانی کڕی بۆ بەکارھێنان تاوەکو ئەوکاتەی دەتوانێت دانەیەکی تازە بکڕێت."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeaters3("en-GB"),
                               ),

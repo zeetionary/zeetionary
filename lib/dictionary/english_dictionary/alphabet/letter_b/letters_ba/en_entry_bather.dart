@@ -168,7 +168,7 @@ class EnglishEntrybather extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: مەلێکەر، خۆشۆر (لە دەریا، ڕووبار و هتد)
+کوردی: مەلێکەر، خۆشۆر (لە دەریا، ڕووبار و ھتد)
 
 ١. (ناو) کەسێک کە لە دەریا یان ڕووباردا مەلە دەکات"""),
                           Row(
@@ -178,7 +178,7 @@ class EnglishEntrybather extends StatelessWidget {
                                       "The beach was full of bathers enjoying the warm summer day."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کەناراوەکە پڕبوو لە مەلێکەر کە جێژیان دەبینی لە ڕۆژە گەرمەکەی هاوین."),
+                                      "کەناراوەکە پڕبوو لە مەلێکەر کە جێژیان دەبینی لە ڕۆژە گەرمەکەی ھاوین."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBathers1("en-GB"),
                               ),
@@ -239,7 +239,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: bather (Derived forms: bathers)
+- Noun: bather (derived forms: bathers)
 1. A person who travels through the water by swimming (= swimmer, natator)
  
 2. A person who takes a bath

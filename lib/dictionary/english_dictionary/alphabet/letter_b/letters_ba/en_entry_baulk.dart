@@ -217,7 +217,7 @@ class EnglishEntrybaulk extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (کردار) ڕێگرتن لەوەی کەسێک شتێک بکات یان هەیبێت"""),
+٣. (کردار) ڕێگرتن لەوەی کەسێک شتێک بکات یان ھەیبێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -286,13 +286,13 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-Verb: baulk (Derived forms: baulks, baulked, baulking)
+Verb: baulk (derived forms: baulks, baulked, baulking)
 Usage: Brit (N. Amer: balk)
 1. Pause or hold back in uncertainty or unwillingness (= hesitate, waver, waffle [N. Amer, informal], balk)
  
 2. Refuse to comply (= resist, balk, jib)
 
-- Noun: baulk (Derived forms: baulks)
+- Noun: baulk (derived forms: baulks)
 Usage: Brit (N. Amer: balk)
 1. The area on a billiard table behind the balkline (= balk)
 "a player with ball in hand must play from the baulk";

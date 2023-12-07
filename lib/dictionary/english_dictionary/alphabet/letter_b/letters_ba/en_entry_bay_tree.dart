@@ -173,7 +173,7 @@ class EnglishEntrybaytree extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           DefinitionKurdish(text: """
-١. (ناو) دارێکی بچووک کە گەڵای سەوزی تاریکی هەیە لەگەڵ بۆنێکی خۆش کە لە خواردندا بەکاردێت"""),
+١. (ناو) دارێکی بچووک کە گەڵای سەوزی تاریکی ھەیە لەگەڵ بۆنێکی خۆش کە لە خواردندا بەکاردێت"""),
                           // Row(
                           //   children: [
                           //     const ExampleSentenceEnglish(
@@ -241,7 +241,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: bay tree (Derived forms: bay trees)
+- Noun: bay tree (derived forms: bay trees)
 1. Small Mediterranean evergreen tree with small blackish berries and glossy aromatic leaves used for flavouring in cooking; also used by ancient Greeks to crown victors (= true laurel, bay, bay laurel, Laurus nobilis)
 """,
           )

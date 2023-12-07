@@ -242,7 +242,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: bay window (Derived forms: bay windows)
+- Noun: bay window (derived forms: bay windows)
 1. [informal] A protruding or large belly (= belly, paunch, pot [informal], potbelly, corporation [informal], tummy [informal])
  
 2. A window that sticks out from the outside wall of a house (= bow window)

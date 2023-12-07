@@ -510,7 +510,7 @@ class EnglishEntrybe extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (کردار) شتێک بوونی هەبێت"""),
+٣. (کردار) شتێک بوونی ھەبێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -533,7 +533,7 @@ class EnglishEntrybe extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "Is there a country called Canada?"),
                               const ExampleSentenceKurdish(
-                                  text: "وڵاتێک هەیە بەناوی کەنەدا؟."),
+                                  text: "وڵاتێک ھەیە بەناوی کەنەدا؟."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBes6("en-GB"),
                               ),
@@ -587,7 +587,7 @@ class EnglishEntrybe extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "The party is on Friday evening."),
                               const ExampleSentenceKurdish(
-                                  text: "ئاهەنگەکە لە شەوی هەینی دەبێت."),
+                                  text: "ئاھەنگەکە لە شەوی ھەینی دەبێت."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBes8("en-GB"),
                               ),
@@ -618,13 +618,13 @@ class EnglishEntrybe extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٨. (کردار) بەژداربوون لە ئاهەنگێک یان ئامادەبوون لە شوێنێک"""),
+٨. (کردار) بەژداربوون لە ئاھەنگێک یان ئامادەبوون لە شوێنێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I'll be at the party."),
                               const ExampleSentenceKurdish(
-                                  text: "لە ئاهەنگەکە دەبم."),
+                                  text: "لە ئاھەنگەکە دەبم."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBes10("en-GB"),
                               ),
@@ -661,7 +661,7 @@ class EnglishEntrybe extends StatelessWidget {
                                   text:
                                       "‘How much is that dress?’ ‘Eighty dollars.’"),
                               const ExampleSentenceKurdish(
-                                  text: "'ئەو کراسە بە چەندە؟' 'هەشتا دۆلار.'"),
+                                  text: "'ئەو کراسە بە چەندە؟' 'ھەشتا دۆلار.'"),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBes12("en-GB"),
                               ),
@@ -696,7 +696,7 @@ class EnglishEntrybe extends StatelessWidget {
                                   text:
                                       "How much is a thousand pounds in euros?"),
                               const ExampleSentenceKurdish(
-                                  text: "هەزار پاوەند بە یۆرۆ دەبێتە چەند؟"),
+                                  text: "ھەزار پاوەند بە یۆرۆ دەبێتە چەند؟"),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBes14("en-GB"),
                               ),
@@ -714,7 +714,7 @@ class EnglishEntrybe extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "I've never been to Spain."),
                               const ExampleSentenceKurdish(
-                                  text: "هەرگیز نەچوومەتە ئیسپانیا."),
+                                  text: "ھەرگیز نەچوومەتە ئیسپانیا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBes14("en-GB"),
                               ),
@@ -744,13 +744,13 @@ class EnglishEntrybe extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١٤. (کردار) بۆ وتنی ئەوەی شتێک هی کێیە"""),
+١٤. (کردار) بۆ وتنی ئەوەی شتێک ھی کێیە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The money's not yours, it's John's."),
                               const ExampleSentenceKurdish(
-                                  text: "پارەکە هی تۆ نییە، هی جۆنە."),
+                                  text: "پارەکە ھی تۆ نییە، ھی جۆنە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBes16("en-GB"),
                               ),
@@ -769,7 +769,7 @@ class EnglishEntrybe extends StatelessWidget {
                                   text:
                                       "Money isn't everything (= it is not the only important thing)."),
                               const ExampleSentenceKurdish(
-                                  text: "پارە هەموو شت نییە."),
+                                  text: "پارە ھەموو شت نییە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBes17("en-GB"),
                               ),
@@ -787,7 +787,7 @@ class EnglishEntrybe extends StatelessWidget {
                                       "A thousand dollars is nothing to somebody as rich as he is."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەزار دۆلار بۆ دەوڵەمەندێکی وەک ئەو هیچ نییە."),
+                                      "ھەزار دۆلار بۆ دەوڵەمەندێکی وەک ئەو ھیچ نییە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBes18("en-GB"),
                               ),
@@ -901,7 +901,7 @@ class EnglishEntrybe extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١٩. (کاری یاریدەدەر) بۆ دووربوون لە دووبارە بەکارهێنانەوەی تەواوی کردارێک لە دەمی نادیار یان بەردەوامی"""),
+١٩. (کاری یاریدەدەر) بۆ دووربوون لە دووبارە بەکارھێنانەوەی تەواوی کردارێک لە دەمی نادیار یان بەردەوامی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -909,7 +909,7 @@ class EnglishEntrybe extends StatelessWidget {
                                       "Karen wasn't beaten in any of her games, but all the others were."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کارن لە هیچ کام لە یارییەکانی شکستی پێ‌نەهێندرا، بەڵام توانرا بۆ تەواوی ئەوانی تر."),
+                                      "کارن لە ھیچ کام لە یارییەکانی شکستی پێ‌نەھێندرا، بەڵام توانرا بۆ تەواوی ئەوانی تر."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBes24("en-GB"),
                               ),
@@ -965,7 +965,7 @@ class EnglishEntrybe extends StatelessWidget {
                                   text: "They are to be married in June."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پلان وایە لە حوزەیران هاوسەرگیری بکەن."),
+                                      "پلان وایە لە حوزەیران ھاوسەرگیری بکەن."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBes26("en-GB"),
                               ),
@@ -1004,7 +1004,7 @@ class EnglishEntrybe extends StatelessWidget {
                                   text:
                                       "Anna was nowhere to be found (= we could not find her anywhere)."),
                               const ExampleSentenceKurdish(
-                                  text: "ئانا لە هیچ کوێیەک نەبوو."),
+                                  text: "ئانا لە ھیچ کوێیەک نەبوو."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBes28("en-GB"),
                               ),
@@ -1021,7 +1021,7 @@ class EnglishEntrybe extends StatelessWidget {
                                   text:
                                       "He was never to see his wife again (= although he did not know it would be so at the time, he did not see her again)."),
                               const ExampleSentenceKurdish(
-                                  text: "هەرگیز ژنەکەی نەدییەوە."),
+                                  text: "ھەرگیز ژنەکەی نەدییەوە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBes29("en-GB"),
                               ),
@@ -1120,7 +1120,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Verb: be (Derived forms: am)
+- Verb: be (derived forms: am)
 1. Have the quality of being; (copula, used with an adjective or a predicate noun)
 "John is rich"; "This is not a good answer"
  
@@ -1159,7 +1159,7 @@ class EnglishMeaning extends StatelessWidget {
  
 13. Be priced at (= cost)
 
-- Noun: Be (Derived forms: Bes)
+- Noun: Be (derived forms: Bes)
 1. A light strong brittle grey toxic bivalent metallic element (= beryllium, glucinium, atomic number 4)
 """,
           )

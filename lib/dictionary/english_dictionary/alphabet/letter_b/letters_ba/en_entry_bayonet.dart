@@ -204,7 +204,7 @@ class EnglishEntrybayonet extends StatelessWidget {
                                       "Innocent civilians had been shot and bayoneted."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هاوڵاتی بێ‌تاوان بە فیشەک و سەرنێزە لێیان دراوە."),
+                                      "ھاوڵاتی بێ‌تاوان بە فیشەک و سەرنێزە لێیان دراوە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBayonets2("en-GB"),
                               ),
@@ -265,10 +265,10 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: bayonet (Derived forms: bayonets)
+- Noun: bayonet (derived forms: bayonets)
 1. A knife that can be fixed to the end of a rifle and used as a weapon
 
-- Verb: bayonet (Derived forms: bayonetted, bayonetting, bayonets, bayoneting, bayoneted)
+- Verb: bayonet (derived forms: bayonetted, bayonetting, bayonets, bayoneting, bayoneted)
 1. Stab or kill someone with a bayonet
 """,
           )

@@ -318,9 +318,9 @@ class EnglishEntrybeat extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: لێدان، پیاکێشان، کوتان، دەنگی لێدان، لێدان(پرتە و دڵ)، ترپە، ڕیتم (موسیقی)، کێش، هەڤدەن، زەبر، هێز (هەڵبەست)، ڕێڕەو، ڕێگا، جووڵەی باڵەکانی باڵندە، پێشکەوتن، پێش‌وەچوون، شوێنی تیاگەڕان، ناوچەی نۆبەداری (ئەفسەری پۆلیس)، نافەرمی هیلاک، شەکەت، ماندوو
+کوردی: لێدان، پیاکێشان، کوتان، دەنگی لێدان، لێدان(پرتە و دڵ)، ترپە، ڕیتم (موسیقی)، کێش، ھەڤدەن، زەبر، ھێز (ھەڵبەست)، ڕێڕەو، ڕێگا، جووڵەی باڵەکانی باڵندە، پێشکەوتن، پێش‌وەچوون، شوێنی تیاگەڕان، ناوچەی نۆبەداری (ئەفسەری پۆلیس)، نافەرمی ھیلاک، شەکەت، ماندوو
 
-١. (کردار) شکستهێنان بە کەسێک لە یارییەک یان پێشبڕکێیەک"""),
+١. (کردار) شکستھێنان بە کەسێک لە یارییەک یان پێشبڕکێیەک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -360,7 +360,7 @@ class EnglishEntrybeat extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "Nothing beats home cooking."),
                               const ExampleSentenceKurdish(
-                                  text: "هیچ باشتر نابێت لە خواردنی ماڵەوە."),
+                                  text: "ھیچ باشتر نابێت لە خواردنی ماڵەوە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeats8("en-GB"),
                               ),
@@ -372,7 +372,7 @@ class EnglishEntrybeat extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (کردار) سەپاندنی هەژموون بەسەر شتێکدا"""),
+٣. (کردار) سەپاندنی ھەژموون بەسەر شتێکدا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -380,7 +380,7 @@ class EnglishEntrybeat extends StatelessWidget {
                                       "The government's main aim is to beat inflation."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئامانجی سەرەکی حکومەت ئەوەیە کۆنترۆڵی هەڵاوسانی ئابووری بکات."),
+                                      "ئامانجی سەرەکی حکومەت ئەوەیە کۆنترۆڵی ھەڵاوسانی ئابووری بکات."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeats3("en-GB"),
                               ),
@@ -439,7 +439,7 @@ class EnglishEntrybeat extends StatelessWidget {
                                       "At that time children were regularly beaten for quite minor offences (= as a punishment)."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەو کات منداڵان کوتەکیان دەخوارد بە بەردەوامی بۆ هەڵەی زۆر بچووک."),
+                                      "ئەو کات منداڵان کوتەکیان دەخوارد بە بەردەوامی بۆ ھەڵەی زۆر بچووک."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeats6("en-GB"),
                               ),
@@ -493,7 +493,7 @@ class EnglishEntrybeat extends StatelessWidget {
                                   text:
                                       "She's alive—her heart is still beating."),
                               const ExampleSentenceKurdish(
-                                  text: "زیندووە، دڵی هێشتا لێدەدات."),
+                                  text: "زیندووە، دڵی ھێشتا لێدەدات."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeats10("en-GB"),
                               ),
@@ -510,7 +510,7 @@ class EnglishEntrybeat extends StatelessWidget {
                                   text: "We heard the drums beating."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "گوێمان لە دەنگی لێدانی دەهۆڵەکان بوو."),
+                                      "گوێمان لە دەنگی لێدانی دەھۆڵەکان بوو."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeats11("en-GB"),
                               ),
@@ -560,7 +560,7 @@ class EnglishEntrybeat extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١١. (ناو) یەک لێدانی شتێک، بۆ نموونە یەک ترپەی دڵ، یان یەک لێدانی لە دەهۆڵ"""),
+١١. (ناو) یەک لێدانی شتێک، بۆ نموونە یەک ترپەی دڵ، یان یەک لێدانی لە دەھۆڵ"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -568,7 +568,7 @@ class EnglishEntrybeat extends StatelessWidget {
                                       "I put my head on his chest but I could feel no heartbeat."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سەرم خستە سەر سنگی بەڵام گوێم لە هیچ ترپەیەکی دڵ نەبوو."),
+                                      "سەرم خستە سەر سنگی بەڵام گوێم لە ھیچ ترپەیەکی دڵ نەبوو."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeats14("en-GB"),
                               ),
@@ -585,7 +585,7 @@ class EnglishEntrybeat extends StatelessWidget {
                                   text:
                                       "They danced to the beat of the drums."),
                               const ExampleSentenceKurdish(
-                                  text: "سەمایان دەکرد لەگەڵ ڕیتمی دەهۆڵەکان."),
+                                  text: "سەمایان دەکرد لەگەڵ ڕیتمی دەھۆڵەکان."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeats15("en-GB"),
                               ),
@@ -597,13 +597,13 @@ class EnglishEntrybeat extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١٢. (ناو) زنجیرەیەک لە لێدانی شتێک، بۆ نموونە لێدانی دڵ یان دەهۆڵ"""),
+١٢. (ناو) زنجیرەیەک لە لێدانی شتێک، بۆ نموونە لێدانی دڵ یان دەھۆڵ"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She felt the beat of his heart."),
                               const ExampleSentenceKurdish(
-                                  text: "هەستی بە لێدانی دڵی کرد."),
+                                  text: "ھەستی بە لێدانی دڵی کرد."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeats16("en-GB"),
                               ),
@@ -615,7 +615,7 @@ class EnglishEntrybeat extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١٣. (ناو) ڕیتمی سەرەکی، یان یەک یەکەی ڕیتمێک، لە پارچەیەک میوزیک یان هۆنراوە"""),
+١٣. (ناو) ڕیتمی سەرەکی، یان یەک یەکەی ڕیتمێک، لە پارچەیەک میوزیک یان ھۆنراوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -642,7 +642,7 @@ class EnglishEntrybeat extends StatelessWidget {
                                       "More police officers out on the beat may help to cut crime."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پۆلیسی زیاتر لە نۆبەداریدا بن ئەگەری هەیە تاوان کەمبکاتەوە."),
+                                      "پۆلیسی زیاتر لە نۆبەداریدا بن ئەگەری ھەیە تاوان کەمبکاتەوە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeats18("en-GB"),
                               ),
@@ -654,7 +654,7 @@ class EnglishEntrybeat extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١٥. (هاوەڵناو) زۆر ماندوو"""),
+١٥. (ھاوەڵناو) زۆر ماندوو"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -721,7 +721,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Verb: beat (Derived forms: beaten, beat, beating, beats)
+- Verb: beat (derived forms: beaten, beat, beating, beats)
 1. Hit repeatedly
 "beat on the door"; "beat the table with his shoe"
  
@@ -790,7 +790,7 @@ class EnglishMeaning extends StatelessWidget {
 23. [informal] Wear out completely (= exhaust, wash up, tucker [N. Amer, informal], tucker out [N. Amer, informal])
 "I'm beat";
 
-- Noun: beat (Derived forms: beats)
+- Noun: beat (derived forms: beats)
 1. A regular route for a sentry or policeman (= round)
 "in the old days a policeman walked a beat and knew all his people by name";
  

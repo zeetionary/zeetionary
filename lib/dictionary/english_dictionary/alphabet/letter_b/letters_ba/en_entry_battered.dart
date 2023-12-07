@@ -175,9 +175,9 @@ class EnglishEntrybattered extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: لەبەریەک‌هەڵوەشاو، کۆنە، شڕ، ڕزیو، شپرزە، لەکارکەوتوو
+کوردی: لەبەریەک‌ھەڵوەشاو، کۆنە، شڕ، ڕزیو، شپرزە، لەکارکەوتوو
 
-١. (ھاوەڵناو) شتێکی کۆن کە زۆر بەکارهاتووە"""),
+١. (ھاوەڵناو) شتێکی کۆن کە زۆر بەکارھاتووە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -185,7 +185,7 @@ class EnglishEntrybattered extends StatelessWidget {
                                       "The battered car was still running, but it was barely roadworthy."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئۆتۆمبێلە شڕەکە هێشتا بەڕێدا دەچوو، بەڵام بەئەستەم هی ئەوە بوو بچێتە سەر شەقام."),
+                                      "ئۆتۆمبێلە شڕەکە ھێشتا بەڕێدا دەچوو، بەڵام بەئەستەم ھی ئەوە بوو بچێتە سەر شەقام."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBattereds1("en-GB"),
                               ),
@@ -197,7 +197,7 @@ class EnglishEntrybattered extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ھاوەڵناو) کەسێک کە ئازاری هەیە بەهۆی لێدانی بەردەوام """),
+٢. (ھاوەڵناو) کەسێک کە ئازاری ھەیە بەھۆی لێدانی بەردەوام """),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -217,7 +217,7 @@ class EnglishEntrybattered extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (ھاوەڵناو) شتێک کە لە دۆخێکی خراپدایە بەهۆی هێرشی چەکەوە یان کەشوهەواوە"""),
+٣. (ھاوەڵناو) شتێک کە لە دۆخێکی خراپدایە بەھۆی ھێرشی چەکەوە یان کەشوھەواوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -225,7 +225,7 @@ class EnglishEntrybattered extends StatelessWidget {
                                       "Rockets and shells continued to hit the battered port."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕۆکێت و گوللەتۆپەوە بەردەوامبوون لە لێدان لە بەندەرە لەبەریەک‌هەڵوەشاوەکە."),
+                                      "ڕۆکێت و گوللەتۆپەوە بەردەوامبوون لە لێدان لە بەندەرە لەبەریەک‌ھەڵوەشاوەکە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBattereds3("en-GB"),
                               ),

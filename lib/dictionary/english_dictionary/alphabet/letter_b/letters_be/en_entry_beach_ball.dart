@@ -244,7 +244,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: beachball (Derived forms: beachballs, beach balls)
+- Noun: beachball (derived forms: beachballs, beach balls)
 1. Large and light ball; for play at the seaside (= beach ball)
 """,
           )

@@ -237,7 +237,7 @@ class EnglishEntrybeast extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٤. (ناو) شتێک کە خاسیەتی تایبەتی خۆی هەیە"""),
+٤. (ناو) شتێک کە خاسیەتی تایبەتی خۆی ھەیە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -305,7 +305,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: beast (Derived forms: beasts)
+- Noun: beast (derived forms: beasts)
 1. A living organism characterized by voluntary movement (= animal, animate being, brute, creature, fauna)
  
 2. A cruelly rapacious person (= wolf, savage, brute, wildcat [informal])

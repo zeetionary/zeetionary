@@ -172,7 +172,7 @@ class EnglishEntrybathe extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: خۆشتن، مەلێ، سۆبایی، سۆباهی
+کوردی: خۆشتن، مەلێ، سۆبایی، سۆباھی
 
 ١. (کردار) ششتنی شتێک لە ئاودا"""),
                           Row(
@@ -220,7 +220,7 @@ class EnglishEntrybathe extends StatelessWidget {
                                       "We love to go bathe in the ocean whenever we visit the beach."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "حەزدەکەین بچین بۆ مەلەوانی لە زەریاکەدا هەرکاتێک دەچینە کەناراوەکە."),
+                                      "حەزدەکەین بچین بۆ مەلەوانی لە زەریاکەدا ھەرکاتێک دەچینە کەناراوەکە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBathes3("en-GB"),
                               ),
@@ -260,7 +260,7 @@ class EnglishEntrybathe extends StatelessWidget {
                                       "The children took a bathe in the sea every day of their summer vacation."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "منداڵەکان هەموو ڕۆژێکی پشووی هاوینەیان مەلەیان دەکرد لە دەریاکە ."),
+                                      "منداڵەکان ھەموو ڕۆژێکی پشووی ھاوینەیان مەلەیان دەکرد لە دەریاکە ."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBathes5("en-GB"),
                               ),
@@ -321,7 +321,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Verb: bathe (Derived forms: bathes, bathed, bathing)
+- Verb: bathe (derived forms: bathes, bathed, bathing)
 1. Cleanse the entire body
 "bathe daily"
  
@@ -330,7 +330,7 @@ class EnglishMeaning extends StatelessWidget {
  
 3. Swim for pleasure or recreation
 
-- Noun: bathe (Derived forms: bathes)
+- Noun: bathe (derived forms: bathes)
 1. The act of swimming for pleasure or recreation
 "the Englishman said he had a good bathe"
 """,

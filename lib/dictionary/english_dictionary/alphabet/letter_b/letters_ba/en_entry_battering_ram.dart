@@ -175,7 +175,7 @@ class EnglishEntrybatteringram extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: کەلەبەران، درگاشکێن، شوورەڕووخێن، قەڵاڕووخێن، دیوارشکێن، قەڵاڕمێن (ئامێرێکی شەڕی کۆنە)
 
-١. (ھاوەڵناو) پارچە دارێکی گەورە کە لە کۆندا بەکاردەهات بۆ شکاندنی دەرگا و دیوار"""),
+١. (ھاوەڵناو) پارچە دارێکی گەورە کە لە کۆندا بەکاردەھات بۆ شکاندنی دەرگا و دیوار"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -183,7 +183,7 @@ class EnglishEntrybatteringram extends StatelessWidget {
                                       "The besiegers used a battering ram to breach the castle walls."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئابڵووقەدەران دەرگاشکێنێکیان بەکارهێنا بۆ قڵشکردنە دیوارەکانی قەڵاکە."),
+                                      "ئابڵووقەدەران دەرگاشکێنێکیان بەکارھێنا بۆ قڵشکردنە دیوارەکانی قەڵاکە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBatteringrams1("en-GB"),
                               ),
@@ -244,7 +244,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: battering ram (Derived forms: battering rams)
+- Noun: battering ram (derived forms: battering rams)
 1. A ram used to break down doors of fortified buildings
 """,
           )

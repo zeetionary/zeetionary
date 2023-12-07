@@ -43,7 +43,8 @@ class EnglishEntrybecome extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("When did you first become aware of the problem?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "When did you first become aware of the problem?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBecomes3(String languageCode) async {
@@ -59,7 +60,8 @@ class EnglishEntrybecome extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("His job has become his whole life."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("His job has become his whole life."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBecomes5(String languageCode) async {
@@ -67,7 +69,8 @@ class EnglishEntrybecome extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Such behaviour did not become her."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Such behaviour did not become her."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBecomes6(String languageCode) async {
@@ -75,7 +78,8 @@ class EnglishEntrybecome extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Short hair really becomes you."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Short hair really becomes you."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBecomes7(String languageCode) async {
@@ -141,7 +145,7 @@ class EnglishEntrybecome extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 15
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -173,7 +177,7 @@ class EnglishEntrybecome extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: بوون، گەورە بوون، شیاو بوون، شایان بوون، هاتن
+کوردی: بوون، گەورە بوون، شیاو بوون، شایان بوون، ھاتن
 
 ١. (کردار) بوون بە شتێک"""),
                           Row(
@@ -199,7 +203,8 @@ class EnglishEntrybecome extends StatelessWidget {
                                   text:
                                       "When did you first become aware of the problem?"),
                               const ExampleSentenceKurdish(
-                                  text: "کەی بۆ یەکەمجار ئاگاداری کێشەکە بوویت؟"),
+                                  text:
+                                      "کەی بۆ یەکەمجار ئاگاداری کێشەکە بوویت؟"),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBecomes2("en-GB"),
                               ),
@@ -213,8 +218,7 @@ class EnglishEntrybecome extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "She became queen in 1952."),
+                                  text: "She became queen in 1952."),
                               const ExampleSentenceKurdish(
                                   text: "لە ساڵی ١٩٥٢ بوو بە شاژن."),
                               CustomIconButtonBritish(
@@ -230,8 +234,7 @@ class EnglishEntrybecome extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "His job has become his whole life."),
+                                  text: "His job has become his whole life."),
                               const ExampleSentenceKurdish(
                                   text: "کارەکەی بوو بە تەواوی ژیانی."),
                               CustomIconButtonBritish(
@@ -249,8 +252,7 @@ class EnglishEntrybecome extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "Such behaviour did not become her."),
+                                  text: "Such behaviour did not become her."),
                               const ExampleSentenceKurdish(
                                   text: "ڕەفتاری وا لەو نەدەوەشاوە."),
                               CustomIconButtonBritish(
@@ -268,8 +270,7 @@ class EnglishEntrybecome extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "Short hair really becomes you."),
+                                  text: "Short hair really becomes you."),
                               const ExampleSentenceKurdish(
                                   text: "قژی کورتت لێ دێت."),
                               CustomIconButtonBritish(
@@ -332,7 +333,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Verb: become (Derived forms: becoming, became, become, becomes) 
+- Verb: become (derived forms: becoming, became, become, becomes) 
 1. Enter or assume a certain state or condition (= go, get)
 "He became annoyed when he heard the bad news";
 
@@ -357,7 +358,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/hFZFjoX2cGg?t=";
+  static String myVideoId = "hFZFjoX2cGg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -382,7 +383,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/R_fZjGm2OrM?t=";
+  static String myVideoId = "R_fZjGm2OrM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -407,7 +408,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/khOUvmOQExc?t=";
+  static String myVideoId = "khOUvmOQExc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -432,7 +433,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/Cxqca4RQd_M?t=";
+  static String myVideoId = "Cxqca4RQd_M";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -457,7 +458,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/a3WnvDtDD2M?t=";
+  static String myVideoId = "a3WnvDtDD2M";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -482,7 +483,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/tXjHb5QmDV0?t=";
+  static String myVideoId = "tXjHb5QmDV0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -507,7 +508,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/LAOoF2gyQaA?t=";
+  static String myVideoId = "LAOoF2gyQaA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -532,7 +533,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/nRafaCcfrcI?t=";
+  static String myVideoId = "nRafaCcfrcI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -557,7 +558,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/oj6C9MJ89ho?t=";
+  static String myVideoId = "oj6C9MJ89ho";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -582,7 +583,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/6mRbDEtDoyA?t=";
+  static String myVideoId = "6mRbDEtDoyA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -607,7 +608,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/gP2HftJJwSE?t=";
+  static String myVideoId = "gP2HftJJwSE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -632,7 +633,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/eCkyWBPaTC8?t=";
+  static String myVideoId = "eCkyWBPaTC8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -657,7 +658,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 class YoutubeEmbeddedthirteen extends StatelessWidget {
   YoutubeEmbeddedthirteen({super.key});
 
-  static String myVideoId = "https://youtu.be/9Bnu0UrgxBg?t=";
+  static String myVideoId = "9Bnu0UrgxBg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

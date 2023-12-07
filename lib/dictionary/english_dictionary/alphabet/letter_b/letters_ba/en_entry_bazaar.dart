@@ -201,7 +201,7 @@ class EnglishEntrybazaar extends StatelessWidget {
                                   text: "She got it at the church bazaar."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە بازاڕە خێرخوازییەکەی کڵێساکە هێنای."),
+                                      "لە بازاڕە خێرخوازییەکەی کڵێساکە ھێنای."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBazaars2("en-GB"),
                               ),
@@ -262,7 +262,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: bazaar (Derived forms: bazaars)
+- Noun: bazaar (derived forms: bazaars)
 1. A shop where a variety of goods are sold
  
 2. A marketplace, particularly in the Middle East, with shops and stalls (= bazar [non-standard])

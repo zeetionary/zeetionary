@@ -376,11 +376,11 @@ class EnglishEntryart extends StatelessWidget {
                                   text:
                                       "پارەی زیاتری حکومەت بۆ ھونەر پێویستە."),
                               CustomIconButtonBritish(
-                                onPressed: () => speakArt939("en-GB"),
+                                onPressed: () => speakArt947("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () =>
-                                    speakArt939(// REPLACE: art /ɑːrt/
+                                    speakArt947(// REPLACE: art /ɑːrt/
                                         "en-US"),
                               ),
                             ],
@@ -401,11 +401,11 @@ class EnglishEntryart extends StatelessWidget {
                                   text:
                                       "دراما ھونەرێکە زۆرجار لە ھۆڵی شانۆ پێشکەش دەکرێت."),
                               CustomIconButtonBritish(
-                                onPressed: () => speakArt950("en-GB"),
+                                onPressed: () => speakArt943("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () =>
-                                    speakArt950(// REPLACE: art /ɑːrt/
+                                    speakArt943(// REPLACE: art /ɑːrt/
                                         "en-US"),
                               ),
                             ],
@@ -450,11 +450,11 @@ class EnglishEntryart extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text: "ھەرگیز فێری ھونەری نانکردن نەبوومە."),
                               CustomIconButtonBritish(
-                                onPressed: () => speakArt939("en-GB"),
+                                onPressed: () => speakArt950("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () =>
-                                    speakArt939(// REPLACE: art /ɑːrt/
+                                    speakArt950(// REPLACE: art /ɑːrt/
                                         "en-US"),
                               ),
                             ],

@@ -223,7 +223,7 @@ class EnglishEntryapproximate extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کاتی گەشتنی شەمەندەفەرەکە بەنزیکەیی ١٠:٣٠ یە."),
+                                      "کاتی گەشتنی شەمەندەفەرەکە بە نزیکەیی ١٠:٣٠ یە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakApproximate952("en-GB"),
                               ),

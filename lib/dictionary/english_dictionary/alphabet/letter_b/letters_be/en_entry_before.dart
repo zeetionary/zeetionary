@@ -775,7 +775,7 @@ class EnglishEntrybefore extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "I think we've met before."),
                               const ExampleSentenceKurdish(
-                                  text: "پێـ‌وایە پێشووتر یەکمان دیوە."),
+                                  text: "پێم‌وایە پێشووتر یەکمان دیوە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBefores23("en-GB"),
                               ),

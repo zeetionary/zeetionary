@@ -202,7 +202,7 @@ class EnglishEntryonbehalfof extends StatelessWidget {
                                       "They campaigned on behalf of asylum seekers."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کەمپینیان ئەنجامدا بۆ یارمەتیدانی ئەوانەی داوای پەناگەیان پەنابەرێتییان دەکرد."),
+                                      "کەمپینیان ئەنجامدا بۆ یارمەتیدانی ئەوانەی داوای پەناگەی پەنابەرێتییان دەکرد."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakOnbehalfofs2("en-GB"),
                               ),

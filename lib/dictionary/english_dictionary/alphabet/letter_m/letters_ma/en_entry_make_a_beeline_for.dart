@@ -206,7 +206,7 @@ class EnglishEntrymakeabeelinefor extends StatelessWidget {
                                       "At parties he always makes a beeline for the prettiest woman in the room."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە ئاھەنگدا ھەمیشە دەنووسێت بە خوانترین ژنەکانی ژوورەکەوە."),
+                                      "لە ئاھەنگدا ھەمیشە دەنووسێت بە جوانترین ژنەکانی ژوورەکەوە."),
                               CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakMakeabeelinefors2("en-GB"),

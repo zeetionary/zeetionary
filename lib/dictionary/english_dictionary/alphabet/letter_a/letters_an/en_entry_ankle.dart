@@ -193,7 +193,7 @@ class EnglishEntryankle extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "تووشی گورزێکی کوشندە بوو لە قولەپێ‌یدا لەکاتی ڕاھێنان."),
+                                      "تووشی گورزێکی کوشندە بوو لە قولەپێ‌یدا لە کاتی ڕاھێنان."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnkle1112("en-GB"),
                               ),

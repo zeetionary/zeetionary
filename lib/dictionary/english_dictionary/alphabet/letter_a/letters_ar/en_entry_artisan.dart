@@ -191,7 +191,7 @@ class EnglishEntryartisan extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: پیشەساز، پیشەکار، پیشەگەر، وەستاکار، کرێکاری شارەزا یان تکنیکی
 
-١. (ناو) کەسێکی شارەزا کە کارێک بەدەستی دەکات کە پێویستی بە شارەزایی تایبەت ھەیە"""),
+١. (ناو) کەسێکی شارەزا کە کارێک بە دەستی دەکات کە پێویستی بە شارەزایی تایبەت ھەیە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

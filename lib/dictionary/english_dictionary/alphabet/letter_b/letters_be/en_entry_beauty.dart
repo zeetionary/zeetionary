@@ -238,7 +238,7 @@ class EnglishEntrybeauty extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "She had been a beauty in her day."),
                               const ExampleSentenceKurdish(
-                                  text: "لەکاتی خۆیدا نموونەیەکی جوانی بوو."),
+                                  text: "لە کاتی خۆیدا نموونەیەکی جوانی بوو."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeautys4("en-GB"),
                               ),

@@ -251,7 +251,7 @@ class EnglishEntryattend extends StatelessWidget {
                               //   width: 30,
                               // ),
                               const ExampleSentenceKurdish(
-                                  text: "لەکاتی وانەکەدا سەرنجی نەدەدا."),
+                                  text: "لە کاتی وانەکەدا سەرنجی نەدەدا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttend802("en-GB"),
                               ),

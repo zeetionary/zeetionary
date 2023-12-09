@@ -327,7 +327,7 @@ class EnglishEntryabout extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "They waited (for) about an hour."),
                               const ExampleSentenceKurdish(
-                                  text: "بەنزیکەیی یەک کاتژمێر چاوەڕێ بوون."),
+                                  text: "بە نزیکەیی یەک کاتژمێر چاوەڕێ بوون."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA54("en-GB"),
                               ),

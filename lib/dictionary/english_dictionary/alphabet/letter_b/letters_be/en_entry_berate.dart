@@ -141,7 +141,7 @@ class EnglishEntryberate extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   // VideoIconForTab(), // 10
@@ -173,14 +173,15 @@ class EnglishEntryberate extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-١. (کردار) سەرکۆنەکردنی کەسێک بەهۆی ئەوەی ناڕازیت لە شتێک کە کردوویەتی"""),
+١. (کردار) سەرکۆنەکردنی کەسێک بەھۆی ئەوەی ناڕازیت لە شتێک کە کردوویەتی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
                                       "She berated herself for being a bad mother."),
                               const ExampleSentenceKurdish(
-                                  text: "سەرکۆنەی خۆی کرد بۆ بوون بە دایکێکی خراپ."),
+                                  text:
+                                      "سەرکۆنەی خۆی کرد بۆ بوون بە دایکێکی خراپ."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBerates1("en-GB"),
                               ),
@@ -241,7 +242,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Verb: berate (Derived forms: berating, berates, berated)
+- Verb: berate (derived forms: berating, berates, berated)
 1. Censure severely or angrily (= call on the carpet [US, informal], take to task, rebuke, rag [informal], trounce, lecture, reprimand, jaw [informal], dress down [informal], call down [informal], scold, chide, bawl out [informal], remonstrate, chew out [N. Amer, informal], chew up [N. Amer, informal], have words, lambaste, lambast, ream [N. Amer, informal], wig [Brit, informal])
 "The deputy berated the Prime Minister";
 """,
@@ -257,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/DEDAjw9Ljrw?t=";
+  static String myVideoId = "DEDAjw9Ljrw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -282,7 +283,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/glS3RDoxYMM?t=";
+  static String myVideoId = "glS3RDoxYMM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -307,7 +308,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/HbUGTcdFIio?t=";
+  static String myVideoId = "HbUGTcdFIio";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -332,7 +333,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/IiyBo-qLDeM?t=";
+  static String myVideoId = "IiyBo-qLDeM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -357,7 +358,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/tTKX6P4g20U?t=";
+  static String myVideoId = "tTKX6P4g20U";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -382,7 +383,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/rhzgUq-lDVU?t=";
+  static String myVideoId = "rhzgUq-lDVU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -407,7 +408,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/yDp3cB5fHXQ?t=";
+  static String myVideoId = "yDp3cB5fHXQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -432,7 +433,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/eCQsjO2oQa8?t=";
+  static String myVideoId = "eCQsjO2oQa8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -457,7 +458,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/0fXC1v0yY14?t=";
+  static String myVideoId = "0fXC1v0yY14";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

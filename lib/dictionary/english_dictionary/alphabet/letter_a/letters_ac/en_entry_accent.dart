@@ -186,7 +186,7 @@ class EnglishEntryaccent extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ناو) ئەو ھێزەی کە دەیخەیتە سەر بەشێکی وشەیەک لەکاتی وتنی"""),
+٢. (ناو) ئەو ھێزەی کە دەیخەیتە سەر بەشێکی وشەیەک لە کاتی وتنی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

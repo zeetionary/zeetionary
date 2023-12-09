@@ -138,7 +138,7 @@ class EnglishEntryairbag extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-١. (ناو) ئامێرێکە لە ئۆتۆمبێلدا کە پڕ دەبێت لە ھەوا بۆ پاراستنی شۆفێرەکە لەکاتی پێکداداندا"""),
+١. (ناو) ئامێرێکە لە ئۆتۆمبێلدا کە پڕ دەبێت لە ھەوا بۆ پاراستنی شۆفێرەکە لە کاتی پێکداداندا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

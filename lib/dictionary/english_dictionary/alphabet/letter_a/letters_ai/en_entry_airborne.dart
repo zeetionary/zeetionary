@@ -151,7 +151,7 @@ class EnglishEntryairborne extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کورسییەکەت جێ مەھێڵە تا فڕۆکە دەچێتە ئاسمان (بارودۆخی فڕین)"),
+                                      "کورسییەکەت جێ مەھێڵە تا فڕۆکە دەچێتە ئاسمان (بارودۆخی فڕین)."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAirborne4237("en-GB"),
                               ),

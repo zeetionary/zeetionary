@@ -159,7 +159,7 @@ class EnglishEntryaccordingto extends StatelessWidget {
                                   text:
                                       "The work was done according to her instructions."),
                               const ExampleSentenceKurdish(
-                                  text: "کارەکە کرا بەپێی ڕێنماییەکانی ئەو"),
+                                  text: "کارەکە کرا بەپێی ڕێنماییەکانی ئەو."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc65874("en-GB"),
                               ),

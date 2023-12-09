@@ -178,7 +178,7 @@ class EnglishEntrybarring extends StatelessWidget {
                                       "Barring accidents, we should arrive on time."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "مەگەر ئەوەی ڕووداو ڕووبدات، ئەگەرنا لەکاتی خۆی دەگەین."),
+                                      "مەگەر ئەوەی ڕووداو ڕووبدات، ئەگەرنا لە کاتی خۆی دەگەین."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarrings1("en-GB"),
                               ),

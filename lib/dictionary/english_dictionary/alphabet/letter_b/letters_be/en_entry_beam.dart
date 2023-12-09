@@ -298,7 +298,7 @@ class EnglishEntrybeam extends StatelessWidget {
                             ],
                           ),
                           // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) پێکەنینێکی گەورە و خۆش"""),
                           Row(

@@ -315,7 +315,7 @@ class EnglishEntrybag extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ناو) جانتایەکی گەورە کە بەکاردێت بۆ تێخستنی جلوبەرگ لەکاتی گەشتکردن"""),
+٢. (ناو) جانتایەکی گەورە کە بەکاردێت بۆ تێخستنی جلوبەرگ لە کاتی گەشتکردن"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

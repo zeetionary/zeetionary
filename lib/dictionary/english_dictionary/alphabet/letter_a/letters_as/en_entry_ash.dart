@@ -240,7 +240,7 @@ class EnglishEntryash extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ناو) پاشماوەی شتێک کە بەتەواوی وێران‌بووە یان سووتاوە"""),
+٢. (ناو) پاشماوەی شتێک کە بە تەواوی وێران‌بووە یان سووتاوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

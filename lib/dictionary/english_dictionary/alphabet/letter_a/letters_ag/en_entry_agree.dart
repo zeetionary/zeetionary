@@ -300,7 +300,7 @@ class EnglishEntryagree extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "گێڕانەوەت بۆ ڕووداوەکە یەکناگرێتەوە لەگەڵ گێڕانەوەی ئەو"),
+                                      "گێڕانەوەت بۆ ڕووداوەکە یەکناگرێتەوە لەگەڵ گێڕانەوەی ئەو."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgr3544("en-GB"),
                               ),

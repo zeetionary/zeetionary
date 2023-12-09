@@ -240,7 +240,7 @@ class EnglishEntryapproximation extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ناو) شتێک بەنزیکەیی وەک شتێکی تر وایە، بەڵام بەتەواوی لێکچووی نییە"""),
+٢. (ناو) شتێک بە نزیکەیی وەک شتێکی تر وایە، بەڵام بە تەواوی لێکچووی نییە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

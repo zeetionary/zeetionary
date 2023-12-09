@@ -193,7 +193,7 @@ class EnglishEntryanesthesia extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "نەشتەرگەرییەکە لەژێر سڕکردنی تەواو دەکرێت (=نەخۆشەکە بێ‌ھۆش دەخرێت)"),
+                                      "نەشتەرگەرییەکە لەژێر سڕکردنی تەواو دەکرێت (=نەخۆشەکە بێ‌ھۆش دەخرێت)."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakanesthesia25630("en-GB"),
                               ),

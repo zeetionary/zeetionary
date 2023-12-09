@@ -177,7 +177,7 @@ class EnglishEntrybatsman extends StatelessWidget {
                                       "The next four batsmen made just 21 between them."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "چوار داربەدەستی دواتر پێکەوە ٢١ خاڵیان تۆمارکرد."),
+                                      "چوار داربە دەستی دواتر پێکەوە ٢١ خاڵیان تۆمارکرد."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBatsmans1("en-GB"),
                               ),

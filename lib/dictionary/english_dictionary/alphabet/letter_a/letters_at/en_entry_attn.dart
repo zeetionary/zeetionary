@@ -34,7 +34,7 @@ class EnglishEntryattn extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Please send all submissions via email attn: Bill Simms."); // DOPSUM: CHANGE TEXT
+        "Please send all submissions via email. attention: Bill Simms."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAttn(String languageCode) async {

@@ -204,7 +204,7 @@ class EnglishEntryautomatic extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سیستەمە لێخوڕە خۆکارەکە لەسەر فڕۆکەکە لەسەر ڕێڕەو ھێشتییەوە تەنانەت لەکاتی ھەڵبەز و دابەز."),
+                                      "سیستەمە لێخوڕە خۆکارەکە لەسەر فڕۆکەکە لەسەر ڕێڕەو ھێشتییەوە تەنانەت لە کاتی ھەڵبەز و دابەز."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAutomatic1027("en-GB"),
                               ),

@@ -183,7 +183,7 @@ class EnglishEntryannihilate extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: لەناوبردن، قوتکرن، ژناڤبرن، قڕکردن، 
 
-١. (کردار) لەناوبردنی شتێک بەتەواوی"""),
+١. (کردار) لەناوبردنی شتێک بە تەواوی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -194,7 +194,7 @@ class EnglishEntryannihilate extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "مرۆڤایەتی ھێندە چەکی ھەیە بەتەواوی خۆی لەناو ببات."),
+                                      "مرۆڤایەتی ھێندە چەکی ھەیە بە تەواوی خۆی لەناو ببات."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnnihilate113("en-GB"),
                               ),
@@ -208,7 +208,7 @@ class EnglishEntryannihilate extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (کردار) بردنەوە لە کەسێک و تێکشکاندنی بەتەواوی"""),
+٢. (کردار) بردنەوە لە کەسێک و تێکشکاندنی بە تەواوی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

@@ -168,7 +168,7 @@ class EnglishEntrybaste extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-١. (کردار) ڕژاندنی شلە بەسەر گۆشتدا لەکاتی ئامادەکردن"""),
+١. (کردار) ڕژاندنی شلە بەسەر گۆشتدا لە کاتی ئامادەکردن"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

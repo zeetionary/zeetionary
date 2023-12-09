@@ -152,7 +152,7 @@ class EnglishEntryaggravation extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لەلای بەڕێوبەر سکاڵا دەکەن، بەڵام ئەوە ناھێنێ (ئەو سەرئێشە تووشی خۆم بکەم)"),
+                                      "لەلای بەڕێوبەر سکاڵا دەکەن، بەڵام ئەوە ناھێنێ (ئەو سەرئێشە تووشی خۆم بکەم)."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAggrava685435("en-GB"),
                               ),

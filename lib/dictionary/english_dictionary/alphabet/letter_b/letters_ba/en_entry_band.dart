@@ -334,7 +334,7 @@ class EnglishEntryband extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سەر بە کام دەستەی باجدانی؟ (چەندە باج دەدەیت)"),
+                                      "سەر بە کام دەستەی باجدانی؟ (چەندە باج دەدەیت)."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBands6("en-GB"),
                               ),

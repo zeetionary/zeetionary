@@ -268,7 +268,7 @@ class EnglishEntryabsorb extends StatelessWidget {
                                   text: "His work absorbed him completely."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کارەکەی بەتەواوی ھەموو ھۆش و بیری بردبوو."),
+                                      "کارەکەی بە تەواوی ھەموو ھۆش و بیری بردبوو."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA3959("en-GB"),
                               ),

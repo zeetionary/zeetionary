@@ -179,7 +179,7 @@ class EnglishEntryaltogether extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "شەمەندەفەرەکە ھێواشتر و ھێواشتر چوو تا بەتەواوی وەستا."),
+                                      "شەمەندەفەرەکە ھێواشتر و ھێواشتر چوو تا بە تەواوی وەستا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAltogether588("en-GB"),
                               ),

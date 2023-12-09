@@ -188,7 +188,7 @@ class EnglishEntrybastard extends StatelessWidget {
                             ],
                           ),
                           // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) وشەیەک کە بەکاردێت بۆ کەسێک کە ئیرەیی یان بەزەییت بەرامبەری ھەیە"""),
                           Row(
@@ -226,7 +226,7 @@ class EnglishEntrybastard extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٤. (ناو) کەسێک کە لەکاتی لەدایکبوونی دایک و باوکی ھاسەری یەکدی نەبوون"""),
+٤. (ناو) کەسێک کە لە کاتی لەدایکبوونی دایک و باوکی ھاسەری یەکدی نەبوون"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

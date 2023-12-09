@@ -140,13 +140,13 @@ class EnglishEntryabsolutely extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: مسۆگەرانە، بێ‌گومان، سەداسەد، یەک‌پارچە، ڕەھایانە، بەشێوەیێکی ڕەھا، بێ‌مەرج، بێ‌شەرت‌ومەرج، بێ‌ئەملاوئەولا، بێ‌چەندوچۆن، بەتەواوەتی
 
-١. (ھاوەڵکار) بەکاردێت بۆ جەختکردنەوە لەوەی شتێک بەتەواوی ڕاستە"""),
+١. (ھاوەڵکار) بەکاردێت بۆ جەختکردنەوە لەوەی شتێک بە تەواوی ڕاستە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "You're absolutely right."),
                               const ExampleSentenceKurdish(
-                                  text: "بەتەواوی ڕاست دەکەیت."),
+                                  text: "بە تەواوی ڕاست دەکەیت."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA8632("en-GB"),
                               ),
@@ -161,7 +161,7 @@ class EnglishEntryabsolutely extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "The place was absolutely packed."),
                               const ExampleSentenceKurdish(
-                                  text: "شوێنەکە بەتەواوی پڕبوو."),
+                                  text: "شوێنەکە بە تەواوی پڕبوو."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAb7569("en-GB"),
                               ),
@@ -172,13 +172,13 @@ class EnglishEntryabsolutely extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ھاوەڵکار) لەگەڵ ھاوەڵناو بەکاردێت بۆ دەربڕینی ھەست بەتەواوی"""),
+٢. (ھاوەڵکار) لەگەڵ ھاوەڵناو بەکاردێت بۆ دەربڕینی ھەست بە تەواوی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She absolutely adores you."),
                               const ExampleSentenceKurdish(
-                                  text: "بەتەواوی حەزی لێتە."),
+                                  text: "بە تەواوی حەزی لێتە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA2143("en-GB"),
                               ),

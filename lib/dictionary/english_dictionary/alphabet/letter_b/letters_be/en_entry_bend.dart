@@ -34,8 +34,7 @@ class EnglishEntrybend extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He bent and kissed her."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He bent and kissed her."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBends2(String languageCode) async {
@@ -43,7 +42,8 @@ class EnglishEntrybend extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She bent forward to pick up the newspaper."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She bent forward to pick up the newspaper."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBends3(String languageCode) async {
@@ -51,7 +51,8 @@ class EnglishEntrybend extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Lie flat and let your knees bend."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Lie flat and let your knees bend."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBends4(String languageCode) async {
@@ -59,7 +60,8 @@ class EnglishEntrybend extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Mark the pipe where you want to bend it."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Mark the pipe where you want to bend it."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBends5(String languageCode) async {
@@ -67,7 +69,8 @@ class EnglishEntrybend extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The road bent sharply to the right."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The road bent sharply to the right."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBends6(String languageCode) async {
@@ -75,7 +78,8 @@ class EnglishEntrybend extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He lost control on a bend and crashed into a tree."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He lost control on a bend and crashed into a tree."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBends7(String languageCode) async {
@@ -83,7 +87,8 @@ class EnglishEntrybend extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("On the way up, divers stop at various depths in order to prevent the bends."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "On the way up, divers stop at various depths in order to prevent the bends."); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -141,7 +146,7 @@ class EnglishEntrybend extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 18
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -173,14 +178,13 @@ class EnglishEntrybend extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: خواروخێچی، پێچ، گەڕ، چەم، چەماوی، خواری، ئەژنۆیی، چەمانەوە، خواربوونەوە، نووچ، داهاتنەوە، نووشتانەوە، گرێی مەلەوانی
+کوردی: خواروخێچی، پێچ، گەڕ، چەم، چەماوی، خواری، ئەژنۆیی، چەمانەوە، خواربوونەوە، نووچ، داھاتنەوە، نووشتانەوە، گرێی مەلەوانی
 
 ١. (کردار) چەمانەوە، چەماندنەوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "He bent and kissed her."),
+                                  text: "He bent and kissed her."),
                               const ExampleSentenceKurdish(
                                   text: "چەمایەوە ماچی کرد."),
                               CustomIconButtonBritish(
@@ -199,7 +203,8 @@ class EnglishEntrybend extends StatelessWidget {
                                   text:
                                       "She bent forward to pick up the newspaper."),
                               const ExampleSentenceKurdish(
-                                  text: "بۆ پێشەوە چەمایەوە بۆ هەڵگرتنی ڕۆژنامەکە."),
+                                  text:
+                                      "بۆ پێشەوە چەمایەوە بۆ ھەڵگرتنی ڕۆژنامەکە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBends2("en-GB"),
                               ),
@@ -211,12 +216,11 @@ class EnglishEntrybend extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (کردار) چەماندنەوەی دەست، لاق، هتد"""),
+٢. (کردار) چەماندنەوەی دەست، لاق، ھتد"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "Lie flat and let your knees bend."),
+                                  text: "Lie flat and let your knees bend."),
                               const ExampleSentenceKurdish(
                                   text: "پاڵکەوە و قاچت بنووشتێنەوە."),
                               CustomIconButtonBritish(
@@ -237,7 +241,8 @@ class EnglishEntrybend extends StatelessWidget {
                                   text:
                                       "Mark the pipe where you want to bend it."),
                               const ExampleSentenceKurdish(
-                                  text: "بۆرییەکە لەو شوێنە نیشانە بکە کە دەتەوێت لاری بکەیت."),
+                                  text:
+                                      "بۆرییەکە لەو شوێنە نیشانە بکە کە دەتەوێت لاری بکەیت."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBends4("en-GB"),
                               ),
@@ -253,8 +258,7 @@ class EnglishEntrybend extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "The road bent sharply to the right."),
+                                  text: "The road bent sharply to the right."),
                               const ExampleSentenceKurdish(
                                   text: "ڕێگاکە بە تیژی بە ڕاستدا لادەدات."),
                               CustomIconButtonBritish(
@@ -275,7 +279,8 @@ class EnglishEntrybend extends StatelessWidget {
                                   text:
                                       "He lost control on a bend and crashed into a tree."),
                               const ExampleSentenceKurdish(
-                                  text: "لە لادانێکدا کۆنترۆڵی لەدەستدا و خۆی کێشا بە دیوارێکدا."),
+                                  text:
+                                      "لە لادانێکدا کۆنترۆڵی لەدەستدا و خۆی کێشا بە دیوارێکدا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBends6("en-GB"),
                               ),
@@ -287,14 +292,15 @@ class EnglishEntrybend extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٥. (کردار) ئازاری زۆر و کێشەی هەناسەدانی مەلەوانێک کە بەخێرایی دێتەوە ڕووی ئاوەکە"""),
+٥. (کردار) ئازاری زۆر و کێشەی ھەناسەدانی مەلەوانێک کە بەخێرایی دێتەوە ڕووی ئاوەکە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
                                       "On the way up, divers stop at various depths in order to prevent the bends."),
                               const ExampleSentenceKurdish(
-                                  text: "لە کاتی گەڕانەوە بۆ سەرەوە، مەلەوانان لە هەندێک قوڵایی جیاوازدا دەوەستن بۆ ڕێگری لە گرێ."),
+                                  text:
+                                      "لە کاتی گەڕانەوە بۆ سەرەوە، مەلەوانان لە ھەندێک قوڵایی جیاوازدا دەوەستن بۆ ڕێگری لە گرێ."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBends7("en-GB"),
                               ),
@@ -355,7 +361,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Verb: bend (Derived forms: bent, bending, bends)
+- Verb: bend (derived forms: bent, bending, bends)
 1. Form a curve (= flex)
 "The stick does not bend";
  
@@ -378,7 +384,7 @@ class EnglishMeaning extends StatelessWidget {
  
 8. (music) smoothly change the pitch of a note
 
-- Noun: bend (Derived forms: bends)
+- Noun: bend (derived forms: bends)
 1. A circular segment of a curve (= crook, twist, turn)
 "a bend in the road";
  
@@ -408,7 +414,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/-HyHZsa79LU?t=";
+  static String myVideoId = "-HyHZsa79LU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -433,7 +439,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/dJOz8SYbN28?t=";
+  static String myVideoId = "dJOz8SYbN28";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -458,7 +464,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/kGg44zdgHYM?t=";
+  static String myVideoId = "kGg44zdgHYM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -483,7 +489,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/fZJGTevM3QI?t=";
+  static String myVideoId = "fZJGTevM3QI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -508,7 +514,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/PkUg89kLLBE?t=";
+  static String myVideoId = "PkUg89kLLBE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -533,7 +539,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/kTaYet07Ioo?t=";
+  static String myVideoId = "kTaYet07Ioo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -558,7 +564,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/ujREEgxEP7g?t=";
+  static String myVideoId = "ujREEgxEP7g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -583,7 +589,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/3RkhZgRNC1k?t=";
+  static String myVideoId = "3RkhZgRNC1k";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -608,7 +614,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/oBcxuzdP3rs?t=";
+  static String myVideoId = "oBcxuzdP3rs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -633,7 +639,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/8FpPSMIB4uA?t=";
+  static String myVideoId = "8FpPSMIB4uA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -658,7 +664,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/H3jJ29oE8Zg?t=";
+  static String myVideoId = "H3jJ29oE8Zg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -683,7 +689,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/pJkgymyv0_s?t=";
+  static String myVideoId = "pJkgymyv0_s";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -708,7 +714,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 class YoutubeEmbeddedthirteen extends StatelessWidget {
   YoutubeEmbeddedthirteen({super.key});
 
-  static String myVideoId = "https://youtu.be/YfWoYF2Kfg8?t=";
+  static String myVideoId = "YfWoYF2Kfg8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -733,7 +739,7 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
 class YoutubeEmbeddedfourteen extends StatelessWidget {
   YoutubeEmbeddedfourteen({super.key});
 
-  static String myVideoId = "https://youtu.be/OCq8adZdKP4?t=";
+  static String myVideoId = "OCq8adZdKP4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -758,7 +764,7 @@ class YoutubeEmbeddedfourteen extends StatelessWidget {
 class YoutubeEmbeddedfifteen extends StatelessWidget {
   YoutubeEmbeddedfifteen({super.key});
 
-  static String myVideoId = "https://youtu.be/0onncd0_0-o?t=";
+  static String myVideoId = "0onncd0_0-o";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -783,7 +789,7 @@ class YoutubeEmbeddedfifteen extends StatelessWidget {
 class YoutubeEmbeddedsixteen extends StatelessWidget {
   YoutubeEmbeddedsixteen({super.key});
 
-  static String myVideoId = "https://youtu.be/cBazTqyIp2w?t=";
+  static String myVideoId = "cBazTqyIp2w";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

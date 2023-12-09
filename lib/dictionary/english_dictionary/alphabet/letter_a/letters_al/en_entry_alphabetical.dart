@@ -146,12 +146,9 @@ class EnglishEntryalphabetical extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The names on the list are in alphabetical order."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ناوەکان لە لیستەکەدا بە ڕیزبەندین (ئەلفوبێن)"),
+                                      "ناوەکان لە لیستەکەدا بە ڕیزبەندین (ئەلفوبێن)."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlphabetical365("en-GB"),
                               ),

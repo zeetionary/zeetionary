@@ -144,7 +144,7 @@ class EnglishEntryambition extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: بەرزەفڕی، بەرز(ە)خوازی، ھێزخوازی، ئارەزوو، ئامانج، ئاوات
 
-١. (ناو) شتێک کە دەتەوێت بیکەیت یان بەدەستی بھێنیت"""),
+١. (ناو) شتێک کە دەتەوێت بیکەیت یان بە دەستی بھێنیت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

@@ -348,7 +348,7 @@ class EnglishEntryaction extends StatelessWidget {
                                   text: "I never saw action during the war."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ھەرگیز ڕووبەڕووبوونەوەم نەبینی لەکاتی جەنگەکە."),
+                                      "ھەرگیز ڕووبەڕووبوونەوەم نەبینی لە کاتی جەنگەکە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAction4387("en-GB"),
                               ),

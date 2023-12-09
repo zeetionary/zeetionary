@@ -193,7 +193,7 @@ class EnglishEntryamputation extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕووداوێک لەکاتی منداڵی‌یدا بوو بەھۆی بڕینەوەی لاقێکی."),
+                                      "ڕووداوێک لە کاتی منداڵی‌یدا بوو بەھۆی بڕینەوەی لاقێکی."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmputation7704("en-GB"),
                               ),

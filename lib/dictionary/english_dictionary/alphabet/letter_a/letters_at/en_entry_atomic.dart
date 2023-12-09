@@ -216,7 +216,7 @@ class EnglishEntryatomic extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ھاوەڵناو) پەیوەندیدار بەو وزەیەی درووست دەبێت لەکاتی کەرتکردنی گەردیلە"""),
+٢. (ھاوەڵناو) پەیوەندیدار بەو وزەیەی درووست دەبێت لە کاتی کەرتکردنی گەردیلە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

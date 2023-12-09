@@ -126,7 +126,7 @@ class EnglishEntryabolition extends StatelessWidget {
                                       "The report recommended the complete abolition of the tax."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕاپۆرتەکە پێشنیاری بەتەواوی ھەڵوەشاندنی باجەکەی دەکرد."),
+                                      "ڕاپۆرتەکە پێشنیاری بە تەواوی ھەڵوەشاندنی باجەکەی دەکرد."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAb24("en-GB"),
                               ),

@@ -68,7 +68,7 @@ class EnglishEntrybellow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBellows55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He saw blood around the cow's mouth and heard the rasp of its breath between each anguished bellow."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBellows6(String languageCode) async {
@@ -258,10 +258,10 @@ class EnglishEntrybellow extends StatelessWidget {
                                   text:
                                       "خوێنی لە دەمی مانگاکەوە دی و گوێی لە دەنگی ھەناسەی بوو لەگەڵ ھەر نەڕەیەکی لەتاو ئازاردا."),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBellows4("en-GB"),
+                                onPressed: () => speakBellows5("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBellows4("en-US"),
+                                onPressed: () => speakBellows5("en-US"),
                               ),
                             ],
                           ),

@@ -173,7 +173,7 @@ class EnglishEntryamen extends StatelessWidget {
                               //   width: 30,
                               // ),
                               const ExampleSentenceKurdish(
-                                  text: "خودا بکات (ئەوە ڕووبدات)"),
+                                  text: "خودا بکات (ئەوە ڕووبدات)."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmen96552("en-GB"),
                               ),

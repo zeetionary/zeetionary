@@ -249,7 +249,7 @@ class EnglishEntrybeach extends StatelessWidget {
                             ],
                           ),
                           // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٣. (کردار) گیرخواردن لەسەر وشکانی و نەبوونی توانای گەڕانەوە بۆ ناو دەریا"""),
                           Row(

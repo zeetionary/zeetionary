@@ -276,7 +276,7 @@ class EnglishEntryaway extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٥. (ھاوەڵکار) تاوەکو بەتەواوی نامێنێت"""),
+٥. (ھاوەڵکار) تاوەکو بە تەواوی نامێنێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -285,7 +285,7 @@ class EnglishEntryaway extends StatelessWidget {
                               //   width: 30,
                               // ),
                               const ExampleSentenceKurdish(
-                                  text: "میوزیکەکە بەتەواوی داگیرسایەوە."),
+                                  text: "میوزیکەکە بە تەواوی داگیرسایەوە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAways5("en-GB"),
                               ),

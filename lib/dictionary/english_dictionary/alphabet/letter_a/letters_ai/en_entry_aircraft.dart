@@ -150,7 +150,7 @@ class EnglishEntryaircraft extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "فڕۆکەکە بەدەستی فڕۆکەوانێکی گەنجی ئەمریکییەوە بوو."),
+                                      "فڕۆکەکە بە دەستی فڕۆکەوانێکی گەنجی ئەمریکییەوە بوو."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAircraft32477("en-GB"),
                               ),

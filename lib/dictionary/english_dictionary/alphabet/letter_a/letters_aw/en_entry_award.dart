@@ -209,7 +209,7 @@ class EnglishEntryaward extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ناو) زیادبوونێک لەو پارەی کەسێک بەدەستی دەخات"""),
+٢. (ناو) زیادبوونێک لەو پارەی کەسێک بە دەستی دەخات"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

@@ -242,7 +242,7 @@ class EnglishEntryammunition extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "نامەکە ھەموو زانیارییەکی پێدا کە پێویستی‌بوو لە دژی ئەو"),
+                                      "نامەکە ھەموو زانیارییەکی پێدا کە پێویستی‌ بوو لە دژی ئەو."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmmunition411("en-GB"),
                               ),

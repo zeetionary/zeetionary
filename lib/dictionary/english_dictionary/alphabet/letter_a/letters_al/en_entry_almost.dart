@@ -150,7 +150,7 @@ class EnglishEntryalmost extends StatelessWidget {
                               //   width: 30,
                               // ),
                               const ExampleSentenceKurdish(
-                                  text: "بەنزیکەیی حەزم لە ھەموویانە."),
+                                  text: "بە نزیکەیی حەزم لە ھەموویانە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlmost4211("en-GB"),
                               ),
@@ -172,7 +172,7 @@ class EnglishEntryalmost extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "قەڵاکە بەنزیکەیی تەواو بە ئاو دەوردراوە."),
+                                      "قەڵاکە بە نزیکەیی تەواو بە ئاو دەوردراوە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlmost2489("en-GB"),
                               ),

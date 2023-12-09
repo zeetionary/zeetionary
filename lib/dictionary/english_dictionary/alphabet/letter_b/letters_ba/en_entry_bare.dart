@@ -330,7 +330,7 @@ class EnglishEntrybare extends StatelessWidget {
                                   text:
                                       "The fridge was completely bare."), // DOPSUM_WRITE_A_SENTENCE
                               const ExampleSentenceKurdish(
-                                  text: "ساردکەرەوەکە بەتەواوی بەتاڵ بوو."),
+                                  text: "ساردکەرەوەکە بە تەواوی بەتاڵ بوو."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBares6("en-GB"),
                               ),

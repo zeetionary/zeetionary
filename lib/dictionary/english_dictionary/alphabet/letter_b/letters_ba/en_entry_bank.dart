@@ -425,7 +425,7 @@ class EnglishEntrybank extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٧. (ناو) لێژاییەکی دەستکرد لە قەراخی ڕێگایەک کە لێژبووە بەرەو ناوەوە بۆ ڕێگری لە خلیسکان لەکاتی پێچکردنەوە"""),
+٧. (ناو) لێژاییەکی دەستکرد لە قەراخی ڕێگایەک کە لێژبووە بەرەو ناوەوە بۆ ڕێگری لە خلیسکان لە کاتی پێچکردنەوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

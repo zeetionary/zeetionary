@@ -201,7 +201,7 @@ class EnglishEntrybegrudge extends StatelessWidget {
                                   text:
                                       "I don't begrudge her being so successful."),
                               const ExampleSentenceKurdish(
-                                  text: "ناڕەحەت نابم بە سەرکەوتنی"),
+                                  text: "ناڕەحەت نابم بە سەرکەوتنی."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBegrudges2("en-GB"),
                               ),
@@ -221,7 +221,7 @@ class EnglishEntrybegrudge extends StatelessWidget {
                                       "I begrudge every second I spent trying to help him."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕقم لە ھەر چرکەیەک دەبێتەوە کە بەسەری دەبەم بە ھەوڵدان بۆ یارمەتیدانی"),
+                                      "ڕقم لە ھەر چرکەیەک دەبێتەوە کە بەسەری دەبەم بە ھەوڵدان بۆ یارمەتیدانی."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBegrudges3("en-GB"),
                               ),

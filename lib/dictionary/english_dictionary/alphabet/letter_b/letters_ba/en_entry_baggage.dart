@@ -182,7 +182,7 @@ class EnglishEntrybaggage extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-١. (ناو) جانتایەک کە کەلوپەل و شتومەکی کەسێکی تێدایە لەکاتی گەشتکردن"""),
+١. (ناو) جانتایەک کە کەلوپەل و شتومەکی کەسێکی تێدایە لە کاتی گەشتکردن"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

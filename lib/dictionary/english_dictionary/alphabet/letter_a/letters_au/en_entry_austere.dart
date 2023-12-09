@@ -248,7 +248,7 @@ class EnglishEntryaustere extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لەکاتی جەنگەکەدا ژیانێکی دژواریان ھەبوو."),
+                                      "لە کاتی جەنگەکەدا ژیانێکی دژواریان ھەبوو."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAustere458("en-GB"),
                               ),

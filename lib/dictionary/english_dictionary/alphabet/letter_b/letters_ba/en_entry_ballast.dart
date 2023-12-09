@@ -193,7 +193,7 @@ class EnglishEntryballast extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ژێردەریاکە ئاوی ھێنایە ژوورەوە بۆ بەکارھێنانی وەک ھاوسەنگێنە بۆ ئەوەی بەتەواوی خۆی داپۆشێت لەژێر ڕووی دەریاکە."),
+                                      "ژێردەریاکە ئاوی ھێنایە ژوورەوە بۆ بەکارھێنانی وەک ھاوسەنگێنە بۆ ئەوەی بە تەواوی خۆی داپۆشێت لەژێر ڕووی دەریاکە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBallasts1("en-GB"),
                               ),

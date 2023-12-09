@@ -43,7 +43,8 @@ class EnglishEntrybench extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She has recently been appointed to the bench."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She has recently been appointed to the bench."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBenchs3(String languageCode) async {
@@ -51,7 +52,8 @@ class EnglishEntrybench extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("There was lots of jeering from the Labour benches."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "There was lots of jeering from the Labour benches."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBenchs4(String languageCode) async {
@@ -59,7 +61,8 @@ class EnglishEntrybench extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He's sick of spending every game on the bench."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He's sick of spending every game on the bench."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBenchs5(String languageCode) async {
@@ -67,7 +70,8 @@ class EnglishEntrybench extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Most of the work constructing these objects is done at a bench."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Most of the work constructing these objects is done at a bench."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBenchs6(String languageCode) async {
@@ -141,7 +145,7 @@ class EnglishEntrybench extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -182,7 +186,8 @@ class EnglishEntrybench extends StatelessWidget {
                                   text:
                                       "The park was filled with families sitting on benches and enjoying the sunshine."),
                               const ExampleSentenceKurdish(
-                                  text: "پارکەکە پڕبوو لە کورسی کە خێزان لەسەری دانیشتبوون و چێژیان لە خۆرەتاوەکە دەبینی."),
+                                  text:
+                                      "پارکەکە پڕبوو لە کورسی کە خێزان لەسەری دانیشتبوون و چێژیان لە خۆرەتاوەکە دەبینی."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBenchs1("en-GB"),
                               ),
@@ -220,7 +225,8 @@ class EnglishEntrybench extends StatelessWidget {
                                   text:
                                       "There was lots of jeering from the Labour benches."),
                               const ExampleSentenceKurdish(
-                                  text: "هەرا و هاوارێکی زۆر لە کورسی پارتی کرێکارانەوە دەهات."),
+                                  text:
+                                      "ھەرا و ھاوارێکی زۆر لە کورسی پارتی کرێکارانەوە دەھات."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBenchs3("en-GB"),
                               ),
@@ -239,7 +245,8 @@ class EnglishEntrybench extends StatelessWidget {
                                   text:
                                       "He's sick of spending every game on the bench."),
                               const ExampleSentenceKurdish(
-                                  text: "بێزار بووە لەوەی هەموو یارییەک لەسەر کورسی یەدەگ دابنیشێت."),
+                                  text:
+                                      "بێزار بووە لەوەی ھەموو یارییەک لەسەر کورسی یەدەگ دابنیشێت."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBenchs4("en-GB"),
                               ),
@@ -258,7 +265,8 @@ class EnglishEntrybench extends StatelessWidget {
                                   text:
                                       "Most of the work constructing these objects is done at a bench."),
                               const ExampleSentenceKurdish(
-                                  text: "زۆرینەی کارەکانی درووستکردنی ئەم شتانە لەسەر مێزێک دەکرێت."),
+                                  text:
+                                      "زۆرینەی کارەکانی درووستکردنی ئەم شتانە لەسەر مێزێک دەکرێت."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBenchs5("en-GB"),
                               ),
@@ -319,7 +327,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-- Noun: bench (Derived forms: benches)
+- Noun: bench (derived forms: benches)
 1. A long seat for more than one person
  
 2. A level shelf of land interrupting a declivity (with steep slopes above and below) (= terrace)
@@ -333,7 +341,7 @@ class EnglishMeaning extends StatelessWidget {
  
 6. (law) the seat for judges in a courtroom
 
-- Verb: bench (Derived forms: benches, benched, benching)
+- Verb: bench (derived forms: benches, benched, benching)
 1. Take out of a game; of players
  
 2. Exhibit on a bench
@@ -358,7 +366,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/hFZFjoX2cGg?t=";
+  static String myVideoId = "hFZFjoX2cGg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -383,7 +391,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/CK78QUMcZL8?t=";
+  static String myVideoId = "CK78QUMcZL8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -408,7 +416,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/jwfI8BlFwMw?t=";
+  static String myVideoId = "jwfI8BlFwMw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -433,7 +441,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/9KapEXWynrA?t=";
+  static String myVideoId = "9KapEXWynrA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -458,7 +466,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/x9XIrfiNyUA?t=";
+  static String myVideoId = "x9XIrfiNyUA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -483,7 +491,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/iG8Rc83iSy4?t=";
+  static String myVideoId = "iG8Rc83iSy4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -508,7 +516,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/xcaeyJTx4Co?t=";
+  static String myVideoId = "xcaeyJTx4Co";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -533,7 +541,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/OCq8adZdKP4?t=";
+  static String myVideoId = "OCq8adZdKP4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -558,7 +566,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/s4QBhNkaAk8?t=";
+  static String myVideoId = "s4QBhNkaAk8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -583,7 +591,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/fDbxPVn02VU?t=";
+  static String myVideoId = "fDbxPVn02VU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

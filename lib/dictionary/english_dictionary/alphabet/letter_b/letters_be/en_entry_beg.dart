@@ -239,7 +239,7 @@ class EnglishEntrybeg extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "The children were begging for food."),
                               const ExampleSentenceKurdish(
-                                  text: "منداڵەکانی سواڵی خواردنیان دەکرد."),
+                                  text: "منداڵەکان سواڵی خواردنیان دەکرد."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBegs4("en-GB"),
                               ),

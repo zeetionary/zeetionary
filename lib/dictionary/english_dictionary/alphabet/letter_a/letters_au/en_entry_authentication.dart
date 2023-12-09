@@ -202,7 +202,7 @@ class EnglishEntryauthentication extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لەکاتی کڕینی خشڵ، دڵنیابە لەوەی سەنەدی ڕەسەنێتی خشڵەکە وەربگری."),
+                                      "لە کاتی کڕینی خشڵ، دڵنیابە لەوەی سەنەدی ڕەسەنێتی خشڵەکە وەربگری."),
                               CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakAuthentication643("en-GB"),

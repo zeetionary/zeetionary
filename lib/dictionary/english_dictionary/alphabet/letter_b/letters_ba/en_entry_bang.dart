@@ -414,7 +414,7 @@ class EnglishEntrybang extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٩. (ھاوەڵکار) بەتەواوی"""),
+٩. (ھاوەڵکار) بە تەواوی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -423,7 +423,8 @@ class EnglishEntrybang extends StatelessWidget {
                               //   width: 30,
                               // ),
                               const ExampleSentenceKurdish(
-                                  text: "خەمڵاندنەکەم بەتەواوی لەجێی خۆی بوو."),
+                                  text:
+                                      "خەمڵاندنەکەم بە تەواوی لەجێی خۆی بوو."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBangs9("en-GB"),
                               ),

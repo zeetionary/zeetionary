@@ -175,7 +175,7 @@ class EnglishEntrybathtub extends StatelessWidget {
                                       "The bathtub was so deep that I could completely submerge myself in the water."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "حەوزی خۆشتنەکە ھێندە قووڵ بوو کە بەتەواوی خۆم نقووم کرد لە ئاوەکەدا."),
+                                      "حەوزی خۆشتنەکە ھێندە قووڵ بوو کە بە تەواوی خۆم نقووم کرد لە ئاوەکەدا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBathtubs1("en-GB"),
                               ),

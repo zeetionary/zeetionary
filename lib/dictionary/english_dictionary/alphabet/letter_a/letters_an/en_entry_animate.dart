@@ -194,7 +194,7 @@ class EnglishEntryanimate extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پێکەنینێک ڕووخساری کردەوە (گەشاندەوە)"),
+                                      "پێکەنینێک ڕووخساری کردەوە (گەشاندەوە)."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnimate926("en-GB"),
                               ),

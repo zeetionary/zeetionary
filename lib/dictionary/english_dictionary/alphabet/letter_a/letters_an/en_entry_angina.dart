@@ -193,7 +193,7 @@ class EnglishEntryangina extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەگەر تووشی سنگ‌ئێشە دەبیت لەکاتی ڕاھێنان، بوەستە."),
+                                      "ئەگەر تووشی سنگ‌ئێشە دەبیت لە کاتی ڕاھێنان، بوەستە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngina440("en-GB"),
                               ),

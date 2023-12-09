@@ -169,7 +169,7 @@ class EnglishEntryactor extends StatelessWidget {
                                       "I don't know if he really meant the things he said—he was always a good actor."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "نازانم ئەگەر بە ڕاستی مەبەستی لەو شتانە بوو کە گوتی، ھەمیشە نمایشکارێکی باش بووە (ئاسان نییە بزانی ڕاست ئەکات یان نا)"),
+                                      "نازانم ئەگەر بە ڕاستی مەبەستی لەو شتانە بوو کە گوتی، ھەمیشە نمایشکارێکی باش بووە (ئاسان نییە بزانی ڕاست ئەکات یان نا)."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakActor25687("en-GB"),
                               ),

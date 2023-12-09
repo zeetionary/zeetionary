@@ -199,7 +199,7 @@ class EnglishEntryaqueduct extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "زۆرێک ژەنەراڵی ڕۆم ئاوبارەیان درووست‌دەکرد بۆ سوپاکانیان لەکاتی شەڕدا."),
+                                      "زۆرێک ژەنەراڵی ڕۆم ئاوبارەیان درووست‌دەکرد بۆ سوپاکانیان لە کاتی شەڕدا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAqueduct1000("en-GB"),
                               ),

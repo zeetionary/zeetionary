@@ -159,7 +159,7 @@ class EnglishEntryabsolute extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: ڕەھا، ناڕێژەیی، پەتی، ڕەبەق، تەواو، بێ‌ئەملاوئەولا، سەداسەد، بێ‌چەندوچۆن، گومان‌لێ‌نەکراو، مسۆگەر، بێ‌مەرج، دیاری‌نەکراو، نەبەستراو، بەرھەڵدا، ناپێبەند، ئازاد، بێ‌ئەندازە، بێ‌ڕادە، بێ‌سنوور
 
-١. (ھاوەڵناو) بەتەواوی"""),
+١. (ھاوەڵناو) بە تەواوی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

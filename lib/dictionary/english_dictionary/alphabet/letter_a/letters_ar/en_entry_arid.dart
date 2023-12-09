@@ -247,7 +247,7 @@ class EnglishEntryarid extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لەدوای چەند ساڵێکی بێ‌قازانج، کۆمپانیاکە دەستی‌کردووە بە سەرکەوتن."),
+                                      "لە دوای چەند ساڵێکی بێ‌قازانج، کۆمپانیاکە دەستی‌کردووە بە سەرکەوتن."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArid1131("en-GB"),
                               ),

@@ -192,7 +192,7 @@ class EnglishEntryannul extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ھاوسەرگیرییەکەیان ھەڵوەشێندرایەوە لەدوای تەنھا شەش مانگ."),
+                                      "ھاوسەرگیرییەکەیان ھەڵوەشێندرایەوە لە دوای تەنھا شەش مانگ."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnnul859("en-GB"),
                               ),

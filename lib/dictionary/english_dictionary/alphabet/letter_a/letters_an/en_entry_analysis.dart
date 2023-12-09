@@ -218,7 +218,7 @@ class EnglishEntryanalysis extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بڕیارەکەمان‌دا لەدوای لەبەرچاوگرتنی لێکدانەوەمان بۆ بارودۆخەکە."),
+                                      "بڕیارەکەمان‌دا لە دوای لەبەرچاوگرتنی لێکدانەوەمان بۆ بارودۆخەکە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnalysis7499("en-GB"),
                               ),

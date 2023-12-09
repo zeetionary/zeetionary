@@ -183,7 +183,7 @@ class EnglishEntryalight extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (کردار) نیشتنەوە لەسەر شتێک لەدوای فڕین بۆی"""),
+٢. (کردار) نیشتنەوە لەسەر شتێک لە دوای فڕین بۆی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

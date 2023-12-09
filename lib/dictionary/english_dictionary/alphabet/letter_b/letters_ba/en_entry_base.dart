@@ -343,7 +343,7 @@ class EnglishEntrybase extends StatelessWidget {
                                   text:
                                       "After the attack, they returned to base."),
                               const ExampleSentenceKurdish(
-                                  text: "لەدوای ھێرشەکە گەڕانەوە بنکەکە."),
+                                  text: "لە دوای ھێرشەکە گەڕانەوە بنکەکە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBases5("en-GB"),
                               ),

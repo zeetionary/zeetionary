@@ -299,7 +299,7 @@ class EnglishEntryappropriate extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە کارەکەی دەرکرا لەدوای ئەوەی زانرا ھەندێک لە پارەی کۆمپانیاکەی بۆ خۆی بەکارھێناوە."),
+                                      "لە کارەکەی دەرکرا لە دوای ئەوەی زانرا ھەندێک لە پارەی کۆمپانیاکەی بۆ خۆی بەکارھێناوە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppropriate357("en-GB"),
                               ),

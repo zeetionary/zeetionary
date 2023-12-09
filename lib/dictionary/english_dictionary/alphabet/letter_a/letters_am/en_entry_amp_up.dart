@@ -241,7 +241,7 @@ class EnglishEntryampup extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لەدوای ئەوەی جەماوەرەکەیان خرۆشاند بە نمایشی لایتەکان، باندەکە چوونە سەر ستەیج"),
+                                      "لە دوای ئەوەی جەماوەرەکەیان خرۆشاند بە نمایشی لایتەکان، باندەکە چوونە سەر ستەیج"),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmpup44855("en-GB"),
                               ),

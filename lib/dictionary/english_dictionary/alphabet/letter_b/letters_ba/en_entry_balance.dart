@@ -314,7 +314,7 @@ class EnglishEntrybalance extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (ناو) بڕی ماوە لەدوای بەکارھێنانی پارە"""),
+٣. (ناو) بڕی ماوە لە دوای بەکارھێنانی پارە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

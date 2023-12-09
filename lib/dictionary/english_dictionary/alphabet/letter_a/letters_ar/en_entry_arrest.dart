@@ -375,7 +375,7 @@ class EnglishEntryarrest extends StatelessWidget {
                               //   width: 30,
                               // ),
                               const ExampleSentenceKurdish(
-                                  text: "گیانی لەدەستدا لەدوای وەستانی دڵی."),
+                                  text: "گیانی لەدەستدا لە دوای وەستانی دڵی."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArrest435("en-GB"),
                               ),

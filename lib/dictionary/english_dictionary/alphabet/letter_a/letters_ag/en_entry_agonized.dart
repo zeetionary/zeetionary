@@ -151,7 +151,7 @@ class EnglishEntryagonized extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لەدوای پێنج مانگ مشتومڕی بەسوێ ڕێککەوتنەکەیان واژۆکرد."),
+                                      "لە دوای پێنج مانگ مشتومڕی بەسوێ ڕێککەوتنەکەیان واژۆکرد."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgonized147("en-GB"),
                               ),

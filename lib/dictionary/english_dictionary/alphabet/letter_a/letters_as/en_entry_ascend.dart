@@ -273,7 +273,7 @@ class EnglishEntryascend extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "شازادە گەنجەکە چووەسەر تەختی شاھانە لەدوای مەرگی باوکی."),
+                                      "شازادە گەنجەکە چووەسەر تەختی شاھانە لە دوای مەرگی باوکی."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAscend1136("en-GB"),
                               ),

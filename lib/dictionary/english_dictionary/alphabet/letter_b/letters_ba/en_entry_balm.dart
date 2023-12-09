@@ -217,7 +217,7 @@ class EnglishEntrybalm extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کرێمێکی پێستی بەکارھێنا لەدوای تەراشەکەی."),
+                                      "کرێمێکی پێستی بەکارھێنا لە دوای تەراشەکەی."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBalms2("en-GB"),
                               ),

@@ -202,7 +202,7 @@ class EnglishEntryautocratic extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سەرۆک دەستی لەکارکێشایەوە لەدوای ٣٠ ساڵ لە حوکمی سەرکوتکەرانە."),
+                                      "سەرۆک دەستی لەکارکێشایەوە لە دوای ٣٠ ساڵ لە حوکمی سەرکوتکەرانە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAutocratic944("en-GB"),
                               ),

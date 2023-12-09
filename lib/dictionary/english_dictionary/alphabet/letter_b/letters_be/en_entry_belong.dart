@@ -239,7 +239,7 @@ class EnglishEntrybelong extends StatelessWidget {
                                       "After three years in Cambridge, I finally feel as if I belong here."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لەدوای سێ ساڵ لە کامبریج، لەکۆتاییدا ھەست دەکەم ئێرە شوێنی گونجاوە بۆم"),
+                                      "لە دوای سێ ساڵ لە کامبریج، لەکۆتاییدا ھەست دەکەم ئێرە شوێنی گونجاوە بۆم"),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelongs4("en-GB"),
                               ),

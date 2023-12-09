@@ -132,7 +132,7 @@ class EnglishEntryabruptness extends StatelessWidget {
                                       "The abruptness of the ending comes as a shock after the long slow build-up."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لەناکاوی کۆتاییپێھێنانەکە وەک شۆکێک وابوو لەدوای ئەو ھەموو خۆئامادەکرنە دوور و درێژە."),
+                                      "لەناکاوی کۆتاییپێھێنانەکە وەک شۆکێک وابوو لە دوای ئەو ھەموو خۆئامادەکرنە دوور و درێژە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA6417("en-GB"),
                               ),

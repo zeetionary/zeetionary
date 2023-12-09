@@ -203,7 +203,7 @@ class EnglishEntryascendancy extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "مانچستەر یونایتید یارییەکەی کۆنترۆڵ کرد لەدوای گێمی یەکەم."),
+                                      "مانچستەر یونایتید یارییەکەی کۆنترۆڵ کرد لە دوای گێمی یەکەم."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAscendancy1157("en-GB"),
                               ),

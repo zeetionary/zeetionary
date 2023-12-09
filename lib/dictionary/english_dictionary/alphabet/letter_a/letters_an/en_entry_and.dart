@@ -234,7 +234,7 @@ class EnglishEntryand extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (لێکدەر) دواتر، لەدوای شتێک"""),
+٢. (لێکدەر) دواتر، لە دوای شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -257,7 +257,7 @@ class EnglishEntryand extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (لێکدەر) لەدوای ھەندێک کردار بەکاردێت بەمەبەستی پیشاندانی ھۆکاری ئەنجام‌دانی کردارەکە"""),
+٣. (لێکدەر) لە دوای ھەندێک کردار بەکاردێت بەمەبەستی پیشاندانی ھۆکاری ئەنجام‌دانی کردارەکە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

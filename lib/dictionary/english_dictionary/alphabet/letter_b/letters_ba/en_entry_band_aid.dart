@@ -190,7 +190,7 @@ class EnglishEntrybandaid extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پەرستارەکە لەزگەی خستەسەر داڕووشاوی منداڵەکە لەدوای ئەوەی لە پاسکیلەکەی کەوتبوو."),
+                                      "پەرستارەکە لەزگەی خستەسەر داڕووشاوی منداڵەکە لە دوای ئەوەی لە پاسکیلەکەی کەوتبوو."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBandaids1("en-GB"),
                               ),

@@ -184,7 +184,7 @@ class EnglishEntryaorta extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-١. (ناو) شاخوێن‌بەر؛ خوێن‌بەری سەرەکیی دڵی مرۆڤ کە خوێن بۆ ئەندامەکانی تری جەستە دەنێرێت لەدوای تێپەڕبوون بە سنگذا"""),
+١. (ناو) شاخوێن‌بەر؛ خوێن‌بەری سەرەکیی دڵی مرۆڤ کە خوێن بۆ ئەندامەکانی تری جەستە دەنێرێت لە دوای تێپەڕبوون بە سنگذا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

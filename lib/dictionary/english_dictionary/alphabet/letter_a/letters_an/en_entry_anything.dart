@@ -189,7 +189,7 @@ class EnglishEntryanything extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: شتێ، ھەرشتێ، ھەرچی (بێ)، کارێ، ھیچ‌کارێ، ھەرکار،ھیچ‌شتێ
 
-١. (جێناو) بەکاردێت بۆ ئاماژە بۆ شتێک لە ڕستەی نەرێ و پرسیاری، لە دوای if و whether، و لەدوای ھەندێک کردار، بۆ نموونە prevent و ban و avoid"""),
+١. (جێناو) بەکاردێت بۆ ئاماژە بۆ شتێک لە ڕستەی نەرێ و پرسیاری، لە دوای if و whether، و لە دوای ھەندێک کردار، بۆ نموونە prevent و ban و avoid"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

@@ -195,7 +195,7 @@ class EnglishEntrybackstage extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لەدوای نمایشەکە، ھەموو ڕێگەمان پێدرا بچینە پشتەوەی پەردە بۆ بینینی ئەکتەرەکان."),
+                                      "لە دوای نمایشەکە، ھەموو ڕێگەمان پێدرا بچینە پشتەوەی پەردە بۆ بینینی ئەکتەرەکان."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakB3s1("en-GB"),
                               ),

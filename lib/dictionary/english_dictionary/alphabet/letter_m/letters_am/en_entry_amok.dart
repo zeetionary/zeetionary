@@ -217,7 +217,7 @@ class EnglishEntryamok extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سوپاکە شێت‌وھار بوون لەدوای ئەوەی یەکێک لە سەرکردە باڵاکانیان کوژرا."),
+                                      "سوپاکە شێت‌وھار بوون لە دوای ئەوەی یەکێک لە سەرکردە باڵاکانیان کوژرا."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmok46669("en-GB"),
                               ),

@@ -215,7 +215,7 @@ class EnglishEntrymakeamends extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ھەوڵی دا دڵی دایکی ئاشت بکاتەوە لەدوای ئەوەی پێی گوتبوو بە کڕینی گوڵ بۆی."),
+                                      "ھەوڵی دا دڵی دایکی ئاشت بکاتەوە لە دوای ئەوەی پێی گوتبوو بە کڕینی گوڵ بۆی."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakMakeamends3466("en-GB"),
                               ),

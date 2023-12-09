@@ -176,7 +176,7 @@ class EnglishEntrybarrack extends StatelessWidget {
                                       "The soldiers trudged back to their barrack quarters after a long day of maneuvers."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سەربازەکان بە لاتەلات گەڕانەوە بۆ ژوورەکانی سەربازگەکەیان لەدوای ڕۆژێکی درێژ لە لە مەشق و ڕاھێنان."),
+                                      "سەربازەکان بە لاتەلات گەڕانەوە بۆ ژوورەکانی سەربازگەکەیان لە دوای ڕۆژێکی درێژ لە لە مەشق و ڕاھێنان."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarracks1("en-GB"),
                               ),

@@ -358,7 +358,7 @@ class EnglishEntryattack extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "منداڵێک لە نەخۆشخانە چاکدەبێتەوە لەدوای ھێرشێک بۆسەری لەلایەن سەگێکی بەرەڵاوە."),
+                                      "منداڵێک لە نەخۆشخانە چاکدەبێتەوە لە دوای ھێرشێک بۆسەری لەلایەن سەگێکی بەرەڵاوە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttack455("en-GB"),
                               ),

@@ -253,7 +253,7 @@ class EnglishEntryaway extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٤. (ھاوەڵکار) لەدوای کردار بەکاردێت بۆ وتنی ئەوەی شتێک بەردەوام یان بە وزەیەکی زۆرەوە دەکرێت"""),
+٤. (ھاوەڵکار) لە دوای کردار بەکاردێت بۆ وتنی ئەوەی شتێک بەردەوام یان بە وزەیەکی زۆرەوە دەکرێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

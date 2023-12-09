@@ -232,7 +232,7 @@ class EnglishEntryany extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: ھیچ‌چەشنە، ھیچ‌کەس، ھیچ‌کەسێ، ھەرکەس، ھەموو کەس، ھەرکەسێ، ھیچ‌یەک، ھەر، ھەریەک، ھەرکام، ئیدی، ئیتر
 
-١. (دیارخەر) بۆ پیشاندانی بڕ لەگەڵ ناوی نەژمێردراو یان کۆ لە ڕستەی نەرێ و پرسیاری، لەدوای if و whether، یان لەدوای ھەندێک کردارەوە، بۆ نموونە prevent و ban و forbid"""),
+١. (دیارخەر) بۆ پیشاندانی بڕ لەگەڵ ناوی نەژمێردراو یان کۆ لە ڕستەی نەرێ و پرسیاری، لە دوای if و whether، یان لە دوای ھەندێک کردارەوە، بۆ نموونە prevent و ban و forbid"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -351,7 +351,7 @@ class EnglishEntryany extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٤. (جێناو) بەکاردەھێنرێت لە ڕستەی نەرێ و پرسیاری، لەدوای if و whether بۆ ئاماژەکردن بە بڕ یان ژمارە"""),
+٤. (جێناو) بەکاردەھێنرێت لە ڕستەی نەرێ و پرسیاری، لە دوای if و whether بۆ ئاماژەکردن بە بڕ یان ژمارە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

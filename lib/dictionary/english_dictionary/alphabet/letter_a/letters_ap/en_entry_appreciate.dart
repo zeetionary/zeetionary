@@ -307,7 +307,7 @@ class EnglishEntryappreciate extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٤. (کردار) زیادبوونی نرخ لەدوای ماوەیەک"""),
+٤. (کردار) زیادبوونی نرخ لە دوای ماوەیەک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

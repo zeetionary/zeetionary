@@ -171,7 +171,7 @@ class EnglishEntryaimless extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "گوتی ژیانی بێ ئامانج بوو لەدوای ئەوەی منداڵەکانی ماڵەوەیان جێھێشت."),
+                                      "گوتی ژیانی بێ ئامانج بوو لە دوای ئەوەی منداڵەکانی ماڵەوەیان جێھێشت."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAimless4277("en-GB"),
                               ),

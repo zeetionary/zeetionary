@@ -151,7 +151,7 @@ class EnglishEntryachieve extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: بەدیھێنان، بەدەستھێنان، بردنەوە
 
-١. (کردار) بەدەستھێنانی شتێک لەدوای ھەوڵێکی زۆر"""),
+١. (کردار) بەدەستھێنانی شتێک لە دوای ھەوڵێکی زۆر"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

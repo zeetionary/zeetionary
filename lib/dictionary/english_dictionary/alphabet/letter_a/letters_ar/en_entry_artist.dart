@@ -251,7 +251,7 @@ class EnglishEntryartist extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لەدوای ئەوەی باندەکە پارچەپارچە بوون، جۆو دووبارە بە تەنیایی دەستی‌پێکردەوە."),
+                                      "لە دوای ئەوەی باندەکە پارچەپارچە بوون، جۆو دووبارە بە تەنیایی دەستی‌پێکردەوە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArtist846("en-GB"),
                               ),

@@ -202,7 +202,7 @@ class EnglishEntryargument extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لەدوای ھەندێک مشتومڕی گەرم بڕیارێک لە کۆتاییدا دار."),
+                                      "لە دوای ھەندێک مشتومڕی گەرم بڕیارێک لە کۆتاییدا دار."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArgument1032("en-GB"),
                               ),

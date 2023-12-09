@@ -268,7 +268,7 @@ class EnglishEntryalone extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٤. (ھاوەڵناو) لەدوای ناو بەکاردێت بۆ وتنی ئەوەی کەسی ناوبراو تەنھا کەسە"""),
+٤. (ھاوەڵناو) لە دوای ناو بەکاردێت بۆ وتنی ئەوەی کەسی ناوبراو تەنھا کەسە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

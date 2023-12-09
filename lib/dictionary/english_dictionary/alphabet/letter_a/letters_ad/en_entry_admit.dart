@@ -225,7 +225,7 @@ class EnglishEntryadmit extends StatelessWidget {
                                       "You will not be admitted to the theatre after the performance has started."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕێگەت پێنادرێت بچیتە ناو ھۆڵی شانۆ لەدوای ئەوەی نمایش دەستیپێکردووە."),
+                                      "ڕێگەت پێنادرێت بچیتە ناو ھۆڵی شانۆ لە دوای ئەوەی نمایش دەستیپێکردووە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdmit45682("en-GB"),
                               ),

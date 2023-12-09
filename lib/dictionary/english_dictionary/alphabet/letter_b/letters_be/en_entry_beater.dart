@@ -53,7 +53,7 @@ class EnglishEntrybeater extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He bought a cheap beater to get around until he could afford a new car. "); // DOPSUM: CHANGE TEXT
+        "He bought a cheap beater to get around until he could afford a new car."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBeaters4(String languageCode) async {
@@ -221,7 +221,7 @@ class EnglishEntrybeater extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "He bought a cheap beater to get around until he could afford a new car. "),
+                                      "He bought a cheap beater to get around until he could afford a new car."),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئۆتۆمبێلە شڕەیەکی ھەرزانی کڕی بۆ بەکارھێنان تاوەکو ئەوکاتەی دەتوانێت دانەیەکی تازە بکڕێت."),

@@ -217,7 +217,7 @@ class EnglishEntryamnesia extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لەدوای ڕووداوەکە تووشی بیرنەمایی ماوە ماوە دەبوو."),
+                                      "لە دوای ڕووداوەکە تووشی بیرنەمایی ماوە ماوە دەبوو."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmnesia663("en-GB"),
                               ),

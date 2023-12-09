@@ -199,7 +199,7 @@ class EnglishEntryaristocrat extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "قەڵاکە لەلایەن ژمارەیەک خانەدانی یەک لەدوای یەک خاوەندارێتی کراوە."),
+                                      "قەڵاکە لەلایەن ژمارەیەک خانەدانی یەک لە دوای یەک خاوەندارێتی کراوە."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAristocrat1207("en-GB"),
                               ),

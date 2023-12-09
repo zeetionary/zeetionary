@@ -196,7 +196,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "خانووەکەی لەدەستدا لەدوای ئەوەی مایەپووچ بوو."),
+                                      "خانووەکەی لەدەستدا لە دوای ئەوەی مایەپووچ بوو."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBankrupts1("en-GB"),
                               ),
@@ -219,7 +219,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لەدوای جەنگەکە بەریتانیا شەکەت و مایەپووچ بوو."),
+                                      "لە دوای جەنگەکە بەریتانیا شەکەت و مایەپووچ بوو."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBankrupts2("en-GB"),
                               ),

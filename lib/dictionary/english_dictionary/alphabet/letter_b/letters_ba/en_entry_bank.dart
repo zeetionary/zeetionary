@@ -294,7 +294,7 @@ class EnglishEntrybank extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پارەی یاریزانەکە بەرەو کەمبوون دەچوو لەدوای ژمارەیەک دۆڕان."),
+                                      "پارەی یاریزانەکە بەرەو کەمبوون دەچوو لە دوای ژمارەیەک دۆڕان."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBanks2("en-GB"),
                               ),
@@ -388,7 +388,7 @@ class EnglishEntrybank extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕووبارەکە قەراخەکانی پڕکرد لەدوای بارانی خەست."),
+                                      "ڕووبارەکە قەراخەکانی پڕکرد لە دوای بارانی خەست."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBanks6("en-GB"),
                               ),
@@ -496,7 +496,7 @@ class EnglishEntrybank extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١٠. (کردار) پارە خستنە بانک (لەدوای قازانجکردن)"""),
+١٠. (کردار) پارە خستنە بانک (لە دوای قازانجکردن)"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

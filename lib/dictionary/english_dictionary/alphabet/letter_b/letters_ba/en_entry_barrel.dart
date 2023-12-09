@@ -210,7 +210,7 @@ class EnglishEntrybarrel extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (ناو) بەشی پێشەوەی چەکێک کە فیشەکی پێدا تێپەڕ دەبێت لەدوای تەقاندنی"""),
+٣. (ناو) بەشی پێشەوەی چەکێک کە فیشەکی پێدا تێپەڕ دەبێت لە دوای تەقاندنی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

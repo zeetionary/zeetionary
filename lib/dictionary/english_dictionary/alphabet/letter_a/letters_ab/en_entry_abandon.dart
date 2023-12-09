@@ -211,7 +211,7 @@ class EnglishEntryabandon extends StatelessWidget {
                                       "Germany abandoned its political leaders after WWII."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەڵمانیا دەستبەرداری سەرکردایەتییەکەی بوو لەدوای جەنگی دووەمی جیھان."),
+                                      "ئەڵمانیا دەستبەرداری سەرکردایەتییەکەی بوو لە دوای جەنگی دووەمی جیھان."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA664("en-GB"),
                               ),

@@ -191,7 +191,7 @@ class EnglishEntrybarrage extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ناو) ڕێژەیەکی زۆر لە شتێک، بۆ نموونە پرسیار و ڕەخنە، ڕووبەڕووی کەسێک یەک‌ لەدوای یەک و بەخێرایی، زۆرجار بەشێوەیەکی توند"""),
+٢. (ناو) ڕێژەیەکی زۆر لە شتێک، بۆ نموونە پرسیار و ڕەخنە، ڕووبەڕووی کەسێک یەک‌ لە دوای یەک و بەخێرایی، زۆرجار بەشێوەیەکی توند"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

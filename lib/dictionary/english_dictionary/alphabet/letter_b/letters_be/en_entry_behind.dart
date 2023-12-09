@@ -307,7 +307,7 @@ class EnglishEntrybehind extends StatelessWidget {
                                       "Don't forget to lock the door behind you (= when you leave)."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بیرت نەچێت دەرگاکە لەدوای خۆت دابخەیت."),
+                                      "بیرت نەچێت دەرگاکە لە دوای خۆت دابخەیت."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBehinds3("en-GB"),
                               ),

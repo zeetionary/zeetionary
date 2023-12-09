@@ -263,14 +263,14 @@ class EnglishEntryafter extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: دوای، پاش، دوای ئەوەی کە، لە پاش، پاش ئەوەی کە، سەرەڕای، لەگەڵ ئەوەش (کە)، بە شێوازی، بەشێوەی، بە شوێن، بەدوو، بە دوای، لە پەی، پشتەسەر، پاشین، پاش، دواوە، دادێ، بەپێی، بەگوێرەی
 
-١. (ئامراز) لەدوای شتێک"""),
+١. (ئامراز) لە دوای شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "We'll leave after lunch."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لەدوای نانی نیوەڕۆ دەچین."), // nnothing kurdi
+                                      "لە دوای نانی نیوەڕۆ دەچین."), // nnothing kurdi
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfter157("en-GB"),
                               ),
@@ -289,7 +289,7 @@ class EnglishEntryafter extends StatelessWidget {
                                       "After winning the prize she became famous overnight."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لەدوای بردنەوەی خەڵاتەکە لە شەو و ڕۆژێکدا بەناوبانگ بوو."), // nnothing kurdi
+                                      "لە دوای بردنەوەی خەڵاتەکە لە شەو و ڕۆژێکدا بەناوبانگ بوو."), // nnothing kurdi
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfter2499("en-GB"),
                               ),
@@ -302,7 +302,7 @@ class EnglishEntryafter extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ئامراز) لەدوای کەسێک یان شتێکەوە لە ڕیزبەندییەکدا"""),
+٢. (ئامراز) لە دوای کەسێک یان شتێکەوە لە ڕیزبەندییەکدا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -310,7 +310,7 @@ class EnglishEntryafter extends StatelessWidget {
                                       "Your name comes after mine in the list."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ناوت لەدوای ھی منەوەیە لە لیستەکەدا."), // nnothing kurdi
+                                      "ناوت لە دوای ھی منەوەیە لە لیستەکەدا."), // nnothing kurdi
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfter4888("en-GB"),
                               ),
@@ -328,7 +328,7 @@ class EnglishEntryafter extends StatelessWidget {
                                   text: "He's the tallest, after Richard."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لەدوای ڕیچارد ئەو بەرزترینە."), // nnothing kurdi
+                                      "لە دوای ڕیچارد ئەو بەرزترینە."), // nnothing kurdi
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfter4666("en-GB"),
                               ),
@@ -341,14 +341,14 @@ class EnglishEntryafter extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (ئامراز) لەدوای کەسێکی ڕۆشتوو"""),
+٣. (ئامراز) لە دوای کەسێکی ڕۆشتوو"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Shut the door after you."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەرگاکە بگرە لەدوای خۆت."), // nnothing kurdi
+                                      "دەرگاکە بگرە لە دوای خۆت."), // nnothing kurdi
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfter7928("en-GB"),
                               ),
@@ -389,7 +389,8 @@ class EnglishEntryafter extends StatelessWidget {
                                   text:
                                       "I'll never forgive him after what he said."),
                               const ExampleSentenceKurdish(
-                                  text: "ھەرگیز لێی خۆشنابم لەدوای ئەوەی وتی."),
+                                  text:
+                                      "ھەرگیز لێی خۆشنابم لە دوای ئەوەی وتی."),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfter5622("en-GB"),
                               ),
@@ -504,7 +505,7 @@ class EnglishEntryafter extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١١. (لێکدەر) لەدوای ڕوودانی شتێک"""),
+١١. (لێکدەر) لە دوای ڕوودانی شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -512,7 +513,7 @@ class EnglishEntryafter extends StatelessWidget {
                                       "I'll call you after I've spoken to them."), // nnothing
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پەیوەندیت پێوە دەکەم لەدوای ئەوەی قسەیان لەگەڵ دەکەم."), // nnothing kurdi
+                                      "پەیوەندیت پێوە دەکەم لە دوای ئەوەی قسەیان لەگەڵ دەکەم."), // nnothing kurdi
                               CustomIconButtonBritish(
                                 onPressed: () => speakAft2566("en-GB"),
                               ),
@@ -544,7 +545,7 @@ class EnglishEntryafter extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١٢. (ھاوەڵکار) لەدوای کاتێک"""),
+١٢. (ھاوەڵکار) لە دوای کاتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -565,7 +566,7 @@ class EnglishEntryafter extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١٣. (ھاوەڵناو) لەدوای کاتێک"""),
+١٣. (ھاوەڵناو) لە دوای کاتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

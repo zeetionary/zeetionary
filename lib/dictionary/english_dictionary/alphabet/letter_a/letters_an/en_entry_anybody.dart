@@ -224,7 +224,7 @@ class EnglishEntryanybody extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: ھیچ‌کەس، کەسێ، ھەرکەس، ھەرکەسێ
 
-١. (جێناو) لە ڕستەی پرسیاری و نەرێ لە دوای if و whether بەکاردێ، و لەدوای ھەندێ کردار، بۆ نموونە prevent و forbid و avoid"""),
+١. (جێناو) لە ڕستەی پرسیاری و نەرێ لە دوای if و whether بەکاردێ، و لە دوای ھەندێ کردار، بۆ نموونە prevent و forbid و avoid"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

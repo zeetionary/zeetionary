@@ -6,95 +6,89 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "bet" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
+// Define the word "beverage" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
 
-// replace bet - replace EnglishEntrybet
+// replace beverage - replace EnglishEntrybeverage
 
-// replace speakBet - /bet/
+// replace speakBeverage - /ˈbevərɪdʒ/
 
 enum TtsState { playing }
 
-class EnglishEntrybet extends StatelessWidget {
+class EnglishEntrybeverage extends StatelessWidget {
 // blank divider
-  EnglishEntrybet({super.key});
+  EnglishEntrybeverage({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBet(String languageCode) async {
-    // DOPSUM: CHANGE speakBet
+  Future<void> speakBeverage(String languageCode) async {
+    // DOPSUM: CHANGE speakBeverage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bet"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("beverage"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBets1(String languageCode) async {
-    // DOPSUM: CHANGE speakBet
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("You have to be over 16 to bet."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBets2(String languageCode) async {
-    // DOPSUM: CHANGE speakBet
+  Future<void> speakBeverages1(String languageCode) async {
+    // DOPSUM: CHANGE speakBeverage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Not many people are betting against France retaining their title."); // DOPSUM: CHANGE TEXT
+        "Studies on the consumption of various alcoholic beverages have been conducted."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBets3(String languageCode) async {
-    // DOPSUM: CHANGE speakBet
+  Future<void> speakBeverages2(String languageCode) async {
+    // DOPSUM: CHANGE speakBeverage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She bet me £20 (that) I wouldn't do it."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBeverages22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBets4(String languageCode) async {
-    // DOPSUM: CHANGE speakBet
+  Future<void> speakBeverages3(String languageCode) async {
+    // DOPSUM: CHANGE speakBeverage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I bet (that) we’re too late."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBeverages33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBets5(String languageCode) async {
-    // DOPSUM: CHANGE speakBet
+  Future<void> speakBeverages4(String languageCode) async {
+    // DOPSUM: CHANGE speakBeverage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I'm willing to bet (that) the analysts will be wrong."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBeverages44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBets6(String languageCode) async {
-    // DOPSUM: CHANGE speakBet
+  Future<void> speakBeverages5(String languageCode) async {
+    // DOPSUM: CHANGE speakBeverage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We've got a bet on who's going to arrive first."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBeverages55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBets7(String languageCode) async {
-    // DOPSUM: CHANGE speakBet
+  Future<void> speakBeverages6(String languageCode) async {
+    // DOPSUM: CHANGE speakBeverage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "My bet is that they've been held up in traffic."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBeverages66"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBeverages7(String languageCode) async {
+    // DOPSUM: CHANGE speakBeverage
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBeverages77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 20, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,22 +105,22 @@ class EnglishEntrybet extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bet"),
+                            EntryTitle(word: "beverage"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /bet/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbevərɪdʒ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBet("en-GB"),
+                              onPressed: () => speakBeverage("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /bet/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbevərɪdʒ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBet("en-US"),
+                              onPressed: () => speakBeverage("en-US"),
                             ),
                           ],
                         ),
@@ -145,19 +139,19 @@ class EnglishEntrybet extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 20
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
-                  VideoIconForTab(), // 13
-                  VideoIconForTab(), // 14
-                  VideoIconForTab(), // 15
-                  VideoIconForTab(), // 16
-                  VideoIconForTab(), // 17
-                  VideoIconForTab(), // 18
+                  // VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 13
+                  // VideoIconForTab(), // 14
+                  // VideoIconForTab(), // 15
+                  // VideoIconForTab(), // 16
+                  // VideoIconForTab(), // 17
+                  // VideoIconForTab(), // 18
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
@@ -178,132 +172,20 @@ class EnglishEntrybet extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DefinitionKurdish(text: """
-کوردی: گرێو، مەرج‌بەستن، پارەی گرێو
-
-١. (کردار) گرەوکردن"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "You have to be over 16 to bet."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەبێت تەمەنت لە ١٦ ساڵ زیاتر بێت بۆ ئەوەی گرەو بکەیت."),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBets1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBets1("en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
+١. (ناو) هەر خواردنەوەیەک جگە لە ئاو"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Not many people are betting against France retaining their title."),
+                                      "Studies on the consumption of various alcoholic beverages have been conducted."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "خەڵکێکی زۆر دژ بەوە گرەو ناکەن کە فەرەنسا نازناوەکە دەپارێزێت (پێیان وایە فەرەنسا نازناوەکە دەبات)."),
+                                      "تویژینەوە لەسەر خواردنەوەی ژمارەیەک لە خواردنەوەی کحوولی ئەنجام دراوە."),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBets2("en-GB"),
+                                onPressed: () => speakBeverages1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBets2("en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She bet me £20 (that) I wouldn't do it."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "٢٠ پاوەندی کردە گرەو لەگەڵم کە ئەوە ناکەم."),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBets3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBets3("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (کردار) بۆ وتنی ئەوەی بەنزیکەیی دڵنیایت لەوەی شتێک ڕاستە یان ڕوودەدات"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I bet (that) we’re too late."),
-                              const ExampleSentenceKurdish(
-                                  text: "دڵنیام لەوەی زۆر درەنگ کەوتووی."),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBets4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBets4("en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I'm willing to bet (that) the analysts will be wrong."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەتوانم گرەو بکەم کە شیکاران هەڵە دەردەچن."),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBets5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBets5("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (ناو) گرەو"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We've got a bet on who's going to arrive first."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گرەومان کردووە لەسەر ئەوەی کێ زووتر دەگات."),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBets6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBets6("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٤. (ناو) بۆچوونێک لەسەر شتێک"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My bet is that they've been held up in traffic."),
-                              const ExampleSentenceKurdish(
-                                  text: "بۆچوونم وایە لە ترافیک ماونەتەوە."),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBets7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBets7("en-US"),
+                                onPressed: () => speakBeverages1("en-US"),
                               ),
                             ],
                           ),
@@ -321,15 +203,15 @@ class EnglishEntrybet extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
-                    YoutubeEmbeddedthirteen(),
-                    YoutubeEmbeddedfourteen(),
-                    YoutubeEmbeddedfifteen(),
-                    YoutubeEmbeddedsixteen(),
-                    YoutubeEmbeddedseventeen(),
-                    YoutubeEmbeddedeighteen(),
+                    // YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedthirteen(),
+                    // YoutubeEmbeddedfourteen(),
+                    // YoutubeEmbeddedfifteen(),
+                    // YoutubeEmbeddedsixteen(),
+                    // YoutubeEmbeddedseventeen(),
+                    // YoutubeEmbeddedeighteen(),
                     // YoutubeEmbeddednineteen(),
                     // YoutubeEmbeddedtwenty(),
                     // YoutubeEmbeddedmulti(),
@@ -359,26 +241,9 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           EnglishMeaningConst(
             text: """
-Verb: bet (bet,betting, also betted)  bet
-Maintain with or as if with a bet
-"I bet she will be there!";
-- wager
- 
-Stake money or something else of value on the outcome of an unpredictable event or disputed issue
-"I bet £100 on that new horse";
-- wager, play
- 
-Have faith or confidence in
-"You can bet on that!";
-- count, depend, swear, rely, bank, look, calculate, reckon
-Noun: bet  bet
-The money risked on a gamble
-- stake, stakes, wager
- 
-An act of gambling
-"he did it on a bet";
-- wager, flutter [Brit, informal], punt [Brit, informal]
-derived forms: betting, bet, bets, betted
+- Noun: beverage (derived forms: beverages)
+1. Any liquid suitable for drinking (= drink, drinkable, potable) 
+"may I take your beverage order?";
 """,
           )
         ],
@@ -392,12 +257,12 @@ derived forms: betting, bet, bets, betted
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "1roy4o4tqQM";
+  static String myVideoId = "xfXgLYDWHYk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 82, // DOPSUM: CHANGE IT
+      startAt: 13, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -417,12 +282,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "PGk3qLxwmDQ";
+  static String myVideoId = "ugTbassYsOE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 63, // DOPSUM: CHANGE IT
+      startAt: 95, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -442,12 +307,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "x_me3xsvDgk";
+  static String myVideoId = "bHn2ebchAsU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 151, // DOPSUM: CHANGE IT
+      startAt: 170, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -467,12 +332,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "OrnpSe4OChM";
+  static String myVideoId = "l27HGB0PwXs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 83, // DOPSUM: CHANGE IT
+      startAt: 418, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -492,12 +357,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "KJy7T24rhg0";
+  static String myVideoId = "RrQVkh-gF4Y";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 392, // DOPSUM: CHANGE IT
+      startAt: 35, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -517,12 +382,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "sSdMX8AWurI";
+  static String myVideoId = "a810gRy8YiM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 90, // DOPSUM: CHANGE IT
+      startAt: 4, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -542,12 +407,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "GjMmsEwIcl0";
+  static String myVideoId = "66aG5P0kQpU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 193, // DOPSUM: CHANGE IT
+      startAt: 962, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -567,12 +432,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "3cxHwQl9pNM";
+  static String myVideoId = "0zJLltYWtNA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 416, // DOPSUM: CHANGE IT
+      startAt: 345, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -592,12 +457,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "544DTGHIBM0";
+  static String myVideoId = "NszXuvBWMsU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 913, // DOPSUM: CHANGE IT
+      startAt: 1499, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -617,12 +482,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "-cPdImejxEQ";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 5, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -642,12 +507,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "a9m3GD0DbPY";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 138, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -667,12 +532,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "gFQNPmLKj1k";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 861, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -692,12 +557,12 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 class YoutubeEmbeddedthirteen extends StatelessWidget {
   YoutubeEmbeddedthirteen({super.key});
 
-  static String myVideoId = "jw_CWHs2YDU";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 346, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -717,12 +582,12 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
 class YoutubeEmbeddedfourteen extends StatelessWidget {
   YoutubeEmbeddedfourteen({super.key});
 
-  static String myVideoId = "n2OQu9yMh9k";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 428, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -742,12 +607,12 @@ class YoutubeEmbeddedfourteen extends StatelessWidget {
 class YoutubeEmbeddedfifteen extends StatelessWidget {
   YoutubeEmbeddedfifteen({super.key});
 
-  static String myVideoId = "NVGuFdX5guE";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -767,12 +632,12 @@ class YoutubeEmbeddedfifteen extends StatelessWidget {
 class YoutubeEmbeddedsixteen extends StatelessWidget {
   YoutubeEmbeddedsixteen({super.key});
 
-  static String myVideoId = "UXfIRHoJu-o";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -792,12 +657,12 @@ class YoutubeEmbeddedsixteen extends StatelessWidget {
 class YoutubeEmbeddedseventeen extends StatelessWidget {
   YoutubeEmbeddedseventeen({super.key});
 
-  static String myVideoId = "dDYFiq1l5Dg";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 678, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -817,12 +682,12 @@ class YoutubeEmbeddedseventeen extends StatelessWidget {
 class YoutubeEmbeddedeighteen extends StatelessWidget {
   YoutubeEmbeddedeighteen({super.key});
 
-  static String myVideoId = "al0CVsiffu8";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 904, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -891,4 +756,4 @@ class YoutubeEmbeddedtwenty extends StatelessWidget {
 
 // morethan one video, only first autoplay
 
-// end bet// TODO Implement this library.
+// end beverage// TODO Implement this library.

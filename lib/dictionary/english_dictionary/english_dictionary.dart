@@ -1612,24 +1612,25 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "besiege",
     "bespoke",
     "best",
-    // "best man",
-    // "bestial",
-    // "bestiality",
-    // "bestow",
-    // "bestseller",
-    // "bet",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    "best man",
+    "bestial",
+    "bestiality",
+    "bestow",
+    "bestseller",
+    "bet",
+    "betray",
+    "betrayal",
+    "betrayer",
+    "betrothed",
+    "better (1)",
+    "better (2)",
+    "bettor",
+    "between",
+    "bevelled",
+    "beverage",
+    "bevy",
+    "beware",
+    "bewilder",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -8522,78 +8523,82 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-best");
                   }
-                  // if (wordsEnglish == "best man") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-best-man");
-                  // }
-                  // if (wordsEnglish == "bestseller") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bestseller");
-                  // }
-                  // if (wordsEnglish == "bestial") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bestial");
-                  // }
-                  // if (wordsEnglish == "bestiality") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bestiality");
-                  // }
-                  // if (wordsEnglish == "bestow") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bestow");
-                  // }
-                  // if (wordsEnglish == "bet") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bet");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
+                  if (wordsEnglish == "best man") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-best-man");
+                  }
+                  if (wordsEnglish == "bestseller") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bestseller");
+                  }
+                  if (wordsEnglish == "bestial") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bestial");
+                  }
+                  if (wordsEnglish == "bestiality") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bestiality");
+                  }
+                  if (wordsEnglish == "bestow") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bestow");
+                  }
+                  if (wordsEnglish == "bet") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bet");
+                  }
+                  if (wordsEnglish == "better (1)") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-better");
+                  }
+                  if (wordsEnglish == "better (2)") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bettor");
+                  }
+                  if (wordsEnglish == "bettor") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bettor");
+                  }
+                  if (wordsEnglish == "betray") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-betray");
+                  }
+                  if (wordsEnglish == "betrayal") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-betrayal");
+                  }
+                  if (wordsEnglish == "betrayer") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-betrayer");
+                  }
+                  if (wordsEnglish == "betrothed") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-betrothed");
+                  }
+                  if (wordsEnglish == "between") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-between");
+                  }
+                  if (wordsEnglish == "bevelled") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bevelled");
+                  }
+                  if (wordsEnglish == "beverage") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-beverage");
+                  }
+                  if (wordsEnglish == "bevy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bevy");
+                  }
+                  if (wordsEnglish == "beware") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-beware");
+                  }
+                  if (wordsEnglish == "bewilder") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bewilder");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");

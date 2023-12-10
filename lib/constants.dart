@@ -387,6 +387,27 @@ class ExampleSentenceKurdish extends StatelessWidget {
   }
 }
 
+// class CustomIconButtonBritish extends StatelessWidget {
+//   final VoidCallback? onPressed;
+
+//   const CustomIconButtonBritish({
+//     super.key,
+//     this.onPressed,
+//   });
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return IconButton(
+//       iconSize: 18,
+//       icon: const Icon(
+//         Icons.record_voice_over,
+//         color: Colors.blue,
+//       ),
+//       onPressed: onPressed,
+//     );
+//   }
+// }
+
 class CustomIconButtonBritish extends StatelessWidget {
   final VoidCallback? onPressed;
 
@@ -397,13 +418,23 @@ class CustomIconButtonBritish extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return IconButton(
-      iconSize: 18,
-      icon: const Icon(
-        Icons.record_voice_over,
-        color: Colors.blue,
-      ),
+    return ElevatedButton(
       onPressed: onPressed,
+      style: ElevatedButton.styleFrom(
+        shape: const CircleBorder(),
+        padding: const EdgeInsets.all(4.0),
+        foregroundColor: Colors.white, // White background
+        side: const BorderSide(
+          color: Color.fromARGB(100, 54, 66, 244), // Border color
+          width: 1.0, // Border width
+        ),
+        elevation: 5.0, // Add a subtle shadow
+      ),
+      child: const Icon(
+        Icons.record_voice_over,
+        color: Colors.blue, // Icon color
+        size: 20,
+      ),
     );
   }
 }
@@ -418,13 +449,23 @@ class CustomIconButtonAmerican extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return IconButton(
-      iconSize: 18,
-      icon: const Icon(
-        Icons.record_voice_over,
-        color: Colors.red,
-      ),
+    return ElevatedButton(
       onPressed: onPressed,
+      style: ElevatedButton.styleFrom(
+        shape: const CircleBorder(),
+        padding: const EdgeInsets.all(4.0),
+        foregroundColor: Colors.white, // White background
+        side: const BorderSide(
+          color: Color.fromARGB(100, 244, 66, 54), // Border color
+          width: 1.0, // Border width
+        ),
+        elevation: 5.0, // Add a subtle shadow
+      ),
+      child: const Icon(
+        Icons.record_voice_over,
+        color: Colors.red, // Icon color
+        size: 20,
+      ),
     );
   }
 }

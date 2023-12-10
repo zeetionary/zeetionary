@@ -1599,18 +1599,18 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_bestiality.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_bestow.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_bet.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_better.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_bettor.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_betray.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_betrayal.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_betrayer.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_betrothed.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_between.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_bevelled.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_beverage.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_bevy.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_beware.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_bewilder.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_be/en_entry_DOPSUM.dart';
@@ -3395,18 +3395,18 @@ final loggedInRoute = RouteMap(routes: {
   "/english-bestiality": (_) => MaterialPage(child: EnglishEntrybestiality()),
   "/english-bestow": (_) => MaterialPage(child: EnglishEntrybestow()),
   "/english-bet": (_) => MaterialPage(child: EnglishEntrybet()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-better": (_) => MaterialPage(child: EnglishEntrybetter()),
+  "/english-bettor": (_) => MaterialPage(child: EnglishEntrybettor()),
+  "/english-betray": (_) => MaterialPage(child: EnglishEntrybetray()),
+  "/english-betrayal": (_) => MaterialPage(child: EnglishEntrybetrayal()),
+  "/english-betrayer": (_) => MaterialPage(child: EnglishEntrybetrayer()),
+  "/english-betrothed": (_) => MaterialPage(child: EnglishEntrybetrothed()),
+  "/english-between": (_) => MaterialPage(child: EnglishEntrybetween()),
+  "/english-bevelled": (_) => MaterialPage(child: EnglishEntrybevelled()),
+  "/english-beverage": (_) => MaterialPage(child: EnglishEntrybeverage()),
+  "/english-bevy": (_) => MaterialPage(child: EnglishEntrybevy()),
+  "/english-beware": (_) => MaterialPage(child: EnglishEntrybeware()),
+  "/english-bewilder": (_) => MaterialPage(child: EnglishEntrybewilder()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

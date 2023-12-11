@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryaircraft - replace speakAircraft - replace aircraft - /ˈeəkrɑːft/ - find Dopsum2
 
@@ -101,9 +100,8 @@ class EnglishEntryaircraft extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -122,12 +120,6 @@ class EnglishEntryaircraft extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -151,6 +143,7 @@ class EnglishEntryaircraft extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "فڕۆکەکە بە دەستی فڕۆکەوانێکی گەنجی ئەمریکییەوە بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAircraft32477("en-GB"),
                               ),
@@ -172,6 +165,7 @@ class EnglishEntryaircraft extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "فڕۆکەکە لە نیوەشەودا دەفڕێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAircraft3477("en-GB"),
                               ),

@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -194,9 +192,8 @@ class EnglishEntrybelt extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -220,12 +217,6 @@ class EnglishEntrybelt extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -246,6 +237,7 @@ class EnglishEntrybelt extends StatelessWidget {
                                   text: "Around his waist he wore a belt."),
                               const ExampleSentenceKurdish(
                                   text: "قایشێکی لە کەمەری بەست."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelts1("en-GB"),
                               ),
@@ -263,6 +255,7 @@ class EnglishEntrybelt extends StatelessWidget {
                                       "She fastened her belt tightly around her waist."),
                               const ExampleSentenceKurdish(
                                   text: "قایشەکەی بەتوندی لە کەمەری بەست."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelts2("en-GB"),
                               ),
@@ -283,6 +276,7 @@ class EnglishEntrybelt extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "قایشە گوازەرەوەکە سندووقی دەگواستەوە بۆ جێگەی بارکردنەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelts3("en-GB"),
                               ),
@@ -303,6 +297,7 @@ class EnglishEntrybelt extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو شارۆچکانەی لە ناوچەی پیشەسازی وڵاتەکە بوون بەتایبەتی کاریگەر بوون بە قەیرانەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelts4("en-GB"),
                               ),
@@ -321,6 +316,7 @@ class EnglishEntrybelt extends StatelessWidget {
                                   text: "She gave the ball a terrific belt."),
                               const ExampleSentenceKurdish(
                                   text: "لێدانێکی ناوازەی دا لە تۆپەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelts5("en-GB"),
                               ),
@@ -340,6 +336,7 @@ class EnglishEntrybelt extends StatelessWidget {
                                       "He belted the ball right out of the park."),
                               const ExampleSentenceKurdish(
                                   text: "تۆپەکەی فڕێدایە دەرەوەی پارکەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelts6("en-GB"),
                               ),
@@ -357,6 +354,7 @@ class EnglishEntrybelt extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دارکاریت ئەکەم ئەگەر دووبارەی بکەیتەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelts7("en-GB"),
                               ),
@@ -375,6 +373,7 @@ class EnglishEntrybelt extends StatelessWidget {
                                   text: "A truck came belting up behind us."),
                               const ExampleSentenceKurdish(
                                   text: "بارھەڵگرێک بەخێرایی لەدوامانەوە ھات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelts8("en-GB"),
                               ),
@@ -393,6 +392,7 @@ class EnglishEntrybelt extends StatelessWidget {
                                   text: "The dress was belted at the waist."),
                               const ExampleSentenceKurdish(
                                   text: "جلەکە قایشێکی لێ بەسترا لە کەمەردا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelts9("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryalike - replace speakAlike - replace alike - /əˈlaɪk/ - find Dopsum2
 
@@ -120,9 +119,8 @@ class EnglishEntryalike extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -141,12 +139,6 @@ class EnglishEntryalike extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -172,6 +164,7 @@ class EnglishEntryalike extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەوڵیان دا وەک یەک مامەڵە لەگەڵ منداڵەکانیان بکەن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlike76522("en-GB"),
                               ),
@@ -196,6 +189,7 @@ class EnglishEntryalike extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەڕێوەبردنی باش سوود بە خاوەنکاران و کرێکاران دەگەیەنێت بە یەکسانی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlike46789("en-GB"),
                               ),
@@ -218,6 +212,7 @@ class EnglishEntryalike extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "فڕۆکەخانەکان ھەموو وەکیەکن بۆم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlike3632("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -151,9 +150,8 @@ class EnglishEntryauthenticate extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -172,12 +170,6 @@ class EnglishEntryauthenticate extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -201,6 +193,7 @@ class EnglishEntryauthenticate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "نامەکە دڵنیایی‌لێکراوەتەوە لەلایەن شارەزایانی دەستوخەتەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuthenticate628("en-GB"),
                               ),
@@ -226,6 +219,7 @@ class EnglishEntryauthenticate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەکارھێنەران دەبێت ناسنامەیان پشڕاستبکەنەوە بە زانیارییەکانیان بۆ بەکارھێنانی ئینتەرنێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuthenticate632("en-GB"),
                               ),

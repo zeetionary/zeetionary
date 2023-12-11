@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryactivist - replace speakActivist - replace activist - /ˈæktɪvɪst/ - find Dopsum2
 
@@ -100,9 +99,8 @@ class EnglishEntryactivist extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -121,12 +119,6 @@ class EnglishEntryactivist extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -147,6 +139,7 @@ class EnglishEntryactivist extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەزاران چالاکوانی ژینگەیی بەژداربوون لە ڕێپێوانێک بۆ داوای ھەنگاونان دژ بە گۆڕانی کەشوھەوا"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAct32568("en-GB"),
                               ),

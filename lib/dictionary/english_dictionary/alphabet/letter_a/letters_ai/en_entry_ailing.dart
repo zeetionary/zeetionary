@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryailing - replace speakAiling - replace ailing - /ˈeɪlɪŋ/ - find Dopsum2
 
@@ -101,9 +100,8 @@ class EnglishEntryailing extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -122,12 +120,6 @@ class EnglishEntryailing extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -151,6 +143,7 @@ class EnglishEntryailing extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "چاودێری باوکە ناساخەکەی دەکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAiling25388("en-GB"),
                               ),
@@ -175,6 +168,7 @@ class EnglishEntryailing extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تێد داوای لێکردم کە یارمەتی بدەم ئۆتۆمبێلە داشقەکەی چاکبکاتەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAiling4899956("en-GB"),
                               ),

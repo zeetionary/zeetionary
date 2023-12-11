@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -132,9 +131,8 @@ class EnglishEntrybath extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -153,12 +151,6 @@ class EnglishEntrybath extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -179,6 +171,7 @@ class EnglishEntrybath extends StatelessWidget {
                                   text: "I'm in the bath!"),
                               const ExampleSentenceKurdish(
                                   text: "لە حەوزی خۆشتنەکەدام!"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBaths1("en-GB"),
                               ),
@@ -199,6 +192,7 @@ class EnglishEntrybath extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێم‌باشە خۆم بشۆم و بچمە جێگەی نووستن"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBaths2("en-GB"),
                               ),
@@ -218,6 +212,7 @@ class EnglishEntrybath extends StatelessWidget {
                                       "Please run a bath for me (= fill the bath with water)."),
                               const ExampleSentenceKurdish(
                                   text: "تکایە حەوزەکەم بۆ پڕبکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBaths3("en-GB"),
                               ),
@@ -238,6 +233,7 @@ class EnglishEntrybath extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "باوکم ھەموو یەکشەمەیەک دەیبردم بۆ مەلەوانگەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBaths4("en-GB"),
                               ),
@@ -258,6 +254,7 @@ class EnglishEntrybath extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆر خێزان گەرماویان نەبوو و گەرماوی گشتییان لەجیاتیدا بەکاردەھێنا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBaths5("en-GB"),
                               ),
@@ -276,6 +273,7 @@ class EnglishEntrybath extends StatelessWidget {
                                   text: "It's your turn to bath the baby."),
                               const ExampleSentenceKurdish(
                                   text: "نۆرەی تۆیە منداڵەکە بشۆی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBaths6("en-GB"),
                               ),
@@ -294,6 +292,7 @@ class EnglishEntrybath extends StatelessWidget {
                                   text: "She baths every morning."),
                               const ExampleSentenceKurdish(
                                   text: "ھەموو بەیانییەک خۆی دەشوات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBaths7("en-GB"),
                               ),

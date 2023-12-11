@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryally - replace speakAlly - replace ally - /ˈælaɪ/ - find Dopsum2
 
@@ -103,9 +102,8 @@ class EnglishEntryally extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -124,12 +122,6 @@ class EnglishEntryally extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -155,6 +147,7 @@ class EnglishEntryally extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پرتوگال بەشێوەیەکی مێژوویی ھاوپەیمانی ئینگلتەرەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlly4211("en-GB"),
                               ),
@@ -179,6 +172,7 @@ class EnglishEntryally extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "مامۆستا کۆنەکەی بووە بە دۆست و یاوەری."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlly4322("en-GB"),
                               ),

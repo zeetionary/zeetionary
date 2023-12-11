@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -131,9 +130,8 @@ class EnglishEntrybetrayal extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -157,12 +155,6 @@ class EnglishEntrybetrayal extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -185,6 +177,7 @@ class EnglishEntrybetrayal extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کردارەکانیم وەک خیانەت لە متمانەم بینی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetrayals1("en-GB"),
                               ),
@@ -202,6 +195,7 @@ class EnglishEntrybetrayal extends StatelessWidget {
                                       "Memories of his betrayal still haunted her."),
                               const ExampleSentenceKurdish(
                                   text: "یادەوەری خیانەتەکەی هێشتا دەیتاساند."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetrayals2("en-GB"),
                               ),
@@ -220,6 +214,7 @@ class EnglishEntrybetrayal extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بڕیارەکان ناپاکی بوو لە هەر شتێک کە باوکم باوەڕی پێی بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetrayals3("en-GB"),
                               ),
@@ -228,7 +223,7 @@ class EnglishEntrybetrayal extends StatelessWidget {
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                         ],
                       ),

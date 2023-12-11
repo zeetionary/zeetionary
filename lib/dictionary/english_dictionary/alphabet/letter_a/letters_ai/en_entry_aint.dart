@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryaint - replace speakAint - replace ain't - /eɪnt/ - find Dopsum2
 
@@ -100,9 +99,8 @@ class EnglishEntryaint extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -121,12 +119,6 @@ class EnglishEntryaint extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -149,6 +141,7 @@ am not/is not/are not"""),
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "شتەکان وەک جاران نین."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAint286599("en-GB"),
                               ),
@@ -171,6 +164,7 @@ has not/have not"""),
                               ),
                               const ExampleSentenceKurdish(
                                   text: "ھیچ پارەم نییە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAint8411("en-GB"),
                               ),

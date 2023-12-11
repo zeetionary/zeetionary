@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryanimate - replace speakAnimate - replace animate - /ˈænɪmeɪt/ - find Dopsum2
 
@@ -144,9 +143,8 @@ class EnglishEntryanimate extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -165,12 +163,6 @@ class EnglishEntryanimate extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -195,6 +187,7 @@ class EnglishEntryanimate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێکەنینێک ڕووخساری کردەوە (گەشاندەوە)."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnimate926("en-GB"),
                               ),
@@ -219,7 +212,8 @@ class EnglishEntryanimate extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کارەکتەرە زۆر خۆشەویستەکان لەم فیلمە تازەدا وێناکراون "),
+                                      "کارەکتەرە زۆر خۆشەویستەکان لەم فیلمە تازەدا وێناکراون."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnimate930("en-GB"),
                               ),
@@ -245,6 +239,7 @@ class EnglishEntryanimate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "منداڵان بەزووی فێردەبن جیاوازی بکەن لەنێوان جووڵەی شتی زیندوو و بێ‌گیان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnimate934("en-GB"),
                               ),

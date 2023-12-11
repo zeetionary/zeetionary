@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryablaze - speakAblaze - ablaze - /əˈbleɪz/
 
@@ -119,9 +118,8 @@ class EnglishEntryablaze extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -131,12 +129,6 @@ class EnglishEntryablaze extends StatelessWidget {
                   VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -157,6 +149,7 @@ class EnglishEntryablaze extends StatelessWidget {
                                   text: "The whole building was soon ablaze."),
                               const ExampleSentenceKurdish(
                                   text: "تەواوی بیناکە زوو بوو بە بڵێسە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speak258("en-GB"),
                               ),
@@ -174,6 +167,7 @@ class EnglishEntryablaze extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئۆتۆمبێل و پاسەکان لە ئاژاوەکەدا ئاگر تێبەردران."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA256("en-GB"),
                               ),
@@ -192,6 +186,7 @@ class EnglishEntryablaze extends StatelessWidget {
                                       "The trees were ablaze with the colours of autumn."),
                               const ExampleSentenceKurdish(
                                   text: "دارەکان پڕ لە ڕەنگی پایز بوون."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAb37("en-GB"),
                               ),
@@ -207,6 +202,7 @@ class EnglishEntryablaze extends StatelessWidget {
                                   text: "Every window was ablaze with light."),
                               const ExampleSentenceKurdish(
                                   text: "پەنجەرەکان پڕ لە ڕۆشنایی بوون."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA614("en-GB"),
                               ),
@@ -226,6 +222,7 @@ class EnglishEntryablaze extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕووی تێکرد بە چاوی پڕ لە خۆشەویستییەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA241("en-GB"),
                               ),

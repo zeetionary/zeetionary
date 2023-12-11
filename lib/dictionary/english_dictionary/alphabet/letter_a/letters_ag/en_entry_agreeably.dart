@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryagreeably - replace speakAgreeably - replace agreeably - /əˈɡriːəbli/ - find Dopsum2
 
@@ -101,9 +100,8 @@ class EnglishEntryagreeably extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -122,12 +120,6 @@ class EnglishEntryagreeably extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -153,6 +145,7 @@ class EnglishEntryagreeably extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەموو تێکڕا سەرسام بوون بە کوالێتی خواردنەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgr35222("en-GB"),
                               ),
@@ -175,6 +168,7 @@ class EnglishEntryagreeably extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕۆژەکە خۆش و خۆرەتاو بوو لە دوای ئەو شەوە ساردە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgreea35744("en-GB"),
                               ),

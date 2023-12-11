@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryaging - replace speakAging - replace aging (or aging) - /ˈeɪdʒɪŋ/ - find Dopsum2
 
@@ -101,9 +100,8 @@ class EnglishEntryaging extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -122,12 +120,6 @@ class EnglishEntryaging extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -153,6 +145,7 @@ class EnglishEntryaging extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ژمارەیەکی زۆر پارێزەری پێسی ھەیە کە بانگەشەی ئەوە دەکەن تەمەنکردن بوەستێنن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAging35699("en-GB"),
                               ),
@@ -175,6 +168,7 @@ class EnglishEntryaging extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "چاودێری دایکە پیرەکەی دەکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAging148825("en-GB"),
                               ),

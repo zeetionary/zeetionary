@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -133,9 +131,8 @@ class EnglishEntrybelong extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -159,12 +156,6 @@ class EnglishEntrybelong extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -184,6 +175,7 @@ class EnglishEntrybelong extends StatelessWidget {
                                       "Where do these plates belong (= where are they kept)?"),
                               const ExampleSentenceKurdish(
                                   text: "شوێنی ئەم دەورییانە کوێیە؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelongs1("en-GB"),
                               ),
@@ -202,6 +194,7 @@ class EnglishEntrybelong extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دڵنیای لەوەی ئەم دۆکیومێنتانە پێکەوەن؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelongs2("en-GB"),
                               ),
@@ -220,6 +213,7 @@ class EnglishEntrybelong extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەندێک لەو خاڵانەی باستکردن پەیوەندییان بەم گفتوگۆوە نییە"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelongs3("en-GB"),
                               ),
@@ -240,6 +234,7 @@ class EnglishEntrybelong extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە دوای سێ ساڵ لە کامبریج، لەکۆتاییدا ھەست دەکەم ئێرە شوێنی گونجاوە بۆم"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelongs4("en-GB"),
                               ),

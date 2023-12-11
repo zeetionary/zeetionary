@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -144,9 +143,8 @@ class EnglishEntrybanger extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -165,12 +163,6 @@ class EnglishEntrybanger extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -195,6 +187,7 @@ class EnglishEntrybanger extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "حەزم لە سۆسجە بۆ نانی ئێوارە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBangers1("en-GB"),
                               ),
@@ -220,6 +213,7 @@ class EnglishEntrybanger extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھێشتا ئەو داشقەیەت بەدەستەوەیە، وایە؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBangers2("en-GB"),
                               ),
@@ -245,6 +239,7 @@ class EnglishEntrybanger extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەبەگێک بڕیاریدا یارییەکی ئاگرین ڕێک لە لاگوێمدا بتەقێنێتەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBangers3("en-GB"),
                               ),
@@ -268,6 +263,7 @@ class EnglishEntrybanger extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەلبوومە تازەکە ھەموو گۆرانی سەمان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBangers4("en-GB"),
                               ),

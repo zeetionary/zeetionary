@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryammunition - replace speakAmmunition - replace ammunition - /ˌæmjəˈnɪʃn/ - find Dopsum2
 
@@ -167,9 +166,8 @@ class EnglishEntryammunition extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -188,12 +186,6 @@ class EnglishEntryammunition extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -219,6 +211,7 @@ class EnglishEntryammunition extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەندێک لە پیاوەکان تەقەمەنییان پێ‌نەماوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmmunition8895("en-GB"),
                               ),
@@ -243,6 +236,7 @@ class EnglishEntryammunition extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "نامەکە ھەموو زانیارییەکی پێدا کە پێویستی‌ بوو لە دژی ئەو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmmunition411("en-GB"),
                               ),

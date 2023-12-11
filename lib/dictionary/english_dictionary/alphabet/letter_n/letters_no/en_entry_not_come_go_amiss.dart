@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntrynotcomegoamiss - replace speakNotcomegoamiss - replace not come/go amiss - /nɒt kʌm/ɡəʊ əˈmɪs/ - find Dopsum2
 
@@ -167,9 +166,8 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -188,12 +186,6 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -216,6 +208,7 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "کەمێک بەخت خراپ نابێت ئێستا!"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakNotcomegoamiss142("en-GB"),
@@ -239,6 +232,7 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەواوی ڕێگاکە شوێنیان کەوتم بۆ ئەوەی دڵنیابم ھیچ شتێک بە ھەڵە نەچوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakNotcomegoamiss78("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryalert - replace speakAlert - replace alert - /əˈlɜːt/ - find Dopsum2
 
@@ -156,9 +155,8 @@ class EnglishEntryalert extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -177,12 +175,6 @@ class EnglishEntryalert extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -208,6 +200,7 @@ class EnglishEntryalert extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "نامەیەکی نھێنی پۆلیسی ئاگادارکردەوە لە ئەگەری ھێرشێکی تیرۆریستی لە فڕۆکەخانەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlert3524("en-GB"),
                               ),
@@ -230,6 +223,7 @@ class EnglishEntryalert extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دراوسێیەکان بەپەلە تیمە فریاگوزارییەکانیان ئاگادارکردەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlert352("en-GB"),
                               ),
@@ -254,6 +248,7 @@ class EnglishEntryalert extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئاگادارکرابوونەوە لە ئەگەری زیادبوونی زیاتری نرخ."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlert29637("en-GB"),
                               ),
@@ -278,6 +273,7 @@ class EnglishEntryalert extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زیاتر لە ٥٠٠٠ سەرباز خراونەتە ئامادابەشیی تەواو"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlert6277("en-GB"),
                               ),
@@ -302,6 +298,7 @@ class EnglishEntryalert extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئاگادارکەرەوەیەکی نووسراوم پێدەگات کە زیاتر لە ٨٠٪ ئینتەرنێتی موبایلەکەم بەکاربێنم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlert96526("en-GB"),
                               ),
@@ -325,6 +322,7 @@ class EnglishEntryalert extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "دوو زانای وریا تێبینی ھەڵەکەیان کرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlert34655("en-GB"),
                               ),
@@ -348,6 +346,7 @@ class EnglishEntryalert extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "پێویستە چاوکراوە بین بۆ مەترسی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlert3566("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryannual - replace speakAnnual - replace annual - /ˈænjuəl/ - find Dopsum2
 
@@ -146,9 +145,8 @@ class EnglishEntryannual extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -167,12 +165,6 @@ class EnglishEntryannual extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -198,6 +190,7 @@ class EnglishEntryannual extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەمای ساڵانەی ئێوارەی کریسمسی بۆ ئەمساڵ ڕێکخست."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnnual817("en-GB"),
                               ),
@@ -221,6 +214,7 @@ class EnglishEntryannual extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کۆمپانیاکان ڕاپۆرتی ساڵانە بڵاودەکەنەوە بۆ ئەوەی ڕای‌ گشتی ئاگاداربکەنەوە سەبارەت بە چالاکییەکانی ساڵی پێشوویان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnnual819("en-GB"),
                               ),
@@ -246,6 +240,7 @@ class EnglishEntryannual extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بڕیارم‌داوە مۆڵەتی ساڵانەم وەربگرم بۆ ئەوەی لەگەڵ ژنەکەم و منداڵەکەم بم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnnual821("en-GB"),
                               ),
@@ -271,6 +266,7 @@ class EnglishEntryannual extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "منداڵەکان زۆرجار داوای کتێبی کۆمیک یان وەرزشییان دەکرد بۆ کریسمس."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnnual829("en-GB"),
                               ),

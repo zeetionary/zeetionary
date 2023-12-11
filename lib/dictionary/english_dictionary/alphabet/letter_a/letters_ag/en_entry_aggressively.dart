@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryaggressively - replace speakAggressively - replace aggressively - /əˈɡresɪvli/ - find Dopsum2
 
@@ -100,9 +99,8 @@ class EnglishEntryaggressively extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -121,12 +119,6 @@ class EnglishEntryaggressively extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -152,6 +144,7 @@ class EnglishEntryaggressively extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆر شۆفێر لەسەر شەقامەکان بە توندوتیژی ڕەفتار دەکەن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAggressiv1458("en-GB"),
                               ),
@@ -176,6 +169,7 @@ class EnglishEntryaggressively extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە گێمی دووەم سەرسەختانەتر یارییان کرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAggressiv1458("en-GB"),
                               ),

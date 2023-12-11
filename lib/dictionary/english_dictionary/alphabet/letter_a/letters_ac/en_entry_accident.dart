@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryaccident - speakAccident - accident - /ˈæksɪdənt/
 
@@ -101,9 +100,8 @@ class EnglishEntryaccident extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -122,12 +120,6 @@ class EnglishEntryaccident extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -150,6 +142,7 @@ class EnglishEntryaccident extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە حەوت ڕووداودا یەکێکیان بەھۆی شۆفێری خەوالووەوە ڕوودەدات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA25698("en-GB"),
                               ),
@@ -167,6 +160,7 @@ class EnglishEntryaccident extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەموو ساڵێک ٤٠٠٠ کەس لە شانشینی یەکگرتوو دەمرن لە ئەنجامی ئەو ڕووداوانەی لە ماڵەوە ڕوودەدەن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAcc2514("en-GB"),
                               ),
@@ -185,6 +179,7 @@ class EnglishEntryaccident extends StatelessWidget {
                                       "Their early arrival was just an accident."),
                               const ExampleSentenceKurdish(
                                   text: "زوو گەیشتنیان تەنھا بە ڕێکەوت بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA6458("en-GB"),
                               ),

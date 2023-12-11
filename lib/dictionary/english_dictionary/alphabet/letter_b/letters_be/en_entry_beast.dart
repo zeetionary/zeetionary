@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -133,9 +131,8 @@ class EnglishEntrybeast extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -159,12 +156,6 @@ class EnglishEntrybeast extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -187,6 +178,7 @@ class EnglishEntrybeast extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پارچەپارچە کرا لەلایەن دڕندەی کێوییەوە لە دارستانەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeasts1("en-GB"),
                               ),
@@ -207,6 +199,7 @@ class EnglishEntrybeast extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دڕندەکەی ناخی دەیویست ماڵەکەی وێران بکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeasts2("en-GB"),
                               ),
@@ -226,6 +219,7 @@ class EnglishEntrybeast extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تاقیکردنەوەی بیرکاری سەرێشەیەکی تەواو بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeasts3("en-GB"),
                               ),
@@ -245,6 +239,7 @@ class EnglishEntrybeast extends StatelessWidget {
                                       "His new guitar is a very expensive beast."),
                               const ExampleSentenceKurdish(
                                   text: "گیتارە تازەکەی دانەیەکی زۆر گرانە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeasts4("en-GB"),
                               ),

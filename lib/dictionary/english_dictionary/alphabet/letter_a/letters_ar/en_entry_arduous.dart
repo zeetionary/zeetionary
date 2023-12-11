@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -148,9 +147,8 @@ class EnglishEntryarduous extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -169,12 +167,6 @@ class EnglishEntryarduous extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -200,6 +192,7 @@ class EnglishEntryarduous extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێگای گەشتنەوە بە ئارامی سیاسی زەحمەتە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArduous530("en-GB"),
                               ),
@@ -221,6 +214,7 @@ class EnglishEntryarduous extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "کارەکە تاقەت‌پڕوقێن بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArduous531("en-GB"),
                               ),

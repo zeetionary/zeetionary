@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -141,9 +140,8 @@ class EnglishEntryawe extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -162,12 +160,6 @@ class EnglishEntryawe extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -191,6 +183,7 @@ class EnglishEntryawe extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "بە ھەیبەتەوە باسی دەکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwes1("en-GB"),
                               ),
@@ -215,6 +208,7 @@ class EnglishEntryawe extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆر سەرسام بوو بە ئامادەبوونی ئەو ھەموو کەسە بەناوبانگانە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwes2("en-GB"),
                               ),

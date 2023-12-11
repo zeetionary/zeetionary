@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -152,9 +151,8 @@ class EnglishEntryauthorization extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -173,12 +171,6 @@ class EnglishEntryauthorization extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -204,6 +196,7 @@ class EnglishEntryauthorization extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کێ مۆڵەتی بڵاوکردنەوەی زانیارییەکانی دا؟."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuthorization850("en-GB"),
                               ),
@@ -227,6 +220,7 @@ class EnglishEntryauthorization extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ناتوانین بەبێ مۆڵەتی ڕوونی دەستەکە ھەنگاو بنێین."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuthorization852("en-GB"),
                               ),
@@ -250,6 +244,7 @@ class EnglishEntryauthorization extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "دەتوانم مۆڵەتەکەت ببینم؟."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuthorization853("en-GB"),
                               ),

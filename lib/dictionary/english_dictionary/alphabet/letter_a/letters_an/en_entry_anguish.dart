@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryanguish - replace speakAnguish - replace anguish - /ˈæŋɡwɪʃ/ - find Dopsum2
 
@@ -143,9 +142,8 @@ class EnglishEntryanguish extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -164,12 +162,6 @@ class EnglishEntryanguish extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -194,6 +186,7 @@ class EnglishEntryanguish extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "فرمێسکی ئازار و ناڕەحەتی ھێینابوویە قوڵپی گریان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnguish958("en-GB"),
                               ),
@@ -217,6 +210,7 @@ class EnglishEntryanguish extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە ناڕەحەتی بینینی بردنی کوڕەکەی بۆ زیندان تێپەڕبوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnguish1000("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -133,9 +132,8 @@ class EnglishEntrybetray extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -159,12 +157,6 @@ class EnglishEntrybetray extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -185,6 +177,7 @@ class EnglishEntrybetray extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پارەی پێدرا تا ناپاکی لە هاوڕیکانی بکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetrays1("en-GB"),
                               ),
@@ -203,6 +196,7 @@ class EnglishEntrybetray extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بۆ چەندین ساڵ نهێنی وڵاتیان بە ڕووسیا دەدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetrays2("en-GB"),
                               ),
@@ -223,6 +217,7 @@ class EnglishEntrybetray extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "هەستی بە دڵشکاوی کرد کە ڕاستییەکەی لەسەری زانی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetrays3("en-GB"),
                               ),
@@ -241,6 +236,7 @@ class EnglishEntrybetray extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دووبارە و دووبارە خیانەتی لە متمانەی کرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetrays4("en-GB"),
                               ),
@@ -261,6 +257,7 @@ class EnglishEntrybetray extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕەخنەگران بانگەشەی ئەوە دەکەن کە وازی لە جوڵانەوەی کۆمیونیزم هێناوە بۆ بەرژەوەندی خۆی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetrays4("en-GB"),
                               ),
@@ -281,6 +278,7 @@ class EnglishEntrybetray extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەنگی ئەو دڵەخورپەی ئاشکرا کرد کە دەیویست بیشارێتەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetrays5("en-GB"),
                               ),

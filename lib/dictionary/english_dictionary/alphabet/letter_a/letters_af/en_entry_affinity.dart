@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryaffinity - replace speakAffinity - replace affinity - /əˈfɪnəti/ - find Dopsum2
 
@@ -118,9 +117,8 @@ class EnglishEntryaffinity extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -139,12 +137,6 @@ class EnglishEntryaffinity extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -167,6 +159,7 @@ class EnglishEntryaffinity extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "سام لە لادێ لەدایکبووبوو و ھۆگرییەکی قووڵی بۆ سرووشت ھەبوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffi5699("en-GB"),
                               ),
@@ -186,6 +179,7 @@ class EnglishEntryaffinity extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "مرۆڤ ھۆگرییەکی تایبەتی بۆ دۆڵفین ھەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAf155("en-GB"),
                               ),
@@ -207,6 +201,7 @@ class EnglishEntryaffinity extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لێکچوونی زۆر ھەیە لەنێوان زمانەکانی ئیسپانی و ئیتالی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffinity145("en-GB"),
                               ),

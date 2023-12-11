@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryamphibian - replace speakAmphibian - replace amphibian - /æmˈfɪbiən/ - find Dopsum2
 
@@ -143,9 +142,8 @@ class EnglishEntryamphibian extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -164,12 +162,6 @@ class EnglishEntryamphibian extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -195,6 +187,7 @@ class EnglishEntryamphibian extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەلەمەندەر و بۆق گیانەوەرە دووژینەکانی دیکە بەتایبەتی ھەستیارن بە ژینگەی ڕەنووسی ھایدرۆجینی بەرز."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmphibian4410("en-GB"),
                               ),
@@ -219,6 +212,7 @@ class EnglishEntryamphibian extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "فڕۆکەیەکی جووتفڕی لێدەخوڕی، کە دەیتوانی لەسەر ئاو بینیشێنێتەوە لە حاڵەتی کێشە لە بزوێنەرەکانی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmphibian44588("en-GB"),
                               ),

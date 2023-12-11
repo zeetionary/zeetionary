@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -131,9 +129,8 @@ class EnglishEntrybattalion extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -152,12 +149,6 @@ class EnglishEntrybattalion extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -180,6 +171,7 @@ class EnglishEntrybattalion extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەربازانی یەکەکە بەسەختی مەشقیان دەکرد بۆ چەندین مانگ پێش ئەوەی بنێردرێن بۆ جەنگەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBattalions1("en-GB"),
                               ),
@@ -200,6 +192,7 @@ class EnglishEntrybattalion extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تیمە زانستییەکە دۆزینەوەیەکیان ئەنجامدا کە جیھانی گۆڕی ."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBattalions2("en-GB"),
                               ),

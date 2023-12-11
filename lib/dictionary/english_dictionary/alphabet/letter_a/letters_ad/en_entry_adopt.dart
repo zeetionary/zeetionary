@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryadopt - replace speakAdopt - replace adopt - /əˈdɑːpt/ - find Dopsum2
 
@@ -119,9 +118,8 @@ class EnglishEntryadopt extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -140,12 +138,6 @@ class EnglishEntryadopt extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -166,6 +158,7 @@ class EnglishEntryadopt extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "منداڵەکە لە ئێستادا بە یاسایی ھەڵگیراوەتەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAd256471("en-GB"),
                               ),
@@ -186,6 +179,7 @@ class EnglishEntryadopt extends StatelessWidget {
                                       "The police adopted tighter security measures."),
                               const ExampleSentenceKurdish(
                                   text: "پۆلیس ڕێکاری توندتری گرتەبەر."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAd25673("en-GB"),
                               ),
@@ -207,6 +201,7 @@ class EnglishEntryadopt extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "حکومەت بڕیارنامەی چەکداماڵینی پەسەندکرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdo45826("en-GB"),
                               ),
@@ -228,6 +223,7 @@ class EnglishEntryadopt extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پارتەکە ئەم ناوەی ئێستای لە ساڵی ١٩٦٥ ھەڵگرتەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdo7259("en-GB"),
                               ),

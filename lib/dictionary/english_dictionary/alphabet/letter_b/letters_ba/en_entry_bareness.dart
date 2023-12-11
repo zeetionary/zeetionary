@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -130,9 +129,8 @@ class EnglishEntrybareness extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -151,12 +149,6 @@ class EnglishEntrybareness extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -179,6 +171,7 @@ class EnglishEntrybareness extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕووتی پەیکەرەکە بینەرە کۆنەپەرستەکانی شۆک کرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarenesss1("en-GB"),
                               ),
@@ -198,6 +191,7 @@ class EnglishEntrybareness extends StatelessWidget {
                                       "The poem's beauty lay in its bareness."), // DOPSUM_WRITE_A_SENTENCE
                               const ExampleSentenceKurdish(
                                   text: "جوانی ھۆنراوەکە لە سادەییەکەی دایە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarenesss2("en-GB"),
                               ),

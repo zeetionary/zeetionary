@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -177,9 +175,8 @@ class EnglishEntrybeam extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -203,12 +200,6 @@ class EnglishEntrybeam extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -231,6 +222,7 @@ class EnglishEntrybeam extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لایتەکانی ئۆتۆمبێلەکە لەسەر عالی بوون."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeams1("en-GB"),
                               ),
@@ -249,6 +241,7 @@ class EnglishEntrybeam extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەناکاو کەوتە بەر تیشکی پڕی شەوقاوێژێک."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeams2("en-GB"),
                               ),
@@ -269,6 +262,7 @@ class EnglishEntrybeam extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "خانۆچکەیەکی دڵڕفێن بوو کە کاریتە خۆی پێوەبوو لەگەڵ لەگەڵ سەربانێکی ھەڵاش بەسەردا دراو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeams3("en-GB"),
                               ),
@@ -289,6 +283,7 @@ class EnglishEntrybeam extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "یاریزانی جیمناستیکەکە تەقڵەیەکی لێدا بەسەر دارەکەدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeams4("en-GB"),
                               ),
@@ -309,6 +304,7 @@ class EnglishEntrybeam extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕووخساری منداڵەکە لە پێکەنیندا گەشایەوە کە باوانی بینی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeams5("en-GB"),
                               ),
@@ -327,6 +323,7 @@ class EnglishEntrybeam extends StatelessWidget {
                                   text: "He beamed at the journalists."),
                               const ExampleSentenceKurdish(
                                   text: "بە ڕۆژنامەنووسەکان پێکەنی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeams6("en-GB"),
                               ),
@@ -347,6 +344,7 @@ class EnglishEntrybeam extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دیمەنی ڕاستەوخۆی ئاھەنگەکە بۆ تەواوی جیھان پەخشکرا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeams7("en-GB"),
                               ),
@@ -365,6 +363,7 @@ class EnglishEntrybeam extends StatelessWidget {
                                   text: "The morning sun beamed down on us."),
                               const ExampleSentenceKurdish(
                                   text: "خۆری بەیانی تیشکی دا بەسەرماندا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeams8("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -143,9 +142,8 @@ class EnglishEntryballotbox extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -164,12 +162,6 @@ class EnglishEntryballotbox extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -193,6 +185,7 @@ class EnglishEntryballotbox extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەنگدەران دانەبەدانە پەڕەکانیان دەخەنە ناو سندووقی دەنگدانەکەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBallotboxs1("en-GB"),
                               ),
@@ -218,6 +211,7 @@ class EnglishEntryballotbox extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "خەڵکی خواستەکانیان دەردەبڕن لە سیستەمی ھەڵبژاردنەکەدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBallotboxs2("en-GB"),
                               ),

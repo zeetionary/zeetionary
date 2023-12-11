@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryacademic - speakAcademic - academic - /ˌækəˈdemɪk/
 
@@ -119,9 +118,8 @@ class EnglishEntryacademic extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -140,12 +138,6 @@ class EnglishEntryacademic extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -168,6 +160,7 @@ class EnglishEntryacademic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زانکۆکە ناسراوە لە جیھاندا بۆ باشترین بوون لەلایەنی ئەکادیمییەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA2579("en-GB"),
                               ),
@@ -187,6 +180,7 @@ class EnglishEntryacademic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئێمە بە شوێن ئەزموونی کردار دەگەڕێن لەگەڵ بەدەستھێنانی ئەکادیمی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAa45897("en-GB"),
                               ),
@@ -206,6 +200,7 @@ class EnglishEntryacademic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەسێکی ئەکادیمی نەبوو و ڕقی لە قوتابخانە بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA2548("en-GB"),
                               ),
@@ -225,6 +220,7 @@ class EnglishEntryacademic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "مشتومڕی زۆر ھەیە لە نێوان لێکۆڵەران سەبارەت بەم بابەتە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc2569("en-GB"),
                               ),

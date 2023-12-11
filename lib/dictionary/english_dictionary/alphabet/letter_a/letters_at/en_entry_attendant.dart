@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -150,9 +149,8 @@ class EnglishEntryattendant extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -171,12 +169,6 @@ class EnglishEntryattendant extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -202,6 +194,7 @@ class EnglishEntryattendant extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کارمەندانی مەلەوانگەکە بەردەوام چاویان لەسەر مەلەکەرەکان بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttendant831("en-GB"),
                               ),
@@ -227,6 +220,7 @@ class EnglishEntryattendant extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕیسکی زۆر ھەیە لەگەڵ خستنە بەرھەمھێنانی پارەیەکی وەھا زۆر."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttendant835("en-GB"),
                               ),

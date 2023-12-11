@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryalive - replace speakAlive - replace alive - /əˈlaɪv/ - find Dopsum2
 
@@ -155,9 +154,8 @@ class EnglishEntryalive extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -176,12 +174,6 @@ class EnglishEntryalive extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -207,6 +199,7 @@ class EnglishEntryalive extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێویست بوو خواردن بدزێت بۆ ئەوەی بە زیندوویی بمێنێتەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlive65666("en-GB"),
                               ),
@@ -228,6 +221,7 @@ class EnglishEntryalive extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "نازانین زیندووە یان مردووە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlive69142("en-GB"),
                               ),
@@ -250,6 +244,7 @@ class EnglishEntryalive extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ئێد پڕ بوو لە خۆشی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlive3599("en-GB"),
                               ),
@@ -274,6 +269,7 @@ class EnglishEntryalive extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "نەریتە کۆنەکان ھێشتا زیندوون لەم ھەرێمە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlive75236("en-GB"),
                               ),
@@ -296,6 +292,7 @@ class EnglishEntryalive extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "حەوزەکە پڕ لە زەردەماسی بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlive378514("en-GB"),
                               ),
@@ -320,6 +317,7 @@ class EnglishEntryalive extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "باش ئاگاداری ئەو ڕاستییەن کە تیمی بەرامبەر ئەم وەرزە ھیچ یارییەکی نەدۆڕاندووە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlive35961("en-GB"),
                               ),

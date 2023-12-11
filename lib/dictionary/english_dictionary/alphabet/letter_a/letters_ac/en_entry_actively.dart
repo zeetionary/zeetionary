@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryactively - replace speakActively - replace actively - /ˈæktɪvli/ - find Dopsum2
 
@@ -101,9 +100,8 @@ class EnglishEntryactively extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -122,12 +120,6 @@ class EnglishEntryactively extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -150,6 +142,7 @@ class EnglishEntryactively extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێشنیارەکەت بەڕشتی کاری لەسەر دەکرێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakActiv2537("en-GB"),
                               ),
@@ -168,6 +161,7 @@ class EnglishEntryactively extends StatelessWidget {
                                   text: "She was actively looking for a job."),
                               const ExampleSentenceKurdish(
                                   text: "بە جدییانە بۆ کارێک دەگەڕا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAct2534("en-GB"),
                               ),

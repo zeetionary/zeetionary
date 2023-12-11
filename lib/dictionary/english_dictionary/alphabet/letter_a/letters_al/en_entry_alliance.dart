@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryalliance - replace speakAlliance - replace alliance - /əˈlaɪəns/ - find Dopsum2
 
@@ -120,9 +119,8 @@ class EnglishEntryalliance extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -141,12 +139,6 @@ class EnglishEntryalliance extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -172,6 +164,7 @@ class EnglishEntryalliance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "حکومەت ھەوڵیداوە ھاوپەیمانییەک لەگەڵ ژینگەدۆستان ببەستێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlliance45966("en-GB"),
                               ),
@@ -194,6 +187,7 @@ class EnglishEntryalliance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئامانج لە ھاوسەرگیرییەکە ئەوەبوو ھاوپەیمانی لەنێوان دوو وڵاتەکە پتەو بکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlliance647239("en-GB"),
                               ),
@@ -218,6 +212,7 @@ class EnglishEntryalliance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "حەوت وڵاتی دیکە بانگھێشتکراون پەیوەندی بە ھاوپەیمانییەکەوە بکەن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlliance4692("en-GB"),
                               ),

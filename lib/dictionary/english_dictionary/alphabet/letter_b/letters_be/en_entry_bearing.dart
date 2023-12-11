@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -133,9 +131,8 @@ class EnglishEntrybearing extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -159,12 +156,6 @@ class EnglishEntrybearing extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -187,6 +178,7 @@ class EnglishEntrybearing extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕووداوەکانی ئەم دواییە ھیچ کاریگەری لەسەر بڕیارەکەمان نابێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBearings1("en-GB"),
                               ),
@@ -205,6 +197,7 @@ class EnglishEntrybearing extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕاھێنانی بەردەوام کاریگەری ڕاستەوخۆی ھەیە لەسەر ھەیکەل و تەندرووستی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBearings2("en-GB"),
                               ),
@@ -224,6 +217,7 @@ class EnglishEntrybearing extends StatelessWidget {
                                       "She had a proud, distinguished bearing."),
                               const ExampleSentenceKurdish(
                                   text: "ھەیکەلێکی بەشکۆ و ھەڵکەوتووی ھەبوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBearings3("en-GB"),
                               ),
@@ -244,6 +238,7 @@ class EnglishEntrybearing extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەسەر گردەکە وەستابوو بۆ دۆزینەوەی شوێنەکەی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBearings4("en-GB"),
                               ),

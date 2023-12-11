@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -153,9 +152,8 @@ class EnglishEntryarticulation extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -174,12 +172,6 @@ class EnglishEntryarticulation extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -205,6 +197,7 @@ class EnglishEntryarticulation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕوونی و وردی دەربڕینی بیرۆکەکەی وا ئاسانی کرد کە تەنانەت ناشارەزاکانیش لە دەرئەنجامەکانی تێ‌بگەن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArticulation845("en-GB"),
                               ),
@@ -230,6 +223,7 @@ class EnglishEntryarticulation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زمان و ددان ھەردوویان ئەندامی ئاخاوتنن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArticulation847("en-GB"),
                               ),
@@ -255,6 +249,7 @@ class EnglishEntryarticulation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێکەوە بەسترانی بەشەکانی پەزڵەکە تەواو بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArticulation855("en-GB"),
                               ),
@@ -277,6 +272,7 @@ class EnglishEntryarticulation extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "جومگەی شان ڕێگا بە جووڵەی زۆر دەدات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArticulation853("en-GB"),
                               ),

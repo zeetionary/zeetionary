@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryagriculture - replace speakAgriculture - replace agriculture - /ˈæɡrɪkʌltʃə(r)/ - find Dopsum2
 
@@ -100,9 +99,8 @@ class EnglishEntryagriculture extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -121,12 +119,6 @@ class EnglishEntryagriculture extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -152,6 +144,7 @@ class EnglishEntryagriculture extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کشتوکاڵ لە زۆر وڵات ھێشتا ھەر پشت بە ڕێگا باوە کۆنەکان دەبەستێت بەزۆری."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgri3588("en-GB"),
                               ),

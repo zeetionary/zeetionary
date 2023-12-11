@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -219,9 +218,8 @@ class EnglishEntrybank extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -240,12 +238,6 @@ class EnglishEntrybank extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -271,6 +263,7 @@ class EnglishEntrybank extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە کۆتایی مانگەکەدا پارەم زۆر لە بانک نامێنێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBanks1("en-GB"),
                               ),
@@ -295,6 +288,7 @@ class EnglishEntrybank extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پارەی یاریزانەکە بەرەو کەمبوون دەچوو لە دوای ژمارەیەک دۆڕان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBanks2("en-GB"),
                               ),
@@ -319,6 +313,7 @@ class EnglishEntrybank extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەیانەوێت بانکێکی زانیاری درووست بکەن کە بەردەستبێت بۆ خەڵکی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBanks3("en-GB"),
                               ),
@@ -341,6 +336,7 @@ class EnglishEntrybank extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بانکی خوێنەکە ھەمیشە پێویستی بە بەخشینە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBanks4("en-GB"),
                               ),
@@ -365,6 +361,7 @@ class EnglishEntrybank extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "جل و پێڵاوی کۆن ببە بۆ بانکی دووبارەبەکارھێنانەوەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBanks5("en-GB"),
                               ),
@@ -389,6 +386,7 @@ class EnglishEntrybank extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕووبارەکە قەراخەکانی پڕکرد لە دوای بارانی خەست."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBanks6("en-GB"),
                               ),
@@ -413,6 +411,7 @@ class EnglishEntrybank extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەپۆلکەی نزمی زەوی ھەبوو لەنێوان کێڵگە برنجەکان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBanks7("en-GB"),
                               ),
@@ -437,6 +436,7 @@ class EnglishEntrybank extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "شۆفێرەکە بەوریاییەوە دەرچوو بە پێچکردنەوە تیژەکە لەسەر ڕێگا لێژبووەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBanks8("en-GB"),
                               ),
@@ -460,6 +460,7 @@ class EnglishEntrybank extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "خۆر کەوتە پشت تۆپەڵە ھەورێک."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBanks9("en-GB"),
                               ),
@@ -484,6 +485,7 @@ class EnglishEntrybank extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێژەیەکی زۆر لە سویچ و دووگمەی لەپێش بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBanks10("en-GB"),
                               ),
@@ -508,6 +510,7 @@ class EnglishEntrybank extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "باوەڕوایە ١٠ ملیۆن یۆرۆی قازانج کردبێت (خستبێتە بانک) لە دوو ساڵدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBanks11("en-GB"),
                               ),
@@ -532,6 +535,7 @@ class EnglishEntrybank extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "خێزانەکە بۆ چەندین نەوەیە ھەژماریان لە بانکی ئەمریکا ھەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBanks12("en-GB"),
                               ),
@@ -556,6 +560,7 @@ class EnglishEntrybank extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "فڕۆکەوانەکە فڕۆکەکەی خست بە لادا بۆ ئەوەی دیمەنێکی باشتری شاخەکە بدات بە گەشتیاران."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBanks13("en-GB"),
                               ),
@@ -580,6 +585,7 @@ class EnglishEntrybank extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەفرەکە کەڵەکەی کردبوو لە سووچی باخچەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBanks14("en-GB"),
                               ),
@@ -604,6 +610,7 @@ class EnglishEntrybank extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئاگرەکەمان خۆشکردەوە بۆ ئەوەی تەواوی شەوەکە بسوتێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBanks15("en-GB"),
                               ),

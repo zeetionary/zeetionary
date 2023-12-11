@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryabusive - speakAbusive - abusive - /əˈbjuːsɪv/
 
@@ -92,9 +91,8 @@ class EnglishEntryabusive extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -113,12 +111,6 @@ class EnglishEntryabusive extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -139,6 +131,7 @@ class EnglishEntryabusive extends StatelessWidget {
                                   text: "He became abusive when he was drunk."),
                               const ExampleSentenceKurdish(
                                   text: "کە دەیخواردەوە توندوتیژ دەبوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAb582("en-GB"),
                               ),
@@ -158,6 +151,7 @@ class EnglishEntryabusive extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە دوای چەندین ساڵ لەناو پەیوەندیدییەکی توندوتیژانە، ھاوسەرەکەی جێھێشت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA1574("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace EnglishEntryantisocial - replace speakAntisocial
 
@@ -147,9 +146,8 @@ class EnglishEntryantisocial extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -168,12 +166,6 @@ class EnglishEntryantisocial extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -199,6 +191,7 @@ class EnglishEntryantisocial extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "جگەرەکێشان زیاتر و زیاتر لەلایەن خەڵکییەوە دادەنرێت بە شتێکی ناکۆمەڵایەتی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAntisocial1238("en-GB"),
                               ),
@@ -224,6 +217,7 @@ class EnglishEntryantisocial extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "وابیردەکەنەوە ناکۆمەڵایەتیت ئەگەر نەچیت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAntisocial1240("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryampup - replace speakAmpup - replace amp up - /æmp ʌp/ - find Dopsum2
 
@@ -144,9 +143,8 @@ class EnglishEntryampup extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -165,12 +163,6 @@ class EnglishEntryampup extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -194,6 +186,7 @@ class EnglishEntryampup extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆرباش دەیزانی کەی دەنگی میوزیککە زیادبکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmpup4414("en-GB"),
                               ),
@@ -218,6 +211,7 @@ class EnglishEntryampup extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەمیشە ھەوڵ دەدەین ڕێگا بدۆزینەوە بۆ زیادکردنی بەرھەمھێنان لە شوێن‌کارەکەمان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmpup5560("en-GB"),
                               ),
@@ -242,6 +236,7 @@ class EnglishEntryampup extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە دوای ئەوەی جەماوەرەکەیان خرۆشاند بە نمایشی لایتەکان، باندەکە چوونە سەر ستەیج"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmpup44855("en-GB"),
                               ),

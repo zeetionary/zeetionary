@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -136,9 +134,8 @@ class EnglishEntrybelief extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -162,12 +159,6 @@ class EnglishEntrybelief extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -190,6 +181,7 @@ class EnglishEntrybelief extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەرسامی باوەڕی گەرموگوڕیم بۆ ئەوەی کە دەیکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeliefs1("en-GB"),
                               ),
@@ -208,6 +200,7 @@ class EnglishEntrybelief extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕووداوەکە باوەڕمی بە پۆلیس لەقکردووە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeliefs2("en-GB"),
                               ),
@@ -226,6 +219,7 @@ class EnglishEntrybelief extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئیمانیان بەوە ھەیە کە ژیانی دوای مەرگ ھەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeliefs3("en-GB"),
                               ),
@@ -246,6 +240,7 @@ class EnglishEntrybelief extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بۆچوونێکی گشتی ھەیە کە شتەکان باشتر دەبن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeliefs4("en-GB"),
                               ),
@@ -264,6 +259,7 @@ class EnglishEntrybelief extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەو باوەڕەوە کاری کرد کە شتێکی باش دەکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeliefs5("en-GB"),
                               ),
@@ -284,6 +280,7 @@ class EnglishEntrybelief extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەندێک کەس باوەڕیان بە شتانێک ھەیە کە زانست پشتگیری ناکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeliefs6("en-GB"),
                               ),
@@ -302,6 +299,7 @@ class EnglishEntrybelief extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پارتی کرێکاران دەبێت پەیوەست بێت بەو شتانەی کە باوەڕی پێیەتی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeliefs7("en-GB"),
                               ),

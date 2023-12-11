@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -149,9 +148,8 @@ class EnglishEntryarmament extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -170,12 +168,6 @@ class EnglishEntryarmament extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -201,6 +193,7 @@ class EnglishEntryarmament extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پیشەسازی چەک و تەقەمەنی بەشێکی گرنگی ئابووری جیھانە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArmament455("en-GB"),
                               ),
@@ -226,6 +219,7 @@ class EnglishEntryarmament extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەھۆی ئەوەی وڵاتەکە ئامادەکاری بۆ جەنگ دەکات، پارەی زیاتر و زیاتر بۆ خۆپڕچەککردن تەرخان‌دەکرێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArmament458("en-GB"),
                               ),

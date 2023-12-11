@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryadvertise - replace speakAdvertise - replace advertise - /ˈædvərtaɪz/ - find Dopsum2
 
@@ -102,9 +101,8 @@ class EnglishEntryadvertise extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -123,12 +121,6 @@ class EnglishEntryadvertise extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -149,6 +141,7 @@ class EnglishEntryadvertise extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەگەر دەتەوێت کڕیار ڕابکێشیت ئەوا دەبێت ڕیکلام بکەیت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdve2568("en-GB"),
                               ),
@@ -170,6 +163,7 @@ class EnglishEntryadvertise extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "باشترین کارەکان زۆرجار لە ڕۆژنامەکان بانگەشەیان بۆ ناکرێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdver6384("en-GB"),
                               ),
@@ -190,6 +184,7 @@ class EnglishEntryadvertise extends StatelessWidget {
                                       "She coughed to advertise her presence."),
                               const ExampleSentenceKurdish(
                                   text: "کۆکی بۆ پیشاندانی ئامادەییبوونی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdve35984("en-GB"),
                               ),

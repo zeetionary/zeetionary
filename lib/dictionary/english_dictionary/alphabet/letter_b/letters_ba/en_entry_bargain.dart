@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -132,9 +131,8 @@ class EnglishEntrybargain extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -153,12 +151,6 @@ class EnglishEntrybargain extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -181,6 +173,7 @@ class EnglishEntrybargain extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەندێک شتی ھەرزانم کڕی لە ھەڕاجییەکەدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBargains1("en-GB"),
                               ),
@@ -201,6 +194,7 @@ class EnglishEntrybargain extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو و ھاوژینەکەی ڕێککەوتنێکیان کردبوو کە ھەموو شتێک بە یەکدی بڵێن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBargains2("en-GB"),
                               ),
@@ -218,6 +212,7 @@ class EnglishEntrybargain extends StatelessWidget {
                                       "Finally the two sides struck a bargain (= reached an agreement)."), // DOPSUM_WRITE_A_SENTENCE
                               const ExampleSentenceKurdish(
                                   text: "لە کۆتاییدا ھەردوو لایەن ڕێککەوتن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBargains3("en-GB"),
                               ),
@@ -238,6 +233,7 @@ class EnglishEntrybargain extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە بازاڕەکە فرۆشیاران لەگەڵ بەرھەمھێنەران مامەڵەیان بوو لەسەر نرخی قاوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBargains4("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -151,9 +150,8 @@ class EnglishEntryattorney extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -172,12 +170,6 @@ class EnglishEntryattorney extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -203,6 +195,7 @@ class EnglishEntryattorney extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەسەر داوای پارێزەرەکەی بێ‌دەنگ مایەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttorney1101("en-GB"),
                               ),
@@ -226,6 +219,7 @@ class EnglishEntryattorney extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پارێزەری داوالێکراو داوای وچانێکی کرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttorney1103("en-GB"),
                               ),
@@ -251,6 +245,7 @@ class EnglishEntryattorney extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کرا بە بریکاری باوکی کە ئەو نەخۆش کەوت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttorney1107("en-GB"),
                               ),

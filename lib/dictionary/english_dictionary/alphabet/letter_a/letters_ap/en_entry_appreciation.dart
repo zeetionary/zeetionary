@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -153,9 +152,8 @@ class EnglishEntryappreciation extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -174,12 +172,6 @@ class EnglishEntryappreciation extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -204,6 +196,7 @@ class EnglishEntryappreciation extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "قەدری میوزیکی خۆش نازانێ."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppreciation814("en-GB"),
                               ),
@@ -227,6 +220,7 @@ class EnglishEntryappreciation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەستم‌کردووە بە چێژ وەرگرتن لە ھۆنراوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppreciation815("en-GB"),
                               ),
@@ -252,6 +246,7 @@ class EnglishEntryappreciation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەواو بێ ئاگا بووم لەو کێشانەی ڕووبەڕووی دەبوونەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppreciation817("en-GB"),
                               ),
@@ -275,6 +270,7 @@ class EnglishEntryappreciation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تێگەشتنی زیاتر و زیاتر ھەیە بۆ پێویستیی گۆڕانکاری."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppreciation818("en-GB"),
                               ),
@@ -300,6 +296,7 @@ class EnglishEntryappreciation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەمەوێت پێزانین و سوپاسگوزاریم بۆ ھەمووتان دەرببڕم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppreciation820("en-GB"),
                               ),
@@ -325,6 +322,7 @@ class EnglishEntryappreciation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەرزبوونی نرخی خانووەکان خۆشی ھێناوە بۆ خاوەنەکانیان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppreciation824("en-GB"),
                               ),

@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -134,9 +132,8 @@ class EnglishEntrybench extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -160,12 +157,6 @@ class EnglishEntrybench extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -188,6 +179,7 @@ class EnglishEntrybench extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پارکەکە پڕبوو لە کورسی کە خێزان لەسەری دانیشتبوون و چێژیان لە خۆرەتاوەکە دەبینی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBenchs1("en-GB"),
                               ),
@@ -207,6 +199,7 @@ class EnglishEntrybench extends StatelessWidget {
                                       "She has recently been appointed to the bench."),
                               const ExampleSentenceKurdish(
                                   text: "تازەگی وەک دادوەر دیاریکراوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBenchs2("en-GB"),
                               ),
@@ -227,6 +220,7 @@ class EnglishEntrybench extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەرا و ھاوارێکی زۆر لە کورسی پارتی کرێکارانەوە دەھات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBenchs3("en-GB"),
                               ),
@@ -247,6 +241,7 @@ class EnglishEntrybench extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بێزار بووە لەوەی ھەموو یارییەک لەسەر کورسی یەدەگ دابنیشێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBenchs4("en-GB"),
                               ),
@@ -267,6 +262,7 @@ class EnglishEntrybench extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆرینەی کارەکانی درووستکردنی ئەم شتانە لەسەر مێزێک دەکرێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBenchs5("en-GB"),
                               ),

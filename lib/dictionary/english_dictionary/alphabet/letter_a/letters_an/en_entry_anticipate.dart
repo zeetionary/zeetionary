@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryanticipate - replace speakAnticipate - replace anticipate - /ænˈtɪsɪpeɪt/ - find Dopsum2
 
@@ -148,9 +147,8 @@ class EnglishEntryanticipate extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -169,12 +167,6 @@ class EnglishEntryanticipate extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -197,6 +189,7 @@ class EnglishEntryanticipate extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "کاتی پێشبینیکراوی گەشتنمان ٨:٣٠ یە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnticipate1032("en-GB"),
                               ),
@@ -219,6 +212,7 @@ class EnglishEntryanticipate extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "پێشبینی ناکەم ببێتە کێشە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnticipate1033("en-GB"),
                               ),
@@ -244,6 +238,7 @@ class EnglishEntryanticipate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەوڵ‌بدە پێشبینی بکە دیدارکاران چی پرسیارێک دەکەن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnticipate1036("en-GB"),
                               ),
@@ -269,6 +264,7 @@ class EnglishEntryanticipate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە خۆشییەوە بیرمان لەو ڕۆژە دەکردەوە کە قوتابخانە جێدێڵین."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnticipate1038("en-GB"),
                               ),
@@ -294,6 +290,7 @@ class EnglishEntryanticipate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کە سکۆت گەشتە جەمسەری باشوور زانی ئامندسن پێشی دابوویەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnticipate1040("en-GB"),
                               ),

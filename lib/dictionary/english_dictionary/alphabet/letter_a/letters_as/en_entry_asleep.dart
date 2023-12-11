@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -152,9 +151,8 @@ class EnglishEntryasleep extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -173,12 +171,6 @@ class EnglishEntryasleep extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -204,6 +196,7 @@ class EnglishEntryasleep extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "وەستام تاوەکو ھەموویان خەویان لێ کەوت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAsleep929("en-GB"),
                               ),
@@ -227,6 +220,7 @@ class EnglishEntryasleep extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھێشتا چاوی بە خەوەوە بوو کە گەشتە سەر کار."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAsleep930("en-GB"),
                               ),
@@ -252,6 +246,7 @@ class EnglishEntryasleep extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "نەمتوانی ڕاستەوخۆ بجوڵێم بەھۆی ئەوەی لاقم تەواو سڕبوو بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAsleep933("en-GB"),
                               ),

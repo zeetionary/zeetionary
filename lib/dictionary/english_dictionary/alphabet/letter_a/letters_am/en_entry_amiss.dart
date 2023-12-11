@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryamiss - replace speakAmiss - replace amiss - /əˈmɪs/ - find Dopsum2
 
@@ -167,9 +166,8 @@ class EnglishEntryamiss extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -188,12 +186,6 @@ class EnglishEntryamiss extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -219,6 +211,7 @@ class EnglishEntryamiss extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەستیان‌کرد شتێک گوماناوییە و پەیوەندییان بە پۆلیسەوە کرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmiss7741("en-GB"),
                               ),
@@ -241,6 +234,7 @@ class EnglishEntryamiss extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لایتێکی بۆ ژوورەوە لێدا و ھیچی نائاسایی نەدی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmiss8899("en-GB"),
                               ),

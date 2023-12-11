@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryaccordingto - speakAccordingto - according to - /əˈkɔːdɪŋ tə/
 
@@ -93,9 +92,8 @@ class EnglishEntryaccordingto extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -114,12 +112,6 @@ class EnglishEntryaccordingto extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -142,6 +134,7 @@ class EnglishEntryaccordingto extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەپێی تۆمارەکانمان شەش جار نەھاتوو بوویتە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc59173("en-GB"),
                               ),
@@ -160,6 +153,7 @@ class EnglishEntryaccordingto extends StatelessWidget {
                                       "The work was done according to her instructions."),
                               const ExampleSentenceKurdish(
                                   text: "کارەکە کرا بەپێی ڕێنماییەکانی ئەو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc65874("en-GB"),
                               ),

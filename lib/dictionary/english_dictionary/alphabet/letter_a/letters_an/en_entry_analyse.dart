@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryanalyse - replace speakAnalyse - replace analyse - /ˈænəlaɪz/ - find Dopsum2
 
@@ -144,9 +143,8 @@ class EnglishEntryanalyse extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -165,12 +163,6 @@ class EnglishEntryanalyse extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -196,6 +188,7 @@ class EnglishEntryanalyse extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کارەکە کۆکردنەوە و شیکردنەوەی داتا لەخۆدەگرێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnalyse7950("en-GB"),
                               ),
@@ -217,6 +210,7 @@ class EnglishEntryanalyse extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەوڵی‌دا لە ھەستەکانی تێ‌بگات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnalyse4920("en-GB"),
                               ),
@@ -238,6 +232,7 @@ class EnglishEntryanalyse extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێویستە لێ‌بکۆڵینەوە لەوەی چی ھەڵە ڕوویدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnalyse469("en-GB"),
                               ),

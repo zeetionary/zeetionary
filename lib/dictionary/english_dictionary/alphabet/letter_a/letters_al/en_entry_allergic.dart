@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryallergic - replace speakAllergic - replace allergic - /əˈlɜːdʒɪk/ - find Dopsum2
 
@@ -104,9 +103,8 @@ class EnglishEntryallergic extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -125,12 +123,6 @@ class EnglishEntryallergic extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -155,6 +147,7 @@ class EnglishEntryallergic extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "حەزم لە پشیلەیە بەڵام ھەستیارم پێی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllergic35699("en-GB"),
                               ),
@@ -179,6 +172,7 @@ class EnglishEntryallergic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کاردانەوەیەکی ھەستیاری ھەبوو لە دوای خواردنی کیوییەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllergic4692("en-GB"),
                               ),
@@ -203,6 +197,7 @@ class EnglishEntryallergic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەستت پێدەکرد ڕقی زۆری لە ئیشی ماڵەوە بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllergic45993("en-GB"),
                               ),

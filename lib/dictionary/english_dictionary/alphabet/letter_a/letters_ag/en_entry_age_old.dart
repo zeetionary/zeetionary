@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryageold - replace speakAgeold - replace age-old - /ˌeɪdʒ ˈəʊld/ - find Dopsum2
 
@@ -100,9 +99,8 @@ class EnglishEntryageold extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -121,12 +119,6 @@ class EnglishEntryageold extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -152,6 +144,7 @@ class EnglishEntryageold extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەواوی گوندەکە شوێنی ئەو نەریتە کۆنە دەکەوتن کە دوای نانی نیوەڕۆ سەرخەوێک بشکێنن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgeo1552("en-GB"),
                               ),

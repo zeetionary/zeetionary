@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -209,9 +207,8 @@ class EnglishEntrybehave extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -235,12 +232,6 @@ class EnglishEntrybehave extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -263,6 +254,10 @@ class EnglishEntrybehave extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دکتۆرەکە زۆر ناپیشەییانە مامەڵەی کرد."),
+                              const SizedBox(
+                                width: 20,
+                              ),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBehaves1("en-GB"),
                               ),
@@ -280,7 +275,8 @@ class EnglishEntrybehave extends StatelessWidget {
                                       "They behaved very badly towards their guests."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "زۆر خراپ مەماڵەیان کرد لەگەڵ میوانەکان."),
+                                      "زۆر خراپ مامەڵەیان کرد لەگەڵ میوانەکان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBehaves2("en-GB"),
                               ),
@@ -298,6 +294,7 @@ class EnglishEntrybehave extends StatelessWidget {
                                       "They behave differently when you're not around."),
                               const ExampleSentenceKurdish(
                                   text: "جیاوازتر ڕەفتاردەکەن کە تۆ دیار نیت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBehaves3("en-GB"),
                               ),
@@ -316,6 +313,7 @@ class EnglishEntrybehave extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "چاوەڕێی ئەوەت لێ دەکەم بەشێوەیەکی دیاریکراو ڕەفتار بکەیت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBehaves4("en-GB"),
                               ),
@@ -334,6 +332,7 @@ class EnglishEntrybehave extends StatelessWidget {
                                   text: "Will you kids just behave!"),
                               const ExampleSentenceKurdish(
                                   text: "جوان ڕەفتار بکەن منداڵەکان!"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBehaves5("en-GB"),
                               ),
@@ -352,6 +351,7 @@ class EnglishEntrybehave extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "نازانێت چۆن لەناو خەڵکی جوان ھەڵسوکەوت بکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBehaves6("en-GB"),
                               ),
@@ -370,6 +370,7 @@ class EnglishEntrybehave extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەمەوێت ڕەفتارت جوان بێت کە لێرە نیم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBehaves7("en-GB"),
                               ),
@@ -390,6 +391,7 @@ class EnglishEntrybehave extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "مامۆستاکە ستایشی منداڵەکانی کرد بۆ جوانی مامەڵەیان لە کۆبوونەوەکە"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBehaves8("en-GB"),
                               ),
@@ -410,6 +412,7 @@ class EnglishEntrybehave extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "فێردەبن تەنۆلکەکان چۆن کاردانەوەیان دەبێت لە تەنی ڕەقی و شلی و گازیدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBehaves9("en-GB"),
                               ),

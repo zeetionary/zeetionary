@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryamerican - replace speakAmerican - replace American - /əˈmerɪkən/ - find Dopsum2
 
@@ -167,9 +166,8 @@ class EnglishEntryamerican extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -188,12 +186,6 @@ class EnglishEntryamerican extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -218,6 +210,7 @@ class EnglishEntryamerican extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "گوتی شانازییە بۆی خەڵکی ئەمریکا بێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmerican4211("en-GB"),
                               ),
@@ -240,6 +233,7 @@ class EnglishEntryamerican extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "من ئەمریکیم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmerican4555("en-GB"),
                               ),
@@ -260,6 +254,7 @@ class EnglishEntryamerican extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ئۆتۆمبێلێکی گەورەی ئەمریکییان ھەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmerican46599("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryamericanfootball - replace speakAmericanfootball - replace American football - /əˌmerɪkən ˈfʊtbɔːl/ - find Dopsum2
 
@@ -166,9 +165,8 @@ class EnglishEntryamericanfootball extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -187,12 +185,6 @@ class EnglishEntryamericanfootball extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -215,6 +207,7 @@ class EnglishEntryamericanfootball extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ھیچ حەزم بە تۆپێنی ئەمریکی نییە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () =>
                                     speakAmericanfootball45777("en-GB"),

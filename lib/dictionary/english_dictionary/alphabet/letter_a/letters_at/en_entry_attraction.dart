@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -155,9 +154,8 @@ class EnglishEntryattraction extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -176,12 +174,6 @@ class EnglishEntryattraction extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -207,6 +199,7 @@ class EnglishEntryattraction extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەکینگھام پاڵاس شوێنێکی گەشتیاری سەرنجڕاکێشە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttraction1023("en-GB"),
                               ),
@@ -232,6 +225,7 @@ class EnglishEntryattraction extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەستی بە دڵبەستەییەکی دەستبەجێ کرد بۆی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttraction1024("en-GB"),
                               ),
@@ -255,6 +249,7 @@ class EnglishEntryattraction extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "حەزی سێکسی یەکێکە لە لایەنە گەورەکانی کەوتنە خۆشەویستی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttraction1026("en-GB"),
                               ),
@@ -279,6 +274,7 @@ class EnglishEntryattraction extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ژیانی شار باڵکێش نییە لام."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttraction1028("en-GB"),
                               ),
@@ -302,6 +298,7 @@ class EnglishEntryattraction extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "خاسیەتی دڵڕفێنی شوێنەکە ژیانی شەوانیەتی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttraction1030("en-GB"),
                               ),
@@ -327,6 +324,7 @@ class EnglishEntryattraction extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھێزی کێشکردنی نێوان زەوی و مانگ وادەکات مانگ لە خولگەی خۆیدا بمێنێتەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAttraction1034("en-GB"),
                               ),

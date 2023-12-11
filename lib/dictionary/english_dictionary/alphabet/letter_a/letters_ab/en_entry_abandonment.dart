@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryabandonment - speakAbandonment - /əˈbændənmənt/ - abandonment
 
@@ -26,7 +25,7 @@ class EnglishEntryabandonment extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "their childhood abandonment by their mother"); // DOPSUM: CHANGE TEXT
+        "Their childhood abandonment by their mother affected their lives greatly."); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -84,9 +83,8 @@ class EnglishEntryabandonment extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -96,12 +94,6 @@ class EnglishEntryabandonment extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -121,10 +113,11 @@ class EnglishEntryabandonment extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "their childhood abandonment by their mother"),
+                                      "Their childhood abandonment by their mother affected their lives greatly."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەستبەرداربوون لێیان لەلایەن دایکیان."),
+                                      "دەستبەرداربوون لێیان لەلایەن دایکیان لە تەمەنی منداڵیدا کاریگەری زۆری لەسەریان هەبوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAba12("en-GB"),
                               ),

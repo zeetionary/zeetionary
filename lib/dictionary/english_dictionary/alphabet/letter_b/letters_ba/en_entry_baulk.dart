@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -132,9 +130,8 @@ class EnglishEntrybaulk extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -158,12 +155,6 @@ class EnglishEntrybaulk extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 12
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -186,6 +177,7 @@ class EnglishEntrybaulk extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆر دایک و باوک ڕەنگە ناڕازی بن بە پێدانی ١٠٠ پاوەند بە جووتە پێڵاوێک."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBaulks1("en-GB"),
                               ),
@@ -206,6 +198,7 @@ class EnglishEntrybaulk extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەسپەکە لە پێش پەرژینەکە وەستا و ڕەتیکردەوە بازدا بەسەریدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBaulks2("en-GB"),
                               ),
@@ -226,6 +219,7 @@ class EnglishEntrybaulk extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "وەک شێرێک بوو کە لە نێچیرەکەی کرابێت (نێچیرەکەی دزرابێت)."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBaulks3("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace EnglishEntryantiseptic - replace speakAntiseptic
 
@@ -149,9 +148,8 @@ class EnglishEntryantiseptic extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -170,12 +168,6 @@ class EnglishEntryantiseptic extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -199,6 +191,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕووشاوییەکە بە خاوێن‌کەر بساوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAntiseptic1218("en-GB"),
                               ),
@@ -222,6 +215,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "خاوێن‌کەر بەکاربێنە بۆ پاککردنەوە و دواتر برینەکە بپێچە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAntiseptic1221("en-GB"),
                               ),
@@ -247,6 +241,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کاتێک برینێکی بچووکت دەبێت دەتوانی کرێمی دژە-ھەوکردن بەکاربێنی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAntiseptic1225("en-GB"),
                               ),
@@ -271,6 +266,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "برینەکە بە پارچەیەکی زۆرپاک ببەستە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAntiseptic1228("en-GB"),
                               ),

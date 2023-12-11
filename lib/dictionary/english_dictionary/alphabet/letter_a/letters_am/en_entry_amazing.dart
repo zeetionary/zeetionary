@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryamazing - replace speakAmazing - replace ama0zing - /əˈmeɪzɪŋ/ - find Dopsum2
 
@@ -103,9 +102,8 @@ class EnglishEntryamazing extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -124,12 +122,6 @@ class EnglishEntryamazing extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -153,6 +145,7 @@ class EnglishEntryamazing extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەوەی سەیرە ئەوەیە پێی‌وایە لەمە دەربازی دەبێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmazing45555("en-GB"),
                               ),
@@ -175,6 +168,7 @@ class EnglishEntryamazing extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لام سەیرە خەڵکی دەکرێت ھێندە نابەرپرسانە بن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmazing95314("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -142,9 +141,8 @@ class EnglishEntrybackdate extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -163,12 +161,6 @@ class EnglishEntrybackdate extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -192,6 +184,7 @@ class EnglishEntrybackdate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "گومانلێکراوەکە تاوانبارکرا بە گۆڕینی بەرواری پسوڵەکە بۆ شاردنەوەی تێوەگلانی لە دزییەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakB3s1("en-GB"),
                               ),
@@ -216,6 +209,7 @@ class EnglishEntrybackdate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کۆمپانیاکە بەرواری سەرەتای کاری کارمەندانی بردە پێشەوە بۆ ئەوەی وابکات پاداشت بیانگرێتەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakB3s2("en-GB"),
                               ),

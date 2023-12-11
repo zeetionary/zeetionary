@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryahead - replace speakAhead - replace ahead - /əˈhed/ - find Dopsum2
 
@@ -135,9 +134,8 @@ class EnglishEntryahead extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -156,12 +154,6 @@ class EnglishEntryahead extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -185,6 +177,7 @@ class EnglishEntryahead extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "پێشوەختە دەچم و ئاگاداریان دەکەم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAhead24999("en-GB"),
                               ),
@@ -207,6 +200,7 @@ class EnglishEntryahead extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەمە لە مانگەکانی داھاتوودا کێشە درووست دەکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAhead12555("en-GB"),
                               ),
@@ -230,6 +224,7 @@ class EnglishEntryahead extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئاھەنگەکە چەندین ھەفتە پێشتر پلانی بۆ دانرا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAhead43582("en-GB"),
                               ),
@@ -252,6 +247,7 @@ class EnglishEntryahead extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "تیمەکان بە شەش خاڵ لەپێش بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAhead24331("en-GB"),
                               ),

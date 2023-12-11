@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryacceleration - speakAcceleration - acceleration - /əkˌseləˈreɪʃn/
 
@@ -93,9 +92,8 @@ class EnglishEntryacceleration extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -114,12 +112,6 @@ class EnglishEntryacceleration extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -142,6 +134,7 @@ class EnglishEntryacceleration extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زیادبوونێکی خێرا ڕوویداوە لە گەشەی پیشەسازی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc95741("en-GB"),
                               ),
@@ -158,6 +151,7 @@ class EnglishEntryacceleration extends StatelessWidget {
                                   text: "a car with good acceleration"),
                               const ExampleSentenceKurdish(
                                   text: "ئۆتۆمبێلێک بە تاودانی باشەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc45987("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryanimal - replace speakAnimal - replace animal - /ˈænɪml/ - find Dopsum2
 
@@ -147,9 +146,8 @@ class EnglishEntryanimal extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -168,12 +166,6 @@ class EnglishEntryanimal extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -198,6 +190,7 @@ class EnglishEntryanimal extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ئاژەڵەکە لاوازبوو و بەزووی مرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnimal858("en-GB"),
                               ),
@@ -219,6 +212,7 @@ class EnglishEntryanimal extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەسپ ئاژەڵێکی گەورەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnimal0052("en-GB"),
                               ),
@@ -244,6 +238,7 @@ class EnglishEntryanimal extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم بەرھەمە ھێشتا لەسەر ئاژەڵ تاقی‌نەکراوەتەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnimal440("en-GB"),
                               ),
@@ -269,6 +264,7 @@ class EnglishEntryanimal extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "مرۆڤ تەنھا گیانلەبەرە کە توانای قسەکردنی گەشەپێ‌دابێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnimal4608("en-GB"),
                               ),
@@ -294,6 +290,7 @@ class EnglishEntryanimal extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەبێت بە دڕندەیەکی تەواو کە زۆر دەخواتەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnimal4390("en-GB"),
                               ),
@@ -319,6 +316,7 @@ class EnglishEntryanimal extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەیزانی دەیڤ کەسێکی شیاو نییە بۆی، بەڵام نەیدەتوانی نکۆڵی بکات لە حەزی جەستەییان بۆ یەکدی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnimal4077("en-GB"),
                               ),
@@ -341,6 +339,7 @@ class EnglishEntryanimal extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "وەک ئەکتەرێک، کەسێکی دڵبەرە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnimal914("en-GB"),
                               ),

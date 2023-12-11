@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryabiding - speakAbiding - abiding - /əˈbaɪdɪŋ/
 
@@ -83,9 +82,8 @@ class EnglishEntryabiding extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -95,12 +93,6 @@ class EnglishEntryabiding extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -117,33 +109,12 @@ class EnglishEntryabiding extends StatelessWidget {
 ١. (ھاوەڵناو) کاتێک ھەستێک یان باوەڕێک بۆ ماوەیەکی زۆر بەبێ گۆڕان بەردەوام دەبێت"""),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    '''
-He is an artist with an abiding concern for humanity.
-                                    ''',
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He is an artist with an abiding concern for humanity."),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    '''
-ھونەرمەندێکە بە بە ھۆگرییەکی ھەمیشەییەوە بۆ مرۆڤایەتی
-                                    ''',
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(text: "ھونەرمەندێکە بە بە ھۆگرییەکی ھەمیشەییەوە بۆ مرۆڤایەتی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA625("en-GB"),
                               ),

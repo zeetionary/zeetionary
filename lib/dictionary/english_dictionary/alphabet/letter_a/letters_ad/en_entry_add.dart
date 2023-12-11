@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryadd - replace speakAdd - replace add - /æd/ - find Dopsum2
 
@@ -119,9 +118,8 @@ class EnglishEntryadd extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -140,12 +138,6 @@ class EnglishEntryadd extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -166,6 +158,7 @@ class EnglishEntryadd extends StatelessWidget {
                                   text: "Shall I add your name to the list?"),
                               const ExampleSentenceKurdish(
                                   text: "ناوت زیادبکەم بۆ لیستەکە؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdd4257("en-GB"),
                               ),
@@ -185,6 +178,7 @@ class EnglishEntryadd extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کلۆر زیاد دەکرێت بۆ ئاو بۆ کووشتنی بەکتریا"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdd45698("en-GB"),
                               ),
@@ -205,6 +199,7 @@ class EnglishEntryadd extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەیزانی چۆن کۆکرنەوە و لێدەرکردن بکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdd241("en-GB"),
                               ),
@@ -226,6 +221,7 @@ class EnglishEntryadd extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھیچم نییە بۆ وتن زیاتر لەوەی پێشتر وتم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdd459224("en-GB"),
                               ),

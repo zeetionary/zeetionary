@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryaccent - speakAccent - accent - /ˈæksent/  /ˈæksənt/
 
@@ -111,9 +110,8 @@ class EnglishEntryaccent extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -132,12 +130,6 @@ class EnglishEntryaccent extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -160,6 +152,7 @@ class EnglishEntryaccent extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەمریکییەکان کۆری فێربووبوون و بە لەھجەیەکی باشەوە قسەیان پێدەکرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc25469("en-GB"),
                               ),
@@ -176,6 +169,7 @@ class EnglishEntryaccent extends StatelessWidget {
                                       "Where are you from? I can't place your accent."),
                               const ExampleSentenceKurdish(
                                   text: "خەڵکی کوێی؟ بە لەھجەکەتدا نازانم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc56412("en-GB"),
                               ),
@@ -194,7 +188,8 @@ class EnglishEntryaccent extends StatelessWidget {
                                       "On which syllable do you place the accent in this word?"),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لەم وشەیەدا ھێز دەخەیتە سەر کام بڕگە؟ "),
+                                      "لەم وشەیەدا ھێز دەخەیتە سەر کام بڕگە؟."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc25663("en-GB"),
                               ),
@@ -214,6 +209,7 @@ class EnglishEntryaccent extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ژنان بە مەیکئەپ گرنگی تایبەت بە چاویان دەدەن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc2544799("en-GB"),
                               ),

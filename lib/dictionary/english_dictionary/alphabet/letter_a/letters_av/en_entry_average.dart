@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -146,9 +145,8 @@ class EnglishEntryaverage extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -167,12 +165,6 @@ class EnglishEntryaverage extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -198,6 +190,7 @@ class EnglishEntryaverage extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تێکڕای تەمەنی بەژداربووان ٥٢ ساڵ بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAverages1("en-GB"),
                               ),
@@ -223,6 +216,7 @@ class EnglishEntryaverage extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە ڕۆژێکی ئاساییدا بای ٢٠٠٠ پاوەند سەوزە دەفرۆشن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAverages2("en-GB"),
                               ),
@@ -247,6 +241,7 @@ class EnglishEntryaverage extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "خوێندکارێکی مام‌ناوەند بووم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAverages3("en-GB"),
                               ),
@@ -272,6 +267,7 @@ class EnglishEntryaverage extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دایکان و باوکان بە تێکڕا ٢٢٠ پاوەند لە کایەی منداڵان خەرج‌دەکەن"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAverages4("en-GB"),
                               ),
@@ -297,6 +293,7 @@ class EnglishEntryaverage extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پلەی گەرمی لە سەروو ئاسایین بۆ ئەم کاتەی ساڵ"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAverages5("en-GB"),
                               ),
@@ -322,6 +319,7 @@ class EnglishEntryaverage extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تێکڕای ١٥ گۆڵی ھەبووە لە دوو وەرزی ڕابردوودا"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAverages6("en-GB"),
                               ),
@@ -347,6 +345,7 @@ class EnglishEntryaverage extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "قازانجەکان تێکڕای تەواوی ماوەکە دەکرێن"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAverages7("en-GB"),
                               ),

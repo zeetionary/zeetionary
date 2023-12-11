@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryanalytic - replace speakAnalytic - replace analytic - /ˌænəˈlɪtɪk/ - find Dopsum2
 
@@ -160,9 +159,8 @@ class EnglishEntryanalytic extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -181,12 +179,6 @@ class EnglishEntryanalytic extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -208,6 +200,7 @@ class EnglishEntryanalytic extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "مێشکێکی تەواو بەدیقەتی ھەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnalytical150("en-GB"),
                               ),
@@ -231,6 +224,7 @@ class EnglishEntryanalytic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو ڕێگا شیکارییانەی گەشەمان‌پێدا بۆ ئەم پڕۆژە بەسوود دەبێت بۆ کارەکانی داھاتوومان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnalytical0025("en-GB"),
                               ),
@@ -256,6 +250,7 @@ class EnglishEntryanalytic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم کتێبە یەکێکە لە شاکارەکانی فەلسەفەی شیکارانە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnalytic47906("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryadmission - replace speakAdmission - replace admission - /ədˈmɪʃn/ - find Dopsum2
 
@@ -119,9 +118,8 @@ class EnglishEntryadmission extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -140,12 +138,6 @@ class EnglishEntryadmission extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -168,6 +160,7 @@ class EnglishEntryadmission extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "چوونە نەخۆشخانە لە زۆر حاڵەتدا پێویست نییە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdmiss836541("en-GB"),
                               ),
@@ -186,6 +179,7 @@ class EnglishEntryadmission extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھیچ پارەیەک بۆ چوونەژوورەوە وەردەگیرێت؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdmiss735891("en-GB"),
                               ),
@@ -207,6 +201,7 @@ class EnglishEntryadmission extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھیچ دانپێدانانێکی نەناوە بە تێوەگلان لە پلانەکەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdm587914("en-GB"),
                               ),
@@ -227,6 +222,7 @@ class EnglishEntryadmission extends StatelessWidget {
                                       "There is an admission fee of 10 dollars."),
                               const ExampleSentenceKurdish(
                                   text: "کرێی چوونەژوورەوە ١٠ دۆلارە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdmis912587("en-GB"),
                               ),

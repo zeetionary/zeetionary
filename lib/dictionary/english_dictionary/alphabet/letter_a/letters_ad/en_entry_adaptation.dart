@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryadaptation - replace speakAdaptation - replace adaptation - /ˌædæpˈteɪʃn/ - find Dopsum2
 
@@ -101,9 +100,8 @@ class EnglishEntryadaptation extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -122,12 +120,6 @@ class EnglishEntryadaptation extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -150,6 +142,7 @@ class EnglishEntryadaptation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پڕۆسەی ڕاھاتن بە قوتابخانەیەکی یازە بۆ ھەندێک منداڵ ئاسان نییە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdapt3254("en-GB"),
                               ),
@@ -170,6 +163,7 @@ class EnglishEntryadaptation extends StatelessWidget {
                                       "a screen adaptation of Shakespeare’s ‘Macbeth’"),
                               const ExampleSentenceKurdish(
                                   text: "سازاندنی فیلمیی ماکبێسی شکسپیر."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdaptat2489("en-GB"),
                               ),

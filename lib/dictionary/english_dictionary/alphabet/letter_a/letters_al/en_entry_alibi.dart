@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryalibi - replace speakAlibi - replace alibi - /ˈæləbaɪ/ - find Dopsum2
 
@@ -103,9 +102,8 @@ class EnglishEntryalibi extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -124,12 +122,6 @@ class EnglishEntryalibi extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -155,6 +147,7 @@ class EnglishEntryalibi extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "گومانلێکراوان ھەموویان بەڵگەی بێتاوانی خۆیان ھەبوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlibi4588("en-GB"),
                               ),
@@ -179,6 +172,7 @@ class EnglishEntryalibi extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە دوای ھەشت ساڵ بوون لە دەسەڵات، حکومەت چیتر ناتوانێت سیاسەتی حکومەتی پێشووتر وەک بیانوو بۆ شکستی خۆی بێنێتەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlibi499253("en-GB"),
                               ),

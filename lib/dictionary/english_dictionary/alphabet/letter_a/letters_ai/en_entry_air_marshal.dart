@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryairmarshal - replace speakAirmarshal - replace air marshal - /ˈeə mɑːʃl/ - find Dopsum2
 
@@ -101,9 +100,8 @@ class EnglishEntryairmarshal extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -122,12 +120,6 @@ class EnglishEntryairmarshal extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -151,6 +143,7 @@ class EnglishEntryairmarshal extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "باوکی ئەفسەری باڵای ھێزی ئاسمانیی ئوسترالیا بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAirmarshal524("en-GB"),
                               ),
@@ -175,6 +168,7 @@ class EnglishEntryairmarshal extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێکارە تازەکانی ئەمنییەت زیادکردنی ژمارەی ئەفسەرە نھێنییەکان و توندکردنی دەرگای ژووری فڕۆکەوانەکان لەخۆدەگرێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAirmarshal3528("en-GB"),
                               ),

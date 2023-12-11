@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryadvance - replace speakAdvance - replace advance - /ədˈvɑːns/ - find Dopsum2
 
@@ -190,9 +189,8 @@ class EnglishEntryadvance extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -211,12 +209,6 @@ class EnglishEntryadvance extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -239,6 +231,7 @@ class EnglishEntryadvance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە سەردەمێکدا دەژین کە تەکنەلۆژیا بەخێرایی بەرەو پێشەوە دەچێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdv2567("en-GB"),
                               ),
@@ -260,6 +253,7 @@ class EnglishEntryadvance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێشڕەویی دووژمن ناچاری کردبوون بکشێنەوە ناو چیکان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdvan3567("en-GB"),
                               ),
@@ -280,6 +274,7 @@ class EnglishEntryadvance extends StatelessWidget {
                                       "The publishers have paid me an advance."),
                               const ExampleSentenceKurdish(
                                   text: "بڵاکەرەوەکان پێشەکییەکیان داوە پێم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdv253("en-GB"),
                               ),
@@ -301,6 +296,7 @@ class EnglishEntryadvance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەوڵیدا پەیوەندی سێکسی لەگەڵ یەکێک لە ھاوکارەکانی درووست بکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdv23574("en-GB"),
                               ),
@@ -322,6 +318,7 @@ class EnglishEntryadvance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تێگەشتنمان بۆ نەخۆشییەکە زۆر بەرەوپێشچووە لە چەند ساڵی ڕابردوودا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdvan6988("en-GB"),
                               ),
@@ -343,6 +340,7 @@ class EnglishEntryadvance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەربازان لە کۆتاییدا فەرمانی پێشڕەوییان پێدرا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAd456("en-GB"),
                               ),
@@ -364,6 +362,7 @@ class EnglishEntryadvance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێکەوە کاریان کرد بۆ بەرەوپێشچوونی دۆزی دیموکراسی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdv3568("en-GB"),
                               ),
@@ -383,6 +382,7 @@ class EnglishEntryadvance extends StatelessWidget {
                                   text: "We will advance you the money."),
                               const ExampleSentenceKurdish(
                                   text: "پارەکەت بە پێشەکی پێدەدەین."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdva391("en-GB"),
                               ),
@@ -404,6 +404,7 @@ class EnglishEntryadvance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "وتارەکە بیردۆزێکی تازە پێشنیار دەکات بۆ ڕوونکردنەوەی گۆڕان لە ئاووھەوا"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdva7864("en-GB"),
                               ),
@@ -425,6 +426,7 @@ class EnglishEntryadvance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێکەوتی دانیشتنەکەی دادگا یەک ھەفتە ھێنراوەتە پێشەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdva8529("en-GB"),
                               ),
@@ -446,6 +448,7 @@ class EnglishEntryadvance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەژداربووان دەچنە قۆناغەکانی دواتری پڕۆگرامەکە بە وەڵامدانەوەی ژمارەیەک پرسیار."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdv9678("en-GB"),
                               ),

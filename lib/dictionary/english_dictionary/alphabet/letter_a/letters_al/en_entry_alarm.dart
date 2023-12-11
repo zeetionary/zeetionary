@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryalarm - replace speakAlarm - replace alarm - /əˈlɑːm/ - find Dopsum2
 
@@ -171,9 +170,8 @@ class EnglishEntryalarm extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -192,12 +190,6 @@ class EnglishEntryalarm extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -222,6 +214,7 @@ class EnglishEntryalarm extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "بڕیاریدا زەنگی مەترسی لێبدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlarm355("en-GB"),
                               ),
@@ -244,6 +237,7 @@ class EnglishEntryalarm extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە ھەموو دەرگاکانم دا بۆ ئاگادارکردنەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlarm466("en-GB"),
                               ),
@@ -268,6 +262,7 @@ class EnglishEntryalarm extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زەنگی ئاگادارکەرەوەی ئۆتۆمبێلێک لە نیوە شەودا دەستی بە لێدان کرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlarm4255("en-GB"),
                               ),
@@ -291,6 +286,7 @@ class EnglishEntryalarm extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زەنگەکە لە کاتژمێر ٧ دەستی بە لێدان کرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlarm4522("en-GB"),
                               ),
@@ -315,6 +311,7 @@ class EnglishEntryalarm extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پزیشکەکە وتی ھیچ ھۆکارێک نییە بۆ دڵەخورپە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlarm4277("en-GB"),
                               ),
@@ -339,6 +336,7 @@ class EnglishEntryalarm extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تووشی دڵەخورپە دەبم کە ھیچ کەس ئەم کێشەیە بە جدی وەرناگرێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlarm7692("en-GB"),
                               ),

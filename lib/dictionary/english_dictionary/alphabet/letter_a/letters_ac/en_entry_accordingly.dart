@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryaccordingly - speakAccordingly - accordingly - /əˈkɔːdɪŋli/
 
@@ -93,9 +92,8 @@ class EnglishEntryaccordingly extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -114,12 +112,6 @@ class EnglishEntryaccordingly extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -142,6 +134,7 @@ class EnglishEntryaccordingly extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێویستە پلانەکانی بدۆزینەوە و بە گونجاوی کردار بنێین."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc75924("en-GB"),
                               ),
@@ -161,6 +154,7 @@ class EnglishEntryaccordingly extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "نرخی کەرەستەکان ساڵی ڕابردوو بەرزبوویەوە، لەبەر ئەوە ناچاربووین نرخەکان بەرزبکەینەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA25143("en-GB"),
                               ),

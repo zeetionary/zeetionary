@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -132,9 +130,8 @@ class EnglishEntrybean extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -158,12 +155,6 @@ class EnglishEntrybean extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -186,6 +177,7 @@ class EnglishEntrybean extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "گوندنشینەکان بەزۆری گەنمەشامی و لۆبیا و فاسۆلیا و پاقلە دەچێنن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeans1("en-GB"),
                               ),
@@ -205,6 +197,7 @@ class EnglishEntrybean extends StatelessWidget {
                                       "Coffee beans are the seeds of the coffee tree."),
                               const ExampleSentenceKurdish(
                                   text: "دەنکە قاوە تۆوی داری قاوەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeans2("en-GB"),
                               ),
@@ -223,6 +216,7 @@ class EnglishEntrybean extends StatelessWidget {
                                   text: "Use your bean, kiddo!"),
                               const ExampleSentenceKurdish(
                                   text: "مێشکت بەکاربێنە منداڵ!"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeans3("en-GB"),
                               ),
@@ -243,6 +237,7 @@ class EnglishEntrybean extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەردێک کە کەسێک ھاویشتی کێشای بە سەرمدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeans4("en-GB"),
                               ),

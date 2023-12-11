@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -261,9 +259,8 @@ class EnglishEntrybenefit extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -287,12 +284,6 @@ class EnglishEntrybenefit extends StatelessWidget {
                   VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -315,6 +306,7 @@ class EnglishEntrybenefit extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئازادیی ڕۆژنامەوانی سوودی گرنگی ھەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBenefits1("en-GB"),
                               ),
@@ -333,6 +325,7 @@ class EnglishEntrybenefit extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەرفەتی ئەوەم ھەبووە خوێدنێکی باشم ھەبێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBenefits2("en-GB"),
                               ),
@@ -351,6 +344,7 @@ class EnglishEntrybenefit extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "باش بوو لە کۆتاییدا بینرا کە بەرھەمی ھەموو کارە سەختەکانی چنییەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBenefits3("en-GB"),
                               ),
@@ -371,6 +365,7 @@ class EnglishEntrybenefit extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕەنگە شایستە بیت بۆ وەرگرتنی برە پارەیەکی بڕاوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBenefits4("en-GB"),
                               ),
@@ -391,6 +386,7 @@ class EnglishEntrybenefit extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەرەڕای مووچەکەم، خانەنشینی و تێچووی تەندرووستی وەردەگرم لە کارەکەم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBenefits5("en-GB"),
                               ),
@@ -411,6 +407,7 @@ class EnglishEntrybenefit extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێککەوتنی بیمەکە پارەیەکی زۆری کاش لەخۆدەگرێت بۆ خێزانەکەت لە حاڵەتی مردنت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBenefits6("en-GB"),
                               ),
@@ -431,6 +428,7 @@ class EnglishEntrybenefit extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پارەی کۆکراوەی ئاھەنگەکە ڕاستەوخۆ دەچێت بۆ کەمپی پەنابەران."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBenefits7("en-GB"),
                               ),
@@ -451,6 +449,7 @@ class EnglishEntrybenefit extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەبێت پارەکە لە شتێک خەرج بکەین کە سوود بە ھەمووان بگەیەنێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBenefits8("en-GB"),
                               ),
@@ -469,6 +468,7 @@ class EnglishEntrybenefit extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "یاسا تازەکانی باج بەئاشکرایی سوود بەوانە دەگەیەنێت کە مووچەیان کەمە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBenefits9("en-GB"),
                               ),
@@ -489,6 +489,7 @@ class EnglishEntrybenefit extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەمووان سوودمەند دەبین کە گەنجەکانمان بە تواناکانیان دەزانن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBenefits10("en-GB"),
                               ),
@@ -507,6 +508,7 @@ class EnglishEntrybenefit extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەدرووستی کێ سوودمەند دەبێت لەم گۆڕانکارییانە دەبێت؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBenefits11("en-GB"),
                               ),
@@ -525,6 +527,7 @@ class EnglishEntrybenefit extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆرێک لە قوربانییانی تاوانەکان دۆخیان باشتر دەبێت ئەگەر باسی بەسەرھاتەکانیان بکەن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBenefits12("en-GB"),
                               ),
@@ -533,7 +536,7 @@ class EnglishEntrybenefit extends StatelessWidget {
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                         ],
                       ),

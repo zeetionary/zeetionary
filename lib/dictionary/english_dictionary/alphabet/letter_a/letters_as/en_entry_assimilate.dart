@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -152,9 +151,8 @@ class EnglishEntryassimilate extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -173,12 +171,6 @@ class EnglishEntryassimilate extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -204,6 +196,7 @@ class EnglishEntryassimilate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لیژنەکە پێویستی بە کاتە بۆ تێگەشتن لەم ڕاپۆرتە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAssimilate808("en-GB"),
                               ),
@@ -229,6 +222,7 @@ class EnglishEntryassimilate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "نابێیت چاوەڕێی ئەوە لە پەنابەران بکەیت بەزویی بتوێنەوە ناو کەلتوورێکی نامۆ بەخۆیان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAssimilate812("en-GB"),
                               ),
@@ -254,6 +248,7 @@ class EnglishEntryassimilate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم گۆڕانکارییانە کەم‌کەم لەگەڵ ژیانی ڕۆژانە گونجێندران."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAssimilate814("en-GB"),
                               ),

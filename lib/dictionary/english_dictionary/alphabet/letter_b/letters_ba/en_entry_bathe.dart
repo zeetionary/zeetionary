@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -134,9 +132,8 @@ class EnglishEntrybathe extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -155,12 +152,6 @@ class EnglishEntrybathe extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -183,6 +174,7 @@ class EnglishEntrybathe extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "برینەکە بشۆ و بە پارچەیەکی پاک دایپۆشە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBathes1("en-GB"),
                               ),
@@ -201,6 +193,7 @@ class EnglishEntrybathe extends StatelessWidget {
                                   text: "Have you bathed the baby yet?"),
                               const ExampleSentenceKurdish(
                                   text: "منداڵەکەت شۆردووە؟."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBathes2("en-GB"),
                               ),
@@ -221,6 +214,7 @@ class EnglishEntrybathe extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "حەزدەکەین بچین بۆ مەلەوانی لە زەریاکەدا ھەرکاتێک دەچینە کەناراوەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBathes3("en-GB"),
                               ),
@@ -241,6 +235,7 @@ class EnglishEntrybathe extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "مانگ دەشت‌ودەری ڕووناککردەوە بە ڕۆشناییەکی جوان ."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBathes4("en-GB"),
                               ),
@@ -261,6 +256,7 @@ class EnglishEntrybathe extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "منداڵەکان ھەموو ڕۆژێکی پشووی ھاوینەیان مەلەیان دەکرد لە دەریاکە ."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBathes5("en-GB"),
                               ),

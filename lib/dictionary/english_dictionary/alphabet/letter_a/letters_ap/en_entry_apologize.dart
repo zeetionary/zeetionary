@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -149,9 +148,8 @@ class EnglishEntryapologize extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -170,12 +168,6 @@ class EnglishEntryapologize extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -197,6 +189,7 @@ class EnglishEntryapologize extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "بۆچی دەبێت داوای لێبووردن بکەم؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakApologize535("en-GB"),
                               ),
@@ -220,6 +213,7 @@ class EnglishEntryapologize extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ویستی بەشێوەیەکی گشتی داوای لێبووردن بکات لە قوربانییەکانی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakApologize537("en-GB"),
                               ),
@@ -243,6 +237,7 @@ class EnglishEntryapologize extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە تەواوی داوای لێبووردن دەکەم ھەر لێدوانێکی بێ‌ڕێزانە کە وتبێتم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakApologize540("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryaimless - replace speakAimless - replace aimless - /ˈeɪmləs/ - find Dopsum2
 
@@ -100,9 +99,8 @@ class EnglishEntryaimless extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -121,12 +119,6 @@ class EnglishEntryaimless extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -150,6 +142,7 @@ class EnglishEntryaimless extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ژیانم بێ ئامانج دیاربوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAimless25388("en-GB"),
                               ),
@@ -172,6 +165,7 @@ class EnglishEntryaimless extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "گوتی ژیانی بێ ئامانج بوو لە دوای ئەوەی منداڵەکانی ماڵەوەیان جێھێشت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAimless4277("en-GB"),
                               ),

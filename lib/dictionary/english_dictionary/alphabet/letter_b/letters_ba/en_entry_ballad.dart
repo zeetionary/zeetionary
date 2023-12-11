@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -33,7 +32,8 @@ class EnglishEntryballad extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Adele's 'Someone Like You' is a ballad about lost love."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Adele's 'Someone Like You' is a ballad about lost love."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBallads2(String languageCode) async {
@@ -140,9 +140,8 @@ class EnglishEntryballad extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -161,12 +160,6 @@ class EnglishEntryballad extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -192,6 +185,7 @@ class EnglishEntryballad extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "گۆرانی 'Someone Like You'ی ئەدێڵ لاوژەیەکە سەبارەت بە خۆشەویستی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBallads1("en-GB"),
                               ),

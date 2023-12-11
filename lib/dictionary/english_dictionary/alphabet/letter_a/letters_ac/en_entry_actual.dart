@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryactual - replace speakActual - replace actual - /ˈæktʃuəl/ - find Dopsum2
 
@@ -102,9 +101,8 @@ class EnglishEntryactual extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -123,12 +121,6 @@ class EnglishEntryactual extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -151,6 +143,7 @@ class EnglishEntryactual extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تێچووی ڕاستی زیاتر لەوە بوو کە چاوەڕێمان دەکرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakActual4528("en-GB"),
                               ),
@@ -168,6 +161,7 @@ class EnglishEntryactual extends StatelessWidget {
                                   text: "What were his actual words?"),
                               const ExampleSentenceKurdish(
                                   text: "قسەکانی بە دەقیقی چی بوون؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakActual4967("en-GB"),
                               ),
@@ -189,6 +183,7 @@ class EnglishEntryactual extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئامادەکاریی ھاوسەرگیرییەکە چەندین ھەفتەی پێدەچوو، بەڵام ئاھەنگەکە خۆی کەمتر لە یەک کاتژمێری دەوێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakActu437("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryactive - replace speakActive - replace active - /ˈæktɪv/ - find Dopsum2
 
@@ -201,9 +200,8 @@ class EnglishEntryactive extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -222,12 +220,6 @@ class EnglishEntryactive extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -250,6 +242,7 @@ class EnglishEntryactive extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھێشتنەوەی چالاکیی جەستەیی لە کۆتاییەکانی ژیانت وات لێ دەکات ھەست بە گەنجی بکەی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakActive1257("en-GB"),
                               ),
@@ -268,6 +261,7 @@ class EnglishEntryactive extends StatelessWidget {
                                   text: "They were both politically active."),
                               const ExampleSentenceKurdish(
                                   text: "ھەردووکیان لە سیاسەتدا چالاک بوون."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakActive4568("en-GB"),
                               ),
@@ -287,6 +281,7 @@ class EnglishEntryactive extends StatelessWidget {
                                       "These animals are active only at night."),
                               const ExampleSentenceKurdish(
                                   text: "ئەم ئاژەڵانە تەنھا لە شەودا چالاکن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakActi4568("en-GB"),
                               ),
@@ -306,6 +301,7 @@ class EnglishEntryactive extends StatelessWidget {
                                       "That child has a very active imagination."),
                               const ExampleSentenceKurdish(
                                   text: "ئەو منداڵە خەیاڵێکی کارای ھەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakActive5847("en-GB"),
                               ),
@@ -326,6 +322,7 @@ class EnglishEntryactive extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دڵنیابەوە کە لینکی وێبسایتەکە چالاکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakActive5374("en-GB"),
                               ),
@@ -346,6 +343,7 @@ class EnglishEntryactive extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە ڕستەی 'ئەو ئۆتۆمبێلەکەی لێدەخوڕی،' کردارەکە لە شێوەی دیارە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakActive2538("en-GB"),
                               ),

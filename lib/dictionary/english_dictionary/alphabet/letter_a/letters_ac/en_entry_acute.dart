@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryacute - replace speakAcute - replace acute - /əˈkjuːt/ - find Dopsum2
 
@@ -118,9 +117,8 @@ class EnglishEntryacute extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -139,12 +137,6 @@ class EnglishEntryacute extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -165,6 +157,7 @@ class EnglishEntryacute extends StatelessWidget {
                                   text: "There is an acute shortage of water."),
                               const ExampleSentenceKurdish(
                                   text: "کەمئاوییەکی سەخت بوونی ھەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAcute1247("en-GB"),
                               ),
@@ -184,6 +177,7 @@ class EnglishEntryacute extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئابڕووچوونەکە شەرمەزارییەکی خراپ بوو بۆ سەرۆک."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAcut3749("en-GB"),
                               ),
@@ -203,6 +197,7 @@ class EnglishEntryacute extends StatelessWidget {
                                   text: "acute abdominal pains"),
                               const ExampleSentenceKurdish(
                                   text: "ئازاری سەختی سک ئێشە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAcute42("en-GB"),
                               ),
@@ -222,6 +217,7 @@ class EnglishEntryacute extends StatelessWidget {
                                   text: "Dogs have an acute sense of smell."),
                               const ExampleSentenceKurdish(
                                   text: "سەگ ھەستێکی تیژی بۆنکردنی ھەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAcu5268("en-GB"),
                               ),
@@ -241,6 +237,7 @@ class EnglishEntryacute extends StatelessWidget {
                                   text: "Her judgement is acute."),
                               const ExampleSentenceKurdish(
                                   text: "بڕیاردانی وردبینانەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAcu5269("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -142,9 +141,8 @@ class EnglishEntryavalanche extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -163,12 +161,6 @@ class EnglishEntryavalanche extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -194,6 +186,7 @@ class EnglishEntryavalanche extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە ھەرەسی شەختەبەفردا مرد لە کاتی بەفرەخلیسکێ."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAvalanches1("en-GB"),
                               ),
@@ -217,6 +210,7 @@ class EnglishEntryavalanche extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم بابەتە ڕێژەیەکی زۆر مشتومڕی بەدوای‌خۆیداھێناوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAvalanches2("en-GB"),
                               ),

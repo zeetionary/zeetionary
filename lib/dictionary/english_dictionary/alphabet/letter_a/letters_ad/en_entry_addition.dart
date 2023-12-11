@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryaddition - replace speakAddition - replace addition - /əˈdɪʃn/ - find Dopsum2
 
@@ -102,9 +101,8 @@ class EnglishEntryaddition extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -123,12 +121,6 @@ class EnglishEntryaddition extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -151,6 +143,7 @@ class EnglishEntryaddition extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەموو ئەم تەکنۆلۆژییانە تازە زیادکراون."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAddi14("en-GB"),
                               ),
@@ -172,6 +165,7 @@ class EnglishEntryaddition extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "خوێی تێبکە و لەگەڵ ھەر تێکردنێک تامی بکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdditi769("en-GB"),
                               ),
@@ -193,6 +187,7 @@ class EnglishEntryaddition extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەشە زیادکراوەکە دەبێت بگونجێت لەگەڵ نەخشەی خانووەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAddit445("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryaggravate - replace speakAggravate - replace aggravate - /ˈæɡrəveɪt/ - find Dopsum2
 
@@ -101,9 +100,8 @@ class EnglishEntryaggravate extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -122,12 +120,6 @@ class EnglishEntryaggravate extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -149,6 +141,7 @@ class EnglishEntryaggravate extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "پیسبوونی ژینگە ڕبۆ توندتر دەکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAggrav25189("en-GB"),
                               ),
@@ -171,6 +164,7 @@ class EnglishEntryaggravate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەستوەردانی سەربازی تەنھا پێکدادانەکە ئاڵۆزتر دەکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAggrav3744("en-GB"),
                               ),

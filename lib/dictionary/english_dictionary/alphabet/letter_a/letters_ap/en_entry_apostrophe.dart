@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -151,9 +150,8 @@ class EnglishEntryapostrophe extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -172,12 +170,6 @@ class EnglishEntryapostrophe extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -203,6 +195,7 @@ class EnglishEntryapostrophe extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "'It's' بە کرتێنێکێکەوە دەکرێ واتای it is یان it has بێ."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakApostrophe708("en-GB"),
                               ),
@@ -226,6 +219,7 @@ class EnglishEntryapostrophe extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ماڵ ھێلین زۆر گەورەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakApostrophe710("en-GB"),
                               ),
@@ -249,6 +243,7 @@ class EnglishEntryapostrophe extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "چەند دانە ٣ لە ٩دا ھەیە؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakApostrophe714("en-GB"),
                               ),
@@ -270,6 +265,7 @@ class EnglishEntryapostrophe extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "دوو m لە وشەی comma دا ھەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakApostrophe715("en-GB"),
                               ),

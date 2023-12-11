@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryancillary - replace speakAncillary - replace ancillary - /ænˈsɪləri/ - find Dopsum2
 
@@ -143,9 +142,8 @@ class EnglishEntryancillary extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -164,12 +162,6 @@ class EnglishEntryancillary extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -195,6 +187,7 @@ class EnglishEntryancillary extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کارمەندە ئاریکارەکان یارمەتی ستافی نەخۆشخانەکە دەدەن لە ژمارەیەک لایەنی نا-تەندرووستییەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAncillary1140("en-GB"),
                               ),
@@ -220,6 +213,7 @@ class EnglishEntryancillary extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "مافە لاوەکییەکان زۆرجار لە گرێبەستەکانی پیشەسازی فیلم و میوزیک ھەن بۆ بەرھەمھێنەران."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAncillary0958("en-GB"),
                               ),

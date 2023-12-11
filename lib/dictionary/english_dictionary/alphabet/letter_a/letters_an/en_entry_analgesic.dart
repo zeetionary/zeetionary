@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryanalgesic - replace speakAnalgesic - replace analgesic - /ˌænəlˈdʒiːzɪk/ - find Dopsum2
 
@@ -143,9 +142,8 @@ class EnglishEntryanalgesic extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -164,12 +162,6 @@ class EnglishEntryanalgesic extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -195,6 +187,7 @@ class EnglishEntryanalgesic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم کرێمە ئازارشکێنێکی سووکی تێدایە کە پێوەدان و گەستن ھێوردەکاتەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnalgesic5802("en-GB"),
                               ),
@@ -218,6 +211,7 @@ class EnglishEntryanalgesic extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەسپرین ئازارشکێنێکی سووکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnalgesic101("en-GB"),
                               ),

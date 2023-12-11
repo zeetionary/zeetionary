@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace EnglishEntryAdopsum - replace speakApartfrom
 
@@ -147,9 +146,8 @@ class EnglishEntryapartfrom extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -168,12 +166,6 @@ class EnglishEntryapartfrom extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -198,6 +190,7 @@ class EnglishEntryapartfrom extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەمووم تەواوکردە جگە لە کۆتا پرسیار."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakApartfrom1125("en-GB"),
                               ),
@@ -223,6 +216,7 @@ class EnglishEntryapartfrom extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "جگە لە ماڵەکەیان لە لەندەن، ڤێلایەکیشیان لە ئیسپانیا ھەبوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakApartfrom1127("en-GB"),
                               ),

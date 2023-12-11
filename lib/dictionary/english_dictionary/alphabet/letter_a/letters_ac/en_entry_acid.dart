@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryacid - replace speakAcid - replace acid - /ˈæsɪd/ - find Dopsum2
 
@@ -101,9 +100,8 @@ class EnglishEntryacid extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -122,12 +120,6 @@ class EnglishEntryacid extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -149,6 +141,7 @@ class EnglishEntryacid extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەسیدەکە کونێکی درووستکرد لە پاڵتاوەکەی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc12846("en-GB"),
                               ),
@@ -172,6 +165,7 @@ class EnglishEntryacid extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "میوەیەکی زۆر ئاودارە لەگەڵ بوونی کەمێک تامی ترشی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAcid1598("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryai - replace speakAi - replace AI - /ˌeɪ ˈaɪ/ - find Dopsum2
 
@@ -100,9 +99,8 @@ class EnglishEntryai extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -121,12 +119,6 @@ class EnglishEntryai extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -150,6 +142,7 @@ class EnglishEntryai extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم تەکنۆلەژیا تازەیە ژیری دەستکرد بەکاردەھێنێ بۆ ناسینەوەی خاسیەتەکانی کارەکتەرێک وەک ئەوەی مێشکی مرۆڤ دەیکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAi934262("en-GB"),
                               ),

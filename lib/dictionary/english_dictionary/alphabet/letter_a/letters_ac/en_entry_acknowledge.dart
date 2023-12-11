@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryacknowledge - replace speakAcknowledge - replace acknowledge - /əkˈnɒlɪdʒ/ - find Dopsum2
 
@@ -135,9 +134,8 @@ class EnglishEntryacknowledge extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -156,12 +154,6 @@ class EnglishEntryacknowledge extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -182,6 +174,7 @@ class EnglishEntryacknowledge extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەبێت دان بەو ڕاستییە بنێم کە من بەرپرسیارم بۆ بەشێکی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAckn1254("en-GB"),
                               ),
@@ -200,6 +193,7 @@ class EnglishEntryacknowledge extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دان بەوەدا نانێت کە ھیچ شتێکی ھەڵەی کردبێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAckn1427("en-GB"),
                               ),
@@ -220,6 +214,7 @@ class EnglishEntryacknowledge extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەشێوەیەکی گشتی ناسێندراوە بە باشتری یاریزانی جیھان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAckn12569("en-GB"),
                               ),
@@ -240,6 +235,7 @@ class EnglishEntryacknowledge extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەواوی داخوازینامەکان وەڵام دەدرێنەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAckn647("en-GB"),
                               ),

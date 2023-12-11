@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -142,9 +141,8 @@ class EnglishEntrybandage extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -163,12 +161,6 @@ class EnglishEntrybandage extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -193,6 +185,7 @@ class EnglishEntrybandage extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "پارچە پەڕۆیەکی ئاڵاندووە لەسەری."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBandages1("en-GB"),
                               ),
@@ -216,6 +209,7 @@ class EnglishEntrybandage extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "برینەکە توند مەبەستە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBandages2("en-GB"),
                               ),

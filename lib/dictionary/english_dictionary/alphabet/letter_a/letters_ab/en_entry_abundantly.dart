@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryabundantly - speakAbundantly - abundantly - /əˈbʌndəntli/
 
@@ -93,9 +92,8 @@ class EnglishEntryabundantly extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -114,12 +112,6 @@ class EnglishEntryabundantly extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -141,6 +133,7 @@ class EnglishEntryabundantly extends StatelessWidget {
                                       "She made her wishes abundantly clear."),
                               const ExampleSentenceKurdish(
                                   text: "خۆزگەکانی تەواو ئاشکرا کرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAb25963("en-GB"),
                               ),
@@ -160,6 +153,7 @@ class EnglishEntryabundantly extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کالسیۆم بە ژمارەیەکی زۆر لە شیردا ھەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA15247("en-GB"),
                               ),

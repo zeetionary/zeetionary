@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -133,9 +131,8 @@ class EnglishEntrybead extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -159,12 +156,6 @@ class EnglishEntrybead extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -187,6 +178,7 @@ class EnglishEntrybead extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پەردەیەکی موورووی دوو ژوورەکەی لێک جیاکردبوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeads1("en-GB"),
                               ),
@@ -204,6 +196,7 @@ class EnglishEntrybead extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "موورووەکانی بەوریاییەوە کرد بە دەزوویەکەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeads2("en-GB"),
                               ),
@@ -224,6 +217,7 @@ class EnglishEntrybead extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە کڵێساکەدا ژنێک تەزبیحەکەی دەژمارد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeads3("en-GB"),
                               ),
@@ -243,6 +237,7 @@ class EnglishEntrybead extends StatelessWidget {
                                       "There were beads of sweat on his forehead."),
                               const ExampleSentenceKurdish(
                                   text: "دڵۆپە ئارەق لەسەر ناوچاوانی بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeads4("en-GB"),
                               ),

@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -130,9 +128,8 @@ class EnglishEntrybellyache extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -156,12 +153,6 @@ class EnglishEntrybellyache extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -181,6 +172,7 @@ class EnglishEntrybellyache extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "I’ve got (a) bellyache."),
                               const ExampleSentenceKurdish(text: "ژانەسکمە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBellyaches1("en-GB"),
                               ),
@@ -201,6 +193,7 @@ class EnglishEntrybellyache extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەمیشە بۆڵەبۆڵیەتی لەسەر ئەوەی چەندە زۆر دەبێت ئیش بکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBellyaches2("en-GB"),
                               ),

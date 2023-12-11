@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryaffected - replace speakAffected - replace affected - /əˈfektɪd/ - find Dopsum2
 
@@ -101,9 +100,8 @@ class EnglishEntryaffected extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -122,12 +120,6 @@ class EnglishEntryaffected extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -150,6 +142,7 @@ class EnglishEntryaffected extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "نیگەران مەبە سەبارەت بە گۆڕانی یاساکان، تۆ کاریگەر نابیت پێیان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffec357("en-GB"),
                               ),
@@ -171,6 +164,7 @@ class EnglishEntryaffected extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "وشەی وا نامۆ بەکارمەھێنە، وای دەردەخات کە نواندن دەکەیت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffec3618("en-GB"),
                               ),

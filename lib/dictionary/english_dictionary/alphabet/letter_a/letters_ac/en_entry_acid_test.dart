@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryacidtest - replace speakAcidtest - replace acid test - /ˌæsɪd ˈtest/ - find Dopsum2
 
@@ -100,9 +99,8 @@ class EnglishEntryacidtest extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -121,12 +119,6 @@ class EnglishEntryacidtest extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -149,6 +141,7 @@ class EnglishEntryacidtest extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەنگی مەحەک بۆ شۆفێرێکی باش ئەوەیە کە بە ئارامی دەمێنێتەوە لە حاڵەتی نەخوازراو یان نا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAcidt14587("en-GB"),
                               ),

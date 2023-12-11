@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryamusement - replace speakAmusement - replace amusement - /əˈmjuːzmənt/ - find Dopsum2
 
@@ -144,9 +143,8 @@ class EnglishEntryamusement extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -165,12 +163,6 @@ class EnglishEntryamusement extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -196,6 +188,7 @@ class EnglishEntryamusement extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "نەیدەتوانی خۆشحاڵی‌ی خۆی بشارێتەوە بە شێوازی سەماکردنی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmusement440963("en-GB"),
                               ),
@@ -221,6 +214,7 @@ class EnglishEntryamusement extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "جاران خەڵکی کەم کەرەستەی سەرگەرمییان ھەبوو ھەڵیبژێرن. ھیچ ڕادیۆ و تەلەفیزیۆن نەبوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmusement4418("en-GB"),
                               ),
@@ -245,6 +239,7 @@ class EnglishEntryamusement extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "لەم شارەدا چی دەکەن بۆ ڕابواردن؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmusement5903("en-GB"),
                               ),

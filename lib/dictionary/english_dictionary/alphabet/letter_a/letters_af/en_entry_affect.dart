@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryaffect - replace speakAffect - replace affect - /əˈfekt/ - find Dopsum2
 
@@ -119,9 +118,8 @@ class EnglishEntryaffect extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -140,12 +138,6 @@ class EnglishEntryaffect extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -166,6 +158,7 @@ class EnglishEntryaffect extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "وتارەکە مامەڵە لەگەڵ ئەو کێشانە دەکات کە کاریگەری لەسەر ژیانی منداڵان درووست دەکەن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffe5699("en-GB"),
                               ),
@@ -185,6 +178,7 @@ class EnglishEntryaffect extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بۆچوونت کاریگەری لەسەر بڕیارەکەم ناکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffe741("en-GB"),
                               ),
@@ -206,6 +200,7 @@ class EnglishEntryaffect extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "نەخۆشییەکە ئەگەری زیاترە تووشی ژنان بێت وەک لە پیاوان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffe25699("en-GB"),
                               ),
@@ -226,6 +221,7 @@ class EnglishEntryaffect extends StatelessWidget {
                                       "They were deeply affected by the news of her death."),
                               const ExampleSentenceKurdish(
                                   text: "زۆر ناڕەحەت بوون بە ھەواڵی مردنی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAff2566("en-GB"),
                               ),

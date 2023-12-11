@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryaberration - speakAberration - /ˌæbəˈreɪʃn/ - aberration
 
@@ -93,9 +92,8 @@ class EnglishEntryaberration extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -105,12 +103,6 @@ class EnglishEntryaberration extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -128,33 +120,12 @@ class EnglishEntryaberration extends StatelessWidget {
                             """),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    '''
-a temporary aberration of his exhausted mind
-                                    ''',
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "a temporary aberration of his exhausted mind"),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    '''
-ھەڵچوونێکی کاتی بەھۆی ئەوەی مێشکی ماندوو بوو
-                                    ''',
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(text: "ھەڵچوونێکی کاتی بەھۆی ئەوەی مێشکی ماندوو بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAb996("en-GB"),
                               ),
@@ -166,33 +137,12 @@ a temporary aberration of his exhausted mind
                           const DividerSentences(),
                           Row(
                             children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    '''
-A childless woman was regarded as an aberration, almost a social outcast.
-                                    ''',
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "A childless woman was regarded as an aberration, almost a social outcast."),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    '''
-ژنێکی بێ منداڵ بە شتێکی نائاسایی دادەنرا، تا ئاستی دوورەپەرێزخراو
-                                    ''',
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
+                              const ExampleSentenceKurdish(text: "ژنێکی بێ منداڵ بە شتێکی نائاسایی دادەنرا، تا ئاستی دوورەپەرێزخراو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAb16("en-GB"),
                               ),

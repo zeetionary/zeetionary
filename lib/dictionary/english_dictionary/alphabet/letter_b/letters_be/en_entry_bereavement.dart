@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -131,9 +129,8 @@ class EnglishEntrybereavement extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -157,12 +154,6 @@ class EnglishEntrybereavement extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -184,6 +175,7 @@ class EnglishEntrybereavement extends StatelessWidget {
                                       "She has recently suffered a bereavement."),
                               const ExampleSentenceKurdish(
                                   text: "تازەگی تووشی جەرگ‌سووتاوی بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBereavements1("en-GB"),
                               ),
@@ -204,6 +196,7 @@ class EnglishEntrybereavement extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "سێ جار جەرگ‌سووتاو بووبوو بەدوای یەکدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBereavements2("en-GB"),
                               ),

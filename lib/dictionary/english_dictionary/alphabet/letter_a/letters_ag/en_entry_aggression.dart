@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryaggression - replace speakAggression - replace aggression - /əˈɡreʃn/ - find Dopsum2
 
@@ -101,9 +100,8 @@ class EnglishEntryaggression extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -122,12 +120,6 @@ class EnglishEntryaggression extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -153,6 +145,7 @@ class EnglishEntryaggression extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "توێژینەوەکە دەریدەخات کە یارییە ئەلیکترۆنییەکان دەکرێت ببنەھۆی شەڕەنگێزی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAggres56322("en-GB"),
                               ),
@@ -177,6 +170,7 @@ class EnglishEntryaggression extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەرۆک ڕایگەیاند کە وڵاتەکە چاوپۆشی ناکات لە ھیچ دەستدرێژییەکی دەرەکی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAggr35741("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryantecedent - replace speakAntecedent - replace antecedent - /ˌæntɪˈsiːdnt/ - find Dopsum2
 
@@ -146,9 +145,8 @@ class EnglishEntryantecedent extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -167,12 +165,6 @@ class EnglishEntryantecedent extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -198,6 +190,7 @@ class EnglishEntryantecedent extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کتێبەکە لێکۆڵینەوەی لە پێشھاتەکانی جەنگی ناوخۆیی ئەمریکا دەکرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAntecedent411("en-GB"),
                               ),
@@ -223,6 +216,7 @@ class EnglishEntryantecedent extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆر کەس حەزدەکەن زانیاری لەسەر باپیرانیان بزانن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAntecedent414("en-GB"),
                               ),
@@ -251,6 +245,7 @@ class EnglishEntryantecedent extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کاتێک کۆلێژەکە لە ساڵی ١٥٤٦ دامەزرا ھۆڵێکی لە ھەریەک لە سێ پەیمانگاکەی پێشووتر وەرگرت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAntecedent421("en-GB"),
                               ),

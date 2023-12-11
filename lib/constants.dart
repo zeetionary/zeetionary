@@ -74,7 +74,7 @@ class _ZeetionaryAppbarStyleState extends ConsumerState<ZeetionaryAppbarStyle> {
     return Text(
       'Zeetionary',
       style: TextStyle(
-        fontSize: 24.0, // Adjust font size as needed
+        fontSize: 26.0, // Adjust font size as needed
         fontWeight: FontWeight.bold, // Adjust font weight as needed
         color: currentTheme
             .primaryColor, // Text color (will be masked by the gradient)
@@ -112,6 +112,113 @@ class _ZeetionaryAppbarStyleState extends ConsumerState<ZeetionaryAppbarStyle> {
 //   }
 // }
 
+class CustomTabBar extends ConsumerWidget {
+  final List<Widget> tabs;
+
+  const CustomTabBar({super.key, required this.tabs});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final currentTheme = ref.watch(themeNotifierProvider);
+
+    return Container(
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(16.0),
+        boxShadow: [
+          BoxShadow(
+            color: currentTheme.shadowColor.withOpacity(0.5),
+            blurRadius: 4.0,
+          ),
+        ],
+        gradient: LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [
+            currentTheme.colorScheme.background,
+            currentTheme.colorScheme.background.withOpacity(0.9),
+          ],
+        ),
+      ),
+      child: TabBar(
+        isScrollable: true,
+        tabs: tabs,
+        indicator: BoxDecoration(
+          color: currentTheme.shadowColor,
+          borderRadius: BorderRadius.circular(16.0),
+        ),
+        indicatorSize: TabBarIndicatorSize.tab,
+        indicatorPadding: const EdgeInsets.all(4.0),
+      ),
+    );
+  }
+}
+
+// class CustomTabBar extends ConsumerWidget {
+//   final List<Widget> tabs;
+
+//   const CustomTabBar({super.key, required this.tabs});
+
+//   @override
+//   Widget build(BuildContext context, WidgetRef ref) {
+//     final currentTheme = ref.watch(themeNotifierProvider);
+
+//     return TabBar(
+//       isScrollable: true,
+//       tabs: tabs,
+//       indicator: BoxDecoration(
+//         color: currentTheme
+//             .shadowColor, // Assuming you have this color in your theme
+//         borderRadius: BorderRadius.circular(16.0),
+//       ),
+//       indicatorSize: TabBarIndicatorSize.tab,
+//       indicatorPadding: const EdgeInsets.all(4.0),
+//     );
+//   }
+// }
+
+// class CustomTabBar extends ConsumerWidget {
+//   final List<Widget> tabs;
+
+//   const CustomTabBar({super.key, required this.tabs});
+
+//   @override
+//   Widget build(BuildContext context, WidgetRef ref) {
+//     final currentTheme = ref.watch(themeNotifierProvider);
+
+//     return TabBar(
+//       isScrollable: true,
+//       tabs: tabs,
+//       indicator: BoxDecoration(
+//         color: currentTheme
+//             .shadowColor, // Assuming you have this color in your theme
+//         borderRadius: BorderRadius.circular(16.0),
+//       ),
+//       indicatorSize: TabBarIndicatorSize.tab,
+//       indicatorPadding: const EdgeInsets.all(4.0),
+//     );
+//   }
+// }
+
+// class CustomTabBar extends StatelessWidget {
+//   final List<Widget> tabs;
+
+//   const CustomTabBar({super.key, required this.tabs});
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return TabBar(
+//       isScrollable: true,
+//       tabs: tabs,
+//       indicator: BoxDecoration(
+//         color: Pallete.tabsbackgroundColor,
+//         borderRadius: BorderRadius.circular(16.0),
+//       ),
+//       indicatorSize: TabBarIndicatorSize.tab,
+//       indicatorPadding: const EdgeInsets.all(4.0),
+//     );
+//   }
+// }
+
 class VideoIconForTab extends StatelessWidget {
   const VideoIconForTab({
     super.key,
@@ -123,7 +230,7 @@ class VideoIconForTab extends StatelessWidget {
       icon: Image.asset(
         'assets/images/video_one.png',
         width: 26,
-        height: 24,
+        height: 30,
       ),
     );
   }
@@ -139,8 +246,8 @@ class KurdIconForTab extends StatelessWidget {
     return Tab(
       icon: Image.asset(
         'assets/images/kurd_one.png',
-        width: 70,
-        height: 24,
+        width: 80,
+        height: 30,
       ),
     );
   }
@@ -156,8 +263,8 @@ class UkIconForTab extends StatelessWidget {
     return Tab(
       icon: Image.asset(
         'assets/images/uk_one.png',
-        width: 70,
-        height: 24,
+        width: 80,
+        height: 30,
       ),
     );
   }
@@ -191,7 +298,7 @@ class DividerSentences extends StatelessWidget {
   }
 }
 
-class YouTubeContainerDesign extends StatelessWidget {
+class YouTubeContainerDesign extends ConsumerWidget {
   const YouTubeContainerDesign({
     super.key,
     required YoutubePlayerController controller,
@@ -200,15 +307,17 @@ class YouTubeContainerDesign extends StatelessWidget {
   final YoutubePlayerController _controller;
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final currentTheme = ref.watch(themeNotifierProvider);
+
     return Container(
       margin: const EdgeInsets.only(
           top: 20.0), // Move it down by adjusting the top margin
-      padding: const EdgeInsets.all(6.0),
+      padding: const EdgeInsets.all(8.0),
       decoration: BoxDecoration(
         border: Border.all(
-          color: Pallete.tabsbackgroundColor,
-          width: 2.0, // Adjust the width as needed
+          color: currentTheme.shadowColor,
+          width: 3.0, // Adjust the width as needed
         ),
       ),
       child: YoutubePlayer(
@@ -334,7 +443,7 @@ class DefinitionKurdish extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 4.0),
       child: Text(
         text,
-        style: const TextStyle(fontSize: 18),
+        style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
         textAlign: TextAlign.right,
         textDirection: TextDirection.rtl,
       ),
@@ -418,23 +527,21 @@ class CustomIconButtonBritish extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ElevatedButton(
-      onPressed: onPressed,
-      style: ElevatedButton.styleFrom(
-        shape: const CircleBorder(),
-        padding: const EdgeInsets.all(4.0),
-        foregroundColor: Colors.white, // White background
-        side: const BorderSide(
-          color: Color.fromARGB(100, 54, 66, 244), // Border color
-          width: 1.0, // Border width
+    return IconButton(
+      iconSize: 18,
+      icon: Container(
+        decoration: BoxDecoration(
+          shape: BoxShape.circle,
+          border: Border.all(color: Colors.blue, width: 1.0),
         ),
-        elevation: 5.0, // Add a subtle shadow
+        padding: const EdgeInsets.all(6.0),
+        child: const Icon(
+          Icons.record_voice_over,
+          color: Colors.blue,
+          size: 16.0, // Adjust size as needed
+        ),
       ),
-      child: const Icon(
-        Icons.record_voice_over,
-        color: Colors.blue, // Icon color
-        size: 20,
-      ),
+      onPressed: onPressed,
     );
   }
 }
@@ -449,23 +556,22 @@ class CustomIconButtonAmerican extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ElevatedButton(
-      onPressed: onPressed,
-      style: ElevatedButton.styleFrom(
-        shape: const CircleBorder(),
-        padding: const EdgeInsets.all(4.0),
-        foregroundColor: Colors.white, // White background
-        side: const BorderSide(
-          color: Color.fromARGB(100, 244, 66, 54), // Border color
-          width: 1.0, // Border width
+    return IconButton(
+      iconSize: 18,
+      icon: Container(
+        decoration: BoxDecoration(
+          shape: BoxShape.circle,
+          border: Border.all(
+              color: const Color.fromARGB(182, 255, 0, 0), width: 1.0),
         ),
-        elevation: 5.0, // Add a subtle shadow
+        padding: const EdgeInsets.all(6.0),
+        child: const Icon(
+          Icons.record_voice_over,
+          color: Color.fromARGB(182, 255, 0, 0),
+          size: 16.0, // Adjust size as needed
+        ),
       ),
-      child: const Icon(
-        Icons.record_voice_over,
-        color: Colors.red, // Icon color
-        size: 20,
-      ),
+      onPressed: onPressed,
     );
   }
 }
@@ -488,11 +594,24 @@ class EnglishMeaningConst extends StatelessWidget {
           children: [
             Text(
               text,
-              style: const TextStyle(fontSize: 16),
+              style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w400),
             ),
           ],
         ),
       ),
+    );
+  }
+}
+
+class CustomSizedBoxForTTS extends StatelessWidget {
+  const CustomSizedBoxForTTS({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const SizedBox(
+      width: 2,
     );
   }
 }

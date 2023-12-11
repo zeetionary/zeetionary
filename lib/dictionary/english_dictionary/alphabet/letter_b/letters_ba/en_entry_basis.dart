@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -134,9 +133,8 @@ class EnglishEntrybasis extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -155,12 +153,6 @@ class EnglishEntrybasis extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -182,6 +174,7 @@ class EnglishEntrybasis extends StatelessWidget {
                                       "We are in contact on a regular basis."),
                               const ExampleSentenceKurdish(
                                   text: "بەشێوەیەکی بەردەوام لە پەیوەندیداین."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBasiss1("en-GB"),
                               ),
@@ -200,6 +193,7 @@ class EnglishEntrybasis extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕووداوی کوشندە لەسەر شەقام ڕوودەدات بەشێوەیەکی ڕۆژانە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBasiss2("en-GB"),
                               ),
@@ -220,6 +214,7 @@ class EnglishEntrybasis extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بۆ کارەکە دیاریکرا لەسەر بنەمای کارامەییەکانی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBasiss3("en-GB"),
                               ),
@@ -238,6 +233,7 @@ class EnglishEntrybasis extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بڕیارەکەمان دا بە پشتبەستن بەو زانیارییانەی کە ھەمان بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBasiss4("en-GB"),
                               ),
@@ -257,6 +253,7 @@ class EnglishEntrybasis extends StatelessWidget {
                                       "The basis of a good marriage is trust."),
                               const ExampleSentenceKurdish(
                                   text: "بناغەی ھاوسەرگیری باش متمانەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBasiss5("en-GB"),
                               ),
@@ -275,6 +272,7 @@ class EnglishEntrybasis extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "گفتوگۆکانی سەرەتا مەبەست لێیان درووستکردنی بنەمایەک بوو بۆ گفتوگۆ."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBasiss6("en-GB"),
                               ),

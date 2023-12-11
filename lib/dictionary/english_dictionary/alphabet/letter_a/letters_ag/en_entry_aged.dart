@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryaged - replace speakAged - replace aged - /eɪdʒd/, /ˈeɪdʒɪd/ - find Dopsum2
 
@@ -103,9 +102,8 @@ class EnglishEntryaged extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -124,12 +122,6 @@ class EnglishEntryaged extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -155,6 +147,7 @@ class EnglishEntryaged extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دوو منداڵیان ھەیە کە تەمەنیان شەش و نۆ ساڵانن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAged5628846("en-GB"),
                               ),
@@ -179,6 +172,7 @@ class EnglishEntryaged extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دڵنیانیم کە ئەم ئۆتۆمبێلە کۆنەم بتوانێ بەو گردەدا بچێتە سەرەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAged4896223("en-GB"),
                               ),
@@ -203,6 +197,7 @@ class EnglishEntryaged extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "نەخۆشخانەکە بنیادنرا بۆ دابینکردنی پێداویستییەکانی کەسانی بەتەمەن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAged259363("en-GB"),
                               ),

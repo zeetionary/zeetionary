@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -149,9 +148,8 @@ class EnglishEntryappoint extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -170,12 +168,6 @@ class EnglishEntryappoint extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -199,6 +191,7 @@ class EnglishEntryappoint extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەڕێوبەرێکی تازەیان دیاریکردووە لە قوتابخانەکەی کوڕەکەم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppoint820("en-GB"),
                               ),
@@ -224,6 +217,7 @@ class EnglishEntryappoint extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دیاریکردنی ڕێکەوتێک بۆ کۆبوونەوەکە ھێشتا قسەی لەسەر دەکرێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppoint822("en-GB"),
                               ),

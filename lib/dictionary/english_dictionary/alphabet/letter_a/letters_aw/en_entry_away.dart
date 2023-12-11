@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -145,9 +144,8 @@ class EnglishEntryaway extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -166,12 +164,6 @@ class EnglishEntryaway extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -195,6 +187,7 @@ class EnglishEntryaway extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "کەنارەکە یەک میل دوورە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAways1("en-GB"),
                               ),
@@ -218,6 +211,7 @@ class EnglishEntryaway extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕۆشناییە توندەکە وایکرد ڕووی وەرگێڕێ."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAways2("en-GB"),
                               ),
@@ -241,6 +235,7 @@ class EnglishEntryaway extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "دوێنێ ١٠ منداڵ نەھاتبوون."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAways3("en-GB"),
                               ),
@@ -264,6 +259,7 @@ class EnglishEntryaway extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ھێشتا گفتوگۆیان بوو وەک ھاوڕێی کۆن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAways4("en-GB"),
                               ),
@@ -286,6 +282,7 @@ class EnglishEntryaway extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "میوزیکەکە بە تەواوی داگیرسایەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAways5("en-GB"),
                               ),
@@ -310,6 +307,7 @@ class EnglishEntryaway extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "چێڵسی ئەم شەممەیە لە یاریگای ڕکابەرەکەی یاری دەکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAways6("en-GB"),
                               ),
@@ -334,6 +332,7 @@ class EnglishEntryaway extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "یارییەکەمان لە یاریگای تیمی بەرامبەر دۆڕاند، بەڵام ھەردوو ئەوەمان بردەوە کە لە یاریگەی خۆمان بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAways7("en-GB"),
                               ),

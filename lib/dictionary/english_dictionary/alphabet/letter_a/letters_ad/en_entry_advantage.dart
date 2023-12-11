@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryadvantage - replace speakAdvantage - replace advantage - /ədˈvæntɪdʒ/ - find Dopsum2
 
@@ -111,9 +110,8 @@ class EnglishEntryadvantage extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -132,12 +130,6 @@ class EnglishEntryadvantage extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -160,6 +152,7 @@ class EnglishEntryadvantage extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "سوودی کڕینی بلیت لە پێشدا ئەوەیە کە جێگەی باشتر وەردەگریت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdvan35688("en-GB"),
                               ),
@@ -179,6 +172,7 @@ class EnglishEntryadvantage extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بۆ گۆڵپارێزێک، ھەبوونی دەستی گەورە سوودێکی گەورەی ھەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdvan3674("en-GB"),
                               ),
@@ -200,6 +194,7 @@ class EnglishEntryadvantage extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھیچ بەرژەوەندییەک ھەیە لە زوو گەشتن بەوێ."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdvan6724("en-GB"),
                               ),
@@ -221,6 +216,7 @@ class EnglishEntryadvantage extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دایک و باوکانی دەوڵەمەند ھەوڵ دەدەن سوود بە منداڵانیان بگەیەنن بە نادنیان بۆ زانکۆ ناودارەکان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdvant9436("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryadmiring - replace speakAdmiring - replace admiring - /ədˈmaɪərɪŋ/ - find Dopsum2
 
@@ -101,9 +100,8 @@ class EnglishEntryadmiring extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -122,12 +120,6 @@ class EnglishEntryadmiring extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -150,6 +142,7 @@ class EnglishEntryadmiring extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "جەیمس ڕێزی ھەبوو بۆ بوێری و پێداگرییەکەی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdmiri25471("en-GB"),
                               ),
@@ -171,6 +164,7 @@ class EnglishEntryadmiring extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕاھاتبوو بە نیگای سەرسامی پیاوان بۆی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdmi95237("en-GB"),
                               ),

@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -210,9 +208,8 @@ class EnglishEntrybelieve extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -236,12 +233,6 @@ class EnglishEntrybelieve extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -262,6 +253,7 @@ class EnglishEntrybelieve extends StatelessWidget {
                                   text: "I don't believe you!"),
                               const ExampleSentenceKurdish(
                                   text: "باوەڕت پێ ناکەم!"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelieves1("en-GB"),
                               ),
@@ -278,6 +270,7 @@ class EnglishEntrybelieve extends StatelessWidget {
                                   text: "Do you really believe her?"),
                               const ExampleSentenceKurdish(
                                   text: "بەڕاستی باوەڕی پێ دەکەیت؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelieves2("en-GB"),
                               ),
@@ -294,6 +287,7 @@ class EnglishEntrybelieve extends StatelessWidget {
                                   text: "Believe me, she's not right for you."),
                               const ExampleSentenceKurdish(
                                   text: "متمانەم پێ بکە، ئەو گونجاو نییە بۆت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelieves3("en-GB"),
                               ),
@@ -314,6 +308,7 @@ class EnglishEntrybelieve extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پۆلیس باوەڕی وایە پیاوەکە لەوانەیە چەکی پێ بێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelieves4("en-GB"),
                               ),
@@ -332,6 +327,7 @@ class EnglishEntrybelieve extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "باوەڕێکی بەھێزم ھەیە کە ھێشتا لە ژیاندایە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelieves5("en-GB"),
                               ),
@@ -350,6 +346,7 @@ class EnglishEntrybelieve extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "باوەڕێکی بەفراوان ھەیە کە ناچارکرا دەستلەکاربکێشێتەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelieves6("en-GB"),
                               ),
@@ -370,6 +367,7 @@ class EnglishEntrybelieve extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "باوەڕی وایە کووشتنی ئاژەڵان بۆ فەروو کارێکی نائەخلاقییە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelieves7("en-GB"),
                               ),
@@ -388,6 +386,7 @@ class EnglishEntrybelieve extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەرڕاستانە باوەڕی وایە خۆشەویستی دەتوانێت جیھان بگۆڕێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelieves8("en-GB"),
                               ),
@@ -408,6 +407,7 @@ class EnglishEntrybelieve extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "نەیدەتوانی باوەڕ بکات ھەموو ئەوە دووبارە ڕوویدەداوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelieves9("en-GB"),
                               ),
@@ -426,6 +426,7 @@ class EnglishEntrybelieve extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ناتوانم باوەڕ بێنم بەوەی چەند ھەستێکی باشترم ھەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelieves10("en-GB"),
                               ),
@@ -446,6 +447,7 @@ class EnglishEntrybelieve extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەنھا ئەوانەی باوەڕیان ھەیە ھەست بە بوونی خودا دەکەن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelieves11("en-GB"),
                               ),

@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -132,9 +130,8 @@ class EnglishEntrybeak extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -158,12 +155,6 @@ class EnglishEntrybeak extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -185,6 +176,7 @@ class EnglishEntrybeak extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "نەورەسەکە ماسییەکەی لە دەنووکیدا گرتبوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeaks1("en-GB"),
                               ),
@@ -204,6 +196,7 @@ class EnglishEntrybeak extends StatelessWidget {
                                       "He'd be handsome if it wasn't for that huge beak of his."),
                               const ExampleSentenceKurdish(
                                   text: "جوان دەبوو ئەگەر ئەو لمۆزەی نەبوایە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeaks2("en-GB"),
                               ),
@@ -224,6 +217,7 @@ class EnglishEntrybeak extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "گومان‌لێ‌کراو لەپێش دادوەر دەرکەوت بۆ دادگایی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeaks3("en-GB"),
                               ),

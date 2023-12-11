@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -145,9 +144,8 @@ class EnglishEntryballot extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -166,12 +164,6 @@ class EnglishEntryballot extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -197,6 +189,7 @@ class EnglishEntryballot extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەندامانی یانەکە لە دەنگدانێکدا بڕیاریاندا کاپتنەکە سڕبکەن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBallots1("en-GB"),
                               ),
@@ -222,6 +215,7 @@ class EnglishEntryballot extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێژەی سەدی چەند لە دەنگدەران پەڕەی دەنگدانیان پڕکردەوە؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBallots2("en-GB"),
                               ),
@@ -245,6 +239,7 @@ class EnglishEntryballot extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕێژەی ٥٨,٨ دەنگەکانی بردەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBallots3("en-GB"),
                               ),
@@ -270,6 +265,7 @@ class EnglishEntryballot extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "یەکێتییەکە داوای لە ئەندامەکانی کرد دەنگبدەن لەسەر گۆڕانکارییە پێشنیارکراوەکان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBallots4("en-GB"),
                               ),
@@ -293,6 +289,7 @@ class EnglishEntryballot extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "کرێکاران دەنگیان بۆ مانگرتن دا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBallots5("en-GB"),
                               ),

@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -68,7 +66,8 @@ class EnglishEntrybellow extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He saw blood around the cow's mouth and heard the rasp of its breath between each anguished bellow."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He saw blood around the cow's mouth and heard the rasp of its breath between each anguished bellow."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBellows6(String languageCode) async {
@@ -131,9 +130,8 @@ class EnglishEntrybellow extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -157,12 +155,6 @@ class EnglishEntrybellow extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -183,6 +175,7 @@ class EnglishEntrybellow extends StatelessWidget {
                                   text: "They bellowed at her to stop."),
                               const ExampleSentenceKurdish(
                                   text: "بۆڕاندیان بەسەریدا تا بوەستێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBellows1("en-GB"),
                               ),
@@ -201,6 +194,7 @@ class EnglishEntrybellow extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەوت بەسەر زەوییەکەدا و بۆڕەی دەھات لە ئازار و توڕەییدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBellows2("en-GB"),
                               ),
@@ -219,6 +213,7 @@ class EnglishEntrybellow extends StatelessWidget {
                                   text: "The bull bellowed in pain."),
                               const ExampleSentenceKurdish(
                                   text: "نێرەگاکە نەڕەی بوو لە ئازاردا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBellows3("en-GB"),
                               ),
@@ -237,6 +232,7 @@ class EnglishEntrybellow extends StatelessWidget {
                                   text: "He gave a bellow of rage."),
                               const ExampleSentenceKurdish(
                                   text: "نەڕەیەکی کرد لە تووڕەییدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBellows4("en-GB"),
                               ),
@@ -257,6 +253,7 @@ class EnglishEntrybellow extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "خوێنی لە دەمی مانگاکەوە دی و گوێی لە دەنگی ھەناسەی بوو لەگەڵ ھەر نەڕەیەکی لەتاو ئازاردا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBellows5("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryadlib - replace speakAdlib - replace ad lib - /ˌæd ˈlɪb/ - find Dopsum2
 
@@ -101,9 +100,8 @@ class EnglishEntryadlib extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -122,12 +120,6 @@ class EnglishEntryadlib extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -149,6 +141,7 @@ class EnglishEntryadlib extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "وتارەکەی بەبێ ئامادەکاریی پێشوەختە پێشکەشکرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdlib4587("en-GB"),
                               ),
@@ -169,7 +162,8 @@ class EnglishEntryadlib extends StatelessWidget {
                                       "I lost my notes and had to ad-lib the whole speech."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "تێبینییەکانمم ونکرد و ناچاربووم تەواوی وتارەکە لەخۆوە پێشکەش بکەم "),
+                                      "تێبینییەکانمم ونکرد و ناچاربووم تەواوی وتارەکە لەخۆوە پێشکەش بکەم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdlib42587("en-GB"),
                               ),

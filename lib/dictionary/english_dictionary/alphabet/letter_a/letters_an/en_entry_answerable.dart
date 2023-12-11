@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryanswerable - replace speakAnswerable - replace answerable - /ˈɑːnsərəbl/ - find Dopsum2
 
@@ -146,9 +145,8 @@ class EnglishEntryanswerable extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -167,12 +165,6 @@ class EnglishEntryanswerable extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -198,6 +190,7 @@ class EnglishEntryanswerable extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "سیخوڕێکی سەربەخۆ بوو کە پێویست نەبوو وەڵامی ھیچ کەس بداتەوە بۆ ڕەفتارەکانی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnswerable1100("en-GB"),
                               ),
@@ -221,6 +214,7 @@ class EnglishEntryanswerable extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەر بانکێکی ئەورووپی دەبێت ڕاستەوخۆ لەژێر چاودێری/بەرپرسیار بێت بەرامبەر یەکێتیی ئەورووپا بێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnswerable1102("en-GB"),
                               ),
@@ -246,6 +240,7 @@ class EnglishEntryanswerable extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "وەزیرەکان دەبێت بەرپرسیاربن بۆ بڕیارەکانیان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnswerable1104("en-GB"),
                               ),
@@ -269,6 +264,7 @@ class EnglishEntryanswerable extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو سەربازانەی گوێ‌ڕایەڵی ئەنجامدانی تاوانی جەنگ دەکەن دەبێت ئامادەی وەرگرتنی سزابن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnswerable1106("en-GB"),
                               ),

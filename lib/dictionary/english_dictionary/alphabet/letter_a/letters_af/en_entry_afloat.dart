@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryafloat - replace speakAfloat - replace afloat - /əˈfləʊt/ - find Dopsum2
 
@@ -117,9 +116,8 @@ class EnglishEntryafloat extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -138,12 +136,6 @@ class EnglishEntryafloat extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -166,6 +158,7 @@ class EnglishEntryafloat extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەقەلایان بوو بۆ ئەوەی بەلەمەکە سەراوکەوتە بھێڵنەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAflo45("en-GB"),
                               ),
@@ -187,6 +180,7 @@ class EnglishEntryafloat extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ژمارەیەکی زۆر بزنسی بچووک تەقەلایانە ئیفلاس نەکەن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfl5988("en-GB"),
                               ),

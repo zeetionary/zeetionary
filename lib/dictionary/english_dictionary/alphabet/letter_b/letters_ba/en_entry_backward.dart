@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -188,9 +187,8 @@ class EnglishEntrybackward extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -209,12 +207,6 @@ class EnglishEntrybackward extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -238,6 +230,7 @@ class EnglishEntrybackward extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕۆشت بەبێ ئەوەی سەیری دواوە بکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBackwards1("en-GB"),
                               ),
@@ -263,6 +256,7 @@ class EnglishEntrybackward extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "وای ھەستکرد گەڕانەوە بۆ ژیانکردن لە شارەکەی ھەنگاوێکی بەتاڵ دەبێ."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBackwards2("en-GB"),
                               ),
@@ -287,6 +281,7 @@ class EnglishEntrybackward extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ناسڵەمێتەوە لە ھاتنە پێشەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBackwards3("en-GB"),
                               ),
@@ -310,6 +305,7 @@ class EnglishEntrybackward extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "خەڵکی ھێشتا وەک وڵاتێکی دواکەوتوو بیری‌لێ‌دەکەنەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBackwards5("en-GB"),
                               ),
@@ -335,6 +331,7 @@ class EnglishEntrybackward extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کە منداڵ بوو مامۆستاکان وایان دەزانی گەلحۆیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBackwards4("en-GB"),
                               ),
@@ -358,6 +355,7 @@ class EnglishEntrybackward extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەنگاوێکی بەرەو دواوە نا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBackwards6("en-GB"),
                               ),
@@ -383,6 +381,7 @@ class EnglishEntrybackward extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "وشەی ‘Ambulance’ بەپێچەوانەوە دەنووسرێت بۆ ئەوەی بتوانی بیخوێنیتەوە لە ئاوێنەدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBackwards9("en-GB"),
                               ),
@@ -405,6 +404,7 @@ class EnglishEntrybackward extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە فیلمەکەدا بەرەو دواوە گەشت بە کاتدا دەکەن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBackwards7("en-GB"),
                               ),
@@ -430,6 +430,7 @@ class EnglishEntrybackward extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەستمکرد گەڕانەوە بۆ ژیانکردن لەگەڵ دایک و باوکم ھەنگاوێک بۆ دواوە دەبێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBackwards8("en-GB"),
                               ),

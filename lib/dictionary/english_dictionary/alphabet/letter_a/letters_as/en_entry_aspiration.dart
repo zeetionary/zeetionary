@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -151,9 +150,8 @@ class EnglishEntryaspiration extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -172,12 +170,6 @@ class EnglishEntryaspiration extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -203,6 +195,7 @@ class EnglishEntryaspiration extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "نەمزانی‌بوو ئارەزووت بۆ سیاسەت ھەبوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAspiration709("en-GB"),
                               ),
@@ -246,6 +239,7 @@ class EnglishEntryaspiration extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "مامۆستاکە داوای لە خوێندکارەکانی کرد سەرنج بدەن بە ئەسپیرەیشنیان لە خوێندنەوەی ھەندێک وشەی دیاریکراو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAspiration722("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryaccurate - speakAccurate - accurate - /ˈækjərət/
 
@@ -110,9 +109,8 @@ class EnglishEntryaccurate extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -131,12 +129,6 @@ class EnglishEntryaccurate extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -159,6 +151,7 @@ class EnglishEntryaccurate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "فیلمەکە لەلایەنی مێژووییەوە درووست نییە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc21546("en-GB"),
                               ),
@@ -176,6 +169,7 @@ class EnglishEntryaccurate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "نرخەکان ڕەنگدانەوەی درووستی کوالێتیی بەرزی کاڵاکانمانە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc12369("en-GB"),
                               ),
@@ -193,6 +187,7 @@ class EnglishEntryaccurate extends StatelessWidget {
                                   text: "My watch is not very accurate."),
                               const ExampleSentenceKurdish(
                                   text: "کاتژمێرەکەم تەواو نییە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA2158("en-GB"),
                               ),
@@ -210,6 +205,7 @@ class EnglishEntryaccurate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زاناکان ڕیگایەکی وردتریان دۆزیوەتەوە بۆ زانینی سەردەمی وێنەی ناو ئەشکەوتەکان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA23547("en-GB"),
                               ),

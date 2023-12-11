@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryalongside - replace speakAlongside - replace alongside - /əˌlɒŋˈsaɪd/ - find Dopsum2
 
@@ -104,9 +103,8 @@ class EnglishEntryalongside extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -125,12 +123,6 @@ class EnglishEntryalongside extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -156,6 +148,7 @@ class EnglishEntryalongside extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "نیک گەشتەوە پێم و شان بە شانم لێیخوڕی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlongside4592("en-GB"),
                               ),
@@ -180,6 +173,7 @@ class EnglishEntryalongside extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "حەبە تازەکە دەکرێت لەگەڵ دەرمانی دیکە بەکاربێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlongside4597("en-GB"),
                               ),
@@ -202,6 +196,7 @@ class EnglishEntryalongside extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆرینەی ستافەکە ڕەتیان کردەوە شان بە شانی تیمە تازەکە کاربکەن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlongside9("en-GB"),
                               ),

@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -135,9 +133,8 @@ class EnglishEntrybend extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -161,12 +158,6 @@ class EnglishEntrybend extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -187,6 +178,7 @@ class EnglishEntrybend extends StatelessWidget {
                                   text: "He bent and kissed her."),
                               const ExampleSentenceKurdish(
                                   text: "چەمایەوە ماچی کرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBends1("en-GB"),
                               ),
@@ -205,6 +197,7 @@ class EnglishEntrybend extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بۆ پێشەوە چەمایەوە بۆ ھەڵگرتنی ڕۆژنامەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBends2("en-GB"),
                               ),
@@ -223,6 +216,7 @@ class EnglishEntrybend extends StatelessWidget {
                                   text: "Lie flat and let your knees bend."),
                               const ExampleSentenceKurdish(
                                   text: "پاڵکەوە و قاچت بنووشتێنەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBends3("en-GB"),
                               ),
@@ -243,6 +237,7 @@ class EnglishEntrybend extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بۆرییەکە لەو شوێنە نیشانە بکە کە دەتەوێت لاری بکەیت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBends4("en-GB"),
                               ),
@@ -261,6 +256,7 @@ class EnglishEntrybend extends StatelessWidget {
                                   text: "The road bent sharply to the right."),
                               const ExampleSentenceKurdish(
                                   text: "ڕێگاکە بە تیژی بە ڕاستدا لادەدات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBends5("en-GB"),
                               ),
@@ -281,6 +277,7 @@ class EnglishEntrybend extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە لادانێکدا کۆنترۆڵی لەدەستدا و خۆی کێشا بە دیوارێکدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBends6("en-GB"),
                               ),
@@ -301,6 +298,7 @@ class EnglishEntrybend extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە کاتی گەڕانەوە بۆ سەرەوە، مەلەوانان لە ھەندێک قوڵایی جیاوازدا دەوەستن بۆ ڕێگری لە گرێ."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBends7("en-GB"),
                               ),

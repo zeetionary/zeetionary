@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryannoyance - replace speakAnnoyance - replace annoyance - /əˈnɔɪəns/ - find Dopsum2
 
@@ -145,9 +144,8 @@ class EnglishEntryannoyance extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -166,12 +164,6 @@ class EnglishEntryannoyance extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -197,6 +189,7 @@ class EnglishEntryannoyance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "نەیدەتوانی بێزاریی بشارێتەوە بە قسەپێ‌بڕینی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnnoyance759("en-GB"),
                               ),
@@ -220,6 +213,7 @@ class EnglishEntryannoyance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "وازم لە کۆلێژ ھێنا کە بووە ھۆی بێزاریی دایک و باوکم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnnoyance801("en-GB"),
                               ),
@@ -245,6 +239,7 @@ class EnglishEntryannoyance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "یەکێک لە گەورەترین جاڕسکەرەکان ئەوەبوو مێشوولە ھەموو شەوێک بتگەزێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnnoyance805("en-GB"),
                               ),

@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -132,9 +130,8 @@ class EnglishEntrybeautiful extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -158,12 +155,6 @@ class EnglishEntrybeautiful extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -184,6 +175,7 @@ class EnglishEntrybeautiful extends StatelessWidget {
                                   text: "What a beautiful day!"),
                               const ExampleSentenceKurdish(
                                   text: "چی ڕۆژێکی خۆشە!"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeautifuls1("en-GB"),
                               ),
@@ -201,6 +193,7 @@ class EnglishEntrybeautiful extends StatelessWidget {
                                       "She looked stunningly beautiful that night."),
                               const ExampleSentenceKurdish(
                                   text: "ئەو شەوە سەرسوڕھێنەرانە جوان بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeautifuls2("en-GB"),
                               ),
@@ -217,6 +210,7 @@ class EnglishEntrybeautiful extends StatelessWidget {
                                   text: "The scenery here is so beautiful."),
                               const ExampleSentenceKurdish(
                                   text: "دیمەنەکە زۆر جوانە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeautifuls3("en-GB"),
                               ),
@@ -236,6 +230,7 @@ class EnglishEntrybeautiful extends StatelessWidget {
                                       "Thank you—you have done a beautiful thing."),
                               const ExampleSentenceKurdish(
                                   text: "دەستخۆش، شتێکی زۆرباشت کردووە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeautifuls4("en-GB"),
                               ),

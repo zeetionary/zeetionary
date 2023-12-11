@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryannounce - replace speakAnnounce - replace announce - /əˈnaʊns/ - find Dopsum2
 
@@ -147,9 +146,8 @@ class EnglishEntryannounce extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -168,12 +166,6 @@ class EnglishEntryannounce extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -197,6 +189,7 @@ class EnglishEntryannounce extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "خۆشحاڵین بە ڕاگەیاندنی ئەوەی ھەر پێنج کاندیدەکە سەرکەوتووبوون."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnnounce350("en-GB"),
                               ),
@@ -220,6 +213,7 @@ class EnglishEntryannounce extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دوێنێ حکومەت پلانی ڕەخساندنی یەک ملیۆن ھەلی کاری بە میدیا ڕاگەیاند."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnnounce352("en-GB"),
                               ),
@@ -243,6 +237,7 @@ class EnglishEntryannounce extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "گەشتەکەمان ڕاگەیەندراوە؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnnounce356("en-GB"),
                               ),
@@ -267,6 +262,7 @@ class EnglishEntryannounce extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕایگەیاند وازی لە خواردنەوە ھێنا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnnounce359("en-GB"),
                               ),
@@ -291,6 +287,7 @@ class EnglishEntryannounce extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ھاتنی میوانەکانی ڕاگەیاند کە گەشتن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnnounce403("en-GB"),
                               ),

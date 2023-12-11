@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace EnglishEntryAdopsum - replace speakAnybody
 
@@ -184,9 +183,8 @@ class EnglishEntryanybody extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -205,12 +203,6 @@ class EnglishEntryanybody extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -234,6 +226,7 @@ class EnglishEntryanybody extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "کەس ھەیە بتوانێ یارمەتیم بدا؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnybody1055("en-GB"),
                               ),
@@ -255,6 +248,7 @@ class EnglishEntryanybody extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "کەسی تر دەیەوێت بێت؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnybody926("en-GB"),
                               ),
@@ -278,6 +272,7 @@ class EnglishEntryanybody extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێگە بە کەس نادەم دەست لەو کاتژمێرە بدات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnybody927("en-GB"),
                               ),
@@ -303,6 +298,7 @@ class EnglishEntryanybody extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەمووکەس دەیتوانی بەباشی خۆی بپۆشێ بەو ھەموو پارەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnybody1059("en-GB"),
                               ),
@@ -325,6 +321,7 @@ class EnglishEntryanybody extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەموو کەس دەتوانێ ببینێت ئەوە ھەڵەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnybody929("en-GB"),
                               ),
@@ -350,6 +347,7 @@ class EnglishEntryanybody extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەسێکی گرنگ نەبوو پێش وەرگرتنی کارەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnybody931("en-GB"),
                               ),

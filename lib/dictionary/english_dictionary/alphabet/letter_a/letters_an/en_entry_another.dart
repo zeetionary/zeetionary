@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryanother - replace speakAnother - replace another - /əˈnʌðə(r)/ - find Dopsum2
 
@@ -147,9 +146,8 @@ class EnglishEntryanother extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -168,12 +166,6 @@ class EnglishEntryanother extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -197,6 +189,7 @@ class EnglishEntryanother extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "حەزت بە خواردنەوەیەکی ترە؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnother935("en-GB"),
                               ),
@@ -219,6 +212,7 @@ class EnglishEntryanother extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "پارچە کێکێکی تر دەخۆم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnother937("en-GB"),
                               ),
@@ -241,6 +235,7 @@ class EnglishEntryanother extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەتوانین کەسێکی تر لە ئۆتۆمبێلەکەم جێبکەینەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnother938("en-GB"),
                               ),
@@ -264,6 +259,7 @@ class EnglishEntryanother extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "با کاتێکی تر بیکەین."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnother940("en-GB"),
                               ),
@@ -287,6 +283,7 @@ class EnglishEntryanother extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "حەزم بەم ژوورە نییە، داوای دانەیەکی تر دەکەم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnother942("en-GB"),
                               ),
@@ -310,6 +307,7 @@ class EnglishEntryanother extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "کەسێکی تری وەک ئەو دووبارە نابێتەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnother944("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryact - replace speakAct - replace act - /ækt/ - find Dopsum2
 
@@ -206,9 +205,8 @@ class EnglishEntryact extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -227,12 +225,6 @@ class EnglishEntryact extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -255,6 +247,7 @@ class EnglishEntryact extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆر گرنگە ھەنگاوبنێین بۆ وەستاندنی وێرانکردنی جەنگەڵەکان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAct7859("en-GB"),
                               ),
@@ -273,6 +266,7 @@ class EnglishEntryact extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "حکومەت بەر ڕەخنە درا بەھۆی شکستھێنان لە ھەنگاونان بە خێرایی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAct42693("en-GB"),
                               ),
@@ -293,6 +287,7 @@ class EnglishEntryact extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پیاوەکە بینرا بە گوماناوییەوە ڕەفتاری دەکرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAct7691("en-GB"),
                               ),
@@ -311,6 +306,7 @@ class EnglishEntryact extends StatelessWidget {
                                   text: "Who's acting the part of Hamlet?"),
                               const ExampleSentenceKurdish(
                                   text: "کێ ڕۆڵی ھاملێت دەبینێت؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAct4589("en-GB"),
                               ),
@@ -331,6 +327,7 @@ class EnglishEntryact extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەواوی ڕۆژەکە وەک مێردێکی خەمخۆر خۆی نیشانداوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAct15932("en-GB"),
                               ),
@@ -349,6 +346,7 @@ class EnglishEntryact extends StatelessWidget {
                                   text: "Can you act as interpreter?"),
                               const ExampleSentenceKurdish(
                                   text: "ئەتوانی وەک وەرگێڕێک کار بکەیت؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAct1527("en-GB"),
                               ),
@@ -368,6 +366,7 @@ class EnglishEntryact extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کحوول ڕاستەوخۆ کاریگەری لەسەر مێشک دەبێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAct3541("en-GB"),
                               ),
@@ -387,6 +386,7 @@ class EnglishEntryact extends StatelessWidget {
                                       "You have committed a serious criminal act."),
                               const ExampleSentenceKurdish(
                                   text: "کارێکی تاوانکاریی کوشندەت کردووە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAct75381("en-GB"),
                               ),
@@ -405,6 +405,7 @@ class EnglishEntryact extends StatelessWidget {
                                   text: "The old Act has now been repealed."),
                               const ExampleSentenceKurdish(
                                   text: "یاسا کۆنەکە ئێستا ھەڵپەسێردراوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc25341("en-GB"),
                               ),
@@ -424,6 +425,7 @@ class EnglishEntryact extends StatelessWidget {
                                       "Don't take her seriously—it's all an act."),
                               const ExampleSentenceKurdish(
                                   text: "بە جدی مەیگرە، ھەمووی نمایشە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAct1258("en-GB"),
                               ),
@@ -443,6 +445,7 @@ class EnglishEntryact extends StatelessWidget {
                                       "The king is killed in the opening act."),
                               const ExampleSentenceKurdish(
                                   text: "پاشا لە یەکەم بەش دەکوژرێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAct75638("en-GB"),
                               ),

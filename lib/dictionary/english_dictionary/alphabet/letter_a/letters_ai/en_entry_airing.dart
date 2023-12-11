@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryairing - replace speakAiring - replace airing - /ˈeərɪŋ/ - find Dopsum2
 
@@ -103,9 +102,8 @@ class EnglishEntryairing extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -124,12 +122,6 @@ class EnglishEntryairing extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -155,6 +147,7 @@ class EnglishEntryairing extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بابەتەکە گەنگەشەی تەواوی لەسەر کرا لە میدیای بەریتانیا"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAiring4522("en-GB"),
                               ),
@@ -179,6 +172,7 @@ class EnglishEntryairing extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پەنجەرەکان بکەوە و ھەواگۆڕکێیەکی باش بدە بە ژوورەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAiring4155("en-GB"),
                               ),

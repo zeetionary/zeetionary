@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryaim - replace speakAim - replace aim - /eɪm/ - find Dopsum2
 
@@ -138,9 +137,8 @@ class EnglishEntryaim extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -159,12 +157,6 @@ class EnglishEntryaim extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -190,6 +182,7 @@ class EnglishEntryaim extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەبێت ئامانجمان پشکێکی زیاتری بازاڕ بێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAim86555("en-GB"),
                               ),
@@ -212,6 +205,7 @@ class EnglishEntryaim extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "حکومەت ئامانجیەتی بە ڕێژەی ٥٠٪ بێکاری کەمبکاتەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAim475699("en-GB"),
                               ),
@@ -236,6 +230,7 @@ class EnglishEntryaim extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم ڕێکارانە ئامانجیانە تاوانی توندوتیژی کەمبکەنەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAim456933("en-GB"),
                               ),
@@ -258,6 +253,7 @@ class EnglishEntryaim extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕەخنەکانم ڕوو لە تۆ نەبوون."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAim5283("en-GB"),
                               ),
@@ -282,6 +278,7 @@ class EnglishEntryaim extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئامانجم لە دارەکە گرتەوە، بەڵام بە ھەڵە لە ئۆتۆمبێلەکەم دا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAim371595446("en-GB"),
                               ),
@@ -306,6 +303,7 @@ class EnglishEntryaim extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەنھا ئامانجی لە ژیان ئەوە بوو خۆشی لە خۆی ببینێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAim78562("en-GB"),
                               ),
@@ -330,6 +328,7 @@ class EnglishEntryaim extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئامانجگرتنەکەی باش بوو و بە یەکەم لێدان لە شێرەکەی دا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAim46011635("en-GB"),
                               ),

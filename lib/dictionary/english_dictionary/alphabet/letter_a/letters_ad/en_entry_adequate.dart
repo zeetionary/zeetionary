@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryadequate - replace speakAdequate - replace adequate - /ˈædɪkwət/ - find Dopsum2
 
@@ -101,9 +100,8 @@ class EnglishEntryadequate extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -122,12 +120,6 @@ class EnglishEntryadequate extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -149,6 +141,7 @@ class EnglishEntryadequate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ژوورەکە بچووک بوو، بەڵام بەشمانی دەکرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdequa44855("en-GB"),
                               ),
@@ -167,6 +160,7 @@ class EnglishEntryadequate extends StatelessWidget {
                                       "He didn't give an adequate answer to the question."),
                               const ExampleSentenceKurdish(
                                   text: "وەڵامێکی تەواوی پرسیارەکەی نەداوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdequ99965("en-GB"),
                               ),

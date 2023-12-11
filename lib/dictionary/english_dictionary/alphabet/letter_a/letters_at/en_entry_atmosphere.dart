@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -155,9 +154,8 @@ class EnglishEntryatmosphere extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -176,12 +174,6 @@ class EnglishEntryatmosphere extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -207,6 +199,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "گڕکانەکان و کانیاوە گەرمەکان گازی میسان دەخەنە بەرگەھەواوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAtmosphere1119("en-GB"),
                               ),
@@ -230,6 +223,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەشتییە ئاسمانییەکە دەبێت درەنگانی ئەمڕۆ بگەڕێتەوە ناو بەرگەھەوای زەوی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAtmosphere1121("en-GB"),
                               ),
@@ -255,6 +249,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دوورترین بەشی ڕووی دەرەوەی بەرگەھەوای خۆر پێی دەوترێت کۆرۆنا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAtmosphere1123("en-GB"),
                               ),
@@ -280,6 +275,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم ڕووەکانە حەزیان بە ژینگەی گەرم و شێدارە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAtmosphere1126("en-GB"),
                               ),
@@ -305,6 +301,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەرپرسانی شارەکە کەشێکی پڕ لە ترسیان درووستکردووە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAtmosphere1128("en-GB"),
                               ),
@@ -328,6 +325,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەشێکی متمانەی ھاوبەش ھەبوو لە نێوانیاندا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAtmosphere1129("en-GB"),
                               ),

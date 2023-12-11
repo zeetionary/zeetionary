@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryaddress - replace speakAddress - replace address - /əˈdres/ - find Dopsum2
 
@@ -162,9 +161,8 @@ class EnglishEntryaddress extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -183,12 +181,6 @@ class EnglishEntryaddress extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -211,6 +203,7 @@ class EnglishEntryaddress extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ناونیشان و ژمارە تەلەفۆنی خۆمت پێ ئەدەم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdd774("en-GB"),
                               ),
@@ -230,6 +223,7 @@ class EnglishEntryaddress extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پۆلیس لە شوێنێک لە ڕۆژھەڵاتی لەندەن دۆزییەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAddress452("en-GB"),
                               ),
@@ -249,6 +243,7 @@ class EnglishEntryaddress extends StatelessWidget {
                                   text: "What's your email address?"),
                               const ExampleSentenceKurdish(
                                   text: "ناونیشانی ئیمەیڵەکەت چییە؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAddr2458("en-GB"),
                               ),
@@ -270,6 +265,7 @@ class EnglishEntryaddress extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "وردەکارییەکانی سیاسەتیانی ڕوونکردەوە لە وتارێکدا بۆ ئەندامانی پارتەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAddr624("en-GB"),
                               ),
@@ -291,6 +287,7 @@ class EnglishEntryaddress extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم نیگەرانیانە بەپێی پێویست لە ڕاپۆرتەکەدا مامەڵەیان لەگەڵ نەکراوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdd99("en-GB"),
                               ),
@@ -312,6 +309,7 @@ class EnglishEntryaddress extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "نامەکە بە درووستی ناو و ناونیشانی لەسەر نووسرابوو، بەڵام بۆ ماڵێکی ھەڵە نێردرا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAddr11("en-GB"),
                               ),
@@ -333,6 +331,7 @@ class EnglishEntryaddress extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەرۆک داوای لێکرا وتارێک لە پەرلەمان پێشکەش بکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAddre444("en-GB"),
                               ),
@@ -354,6 +353,7 @@ class EnglishEntryaddress extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بۆچوونەکانی ڕاستەوخۆ بە سەرپەرشتیارەکە گووت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAddr766("en-GB"),
                               ),

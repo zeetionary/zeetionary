@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -156,9 +155,8 @@ class EnglishEntryarticulate extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -177,12 +175,6 @@ class EnglishEntryarticulate extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -208,6 +200,7 @@ class EnglishEntryarticulate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەشێوەیەکی سەیر زمان‌ڕەوان بوو بۆ منداڵێکی ١٠ ساڵان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArticulate716("en-GB"),
                               ),
@@ -233,6 +226,7 @@ class EnglishEntryarticulate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەموو ئەوەی گوێمان لێ‌بوو نوزەنوزە بوو، بەبێ ھیچ قسەیەکی ڕوون."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArticulate718("en-GB"),
                               ),
@@ -258,6 +252,7 @@ class EnglishEntryarticulate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کێشەی ھەبوو لە دەربڕینی بیرۆکەکانی بەڕوونی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArticulate720("en-GB"),
                               ),
@@ -280,6 +275,7 @@ class EnglishEntryarticulate extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ناتوانێت بەڕوونی ھەستەکانی دەرببڕێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArticulate722("en-GB"),
                               ),
@@ -305,6 +301,7 @@ class EnglishEntryarticulate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆر سەرخۆش بوو تا بتوانێ بە ڕوونی قسەبکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArticulate736("en-GB"),
                               ),
@@ -330,6 +327,7 @@ class EnglishEntryarticulate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم کۆرسانە دیزاین کراون بۆ ئەوەی لەگەڵ بڕوانامەی زانکۆ ڕێکبکەون."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArticulate726("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryaggressive - replace speakAggressive - replace aggressive - /əˈɡresɪv/ - find Dopsum2
 
@@ -111,9 +110,8 @@ class EnglishEntryaggressive extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -132,12 +130,6 @@ class EnglishEntryaggressive extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -163,6 +155,7 @@ class EnglishEntryaggressive extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کە شەوەکە زیاتر تێپەڕی زیاتر شەڕەنخواز بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAggressive51114("en-GB"),
                               ),
@@ -187,6 +180,7 @@ class EnglishEntryaggressive extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێویستە سەرسەختتر بین لە شەڕی دژ بە تیرۆر."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAggre2256("en-GB"),
                               ),
@@ -211,6 +205,7 @@ class EnglishEntryaggressive extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دکتۆرەکان نەخۆشییەکەیان دەستنیشانکرد بە جۆرێکی سەختی شێرپەنجە کە ترس ھەیە چارەسەری نەبێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAggr45999("en-GB"),
                               ),
@@ -235,6 +230,7 @@ class EnglishEntryaggressive extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "نەخۆشییەکەی نیکۆلاس لە تشرینی دووەم بە یەکێکی دەگمەن دەستنیشانکرا و لەو کاتەوە ھەموو چارەسەرێکی وەرگرتووە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAggr5222("en-GB"),
                               ),

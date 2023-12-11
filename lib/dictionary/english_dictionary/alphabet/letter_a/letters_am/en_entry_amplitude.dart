@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryamplitude - replace speakAmplitude - replace amplitude - /ˈæmplɪtjuːd/ - find Dopsum2
 
@@ -143,9 +142,8 @@ class EnglishEntryamplitude extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -164,12 +162,6 @@ class EnglishEntryamplitude extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -194,6 +186,7 @@ class EnglishEntryamplitude extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "شەپۆلی دەنگی بەپێی کشانیان دەپێورێن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmplitude4599("en-GB"),
                               ),
@@ -219,6 +212,7 @@ class EnglishEntryamplitude extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەربڵاویی فراوانی ڕۆمانەکە وادەکات بەوانەی تۆڵستۆی بەراورد بکرێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmplitude46669("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryagreement - replace speakAgreement - replace agreement - /əˈɡriːmənt/ - find Dopsum2
 
@@ -127,9 +126,8 @@ class EnglishEntryagreement extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -148,12 +146,6 @@ class EnglishEntryagreement extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -179,6 +171,7 @@ class EnglishEntryagreement extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێککەوتنێکیان ھەبوو کە ھەرگیز لە ماڵەوە باسی کار نەکەن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgre45669("en-GB"),
                               ),
@@ -201,6 +194,7 @@ class EnglishEntryagreement extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێککەوتنەکە واژۆکرا لە کۆبوونەوەیەکدا لە نەتەوە یەکگرتووەکان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgre35666("en-GB"),
                               ),
@@ -223,6 +217,7 @@ class EnglishEntryagreement extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەمووان ھاوڕان؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgreem3544("en-GB"),
                               ),
@@ -247,6 +242,7 @@ class EnglishEntryagreement extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێویستە مۆڵەتی دایک و باوکت وەربگری پێش ئەوەی گەشتەکە بکەیت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgreeme25699("en-GB"),
                               ),

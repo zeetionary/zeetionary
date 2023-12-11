@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryallin - replace speakAllallin - replace all-in - /ˌɔːl ˈɪn/ - find Dopsum2
 
@@ -102,9 +101,8 @@ class EnglishEntryallin extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -123,12 +121,6 @@ class EnglishEntryallin extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -154,6 +146,7 @@ class EnglishEntryallin extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پشووەکە کرێی گواستنەوە و ژەمە خواردنەکان و چوونە مۆزەخانەکان لەخۆدەگرێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllallin52471("en-GB"),
                               ),

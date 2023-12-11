@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryallergy - replace speakAllergy - replace allergy - /ˈælərdʒi/ - find Dopsum2
 
@@ -103,9 +102,8 @@ class EnglishEntryallergy extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -124,12 +122,6 @@ class EnglishEntryallergy extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -153,6 +145,7 @@ class EnglishEntryallergy extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەستیاریم بە مووی ئاژەڵ ھەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllergy462555("en-GB"),
                               ),
@@ -173,6 +166,7 @@ class EnglishEntryallergy extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەستیاری بە گەنمی بۆ درووست بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllergy53699("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryangel - replace speakAngel - replace angel - /ˈeɪndʒl/ - find Dopsum2
 
@@ -144,9 +143,8 @@ class EnglishEntryangel extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -165,12 +163,6 @@ class EnglishEntryangel extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -194,6 +186,7 @@ class EnglishEntryangel extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەڵێی فریشتەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngel405("en-GB"),
                               ),
@@ -217,6 +210,7 @@ class EnglishEntryangel extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "جلێکی سپی لەبەرکرد بە باڵی فریشتەیی پەڕدارەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngel407("en-GB"),
                               ),
@@ -240,6 +234,7 @@ class EnglishEntryangel extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "منداڵەکانی ماری فریشتەی وردیلەن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngel9963("en-GB"),
                               ),
@@ -263,6 +258,7 @@ class EnglishEntryangel extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "سوپاس باوکە، تۆ فریشتەیت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngel4850("en-GB"),
                               ),

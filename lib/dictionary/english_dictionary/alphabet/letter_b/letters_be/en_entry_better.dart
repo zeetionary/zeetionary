@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -328,9 +327,8 @@ class EnglishEntrybetter extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -354,12 +352,6 @@ class EnglishEntrybetter extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -381,6 +373,7 @@ class EnglishEntrybetter extends StatelessWidget {
                                       "We're hoping for better weather tomorrow."),
                               const ExampleSentenceKurdish(
                                   text: "هیوا بۆ کەشوهەوایەکی باشتر دەخوازین."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetters1("en-GB"),
                               ),
@@ -399,6 +392,7 @@ class EnglishEntrybetter extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە حەوسەلەیەکی باشترە وەک لەوەی لە کاتی ئاسایی تێیدایە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetters2("en-GB"),
                               ),
@@ -417,6 +411,7 @@ class EnglishEntrybetter extends StatelessWidget {
                                   text: "You'd be better going by bus."),
                               const ExampleSentenceKurdish(
                                   text: "باشتر دەبێت بە پاس بچیت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetters3("en-GB"),
                               ),
@@ -435,6 +430,7 @@ class EnglishEntrybetter extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "باشتر دەبێت قسە لەگەڵ دایک و باوکی بکات دەربارەی کێشەکانی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetters4("en-GB"),
                               ),
@@ -453,7 +449,8 @@ class EnglishEntrybetter extends StatelessWidget {
                                   text:
                                       "She's far better at science than her brother."),
                               const ExampleSentenceKurdish(
-                                  text: "لا زانستدا زۆر باشترە لە براکەی."),
+                                  text: "لە زانستدا زۆر باشترە لە براکەی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetters6("en-GB"),
                               ),
@@ -472,6 +469,7 @@ class EnglishEntrybetter extends StatelessWidget {
                                   text: "She's a lot better today."),
                               const ExampleSentenceKurdish(
                                   text: "ئەمڕۆ زۆر باشترە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetters7("en-GB"),
                               ),
@@ -488,6 +486,7 @@ class EnglishEntrybetter extends StatelessWidget {
                                   text: "His leg was getting better."),
                               const ExampleSentenceKurdish(
                                   text: "لاقی باشتر دەبوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetters8("en-GB"),
                               ),
@@ -507,6 +506,7 @@ class EnglishEntrybetter extends StatelessWidget {
                                       "Don't go back to work until you are better."),
                               const ExampleSentenceKurdish(
                                   text: "مەچۆوە بۆ کار تا باش دەبیتەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetters9("en-GB"),
                               ),
@@ -525,6 +525,7 @@ class EnglishEntrybetter extends StatelessWidget {
                                   text: "She sings much better than I do."),
                               const ExampleSentenceKurdish(
                                   text: "لە من باشتر گۆرانی دەڵێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetters10("en-GB"),
                               ),
@@ -544,6 +545,7 @@ class EnglishEntrybetter extends StatelessWidget {
                                       "You'll like her when you know her better."),
                               const ExampleSentenceKurdish(
                                   text: "خۆشتدەوێت کە باشتر بیناسی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetters11("en-GB"),
                               ),
@@ -562,6 +564,7 @@ class EnglishEntrybetter extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "توێژەران هیوا دەخوازن باشتر تێبگەن لە ئەرکی ئەم پڕۆتینە لە نەخۆشی مرۆڤدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetters12("en-GB"),
                               ),
@@ -582,6 +585,7 @@ class EnglishEntrybetter extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پارەکە دەکرێت خەرج بکرێت لەسەر بابەتی زەروورتر."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetters13("en-GB"),
                               ),
@@ -601,6 +605,7 @@ class EnglishEntrybetter extends StatelessWidget {
                                       "I expected better of him (= I thought he would have behaved better)."),
                               const ExampleSentenceKurdish(
                                   text: "زیاتر لەوەم لێ چاوەڕێ دەکرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetters14("en-GB"),
                               ),
@@ -619,6 +624,7 @@ class EnglishEntrybetter extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "١٠٠ مەتری لە ٩,٩١ چرکەدا بڕی و و باشتر لەوەم نەدیوە ئەمساڵ."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetters15("en-GB"),
                               ),
@@ -637,6 +643,7 @@ class EnglishEntrybetter extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "نابێت وەها توند بیت لەگەڵ دایکت، شایەنی باشتر لەوەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetters16("en-GB"),
                               ),
@@ -656,7 +663,8 @@ class EnglishEntrybetter extends StatelessWidget {
                                       "As children, we were taught not to argue with our elders and betters."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "وەک منداڵ فێردەکرێین دەمەدەم نەکەین لەگەڵ گەورەکان کەسانی باڵاتر لە خۆمان."),
+                                      "وەک منداڵ فێردەکرێین دەمەدەم نەکەین لەگەڵ گەورەکان و کەسانی باڵاتر لە خۆمان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetters17("en-GB"),
                               ),
@@ -677,6 +685,7 @@ class EnglishEntrybetter extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەرکەوتنیان لەو وەرزەدا نەدەتوانرا ببەزێندرێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetters18("en-GB"),
                               ),
@@ -697,6 +706,7 @@ class EnglishEntrybetter extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "هەزاران کرێکاری سەردەمی شاژن ڤیکتۆریا پەیوەندییان بە کۆڕە پەروەردەییەکانەوە کرد بۆ باشترکردنی دۆخی کۆمەڵایەتییان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetters19("en-GB"),
                               ),

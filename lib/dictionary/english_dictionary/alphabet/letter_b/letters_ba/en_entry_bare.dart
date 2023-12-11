@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -188,9 +187,8 @@ class EnglishEntrybare extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -209,12 +207,6 @@ class EnglishEntrybare extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -236,6 +228,7 @@ class EnglishEntrybare extends StatelessWidget {
                                       "She likes to walk around in bare feet."), // DOPSUM_WRITE_A_SENTENCE
                               const ExampleSentenceKurdish(
                                   text: "حەزدەکات بە پێی پەتی ڕێ بکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBares1("en-GB"),
                               ),
@@ -254,6 +247,7 @@ class EnglishEntrybare extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھیچ فەرش لە ژوورەکە نییە، تەنھا زەوییە دانەپۆشراوەکەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBares2("en-GB"),
                               ),
@@ -274,6 +268,7 @@ class EnglishEntrybare extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "خۆری زستان بە ناو لقە ڕووتەڵەکانی دارەکان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBares3("en-GB"),
                               ),
@@ -292,6 +287,7 @@ class EnglishEntrybare extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پەنجەرەکان بەسەر کێڵگەیەکی ڕووتدا دەیانڕوانی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBares4("en-GB"),
                               ),
@@ -312,6 +308,7 @@ class EnglishEntrybare extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "وایەری ڕووت لە کێبڵەکانەوە دەرچووبوون."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBares5("en-GB"),
                               ),
@@ -331,6 +328,7 @@ class EnglishEntrybare extends StatelessWidget {
                                       "The fridge was completely bare."), // DOPSUM_WRITE_A_SENTENCE
                               const ExampleSentenceKurdish(
                                   text: "ساردکەرەوەکە بە تەواوی بەتاڵ بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBares6("en-GB"),
                               ),
@@ -351,6 +349,7 @@ class EnglishEntrybare extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەمترین ھەوڵی دا بەڵام ھێشتا تاقیکردنەوەکەی تێپەڕاند."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBares7("en-GB"),
                               ),
@@ -369,6 +368,7 @@ class EnglishEntrybare extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھیچ نازانرێت جگە لەو لێدوانەی سادەیەی درا بە ڕۆژنامەوانان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBares8("en-GB"),
                               ),
@@ -389,6 +389,7 @@ class EnglishEntrybare extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "چەند ھەزار دۆلارێکی پێدرا بۆ ئەوەی ھەموو جلەکانی دابکەنێت بۆ گۆڤارەکە (بۆ ئەوەی وێنەی بگرن)."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBares9("en-GB"),
                               ),
@@ -407,6 +408,7 @@ class EnglishEntrybare extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پیاوان کڵاوەکانیان داکەند کە چوونە ناو کڵێساکەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBares10("en-GB"),
                               ),
@@ -426,6 +428,7 @@ class EnglishEntrybare extends StatelessWidget {
                                       "The party on Saturday was bare good!"), // DOPSUM_WRITE_A_SENTENCE
                               const ExampleSentenceKurdish(
                                   text: "ئاھەنگەکەی شەممە زۆر خۆش بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBares11("en-GB"),
                               ),
@@ -443,6 +446,7 @@ class EnglishEntrybare extends StatelessWidget {
                                       "The questions are bare difficult."), // DOPSUM_WRITE_A_SENTENCE
                               const ExampleSentenceKurdish(
                                   text: "پرسیارەکان زۆر گرانن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBares12("en-GB"),
                               ),

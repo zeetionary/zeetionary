@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -132,9 +130,8 @@ class EnglishEntrybeating extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -158,12 +155,6 @@ class EnglishEntrybeating extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -185,6 +176,7 @@ class EnglishEntrybeating extends StatelessWidget {
                                       "They caught him and gave him a violent beating."),
                               const ExampleSentenceKurdish(
                                   text: "گرتیان و لێدانێکی سەختیان کرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeatings1("en-GB"),
                               ),
@@ -205,6 +197,7 @@ class EnglishEntrybeating extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تیمەکە ئەم وەرزە چەند شکستێکی قورسیان ھەبووە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeatings2("en-GB"),
                               ),
@@ -224,6 +217,7 @@ class EnglishEntrybeating extends StatelessWidget {
                                       "He could hear the beating of his own heart."),
                               const ExampleSentenceKurdish(
                                   text: "دەیتوانی گوێی لە ترپی دڵی خۆی بێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeatings3("en-GB"),
                               ),

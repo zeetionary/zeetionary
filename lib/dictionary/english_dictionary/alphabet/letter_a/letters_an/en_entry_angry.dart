@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryangry - replace speakAngry - replace angry - /ˈæŋɡri/ - find Dopsum2
 
@@ -145,9 +144,8 @@ class EnglishEntryangry extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -166,12 +164,6 @@ class EnglishEntryangry extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -195,6 +187,7 @@ class EnglishEntryangry extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕەفتارەکانی بەڕاستی تووڕەیان کردم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngry4102("en-GB"),
                               ),
@@ -218,6 +211,7 @@ class EnglishEntryangry extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەزاران خۆپیشاندەری تووڕە چوونە گۆڕەپانەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngry0158("en-GB"),
                               ),
@@ -241,6 +235,7 @@ class EnglishEntryangry extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ئاوساوییەکی بەئازار لەسەر لاقی بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngry4952("en-GB"),
                               ),
@@ -265,7 +260,8 @@ class EnglishEntryangry extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەریا بەزریانەکە بە شەپۆلە ترسناکەکانییەوە کێشای بە کەناراوە بەردەڵانییەکە "),
+                                      "دەریا بەزریانەکە بە شەپۆلە ترسناکەکانییەوە کێشای بە کەناراوە بەردەڵانییەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngry4506("en-GB"),
                               ),

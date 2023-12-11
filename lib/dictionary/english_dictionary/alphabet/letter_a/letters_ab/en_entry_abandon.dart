@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 enum TtsState { playing }
 
@@ -108,9 +107,8 @@ class EnglishEntryabandon extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -120,12 +118,6 @@ class EnglishEntryabandon extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -147,6 +139,7 @@ class EnglishEntryabandon extends StatelessWidget {
                                       "The baby had been abandoned by its mother."),
                               const ExampleSentenceKurdish(
                                   text: "منداڵەکە لەلایەن دایکی جێھێڵدرابوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speak145632("en-GB"),
                               ),
@@ -164,6 +157,7 @@ class EnglishEntryabandon extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەفر ژمارەیەکی زۆر شۆفێری ناچارکرد ئۆتۆمبێلەکانیان بەجێبھێڵن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speak4522369("en-GB"),
                               ),
@@ -188,6 +182,7 @@ class EnglishEntryabandon extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "یارییەکەیان وەستاند بەھۆی باران بارین."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speak112547("en-GB"),
                               ),
@@ -212,6 +207,7 @@ class EnglishEntryabandon extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەڵمانیا دەستبەرداری سەرکردایەتییەکەی بوو لە دوای جەنگی دووەمی جیھان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA664("en-GB"),
                               ),

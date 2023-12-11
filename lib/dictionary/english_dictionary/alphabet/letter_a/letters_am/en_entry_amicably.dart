@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryamicably - replace speakAmicably - replace amicably - /ˈæmɪkəbli/ - find Dopsum2
 
@@ -167,9 +166,8 @@ class EnglishEntryamicably extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -188,12 +186,6 @@ class EnglishEntryamicably extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -219,6 +211,7 @@ class EnglishEntryamicably extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پۆلیسەکان بە ھاوڕێیانە لەگەڵ پیادەکان قسەیان دەکرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmicably4777("en-GB"),
                               ),
@@ -240,6 +233,7 @@ class EnglishEntryamicably extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھیوادارم بە تەبایی ئەمە چارەسەر بکەین."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmicably555541("en-GB"),
                               ),

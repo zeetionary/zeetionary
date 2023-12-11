@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryacceptable - speakAacceptable - acceptable - /əkˈseptəbl/
 
@@ -111,9 +110,8 @@ class EnglishEntryacceptable extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -132,12 +130,6 @@ class EnglishEntryacceptable extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -160,6 +152,7 @@ class EnglishEntryacceptable extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "شتێکی تەواو ئاساییە بۆ تۆ وەک کرێکارێک بڵێت نەخێر."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAa231564("en-GB"),
                               ),
@@ -177,6 +170,7 @@ class EnglishEntryacceptable extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "منداڵان دەبێت فێری ڕەفتاری لەگەڵ کۆمەڵگە گونجاو ببن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA56482("en-GB"),
                               ),
@@ -196,6 +190,7 @@ class EnglishEntryacceptable extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێی تێ ئەچێ ڕێگەچارەیەک بدۆزینەوە کە ھەردوو لا لەسەری کۆکبن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA2548("en-GB"),
                               ),
@@ -215,6 +210,7 @@ class EnglishEntryacceptable extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "چاودێران بۆیان دەرکەوت کە ستانداردەکانی وانەوتنەوە خراپ نەبوون، بەڵام دەکرا باشتر کرابان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA51976("en-GB"),
                               ),

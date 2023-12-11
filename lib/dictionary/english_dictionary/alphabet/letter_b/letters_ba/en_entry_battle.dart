@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -171,9 +169,8 @@ class EnglishEntrybattle extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -197,12 +194,6 @@ class EnglishEntrybattle extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 12
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -224,6 +215,7 @@ class EnglishEntrybattle extends StatelessWidget {
                                       "Napoleon was defeated at the Battle of Waterloo."),
                               const ExampleSentenceKurdish(
                                   text: "ناپلیۆن لە جەنگی واتەرلۆدا تێکشکا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBattles1("en-GB"),
                               ),
@@ -241,6 +233,7 @@ class EnglishEntrybattle extends StatelessWidget {
                                       "His father had been killed in battle."),
                               const ExampleSentenceKurdish(
                                   text: "باوکی لە جەنگدا کوژرا بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBattles2("en-GB"),
                               ),
@@ -261,6 +254,7 @@ class EnglishEntrybattle extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەکۆتاییدا ھەوڵە شەش ساڵییەکەی بردەوە بۆ قەرەبوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBattles3("en-GB"),
                               ),
@@ -279,6 +273,7 @@ class EnglishEntrybattle extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "وتارەکە باسی ململانێی بێ کۆتایی نێوان مرۆڤ و سرووشت دەکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBattles6("en-GB"),
                               ),
@@ -297,6 +292,7 @@ class EnglishEntrybattle extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕووبەڕووی ململانێیەکی دژوار دەبێتەوە دژ بە میدیایەکی دژبەر."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBattles7("en-GB"),
                               ),
@@ -317,6 +313,7 @@ class EnglishEntrybattle extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەکۆتاییدا جەنگە درێژەکەی دژ بە شێرپەنجە دۆڕاند."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBattles4("en-GB"),
                               ),
@@ -335,6 +332,7 @@ class EnglishEntrybattle extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە بەرەی پێشەوەی تێکۆشان بوونە بۆ ھێشتنەوەی نەخۆشخانەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBattles5("en-GB"),
                               ),
@@ -355,6 +353,7 @@ class EnglishEntrybattle extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دوو سەرکردەکە تێدەکۆشن بۆ ھەژموونیان بەسەر حکومەتدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBattles8("en-GB"),
                               ),
@@ -372,6 +371,7 @@ class EnglishEntrybattle extends StatelessWidget {
                                       "She's still battling with a knee injury."),
                               const ExampleSentenceKurdish(
                                   text: "ھێشتا دەناڵێنێت بەسەر برینی ئەژنۆوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBattles9("en-GB"),
                               ),
@@ -390,6 +390,7 @@ class EnglishEntrybattle extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دوو بەرەکە ھەفتەی داھاتوو بۆ کۆتا جار ڕووبەڕوو دەبنەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBattles10("en-GB"),
                               ),

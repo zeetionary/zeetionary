@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -149,9 +148,8 @@ class EnglishEntryappraisal extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -170,12 +168,6 @@ class EnglishEntryappraisal extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -200,6 +192,7 @@ class EnglishEntryappraisal extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕاپۆرتەکە بە لێکدانەوەدا تێپەڕبووە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppraisal930("en-GB"),
                               ),
@@ -223,6 +216,7 @@ class EnglishEntryappraisal extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەڵسەنگاندنێکی وردی پلانەکە ئەنجام دەدرێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppraisal932("en-GB"),
                               ),
@@ -246,6 +240,7 @@ class EnglishEntryappraisal extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەمڕۆ ڕۆژی ھەڵسەنگاندنمە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppraisal935("en-GB"),
                               ),

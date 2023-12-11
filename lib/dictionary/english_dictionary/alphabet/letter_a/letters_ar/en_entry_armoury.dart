@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -150,9 +149,8 @@ class EnglishEntryarmoury extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -171,12 +169,6 @@ class EnglishEntryarmoury extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -202,6 +194,7 @@ class EnglishEntryarmoury extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەندێک چەک دزرابوون لە جبەخانەی کۆشکەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArmoury631("en-GB"),
                               ),
@@ -230,6 +223,7 @@ class EnglishEntryarmoury extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دکتۆرەکان گەنجینەیەک لە دەرمانیان لەبەردەستە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArmoury635("en-GB"),
                               ),
@@ -255,6 +249,7 @@ class EnglishEntryarmoury extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەردوو وڵات ڕێککەوتنێکیان واژۆکرد بۆ کەمکردنەوەی چەکی ئەتۆمییان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArmoury646("en-GB"),
                               ),

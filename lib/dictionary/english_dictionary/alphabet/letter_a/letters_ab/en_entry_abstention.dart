@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryabstention - speakAbstention - abstention - /əbˈstenʃn/
 
@@ -93,9 +92,8 @@ class EnglishEntryabstention extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -114,12 +112,6 @@ class EnglishEntryabstention extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -142,6 +134,7 @@ class EnglishEntryabstention extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە ھەڵبژاردندا، بایکۆت بە تەنھا جۆری ڕاستیی ناڕەزایی دەربڕین دێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA26971("en-GB"),
                               ),
@@ -160,7 +153,8 @@ class EnglishEntryabstention extends StatelessWidget {
                                       "The Church insisted on abstention from all luxuries."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کڵێساکە خۆی بەدووردەگرت لە ھەموو جۆرە شتێکی جوان "),
+                                      "کڵێساکە خۆی بەدووردەگرت لە ھەموو جۆرە شتێکی جوان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA26983("en-GB"),
                               ),

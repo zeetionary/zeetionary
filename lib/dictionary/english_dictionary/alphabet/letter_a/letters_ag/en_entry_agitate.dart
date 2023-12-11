@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryagitate - replace speakAgitate - replace agitate - /ˈædʒɪteɪt/ - find Dopsum2
 
@@ -102,9 +101,8 @@ class EnglishEntryagitate extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -123,12 +121,6 @@ class EnglishEntryagitate extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -152,6 +144,7 @@ class EnglishEntryagitate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "خێزانەکەی بە پەشێوانە ھەوڵ دەدەن بتگوێزنەوە بۆ زیندانێک لە شانشینی یەکگرتوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgit125("en-GB"),
                               ),
@@ -175,6 +168,7 @@ class EnglishEntryagitate extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "نامەوێ توورەی بکەم بە پێ وتنی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgit7592("en-GB"),
                               ),
@@ -199,6 +193,7 @@ class EnglishEntryagitate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تێکەڵەکە تێک بدە بۆ ئەوەی ئاردەڵووکەکە بتوێتەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgita3477("en-GB"),
                               ),

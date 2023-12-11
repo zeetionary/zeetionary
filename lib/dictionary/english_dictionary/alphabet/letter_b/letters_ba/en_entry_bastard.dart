@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -132,9 +131,8 @@ class EnglishEntrybastard extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -153,12 +151,6 @@ class EnglishEntrybastard extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -179,6 +171,7 @@ class EnglishEntrybastard extends StatelessWidget {
                                   text: "You bastard! You've made her cry."),
                               const ExampleSentenceKurdish(
                                   text: "ناڕەسەن! گریاندت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBastards1("en-GB"),
                               ),
@@ -197,6 +190,7 @@ class EnglishEntrybastard extends StatelessWidget {
                                   text: "What a lucky bastard!"),
                               const ExampleSentenceKurdish(
                                   text: "چی زۆڵێکی بەبەختە!"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBastards2("en-GB"),
                               ),
@@ -215,6 +209,7 @@ class EnglishEntrybastard extends StatelessWidget {
                                   text: "It's a bastard of a problem."),
                               const ExampleSentenceKurdish(
                                   text: "شتێکی پڕ لە کێشەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBastards3("en-GB"),
                               ),
@@ -235,6 +230,7 @@ class EnglishEntrybastard extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە ساڵی ١٧٩٨ لەدایکبوو وەک منداڵی زۆڵی دەرەبەگێکی لادێ و ژنە دۆستەکەی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBastards4("en-GB"),
                               ),

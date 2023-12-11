@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryabrasion - speakAbrasion - abrasion - /əˈbreɪʒn/
 
@@ -92,9 +91,8 @@ class EnglishEntryabrasion extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -113,12 +111,6 @@ class EnglishEntryabrasion extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -141,6 +133,7 @@ class EnglishEntryabrasion extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تووشی برین و داڕووشان بوو لەسەر ڕووخساری."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA3269("en-GB"),
                               ),
@@ -159,6 +152,7 @@ class EnglishEntryabrasion extends StatelessWidget {
                                       "Diamonds have extreme resistance to abrasion."),
                               const ExampleSentenceKurdish(
                                   text: "ئەڵماس بەرگری زۆری ھەیە بۆ داڕووشان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA6247("en-GB"),
                               ),

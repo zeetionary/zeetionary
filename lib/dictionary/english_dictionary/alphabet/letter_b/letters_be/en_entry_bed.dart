@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -136,9 +134,8 @@ class EnglishEntrybed extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -162,12 +159,6 @@ class EnglishEntrybed extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -186,6 +177,7 @@ class EnglishEntrybed extends StatelessWidget {
                                   text: "I'm tired—I'm going to bed."),
                               const ExampleSentenceKurdish(
                                   text: "ماندووم، دەچم دەخەوم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeds1("en-GB"),
                               ),
@@ -202,6 +194,7 @@ class EnglishEntrybed extends StatelessWidget {
                                   text: "I'll just put the kids to bed."),
                               const ExampleSentenceKurdish(
                                   text: "تەنھا منداڵەکان دەبەمە جێگەی خەو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeds2("en-GB"),
                               ),
@@ -222,6 +215,7 @@ class EnglishEntrybed extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ژمارەیەکی زۆر ڕووەک و ماسی نامۆ لە بنکی دەریادا دەژین."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeds3("en-GB"),
                               ),
@@ -242,6 +236,7 @@ class EnglishEntrybed extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەندێک شەتڵگەی جوانی گوڵیان ھەیە لە باخچەکەیان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeds4("en-GB"),
                               ),
@@ -262,6 +257,7 @@ class EnglishEntrybed extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بلۆکەکان دەبێت لەسەر بنەڕەتێکی کۆنکریت دابنرێن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeds5("en-GB"),
                               ),
@@ -282,6 +278,7 @@ class EnglishEntrybed extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ستوونەکان دەبێت بە پتەوی لە کۆنکریتدا ڕۆبچن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeds6("en-GB"),
                               ),
@@ -302,6 +299,7 @@ class EnglishEntrybed extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بۆ چەندین ھەفتەیە ھەوڵ دەدات سێکسی لەگەڵ بکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeds7("en-GB"),
                               ),

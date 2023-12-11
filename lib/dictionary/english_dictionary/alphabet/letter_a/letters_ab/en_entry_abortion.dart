@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryabortion - speakAbortion - abortion - /əˈbɔːʃn/
 
@@ -101,9 +100,8 @@ class EnglishEntryabortion extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -117,12 +115,6 @@ class EnglishEntryabortion extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -144,6 +136,7 @@ class EnglishEntryabortion extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "یاسا توندەکانی وڵاتەکە سەبارەت بە لەباربردن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA449("en-GB"),
                               ),
@@ -161,6 +154,7 @@ class EnglishEntryabortion extends StatelessWidget {
                                   text: "She decided to have an abortion."),
                               const ExampleSentenceKurdish(
                                   text: "بڕیاریدا پڕۆسەی لەباربردن ئەنجامبدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA112("en-GB"),
                               ),
@@ -180,6 +174,7 @@ class EnglishEntryabortion extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێژەی زۆری کافین دەکرێت ببەسترێتەوە بە ژمارەی زۆری لەبارچوون و کێش کەمی لە کاتی لەدایکبوون."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA692("en-GB"),
                               ),

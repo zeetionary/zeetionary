@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -145,9 +144,8 @@ class EnglishEntrybadge extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -166,12 +164,6 @@ class EnglishEntrybadge extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -197,6 +189,7 @@ class EnglishEntrybadge extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "باجێکی پۆشیبوو کە لەسەری نووسرابوو 'دەنگ بدە بە ئۆباما'."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBadges1("en-GB"),
                               ),
@@ -218,6 +211,7 @@ class EnglishEntrybadge extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "باجێکی دەرھێنا و وتی کەوا پۆلیسە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBadges2("en-GB"),
                               ),
@@ -242,6 +236,7 @@ class EnglishEntrybadge extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "باجی قوتابخانەکەی بەجوانی دووری بە جلەکەیەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBadges3("en-GB"),
                               ),
@@ -265,6 +260,7 @@ class EnglishEntrybadge extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "چەکەکەی ھێمای دەسەڵاتی بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBadges4("en-GB"),
                               ),
@@ -286,6 +282,7 @@ class EnglishEntrybadge extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "برینەکانی وەک سمبولی شکۆداری دەبینی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBadges5("en-GB"),
                               ),

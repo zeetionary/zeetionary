@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryangle - replace speakAngle - replace angle - /ˈæŋɡl/ - find Dopsum2
 
@@ -166,9 +165,8 @@ class EnglishEntryangle extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -187,12 +185,6 @@ class EnglishEntryangle extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -218,6 +210,7 @@ class EnglishEntryangle extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "گۆشەکانی ناوەوەی چوارگۆشەیەک تەواون یان گۆشەی ٩٠ پلەیین."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngle11480("en-GB"),
                               ),
@@ -243,6 +236,7 @@ class EnglishEntryangle extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بینایەکی سەردەمیانەیە، ھەموو خشت و شووشە و گۆشەی تیژە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngle46055("en-GB"),
                               ),
@@ -268,6 +262,7 @@ class EnglishEntryangle extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئاراستەی لاقەکانی ڕێکخست بۆ ئەوەی مێزەکە قایمتر بوەستێ."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngle45906("en-GB"),
                               ),
@@ -291,6 +286,7 @@ class EnglishEntryangle extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زووھرە و زەوی بەدەوری خۆردا دەسووڕێنەوە بە ئاراستەیەک کەمێک بەلای یەکتردا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngle440("en-GB"),
                               ),
@@ -316,6 +312,7 @@ class EnglishEntryangle extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تابلۆکە کەمێک دەگۆڕێت کە لە گۆشەنیگای دیکەوە سەیردەکرێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngle450("en-GB"),
                               ),
@@ -341,6 +338,7 @@ class EnglishEntryangle extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بابەتەکە دەتوانرێت لە زۆر گۆشەنیگای جیاوازەوە سەیربکرێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngle905("en-GB"),
                               ),
@@ -366,6 +364,7 @@ class EnglishEntryangle extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کورسییەکەی بەلاداخست بۆ ئەوەی دابنیشێت و سەیری بکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngle225870("en-GB"),
                               ),
@@ -390,6 +389,7 @@ class EnglishEntryangle extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "پڕۆگرامەکە بۆ بیسەرانی گەنجە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngle5401("en-GB"),
                               ),
@@ -415,6 +415,7 @@ class EnglishEntryangle extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە ڕۆژانی کۆتایی ھەفتە دەچن بۆ ماسیگرتن لە دەریاچەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAngle5580("en-GB"),
                               ),

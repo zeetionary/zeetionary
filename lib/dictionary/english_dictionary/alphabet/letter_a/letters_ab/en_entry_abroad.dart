@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryabroad - speakAbroad - abroad - /əˈbrɔːd/
 
@@ -101,9 +100,8 @@ class EnglishEntryabroad extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -122,12 +120,6 @@ class EnglishEntryabroad extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -148,6 +140,7 @@ class EnglishEntryabroad extends StatelessWidget {
                                   text: "She worked abroad for a year."),
                               const ExampleSentenceKurdish(
                                   text: "لە دەروەی وڵات بۆ ساڵێک کاری کرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA3459("en-GB"),
                               ),
@@ -165,6 +158,7 @@ class EnglishEntryabroad extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە ناوەوە و دەروەی وڵات بەناوبانگ بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA2569("en-GB"),
                               ),
@@ -184,6 +178,7 @@ class EnglishEntryabroad extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەواڵێکی بەربڵاو ھەبوو کە گۆڕانکارییەک بەڕێوەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAb28("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -152,9 +151,8 @@ class EnglishEntryappointment extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -173,12 +171,6 @@ class EnglishEntryappointment extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -203,6 +195,7 @@ class EnglishEntryappointment extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "وادەیەکم لای دکتۆری ددان ھەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppointment836("en-GB"),
                               ),
@@ -226,6 +219,7 @@ class EnglishEntryappointment extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "وادەی دانا بۆ کوڕەکەی بۆ بینینی دکتۆر."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppointment839("en-GB"),
                               ),
@@ -251,6 +245,7 @@ class EnglishEntryappointment extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەستنیشانکردنی بەرپرسانی ئاسایشیان ڕاگەیاند."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppointment844("en-GB"),
                               ),
@@ -275,6 +270,7 @@ class EnglishEntryappointment extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "پیرۆزبایی پۆستە تازەکەت لێ‌دەکەم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppointment847("en-GB"),
                               ),
@@ -300,6 +296,7 @@ class EnglishEntryappointment extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "وەزیرەکانی حکومەت و بەرپرسانی سیاسی دیکە زوو زوو دەگۆڕدرێن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppointment848("en-GB"),
                               ),

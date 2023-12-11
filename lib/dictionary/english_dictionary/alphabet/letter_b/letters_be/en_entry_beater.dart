@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -132,9 +130,8 @@ class EnglishEntrybeater extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -158,12 +155,6 @@ class EnglishEntrybeater extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -186,6 +177,7 @@ class EnglishEntrybeater extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕایەخ لێدەر ئامرازێکی درێژی دارینە بەکاردێت بۆ پاککردنەوەی ڕایەخ."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeaters1("en-GB"),
                               ),
@@ -205,6 +197,7 @@ class EnglishEntrybeater extends StatelessWidget {
                                       "He was arrested for being a wife-beater."),
                               const ExampleSentenceKurdish(
                                   text: "دەستگیرکرا بەھۆی لێدان لە ژنەکەی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeaters2("en-GB"),
                               ),
@@ -225,6 +218,7 @@ class EnglishEntrybeater extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئۆتۆمبێلە شڕەیەکی ھەرزانی کڕی بۆ بەکارھێنان تاوەکو ئەوکاتەی دەتوانێت دانەیەکی تازە بکڕێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeaters3("en-GB"),
                               ),

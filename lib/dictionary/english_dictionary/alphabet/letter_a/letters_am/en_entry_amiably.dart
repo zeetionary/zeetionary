@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryamiably - replace speakAmiably - replace amiably - /ˈeɪmiəbli/ - find Dopsum2
 
@@ -166,9 +165,8 @@ class EnglishEntryamiably extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -187,12 +185,6 @@ class EnglishEntryamiably extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -218,6 +210,7 @@ class EnglishEntryamiably extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دوێنێ شەو بە تەلەفۆن زۆر بە ڕووخۆشانە قسەیان دەکرد، بۆیە وام‌دانا ھەموو شتێک باشە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmiably44557("en-GB"),
                               ),

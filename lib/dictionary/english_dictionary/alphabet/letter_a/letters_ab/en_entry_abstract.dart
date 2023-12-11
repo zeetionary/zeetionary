@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryabstract - speakAbstract - abstract - /ˈæbstrækt/
 
@@ -110,9 +109,8 @@ class EnglishEntryabstract extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -131,12 +129,6 @@ class EnglishEntryabstract extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -158,7 +150,8 @@ class EnglishEntryabstract extends StatelessWidget {
                                       "The research shows that pre-school children are capable of thinking in abstract terms."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "توێژینەوەکە دەریخستووە کە ئەو منداڵانەی لە قوتابخانە نین توانای بیرکردنەوەیان ھەیە بە بەکارھێنانی خەیاڵیان "),
+                                      "توێژینەوەکە دەریخستووە کە ئەو منداڵانەی لە قوتابخانە نین توانای بیرکردنەوەیان ھەیە بە بەکارھێنانی خەیاڵیان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA29867("en-GB"),
                               ),
@@ -177,7 +170,8 @@ class EnglishEntryabstract extends StatelessWidget {
                                       "We may talk of beautiful things but beauty itself is abstract."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەتوانین باس لە شتە جوانەکان بکەین، بەڵام جوانی خۆی واتاییە "),
+                                      "دەتوانین باس لە شتە جوانەکان بکەین، بەڵام جوانی خۆی واتاییە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA78946("en-GB"),
                               ),
@@ -196,7 +190,8 @@ class EnglishEntryabstract extends StatelessWidget {
                                       "the work of American abstract artists like Mark Rothko"),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کارەکانی ھونەرمەندە ئەبستراکتییە ئەمریکییەکانی وەک مارک رۆسکۆ "),
+                                      "کارەکانی ھونەرمەندە ئەبستراکتییە ئەمریکییەکانی وەک مارک رۆسکۆ."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA259874("en-GB"),
                               ),
@@ -215,7 +210,8 @@ class EnglishEntryabstract extends StatelessWidget {
                                       "Their plan is to abstract 8 million gallons of water from the river."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پلانەکەیان ئەوەبوو کە ھەشت ملیۆن گاڵۆن ئاو لە ڕووبارەکە دەربکەن "),
+                                      "پلانەکەیان ئەوەبوو کە ھەشت ملیۆن گاڵۆن ئاو لە ڕووبارەکە دەربکەن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA65897("en-GB"),
                               ),

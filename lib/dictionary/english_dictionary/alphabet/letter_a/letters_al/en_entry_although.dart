@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryalthough - replace speakAlthough - replace although - /ɔːlˈðəʊ/ - find Dopsum2
 
@@ -112,9 +111,8 @@ class EnglishEntryalthough extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -133,12 +131,6 @@ class EnglishEntryalthough extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -164,6 +156,7 @@ class EnglishEntryalthough extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەگەرچی خۆرەکە دەدرەوشایەوە، ھێندە گەرم نەبوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlthough4596("en-GB"),
                               ),
@@ -188,6 +181,7 @@ class EnglishEntryalthough extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەستم کرد ھەڵەبوو، بەڵام/ئەگەرچی ئەوکاتە ئەوەم نەوت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlthough566("en-GB"),
                               ),

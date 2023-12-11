@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryalmighty - replace speakAlmighty - replace almighty - /ɔːlˈmaɪti/ - find Dopsum2
 
@@ -113,9 +112,8 @@ class EnglishEntryalmighty extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -134,12 +132,6 @@ class EnglishEntryalmighty extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -163,6 +155,7 @@ class EnglishEntryalmighty extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "خودای بەدەسەڵات، ڕەحممان پێ بکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlmighty23599("en-GB"),
                               ),
@@ -187,6 +180,7 @@ class EnglishEntryalmighty extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەناکاو تەقەیەکی بەرزمان لە چێشتخانەکەوە بیست."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlmighty4263("en-GB"),
                               ),
@@ -210,6 +204,7 @@ class EnglishEntryalmighty extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "بۆ خاتری خودا، پێت وایە چی دەکەیت؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlmight4693("en-GB"),
                               ),
@@ -234,6 +229,7 @@ class EnglishEntryalmighty extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەبێت لای خودا نزا بکەین بۆ لێخۆشبوون."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlmight45665("en-GB"),
                               ),

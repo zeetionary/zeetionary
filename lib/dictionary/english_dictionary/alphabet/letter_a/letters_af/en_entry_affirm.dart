@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryaffirm - replace speakAffirm - replace affirm - /əˈfɜːrm/ - find Dopsum2
 
@@ -101,9 +100,8 @@ class EnglishEntryaffirm extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -122,12 +120,6 @@ class EnglishEntryaffirm extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -148,6 +140,7 @@ class EnglishEntryaffirm extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەردوو لایەن بەڕوونی پابەندی خۆیان بە ئاگربەستەوە ڕاگەیاند."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAff25699("en-GB"),
                               ),
@@ -169,6 +162,7 @@ class EnglishEntryaffirm extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پشتیوانی ئەو باوەڕە دەکەین کە سەرکردەکان دەبێت لەلایەن خەڵکەوە ھەڵبژێردرێن و بەرپرسیار بن بەرامبەر خەڵکی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffirm411("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryaccusation - speakAccusation - accusation - /ˌækjuˈzeɪʃn/
 
@@ -101,9 +100,8 @@ class EnglishEntryaccusation extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -122,12 +120,6 @@ class EnglishEntryaccusation extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -150,6 +142,7 @@ class EnglishEntryaccusation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئاماژەیەکی گومان لێکردن ھەبوو لە دەنگیدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA125698("en-GB"),
                               ),
@@ -167,6 +160,7 @@ class EnglishEntryaccusation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کاتی خۆی ھیچ کەس باوەڕی بە تۆمەتەکانی دژ بە ئەو نەکرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA147296("en-GB"),
                               ),

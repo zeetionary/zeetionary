@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryabdicate - speakAbdicate - /ˈæbdɪkeɪt/ - abdicate
 
@@ -92,9 +91,8 @@ class EnglishEntryabdicate extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -104,12 +102,6 @@ class EnglishEntryabdicate extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -132,6 +124,7 @@ class EnglishEntryabdicate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "وازی لە تەختی شاھانە ھێنا لە بەرژەوەندی کوڕەکەی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAb576("en-GB"),
                               ),
@@ -149,6 +142,7 @@ class EnglishEntryabdicate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ناچارکرا واز لە تەختی شاھانەیی ئیسپانیا بھێنێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAb5346("en-GB"),
                               ),

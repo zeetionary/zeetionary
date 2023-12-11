@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryalbum - replace speakAlbum - replace album - /ˈælbəm/ - find Dopsum2
 
@@ -103,9 +102,8 @@ class EnglishEntryalbum extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -124,12 +122,6 @@ class EnglishEntryalbum extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -153,6 +145,7 @@ class EnglishEntryalbum extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "وێنەکان لە ئەلبومێکدا ھەڵدەگرم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlbum42599("en-GB"),
                               ),
@@ -177,6 +170,7 @@ class EnglishEntryalbum extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەم نزیکانە یەکەم ئەلبومیان بڵاوکردەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlbum3655("en-GB"),
                               ),

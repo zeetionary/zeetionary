@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -153,9 +152,8 @@ class EnglishEntryappearance extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -174,12 +172,6 @@ class EnglishEntryappearance extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -205,6 +197,7 @@ class EnglishEntryappearance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەرگیز ھێندە زۆر گرنگی بە ڕواڵەتی نەداوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppearance1127("en-GB"),
                               ),
@@ -228,6 +221,7 @@ class EnglishEntryappearance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بڕیاردان بە ڕواڵەت دەکرێت بتخاتە ھەڵەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppearance1128("en-GB"),
                               ),
@@ -253,6 +247,7 @@ class EnglishEntryappearance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەرکەوتنی لەناکاوی پاسەوانێک بووە ھۆی ئەوەی پارەکە دابنێن و ھەڵبێن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppearance1131("en-GB"),
                               ),
@@ -278,6 +273,7 @@ class EnglishEntryappearance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە سەرەتای دەرکەوتنییەوە لە سەدەی نۆزدەوە، کۆلێرا بووە بەھۆی کووشتنی ملیۆنان کەس."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppearance1132("en-GB"),
                               ),
@@ -303,6 +299,7 @@ class EnglishEntryappearance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "یەکەم دەرکەوتنی گۆرانیبێژەکە لە تەمەنی ھەشت ساڵی بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppearance1135("en-GB"),
                               ),
@@ -328,6 +325,7 @@ class EnglishEntryappearance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بڵاوبوونەوەی دەنگۆکان لەسەر ژیان تایبەتیی وەزیرەکە لە میدیادا قسەی زۆری بەدوادا ھاتووە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAppearance1145("en-GB"),
                               ),

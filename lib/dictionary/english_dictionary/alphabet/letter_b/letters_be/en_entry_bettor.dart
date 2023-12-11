@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -129,9 +128,8 @@ class EnglishEntrybettor extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -155,12 +153,6 @@ class EnglishEntrybettor extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -182,7 +174,8 @@ class EnglishEntrybettor extends StatelessWidget {
                                       "Bettors wagered a total of £67 million on the game."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "گرەوکاران بە تێکڕا ٦٧ ملیۆنیان خستە گرەوەوە لەسەر یارییەکە."),
+                                      "گرەوکاران بە تێکڕا ٦٧ ملیۆن پاوەندیان خستە گرەوەوە لەسەر یارییەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBettors1("en-GB"),
                               ),

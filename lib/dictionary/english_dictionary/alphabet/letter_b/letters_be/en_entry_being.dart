@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -134,9 +132,8 @@ class EnglishEntrybeing extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -160,12 +157,6 @@ class EnglishEntrybeing extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -188,6 +179,7 @@ class EnglishEntrybeing extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "وڵاتی ئازادی ئێرلەندا لە ساڵی ١٩٢٢ ھاتە بوون."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeings1("en-GB"),
                               ),
@@ -206,6 +198,7 @@ class EnglishEntrybeing extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەردەمێکی تازە ھاتە بوون بەھۆی جەنگەکەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeings2("en-GB"),
                               ),
@@ -226,6 +219,7 @@ class EnglishEntrybeing extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھیچ گتانلەبەرێک شایەنی ئەوە نییە بەم شێوەیە مامەڵەی لەگەڵ بکرێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeings3("en-GB"),
                               ),
@@ -243,6 +237,7 @@ class EnglishEntrybeing extends StatelessWidget {
                                       "Dolphins are highly intelligent beings."),
                               const ExampleSentenceKurdish(
                                   text: "دۆڵفین گیانلەبەرێکی ژیرە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeings4("en-GB"),
                               ),
@@ -261,6 +256,7 @@ class EnglishEntrybeing extends StatelessWidget {
                                   text: "I hated him with my whole being."),
                               const ExampleSentenceKurdish(
                                   text: "بە ھەموو ھۆش و بیرم ڕقم لێی بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeings5("en-GB"),
                               ),

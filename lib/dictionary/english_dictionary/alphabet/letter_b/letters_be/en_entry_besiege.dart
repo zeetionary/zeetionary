@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -132,9 +130,8 @@ class EnglishEntrybesiege extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -158,12 +155,6 @@ class EnglishEntrybesiege extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -186,6 +177,7 @@ class EnglishEntrybesiege extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پاریس بۆ چوار ڕۆژ گەمارۆدرا و خەڵکەی ناچارکران خۆیان بدەن بەدەستەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBesieges1("en-GB"),
                               ),
@@ -206,6 +198,7 @@ class EnglishEntrybesiege extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "خانمە ئەکتەرەکە لەلایەن پەیامنێرانەوە دەوردرا لە فڕۆکەخانەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBesieges2("en-GB"),
                               ),
@@ -226,6 +219,7 @@ class EnglishEntrybesiege extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "وێستگە ڕادیۆییەکە ژمارەیەکی زۆر پەیوەندی پێوەکرا لەلایەن گوێگرانی تووڕەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBesieges3("en-GB"),
                               ),

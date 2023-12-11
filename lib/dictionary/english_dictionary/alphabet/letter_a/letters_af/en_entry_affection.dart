@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryaffection - replace speakAffection - replace affection - /əˈfekʃn/ - find Dopsum2
 
@@ -101,9 +100,8 @@ class EnglishEntryaffection extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -122,12 +120,6 @@ class EnglishEntryaffection extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -150,6 +142,7 @@ class EnglishEntryaffection extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "منداڵان پێویستیان بە سۆز و خەشەویستی زۆر ھەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffe6811("en-GB"),
                               ),
@@ -168,6 +161,7 @@ class EnglishEntryaffection extends StatelessWidget {
                                       "I have a great affection for New York."),
                               const ExampleSentenceKurdish(
                                   text: "خۆشەویستی زۆرم بۆ نیویۆرک ھەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffec3599("en-GB"),
                               ),

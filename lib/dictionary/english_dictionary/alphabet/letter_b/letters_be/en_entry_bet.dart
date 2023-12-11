@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -135,9 +134,8 @@ class EnglishEntrybet extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -161,12 +159,6 @@ class EnglishEntrybet extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -188,6 +180,7 @@ class EnglishEntrybet extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەبێت تەمەنت لە ١٦ ساڵ زیاتر بێت بۆ ئەوەی گرەو بکەیت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBets1("en-GB"),
                               ),
@@ -206,6 +199,7 @@ class EnglishEntrybet extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "خەڵکێکی زۆر دژ بەوە گرەو ناکەن کە فەرەنسا نازناوەکە دەپارێزێت (پێیان وایە فەرەنسا نازناوەکە دەبات)."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBets2("en-GB"),
                               ),
@@ -224,6 +218,7 @@ class EnglishEntrybet extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "٢٠ پاوەندی کردە گرەو لەگەڵم کە ئەوە ناکەم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBets3("en-GB"),
                               ),
@@ -242,6 +237,7 @@ class EnglishEntrybet extends StatelessWidget {
                                   text: "I bet (that) we’re too late."),
                               const ExampleSentenceKurdish(
                                   text: "دڵنیام لەوەی زۆر درەنگ کەوتووی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBets4("en-GB"),
                               ),
@@ -260,6 +256,7 @@ class EnglishEntrybet extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەتوانم گرەو بکەم کە شیکاران هەڵە دەردەچن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBets5("en-GB"),
                               ),
@@ -280,6 +277,7 @@ class EnglishEntrybet extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "گرەومان کردووە لەسەر ئەوەی کێ زووتر دەگات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBets6("en-GB"),
                               ),
@@ -299,6 +297,7 @@ class EnglishEntrybet extends StatelessWidget {
                                       "My bet is that they've been held up in traffic."),
                               const ExampleSentenceKurdish(
                                   text: "بۆچوونم وایە لە ترافیک ماونەتەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBets7("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryaccount - speakAccount - account - /əˈkaʊnt/
 
@@ -128,9 +127,8 @@ class EnglishEntryaccount extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -149,12 +147,6 @@ class EnglishEntryaccount extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -177,6 +169,7 @@ class EnglishEntryaccount extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەژمارێکی کردەوە لە بانکێک لە ئەڵمانیا"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA2573("en-GB"),
                               ),
@@ -192,6 +185,7 @@ class EnglishEntryaccount extends StatelessWidget {
                                   text: "What's your account number please?"),
                               const ExampleSentenceKurdish(
                                   text: "بێزەحمەت، ژمارەی ھەژمارەکەت چەندە؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc2481("en-GB"),
                               ),
@@ -209,6 +203,7 @@ class EnglishEntryaccount extends StatelessWidget {
                                   text: "My YouTube account was terminated."),
                               const ExampleSentenceKurdish(
                                   text: "ھەژمارەکەم لەسەر یووتیووب سڕکرا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA14258("en-GB"),
                               ),
@@ -228,6 +223,7 @@ class EnglishEntryaccount extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "گێڕانەوەی تەواوی ڕووداوەکەی بە پۆلیس گوت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA52489("en-GB"),
                               ),
@@ -246,6 +242,7 @@ class EnglishEntryaccount extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەوڵبدە لیستی حیساباتەکە بە درووستی ڕابگری."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA3518("en-GB"),
                               ),
@@ -265,6 +262,7 @@ class EnglishEntryaccount extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە یاسای ئینگلتەرە کەسێک بە بێتاوان سەیردەکرێت تا بە تاوانبار دەسەلمێندرێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc24579("en-GB"),
                               ),

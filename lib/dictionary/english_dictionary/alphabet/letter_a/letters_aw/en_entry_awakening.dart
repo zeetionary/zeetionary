@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -142,9 +141,8 @@ class EnglishEntryawakening extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -163,12 +161,6 @@ class EnglishEntryawakening extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -194,6 +186,7 @@ class EnglishEntryawakening extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەگەر چاوەڕێی پێشوازییەکی گەرمیان دەکرد، ئەوا بەھۆشھاتنەوەیەکیان لە پێش بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwakenings1("en-GB"),
                               ),
@@ -219,6 +212,7 @@ class EnglishEntryawakening extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو بزووتنەوە سیاسییەی کە لە دوای جەنگی دووەمی جیھانی ڕوویدا بەدوای خۆیدا شەپۆلێک لە بزاڤی دژ بە کۆلۆنیاڵیزمی ھێنا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwakenings2("en-GB"),
                               ),

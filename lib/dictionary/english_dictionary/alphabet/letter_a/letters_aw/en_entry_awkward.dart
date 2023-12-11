@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -146,9 +145,8 @@ class EnglishEntryawkward extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -167,12 +165,6 @@ class EnglishEntryawkward extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -196,6 +188,7 @@ class EnglishEntryawkward extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "بێ‌دەنگییەکی شەرمھێنەر بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwkwards1("en-GB"),
                               ),
@@ -219,6 +212,7 @@ class EnglishEntryawkward extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەستم بە شەرم دەکرد چونکە ئاشکرا بوو دەیانویست تەنھا بن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwkwards2("en-GB"),
                               ),
@@ -243,6 +237,7 @@ class EnglishEntryawkward extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "منت خستووەتە بارودۆخێکی نالەبارەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwkwards3("en-GB"),
                               ),
@@ -266,6 +261,7 @@ class EnglishEntryawkward extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "لە کاتێکی نەگونجاو ھاتووم؟."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwkwards4("en-GB"),
                               ),
@@ -291,6 +287,7 @@ class EnglishEntryawkward extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم سندووقە زۆر نەشیاوە بۆ ھەڵگرتنی لەلایەن یەک کەس."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwkwards5("en-GB"),
                               ),
@@ -316,6 +313,7 @@ class EnglishEntryawkward extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەبێت لەسەر لایەکی خراپ خەوتبم، تەواوی جەستەم دێشێ."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwkwards6("en-GB"),
                               ),

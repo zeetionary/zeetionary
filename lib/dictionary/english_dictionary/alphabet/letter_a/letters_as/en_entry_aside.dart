@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -155,9 +154,8 @@ class EnglishEntryaside extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -176,12 +174,6 @@ class EnglishEntryaside extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -205,6 +197,7 @@ class EnglishEntryaside extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "پەردەکەی لادا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAside625("en-GB"),
                               ),
@@ -228,6 +221,7 @@ class EnglishEntryaside extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بچۆ ئەولاوە و بھێڵە ئەم خەڵکە تێپەڕن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAside626("en-GB"),
                               ),
@@ -252,6 +246,7 @@ class EnglishEntryaside extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەندێک پارەمان خستە لاوە بۆ کاری چاککردنەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAside628("en-GB"),
                               ),
@@ -277,6 +272,7 @@ class EnglishEntryaside extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەکتەرەکە لە ناوەڕاستی دیمەنەکە وەستا بۆ گەیاندنی 'لاپاڵێک' بە ئامادەبووان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAside633("en-GB"),
                               ),
@@ -302,6 +298,7 @@ class EnglishEntryaside extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەندێک توانجی وەشاند لە بێ‌توانایی ژنان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAside642("en-GB"),
                               ),
@@ -325,6 +322,7 @@ class EnglishEntryaside extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "تەنھا وەک قەوسێک باسی دەکەم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAside644("en-GB"),
                               ),

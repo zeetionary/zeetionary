@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryabnormal - speakAbnormal - abnormal - /æbˈnɔːml/
 
@@ -101,9 +100,8 @@ class EnglishEntryabnormal extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -113,12 +111,6 @@ class EnglishEntryabnormal extends StatelessWidget {
                   VideoIconForTab(),
                   VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -140,6 +132,7 @@ class EnglishEntryabnormal extends StatelessWidget {
                                       "abnormal levels of sugar in the blood"),
                               const ExampleSentenceKurdish(
                                   text: "ڕێژەی نائاسایی شەکر لە خوێندا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAb24("en-GB"),
                               ),
@@ -157,6 +150,7 @@ class EnglishEntryabnormal extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "وایان بیرکردەوە ڕەفتارەکانی نائاسایی بێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA91("en-GB"),
                               ),
@@ -174,6 +168,7 @@ class EnglishEntryabnormal extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەشتییەکە ڕێڕەوی خۆی لەدەستدا بەھۆی کەشوھەوای نائاسایی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA25("en-GB"),
                               ),

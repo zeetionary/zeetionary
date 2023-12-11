@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryachieve - replace speakAchieve - replace achieve - /əˈtʃiːv/ - find Dopsum2
 
@@ -111,9 +110,8 @@ class EnglishEntryachieve extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -132,12 +130,6 @@ class EnglishEntryachieve extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -160,6 +152,7 @@ class EnglishEntryachieve extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە زەحمەتەوە کاریکرد بۆ بەدەستھێنانی ئامانجەکەی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc1528("en-GB"),
                               ),
@@ -178,6 +171,7 @@ class EnglishEntryachieve extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زوو یان درەنگ ھەوڵەکانمان دەگات بە ئامانج"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc25647("en-GB"),
                               ),
@@ -198,6 +192,7 @@ class EnglishEntryachieve extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەموو ئەوەی کردووتە بێزارکردنی دایک و باوکمانە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA1527("en-GB"),
                               ),
@@ -218,6 +213,7 @@ class EnglishEntryachieve extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "خوێندکاران دەبێت لەلایەنی خوێندنەوە سەرکەوتووبن بۆ ئەوەی بچنە ناو بازاڕی کارەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA149873("en-GB"),
                               ),

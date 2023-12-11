@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -131,9 +130,8 @@ class EnglishEntrybatch extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -152,12 +150,6 @@ class EnglishEntrybatch extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -180,6 +172,7 @@ class EnglishEntrybatch extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەموو ھاوینێک دەستەیەکی تازە لە خوێندکاران ھەوڵ دەدەن کار بدۆزنەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBatchs1("en-GB"),
                               ),
@@ -199,6 +192,7 @@ class EnglishEntrybatch extends StatelessWidget {
                                       "Shall I make another batch of cookies?"),
                               const ExampleSentenceKurdish(
                                   text: "ژمارەیەکی تر بسکیت درووست بکەم؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBatchs2("en-GB"),
                               ),
@@ -219,6 +213,7 @@ class EnglishEntrybatch extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "مامۆستاکە خوێندکارەکانی کرد بە دەستەی چوارییەوە بۆ چالاکییەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBatchs3("en-GB"),
                               ),

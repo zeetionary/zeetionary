@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -144,9 +143,8 @@ class EnglishEntryban extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -165,12 +163,6 @@ class EnglishEntryban extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -196,6 +188,7 @@ class EnglishEntryban extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "یاساکە جگەرەکێشان لە شوێنە گشتییەکان قەدەغەدەکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBans1("en-GB"),
                               ),
@@ -220,6 +213,7 @@ class EnglishEntryban extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو بەربەستکراوە لە جێھێشتنی وڵاتەکە لەکاتێکدا تۆمەتەکان لێکۆڵینەوەیان لێ دەکرێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBans2("en-GB"),
                               ),
@@ -244,6 +238,7 @@ class EnglishEntryban extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆرینەی خەڵکی دژی بڕیاری قەدەغەکردنەکەن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBans3("en-GB"),
                               ),
@@ -268,6 +263,7 @@ class EnglishEntryban extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕەفتارەکەی بوو بەھۆی سڕکردنی ھەمیشەیی لە تۆپێنی نێودەوڵەتیدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBans4("en-GB"),
                               ),

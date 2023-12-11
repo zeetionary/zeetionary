@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryaheadof - replace speakAheadof - replace ahead of - /əˈhed əv/ - find Dopsum2
 
@@ -118,9 +117,8 @@ class EnglishEntryaheadof extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -139,12 +137,6 @@ class EnglishEntryaheadof extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -166,6 +158,7 @@ class EnglishEntryaheadof extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "دوو کوڕ لە پێشمانەوە بوون."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAhead25355("en-GB"),
                               ),
@@ -188,6 +181,7 @@ class EnglishEntryaheadof extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دە ڕۆژی پڕ لە ڕاھێنانی سەختمان لە پێشە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAheadof2377("en-GB"),
                               ),
@@ -212,6 +206,7 @@ class EnglishEntryaheadof extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "چەند ڕۆژێک پێش وادەی دیاریکراو تەواو بووم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAhead3522("en-GB"),
                               ),
@@ -236,6 +231,7 @@ class EnglishEntryaheadof extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەمیشە لەپێش ئەوانی دیکەی پۆلەکە بووە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAheadof3596("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryAbbess - speakAbbess - /ˈæbes/ - dopsumT
 
@@ -83,9 +82,8 @@ class EnglishEntryAbbess extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -95,12 +93,6 @@ class EnglishEntryAbbess extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -123,6 +115,7 @@ class EnglishEntryAbbess extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ژنە ڕەبەنەکە سەرپەرشتی چالاکییەکانی ڕۆژانەی کڵێساکەی دەکرد بۆ دڵنیابوون لەوەی ھەموو شتێک بێ کێشە بەڕێوەدەچوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speak1155485("en-GB"),
                               ),

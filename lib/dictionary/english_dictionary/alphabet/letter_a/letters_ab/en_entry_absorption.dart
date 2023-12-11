@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryabsorption - speakAbsorption - absorption - /əbˈzɔːpʃn/
 
@@ -102,9 +101,8 @@ class EnglishEntryabsorption extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -123,12 +121,6 @@ class EnglishEntryabsorption extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -151,6 +143,7 @@ class EnglishEntryabsorption extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڤیتامین D پێویستە بۆ یارمەتیی ھەڵمژینی کالسیۆم لە خۆراکەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA3591("en-GB"),
                               ),
@@ -170,6 +163,7 @@ class EnglishEntryabsorption extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "گرتنەخۆی شارۆچکەکە لەلایەن ھەرێمی شاری لیدزەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAb3618("en-GB"),
                               ),
@@ -189,6 +183,7 @@ class EnglishEntryabsorption extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کارەکەی زیانی پێگەیشت بەھۆی ڕۆچوونی بەناو وەرزشدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA36948("en-GB"),
                               ),

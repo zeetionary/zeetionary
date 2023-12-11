@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryadjust - replace speakAdjust - replace adjust - /əˈdʒʌst/ - find Dopsum2
 
@@ -111,9 +110,8 @@ class EnglishEntryadjust extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -132,12 +130,6 @@ class EnglishEntryadjust extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -157,6 +149,7 @@ class EnglishEntryadjust extends StatelessWidget {
                                       "This button is for adjusting the volume."),
                               const ExampleSentenceKurdish(
                                   text: "ئەم دووگمە بۆ ڕێکخستنی دەنگەکەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdj459("en-GB"),
                               ),
@@ -174,6 +167,7 @@ class EnglishEntryadjust extends StatelessWidget {
                                   text: "The brakes need to be adjusted."),
                               const ExampleSentenceKurdish(
                                   text: "وەستێنەرەکان دەبێت ڕێکبخرێن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdj7596("en-GB"),
                               ),
@@ -195,6 +189,7 @@ class EnglishEntryadjust extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ماوەیەکی پێچوو تا ڕابێت بە تەنھایی ژیان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdj4589("en-GB"),
                               ),
@@ -215,6 +210,7 @@ class EnglishEntryadjust extends StatelessWidget {
                                       "He smoothed his hair and adjusted his tie."),
                               const ExampleSentenceKurdish(
                                   text: "قژی سافکرد و بۆینباخەکەی ڕێکخست."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdj8542("en-GB"),
                               ),

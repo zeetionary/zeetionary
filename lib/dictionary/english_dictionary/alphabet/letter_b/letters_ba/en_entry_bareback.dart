@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -130,9 +129,8 @@ class EnglishEntrybareback extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -151,12 +149,6 @@ class EnglishEntrybareback extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -177,6 +169,7 @@ class EnglishEntrybareback extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "سێرکەکە نمایشێکی لۆخەگرت لەلایەن سوارچاکێکی بێ‌زینەوە کە ژمارەیەک کاری شانۆیی ئەنجامدا لەسەر ئەسپێک."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarebacks1("en-GB"),
                               ),
@@ -196,6 +189,7 @@ class EnglishEntrybareback extends StatelessWidget {
                                       "Is it difficult riding bareback?"), // DOPSUM_WRITE_A_SENTENCE
                               const ExampleSentenceKurdish(
                                   text: "سوارچاکی بەبێ زین گرانە؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarebacks2("en-GB"),
                               ),

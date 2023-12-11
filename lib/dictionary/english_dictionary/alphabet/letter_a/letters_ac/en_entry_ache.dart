@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryache - replace speakAche - replace ache - /eɪk/ - find Dopsum2
 
@@ -118,9 +117,8 @@ class EnglishEntryache extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -139,12 +137,6 @@ class EnglishEntryache extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -166,6 +158,7 @@ class EnglishEntryache extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "چاوەکانم ژانیان دەکرد بەھۆی کەمخەوییەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA125698("en-GB"),
                               ),
@@ -184,6 +177,7 @@ class EnglishEntryache extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دڵم دێتە ژان کە دەبینم ئازار دەکێشێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA4973256("en-GB"),
                               ),
@@ -202,6 +196,7 @@ class EnglishEntryache extends StatelessWidget {
                                   text: "I was aching for home."),
                               const ExampleSentenceKurdish(
                                   text: "خەریکبوو دڵی دەتەقا بۆ ماڵەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA456268("en-GB"),
                               ),
@@ -220,6 +215,7 @@ class EnglishEntryache extends StatelessWidget {
                                   text: "Mummy, I've got a tummy ache."),
                               const ExampleSentenceKurdish(
                                   text: "دایکە، سکم ژان ئەکا"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA14568("en-GB"),
                               ),

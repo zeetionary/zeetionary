@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryacross - replace speakAcross - replace across - /əˈkrɔːs/ - find Dopsum2
 
@@ -155,9 +154,8 @@ class EnglishEntryacross extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -176,12 +174,6 @@ class EnglishEntryacross extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -203,6 +195,7 @@ class EnglishEntryacross extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھێڵێکم کێشا لە لایەکی پەڕەکە بۆ لەیەکەی تری."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAcr2149("en-GB"),
                               ),
@@ -221,6 +214,7 @@ class EnglishEntryacross extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "نزیکترین پرد کە بەسەر ڕووبارەکەدا بڕوات لە کوێیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAcr2437("en-GB"),
                               ),
@@ -241,6 +235,7 @@ class EnglishEntryacross extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بانکێک ھەیە لە لایەکەی تری شەقامەکەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAcr4269("en-GB"),
                               ),
@@ -259,6 +254,7 @@ class EnglishEntryacross extends StatelessWidget {
                                   text: "He hit him across the face."),
                               const ExampleSentenceKurdish(
                                   text: "کێشای بە ڕووخساریدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc2568("en-GB"),
                               ),
@@ -279,6 +275,7 @@ class EnglishEntryacross extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "خێزانەکەی بە وڵاتەکەدا بڵاوبووبوونەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAcro154("en-GB"),
                               ),
@@ -299,6 +296,7 @@ class EnglishEntryacross extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕووبارەکە زۆر فراوانە. ناتوانین بپەڕینەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAcro2568("en-GB"),
                               ),
@@ -319,6 +317,7 @@ class EnglishEntryacross extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کە ناوم خوێندرایەوە، ڕاستەوخۆ ڕووی لە من کرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAcr258("en-GB"),
                               ),
@@ -338,6 +337,7 @@ class EnglishEntryacross extends StatelessWidget {
                                       "There's a school just across from our house."),
                               const ExampleSentenceKurdish(
                                   text: "خوێندنگەیەک لە بەرامبەر ماڵمان ھەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAcr7598("en-GB"),
                               ),

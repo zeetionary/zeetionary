@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -334,9 +332,8 @@ class EnglishEntrybear extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -360,12 +357,6 @@ class EnglishEntrybear extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -386,6 +377,7 @@ class EnglishEntrybear extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەچکە ورچێکی بچکۆلە بە ڕێگاکەدا پەڕییەوە بە ڕاکردن لە پێشمان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears1("en-GB"),
                               ),
@@ -406,6 +398,7 @@ class EnglishEntrybear extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئازارەکە تاڕادەیەکی زۆر زیاتر لەوە بوو کە دەیتوانی بەرگەی بگرێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears2("en-GB"),
                               ),
@@ -424,6 +417,7 @@ class EnglishEntrybear extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەرگەی ھەمووی گرت بە پشوودرێژی ھەمیشەییەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears3("en-GB"),
                               ),
@@ -444,6 +438,7 @@ class EnglishEntrybear extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەرپرسیاریەتی بۆ زۆرینەی گۆڕانکارییەکان ھەڵگرت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears4("en-GB"),
                               ),
@@ -462,6 +457,7 @@ class EnglishEntrybear extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەکۆتاییدا ئەوە کڕیارانن بارگرانی بەرزبوونەوەی نرخ ھەڵدەگرن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears5("en-GB"),
                               ),
@@ -482,6 +478,7 @@ class EnglishEntrybear extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەھۆڵەکە زۆر باریکە کە بتوانێت کە بتوانێت بەرگەت بگرێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears6("en-GB"),
                               ),
@@ -500,6 +497,7 @@ class EnglishEntrybear extends StatelessWidget {
                                   text: "The document bore her signature."),
                               const ExampleSentenceKurdish(
                                   text: "دۆکیومێنتەکە واژۆی ئەوی پێوەبوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears7("en-GB"),
                               ),
@@ -518,6 +516,7 @@ class EnglishEntrybear extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە جەنگەکەدا بەخراپی برینداربوو و ھێشتا برینەکانی پێوەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears8("en-GB"),
                               ),
@@ -535,6 +534,7 @@ class EnglishEntrybear extends StatelessWidget {
                                       "She bears little resemblance to her mother."),
                               const ExampleSentenceKurdish(
                                   text: "زۆر کەم لە دایکی دەکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears9("en-GB"),
                               ),
@@ -555,6 +555,7 @@ class EnglishEntrybear extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەرھەمی دواتری بەراورد ناکرێت بە ڕۆمانەکانی پێشووتری."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears10("en-GB"),
                               ),
@@ -573,6 +574,7 @@ class EnglishEntrybear extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پلانەکە ناتوانێت بە پشکنینی ورددا دەربچێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears11("en-GB"),
                               ),
@@ -591,6 +593,7 @@ class EnglishEntrybear extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "نوکتەکە بە کەڵکی دووبارەکردنەوە نایەت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears12("en-GB"),
                               ),
@@ -609,6 +612,7 @@ class EnglishEntrybear extends StatelessWidget {
                                   text: "He bears no resentment towards them."),
                               const ExampleSentenceKurdish(
                                   text: "ھیچ ڕقێکی بەرامبەریان نییە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears13("en-GB"),
                               ),
@@ -626,6 +630,7 @@ class EnglishEntrybear extends StatelessWidget {
                                       "He's borne a grudge against me ever since that day."),
                               const ExampleSentenceKurdish(
                                   text: "لەو ڕۆژەوە بوغزێکی دژم ھەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears14("en-GB"),
                               ),
@@ -646,6 +651,7 @@ class EnglishEntrybear extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو پارچەیەی کە ناوی ھەڵگرتبوو وردوخاش کرا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears15("en-GB"),
                               ),
@@ -665,6 +671,7 @@ class EnglishEntrybear extends StatelessWidget {
                                       "He returned bearing a basket of vegetables."),
                               const ExampleSentenceKurdish(
                                   text: "گەڕایەوە بە سەبەتەیەک سەوزەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears16("en-GB"),
                               ),
@@ -681,6 +688,7 @@ class EnglishEntrybear extends StatelessWidget {
                                   text: "Her two sons helped bear the coffin."),
                               const ExampleSentenceKurdish(
                                   text: "دوو کوڕەکەی تابووتەکەیان ھەڵگرتبوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears17("en-GB"),
                               ),
@@ -701,6 +709,7 @@ class EnglishEntrybear extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە شانازییەوە ڕەفتار دەکات، وەک سەربازێک."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears18("en-GB"),
                               ),
@@ -719,6 +728,7 @@ class EnglishEntrybear extends StatelessWidget {
                                   text: "She had borne him six sons."),
                               const ExampleSentenceKurdish(
                                   text: "شەش کوڕی پێبەخشیوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears19("en-GB"),
                               ),
@@ -739,6 +749,7 @@ class EnglishEntrybear extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم دارانە کاتێکی زۆریان پێدەچێت تا بەر بگرن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears20("en-GB"),
                               ),
@@ -759,6 +770,7 @@ class EnglishEntrybear extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کە دەگەیت بە دووڕیانەکە لە ڕێگاکەدا، بە ڕاستدا بچۆ."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBears21("en-GB"),
                               ),

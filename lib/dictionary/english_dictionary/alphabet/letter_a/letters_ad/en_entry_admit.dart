@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryadmit - replace speakAdmit - replace admit - /ədˈmɪt/ - find Dopsum2
 
@@ -120,9 +119,8 @@ class EnglishEntryadmit extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -141,12 +139,6 @@ class EnglishEntryadmit extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -167,6 +159,7 @@ class EnglishEntryadmit extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە کەللەڕەقییەوە ڕەتیدەکاتەوە دان بە ڕاستییەکە بنێ."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdmi4527("en-GB"),
                               ),
@@ -186,6 +179,7 @@ class EnglishEntryadmit extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەشێوەیەکی گشتی دان بەوەدا نرا کە حکومەت بەزووی ھەنگاوی نا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdmit4568("en-GB"),
                               ),
@@ -205,6 +199,7 @@ class EnglishEntryadmit extends StatelessWidget {
                                   text: "He refused to admit his guilt."),
                               const ExampleSentenceKurdish(
                                   text: "ڕەتیکردەوە دان بە ھەڵەکەیدا بنێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdmit34587("en-GB"),
                               ),
@@ -226,6 +221,7 @@ class EnglishEntryadmit extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێگەت پێنادرێت بچیتە ناو ھۆڵی شانۆ لە دوای ئەوەی نمایش دەستیپێکردووە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdmit45682("en-GB"),
                               ),
@@ -247,6 +243,7 @@ class EnglishEntryadmit extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دوو قوربانی پێکدادانەکە بردرانە نۆخۆشخانە ناوخۆییەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdmit458796("en-GB"),
                               ),

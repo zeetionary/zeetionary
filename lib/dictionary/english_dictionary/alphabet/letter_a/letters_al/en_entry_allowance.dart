@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryallowance - replace speakAllowance - replace allowance - /əˈlaʊəns/ - find Dopsum2
 
@@ -128,9 +127,8 @@ class EnglishEntryallowance extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -149,12 +147,6 @@ class EnglishEntryallowance extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -179,6 +171,7 @@ class EnglishEntryallowance extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "پارە وەردەگریت بۆ جلوبەرگ؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllowance1298("en-GB"),
                               ),
@@ -200,6 +193,7 @@ class EnglishEntryallowance extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەفتانەی ھەر منداڵێک ١٥ پاوەندە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllowance4251("en-GB"),
                               ),
@@ -224,6 +218,7 @@ class EnglishEntryallowance extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێژەی پێشنیازکراوی ڕۆژانەی ڤیتامین C ٦٠-٩٠ میلیگرامە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllowance12963("en-GB"),
                               ),

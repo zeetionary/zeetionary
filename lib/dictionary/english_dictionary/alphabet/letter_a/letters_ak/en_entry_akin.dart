@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryakin - replace speakAkin - replace akin - /əˈkɪn/ - find Dopsum2
 
@@ -103,9 +102,8 @@ class EnglishEntryakin extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -124,12 +122,6 @@ class EnglishEntryakin extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -155,6 +147,7 @@ class EnglishEntryakin extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەستەکەی زیاتر لە بەزەیی دەچوو وەک لە خۆشەویستی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAkin3544("en-GB"),
                               ),
@@ -177,6 +170,7 @@ class EnglishEntryakin extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە زمانێک قسەدەکەن کە نزیکە لە فەرەنسی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAkin5366("en-GB"),
                               ),

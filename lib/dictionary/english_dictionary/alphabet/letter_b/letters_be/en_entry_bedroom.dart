@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -136,9 +134,8 @@ class EnglishEntrybedroom extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -162,12 +159,6 @@ class EnglishEntrybedroom extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -189,6 +180,7 @@ class EnglishEntrybedroom extends StatelessWidget {
                                       "This is the master bedroom (= the main bedroom of the house)."),
                               const ExampleSentenceKurdish(
                                   text: "ئەمە ژووری سەرەکی خەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBedrooms1("en-GB"),
                               ),
@@ -205,6 +197,7 @@ class EnglishEntrybedroom extends StatelessWidget {
                                   text: "I went into the bedroom and cried."),
                               const ExampleSentenceKurdish(
                                   text: "چوومە ژووری خەو و گریام."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBedrooms2("en-GB"),
                               ),
@@ -223,6 +216,7 @@ class EnglishEntrybedroom extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەموو منداڵەکان ژووری خەوی خۆیان ھەبوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBedrooms3("en-GB"),
                               ),
@@ -243,6 +237,7 @@ class EnglishEntrybedroom extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "خانووە گەورەکان خانووی چوار ژووری خەون."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBedrooms4("en-GB"),
                               ),
@@ -262,6 +257,7 @@ class EnglishEntrybedroom extends StatelessWidget {
                                       "He has bedroom eyes (= looks as if he is interested in sex)."),
                               const ExampleSentenceKurdish(
                                   text: "وادەردەکەوێت مەیلی سێکسی ھەبێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBedrooms5("en-GB"),
                               ),
@@ -280,6 +276,7 @@ class EnglishEntrybedroom extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "باوکم شەرمەزار بوو بە دیمەنە ورووژێنەرەکانی فیلمەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBedrooms6("en-GB"),
                               ),

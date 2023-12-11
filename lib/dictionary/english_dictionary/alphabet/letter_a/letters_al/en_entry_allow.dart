@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryallow - replace speakAllow - replace allow - /əˈlaʊ/ - find Dopsum2
 
@@ -331,9 +330,8 @@ class EnglishEntryallow extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -352,12 +350,6 @@ class EnglishEntryallow extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -381,6 +373,7 @@ class EnglishEntryallow extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دایک و باوکی ڕێگەی پێ نادەن تا درەنگ لە دەرەوە بمێنێتەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllow3255("en-GB"),
                               ),
@@ -403,6 +396,7 @@ class EnglishEntryallow extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "یاساکە ڕێگە بە کۆمپانیاکان کرێکاران بەبێ ھیچ ھۆکارێک دەربکەن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllow535("en-GB"),
                               ),
@@ -427,6 +421,7 @@ class EnglishEntryallow extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "یەک کاتژمێر کاتت ھەیە بۆ وەڵامدانەوەی تاقیکردنەوەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllow369("en-GB"),
                               ),
@@ -450,6 +445,7 @@ class EnglishEntryallow extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕێگەیان پێنەدرا بچنە ناو وڵاتەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllow4721("en-GB"),
                               ),
@@ -474,6 +470,7 @@ class EnglishEntryallow extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "سیستەمەکە ھەلی ئەوە دەگونجێنێت کە خەڵکی لەناو ژمارەیەکی زۆر جیاوازی پەرتووکدا بگەڕێن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllow36541("en-GB"),
                               ),
@@ -498,6 +495,7 @@ class EnglishEntryallow extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆر یارمەتیدەر بوو کە دایکم نەخۆش بوو، دان بەوەدا دەنێم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllow2341("en-GB"),
                               ),

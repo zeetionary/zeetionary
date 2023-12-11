@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryalien - replace speakAlien - replace alien - /ˈeɪliən/ - find Dopsum2
 
@@ -131,9 +130,8 @@ class EnglishEntryalien extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -152,12 +150,6 @@ class EnglishEntryalien extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -183,6 +175,7 @@ class EnglishEntryalien extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە کاتی جەنگەکەدا وەک ھاوڵاتییەکی دووژمن زیندانی کرا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlien46588("en-GB"),
                               ),
@@ -207,6 +200,7 @@ class EnglishEntryalien extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەم فیلم بوونەوەری ئاسمانی لە ڕووی جەستەییەوە جیاواز لە مرۆڤ پیشان دەدەن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlien369222("en-GB"),
                               ),
@@ -231,6 +225,7 @@ class EnglishEntryalien extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە جیھانێکدا کە جیاواز و ترسێنەرە، ئەو تەنھا پارێزەریەتی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlien49255("en-GB"),
                               ),
@@ -255,6 +250,7 @@ class EnglishEntryalien extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەشێکم ھێشتا ھەست بە بێگانەیی دەکات لەم وڵاتە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlien3411("en-GB"),
                               ),
@@ -277,6 +273,7 @@ class EnglishEntryalien extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "بیرۆکەکە نامۆیە بە ئاینەکەمان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlien34177("en-GB"),
                               ),
@@ -301,6 +298,7 @@ class EnglishEntryalien extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەشتییەکی ئاسمانی بوونەوەری دیکە کێشای بە زەویدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlien35288("en-GB"),
                               ),

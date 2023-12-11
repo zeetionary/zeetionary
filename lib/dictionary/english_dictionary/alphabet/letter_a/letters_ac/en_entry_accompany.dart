@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryaccompany - speakAccompany - accompany - /əˈkʌmpəni/
 
@@ -101,9 +100,8 @@ class EnglishEntryaccompany extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -122,12 +120,6 @@ class EnglishEntryaccompany extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -149,6 +141,7 @@ class EnglishEntryaccompany extends StatelessWidget {
                                       "He was accompanied on the visit by his wife."),
                               const ExampleSentenceKurdish(
                                   text: "لە گەشتەکەی ژنەکەی یاوەریکرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc25877("en-GB"),
                               ),
@@ -166,6 +159,7 @@ class EnglishEntryaccompany extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ناچاردەبم داوات لێ بکەم لەگەڵم بێیت بۆ بنکەی پۆلیس."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA449965("en-GB"),
                               ),
@@ -181,6 +175,7 @@ class EnglishEntryaccompany extends StatelessWidget {
                                   text: "Warships will accompany the convoy."),
                               const ExampleSentenceKurdish(
                                   text: "کەشتی جەنگی یاوەری وەفدەکە دەکەن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA25841("en-GB"),
                               ),
@@ -200,6 +195,7 @@ class EnglishEntryaccompany extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەنگی ناڕەزایی لەگەڵ ئەم ڕاگەیاندنە بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc25877("en-GB"),
                               ),

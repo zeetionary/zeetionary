@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryaffirmative - replace speakAffirmative - replace affirmative - /əˈfɜːrmətɪv/ - find Dopsum2
 
@@ -101,9 +100,8 @@ class EnglishEntryaffirmative extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -122,12 +120,6 @@ class EnglishEntryaffirmative extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -149,6 +141,7 @@ class EnglishEntryaffirmative extends StatelessWidget {
                                       "He gave an affirmative response to the question."),
                               const ExampleSentenceKurdish(
                                   text: "وەڵامێکی ئەرێنی دا بە پرسیارەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffirm556("en-GB"),
                               ),
@@ -172,6 +165,7 @@ class EnglishEntryaffirmative extends StatelessWidget {
                               ),
                               const ExampleSentenceKurdish(
                                   text: "بە بەڵێ وەڵامی داوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffirmat899("en-GB"),
                               ),

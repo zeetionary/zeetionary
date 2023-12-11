@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryagainst - replace speakAgainst - replace against - /əˈɡenst/,  /əˈɡeɪnst/ - find Dopsum2
 
@@ -120,9 +119,8 @@ class EnglishEntryagainst extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -141,12 +139,6 @@ class EnglishEntryagainst extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -170,6 +162,7 @@ class EnglishEntryagainst extends StatelessWidget {
                               ),
                               const ExampleSentenceKurdish(
                                   text: "ئەوە دژ بە یاسایە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAga937884("en-GB"),
                               ),
@@ -192,6 +185,7 @@ class EnglishEntryagainst extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دژ بە ویستی خۆی ناچار بە ھاوسەرگیری کرا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgain2566("en-GB"),
                               ),
@@ -214,6 +208,7 @@ class EnglishEntryagainst extends StatelessWidget {
                               ),
                               const ExampleSentenceKurdish(
                                   text: "بەڵگەکان لە دژین."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgain156("en-GB"),
                               ),
@@ -237,6 +232,7 @@ class EnglishEntryagainst extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "پیانۆکە بخە ئەوێ، لەلای دیوارەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAga156338("en-GB"),
                               ),
@@ -259,6 +255,7 @@ class EnglishEntryagainst extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕێکاریان دژ بە ئاگرەکە گرتەبەر."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAga98274("en-GB"),
                               ),

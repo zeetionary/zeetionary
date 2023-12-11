@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -151,9 +150,8 @@ class EnglishEntryapproval extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -172,12 +170,6 @@ class EnglishEntryapproval extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -203,6 +195,7 @@ class EnglishEntryapproval extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەمتوانی بڵێم ڕەزامەندیی ئەوم بەدەست‌ھێناوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakApproval826("en-GB"),
                               ),
@@ -224,6 +217,7 @@ class EnglishEntryapproval extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕەزامەندیی پیشان‌دا بە پێکەنین‌کردن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakApproval829("en-GB"),
                               ),
@@ -249,6 +243,7 @@ class EnglishEntryapproval extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پلانەکە پێشکەشی لیژنەکە دەکرێت بۆ پەسەندکردنی فەرمی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakApproval831("en-GB"),
                               ),
@@ -270,6 +265,7 @@ class EnglishEntryapproval extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "پڕۆژەکەی پەسەندکردنی وەرگرت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakApproval832("en-GB"),
                               ),

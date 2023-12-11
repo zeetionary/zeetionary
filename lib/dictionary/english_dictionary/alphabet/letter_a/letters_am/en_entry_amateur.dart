@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryamateur - replace speakAmateur - replace amateur - /ˈæmətə(r)/,  /ˈæmətʃə(r)/ - find Dopsum2
 
@@ -113,9 +112,8 @@ class EnglishEntryamateur extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -134,12 +132,6 @@ class EnglishEntryamateur extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -165,6 +157,7 @@ class EnglishEntryamateur extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تاوەک تەمەنی ٤٠ ساڵیش ھەر وێنەگرێکی ھەوەس‌کار بوو، لەوەو بەدوا بوو کە بوو بە پڕۆفیشناڵ"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmateur44451("en-GB"),
                               ),
@@ -189,6 +182,7 @@ class EnglishEntryamateur extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەداخەوەم بەڵام نمایشەکە زۆر تازەکارانە دیاربوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmateur47955("en-GB"),
                               ),
@@ -213,6 +207,7 @@ class EnglishEntryamateur extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پاڵەوانێتییەکە بۆ حەزکاران و پڕۆفیشناڵان کراوەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmateur44592("en-GB"),
                               ),
@@ -237,6 +232,7 @@ class EnglishEntryamateur extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم ئیشە لەلایەن ژمارەیەک تازە کارەوە ئەنجام دراوە!"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmateur49555("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryaboard - speakAboard - aboard - /əˈbɔːd/
 
@@ -92,9 +91,8 @@ class EnglishEntryaboard extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -108,12 +106,6 @@ class EnglishEntryaboard extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -134,6 +126,7 @@ class EnglishEntryaboard extends StatelessWidget {
                                   text: "He was already aboard the plane."),
                               const ExampleSentenceKurdish(
                                   text: "پێشوەختە لەناو فڕۆکەکە بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA28("en-GB"),
                               ),
@@ -151,6 +144,7 @@ class EnglishEntryaboard extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "فڕۆکەکە تێکشکا و ھەموو ١٥٧ سەرنشینەکەی گیانیان لەدەستدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA37("en-GB"),
                               ),

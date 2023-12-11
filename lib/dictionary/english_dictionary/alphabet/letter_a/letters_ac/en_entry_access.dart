@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryaccess - speakAccess - access - /ˈækses/
 
@@ -128,9 +127,8 @@ class EnglishEntryaccess extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -149,12 +147,6 @@ class EnglishEntryaccess extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -177,6 +169,7 @@ class EnglishEntryaccess extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێویستت بە تێپەڕەوشە ھەیە بۆ چوونەناو ناو سیستەمی کۆمپیوتەرەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA21459("en-GB"),
                               ),
@@ -194,6 +187,7 @@ class EnglishEntryaccess extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێگە بە ڕۆژنامەنووسان نەدرا سەرۆک ببینن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA2478("en-GB"),
                               ),
@@ -213,6 +207,7 @@ class EnglishEntryaccess extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پۆلیس چوونەژوورەوە لە ڕێگەی پەنجەرەیەکی شکاوەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA2598("en-GB"),
                               ),
@@ -232,6 +227,7 @@ class EnglishEntryaccess extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆرینەی خەڵک موبایل بەکاردێنن بۆ بەکارھێنانی ئینتەرنێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA24698("en-GB"),
                               ),
@@ -251,6 +247,7 @@ class EnglishEntryaccess extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەسانی بەتەمەن ڕەنگە کێشەیان ھەبێت لە بەکارھێنانی خزمەتگوزارییە تەندرووستییەکان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA2469("en-GB"),
                               ),
@@ -269,7 +266,8 @@ class EnglishEntryaccess extends StatelessWidget {
                                       "The village is easily accessed by public transport."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بە ئاسانی دەتوانرێت چوونەناو گوندەکە ئەنجام بدرێت لە ڕێگەی گواستنەوەی گشتی "),
+                                      "بە ئاسانی دەتوانرێت چوونەناو گوندەکە ئەنجام بدرێت لە ڕێگەی گواستنەوەی گشتی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA2125666("en-GB"),
                               ),

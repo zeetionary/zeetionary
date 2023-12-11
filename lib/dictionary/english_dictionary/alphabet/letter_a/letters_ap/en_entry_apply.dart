@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -153,9 +152,8 @@ class EnglishEntryapply extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -174,12 +172,6 @@ class EnglishEntryapply extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -203,6 +195,7 @@ class EnglishEntryapply extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بڕیارم داوە داخوازینامە بۆ ئەم کارە تازە پێشکەش بکەم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakApply736("en-GB"),
                               ),
@@ -226,6 +219,7 @@ class EnglishEntryapply extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەوانەیە داوا پێشکەشی دادگا بکەن بۆ ھەڵوەشاندنەوەی بڕیارەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakApply738("en-GB"),
                               ),
@@ -251,6 +245,7 @@ class EnglishEntryapply extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەوەی دەیڵێم تەنھا بەسەر ھەندێکتان دەچەسپێ."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakApply741("en-GB"),
                               ),
@@ -276,6 +271,7 @@ class EnglishEntryapply extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەکنەلۆژیا تازەکە بەکارھێندرا لە کشتوکاڵدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakApply744("en-GB"),
                               ),
@@ -299,6 +295,7 @@ class EnglishEntryapply extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئێستا کاتی بەکارھێنانی ئەو توانایانەیە کە لە خوێندن فێریان بوویت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakApply747("en-GB"),
                               ),
@@ -324,6 +321,7 @@ class EnglishEntryapply extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "چەسپەکە دەبێت لە ھەردوو ڕووەکە بدرێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakApply749("en-GB"),
                               ),

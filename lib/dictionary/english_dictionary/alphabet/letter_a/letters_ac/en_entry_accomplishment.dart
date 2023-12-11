@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryaccomplishment - speakAccomplishment - accomplishment - /əˈkʌmplɪʃmənt/
 
@@ -102,9 +101,8 @@ class EnglishEntryaccomplishment extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -123,12 +121,6 @@ class EnglishEntryaccomplishment extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -151,6 +143,7 @@ class EnglishEntryaccomplishment extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەوە یەکێک لە دەسکەوتە گەورەکانی سەرۆک بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc5789("en-GB"),
                               ),
@@ -170,6 +163,7 @@ class EnglishEntryaccomplishment extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "وێنەکێشان و گۆرانیگوتن تەنھا ژمارەیەکی کەمی تواناکانی بوون."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA5741("en-GB"),
                               ),
@@ -189,6 +183,7 @@ class EnglishEntryaccomplishment extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پارە زۆر گرنگ دەبێت بۆ تەواوکردنی ئامانجەکانمان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA5741("en-GB"),
                               ),

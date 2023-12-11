@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryactivity - replace speakAactivity - replace activity - /ækˈtɪvəti/ - find Dopsum2
 
@@ -111,9 +110,8 @@ class EnglishEntryactivity extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -132,12 +130,6 @@ class EnglishEntryactivity extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -159,6 +151,7 @@ class EnglishEntryactivity extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بازاڕکردن لە ئێستادا بووە بە چالاکییەکی چێژبەخش"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAactiv2537("en-GB"),
                               ),
@@ -177,7 +170,8 @@ class EnglishEntryactivity extends StatelessWidget {
                                       "The students were involved in a range of extracurricular activities."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "خوێندکاران ژمارەیەک چالاکییان لە دەروەی بەرنامەی خوێندنیان کرد "),
+                                      "خوێندکاران ژمارەیەک چالاکییان لە دەروەی بەرنامەی خوێندنیان کرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAactivi4687("en-GB"),
                               ),
@@ -199,6 +193,7 @@ class EnglishEntryactivity extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بڕیاری داوە کات و تواناکانی تەرخان بکات بۆ کارە بازرگانییەکانی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAactivi4584("en-GB"),
                               ),
@@ -220,6 +215,7 @@ class EnglishEntryactivity extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "شەقامەکان پڕ لە ژاوەژاو و چالاکی بوون."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAactiv2468("en-GB"),
                               ),

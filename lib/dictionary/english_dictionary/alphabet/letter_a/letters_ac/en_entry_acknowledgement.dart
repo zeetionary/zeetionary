@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryacknowledgement - replace speakAcknowledgement - replace acknowledgement - /əkˈnɑːlɪdʒmənt/ - find Dopsum2
 
@@ -102,9 +101,8 @@ class EnglishEntryacknowledgement extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -123,12 +121,6 @@ class EnglishEntryacknowledgement extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -150,6 +142,7 @@ class EnglishEntryacknowledgement extends StatelessWidget {
                                       "There is acknowledgement on his part that he was to blame."),
                               const ExampleSentenceKurdish(
                                   text: "دانیپێداناوە کە ئەو بەرپرسیارە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAckno5387("en-GB"),
                               ),
@@ -170,6 +163,7 @@ class EnglishEntryacknowledgement extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "گوڵەکان ناساندنێکی بچووکی میھرەبانیتە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAcknowle65899("en-GB"),
                               ),
@@ -190,6 +184,7 @@ class EnglishEntryacknowledgement extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "نامەم بۆ نووسین بەڵام ھیچ وەڵامم وەرنەگرت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAcknowl5674("en-GB"),
                               ),

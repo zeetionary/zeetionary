@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryairy - replace speakAiry - replace airy - /ˈeəri/ - find Dopsum2
 
@@ -104,9 +103,8 @@ class EnglishEntryairy extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -125,12 +123,6 @@ class EnglishEntryairy extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -154,6 +146,7 @@ class EnglishEntryairy extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ئۆفیسەکە ڕۆشن و ھەواخۆش بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAiry7352("en-GB"),
                               ),
@@ -177,6 +170,7 @@ class EnglishEntryairy extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ماڵئاوایی لێکرد بە دەستڕاوەشاندنێکی سادە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAiry748("en-GB"),
                               ),
@@ -201,6 +195,7 @@ class EnglishEntryairy extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەڵێنە دەستکردەکانی پڕووپووچ بوون بە کرداری."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAiry4255("en-GB"),
                               ),

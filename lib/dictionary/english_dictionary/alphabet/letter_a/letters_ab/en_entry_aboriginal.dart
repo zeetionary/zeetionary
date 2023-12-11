@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryaboriginal - speakAboriginal - aboriginal - aboriginal
 
@@ -93,9 +92,8 @@ class EnglishEntryaboriginal extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -109,12 +107,6 @@ class EnglishEntryaboriginal extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -136,6 +128,7 @@ class EnglishEntryaboriginal extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کێشەی مافی خاوەندارێتیی زەوی لەلایەن دانیشتووانی ڕەسەنی ئوسترالیا"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA254("en-GB"),
                               ),
@@ -153,6 +146,7 @@ class EnglishEntryaboriginal extends StatelessWidget {
                                   text: "the aboriginal peoples of Canada"),
                               const ExampleSentenceKurdish(
                                   text: "دانیشتووانی ڕەسەنی کەنەدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAb252("en-GB"),
                               ),

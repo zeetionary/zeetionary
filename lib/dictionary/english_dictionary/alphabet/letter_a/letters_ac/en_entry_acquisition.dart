@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryacquisition - replace speakAcquisition - replace acquisition - /ˌækwɪˈzɪʃn/ - find Dopsum2
 
@@ -102,9 +101,8 @@ class EnglishEntryacquisition extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -123,12 +121,6 @@ class EnglishEntryacquisition extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -151,6 +143,7 @@ class EnglishEntryacquisition extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەدەستھێنانی ڕێژەیەکی زۆر داتا یارمەتی توێژینەوەکەمانی زۆر داوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAcquis2534("en-GB"),
                               ),
@@ -171,6 +164,7 @@ class EnglishEntryacquisition extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پارەکە بەکاردێت بۆ کڕینی کتێبخانەی زانکۆکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAcqui24987("en-GB"),
                               ),
@@ -191,6 +185,7 @@ class EnglishEntryacquisition extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "چەند کۆمپانیایەکیان لە ژمارەیەک وڵاتی یەکێتیی ئەورووپا کڕیوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAcqu1254("en-GB"),
                               ),

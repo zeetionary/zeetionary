@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -134,9 +132,8 @@ class EnglishEntrybelongto extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -160,12 +157,6 @@ class EnglishEntrybelongto extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -184,6 +175,7 @@ class EnglishEntrybelongto extends StatelessWidget {
                                   text: "Who does this watch belong to?"),
                               const ExampleSentenceKurdish(
                                   text: "ئەم کاتژمێرە ھی کێیە؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelongtos1("en-GB"),
                               ),
@@ -200,6 +192,7 @@ class EnglishEntrybelongto extends StatelessWidget {
                                   text: "The islands belong to Spain."),
                               const ExampleSentenceKurdish(
                                   text: "ئەم دوورگانە سەر بە ئیسپانیان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelongtos2("en-GB"),
                               ),
@@ -220,6 +213,7 @@ class EnglishEntrybelongto extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەکتەرانی بەریتانیا باش بوون لە ئاھەنگی خەڵات بەخشینەکە، بەڵام شەو شەوی ئەمریکییەکان بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelongtos3("en-GB"),
                               ),
@@ -240,6 +234,7 @@ class EnglishEntrybelongto extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەرگیز سەر بە ھیچ پارتێکی سیاسی بوویتە؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelongtos4("en-GB"),
                               ),
@@ -259,6 +254,7 @@ class EnglishEntrybelongto extends StatelessWidget {
                                       "Lions and tigers belong to the cat family."),
                               const ExampleSentenceKurdish(
                                   text: "شێر و پڵنگ سەر بە خێزانی پشیلەن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelongtos5("en-GB"),
                               ),

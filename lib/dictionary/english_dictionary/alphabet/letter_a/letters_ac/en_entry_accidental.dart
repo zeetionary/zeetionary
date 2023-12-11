@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryaccidental - speakAccidental - accidental - /ˌæksɪˈdentl/
 
@@ -84,9 +83,8 @@ class EnglishEntryaccidental extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -105,12 +103,6 @@ class EnglishEntryaccidental extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -133,6 +125,7 @@ class EnglishEntryaccidental extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "وا ھەست ناکەم چاوپێکەوتنەکەمان بە ھەڵکەوت بووبێت، ئەبێت زانیبێتی من لەوێ دەبم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA1598("en-GB"),
                               ),

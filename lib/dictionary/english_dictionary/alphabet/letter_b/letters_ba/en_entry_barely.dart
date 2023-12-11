@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -132,9 +131,8 @@ class EnglishEntrybarely extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -153,12 +151,6 @@ class EnglishEntrybarely extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -181,6 +173,7 @@ class EnglishEntrybarely extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەزەحمەت دەیتوانی نخوێنێتەوە و بنووسێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarelys1("en-GB"),
                               ),
@@ -200,6 +193,7 @@ class EnglishEntrybarely extends StatelessWidget {
                                       "She barely acknowledged his presence."), // DOPSUM_WRITE_A_SENTENCE
                               const ExampleSentenceKurdish(
                                   text: "بەئاستەنگ گرنگی بە ئامادەیی دا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarelys2("en-GB"),
                               ),
@@ -219,6 +213,7 @@ class EnglishEntrybarely extends StatelessWidget {
                                       "Barely 50% of the population voted."), // DOPSUM_WRITE_A_SENTENCE
                               const ExampleSentenceKurdish(
                                   text: "تەنھا ٥٠٪ی دانیشتووان دەنگیدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarelys3("en-GB"),
                               ),
@@ -239,6 +234,7 @@ class EnglishEntrybarely extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەنھا کەمێک بوو قسەم کردبوو کە پێی بڕیم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarelys4("en-GB"),
                               ),

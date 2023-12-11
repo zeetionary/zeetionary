@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryambition - replace speakAmbition - replace ambition - /æmˈbɪʃn/ - find Dopsum2
 
@@ -104,9 +103,8 @@ class EnglishEntryambition extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -125,12 +123,6 @@ class EnglishEntryambition extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -156,6 +148,7 @@ class EnglishEntryambition extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەکۆتاییدا لە ئامانجەکانی ژیانی تێگەشت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmbition422("en-GB"),
                               ),
@@ -176,6 +169,7 @@ class EnglishEntryambition extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "یەک ئامانجی لە ژیاندا ھەبوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmbition3444("en-GB"),
                               ),
@@ -198,6 +192,7 @@ class EnglishEntryambition extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "بە حەز و ئارەزووی خۆی ھەڵدەسووڕا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmbition344("en-GB"),
                               ),

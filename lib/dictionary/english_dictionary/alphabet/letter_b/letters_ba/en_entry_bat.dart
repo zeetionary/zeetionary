@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -130,9 +129,8 @@ class EnglishEntrybat extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -151,12 +149,6 @@ class EnglishEntrybat extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -177,6 +169,7 @@ class EnglishEntrybat extends StatelessWidget {
                                   text: "She showed me how to hold the bat."),
                               const ExampleSentenceKurdish(
                                   text: "فێری کردم چۆن دارەکە بەکاربێنم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBats1("en-GB"),
                               ),
@@ -197,6 +190,7 @@ class EnglishEntrybat extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەندێک شەمشەمەکوێرە لە ئەشکەوتدا دەژین، لەکاتێکدا ھەندێکیان لە دار و دیواردا دەژین."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBats2("en-GB"),
                               ),
@@ -215,6 +209,7 @@ class EnglishEntrybat extends StatelessWidget {
                                   text: "He bats very well."),
                               const ExampleSentenceKurdish(
                                   text: "زۆرباش لە تۆپەکە دەدات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBats3("en-GB"),
                               ),
@@ -234,6 +229,7 @@ class EnglishEntrybat extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کێشای بە زەردەواڵەکەدا و دووریخستەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBats4("en-GB"),
                               ),

@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -132,9 +130,8 @@ class EnglishEntrybelligerent extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -158,12 +155,6 @@ class EnglishEntrybelligerent extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -185,6 +176,7 @@ class EnglishEntrybelligerent extends StatelessWidget {
                                       "He is always very belligerent towards me."),
                               const ExampleSentenceKurdish(
                                   text: "ھەمیشە زۆر دووژمنانەیە لەگەڵم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelligerents1("en-GB"),
                               ),
@@ -205,6 +197,7 @@ class EnglishEntrybelligerent extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "وڵاتە شەڕکەرەکان ئاستەنگیان ھەیە لە دابینکردنی بودجەی شەڕ."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelligerents2("en-GB"),
                               ),
@@ -225,6 +218,7 @@ class EnglishEntrybelligerent extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "جەنگ زۆرجار بە دابەشکاری کۆتایی کە تێیدا ناوچەکان دابەش دەکرێن بەسەر وڵاتانی شەڕکەر."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelligerents3("en-GB"),
                               ),

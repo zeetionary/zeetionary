@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryamen - replace speakAmen - replace amen - /ɑːˈmen/,  /eɪˈmen/ - find Dopsum2
 
@@ -102,9 +101,8 @@ class EnglishEntryamen extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -123,12 +121,6 @@ class EnglishEntryamen extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -152,6 +144,7 @@ class EnglishEntryamen extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "بۆ ئەمە داوا لە خودا دەکەین، ئامین."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmen2411("en-GB"),
                               ),
@@ -174,6 +167,7 @@ class EnglishEntryamen extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "خودا بکات (ئەوە ڕووبدات)."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmen96552("en-GB"),
                               ),

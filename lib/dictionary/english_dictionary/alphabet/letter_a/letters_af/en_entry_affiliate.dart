@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryaffiliate - replace speakAffiliate - replace affiliate - /əˈfɪlieɪt/ - find Dopsum2
 
@@ -102,9 +101,8 @@ class EnglishEntryaffiliate extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -123,12 +121,6 @@ class EnglishEntryaffiliate extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -151,6 +143,7 @@ class EnglishEntryaffiliate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "گرووپەکە گرێدراو نییە بە ھیچ پارتێکی سیاسییەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffil3588("en-GB"),
                               ),
@@ -170,6 +163,7 @@ class EnglishEntryaffiliate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "نەخۆشخانەکە گرێدراو نییە بە زانکۆکەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffi2699("en-GB"),
                               ),
@@ -190,6 +184,7 @@ class EnglishEntryaffiliate extends StatelessWidget {
                                       "Our college is an affiliate of the university."),
                               const ExampleSentenceKurdish(
                                   text: "کۆلێژەکەمان بەشێکە لە زانکۆکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffi25699("en-GB"),
                               ),

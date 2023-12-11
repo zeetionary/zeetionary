@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryabsolute - speakAbsolute - absolute - /ˈæbsəluːt/
 
@@ -119,9 +118,8 @@ class EnglishEntryabsolute extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -140,12 +138,6 @@ class EnglishEntryabsolute extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -168,6 +160,7 @@ class EnglishEntryabsolute extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەشداری وانەیەکم کردووە کە بۆ ئاستی تەواو سەرەتایە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA6254("en-GB"),
                               ),
@@ -185,6 +178,7 @@ class EnglishEntryabsolute extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئاوی پاک پێویستییەکی تەواو سەرەتایییە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA2569("en-GB"),
                               ),
@@ -204,6 +198,7 @@ class EnglishEntryabsolute extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەبێت نرخەکان بە ئەوپەڕی نزمی بھێڵینەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA7415("en-GB"),
                               ),
@@ -222,6 +217,7 @@ class EnglishEntryabsolute extends StatelessWidget {
                                       "He taught us that the laws of physics were absolute."),
                               const ExampleSentenceKurdish(
                                   text: "فێریکردین کە یاساکانی فیزیا نەگۆڕن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA6587("en-GB"),
                               ),
@@ -241,6 +237,7 @@ class EnglishEntryabsolute extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "جیابوونەوەکەیان ھەفتەی ڕابردوو گەشت بە کۆتایی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAb2541("en-GB"),
                               ),

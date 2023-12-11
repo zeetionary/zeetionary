@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -134,9 +132,8 @@ class EnglishEntrybecome extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -160,12 +157,6 @@ class EnglishEntrybecome extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -187,6 +178,7 @@ class EnglishEntrybecome extends StatelessWidget {
                                       "It soon became apparent that no one was going to come."),
                               const ExampleSentenceKurdish(
                                   text: "زوو ڕوونبوویەوە کە کەس نایەت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBecomes1("en-GB"),
                               ),
@@ -205,6 +197,7 @@ class EnglishEntrybecome extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەی بۆ یەکەمجار ئاگاداری کێشەکە بوویت؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBecomes2("en-GB"),
                               ),
@@ -221,6 +214,7 @@ class EnglishEntrybecome extends StatelessWidget {
                                   text: "She became queen in 1952."),
                               const ExampleSentenceKurdish(
                                   text: "لە ساڵی ١٩٥٢ بوو بە شاژن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBecomes3("en-GB"),
                               ),
@@ -237,6 +231,7 @@ class EnglishEntrybecome extends StatelessWidget {
                                   text: "His job has become his whole life."),
                               const ExampleSentenceKurdish(
                                   text: "کارەکەی بوو بە تەواوی ژیانی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBecomes4("en-GB"),
                               ),
@@ -255,6 +250,7 @@ class EnglishEntrybecome extends StatelessWidget {
                                   text: "Such behaviour did not become her."),
                               const ExampleSentenceKurdish(
                                   text: "ڕەفتاری وا لەو نەدەوەشاوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBecomes5("en-GB"),
                               ),
@@ -273,6 +269,7 @@ class EnglishEntrybecome extends StatelessWidget {
                                   text: "Short hair really becomes you."),
                               const ExampleSentenceKurdish(
                                   text: "قژی کورتت لێ دێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBecomes6("en-GB"),
                               ),

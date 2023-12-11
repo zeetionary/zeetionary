@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -333,9 +331,8 @@ class EnglishEntrybefore extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -359,12 +356,6 @@ class EnglishEntrybefore extends StatelessWidget {
                   VideoIconForTab(), // 19
                   VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -387,6 +378,7 @@ class EnglishEntrybefore extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ساڵی پێش ساڵی پار مەدالیای ئاڵتوونی بردەوە، و ساڵی پێش ئەوەش دانەیەکی زیوی بردەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBefores1("en-GB"),
                               ),
@@ -404,6 +396,7 @@ class EnglishEntrybefore extends StatelessWidget {
                                       "She's lived there since before the war."),
                               const ExampleSentenceKurdish(
                                   text: "لەوێ ژیاوە لە پێش جەنگەکەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBefores2("en-GB"),
                               ),
@@ -420,6 +413,7 @@ class EnglishEntrybefore extends StatelessWidget {
                                   text: "He arrived before me."),
                               const ExampleSentenceKurdish(
                                   text: "پێش من گەشت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBefores3("en-GB"),
                               ),
@@ -438,6 +432,7 @@ class EnglishEntrybefore extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بوو بە پارێزەر ھەروەک چۆن باوکی پێشووتر بووبوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBefores4("en-GB"),
                               ),
@@ -457,6 +452,7 @@ class EnglishEntrybefore extends StatelessWidget {
                                       "Your name is before mine on the list."),
                               const ExampleSentenceKurdish(
                                   text: "ناوت لە پێش ھی منە لە لیستەکەدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBefores5("en-GB"),
                               ),
@@ -474,6 +470,7 @@ class EnglishEntrybefore extends StatelessWidget {
                                       "He puts his work before everything (= regards it as more important than anything else)."),
                               const ExampleSentenceKurdish(
                                   text: "کارەکەی لە پێش ھەموو شت دادەنا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBefores6("en-GB"),
                               ),
@@ -492,6 +489,7 @@ class EnglishEntrybefore extends StatelessWidget {
                                   text: "They knelt before the throne."),
                               const ExampleSentenceKurdish(
                                   text: "لە پێش تەختی شاھانە چەمانەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBefores7("en-GB"),
                               ),
@@ -510,6 +508,7 @@ class EnglishEntrybefore extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەوەی لە پێشتە لیستێکی ئەو خاڵانەیە کە ھەمانە بۆ باسکردن (دەبێت باسی بکەین)."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBefores8("en-GB"),
                               ),
@@ -529,6 +528,7 @@ class EnglishEntrybefore extends StatelessWidget {
                                       "The task before us is a daunting one."),
                               const ExampleSentenceKurdish(
                                   text: "ئەو ئەرکەی لە پێشمانە دەمترسێنێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBefores9("en-GB"),
                               ),
@@ -545,6 +545,7 @@ class EnglishEntrybefore extends StatelessWidget {
                                   text: "The whole summer lay before me."),
                               const ExampleSentenceKurdish(
                                   text: "تەواوی ھاوین لە پێشم چاوەڕێیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBefores10("en-GB"),
                               ),
@@ -563,6 +564,7 @@ class EnglishEntrybefore extends StatelessWidget {
                                   text: "He was brought before the judge."),
                               const ExampleSentenceKurdish(
                                   text: "ھێنرایە پێش دادوەر."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBefores11("en-GB"),
                               ),
@@ -579,6 +581,7 @@ class EnglishEntrybefore extends StatelessWidget {
                                   text: "She said it before witnesses."),
                               const ExampleSentenceKurdish(
                                   text: "لەپێش شایەتەکان وتی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBefores12("en-GB"),
                               ),
@@ -597,6 +600,7 @@ class EnglishEntrybefore extends StatelessWidget {
                                   text: "They retreated before the enemy."),
                               const ExampleSentenceKurdish(
                                   text: "لە پێش دووژمن کشانەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBefores13("en-GB"),
                               ),
@@ -615,6 +619,7 @@ class EnglishEntrybefore extends StatelessWidget {
                                   text: "Do it before you forget."),
                               const ExampleSentenceKurdish(
                                   text: "بیکە پێش ئەوەی بیرت بچێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBefores14("en-GB"),
                               ),
@@ -632,6 +637,7 @@ class EnglishEntrybefore extends StatelessWidget {
                                       "Did she leave a message before she went?"),
                               const ExampleSentenceKurdish(
                                   text: "ھیچ پەیامێکی ھەبوو پێش ئەوەی بچێت؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBefores15("en-GB"),
                               ),
@@ -650,6 +656,7 @@ class EnglishEntrybefore extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێش ئەوەی بڕیار بدەم، بە وریاییەوە بیرم لێکردەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBefores16("en-GB"),
                               ),
@@ -670,6 +677,7 @@ class EnglishEntrybefore extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕەنگە ساڵانێکی زۆری پێ بچێت تا دۆخەکە باش ببێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBefores17("en-GB"),
                               ),
@@ -688,6 +696,7 @@ class EnglishEntrybefore extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەندێک کاتی پێچوو تا بە ڕاستییەکەم زانی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBefores18("en-GB"),
                               ),
@@ -706,6 +715,7 @@ class EnglishEntrybefore extends StatelessWidget {
                                   text: "Put that away before it gets broken."),
                               const ExampleSentenceKurdish(
                                   text: "دووری بخەوە ئەگەرنا دەشکێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBefores19("en-GB"),
                               ),
@@ -725,6 +735,7 @@ class EnglishEntrybefore extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەمرم لە جیاتی ئەوەی داوای لێبووردن بکەم (مردن باشترە لە داوای لێبووردن)!"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBefores20("en-GB"),
                               ),
@@ -742,7 +753,8 @@ class EnglishEntrybefore extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "You should have told me so before."),
                               const ExampleSentenceKurdish(
-                                  text: "دەبوو زۆر پێشتر پێت بوتمایە."),
+                                  text: "دەبوو ئەوەت پێشتر پێ بوتمایە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBefores21("en-GB"),
                               ),
@@ -760,6 +772,7 @@ class EnglishEntrybefore extends StatelessWidget {
                                       "It had been fine the week before (= the previous week)."),
                               const ExampleSentenceKurdish(
                                   text: "ھەفتەی پێشوو کێشەی نەبوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBefores22("en-GB"),
                               ),
@@ -776,6 +789,7 @@ class EnglishEntrybefore extends StatelessWidget {
                                   text: "I think we've met before."),
                               const ExampleSentenceKurdish(
                                   text: "پێم‌وایە پێشووتر یەکمان دیوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBefores23("en-GB"),
                               ),

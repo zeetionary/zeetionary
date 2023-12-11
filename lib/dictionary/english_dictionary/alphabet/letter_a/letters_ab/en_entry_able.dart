@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryable - speakAble - able - /ˈeɪbl/
 
@@ -101,9 +100,8 @@ class EnglishEntryable extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -113,12 +111,6 @@ class EnglishEntryable extends StatelessWidget {
                   VideoIconForTab(),
                   VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -141,6 +133,7 @@ class EnglishEntryable extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بۆ ئەم کارە دەبێت بتوانی بە فەرەنسی قسەبکەیت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA321("en-GB"),
                               ),
@@ -158,6 +151,7 @@ class EnglishEntryable extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھێشتا دەتوانین ڤیزا وەربگرین بۆ ئەوەی ھاتووچۆی تایلەند بکەین."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA324("en-GB"),
                               ),
@@ -175,6 +169,7 @@ class EnglishEntryable extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئامادەیت و توانات ھەیە ھەرچی بکەیت کە پێویست بێت؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA358("en-GB"),
                               ),

@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -135,9 +133,8 @@ class EnglishEntrybeauty extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -161,12 +158,6 @@ class EnglishEntrybeauty extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -187,6 +178,7 @@ class EnglishEntrybeauty extends StatelessWidget {
                                   text: "His voice is a thing of beauty."),
                               const ExampleSentenceKurdish(
                                   text: "دەنگی نموونەی جوانییە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeautys1("en-GB"),
                               ),
@@ -205,6 +197,7 @@ class EnglishEntrybeauty extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "جوانی لەڕادەبەدەری دیمەنەکە سەرمی‌سوڕماند."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeautys2("en-GB"),
                               ),
@@ -221,6 +214,7 @@ class EnglishEntrybeauty extends StatelessWidget {
                                   text: "Her beauty faded as she got older."),
                               const ExampleSentenceKurdish(
                                   text: "جوانییەکەی نەما کە چوو بە تەمەندا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeautys3("en-GB"),
                               ),
@@ -239,6 +233,7 @@ class EnglishEntrybeauty extends StatelessWidget {
                                   text: "She had been a beauty in her day."),
                               const ExampleSentenceKurdish(
                                   text: "لە کاتی خۆیدا نموونەیەکی جوانی بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeautys4("en-GB"),
                               ),
@@ -257,6 +252,7 @@ class EnglishEntrybeauty extends StatelessWidget {
                                   text: "That last goal was a beauty!"),
                               const ExampleSentenceKurdish(
                                   text: "گۆڵی کۆتایی نموونەیی بوو!"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeautys5("en-GB"),
                               ),
@@ -277,6 +273,7 @@ class EnglishEntrybeauty extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "یەکێک لە تایبەتمەندییە جوانەکانی ژیان لێرە ئەوەیە کە زۆر ئارامە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeautys6("en-GB"),
                               ),

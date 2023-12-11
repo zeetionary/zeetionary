@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -152,9 +151,8 @@ class EnglishEntryarmy extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -173,12 +171,6 @@ class EnglishEntryarmy extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -204,6 +196,7 @@ class EnglishEntryarmy extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دوو سوپاکە ڕووبەڕووی یەکدی بوونەوە لە مەیدانی شەڕدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArmy747("en-GB"),
                               ),
@@ -225,6 +218,7 @@ class EnglishEntryarmy extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "سوپایەکی گەورە دای بەسەر شارەکەدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArmy749("en-GB"),
                               ),
@@ -248,6 +242,7 @@ class EnglishEntryarmy extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "خوشکەکەی لە سوپادایە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArmy751("en-GB"),
                               ),
@@ -271,6 +266,7 @@ class EnglishEntryarmy extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە سوپای فەرەنسادا خزمەتی کرد لە جەنگی یەکەمی جیھانی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArmy752("en-GB"),
                               ),
@@ -296,6 +292,7 @@ class EnglishEntryarmy extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ناسا ژمارەیەکی زۆر لە ئەندازیار ڕادەگرێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArmy800("en-GB"),
                               ),
@@ -319,6 +316,7 @@ class EnglishEntryarmy extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "سوپایەک لە مێروولە بە ڕێگاکەدا تێپەڕین."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArmy801("en-GB"),
                               ),

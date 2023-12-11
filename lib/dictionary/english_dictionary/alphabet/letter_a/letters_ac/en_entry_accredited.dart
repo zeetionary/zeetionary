@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryaccredited - speakAccredited - accredited - /əˈkredɪtɪd/
 
@@ -93,9 +92,8 @@ class EnglishEntryaccredited extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -114,12 +112,6 @@ class EnglishEntryaccredited extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -142,6 +134,7 @@ class EnglishEntryaccredited extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەنھا ڕۆژنامەنووسانی جێباوەڕ ڕێگەیان پێدرا بچنەژوورەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA2548("en-GB"),
                               ),
@@ -159,6 +152,7 @@ class EnglishEntryaccredited extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زانکۆکە لە ھەموو ئەوانی تر زیاتر باوەڕپێکراو بوو لە وڵاتەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAccredited46923("en-GB"),
                               ),

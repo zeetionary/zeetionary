@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -133,9 +132,8 @@ class EnglishEntrybark extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -154,12 +152,6 @@ class EnglishEntrybark extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -180,6 +172,7 @@ class EnglishEntrybark extends StatelessWidget {
                                   text: "The bark peels off in summer."),
                               const ExampleSentenceKurdish(
                                   text: "توێکڵە دارەکە لە ھاویندا لێدەبێتەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarks1("en-GB"),
                               ),
@@ -198,6 +191,7 @@ class EnglishEntrybark extends StatelessWidget {
                                   text: "The dog gave a loud bark."),
                               const ExampleSentenceKurdish(
                                   text: "سەگەکە بەبەرزی حەپاندی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarks2("en-GB"),
                               ),
@@ -218,6 +212,7 @@ class EnglishEntrybark extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زیقەی پێکەنین بە ژوورەکەدا دەنگی‌دەدایەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarks3("en-GB"),
                               ),
@@ -238,6 +233,7 @@ class EnglishEntrybark extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەگەکە لەناکاو دەستیکرد بە حەپاندن لێمان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarks4("en-GB"),
                               ),
@@ -256,6 +252,7 @@ class EnglishEntrybark extends StatelessWidget {
                                   text: "He barked questions at her."),
                               const ExampleSentenceKurdish(
                                   text: "بەناشرینی پرسیاری لێدەکرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarks5("en-GB"),
                               ),
@@ -276,6 +273,7 @@ class EnglishEntrybark extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لوولاقم ڕووشا کە لەسەر پلەکانەکە کەوتم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBarks6("en-GB"),
                               ),

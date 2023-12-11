@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -154,9 +153,8 @@ class EnglishEntryaspect extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -175,12 +173,6 @@ class EnglishEntryaspect extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -208,6 +200,7 @@ class EnglishEntryaspect extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کتێبەکە ئامانجیەتی ھەموو لایەنەکانی ژیانی شار باس‌بکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAspect455("en-GB"),
                               ),
@@ -231,6 +224,7 @@ class EnglishEntryaspect extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "وای ھەست‌کرد لە ھەموو لایەنێکەوە لە کێشەکەی ڕوانیوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAspect456("en-GB"),
                               ),
@@ -256,6 +250,7 @@ class EnglishEntryaspect extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "چاویلکە و ڕیشەکەی ڕواڵەتی پسپۆڕێکیان پێ‌بەخشی‌بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAspect458("en-GB"),
                               ),
@@ -279,6 +274,7 @@ class EnglishEntryaspect extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ژوورەکەمان ڕووی لە ڕۆژئاوا بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAspect500("en-GB"),
                               ),
@@ -304,6 +300,7 @@ class EnglishEntryaspect extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە ڕستەی 'They were laughing' کردارەکە لە شێوەی بەردەوامییە و دەرخەری ئەوەیە کارەکە ھێشتا بەرداوامە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAspect508("en-GB"),
                               ),

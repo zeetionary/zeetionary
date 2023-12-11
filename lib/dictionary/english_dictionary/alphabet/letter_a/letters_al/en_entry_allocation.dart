@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryallocation - replace speakAllocation - replace allocation - /ˌæləˈkeɪʃn/ - find Dopsum2
 
@@ -104,9 +103,8 @@ class EnglishEntryallocation extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -125,12 +123,6 @@ class EnglishEntryallocation extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -156,6 +148,7 @@ class EnglishEntryallocation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەواوی گوژمەی ئەم ساڵەمان خەرجکردووە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllocation1362("en-GB"),
                               ),
@@ -178,6 +171,7 @@ class EnglishEntryallocation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێکخراوە خێرخوازییەکە ھەوڵ دەدات بودجەکەی بۆ ساڵی داھاتوو زیاد بکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllocation342("en-GB"),
                               ),
@@ -201,6 +195,7 @@ class EnglishEntryallocation extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "پێدانی شوێن لەم ئۆفیسەدا نامۆیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllocation359("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryaffair - replace speakAffair - replace affair - /əˈfeər/ - find Dopsum2
 
@@ -135,9 +134,8 @@ class EnglishEntryaffair extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -156,12 +154,6 @@ class EnglishEntryaffair extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -184,6 +176,7 @@ class EnglishEntryaffair extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەمیشە خۆی لە کاری خەڵکی تر ھەڵدەقورتێنێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAff25941("en-GB"),
                               ),
@@ -203,6 +196,7 @@ class EnglishEntryaffair extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "وەک سەرکردەیەک، ڕەخنەی لێ گیردرا بۆ بێ ئەزموونیی لە کارووباری دەرەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffa35228("en-GB"),
                               ),
@@ -224,6 +218,7 @@ class EnglishEntryaffair extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕۆژنامەکە تەواوی ڕووداوەکەی زۆر گەورە کرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffa25677("en-GB"),
                               ),
@@ -245,6 +240,7 @@ class EnglishEntryaffair extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پەیوەندی سێکسی ھەبوو لەگەڵ ھاوپیشەیەکی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffa2411("en-GB"),
                               ),

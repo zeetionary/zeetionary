@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryace - replace speakAce - replace ace - /eɪs/ - find Dopsum2
 
@@ -117,9 +116,8 @@ class EnglishEntryace extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -138,12 +136,6 @@ class EnglishEntryace extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -164,7 +156,8 @@ class EnglishEntryace extends StatelessWidget {
                                   text: "He aced all his tests."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە ھەموو تاقیکردنەوەکانی سەرکەوتووبوو "),
+                                      "لە ھەموو تاقیکردنەوەکانی سەرکەوتووبوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA256981("en-GB"),
                               ),
@@ -187,6 +180,7 @@ class EnglishEntryace extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بلیمەتەکەی فەرەنسا، مباپێ، لێدانێکی سزای کرد بە گۆڵ"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA82694("en-GB"),
                               ),
@@ -206,6 +200,7 @@ class EnglishEntryace extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە یارییەکەدا ٢٠ جار ھەر بە یەکەم لێدان خاڵی تۆمارکرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA12748("en-GB"),
                               ),
@@ -224,6 +219,7 @@ class EnglishEntryace extends StatelessWidget {
                                   text: "We had an ace time."),
                               const ExampleSentenceKurdish(
                                   text: "کاتێکی زۆرخۆشمان ھەبوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA19437("en-GB"),
                               ),

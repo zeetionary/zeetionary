@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryadventurous - replace speakAdventurous - replace adventurous - /ədˈventʃərəs/ - find Dopsum2
 
@@ -101,9 +100,8 @@ class EnglishEntryadventurous extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -122,12 +120,6 @@ class EnglishEntryadventurous extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -146,6 +138,7 @@ class EnglishEntryadventurous extends StatelessWidget {
                                   text: "She led an adventurous life."),
                               const ExampleSentenceKurdish(
                                   text: "ژیانێکی سەرکێشیانەی ھەبوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdven489223("en-GB"),
                               ),
@@ -165,6 +158,7 @@ class EnglishEntryadventurous extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆر مامۆستا پێیان باشە تازەگەری بکەن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdven365("en-GB"),
                               ),

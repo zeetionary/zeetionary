@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -134,9 +132,8 @@ class EnglishEntrybecause extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -160,12 +157,6 @@ class EnglishEntrybecause extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -186,6 +177,7 @@ class EnglishEntrybecause extends StatelessWidget {
                                   text: "I did it because he told me to."),
                               const ExampleSentenceKurdish(
                                   text: "کردم چونکە ئەو پێی وتم بیکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBecauses1("en-GB"),
                               ),
@@ -204,6 +196,7 @@ class EnglishEntrybecause extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەنھا لەبەرئەوەی بۆ ئەمشەو جلەکمت پێ دەدەم بە قەرز واتای ئەوە نییە ھەموو کاتێک دەتوانی بیبەیت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBecauses2("en-GB"),
                               ),
@@ -222,6 +215,7 @@ class EnglishEntrybecause extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "حەزی لە دوپا نەبوو چونکە دەبوو پابەندی فەرمان بیت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBecauses3("en-GB"),
                               ),

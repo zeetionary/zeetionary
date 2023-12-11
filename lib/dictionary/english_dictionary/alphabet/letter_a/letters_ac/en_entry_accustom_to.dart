@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryaccustomto - replace speakAccustomto - replace accustom - /əˈkʌstəm tə/ - find Dopsum2
 
@@ -101,9 +100,8 @@ class EnglishEntryaccustomto extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -122,12 +120,6 @@ class EnglishEntryaccustomto extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -150,6 +142,7 @@ class EnglishEntryaccustomto extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ماوەیەکی پێچوو تا خۆی بە بیرۆکەکە ڕابێنێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc25469("en-GB"),
                               ),
@@ -168,6 +161,7 @@ class EnglishEntryaccustomto extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "خوێندن دەبێت منداڵان ڕابێنێت لەسەر بیرکردنەوەی خۆیان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc25467("en-GB"),
                               ),

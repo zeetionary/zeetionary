@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryalight - replace speakAlight - replace alight - /əˈlaɪt/ - find Dopsum2
 
@@ -121,9 +120,8 @@ class EnglishEntryalight extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -142,12 +140,6 @@ class EnglishEntryalight extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -171,6 +163,7 @@ class EnglishEntryalight extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ئۆتۆمبێلێک وەرگەڕا و ئاگری گرت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlight3996("en-GB"),
                               ),
@@ -195,6 +188,7 @@ class EnglishEntryalight extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ژمارەیەک باڵندە لەسەر لقەکانی دارەکە نیشتنەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlight35244("en-GB"),
                               ),
@@ -218,6 +212,7 @@ class EnglishEntryalight extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە پاسێک دامەبەزە کە ھێشتا لە جووڵە دایە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlight32852("en-GB"),
                               ),

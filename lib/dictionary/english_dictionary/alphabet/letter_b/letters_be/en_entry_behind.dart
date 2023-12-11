@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -222,9 +220,8 @@ class EnglishEntrybehind extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -248,12 +245,6 @@ class EnglishEntrybehind extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -274,6 +265,7 @@ class EnglishEntrybehind extends StatelessWidget {
                                   text: "Stay close behind me."),
                               const ExampleSentenceKurdish(
                                   text: "نزیک لێم و لەدوامەوە بمێنە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBehinds1("en-GB"),
                               ),
@@ -290,6 +282,7 @@ class EnglishEntrybehind extends StatelessWidget {
                                   text: "She glanced behind her."),
                               const ExampleSentenceKurdish(
                                   text: "چاوێکی لە دواوەی کرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBehinds2("en-GB"),
                               ),
@@ -308,6 +301,7 @@ class EnglishEntrybehind extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بیرت نەچێت دەرگاکە لە دوای خۆت دابخەیت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBehinds3("en-GB"),
                               ),
@@ -328,6 +322,7 @@ class EnglishEntrybehind extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە خوێندنەوەدا لە دوای ئەوانی تری پۆلەکەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBehinds4("en-GB"),
                               ),
@@ -348,6 +343,7 @@ class EnglishEntrybehind extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەیزانی ھەرچی بڕیارێک بدات خێزانەکەی لەپشتی دەبن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBehinds5("en-GB"),
                               ),
@@ -366,6 +362,7 @@ class EnglishEntrybehind extends StatelessWidget {
                                   text: "What's behind that happy smile?"),
                               const ExampleSentenceKurdish(
                                   text: "چی ھۆکارە بۆ ئەم پێکەنینە دڵخۆشانە؟"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBehinds6("en-GB"),
                               ),
@@ -384,6 +381,7 @@ class EnglishEntrybehind extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو کەسەیە کە لە پشتەوەی پلانی درووستکردنی نەخۆشخانە تازەکەیە"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBehinds7("en-GB"),
                               ),
@@ -404,6 +402,7 @@ class EnglishEntrybehind extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕووداوەکە بەشێکە لە ڕابردووت ئێستا، ھەوڵ بدە لەبیری بکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBehinds8("en-GB"),
                               ),
@@ -424,6 +423,7 @@ class EnglishEntrybehind extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە ڕێگاکەدا پاسکیلی دەڕانی و سەگەکەش بەدوایدا ڕایدەکرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBehinds9("en-GB"),
                               ),
@@ -440,6 +440,7 @@ class EnglishEntrybehind extends StatelessWidget {
                                   text: "The others are a long way behind."),
                               const ExampleSentenceKurdish(
                                   text: "ئەوانی تر زۆر لە دواوەن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBehinds10("en-GB"),
                               ),
@@ -457,6 +458,7 @@ class EnglishEntrybehind extends StatelessWidget {
                                       "He was shot from behind as he ran away."),
                               const ExampleSentenceKurdish(
                                   text: "لە دواوە تەقەی لێکرا کە ڕایدەکرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBehinds11("en-GB"),
                               ),
@@ -476,6 +478,7 @@ class EnglishEntrybehind extends StatelessWidget {
                                       "This bag was left behind after the class."),
                               const ExampleSentenceKurdish(
                                   text: "ئەم جانتا جێھێڵدرا لە دوای دەوام."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBehinds12("en-GB"),
                               ),
@@ -495,6 +498,7 @@ class EnglishEntrybehind extends StatelessWidget {
                                       "She's fallen behind with the payments."),
                               const ExampleSentenceKurdish(
                                   text: "دواکەوتووە لە پێدانی پارەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBehinds13("en-GB"),
                               ),
@@ -511,6 +515,7 @@ class EnglishEntrybehind extends StatelessWidget {
                                   text: "He was terribly behind in his work."),
                               const ExampleSentenceKurdish(
                                   text: "زۆر لە کارەکەی دواکەوتبوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBehinds14("en-GB"),
                               ),
@@ -529,6 +534,7 @@ class EnglishEntrybehind extends StatelessWidget {
                                   text: "The dog bit him on his behind."),
                               const ExampleSentenceKurdish(
                                   text: "سەگەکە گازی لە سمتی گرت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBehinds15("en-GB"),
                               ),

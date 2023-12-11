@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -132,9 +130,8 @@ class EnglishEntrybell extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -158,12 +155,6 @@ class EnglishEntrybell extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -186,6 +177,7 @@ class EnglishEntrybell extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زەنگەکانی کڵێساکە دەستیان بە لێدان کرد بۆ پێشوازی لە ساڵی تازە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBells1("en-GB"),
                               ),
@@ -204,6 +196,7 @@ class EnglishEntrybell extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەماکاران زەنگۆڵەیان لە لاقیان بەستبوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBells2("en-GB"),
                               ),
@@ -223,6 +216,7 @@ class EnglishEntrybell extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زەنگەکە لێبدە بۆ زانینی ئەوەی لە ماڵەوەن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBells3("en-GB"),
                               ),
@@ -240,6 +234,7 @@ class EnglishEntrybell extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زەنگێکی ئاگادارکەرەوە دەستی بە لێدان کرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBells4("en-GB"),
                               ),

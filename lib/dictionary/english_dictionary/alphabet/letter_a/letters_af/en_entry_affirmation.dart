@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryaffirmation - replace speakAffirmation - replace affirmation - /ˌæfərˈmeɪʃn/ - find Dopsum2
 
@@ -102,9 +101,8 @@ class EnglishEntryaffirmation extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -123,12 +121,6 @@ class EnglishEntryaffirmation extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -151,6 +143,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێشوازی دەکەین لە پشتڕاستکردنەوەی حکومەت لەوەی کەوا نیازی ھەیە ھەنگاو بنێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffirmat144("en-GB"),
                               ),
@@ -170,6 +163,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەندێک کەس ماوە ماوە پێویستیان بە سەلماندنی خۆشەویستی لە ھاوسەرەکانیانەوە ھەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffir25("en-GB"),
                               ),
@@ -191,6 +185,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "منداڵەکان بەردەوام داوای ھەست و سۆزی دایک و باوکیان دەکرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAff677("en-GB"),
                               ),

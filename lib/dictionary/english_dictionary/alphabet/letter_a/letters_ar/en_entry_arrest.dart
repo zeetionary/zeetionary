@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -157,9 +156,8 @@ class EnglishEntryarrest extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -178,12 +176,6 @@ class EnglishEntryarrest extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -209,6 +201,7 @@ class EnglishEntryarrest extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەسێک دەستگیرکراوە بەتۆمەتی تێوەگلان لە دزییەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArrest420("en-GB"),
                               ),
@@ -231,6 +224,7 @@ class EnglishEntryarrest extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "بەتۆمەتی گەندەڵی دەستگیرکرا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArrest421("en-GB"),
                               ),
@@ -256,6 +250,7 @@ class EnglishEntryarrest extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "شکستیان ھێنا لە ڕێگری‌کردن لە داڕووخانی کۆمپانیاکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArrest425("en-GB"),
                               ),
@@ -279,6 +274,7 @@ class EnglishEntryarrest extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پەرەسەندنی نەخۆشییەکە دەوەستێنرێت بە دەرمان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArrest426("en-GB"),
                               ),
@@ -304,6 +300,7 @@ class EnglishEntryarrest extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەنگە دەنگێکی نائاسایی سەرنجی ڕاکێشا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArrest428("en-GB"),
                               ),
@@ -329,6 +326,7 @@ class EnglishEntryarrest extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دڵی لە لێدان کەوت لە ڕێگا بۆ نەخۆشخانە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArrest430("en-GB"),
                               ),
@@ -352,6 +350,7 @@ class EnglishEntryarrest extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "پۆلیس ژمارەیەک کەسی دەستگیرکرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArrest432("en-GB"),
                               ),
@@ -376,6 +375,7 @@ class EnglishEntryarrest extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "گیانی لەدەستدا لە دوای وەستانی دڵی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArrest435("en-GB"),
                               ),

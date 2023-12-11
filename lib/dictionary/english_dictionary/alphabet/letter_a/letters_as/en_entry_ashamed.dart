@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -154,9 +153,8 @@ class EnglishEntryashamed extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -175,12 +173,6 @@ class EnglishEntryashamed extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -206,6 +198,7 @@ class EnglishEntryashamed extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆر شەرمەزاربوو بە ڕەفتاری لە ئاھەنگەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAshamed516("en-GB"),
                               ),
@@ -229,6 +222,7 @@ class EnglishEntryashamed extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەبێت وازبێنین لە ترسان یان شەرمەزاربوون لە بوون بەوەی کە ھەین."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAshamed518("en-GB"),
                               ),
@@ -251,6 +245,7 @@ class EnglishEntryashamed extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "دەبێت تەواو شەرم لە خۆتان بکەنەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAshamed519("en-GB"),
                               ),
@@ -275,6 +270,7 @@ class EnglishEntryashamed extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "شەرم دەکەم بڵێم درۆم لەگەڵ کرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAshamed527("en-GB"),
                               ),
@@ -298,6 +294,7 @@ class EnglishEntryashamed extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەکۆتاییدا گریام و شەرمەزر نیم بە وتنی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAshamed528("en-GB"),
                               ),

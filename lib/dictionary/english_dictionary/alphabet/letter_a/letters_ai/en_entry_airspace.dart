@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryDopsum - replace speakAirspace - replace airspace - /ˈeəspeɪs/ - find Dopsum2
 
@@ -103,9 +102,8 @@ class EnglishEntryairspace extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -124,12 +122,6 @@ class EnglishEntryairspace extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -155,6 +147,7 @@ class EnglishEntryairspace extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئاسمانی ئەورووپا زیاتر و زیاتر قەرەباڵغ دەبێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAirspace4355("en-GB"),
                               ),
@@ -176,6 +169,7 @@ class EnglishEntryairspace extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "فڕۆکەکە چووە ئاسمانی چین بەبێ مۆڵەت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAirspace5366("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryadrift - replace speakAdrift - replace adrift - /əˈdrɪft/ - find Dopsum2
 
@@ -102,9 +101,8 @@ class EnglishEntryadrift extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -123,12 +121,6 @@ class EnglishEntryadrift extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -151,6 +143,7 @@ class EnglishEntryadrift extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "سێ ڕۆژی لەناو شەپۆلەکان بەسەربرد لەسەر یەختەکەی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdri458692("en-GB"),
                               ),
@@ -171,6 +164,7 @@ class EnglishEntryadrift extends StatelessWidget {
                                       "Without language, human beings are cast adrift."),
                               const ExampleSentenceKurdish(
                                   text: "بەبێ زمان مرۆڤەکان سەرلێشێواون."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdri52369("en-GB"),
                               ),
@@ -192,6 +186,7 @@ class EnglishEntryadrift extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "وادیارە شتێک لە خەمڵاندنەکانمان ناڕێکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdrif52317("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryacademically - speakAcademically - academically - /ˌækəˈdemɪkli/
 
@@ -93,9 +92,8 @@ class EnglishEntryacademically extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -114,12 +112,6 @@ class EnglishEntryacademically extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -142,6 +134,7 @@ class EnglishEntryacademically extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بۆ ئەوەی بچیتە بەشی پزیشکی پێویستە لەلایەنی خوێندنەوە باش بیت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA56387("en-GB"),
                               ),
@@ -160,7 +153,8 @@ class EnglishEntryacademically extends StatelessWidget {
                                       "He wasn’t very well qualified academically but had a lot of experience."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لەلایەنی ئەکادیمییەوە زۆر لێوەشاوە نەبوو، بەڵام ئەزموونێکی زۆری ھەبوو "),
+                                      "لەلایەنی ئەکادیمییەوە زۆر لێوەشاوە نەبوو، بەڵام ئەزموونێکی زۆری ھەبوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc584("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -130,9 +129,8 @@ class EnglishEntrybeware extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -156,12 +154,6 @@ class EnglishEntrybeware extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -184,6 +176,7 @@ class EnglishEntrybeware extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ماتۆڕسواران هۆشیارکراونەتەوە ئاگاداربن بۆ ڕێگای سەهۆڵین."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBewares1("en-GB"),
                               ),
@@ -202,6 +195,7 @@ class EnglishEntrybeware extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئاگاداربە لە وتنی هەرشتێک کە ئاشکرای بکات لە کوێ دەژیت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBewares2("en-GB"),
                               ),

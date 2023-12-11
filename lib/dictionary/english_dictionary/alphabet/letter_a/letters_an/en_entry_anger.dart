@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryanger - replace speakAnger - replace anger - /ˈæŋɡə(r)/ - find Dopsum2
 
@@ -145,9 +144,8 @@ class EnglishEntryanger extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -166,12 +164,6 @@ class EnglishEntryanger extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -197,6 +189,7 @@ class EnglishEntryanger extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێویست‌بوو ڕێگایەک بدۆزێتەوە بۆ دەربڕینی توڕەییە خوراوەکەی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnger104("en-GB"),
                               ),
@@ -220,6 +213,7 @@ class EnglishEntryanger extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پلانەکە بوو بەھۆی توڕەیی خەڵکە خۆجێییەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnger407("en-GB"),
                               ),
@@ -243,6 +237,7 @@ class EnglishEntryanger extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "پرسیارەکە بەڕوونی تووڕەی‌کرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnger005("en-GB"),
                               ),
@@ -266,6 +261,7 @@ class EnglishEntryanger extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تووڕەبوون بەوەی ناڕەزاییەکانیان وەلاخران."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnger950("en-GB"),
                               ),

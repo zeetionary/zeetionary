@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -150,9 +149,8 @@ class EnglishEntryasexual extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -171,12 +169,6 @@ class EnglishEntryasexual extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -200,6 +192,7 @@ class EnglishEntryasexual extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ژیانێکی دوور لە سێکسی بەسەربرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAsexual353("en-GB"),
                               ),
@@ -225,6 +218,7 @@ class EnglishEntryasexual extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەسێکی سێکسنەخواز ئەتوانێت سێکس بکات ئەگەرچی دڵیشی نەچێت لە سێکس."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAsexual401("en-GB"),
                               ),
@@ -250,6 +244,7 @@ class EnglishEntryasexual extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "قەوزە دەکرێت زاوزێ بکەن بە زۆربوونی سێکسی و بە ناسێکسی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAsexual401("en-GB"),
                               ),

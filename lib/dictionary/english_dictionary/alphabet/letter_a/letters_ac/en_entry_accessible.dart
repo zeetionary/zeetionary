@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryaccessible - speakAccessible - accessible - /əkˈsesəbl/
 
@@ -102,9 +101,8 @@ class EnglishEntryaccessible extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -123,12 +121,6 @@ class EnglishEntryaccessible extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -151,6 +143,7 @@ class EnglishEntryaccessible extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ناوچە بیابانە دوورەدەستەکە تەنھا لە ڕێگەی ھەلیکۆپتەرەوە دەتوانرێت سەردانی بکرێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA21598("en-GB"),
                               ),
@@ -170,6 +163,7 @@ class EnglishEntryaccessible extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەنار دەریاکە دەبێت بۆ ھەمووکەسێک بەردەست بێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA2114("en-GB"),
                               ),
@@ -188,6 +182,7 @@ class EnglishEntryaccessible extends StatelessWidget {
                                       "Her poetry is always very accessible."),
                               const ExampleSentenceKurdish(
                                   text: "شیعرەکانی بۆ گەورە و بچووکن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAcc21587("en-GB"),
                               ),

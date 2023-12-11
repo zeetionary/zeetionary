@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryallclear - replace speakAllclear - replace all-clear - /ði ˌɔːl ˈklɪə(r)/ - find Dopsum2
 
@@ -104,9 +103,8 @@ class EnglishEntryallclear extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -125,12 +123,6 @@ class EnglishEntryallclear extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -154,6 +146,7 @@ class EnglishEntryallclear extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "منداڵەکان خۆیان لەژێر زەمینەکە شاردەوە تاوەکو ئاماژەی سەلامەتییان پێدرا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllclear37455("en-GB"),
                               ),
@@ -178,6 +171,7 @@ class EnglishEntryallclear extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بیناکە بە سەلامەت دانرا لە دوای پشکنینەکان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllclear24121("en-GB"),
                               ),
@@ -202,6 +196,7 @@ class EnglishEntryallclear extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەشتییەکە مۆڵەتی پێدرا بۆ چوونە دەریا"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllclear385796("en-GB"),
                               ),

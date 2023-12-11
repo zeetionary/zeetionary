@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -195,9 +194,8 @@ class EnglishEntryauthority extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -216,12 +214,6 @@ class EnglishEntryauthority extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -247,6 +239,7 @@ class EnglishEntryauthority extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئێستا دەسەڵاتی ھەیە بەسەر ئەو کەسانەی کە جاران گەورەی بوون."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuthority804("en-GB"),
                               ),
@@ -270,6 +263,7 @@ class EnglishEntryauthority extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "حکومەتی ناوەندی دەسەڵاتی فراوانی ھەیە بەسەر مامۆستایاندا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuthority805("en-GB"),
                               ),
@@ -295,6 +289,7 @@ class EnglishEntryauthority extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەندێک شارەزا باوەڕیان وایە کە دەزگاکە ئەگەری ھەیە دەسەڵاتی خۆی تێپەڕاندبێ."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuthority808("en-GB"),
                               ),
@@ -318,6 +313,7 @@ class EnglishEntryauthority extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ئۆتۆمبێلەکەی بەبێ مۆڵەت برد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuthority809("en-GB"),
                               ),
@@ -342,6 +338,7 @@ class EnglishEntryauthority extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "دەبێت ئەمە بە دەسەڵاتداران بڵێم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuthority811("en-GB"),
                               ),
@@ -367,6 +364,7 @@ class EnglishEntryauthority extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە جێی‌باوەڕەوە قسەی لەسەر بابەتەکە دەکرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuthority814("en-GB"),
                               ),
@@ -391,6 +389,7 @@ class EnglishEntryauthority extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەسێکی شارەزایە لەسەر یاسای تاوانبارێتی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuthority816("en-GB"),
                               ),

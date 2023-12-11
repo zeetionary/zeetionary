@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryaccommodation - speakAccommodation - accommodation - /əˌkɒməˈdeɪʃn/
 
@@ -111,9 +110,8 @@ class EnglishEntryaccommodation extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -132,12 +130,6 @@ class EnglishEntryaccommodation extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -159,6 +151,7 @@ class EnglishEntryaccommodation extends StatelessWidget {
                                       "She lived on her own in rented accommodation."),
                               const ExampleSentenceKurdish(
                                   text: "بە تەنھا دەژیا لە جێگایەکی کری."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA25614("en-GB"),
                               ),
@@ -176,6 +169,7 @@ class EnglishEntryaccommodation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێویستیمان بە جێگای سەلامەتتر ھەیە بۆ زیندانییە گەنجەکان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc28874("en-GB"),
                               ),
@@ -193,6 +187,7 @@ class EnglishEntryaccommodation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەلەمەکە جێگای مانەوەی شەوانی بۆ چوار کەسی پێگەیشتوو ھەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc29968("en-GB"),
                               ),
@@ -212,6 +207,7 @@ class EnglishEntryaccommodation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ناچارکران لەگەڵ یاخیبووان بگەنە سازان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc24995("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryagile - replace speakAgile - replace agile - /ˈædʒl/ - find Dopsum2
 
@@ -102,9 +101,8 @@ class EnglishEntryagile extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -123,12 +121,6 @@ class EnglishEntryagile extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -152,6 +144,7 @@ class EnglishEntryagile extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "مەیموون پیاھەڵگژی گورجە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgile15621("en-GB"),
                               ),
@@ -176,6 +169,7 @@ class EnglishEntryagile extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەگەڵ ئەوەی ٨٠ ساڵە، ھێشتا بیر و ھۆشێکی زرنگی ھەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgi1778("en-GB"),
                               ),
@@ -200,6 +194,7 @@ class EnglishEntryagile extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە کۆمپانیاکە کارەکانیان بەش بەش دەکرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgil56663("en-GB"),
                               ),

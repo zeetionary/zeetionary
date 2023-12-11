@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryaccompaniment - speakAccompaniment - accompaniment - /əˈkʌmpənimənt/
 
@@ -102,9 +101,8 @@ class EnglishEntryaccompaniment extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -123,12 +121,6 @@ class EnglishEntryaccompaniment extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -149,6 +141,7 @@ class EnglishEntryaccompaniment extends StatelessWidget {
                                   text: "a song with piano accompaniment"),
                               const ExampleSentenceKurdish(
                                   text: "گۆرانییەک بە میوزیکوە لەگەڵی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc15587("en-GB"),
                               ),
@@ -167,6 +160,7 @@ class EnglishEntryaccompaniment extends StatelessWidget {
                                       "Serve plain rice as an accompaniment."),
                               const ExampleSentenceKurdish(
                                   text: "برنجی سادە دابنێ وەک پاشکۆ."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA77499("en-GB"),
                               ),
@@ -186,6 +180,7 @@ class EnglishEntryaccompaniment extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پەستانی بەرزی خوێن زۆرجار لەگەڵ ئەم نەخۆشیە دەبێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA569222("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryannihilation - replace speakAnnihilation - replace annihilation - /əˌnaɪəˈleɪʃn/ - find Dopsum2
 
@@ -143,9 +142,8 @@ class EnglishEntryannihilation extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -164,12 +162,6 @@ class EnglishEntryannihilation extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -195,6 +187,7 @@ class EnglishEntryannihilation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە سەردەمی جەنگی سارد ھەڕەشەی قڕبوونی  ئەتۆمی ھەمیشە لە ھزری خەڵکیدا بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnnihilation126("en-GB"),
                               ),
@@ -220,6 +213,7 @@ class EnglishEntryannihilation extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "یاریزانە بەرازیلییەکە پێویستی تەنھا بە ٨٢ خولەک بوو بۆ تێکشکاندنی تەواوی ڕکابەرەکەی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnnihilation136("en-GB"),
                               ),

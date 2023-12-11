@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryamount - replace speakAmount - replace amount - /əˈmaʊnt/ - find Dopsum2
 
@@ -147,9 +146,8 @@ class EnglishEntryamount extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -168,12 +166,6 @@ class EnglishEntryamount extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -199,6 +191,7 @@ class EnglishEntryamount extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەرسام‌بووم بەوەی دەتوانێت چەندە بخوات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmount4447("en-GB"),
                               ),
@@ -221,6 +214,7 @@ class EnglishEntryamount extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەوڵ‌بدە بڕی وزە و ئاوی بەکارھێندراو لە مەڵەوە کەم‌بکەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmount49652("en-GB"),
                               ),
@@ -243,6 +237,7 @@ class EnglishEntryamount extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەمووان ھەمان بڕیان داوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmount3522("en-GB"),
                               ),
@@ -267,6 +262,7 @@ class EnglishEntryamount extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "قازانجەکانی دەبن بە ٣٠٠٠٠٠ پاوەند لە ساڵێکدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmount5523("en-GB"),
                               ),
@@ -291,6 +287,7 @@ class EnglishEntryamount extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کردەوەکانیان لە جەنگەکەدا ھاوتایە بە جینۆساید."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmount5622("en-GB"),
                               ),
@@ -313,6 +310,7 @@ class EnglishEntryamount extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەرگیز نابیت بە ھیچ."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmount514("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryamongst - replace speakAmongst - replace amongst - /əˈmʌŋst/ - find Dopsum2
 
@@ -168,9 +167,8 @@ class EnglishEntryamongst extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -189,12 +187,6 @@ class EnglishEntryamongst extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -220,6 +212,7 @@ class EnglishEntryamongst extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "چەند ڕووخسارێکی ناسیاوم بینی لەناو جەماوەرەکەدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmongst7655("en-GB"),
                               ),
@@ -243,6 +236,7 @@ class EnglishEntryamongst extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ژنێکی بەریتانی لەناو ڕزگاربووان بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmongst4666("en-GB"),
                               ),
@@ -267,6 +261,7 @@ class EnglishEntryamongst extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "وڵاتەکەی لە نێوان کوڕەکانی دابەش‌کرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAmongst4111("en-GB"),
                               ),

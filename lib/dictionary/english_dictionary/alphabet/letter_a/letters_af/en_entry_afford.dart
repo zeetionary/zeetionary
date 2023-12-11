@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryafford - replace speakAfford - replace afford - /əˈfɔːrd/ - find Dopsum2
 
@@ -111,9 +110,8 @@ class EnglishEntryafford extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -132,12 +130,6 @@ class EnglishEntryafford extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -158,6 +150,7 @@ class EnglishEntryafford extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەرگیز تەکسی نەدەگرت، ئەگەرچی پارەشی ھەبوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAffor458("en-GB"),
                               ),
@@ -176,6 +169,7 @@ class EnglishEntryafford extends StatelessWidget {
                                       "They couldn't afford to buy a house there."),
                               const ExampleSentenceKurdish(
                                   text: "نەیاندەتوانی خانوویەک لەوێ بکڕن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAff6665("en-GB"),
                               ),
@@ -196,6 +190,7 @@ class EnglishEntryafford extends StatelessWidget {
                                       "We cannot afford to ignore this warning."),
                               const ExampleSentenceKurdish(
                                   text: "ناتوانین ئەم ھۆشدارییە پشتگوێ بخەین."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAff4511("en-GB"),
                               ),
@@ -216,6 +211,7 @@ class EnglishEntryafford extends StatelessWidget {
                                       "The tree affords some shelter from the sun."),
                               const ExampleSentenceKurdish(
                                   text: "دارەکە ھەندێک سێبەر دەبەخشێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAf44922("en-GB"),
                               ),

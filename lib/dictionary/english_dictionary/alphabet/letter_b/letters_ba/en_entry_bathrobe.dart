@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -130,9 +129,8 @@ class EnglishEntrybathrobe extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -151,12 +149,6 @@ class EnglishEntrybathrobe extends StatelessWidget {
                   // VideoIconForTab(), // British
                   // VideoIconForTab(), // American
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -179,6 +171,7 @@ class EnglishEntrybathrobe extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە گەرماوەکە ھاتمە دەرەوە و خۆم ئاڵاند لە خاولییەکی نەرم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBathrobes1("en-GB"),
                               ),
@@ -199,6 +192,7 @@ class EnglishEntrybathrobe extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "جلی ماڵەوەی لەبەربوو نەعلی لەپێبوو کە دەرگاکەم کردەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBathrobes2("en-GB"),
                               ),

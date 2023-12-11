@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -151,9 +150,8 @@ class EnglishEntryaudition extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -172,12 +170,6 @@ class EnglishEntryaudition extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -201,6 +193,7 @@ class EnglishEntryaudition extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "نمایشەکان لە کاتژمێر ٩-١٢ لە رۆژی ھەینی دەبێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAudition238("en-GB"),
                               ),
@@ -225,6 +218,7 @@ class EnglishEntryaudition extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "تاقیکرایەوە بۆ ڕۆڵی خاتوو ماکبێس."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAudition240("en-GB"),
                               ),
@@ -250,6 +244,7 @@ class EnglishEntryaudition extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "زیاتر لە ٢٠٠ منداڵمان تاقیکردەوە بۆ ڕۆڵەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAudition243("en-GB"),
                               ),

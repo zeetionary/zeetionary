@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -145,9 +144,8 @@ class EnglishEntrybankrupt extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -166,12 +164,6 @@ class EnglishEntrybankrupt extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -197,6 +189,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "خانووەکەی لەدەستدا لە دوای ئەوەی مایەپووچ بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBankrupts1("en-GB"),
                               ),
@@ -220,6 +213,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە دوای جەنگەکە بەریتانیا شەکەت و مایەپووچ بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBankrupts2("en-GB"),
                               ),
@@ -245,6 +239,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "باوەڕی وایە کۆمەڵگەی ئێستا لەلایەنی ئەخلاقییەوە مایەپووچە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBankrupts3("en-GB"),
                               ),
@@ -270,6 +265,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دواتر بوو بە گەورەترین مایەپووچی بەریتانیا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBankrupts4("en-GB"),
                               ),
@@ -294,6 +290,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "ترسان زیانەکە مایەپووچیان بکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBankrupts5("en-GB"),
                               ),

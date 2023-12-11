@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryablebodied - speakAblebodied - able-bodied - /ˌeɪbl ˈbɒdid/
 
@@ -84,9 +83,8 @@ class EnglishEntryablebodied extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -96,12 +94,6 @@ class EnglishEntryablebodied extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -121,7 +113,8 @@ class EnglishEntryablebodied extends StatelessWidget {
                                       "Military service is compulsory for every able-bodied male between 18 and 27."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "خزمەتی سەربازی بەزۆرەملێیە بۆ کەسانی تەندرووستی 18 بۆ 27 ساڵ "),
+                                      "خزمەتی سەربازی بەزۆرەملێیە بۆ کەسانی تەندرووستی 18 بۆ 27 ساڵ."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAb254("en-GB"),
                               ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryalcoholic - replace speakAlcoholic - replace alcoholic - /ˌælkəˈhɒlɪk/ - find Dopsum2
 
@@ -113,9 +112,8 @@ class EnglishEntryalcoholic extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -134,12 +132,6 @@ class EnglishEntryalcoholic extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -162,6 +154,7 @@ class EnglishEntryalcoholic extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "شەربەتەکە کەمێک تامی کحولی دەدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlcoholic459("en-GB"),
                               ),
@@ -186,6 +179,7 @@ class EnglishEntryalcoholic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "میوانەکان بە گێژخواردوویی کحولەوە ڕۆشتن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlcoholic469("en-GB"),
                               ),
@@ -209,6 +203,7 @@ class EnglishEntryalcoholic extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "چاودێری کوڕە ئاڵوودەکەیی دەکرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlcoholic358("en-GB"),
                               ),
@@ -233,6 +228,7 @@ class EnglishEntryalcoholic extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێم وانییە کەسێکی ئاڵوودە بتوانێت خواردنەوە تەرک بکات بەبێ یارمەتی گونجاوی پزیشکی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAlcoholic39412("en-GB"),
                               ),

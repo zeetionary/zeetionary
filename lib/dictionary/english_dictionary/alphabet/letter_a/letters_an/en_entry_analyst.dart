@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryanalyst - replace speakAnalyst - replace analyst - /ˈænəlɪst/ - find Dopsum2
 
@@ -143,9 +142,8 @@ class EnglishEntryanalyst extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -164,12 +162,6 @@ class EnglishEntryanalyst extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -195,6 +187,7 @@ class EnglishEntryanalyst extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "توێژەرانی شارەکە ئەمساڵ پێشبینی قازانجی زەبەلاح دەکەن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnalyst45888("en-GB"),
                               ),
@@ -216,6 +209,7 @@ class EnglishEntryanalyst extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "لێکۆڵەرێکی ئابوورییە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnalyst7401("en-GB"),
                               ),

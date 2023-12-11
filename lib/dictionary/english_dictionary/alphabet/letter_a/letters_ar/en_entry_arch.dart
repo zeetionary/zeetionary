@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -152,9 +151,8 @@ class EnglishEntryarch extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -173,12 +171,6 @@ class EnglishEntryarch extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -204,6 +196,7 @@ class EnglishEntryarch extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو پردەی بەسەر ڕووبارەکەدا درووستیان‌کرد سێ قەوسی ھەیە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArch135("en-GB"),
                               ),
@@ -229,6 +222,7 @@ class EnglishEntryarch extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە کەوانەکەدا بچۆ ژوورەوە و بە ڕێگاکەدا بەردەوام‌ بە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArch140("en-GB"),
                               ),
@@ -252,6 +246,7 @@ class EnglishEntryarch extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "کەوانەی پێی زۆر بەرزە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArch143("en-GB"),
                               ),
@@ -277,6 +272,7 @@ class EnglishEntryarch extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لقی دارەکان قەوسێکیان درووستکردبوو بەسەر کورسییەکەدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArch148("en-GB"),
                               ),
@@ -300,6 +296,7 @@ class EnglishEntryarch extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "پشیلەکە پشتی چەماندەوە و فساندی."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArch148("en-GB"),
                               ),
@@ -324,6 +321,7 @@ class EnglishEntryarch extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دارە بەرزەکان کەوانەیەکیان بەسەر ڕێگاکەدا درووستکرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArch152("en-GB"),
                               ),
@@ -349,6 +347,7 @@ class EnglishEntryarch extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "قسەکردن بە دەنگێکی لەخۆڕازییانە ھەمیشە بۆ ئەوە نییە کەسی دیکە تووڕە بکەیت؛ ئەکرێت خۆشی بە گفتوگۆ بدات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArch159("en-GB"),
                               ),

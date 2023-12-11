@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -134,9 +132,8 @@ class EnglishEntrybatter extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -160,12 +157,6 @@ class EnglishEntrybatter extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 12
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -187,6 +178,7 @@ class EnglishEntrybatter extends StatelessWidget {
                                       "She battered at the door with her fists."),
                               const ExampleSentenceKurdish(
                                   text: "بە مشتی دەیکێشا بە دەرگاکەدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBatters1("en-GB"),
                               ),
@@ -203,6 +195,7 @@ class EnglishEntrybatter extends StatelessWidget {
                                   text: "The waves battered against the ship."),
                               const ExampleSentenceKurdish(
                                   text: "شەپۆلەکان دەیانکێشا بە کەشتییەکەدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBatters2("en-GB"),
                               ),
@@ -223,6 +216,7 @@ class EnglishEntrybatter extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەستمکرد بە تێکەڵکردنی ھەویرەکە بۆ کێکەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBatters3("en-GB"),
                               ),
@@ -243,6 +237,7 @@ class EnglishEntrybatter extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە زۆرینەی ھەویری کێکدا بەزۆری ھێلکە زیاددەکرێت بۆ ھەویرەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBatters4("en-GB"),
                               ),
@@ -263,6 +258,7 @@ class EnglishEntrybatter extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "جیمی بە ئاسانی یەکەم تۆپھاوێژی کردە دەرەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBatters5("en-GB"),
                               ),

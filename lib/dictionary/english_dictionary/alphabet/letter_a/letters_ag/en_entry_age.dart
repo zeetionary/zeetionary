@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryage - replace speakAge - replace age - /eɪdʒ/ - find Dopsum2
 
@@ -168,9 +167,8 @@ class EnglishEntryage extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -189,12 +187,6 @@ class EnglishEntryage extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -220,6 +212,7 @@ class EnglishEntryage extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کە لە تەمەنی تۆ بووم ماوەیەک بوو ھاوسەرگیریم کردبوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAge938665("en-GB"),
                               ),
@@ -242,6 +235,7 @@ class EnglishEntryage extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "منداڵەکان تەمەنیان لە نێوان ٥ بۆ ١٠ ساڵانە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAge28225("en-GB"),
                               ),
@@ -264,6 +258,7 @@ class EnglishEntryage extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "بۆ ماوەیەکی زۆر چاوەڕێ بووم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAge45562("en-GB"),
                               ),
@@ -286,6 +281,7 @@ class EnglishEntryage extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "لە پیرێتی دەترسا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAge41663("en-GB"),
                               ),
@@ -309,6 +305,7 @@ class EnglishEntryage extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە سەردەمی دەسەڵاتداریی ئیلیزابێس ژیا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAge955887("en-GB"),
                               ),
@@ -329,6 +326,7 @@ class EnglishEntryage extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کە تەمەنی دەکرد بیر و ھۆشی خراپتر دەبوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAge471114("en-GB"),
                               ),
@@ -353,6 +351,7 @@ class EnglishEntryage extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "دایکم ڕەنگی پیربووە لەوەتەی نەخۆش کەوتووە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAge25221("en-GB"),
                               ),

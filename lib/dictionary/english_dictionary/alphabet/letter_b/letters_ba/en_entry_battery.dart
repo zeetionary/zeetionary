@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -135,9 +133,8 @@ class EnglishEntrybattery extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -161,12 +158,6 @@ class EnglishEntrybattery extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 12
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -188,6 +179,7 @@ class EnglishEntrybattery extends StatelessWidget {
                                       "The battery is flat (= it is no longer producing electricity)."),
                               const ExampleSentenceKurdish(
                                   text: "باترییەکە مردووە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBatterys1("en-GB"),
                               ),
@@ -208,6 +200,7 @@ class EnglishEntrybattery extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "موبایلەکەم شەحنی نەما، بۆیە کردم بە شەحنەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBatterys2("en-GB"),
                               ),
@@ -226,6 +219,7 @@ class EnglishEntrybattery extends StatelessWidget {
                                   text: "He faced a battery of questions."),
                               const ExampleSentenceKurdish(
                                   text: "ڕووبەڕووی زنجیرەیەک پرسیار بوویەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBatterys3("en-GB"),
                               ),
@@ -245,6 +239,7 @@ class EnglishEntrybattery extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تۆپخانەی کەناراواکە دەستی بە تۆپباران کرد."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBatterys4("en-GB"),
                               ),
@@ -265,6 +260,7 @@ class EnglishEntrybattery extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەپەرمارکێتەکە بەڵێنی داوە کە بوەستێت لە فرۆشتنی ھێلکەی مریشکی مەسلاحە پێش ساڵی ٢٠٢٥."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBatterys5("en-GB"),
                               ),
@@ -283,6 +279,7 @@ class EnglishEntrybattery extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھێلکەی مەسلاحە ھەرزانترین جۆری ھێلکەن، بەڵام بە دڕندەترین شێوە بەرھەم دەھێنرێن."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBatterys6("en-GB"),
                               ),
@@ -303,6 +300,7 @@ class EnglishEntrybattery extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "تاوانبارکرا بە کوتەک‌کاری دوابەداوی شەڕێک لە یانەیەکی شەوانە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBatterys6("en-GB"),
                               ),

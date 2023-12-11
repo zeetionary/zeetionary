@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryadvocate - replace speakAdvocate - replace advocate - /ˈædvəkət/ - find Dopsum2
 
@@ -101,9 +100,8 @@ class EnglishEntryadvocate extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -122,12 +120,6 @@ class EnglishEntryadvocate extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -150,6 +142,7 @@ class EnglishEntryadvocate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەنەدا یەکێک لە سەختترین داکۆکیکارانی سزاکان بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdvo3569("en-GB"),
                               ),
@@ -171,6 +164,7 @@ class EnglishEntryadvocate extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "گرووپەکە پشتیوانی بەکارھێنانی توندوتیژی ناکات."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdvo2564("en-GB"),
                               ),

@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alright.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -186,9 +184,8 @@ class EnglishEntrybelow extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -212,12 +209,6 @@ class EnglishEntrybelow extends StatelessWidget {
                   // VideoIconForTab(), // 19
                   // VideoIconForTab(), // 20
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -238,6 +229,7 @@ class EnglishEntrybelow extends StatelessWidget {
                                   text: "They live on the floor below."),
                               const ExampleSentenceKurdish(
                                   text: "لە نھۆمی خوارەوە دەژین."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelows1("en-GB"),
                               ),
@@ -256,6 +248,7 @@ class EnglishEntrybelow extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھێشتا دەمتوانی بیناکانی فڕۆکەخانەکە کە زۆر لە خوارەوە بوون ببینم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelows2("en-GB"),
                               ),
@@ -273,6 +266,7 @@ class EnglishEntrybelow extends StatelessWidget {
                                       "See below (= at the bottom of the page) for references."),
                               const ExampleSentenceKurdish(
                                   text: "سەیری خوارەوە بکە بۆ سەرچاوەکان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelows3("en-GB"),
                               ),
@@ -293,6 +287,7 @@ class EnglishEntrybelow extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم بڕیارە ئەفسەران و ئەوانەی نزمتر لێیان دەگرێتەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelows4("en-GB"),
                               ),
@@ -313,6 +308,7 @@ class EnglishEntrybelow extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "گەرمی‌پێوەکە دابەزیوە بۆ ٤٠ی ژێر سفر."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelows5("en-GB"),
                               ),
@@ -331,6 +327,7 @@ class EnglishEntrybelow extends StatelessWidget {
                                   text: "Please do not write below this line."),
                               const ExampleSentenceKurdish(
                                   text: "تکایە لە خوار ئەم ھێڵەوە مەنووسە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelows6("en-GB"),
                               ),
@@ -348,6 +345,7 @@ class EnglishEntrybelow extends StatelessWidget {
                                       "He dived below the surface of the water."),
                               const ExampleSentenceKurdish(
                                   text: "دابەزییە خوار ڕووی ئاوەکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelows7("en-GB"),
                               ),
@@ -366,6 +364,7 @@ class EnglishEntrybelow extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەم قوتابخانەیە، تەنوورە دەبێت لەخوار ئەژنۆوە بێت."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelows8("en-GB"),
                               ),
@@ -386,6 +385,7 @@ class EnglishEntrybelow extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پلەی گەرمی تەواوی ڕۆژەکە لەژێر پلەی بەستن مایەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelows9("en-GB"),
                               ),
@@ -406,6 +406,7 @@ class EnglishEntrybelow extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پلەیەکی ھەبوو کە لە خوار سەرپەرشتیارەوە بوو لە کۆمپانیاکە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBelows10("en-GB"),
                               ),

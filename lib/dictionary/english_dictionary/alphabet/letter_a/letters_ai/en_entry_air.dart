@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryair - replace speakAir - replace air - /eə(r)/ - find Dopsum2
 
@@ -236,9 +235,8 @@ class EnglishEntryair extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
@@ -257,12 +255,6 @@ class EnglishEntryair extends StatelessWidget {
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -286,6 +278,7 @@ class EnglishEntryair extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "با بچین ھەندێک ھەوای پاک ھەڵمژین."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAir11524("en-GB"),
                               ),
@@ -308,6 +301,7 @@ class EnglishEntryair extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەناسەبڕکێی بوو بۆ ھەوا کە لە خانووە سووتاوەکەوە ڕایکردە دەرەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAir42112("en-GB"),
                               ),
@@ -330,6 +324,7 @@ class EnglishEntryair extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "دەست ڕاوەشێنە لە ھەوادا!"),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAir2133("en-GB"),
                               ),
@@ -350,6 +345,7 @@ class EnglishEntryair extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "بەرز لە تۆپەکەم ھەڵدا بە ئاسماندا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAir4144("en-GB"),
                               ),
@@ -374,6 +370,7 @@ class EnglishEntryair extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەیرمان کرد کە ھەلیکۆپتەرەکە فڕییە ئاسمان."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAir45666("en-GB"),
                               ),
@@ -398,6 +395,7 @@ class EnglishEntryair extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕواڵەتێکی تەواو متمانە بەخۆبوونی تێدا بوو."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAir3544("en-GB"),
                               ),
@@ -420,6 +418,7 @@ class EnglishEntryair extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "پێخەفەکان باش وشک بکەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAir58999("en-GB"),
                               ),
@@ -444,6 +443,7 @@ class EnglishEntryair extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "پەنجەرەکە بە کراوەیی بھێڵەوە بۆ ئەوەی ھەوای پاک بێتە ژوورەکەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAir49258("en-GB"),
                               ),
@@ -468,6 +468,7 @@ class EnglishEntryair extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بابەتەکان بە ڕاشکاوی دەربڕدران و گەنگەشە کران لەلایەن گرووپەکەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAir96354("en-GB"),
                               ),
@@ -490,6 +491,7 @@ class EnglishEntryair extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text: "پڕۆگرامەکە ھەفتەی ڕابردوو پێشکەشکرا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAir74952("en-GB"),
                               ),

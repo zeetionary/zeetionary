@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
-import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
@@ -131,9 +130,8 @@ class EnglishEntrybass extends StatelessWidget {
                   ],
                 ),
               ),
-              TabBar(
-                isScrollable: true,
-                tabs: const [
+              const CustomTabBar(
+                tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
@@ -152,12 +150,6 @@ class EnglishEntrybass extends StatelessWidget {
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
-                indicator: BoxDecoration(
-                  color: Pallete.tabsbackgroundColor,
-                  borderRadius: BorderRadius.circular(16.0),
-                ),
-                indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -178,6 +170,7 @@ class EnglishEntrybass extends StatelessWidget {
                                   text: "He sings bass."),
                               const ExampleSentenceKurdish(
                                   text: "گۆرانی باس دەڵێتەوە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBasss1("en-GB"),
                               ),
@@ -196,6 +189,7 @@ class EnglishEntrybass extends StatelessWidget {
                                   text: "He played bass in a band."),
                               const ExampleSentenceKurdish(
                                   text: "ئەو گیتاری باس لێدەدات لە باندێکدا."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBasss2("en-GB"),
                               ),
@@ -216,6 +210,7 @@ class EnglishEntrybass extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "وەڵامی پرسیارەکەمی دایەوە بە دەنگێکی سەیری تۆن نزم."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBasss3("en-GB"),
                               ),
@@ -234,6 +229,7 @@ class EnglishEntrybass extends StatelessWidget {
                                   text: "Fresh sea bass is a great delicacy."),
                               const ExampleSentenceKurdish(
                                   text: "ماسی تازە لەززەتێکی تایبەتە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBasss4("en-GB"),
                               ),
@@ -254,6 +250,7 @@ class EnglishEntrybass extends StatelessWidget {
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەشە تۆن نزمەکە ھەندێک پارچەی تا ڕادەیەک ئاڵۆزی تێدایە."),
+                              const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBasss5("en-GB"),
                               ),

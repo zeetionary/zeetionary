@@ -131,6 +131,7 @@ class EnglishEntryalacrity extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کەف‌وکوڵ، تاووتین، جۆش‌وخرۆش، بەپەرۆشی، تامەزرۆیی، ویست، شادی و خۆشی، چابکی، ھەڵسووڕی، گورج‌وگۆڵی، توندوتۆڵی
 
@@ -199,6 +200,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: alacrity (derived forms: alacrities)

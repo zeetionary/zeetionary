@@ -129,6 +129,7 @@ class EnglishEntryagegroup extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کۆمەڵ یان دەستەی تەمەنی یان ھاوتەمەن
 
@@ -197,6 +198,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: age group (derived forms: age groups)

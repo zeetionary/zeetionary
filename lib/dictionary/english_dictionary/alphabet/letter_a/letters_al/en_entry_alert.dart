@@ -185,6 +185,7 @@ class EnglishEntryalert extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گوێ‌قوڵاخ، وریا، چاوکراوە، زیت، وازر، ھۆشیار، ئاگادار، بەئاگا، ھایدار، قوت، زیرەک، بیرا، ئامادەباش، ڕەوش یان بارودۆخی تەنگەتاوی، باری نائاسایی، ئاگادارکردنەوە لە مەترسی یان کێشەیێ
 
@@ -399,6 +400,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: alert (derived forms: alerts, alerting, alerted)

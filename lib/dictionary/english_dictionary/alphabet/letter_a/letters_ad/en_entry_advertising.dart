@@ -129,6 +129,7 @@ class EnglishEntryadvertising extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بانگەشە، ئاگاداری، ئاگادارکردنەوە، پیشەسازی بانگەشە یان ڕاگەیاندن، پیشەگەری بانگەشە، پیشەی پلان‌دانان و داڕشتن و نووسینی بانگەشەکان
 
@@ -194,6 +195,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: advertising 

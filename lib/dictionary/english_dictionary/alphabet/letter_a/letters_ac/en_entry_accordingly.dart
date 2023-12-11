@@ -122,6 +122,7 @@ class EnglishEntryaccordingly extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جا کەوایە، لەبەر ئەوە، بەم شێوەیە، بەم جۆرە، بەم پێیە، بەگوێرەی، بە ھەمان شێوە
 
@@ -205,6 +206,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adverb: accordingly

@@ -170,6 +170,7 @@ class EnglishEntryavianflu extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئەنفلۆنزای باڵندە؛ نەخۆشییەکی کوشندە کە تووشی باڵندە، بەتایبەتی مریشک، دەبێت و ئەگەری ھەیە بگوازرێتەوە بۆ مرۆڤ و ببێتەھۆی مردن"""),
                           Row(
@@ -238,6 +239,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: avian flu

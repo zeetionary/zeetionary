@@ -170,6 +170,7 @@ class EnglishEntryaviation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: فڕینەوانی، فڕین، کەشگەڕی، کەشڕەوی، (پیشەسازی) فڕۆکەسازی
 
@@ -240,6 +241,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: aviation (derived forms: aviations)

@@ -183,6 +183,7 @@ class EnglishEntryattachment extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خۆشەویستی، ھۆگری، دڵبەستەیی، سەوداسەری، لکان، نووسان، چوونەپاڵ، پێوەنووسان، چەسپان، گرتن، پێوەلکاندن، پێکەوەبەستن، چەسپاندن، پاڵ‌خستن، دانەدەم، لکاندن، پێوەنان، لێدان، پاشکۆ، سەرخستە، پاڵخستە، پێوەندی، گرتن، گل‌دانەوە، دەس‌بەسەراگرتن، زەوت‌کردن، ناردن بۆ جێگایێ، ڕاسپێری
 
@@ -355,6 +356,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: attachment (derived forms: attachments)

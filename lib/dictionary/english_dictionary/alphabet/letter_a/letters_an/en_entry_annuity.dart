@@ -172,6 +172,7 @@ class EnglishEntryannuity extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بڕانەی ساڵانە، ساڵانە، بیمەی مووچەی ساڵانە، حەق و مافی وەرگرتنی بڕانەی ساڵانە
 
@@ -240,6 +241,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: annuity (derived forms: annuities)

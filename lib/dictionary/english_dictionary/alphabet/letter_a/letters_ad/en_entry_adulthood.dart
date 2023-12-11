@@ -130,6 +130,7 @@ class EnglishEntryadulthood extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تەمەنی پێگەیشتن، کامڵی، باڵق بوون، گەورەساڵی
 
@@ -195,6 +196,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: adulthood (derived forms: adulthoods)

@@ -183,6 +183,7 @@ class EnglishEntryaspect extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕواڵەت، نموود، دەم‌وچاو، قیافە، سەروسەکوت، سەروتەرح، ڕوخسار، بیچم، دیم
 2	ڕووکەش، ڕووکار، ڕوو، ڕووە، لایەن، ڕووخسار، بەستێن، گۆشە نیگا، دۆخ، لا، بوار، وار، ڕەھەند، دۆخ، بار، ڕەوش
@@ -355,6 +356,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: aspect 

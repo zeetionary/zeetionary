@@ -112,6 +112,7 @@ class EnglishEntryaccolade extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پیاھەڵوتن، پەسن(دان)، ڕێ‌وڕەسمی پێدانی پلەوپایەی شۆڕەسواری (کە لەودا سووک شمشێر بەسەر شانا دەھێنرێ)
 
@@ -175,6 +176,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: accolade (derived forms: accolades)

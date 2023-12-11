@@ -171,6 +171,7 @@ class EnglishEntrybanner extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پڵاکارد، ئاڵا، بەیداخ، دروشم، ناو، ناونیشان
 
@@ -267,6 +268,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: banner (derived forms: banners)

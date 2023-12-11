@@ -179,6 +179,7 @@ class EnglishEntryassertive extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لەخۆڕادیتوو، خوباوەڕ، بڕا، بەزاکوون، شێلگیر، چاونەترس، پێداگر، سوور، یەکلایی‌کەرەوە، کۆتایی‌پێھێن، بڕێنەرەوە 
 
@@ -248,6 +249,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: assertive (self-asserting, self-assertive)

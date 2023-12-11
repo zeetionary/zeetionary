@@ -351,6 +351,7 @@ class EnglishEntryback extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پشت، پاڵپشت، جێگای پاڵ(دانەوە)، گاز، میانە، پشتەوە، دواوە، پاش، ئاخر، دواوە، بەرگری (تۆپێن)، بن، ئاخر، کۆتایی، پێشوو، پێشتر، پێشین، ڕابردوو، دواوە، دواتر، پاشتر، پشتەوە، دواوە، پێش، دواکەوتوو، پاش‌کەوتوو، (دەنگ‌ناسی) دواوە، پشتەوە، لە دواوە، لە پشتەوە، پێش، پێشتر، لەوەپێش، دووبارە، دیسان
 
@@ -1000,6 +1001,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: back

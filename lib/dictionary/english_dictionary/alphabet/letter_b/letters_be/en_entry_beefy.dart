@@ -164,6 +164,7 @@ class EnglishEntrybeefy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زلەوقەڵەو، ھەیکەلی، دووباد، تێک‌سمڕاو، بەھێز، بەبڕشت، بەتابشت، پتەو، ماسوولکەدار
 
@@ -255,6 +256,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: beefy (derived forms: beefiest, beefier)

@@ -182,6 +182,7 @@ class EnglishEntryarrive extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھاتن، ھاتنە ژوور، گەیشتن
 
@@ -321,6 +322,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: arrive (derived forms: arrived, arriving, arrives)

@@ -164,6 +164,7 @@ class EnglishEntrybawl extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گریان، زاق وزیق، ھاوار کردن، ھاوار
 
@@ -273,6 +274,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: bawl (derived forms: bawls, bawling, bawled)

@@ -177,6 +177,7 @@ class EnglishEntryapron extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەڕەڵبێنە، بەرسینگە، بەران‌پێچ، بەرکۆشە، بەروانکە، پێشەوەی شانۆ یان پەردە، گۆڕەپانی فڕۆکە، ڕاگیرگەی فڕۆکە
 
@@ -245,6 +246,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: apron (derived forms: aprons)

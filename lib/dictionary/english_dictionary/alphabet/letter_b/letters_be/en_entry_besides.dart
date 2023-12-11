@@ -166,6 +166,7 @@ class EnglishEntrybesides extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەرباری ئەمەش، لەمانەش بوگزەرێ، بەدەر لەمانەش، سەرەڕای ئەوەش، جگەلە، لەگەڵ ئەمەش‌دا، ـش، ژی
 
@@ -298,6 +299,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adverb: besides

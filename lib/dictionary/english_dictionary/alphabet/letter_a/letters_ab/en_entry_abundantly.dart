@@ -122,6 +122,7 @@ class EnglishEntryabundantly extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زۆر، بە زۆر و زەبەندی، بە ئاشکرایی، بە ڕوونی
 
@@ -204,6 +205,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adverb: abundantly

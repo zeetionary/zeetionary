@@ -163,6 +163,7 @@ class EnglishEntrybelittle extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) پیشاندانی کەسێک یان ئەو شتانەی دەیکات وەک ئەوەی گرنگ نەبێت"""),
                           Row(
@@ -232,6 +233,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: belittle (= derived forms: belittling, belittles, belittled)

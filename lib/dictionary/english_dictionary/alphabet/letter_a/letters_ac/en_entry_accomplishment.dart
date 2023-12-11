@@ -131,6 +131,7 @@ class EnglishEntryaccomplishment extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕاپەڕاندن، کردن، تەواوکردن، بڕاندنەوە، بردنەسەر، گەیاندنە ئەنجام، بەسەرگەیاندن، جێبەجێ‌کردن، تێپەڕاندن
 
@@ -234,6 +235,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: accomplishment(derived forms: accomplishments)

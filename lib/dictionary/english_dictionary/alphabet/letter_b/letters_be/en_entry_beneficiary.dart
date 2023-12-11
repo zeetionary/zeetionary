@@ -164,6 +164,7 @@ class EnglishEntrybeneficiary extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سوودمەند، بەشبەر، خێربەر، یارمەتی‌گر، پیتاک‌گر، باربۆگر، داھات‌گری کلێسەیی
 
@@ -256,6 +257,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: beneficiary (derived forms: beneficiaries)

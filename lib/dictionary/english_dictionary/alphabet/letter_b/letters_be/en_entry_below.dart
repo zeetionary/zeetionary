@@ -219,6 +219,7 @@ class EnglishEntrybelow extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ژێر، بنەوە، ژێرەوە، خواروو، ژێروو، خوارەوە، خوارتر، خوارتر لە، لە بنەوە، بە بن، بە ژێر، لە ژێرەوە، (دەریاوانی) لەژێر پشتی کەشتی‌یەوە، بن یان ژێر سیفر (تێمپراچێری ھەوا)، کەمتر لە، لەژێر، لە خوارووی، دوورتر، ئەولاتر
 
@@ -465,6 +466,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adverb: below

@@ -178,6 +178,7 @@ class EnglishEntryatoll extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دوڕگەی شیلانی، شیلانەدوڕگە، شیلانی بازنەیی
 
@@ -248,6 +249,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: atoll (derived forms: atolls)

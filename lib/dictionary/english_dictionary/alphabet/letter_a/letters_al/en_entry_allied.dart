@@ -133,6 +133,7 @@ class EnglishEntryallied extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: یەک‌گرتوو، ھاوپەیمان، یەک‌کەوتوو، ڕێک‌کەوتوو، ھەڤگرتی، پێکبەستراو، پێکبەند، پێوەندیدار، سەربە ھاوپەیمانان لە جەنگی دووەمی جیھانی
 
@@ -251,6 +252,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: allied 

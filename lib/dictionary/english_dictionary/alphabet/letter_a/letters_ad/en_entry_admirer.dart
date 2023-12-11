@@ -129,6 +129,7 @@ class EnglishEntryadmirer extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پیاھەڵدەر، پەسن‌دەر، تاریف‌دەر، ئەویندار، سەوداسەر، دڵ‌تێچوو، ئەوداڵ، لایەنگر
 
@@ -194,6 +195,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: admirer (derived forms: admirers)

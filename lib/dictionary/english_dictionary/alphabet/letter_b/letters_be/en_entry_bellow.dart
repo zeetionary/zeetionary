@@ -165,6 +165,7 @@ class EnglishEntrybellow extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نەڕڕە، گوڕڕە، بۆڕە، نەڕاندن، ھۆڕاندن، بۆڕاندن
 
@@ -312,6 +313,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: bellow (derived forms: bellowed, bellowing, bellows)

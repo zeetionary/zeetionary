@@ -178,6 +178,7 @@ class EnglishEntryaupair extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کچێک کە لە ماڵێک لە وڵاتێکی تر دەمێنێتەوە بە مەبەستی فێربوونی زمان. ئەو کاری ماڵەوە دەکات و ئاگای لە منداڵەکان دەبێت و پارەیەکی کەم وەردەگرێت"""),
                           Row(
@@ -246,6 +247,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: au pair (= derived forms: au pairs)

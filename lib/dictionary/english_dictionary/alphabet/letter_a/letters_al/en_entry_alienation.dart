@@ -132,6 +132,7 @@ class EnglishEntryalienation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بیانێتی، بێگانەیی، نامۆیی، لاتەریکی، گۆشەگیری، تەنیایی، لەخونامۆبوون، خۆلێ‌گۆڕان، لەخۆبوونەوە، بێ‌خۆیی، ڕاگوێستن، بەنێوکردن، فرۆشتن، (دەروون‌ناسی) شێتی
 
@@ -224,6 +225,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: alienation (derived forms: alienations)

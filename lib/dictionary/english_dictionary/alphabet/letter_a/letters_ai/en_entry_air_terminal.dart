@@ -131,6 +131,7 @@ class EnglishEntryairterminal extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: فڕۆکەخانە، دواوێسگە یان تێرمیناڵی ئاسمانی
 
@@ -199,6 +200,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: air terminal (derived forms: air terminals)

@@ -177,6 +177,7 @@ class EnglishEntryantiquity extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کۆنینەیی، کۆنی، کەڤناری، زوویینی، دێرینە، سەردەمانی کۆن یان باستان (یۆنان و ڕۆم)، شوێنەوار یان ئاسەواری (سەردەمی) کۆن
 
@@ -298,6 +299,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: antiquity (derived forms: antiquities)

@@ -130,6 +130,7 @@ class EnglishEntryairlift extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئۆپەراسیۆنی گواستنەوەی خەڵکی بە فڕۆکە لە ناوچەیەکی مەترسیدار یان لێقەوماو"""),
                           Row(
@@ -221,6 +222,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: airlift (derived forms: airlifting, airlifted, airlifts)

@@ -181,6 +181,7 @@ class EnglishEntryattribute extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تایبەتمەندی، ڕەوشت، نیشانە، بەرژەنگ، دروشم، نموونە، ھێما، جیانیشانە، درف، تایبەت‌نیشان(ـە)
 
@@ -329,6 +330,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: attribute (derived forms: attributing, attributes, attributed)

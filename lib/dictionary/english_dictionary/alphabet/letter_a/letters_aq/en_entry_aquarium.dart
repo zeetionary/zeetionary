@@ -178,6 +178,7 @@ class EnglishEntryaquarium extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئەکواریۆم، مۆژەماسی، ئاوەژی‌خانە، ماسیدان
 
@@ -273,6 +274,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: aquarium (derived forms: aquaria, aquariums)

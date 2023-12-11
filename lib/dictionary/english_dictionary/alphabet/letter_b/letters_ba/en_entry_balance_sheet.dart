@@ -171,6 +171,7 @@ class EnglishEntrybalancesheet extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نامەی ھاوسەنگی، ھاوسەنگی‌نامە، تەرازنامە
 
@@ -241,6 +242,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: balance sheet (derived forms: balance sheets) 

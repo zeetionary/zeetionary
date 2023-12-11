@@ -172,6 +172,7 @@ class EnglishEntryanachronism extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەڵەی مێژوویی، شتێ کە لەگەڵ ڕەوتی مێژوو یەک‌نەگرێتەوە، شتێکی نەگونجاو لەگەڵ قۆناخێکی مێژوویی، دانانی بە ھەڵەی شتێ لە قۆناخێکی مێژوویی‌دا، پاش‌وپێش‌گەری
 
@@ -268,6 +269,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: anachronism (derived forms: anachronisms)

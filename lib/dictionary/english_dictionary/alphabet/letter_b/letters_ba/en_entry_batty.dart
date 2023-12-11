@@ -163,6 +163,7 @@ class EnglishEntrybatty extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دێوانە، شێت، شێتانە، کەم عەقڵ، گەوج، حەپە
 
@@ -234,6 +235,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: batty (derived forms: battier, battiest)

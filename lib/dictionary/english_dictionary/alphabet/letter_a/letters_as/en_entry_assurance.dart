@@ -181,6 +181,7 @@ class EnglishEntryassurance extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لەخۆڕادیتن، لەخۆمسۆگەربوون، خۆباوەڕی، لەخۆراپەڕموون، باوەڕ بە خۆبوون، متمانە بە خۆ بوون، بەڵێنی، گفت، دڵنیایی، متمانە، بیمە
 
@@ -301,6 +302,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: assurance (derived forms: assurances)

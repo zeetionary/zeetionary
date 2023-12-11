@@ -131,6 +131,7 @@ class EnglishEntryallegorical extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھێمایی، نیشانەیی، مەجازی، ڕازمەند، ڕەمزی، خوازەیی
 
@@ -199,6 +200,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: allegorical 

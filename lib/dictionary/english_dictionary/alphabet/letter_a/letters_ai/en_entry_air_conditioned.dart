@@ -129,6 +129,7 @@ class EnglishEntryairconditioned extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) شوێنێک کە سیستەمی فێنککەرەوەی تێدایە"""),
                           Row(
@@ -195,6 +196,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: air-conditioned 

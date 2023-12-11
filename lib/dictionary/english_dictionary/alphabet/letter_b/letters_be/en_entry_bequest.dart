@@ -163,6 +163,7 @@ class EnglishEntrybequest extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: میرات، بەش، بۆماوە، کەلەپوور، بەجێ‌ھێشتنی میرات یان کەلەپوور
 
@@ -234,6 +235,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: bequest (derived forms: bequests)

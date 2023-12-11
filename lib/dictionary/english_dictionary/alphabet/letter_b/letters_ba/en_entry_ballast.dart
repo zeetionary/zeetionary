@@ -171,6 +171,7 @@ class EnglishEntryballast extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پارسەنگ، ڕاگیرە، سەنگ یان قورسەی ھاوکێشی، ھاوسەنگێنە, ورکەبەرد، زیخ
 
@@ -267,6 +268,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: ballast (derived forms: ballasts)

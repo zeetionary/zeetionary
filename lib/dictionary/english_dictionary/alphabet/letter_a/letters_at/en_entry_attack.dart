@@ -313,6 +313,7 @@ class EnglishEntryattack extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھێرش، ھەڵمەت، شاڵاو، گوژمە، نھێو، پەلامار، دەسپێک، دەس‌پێکردن، سەرەتا، دەس‌تێدان
 
@@ -765,6 +766,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: attack (derived forms: attacks, attacking, attacked)

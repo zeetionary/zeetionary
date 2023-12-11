@@ -176,6 +176,7 @@ class EnglishEntryanimal extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گیان‌لەبەر، ڕۆح‌لەبەر، ئاژەڵ، گیانەوەر، گیان‌دار، ژین‌دار، جانەوەر، زیندەوەر، بوونەوەر، گیانەوەری چوارپێ، مرۆڤی دڕندە، گیانەوەری، لەشی، جەستەیی، تەنانی
 
@@ -394,6 +395,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: animal (derived forms: animals)

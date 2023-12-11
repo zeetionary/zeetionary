@@ -131,6 +131,7 @@ class EnglishEntryalas extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (وێژەیی یان بە شۆخی) حەیف، بەداخەوە، واخ، داخ، وای، ھەی‌ڕۆ، وەی‌ڕۆ، ئاھـ، مخابن، فەلەک داد، داخی بە جەرگم
 
@@ -199,6 +200,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adverb: alas 

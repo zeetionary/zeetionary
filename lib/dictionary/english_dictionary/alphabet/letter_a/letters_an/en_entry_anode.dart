@@ -172,6 +172,7 @@ class EnglishEntryanode extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ژوورک(ە)، جەمسەری ئەرێنی، جەمسەری گەرم، ئانۆد، گەرمەجەمسەر
 
@@ -242,6 +243,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: anode (derived forms: anodes)

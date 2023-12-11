@@ -196,6 +196,7 @@ class EnglishEntryamerican extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئەمریکایی، سەربە ئەمریکا یان وشکاری ئەمریکا، خەڵکی ئەمریکا (باکوور، ناوەند یا باشوور، بەڵام باتایبەتی ویلایەتە یەکگرتووەکانی ئەمریکا)
 
@@ -307,6 +308,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: American 

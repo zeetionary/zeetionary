@@ -142,6 +142,7 @@ class EnglishEntryalternative extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئالتێرناتیڤ، جێگرەوە، لەباتی، بریتی، جێگر، دی، ئیتر، ئیدی، ڕێگا، چارە، جیاواز، ھەڵبژاردن، سەرپشکی، ئیمکان، چار، ڕێگا یان چارە (یەکی‌تر)
 
@@ -283,6 +284,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 Noun: alternative (derived forms: alternatives)

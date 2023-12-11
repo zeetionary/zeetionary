@@ -131,6 +131,7 @@ class EnglishEntryalternator extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گۆڕەری تەزووی گۆڕاو، ئالتێرناتۆر، داینەمۆ، دینام
 
@@ -199,6 +200,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: alternator (derived forms: alternators)

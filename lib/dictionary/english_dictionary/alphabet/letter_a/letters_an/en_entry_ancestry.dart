@@ -172,6 +172,7 @@ class EnglishEntryancestry extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕەچەڵەک، ڕەگەز، پێشینیان، بەرینان، جسنات، بڕبڕە، ئەژداد، تان‌وپۆ
 
@@ -266,6 +267,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: ancestry (derived forms: ancestries)

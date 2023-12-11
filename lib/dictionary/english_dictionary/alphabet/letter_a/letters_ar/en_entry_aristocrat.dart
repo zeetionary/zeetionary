@@ -177,6 +177,7 @@ class EnglishEntryaristocrat extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئەریستۆکرات، گەورەزادە، بەگزادە، سەرچین، خانەدان
 
@@ -247,6 +248,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: aristocrat (derived forms: aristocrats)

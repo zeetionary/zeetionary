@@ -180,6 +180,7 @@ class EnglishEntryarmour extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زرێ، کڵاوزرێ، ، پارێزە، قاپیلک، قاوغ یان توێی پارێزەری دەرەوە (ھی گیانەوەر یا گیا)، ھێزی زرێ‌پۆش
 
@@ -325,6 +326,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: armour (derived forms: armours)

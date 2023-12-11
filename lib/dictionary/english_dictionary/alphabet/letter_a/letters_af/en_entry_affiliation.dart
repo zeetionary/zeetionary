@@ -129,6 +129,7 @@ class EnglishEntryaffiliation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (پێوە)بەستراوی، پێوەستایەتی، پێوەبەندی، سەربەدی‌یەتی، پشت‌پێ‌بەستوویی، پاشکۆیی، پێوەبەندایەتی، دیبەندایەتی، ئەندامێتی
 
@@ -194,6 +195,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: affiliation (derived forms: affiliations)

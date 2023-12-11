@@ -163,6 +163,7 @@ class EnglishEntrybatteringram extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کەلەبەران، درگاشکێن، شوورەڕووخێن، قەڵاڕووخێن، دیوارشکێن، قەڵاڕمێن (ئامێرێکی شەڕی کۆنە)
 
@@ -234,6 +235,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: battering ram (derived forms: battering rams)

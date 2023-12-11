@@ -183,6 +183,7 @@ class EnglishEntryappropriate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شیاو، لێ‌وەشاو، گونجاو، لواو، لەبار، دروست، باش، بەڕێ‌وجێ، پێوەندی‌دار
 
@@ -403,6 +404,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: appropriate

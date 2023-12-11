@@ -121,6 +121,7 @@ class EnglishEntryabrupt extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کتوپڕ، ناکاو، چاوەڕوان‌نەکراو، بێ‌ڕەوشت، زۆر لێژ، تەلان، لاپێ، سەرەولێژی توند، سەرەوخواری، توندە، سینەکێش، لە پڕ، لە ناکاو، لە ناخافڵ، لە پڕتاو، کتوپڕ، کوت‌ومت(انە)، چاوەڕوان‌نەکراوانە
 
@@ -204,6 +205,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: abrupt (derived forms: abrupter, abruptest)

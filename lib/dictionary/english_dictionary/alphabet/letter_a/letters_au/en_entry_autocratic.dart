@@ -180,6 +180,7 @@ class EnglishEntryautocratic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تاک‌فەرمان‌داری‌یانە، تاکەدەسەڵات‌دارانە، دیکتاتۆڕ، زۆردارانە
 
@@ -276,6 +277,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: autocratic 

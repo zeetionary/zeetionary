@@ -177,6 +177,7 @@ class EnglishEntryarchtwo extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (پێشگر) سەرەکی، زیاتر لە ھەر شتێکی تر"""),
                           Row(
@@ -245,6 +246,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Prefix: arch- 

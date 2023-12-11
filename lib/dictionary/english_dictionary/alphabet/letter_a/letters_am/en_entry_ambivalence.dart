@@ -131,6 +131,7 @@ class EnglishEntryambivalence extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دوودڵی، دڕدۆنگی، ڕاڕایی‌بوون، تاوتاوی، ناکۆکی، یەک‌نەگرتنەوە، دژایەتی، (کیمیا) دووھاوھێزی، (دەروون‌ناسی) دوولایەنێتی، دوولا(یەنە)گەری
 
@@ -200,6 +201,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: ambivalence (derived forms: ambivalences)

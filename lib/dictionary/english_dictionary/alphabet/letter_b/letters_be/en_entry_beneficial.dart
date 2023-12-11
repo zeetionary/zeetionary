@@ -164,6 +164,7 @@ class EnglishEntrybeneficial extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەقازانج، سوودبەخش، بەکەڵک، بەخێر، بەبەھرە، خێربەر، خێرپێ‌گەیشتوو، قازانج‌بەر
 
@@ -253,6 +254,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: beneficial

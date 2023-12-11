@@ -57,6 +57,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       appBar: AppBar(
         // centerTitle: true,
         scrolledUnderElevation: 0,
+        // backgroundColor: Colors.grey.withOpacity(0.1),
         title: const ZeetionaryAppbarStyle(),
         // title: Image.asset(
         //   'assets/images/zeetionary_three.png',
@@ -80,6 +81,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       drawer: const CommunityListDrawer(),
       bottomNavigationBar: NavigationBarTheme(
         data: NavigationBarThemeData(
+            // backgroundColor: Colors.grey.withOpacity(0.1),
             indicatorColor: currentTheme.scaffoldBackgroundColor,
             labelTextStyle: MaterialStateProperty.all(
               const TextStyle(fontSize: 14, fontWeight: FontWeight.w500),

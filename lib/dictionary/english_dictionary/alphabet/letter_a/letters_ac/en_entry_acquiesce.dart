@@ -129,6 +129,7 @@ class EnglishEntryacquiesce extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) ڕازیبوون بە شتێک ئەگەرچی پێت گونجاو نییە"""),
                           Row(
@@ -191,6 +192,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: acquiesce (derived forms: acquiesced, acquiescing, acquiesces)

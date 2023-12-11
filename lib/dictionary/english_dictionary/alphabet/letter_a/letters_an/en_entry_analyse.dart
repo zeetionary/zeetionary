@@ -173,6 +173,7 @@ class EnglishEntryanalyse extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شیتەڵاندن، شیتەڵ‌کردن، شی‌کردنەوە، شیکاری‌کردن، تاوتوێ‌کردن، لێکدانەوە، بڕگاندن (ڕێزمان)
 
@@ -287,6 +288,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: analyse (derived forms: analysed, analysing)

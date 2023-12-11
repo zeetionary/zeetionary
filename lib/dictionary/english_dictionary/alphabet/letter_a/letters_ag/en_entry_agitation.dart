@@ -130,6 +130,7 @@ class EnglishEntryagitation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نیگەرانی، ناڕەحەتی، دڵەڕاوکێ، شڵەژان، ورووژان، ھەژان، پەشۆکاوی، پشێوی، ئاڵۆزی، شۆر، ئاژاوە، شاڵاو، ھەڵمەت، ڕاگەیاندن، ڕاتڵەکان، شڵەقاندن، شێواندن، لێکدان، تەکان‌دان
 
@@ -224,6 +225,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: agitation (derived forms: agitations)

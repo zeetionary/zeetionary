@@ -129,6 +129,7 @@ class EnglishEntryadjudication extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دادوەری، دادگەری، شەرع‌کردن، نێوگژیوانی، ناوبەری، نێوبژیوانی
 
@@ -194,6 +195,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: adjudication (derived forms: adjudications)

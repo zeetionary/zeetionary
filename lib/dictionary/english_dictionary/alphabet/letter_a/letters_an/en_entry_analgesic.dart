@@ -172,6 +172,7 @@ class EnglishEntryanalgesic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ژان‌بڕ، ژان‌شکێن، دامرکێن، مەڵھەمی ژان‌بڕ، مەرھەمی دامرکێنەر
 
@@ -266,6 +267,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: analgesic 

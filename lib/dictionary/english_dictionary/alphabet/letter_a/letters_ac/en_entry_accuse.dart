@@ -128,6 +128,7 @@ class EnglishEntryaccuse extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گوناھبارکردن، گومان‌لێ‌کردن، تۆمەت‌بارکردن، بوختان‌کردن
 
@@ -206,6 +207,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: accuse (derived forms: accuses, accused, accusing)

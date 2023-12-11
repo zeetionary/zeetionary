@@ -164,6 +164,7 @@ class EnglishEntrybewilder extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مات و وڕ کردن، ون کردن، بزر کردن
 
@@ -254,6 +255,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: bewilder (derived forms: bewilders, bewildering, bewildered)

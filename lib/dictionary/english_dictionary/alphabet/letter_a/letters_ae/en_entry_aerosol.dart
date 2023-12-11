@@ -129,6 +129,7 @@ class EnglishEntryaerosol extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پڕژێنە، پڕژێنەک، پژێنە، پژپژە، (کیمیا) ڕاگرتنی (پارچۆلکەکانی) شلە یان تەنێ لە ھەوا یا لە گازدا (دووکەڵ و تەم و مژ ئێرۆسۆلن)
 
@@ -194,6 +195,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: aerosol  (derived forms: aerosols)

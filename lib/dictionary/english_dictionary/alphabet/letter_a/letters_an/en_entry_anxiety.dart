@@ -179,6 +179,7 @@ class EnglishEntryanxiety extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دڵەتەپە، دڵەخورپێ، دڵەڕاوکێ، خەتەرە، نگەرانی، ناڕەحەتی، خەم، پەرێشانی، ئارام‌لێ‌ھەڵگیراوی، تامەزرۆیی، گوڕوتین، پەرۆش، مەراق
 
@@ -351,6 +352,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: anxiety (derived forms: anxieties)

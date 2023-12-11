@@ -179,6 +179,7 @@ class EnglishEntryasp extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەرگیری شاخ‌دار، بەرگیر(ئەفعی)ی چکولەی ژاراوی
 
@@ -249,6 +250,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: asp (derived forms: asps)

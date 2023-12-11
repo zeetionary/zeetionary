@@ -163,6 +163,7 @@ class EnglishEntrybefriend extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) بوون بە ھاوڕێی کەسێک"""),
                           Row(
@@ -232,6 +233,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: befriend (derived forms: befriends, befriending, befriended)

@@ -167,6 +167,7 @@ class EnglishEntrybeneath extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لە ژێر، بن، لە بن، لە خوارووی، خوار، لە خوارەوە، خوارتر لە، بێ‌بایەخ، لێنەوەشاوی
 
@@ -314,6 +315,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Preposition: beneath

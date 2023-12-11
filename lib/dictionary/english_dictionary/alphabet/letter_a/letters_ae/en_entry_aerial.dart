@@ -130,6 +130,7 @@ class EnglishEntryaerial extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئاریەڵ، ھەوایی، حەوایی، بایی، ئاسمانی، فڕینی، سەربە فڕین، بڵیند، خەیاڵی، ھیچ، پڕوپووچ، بێ‌بنچینە، سووک، (بەشێ لە گیا یان ڕووەک) لە سەرووی عەرزەوە شین دەبێ
 
@@ -217,6 +218,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: aerial (derived forms: aerials)

@@ -177,6 +177,7 @@ class EnglishEntryappetizing extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئیشتیاکەرەوە، دڵبژۆک، ئارەزووھێن
 
@@ -247,6 +248,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: appetizing (appetising [Brit])

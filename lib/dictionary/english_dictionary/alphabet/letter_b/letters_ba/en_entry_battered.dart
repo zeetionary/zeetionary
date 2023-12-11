@@ -165,6 +165,7 @@ class EnglishEntrybattered extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لەبەریەک‌ھەڵوەشاو، کۆنە، شڕ، ڕزیو، شپرزە، لەکارکەوتوو
 
@@ -278,6 +279,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: battered 

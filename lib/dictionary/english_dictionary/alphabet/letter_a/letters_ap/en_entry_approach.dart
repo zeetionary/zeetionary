@@ -252,6 +252,7 @@ class EnglishEntryapproach extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بۆچوون، دیتن، نێرین، تێ‌ڕوانین، ھەڵس‌وکەوت، شێوەی جووڵانەوە، شێوە، ڕێک، شێواز، بار، ڕێگا، ڕێ، ڕێگای چوونەنێو، ئامێر، کەرەسە، لێکچوون، ھاوشێوەیی، دەس‌ڕاگەیشتن، گەیشتن، نزیک‌بوونەوە، نزیکی، نزیک‌کەوتن، قەرەکەوتن، توخن‌کەوتن، داوا، داخوازی، پێشنیار
 
@@ -624,6 +625,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: approach (derived forms: approaching, approaches, approached)

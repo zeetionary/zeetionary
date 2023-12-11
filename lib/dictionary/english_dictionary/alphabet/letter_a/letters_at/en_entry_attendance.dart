@@ -180,6 +180,7 @@ class EnglishEntryattendance extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھاتن، ئامادەبوون، ھاتووان، ئامادەبووان، لێرەبووان، لێرەبوون، خزمەت کردن، چاولێ‌وەبوون، ئاگاداری، چاودێری، ئاگالێ‌بوون، بەدیارەوەبوون، پێ‌ڕاگەیشتن، بەلاوەبوون، لەگەڵ‌بوون، خزمەت، ڕاژە
 
@@ -274,6 +275,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: attendance (derived forms: attendances)

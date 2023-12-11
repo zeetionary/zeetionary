@@ -112,6 +112,7 @@ class EnglishEntryabsentee extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (کەس) نادیار، نائامادە، نەھاتە، ناپەیدا، نالێرە، نەھاتوو
 
@@ -175,6 +176,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: absentee (derived forms: absentees)

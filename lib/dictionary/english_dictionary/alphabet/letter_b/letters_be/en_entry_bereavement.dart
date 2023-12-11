@@ -164,6 +164,7 @@ class EnglishEntrybereavement extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کۆست، زگ‌سووتان، ماتەم، تازیەباری، عەزیەتی، شێوەن‌گێڕی، شین، ماتەم‌گرتوویی، بێ‌بەشی، بێ‌بەرێتی، لەدەس‌چوون
 
@@ -255,6 +256,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: bereavement (derived forms: bereavements)

@@ -129,6 +129,7 @@ class EnglishEntryadorn extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) خۆجوانکردن بە شتی جوان"""),
                           Row(
@@ -191,6 +192,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: adorn (derived forms: adorned, adorns, adorning)

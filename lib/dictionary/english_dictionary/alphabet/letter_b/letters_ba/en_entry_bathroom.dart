@@ -162,6 +162,7 @@ class EnglishEntrybathroom extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: حەمام، گەرماو، دەسبەئاو، ئاوەدەس‌خانە
 
@@ -265,6 +266,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: bathroom (derived forms: bathrooms)

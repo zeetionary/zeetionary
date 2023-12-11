@@ -172,6 +172,7 @@ class EnglishEntryamplitude extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (فیزیک) فراوانی، فرەیی، زۆری، گەلەمپەری، بەرینایی، بەربڵاوی، گەورەیی، پانتایی، بوار، مەڵبەند، کشان
 
@@ -267,6 +268,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: amplitude (derived forms: amplitudes)

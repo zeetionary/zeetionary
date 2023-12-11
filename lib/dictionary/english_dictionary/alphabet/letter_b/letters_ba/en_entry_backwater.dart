@@ -171,6 +171,7 @@ class EnglishEntrybackwater extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پەنگاو، گۆلکاو، گۆلاو، پاشاو، دواکەوتوویی، لاتەریک، (شوێنی) چەپەک، لاپەڕ
 
@@ -263,6 +264,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: backwater (derived forms: backwaters)

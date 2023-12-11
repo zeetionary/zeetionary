@@ -170,6 +170,7 @@ class EnglishEntrybanns extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ڕاگەیاندنی فەرمی کڵێسا کە دوو کەس ھاوسەرگیری دەکەن"""),
                           Row(
@@ -237,6 +238,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: banns

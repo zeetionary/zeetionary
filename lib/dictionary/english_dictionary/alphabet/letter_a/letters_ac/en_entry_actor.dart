@@ -130,6 +130,7 @@ class EnglishEntryactor extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕۆڵ‌گێڕ، دەورگێڕ، ئەکتەر، ئەکتێر
 
@@ -216,6 +217,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: actor (derived forms: actors)

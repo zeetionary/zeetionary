@@ -177,6 +177,7 @@ class EnglishEntryarmada extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کۆمەڵەکەشتی، کەشتی‌گەل، دەستەکەشتی (ھی شەڕ)
 
@@ -247,6 +248,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: armada (derived forms: armadas)

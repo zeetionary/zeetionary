@@ -129,6 +129,7 @@ class EnglishEntryafresh extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جارێکی تر، سەرلەنوێ، دووبارە، لە ھەوەڵەوە، لە نووکەوە
 
@@ -196,6 +197,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adverb: afresh

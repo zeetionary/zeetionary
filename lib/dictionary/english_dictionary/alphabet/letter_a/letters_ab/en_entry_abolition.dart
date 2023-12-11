@@ -107,6 +107,7 @@ class EnglishEntryabolition extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سڕینەوە، ھەڵوەشانەوە، ھەڵوەشاندنەوە، پووکاندنەوە، پووچ‌کردنەوە بەتاڵ‌کردنەوە، ھەڵگرتن، نەھێشتن، لە بڕەوخستن، پووچەڵ کردنەوە
 
@@ -165,6 +166,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: abolition (derived forms: abolitions)

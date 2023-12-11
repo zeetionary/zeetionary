@@ -171,6 +171,7 @@ class EnglishEntrybakingpowder extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەوێن، گەردەی ھەوێن، ئامیان، گەردە یا ھاڕاوەی نان‌کردن
 
@@ -241,6 +242,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: baking powder (derived forms: baking powders)

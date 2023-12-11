@@ -163,6 +163,7 @@ class EnglishEntrybeard extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕیش، ڕدێن، قەڵتاس، قەڵپنگ، داسوو، بژ، پژ، قژی گەنمەشامی، خوڵامانە، بسکۆڵ، کاکۆڵ
 
@@ -249,6 +250,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: beard (derived forms: bearding, bearded, beards)

@@ -131,6 +131,7 @@ class EnglishEntryambulance extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ماشێنی فریاکەوتن، نەخۆش‌بەر، نەخۆش‌ھەڵگر، نەخۆش‌خانەی گەڕۆک
 
@@ -201,6 +202,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: ambulance (derived forms: ambulances)

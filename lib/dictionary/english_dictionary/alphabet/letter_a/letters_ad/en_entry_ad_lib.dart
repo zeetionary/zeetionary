@@ -130,6 +130,7 @@ class EnglishEntryadlib extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خۆوێژی، سەرپێیی، بێ‌ئامادەبوون، بێ‌ئامادەیی، بێ‌بیر لێ‌کردنەوە، ئازادانە، بێ‌ھیچ بەربەستێ، ھەر ئەندازە، بێ‌بەربەستانە
 
@@ -216,6 +217,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: ad-lib (derived forms: ad-libbed, ad-libbing, ad-libs)

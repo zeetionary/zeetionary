@@ -166,6 +166,7 @@ class EnglishEntrybeast extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گیانەوەر، ئاژەڵ، وڵسات، پاتاڵ، چوارپێ، چوارپا، گیان‌لەبەر، کەسێکی زۆردار و لە کۆنتڕۆڵ‌دەرچوو، مرۆی گیانەوەرخوو
 
@@ -298,6 +299,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: beast (derived forms: beasts)

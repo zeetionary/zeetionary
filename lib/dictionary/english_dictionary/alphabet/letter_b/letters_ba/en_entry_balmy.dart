@@ -170,6 +170,7 @@ class EnglishEntrybalmy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گەرم‌وخۆش، خوش (ھەوا)، بۆن‌خۆش، بەبۆن و بەرام، مەڵھەمی، مەرھەمی
 
@@ -239,6 +240,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: balmy (derived forms: balmiest, balmier)

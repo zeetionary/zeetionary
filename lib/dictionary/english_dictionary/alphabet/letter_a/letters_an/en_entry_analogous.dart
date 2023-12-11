@@ -172,6 +172,7 @@ class EnglishEntryanalogous extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھاوشێوە، لێکچوو، ھاوتا، وەکیەک، ھاوچەشن، شیاوی ھەڵسەنگاندن، ھاوتەریب
 
@@ -265,6 +266,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: analogous 

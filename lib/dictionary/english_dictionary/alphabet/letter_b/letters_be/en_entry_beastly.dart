@@ -164,6 +164,7 @@ class EnglishEntrybeastly extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گیان‌لەبەری، دڕندانە، بێ‌بەزەیی‌یانە، دڵڕەقانە، ناخۆش، پیس
 
@@ -252,6 +253,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: beastly (derived forms: beastlier, beastliest)

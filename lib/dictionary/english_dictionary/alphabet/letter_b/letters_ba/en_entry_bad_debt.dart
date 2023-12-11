@@ -170,6 +170,7 @@ class EnglishEntrybaddebt extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: قەرزی سووتاو یان خوراو، قەرزی تیاچوو یان چوو (لەوە ناچێ بدرێتەوە)
 
@@ -240,6 +241,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: bad debt (derived forms: bad debts) 

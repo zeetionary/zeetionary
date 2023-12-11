@@ -179,6 +179,7 @@ class EnglishEntryaseptic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (پزشکی) خاوێنەوەبوو، پاکژەوەبوو، خاوێنەوەکراو، پاکژکراو، خاوێن، خاوێن لە ھەر بەکتریایێکی بەزیان یان زیان‌بار
 
@@ -249,6 +250,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: aseptic

@@ -167,6 +167,7 @@ class EnglishEntrybecome extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بوون، گەورە بوون، شیاو بوون، شایان بوون، ھاتن
 
@@ -328,6 +329,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: become (derived forms: becoming, became, become, becomes) 

@@ -129,6 +129,7 @@ class EnglishEntryacre extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئەکر، گاوەخان (= یەکەی پێوانی زەوی، بەرامبەر بە ٤.٨٤ یاردی چوارگۆشە و ٤.٠٥٠ میتری چوارگۆشە یان ٠.٤٠٥ ھێکتار
 
@@ -193,6 +194,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: acre (derived forms: Acres, acres)

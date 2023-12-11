@@ -130,6 +130,7 @@ class EnglishEntryadmire extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) ڕێزگرتنی کەسێک یان شتێک بەھۆی کردنی شتێک"""),
                           Row(
@@ -213,6 +214,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: admire (derived forms: admired, admiring, admires)

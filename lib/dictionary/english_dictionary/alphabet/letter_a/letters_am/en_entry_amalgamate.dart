@@ -133,6 +133,7 @@ class EnglishEntryamalgamate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) یەکگرتن بۆ درووستکردنی شتێکی گەورەتر"""),
                           Row(
@@ -246,6 +247,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: amalgamate 

@@ -200,6 +200,7 @@ class EnglishEntryand extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: و، وە، لەگەڵ، تا، ھەتا، کە، ھەروەھا
 
@@ -440,6 +441,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Conjunction: and 

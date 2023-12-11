@@ -177,6 +177,7 @@ class EnglishEntryapathetic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کەمتەرخەم، نادەربەست، بێ‌دەربەست، دڵسارد، ساردوسڕ، دڵ‌مردوو، بێ‌تاقەت، خەمسار، ناھومێد، بێ‌ھیوا، بێ‌ھەست
 
@@ -247,6 +248,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: apathetic 

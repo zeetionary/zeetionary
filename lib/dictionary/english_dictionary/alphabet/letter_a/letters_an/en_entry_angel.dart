@@ -173,6 +173,7 @@ class EnglishEntryangel extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: فریشتە، مەلایەکەت، کۆینی بەرینی ئینگلتەرە، پەیام یان سیگناڵێکی ڕوونەوەنەبووی ڕادارێ، کەسێکی یەکجار جوان یان باش، ڕووپەری، فریشتە
 
@@ -313,6 +314,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: angel (derived forms: angels)

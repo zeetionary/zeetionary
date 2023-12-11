@@ -179,6 +179,7 @@ class EnglishEntryaunt extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پوور، میمی، میمک؛ پوور، پلکە، تیتک، خاڵۆژن
 
@@ -267,6 +268,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: aunt (derived forms: aunts)

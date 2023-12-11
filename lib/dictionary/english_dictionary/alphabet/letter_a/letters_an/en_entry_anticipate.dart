@@ -177,6 +177,7 @@ class EnglishEntryanticipate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) پێشبینی‌کردن"""),
                           Row(
@@ -345,6 +346,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: anticipate (derived forms: anticipated, anticipates, anticipating) 

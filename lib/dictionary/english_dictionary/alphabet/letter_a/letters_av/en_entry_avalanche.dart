@@ -171,6 +171,7 @@ class EnglishEntryavalanche extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕنوو، کڵێڵە، کلیلە، کەویەبەفر، سلخە، شاپە، شیپ، ھەرەس، سیپان، ئاشووت، لێشاو، کۆما، لۆدە، کەڵەک، (فیزیک) ھەرەسە: ڕەوت یا پرۆسەیێکی کەڵەکەبوو
 
@@ -265,6 +266,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: avalanche (derived forms: avalanches)

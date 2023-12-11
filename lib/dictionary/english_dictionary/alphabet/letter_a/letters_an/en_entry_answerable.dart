@@ -175,6 +175,7 @@ class EnglishEntryanswerable extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەرپرس، وەڵام‌دەرەوە، شیاوی وەڵام‌دانەوە، پێبەند، دەربەست
 
@@ -319,6 +320,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: answerable 

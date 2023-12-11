@@ -340,6 +340,7 @@ class EnglishEntrybad extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خراپ، بەد، بەو، دژ، نەباش، چەپ، ناحەز، ناپەسند، ناشیرین، کرێت، ناخۆش، ترسناک، کەم، ناتەواو، بەش‌نەکردوو، لاواز، گەنیو، پیس، ڕزیو، موزیڕ، بەوەی، خراپ، بەزەڕ، بەزیان، سەخت، توند، ناشی، نالەبار، نابار، ھەڵەشە، ھاروھاج، بەدفەڕ، شلوق، لاسار، شەیتان، نەگونجاو، بێجێ، پڕگرفت، پرئاستەنگ، ھەڵە، شاشی، چەوت، نادروست، بەئێش، بەژان، نەخۆش، ناساخ، ناسا، بێ‌نرخ، قەڵب، ھیچ‌نەکردوو، ساختە، چروک، بەکارنەھاتوو (کۆین)، خراپ، شپرزە، زۆر، خراپی
 
@@ -786,6 +787,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: bad (derived forms: worst, worse)

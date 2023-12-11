@@ -107,6 +107,7 @@ class EnglishEntryabound extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) کاتێک شتێک بوونی ھەیە بە ژمارەیەکی زۆر"""),
                           Row(
@@ -162,6 +163,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: abound (derived forms: abounds, abounded, abounding)

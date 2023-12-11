@@ -130,6 +130,7 @@ class EnglishEntryaccompany extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: یاوەریکردن، ھاودەمیکردن
 
@@ -246,6 +247,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: accompany (derived forms: accompanies, accompanied, accompanying)

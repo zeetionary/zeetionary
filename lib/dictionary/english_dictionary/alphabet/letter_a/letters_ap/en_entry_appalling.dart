@@ -177,6 +177,7 @@ class EnglishEntryappalling extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ترسێنەر، ترسناک، دڵتەزێن، جەرگبڕ، جێی‌داخ، زۆر شپرزە، یەکجار خراپ
 
@@ -246,6 +247,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: appalling 

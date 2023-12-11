@@ -161,6 +161,7 @@ class EnglishEntrybash extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گورز، لێدان، مشت، میوانی یان ئاھەنگێکی گەورە، (بریتانیا) حەول، تێکۆشان
 
@@ -287,6 +288,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: bash (derived forms: bashed, bashing, bashes)

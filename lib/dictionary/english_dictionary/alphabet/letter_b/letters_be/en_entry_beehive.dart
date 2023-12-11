@@ -164,6 +164,7 @@ class EnglishEntrybeehive extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کەلوو، کەندوو، کەنوو، پلوورە، خڵێف، کوورە، کوورەھەنگ، ھەنگ‌دان، ھەنگەژاڵ، کاریتان، ھوویسیر، ھوویسیل (لە شووڵ تەنراو)، کەنوویی (جۆرێ شێوازی قژی ژنان، باوی شەستەکان)
 
@@ -255,6 +256,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: beehive (derived forms: beehives)

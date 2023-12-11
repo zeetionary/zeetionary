@@ -178,6 +178,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (مەتریاڵ) خاوێن‌کەر، بۆگەن‌بەر، گەندسڕ، پیسی‌بەر، (سەربە) خاوێن‌کردنەوە
 
@@ -321,6 +322,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: antiseptic 

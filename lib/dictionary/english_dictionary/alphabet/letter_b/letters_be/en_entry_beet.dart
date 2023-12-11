@@ -163,6 +163,7 @@ class EnglishEntrybeet extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (گیانەوەرناسی) چۆننەر، چەوەندەر، چۆننەری شەکر یان قەند، ڕەگ یان بنجی چۆننەر، سەلکەچەوەندەر، سەلکەبزووت
 
@@ -234,6 +235,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: beet (derived forms: beets)

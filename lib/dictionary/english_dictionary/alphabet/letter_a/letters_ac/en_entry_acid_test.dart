@@ -129,6 +129,7 @@ class EnglishEntryacidtest extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پێوەر یان پێوانەی دیاری‌کەر، بەردی مەحەک، تاقی‌کردنەوەی سەخت
 
@@ -193,6 +194,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: acid test (derived forms: acid tests)

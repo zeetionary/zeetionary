@@ -197,6 +197,7 @@ class EnglishEntryamongst extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (لە) نێوان، لەنێو، لەنێوەڕاست، ل ئۆرتا، لە ڕێزەی، یەکێ لە
 
@@ -314,6 +315,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Preposition: amongst

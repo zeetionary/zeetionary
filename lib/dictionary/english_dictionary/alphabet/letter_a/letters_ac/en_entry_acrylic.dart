@@ -128,6 +128,7 @@ class EnglishEntryacrylic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئەکریلیک، سەربە یان لە ترشەڵۆکی ئەکریلیک وەرگیراوە، لە ئەکریلیک دروست کراوە یان پێکھاتووە
 
@@ -207,6 +208,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: acrylic (derived forms: acrylics)

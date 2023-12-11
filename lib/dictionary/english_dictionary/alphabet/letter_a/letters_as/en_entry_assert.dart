@@ -182,6 +182,7 @@ class EnglishEntryassert extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: داوا کردن، بەرگری کردن، جەخت کردن
 
@@ -328,6 +329,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: assert (derived forms: asserting, asserted, asserts)

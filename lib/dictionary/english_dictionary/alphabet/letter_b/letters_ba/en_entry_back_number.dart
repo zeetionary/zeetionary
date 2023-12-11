@@ -171,6 +171,7 @@ class EnglishEntrybacknumber extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کۆپی پێشووتری گۆڤار یان ڕۆژنامە"""),
                           Row(
@@ -239,6 +240,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: back number (derived forms: back numbers)

@@ -180,6 +180,7 @@ class EnglishEntryarrow extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تیر، خەدەنگ، دۆخ، تەخش (ناسکەتیر)، تیراسا، ساتیر، تیرۆکە، لاتیر
 
@@ -298,6 +299,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: arrow (derived forms: arrows)

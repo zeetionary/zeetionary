@@ -172,6 +172,7 @@ class EnglishEntryannals extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (ساڵ بە ساڵ) ساڵ‌نامە، ڕووداونامە، تۆمارنامە، مێژوونامە، مێژوو، تۆمارە مێژویی‌یەکان
 
@@ -266,6 +267,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: annals

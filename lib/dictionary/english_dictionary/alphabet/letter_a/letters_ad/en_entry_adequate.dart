@@ -130,6 +130,7 @@ class EnglishEntryadequate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لێھاتوو، ژێھاتی، لێوەشاو، گونجاو، بەس، بەش‌کردوو، سەروزیاد، سەرومڕ، سەروبەر، بێ‌کەم‌وزیاد، تەواو
 
@@ -213,6 +214,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: adequate 

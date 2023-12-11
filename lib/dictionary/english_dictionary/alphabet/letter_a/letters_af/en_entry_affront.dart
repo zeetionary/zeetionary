@@ -130,6 +130,7 @@ class EnglishEntryaffront extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بێ‌ڕێزی، بێ‌حورمەتی، سووکایەتی، ئابڕووبردن
 
@@ -217,6 +218,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: affront (derived forms: affronts)

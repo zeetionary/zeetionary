@@ -130,6 +130,7 @@ class EnglishEntryaffection extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خۆشەویستی، دڵ‌تێچوون، دڵ‌پێدان، دڵ‌بەستەیی، ئەڤینداری، میر، حەز، ویست، مەیل، ئارەزوو، ھۆگری، سۆز، سۆزداری، نەخۆشی، تووش‌بوون، (پیا)پیاکران، گرتن، دوچار بوون، پێوەبوون، کارتێ‌کردن، کارلێ‌کردن، کارتێ‌کران
 
@@ -214,6 +215,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: affection (derived forms: affections)

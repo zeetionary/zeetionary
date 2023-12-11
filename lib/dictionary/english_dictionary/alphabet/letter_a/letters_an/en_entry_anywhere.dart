@@ -174,6 +174,7 @@ class EnglishEntryanywhere extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بۆ ھەر کوێ، لە ھەر شوێنێ، لە ھەر جێیێ، ھەر شوێنێ، ھەر شوێنێ کە، ھیچ کوێیێ، ھیچ‌جێیێ، ھەر شوێنێکی تر، جێگایێ، شوێنێ
 
@@ -266,6 +267,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adverb: anywhere 

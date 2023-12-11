@@ -177,6 +177,7 @@ class EnglishEntryardent extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەپەرۆش، سەرسەخت، تامەزرۆ، تین‌سەندوو، بەتین، بەتاو، توند(وتیژ)، گەرم، کڵپەکردوو، داگیرساو، گڕگرتوو 
 
@@ -247,6 +248,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: ardent  

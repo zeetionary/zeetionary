@@ -176,6 +176,7 @@ class EnglishEntryantithesis extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دژ، بەرامبەرە، خاڵی بەرامبەر، ناکۆکی، دژایەتی، دژبەیەک‌بوون، پێک‌دژی، بەرامبەرێتی
 
@@ -272,6 +273,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: antithesis (derived forms: antitheses)

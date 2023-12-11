@@ -132,6 +132,7 @@ class EnglishEntryallergy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئالێرژی، ھەستیاری، پێ‌نەکەوتن، پێ‌نەکەوتوویی، دڵ‌ھەڵکەوتن، پێ‌نەکەوتە، بێزاری، بێزلێ‌ھاتنەوە، قین‌لێ‌بوون
 
@@ -219,6 +220,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: allergy (derived forms: allergies)

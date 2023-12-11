@@ -179,6 +179,7 @@ class EnglishEntrygoastray extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لەڕێ‌دەرچوو، ڕێھەڵ‌کردوو، لاداو، خریایی، ڕێ‌لێ‌تێکچووو ئاوەکی، گومڕا، سەرلێ‌شێواو
 
@@ -275,6 +276,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Idiom: go astray 

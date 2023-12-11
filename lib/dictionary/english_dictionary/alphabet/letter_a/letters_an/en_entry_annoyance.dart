@@ -174,6 +174,7 @@ class EnglishEntryannoyance extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ناڕەحەتی، ڕق‌ھەستاوی، تووڕەیی، دڵ‌ئێشان، زیزی، دڵ‌شکان، دڵ‌ڕەنجان، تەنگەتاوکردن، سەرئێشاندن، ھەراسان‌کردن، بەتەنگ‌ھێنان، جاڕزکردن، ناڕەحەت‌کردن، دەردپێدان، ھەڵپێچان، زۆربۆھێنان، بێزارکردن، مایەی مزاحیم‌بوون، مایەی‌سەرئێشە
 
@@ -294,6 +295,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: annoyance (derived forms: annoyances)

@@ -159,6 +159,7 @@ class EnglishEntrybattalion extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تابوور، ھەنگ، ھێز، تیپ 
 
@@ -251,6 +252,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 Noun: battalion (derived forms: battalions)

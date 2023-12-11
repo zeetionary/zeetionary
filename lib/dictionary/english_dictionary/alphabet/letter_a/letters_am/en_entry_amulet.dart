@@ -171,6 +171,7 @@ class EnglishEntryamulet extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دۆعا، تەلەسم، دێوبەند، چاوەزار، نووشتە
 
@@ -241,6 +242,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: amulet (derived forms: amulets)

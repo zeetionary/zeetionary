@@ -163,6 +163,7 @@ class EnglishEntrybestow extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) پێدانی شتێک بە کەسێک، زۆرجار بۆ ڕێزلێنان"""),
                           Row(
@@ -232,6 +233,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: bestow (derived forms: bestows, bestowing, bestowed)

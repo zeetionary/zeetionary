@@ -177,6 +177,7 @@ class EnglishEntryappliance extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەزگا، ئامێر، کەرەسە، ئامراز، کەل‌وپەل، ھەجەت، بەکارھێنان، پیادەکردن، خستنەکار، کاربەندی، ماشێنی ئاگرکوژاندنەوە
 
@@ -247,6 +248,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: appliance (derived forms: appliances)

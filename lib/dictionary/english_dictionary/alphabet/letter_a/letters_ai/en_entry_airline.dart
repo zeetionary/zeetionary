@@ -129,6 +129,7 @@ class EnglishEntryairline extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھێڵی ئاسمانی، کۆمپانی ھێڵی ئاسمانی، ھێڵی لوولە (بۆ گواستنەوەی ئاو یان ھەوا)
 
@@ -197,6 +198,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: airline (derived forms: airlines)

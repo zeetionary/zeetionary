@@ -131,6 +131,7 @@ class EnglishEntryaffiliate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کۆمپانی، ناوکۆیی، دامەزراوە یان ڕێکخراوەی پشت‌بەستوو، ڕێکخراوەی پاشکۆ، ئەندامی ناسەربەخۆ یان پشت‌بەستوو، پێوەبەند، پاشکۆ، پشت‌پێ‌بەستوو، خۆبەستە، ناسەربەخۆ، سەربەدی، (پێوە)بەستراو
 
@@ -237,6 +238,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: affiliate (derived forms: affiliates)

@@ -177,6 +177,7 @@ class EnglishEntryapprenticeship extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شاگردی، فێرخوازی، تازەکاری، پیشەشاگردی، نۆفێری، بەروەستایی
 
@@ -248,6 +249,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: apprenticeship (derived forms: apprenticeships)

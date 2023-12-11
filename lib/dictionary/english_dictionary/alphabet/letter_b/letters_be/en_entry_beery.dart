@@ -163,6 +163,7 @@ class EnglishEntrybeery extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بیرەئاسا، بە بۆنی بیرەوە، بۆنی ئاوجۆیی، بە مەزە یان تامی ئاوجۆوە
 
@@ -234,6 +235,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: beery (derived forms: beerier, beeriest)

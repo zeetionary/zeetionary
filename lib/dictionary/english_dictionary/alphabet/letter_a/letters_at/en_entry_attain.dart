@@ -179,6 +179,7 @@ class EnglishEntryattain extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: وەدەست ھێنان، پێگەیشتن، تەواو کردن
 
@@ -275,6 +276,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: attain (derived forms: attained, attaining, attains)

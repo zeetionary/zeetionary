@@ -178,6 +178,7 @@ class EnglishEntryaperture extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کون، قەڵەش، کەلەبەر، کەلێن، دەلاقە، ڕۆچنە، ڕۆژنە، دەربیجە، دەرچە، کونەڕووناکی
 
@@ -273,6 +274,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: aperture (derived forms: apertures)

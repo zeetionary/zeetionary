@@ -132,6 +132,7 @@ class EnglishEntryalbino extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زاڵ، کەور، ئەلبینۆ: گیانەوەر یان کەسێ کە پیگمێنتی لە پێست، موو و چاوەکانی‌دا نییە (و زۆرتر پەمەیین)
 
@@ -225,6 +226,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: albino 

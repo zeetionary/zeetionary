@@ -184,6 +184,7 @@ class EnglishEntryattraction extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (فیزیک) ڕاکێشان، کێش، کێشان، ڕاکێش‌کردن، سەرنج‌ڕاکێشی، باڵکێشی، دڵبەستەیی، دڵتێچوون، سەوداسەری، دڵڕفێنی
 
@@ -379,6 +380,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: attraction (derived forms: attractions)

@@ -122,6 +122,7 @@ class EnglishEntryaccredited extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جێ‌باوەڕ، باوەڕپێ‌کراو، پشت‌پێ‌بەستراو، ڕێگەدراو، ڕێدراو، دەستووردراو، دەستوورلەسەر، دەسەڵات‌دار، باوەڕلەسەر، قانوونی، فەرمی
 
@@ -203,6 +204,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: accredited

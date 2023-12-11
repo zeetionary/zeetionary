@@ -13,9 +13,6 @@ class Pallete {
   static const greyColor = Color.fromRGBO(26, 39, 45, 1); // secondary color
   static const drawerColor = Color.fromRGBO(18, 18, 18, 1);
   static const whiteColor = Colors.white;
-  static const tabsfordarkColor =
-      Color.fromRGBO(255, 255, 255, 0.3); // primary color
-  static const tabsforlightColor = Color.fromRGBO(15, 15, 15, 0.3);
   static var redColor = Colors.red.shade500;
   static var blueColor = Colors.blue.shade300;
   static var tabsbackgroundColor =
@@ -38,7 +35,6 @@ class Pallete {
       backgroundColor: blackColor,
     ),
     primaryColor: whiteColor,
-    shadowColor: tabsfordarkColor,
     // backgroundColor:
     //     drawerColor, // will be used as alternative background color
   );
@@ -57,7 +53,6 @@ class Pallete {
       backgroundColor: whiteColor,
     ),
     primaryColor: blackColor,
-    shadowColor: tabsforlightColor,
     // backgroundColor: whiteColor,
   );
 }

@@ -165,6 +165,7 @@ class EnglishEntrybeggar extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سواڵکەر، گەدا، خوازەڵۆک، درۆزەکەر
 
@@ -274,6 +275,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: beggar (derived forms: beggars)

@@ -171,6 +171,7 @@ class EnglishEntrybackpack extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) جانتایەکی قایم کە لەپشت‌دەکرێت و زۆرجار لەلایەن شاخەوانان بەکاردێت"""),
                           Row(
@@ -261,6 +262,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: backpack (derived forms: back packs, backpacks)

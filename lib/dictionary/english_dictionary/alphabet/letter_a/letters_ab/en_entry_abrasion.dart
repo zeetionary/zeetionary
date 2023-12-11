@@ -121,6 +121,7 @@ class EnglishEntryabrasion extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: داخوران، داکڕان، داشۆران، داتاشین، داڕووشان، ڕووشان، لێخستن، (دا)سووان
 
@@ -203,6 +204,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: abrasion (derived forms: abrasions)

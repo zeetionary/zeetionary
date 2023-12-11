@@ -173,6 +173,7 @@ class EnglishEntryampup extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کاری لێکدراو) زیادکردنی دەنگی میوزیک کە لە بڵیندگۆیەکەوە لێدەدرێت"""),
                           Row(
@@ -289,6 +290,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Phrasal verb: amp up (derived forms: amping up, amps up, amped up)

@@ -172,6 +172,7 @@ class EnglishEntryancillary extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: یاریدەدەر، ئاریکار، ژێردەست، لاوەکی، لابەلایی، پاشکۆ، سەرخستە، لادەستە، خانووبەرەی لاوەکی، دەستەی لاوەکی
 
@@ -268,6 +269,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: ancillary 

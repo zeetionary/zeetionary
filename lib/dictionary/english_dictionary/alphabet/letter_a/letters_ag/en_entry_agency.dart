@@ -130,6 +130,7 @@ class EnglishEntryagency extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئاژانس، دەزگا، کارگێڕی، نووسینگەی کارداری، لق، نوێنەرایەتی، بەڕێوەبەری نوێنەرایەتی، یارمەتی، نێوگژیوانی، ناوبەری، دەڵاڵی، ناوبژێتی، بەشی کارگێڕی، بەشی بەڕێوەبەری، کار
 
@@ -222,6 +223,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: agency (derived forms: agencies)

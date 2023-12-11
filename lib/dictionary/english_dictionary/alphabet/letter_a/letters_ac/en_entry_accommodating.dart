@@ -113,6 +113,7 @@ class EnglishEntryaccommodating extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سازاو، گونجاو، دڵسۆز، بەبەزەیی، بەتەنگ خەڵکەوەبوو، یاریدەدەر
 
@@ -176,6 +177,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: accommodating 

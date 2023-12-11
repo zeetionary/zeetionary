@@ -170,6 +170,7 @@ class EnglishEntrybanister extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: محەجەرە، نەردە، لاجامە، چاغ، ستوونۆکەی نەردە، دەسەگیرە یان دەسکی پلیکان
 
@@ -240,6 +241,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: banister (derived forms: banisters)

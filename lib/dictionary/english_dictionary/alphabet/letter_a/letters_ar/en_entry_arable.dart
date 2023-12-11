@@ -177,6 +177,7 @@ class EnglishEntryarable extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەپیت، کێڵڕاو، شیاوی چاندن یان کێڵان، کێڵگە، زەوی گونجاو بۆ کێڵان، زەوی جووتیاری
 
@@ -247,6 +248,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: arable 

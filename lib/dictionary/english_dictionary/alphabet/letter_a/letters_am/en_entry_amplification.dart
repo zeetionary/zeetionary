@@ -172,6 +172,7 @@ class EnglishEntryamplification extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: فراوان‌کردن، گەورەکردنەوە، گەوراندن، ھێزاندن، پێزداری، دەنگ‌پێدان، تیشک‌خستنەسەر، ڕوون‌کردنەوە، لێکدانەوە، باسکردن، وردەکاری خستنەسەر
 
@@ -269,6 +270,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: amplification (derived forms: amplifications)

@@ -132,6 +132,7 @@ class EnglishEntryamenable extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەرپرس، لێ‌پرسراو، قایل، پێخۆش‌بوو، ساز، ڕازی، گوێڕایەڵ، ملکەچ، قسەبیس، حاڵی، گوێ(ڕا)گرتوو، ژێربارەوەچوو، ئەرک‌لەسەر
 
@@ -223,6 +224,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: amenable 

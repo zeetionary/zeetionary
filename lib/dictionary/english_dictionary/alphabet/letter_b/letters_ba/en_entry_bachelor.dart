@@ -171,6 +171,7 @@ class EnglishEntrybachelor extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پیاوی سەڵت یان بێ‌ژن، زگورد، زوگورتی، زوگورتە، لیسانس، بەکالۆریۆس، شیڤالیە یان شۆڕەسواری تازەکار adjective سەڵت‌وسەبات، ڕەبەن
 
@@ -264,6 +265,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: bachelor (derived forms: bachelors)

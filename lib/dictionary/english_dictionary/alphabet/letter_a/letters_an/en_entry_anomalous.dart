@@ -172,6 +172,7 @@ class EnglishEntryanomalous extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نائاسایی، سەیر، ڕیزپەڕ، بێ‌ڕێسا، ناڕێک، شپرزە، ئاڵۆز
 
@@ -242,6 +243,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: anomalous 

@@ -129,6 +129,7 @@ class EnglishEntryadolescent extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نیمچەجەحێڵ، مێرمناڵ، مێرمنداڵ، تازەلاو، نۆجوان، ھەرزەکار، بزەڵە
 
@@ -193,6 +194,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: adolescent (derived forms: adolescents)

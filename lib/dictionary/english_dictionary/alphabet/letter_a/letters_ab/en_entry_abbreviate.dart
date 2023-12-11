@@ -104,6 +104,7 @@ class EnglishEntryAbbreviate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کورتکردنەوە، کورتەکردنەوە
 
@@ -158,6 +159,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: abbreviate (abbreviated, abbreviates, abbreviating)

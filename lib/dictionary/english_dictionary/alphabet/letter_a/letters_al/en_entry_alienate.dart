@@ -132,6 +132,7 @@ class EnglishEntryalienate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) وا لە کەسێک بکەیت لێت دوور بێت"""),
                           Row(
@@ -223,6 +224,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: alienate (derived forms: alienates, alienated, alienating)

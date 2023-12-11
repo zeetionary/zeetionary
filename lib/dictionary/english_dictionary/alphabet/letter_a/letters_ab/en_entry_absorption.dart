@@ -131,6 +131,7 @@ class EnglishEntryabsorption extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕوومژی، مژڕوویی، مژین، ھەڵمژین، ھەڵچنین، داچەکان، (لەخۆ)گرتن، مژۆکی، سەرنج ڕاکێشان، دڵبەستە بوون، دڵ‌پێدان
 
@@ -234,6 +235,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: absorption (derived forms: absorptions)

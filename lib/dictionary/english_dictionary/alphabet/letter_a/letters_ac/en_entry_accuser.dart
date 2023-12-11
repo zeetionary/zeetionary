@@ -129,6 +129,7 @@ class EnglishEntryaccuser extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گوناھبارکەر، گومان‌لێ‌کەر، تۆمەت‌باز، بوختان‌باز، سکاڵاکەر، شکات‌کەر، دادبەر
 
@@ -193,6 +194,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: accuser (derived forms: accusers)

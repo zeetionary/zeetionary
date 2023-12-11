@@ -132,6 +132,7 @@ class EnglishEntryalign extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھاوڕێکی، ھاوھێڵی، ھاوتەختی، لاڕێککردن، لاگرتن (ڕێکخستنی دەق، وێنە، ھتد، بۆ لای ڕاست، ناوەڕاست یان چەپ.)
 
@@ -223,6 +224,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: align (derived forms: aligned, aligning, aligns)

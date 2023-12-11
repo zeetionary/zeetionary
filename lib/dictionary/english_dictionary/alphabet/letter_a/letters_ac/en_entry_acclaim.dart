@@ -121,6 +121,7 @@ class EnglishEntryacclaim extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چەپڵەلێدان، چەپک‌لێدان، لەقریوەدان، خۆشی‌دەربڕی، پەسن‌دان، قیژاندن و قریوەی خۆشی
 
@@ -204,6 +205,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: acclaim (derived forms: acclaimed, acclaiming, acclaims)

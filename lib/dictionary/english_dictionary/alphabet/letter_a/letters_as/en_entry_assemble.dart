@@ -181,6 +181,7 @@ class EnglishEntryassemble extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دابین کردن، ئاخنین، کۆبوون
 
@@ -300,6 +301,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: assemble (= derived forms: assembling, assembles, assembled)

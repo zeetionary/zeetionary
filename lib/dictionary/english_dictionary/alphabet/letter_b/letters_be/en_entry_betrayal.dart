@@ -165,6 +165,7 @@ class EnglishEntrybetrayal extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ناپاکی، خۆفرۆشی، خەیانەت، لەگیرخستن، بەگیردان، لەقاودان، ڕاستی‌لێ‌وتن، گێڕانەوە
 
@@ -273,6 +274,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: betrayal (derived forms: betrayals)

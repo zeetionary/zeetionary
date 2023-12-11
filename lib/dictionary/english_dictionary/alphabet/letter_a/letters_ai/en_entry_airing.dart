@@ -132,6 +132,7 @@ class EnglishEntryairing extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەواگۆڕی، ھەواخۆری، لەبەر ھەوادا دانان، وشک‌کردنەوە، کزرکردنەوە، ھەڵخستن، دەربڕین، دەرنوو، بڵاوکردنەوەی تەلەفزیۆنی یا ڕادیۆیی
 
@@ -225,6 +226,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: airing 

@@ -130,6 +130,7 @@ class EnglishEntryaddict extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (بنیادەمی) گیرۆدە، خووپێ‌گرتوو، ئالوودە، فێر، سەوداسەر، دیل، ھۆگر، گیرۆدە
 
@@ -215,6 +216,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: addict (derived forms: addicts, addicted, addicting)

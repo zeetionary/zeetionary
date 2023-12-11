@@ -171,6 +171,7 @@ class EnglishEntryballisticmissile extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) مووشەکی بالیستیکی؛ موشەکێک کە بە خێرایی و گۆشەیەکی دیاریکراو دەھاوێژرێت بۆ ئەوەی لە شوێنی مەبەست بکەوێتە خوارەوە"""),
                           Row(
@@ -240,6 +241,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: ballistic missile (derived forms: ballistic missiles)

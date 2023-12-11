@@ -129,6 +129,7 @@ class EnglishEntryadmiral extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئەفسەرێکی زۆر پایەبەرزی ھێزی دەریایی"""),
                           Row(
@@ -192,6 +193,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: admiral (derived forms: admirals)

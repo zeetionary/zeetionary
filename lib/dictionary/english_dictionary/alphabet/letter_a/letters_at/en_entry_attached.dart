@@ -181,6 +181,7 @@ class EnglishEntryattached extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەوداسەر، دڵبەستە، ، پاشکۆ، پاڵخستە، لکاو، چەسپیو، پێوەلکاو، نووساو، یەک‌گرتوو، یەک‌گیر، پێوەنراو، پێکەوەبەستراو، پەیوەست، پێوەندیدار، بەنیوار، بەیەکەوەگرێدراو
 
@@ -328,6 +329,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: attached 

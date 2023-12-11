@@ -178,6 +178,7 @@ class EnglishEntryaquatic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەئاوزیندوو، ئاوەژی، ئاوی، گیانەوەر یان ڕووەکی ئاوی
 
@@ -274,6 +275,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: aquatic

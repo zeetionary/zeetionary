@@ -177,6 +177,7 @@ class EnglishEntryapricot extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: قەیسی، قایسی، شێڵانە، شڵانە، ھیرۆگ، مژمژە، مش‌مشیر، داری قەیسی
 
@@ -271,6 +272,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: apricot (derived forms: apricots)

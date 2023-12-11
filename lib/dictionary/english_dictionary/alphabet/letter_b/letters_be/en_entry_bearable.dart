@@ -164,6 +164,7 @@ class EnglishEntrybearable extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) کەسێک یان شتێک کە دەتوانیت بەرگەی بگریت و مامەڵەی لەگەڵ بکەیت"""),
                           Row(
@@ -252,6 +253,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: bearable 

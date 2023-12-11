@@ -167,6 +167,7 @@ class EnglishEntrybehaviour extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕەفتار، ڕەوتار، ھەڵس‌وکەوت، ئاکار، جووڵانەوە، ڕەوشت، کردەوە، کردار
 
@@ -314,6 +315,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: behaviour (derived forms: behaviours)

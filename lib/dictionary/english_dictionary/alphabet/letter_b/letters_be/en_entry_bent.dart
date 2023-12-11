@@ -167,6 +167,7 @@ class EnglishEntrybent extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: داشکانەوە، لاربوونەوە، حەز، ویست، ئارەزوو، توانایی، جەوھەر، بەھرە، لاری، خواری، کەچی، خواروخێچ، چەوتاوە، لار، ناڕاست، خوار، کەچ، دووتا، دووقەد، نووشتاوە، نادروست، ناڕاست، دەس‌پیس، حەرام‌خۆر، ناپاک، دەغەڵ، بەرتیل‌خۆر، بەبڕیار، پتەو، شێلگیر
 
@@ -316,6 +317,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: bent

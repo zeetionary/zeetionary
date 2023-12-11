@@ -121,6 +121,7 @@ class EnglishEntryabstain extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خۆبەدوورگرتن، خۆپاراستن،
 
@@ -203,6 +204,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: abstain (derived forms: abstained, abstains, abstaining)

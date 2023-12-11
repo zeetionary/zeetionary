@@ -129,6 +129,7 @@ class EnglishEntryagitator extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شاڵاوکار، ھەڵمەتیار، ڕاگەیێنەر، ھاندەر، بزوێنەر، ئاژاوەگێڕ، پشێوی‌نەرەوە، ئاگرنەرەوە، شارشێوێن، (ئامێر) شڵەقێنە(ر)
 
@@ -197,6 +198,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: agitator (derived forms: agitators)

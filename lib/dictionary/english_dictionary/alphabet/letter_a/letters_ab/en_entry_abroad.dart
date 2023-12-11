@@ -130,6 +130,7 @@ class EnglishEntryabroad extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەندەران، دەرەوە، لە دەرەوەی وڵات، بەربڵاوانە، ھەموو جێیێ، گشت شوێنێ
 
@@ -229,6 +230,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adverb: abroad

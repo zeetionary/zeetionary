@@ -180,6 +180,7 @@ class EnglishEntryaspiration extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ، ئاوات، ھێڤی، مەراق، ئارەزوو، ھەڵمژین، بین‌کێشان، ھەناسەدان 
 
@@ -294,6 +295,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: aspiration (derived forms: aspirations)

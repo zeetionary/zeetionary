@@ -130,6 +130,7 @@ class EnglishEntryairconditioner extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئامێرێک کە ھەوای ناو ژوور یان ئۆتۆمبێل دەگۆڕێت"""),
                           Row(
@@ -196,6 +197,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: air-conditioner (derived forms: air-conditioners, air conditioners)

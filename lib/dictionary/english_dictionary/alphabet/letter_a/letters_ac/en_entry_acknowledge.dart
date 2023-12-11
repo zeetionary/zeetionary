@@ -164,6 +164,7 @@ class EnglishEntryacknowledge extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) داننان بە ڕاستی شتێک"""),
                           Row(
@@ -287,6 +288,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: acknowledge (derived forms: acknowledged, acknowledges, acknowledging)

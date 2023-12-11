@@ -176,6 +176,7 @@ class EnglishEntryapartment extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەستەژوور، دەستەخانوو، باڵاخانە، وارخان، ژوور، دیو
 
@@ -269,6 +270,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: apartment (derived forms: apartments) 

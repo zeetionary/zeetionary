@@ -170,6 +170,7 @@ class EnglishEntryaxiomatic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەڵگەنەویست، (خۆ)دیار، بەرچاو، مسۆگەر، لەسەر بنچینەی بنەما یان پڕەنسیپی بەڵگەنەویست(ـەکان)
 
@@ -240,6 +241,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: axiomatic

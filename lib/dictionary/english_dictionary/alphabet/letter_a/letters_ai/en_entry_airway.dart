@@ -131,6 +131,7 @@ class EnglishEntryairway extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕێگای گەیشتنی ھەوا بۆ سی‌یەکان، ھەواڕێ؛ لوولەی ھەوا لە کاتی تەنگەتاوی سی‌یەکان‌دا، (کان) ھەواکێش، ئاسمانەڕێ، ڕێ یان ھێڵی ئاسمانی، ھەواڕێ
 
@@ -199,6 +200,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: airway (derived forms: airways)

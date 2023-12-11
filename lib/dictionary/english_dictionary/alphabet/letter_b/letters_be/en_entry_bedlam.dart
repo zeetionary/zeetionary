@@ -163,6 +163,7 @@ class EnglishEntrybedlam extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شێت‌خانە، ھەرچی و پەرچی، تێکەولێکە، شلوق‌بازاڕی، دەنگ‌وھەرا، حەمامی ژنان
 
@@ -234,6 +235,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: bedlam (derived forms: bedlams)

@@ -172,6 +172,7 @@ class EnglishEntrybackbone extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بڕبڕە (ی پشت)، تیرەگەی پشت، کاریتەپشت، موورەگە(پشت)، ڕەزڵە، پروسک، پشتەماز، مۆغەرە، پشتەکتێب، تەوەری سەرەکی، بنچینە، پتەوی، تۆکمەیی، پشتیوانی سەرەکی، پشت، گرنگ‌ترین بەش، وێران، ئازایەتی 
 
@@ -291,6 +292,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: backbone (derived forms: backbones)

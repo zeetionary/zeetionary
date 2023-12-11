@@ -131,6 +131,7 @@ class EnglishEntryaltar extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مێحراب، مێراو، مێحراو، مێھراو، مێھراوە، پێش‌نوێژگە، کوشتنگە، قوربانیگا، جێ‌قوربانی، گۆڕیگە
 
@@ -199,6 +200,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: altar (derived forms: altars)

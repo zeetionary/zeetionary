@@ -170,6 +170,7 @@ class EnglishEntryaversion extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بێزاری، خۆش‌نەویستن، قین‌لێ‌بوون، ڕق(لێ‌بوون)، بێزەون، مایەی بێزاری، دژایەتی
 
@@ -240,6 +241,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: aversion (derived forms: aversions)

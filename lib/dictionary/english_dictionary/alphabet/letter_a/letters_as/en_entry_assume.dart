@@ -183,6 +183,7 @@ class EnglishEntryassume extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: وا دانان، گریمان، وەخۆ گرتن، قبووڵ کردن
 
@@ -355,6 +356,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: assume (derived forms: assumed, assumes, assuming)

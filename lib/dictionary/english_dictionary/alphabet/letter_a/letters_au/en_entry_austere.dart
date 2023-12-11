@@ -180,6 +180,7 @@ class EnglishEntryaustere extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: وشک‌وڕەق، بەڕشت، شێلگیر، توند، سەخت، توندگر، سەخت‌گیر، ، ڕووگرژ، ڕووناخۆش، مڕومۆچ، سەخت، گران، چەتوون، دژوار، سادە، نەڕازاو، بێ‌زێڕوزێو
 
@@ -298,6 +299,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: austere (derived forms: austerest, austerer)

@@ -164,6 +164,7 @@ class EnglishEntrybeer extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بیرە، ئاوجۆ، شووشە، بوتڵ یان قوتوی بیرە
 
@@ -269,6 +270,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: beer (derived forms: beers)

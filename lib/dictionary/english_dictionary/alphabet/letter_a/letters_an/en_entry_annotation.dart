@@ -173,6 +173,7 @@ class EnglishEntryannotation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕوون‌کردنەوە، لێکدانەوە، ڕاڤەکردن، پەراوێز، پەراوێزنووسی
 
@@ -266,6 +267,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: annotation (derived forms: annotations)

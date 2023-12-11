@@ -112,6 +112,7 @@ class EnglishEntryabseil extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار و ناو) ھاتنەخوارە بە تەناف‌دا (لە ھەڵدێرەوە) بە بەکارھێنانی پێیەکانت بۆ دوورخستنەوەی جەستەت لە ھەڵدێرەکە"""),
                           Row(
@@ -173,6 +174,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: abseil (N. Amer: rappel) (derived forms: abseiled, abseils, abseiling)

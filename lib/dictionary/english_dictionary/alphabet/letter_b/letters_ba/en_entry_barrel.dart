@@ -161,6 +161,7 @@ class EnglishEntrybarrel extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پیپ، بەرمیل، کۆس، کووپەدارینە، بۆشکە، بۆڕی، (تفەنگ) لوولە، جەوھەردان (پاندێن)، جێگای زەمبەلەک لە سەعات‌دا، لۆدەیێ، دنیایێ، بڕێکی زۆر
 
@@ -286,6 +287,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: barrel (derived forms: barreling, barrelled, barrels, barrelling)

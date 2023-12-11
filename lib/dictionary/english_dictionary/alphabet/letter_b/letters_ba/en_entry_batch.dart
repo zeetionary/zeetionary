@@ -160,6 +160,7 @@ class EnglishEntrybatch extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تەنوورێ، چین، دەستەوار، بەر، بەرھەمی یەکجار لێ‌نیشتن (نان، کەیک و ھتد)، بەرەلێ‌نیشتن، تیپ، کۆمەڵ، دەستە، گروپە
 
@@ -266,6 +267,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: batch (derived forms: batching, batches, batched)

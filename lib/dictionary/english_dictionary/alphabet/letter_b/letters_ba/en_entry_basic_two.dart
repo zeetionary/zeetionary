@@ -162,6 +162,7 @@ class EnglishEntrybasictwo extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بنەڕەتی، بنچینەیی، سەرەکی، بنەمایی، بنجی، بنگەھی، پێویست، پێدڤی، سەرەتایی، دەسپێک، گرنگ، بەرکەفتی، سادە
 
@@ -309,6 +310,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: basic 

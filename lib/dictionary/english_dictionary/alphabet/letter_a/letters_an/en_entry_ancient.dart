@@ -174,6 +174,7 @@ class EnglishEntryancient extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کۆن، کەڤنار، کەون، باستان، مێژینەدار، بەرین، دێرین، زووگین، باستانی، دێرینە، قەدیمی، (کۆن و بە شۆخی) پیر، کۆن، دێرساڵ، بەسەڵاچوو، خەڵکی کەونار، زووژیاوان
 
@@ -317,6 +318,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: ancient  

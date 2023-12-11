@@ -129,6 +129,7 @@ class EnglishEntryaggrieved extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چەوسێنراو، زۆرلێ‌کراو، زوڵم‌لێ‌کراو، ماف‌خوراو، جەوردیتوو، ڕەنج‌کێشاو، ڕەنجێنراو، کوێرەوەری‌دیتوو، بەخەم، خەمین، ناڕەحەت، دەسەوئەژنۆ
 
@@ -197,6 +198,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: aggrieved 

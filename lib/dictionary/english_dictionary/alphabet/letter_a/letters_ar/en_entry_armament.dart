@@ -178,6 +178,7 @@ class EnglishEntryarmament extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چەک‌وچۆڵ، چەکەمەنی، ھێزە چەکدارەکان، بەچەک‌کردن، ئامادەکاری لەشکری یان سەربازی، تەقەمەنی، کەشتی شەڕکەر
 
@@ -274,6 +275,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: armament (derived forms: armaments)

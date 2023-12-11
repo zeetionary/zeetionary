@@ -129,6 +129,7 @@ class EnglishEntryafraid extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تۆقیو، ترساو، ترس‌لێ‌نیشتوو، سڵ‌کەر، دڵ‌لەدوا، نیگەران
 
@@ -215,6 +216,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: afraid 

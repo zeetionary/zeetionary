@@ -178,6 +178,7 @@ class EnglishEntryarmchair extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کورسی دەسک‌دار، سەندەڵی لادار، دوور لە کردەوە، نەکردەنی، ناکرداری، ناکردەوەیی، فشە
 
@@ -273,6 +274,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: armchair (derived forms: armchairs)

@@ -179,6 +179,7 @@ class EnglishEntryassortment extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کۆمەڵە، جۆرەکان، کۆمەڵەیەکی جۆراوجۆر یان ھەمەڕەنگ، ھەمەچەشنە، دەستەجۆر، جۆران، تێکەڵە، پۆلاندن، دەستەکردن، دەستاندن
 
@@ -248,6 +249,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: assortment (derived forms: assortments)

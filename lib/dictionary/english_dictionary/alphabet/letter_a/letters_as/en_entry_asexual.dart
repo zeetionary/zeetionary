@@ -179,6 +179,7 @@ class EnglishEntryasexual extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (زیندەناسی) ناڕەگەزی، ناسێکسی، بێ‌ئەندامی زاوزێ، نازایەندی، سارد، بێ‌ئارەزووی سێکسی
 
@@ -299,6 +300,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: asexual 

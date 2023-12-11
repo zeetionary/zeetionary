@@ -179,6 +179,7 @@ class EnglishEntryaspersion extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تۆمەت، چەفتە، درۆ، ھەڵبەستە، ئابڕووبردن، نێوزڕاندن، زەم‌کردن، خراپەوتن، سووکایەتی (پێ‌کردن)
 
@@ -249,6 +250,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: aspersion (derived forms: aspersions)

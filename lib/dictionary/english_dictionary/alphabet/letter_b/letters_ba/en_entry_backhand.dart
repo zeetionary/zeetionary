@@ -170,6 +170,7 @@ class EnglishEntrybackhand extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پشت‌دەستی، پشدەستی، پشدەستە (لە تێنیس و ھتد)
 
@@ -239,6 +240,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: backhand (derived forms: backhanding, backhands, backhanded)

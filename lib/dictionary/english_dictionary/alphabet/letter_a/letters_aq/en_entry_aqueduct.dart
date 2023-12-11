@@ -177,6 +177,7 @@ class EnglishEntryaqueduct extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئاوبارە، بۆت، بۆتک، قەمتەرە، کەتوو، ئاوەڕۆ، جۆگاو، (توێکاری) جۆگە، بۆری، شلەڕۆ
 
@@ -247,6 +248,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: aqueduct (derived forms: aqueducts)

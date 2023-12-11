@@ -171,6 +171,7 @@ class EnglishEntryancestral extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: باپیرەگەورەیی، باووباپیری، پێشینەیی، ڕەچەڵەکی، سەرەتایی، یەکەمین، دەسپێک
 
@@ -241,6 +242,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: ancestral 

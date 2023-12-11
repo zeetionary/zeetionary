@@ -159,6 +159,7 @@ class EnglishEntrybarbecue extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مەنقەڵ، مەقاڵە، گۆشتی برژاو، کەباب
 
@@ -266,6 +267,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: barbecue (derived forms: barbecuing, barbecues, barbecued)

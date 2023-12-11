@@ -173,6 +173,7 @@ class EnglishEntrybackstage extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پشتەپەردە، لە دواوە یان پشتەوەی پەردە، پەنامەکی، بەنھێنی، بە دزی‌یەوە
 
@@ -317,6 +318,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: backstage (derived forms: backstages)

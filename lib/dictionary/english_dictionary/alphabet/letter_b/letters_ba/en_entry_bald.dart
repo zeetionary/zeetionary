@@ -172,6 +172,7 @@ class EnglishEntrybald extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تاس، کەچەڵ، کەل، بێ‌قژ، ڕووتاوە، بێ‌تووک، (گیانەوەر) گەڕۆڵ، ڕووتاو، بێ‌گەڵا، ڕووتەن، وشک، بێ(گژ)گیا، (تایە) خوراو، شەقڵ‌نەماو، سوواو، لووس، ساف، سادە، بێ‌پەردە، ئاشکرا، لەڕوو، بێ‌پەردە، بێ‌شێلەوبێلە
 
@@ -290,6 +291,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: bald (derived forms: baldest, balder)

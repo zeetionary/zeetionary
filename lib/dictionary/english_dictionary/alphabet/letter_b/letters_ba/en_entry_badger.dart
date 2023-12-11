@@ -171,6 +171,7 @@ class EnglishEntrybadger extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چالەکە، چواڵوو، کوڕەبەش، تژی، کوڕبەشە، گۆڕھەڵکەنە، گۆڕھەڵتەکێنە
 
@@ -266,6 +267,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: badger (derived forms: badgering, badgered, Badgers, badgers)

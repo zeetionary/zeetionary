@@ -130,6 +130,7 @@ class EnglishEntryadvice extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئامۆژگاری، شیرەت، پەند، نەسێحەت، ڕاسپاردە، ڕا، بۆچوون، پرس‌وڕا، ڕاوێژ (کاری)، پێشنیار، ھەواڵ، ئاگاداری
 
@@ -214,6 +215,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: advice (derived forms: advices)

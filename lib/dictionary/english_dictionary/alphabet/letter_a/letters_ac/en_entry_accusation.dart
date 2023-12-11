@@ -130,6 +130,7 @@ class EnglishEntryaccusation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تاوانبار کردن، گوناھبار کردن، گومان لێ‌کردن، تۆمەت، بوختان‌پێ‌کردن
 
@@ -211,6 +212,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: accusation (derived forms: accusations)

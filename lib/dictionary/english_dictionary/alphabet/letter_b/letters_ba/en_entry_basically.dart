@@ -161,6 +161,7 @@ class EnglishEntrybasically extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لە بنەڕەت‌دا، لە بنەڕەتا، لە ڕاستی‌دا
 
@@ -284,6 +285,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adverb: basically (fundamentally, essentially)

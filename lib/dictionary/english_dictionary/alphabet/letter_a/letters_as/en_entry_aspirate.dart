@@ -346,6 +346,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 Verb: aspirate (derived forms: aspirated, aspirates, aspirating)

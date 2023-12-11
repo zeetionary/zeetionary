@@ -163,6 +163,7 @@ class EnglishEntrybedstead extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تەخت، تەختەبەند، چرپایە، چوارپایە
 
@@ -233,6 +234,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: bedstead (derived forms: bedsteads)

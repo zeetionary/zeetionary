@@ -178,6 +178,7 @@ class EnglishEntryapology extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: داوای لێبوردن، لێبوردن‌خوازی، عوزرمایی، عوزرخوازی
 
@@ -271,6 +272,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: apology (derived forms: apologies)

@@ -172,6 +172,7 @@ class EnglishEntryanalyst extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شیکار، شی‌کەرەوە، لێکدەرەوە، لێکۆڵەرەوە، دەروون‌شیکار
 
@@ -264,6 +265,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: analyst (derived forms: analysts)

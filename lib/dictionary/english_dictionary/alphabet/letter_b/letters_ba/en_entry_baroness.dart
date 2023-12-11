@@ -159,6 +159,7 @@ class EnglishEntrybaroness extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ژنێک کە لە ناو گەورەزادەکاندا لە نزمترین ئاستە"""),
                           Row(
@@ -243,6 +244,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: baroness (derived forms: baronesses)

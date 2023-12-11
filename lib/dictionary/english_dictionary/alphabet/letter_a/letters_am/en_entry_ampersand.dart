@@ -171,6 +171,7 @@ class EnglishEntryampersand extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: «وە»نیشان، ئەمپێرساند (نیشانەی & = بەواتای «وە»)
 
@@ -239,6 +240,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: ampersand (derived forms: ampersands)

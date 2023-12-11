@@ -180,6 +180,7 @@ class EnglishEntryapproximate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تەقریبی، پتردروست، نزیک بە، تا ئەندازەیێ (زۆر)، نزیکەی، نزیک کردن، بەراورد کردن، مەزەندە کردن
 
@@ -322,6 +323,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: approximate 

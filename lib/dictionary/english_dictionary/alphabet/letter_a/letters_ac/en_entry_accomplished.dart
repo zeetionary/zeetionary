@@ -104,6 +104,7 @@ class EnglishEntryaccomplished extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شارەزا، لێھاتوو، لێزان، کارامە، پوخت، زانا، سەرەندەرکردوو، سەرلێ‌دەرھاتوو
 
@@ -166,6 +167,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: accomplished  u'kúm-plisht

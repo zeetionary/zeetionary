@@ -179,6 +179,7 @@ class EnglishEntryasparagus extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (ڕووەک‌ناسی) گەوڵەزەر؟، بەنارۆمی؟، مارچێوە، ترچک
 
@@ -249,6 +250,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: asparagus (derived forms: asparaguses)

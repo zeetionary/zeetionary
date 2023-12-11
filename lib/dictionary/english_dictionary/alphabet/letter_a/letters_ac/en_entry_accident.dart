@@ -130,6 +130,7 @@ class EnglishEntryaccident extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لێک‌دان، پێکاکێشان، لێک‌کەوتن، ڕووداو، قەومین، بەڵا(ی کت‌وپڕ)، بوویەر، تووش، ڕێکەوت، ھەڵکەوت
 
@@ -230,6 +231,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: accident (derived forms: accidents)

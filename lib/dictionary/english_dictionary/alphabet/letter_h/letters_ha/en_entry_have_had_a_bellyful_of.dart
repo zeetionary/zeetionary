@@ -166,6 +166,7 @@ class EnglishEntryhavehadabellyfulof extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ئیدیەم) مامەڵەکردن لەگەڵ کەسێک تا ئاستێک کە چی دیکە ناتوانی بەرگەی بگریت"""),
                           Row(
@@ -256,6 +257,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Idiom: have had a bellyful of

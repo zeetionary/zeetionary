@@ -170,6 +170,7 @@ class EnglishEntrybacklog extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کەوتنەسەریەک، کەڵەکەبوون، کاری کەڵەکەبوو، کاری دواکەوتوو یان سەریەک‌کەوتوو
 
@@ -239,6 +240,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: backlog (derived forms: backlogs)

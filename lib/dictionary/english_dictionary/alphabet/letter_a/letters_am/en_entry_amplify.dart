@@ -172,6 +172,7 @@ class EnglishEntryamplify extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) زیادکردنی ھێزی شتێک، بەتایبەتی دەنگ"""),
                           Row(
@@ -265,6 +266,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: amplify (derived forms: amplifies, amplifying, amplified)

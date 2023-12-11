@@ -179,6 +179,7 @@ class EnglishEntryaspirin extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئەسپیرین، حەبی ژانەسەر، حەبی سەرێشە
 
@@ -269,6 +270,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: aspirin (derived forms: aspirins)

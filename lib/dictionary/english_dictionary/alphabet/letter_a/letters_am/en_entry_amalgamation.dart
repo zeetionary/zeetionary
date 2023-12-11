@@ -132,6 +132,7 @@ class EnglishEntryamalgamation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تێک‌خستن، تێک‌ھەڵکێشان، تێکەڵ‌کردن، تێک‌وەردان، یەکخستن، لێک‌دان، داڕشتن، ئەمەلگاندن
 
@@ -224,6 +225,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: amalgamation (derived forms: amalgamations)

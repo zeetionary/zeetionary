@@ -129,6 +129,7 @@ class EnglishEntryadulation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زمان‌لووس، پیاھەڵدانی زمان‌لووسانە، ڕووپامایی، نەرمەبڕی، کلکەسووتێ، ڕیایی‌بازی، تەشی‌ڕێسی، مەرایی، ڕووبینی، بەبەراھەڵخوێندن، دەمتەڕی
 
@@ -194,6 +195,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: adulation (derived forms: adulations)

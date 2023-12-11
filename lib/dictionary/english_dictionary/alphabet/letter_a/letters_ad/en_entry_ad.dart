@@ -130,6 +130,7 @@ class EnglishEntryad extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (لاتین) زایینی، دوای زایین، پاش‌زایین، بانگەواز، دانەزانین، ئاگاداری
 
@@ -215,6 +216,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 Noun: ad (derived forms: ads)

@@ -129,6 +129,7 @@ class EnglishEntryadoptive extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەڵبژێردراو، پەسندکراو، ڕەچاوکراو، وەرگیراو، ھەڵبژاردە، (دەربارەی منداڵ یان باوانێ) پێوەندی‌دار بە مناڵ‌ھەڵگرتنەوە، یەکێ کە مناڵی ھەڵگرتبێتەوە
 
@@ -194,6 +195,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: adoptive

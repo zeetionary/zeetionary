@@ -157,6 +157,7 @@ class EnglishEntryabsorb extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مژین، ھەڵمژین، ئاوگرتن، شێگرتن، ئاوکێشان
 
@@ -317,6 +318,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: absorb (derived forms: absorbed, absorbing, absorbs)

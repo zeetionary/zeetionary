@@ -166,6 +166,7 @@ class EnglishEntrybead extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: موروو، کوژەکە، زەنگانە، زەنگیانە، نمنمۆک، منمنە، دەنکە یان دەنکی تەزبێح، دڵۆپ، تنۆک، سێرە، سیپەک، جاسووسە، نگ، سھرک (تفەنگ)، ڕیزەمووروو یان زنجیرەموورووی دیوار
 
@@ -296,6 +297,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: bead (derived forms: beaded, beads, beading)

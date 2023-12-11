@@ -175,6 +175,7 @@ class EnglishEntryapartheid extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) سیستەمی پێشووتری حکومڕانیی ئەفریقای باشوور کە تێیدا تەنھا سپی‌پێستەکان مافی تەواوی سیاسییان ھەبوو و ئەوانی تر، بەتایبەتی ڕەشپێستەکان، ناچاردەکران بەجیا بژین و بچنە و قوتابخانە و دامەزراوەی دیکەی خۆیان"""),
                           Row(
@@ -243,6 +244,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 Noun: apartheid (derived forms: apartheids)

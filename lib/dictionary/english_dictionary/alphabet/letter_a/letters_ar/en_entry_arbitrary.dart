@@ -179,6 +179,7 @@ class EnglishEntryarbitrary extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەدەسخۆیی، مەیلی، خۆحەزی، بە دڵی خۆ، بە پێخۆش‌بوون، نازۆرەملی، سەرپشکی، ڕەمەکی، بەڕێکەوت، ھەڕەمەکی، بەزۆری، زۆرەملێ، زۆرداری، ملھوڕی، سەرەڕۆ، دیکتاتۆڕیاڵ، زۆردار، ملھوڕ
 
@@ -299,6 +300,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: arbitrary  

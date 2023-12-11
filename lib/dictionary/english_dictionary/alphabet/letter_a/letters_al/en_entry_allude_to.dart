@@ -131,6 +131,7 @@ class EnglishEntryalludeto extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کاری لێکدراو) ئاماژەکردن بۆ شتێک؛ باسکردنی شتێک بە ناڕاستەوخۆ"""),
                           Row(
@@ -197,6 +198,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 Phrasal verb: allude to (derived forms: alluding to, alludes to, alluded to)

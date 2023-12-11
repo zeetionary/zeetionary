@@ -140,6 +140,7 @@ class EnglishEntryaggressive extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەس‌درێژکەر، زێدەگاڤ، دڕ، دەساوێژ، شەڕان‌خوو، بەیاخ‌دار (بەتایبەت ژن)، دوژمن‌کارانە، پەلاماردەرانە، بۆھاتووانە، ھێرش‌کارانە، ھەڵشاخێنەرانە
 
@@ -283,6 +284,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: aggressive

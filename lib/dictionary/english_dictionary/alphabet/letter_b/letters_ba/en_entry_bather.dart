@@ -158,6 +158,7 @@ class EnglishEntrybather extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مەلێکەر، خۆشۆر (لە دەریا، ڕووبار و ھتد)
 
@@ -229,6 +230,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: bather (derived forms: bathers)

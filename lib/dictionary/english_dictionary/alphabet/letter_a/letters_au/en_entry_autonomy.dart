@@ -171,6 +171,7 @@ class EnglishEntryautonomy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خۆبەڕێوەبەری، لاسەربەخۆیی، سەربەخۆیی نێوخۆیی، خودموختاری، سەربەخۆیی، ئازادی
 
@@ -267,6 +268,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: autonomy (derived forms: autonomies)

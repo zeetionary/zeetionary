@@ -181,6 +181,7 @@ class EnglishEntryartistic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھونەری، سەربە ھونەر، ھونەرمەندانە، دەس‌ڕەنگینانە
 
@@ -303,6 +304,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: artistic 

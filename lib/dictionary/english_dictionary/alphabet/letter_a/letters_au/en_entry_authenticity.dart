@@ -179,6 +179,7 @@ class EnglishEntryauthenticity extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕەسەنایەتی، دروستی، ڕاست‌بوون، جێی‌باوەڕبوون، باوەڕمەندی، باوەڕپێکراوی
 
@@ -248,6 +249,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: authenticity (derived forms: authenticities)

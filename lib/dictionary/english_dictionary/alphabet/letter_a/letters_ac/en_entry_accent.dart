@@ -140,6 +140,7 @@ class EnglishEntryaccent extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خۆگۆیی، زمان دیاربوون، شێوەی وتن، ڕاوێژ، لەھجە، زەبر، گوشار، ھێز، نیشانەی ھێز یان زەبر، پێ‌داگیری، دووپات‌کردنەوە، دووبارەکردنەوە، گرنگی تایبەت، جەخت(کردن)، جەختاندن
 
@@ -260,6 +261,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: accent (derived forms: accented, accents, accenting)

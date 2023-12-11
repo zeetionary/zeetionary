@@ -161,6 +161,7 @@ class EnglishEntrybastard extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (مناڵ) زۆڵ یا حەرام‌زادە، نافەرمی مرۆڤی زۆڵ، حەرام‌زا، بیژوو، بیژی، پیچ، زۆڵ‌زادە، ناڕەوا؛ دوڕڕە، تێکەڵ، ناڕەسەن، ساختە، درۆ، درۆزنە، قەڵب، قەحبەدایک، دایک‌کوونی، دایک‌جندە، خاوەنی شێوە یان بارستەیەکی نائاسایی، نالەبار، بەدقەوارە
 
@@ -283,6 +284,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: bastard (derived forms: bastards)

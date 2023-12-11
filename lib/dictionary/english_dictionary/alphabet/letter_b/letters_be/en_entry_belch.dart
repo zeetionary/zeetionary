@@ -165,6 +165,7 @@ class EnglishEntrybelch extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: قرقێنە، قرپ، فیشقە، توڕھەڵدان، بە نھێم‌فڕێدان، حەوادان
 
@@ -276,6 +277,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: belch (derived forms: belches)

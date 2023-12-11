@@ -171,6 +171,7 @@ class EnglishEntryballgame extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گۆیێن، تۆپێن، تۆپ‌تۆپێن، بێسبۆڵ (ئەمریکا)، ڕەوش، کاودان، ھەل‌ومەرج، بار
 
@@ -265,6 +266,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: ballgame (derived forms: ballgames)

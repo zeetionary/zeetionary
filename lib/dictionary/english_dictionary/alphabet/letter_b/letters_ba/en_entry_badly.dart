@@ -242,6 +242,7 @@ class EnglishEntrybadly extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەتوندی، توند، شپرزە، زۆر، گەلێ، یەکجار، خراپ، بەشێوەیەکی خراپ
 
@@ -501,6 +502,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adverb: badly

@@ -164,6 +164,7 @@ class EnglishEntrybeautify extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جوان کردن، ڕازاندن، خەملاندن
 
@@ -253,6 +254,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: beautify (derived forms: beautified, beautifies, beautifying)

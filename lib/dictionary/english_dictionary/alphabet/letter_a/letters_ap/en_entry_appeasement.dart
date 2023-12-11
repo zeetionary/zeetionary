@@ -178,6 +178,7 @@ class EnglishEntryappeasement extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دامرکاندن، دڵ‌دانەوە، ئارام‌کردنەوە، نیشاندنەوە، ھێورکردنەوە، ژیرکردنەوە، ڕازی‌کردن، قایل‌کردن، ڕێک‌کەوتن، سازان، بۆش‌کردن
 
@@ -272,6 +273,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: appeasement (derived forms: appeasements)

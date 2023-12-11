@@ -180,6 +180,7 @@ class EnglishEntryaudition extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کورتە نمایشێک لەلایەن ئەکتەرێک یان گۆرانیبێژێک بۆ ئەوەی بڕیار لەسەر تواناکانیان بدرێت بۆ بەژداری لە بەرھەمێک"""),
                           Row(
@@ -299,6 +300,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: audition (derived forms: auditioned, auditioning, auditions)

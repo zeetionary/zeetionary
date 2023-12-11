@@ -173,6 +173,7 @@ class EnglishEntryantidepressant extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (دەرمانی) دژەدڵتەنگی یان دژی خەمۆکی، دڵتەنگی‌ڕەوێن
 
@@ -244,6 +245,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: antidepressant (derived forms: antidepressants)

@@ -129,6 +129,7 @@ class EnglishEntryacne extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زیپکە (ی لاوێتی) جوانەزۆ، جوانەژۆ، ئازەبە
 
@@ -191,6 +192,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: acne (derived forms: acnes)

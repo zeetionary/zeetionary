@@ -165,6 +165,7 @@ class EnglishEntrybesiege extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەورگرتن، پەلاماردان، گەمارۆدان
 
@@ -278,6 +279,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: besiege (derived forms: besieged, besieges, besieging)

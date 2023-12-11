@@ -178,6 +178,7 @@ class EnglishEntryattache extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێک کە لە بوارێکی تایبەتدا لە باڵیۆزخانەیەک کاردەکات"""),
                           Row(
@@ -246,6 +247,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: attaché (derived forms: attachés)

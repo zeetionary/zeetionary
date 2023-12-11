@@ -130,6 +130,7 @@ class EnglishEntryaccustomto extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕاھاتن، گونجان، خووگرتن، ئالوودەبوون، ھۆگربوون، گیرۆدەبوون
 
@@ -213,6 +214,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Phrasal verb: accustom to (derived forms: accustoms, accustoming, accustomed)

@@ -178,6 +178,7 @@ class EnglishEntryapostle extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: حەواری، پێشەوا، ڕێبەر، مامۆستا، نێردراو، نێردە، ڕاگەیێنەر
 
@@ -274,6 +275,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: apostle (derived forms: apostles)

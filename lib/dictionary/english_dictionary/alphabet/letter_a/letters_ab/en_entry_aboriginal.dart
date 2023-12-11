@@ -117,6 +117,7 @@ class EnglishEntryaboriginal extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (مرۆڤ، ڕووەک یان گیانەوەر) ڕەسەن، بوومی، خۆجێیی، ناوچەیی، خۆماڵی، سەرەتانشین، دانیشتووانی ڕەسەنی ئەوسترالیا، 
 
@@ -192,6 +193,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: aboriginal (derived forms: aboriginals)

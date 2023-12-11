@@ -179,6 +179,7 @@ class EnglishEntryappropriation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تەرخان‌دان، تایبەت‌دان، بودجە، دراونامە، گرتن، دەس‌بەسەراگرتن، زەوت‌کردن، لێ‌سەندن، (لێ)ھەڵگرتن، دزین، بڕینەبەرخۆ، دانەبەرخۆ
 
@@ -301,6 +302,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: appropriation (derived forms: appropriations)

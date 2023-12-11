@@ -160,6 +160,7 @@ class EnglishEntrybarrow extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: عەرەبانەی دەستی، دەستەبەر، فەڕغوون (دووچەرخ و زۆرتر لە لایەن دەس‌فرۆشانی سەر شەقام بەکادێنرێ)، قوڕکێش، ناوە، ئەستەموڵی، بەرازی خەساو (بەرلە پێگەیشتنی ڕەگەزی)، کۆما گڵی سەر قەبر، گڵکۆ، گۆڕپشتە
 
@@ -267,6 +268,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 Noun: barrow (derived forms: barrows)

@@ -163,6 +163,7 @@ class EnglishEntrybemoan extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) ناڕەزایی دەربڕین لەسەر شتێک، یان وتنی ئەوەی دڵخۆش نیت بە شتێک"""),
                           Row(
@@ -232,6 +233,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: bemoan (derived forms: bemoans, bemoaned, bemoaning)

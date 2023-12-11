@@ -173,6 +173,7 @@ class EnglishEntryaxe extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تەور، بیور، باڵتە، سیکارد، بێ‌پۆژ، دەرکردن، لابردن، کەم‌کردنەوەی خەرج یان تێچوون
 
@@ -315,6 +316,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: axe

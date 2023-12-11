@@ -183,6 +183,7 @@ class EnglishEntryashamed extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شەرمەزار، شەرمەسار، شەرمەزار، ڕووسیابار، سەرداخستوو، خەجاڵەت‌بار، خەجاڵەتەوەبوو، بەخۆداشکاو، بە تەقەکەوتوو، تریقەوەبوو، ڕووزەرد
 
@@ -349,6 +350,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: ashamed 

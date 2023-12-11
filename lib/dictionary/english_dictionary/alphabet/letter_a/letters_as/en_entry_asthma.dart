@@ -179,6 +179,7 @@ class EnglishEntryasthma extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕبۆ، ڕەبوو، ھەناسەسواری، تەنگەھەناسە، ھەناسەتەنگی، بەرھەنگ، گژم، پشووسواری
 
@@ -249,6 +250,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: asthma (derived forms: asthmas)

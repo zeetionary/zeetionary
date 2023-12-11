@@ -175,6 +175,7 @@ class EnglishEntryanvil extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەزگا، سندان، زیندان، مێخ‌سندان، ئێسکی دەزگا(یی)، ئێسکۆلکەی دەزگایی
 
@@ -244,6 +245,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: anvil (derived forms: anvils)

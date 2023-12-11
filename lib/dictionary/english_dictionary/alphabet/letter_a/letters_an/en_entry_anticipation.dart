@@ -175,6 +175,7 @@ class EnglishEntryanticipation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چاوەڕوانی، تەماوەری، پێش‌بینی، مەزندە، دەس‌پێش‌کەری، دەست‌پێش‌خەری، دەست‌پێش‌خستن، بەرگیری، پێش‌گیری، پێش‌گرتن
 
@@ -294,6 +295,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: anticipation (derived forms: anticipations)

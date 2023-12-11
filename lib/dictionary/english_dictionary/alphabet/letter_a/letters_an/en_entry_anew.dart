@@ -171,6 +171,7 @@ class EnglishEntryanew extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دیسان، ھەمیسان، جارێکی تر، لە سەڵڵا(وە)، سەرلەنوێ، لە نووکەوە، ژنووڤە، دووبارە
 
@@ -240,6 +241,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adverb: anew 

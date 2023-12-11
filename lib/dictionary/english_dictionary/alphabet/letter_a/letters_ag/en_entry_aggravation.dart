@@ -130,6 +130,7 @@ class EnglishEntryaggravation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خراپ‌تربوون، لێ‌پێس‌کردن، شپرزەیی، تووڕەیی، ڕق‌ھەستاوی، ورووژاندن، تین‌دان، ئارۆزان، تووڕەکردن، مایە یان ھۆکاری خراپترکردن
 
@@ -221,6 +222,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: aggravation (derived forms: aggravations)

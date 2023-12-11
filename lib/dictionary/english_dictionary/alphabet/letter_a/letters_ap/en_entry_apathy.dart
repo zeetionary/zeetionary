@@ -178,6 +178,7 @@ class EnglishEntryapathy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کەمتەرخەمی، بێ‌دەربەستی، بێ‌ھەستی، بێ‌تاقەتی، دڵ‌مردوویی، ساردوسڕی، خەمساری، ناھومێدی، دڵساردی، ناھۆگری، ناتامەزرۆیی، بێ‌ھیوایی
 
@@ -272,6 +273,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: apathy (derived forms: apathies)

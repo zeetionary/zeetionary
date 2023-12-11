@@ -163,6 +163,7 @@ class EnglishEntryberet extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کڵاوی بێرێ؛ کڵاوێکی تەخت کە لە پارچەی نەرم درووستکراوە"""),
                           Row(
@@ -232,6 +233,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: beret (derived forms: berets)

@@ -129,6 +129,7 @@ class EnglishEntryadvent extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەرکەوتن، سەرھەڵدان، پەیدابوون، چوونەنێو، ھاتن، ھاتنەوەی (پێغەمبەر) مەسیح (چوار حەوتوو پێش کریسمەس لە ئایینی کریستانیەت‌دا)
 
@@ -195,6 +196,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: advent (derived forms: advents)

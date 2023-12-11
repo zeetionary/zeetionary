@@ -129,6 +129,7 @@ class EnglishEntryafoot extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لەسەرپێ، بەپێوە، لە پەرەسەندن‌دا، لە پێشکەوتن‌دا، لە ئامادەبوون‌دا، لە حاڵی کردن‌دا، لە جووڵەدا، بەڕێگاوە، نزیک، ھاکاھات
 
@@ -193,6 +194,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: afoot 

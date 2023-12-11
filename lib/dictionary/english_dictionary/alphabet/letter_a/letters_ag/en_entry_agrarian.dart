@@ -129,6 +129,7 @@ class EnglishEntryagrarian extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەربە زەوی‌وزار، زەوی‌وزاری، زەمینی، مڵکی، زەوی‌یانە، کشت‌وکاڵی، وەرزێری، خۆڕسک، کێوی، دەشتی، دەشتەکی، سەربە خاوەنێتی زەوی‌وزار، لایەنگری دابەش‌کردنی سامانی زەوی‌زار، ئەندامی پارت یا بزووتنەوەی زەوی‌وزار
 
@@ -197,6 +198,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: agrarian

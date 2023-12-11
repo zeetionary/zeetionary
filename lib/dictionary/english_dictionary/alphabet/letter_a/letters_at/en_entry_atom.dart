@@ -179,6 +179,7 @@ class EnglishEntryatom extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گەردیلە، ئەتۆم، تۆزە، کەمووسکە، نەختە 
 
@@ -271,6 +272,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: atom (derived forms: atoms)

@@ -174,6 +174,7 @@ class EnglishEntrybait extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چەشکە، تامک، چەشە، دان، دانە، داو، تەڵە
 
@@ -341,6 +342,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: bait (derived forms: baiting, baited, baits)

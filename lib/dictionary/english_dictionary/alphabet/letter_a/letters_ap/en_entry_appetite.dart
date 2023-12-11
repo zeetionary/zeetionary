@@ -178,6 +178,7 @@ class EnglishEntryappetite extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئیشتیا، دڵ‌بردن، ئارەزوو، مەیل، ویست، حەز، ئارەزوو، بێزوو، مەگیز
 
@@ -274,6 +275,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: appetite (derived forms: appetites)

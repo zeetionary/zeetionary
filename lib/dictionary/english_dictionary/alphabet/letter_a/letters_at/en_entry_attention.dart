@@ -182,6 +182,7 @@ class EnglishEntryattention extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەرنج(دان)، (لێ)وردبوونەوە، لێ‌خوردبوونەوە، زەین‌پێدان، لالێدانەوە، بەتەنگەوەبوون، ئاگاداری تایبەتی، چاودێری، ئاگالێ‌بوون، پێ‌چاران، بەدیارەوەبوون، چاولێ‌بوون، ئاگاداری، پێ‌ڕاگەیشتن، دەستوورێکی میلیتاری کە لەودا سەرباز دەبێ ڕاست بوێستێ و پێی جووت کا و دەست بەرداتەوە، سەرنج
 
@@ -351,6 +352,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: attention (derived forms: attentions)

@@ -185,6 +185,7 @@ class EnglishEntryassault extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھێرش، ھەڵمەت، شاڵاو، تاوانی ھێرشی جەستەیی، تێبەربوون، لێدان، لێدان و بریندارکردن، دەس‌درێژی، پەلامار (بەتایبەت سێکسی)
 
@@ -406,6 +407,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: assault (derived forms: assaults, assaulting, assaulted)

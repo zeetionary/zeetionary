@@ -179,6 +179,7 @@ class EnglishEntryaspire extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئارزوو ھەبوون، ھیوا خواستن، ھەبوونی ھەستی بەرزە فڕی
 
@@ -247,6 +248,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: aspire (derived forms: aspired, aspires, aspiring)

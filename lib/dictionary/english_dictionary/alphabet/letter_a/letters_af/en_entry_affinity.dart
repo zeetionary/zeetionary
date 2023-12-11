@@ -147,6 +147,7 @@ class EnglishEntryaffinity extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەستراوی، پێوەستایەتی، پشت‌پێ‌بەستوویی، خۆبەستەیی، سەربەدی‌یەتی، پاشکۆیی، پێوەبەندایەتی، دیبەندایەتی، لێکچوویی، لێک‌نزیکی، وەکھەڤی، نزیکی، وەکیەکی، پێوەندی، تێکەڵی، خزمایەتی ژن‌ومێردایەتی، ئەوینداری، مەیل، (کیمیا) ھۆگرێتی، ڕاکێشان، ڕاکێشەرێتی
 
@@ -254,6 +255,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: affinity (derived forms: affinities)

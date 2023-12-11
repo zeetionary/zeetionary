@@ -181,6 +181,7 @@ class EnglishEntryassist extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھاوکاری، یارمەتی دان، ھاریکاری کردن
 
@@ -301,6 +302,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: assist (derived forms: assists, assisting, assisted)

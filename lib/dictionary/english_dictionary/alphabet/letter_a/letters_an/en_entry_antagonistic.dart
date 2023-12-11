@@ -172,6 +172,7 @@ class EnglishEntryantagonistic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دوژمن، نەتڵ، دژ، نەیار، دوژمن‌کارانە، دوژمنانە، دژبەرانە 
 
@@ -242,6 +243,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: antagonistic 

@@ -179,6 +179,7 @@ class EnglishEntryastonishment extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەرسامی، سەرسووڕمان، واق‌وڕمان، واق‌وڕی، حەپەسان، عەبەسران، تاسان، بەگیروەستان، دۆشدامان
 
@@ -249,6 +250,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: astonishment (derived forms: astonishments)

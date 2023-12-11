@@ -186,6 +186,7 @@ class EnglishEntryarrest extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گرتن، دەس‌بەسەرکردن، گل‌دانەوە، ڕاوێستاندن، ڕاگرتن، ڕاگیرکردن
 
@@ -430,6 +431,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: arrest (derived forms: arrested, arresting, arrests)

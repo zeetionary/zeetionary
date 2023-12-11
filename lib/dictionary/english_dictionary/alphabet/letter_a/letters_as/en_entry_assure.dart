@@ -182,6 +182,7 @@ class EnglishEntryassure extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دڵنیا کردن، خاترجەم کردن، بیمە کردن، مسۆگەر کردن
 
@@ -326,6 +327,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: assure (derived forms: assured, assures, assuring)

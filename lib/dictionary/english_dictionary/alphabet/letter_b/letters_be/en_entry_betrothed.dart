@@ -163,6 +163,7 @@ class EnglishEntrybetrothed extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەزگیران، دەسگیران، دەزووران (پاگیرە: کچی دەزگیران‌دار)
 
@@ -233,6 +234,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: betrothed

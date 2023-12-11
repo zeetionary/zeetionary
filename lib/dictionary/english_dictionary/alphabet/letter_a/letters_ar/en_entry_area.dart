@@ -207,6 +207,7 @@ class EnglishEntryarea extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ناوچە، مەڵبەند، دەڤەر، ناوە، گۆڕەپان، ڕووبەر، پانایی، ئاست، بەش، پارچە، پار، شوێن، جێگا، حاند، جێ، وار، بوار، زەمینە، ئاقار، گۆڕەپان، مەیدان، پانتایی، بەستێن، ڕاخستە، بابەت، مژار، لکە، لەکە، پەڵە، حەوشە، حەسار (ماڵ)
 
@@ -427,6 +428,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: area (derived forms: areas)

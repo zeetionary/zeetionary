@@ -165,6 +165,7 @@ class EnglishEntrybean extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پاقلە، لوبیا، فاسۆلیا، ڕووەکی لوبیا، سەر، مێشک، دەماخ، مەژی
 
@@ -296,6 +297,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 Noun: bean (derived forms: beans)

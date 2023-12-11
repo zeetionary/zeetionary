@@ -249,6 +249,7 @@ class EnglishEntrybase extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بنک، بن، خوارووی، بنکە، بێخ، بنج، بنچک، ھیم، خیم، بنگە، پایە، بنەما، بنیات، بناخە، بنەڕەت، بنواشە، بنەواشە، بنکە، (کیمیا) تفت، باز، بەیس، کەرەسەی سەرەکی، مەتریاڵی بنەڕەتی، (مێعماری) ژێرکۆڵ، بن‌کۆڵ، بنک، (دار) بن، کۆلکە، (زمانەوانی) قەد، بن، ڕەگ، ڕیشە (ھی وشە یان داڕشتەیێ)، فۆڕم یان وشەی گەردان‌نەکراو، (بیرکاری) بنک، بنچینە، (بەیسبۆڵ) گۆشە، سووک، نەگریس، جێی‌شەرم، ناحەز، بێ‌شەرمانە
 
@@ -558,6 +559,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: base (derived forms: basing, bases, based)

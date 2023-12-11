@@ -164,6 +164,7 @@ class EnglishEntrybefit extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شیاو بوون، شایان بوون، ھاوشان بوون، گونجان
 
@@ -254,6 +255,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: befit (derived forms: befitting, befitted, befits)

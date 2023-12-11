@@ -131,6 +131,7 @@ class EnglishEntryairworthy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بۆفڕین‌ئامادە، ئامادە یان ساز بۆ فڕین، باش بۆ فڕین، بێ‌مەترسی بۆ فڕین
 
@@ -197,6 +198,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: airworthy 

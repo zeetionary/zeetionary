@@ -162,6 +162,7 @@ class EnglishEntrybasket extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گۆشەر، قرتاڵە، سەبەتە، تووڵینە، تریان، سەوە، سەوەیێ، قرتاڵەیێ، (بەسکێتبۆڵ) ئاڵقە یان بازنە
 
@@ -309,6 +310,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: basket (derived forms: baskets)

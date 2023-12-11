@@ -177,6 +177,7 @@ class EnglishEntryarmedforces extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ھێزە چەکدارەکانی وڵاتێک؛ ھێزی زەمینی و ئاسمانی و دەریایی"""),
                           Row(
@@ -245,6 +246,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: armed forces

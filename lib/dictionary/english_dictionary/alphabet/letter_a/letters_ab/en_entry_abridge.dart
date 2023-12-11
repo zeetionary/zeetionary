@@ -112,6 +112,7 @@ class EnglishEntryabridge extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کورتکردنەوە، زەوتکردن
 
@@ -175,6 +176,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 -Verb: abridge (derived forms: abridged, abridging, abridges)

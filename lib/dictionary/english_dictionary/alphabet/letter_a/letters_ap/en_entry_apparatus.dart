@@ -177,6 +177,7 @@ class EnglishEntryapparatus extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەزگا، کەرەسە، ئامێر، ڕەخت، ئامراز، کەل‌وپەل، دام‌ودەزگا، داوودەزگا
 
@@ -247,6 +248,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: apparatus (derived forms: apparatuses)

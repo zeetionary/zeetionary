@@ -103,6 +103,7 @@ class EnglishEntryabscess extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دمەڵ، دومەڵ، کوان، مادە، سۆ، کولک، پزرک، ناسۆر، گۆنر
 
@@ -165,6 +166,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: abscess (derived forms: abscesses)

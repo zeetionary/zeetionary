@@ -133,6 +133,7 @@ class EnglishEntryamendment extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چا(ک)کردن، ڕاست‌کردنەوە، خاوێن‌کردنەوە، بژارکردن، پیاچوونەوە، چاوپیاخشاندن
 
@@ -253,6 +254,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: amendment (derived forms: amendments)

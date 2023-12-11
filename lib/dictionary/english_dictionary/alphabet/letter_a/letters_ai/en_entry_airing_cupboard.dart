@@ -131,6 +131,7 @@ class EnglishEntryairingcupboard extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کاپ‌بۆردی وشک‌کەرەوەی جل، دۆڵابی بەرگ وشک‌کەرەوە، دۆڵابی بەرگ وشک‌کردنەوە
 
@@ -199,6 +200,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: airing cupboard (derived forms: airing cupboards)

@@ -175,6 +175,7 @@ class EnglishEntryaverage extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نێوبڕ، مەیانەیی، ئەندازە، تێکڕا، ڕادەی نێوەڕاست، ناوەند، مابەین، (ماف) (بەشێ ھەر کەسێ لە دانی) زیانی کەشتی، ناوەند، مام‌ناوەند، نێوەڕاست، ئەندازە، نێوگیر، نێوەند، ئاسایی، ناتایبەتی، مام‌ناوەند
 
@@ -400,6 +401,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: average (derived forms: averages)

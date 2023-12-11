@@ -178,6 +178,7 @@ class EnglishEntryarena extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شەڕگە یان گۆڕەپان یان مەیدانی شەڕی شەڕگەر یان گلادیاتۆرەکانی ڕۆم، گۆڕەپان، مەیدان، کایە، پانتایی، قاد، مەڵبەند، شوێنی چالاکی یان پێش‌بڕکێ، گۆڕ، وەرزشگا، لمانی، ستادیۆم، یاریگا 
 
@@ -274,6 +275,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: arena (derived forms: arenas)

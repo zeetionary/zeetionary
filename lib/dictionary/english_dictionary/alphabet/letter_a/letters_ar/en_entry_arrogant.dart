@@ -179,6 +179,7 @@ class EnglishEntryarrogant extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لەخودەرچوو، لووت‌بەرز، دفن‌بلند، بەھەوا، بادی‌ھەوا، فیزن، بەتڕوتۆپ، بەدەمار، بەفیز، خۆبەزلزان، لووت بەرز، قوڕدەماغ
 
@@ -248,6 +249,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: arrogant 

@@ -112,6 +112,7 @@ class EnglishEntryabhor extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕق‌لێ‌بوون، بێزکردنەوە،
 
@@ -123,7 +124,9 @@ class EnglishEntryabhor extends StatelessWidget {
                                   text:
                                       "Most decent people abhor corruption in government."),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const ExampleSentenceKurdish(text: "ھەرکەسێک خاوەنی ئابڕوو بێت دژی گەندەڵی دەبێت لە حکومەتدا."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەرکەسێک خاوەنی ئابڕوو بێت دژی گەندەڵی دەبێت لە حکومەتدا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA64("en-GB"),
@@ -139,7 +142,9 @@ class EnglishEntryabhor extends StatelessWidget {
                                   text:
                                       "She abhors any form of cruelty towards animals."),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const ExampleSentenceKurdish(text: "ڕقی لە ھەموو جارە توندوتیژییەکە دژ بە ئاژەڵان."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕقی لە ھەموو جارە توندوتیژییەکە دژ بە ئاژەڵان."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA246("en-GB"),
@@ -182,6 +187,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: abhor (derived forms: abhorred, abhorring, abhors)

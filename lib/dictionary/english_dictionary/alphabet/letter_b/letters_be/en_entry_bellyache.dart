@@ -163,6 +163,7 @@ class EnglishEntrybellyache extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ژانەسگ، سکاڵا، بۆڵەبۆڵ، پرتەوبۆڵە، خوتەخوت
 
@@ -252,6 +253,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: bellyache (derived forms: bellyaching, bellyaches, bellyached)

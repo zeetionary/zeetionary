@@ -114,6 +114,7 @@ class EnglishEntryabsolutezero extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سفر یان ھیچی ڕەھا (273/15 پلەی سانتی‌گراد)
 
@@ -177,6 +178,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: absolute zero

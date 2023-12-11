@@ -178,6 +178,7 @@ class EnglishEntryanything extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شتێ، ھەرشتێ، ھەرچی (بێ)، کارێ، ھیچ‌کارێ، ھەرکار،ھیچ‌شتێ
 
@@ -319,6 +320,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Pronoun: anything 

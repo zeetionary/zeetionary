@@ -174,6 +174,7 @@ class EnglishEntryannouncement extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕاگەیاندن، دانەزانین، بڵاوکاری، بڵاوکردنەوە، ئاگاداری، ئاگاھی، بانگەواز، جاڕ، بڵاوکراوە، ھەواڵ
 
@@ -294,6 +295,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: announcement (derived forms: announcements)

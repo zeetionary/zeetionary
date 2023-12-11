@@ -132,6 +132,7 @@ class EnglishEntryalibi extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بیانوو، بەھانە، ئەلیبای، شوێنیکی تر، نەبوون لە شوێنی ڕوودانی تاوان‌دا (بەڵگە و شایەتەکان بۆ سەلماندنی نەبوونی کەسێ لە شوێنی ڕوودانی تاوانێک‌دا)، شوێنێکی تر، جێیێکی دی
 
@@ -225,6 +226,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: alibi (derived forms: alibis)

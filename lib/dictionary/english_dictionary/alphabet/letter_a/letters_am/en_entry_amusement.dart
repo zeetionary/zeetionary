@@ -173,6 +173,7 @@ class EnglishEntryamusement extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پێکەنین، بزە، شادی، گەشی، خۆشی، خۆشحاڵی، بەکەیفی، سەرقاڵی، ڕابواردن، مژوولاھی، کەرەسەی سەرقاڵی یان ڕابواردن، ھۆی سەرگەرمی
 
@@ -294,6 +295,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: amusement (derived forms: amusements)

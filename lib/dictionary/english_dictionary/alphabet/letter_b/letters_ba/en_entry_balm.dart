@@ -172,6 +172,7 @@ class EnglishEntrybalm extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕۆنی بەلسان یان بام، گیاسەودا، مەرھەم، ھەتوان، ھێدی‌کەرەوە، خەم‌ڕەوێن، ئارام‌کەرەوە، ھێورکەرەوە
 
@@ -290,6 +291,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: balm (derived forms: balms)

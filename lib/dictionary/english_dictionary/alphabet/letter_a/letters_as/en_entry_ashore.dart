@@ -179,6 +179,7 @@ class EnglishEntryashore extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لە کەنار، لە گوێئاو، لە دەمئاو، بەرەو کەنار، تا کەنار، تا بەستێن
 
@@ -271,6 +272,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adverb: ashore

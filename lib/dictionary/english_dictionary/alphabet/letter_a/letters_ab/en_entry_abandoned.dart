@@ -112,6 +112,7 @@ class EnglishEntryabandoned extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەتەنیاکەوتوو، بەجێ‌ماو، وازلێ‌ھێنراو، وەلانراو، دەس‌لێ‌ھەڵگیراو، لاتەریک، وێڵ‌کراو، چۆڵ‌کراو، پشت‌لێ‌ھەڵکراو، بەجێ‌ھێڵراو
 
@@ -142,7 +143,7 @@ class EnglishEntryabandoned extends StatelessWidget {
                                       "There was an abandoned supermarket trolley in the middle of the road."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "گالیسکەیەکی جێھێڵدراوی سوپەرمارکێتێک لە ناوەڕاتی شەقامەکە بوو."),
+                                      "گالیسکەیەکی جێھێڵدراوی سوپەرمارکێت لە ناوەڕاستی شەقامەکە بوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAbandoned47("en-GB"),
@@ -185,6 +186,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: abandoned

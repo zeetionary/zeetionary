@@ -178,6 +178,7 @@ class EnglishEntryapparently extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەڕواڵەت، لەو جۆرەی کەوا دیارە، وادیارە، باقڵ، بە ئەقڵ، گوایە، ویدەچێ
 
@@ -271,6 +272,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adverb: apparently 

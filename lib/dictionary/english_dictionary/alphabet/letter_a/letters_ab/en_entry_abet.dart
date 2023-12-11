@@ -103,6 +103,7 @@ class EnglishEntryabet extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) یارمەتیدان و ھاندانی کەسێک بۆ کردنی کارێکی ھەڵە
                             """),
@@ -112,7 +113,9 @@ class EnglishEntryabet extends StatelessWidget {
                                   text:
                                       "He was abetted in the deception by his wife."),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const ExampleSentenceKurdish(text: "لەلایەن ژنەکەی ھاندرا بۆ کردنی تەڵەکەبازییەکە."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لەلایەن ژنەکەی ھاندرا بۆ کردنی تەڵەکەبازییەکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAbe42("en-GB"),
@@ -155,6 +158,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: abet (derived forms: abets, abetted, abetting)

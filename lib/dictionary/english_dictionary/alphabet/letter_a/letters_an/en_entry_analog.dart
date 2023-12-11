@@ -173,6 +173,7 @@ class EnglishEntryanalog extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (تکنیکی و فەرمی) ھاوشێوە، ھاوچەشن، لێکچوو، ھاوتا، وەکیەک،  شتێکی ھاوشێوە یان لێکچوو
 
@@ -295,6 +296,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: analog 

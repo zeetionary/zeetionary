@@ -129,6 +129,7 @@ class EnglishEntryaffliction extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مەینەتی، بەدبەختی، سەختی، پەژارە، خەم، ڕەنج، ئێش، ژان، سوێ، ئازار، بەڵا، ئاسێو، دەرد
 
@@ -193,6 +194,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: affliction (derived forms: afflictions)

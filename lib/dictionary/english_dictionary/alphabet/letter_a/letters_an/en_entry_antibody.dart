@@ -173,6 +173,7 @@ class EnglishEntryantibody extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نەھێڵەلەش، ئەنتی‌بادی، دژەتەن، دژەتەن
 
@@ -243,6 +244,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: antibody (derived forms: antibodies)

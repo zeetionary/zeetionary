@@ -180,6 +180,7 @@ class EnglishEntryascent extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەرکەوتن، ژووربوونەوە، سەرووبوونەوە، ھەڵکشان، چوونەسەرەوە، پیاھەڵچوون، پێشکەوتن، ڕێگای سەرەوژووری، سەرەوژووری، ھەوراز، تەلان
 
@@ -274,6 +275,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: ascent (derived forms: ascents)

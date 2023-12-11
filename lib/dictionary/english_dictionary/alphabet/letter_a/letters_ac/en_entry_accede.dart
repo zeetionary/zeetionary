@@ -121,6 +121,7 @@ class EnglishEntryaccede extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) ڕازیبوون بە داوایەک/پێشنیارێک"""),
                           Row(
@@ -202,6 +203,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: accede (derived forms: acceded, accedes, acceding)

@@ -139,6 +139,7 @@ class EnglishEntryabstract extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕووت، ھەڵماڵراو، ئابستراکت، مانایی، ئایدیاڵ، خەیاڵی، ئەندێشەیی، ناکرداری، ناکۆنکرێت، بیردۆزی، تیۆریک
 
@@ -262,6 +263,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: abstract

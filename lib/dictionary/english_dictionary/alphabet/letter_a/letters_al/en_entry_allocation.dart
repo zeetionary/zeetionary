@@ -133,6 +133,7 @@ class EnglishEntryallocation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دابەش‌کردن، دابەشاندن، بەشینەوە، تەرخان‌دان، بۆبڕینەوە، تایبەتی‌دان، دیاری‌کردن، دەست‌نیشان‌کردن، بەش، پشک، تەرخانە، گوژمە، بودجە
 
@@ -248,6 +249,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: allocation (derived forms: allocations)

@@ -166,6 +166,7 @@ class EnglishEntrybeach extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کەناری زیخەڵانی، خیزخۆر، قەراخ دەریا، کەنار، کەناراو
 
@@ -314,6 +315,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: beach (derived forms: beaches)

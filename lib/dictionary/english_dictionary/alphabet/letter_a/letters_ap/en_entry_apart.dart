@@ -178,6 +178,7 @@ class EnglishEntryapart extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دوور، جیا، لێک‌جیا، لەیەک دوور، بە مەودایێکەوە، لەپاڵ، لەکن، لەلای، لای، تەنیا، بەتەنیایی، سەرەڕای، زێدەباری
 
@@ -348,6 +349,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adverb: apart  

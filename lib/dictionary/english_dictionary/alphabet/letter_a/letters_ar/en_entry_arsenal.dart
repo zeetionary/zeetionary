@@ -180,6 +180,7 @@ class EnglishEntryarsenal extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جبەخانە، قۆڕخانە، باڕووت‌خانە، چەک‌وچۆڵ، چەکەمەنی، (کارخانە) چەک‌سازی، تۆکمەسازی، عەماری چەک‌وچۆڵ و تەقەمەنی، عەمار، کۆگا، ھەمار، پاشکەوت‌خانە
 
@@ -276,6 +277,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: arsenal (derived forms: arsenals)

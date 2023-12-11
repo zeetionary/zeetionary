@@ -177,6 +177,7 @@ class EnglishEntryarabicnumeral extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ژمارەکانی 0، 1، 2، 3، 4، 5، ھتد کە بەکاردێن لە زۆر وڵاتدا"""),
                           Row(
@@ -244,6 +245,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: Arabic numeral (derived forms: Arabic numerals)

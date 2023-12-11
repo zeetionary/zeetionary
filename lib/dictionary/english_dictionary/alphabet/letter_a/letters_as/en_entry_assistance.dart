@@ -180,6 +180,7 @@ class EnglishEntryassistance extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: یارمەتی، یاریدە، دەس‌گرتن، دەس‌گیرۆیی، کۆمەک، باروبۆ، باربوو، بازگوڕی، ئالیکاری، ھاریکاری، ھاوکاری
 
@@ -272,6 +273,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: assistance (derived forms: assistances)

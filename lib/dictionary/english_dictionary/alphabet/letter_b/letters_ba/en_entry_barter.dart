@@ -159,6 +159,7 @@ class EnglishEntrybarter extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئاڵشت، ئاڵ‌ووێر، ئاڵ‌وگۆڕ، گۆڕینەوە
 
@@ -245,6 +246,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: barter (derived forms: barters)

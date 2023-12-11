@@ -171,6 +171,7 @@ class EnglishEntrybarbarian extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (لە سەردەمانی کۆن‌دا) بەڕبەڕ، بێگانە (بەتایبەت نایۆنانی، ناڕۆمی یان ناکریستانی)، مرۆی دڕندە یان ناشارستانی، بەڕبەڕ، ھۆڤ، ناشارستانی، بێ‌ژیار، بیانی، دەرەکی، دەشتەکی، بێگانە
 
@@ -267,6 +268,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: barbarian

@@ -313,6 +313,7 @@ class EnglishEntrybetween extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لەنێو، لەنێوان، نێوان، ناڤین، لە بەین، لە مابەین، لە نێوەڕاست، پێکەوە، لەگەڵ‌یەک
 
@@ -697,6 +698,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Preposition: between

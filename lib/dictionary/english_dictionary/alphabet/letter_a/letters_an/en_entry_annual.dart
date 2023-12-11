@@ -175,6 +175,7 @@ class EnglishEntryannual extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ساڵانە، ساڵی، ساڵیانە، یەک‌ساڵە، ھەر ساڵ، یەک‌ساڵە، یەک‌ساڵەژی، ساڵنامە، ڕووەک یان گیای یەک‌ساڵە
 
@@ -321,6 +322,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: annual  

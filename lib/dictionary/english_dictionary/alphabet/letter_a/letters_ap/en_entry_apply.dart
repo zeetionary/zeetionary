@@ -182,6 +182,7 @@ class EnglishEntryapply extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) پێشکەشکردنی داواکارییەک، زۆرجار بە نووسین، بۆ کارێک، قەرزێک، مۆڵەتی کردنی شتێک، یان جێگایەک لە زانکۆ"""),
                           Row(
@@ -376,6 +377,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: apply (derived forms: applying, applied, applies)

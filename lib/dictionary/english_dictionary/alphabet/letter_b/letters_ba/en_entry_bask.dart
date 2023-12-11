@@ -158,6 +158,7 @@ class EnglishEntrybask extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) چێژبینی لە پاڵکەوتن لەبەر خۆرەتاو یان ڕووناکی شتێک"""),
                           Row(
@@ -220,6 +221,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: bask (derived forms: basked, basks, basking)

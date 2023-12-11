@@ -180,6 +180,7 @@ class EnglishEntryassured extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دڵنیا، خاترجەم، ئەرخایەن، مسۆگەر، بێ‌ئەملاوئەولا
 
@@ -299,6 +300,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: assured

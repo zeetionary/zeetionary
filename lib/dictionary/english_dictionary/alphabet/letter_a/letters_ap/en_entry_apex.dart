@@ -178,6 +178,7 @@ class EnglishEntryapex extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەر، تەوق، نووچکە، نووک، چڵوک، چڵەپۆپە، ترۆپک، لووتکە
 
@@ -270,6 +271,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: apex (derived forms: apices, apexes)

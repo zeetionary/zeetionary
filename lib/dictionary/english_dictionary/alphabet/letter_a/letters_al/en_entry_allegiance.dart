@@ -131,6 +131,7 @@ class EnglishEntryallegiance extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: وەفاداری، دڵسۆزی، بەئەمەکی، پشتیوانی، داژداری، لایەنگری، ئالیگری، داکۆکی، پەیمان، بەڵێن، سۆز، گفت، لایەنگر، پشتیوان
 
@@ -198,6 +199,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: allegiance (derived forms: allegiances)

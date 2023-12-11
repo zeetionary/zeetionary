@@ -150,6 +150,7 @@ class EnglishEntryalight extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: داگیرساو، گڕگرتوو، ھەڵبوو، بریقەدار، درەوشاوە، ڕووناک، خۆشحاڵ، بەکەیف، شاد
 
@@ -265,6 +266,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: alight 

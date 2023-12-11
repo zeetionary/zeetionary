@@ -255,6 +255,7 @@ class EnglishEntrybehind extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پشتەوە، دواوە، لە پشتەوە، لە پشت، لە دواوە، لە دوای، لەپاش، درەنگ، درەنگ‌تر لە، بەشی پشتەوە، ئەوبەر، پشتیوانی، لایەنگری، داکۆکی، سمت، کنگ، کەفەڵ، ڕوونەک، پاشەڵ
 
@@ -593,6 +594,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adverb: behind

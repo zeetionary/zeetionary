@@ -121,6 +121,7 @@ class EnglishEntryabrasive extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کڕێنەر، کڕەک، داخورێنەر، سوێنەر، زبرە، خاوێن‌کەرەوە، داتاشەر، لووس‌کەر، مشت‌وماڵ‌دەر، ژان‌بەدڵ‌گەیێن، جەرگبڕ، دڵ‌شکێن، ناخۆش، توندوتیژ، کەرەسە یا مەتریاڵی سوێنەر، ماکی سوواندن، سوێنە
 
@@ -204,6 +205,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: abrasive (derived forms: abrasives)

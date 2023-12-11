@@ -181,6 +181,7 @@ class EnglishEntryattractive extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەرنج‌ڕاکێش، دڵکێش، خۆش، دڵگر، دڵبەر، دڵچەسپ، ڕووبازاڕی، بالکێش، جوان، دڵڕفێن
 
@@ -302,6 +303,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: attractive 

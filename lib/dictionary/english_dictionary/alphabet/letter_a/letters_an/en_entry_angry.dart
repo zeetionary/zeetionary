@@ -174,6 +174,7 @@ class EnglishEntryangry extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تووڕە، قەڵس، توند، بەڕق، ڕق‌ھەستاو، نگری، پڕبا، ئاڵۆز، شەپۆلاوی (دەریا)، گڕگرتوو، سوورەوەبوو، بەژان، بەسوێ (برین)
 
@@ -316,6 +317,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: angry (derived forms: angriest, angrier)

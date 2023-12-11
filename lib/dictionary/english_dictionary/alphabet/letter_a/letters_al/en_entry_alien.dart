@@ -160,6 +160,7 @@ class EnglishEntryalien extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھاووڵاتی بیانی یان بێگانە، بیانی، دەرەکی، بێگانە، ئاوەکی، نامۆ، نەناس، لاوە، غەریب، غەوارە، نائاسایی، پەسندنەکراو، جیاواز، دژ، (سەربە) بوونەوەری جیھانەکانی تر
 
@@ -351,6 +352,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: alien

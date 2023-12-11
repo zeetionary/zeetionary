@@ -167,6 +167,7 @@ class EnglishEntrybeginning extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەرەتا، سەر، دەسپێک، دەست‌پێ‌کردن، ھەوەڵ، بەرایی، بەر، بەرەبەر، نوخشە، سەرچاوە، بنەڕەت، بناوان، چاڤکانی، بەشی یەکەم 
 
@@ -315,6 +316,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: beginning (derived forms: beginnings)

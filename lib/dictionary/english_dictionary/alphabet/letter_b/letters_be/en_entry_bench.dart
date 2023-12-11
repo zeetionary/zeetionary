@@ -167,6 +167,7 @@ class EnglishEntrybench extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: میز، قەنەفە، کورسی، تەخت، سەکۆ، تەختە، میز یان مێزی کار، تەختە یان میزی کار، دادگەر، دادوەر، دادپرس، دادگا، دەستەی دادگەران (دادوەران)، کورسی دادگایی، کارگە، دەزگا
 
@@ -321,6 +322,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: bench (derived forms: benches)

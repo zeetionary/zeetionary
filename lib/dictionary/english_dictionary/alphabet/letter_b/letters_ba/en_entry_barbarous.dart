@@ -170,6 +170,7 @@ class EnglishEntrybarbarous extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دڕندە، دڕ، کێوی، ھۆڤ، دڕندانە، بێ‌بەزەیی، دڵڕەق، زۆردار، زاڵم، توندوتیژ، بەزەبروزەنگ، بێگانە، بیانی، ناشارستانی، بێ‌فەرھەنگ، بێ‌ڕەوشت، بێ‌تۆرە، ناڕۆشنبیر، بەدەنگ‌وھەرا، پڕ لە زەنازەنا، سەر زمان‌نەکەوتوو
 
@@ -240,6 +241,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: barbarous

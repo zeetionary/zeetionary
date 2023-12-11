@@ -196,6 +196,7 @@ class EnglishEntryamnesty extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لێ‌بوردن، بەخشین، لێ‌خۆشبوون (گشتی)، تەنگەتاوی، موڵەت، دەرفەت
 
@@ -289,6 +290,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: amnesty (derived forms: amnesties)

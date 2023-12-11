@@ -178,6 +178,7 @@ class EnglishEntryappealing extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خۆش، سەرنج‌ڕاکێش، بالکێش، داوێن‌گرانە، داوێن‌گیرانە، بە پاڕانەوە
 
@@ -274,6 +275,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: appealing 

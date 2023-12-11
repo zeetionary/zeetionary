@@ -177,6 +177,7 @@ class EnglishEntryapplied extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ناتیۆریک، نابیردۆزی، کردارەکی، کارپێکراو، کارەکی، کردەنی، کارپێکەرانە، بەکارھێنەرانە
 
@@ -247,6 +248,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: applied 

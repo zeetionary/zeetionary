@@ -159,6 +159,7 @@ class EnglishEntrybasics extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بنەماکان، بنچینەکان، ڕاست‌یە پێویست و گرنگەکان، سەرەتاکان، کەل‌وپەلە سەرەکی‌یان، کەل‌وپەلی سەرەکی
 
@@ -243,6 +244,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: basics

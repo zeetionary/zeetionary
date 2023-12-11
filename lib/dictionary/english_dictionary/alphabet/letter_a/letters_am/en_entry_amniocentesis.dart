@@ -195,6 +195,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) ئەمنیۆسێنتێسیس؛ تاقی‌کردنەوەیەکی پزیشکی بۆ ژنانی سکپڕ، بەمەبەستی دیاریکردنی بوونی نەخۆشییەکی تایبەتی یا کێشەیەکی تەندرووستی لە ئاوەڵمەدا"""),
                           Row(
@@ -262,6 +263,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: amniocentesis (derived forms: amniocenteses)

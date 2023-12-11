@@ -131,6 +131,7 @@ class EnglishEntryalmond extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بادەم، بایەم، بەھیڤ، کاکڵە بادام، چوالە، ناوکە بادام، درەخت یان داربادەم
 
@@ -199,6 +200,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: almond (derived forms: almonds)

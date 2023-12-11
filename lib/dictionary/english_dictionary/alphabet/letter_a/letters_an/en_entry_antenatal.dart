@@ -173,6 +173,7 @@ class EnglishEntryantenatal extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کۆرپەلەیی، ئاوەڵمەیی، پێش لە دایک‌بوون، پێش‌بوون، سەربە ژنانی سکپڕ، تێ‌ڕوانینی قۆناخی سکپڕی، تێ‌ڕوانینی پزشکی لەسەر ژنانی سکپڕ، تێ‌ڕوانینی پزشکی سەردەمی سکپڕی
 
@@ -243,6 +244,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: antenatal 

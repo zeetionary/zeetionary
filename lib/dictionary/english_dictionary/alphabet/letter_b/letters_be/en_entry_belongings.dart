@@ -163,6 +163,7 @@ class EnglishEntrybelongings extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کەل‌وپەل، شت‌ومەک، دارونەدار، ھەیە و نییە، جڕوجیازی، ھەبوو و نەبوو، بوون و نەبوون، شتەکان، شت‌ومت، ئەنوا، دارایی، ماڵ‌وحاڵ
 
@@ -234,6 +235,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: belongings

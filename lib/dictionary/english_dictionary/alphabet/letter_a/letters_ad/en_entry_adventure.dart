@@ -129,6 +129,7 @@ class EnglishEntryadventure extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕووداو، سەرکێش، سەربردە، (بە)سەرھات، جەربەزەیی، سەروردی، کێشەخوازی، مەترسی‌کاری، سەرەڕۆیی، سەرلەکێشەخوران، مەترسی، کاری مەترسی‌دار یان خەتەر، کاری سەیر
 
@@ -194,6 +195,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: adventure (derived forms: adventured, adventures, adventuring)

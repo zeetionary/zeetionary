@@ -174,6 +174,7 @@ class EnglishEntryballot extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەنگ، دەنگ‌پەڕ، پەڕەی دەنگ، پەڕەی دەنگ‌دان، دەنگ‌نامە، دەنگ‌دان، ڕێکخستەی دەنگ‌دانی نھێنی، مافی دەنگ‌دان، دەنگەکان، کۆی دەنگ
 
@@ -344,6 +345,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: ballot (derived forms: ballots)

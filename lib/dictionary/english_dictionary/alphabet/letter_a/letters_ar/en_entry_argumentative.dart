@@ -177,6 +177,7 @@ class EnglishEntryargumentative extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەڵگەھێنانەوەیی، مشت‌ومڕباز، فێرەمشت‌ومڕ، مشت‌ومڕخواز، فرەوێژ، دەمەوەر، سەربەکێشە، زمان‌باز
 
@@ -247,6 +248,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: argumentative 

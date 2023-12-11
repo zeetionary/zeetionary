@@ -184,6 +184,7 @@ class EnglishEntryarrangement extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕێک‌کردن، ڕێک‌وپێک‌کردن، جێبەجێ‌کردن، دەستەکردن، چاخاندن، سەقادان، ھەڵوەژارتن، تەرازکردن، چنین، تەکوزکردن، ھەڵبەست(ن)، خشتەکردن، ڕێکخستن، بڕیار، بەرنامە، پلان، ڕێک‌کەوتن، ئامادەکاری، ڕازاندنەوە، گونجاندن، میزان‌کردن، ڕێکخستن (پارچە موسیقایێ)
 
@@ -382,6 +383,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: arrangement (derived forms: arrangements)

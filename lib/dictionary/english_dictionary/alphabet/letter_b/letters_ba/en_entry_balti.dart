@@ -170,6 +170,7 @@ class EnglishEntrybalti extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) خواردنێکی توونی باشووری ئاسیایە کە لە دەفرێکی ئاسندا دەکرێت و بە نانەوە دەخورێت"""),
                           Row(
@@ -237,6 +238,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: balti (derived forms: baltis)

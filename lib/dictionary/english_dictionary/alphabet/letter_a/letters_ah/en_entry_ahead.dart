@@ -164,6 +164,7 @@ class EnglishEntryahead extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پێش، بەر، پێش‌تر، زووتر لە، لەپێش، لە بەردەم، لەوەپێش، لە پێش، بەرلە، لە پێشەوە
 
@@ -300,6 +301,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adverb: ahead 

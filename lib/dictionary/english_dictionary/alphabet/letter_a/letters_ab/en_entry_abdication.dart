@@ -104,6 +104,7 @@ class EnglishEntryabdication extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەست‌لێ‌کێشانەوە، دەست‌لێ‌ھەڵگرتن، وازلێ‌ھێنان (لە پاتشایەتی)، ڕاقەتاندن، کارڤەکێشان، دەست‌پێ‌کێشانەوە، لێ‌سەندنەوە (بەرپرسایەتی)
 
@@ -158,6 +159,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: abdication (plural: abdications)

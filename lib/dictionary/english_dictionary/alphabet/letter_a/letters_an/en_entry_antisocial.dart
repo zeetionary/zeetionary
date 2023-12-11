@@ -176,6 +176,7 @@ class EnglishEntryantisocial extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دژی داب‌ونەریتی کۆمەڵ و مایەی ھەراسانی خەڵکانی تر، دژەکۆمەڵ، دژی کۆمەڵ(گا)، دژی بەرژەوەندی کۆمەڵ(گا)، ناکۆمەڵایەتی، دوژمنی کۆمەڵ، گۆشەگیر، لاتەریک، دوورەپەرێز
 
@@ -272,6 +273,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: antisocial  

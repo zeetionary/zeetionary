@@ -172,6 +172,7 @@ class EnglishEntryavailable extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زۆر، ھەیە، بەدەستەوەبوو، بەردەست، لەبەردەست، دەسکەوتوو، دەسگیر، دەس‌پێڕاگەیشتوو، فەراھەم، حازر، ئامادە، ساز
 
@@ -291,6 +292,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: available

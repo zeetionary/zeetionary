@@ -113,6 +113,7 @@ class EnglishEntryaberration extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لادان، ڕێ‌ھەڵەکردن، لاڕێیی، لەرێ دەرچوون، ھەڵچوون، گومڕایی، خریایی‌بوون، گرفت، تێکچوون، کێشە، کەم‌وکوڕی
 
@@ -124,7 +125,9 @@ class EnglishEntryaberration extends StatelessWidget {
                                   text:
                                       "a temporary aberration of his exhausted mind"),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const ExampleSentenceKurdish(text: "ھەڵچوونێکی کاتی بەھۆی ئەوەی مێشکی ماندوو بوو."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەڵچوونێکی کاتی بەھۆی ئەوەی مێشکی ماندوو بوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAb996("en-GB"),
@@ -141,7 +144,9 @@ class EnglishEntryaberration extends StatelessWidget {
                                   text:
                                       "A childless woman was regarded as an aberration, almost a social outcast."),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const ExampleSentenceKurdish(text: "ژنێکی بێ منداڵ بە شتێکی نائاسایی دادەنرا، تا ئاستی دوورەپەرێزخراو."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ژنێکی بێ منداڵ بە شتێکی نائاسایی دادەنرا، تا ئاستی دوورەپەرێزخراو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAb16("en-GB"),
@@ -184,6 +189,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: aberration (derived forms: aberrations)

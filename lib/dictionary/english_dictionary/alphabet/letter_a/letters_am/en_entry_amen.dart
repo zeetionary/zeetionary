@@ -131,6 +131,7 @@ class EnglishEntryamen extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئاوابێ، وابێ، ئامین، ڕاستە، دروستە، حەقە، ھەروایە، وایە
 
@@ -222,6 +223,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Interjection: amen 

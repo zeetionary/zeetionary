@@ -170,6 +170,7 @@ class EnglishEntryavoidable extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەتوانرێ دووری لێ‌کرێ، دووری لێ‌دەکرێ، شیاوی خۆ(لێ)لادان، شیاوی پرینگانەوە، لەتەکینەوەھاتوو
 
@@ -240,6 +241,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: avoidable

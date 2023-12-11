@@ -177,6 +177,7 @@ class EnglishEntryarbitrator extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دادوەر، داوەر، نێوگژیوان، ناوەندیار، ناوبژیوان، بەریڤان
 
@@ -247,6 +248,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: arbitrator (derived forms: arbitrators)

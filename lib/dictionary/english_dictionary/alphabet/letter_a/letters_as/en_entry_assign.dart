@@ -184,6 +184,7 @@ class EnglishEntryassign extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پێدان، دانان، وەپاڵ دان، پێوەنان
 
@@ -379,6 +380,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: assign (derived forms: assigned, assigning, assigns)

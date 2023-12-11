@@ -168,6 +168,7 @@ class EnglishEntrybeauty extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جوانی، چەلەنگی، ڕندی، مرۆڤ یان شتی جوان، ژنی جوان، باشی، بەرز، (شتی) زۆرباش، نموونە، میناک
 
@@ -332,6 +333,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: beauty (derived forms: beauties)

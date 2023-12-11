@@ -177,6 +177,7 @@ class EnglishEntryaperitif extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) خواردنەوەیەک کە کحولی تێدایە و زۆرجار پێش نان دەخوردرێتەوە"""),
                           Row(
@@ -244,6 +245,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: aperitif (derived forms: aperitifs)

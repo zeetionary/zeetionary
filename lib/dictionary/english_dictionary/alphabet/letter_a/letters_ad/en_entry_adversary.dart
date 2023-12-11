@@ -129,6 +129,7 @@ class EnglishEntryadversary extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دوژمن، نەیار، ھەڤرک، گاڤبەر، ناحەز، ڕقەبەر، دژبەر، دژەون، بەرھەڵست، ڕکەبەر
 
@@ -195,6 +196,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: adversary (derived forms: adversaries)

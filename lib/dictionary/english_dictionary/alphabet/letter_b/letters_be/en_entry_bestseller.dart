@@ -163,6 +163,7 @@ class EnglishEntrybestseller extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بەرهەمێک، بەزۆری کتێبێک، کە فرۆشێکی زۆری هەبوو"""),
                           Row(
@@ -232,6 +233,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: bestseller (derived forms: best sellers, bestsellers)

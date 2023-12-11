@@ -112,6 +112,7 @@ class EnglishEntryabsent extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نائامادە، نالێرە، ون، بزر، نادیار، دیارنەبوو، نەھاتوو، نەپەیدا، نەبوو(ن)، نییە، لەبوون‌بەدەر، وڕ، کاس، گێژ، ھۆش‌بڵاو، ھۆش‌پەرت
 
@@ -191,6 +192,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: absent 

@@ -181,6 +181,7 @@ class EnglishEntryartist extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: وێنەکێش، نیگارکێش، ھونەرمەند، ھونەرکار، ھونەرەوان، دەس‌ڕەنگین، شارەزا، وەستا، مامۆستا
 
@@ -301,6 +302,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: artist (derived forms: artists)

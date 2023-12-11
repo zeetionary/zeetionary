@@ -172,6 +172,7 @@ class EnglishEntryanguish extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دڵەڕاوکێ، نیگەرانی، دڵتەنگی، دڵەخورپێ، شڵەژاوی، ئازار، ژان، دەرد، ئەشکەنجە
 
@@ -265,6 +266,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: anguish (derived forms: anguishes)

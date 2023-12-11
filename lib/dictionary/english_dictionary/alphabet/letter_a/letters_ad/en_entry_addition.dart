@@ -131,6 +131,7 @@ class EnglishEntryaddition extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خستنەسەر، سەرخستن، پێ‌زیادکردن، کۆ، کۆکردنەوە، پێوەنان، خستنەپاڵ، دانەدەم، زیادی، پترلەپێویست، زیادە، سەربار، خراوەسەر، سەرخستە، سەرخراو، پاشکۆ
 
@@ -240,6 +241,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: addition (derived forms: additions)

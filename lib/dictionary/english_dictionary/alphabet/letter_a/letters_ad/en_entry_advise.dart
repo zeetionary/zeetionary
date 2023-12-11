@@ -131,6 +131,7 @@ class EnglishEntryadvise extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) پێدانی ڕاوێژ و ئامۆژگاری بە کەسێک"""),
                           Row(
@@ -236,6 +237,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: advise (derived forms: advised, advising, advises)

@@ -167,6 +167,7 @@ class EnglishEntrybatter extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مایە، ھەویر (= تێکەڵاوێکە لە ئارد، شیر و ھێلکە بۆ دروست‌کردنی شیرینی و ھتد)، (بەیسبۆڵ) تۆپ‌ھاوێژ، گۆھاوێژ، 
 
@@ -317,6 +318,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: batter (derived forms: batters, battered, battering)

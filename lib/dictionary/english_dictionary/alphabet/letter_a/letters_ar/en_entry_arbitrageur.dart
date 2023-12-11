@@ -177,6 +177,7 @@ class EnglishEntryarbitrageur extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) ئاربیتراژۆر؛ کەسێک کە شتێک لە شوێنێک دەکڕێت و لە شوێنێکی تر بە نرخێکی زیاتر دەیفرۆشێتەوە"""),
                           Row(
@@ -245,6 +246,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: arbitrageur (derived forms: arbitrageurs)

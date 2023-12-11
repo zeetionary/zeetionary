@@ -113,6 +113,7 @@ class EnglishEntryaccentuate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) جەختکردنەوە لە شتێک، یان وای لێ بکەیت ئاسانتر ببینرێت"""),
                           Row(
@@ -174,6 +175,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: accentuate (derived forms: accentuated, accentuating, accentuates)

@@ -113,6 +113,7 @@ class EnglishEntryabstinence extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پارێزگرتن، پێش‌خۆگرتن، خودداری، پارێزگری، خۆڕاگری، خۆڕاگرتن، خۆلێ‌نەدان، خۆدوورگرتن، خۆلێ‌بواردن (بەتایبەت خواردن و خواردنەوە)
 
@@ -174,6 +175,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: abstinence (derived forms: abstinences)

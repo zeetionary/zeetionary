@@ -172,6 +172,7 @@ class EnglishEntryannexation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: داگیرکردن، دەس‌بەسەراگرتن، گرتن، زەوت‌کردن، لکاندن، خستنەپاڵ، دانەدەم، خستنەسەر، پاشکۆ، سەرخستە
 
@@ -266,6 +267,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: annexation (derived forms: annexations)

@@ -165,6 +165,7 @@ class EnglishEntrybell extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زەنگ، گەرناڵ، زلزەنگ، ژام، چام، دەنگەدەنگ، دەنگی زەنگ، زڕە، زەنگوڵە، تۆپەگوڵ، کاسەگوڵ، ھەر شتێکی زەنگ‌ئاسا
 
@@ -293,6 +294,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: bell (derived forms: bells)

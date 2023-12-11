@@ -121,6 +121,7 @@ class EnglishEntryabsurd extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ناژیرانە، بێ‌ئەقڵانە، پڕوپووچ، بێجێ، نالۆژیکی، گاڵتەجاڕ، پێکەنیناوی، بێ‌واتا، بێ‌مانا، نەشیاو، ھیچ‌وپووچ، گەوجانە، پووچەکە، 
 
@@ -202,6 +203,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: absurd (derived forms: absurder, absurdest)

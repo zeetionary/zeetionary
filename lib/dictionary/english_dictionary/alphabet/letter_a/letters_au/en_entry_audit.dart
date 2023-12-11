@@ -181,6 +181,7 @@ class EnglishEntryaudit extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تێ‌ڕوانین، پێ‌ڕاگەیشتن، پشکنینی حیسابەکان
 
@@ -324,6 +325,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: audit (derived forms: audits)

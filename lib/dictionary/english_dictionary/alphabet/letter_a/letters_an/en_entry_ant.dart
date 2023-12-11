@@ -172,6 +172,7 @@ class EnglishEntryant extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مێروولە، مێرووژە، مووری، مرۆچە، مژلۆک، مژلۆر، مجلەور، گێرک
 
@@ -242,6 +243,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: ant (derived forms: ants)

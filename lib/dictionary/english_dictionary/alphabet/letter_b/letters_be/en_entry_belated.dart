@@ -164,6 +164,7 @@ class EnglishEntrybelated extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زۆردرەنگ، بەسەرچوو، لە وەختی خۆی تێپەڕیو، درەنگ‌ھاتوو، بەشەوداکەوتوو
 
@@ -254,6 +255,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 Adjective: belated 

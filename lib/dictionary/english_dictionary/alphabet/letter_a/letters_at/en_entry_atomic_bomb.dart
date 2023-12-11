@@ -179,6 +179,7 @@ class EnglishEntryatomicbomb extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بۆمبی ئەتۆمی؛ بۆمبێک کە دەتەقێتەوە بە بەکارھێنانی ئەو وزەیەی کە درووست دەبێت لە کاتی کەرتبوونی گەردیلە"""),
                           Row(
@@ -247,6 +248,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: atomic bomb (derived forms: atomic bombs)

@@ -132,6 +132,7 @@ class EnglishEntryairspace extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ناوچەی فڕین، بواری فڕین، ئاسمانی وڵاتێ
 
@@ -222,6 +223,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: airspace (derived forms: air spaces, airspaces)

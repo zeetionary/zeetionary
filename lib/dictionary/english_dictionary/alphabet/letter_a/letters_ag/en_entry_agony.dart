@@ -129,6 +129,7 @@ class EnglishEntryagony extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئەشکەنجە، ئازار، ڕەنج، ئێش، مەینەتی، بەڵا، ژان، دەرد، سوێ، گیانەڵا، ئاویلکە، ھەوزینگ، حەول، ھەوڵ، تەقەلا
 
@@ -217,6 +218,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: agony (derived forms: agonies)

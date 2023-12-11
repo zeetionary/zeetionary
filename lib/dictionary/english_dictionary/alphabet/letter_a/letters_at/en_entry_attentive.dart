@@ -179,6 +179,7 @@ class EnglishEntryattentive extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەسەرنج، ورد، گوێگر، سەرنج‌پێداو، وردەوەبوو، بەزەین، ئاگادار، وریا، ھۆشیار، پڕ(ھۆ)شیار، چاودێر
 
@@ -273,6 +274,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: attentive 

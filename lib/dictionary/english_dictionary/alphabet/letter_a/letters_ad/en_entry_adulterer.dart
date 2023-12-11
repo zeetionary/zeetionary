@@ -129,6 +129,7 @@ class EnglishEntryadulterer extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (مرد) زیناکار، داوێن‌تەڕ، داوێن‌پیس، شەڵوارپیس، بێ‌نامووس
 
@@ -193,6 +194,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: adulterer (derived forms: adulterers)

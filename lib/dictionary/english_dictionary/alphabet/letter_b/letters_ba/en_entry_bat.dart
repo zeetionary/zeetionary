@@ -159,6 +159,7 @@ class EnglishEntrybat extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لێدەردەسک، دەسکی لێدان، ڕاکێت، (پینگ پۆنگ)، پیاکێشان، لێدان (سەخت)، دار، گۆچان، شەک
 
@@ -282,6 +283,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: bat (derived forms: bats)

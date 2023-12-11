@@ -103,6 +103,7 @@ class EnglishEntryabdomen extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سک، زگ، ورگ، سگ
 
@@ -114,7 +115,9 @@ class EnglishEntryabdomen extends StatelessWidget {
                                   text:
                                       "Patients reported pain in the lower chest or upper abdomen."),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const ExampleSentenceKurdish(text: "نەخۆشەکان گوتیان کە ئازاریان ھەیە لە بەشی خوارەوەی سنگیان یان بەشی سەرەوەی سکیان."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "نەخۆشەکان گوتیان کە ئازاریان ھەیە لە بەشی خوارەوەی سنگیان یان بەشی سەرەوەی سکیان."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAb64("en-GB"),
@@ -157,6 +160,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: abdomen (plural: abdomens)

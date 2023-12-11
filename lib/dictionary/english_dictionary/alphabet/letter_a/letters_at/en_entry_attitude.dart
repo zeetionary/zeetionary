@@ -180,6 +180,7 @@ class EnglishEntryattitude extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕوانین، دیتن، بۆچوون، نێرین، دۆخ، بار، ڕەوش، مەرەد، بارودۆخ، ھەڵس‌وکەوت، ڕەفتار، ڕەوتار، ھەڵوێست، شێوەی جووڵانەوە، ڕێڕەوی فڕۆکە یان کەشتی ئاسمانی
 
@@ -302,6 +303,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: attitude (derived forms: attitudes)

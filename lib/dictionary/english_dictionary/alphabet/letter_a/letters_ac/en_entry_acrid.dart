@@ -129,6 +129,7 @@ class EnglishEntryacrid extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: توند، تاڵ، ناخۆش، تیژ، تفت، شیرین‌تاڵ
 
@@ -191,6 +192,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: acrid 

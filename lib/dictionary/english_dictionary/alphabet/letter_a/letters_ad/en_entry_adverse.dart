@@ -130,6 +130,7 @@ class EnglishEntryadverse extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خراپ، ناخۆش، نالەبار، شپرزە، زیاناوی، دژ، دژبەر، نەیار، ڕکەبەر
 
@@ -195,6 +196,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: adverse 

@@ -170,6 +170,7 @@ class EnglishEntryballistic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھاوێژەیی، سەربە ھاوێژەناسی، سەربە ھاوێژەمەنی یان تەنێ کە بەپێی قانوونی ھاوێژەناسی دەڕوا
 
@@ -240,6 +241,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: ballistic

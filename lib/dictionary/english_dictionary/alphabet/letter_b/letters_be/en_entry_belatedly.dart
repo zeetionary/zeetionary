@@ -162,6 +162,7 @@ class EnglishEntrybelatedly extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زۆردرەنگ، درەنگ‌تر لە وەختی خۆی، درەنگ‌تر
 
@@ -231,6 +232,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adverb: belatedly

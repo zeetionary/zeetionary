@@ -179,6 +179,7 @@ class EnglishEntryassassinate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) کووشتن یان تیرۆرکردنی کەسێکی بەناوبانگ یان گرنگ بۆ پارە یان بەھۆکاری سیاسی"""),
                           Row(
@@ -247,6 +248,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: assassinate (derived forms: assassinated, assassinates, assassinating)

@@ -129,6 +129,7 @@ class EnglishEntryadolescence extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نیمچەجەحێڵی، مێرمناڵی، نۆجوانی، تازەلاوی، ھەرزەکاری، سەروبەندی مێرمنداڵی یان نۆجوانی، قۆناخی پەرەسەندن بەرلە پێگەیشتوویی
 
@@ -194,6 +195,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: adolescence (derived forms: adolescences)

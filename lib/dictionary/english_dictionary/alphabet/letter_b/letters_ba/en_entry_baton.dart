@@ -162,6 +162,7 @@ class EnglishEntrybaton extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەتان، داردەست (پۆلیس)، دار (ڕێبەری ئۆرکێستر یان تیپی موسیقا)، گورز یان گۆچانی دەسەڵات یان پاتشایی
 
@@ -293,6 +294,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: baton (derived forms: batons)

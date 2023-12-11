@@ -129,6 +129,7 @@ class EnglishEntryagronomy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کشتوکاڵناسی، زانستی کشت‌وکاڵ، ئەندازیارێتی کشت‌وکاڵ یان کشت‌وکاڵی
 
@@ -197,6 +198,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: agronomy (derived forms: agronomies)

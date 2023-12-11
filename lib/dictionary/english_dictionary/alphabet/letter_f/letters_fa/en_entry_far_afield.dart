@@ -129,6 +129,7 @@ class EnglishEntryfarafield extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لە دەشت، دوور، دوور لە، لە دوورەوە، لە ڕێگای دوورەوە، دوورەدەست، چەپەک، دوور لە نیشتیمان
 
@@ -194,6 +195,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adverb: afield 

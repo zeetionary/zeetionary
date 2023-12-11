@@ -165,6 +165,7 @@ class EnglishEntryberth extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لەنگەرگا، کابین یان شوێنی خەوتن، جێ‌خەوی کەشتی، خەوتنگە (لە فڕۆکە یان کەشتی)، جێ، جێگا، شوێن، کار، ئێش، ئەرک، فرمان
 
@@ -276,6 +277,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: berth (derived forms: berthing, berthed, berths)

@@ -180,6 +180,7 @@ class EnglishEntryarise extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەرھەڵدان، بەرزبوونەوە، ڕۆژ ھەڵاتن، ڕوودان، قەومان، ھاتنەپێشەوە
 
@@ -350,6 +351,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: arise (derived forms: arising, arose, arises, arisen)

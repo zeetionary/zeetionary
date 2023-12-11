@@ -112,6 +112,7 @@ class EnglishEntryabsurdly extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ناژیرانە، پڕوپووچانە، بەشێوەیەکی نالۆژیکی، گاڵتەجاڕانە، بە شێوەیێکی پێکەنینی
 
@@ -174,6 +175,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adverb: absurdly  ub'surd-lee or ub'zurd-lee

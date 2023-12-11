@@ -130,6 +130,7 @@ class EnglishEntryacupuncture extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئەکیوپەنکچێر، نۆژداری بە دەرزی، دەرزی‌ئاژنینی نەخۆش، دەرزی‌ئاژنی، چارەسەرکردن بە دەرزی
 
@@ -195,6 +196,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: acupuncture (derived forms: acupunctures)

@@ -203,6 +203,7 @@ class EnglishEntryalways extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەمیشە، ھەمووکاتێ، بە بەردەوامی، بێ‌وچان، دایمەودەرەم (یان دەرھەم)، بێ‌پسانەوە، بۆ ماوەیەکی درێژ، بۆ ھەمیشە، تاسەر، ھەتاھەتا
 
@@ -387,6 +388,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adverb: always 

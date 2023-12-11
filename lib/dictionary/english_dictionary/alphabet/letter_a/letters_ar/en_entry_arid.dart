@@ -179,6 +179,7 @@ class EnglishEntryarid extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: وشک، ئیشکارۆ، زەھا، قاقڕ، بێ‌ئاو، کەم‌ئاو، کەم‌باران، بێ‌باران، (وشک‌و)برینگ، بوورە، بێھوودە، ناخۆش، قۆڕ، ھیچ، وەڕەسکەر، ماندووکەر
 
@@ -297,6 +298,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: arid (derived forms: arider, aridest)

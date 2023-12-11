@@ -133,6 +133,7 @@ class EnglishEntryairy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەوایی، سەربە کەش یان ئەتمۆسفێر، کراو لە حەوادا، حەوایی، ھەوایی، ھەواخۆش، ناکرداریی، دەسکرد، ناڕاستەقینە، خەیاڵی، ئالۆری، بێ‌خەم، کەمتەرخەم، نادەربەست، بێ‌خەیاڵ، نابەڕاست، سەرسەرەکی، درۆ، ھیچ، فشە، پڕوپووچ، خەیاڵی
 
@@ -248,6 +249,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: airy (derived forms: airiest, airier)

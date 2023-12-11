@@ -164,6 +164,7 @@ class EnglishEntrybestiality extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گیانەوەرخوویی، دڕندایەتی، هۆڤیگەری، دڵڕەقی، بێ‌بەزەیی‌یەتی، نزیکی لەگەڵ گیانەوەران، گیانەوەربازی
 
@@ -256,6 +257,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: bestiality (derived forms: bestialities)

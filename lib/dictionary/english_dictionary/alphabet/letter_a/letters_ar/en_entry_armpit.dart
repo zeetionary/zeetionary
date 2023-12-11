@@ -177,6 +177,7 @@ class EnglishEntryarmpit extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بن‌ھەنگڵ، بەرەنگڵ، بن‌باڵ، بن‌پیل، بن‌باخڵ، کڵێشە، خەرک
 
@@ -246,6 +247,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: armpit (derived forms: armpits)

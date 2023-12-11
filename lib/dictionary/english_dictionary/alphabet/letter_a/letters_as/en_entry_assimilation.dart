@@ -180,6 +180,7 @@ class EnglishEntryassimilation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تو(و)انەوە، حەلان، گرتن، مژین، لێکچواندن، چونیەک‌کردن، وێکچواندن، ھاوشێوەکردن، یەکسان‌کردن، یەکاندن، وەکیەک‌کردن، چونیەکی، ھەرس(کردن)، (دەنگ‌ناسی) ھاوشێوەیی
 
@@ -280,6 +281,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: assimilation (derived forms: assimilations)

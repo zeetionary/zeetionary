@@ -172,6 +172,7 @@ class EnglishEntryanimosity extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دوژمنی، دوژمنایەتی، نەیاری، ڕق‌وکینە، قینەبەرایەتی، ڕقەبەرایەتی
 
@@ -266,6 +267,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: animosity (derived forms: animosities)

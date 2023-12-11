@@ -103,6 +103,7 @@ class EnglishEntryabiding extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جێگیر، ھەمیشەیی، نەگۆڕ، سەقامگیر، بەردەوام، چەقبەستوو
 
@@ -113,7 +114,9 @@ class EnglishEntryabiding extends StatelessWidget {
                                   text:
                                       "He is an artist with an abiding concern for humanity."),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const ExampleSentenceKurdish(text: "ھونەرمەندێکە بە بە ھۆگرییەکی ھەمیشەییەوە بۆ مرۆڤایەتی."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھونەرمەندێکە بە بە ھۆگرییەکی ھەمیشەییەوە بۆ مرۆڤایەتی."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA625("en-GB"),
@@ -156,6 +159,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: abiding 

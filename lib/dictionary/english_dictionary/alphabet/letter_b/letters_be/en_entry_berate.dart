@@ -163,6 +163,7 @@ class EnglishEntryberate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) سەرکۆنەکردنی کەسێک بەھۆی ئەوەی ناڕازیت لە شتێک کە کردوویەتی"""),
                           Row(
@@ -232,6 +233,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: berate (derived forms: berating, berates, berated)

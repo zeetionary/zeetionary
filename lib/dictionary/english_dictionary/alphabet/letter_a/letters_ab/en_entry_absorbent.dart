@@ -112,6 +112,7 @@ class EnglishEntryabsorbent extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مژەر، مژۆک، ھەڵمژ، ھەڵمژێنەر، ھەڵمژەر، کێشەر، ئاوگر، ئاوکێش، شێگر، وشک‌کەرەوە
 
@@ -173,6 +174,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: absorbent (derived forms: absorbents)

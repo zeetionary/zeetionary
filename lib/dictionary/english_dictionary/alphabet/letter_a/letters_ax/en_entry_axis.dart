@@ -173,6 +173,7 @@ class EnglishEntryaxis extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تەوەر، تەوەرە، وەردێنە، (توێکاری) بڕگە یان مۆرەی تەوەرەیی، دووەمین بڕبڕەی مل، لەژێر ئەتڵەسەوە، (بیرکاری یان ئەندازە) تەوەر یان ھێڵی ھاوتایی، یەکێتی، پەیمان یان ڕێک‌کەوتنی ڕامیاری
 
@@ -317,6 +318,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: axis (= derived forms: axes)

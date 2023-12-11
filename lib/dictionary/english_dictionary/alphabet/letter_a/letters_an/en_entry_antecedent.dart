@@ -175,6 +175,7 @@ class EnglishEntryantecedent extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پێش‌تر، پێشکەوتوو، پێش‌وەچوو، پێشھات، پێشوو، بەری، پێشی، پێشین، پێشەکی، باوان، باپیران، (ڕێزمان) پێش‌ترە، مەرجەع
 
@@ -300,6 +301,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: antecedent 

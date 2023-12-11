@@ -178,6 +178,7 @@ class EnglishEntryattn extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کورتکراوە) لە نامەدا بەکاردێت لەپێش ناوی ئەو کەسەی پەیامەکەی بۆ نووسراوە"""),
                           Row(
@@ -245,6 +246,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Abbreviation: attn

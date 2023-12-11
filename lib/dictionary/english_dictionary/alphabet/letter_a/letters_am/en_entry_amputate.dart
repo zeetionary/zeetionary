@@ -171,6 +171,7 @@ class EnglishEntryamputate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) بڕینەوەی باڵ، لاق، یان پەنجەی کەسێک بە نەشتەرگەری"""),
                           Row(
@@ -239,6 +240,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 -Verb: amputate (derived forms: amputated, amputates, amputating)

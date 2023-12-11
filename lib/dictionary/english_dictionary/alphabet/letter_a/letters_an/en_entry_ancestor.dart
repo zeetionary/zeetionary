@@ -174,6 +174,7 @@ class EnglishEntryancestor extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕەچەڵەک، پێشینە، کال‌وباب، باووباپیر(ان)، بنەباب، ئەژداد، شێوەی سەرەتایی یان کۆن
 
@@ -320,6 +321,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: ancestor (derived forms: ancestors)

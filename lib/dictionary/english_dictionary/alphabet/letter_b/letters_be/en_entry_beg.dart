@@ -167,6 +167,7 @@ class EnglishEntrybeg extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تکا کردن، داخوازی کردن، خوایشت کردن، پاڕانەوە، سواڵ کردن
 
@@ -314,6 +315,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: beg (derived forms: begging, begs, begged)

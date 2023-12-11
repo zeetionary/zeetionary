@@ -178,6 +178,7 @@ class EnglishEntryapologize extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) داواکردنی لێبووردەیی بۆ شتێک"""),
                           Row(
@@ -292,6 +293,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: apologise (derived forms: apologised, apologises, apologising)

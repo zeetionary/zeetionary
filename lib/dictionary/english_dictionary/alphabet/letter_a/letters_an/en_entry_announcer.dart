@@ -174,6 +174,7 @@ class EnglishEntryannouncer extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بێژەر، بڵاوکار، ڕاگەیێنەر، بانگەوازچی، بانگەوازکەر (بە بڵیندگۆ)
 
@@ -295,6 +296,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: announcer (derived forms: announcers)

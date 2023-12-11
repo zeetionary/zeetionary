@@ -170,6 +170,7 @@ class EnglishEntryavert extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: وەرگەڕاندنەوە، بەرپەچ دانەوە، پێشگیری کردن
 
@@ -262,6 +263,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: avert (derived forms: averted, averting, averts)

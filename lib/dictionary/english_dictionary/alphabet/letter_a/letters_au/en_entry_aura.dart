@@ -178,6 +178,7 @@ class EnglishEntryaura extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ھەستێک یان خاسیەتێک لە کەسێک یان شوێنێکدا کە ئاسانە ببینرێت"""),
                           Row(
@@ -244,6 +245,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: aura (derived forms: aurae, auras)

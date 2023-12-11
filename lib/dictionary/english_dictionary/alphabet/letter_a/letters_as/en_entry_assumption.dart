@@ -181,6 +181,7 @@ class EnglishEntryassumption extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: وادانان، گریمان، وابۆچوون، پێ‌وابوون، وازانین، بۆچوون، خەیاڵ، گومان، خۆبەزلزانی، بەدەماری، بەھەوایی، لەخۆبایی‌بوون. گرتنەمل، خۆبەستەیی، دەربەستی، گرتنەئەستۆ، واخۆنیشان‌دان، واخۆدەرخستن، گرتنەدەست
 
@@ -301,6 +302,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: assumption (derived forms: assumptions)

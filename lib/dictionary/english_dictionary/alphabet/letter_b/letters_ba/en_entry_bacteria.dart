@@ -171,6 +171,7 @@ class EnglishEntrybacteria extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بەکتریا؛ بچووکترین خانەی زیندوو. بەکتریا بە ژمارەیەکی زۆرەوە ھەن لە ھەوا و ئاو و خاک و خانەی زیندوو و مردوو و ڕووەکدا، و زۆرجار دەبنەھۆی نەخۆشی"""),
                           Row(
@@ -263,6 +264,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: bacteria

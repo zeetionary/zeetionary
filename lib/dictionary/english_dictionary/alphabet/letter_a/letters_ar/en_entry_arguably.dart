@@ -177,6 +177,7 @@ class EnglishEntryarguably extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مشت‌ومڕلەسەرانە، بە ئەگەرێکی زۆرەوە، زۆر لەوەدەچێ، زۆر لەوانەیە
 
@@ -247,6 +248,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adverb: arguably 

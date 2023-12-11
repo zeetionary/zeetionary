@@ -181,6 +181,7 @@ class EnglishEntryassertion extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جەختاندن، دووبارەکردنەوە، پێداگرتن، پاگەزدان، سووربوون، پێچەقاندن، سەلماندن، دەربڕین، ئیدعا، داواکاری، بریار، دەستوور
 
@@ -301,6 +302,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: assertion (derived forms: assertions)

@@ -131,6 +131,7 @@ class EnglishEntryallegory extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چیروکی ھێمایی، ھێماچیرۆک، چیرۆما (چیرۆک + ھێما)، ھێرۆک (ھێما + چیرۆک)، ھێما، نیشانە، خوازە
 
@@ -197,6 +198,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: allegory (derived forms: allegories)

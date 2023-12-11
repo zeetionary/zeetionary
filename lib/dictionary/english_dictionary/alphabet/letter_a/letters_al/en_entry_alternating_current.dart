@@ -131,6 +131,7 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تەزوو یا تەوژمی گۆڕاو یا دوولایەنە، تەوژمی نۆرەکی
 
@@ -200,6 +201,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: alternating current (derived forms: alternating currents)

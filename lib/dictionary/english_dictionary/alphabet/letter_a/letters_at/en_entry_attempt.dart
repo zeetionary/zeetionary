@@ -181,6 +181,7 @@ class EnglishEntryattempt extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خەبات، ھەوڵ، حەول، تێکۆشان، بزاڤ، ھەوڵ‌دان، دەس‌تێدان، دەس‌دان، ھەوڵ‌دان بۆ کوشتن، حەولی کوشتن، بەدنیازی، حەول‌دان بۆ کوشتنی کەسێ، جار، کەڕەت، کەشە، کەڕەت، چەل
 
@@ -325,6 +326,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: attempt (derived forms: attempted, attempts, attempting)

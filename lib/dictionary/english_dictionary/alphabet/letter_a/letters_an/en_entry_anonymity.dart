@@ -172,6 +172,7 @@ class EnglishEntryanonymity extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نەناسراوی، بێ‌ناونیشانی، بێ‌ناوی، گومی، نەناس‌مانەوە، نەناسران، ناودەرنەکردوویی
 
@@ -242,6 +243,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: anonymity (derived forms: anonymities)

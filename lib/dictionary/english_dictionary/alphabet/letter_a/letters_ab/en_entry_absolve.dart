@@ -112,6 +112,7 @@ class EnglishEntryabsolve extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) بە فەرمی پاککردنەوەی کەسێک لە تۆمەت"""),
                           Row(
@@ -173,6 +174,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: absolve (derived forms: absolving, absolved, absolves)

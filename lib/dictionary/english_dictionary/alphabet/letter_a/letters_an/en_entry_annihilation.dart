@@ -172,6 +172,7 @@ class EnglishEntryannihilation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لەنێوچوون، تیاچوون، وێرانی، کاول‌بوون، قەڵاچۆ، فەوتاندن، نەھێشتن، کوێرکردنەوە، خاپووربوون، قڕ، قڕتێکەوتن، تەخت‌وپەخت‌بوون، پاکتاوبوون، ھەڵتەکان، بەزین، شکست، تێ‌شکان (یەکجاری)، نەمان
 
@@ -268,6 +269,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: annihilation (derived forms: annihilations)

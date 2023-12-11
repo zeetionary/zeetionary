@@ -178,6 +178,7 @@ class EnglishEntryaubergine extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: باینجانەڕەشە، کەدووەڕەشە، ڕووەک یان پنجی باینجانەڕەشە یا کەدووەڕەشە
 
@@ -248,6 +249,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: aubergine (derived forms: aubergines)

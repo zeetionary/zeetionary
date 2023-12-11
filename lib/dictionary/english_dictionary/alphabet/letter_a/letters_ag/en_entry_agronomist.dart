@@ -129,6 +129,7 @@ class EnglishEntryagronomist extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جووتیار، جووت‌بەندە، وەرزێر، کشت‌کار، ئەندازیاری کشت‌وکاڵ، شارەزای کشت‌وکاڵ، ئەگرۆنۆمیست
 
@@ -197,6 +198,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: agronomist

@@ -164,6 +164,7 @@ class EnglishEntrybecoming extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شیاو، لێوەشاو، پێکەوتوو، ڕاکەوتوو، گونجاو، لەبار، لێی‌دەکاڵێتەوە، بۆی دەبێ
 
@@ -254,6 +255,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: becoming

@@ -181,6 +181,7 @@ class EnglishEntryappointment extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بڕیار (دانانی کاتێ بۆ یەکتر دیتن)، پۆست، پلەوپایە، کار، ئیش، دانان، دیاری‌کردن، ھەڵبژاردن، دامەزراندن، خستنەکار، کەل‌وپەلی نێوماڵ، شمەکی ناوماڵ
 
@@ -351,6 +352,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: appointment (derived forms: appointments)

@@ -158,6 +158,7 @@ class EnglishEntrybaseless extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بێ‌بنچینە، بێ‌بنەما، درۆ، بێ‌بناخە، بێ‌بنیات، بێھوودە
 
@@ -222,6 +223,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 1. Adjective: baseless  beys-lus

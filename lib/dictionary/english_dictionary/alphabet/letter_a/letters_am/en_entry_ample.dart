@@ -172,6 +172,7 @@ class EnglishEntryample extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: فرە، زۆر، زەبەن، فراوان، فت‌وفراوان، پان، بەرین، گەورە، بەربڵاو، بەئەندازە، تەواو، ئەندازە
 
@@ -267,6 +268,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: ample (derived forms: amplest, ampler)

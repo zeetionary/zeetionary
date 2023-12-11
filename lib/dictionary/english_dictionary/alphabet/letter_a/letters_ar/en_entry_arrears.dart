@@ -180,6 +180,7 @@ class EnglishEntryarrears extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: قەرزی کۆن، قەرزی سەری وەخت‌نەدراو، قەرزی دواکەوتوو یان پاشکەوتوو، کاری دواکەوتوو، کاری جێبەجێ‌نەکراو، کاری نیوەچڵ
 
@@ -274,6 +275,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: arrears 

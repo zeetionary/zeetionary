@@ -170,6 +170,7 @@ class EnglishEntrybacklash extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کاردانەوە(توند)، بەرپەرچ‌دانەوە (لە لایەن ژمارەیێکی زۆری خەڵکەوە)، گەڕانەوە، ئاڵۆسکان، تێک‌ئاڵان، لێک‌ئاڵان
 
@@ -239,6 +240,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: backlash (derived forms: backlashed, backlashes, backlashing)

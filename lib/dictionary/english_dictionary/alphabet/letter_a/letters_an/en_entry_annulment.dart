@@ -172,6 +172,7 @@ class EnglishEntryannulment extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەڵوەشاندنەوە، ھەڵوەشاندن، پووچەڵ‌کردنەوە، بەتاڵ‌کردنەوە، پووکاندنەوە
 
@@ -242,6 +243,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: annulment (derived forms: annulments)

@@ -131,6 +131,7 @@ class EnglishEntryallout extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بە دڵ و گیانەوە، بە گیانەوە، بە تەواو ھێزەوە، بە سەروبەرەوە، بە ئەوپەڕی تێکۆشان و حەولەوە، بەتەواوەتی
 
@@ -197,6 +198,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: all-out 

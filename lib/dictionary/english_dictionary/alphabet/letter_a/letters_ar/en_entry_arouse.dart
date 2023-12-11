@@ -182,6 +182,7 @@ class EnglishEntryarouse extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەستاندن، ڕاپەڕاندن، ورووژاندن
 
@@ -327,6 +328,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: arouse (derived forms: aroused, arousing, arouses)

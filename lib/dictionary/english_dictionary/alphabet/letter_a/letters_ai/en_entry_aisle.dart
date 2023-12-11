@@ -131,6 +131,7 @@ class EnglishEntryaisle extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جێڕەو، ڕێڕەو (لەنێوان کورسی‌یەکان لە کلیسا، شانۆ، شەمەندەفەر و فڕۆکە، یان ڕەفەکانی سوپەرمارکێت...)، تەنیشت، کەنار
 
@@ -199,6 +200,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: aisle (derived forms: aisles)

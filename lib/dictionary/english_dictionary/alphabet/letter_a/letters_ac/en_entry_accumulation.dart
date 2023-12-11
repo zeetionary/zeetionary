@@ -131,6 +131,7 @@ class EnglishEntryaccumulation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خڕکردنەوە، کەڵەکەکردن، کۆمەڵ(کە)کردن، کۆمەڵ‌کردن، کەوتنەسەرک، سەریەکنان، کەڵەکەبوون، خڕبوونەوە، کۆبوونەوە
 
@@ -212,6 +213,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: accumulation (derived forms: accumulations)

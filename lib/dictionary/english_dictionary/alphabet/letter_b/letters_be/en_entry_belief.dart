@@ -169,6 +169,7 @@ class EnglishEntrybelief extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: باوەڕ، بەقا، بڕوا، ئیمان، دڵنیایی، ڕاپەڕموون، متمانە، لێ‌تێڕادیتن، بۆچوون، ڕا، بینین، نێرین، گومان، بیر، ھزر، بیروباوەڕ
 
@@ -358,6 +359,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: belief (derived forms: beliefs)

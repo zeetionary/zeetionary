@@ -158,6 +158,7 @@ class EnglishEntrybatten extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تەسکەتەختە، تەختەباریک، تەختە (بۆ ڕاخستن لەژێر عەرزی ژوور و ھتد)، بەستی دارین یان لەدار
 
@@ -229,6 +230,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: batten (derived forms: battened, battening, battens)

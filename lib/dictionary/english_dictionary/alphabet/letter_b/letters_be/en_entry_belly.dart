@@ -165,6 +165,7 @@ class EnglishEntrybelly extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ، سگ، لەم، ورگ، کرش، عوور، ئەشک، ئاشک، لەمە، ئورک، (لە فڕۆکە و کەشتی‌دا) زگ، کۆن مناڵ‌دان، پزدان، (لە ئامێری موسیقادا) کاسە
 
@@ -314,6 +315,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 Noun: belly (derived forms: bellies)

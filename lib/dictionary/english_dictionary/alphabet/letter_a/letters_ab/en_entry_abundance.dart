@@ -112,6 +112,7 @@ class EnglishEntryabundance extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زۆری، فراوانی، فرەیی، فت‌وفراوانی، بۆشی، پیت، بەرەکەت، ھەرزانی، زۆر و زەبەنی، بەونی، فەرێحی، زیاتر لە پێویست بوون
 
@@ -175,6 +176,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: abundance (derived forms: abundances)

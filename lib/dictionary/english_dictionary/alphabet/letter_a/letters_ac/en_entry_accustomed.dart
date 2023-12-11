@@ -130,6 +130,7 @@ class EnglishEntryaccustomed extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕاھاتوو، فێر(بوو)، خووگرتوو، ئالوودە، چەشە، ڕموودە، چەشکە، ھۆگر، گیرۆدە
 
@@ -211,6 +212,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: accustomed

@@ -196,6 +196,7 @@ class EnglishEntryamiss extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەڵە، شاش، چەوت، خراپ، ناڕاست، نادروست، نالەبار، بێجێ، بە ھەڵە، خراپ
 
@@ -287,6 +288,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: amiss 

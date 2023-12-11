@@ -179,6 +179,7 @@ class EnglishEntryasthmatic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەرھەنگی، ھەناسەسوار، پشووسوار، توشبوو بە بەرھەنگ
 
@@ -275,6 +276,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: asthmatic

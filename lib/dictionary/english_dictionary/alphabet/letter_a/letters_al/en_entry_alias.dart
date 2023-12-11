@@ -131,6 +131,7 @@ class EnglishEntryalias extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: قەرزەنێو، ناوی خواستەمەنی، ناوی خواستراو، زڕەناو، ناوی تر، ناسراو بە، نازناو، ناوی خوازیار، خوازناو
 
@@ -222,6 +223,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: alias (derived forms: aliases)

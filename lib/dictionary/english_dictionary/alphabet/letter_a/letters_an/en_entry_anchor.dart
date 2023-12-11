@@ -177,6 +177,7 @@ class EnglishEntryanchor extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لەنگەر، پشت‌وپەنا، پشتیوان، وەستێنەی ماشێنی
 
@@ -423,6 +424,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: anchor (derived forms: anchors, anchoring, anchored)

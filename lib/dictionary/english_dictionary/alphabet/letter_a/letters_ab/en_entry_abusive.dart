@@ -121,6 +121,7 @@ class EnglishEntryabusive extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پڕلەجنێو، دەم‌ھەراش، پڕ لە قسەی ساردوسووک، توندوتیژانە، دەم‌شڕ، دەم‌پیس، دەم‌چەوت، دەم‌دڕاو، زمان‌شڕ، جنێوفرۆش، دەم‌بەجنێو، زمان‌درێژ
 
@@ -202,6 +203,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: abusive  u'byoo-siv

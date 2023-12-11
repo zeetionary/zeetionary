@@ -129,6 +129,7 @@ class EnglishEntryairborne extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لە حەوادا، لە ئاسمان‌دا، لە (حاڵی) فڕین‌دا، بە ڕێگای ھەوا یا ئاسمان‌دا، بە ڕێگای ھەوا یان ئاسمان ڕاگوێزراو
 
@@ -197,6 +198,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: airborne 

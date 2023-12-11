@@ -165,6 +165,7 @@ class EnglishEntrybeautiful extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جوان، ڕند، چەلەنگ، خوشیک، دڵڕفێن، قەشەنگ، زۆرباش
 
@@ -289,6 +290,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: beautiful

@@ -160,6 +160,7 @@ class EnglishEntrybass extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: باس، گڕ، بەم، بۆڕ، گۆڕانی‌بێژی ئەو دەنگە، دەنگی گڕ یان باس، ئامێری گڕدەنگ، ماسی دڕکاوی، ماسی‌یەدڕکە، گورگی دەریایی
 
@@ -303,6 +304,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: bass (derived forms: basses)

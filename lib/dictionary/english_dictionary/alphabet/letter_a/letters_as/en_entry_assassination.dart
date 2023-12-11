@@ -179,6 +179,7 @@ class EnglishEntryassassination extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تیرۆر، کوشتن، پیاوکوژی، ڕەشەکوژی 
 
@@ -250,6 +251,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: assassination (derived forms: assassinations)

@@ -140,6 +140,7 @@ class EnglishEntryaccommodation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: جێگا، ماڵ، خانوو، زێد، شوێن، جێ‌وڕێ، یانە، شوێنی لێ‌گیرسانەوە، ڕێکخستن، گونجاندن، سازاندن، داھێنان، خووپێ‌گرتن، ڕێک‌کەوتن، لھەڤ‌ھاتن، بەھاناھاتن، بەفریاکەوتن، بە دەنگ خەڵکەوەبوون، یارمەتی، کۆمەک، یاریدەدان
 
@@ -258,6 +259,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: accommodation (derived forms: accommodations)

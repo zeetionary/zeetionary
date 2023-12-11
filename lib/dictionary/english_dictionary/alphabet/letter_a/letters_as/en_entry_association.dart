@@ -182,6 +182,7 @@ class EnglishEntryassociation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بیرکەوتنەوە، پێوەندی ھۆشی، بەستنەوەی چەمکی، ھۆش‌بەندی، گرێدایی، پێوەندی، پێکبەندی، تێکەڵی، یەکێتی، یەکگرتوویی، ھاوبەشێتی، بەشداری، پشکداری، ھەستان و دانیشتن، ھاونشینی، ھەڵس‌وکەوت، ھاوکاری، کۆڕ، جڤات، ئەنجومەن، کۆمەڵە
 
@@ -330,6 +331,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: association (derived forms: associations)

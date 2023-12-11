@@ -171,6 +171,7 @@ class EnglishEntryamphitheatre extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پیشانگای خڕ، ئامفی‌تەئەتر، ئامفی‌تیاتر؛ ئۆدیۆتۆریۆمێکی زۆر گەورە، شانۆپان (شانۆ + گۆڕەپان)، شوێنێ بۆ سەرگەرمی گشتی (وەک بۆ کۆنسێرت و یاری‌یەکان)، چاڵ، تەختایی‌یێکی دەوردراو بە لێژایی توند
 
@@ -245,6 +246,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 Noun: amphitheatre (derived forms: amphitheatres)

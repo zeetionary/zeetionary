@@ -132,6 +132,7 @@ class EnglishEntryambush extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بۆسە، داو، پارێز، کەسان یان سەربازانی بۆسەنشین، ھێرشی کت‌وپڕ یان خافڵگیرانە، ھێرشی بۆسەیی
 
@@ -227,6 +228,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 Noun: ambush (derived forms: ambushed, ambushes, ambushing)

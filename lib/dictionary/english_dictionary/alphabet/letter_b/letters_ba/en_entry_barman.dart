@@ -170,6 +170,7 @@ class EnglishEntrybarman extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) پیاوێک کە لە باڕێک کاردەکات"""),
                           Row(
@@ -238,6 +239,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: barman (derived forms: barmen)

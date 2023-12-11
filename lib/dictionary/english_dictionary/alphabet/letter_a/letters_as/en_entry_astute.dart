@@ -178,6 +178,7 @@ class EnglishEntryastute extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زیرەک، ئاگرپارە، وریا، زووتێگەیشتوو، ڕەند، زۆرزان، زرینگ، زووزان
 
@@ -248,6 +249,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: astute (derived forms: astutest, astuter)

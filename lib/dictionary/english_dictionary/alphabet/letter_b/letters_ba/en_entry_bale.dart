@@ -172,6 +172,7 @@ class EnglishEntrybale extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گورزە، تا، تایە، بەستە، مۆچ، بەستەک، تۆپ، کۆما، لۆدە، کۆگا، کوا، بەڵا، ڕەنج، بەدبەختی، ئاپۆر، نەھامەتی، مەینەتی
 
@@ -290,6 +291,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: bale (derived forms: baling, bales, baled)

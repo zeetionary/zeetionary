@@ -179,6 +179,7 @@ class EnglishEntryasylumseeker extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێک کە بەھۆی مەترسی لەسەر ژیانی وڵاتی خۆی جێھێشتووە و داوای مانەوە لە وڵاتێکی تر دەکات"""),
                           Row(
@@ -247,6 +248,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: asylum seeker (derived forms: asylum seekers)

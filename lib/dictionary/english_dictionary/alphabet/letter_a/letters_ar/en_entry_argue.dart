@@ -180,6 +180,7 @@ class EnglishEntryargue extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مشتومڕکردن، باس کردن، ئاخاوتن، وتووێژ کردن، بەڵگەھێنانەوە، شەڕەدەم‌کردن
 
@@ -322,6 +323,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: argue (derived forms: arguing, argued, argues)

@@ -179,6 +179,7 @@ class EnglishEntryapprehension extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تێگەیشتن، پێزانین، پێ‌پێبردن، بەخۆزانین، حاڵی‌بوون، نگەرانی، دڵەخورپە، دڵەڕاوکێ، دڵەکوتە، ترس، دەس‌بەسەری، ڕاگرتن، گل‌دانەوە
 
@@ -299,6 +300,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: apprehension (derived forms: apprehensions)

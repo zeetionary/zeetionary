@@ -103,6 +103,7 @@ class EnglishEntryabduct extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مرۆڤ ڕفاندن، مرۆ(ڤ)دزی، ھەڵگرتن، فڕاندن، ڕفاندن
 
@@ -114,7 +115,8 @@ class EnglishEntryabduct extends StatelessWidget {
                                   text:
                                       "He had attempted to abduct the two children."),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const ExampleSentenceKurdish(text: "ھەوڵیدابوو دوو منداڵ بڕفێنێت."),
+                              const ExampleSentenceKurdish(
+                                  text: "ھەوڵیدابوو دوو منداڵ بڕفێنێت."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA2285("en-GB"),
@@ -157,6 +159,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: abduct (derived forms: abducted, abducting, abducts)

@@ -182,6 +182,7 @@ class EnglishEntryattend extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئامادە بوون، چاوەدێری کردن، بەڕێوەبردن، سرنج پێدان
 
@@ -352,6 +353,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: attend (derived forms: attending, attended, attends)

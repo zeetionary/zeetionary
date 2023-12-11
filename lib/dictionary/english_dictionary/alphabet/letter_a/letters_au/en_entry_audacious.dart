@@ -178,6 +178,7 @@ class EnglishEntryaudacious extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چاونەترس، ئازا، بوێر، سڵ‌نەکەر، بێ‌باک، ، ڕوودار، بێ‌شەرم، ڕووشە، بێ‌حەیا، ڕووھەڵماڵراو، ئازایانە، چاونەترسانە
 
@@ -248,6 +249,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: audacious 

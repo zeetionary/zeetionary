@@ -164,6 +164,7 @@ class EnglishEntrybereaved extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: زگ‌سووتاو، کۆست‌کەوتوو، ماتەم‌بار، ماتەم‌گرتوو، عەزیەت‌بار، تازیەبار، شیوەن‌گێڕ، بێ‌بەش، بێ‌بەری، کەسێکی کۆست‌کەوتوو یان ماتەم‌بار
 
@@ -255,6 +256,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: bereaved

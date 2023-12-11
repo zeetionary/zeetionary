@@ -170,6 +170,7 @@ class EnglishEntrybaggy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەراو، دەڵب، فش، گوشاد، نەتەنگ، توورەکەیی، توورکەئاسا، داھۆڕ
 
@@ -238,6 +239,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: baggy (derived forms: baggier, baggiest)

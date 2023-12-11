@@ -173,6 +173,7 @@ class EnglishEntryanalogy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: لێکچوویی، ھاوشێوەیی، وەکیەکی، پێک‌گرتن، ھەڵسەنگاندن، پێوانە
 
@@ -291,6 +292,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: analogy (derived forms: analogies)

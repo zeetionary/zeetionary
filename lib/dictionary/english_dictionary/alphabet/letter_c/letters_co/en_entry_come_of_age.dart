@@ -129,6 +129,7 @@ class EnglishEntrycomeofage extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ئیدیەم) گەشتن بە تەمەنی یاسایی"""),
                           Row(
@@ -195,6 +196,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 Idiom: come of age (derived forms: coming of age, come of age, comes of age, came of age)

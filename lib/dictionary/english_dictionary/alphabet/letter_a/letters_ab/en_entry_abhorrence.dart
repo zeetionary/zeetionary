@@ -104,6 +104,7 @@ class EnglishEntryabhorrence extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕق‌لێ‌بوون، بێزاری، قین‌لێ‌بوون، بێزلێ‌ھاتنەوە، بێزکردن، بێزراوی، نەفرین
 
@@ -115,7 +116,8 @@ class EnglishEntryabhorrence extends StatelessWidget {
                                   text:
                                       "He had an abhorrence of waste of any kind."),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const ExampleSentenceKurdish(text: "ڕقی لە ھەموو جۆرە بەفیڕۆدانێک بوو."),
+                              const ExampleSentenceKurdish(
+                                  text: "ڕقی لە ھەموو جۆرە بەفیڕۆدانێک بوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA634("en-GB"),
@@ -158,6 +160,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: abhorrence (derived forms: abhorrences)

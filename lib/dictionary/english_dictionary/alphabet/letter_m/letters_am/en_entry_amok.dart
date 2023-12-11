@@ -195,6 +195,7 @@ class EnglishEntryamok extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خۆپێ‌ڕانەگیران، شێتی، بەربوون، ھەوسار پساندن (بەتایبەت لە شوێنە گشتی‌یەکان‌دا)، وەک شێت و ھار
 
@@ -263,6 +264,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: amok 

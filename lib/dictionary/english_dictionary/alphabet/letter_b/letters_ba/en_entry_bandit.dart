@@ -170,6 +170,7 @@ class EnglishEntrybandit extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ڕێگر، ڕێبڕ، چەتە، کەلەشە، دزی چەکدار، (بە زمانی لەشکری) فڕۆکەی دوژمن
 
@@ -240,6 +241,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: bandit (derived forms: banditti, bandits)

@@ -161,6 +161,7 @@ class EnglishEntrybath extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خۆشتن، مەلێ(کردن)، گەرماو، حەمام، دووش، گەرماوی فەڕەنگی، حەوزی خۆشتن، شلەی شتن، ئەستێر (ی سەرداپۆشراو)، گەرماوی گشتی
 
@@ -345,6 +346,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: bath (derived forms: baths)

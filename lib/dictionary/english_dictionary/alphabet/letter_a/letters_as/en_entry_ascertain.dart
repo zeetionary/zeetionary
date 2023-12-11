@@ -180,6 +180,7 @@ class EnglishEntryascertain extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) دۆزینەوەی زانیاریی ڕاستی لەسەر شتێک"""),
                           Row(
@@ -272,6 +273,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: ascertain (derived forms: ascertained, ascertains, ascertaining)

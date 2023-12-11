@@ -181,6 +181,7 @@ class EnglishEntryassessor extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نرخێنەر، ھەڵسەنگێنەر، یاریدەدەری ڕاوێژکار، دواڕاوێژکار (لە دادگا و لەسەر بابەتە تکنیکی‌یەکان)
 
@@ -303,6 +304,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: assessor (derived forms: assessors)

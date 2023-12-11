@@ -220,6 +220,7 @@ class EnglishEntryappear extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) دەست‌کردن بە دەرکەوتن"""),
                           Row(
@@ -537,6 +538,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: appear (derived forms: appears, appearing, appeared)

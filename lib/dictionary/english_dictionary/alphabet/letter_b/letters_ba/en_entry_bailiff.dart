@@ -172,6 +172,7 @@ class EnglishEntrybailiff extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئەفسەری قانوون یان یاسا، درگاوانی دادگا، کوێخا، فەرمانبەری پاراستنی ڕێک‌وپێکی دادگا، بەڕێوەبەری زەوی‌زار (کەسێکی دامەزراو)، کێڵگەگێڕ 
 
@@ -294,6 +295,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: bailiff (derived forms: bailiffs)

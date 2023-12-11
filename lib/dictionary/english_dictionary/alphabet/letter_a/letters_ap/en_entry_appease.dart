@@ -178,6 +178,7 @@ class EnglishEntryappease extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ھێمنکردنەوەی کەسێک بە پێدانی ئەوەی دەیەوێ"""),
                           Row(
@@ -270,6 +271,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: appease (derived forms: appeasing, appeases, appeased)

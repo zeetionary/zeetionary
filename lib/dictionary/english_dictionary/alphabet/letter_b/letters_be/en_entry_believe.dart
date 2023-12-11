@@ -243,6 +243,7 @@ class EnglishEntrybelieve extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: باوەڕ پێکردن، بڕوا پێکردن، ئیمان پێھێنان
 
@@ -506,6 +507,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: believe (derived forms: believing, believes, believed)

@@ -172,6 +172,7 @@ class EnglishEntryantagonism extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دوژمنایەتی، قین‌گێڕی، دژایەتی، ناکۆکی، بەربەرەکایەتی، ڕکەبەرایەتی
 
@@ -242,6 +243,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: antagonism (derived forms: antagonisms)

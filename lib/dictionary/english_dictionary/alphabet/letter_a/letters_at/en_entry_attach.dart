@@ -184,6 +184,7 @@ class EnglishEntryattach extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پێوە لکاندن، پێوەنووساندن، پاشکۆ کردن، ھاوپێچ کردن، چەسپاندن
 
@@ -403,6 +404,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: attach (derived forms: attaching, attaches, attached)

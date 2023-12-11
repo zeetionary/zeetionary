@@ -179,6 +179,7 @@ class EnglishEntryascendant extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەردەست، باڵادەست، دەسەڵات‌دار، دەسەڵات‌بەدەست، زاڵ، سوار، سەرکەوتوو، دەس‌ڕۆیشتوو، سەرتر، باڵاڕەو، پیاھەڵچوو، بەرزەڕەو، پیاسەرکەوتوو، ڕوولەپەرە، ڕوولەپێشکەوتن یا زۆربوون، ڕوولەگەشە، بەرزەوەبوو، دەس‌ڕۆیشتوو، خاوەن‌دەسەڵات، ھێزبەدەست
 
@@ -249,6 +250,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: ascendant 

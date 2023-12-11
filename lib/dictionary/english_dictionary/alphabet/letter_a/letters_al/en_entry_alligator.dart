@@ -131,6 +131,7 @@ class EnglishEntryalligator extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) خشۆکێکی گەورە کە وەک تیمساحە و کلکی درێژ و پێستی قایم و کەڵبەی بەھێزی ھەیە و لە ئەمریکای باکوور و باشوور و وڵاتی چیندا دەژین"""),
                           Row(
@@ -197,6 +198,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: alligator (derived forms: alligators, alligatoring, alligatored)

@@ -172,6 +172,7 @@ class EnglishEntryawful extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەسام، بەھەیبەت، بەئەندێش، شێوەدار، مایەی ترس و ڕێز، بەشەوکەت، ترسدار، ترسێنەر، زۆر خراپ، زۆر ناخۆش، شپرزە
 
@@ -313,6 +314,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: awful (derived forms: awfuler, awfulest)

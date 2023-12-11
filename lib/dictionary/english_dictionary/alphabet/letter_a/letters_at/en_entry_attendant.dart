@@ -179,6 +179,7 @@ class EnglishEntryattendant extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئامادە، ھاتوو، ھاوڕێ، لەگەڵ، بەرپرس، چاوبەسەرەوەبوو، چاودێر، نۆکەر، بەردەس، خزمەت‌کار، ڕاژەوان، لە ئەنجامی، لێکەوتوو لە
 
@@ -275,6 +276,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: attendant (derived forms: attendants)

@@ -183,6 +183,7 @@ class EnglishEntryarticle extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بابەت، شت، تشت، شمەک، شت‌ومەک، کەل‌وپەل، وتار، وتە، نڤیسار، (ماف) مادە، بڕگە، بەند، (ڕێزمان) ئامرازی پێناسە
 
@@ -355,6 +356,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: article (derived forms: articles)

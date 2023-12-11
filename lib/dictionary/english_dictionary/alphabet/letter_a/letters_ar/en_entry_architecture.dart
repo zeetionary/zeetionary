@@ -178,6 +178,7 @@ class EnglishEntryarchitecture extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مێعماری، سازەوانی، بیناسازی، شێوازی مێعماری یان بیناسازی، پلان یا پێکھاتەی ڕێکخستە (سیستم)یێکی کامپیوتێڕی
 
@@ -274,6 +275,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: architecture (derived forms: architectures)

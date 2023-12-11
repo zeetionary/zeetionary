@@ -160,6 +160,7 @@ class EnglishEntrybarrage extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بنەبەندکە، بناوان، ئەنباراو، ئاوگر، ھێرشی لەسەریەک، ھێرش‌باران، ڕەھێڵەباران، ڕێژنە
 
@@ -266,6 +267,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: barrage (derived forms: barrages)

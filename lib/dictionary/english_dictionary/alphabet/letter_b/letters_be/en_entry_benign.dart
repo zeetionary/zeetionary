@@ -166,6 +166,7 @@ class EnglishEntrybenign extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دڵنەرم، بەبەزەیی، دڵسۆز، بێ‌وەی، (ھەوا) خۆش، سازگار، گونجاو، بێ‌مەترسی، خۆش‌خوو
 
@@ -298,6 +299,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: benign

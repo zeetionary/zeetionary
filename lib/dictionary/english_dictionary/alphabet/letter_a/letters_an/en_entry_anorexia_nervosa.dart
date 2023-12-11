@@ -180,6 +180,7 @@ class EnglishEntryanorexianervosa extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دڵ‌نەبردن، بێ‌ئیشتیایی، بێ‌ئیشتیایی دەروونی
 
@@ -250,6 +251,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: anorexia nervosa

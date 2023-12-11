@@ -182,6 +182,7 @@ class EnglishEntryascend extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چوونە سەر، بڵێند بوون، بەرز کردن
 
@@ -324,6 +325,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: ascend (derived forms: ascended, ascends, ascending)

@@ -169,6 +169,7 @@ class EnglishEntrybet extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گرێو، مەرج‌بەستن، پارەی گرێو
 
@@ -356,6 +357,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 Verb: bet (bet,betting, also betted)  bet

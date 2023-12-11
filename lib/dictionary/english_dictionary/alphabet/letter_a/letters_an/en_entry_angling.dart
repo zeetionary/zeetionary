@@ -171,6 +171,7 @@ class EnglishEntryangling extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ماسیگری، ڕاوەماسی؛ چوون بۆ ڕاوەماسی بە قولاب، زیاتر بۆ خۆشی یان وەک وەرزش"""),
                           Row(
@@ -239,6 +240,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: angling 

@@ -167,6 +167,7 @@ class EnglishEntrybelongto extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کاری لێکدراو) خاوەندارێتی کردنی شتێک"""),
                           Row(
@@ -313,6 +314,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: belong (derived forms: belonging to, belongs to, belonged to)

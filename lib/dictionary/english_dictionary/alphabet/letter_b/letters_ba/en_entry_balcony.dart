@@ -171,6 +171,7 @@ class EnglishEntrybalcony extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەرھەیوان، بانجیلە، ھەوالە، باھۆ، (لە تیاتر یان سینەما) باڵکۆن، باڵاخانە، لۆژی سەرێ
 
@@ -264,6 +265,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: balcony (derived forms: balconies)

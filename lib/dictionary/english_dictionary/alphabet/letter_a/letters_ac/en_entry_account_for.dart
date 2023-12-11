@@ -113,6 +113,7 @@ class EnglishEntryaccountfor extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کاری لێکدراو) شتێک کە ھۆکاری شتێک ڕووندەکاتەوە"""),
                           Row(
@@ -174,6 +175,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: account for (derived forms: accounted for, accounts for, accounting for)

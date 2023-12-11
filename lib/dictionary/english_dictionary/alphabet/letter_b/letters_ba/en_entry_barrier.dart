@@ -162,6 +162,7 @@ class EnglishEntrybarrier extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کۆسپ، ئەستەنگ، بەربەند، بەربەست، دیوار، ڕێگر، چیغ، لەمپەر، قەڵغان، حەسار
 
@@ -311,6 +312,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: barrier (derived forms: barriers)

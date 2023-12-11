@@ -164,6 +164,7 @@ class EnglishEntrybattlefield extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شەڕگە، گۆڕەپان یا مەیدانی شەڕ یا جەنگ، قاداشەڕ، ڕەزمگا، ھێڵ
 
@@ -255,6 +256,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: battlefield (derived forms: battlefields)

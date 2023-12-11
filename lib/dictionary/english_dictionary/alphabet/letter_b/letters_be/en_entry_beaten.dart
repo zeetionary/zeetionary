@@ -163,6 +163,7 @@ class EnglishEntrybeaten extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) زێڕ یان کانزایەکی تر کە پانکراوەتەوە بە کوتران"""),
                           Row(
@@ -231,6 +232,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: beaten

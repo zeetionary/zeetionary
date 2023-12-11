@@ -157,6 +157,7 @@ class EnglishEntryaccount extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەژمار، حساب، لیستی حیساب، قازانج، خێر، کەڵک، مەفا، سوود، بەھرە، سوود، بەھرە، باس‌کردن، لێدوان، لێکدانەوە، گێڕانەوە، تیشک خستنەسەر، ڕوون‌کردنەوە، ھۆ، سەرنج، ئاوڕلێدانەوە
 
@@ -313,6 +314,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: account (derived forms: accounts, accounting, accounted)

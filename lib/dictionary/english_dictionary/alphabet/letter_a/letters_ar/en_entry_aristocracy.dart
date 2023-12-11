@@ -177,6 +177,7 @@ class EnglishEntryaristocracy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەرچین‌سالاری، حکومەتی چینی ئەریستۆکرات یان گەورەزادەکان، (چینی) گەوران یا ئەشراف، خانەزادەکان، خانەدانەکان، ھەڵبژاردەکان
 
@@ -247,6 +248,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: aristocracy (derived forms: aristocracies)

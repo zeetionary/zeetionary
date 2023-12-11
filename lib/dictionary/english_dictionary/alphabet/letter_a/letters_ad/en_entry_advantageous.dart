@@ -129,6 +129,7 @@ class EnglishEntryadvantageous extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: باش، بەکەڵک، بەسوود، بەبەھرە، بەقازانج، پڕمەفا، بەخێر، بەخێروبێر، خێردەرەوە، قازانج‌پێگەیێن
 
@@ -194,6 +195,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: advantageous 

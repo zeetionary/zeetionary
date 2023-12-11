@@ -179,6 +179,7 @@ class EnglishEntryarraign extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) ھێنانی کەسێک بۆ دادگا بۆ ئەوەی بە فەرمی تاوانبار بکرێت بە تاوانێک"""),
                           Row(
@@ -246,6 +247,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: arraign (derived forms: arraigned, arraigning, arraigns)

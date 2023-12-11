@@ -129,6 +129,7 @@ class EnglishEntryacquit extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) لێخۆشبوون لە گومانلێکراوێک لە دادگا"""),
                           Row(
@@ -189,6 +190,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: acquit (derived forms: acquits, acquitting, acquitted)

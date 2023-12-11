@@ -168,6 +168,7 @@ class EnglishEntrybend extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خواروخێچی، پێچ، گەڕ، چەم، چەماوی، خواری، ئەژنۆیی، چەمانەوە، خواربوونەوە، نووچ، داھاتنەوە، نووشتانەوە، گرێی مەلەوانی
 
@@ -357,6 +358,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: bend (derived forms: bent, bending, bends)

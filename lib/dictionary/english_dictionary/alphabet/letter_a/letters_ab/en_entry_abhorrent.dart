@@ -103,6 +103,7 @@ class EnglishEntryabhorrent extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بێزار، بێزراو، بێزەون، قێزەون، ناشیرین، ناحەز، دزێو
 
@@ -114,7 +115,9 @@ class EnglishEntryabhorrent extends StatelessWidget {
                                   text:
                                       "Racism is abhorrent to a civilized society."),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const ExampleSentenceKurdish(text: "ڕەگەزپەرستی بێزراوە لە کۆمەڵگایەکی شارستانیدا."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕەگەزپەرستی بێزراوە لە کۆمەڵگایەکی شارستانیدا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAb63("en-GB"),
@@ -157,6 +160,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: abhorrent

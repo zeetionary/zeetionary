@@ -131,6 +131,7 @@ class EnglishEntryactual extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: واقعی، بوویەری، ڕاستەقینە، ڕاست، ھەنووکەیی، ئێستا، سەرەکی، بنگەھی
 
@@ -235,6 +236,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: actual 

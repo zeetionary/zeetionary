@@ -176,6 +176,7 @@ class EnglishEntryantitwo extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پێشگر: پێچەوانە، دژ، دژە، بەرڤاژی، پەرچە، ئاوەژوو
 
@@ -322,6 +323,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Prefix: anti- 

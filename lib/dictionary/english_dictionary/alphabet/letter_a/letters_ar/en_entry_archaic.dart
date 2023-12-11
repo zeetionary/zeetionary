@@ -179,6 +179,7 @@ class EnglishEntryarchaic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کۆن، کەڤنار، باستانی، لەباوکەوتوو، لەبڕەوکەوتوو، مردوو، بێ‌باو، کوێرەوەبوو، بێ‌بڕەو، دێرین، زووین
 
@@ -300,6 +301,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: archaic 

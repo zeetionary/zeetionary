@@ -163,6 +163,7 @@ class EnglishEntrybasis extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بناخە، بنەڕەت، بنگەھـ، پایە، بنچینە، بنەما، کەرەسەی سەرەکی، مادەی بنەڕەتی، ماکی سەرەکی
 
@@ -325,6 +326,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: basis

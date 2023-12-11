@@ -179,6 +179,7 @@ class EnglishEntryapproximation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نزیکاندن، نزیک‌کردنەوە، نزیکی، لە ڕاستی‌یەوە نزیک، لێکچوویی، ھاوشێوەیی (زۆر)، مەزندە، نرخاندن، ھەڵسەنگاندن، قرساندن
 
@@ -302,6 +303,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: approximation (derived forms: approximations)

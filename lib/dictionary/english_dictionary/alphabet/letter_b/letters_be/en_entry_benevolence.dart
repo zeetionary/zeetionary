@@ -163,6 +163,7 @@ class EnglishEntrybenevolence extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نیازباشی، چاکەکاری، خێرخوازی، کردەوەی خێرخوازانە، کاری چاکە، پیتاک، باربۆ، یارمەتی، کۆمەک
 
@@ -234,6 +235,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: benevolence (derived forms: benevolences)

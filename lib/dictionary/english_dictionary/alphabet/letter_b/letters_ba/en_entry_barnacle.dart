@@ -158,6 +158,7 @@ class EnglishEntrybarnacle extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) گەنلەبەرێک کە لەژێر ئاودا بە شتەوە دەنووسێت"""),
                           Row(
@@ -221,6 +222,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: barnacle (derived forms: barnacles)

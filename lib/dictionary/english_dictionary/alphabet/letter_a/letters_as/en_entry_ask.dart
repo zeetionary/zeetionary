@@ -227,6 +227,7 @@ class EnglishEntryask extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پرسین، داخوازی کردن، ویستن، تکا کردن، داوای لێبوردن
 
@@ -511,6 +512,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: ask (derived forms: asked, asking, asks)

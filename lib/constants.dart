@@ -143,7 +143,7 @@ class CustomTabBar extends ConsumerWidget {
         isScrollable: true,
         tabs: tabs,
         indicator: BoxDecoration(
-          color: currentTheme.shadowColor,
+          color: currentTheme.primaryColor.withOpacity(0.2),
           borderRadius: BorderRadius.circular(16.0),
         ),
         indicatorSize: TabBarIndicatorSize.tab,
@@ -310,20 +310,25 @@ class YouTubeContainerDesign extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final currentTheme = ref.watch(themeNotifierProvider);
 
-    return Container(
-      margin: const EdgeInsets.only(
-          top: 20.0), // Move it down by adjusting the top margin
-      padding: const EdgeInsets.all(8.0),
-      decoration: BoxDecoration(
-        border: Border.all(
-          color: currentTheme.shadowColor,
-          width: 3.0, // Adjust the width as needed
+    return Column(
+      children: [
+        const DividerDefinition(),
+        Container(
+          margin: const EdgeInsets.only(
+              top: 20.0), // Move it down by adjusting the top margin
+          padding: const EdgeInsets.all(8.0),
+          decoration: BoxDecoration(
+            border: Border.all(
+              color: currentTheme.shadowColor,
+              width: 3.0, // Adjust the width as needed
+            ),
+          ),
+          child: YoutubePlayer(
+            controller: _controller,
+            liveUIColor: Colors.amber,
+          ),
         ),
-      ),
-      child: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
-      ),
+      ],
     );
     // Scaffold(
     //   body: YoutubePlayer(

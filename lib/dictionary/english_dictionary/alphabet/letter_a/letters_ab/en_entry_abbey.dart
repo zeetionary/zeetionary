@@ -102,6 +102,7 @@ class EnglishEntryabbey extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دێر، دەیر، کلێسەی نێو دەیر، جێگەی عیبادەتی مەسیحییەکان، کلێسا، کەنیسە، کنیسە
 
@@ -111,7 +112,8 @@ class EnglishEntryabbey extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "a ruined abbey"),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const ExampleSentenceKurdish(text: "کڵێسایەکی وێرانە"),
+                              const ExampleSentenceKurdish(
+                                  text: "کڵێسایەکی وێرانە"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAbbey11452("en-GB"),
@@ -154,6 +156,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: abbey (plural: abbeys)

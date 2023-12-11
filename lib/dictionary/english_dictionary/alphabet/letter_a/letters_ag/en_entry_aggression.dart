@@ -130,6 +130,7 @@ class EnglishEntryaggression extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەس‌درێژی، زێدەگاڤی، ھەڵشاخان، یانیگری، بۆھاتوویی، پەلاماردەری، دڕی، توندوتیژی، دوژمن‌کاری، ھێرش‌کاری، شەڕان‌خوویی، ھێرش، پەلامار
 
@@ -223,6 +224,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: aggression (derived forms: aggressions)

@@ -238,6 +238,7 @@ class EnglishEntryanswer extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: وەڵام، وەرام، بەرسڤ، کاردانەوە، دژکردەوە، چارەسەری، ڕێگاچارە
 
@@ -549,6 +550,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: answer (derived forms: answers, answering, answered)

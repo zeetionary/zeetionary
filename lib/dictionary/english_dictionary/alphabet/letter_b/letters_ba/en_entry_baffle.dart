@@ -169,6 +169,7 @@ class EnglishEntrybaffle extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شەپۆل‌بەست، شەپۆل‌بەند، پەردە، پێلگر، بەربەست، نەھێڵەشەپۆل، دەزگا یان کەرستەیێ بۆ دابین‌کردنی ڕژانی شلە، گاز یان ماک و مەتریاڵی شل یان بۆ بەرگرتن لە بڵاوبوونەوەی دەنگ و ڕووناکی لە ئاست یان لا و ڕێڕەوێکی تایبەتی‌دا
 
@@ -237,6 +238,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: baffle (derived forms: baffled, baffling, baffles)

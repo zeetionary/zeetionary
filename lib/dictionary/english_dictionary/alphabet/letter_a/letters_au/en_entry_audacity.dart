@@ -178,6 +178,7 @@ class EnglishEntryaudacity extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نەترسی، ئازایەتی، بێ‌باکی، چاونەترسی، مەترسی‌کاری، ، ڕووشەیی، ڕووداری، ڕووھەڵمالراوی، بێ‌شەرمی
 
@@ -247,6 +248,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: audacity (derived forms: audacities)

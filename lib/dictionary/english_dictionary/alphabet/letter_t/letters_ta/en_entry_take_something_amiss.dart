@@ -195,6 +195,7 @@ class EnglishEntrytakesomethingamiss extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ئیدیەم) زویربوون بە شتێک بەھۆی ئەوەی بە ھەڵە لێی تێگەشتووی"""),
                           Row(
@@ -262,6 +263,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Idiom: take amiss 

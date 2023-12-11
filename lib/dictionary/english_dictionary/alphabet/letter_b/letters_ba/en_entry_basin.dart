@@ -160,6 +160,7 @@ class EnglishEntrybasin extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مەخسەلە، کاسە، لەگەن، تاس، تەشت، سوێنە، قاپشۆری، لانجین، تەسە (ھی ھەویر)، گۆلاو، پەنگاو، گۆلکاو، سەرچاوەکان، چاڵاو
 
@@ -265,6 +266,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: basin (derived forms: basins)

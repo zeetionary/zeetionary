@@ -131,6 +131,7 @@ class EnglishEntryallrounder extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: مرۆی ھەمەکارە یان فرەزان، فرەبابەت‌زان، ھەزارپیشە، سەرلەھەمووشتێ‌دەرکردوو
 
@@ -199,6 +200,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: all-rounder (derived forms: all-rounders)

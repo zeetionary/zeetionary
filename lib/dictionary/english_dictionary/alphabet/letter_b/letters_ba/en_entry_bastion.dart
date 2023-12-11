@@ -159,6 +159,7 @@ class EnglishEntrybastion extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: قەڵای باستیێن، شوورەی دووپاڵوو، پارێزە، پەنا، بەرگریگا، قەڵای لەگرتن‌نەھاتوو
 
@@ -245,6 +246,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: bastion (derived forms: bastions)

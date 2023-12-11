@@ -177,6 +177,7 @@ class EnglishEntryarchipelago extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کۆدورگە، کۆمەڵە دورگە، کۆمەڵە گرئاڤ
 
@@ -247,6 +248,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: archipelago (derived forms: archipelagoes, archipelagos)

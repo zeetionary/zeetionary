@@ -173,6 +173,7 @@ class EnglishEntrybanger extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شڕەماشێن، داشقەشکاو، کەلاکەماشێن، کەلاکەکەر، چەپەڕەشڕ
 
@@ -318,6 +319,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: banger (derived forms: bangers)

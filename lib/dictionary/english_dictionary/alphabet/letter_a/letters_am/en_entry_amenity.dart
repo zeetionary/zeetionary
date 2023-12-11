@@ -196,6 +196,7 @@ class EnglishEntryamenity extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شت یان کەرەسەی ئاسوودەیی، کەل‌وپەلی خۆش‌گوزەرانی، خۆشی، تایبەتمەندی خۆشی، ئاسان‌کاری، کەل‌وپەلی ئاسوودەیی، شمەکی ئاسایش و ڕابواردن
 
@@ -285,6 +286,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: amenity (derived forms: amenities)

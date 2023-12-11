@@ -129,6 +129,7 @@ class EnglishEntryadvancement extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پێشکەوتن، پێشکەوت، پێش‌وەچوون، چوونەپێش، چوونەسەرێ، بەرزبوونەوە
 
@@ -194,6 +195,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: advancement (derived forms: advancements)

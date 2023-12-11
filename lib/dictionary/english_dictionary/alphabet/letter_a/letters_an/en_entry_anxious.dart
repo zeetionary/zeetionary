@@ -178,6 +178,7 @@ class EnglishEntryanxious extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بێ‌ئۆقرە، ئارام‌لێ‌ھەڵگیراو، ناڕەحەت، بەخەتەرە، بژاڵ، پڕدڵەڕاوکێ، پەرێشان، نیگەران، بەتەنگەوە، تامەزرۆ، بەتین، بەپەرۆش
 
@@ -324,6 +325,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: anxious 

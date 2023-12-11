@@ -171,6 +171,7 @@ class EnglishEntryawaken extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) درووستبوونی یان درووستکردنی ھەستێک"""),
                           Row(
@@ -239,6 +240,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: awaken (derived forms: awakening, awakened, awakens)

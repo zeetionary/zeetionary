@@ -172,6 +172,7 @@ class EnglishEntryannul extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) بەفەرمی وتنی ئەوەی شتێک لەڕووی یاساییەوە نەناسراوە"""),
                           Row(
@@ -240,6 +241,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: annul (derived forms: annuls, annulled, annulling)

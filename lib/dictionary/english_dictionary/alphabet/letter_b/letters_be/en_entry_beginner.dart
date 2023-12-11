@@ -163,6 +163,7 @@ class EnglishEntrybeginner extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تازەکار، کەم‌زان، تازەفێر، نۆفێر، بەروەستا، تازەدەس‌پێکردوو
 
@@ -232,6 +233,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: beginner (derived forms: beginners)

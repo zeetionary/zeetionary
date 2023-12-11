@@ -165,6 +165,7 @@ class EnglishEntrybeaver extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەگاو، مەیکێ ئاڤێ، پێستە یان کەوڵی سەگاو، فەروەی سەگاو، کڵاوێ لە پێستەی سەگاو
 
@@ -277,6 +278,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: beaver (derived forms: beavers, beavering, beavered)

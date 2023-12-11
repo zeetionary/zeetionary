@@ -179,6 +179,7 @@ class EnglishEntryassemblyline extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ڕیزێک لە کرێکار و ئامێر لە کارگەیەکدا کە قۆناغ بە قۆناغ کاردەکەن لەسەر بەستنی پارچەکانی بەرھەمێک تاوەکو تەواو دەبێت"""),
                           Row(
@@ -247,6 +248,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: assembly line (derived forms: assembly lines)

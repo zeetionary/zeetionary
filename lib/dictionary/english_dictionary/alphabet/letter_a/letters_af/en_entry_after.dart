@@ -252,6 +252,7 @@ class EnglishEntryafter extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دوای، پاش، دوای ئەوەی کە، لە پاش، پاش ئەوەی کە، سەرەڕای، لەگەڵ ئەوەش (کە)، بە شێوازی، بەشێوەی، بە شوێن، بەدوو، بە دوای، لە پەی، پشتەسەر، پاشین، پاش، دواوە، دادێ، بەپێی، بەگوێرەی
 
@@ -622,6 +623,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Preposition: after

@@ -170,6 +170,7 @@ class EnglishEntryavoidance extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دووری، دووری‌لێ‌کردن، پرینگانەوە، تەکینەوە، گورێز، خۆدوورگرتن، خۆپاراستن، خۆپەرێزگرتن، توخن‌نەکەوتن، نزیک‌نەبوونەوە، خۆ(لێ)لادان، خۆلادان، دوورەپەرێزی، ھەڵوەشاندنەوە، پووچ‌کردنەوە
 
@@ -240,6 +241,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: avoidance (derived forms: avoidances)

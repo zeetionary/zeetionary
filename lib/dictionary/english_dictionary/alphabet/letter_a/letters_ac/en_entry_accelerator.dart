@@ -114,6 +114,7 @@ class EnglishEntryaccelerator extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: (فیزیک) تاودەر (= دەزگایێ بۆ تاودانی پارچۆلکە بنەڕەتی‌یە بارگاوی‌یەکان بە خێرایی‌یێکی یەکجار زۆر)، پێداڵی گاز، گاز
 
@@ -177,6 +178,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: accelerator (derived forms: accelerators)

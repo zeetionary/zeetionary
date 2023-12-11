@@ -163,6 +163,7 @@ class EnglishEntryberry extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: توو، نێوک، ناوک، کاکڵ، دەنک، دان، میوە یان بەری توویی یان بۆڵی، گەرای ماسی
 
@@ -234,6 +235,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: berry (derived forms: berrying, berries, berried)

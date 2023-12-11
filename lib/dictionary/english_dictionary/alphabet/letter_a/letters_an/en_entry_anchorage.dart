@@ -172,6 +172,7 @@ class EnglishEntryanchorage extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئەسکەلە، بەندەر، لەنگەرگا، لەنگەرگە، تابگە، لەنگەرانە، (پارەی) لەنگرخستن، لەنگەرگرتن
 
@@ -267,6 +268,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: anchorage (derived forms: anchorages)

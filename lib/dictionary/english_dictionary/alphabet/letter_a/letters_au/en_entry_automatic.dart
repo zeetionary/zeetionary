@@ -182,6 +182,7 @@ class EnglishEntryautomatic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خۆکار، ئۆتۆماتیک، میکانیکی، ماشێنی، ئینستینکتیڤ، خۆنەویست، خۆکردوو، ناخودئاگا، خۆبەخۆ، لەخۆوە،	چەکی خۆکار یان ئۆتۆماتیک،	ماشێن بە ترانسمیشنی (گێڕ) خۆکارەوە
 
@@ -377,6 +378,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: automatic

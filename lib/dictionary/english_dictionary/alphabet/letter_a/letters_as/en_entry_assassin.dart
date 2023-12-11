@@ -179,6 +179,7 @@ class EnglishEntryassassin extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پیاوکوژ (پیشەیی)، بکوژ، تروریست، کوشتن‌کار، ڕەشەکوژ
 
@@ -247,6 +248,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: assassin (derived forms: assassins)

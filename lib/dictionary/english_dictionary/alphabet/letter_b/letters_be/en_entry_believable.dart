@@ -163,6 +163,7 @@ class EnglishEntrybelievable extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پەسندکراو، جێی‌باوەڕ، باوەڕپێکراو، باوەڕمەند، لێ‌ڕابینراو، جێی متمانە
 
@@ -233,6 +234,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: believable

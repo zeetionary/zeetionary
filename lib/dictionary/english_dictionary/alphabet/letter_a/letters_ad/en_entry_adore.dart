@@ -129,6 +129,7 @@ class EnglishEntryadore extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) خۆشویستنی زۆری کەسێک"""),
                           Row(
@@ -190,6 +191,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: adore (derived forms: adored, adoring, adores)

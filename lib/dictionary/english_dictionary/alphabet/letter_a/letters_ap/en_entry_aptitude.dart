@@ -177,6 +177,7 @@ class EnglishEntryaptitude extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بەھرە، توانایی، ئامادەیی، لێھاتوویی، تواناداری، زووتێگەیشتوویی، زووفێربوون، زیرەکی 
 
@@ -246,6 +247,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: aptitude (derived forms: aptitudes)

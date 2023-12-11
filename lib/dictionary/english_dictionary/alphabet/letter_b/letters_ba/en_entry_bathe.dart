@@ -162,6 +162,7 @@ class EnglishEntrybathe extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خۆشتن، مەلێ، سۆبایی، سۆباھی
 
@@ -315,6 +316,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: bathe (derived forms: bathes, bathed, bathing)

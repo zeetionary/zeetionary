@@ -172,6 +172,7 @@ class EnglishEntryballet extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەما یان ھەڵپەڕکێی بالی، باڵی، باڵە، بالە، تیپ یا کۆڕی باڵی، موسیقای باڵی
 
@@ -294,6 +295,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: ballet (derived forms: ballets)

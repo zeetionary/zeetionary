@@ -180,6 +180,7 @@ class EnglishEntryartillery extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تۆپ‌خانە، تۆپ، لکی تۆپ‌خانە، تۆپ‌ناسی، زانستی تۆپ‌خانە، زانستی بەکارھێنانی تۆپ‌خانە 
 
@@ -275,6 +276,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: artillery (derived forms: artilleries)

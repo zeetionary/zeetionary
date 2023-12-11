@@ -170,6 +170,7 @@ class EnglishEntryb extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) دوومین پیتی ئەلفوبێی ئینگلیزی"""),
                           Row(
@@ -305,6 +306,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: b (derived forms: bs)

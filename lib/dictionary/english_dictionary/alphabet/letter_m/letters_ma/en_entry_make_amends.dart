@@ -195,6 +195,7 @@ class EnglishEntrymakeamends extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کاری لێکدراو) کردنی شتێک بۆ کەسێک بۆ پیشاندانی پەشیمانی"""),
                           Row(
@@ -263,6 +264,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: make amends (derived forms: makes amends, made amends, making amends)

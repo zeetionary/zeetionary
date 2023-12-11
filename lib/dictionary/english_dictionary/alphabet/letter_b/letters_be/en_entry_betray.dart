@@ -167,6 +167,7 @@ class EnglishEntrybetray extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) پێدانی زانیاری بە دووژمن یان ڕکابەر"""),
                           Row(
@@ -337,6 +338,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: betray (derived forms: betraying, betrayed, betrays)

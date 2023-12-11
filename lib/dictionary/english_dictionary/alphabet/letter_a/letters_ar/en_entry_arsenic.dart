@@ -179,6 +179,7 @@ class EnglishEntryarsenic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) زەرنیخ؛ مادەیەکی کیمیایی رەساسی کە زۆر ژەھراوییە، بەتایبەتی ئەگەر لەگەڵ مادەی دیکە یەکبگرێت"""),
                           Row(
@@ -247,6 +248,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: arsenic (derived forms: arsenics)

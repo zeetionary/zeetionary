@@ -175,6 +175,7 @@ class EnglishEntryball extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: تۆپ، گۆگ، خڕۆکە، گۆ، گرمۆڵە، کولو (خوری و ھتد)، گڵۆڵە، تۆپ، گنا، گوللە، ساچمە، گلۆر، گروڤەر، گلۆر، خڕی، شایی، سەما (کۆڕ)
 
@@ -389,6 +390,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: ball (derived forms: balling, balled, balls)

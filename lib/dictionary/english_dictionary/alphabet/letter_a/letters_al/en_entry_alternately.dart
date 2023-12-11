@@ -131,6 +131,7 @@ class EnglishEntryalternately extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: یەک‌بەدوای یەک، یەک‌نایەکێ، بە شوێن‌یەکا، جارە نا جارێ، بە نۆرە، یەکە نا یەکێ، دەمە نا دەمێ
 
@@ -198,6 +199,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adverb: alternately 

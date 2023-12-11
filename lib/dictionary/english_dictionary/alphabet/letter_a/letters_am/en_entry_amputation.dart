@@ -171,6 +171,7 @@ class EnglishEntryamputation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پەل‌کردن، لێ‌کردنەوە، بڕینەوە، قەڵخ‌کردن، قەڵخاندن، ئەندام‌بڕی
 
@@ -241,6 +242,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: amputation (derived forms: amputations)

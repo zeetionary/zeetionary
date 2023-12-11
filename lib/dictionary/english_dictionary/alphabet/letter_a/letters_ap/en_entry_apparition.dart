@@ -177,6 +177,7 @@ class EnglishEntryapparition extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دەرکەوتن، پەیدابوون، ھاتنەڕوو، سەرھەڵدان (سەیر یان چاوەڕوان‌نەکراو)، خێو، تارمایی، ڕۆح، تاپۆ
 
@@ -247,6 +248,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: apparition (derived forms: apparitions)

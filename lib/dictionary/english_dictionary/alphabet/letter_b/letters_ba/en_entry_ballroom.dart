@@ -170,6 +170,7 @@ class EnglishEntryballroom extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەماخانە، خانەی ھەڵپەڕکێ، ھۆڵی ھەڵپەڕکێ یان سەما
 
@@ -240,6 +241,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: ballroom (derived forms: ballrooms)

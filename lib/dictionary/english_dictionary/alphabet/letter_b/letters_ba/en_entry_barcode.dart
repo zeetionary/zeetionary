@@ -170,6 +170,7 @@ class EnglishEntrybarcode extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) نەخشێکی ھێڵی باریک و ئەستوور کە لەسەر شت دادەنرێت کە دەیکڕیت. نەخشەکە زانیاری لەخۆدەگرێت کە کۆمپیوتەر دەتوانێت بیخوێنێتەوە"""),
                           Row(
@@ -238,6 +239,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: barcode (derived forms: barcodes)

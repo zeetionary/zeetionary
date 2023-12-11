@@ -129,6 +129,7 @@ class EnglishEntryaglow extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ورشن، گەش، بریقەدار، درەوشاوە، ڕووناک، سورەوەبوو
 
@@ -196,6 +197,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: aglow 

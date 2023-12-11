@@ -164,6 +164,7 @@ class EnglishEntrybeset extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گیرۆدە کردن، گەمارۆدان، کۆسپ ساز کردن، تەگەرە ساز کردن
 
@@ -254,6 +255,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: beset (derived forms: besetting, besets, beset)

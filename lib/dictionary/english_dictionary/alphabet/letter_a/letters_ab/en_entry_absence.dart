@@ -121,6 +121,7 @@ class EnglishEntryabsence extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: نەبوون، نەبوونی، نائامادەیی، نالێرەیی، نەھاتن، دووری، دیارنەبوون، بزرێتی، ناپەیدایی، نادیاری، نەھاتوویی، دژی
 
@@ -204,6 +205,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: absence (derived forms: absences)

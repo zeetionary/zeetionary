@@ -182,6 +182,7 @@ class EnglishEntryash extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خۆڵەمێش، خۆڵەکەوە، بووڕ، مۆر، سووتوو، پەلەموور، پەلەخۆر
 
@@ -326,6 +327,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 Noun: ash (derived forms: ashes)

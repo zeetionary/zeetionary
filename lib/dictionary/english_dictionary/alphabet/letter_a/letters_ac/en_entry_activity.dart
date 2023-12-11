@@ -140,6 +140,7 @@ class EnglishEntryactivity extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چالاکی، گورجێتی، سووربوون، شێلگیری، بەڕشتی، ئازایی، بەکاری، بزاوت، بزووتنەوە، جم‌وجۆڵ، کردەوە، کردار، سەرقاڵی، سەرگەرمی، چالاکی، ڕابواردن
 
@@ -268,6 +269,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: activity (derived forms: activities)

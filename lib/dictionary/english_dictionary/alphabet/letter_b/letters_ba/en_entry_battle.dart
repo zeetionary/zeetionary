@@ -204,6 +204,7 @@ class EnglishEntrybattle extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: شەڕ، جەنگ، ھەرڤ، سواژ، نەبەرد، ڕەزم، پێکادان، لێکدان، تێک‌ھەڵچوون، تێک‌بەربوون، بەربوونەیەک، لێک‌بەربوون، پێشبڕکێ، ڕکەبەرایەتی، پێشبەزین، بردنەوە، سەرکەوتن
 
@@ -449,6 +450,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: battle (derived forms: battled, battles, battling)

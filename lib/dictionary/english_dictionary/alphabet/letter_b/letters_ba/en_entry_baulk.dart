@@ -165,6 +165,7 @@ class EnglishEntrybaulk extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بیناسازی، دار) دەستەک، ڕاژە، نیرگ، بەستە، باریکایی نەکێڵراو، کۆسپ، لەمپەر، قۆرت
 
@@ -278,6 +279,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 Verb: baulk (derived forms: baulks, baulked, baulking)

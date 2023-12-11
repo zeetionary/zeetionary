@@ -131,6 +131,7 @@ class EnglishEntryadult extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: کامڵ، پێگەیشتوو، پێگەییو، گەورە، ڕەسیدە، خۆناسیو، باڵق، تەواوھەڵداو، گەورەساڵ، بە تەمەنی قانوونی‌گەیشتوو (بۆ دەنگدان و ھاوسەر گرتن)
 
@@ -218,6 +219,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: adult (derived forms: adults)

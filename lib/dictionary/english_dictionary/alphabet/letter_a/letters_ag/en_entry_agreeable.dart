@@ -129,6 +129,7 @@ class EnglishEntryagreeable extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: خۆش، وەش، باش، بەردڵ، چاک، ڕێک‌کەوتوو، دڵ‌ساز، سازاو، کۆک، ساز
 
@@ -196,6 +197,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: agreeable 

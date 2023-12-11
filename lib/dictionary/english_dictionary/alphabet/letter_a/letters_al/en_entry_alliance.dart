@@ -149,6 +149,7 @@ class EnglishEntryalliance extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: یەکێتی، یەک‌گرتوویی، یەک‌کەوتوویی، ڕێک‌کەوتن، ھاوپەیمانی، ھەڤگرتن، پێوەندی، تێکەڵی، پێک‌بەستراوی، پێک‌بەندی، نزیکایەتی، خزمایەتی
 
@@ -265,6 +266,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: alliance (derived forms: alliances)

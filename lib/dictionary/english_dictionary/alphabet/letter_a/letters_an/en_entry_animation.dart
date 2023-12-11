@@ -173,6 +173,7 @@ class EnglishEntryanimation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەرخۆشی، بەکەیفی، بەدەماخی، کەیف‌سازی، تین‌وگوڕ، بەگوڕی، چالاکی، بەدەماخی، وێنەجووڵێنی، ئەنیمەیشن، بەرھەم‌ھێنانی وێنەکێشی جووڵاو
 
@@ -295,6 +296,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: animation (derived forms: animations)

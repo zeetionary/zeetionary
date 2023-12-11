@@ -112,6 +112,7 @@ class EnglishEntryabyss extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: قووڵایی، بێ‌بنی، چاڵی بێ‌بن، یەکجار قووڵ، کەندڕ، نغرۆ؟، کەندەڵان، کەلێن (زۆر قووڵ)
 
@@ -175,6 +176,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: abyss  u'bis (derived forms: abysses)

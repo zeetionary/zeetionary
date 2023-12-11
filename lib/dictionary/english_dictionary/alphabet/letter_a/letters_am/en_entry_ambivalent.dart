@@ -132,6 +132,7 @@ class EnglishEntryambivalent extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دوودڵ، دڕدۆنگ، بەشک، ڕاڕا، وازی‌وازی، تاوتاو، دڵاودڵ، دژبەیەک، پێک‌ناکۆک، پێک‌دژ، یەک‌نەگرەوە، دوولا(یەنە)گەر
 
@@ -223,6 +224,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: ambivalent  

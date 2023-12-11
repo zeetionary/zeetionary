@@ -181,6 +181,7 @@ class EnglishEntryassessment extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھەڵسەنگاندن، نرخاندن، ھەزیر، مەزندە، نرخ‌دانان، چەسپاندنی نرخ و بایی، لێکدانەوە، ھەڵسەنگاندن، دەس‌نیشان‌کردن، دیاری‌کردن (بژێرە، باج و ھتد)
 
@@ -303,6 +304,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: assessment (derived forms: assessments)

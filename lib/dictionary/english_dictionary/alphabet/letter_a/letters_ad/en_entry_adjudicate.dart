@@ -129,6 +129,7 @@ class EnglishEntryadjudicate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) بڕیاردان لە نێوان دوو لایەن کە کامیان ڕاستە"""),
                           Row(
@@ -192,6 +193,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: adjudicate (derived forms: adjudicating, adjudicates, adjudicated)

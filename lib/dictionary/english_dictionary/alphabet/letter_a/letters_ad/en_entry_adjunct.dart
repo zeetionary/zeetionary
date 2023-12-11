@@ -129,6 +129,7 @@ class EnglishEntryadjunct extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: پاشکۆ، سەرخستە، یاریدەدەر، کۆمەک، یارمەتی‌دەر، ئاوەڵکار یان فریزێ کە واتای کارەکە لە ڕستەدا یان لە بەشێکی ڕستەدا زیاد دەکا، ڕێزمان، شتی لاوەکی، بەشی زیادی یان سەرخراو
 
@@ -196,6 +197,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: adjunct (derived forms: adjuncts)

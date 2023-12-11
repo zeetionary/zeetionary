@@ -179,6 +179,7 @@ class EnglishEntryartery extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) خوێنبەر؛ مولوولەی خوێن کە خوێن لە لەشەوە دەگوازنەوە بۆ بەشەکانی تری جەستە"""),
                           Row(
@@ -247,6 +248,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: artery (derived forms: arteries)

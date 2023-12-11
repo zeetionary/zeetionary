@@ -171,6 +171,7 @@ class EnglishEntrybarbaric extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بێ‌شارستانیەت، بێ‌ژیار، دڕندە، ھۆف، بەڕبەڕ، دڕندانە، بێ‌بەزەیی‌یانە، توندوتیژ، بەزەبروزەنگ، سەربە بەڕبەڕەکان، سادە، سەرەتایی
 
@@ -267,6 +268,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: barbaric

@@ -167,6 +167,7 @@ class EnglishEntrybecause extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چون، چونکە، بۆیە، لەبەر، لەسەر، بەھۆی، بەم دەلیلە، لەبەر ئەمە
 
@@ -274,6 +275,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Conjunction: because

@@ -131,6 +131,7 @@ class EnglishEntryambiguous extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ئاڵۆز، تەماوی، بەتوێکڵ، دووواتان، دوومانا، بەپێچ‌وپەنا، تەژمە، تەم‌ومژاوی، لێڵ، گرکی، نەڕوون
 
@@ -199,6 +200,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: ambiguous 

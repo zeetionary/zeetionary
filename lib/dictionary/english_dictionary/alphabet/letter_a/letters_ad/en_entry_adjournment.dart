@@ -129,6 +129,7 @@ class EnglishEntryadjournment extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: دواخستن، پاش‌خستن، خستنەدواوە، ڕاگرتن، ڕاوێستاندن (بۆ ماوەیێ)، پشوو، وچان، ماوەی پشوو
 
@@ -193,6 +194,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: adjournment (derived forms: adjournments)

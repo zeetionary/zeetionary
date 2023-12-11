@@ -166,6 +166,7 @@ class EnglishEntrymakeabeelinefor extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ھێلی ڕاستەوخۆ، ھێڵی یەکسەر، یەکسەرە چوون بە دوای (کەس یان شتێ)
 
@@ -260,6 +261,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: make a beeline for

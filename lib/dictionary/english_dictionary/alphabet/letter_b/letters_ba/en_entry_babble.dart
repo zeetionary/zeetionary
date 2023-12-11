@@ -174,6 +174,7 @@ class EnglishEntrybabble extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: چەنەدان، زۆربڵێیی، چەقەسرۆیی، خوڕڕە، گڕوگاڵ، گاڵ‌وبۆغ، فڵتە، قسەی ھیچەکە، دەنگ‌وھەرا، ھەراھەرا، قاڵمەقاڵم
 
@@ -342,6 +343,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Verb: babble (derived forms: babbles, babbled, babbling)

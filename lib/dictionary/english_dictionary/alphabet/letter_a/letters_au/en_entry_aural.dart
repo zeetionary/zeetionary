@@ -178,6 +178,7 @@ class EnglishEntryaural extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: گوێیی، سەربە گوێ، پێوەندی بە گوێ‌یەوە ھەیە، سەربە ھەستی بیستن یان ژنەفتن
 
@@ -247,6 +248,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: aural

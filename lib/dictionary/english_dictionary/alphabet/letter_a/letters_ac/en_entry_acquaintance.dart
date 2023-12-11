@@ -130,6 +130,7 @@ class EnglishEntryacquaintance extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: ناسیاوی، ناس، شناسی، ئاشنایی، (کەس) ناسیاو، شناس، ئاشنا (کۆ: ئاشنا و ڕۆشنا)
 
@@ -215,6 +216,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: acquaintance (derived forms: acquaintances)

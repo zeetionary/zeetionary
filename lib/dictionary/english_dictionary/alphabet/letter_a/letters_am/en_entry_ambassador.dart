@@ -132,6 +132,7 @@ class EnglishEntryambassador extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: باڵوێز، باڵیۆز، نێردە، نێردراو، نوێنەری دەسەڵات‌پێدراو یان دەسەڵات‌بەدەست
 
@@ -223,6 +224,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: ambassador (derived forms: ambassadors)

@@ -131,6 +131,7 @@ class EnglishEntryalarmclock extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەعاتی زەنگی، کات‌ژمێری زەنگ‌دار
 
@@ -198,6 +199,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: alarm clock (derived forms: alarm clocks)

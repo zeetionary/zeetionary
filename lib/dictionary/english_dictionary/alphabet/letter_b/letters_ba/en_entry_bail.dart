@@ -173,6 +173,7 @@ class EnglishEntrybail extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: بارمتە، دەستەبەرانە، دەستەبەری، زەمانەت، کەفیل، دەستەبەر، زامن، بەردان یان ئازادبوون بە دانانی دەستەبەر (نامە)، کەمە، تاسمە، دەور یان گەوی دەوری کۆس، سەتڵ، دۆلکە
 
@@ -309,6 +310,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Noun: bail (derived forms: bailed, bailing, bails)

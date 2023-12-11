@@ -133,6 +133,7 @@ class EnglishEntryallergic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 کوردی: سەربە ھەستیاری، ئالێرژی‌دار، ھەستیاری‌دار، دڵ‌ھەڵکەوتوو، بێزار، بێزراو
 
@@ -250,6 +251,7 @@ class EnglishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          DividerDefinition(),
           EnglishMeaningConst(
             text: """
 - Adjective: allergic

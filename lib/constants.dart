@@ -74,7 +74,7 @@ class _ZeetionaryAppbarStyleState extends ConsumerState<ZeetionaryAppbarStyle> {
     return Text(
       'Zeetionary',
       style: TextStyle(
-        fontSize: 28.0, // Adjust font size as needed
+        fontSize: 30.0, // Adjust font size as needed
         fontWeight: FontWeight.bold, // Adjust font weight as needed
         color: currentTheme.primaryColor
             .withOpacity(0.8), // Text color (will be masked by the gradient)
@@ -126,7 +126,7 @@ class CustomTabBar extends ConsumerWidget {
         borderRadius: BorderRadius.circular(12.0),
         boxShadow: [
           BoxShadow(
-            color: currentTheme.primaryColor.withOpacity(0.1),
+            color: currentTheme.scaffoldBackgroundColor.withOpacity(0.1),
             blurRadius: 4.0,
           ),
         ],
@@ -134,8 +134,8 @@ class CustomTabBar extends ConsumerWidget {
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
           colors: [
-            currentTheme.primaryColor.withOpacity(0.1),
-            currentTheme.primaryColor.withOpacity(0.05),
+            currentTheme.primaryColor.withOpacity(0.07),
+            currentTheme.primaryColor.withOpacity(0.02),
           ],
         ),
       ),
@@ -143,7 +143,7 @@ class CustomTabBar extends ConsumerWidget {
         isScrollable: true,
         tabs: tabs,
         indicator: BoxDecoration(
-          color: currentTheme.primaryColor.withOpacity(0.1),
+          color: currentTheme.scaffoldBackgroundColor.withOpacity(0.7),
           borderRadius: BorderRadius.circular(12.0),
         ),
         indicatorSize: TabBarIndicatorSize.tab,
@@ -407,7 +407,7 @@ class EntryTitle extends ConsumerWidget {
         child: Container(
           decoration: BoxDecoration(
             color: currentTheme.primaryColor
-                .withOpacity(0.1), // Add a background color
+                .withOpacity(0.05), // Add a background color
             borderRadius: BorderRadius.circular(12.0), // Add rounded corners
           ),
           child: Center(

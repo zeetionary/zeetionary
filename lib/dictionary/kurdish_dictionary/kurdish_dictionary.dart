@@ -60,10 +60,12 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
                   decoration: InputDecoration(
                     labelText: 'لێرە بگەڕێ',
                     prefixIcon: const Icon(Icons.search),
-                    suffixIcon: IconButton(
-                      icon: const Icon(Icons.clear),
-                      onPressed: clearSearch,
-                    ),
+                    suffixIcon: _searchController.text.isNotEmpty
+                        ? IconButton(
+                            icon: const Icon(Icons.clear),
+                            onPressed: clearSearch,
+                          )
+                        : null,
                     border: const OutlineInputBorder(),
                   ),
                 ),

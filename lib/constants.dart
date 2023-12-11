@@ -76,8 +76,8 @@ class _ZeetionaryAppbarStyleState extends ConsumerState<ZeetionaryAppbarStyle> {
       style: TextStyle(
         fontSize: 26.0, // Adjust font size as needed
         fontWeight: FontWeight.bold, // Adjust font weight as needed
-        color: currentTheme
-            .primaryColor, // Text color (will be masked by the gradient)
+        color: currentTheme.primaryColor
+            .withOpacity(0.8), // Text color (will be masked by the gradient)
       ),
     );
   }
@@ -126,7 +126,7 @@ class CustomTabBar extends ConsumerWidget {
         borderRadius: BorderRadius.circular(16.0),
         boxShadow: [
           BoxShadow(
-            color: currentTheme.shadowColor.withOpacity(0.5),
+            color: currentTheme.primaryColor.withOpacity(0.2),
             blurRadius: 4.0,
           ),
         ],
@@ -319,7 +319,7 @@ class YouTubeContainerDesign extends ConsumerWidget {
           padding: const EdgeInsets.all(8.0),
           decoration: BoxDecoration(
             border: Border.all(
-              color: currentTheme.shadowColor,
+              color: currentTheme.primaryColor.withOpacity(0.2),
               width: 3.0, // Adjust the width as needed
             ),
           ),

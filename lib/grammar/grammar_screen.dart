@@ -46,21 +46,26 @@ class _GrammarScreenState extends State<GrammarScreen> {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Padding(
-            padding: const EdgeInsets.all(16.0),
-            child: SizedBox(
-              height: 60,
-              child: TextField(
-                controller: _searchController,
-                onChanged: filtersubjects,
-                decoration: InputDecoration(
-                  labelText: 'Search here',
-                  prefixIcon: const Icon(Icons.search),
-                  suffixIcon: IconButton(
-                    icon: const Icon(Icons.clear),
-                    onPressed: clearSearch,
+          Directionality(
+            textDirection: TextDirection.ltr,
+            child: Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: SizedBox(
+                height: 60,
+                child: TextField(
+                  controller: _searchController,
+                  onChanged: filtersubjects,
+                  decoration: InputDecoration(
+                    labelText: 'Search here',
+                    prefixIcon: const Icon(Icons.search),
+                    suffixIcon: _searchController.text.isNotEmpty
+                        ? IconButton(
+                            icon: const Icon(Icons.clear),
+                            onPressed: clearSearch,
+                          )
+                        : null,
+                    border: const OutlineInputBorder(),
                   ),
-                  border: const OutlineInputBorder(),
                 ),
               ),
             ),

@@ -58,7 +58,7 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
                   controller: _searchController,
                   onChanged: filterWords,
                   decoration: InputDecoration(
-                    labelText: 'لێرە بگەڕێ',
+                    labelText: "لێرە بگەڕێ",
                     prefixIcon: const Icon(Icons.search),
                     suffixIcon: _searchController.text.isNotEmpty
                         ? IconButton(

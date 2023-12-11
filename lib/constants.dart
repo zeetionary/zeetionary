@@ -134,8 +134,8 @@ class CustomTabBar extends ConsumerWidget {
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
           colors: [
-            currentTheme.colorScheme.background,
-            currentTheme.colorScheme.background.withOpacity(0.9),
+            currentTheme.colorScheme.background.withOpacity(0.6),
+            currentTheme.colorScheme.background.withOpacity(0.3),
           ],
         ),
       ),
@@ -143,7 +143,7 @@ class CustomTabBar extends ConsumerWidget {
         isScrollable: true,
         tabs: tabs,
         indicator: BoxDecoration(
-          color: currentTheme.primaryColor.withOpacity(0.2),
+          color: currentTheme.primaryColor.withOpacity(0.1),
           borderRadius: BorderRadius.circular(16.0),
         ),
         indicatorSize: TabBarIndicatorSize.tab,
@@ -246,7 +246,7 @@ class KurdIconForTab extends StatelessWidget {
     return Tab(
       icon: Image.asset(
         'assets/images/kurd_one.png',
-        width: 80,
+        width: 90,
         height: 30,
       ),
     );
@@ -263,7 +263,7 @@ class UkIconForTab extends StatelessWidget {
     return Tab(
       icon: Image.asset(
         'assets/images/uk_one.png',
-        width: 80,
+        width: 90,
         height: 30,
       ),
     );
@@ -381,24 +381,70 @@ class YouTubeContainerDesign extends ConsumerWidget {
   }
 }
 
-class EntryTitle extends StatelessWidget {
+// class YouTubeContainerDesign extends ConsumerWidget {
+//   const YouTubeContainerDesign({
+//     super.key,
+//     required YoutubePlayerController controller,
+//   }) : _controller = controller;
+
+//   final YoutubePlayerController _controller;
+
+//   @override
+//   Widget build(BuildContext context, WidgetRef ref) {
+//     final currentTheme = ref.watch(themeNotifierProvider);
+
+class EntryTitle extends ConsumerWidget {
   final String word;
 
   const EntryTitle({super.key, required this.word});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final currentTheme = ref.watch(themeNotifierProvider);
     return Expanded(
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 4.0),
-        child: Text(
-          word,
-          style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+        padding: const EdgeInsets.symmetric(horizontal: 10.0),
+        child: Container(
+          decoration: BoxDecoration(
+            color: currentTheme.primaryColor
+                .withOpacity(0.1), // Add a background color
+            borderRadius: BorderRadius.circular(10.0), // Add rounded corners
+          ),
+          child: Center(
+            child: Text(
+              word,
+              style: TextStyle(
+                fontSize: 24,
+                fontWeight: FontWeight.bold,
+                color: currentTheme.primaryColor
+                    .withOpacity(0.8), // Set text color to white
+              ),
+            ),
+          ),
         ),
       ),
     );
   }
 }
+
+// class EntryTitle extends StatelessWidget {
+//   final String word;
+
+//   const EntryTitle({super.key, required this.word});
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return Expanded(
+//       child: Padding(
+//         padding: const EdgeInsets.symmetric(horizontal: 4.0),
+//         child: Text(
+//           word,
+//           style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+//         ),
+//       ),
+//     );
+//   }
+// }
 
 // class IPAofEnglish extends StatelessWidget {
 //   final String text;

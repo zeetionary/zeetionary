@@ -2040,7 +2040,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   controller: _searchController,
                   onChanged: filterWords,
                   decoration: InputDecoration(
-                    labelText: 'Search here',
+                    labelText: "Search here",
                     prefixIcon: const Icon(Icons.search),
                     suffixIcon: _searchController.text.isNotEmpty
                         ? IconButton(

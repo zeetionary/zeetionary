@@ -243,7 +243,7 @@ class EnglishEntryadmit extends StatelessWidget {
                                       "Two crash victims were admitted to the local hospital."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دوو قوربانی پێکدادانەکە بردرانە نۆخۆشخانە ناوخۆییەکە."),
+                                      "دوو قوربانی پێکدادانەکە بردرانە نەخۆشخانە ناوخۆییەکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdmit458796("en-GB"),

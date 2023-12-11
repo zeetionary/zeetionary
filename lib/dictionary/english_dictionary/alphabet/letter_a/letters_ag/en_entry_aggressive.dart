@@ -219,7 +219,7 @@ class EnglishEntryaggressive extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٤. (ھاوەڵناو) چارەسەرێکی نۆخۆشی کە ئامانج لێی ئەوەیە زۆرترین ماوە بەردەوامی بە کەسێک بدات"""),
+٤. (ھاوەڵناو) چارەسەرێکی نەخۆشی کە ئامانج لێی ئەوەیە زۆرترین ماوە بەردەوامی بە کەسێک بدات"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

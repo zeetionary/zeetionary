@@ -300,7 +300,7 @@ class EnglishEntrybe extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBes3232"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I've never been to Spain."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBes33(String languageCode) async {
@@ -725,10 +725,10 @@ class EnglishEntrybe extends StatelessWidget {
                                   text: "ھەرگیز نەچوومەتە ئیسپانیا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBes14("en-GB"),
+                                onPressed: () => speakBes32("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBes14("en-US"),
+                                onPressed: () => speakBes32("en-US"),
                               ),
                             ],
                           ),

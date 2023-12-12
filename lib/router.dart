@@ -1625,7 +1625,23 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_biceps.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_bicker.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_bicycle.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_bid.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_bidder.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_bidding.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_bidet.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_biennial.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_bifocals.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_bifocal.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_big.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_big_game.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_big_head.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_big_headed.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_bigwig.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_bigamy.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_bigamist.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_bigamous.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_bigot.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_bigoted.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
@@ -3420,23 +3436,23 @@ final loggedInRoute = RouteMap(routes: {
   "/english-biceps": (_) => MaterialPage(child: EnglishEntrybiceps()),
   "/english-bicker": (_) => MaterialPage(child: EnglishEntrybicker()),
   "/english-bicycle": (_) => MaterialPage(child: EnglishEntrybicycle()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-bid": (_) => MaterialPage(child: EnglishEntrybid()),
+  "/english-bidder": (_) => MaterialPage(child: EnglishEntrybidder()),
+  "/english-bidding": (_) => MaterialPage(child: EnglishEntrybidding()),
+  "/english-bidet": (_) => MaterialPage(child: EnglishEntrybidet()),
+  "/english-biennial": (_) => MaterialPage(child: EnglishEntrybiennial()),
+  "/english-bifocals": (_) => MaterialPage(child: EnglishEntrybifocals()),
+  "/english-bifocal": (_) => MaterialPage(child: EnglishEntrybifocal()),
+  "/english-big": (_) => MaterialPage(child: EnglishEntrybig()),
+  "/english-big-game": (_) => MaterialPage(child: EnglishEntrybiggame()),
+  "/english-big-head": (_) => MaterialPage(child: EnglishEntrybighead()),
+  "/english-big-headed": (_) => MaterialPage(child: EnglishEntrybigheaded()),
+  "/english-bigwig": (_) => MaterialPage(child: EnglishEntrybigwig()),
+  "/english-bigamy": (_) => MaterialPage(child: EnglishEntrybigamy()),
+  "/english-bigamist": (_) => MaterialPage(child: EnglishEntrybigamist()),
+  "/english-bigamous": (_) => MaterialPage(child: EnglishEntrybigamous()),
+  "/english-bigot": (_) => MaterialPage(child: EnglishEntrybigot()),
+  "/english-bigoted": (_) => MaterialPage(child: EnglishEntrybigoted()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

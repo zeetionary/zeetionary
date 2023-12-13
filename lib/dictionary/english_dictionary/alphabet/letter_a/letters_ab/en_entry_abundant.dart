@@ -146,7 +146,7 @@ class EnglishEntryabundant extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "We have abundant evidence to prove his guilt.."),
+                                      "We have abundant evidence to prove his guilt."),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەڵگەی زۆرمان ھەیە بۆ سەلماندنی تاوانەکەی."),

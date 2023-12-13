@@ -205,7 +205,7 @@ class EnglishEntrybacon extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "گۆشتی بەراز پێی دەوترێت pork, bacon یان ham.."),
+                                      "گۆشتی بەراز پێی دەوترێت pork, bacon یان ham."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBacons2("en-GB"),

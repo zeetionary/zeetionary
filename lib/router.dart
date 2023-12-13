@@ -1656,11 +1656,11 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_billiards.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_billion.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_billow.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_billowy.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_billy_goat.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_bin.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_binary.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_bind.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
@@ -3479,11 +3479,11 @@ final loggedInRoute = RouteMap(routes: {
   "/english-billiards": (_) => MaterialPage(child: EnglishEntrybilliards()),
   "/english-billion": (_) => MaterialPage(child: EnglishEntrybillion()),
   "/english-billow": (_) => MaterialPage(child: EnglishEntrybillow()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-billowy": (_) => MaterialPage(child: EnglishEntrybillowy()),
+  "/english-billy-goat": (_) => MaterialPage(child: EnglishEntrybillygoat()),
+  "/english-bin": (_) => MaterialPage(child: EnglishEntrybin()),
+  "/english-binary": (_) => MaterialPage(child: EnglishEntrybinary()),
+  "/english-bind": (_) => MaterialPage(child: EnglishEntrybind()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

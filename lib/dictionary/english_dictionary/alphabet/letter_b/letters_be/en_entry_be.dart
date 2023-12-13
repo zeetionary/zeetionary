@@ -170,7 +170,7 @@ class EnglishEntrybe extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Money isn't everything (= it is not the only important thing)."); // DOPSUM: CHANGE TEXT
+        "Money isn't everything."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBes18(String languageCode) async {

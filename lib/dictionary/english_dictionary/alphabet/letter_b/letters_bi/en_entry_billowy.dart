@@ -5,99 +5,90 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// artist
+// Define the word "billowy" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
 
-// replace EnglishEntryartist - replace speakArtist
+// replace billowy - replace EnglishEntrybillowy
 
-// replace artist - /ˈɑːtɪst/ - find WORD_WEB
+// replace speakBillowy - /ˈbɪl.əʊ.i/
 
 enum TtsState { playing }
 
-class EnglishEntryartist extends StatelessWidget {
-  // blank divider
-  EnglishEntryartist({super.key});
-  // blank divider
+class EnglishEntrybillowy extends StatelessWidget {
+// blank divider
+  EnglishEntrybillowy({super.key});
+// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArtist(String languageCode) async {
-    // DOPSUM: CHANGE speakArtist
+  Future<void> speakBillowy(String languageCode) async {
+    // DOPSUM: CHANGE speakBillowy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("artist"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("billowy"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArtist839(String languageCode) async {
-    // DOPSUM: CHANGE speakArtist
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "In 1942 the city commissioned war artist John Piper to paint its bombed cathedral."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakArtist841(String languageCode) async {
-    // DOPSUM: CHANGE speakArtist
+  Future<void> speakBillowys1(String languageCode) async {
+    // DOPSUM: CHANGE speakBillowy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The artist painted this picture using tiny brushstrokes."); // DOPSUM: CHANGE TEXT
+        "He had a red, billowy scarf wrapped around his head."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArtist846(String languageCode) async {
-    // DOPSUM: CHANGE speakArtist
+  Future<void> speakBillowys2(String languageCode) async {
+    // DOPSUM: CHANGE speakBillowy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "After the band broke up, Joe relaunched his career as a solo artist."); // DOPSUM: CHANGE TEXT
+        "She was dressed in an abaya, a kind of billowy cloak."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArtist(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArtist
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artist"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakBillowys3(String languageCode) async {
+    // DOPSUM: CHANGE speakBillowy
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBillowys33"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakArtist(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArtist
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artist"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakBillowys4(String languageCode) async {
+    // DOPSUM: CHANGE speakBillowy
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBillowys44"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakArtist(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArtist
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artist"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakBillowys5(String languageCode) async {
+    // DOPSUM: CHANGE speakBillowy
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBillowys55"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakArtist(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArtist
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artist"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakBillowys6(String languageCode) async {
+    // DOPSUM: CHANGE speakBillowy
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBillowys66"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakArtist(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArtist
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artist"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakBillowys7(String languageCode) async {
+    // DOPSUM: CHANGE speakBillowy
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBillowys77"); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -114,35 +105,22 @@ class EnglishEntryartist extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "artist"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːtɪst/
-                            // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "billowy"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈɑːtɪst/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbɪl.əʊ.i/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakArtist(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakBillowy("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈɑːrtɪst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbɪl.oʊ.i/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArtist(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakBillowy("en-US"),
                             ),
                           ],
                         ),
@@ -160,16 +138,21 @@ class EnglishEntryartist extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14,
-                  VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
+                  // VideoIconForTab(), // 16
+                  // VideoIconForTab(), // 17
+                  // VideoIconForTab(), // 18
+                  // VideoIconForTab(), // 19
+                  // VideoIconForTab(), // 20
                 ],
               ),
               Expanded(
@@ -183,28 +166,21 @@ class EnglishEntryartist extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: وێنەکێش، نیگارکێش، ھونەرمەند، ھونەرکار، ھونەرەوان، دەس‌ڕەنگین، شارەزا، وەستا، مامۆستا
-
-١. (ناو) کەسێک کە کاری ھونەری دەکات، بۆ نموونە وێنەکێشان یان نیگارکێشان"""),
+١. (ھاوەڵناو) شتێک کە گەورە و نەرم دەردەکەوێت، یان هەوای تێدایە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "In 1942 the city commissioned war artist John Piper to paint its bombed cathedral."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
+                                      "He had a red, billowy scarf wrapped around his head."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە ساڵی ١٩٤٢ بەرپرسانی شارەکە جۆن پیپەریان ڕاسپارد کە نیگارێکی کڵێسا بۆمب‌لێدراوەکەیان بکێشێ."),
+                                      "لەچکێکی سووری پفخواردووی پێچابوو لە سەری."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakArtist839("en-GB"),
+                                onPressed: () => speakBillowys1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArtist839(// REPLACE: artist /ˈɑːrtɪst/
-                                        "en-US"),
+                                onPressed: () => speakBillowys1("en-US"),
                               ),
                             ],
                           ),
@@ -214,47 +190,16 @@ class EnglishEntryartist extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The artist painted this picture using tiny brushstrokes."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
+                                      "She was dressed in an abaya, a kind of billowy cloak."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ھونەرمەندەکە ئەم وێنەیەی کێشا بە بەکارھێنانی فڵچەی بچووک."),
+                                      "عەبایەکی پۆشیبوو کە جۆرە جبەیەکی پفخواردووە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakArtist841("en-GB"),
+                                onPressed: () => speakBillowys2("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArtist841(// REPLACE: artist /ˈɑːrtɪst/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ناو) ھونەرمەندێکی پڕۆفیشناڵ"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "After the band broke up, Joe relaunched his career as a solo artist."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دوای ئەوەی باندەکە پارچەپارچە بوون، جۆو دووبارە بە تەنیایی دەستی‌پێکردەوە."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakArtist846("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArtist846(// REPLACE: artist /ˈɑːrtɪst/
-                                        "en-US"),
+                                onPressed: () => speakBillowys2("en-US"),
                               ),
                             ],
                           ),
@@ -263,7 +208,7 @@ class EnglishEntryartist extends StatelessWidget {
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                    YoutubeEmbeddedone(),
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
@@ -272,12 +217,18 @@ class EnglishEntryartist extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
+                    // YoutubeEmbeddedsixteen(),
+                    // YoutubeEmbeddedseventeen(),
+                    // YoutubeEmbeddedeighteen(),
+                    // YoutubeEmbeddednineteen(),
+                    // YoutubeEmbeddedtwenty(),
+                    // YoutubeEmbeddedmulti(),
                   ],
                 ),
               ),
@@ -305,11 +256,9 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: artist (derived forms: artists)
-1. Someone who makes paintings, drawings, or other artwork
- 
-2. A person whose creative work shows sensitivity and imagination (= creative person)
-"every artist needs an audience";
+- Adjective: billowy (Derived forms: billowiest, billowier)
+1. Characterized by great swelling waves or surges (= billowing, surging)
+"billowy storm clouds";
 """,
           )
         ],
@@ -321,12 +270,14 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "o7Ax6SRTGks";
+  YoutubeEmbeddedone({super.key});
+
+  static String myVideoId = "https://youtu.be/JuYYsmQ2ulI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 289, // DOPSUM: CHANGE IT
+      startAt: 237, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -334,8 +285,6 @@ class YoutubeEmbeddedone extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedone({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -346,12 +295,14 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "4BzGTiJ0k3k";
+  YoutubeEmbeddedtwo({super.key});
+
+  static String myVideoId = "https://youtu.be/tSfrKccioxA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 19, // DOPSUM: CHANGE IT
+      startAt: 1521, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -359,8 +310,6 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedtwo({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -371,12 +320,14 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "_ul9jrCXhR4";
+  YoutubeEmbeddedthree({super.key});
+
+  static String myVideoId = "https://youtu.be/byKv_EBOVeA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 485, // DOPSUM: CHANGE IT
+      startAt: 309, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -384,8 +335,6 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedthree({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -396,12 +345,14 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "jDXd7U5PhDU";
+  YoutubeEmbeddedfour({super.key});
+
+  static String myVideoId = "https://youtu.be/1kf8mhTndy0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 33, // DOPSUM: CHANGE IT
+      startAt: 92, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -409,8 +360,6 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedfour({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -421,12 +370,14 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "3eKBiEeag1A";
+  YoutubeEmbeddedfive({super.key});
+
+  static String myVideoId = "https://youtu.be/TW-kag5GG9s?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 7, // DOPSUM: CHANGE IT
+      startAt: 1028, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -434,8 +385,6 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedfive({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -446,12 +395,14 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "vppwMojW3To";
+  YoutubeEmbeddedsix({super.key});
+
+  static String myVideoId = "https://youtu.be/Li9ff4rQlck?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 6, // DOPSUM: CHANGE IT
+      startAt: 583, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -459,8 +410,6 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedsix({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -471,12 +420,14 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "XbmVKmAA2XU";
+  YoutubeEmbeddedseven({super.key});
+
+  static String myVideoId = "https://youtu.be/9ZHVur0iX7M?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 12, // DOPSUM: CHANGE IT
+      startAt: 109, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -484,8 +435,6 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedseven({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -496,12 +445,14 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "b0nWcBVvhd0";
+  YoutubeEmbeddedeight({super.key});
+
+  static String myVideoId = "https://youtu.be/E8OtMiUmwHI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 75, // DOPSUM: CHANGE IT
+      startAt: 496, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -509,8 +460,6 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedeight({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -521,12 +470,14 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "6zwcuWLd9lg";
+  YoutubeEmbeddednine({super.key});
+
+  static String myVideoId = "https://youtu.be/yiPB7n6ELc4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 100, // DOPSUM: CHANGE IT
+      startAt: 308, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -534,8 +485,6 @@ class YoutubeEmbeddednine extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddednine({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -546,12 +495,14 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "yfmkZJf4D8w";
+  YoutubeEmbeddedten({super.key});
+
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 26, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -559,8 +510,6 @@ class YoutubeEmbeddedten extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedten({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -571,12 +520,14 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "u-mwgfMuuic";
+  YoutubeEmbeddedeleven({super.key});
+
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -584,8 +535,6 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedeleven({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -596,12 +545,14 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "dNZeZTGYIoE";
+  YoutubeEmbeddedtwelve({super.key});
+
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -610,7 +561,205 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
     ),
   );
 
-  YoutubeEmbeddedtwelve({super.key});
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedthirteen extends StatelessWidget {
+  YoutubeEmbeddedthirteen({super.key});
+
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedfourteen extends StatelessWidget {
+  YoutubeEmbeddedfourteen({super.key});
+
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedfifteen extends StatelessWidget {
+  YoutubeEmbeddedfifteen({super.key});
+
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedsixteen extends StatelessWidget {
+  YoutubeEmbeddedsixteen({super.key});
+
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedseventeen extends StatelessWidget {
+  YoutubeEmbeddedseventeen({super.key});
+
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedeighteen extends StatelessWidget {
+  YoutubeEmbeddedeighteen({super.key});
+
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddednineteen extends StatelessWidget {
+  YoutubeEmbeddednineteen({super.key});
+
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedtwenty extends StatelessWidget {
+  YoutubeEmbeddedtwenty({super.key});
+
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
 
   @override
   Widget build(BuildContext context) {
@@ -622,63 +771,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // morethan one video, only first autoplay
 
-// class YoutubeEmbeddethirteen extends StatelessWidget {
-//   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-//   static String myVideoIdTwo = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-//   static String myVideoIdThree = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-//   final YoutubePlayerController _controller = YoutubePlayerController(
-//     initialVideoId: myVideoId,
-//     flags: const YoutubePlayerFlags(
-//       autoPlay: true,
-//       enableCaption: true,
-//       loop: true,
-//       mute: false,
-//       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
-//     ),
-//   );
-
-//   final YoutubePlayerController _controllertwo = YoutubePlayerController(
-//     initialVideoId: myVideoIdTwo,
-//     flags: const YoutubePlayerFlags(
-//       autoPlay: true,
-//       enableCaption: true,
-//       loop: true,
-//       mute: false,
-//       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
-//     ),
-//   );
-
-//   final YoutubePlayerController _controllerthree = YoutubePlayerController(
-//     initialVideoId: myVideoIdThree,
-//     flags: const YoutubePlayerFlags(
-//       autoPlay: true,
-//       enableCaption: true,
-//       loop: true,
-//       mute: false,
-//       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
-//     ),
-//   );
-
-//   YoutubeEmbeddethirteen({super.key});
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       body: SingleChildScrollView(
-//         child: Column(
-//           children: [
-//             YouTubeContainerDesign(controller: _controller),
-//             YouTubeContainerDesign(controller: _controllertwo),
-//             YouTubeContainerDesign(controller: _controllerthree),
-//           ],
-//         ),
-//       ),
-//     );
-//   }
-// }
-
-// end // TODO Implement this library.
+// end billowy// TODO Implement this library.

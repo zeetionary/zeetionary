@@ -160,7 +160,7 @@ class EnglishEntryaesthetically extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The interior has been aesthetically decorated.."),
+                                      "The interior has been aesthetically decorated."),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەشی ناوەوە بەشێوەیەکی جوان دیزاین کرابوو."),

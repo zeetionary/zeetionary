@@ -138,7 +138,7 @@ class EnglishEntrybigamist extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 9
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   // VideoIconForTab(), // 08
                   // VideoIconForTab(), // 09
                   // VideoIconForTab(), // 10
@@ -165,14 +165,15 @@ class EnglishEntrybigamist extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) کەسێک کە هاوسەرگیری لەگەڵ کەسێک دەکات لەکاتێکدا هێشتا هاوسەری کەسێکی ترە"""),
+١. (ناو) کەسێک کە ھاوسەرگیری لەگەڵ کەسێک دەکات لەکاتێکدا ھێشتا ھاوسەری کەسێکی ترە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
                                       "The marriage is not valid if one spouse is a bigamist."),
                               const ExampleSentenceKurdish(
-                                  text: "هاوسەرگیرییەکە بە یاسایی دانانرێت ئەگەر یەکێک لە هاوسەرەکان پێشوەختە هاوژینێکی هەبێت."),
+                                  text:
+                                      "ھاوسەرگیرییەکە بە یاسایی دانانرێت ئەگەر یەکێک لە ھاوسەرەکان پێشوەختە ھاوژینێکی ھەبێت."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBigamists1("en-GB"),
@@ -235,7 +236,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bigamist (Derived forms: bigamists)
+- Noun: bigamist (derived forms: bigamists)
 1. Someone who marries one person while already legally married to another
 """,
           )
@@ -250,7 +251,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/Tgr7LTRWkLo?t=";
+  static String myVideoId = "Tgr7LTRWkLo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -275,7 +276,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/qkmJ2i4kZ1c?t=";
+  static String myVideoId = "qkmJ2i4kZ1c";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -300,7 +301,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/RtZPwlThJTM?t=";
+  static String myVideoId = "RtZPwlThJTM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -325,7 +326,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/2wuMkShZ42o?t=";
+  static String myVideoId = "2wuMkShZ42o";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -350,7 +351,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/taYCAeOoGDc?t=";
+  static String myVideoId = "taYCAeOoGDc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -375,7 +376,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/Z2SnrL5p6qg";
+  static String myVideoId = "Z2SnrL5p6qg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -400,7 +401,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/Z4GzFxMNVV4?t=";
+  static String myVideoId = "Z4GzFxMNVV4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

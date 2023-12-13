@@ -393,40 +393,41 @@ class YouTubeContainerDesign extends ConsumerWidget {
 //   Widget build(BuildContext context, WidgetRef ref) {
 //     final currentTheme = ref.watch(themeNotifierProvider);
 
-class EntryTitle extends ConsumerWidget {
-  final String word;
+// class EntryTitle extends ConsumerWidget {
+//   final String word;
 
-  const EntryTitle({super.key, required this.word});
+//   const EntryTitle({super.key, required this.word});
 
-  @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    final currentTheme = ref.watch(themeNotifierProvider);
-    return Expanded(
-      child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 10.0),
-        child: Container(
-          decoration: BoxDecoration(
-            color: currentTheme.primaryColor
-                .withOpacity(0.05), // Add a background color
-            borderRadius: BorderRadius.circular(12.0), // Add rounded corners
-          ),
-          child: Center(
-            child: Text(
-              word,
-              style: TextStyle(
-                fontSize: 26,
-                fontWeight: FontWeight.bold,
-                color: currentTheme.primaryColor
-                    .withOpacity(0.8), // Set text color to white
-              ),
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-}
+//   @override
+//   Widget build(BuildContext context, WidgetRef ref) {
+//     final currentTheme = ref.watch(themeNotifierProvider);
+//     return Expanded(
+//       child: Padding(
+//         padding: const EdgeInsets.symmetric(horizontal: 10.0),
+//         child: Container(
+//           decoration: BoxDecoration(
+//             color: currentTheme.primaryColor
+//                 .withOpacity(0.05), // Add a background color
+//             borderRadius: BorderRadius.circular(12.0), // Add rounded corners
+//           ),
+//           child: Center(
+//             child: Text(
+//               word,
+//               style: TextStyle(
+//                 fontSize: 26,
+//                 fontWeight: FontWeight.bold,
+//                 color: currentTheme.primaryColor
+//                     .withOpacity(0.8), // Set text color to white
+//               ),
+//             ),
+//           ),
+//         ),
+//       ),
+//     );
+//   }
+// }
 
+// // no decoration --- no animation
 // class EntryTitle extends StatelessWidget {
 //   final String word;
 
@@ -445,6 +446,109 @@ class EntryTitle extends ConsumerWidget {
 //     );
 //   }
 // }
+
+// // decoration --- no animation
+
+// class EntryTitle extends ConsumerWidget {
+//   final String word;
+
+//   const EntryTitle({super.key, required this.word});
+
+//   @override
+//   Widget build(BuildContext context, WidgetRef ref) {
+//     final currentTheme = ref.watch(themeNotifierProvider);
+//     return Expanded(
+//       child: Padding(
+//         padding: const EdgeInsets.symmetric(horizontal: 10.0),
+//         child: Container(
+//           decoration: BoxDecoration(
+//             color: currentTheme.primaryColor
+//                 .withOpacity(0.05), // Add a background color
+//             borderRadius: BorderRadius.circular(12.0), // Add rounded corners
+//           ),
+//           child: Center(
+//             child: Text(
+//               word,
+//               style: TextStyle(
+//                 fontSize: 26,
+//                 fontWeight: FontWeight.bold,
+//                 color: currentTheme.primaryColor
+//                     .withOpacity(0.8), // Set text color to white
+//               ),
+//             ),
+//           ),
+//         ),
+//       ),
+//     );
+//   }
+// }
+
+// // decoration and animation https://chat.openai.com/c/34cd41ff-6232-4eb7-9c26-e00b688e867b
+
+class EntryTitle extends ConsumerStatefulWidget {
+  final String word;
+
+  const EntryTitle({super.key, required this.word});
+
+  @override
+  ConsumerState<ConsumerStatefulWidget> createState() => _EntryTitleState();
+}
+
+class _EntryTitleState extends ConsumerState<EntryTitle>
+    with SingleTickerProviderStateMixin {
+  late AnimationController _controller;
+
+  @override
+  void initState() {
+    super.initState();
+    _controller = AnimationController(
+      vsync: this,
+      duration:
+          const Duration(milliseconds: 1000), // Adjust the duration as needed
+    )..forward();
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final currentTheme = ref.watch(themeNotifierProvider);
+
+    return Expanded(
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 10.0),
+        child: Container(
+          decoration: BoxDecoration(
+            color: Colors.blue.withOpacity(
+                0.05), // Replace with your desired background color
+            borderRadius: BorderRadius.circular(12.0),
+          ),
+          child: Center(
+            child: AnimatedBuilder(
+              animation: _controller,
+              builder: (context, child) {
+                final int lettersCount =
+                    (_controller.value * widget.word.length).round();
+                return Text(
+                  widget.word.substring(0, lettersCount),
+                  style: TextStyle(
+                    fontSize: 26,
+                    fontWeight: FontWeight.bold,
+                    color: currentTheme.primaryColor.withOpacity(0.8),
+                  ),
+                );
+              },
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
 
 // class IPAofEnglish extends StatelessWidget {
 //   final String text;

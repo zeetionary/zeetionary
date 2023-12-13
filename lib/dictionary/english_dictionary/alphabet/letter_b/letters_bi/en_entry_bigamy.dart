@@ -138,7 +138,7 @@ class EnglishEntrybigamy extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 10
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   // VideoIconForTab(), // 09
                   // VideoIconForTab(), // 10
@@ -165,16 +165,17 @@ class EnglishEntrybigamy extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: دووهاوسەری، دووژنی، دوومێردی، دووژن‌ومێردی
+کوردی: دووھاوسەری، دووژنی، دوومێردی، دووژن‌ومێردی
 
-١. (ناو) تاوانی هاوسەرگیری لەگەڵ کەسێک لە کاتێکدا هاوسەرێکی دیکەت هەیە"""),
+١. (ناو) تاوانی ھاوسەرگیری لەگەڵ کەسێک لە کاتێکدا ھاوسەرێکی دیکەت ھەیە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
                                       "In court, he admitted that he had committed bigamy."),
                               const ExampleSentenceKurdish(
-                                  text: "لە دادگا دانی پێدا نا کە تاوانی هەبوونی هاوسەری دووەمی ئەنجامداوە."),
+                                  text:
+                                      "لە دادگا دانی پێدا نا کە تاوانی ھەبوونی ھاوسەری دووەمی ئەنجامداوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBigamys1("en-GB"),
@@ -237,7 +238,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bigamy (Derived forms: bigamies)
+- Noun: bigamy (derived forms: bigamies)
 1. (law) the state of having two spouses at the same time
  
 2. The offence of marrying someone while you have a living spouse from whom no valid divorce has occurred
@@ -254,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/j4kI2h3iotA?t=";
+  static String myVideoId = "j4kI2h3iotA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -279,7 +280,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/lfCoCG_ggZU?t=";
+  static String myVideoId = "lfCoCG_ggZU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -304,7 +305,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/t9HE4OvmuSA?t=";
+  static String myVideoId = "t9HE4OvmuSA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -329,7 +330,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/venw2K23C8w?t=";
+  static String myVideoId = "venw2K23C8w";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -354,7 +355,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/-PZDIlJcmNA?t=";
+  static String myVideoId = "-PZDIlJcmNA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -379,7 +380,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/ZulqdMqBqD0?t=";
+  static String myVideoId = "ZulqdMqBqD0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -404,7 +405,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/clsrL6F0wKM?t=";
+  static String myVideoId = "clsrL6F0wKM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -429,7 +430,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/H9rKG7OHqlg?t=";
+  static String myVideoId = "H9rKG7OHqlg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

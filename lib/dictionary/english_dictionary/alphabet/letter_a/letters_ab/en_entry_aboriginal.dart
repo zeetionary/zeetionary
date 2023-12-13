@@ -128,7 +128,7 @@ class EnglishEntryaboriginal extends StatelessWidget {
                                   text: "the issue of Aboriginal land rights"),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کێشەی مافی خاوەندارێتیی زەوی لەلایەن دانیشتووانی ڕەسەنی ئوسترالیا"),
+                                      "کێشەی مافی خاوەندارێتیی زەوی لەلایەن دانیشتووانی ڕەسەنی ئوسترالیا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA254("en-GB"),

@@ -173,7 +173,7 @@ class EnglishEntrybias extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: دەمارگرژی، لایەنگری، ئالی‌گری، بەلاداکێشی، لاگیری، لاگرتن، یەک‌بەرایەتی، ویست، داشکانەوە، لاربوونەوە، ڕاکێشک، تێندێنسی، ئارەزوو، توانایی، ئامادەیی، لار، خوار، قیل‌وقاچ، چەپ‌وڕاست، کەش‌وتووش، قیچەڵفاچ
 
-١. (ناو) لایەنگیری یان دژایەتی گرووپێک زۆرجار بەبێ ئەوەی پشتی بە هیچ بیرکردنەوەی داپەروەرانە بەستبێت"""),
+١. (ناو) لایەنگیری یان دژایەتی گرووپێک زۆرجار بەبێ ئەوەی پشتی بە ھیچ بیرکردنەوەی داپەروەرانە بەستبێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -181,7 +181,7 @@ class EnglishEntrybias extends StatelessWidget {
                                       "Employers must consider all candidates without bias."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "خاوەنکاران دەبێت هەموو بەربژێران بەبێ لایەنگیری."),
+                                      "خاوەنکاران دەبێت ھەموو بەربژێران بەبێ لایەنگیری."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBiass1("en-GB"),
@@ -200,7 +200,7 @@ class EnglishEntrybias extends StatelessWidget {
                                       "Some institutions still have a strong bias against women."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەندێک دامەزراوە هێشتا لایەنگیریان دژ بە ژنان هەیە."),
+                                      "ھەندێک دامەزراوە ھێشتا لایەنگیریان دژ بە ژنان ھەیە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBiass2("en-GB"),
@@ -221,7 +221,7 @@ class EnglishEntrybias extends StatelessWidget {
                                       "In British universities there was a bias towards pure science."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە زانکۆکانی بەریتانیادا مەیلێک هەیە بۆ زانستی بێگەرد (سیاسەت و شتی تری تێکەڵ نەبێ)."),
+                                      "لە زانکۆکانی بەریتانیادا مەیلێک ھەیە بۆ زانستی بێگەرد (سیاسەت و شتی تری تێکەڵ نەبێ)."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBiass3("en-GB"),
@@ -240,7 +240,7 @@ class EnglishEntrybias extends StatelessWidget {
                                       "She showed a scientific bias at an early age."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "حەزی بۆ زانست هەبوو لە تەمەنی سەرەتاییەوە."),
+                                      "حەزی بۆ زانست ھەبوو لە تەمەنی سەرەتاییەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBiass4("en-GB"),
@@ -253,7 +253,7 @@ class EnglishEntrybias extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (ناو) نادرووستی لە ئەنجامی تاقیکردنەوەیەک یان توێژینەوەیەکدا بەهۆی ئەوەی لایەنێکی دیاریکراو لەبەرچاو نەگیراوە"""),
+٣. (ناو) نادرووستی لە ئەنجامی تاقیکردنەوەیەک یان توێژینەوەیەکدا بەھۆی ئەوەی لایەنێکی دیاریکراو لەبەرچاو نەگیراوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -281,7 +281,7 @@ class EnglishEntrybias extends StatelessWidget {
                                   text:
                                       "The newspapers have biased people against her."),
                               const ExampleSentenceKurdish(
-                                  text: "ڕۆژنامەکان خەڵکیان دژی هانداوە."),
+                                  text: "ڕۆژنامەکان خەڵکیان دژی ھانداوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBiass6("en-GB"),
@@ -294,7 +294,7 @@ class EnglishEntrybias extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٥. (کردار) هەبوونی کاریگەرییەک لەسەر ئەنجامی تاقیکردنەوە یان توێژینەوەیەک بەشێوەیەک کە ئەنجامی درووستی نابێت"""),
+٥. (کردار) ھەبوونی کاریگەرییەک لەسەر ئەنجامی تاقیکردنەوە یان توێژینەوەیەک بەشێوەیەک کە ئەنجامی درووستی نابێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -302,7 +302,7 @@ class EnglishEntrybias extends StatelessWidget {
                                       "The experiment contained an error which could bias the results."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "تاقیکردنەوەکە هەڵەیەکی تێدابوو کە دەکرا نادرووستی درووست بکات."),
+                                      "تاقیکردنەوەکە ھەڵەیەکی تێدابوو کە دەکرا نادرووستی درووست بکات."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBiass7("en-GB"),
@@ -365,7 +365,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Adjective: bias (Derived forms: biased, biases, biasing, biassing, biassed)
+- Adjective: bias (derived forms: biased, biases, biasing, biassing, biassed)
 1. Slanting diagonally across the grain of a fabric
 "a bias fold"
 
@@ -376,7 +376,7 @@ class EnglishMeaning extends StatelessWidget {
  
 3. (statistics) the difference between the expectation value of an estimator and the true value
 
-- Verb: bias (Derived forms: biased, biases, biasing, biassing, biassed)
+- Verb: bias (derived forms: biased, biases, biasing, biassing, biassed)
 1. Influence in an unfair way (= skew)
 "you are biasing my choice by telling me yours";
  

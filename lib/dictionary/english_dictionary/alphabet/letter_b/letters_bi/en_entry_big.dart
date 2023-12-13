@@ -128,7 +128,8 @@ class EnglishEntrybig extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He gave me only an extra five pounds for two hours' work. I said ‘That's big of you’."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He gave me only an extra five pounds for two hours' work. I said ‘That's big of you’."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBigs13(String languageCode) async {
@@ -356,9 +357,9 @@ class EnglishEntrybig extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: گەورە، زل، کەڵنگ، فیلەتەن، کەتە، گەپ، درشت، زۆپ، گاشە، زەلام، زلە، توند، بەهێز، بەقەوەت، بەرز، بەرجەستە، گرنگ، بەرکەفتی، سەرەکی، بەربڵاو، بەرین، بەرفرەهـ، زۆر، زەبەن، دەس‌ڕۆیشتوو، بەهاوەڵناوبانگ، ناسراو، سکپڕ، ئاوس، دووگیان
+کوردی: گەورە، زل، کەڵنگ، فیلەتەن، کەتە، گەپ، درشت، زۆپ، گاشە، زەلام، زلە، توند، بەھێز، بەقەوەت، بەرز، بەرجەستە، گرنگ، بەرکەفتی، سەرەکی، بەربڵاو، بەرین، بەرفرەھـ، زۆر، زەبەن، دەس‌ڕۆیشتوو، بەھاوەڵناوبانگ، ناسراو، سکپڕ، ئاوس، دووگیان
 
-١. (هاوەڵناو) گەورە لە قەبارە، بڕ، یان ڕێژەدا"""),
+١. (ھاوەڵناو) گەورە لە قەبارە، بڕ، یان ڕێژەدا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -366,7 +367,7 @@ class EnglishEntrybig extends StatelessWidget {
                                       "It's the world's biggest computer company."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "گەورەترین کۆمپانیای کۆمپیوتەری جیهانە."),
+                                      "گەورەترین کۆمپانیای کۆمپیوتەری جیھانە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBigs1("en-GB"),
@@ -385,7 +386,7 @@ class EnglishEntrybig extends StatelessWidget {
                                       "The festival is getting bigger every year."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "فیستیڤاڵەکە هەموو ساڵێک گەورەتر دەبێت."),
+                                      "فیستیڤاڵەکە ھەموو ساڵێک گەورەتر دەبێت."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBigs2("en-GB"),
@@ -415,7 +416,7 @@ class EnglishEntrybig extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (هاوەڵناو) بە تەمەن"""),
+٢. (ھاوەڵناو) بە تەمەن"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -435,13 +436,13 @@ class EnglishEntrybig extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (هاوەڵناو) گرنگ؛ شتێک کە کاریگەری گەورەی دەبێت"""),
+٣. (ھاوەڵناو) گرنگ؛ شتێک کە کاریگەری گەورەی دەبێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "You are making a big mistake."),
                               const ExampleSentenceKurdish(
-                                  text: "هەڵەیەکی گەورە دەکەیت."),
+                                  text: "ھەڵەیەکی گەورە دەکەیت."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBigs5("en-GB"),
@@ -459,7 +460,7 @@ class EnglishEntrybig extends StatelessWidget {
                                   text:
                                       "Unemployment is a big problem in the region."),
                               const ExampleSentenceKurdish(
-                                  text: "بێکاری کێشەیەکی گەورەیە لە هەرێمەکە."),
+                                  text: "بێکاری کێشەیەکی گەورەیە لە ھەرێمەکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBigs6("en-GB"),
@@ -472,7 +473,7 @@ class EnglishEntrybig extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٤. (هاوەڵناو) شتێک کە پێویستی بە هەوڵ، پارە، و کاتی زۆر هەیە"""),
+٤. (ھاوەڵناو) شتێک کە پێویستی بە ھەوڵ، پارە، و کاتی زۆر ھەیە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -491,7 +492,7 @@ class EnglishEntrybig extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٥. (هاوەڵناو) شتێک کە لەلای خەڵکی ناسراوە"""),
+٥. (ھاوەڵناو) شتێک کە لەلای خەڵکی ناسراوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -514,7 +515,8 @@ class EnglishEntrybig extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "The band's very big in Japan."),
                               const ExampleSentenceKurdish(
-                                  text: "باندەکە زۆر بەهاوەڵناوبانگە لە ژاپۆن."),
+                                  text:
+                                      "باندەکە زۆر بەھاوەڵناوبانگە لە ژاپۆن."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBigs9("en-GB"),
@@ -527,13 +529,13 @@ class EnglishEntrybig extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٦. (هاوەڵناو) بەجۆش دەربارەی شتێک یان کەسێک"""),
+٦. (ھاوەڵناو) بەجۆش دەربارەی شتێک یان کەسێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I'm a big fan of hers."),
                               const ExampleSentenceKurdish(
-                                  text: "هەواداری سەرسەختی ئەوم."),
+                                  text: "ھەواداری سەرسەختی ئەوم."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBigs10("en-GB"),
@@ -546,14 +548,14 @@ class EnglishEntrybig extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٧. (هاوەڵناو) کردنی شتێک بە ئاستێکی زۆر"""),
+٧. (ھاوەڵناو) کردنی شتێک بە ئاستێکی زۆر"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
                                       "She's always been a big spender (= she has always spent a lot of money)."),
                               const ExampleSentenceKurdish(
-                                  text: "هەمیشە دەستکراوە بووە لە خەرجکردندا."),
+                                  text: "ھەمیشە دەستکراوە بووە لە خەرجکردندا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBigs11("en-GB"),
@@ -566,14 +568,15 @@ class EnglishEntrybig extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٨. (هاوەڵناو) (زۆرجار بە گاڵتەوە) بەخشندە و میهرەبان"""),
+٨. (ھاوەڵناو) (زۆرجار بە گاڵتەوە) بەخشندە و میھرەبان"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
                                       "He gave me only an extra five pounds for two hours' work. I said ‘That's big of you’."),
                               const ExampleSentenceKurdish(
-                                  text: "تەنها پێنج پاوەند زیاتری پێدام بۆ دوو کاتژمێر کاری زیادە. وتم 'ئەوە لە بەخشندەییتە'."),
+                                  text:
+                                      "تەنھا پێنج پاوەند زیاتری پێدام بۆ دوو کاتژمێر کاری زیادە. وتم 'ئەوە لە بەخشندەییتە'."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBigs12("en-GB"),
@@ -586,12 +589,11 @@ class EnglishEntrybig extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٩. (هاوەڵکار) بەشێوەیەکی سەرنجڕاکێش"""),
+٩. (ھاوەڵکار) بەشێوەیەکی سەرنجڕاکێش"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "We need to think big."),
+                                  text: "We need to think big."),
                               const ExampleSentenceKurdish(
                                   text: "دەبێت گەورە بیربکەینەوە'."),
                               const CustomSizedBoxForTTS(),
@@ -656,7 +658,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Adjective: big (Derived forms: biggest, bigger)
+- Adjective: big (derived forms: biggest, bigger)
 1. Significant
 "graduation was a big day in his life"
  
@@ -710,7 +712,7 @@ Extremely well
 18. In a major way
 "the play failed big at the box office"
 
-- Verb: big (Derived forms: bigs, bigging, bigged)
+- Verb: big (derived forms: bigs, bigging, bigged)
 Usage: Brit, informal
 1. Make sound better, more impressive or important, etc. (= big up [Brit, informal])
 "decided that it was important to big up the positives";
@@ -727,7 +729,7 @@ Usage: Brit, informal
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/rPe4yziWiOg?t=";
+  static String myVideoId = "rPe4yziWiOg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -752,7 +754,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/hFZFjoX2cGg?t=";
+  static String myVideoId = "hFZFjoX2cGg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -777,7 +779,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/VrKW58MS12g?t=";
+  static String myVideoId = "VrKW58MS12g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -802,7 +804,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/CiDKl8a8llc?t=";
+  static String myVideoId = "CiDKl8a8llc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -827,7 +829,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/hS2x1zl4rn0?t=";
+  static String myVideoId = "hS2x1zl4rn0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -852,7 +854,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/_spuxXnul0U?t=";
+  static String myVideoId = "_spuxXnul0U";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -877,7 +879,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/Cd1EmYRZynw?t=";
+  static String myVideoId = "Cd1EmYRZynw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -902,7 +904,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/R_fZjGm2OrM?t=";
+  static String myVideoId = "R_fZjGm2OrM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -927,7 +929,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/khOUvmOQExc?t=";
+  static String myVideoId = "khOUvmOQExc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -952,7 +954,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/Kou7ur5xt_4?t=";
+  static String myVideoId = "Kou7ur5xt_4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -977,7 +979,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/_wNsZEqpKUA?t=";
+  static String myVideoId = "_wNsZEqpKUA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1002,7 +1004,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/e09xig209cQ?t=";
+  static String myVideoId = "e09xig209cQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1027,7 +1029,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 class YoutubeEmbeddedthirteen extends StatelessWidget {
   YoutubeEmbeddedthirteen({super.key});
 
-  static String myVideoId = "https://youtu.be/e09xig209cQ?t=";
+  static String myVideoId = "e09xig209cQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1052,7 +1054,7 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
 class YoutubeEmbeddedfourteen extends StatelessWidget {
   YoutubeEmbeddedfourteen({super.key});
 
-  static String myVideoId = "https://youtu.be/YCoQwZ9BQ9Q?t=";
+  static String myVideoId = "YCoQwZ9BQ9Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1077,7 +1079,7 @@ class YoutubeEmbeddedfourteen extends StatelessWidget {
 class YoutubeEmbeddedfifteen extends StatelessWidget {
   YoutubeEmbeddedfifteen({super.key});
 
-  static String myVideoId = "https://youtu.be/diAxiWkwlC0?t=";
+  static String myVideoId = "diAxiWkwlC0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1102,7 +1104,7 @@ class YoutubeEmbeddedfifteen extends StatelessWidget {
 class YoutubeEmbeddedsixteen extends StatelessWidget {
   YoutubeEmbeddedsixteen({super.key});
 
-  static String myVideoId = "https://youtu.be/giNAjqgCAaA?t=";
+  static String myVideoId = "giNAjqgCAaA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

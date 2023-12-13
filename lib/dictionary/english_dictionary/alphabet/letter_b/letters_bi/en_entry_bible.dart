@@ -201,7 +201,7 @@ class EnglishEntrybible extends StatelessWidget {
                                       "Vogue magazine quickly became the bible of fashionable women."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "گۆڤاری Vogue هەرزوو بوو بە سەرچاوە بۆ ژنانی مۆدباز."),
+                                      "گۆڤاری Vogue ھەرزوو بوو بە سەرچاوە بۆ ژنانی مۆدباز."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBibles2("en-GB"),
@@ -264,10 +264,10 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bible (Derived forms: bibles, Bibles)
+- Noun: bible (derived forms: bibles, Bibles)
 1. A book regarded as authoritative in its field
 
-- Noun: Bible (Derived forms: Bibles)
+- Noun: Bible (derived forms: Bibles)
 1. The Christian holy book (= Christian Bible, Book, Good Book, Holy Scripture, Holy Writ, Scripture, Word of God, Word)
 "he went to carry the Bible to the heathen";
 """,

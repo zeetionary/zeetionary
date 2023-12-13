@@ -8775,18 +8775,18 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-billet");
                   }
-                  // if (wordsEnglish == "billiards") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-billiards");
-                  // }
-                  // if (wordsEnglish == "billion") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-billion");
-                  // }
-                  // if (wordsEnglish == "billow") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-billow");
-                  // }
+                  if (wordsEnglish == "billiards") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-billiards");
+                  }
+                  if (wordsEnglish == "billion") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-billion");
+                  }
+                  if (wordsEnglish == "billow") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-billow");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");

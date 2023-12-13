@@ -214,7 +214,7 @@ class EnglishEntryanchor extends StatelessWidget {
                               //   width: 30,
                               // ),
                               const ExampleSentenceKurdish(
-                                  text: "لەنگەرەکەمان ھەڵکێشا"),
+                                  text: "لەنگەرەکەمان ھەڵکێشا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnchor104("en-GB"),

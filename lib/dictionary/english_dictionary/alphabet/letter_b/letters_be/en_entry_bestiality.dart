@@ -166,7 +166,7 @@ class EnglishEntrybestiality extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: گیانەوەرخوویی، دڕندایەتی، هۆڤیگەری، دڵڕەقی، بێ‌بەزەیی‌یەتی، نزیکی لەگەڵ گیانەوەران، گیانەوەربازی
+کوردی: گیانەوەرخوویی، دڕندایەتی، ھۆڤیگەری، دڵڕەقی، بێ‌بەزەیی‌یەتی، نزیکی لەگەڵ گیانەوەران، گیانەوەربازی
 
 ١. (ناو) سێکس لە نێوان مرۆڤ و ئاژەڵ"""),
                           Row(
@@ -189,7 +189,7 @@ class EnglishEntrybestiality extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ناو) هەڵسوکەوتی دڕندانە و خراپ"""),
+٢. (ناو) ھەڵسوکەوتی دڕندانە و خراپ"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

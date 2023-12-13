@@ -147,7 +147,7 @@ class EnglishEntryairing extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بابەتەکە گەنگەشەی تەواوی لەسەر کرا لە میدیای بەریتانیا"),
+                                      "بابەتەکە گەنگەشەی تەواوی لەسەر کرا لە میدیای بەریتانیا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAiring4522("en-GB"),

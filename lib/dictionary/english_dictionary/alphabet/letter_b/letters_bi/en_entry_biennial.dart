@@ -41,7 +41,8 @@ class EnglishEntrybiennial extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Carrots, beets, parsley, and are examples of biennials."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Carrots, beets, parsley, and are examples of biennials."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBiennials3(String languageCode) async {
@@ -138,7 +139,7 @@ class EnglishEntrybiennial extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -165,7 +166,7 @@ class EnglishEntrybiennial extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: دووساڵە، دووساڵانە، هەردوو ساڵ جارێ، دووساڵەژی، دووساڵە
+کوردی: دووساڵە، دووساڵانە، ھەردوو ساڵ جارێ، دووساڵەژی، دووساڵە
 
 ١. (ھاوەڵناو) شتێک کە دوو ساڵ جارێک ڕوودەدات"""),
                           Row(
@@ -174,7 +175,8 @@ class EnglishEntrybiennial extends StatelessWidget {
                                   text:
                                       "The university hosts a biennial art exhibition showcasing the work of local artists."),
                               const ExampleSentenceKurdish(
-                                  text: "زانکۆکە پێشانگایەکی هونەری دوو ساڵ جارێک ڕێکدەخات بۆ نمایشی کاری هونەرمەندە خۆجێیەکان."),
+                                  text:
+                                      "زانکۆکە پێشانگایەکی ھونەری دوو ساڵ جارێک ڕێکدەخات بۆ نمایشی کاری ھونەرمەندە خۆجێیەکان."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBiennials1("en-GB"),
@@ -194,7 +196,8 @@ class EnglishEntrybiennial extends StatelessWidget {
                                   text:
                                       "Carrots, beets, parsley, and are examples of biennials."),
                               const ExampleSentenceKurdish(
-                                  text: "گەزەر و چەوەندەر و مەعدەنووس نموونەی ڕووەکن کە دوو ساڵ دەژین."),
+                                  text:
+                                      "گەزەر و چەوەندەر و مەعدەنووس نموونەی ڕووەکن کە دوو ساڵ دەژین."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBiennials2("en-GB"),
@@ -264,7 +267,7 @@ class EnglishMeaning extends StatelessWidget {
 2. (botany) having a life cycle lasting two seasons (= two-year)
 "parsnips and carrots are biennial plants often grown as annuals"; "a biennial life cycle";
 
-- Noun: biennial (Derived forms: biennials)
+- Noun: biennial (derived forms: biennials)
 1. (botany) a plant having a life cycle that normally takes two seasons from germination to death to complete; flowering biennials usually bloom and fruit in the second season
 """,
           )
@@ -279,7 +282,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/5d6SEQQbwtU?t=";
+  static String myVideoId = "5d6SEQQbwtU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -304,7 +307,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/dlp_MgVJCYc?t=";
+  static String myVideoId = "dlp_MgVJCYc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -329,7 +332,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/7PM4sYl3dsI?t=";
+  static String myVideoId = "7PM4sYl3dsI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -354,7 +357,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/bM6qUUeAxho?t=";
+  static String myVideoId = "bM6qUUeAxho";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -379,7 +382,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/NPkqrzJhNRo?t=";
+  static String myVideoId = "NPkqrzJhNRo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -404,7 +407,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/1H_mTxoG1B8?t=";
+  static String myVideoId = "1H_mTxoG1B8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -429,7 +432,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/hKUd8KL4FWA?t=";
+  static String myVideoId = "hKUd8KL4FWA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -454,7 +457,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/qxVxUDkiwWs?t=";
+  static String myVideoId = "qxVxUDkiwWs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -479,7 +482,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/uVAPqZQ0mgU?t=";
+  static String myVideoId = "uVAPqZQ0mgU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -504,7 +507,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/5YeyKAdfu0E?t=";
+  static String myVideoId = "5YeyKAdfu0E";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

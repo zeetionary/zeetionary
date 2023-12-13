@@ -167,7 +167,7 @@ class EnglishEntrybevelled extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: لێوارلار، پەخ‌دار، پەخ، لێوارپەخ، خوار، لاپێ‌دار
 
-١. (ھاوەڵناو) هەبوونی لێوارێک یان ڕوویەک کە لێژی تێدایە (بۆ نموونە تیژ نییە)"""),
+١. (ھاوەڵناو) ھەبوونی لێوارێک یان ڕوویەک کە لێژی تێدایە (بۆ نموونە تیژ نییە)"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -175,7 +175,7 @@ class EnglishEntrybevelled extends StatelessWidget {
                                       "A picture frame often has bevelled edges."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "چوارچێوەی وێنە زۆرجار سووچی پەخ‌داری هەیە."),
+                                      "چوارچێوەی وێنە زۆرجار سووچی پەخ‌داری ھەیە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBevelleds1("en-GB"),

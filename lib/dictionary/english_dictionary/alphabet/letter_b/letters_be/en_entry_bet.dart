@@ -256,7 +256,7 @@ class EnglishEntrybet extends StatelessWidget {
                                       "I'm willing to bet (that) the analysts will be wrong."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەتوانم گرەو بکەم کە شیکاران هەڵە دەردەچن."),
+                                      "ئەتوانم گرەو بکەم کە شیکاران ھەڵە دەردەچن."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBets5("en-GB"),

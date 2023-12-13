@@ -242,7 +242,7 @@ class EnglishEntrybeyond extends StatelessWidget {
                                       "In the distance, beyond the river, was a small town."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە دوور، لەوپەڕی ڕووبارەکە، شارۆچکەیەک هەبوو."),
+                                      "لە دوور، لەوپەڕی ڕووبارەکە، شارۆچکەیەک ھەبوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeyonds2("en-GB"),
@@ -284,7 +284,7 @@ class EnglishEntrybeyond extends StatelessWidget {
                                       "I know what I'll be doing for the next three weeks but I haven't thought beyond that."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەزانم بۆ سێ هەفتەی داهاتوو چی دەکەم، بەڵام لەوە دواتر بیرم لێ نەکردووەتەوە."),
+                                      "دەزانم بۆ سێ ھەفتەی داھاتوو چی دەکەم، بەڵام لەوە دواتر بیرم لێ نەکردووەتەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeyonds4("en-GB"),
@@ -342,7 +342,7 @@ class EnglishEntrybeyond extends StatelessWidget {
                                       "The exercise was beyond the abilities of most of the class."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕاهێنانەکان لە دەرەوەی توانای زۆرینەی پۆلەکە بوو."),
+                                      "ڕاھێنانەکان لە دەرەوەی توانای زۆرینەی پۆلەکە بوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeyonds7("en-GB"),
@@ -355,7 +355,7 @@ class EnglishEntrybeyond extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٦. (هاوەڵکار) لە ئەوسەرەوە"""),
+٦. (ھاوەڵکار) لە ئەوسەرەوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -363,7 +363,7 @@ class EnglishEntrybeyond extends StatelessWidget {
                                       "The immediate future is clear, but it's hard to tell what lies beyond."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "داهاتووی نزیک ئاشکرایە، بەڵام نازانرێت چی لە هەگبەدایە دوای ئەوە."),
+                                      "داھاتووی نزیک ئاشکرایە، بەڵام نازانرێت چی لە ھەگبەدایە دوای ئەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeyonds8("en-GB"),

@@ -366,14 +366,14 @@ class EnglishEntrybetter extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: باش‌تر، چاتر، چاک‌تر، زۆرتر، زۆرینەی، زۆربەی، پتر، زیاتر، زێتر، گەورەتر، گرێوکار، گرێوباز، مەرج‌بەست، (شت یان مرۆ) باشتر، چاکتر، سەرتری، بەسەرداشکانەوە
 
-١. (ھاوەڵناو) باشتر لە شتێکی تر، شتێک کە هێندەی شتێکی تر خراپ نییە"""),
+١. (ھاوەڵناو) باشتر لە شتێکی تر، شتێک کە ھێندەی شتێکی تر خراپ نییە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
                                       "We're hoping for better weather tomorrow."),
                               const ExampleSentenceKurdish(
-                                  text: "هیوا بۆ کەشوهەوایەکی باشتر دەخوازین."),
+                                  text: "ھیوا بۆ کەشوھەوایەکی باشتر دەخوازین."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetters1("en-GB"),
@@ -564,7 +564,7 @@ class EnglishEntrybetter extends StatelessWidget {
                                       "Researchers are hoping to better understand the role of this protein in human disease."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "توێژەران هیوا دەخوازن باشتر تێبگەن لە ئەرکی ئەم پڕۆتینە لە نەخۆشی مرۆڤدا."),
+                                      "توێژەران ھیوا دەخوازن باشتر تێبگەن لە ئەرکی ئەم پڕۆتینە لە نەخۆشی مرۆڤدا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetters12("en-GB"),
@@ -643,7 +643,7 @@ class EnglishEntrybetter extends StatelessWidget {
                                       "You shouldn't be so mean to your mother - she deserves better."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "نابێت وەها توند بیت لەگەڵ دایکت، شایەنی باشتر لەوەیە."),
+                                      "نابێت وەھا توند بیت لەگەڵ دایکت، شایەنی باشتر لەوەیە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetters16("en-GB"),
@@ -698,7 +698,7 @@ class EnglishEntrybetter extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١٢. (کردار) باشترکردنی دۆخی کۆمەڵایەتیت لە ڕێگەی کارێکی باشتر، خوێندن، هتد"""),
+١٢. (کردار) باشترکردنی دۆخی کۆمەڵایەتیت لە ڕێگەی کارێکی باشتر، خوێندن، ھتد"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -706,7 +706,7 @@ class EnglishEntrybetter extends StatelessWidget {
                                       "Thousands of Victorian workers joined educational associations in an attempt to better themselves."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەزاران کرێکاری سەردەمی شاژن ڤیکتۆریا پەیوەندییان بە کۆڕە پەروەردەییەکانەوە کرد بۆ باشترکردنی دۆخی کۆمەڵایەتییان."),
+                                      "ھەزاران کرێکاری سەردەمی شاژن ڤیکتۆریا پەیوەندییان بە کۆڕە پەروەردەییەکانەوە کرد بۆ باشترکردنی دۆخی کۆمەڵایەتییان."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetters19("en-GB"),

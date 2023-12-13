@@ -374,7 +374,7 @@ class EnglishEntrybetween extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ئامراز) لە ماوەی کاتێکدا کە دوو ڕۆژ، ساڵ، ڕووداو، هتد جیادەکاتەوە"""),
+٢. (ئامراز) لە ماوەی کاتێکدا کە دوو ڕۆژ، ساڵ، ڕووداو، ھتد جیادەکاتەوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -412,7 +412,7 @@ class EnglishEntrybetween extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (ئامراز) ماوەی نێوان دوو خاڵ لە ڕێژەیەک، کێش، دووری، هتد"""),
+٣. (ئامراز) ماوەی نێوان دوو خاڵ لە ڕێژەیەک، کێش، دووری، ھتد"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -432,7 +432,7 @@ class EnglishEntrybetween extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٤. (ئامراز) هێڵێک کە شوێنێک لە یەکێکی تر جیادەکاتەوە"""),
+٤. (ئامراز) ھێڵێک کە شوێنێک لە یەکێکی تر جیادەکاتەوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -440,7 +440,7 @@ class EnglishEntrybetween extends StatelessWidget {
                                       "There is a long border between United States and Canada."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سنوورێکی درێژ هەیە لە نێوان ئەمریکا و کەنەدا."),
+                                      "سنوورێکی درێژ ھەیە لە نێوان ئەمریکا و کەنەدا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetweens7("en-GB"),
@@ -461,7 +461,7 @@ class EnglishEntrybetween extends StatelessWidget {
                                       "We fly between Rome and Paris twice daily."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەموو ڕۆژێک دوو جار لە نێوان ڕۆما و پاریسدا گەشت دەکەین."),
+                                      "ھەموو ڕۆژێک دوو جار لە نێوان ڕۆما و پاریسدا گەشت دەکەین."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetweens8("en-GB"),
@@ -481,7 +481,7 @@ class EnglishEntrybetween extends StatelessWidget {
                                   text:
                                       "There's a lot of animosity between them."),
                               const ExampleSentenceKurdish(
-                                  text: "دووژمنکاری زۆر لە نێوانیان هەیە."),
+                                  text: "دووژمنکاری زۆر لە نێوانیان ھەیە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetweens9("en-GB"),
@@ -513,13 +513,13 @@ class EnglishEntrybetween extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٧. (ئامراز) شتێک کە هاوبەشە لە نێوان دوو کەسدا"""),
+٧. (ئامراز) شتێک کە ھاوبەشە لە نێوان دوو کەسدا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "We ate a pizza between us."),
                               const ExampleSentenceKurdish(
-                                  text: "پیتزاکەمان بە هاوبەشی خوارد."),
+                                  text: "پیتزاکەمان بە ھاوبەشی خوارد."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetweens11("en-GB"),
@@ -538,7 +538,7 @@ class EnglishEntrybetween extends StatelessWidget {
                                       "This is just between you and me/between ourselves (= it is a secret)."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەمە لە نێوان خۆم و خۆتە/لە نێوان خۆمانە (نهێنییە)."),
+                                      "ئەمە لە نێوان خۆم و خۆتە/لە نێوان خۆمانە (نھێنییە)."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetweens12("en-GB"),
@@ -551,7 +551,7 @@ class EnglishEntrybetween extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٨. (ئامراز) بە یەکخستنی هەوڵ یان کاری نێوان دوو کەس یان زیاتر"""),
+٨. (ئامراز) بە یەکخستنی ھەوڵ یان کاری نێوان دوو کەس یان زیاتر"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -577,7 +577,7 @@ class EnglishEntrybetween extends StatelessWidget {
                                       "China and India between them account for a third of the world's population."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "چین و هندستان پێکەوە پێکهێنەری یەک لە سێی دانیشتوانی جیهانن."),
+                                      "چین و ھندستان پێکەوە پێکھێنەری یەک لە سێی دانیشتوانی جیھانن."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetweens14("en-GB"),
@@ -598,7 +598,7 @@ class EnglishEntrybetween extends StatelessWidget {
                                       "Between working full-time and taking care of the kids, he didn't have much time for hobbies."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە نێوان کارکردنی ڕۆژپڕ و چاودێری منداڵەکانی هیچ کاتی نەبوو بۆ خولیاکانی."),
+                                      "لە نێوان کارکردنی ڕۆژپڕ و چاودێری منداڵەکانی ھیچ کاتی نەبوو بۆ خولیاکانی."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetweens15("en-GB"),
@@ -611,7 +611,7 @@ class EnglishEntrybetween extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١٠. (هاوەڵکار) لە مەودا یان ماوەی نێوان دوو یان زیاتر لە خاڵ، شت، بەروار، ڕووداو، هتد"""),
+١٠. (ھاوەڵکار) لە مەودا یان ماوەی نێوان دوو یان زیاتر لە خاڵ، شت، بەروار، ڕووداو، ھتد"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -638,7 +638,7 @@ class EnglishEntrybetween extends StatelessWidget {
                                       "I see her most weekends but not very often in between."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە ڕۆژانی کۆتایی هەفتە زۆرجار دەیبینم، بەڵام زۆرنا لە نێوانیاندا."),
+                                      "لە ڕۆژانی کۆتایی ھەفتە زۆرجار دەیبینم، بەڵام زۆرنا لە نێوانیاندا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetweens17("en-GB"),

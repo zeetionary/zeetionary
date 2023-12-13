@@ -25,7 +25,7 @@ class EnglishEntryacre extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Each house has acres of space around it (= a lot of space)."); // DOPSUM: CHANGE TEXT
+        "Each house has acres of space around it."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAcre(String languageCode) async {

@@ -126,7 +126,7 @@ class EnglishEntryabsolutezero extends StatelessWidget {
                                       "We repeat the process until we reache the value of absolute zero."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پڕۆسەکە دووبارە دەکەینەوە تا دەگەین بە سفری ڕەھا"),
+                                      "پڕۆسەکە دووبارە دەکەینەوە تا دەگەین بە سفری ڕەھا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAbs2531("en-GB"),

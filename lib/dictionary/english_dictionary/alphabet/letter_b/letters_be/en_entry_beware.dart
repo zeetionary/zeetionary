@@ -176,7 +176,7 @@ class EnglishEntrybeware extends StatelessWidget {
                                       "Motorists have been warned to beware of icy roads."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ماتۆڕسواران هۆشیارکراونەتەوە ئاگاداربن بۆ ڕێگای سەهۆڵین."),
+                                      "ماتۆڕسواران ھۆشیارکراونەتەوە ئاگاداربن بۆ ڕێگای سەھۆڵین."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBewares1("en-GB"),
@@ -195,7 +195,7 @@ class EnglishEntrybeware extends StatelessWidget {
                                       "Beware of saying anything that might reveal where you live."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئاگاداربە لە وتنی هەرشتێک کە ئاشکرای بکات لە کوێ دەژیت."),
+                                      "ئاگاداربە لە وتنی ھەرشتێک کە ئاشکرای بکات لە کوێ دەژیت."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBewares2("en-GB"),

@@ -195,7 +195,7 @@ class EnglishEntrybetrayal extends StatelessWidget {
                                   text:
                                       "Memories of his betrayal still haunted her."),
                               const ExampleSentenceKurdish(
-                                  text: "یادەوەری خیانەتەکەی هێشتا دەیتاساند."),
+                                  text: "یادەوەری خیانەتەکەی ھێشتا دەیتاساند."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetrayals2("en-GB"),
@@ -214,7 +214,7 @@ class EnglishEntrybetrayal extends StatelessWidget {
                                       "The decisions were a betrayal of everything my father stood for."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بڕیارەکان ناپاکی بوو لە هەر شتێک کە باوکم باوەڕی پێی بوو."),
+                                      "بڕیارەکان ناپاکی بوو لە ھەر شتێک کە باوکم باوەڕی پێی بوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetrayals3("en-GB"),

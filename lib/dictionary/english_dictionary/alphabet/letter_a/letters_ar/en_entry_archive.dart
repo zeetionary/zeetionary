@@ -25,13 +25,13 @@ class EnglishEntryarchive extends StatelessWidget {
     await flutterTts.speak("archive"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArchive(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArchive
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("archive"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakArchive1050(String languageCode) async {
+    // DOPSUM: CHANGE speakArchive
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("The BBC's archives are bulging with material."); // DOPSUM: CHANGE TEXT
+  }
 
   // Future<void> speakArchive(String languageCode) async {
   //   // DOPSUM: CHANGE speakArchive
@@ -193,11 +193,11 @@ class EnglishEntryarchive extends StatelessWidget {
                                   text: "ئەرشیفی بی بی سی پڕە لە زانیاری."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakArchive("en-GB"),
+                                onPressed: () => speakArchive1050("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () =>
-                                    speakArchive(// REPLACE: archive /ˈɑːrkaɪv/
+                                    speakArchive1050(// REPLACE: archive /ˈɑːrkaɪv/
                                         "en-US"),
                               ),
                             ],

@@ -195,7 +195,7 @@ class EnglishEntrybiblical extends StatelessWidget {
                                       "After rain of biblical proportions, the match was cancelled."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە دوای باران بارین بە ئاستێکی زۆر، یارییەکە هەڵوەشێندرایەوە."),
+                                      "لە دوای باران بارین بە ئاستێکی زۆر، یارییەکە ھەڵوەشێندرایەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBiblicals2("en-GB"),

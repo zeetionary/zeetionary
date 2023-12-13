@@ -116,7 +116,7 @@ class EnglishEntryabatement extends StatelessWidget {
                                       "The city spends 9 million dollars a year on air pollution abatement."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "شارەکە ساڵانە ٩ ملیۆن دۆلار خەرج دەکات بۆ کەمکردنەوەی پیسبوونی بەرگەھەوا"),
+                                      "شارەکە ساڵانە ٩ ملیۆن دۆلار خەرج دەکات بۆ کەمکردنەوەی پیسبوونی بەرگەھەوا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAbate75("en-GB"),

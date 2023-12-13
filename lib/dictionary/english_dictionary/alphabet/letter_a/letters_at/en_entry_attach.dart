@@ -33,7 +33,7 @@ class EnglishEntryattach extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "attI attached a photo to my application form.ach"); // DOPSUM: CHANGE TEXT
+        "attI attached a photo to my application form."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAttach321(String languageCode) async {

@@ -41,7 +41,8 @@ class EnglishEntrybillet extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The troops were billeted in the town with local families."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The troops were billeted in the town with local families."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBillets3(String languageCode) async {
@@ -173,7 +174,7 @@ class EnglishEntrybillet extends StatelessWidget {
                                       "The troops are all in billets (= not in camps or barracks)."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سەربازەکان هەموویان لە خانووی کاتیدا دەمانەوە."),
+                                      "سەربازەکان ھەموویان لە خانووی کاتیدا دەمانەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBillets1("en-GB"),
@@ -257,13 +258,13 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: billet (Derived forms: billets)
+- Noun: billet (derived forms: billets)
 1. (military) lodging for military personnel (especially in a private home)
  
 2. A short personal letter (= note, short letter, line)
 "drop me a billet when you get there";
 
-- Verb: billet (Derived forms: billeted, billeting, billets)
+- Verb: billet (derived forms: billeted, billeting, billets)
 1. (military) provide housing for (military personnel) (= quarter, canton)
 """,
           )
@@ -278,7 +279,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/O4iGNXsqghs?t=";
+  static String myVideoId = "O4iGNXsqghs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -303,7 +304,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/Bc8Yj9J8MQs?t=";
+  static String myVideoId = "Bc8Yj9J8MQs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -328,7 +329,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/f8euUepDo5w?t=";
+  static String myVideoId = "f8euUepDo5w";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -353,7 +354,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/cy3H3QVuKh8?t=";
+  static String myVideoId = "cy3H3QVuKh8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -378,7 +379,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/m9VT2qhHLj8?t=";
+  static String myVideoId = "m9VT2qhHLj8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -403,7 +404,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/gIlrndL2FQU?t=";
+  static String myVideoId = "gIlrndL2FQU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -428,7 +429,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/eXqJPiVdtS4?t=";
+  static String myVideoId = "eXqJPiVdtS4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -453,7 +454,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/8Nwh8yWh5WU?t=";
+  static String myVideoId = "8Nwh8yWh5WU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -478,7 +479,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/D9ylU2t-9Hs?t=";
+  static String myVideoId = "D9ylU2t-9Hs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -503,7 +504,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/xZwzqmRJB4I?t=";
+  static String myVideoId = "xZwzqmRJB4I";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

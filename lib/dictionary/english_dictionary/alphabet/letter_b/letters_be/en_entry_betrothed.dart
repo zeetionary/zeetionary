@@ -167,7 +167,7 @@ class EnglishEntrybetrothed extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: دەزگیران، دەسگیران، دەزووران (پاگیرە: کچی دەزگیران‌دار)
 
-١. (ناو) کەسێک کە بەڵێنی هاوسەرگیری پێدراوە"""),
+١. (ناو) کەسێک کە بەڵێنی ھاوسەرگیری پێدراوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

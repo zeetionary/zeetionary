@@ -219,7 +219,7 @@ class EnglishEntryarrow extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دوو کەس تیر و کەوانیان بەکاردەھێنا بۆ ڕاوکردن."),
+                                      "خەڵکی تیر و کەوانیان بەکاردەھێنا بۆ ڕاوکردن."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakArrow746("en-GB"),

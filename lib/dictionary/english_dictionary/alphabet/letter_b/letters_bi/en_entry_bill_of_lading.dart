@@ -167,7 +167,7 @@ class EnglishEntrybilloflading extends StatelessWidget {
                         children: [
                           DividerDefinition(),
                           DefinitionKurdish(text: """
-١. (ناو) بارنامە؛ لیستێک کە ناوی ئەو کەلوپەلانەی تێدایە کە کەشتییەک هەڵیگرتووە"""),
+١. (ناو) بارنامە؛ لیستێک کە ناوی ئەو کەلوپەلانەی تێدایە کە کەشتییەک ھەڵیگرتووە"""),
                           // Row(
                           //   children: [
                           //     const ExampleSentenceEnglish(
@@ -237,7 +237,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bill of lading (Derived forms: bills of lading)
+- Noun: bill of lading (derived forms: bills of lading)
 1. A receipt given by the carrier to the shipper acknowledging receipt of the goods being shipped and specifying the terms of delivery (= waybill)
 """,
           )
@@ -252,7 +252,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/8Ee_OhLKv6E?t=";
+  static String myVideoId = "8Ee_OhLKv6E";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -277,7 +277,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/3yaMs_aAVAc?t=";
+  static String myVideoId = "3yaMs_aAVAc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -302,7 +302,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/fc7ugkT2N9E?t=";
+  static String myVideoId = "fc7ugkT2N9E";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -327,7 +327,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/_1YliMw4YlI?t=";
+  static String myVideoId = "_1YliMw4YlI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -352,7 +352,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/O4xI-Kaq97A?t=";
+  static String myVideoId = "O4xI-Kaq97A";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -377,7 +377,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/0_Opltmb0Fo?t=";
+  static String myVideoId = "0_Opltmb0Fo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -402,7 +402,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/DsSzQfejwMk?t=";
+  static String myVideoId = "DsSzQfejwMk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

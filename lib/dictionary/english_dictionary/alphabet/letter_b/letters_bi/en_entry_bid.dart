@@ -49,7 +49,8 @@ class EnglishEntrybid extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The company submitted a bid for the contract to clean the hospital."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The company submitted a bid for the contract to clean the hospital."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBids4(String languageCode) async {
@@ -57,7 +58,8 @@ class EnglishEntrybid extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He attacked his guards in a desperate bid for freedom."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He attacked his guards in a desperate bid for freedom."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBids5(String languageCode) async {
@@ -65,7 +67,8 @@ class EnglishEntrybid extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I bid £2 000 for the painting."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I bid £2 000 for the painting."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBids6(String languageCode) async {
@@ -73,7 +76,8 @@ class EnglishEntrybid extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Which other cities are bidding to host the 2028 Olympics?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Which other cities are bidding to host the 2028 Olympics?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBids7(String languageCode) async {
@@ -81,7 +85,8 @@ class EnglishEntrybid extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The team is bidding to retain its place in the league."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The team is bidding to retain its place in the league."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBids8(String languageCode) async {
@@ -89,7 +94,8 @@ class EnglishEntrybid extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I bade farewell to all the friends I had made in Paris."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I bade farewell to all the friends I had made in Paris."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBids9(String languageCode) async {
@@ -97,7 +103,8 @@ class EnglishEntrybid extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He bade her good day and left."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He bade her good day and left."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBids10(String languageCode) async {
@@ -210,7 +217,7 @@ class EnglishEntrybid extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 22
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -237,7 +244,7 @@ class EnglishEntrybid extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: پێشنیار، پێشنیاز، هەوڵ، تێکۆشان، بزاڤ، بڕەپارەی پێشنیارکراو
+کوردی: پێشنیار، پێشنیاز، ھەوڵ، تێکۆشان، بزاڤ، بڕەپارەی پێشنیارکراو
 
 ١. (ناو) پێشنیازێک لەلایەن کۆمپانیایەکەوە بۆ پێدانی بڕێکی دیریکراوی پارە بە شتێک"""),
                           Row(
@@ -246,7 +253,8 @@ class EnglishEntrybid extends StatelessWidget {
                                   text:
                                       "At the auction (= a public sale where things are sold to the person who offers the most), the highest bid for the picture was £200."),
                               const ExampleSentenceKurdish(
-                                  text: "لە زیادکردنی ئاشکرادا زۆرترین بڕی پێشنیازکراو بۆ وێنەکە ٢٠ پاوەند بوو."),
+                                  text:
+                                      "لە زیادکردنی ئاشکرادا زۆرترین بڕی پێشنیازکراو بۆ وێنەکە ٢٠ پاوەند بوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBids1("en-GB"),
@@ -261,8 +269,7 @@ class EnglishEntrybid extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "Any more bids?"),
+                                  text: "Any more bids?"),
                               const ExampleSentenceKurdish(
                                   text: "پێشنیازی زیاتر؟"),
                               const CustomSizedBoxForTTS(),
@@ -284,7 +291,8 @@ class EnglishEntrybid extends StatelessWidget {
                                   text:
                                       "The company submitted a bid for the contract to clean the hospital."),
                               const ExampleSentenceKurdish(
-                                  text: "کۆمپانیاکە پێشنیازێکی پێشکەشکرد بۆ گرێبەستی پاککردنەوەی نەخۆشخانەکە."),
+                                  text:
+                                      "کۆمپانیاکە پێشنیازێکی پێشکەشکرد بۆ گرێبەستی پاککردنەوەی نەخۆشخانەکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBids3("en-GB"),
@@ -297,14 +305,15 @@ class EnglishEntrybid extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (ناو) هەوڵێک بۆ بەدەستهێنانی شتێک"""),
+٣. (ناو) ھەوڵێک بۆ بەدەستھێنانی شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
                                       "He attacked his guards in a desperate bid for freedom."),
                               const ExampleSentenceKurdish(
-                                  text: "هیرشی کردە سەر پاسەوانەکانی لە هەوڵی بێهوودەی بۆ ئازادی."),
+                                  text:
+                                      "ھیرشی کردە سەر پاسەوانەکانی لە ھەوڵی بێھوودەی بۆ ئازادی."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBids4("en-GB"),
@@ -321,10 +330,10 @@ class EnglishEntrybid extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "I bid £2 000 for the painting."),
+                                  text: "I bid £2 000 for the painting."),
                               const ExampleSentenceKurdish(
-                                  text: "پێشنیازی ٢٠٠٠ پاوەندیم بۆ وێنەکە کرد."),
+                                  text:
+                                      "پێشنیازی ٢٠٠٠ پاوەندیم بۆ وێنەکە کرد."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBids5("en-GB"),
@@ -344,7 +353,8 @@ class EnglishEntrybid extends StatelessWidget {
                                   text:
                                       "Which other cities are bidding to host the 2028 Olympics?"),
                               const ExampleSentenceKurdish(
-                                  text: "چی شارێکی تر هەوڵ دەدات بۆ میوانداری ئۆڵۆمپیادی ٢٠٢٨؟"),
+                                  text:
+                                      "چی شارێکی تر ھەوڵ دەدات بۆ میوانداری ئۆڵۆمپیادی ٢٠٢٨؟"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBids6("en-GB"),
@@ -357,14 +367,15 @@ class EnglishEntrybid extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٦. (کردار) هەوڵی کردن، وەرگرتن، یان بەدەستهێنانی شتێک"""),
+٦. (کردار) ھەوڵی کردن، وەرگرتن، یان بەدەستھێنانی شتێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
                                       "The team is bidding to retain its place in the league."),
                               const ExampleSentenceKurdish(
-                                  text: "تیمەکە هەوڵ دەدەن شوێنیان لە خولەکەدا بپارێزن."),
+                                  text:
+                                      "تیمەکە ھەوڵ دەدەن شوێنیان لە خولەکەدا بپارێزن."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBids7("en-GB"),
@@ -377,14 +388,15 @@ class EnglishEntrybid extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٧. (کردار) وتنی 'بەیانیت باش'، هتد بە کەسێک"""),
+٧. (کردار) وتنی 'بەیانیت باش'، ھتد بە کەسێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
                                       "I bade farewell to all the friends I had made in Paris."),
                               const ExampleSentenceKurdish(
-                                  text: "ماڵئاواییم لە هەموو ئەو هەوڕێیانە کرد کە لە پاریس ناسیبوومن."),
+                                  text:
+                                      "ماڵئاواییم لە ھەموو ئەو ھەوڕێیانە کرد کە لە پاریس ناسیبوومن."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBids8("en-GB"),
@@ -399,8 +411,7 @@ class EnglishEntrybid extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "He bade her good day and left."),
+                                  text: "He bade her good day and left."),
                               const ExampleSentenceKurdish(
                                   text: "ڕۆژباشی بۆ خواست و ڕۆشت."),
                               const CustomSizedBoxForTTS(),
@@ -419,8 +430,7 @@ class EnglishEntrybid extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "He bade me come closer."),
+                                  text: "He bade me come closer."),
                               const ExampleSentenceKurdish(
                                   text: "پێی وتم نزیک ببمەوە."),
                               const CustomSizedBoxForTTS(),
@@ -485,7 +495,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Verb: bid (Derived forms: bidding, bidden, bade, bids)
+- Verb: bid (derived forms: bidding, bidden, bade, bids)
 1. (auction) propose an amount you are prepared to pay for something (= offer, tender)
  
 2. Invoke upon (= wish)
@@ -502,7 +512,7 @@ class EnglishMeaning extends StatelessWidget {
  
 6. Ask someone in a friendly way to do something (= invite)
 
-- Noun: bid (Derived forms: bids)
+- Noun: bid (derived forms: bids)
 1. An authoritative direction or instruction to do something (= command, bidding, dictation)
  
 2. An attempt to get something (= play)
@@ -524,7 +534,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/_LUX70mXcEE?t=";
+  static String myVideoId = "_LUX70mXcEE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -549,7 +559,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/WUjVPIEtJd0?t=";
+  static String myVideoId = "WUjVPIEtJd0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -574,7 +584,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/qjqh9UVfNNk?t=";
+  static String myVideoId = "qjqh9UVfNNk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -599,7 +609,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/LxdoC2sG1i4?t=";
+  static String myVideoId = "LxdoC2sG1i4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -624,7 +634,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/L9Mu93VJLcc?t=";
+  static String myVideoId = "L9Mu93VJLcc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -649,7 +659,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/kTaYet07Ioo?t=";
+  static String myVideoId = "kTaYet07Ioo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -674,7 +684,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/D8tPkb98Fkk?t=";
+  static String myVideoId = "D8tPkb98Fkk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -699,7 +709,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/TVKNpjnqeg0?t=";
+  static String myVideoId = "TVKNpjnqeg0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -724,7 +734,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/rII2WszMe7c?t=";
+  static String myVideoId = "rII2WszMe7c";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -749,7 +759,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/jBRjumRkWd4?t=";
+  static String myVideoId = "jBRjumRkWd4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -774,7 +784,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/Leu0HHZuGbw?t=";
+  static String myVideoId = "Leu0HHZuGbw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -799,7 +809,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/wtE5gcjJOmY?t=";
+  static String myVideoId = "wtE5gcjJOmY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -824,7 +834,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 class YoutubeEmbeddedthirteen extends StatelessWidget {
   YoutubeEmbeddedthirteen({super.key});
 
-  static String myVideoId = "https://youtu.be/yDp3cB5fHXQ?t=";
+  static String myVideoId = "yDp3cB5fHXQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -849,7 +859,7 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
 class YoutubeEmbeddedfourteen extends StatelessWidget {
   YoutubeEmbeddedfourteen({super.key});
 
-  static String myVideoId = "https://youtu.be/NIOYdwhp12Q?t=";
+  static String myVideoId = "NIOYdwhp12Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -874,7 +884,7 @@ class YoutubeEmbeddedfourteen extends StatelessWidget {
 class YoutubeEmbeddedfifteen extends StatelessWidget {
   YoutubeEmbeddedfifteen({super.key});
 
-  static String myVideoId = "https://youtu.be/UrHmQHrIzT4?t=";
+  static String myVideoId = "UrHmQHrIzT4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -899,7 +909,7 @@ class YoutubeEmbeddedfifteen extends StatelessWidget {
 class YoutubeEmbeddedsixteen extends StatelessWidget {
   YoutubeEmbeddedsixteen({super.key});
 
-  static String myVideoId = "https://youtu.be/Whqs8v1svyo?t=";
+  static String myVideoId = "Whqs8v1svyo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -924,7 +934,7 @@ class YoutubeEmbeddedsixteen extends StatelessWidget {
 class YoutubeEmbeddedseventeen extends StatelessWidget {
   YoutubeEmbeddedseventeen({super.key});
 
-  static String myVideoId = "https://youtu.be/EjGB-69sYjM?t=";
+  static String myVideoId = "EjGB-69sYjM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -949,7 +959,7 @@ class YoutubeEmbeddedseventeen extends StatelessWidget {
 class YoutubeEmbeddedeighteen extends StatelessWidget {
   YoutubeEmbeddedeighteen({super.key});
 
-  static String myVideoId = "https://youtu.be/nJ4qA-S-KmE?t=";
+  static String myVideoId = "nJ4qA-S-KmE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -974,7 +984,7 @@ class YoutubeEmbeddedeighteen extends StatelessWidget {
 class YoutubeEmbeddednineteen extends StatelessWidget {
   YoutubeEmbeddednineteen({super.key});
 
-  static String myVideoId = "https://youtu.be/d5E2AQKuCyU?t=";
+  static String myVideoId = "d5E2AQKuCyU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -999,7 +1009,7 @@ class YoutubeEmbeddednineteen extends StatelessWidget {
 class YoutubeEmbeddedtwenty extends StatelessWidget {
   YoutubeEmbeddedtwenty({super.key});
 
-  static String myVideoId = "https://youtu.be/6VoHi64t718?t=";
+  static String myVideoId = "6VoHi64t718";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

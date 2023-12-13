@@ -138,7 +138,7 @@ class EnglishEntrybile extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -167,14 +167,15 @@ class EnglishEntrybile extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: زەرداو، زراو، زراڤک، کرانتی
 
-١. (ناو) ئەو شلە سەوزە قاوەییەی کە تامێکی ناخۆشی تاڵ و ناخۆشی هەیە و لەلایەن جگەرەوە بەرهەم دێت بۆ ئەوەی یارمەتی جەستە بدات بۆ مامەڵەکردن لەگەڵ ئەو چەوریانەی دەیخۆین، و دەکرێت بێتە ناو دەمەوە لەکاتی ڕشانەوە بە گەدەی بەتاڵ"""),
+١. (ناو) ئەو شلە سەوزە قاوەییەی کە تامێکی ناخۆشی تاڵ و ناخۆشی ھەیە و لەلایەن جگەرەوە بەرھەم دێت بۆ ئەوەی یارمەتی جەستە بدات بۆ مامەڵەکردن لەگەڵ ئەو چەوریانەی دەیخۆین، و دەکرێت بێتە ناو دەمەوە لەکاتی ڕشانەوە بە گەدەی بەتاڵ"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
                                       "Meat-eaters have to produce extensive bile acids in their intestines to properly digest the meat that they eat."),
                               const ExampleSentenceKurdish(
-                                  text: "گۆشتخۆران دەبێت ڕێژەیەکی زۆر لە ترشەڵۆکی زراو بەرهەمبێنن لە ڕیخۆڵەیان بۆ ئەوەی بە جوانی ئەو گۆشتە هەرس بکەن کە دەیخۆن."),
+                                  text:
+                                      "گۆشتخۆران دەبێت ڕێژەیەکی زۆر لە ترشەڵۆکی زراو بەرھەمبێنن لە ڕیخۆڵەیان بۆ ئەوەی بە جوانی ئەو گۆشتە ھەرس بکەن کە دەیخۆن."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBiles1("en-GB"),
@@ -237,7 +238,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bile (Derived forms: biles)
+- Noun: bile (derived forms: biles)
 1. A digestive juice secreted by the liver and stored in the gallbladder; aids in the digestion of fats (= gall)
  
 2. A feeling of deep and bitter anger and ill-will (= resentment, bitterness, gall, rancor [US], rancour [Brit, Cdn], ill feeling, hard feelings, acrimoniousness)
@@ -254,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/X3TAROotFfM?t=";
+  static String myVideoId = "X3TAROotFfM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -279,7 +280,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/vhmtoAYVRSo?t=";
+  static String myVideoId = "vhmtoAYVRSo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -304,7 +305,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/CsTmgX32Uk8?t=";
+  static String myVideoId = "CsTmgX32Uk8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -329,7 +330,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/weZ_BoMptLI?t=";
+  static String myVideoId = "weZ_BoMptLI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -354,7 +355,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/2xY7Yxus8JU";
+  static String myVideoId = "2xY7Yxus8JU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -379,7 +380,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/DZziNktXZcU?t=";
+  static String myVideoId = "DZziNktXZcU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -404,7 +405,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/-Pu-PTbMj5E?t=";
+  static String myVideoId = "-Pu-PTbMj5E";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -429,7 +430,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/9kMkhFeHP90?t=";
+  static String myVideoId = "9kMkhFeHP90";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -454,7 +455,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/th_nxlbXtTk?t=";
+  static String myVideoId = "th_nxlbXtTk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -479,7 +480,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/aqm4wAf-4QU?t=";
+  static String myVideoId = "aqm4wAf-4QU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

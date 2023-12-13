@@ -168,7 +168,7 @@ class EnglishEntrybilingual extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ھاوەڵناو) هەبوونی توانای قسەکردن بە دوو زمان وەک یەک بە باشی"""),
+١. (ھاوەڵناو) ھەبوونی توانای قسەکردن بە دوو زمان وەک یەک بە باشی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -176,7 +176,7 @@ class EnglishEntrybilingual extends StatelessWidget {
                                       "He is bilingual in Mandarin and English."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دوو زمانەیە لە هەردوو ماندارین و ئینگلیزی."),
+                                      "دوو زمانەیە لە ھەردوو ماندارین و ئینگلیزی."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBilinguals1("en-GB"),
@@ -217,7 +217,7 @@ class EnglishEntrybilingual extends StatelessWidget {
                                       "The phone lines will be staffed by bilinguals."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هێڵەکانی پەیوەندی لەلایەن کەسانی دووزمانەوە بەڕێوەدەبردرێن."),
+                                      "ھێڵەکانی پەیوەندی لەلایەن کەسانی دووزمانەوە بەڕێوەدەبردرێن."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBilinguals4("en-GB"),
@@ -284,7 +284,7 @@ class EnglishMeaning extends StatelessWidget {
 1. Using or knowing two languages (= diglot [rare])
 "bilingual education";
 
-- Noun: bilingual (Derived forms: bilinguals)
+- Noun: bilingual (derived forms: bilinguals)
 1. A person who speaks two languages fluently (= bilingualist)
 """,
           )
@@ -299,7 +299,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/LCF05r3CSME?t=";
+  static String myVideoId = "LCF05r3CSME";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -324,7 +324,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/yQThMUn_UmM?t=";
+  static String myVideoId = "yQThMUn_UmM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -349,7 +349,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/8o7a6l-d6ow?t=";
+  static String myVideoId = "8o7a6l-d6ow";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -374,7 +374,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/UB4BgwVJUjs?t=";
+  static String myVideoId = "UB4BgwVJUjs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -399,7 +399,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/K1QCZXfJHrI?t=";
+  static String myVideoId = "K1QCZXfJHrI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -424,7 +424,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/3vlH9Eml2HU?t=";
+  static String myVideoId = "3vlH9Eml2HU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -449,7 +449,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/e1UV05XOqX0?t=";
+  static String myVideoId = "e1UV05XOqX0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -474,7 +474,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/QeMJBqU_eYc?t=";
+  static String myVideoId = "QeMJBqU_eYc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -499,7 +499,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/A4hjdUhKluc?t=";
+  static String myVideoId = "A4hjdUhKluc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

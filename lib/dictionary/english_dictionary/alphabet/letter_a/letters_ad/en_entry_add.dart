@@ -178,7 +178,7 @@ class EnglishEntryadd extends StatelessWidget {
                                       "Chlorine is added to the water to kill bacteria."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کلۆر زیاد دەکرێت بۆ ئاو بۆ کووشتنی بەکتریا"),
+                                      "کلۆر زیاد دەکرێت بۆ ئاو بۆ کووشتنی بەکتریا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdd45698("en-GB"),

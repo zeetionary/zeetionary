@@ -165,9 +165,9 @@ class EnglishEntrybewildering extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: پەشۆکێنەر، سەرسووڕهێنەر، گێژکەر
+کوردی: پەشۆکێنەر، سەرسووڕھێنەر، گێژکەر
 
-١. (ھاوەڵناو) شتێک کە سەرسامت دەکات بەهۆی ئەوەی هەڵبژاردەی زۆری هەیە، یان گرانە بۆ تێگەشتن"""),
+١. (ھاوەڵناو) شتێک کە سەرسامت دەکات بەھۆی ئەوەی ھەڵبژاردەی زۆری ھەیە، یان گرانە بۆ تێگەشتن"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -175,7 +175,7 @@ class EnglishEntrybewildering extends StatelessWidget {
                                       "There is a bewildering variety of software available."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ژمارەیەکی سەرسووڕهێنەر لە نەرمامێر بەردەستە."),
+                                      "ژمارەیەکی سەرسووڕھێنەر لە نەرمامێر بەردەستە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBewilderings1("en-GB"),

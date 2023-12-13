@@ -32,8 +32,8 @@ class EnglishEntrybill extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She always pays her bills on time."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She always pays her bills on time."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBills2(String languageCode) async {
@@ -57,7 +57,8 @@ class EnglishEntrybill extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The waiter brought the bill to their table."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The waiter brought the bill to their table."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBills5(String languageCode) async {
@@ -65,7 +66,8 @@ class EnglishEntrybill extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I found a ten-dollar bill on the floor."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I found a ten-dollar bill on the floor."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBills6(String languageCode) async {
@@ -73,7 +75,8 @@ class EnglishEntrybill extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Congress passed the energy bill last month."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Congress passed the energy bill last month."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBills7(String languageCode) async {
@@ -81,7 +84,8 @@ class EnglishEntrybill extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("There were lots of big names on the bill."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "There were lots of big names on the bill."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBills8(String languageCode) async {
@@ -89,7 +93,8 @@ class EnglishEntrybill extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They prohibitted posting any bills to the walls of the building."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They prohibitted posting any bills to the walls of the building."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBills9(String languageCode) async {
@@ -97,7 +102,8 @@ class EnglishEntrybill extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The hawk used its sharp bill to tear at its prey."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The hawk used its sharp bill to tear at its prey."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBills10(String languageCode) async {
@@ -105,7 +111,8 @@ class EnglishEntrybill extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Please bill me for the books."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Please bill me for the books."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBills11(String languageCode) async {
@@ -113,7 +120,8 @@ class EnglishEntrybill extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("You will be billed monthly for the service."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "You will be billed monthly for the service."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBills12(String languageCode) async {
@@ -121,7 +129,8 @@ class EnglishEntrybill extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He was billed as the new Tom Cruise."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He was billed as the new Tom Cruise."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBills13(String languageCode) async {
@@ -129,7 +138,8 @@ class EnglishEntrybill extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She was billed to speak on ‘Feminism and third world countries’."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She was billed to speak on ‘Feminism and third world countries’."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBills14(String languageCode) async {
@@ -322,7 +332,7 @@ class EnglishEntrybill extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 15
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -349,16 +359,16 @@ class EnglishEntrybill extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: لیست، ڕیزک، فاکتۆر، لیستە، پوستێر، پلاکارد، بەرنامە، ئاگاداری، سەرنجە، تێبینی، دانەزانین، هایداری، جاڕ، بڵاوک، داخویانی، بەرنووس، پێش‌نووس، پارەی کاغزی، بیل (بەرات، سفتە یان حەواڵە)، دەستوورنامە، بڕوانامە
+کوردی: لیست، ڕیزک، فاکتۆر، لیستە، پوستێر، پلاکارد، بەرنامە، ئاگاداری، سەرنجە، تێبینی، دانەزانین، ھایداری، جاڕ، بڵاوک، داخویانی، بەرنووس، پێش‌نووس، پارەی کاغزی، بیل (بەرات، سفتە یان حەواڵە)، دەستوورنامە، بڕوانامە
 
 ١. (ناو) دۆکیومێنت کە پیشانی دەدات چەندە قەرزاری بۆ کەلوپەل و خزمەتگوزاری"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "She always pays her bills on time."),
+                                  text: "She always pays her bills on time."),
                               const ExampleSentenceKurdish(
-                                  text: "هەموو کات پارەی پسوولەکانی لە کاتی خۆیدا دەداتەوە."),
+                                  text:
+                                      "ھەموو کات پارەی پسوولەکانی لە کاتی خۆیدا دەداتەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBills1("en-GB"),
@@ -393,8 +403,7 @@ class EnglishEntrybill extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "The bill came to £120."),
+                                  text: "The bill came to £120."),
                               const ExampleSentenceKurdish(
                                   text: "پسووڵەکە گەشت بە ١٢٠ پاوەند."),
                               const CustomSizedBoxForTTS(),
@@ -414,7 +423,8 @@ class EnglishEntrybill extends StatelessWidget {
                                   text:
                                       "The waiter brought the bill to their table."),
                               const ExampleSentenceKurdish(
-                                  text: "گارسۆنەکە پسووڵەکەی هێنا بۆ سەر مێزەکەیان."),
+                                  text:
+                                      "گارسۆنەکە پسووڵەکەی ھێنا بۆ سەر مێزەکەیان."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBills4("en-GB"),
@@ -434,7 +444,8 @@ class EnglishEntrybill extends StatelessWidget {
                                   text:
                                       "I found a ten-dollar bill on the floor."),
                               const ExampleSentenceKurdish(
-                                  text: "پارەیەکی ١٠ دۆلاریم لەسەر زەوییەکە دۆزییەوە."),
+                                  text:
+                                      "پارەیەکی ١٠ دۆلاریم لەسەر زەوییەکە دۆزییەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBills5("en-GB"),
@@ -454,7 +465,8 @@ class EnglishEntrybill extends StatelessWidget {
                                   text:
                                       "Congress passed the energy bill last month."),
                               const ExampleSentenceKurdish(
-                                  text: "کۆنگرێس پڕۆژە یاسای وزەی مانگی ڕابردوو پەسەندکرد."),
+                                  text:
+                                      "کۆنگرێس پڕۆژە یاسای وزەی مانگی ڕابردوو پەسەندکرد."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBills6("en-GB"),
@@ -474,7 +486,8 @@ class EnglishEntrybill extends StatelessWidget {
                                   text:
                                       "There were lots of big names (= famous people) on the bill."),
                               const ExampleSentenceKurdish(
-                                  text: "ژمارەیەک کەسی بەناوبانگ نمایشیان هەبوو."),
+                                  text:
+                                      "ژمارەیەک کەسی بەناوبانگ نمایشیان ھەبوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBills7("en-GB"),
@@ -494,7 +507,8 @@ class EnglishEntrybill extends StatelessWidget {
                                   text:
                                       "They prohibitted sticking any bills to the walls of the building."),
                               const ExampleSentenceKurdish(
-                                  text: "لکاندنی هەموو پۆستەرێکیان قەدەغەکردبوو بە لەسەر دیوارەکانی بیناکە."),
+                                  text:
+                                      "لکاندنی ھەموو پۆستەرێکیان قەدەغەکردبوو بە لەسەر دیوارەکانی بیناکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBills8("en-GB"),
@@ -514,7 +528,8 @@ class EnglishEntrybill extends StatelessWidget {
                                   text:
                                       "The hawk used its sharp bill to tear at its prey."),
                               const ExampleSentenceKurdish(
-                                  text: "هەڵۆکە دەنووکە تیژەکەی بەکارهێنا بۆ لەتکردنی نێچیرەکەی."),
+                                  text:
+                                      "ھەڵۆکە دەنووکە تیژەکەی بەکارھێنا بۆ لەتکردنی نێچیرەکەی."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBills9("en-GB"),
@@ -531,8 +546,7 @@ class EnglishEntrybill extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "Please bill me for the books."),
+                                  text: "Please bill me for the books."),
                               const ExampleSentenceKurdish(
                                   text: "تکایە پسوولەی کتێبەکانم بۆ بنێرە."),
                               const CustomSizedBoxForTTS(),
@@ -552,7 +566,8 @@ class EnglishEntrybill extends StatelessWidget {
                                   text:
                                       "You will be billed monthly for the service."),
                               const ExampleSentenceKurdish(
-                                  text: "بۆ خزمەتگوزارییەکە مانگانە پارەت لێ وەردەگیرێت."),
+                                  text:
+                                      "بۆ خزمەتگوزارییەکە مانگانە پارەت لێ وەردەگیرێت."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBills11("en-GB"),
@@ -569,8 +584,7 @@ class EnglishEntrybill extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "He was billed as the new Tom Cruise."),
+                                  text: "He was billed as the new Tom Cruise."),
                               const ExampleSentenceKurdish(
                                   text: "وەک تۆم کرووزی نوێ ناوزەندکرا."),
                               const CustomSizedBoxForTTS(),
@@ -592,7 +606,8 @@ class EnglishEntrybill extends StatelessWidget {
                                   text:
                                       "She was billed to speak on ‘Feminism and third world countries’."),
                               const ExampleSentenceKurdish(
-                                  text: "ڕیکلامی بۆ کرا کە قسەدەکات لەسەر 'فێمینیزم و وڵاتانی جیهانی سێیەم'."),
+                                  text:
+                                      "ڕیکلامی بۆ کرا کە قسەدەکات لەسەر 'فێمینیزم و وڵاتانی جیھانی سێیەم'."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBills13("en-GB"),
@@ -655,7 +670,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bill (Derived forms: bills)
+- Noun: bill (derived forms: bills)
 1. An itemized statement of money owed for goods shipped or services rendered (= account, invoice)
 "he paid his bill and left";
  
@@ -685,7 +700,7 @@ class EnglishMeaning extends StatelessWidget {
  
 11. Horny projecting mouth of a bird (= beak, neb, nib, pecker)
 
-- Verb: bill (Derived forms: bills, billing, billed)
+- Verb: bill (derived forms: bills, billing, billed)
 1. Demand payment (= charge)
 "We were billed for 4 nights in the hotel, although we stayed only 3 nights";
  
@@ -710,7 +725,7 @@ Usage: Brit, informal
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/VrKW58MS12g?t=";
+  static String myVideoId = "VrKW58MS12g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -735,7 +750,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/AtI7g6ax7rI?t=";
+  static String myVideoId = "AtI7g6ax7rI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -760,7 +775,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/ewLpXw6uN28?t=";
+  static String myVideoId = "ewLpXw6uN28";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -785,7 +800,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/YRhqMWUH2Ig?t=";
+  static String myVideoId = "YRhqMWUH2Ig";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -810,7 +825,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/ooDW1RmLYQ4?t=";
+  static String myVideoId = "ooDW1RmLYQ4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -835,7 +850,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/-cPdImejxEQ?t=";
+  static String myVideoId = "-cPdImejxEQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -860,7 +875,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/Xy7rEIj1Slg?t=";
+  static String myVideoId = "Xy7rEIj1Slg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -885,7 +900,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/nYRefC7E9gU?t=";
+  static String myVideoId = "nYRefC7E9gU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -910,7 +925,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/xym3ucTo6Vc?t=";
+  static String myVideoId = "xym3ucTo6Vc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -935,7 +950,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/Wehsz38P74g?t=";
+  static String myVideoId = "Wehsz38P74g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -960,7 +975,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/Xdaj7MY1N9M?t=";
+  static String myVideoId = "Xdaj7MY1N9M";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -985,7 +1000,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/gzF7aHxk4Y4?t=";
+  static String myVideoId = "gzF7aHxk4Y4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1010,7 +1025,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 class YoutubeEmbeddedthirteen extends StatelessWidget {
   YoutubeEmbeddedthirteen({super.key});
 
-  static String myVideoId = "https://youtu.be/Q0uXGQu55GM?t=";
+  static String myVideoId = "Q0uXGQu55GM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

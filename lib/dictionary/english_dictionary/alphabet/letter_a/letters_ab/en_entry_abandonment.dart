@@ -117,7 +117,7 @@ class EnglishEntryabandonment extends StatelessWidget {
                                       "Their childhood abandonment by their mother affected their lives greatly."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەستبەرداربوون لێیان لەلایەن دایکیان لە تەمەنی منداڵیدا کاریگەری زۆری لەسەریان هەبوو."),
+                                      "دەستبەرداربوون لێیان لەلایەن دایکیان لە تەمەنی منداڵیدا کاریگەری زۆری لەسەریان ھەبوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAba12("en-GB"),

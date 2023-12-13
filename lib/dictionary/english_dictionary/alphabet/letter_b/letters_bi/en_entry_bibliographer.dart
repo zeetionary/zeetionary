@@ -169,7 +169,7 @@ class EnglishEntrybibliographer extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: بیبلیۆگڕافێر، چاوگنامەنووس، کتێب‌ناس
 
-١. (ناو) کەسێک کە مێژووی کتێب و بەرهەمهێنانیان دەخوێنێت"""),
+١. (ناو) کەسێک کە مێژووی کتێب و بەرھەمھێنانیان دەخوێنێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -177,7 +177,7 @@ class EnglishEntrybibliographer extends StatelessWidget {
                                       "The bibliographer meticulously listed all the works of the 19th-century poet."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کتێبناسەکە بەوردی هەموو کارەکانی هۆزانڤانەکەی سەدەی ١٩ ی خستە لیستێکەوە."),
+                                      "کتێبناسەکە بەوردی ھەموو کارەکانی ھۆزانڤانەکەی سەدەی ١٩ ی خستە لیستێکەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBibliographers1("en-GB"),
@@ -240,7 +240,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bibliographer (Derived forms: bibliographers)
+- Noun: bibliographer (derived forms: bibliographers)
 1. Someone trained in compiling bibliographies
 """,
           )

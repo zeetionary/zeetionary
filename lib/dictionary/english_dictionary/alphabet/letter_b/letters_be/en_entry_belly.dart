@@ -59,7 +59,7 @@ class EnglishEntrybelly extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBellys44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The belly of the aircraft was painted red."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBellys5(String languageCode) async {
@@ -67,7 +67,7 @@ class EnglishEntrybelly extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBellys55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The starving child's swollen belly was a stark reminder of the ongoing famine in the region."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBellys6(String languageCode) async {
@@ -237,10 +237,10 @@ class EnglishEntrybelly extends StatelessWidget {
                                       "سکی فڕۆکەکە (لاشەی فڕۆکەکە لە خوارەوە، لە نێوان باڵەکانی)  ڕەنگی سوور کرا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBellys2("en-GB"),
+                                onPressed: () => speakBellys4("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBellys2("en-US"),
+                                onPressed: () => speakBellys4("en-US"),
                               ),
                             ],
                           ),
@@ -258,10 +258,10 @@ class EnglishEntrybelly extends StatelessWidget {
                                       "سکی ئاوساوی منداڵەکە بیرھێنەرەوەیەکی زەقی وشکەساڵی بەردەوامی ھەرێمەکە بوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBellys3("en-GB"),
+                                onPressed: () => speakBellys5("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBellys3("en-US"),
+                                onPressed: () => speakBellys5("en-US"),
                               ),
                             ],
                           ),

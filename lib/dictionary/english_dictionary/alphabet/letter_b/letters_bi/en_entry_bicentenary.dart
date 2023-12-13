@@ -166,9 +166,9 @@ class EnglishEntrybicentenary extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: دووسەد ساڵە، دووسەدەمین ساڵ، ئاهەنگی دووسەد ساڵە
+کوردی: دووسەد ساڵە، دووسەدەمین ساڵ، ئاھەنگی دووسەد ساڵە
 
-١. (ناو) ساڵێک یان ڕۆژێک کە ئاهەنگی ڕووداوێک دەگێڕیت کە ٢٠٠ ساڵ بەسەریدا تێپەڕیوە"""),
+١. (ناو) ساڵێک یان ڕۆژێک کە ئاھەنگی ڕووداوێک دەگێڕیت کە ٢٠٠ ساڵ بەسەریدا تێپەڕیوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -176,7 +176,7 @@ class EnglishEntrybicentenary extends StatelessWidget {
                                       "A statue was erected to mark the bicentenary of the composer's birth."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پەیکەرێک دانرا بۆ وەبیرهێنانەوەی دووسەدهەمین ساڵیادی لەدایکبوونی ئاوازدانەرەکە."),
+                                      "پەیکەرێک دانرا بۆ وەبیرھێنانەوەی دووسەدھەمین ساڵیادی لەدایکبوونی ئاوازدانەرەکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBicentenarys1("en-GB"),
@@ -243,7 +243,7 @@ class EnglishMeaning extends StatelessWidget {
 1. Of or relating to or completing a period of 200 years (= bicentennial)
 "bicentenary celebration";
 
-- Noun: bicentenary (Derived forms: bicentenaries)
+- Noun: bicentenary (derived forms: bicentenaries)
 1. The 200th anniversary (or the celebration of it) (= bicentennial)
 """,
           )

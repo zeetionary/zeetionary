@@ -189,7 +189,7 @@ class EnglishEntryancestor extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "باوانی لە ئێرلەنداوە ھات‌بوون بۆ ئەمریکا"),
+                                      "باوانی لە ئێرلەنداوە ھات‌بوون بۆ ئەمریکا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAncestor7690("en-GB"),

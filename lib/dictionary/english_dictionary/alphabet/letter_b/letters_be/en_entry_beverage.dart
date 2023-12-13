@@ -165,7 +165,7 @@ class EnglishEntrybeverage extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) هەر خواردنەوەیەک جگە لە ئاو"""),
+١. (ناو) ھەر خواردنەوەیەک جگە لە ئاو"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

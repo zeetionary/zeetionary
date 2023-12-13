@@ -167,7 +167,7 @@ class EnglishEntrybestman extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: برازاوا، شۆشبان، برازاڤا
 
-١. (ناو) کەسێک کە هاوڕێ یان خزمی زاوایە لە ئاهەنگێکدا کە یارمەتی دەدا لەکاتی ئاهەنگەکە"""),
+١. (ناو) کەسێک کە ھاوڕێ یان خزمی زاوایە لە ئاھەنگێکدا کە یارمەتی دەدا لەکاتی ئاھەنگەکە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -175,7 +175,7 @@ class EnglishEntrybestman extends StatelessWidget {
                                       "The groom asked his best friend to be his best man."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "زاواکە داوای لە باشترین هاوڕێی کرد ببێت بە برازاوای."),
+                                      "زاواکە داوای لە باشترین ھاوڕێی کرد ببێت بە برازاوای."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBestmans1("en-GB"),

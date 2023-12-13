@@ -317,7 +317,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Verb: belong (derived forms: belonging to, belongs to, belonged to)
+- Phrasal verb: belong (derived forms: belonging to, belongs to, belonged to)
 1. Be owned by; be in the possession of
 "This book belongs to me"
 

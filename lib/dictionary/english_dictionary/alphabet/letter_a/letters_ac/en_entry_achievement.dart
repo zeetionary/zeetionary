@@ -142,7 +142,7 @@ class EnglishEntryachievement extends StatelessWidget {
                                       "It was a remarkable achievement for such a young player."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەستکەوتێکی ناوازە بوو یەریزانێکی وا گەنج."),
+                                      "دەستکەوتێکی ناوازە بوو بۆ یاریزانێکی وا گەنج."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA452876("en-GB"),

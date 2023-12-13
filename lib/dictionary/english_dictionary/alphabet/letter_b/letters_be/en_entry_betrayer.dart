@@ -175,7 +175,7 @@ class EnglishEntrybetrayer extends StatelessWidget {
                                       "Judas Iscariot is remembered as Christ's betrayer."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "یەهودا ئیسخاریۆت وەک خیانەتکار لە پێغەمبەر عیسا بەبیردەهێندرێتەوە."),
+                                      "یەھودا ئیسخاریۆت وەک خیانەتکار لە پێغەمبەر عیسا بەبیردەھێندرێتەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetrayers1("en-GB"),

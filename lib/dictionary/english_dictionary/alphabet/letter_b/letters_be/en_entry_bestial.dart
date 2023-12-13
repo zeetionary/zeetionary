@@ -165,7 +165,7 @@ class EnglishEntrybestial extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: گیانەوەری، ئاژەڵی، هۆڤ، دڕندە، بێ‌بەزەیی، گیانەوەرخوو، وەکوو حەیوان، بێ‌بەزەیی‌یانە، دڵڕەقانە، نامرۆڤانە 
+کوردی: گیانەوەری، ئاژەڵی، ھۆڤ، دڕندە، بێ‌بەزەیی، گیانەوەرخوو، وەکوو حەیوان، بێ‌بەزەیی‌یانە، دڵڕەقانە، نامرۆڤانە 
 
 ١. (ھاوەڵناو) دڕندە و ترسناک"""),
                           Row(
@@ -175,7 +175,7 @@ class EnglishEntrybestial extends StatelessWidget {
                                       "The soldiers were accused of bestial acts against unarmed civilians."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سەربازان تۆمەتبارکران بە کردەی دڕندانە دژ بە هاوڵاتیانی مەدەنی."),
+                                      "سەربازان تۆمەتبارکران بە کردەی دڕندانە دژ بە ھاوڵاتیانی مەدەنی."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBestials1("en-GB"),

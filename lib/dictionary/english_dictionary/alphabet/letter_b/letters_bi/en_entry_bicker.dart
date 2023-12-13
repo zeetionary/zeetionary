@@ -173,7 +173,7 @@ class EnglishEntrybicker extends StatelessWidget {
                                       "The children are always bickering about something or other."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "منداڵەکان هەمیشە دەمەدمیانە لەسەر شتێک."),
+                                      "منداڵەکان ھەمیشە دەمەدەمیانە لەسەر شتێک."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBickers1("en-GB"),
@@ -236,10 +236,10 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bicker (Derived forms: bickers)
+- Noun: bicker (derived forms: bickers)
 1. A quarrel about petty points (= bickering, spat [informal], tiff [informal], squabble, pettifoggery, fuss, brannigan [US, informal])
 
-- Verb: bicker (Derived forms: bickered, bickering, bickers)
+- Verb: bicker (derived forms: bickered, bickering, bickers)
 1. Argue over petty things (= quibble, niggle, pettifog, squabble, brabble)
 "Let's not bicker over pennies";
 """,

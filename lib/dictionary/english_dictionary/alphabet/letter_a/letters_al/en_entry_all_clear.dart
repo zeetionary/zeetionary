@@ -196,7 +196,7 @@ class EnglishEntryallclear extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کەشتییەکە مۆڵەتی پێدرا بۆ چوونە دەریا"),
+                                      "کەشتییەکە مۆڵەتی پێدرا بۆ چوونە دەریا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllclear385796("en-GB"),

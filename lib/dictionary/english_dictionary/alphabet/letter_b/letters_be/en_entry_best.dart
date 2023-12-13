@@ -682,7 +682,7 @@ class EnglishEntrybest extends StatelessWidget {
                                       "The best we can hope for in the game is a draw."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "باشترین کە لە یارییەکە دەتوانین ھیوای بۆ بخوازی یەکسان بوونە."),
+                                      "باشترین کە لە یارییەکە دەتوانین ھیوای بۆ بخوازین یەکسان بوونە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBests17("en-GB"),
@@ -703,7 +703,7 @@ class EnglishEntrybest extends StatelessWidget {
                                       "He was determined not to be bested by his old rival."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سوور بوو لەسەر ئەوەی شکست نەخوات بە دەستی ڕکابەرەکەی."),
+                                      "سوور بوو لەسەر ئەوەی شکست نەخوات بە دەستی ڕکابەرە کۆنەکەی."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBests18("en-GB"),
@@ -722,7 +722,7 @@ class EnglishEntrybest extends StatelessWidget {
                                       "A great colonial power was nearly bested by a few farmers."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەسەڵاتێکی داگیرکەری بە نزیکەیی شکستی خوارد بە دەستی ژمارەیەکی کەم جوتیار."),
+                                      "دەسەڵاتێکی داگیرکەری گەورە بە نزیکەیی شکستی خوارد بە دەستی ژمارەیەکی کەم جوتیار."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBests19("en-GB"),

@@ -175,7 +175,7 @@ class EnglishEntrybib extends StatelessWidget {
                                       "The bib caught all the spilled milk, saving my shirt from a stain."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەروانکە هەموو شیرە ڕژاوەکەی بەرکەوت و جلەکانمی لە پیسبوون پاراست."),
+                                      "بەروانکەکە ھەموو شیرە ڕژاوەکەی بەرکەوت و جلەکانمی لە پیسبوون پاراست."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBibs1("en-GB"),
@@ -238,12 +238,12 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-Noun: bib (Derived forms: bibs)
+Noun: bib (derived forms: bibs)
 1. Top part of an apron; covering the chest
  
 2. A napkin tied under the chin of a child while eating
 
-- Verb: bib (Derived forms: bibbed, bibs, bibbing)
+- Verb: bib (derived forms: bibbed, bibs, bibbing)
 1. Drink moderately but regularly (= tipple)
 """,
           )

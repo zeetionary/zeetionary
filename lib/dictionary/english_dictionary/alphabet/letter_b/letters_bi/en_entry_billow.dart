@@ -169,7 +169,7 @@ class EnglishEntrybillow extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: شەپۆل، لیپاو، پێل، تۆپەڵە، بارستایی، بارستە
 
-١. (کردار) پڕبوون لە هەوا و درووستکرنی تۆپەڵێک"""),
+١. (کردار) پڕبوون لە ھەوا و درووستکرنی تۆپەڵێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -188,7 +188,7 @@ class EnglishEntrybillow extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (کردار) بەرزبوونەوەی دووکەڵ و هەور"""),
+٢. (کردار) بەرزبوونەوەی دووکەڵ و ھەور"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -209,7 +209,7 @@ class EnglishEntrybillow extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (ناو) تۆپەڵێکی گەورە لە دووکەڵ یان هەڵم لە شێوەی شەپۆلدا"""),
+٣. (ناو) تۆپەڵێکی گەورە لە دووکەڵ یان ھەڵم لە شێوەی شەپۆلدا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -280,10 +280,10 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: billow (Derived forms: billows)
+- Noun: billow (derived forms: billows)
 1. A large sea wave (= surge)
 
-- Verb: billow (Derived forms: billowed, billows, billowing)
+- Verb: billow (derived forms: billowed, billows, billowing)
 1. Rise up as if in waves (= wallow)
 "smoke billowed up into the sky";
  
@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/j_y88KAPKW0?t=";
+  static String myVideoId = "j_y88KAPKW0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -333,7 +333,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/owxtROejMB0?t=";
+  static String myVideoId = "owxtROejMB0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -358,7 +358,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/U4zYb7K7xu4?t=";
+  static String myVideoId = "U4zYb7K7xu4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -383,7 +383,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/DustMUjfk58?t=";
+  static String myVideoId = "DustMUjfk58";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -408,7 +408,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/ID-u83pzwUU?t=";
+  static String myVideoId = "ID-u83pzwUU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -433,7 +433,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/YfW7SCBbxUk?t=";
+  static String myVideoId = "YfW7SCBbxUk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -458,7 +458,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/Ex74x_gqTU0?t=";
+  static String myVideoId = "Ex74x_gqTU0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -483,7 +483,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/3YFeE1eDlD0?t=";
+  static String myVideoId = "3YFeE1eDlD0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -508,7 +508,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/ZWZW3keTUPE?t=";
+  static String myVideoId = "ZWZW3keTUPE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -533,7 +533,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/XyS-tYoOj6g?t=";
+  static String myVideoId = "XyS-tYoOj6g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

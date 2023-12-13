@@ -167,7 +167,7 @@ class EnglishEntrybevy extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: گەل، دەستە، خێڵ، لەشکر، جەماعەت، کۆمەڵ، تاقم، پۆل
 
-١. (ناو) ژمارەیەکی زۆر لە خەڵکی یان شتی هەمان جۆر"""),
+١. (ناو) ژمارەیەکی زۆر لە خەڵکی یان شتی ھەمان جۆر"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

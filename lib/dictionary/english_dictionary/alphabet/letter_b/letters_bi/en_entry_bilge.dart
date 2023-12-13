@@ -165,7 +165,7 @@ class EnglishEntrybilge extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بنەکەشتی، تەرکی کەشتی، تەختی کەشتی، گەن(ـد)او یان ئاوی بنەکەشتی (لە بن یان تەرکی کەشتی کۆبۆتەوە)، زگ یان تەنگەی کۆس، قسەی هەڵیت‌وپڵیت
+کوردی: بنەکەشتی، تەرکی کەشتی، تەختی کەشتی، گەن(ـد)او یان ئاوی بنەکەشتی (لە بن یان تەرکی کەشتی کۆبۆتەوە)، زگ یان تەنگەی کۆس، قسەی ھەڵیت‌وپڵیت
 
 ١. (ناو) بەشی تەختی خوارەوەی کەشتییەک یان بەلەمێک کە تێیدا ئاوی پیس کۆدەبێتەوە، یان ئەو ئاوەی تێیدا کۆدەبێتەوە"""),
                           Row(
@@ -188,13 +188,13 @@ class EnglishEntrybilge extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ناو) قسەی هیچ"""),
+٢. (ناو) قسەی ھیچ"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Don't talk such bilge!"),
                               const ExampleSentenceKurdish(
-                                  text: "هێندە قسەی هیج مەکە!"),
+                                  text: "ھێندە قسەی ھیج مەکە!"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBilges2("en-GB"),
@@ -257,14 +257,14 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bilge (Derived forms: bilges)
+- Noun: bilge (derived forms: bilges)
 1. Where the sides of a ship curve in to form the bottom
  
 2. Water accumulated in the bilge of a ship (= bilge water)
  
 3. [informal] Statements or beliefs that are untrue or make no sense (= bunk [informal], bunkum [informal], buncombe [informal], guff [informal], rot [informal], hogwash [informal], flapdoodle [N. Amer, informal], rhubarb [Brit, informal], Irish bull [slang], bull [slang], junk [informal], nonsense, jive [N. Amer, informal], folderol, rubbish [informal], tripe [informal], trumpery [archaic], trash [informal], wish-wash [informal], applesauce [N. Amer, informal], codswallop [Brit, informal], falderal)
 
-- Verb: bilge (Derived forms: bilged, bilges, bilging)
+- Verb: bilge (derived forms: bilged, bilges, bilging)
 1. Damage the bilge of a ship so that it leaks
 "the collision bilged the vessel"
  
@@ -283,7 +283,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/4Nr1AgIfajI?t=";
+  static String myVideoId = "4Nr1AgIfajI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -308,7 +308,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/ajK1QMP7ZyI?t=";
+  static String myVideoId = "ajK1QMP7ZyI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -333,7 +333,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/6EPR4Ux-U6k?t=";
+  static String myVideoId = "6EPR4Ux-U6k";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -358,7 +358,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/YZAibo7eiik?t=";
+  static String myVideoId = "YZAibo7eiik";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -383,7 +383,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/xSqbXl5m4_o?t=";
+  static String myVideoId = "xSqbXl5m4_o";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -408,7 +408,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/IADvif3wv1M?t=";
+  static String myVideoId = "IADvif3wv1M";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -433,7 +433,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/u3AjDP35K6A?t=";
+  static String myVideoId = "u3AjDP35K6A";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -458,7 +458,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/9Lgc_NtwApQ?t=";
+  static String myVideoId = "9Lgc_NtwApQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -483,7 +483,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/K7MdJXI9Ch0?t=";
+  static String myVideoId = "K7MdJXI9Ch0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -508,7 +508,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/Mzh8dNFDqq4?t=";
+  static String myVideoId = "Mzh8dNFDqq4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -533,7 +533,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/xZwzqmRJB4I?t=";
+  static String myVideoId = "xZwzqmRJB4I";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -558,7 +558,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/dqz9EFKbxeg?t=";
+  static String myVideoId = "dqz9EFKbxeg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -583,7 +583,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 class YoutubeEmbeddedthirteen extends StatelessWidget {
   YoutubeEmbeddedthirteen({super.key});
 
-  static String myVideoId = "https://youtu.be/BfqQA2lzW1Q?t=";
+  static String myVideoId = "BfqQA2lzW1Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -608,7 +608,7 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
 class YoutubeEmbeddedfourteen extends StatelessWidget {
   YoutubeEmbeddedfourteen({super.key});
 
-  static String myVideoId = "https://youtu.be/gp9GI1miuxw?t=";
+  static String myVideoId = "gp9GI1miuxw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

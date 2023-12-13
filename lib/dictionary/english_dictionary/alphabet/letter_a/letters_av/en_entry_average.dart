@@ -319,7 +319,7 @@ class EnglishEntryaverage extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "تێکڕای ١٥ گۆڵی ھەبووە لە دوو وەرزی ڕابردوودا"),
+                                      "تێکڕای ١٥ گۆڵی ھەبووە لە دوو وەرزی ڕابردوودا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAverages6("en-GB"),

@@ -497,7 +497,7 @@ class EnglishEntrybegin extends StatelessWidget {
                                       "Use ‘an’ before words beginning with a vowel."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "وشەی ‘an’ لە پێش ئەو وشانەی کە بە بزوێن دەستپێ‌دەکەن."),
+                                      "وشەی ‘an’ بەکاربێنە لە پێش ئەو وشانەی کە بە بزوێن دەستپێ‌دەکەن."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBegins9("en-GB"),

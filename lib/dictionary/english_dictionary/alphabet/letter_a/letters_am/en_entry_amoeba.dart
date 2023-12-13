@@ -144,7 +144,7 @@ class EnglishEntryamoeba extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "توێژینەوە دەکات لەسەر ژینگەناسیی ئەمیبا"),
+                                      "توێژینەوە دەکات لەسەر ژینگەناسیی ئەمیبا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakamoeba352477("en-GB"),

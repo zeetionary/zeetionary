@@ -169,7 +169,7 @@ class EnglishEntryaccount extends StatelessWidget {
                                       "He opened an account at a bank in Germany."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ھەژمارێکی کردەوە لە بانکێک لە ئەڵمانیا"),
+                                      "ھەژمارێکی کردەوە لە بانکێک لە ئەڵمانیا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA2573("en-GB"),

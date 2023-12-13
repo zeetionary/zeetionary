@@ -234,7 +234,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: biceps (Derived forms: bicepses)
+- Noun: biceps (derived forms: bicepses)
 1. Any skeletal muscle having two origins (but especially the muscle that flexes the forearm)
 "he gave his biceps a flex to impress the ladies"
 """,

@@ -142,7 +142,7 @@ class EnglishEntryaffluence extends StatelessWidget {
                                       "The 1950s were an age of affluence in America."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ساڵانی ١٩٥٠ یەکان سەردەمی زۆر و زەبەندی بوو لە ئەمریکا"),
+                                      "ساڵانی ١٩٥٠ یەکان سەردەمی زۆر و زەبەندی بوو لە ئەمریکا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfflue752("en-GB"),

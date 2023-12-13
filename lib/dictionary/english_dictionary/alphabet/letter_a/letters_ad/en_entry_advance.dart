@@ -404,7 +404,7 @@ class EnglishEntryadvance extends StatelessWidget {
                                       "The article advances a new theory to explain changes in the climate."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "وتارەکە بیردۆزێکی تازە پێشنیار دەکات بۆ ڕوونکردنەوەی گۆڕان لە ئاووھەوا"),
+                                      "وتارەکە بیردۆزێکی تازە پێشنیار دەکات بۆ ڕوونکردنەوەی گۆڕان لە ئاووھەوا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdva7864("en-GB"),

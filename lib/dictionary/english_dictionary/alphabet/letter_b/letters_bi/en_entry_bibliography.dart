@@ -170,7 +170,7 @@ class EnglishEntrybibliography extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: چاوگنامە، بیبلیۆگڕافی، کتێب‌ناسی
 
-١. (ناو) کۆمەڵە کتێبێک کە بەکارهێندراون بۆ نووسینی کتێبێک یان وتارێک"""),
+١. (ناو) کۆمەڵە کتێبێک کە بەکارھێندراون بۆ نووسینی کتێبێک یان وتارێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -218,7 +218,7 @@ class EnglishEntrybibliography extends StatelessWidget {
                                       "At the end of the interview is a good bibliography of the writer's work."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لەکۆتایی چاوپێکەوتنەکە چاوگنامەیەکی باشی کارەکانی نووسەرەکە هەیە."),
+                                      "لەکۆتایی چاوپێکەوتنەکە چاوگنامەیەکی باشی کارەکانی نووسەرەکە ھەیە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBibliographys3("en-GB"),
@@ -239,7 +239,7 @@ class EnglishEntrybibliography extends StatelessWidget {
                                       "He is a professional librarian skilled in bibliography and at home in the world of books."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کتێبەوانێکی کارامەیە کە شارەزایی هەیە لە کتێبناسی و لە جیهانی کتێبدا ڕۆچووە."),
+                                      "کتێبەوانێکی کارامەیە کە شارەزایی ھەیە لە کتێبناسی و لە جیھانی کتێبدا ڕۆچووە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBibliographys4("en-GB"),
@@ -302,7 +302,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bibliography (Derived forms: bibliographies)
+- Noun: bibliography (derived forms: bibliographies)
 1. A list of writings with time and place of publication (such as the writings of a single author or the works referred to in preparing a document etc.)
 """,
           )

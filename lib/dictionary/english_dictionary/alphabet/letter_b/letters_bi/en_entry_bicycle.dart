@@ -169,7 +169,7 @@ class EnglishEntrybicycle extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: دووچەرخە، چەرخ، ئەسپەدارینە، پاسکیل، پایسکڵ
 
-١. (ناو) ئامێرێکی گوێزەرەوە کە کە دوو ویلی هەیە و لێیدەخوڕی بە پاڵنانی پایدەرەکانی بە پێیەکانت"""),
+١. (ناو) ئامێرێکی گوێزەرەوە کە کە دوو ویلی ھەیە و لێیدەخوڕی بە پاڵنانی پایدەرەکانی بە پێیەکانت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -278,10 +278,10 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bicycle (Derived forms: bicycles)
+- Noun: bicycle (derived forms: bicycles)
 1. A wheeled vehicle that has two wheels and is moved by foot pedals (= bike, cycle)
 
-- Verb: bicycle (Derived forms: bicycles, bicycling, bicycled)
+- Verb: bicycle (derived forms: bicycles, bicycling, bicycled)
 1. Ride a bicycle (= cycle, bike, pedal, wheel)
 """,
           )

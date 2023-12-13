@@ -139,7 +139,7 @@ class EnglishEntryactivist extends StatelessWidget {
                                       "Thousands of environmental activists joined the march to demand action on climate change."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ھەزاران چالاکوانی ژینگەیی بەژداربوون لە ڕێپێوانێک بۆ داوای ھەنگاونان دژ بە گۆڕانی کەشوھەوا"),
+                                      "ھەزاران چالاکوانی ژینگەیی بەژداربوون لە ڕێپێوانێک بۆ داوای ھەنگاونان دژ بە گۆڕانی کەشوھەوا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAct32568("en-GB"),

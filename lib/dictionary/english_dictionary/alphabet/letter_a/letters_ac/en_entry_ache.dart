@@ -215,7 +215,7 @@ class EnglishEntryache extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "Mummy, I've got a tummy ache."),
                               const ExampleSentenceKurdish(
-                                  text: "دایکە، سکم ژان ئەکا"),
+                                  text: "دایکە، سکم ژان ئەکا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA14568("en-GB"),

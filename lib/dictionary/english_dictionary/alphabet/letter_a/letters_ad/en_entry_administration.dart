@@ -184,7 +184,7 @@ class EnglishEntryadministration extends StatelessWidget {
                                       "He was Secretary of Education in Obama's first administration."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "وەزیری پەروەردە بوو لە کابینەکەی ئۆباما"),
+                                      "وەزیری پەروەردە بوو لە کابینەکەی ئۆباما."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdminist3547("en-GB"),

@@ -144,7 +144,7 @@ class EnglishEntryaground extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کەشتییە نەوتییەکە چەقی لە کەناراوەکانی ئیسپانیا"),
+                                      "کەشتییە نەوتییەکە چەقی لە کەناراوەکانی ئیسپانیا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAgro3441("en-GB"),

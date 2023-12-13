@@ -165,7 +165,7 @@ class EnglishEntrybestseller extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) بەرهەمێک، بەزۆری کتێبێک، کە فرۆشێکی زۆری هەبوو"""),
+١. (ناو) بەرھەمێک، بەزۆری کتێبێک، کە فرۆشێکی زۆری ھەبوو"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -173,7 +173,7 @@ class EnglishEntrybestseller extends StatelessWidget {
                                       "The 'Harry Potter' novels were all bestsellers."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕۆمانەکانی هاری پۆتەر هەموو پڕفرۆش بوون."),
+                                      "ڕۆمانەکانی ھاری پۆتەر ھەموو پڕفرۆش بوون."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBestsellers1("en-GB"),

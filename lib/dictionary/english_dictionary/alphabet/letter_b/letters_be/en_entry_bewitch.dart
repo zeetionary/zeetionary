@@ -166,7 +166,7 @@ class EnglishEntrybewitch extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (کردار) سەرسامکردنی کەسێک بە ئاستێک کە هۆش و بیری دەبەیت"""),
+١. (کردار) سەرسامکردنی کەسێک بە ئاستێک کە ھۆش و بیری دەبەیت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -257,7 +257,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Verb: bewitch (Derived forms: bewitching, bewitched, bewitches)
+- Verb: bewitch (derived forms: bewitching, bewitched, bewitches)
 1. Cause rapt attraction or admiration; attract love (= capture, enamour [Brit, Cdn], trance, catch, becharm [archaic], enamor [US], captivate, beguile, charm, fascinate, entrance, enchant)
 "She bewitched all the men's hearts";
  

@@ -177,7 +177,7 @@ class EnglishEntrybetray extends StatelessWidget {
                                       "He was offered money to betray his colleagues."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پارەی پێدرا تا ناپاکی لە هاوڕیکانی بکات."),
+                                      "پارەی پێدرا تا ناپاکی لە ھاوڕیکانی بکات."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetrays1("en-GB"),
@@ -196,7 +196,7 @@ class EnglishEntrybetray extends StatelessWidget {
                                       "For years they had been betraying state secrets to Russia."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بۆ چەندین ساڵ نهێنی وڵاتیان بە ڕووسیا دەدا."),
+                                      "بۆ چەندین ساڵ نھێنی وڵاتیان بە ڕووسیا دەدا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetrays2("en-GB"),
@@ -209,7 +209,7 @@ class EnglishEntrybetray extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (کردار) ئازاردانی کەسێک کە متمانەی پێتە، بە تایبەتی بە درۆکردن لەگەڵیان یان درۆکردن لەسەریان، یان درکاندنی نهێنیان"""),
+٢. (کردار) ئازاردانی کەسێک کە متمانەی پێتە، بە تایبەتی بە درۆکردن لەگەڵیان یان درۆکردن لەسەریان، یان درکاندنی نھێنیان"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -217,7 +217,7 @@ class EnglishEntrybetray extends StatelessWidget {
                                       "She felt betrayed when she found out the truth about him."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەستی بە دڵشکاوی کرد کە ڕاستییەکەی لەسەری زانی."),
+                                      "ھەستی بە دڵشکاوی کرد کە ڕاستییەکەی لەسەری زانی."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetrays3("en-GB"),
@@ -249,7 +249,7 @@ class EnglishEntrybetray extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (کردار) خیانەتکردن لە بەها و متمانەی خۆت لە پێناو بەدەستهێنانی شتێک یان سوودمەند بوون"""),
+٣. (کردار) خیانەتکردن لە بەھا و متمانەی خۆت لە پێناو بەدەستھێنانی شتێک یان سوودمەند بوون"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -257,7 +257,7 @@ class EnglishEntrybetray extends StatelessWidget {
                                       "Critics claim he has betrayed the communist movement for his own gain."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕەخنەگران بانگەشەی ئەوە دەکەن کە وازی لە جوڵانەوەی کۆمیونیزم هێناوە بۆ بەرژەوەندی خۆی."),
+                                      "ڕەخنەگران بانگەشەی ئەوە دەکەن کە وازی لە جوڵانەوەی کۆمیونیزم ھێناوە بۆ بەرژەوەندی خۆی."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetrays4("en-GB"),
@@ -270,7 +270,7 @@ class EnglishEntrybetray extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٤. (کردار) وتن یان ئاگادارکردنەوەی کەسێک لە زانیارییەک، هەستێک، هتد، زۆرجار بەبێ مەبەست"""),
+٤. (کردار) وتن یان ئاگادارکردنەوەی کەسێک لە زانیارییەک، ھەستێک، ھتد، زۆرجار بەبێ مەبەست"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

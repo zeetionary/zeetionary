@@ -177,7 +177,7 @@ class EnglishEntrybetray extends StatelessWidget {
                                       "He was offered money to betray his colleagues."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پارەی پێدرا تا ناپاکی لە ھاوڕیکانی بکات."),
+                                      "پارەی پێدرا تا ناپاکی لە ھاوڕێکانی بکات."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBetrays1("en-GB"),

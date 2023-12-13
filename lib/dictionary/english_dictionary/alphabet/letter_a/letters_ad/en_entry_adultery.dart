@@ -133,7 +133,7 @@ class EnglishEntryadultery extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: زینا، پێوەندی سێکسی یان ناڕەوا
 
-١. (ناو) سێکس لە نێوان کەسێکی خێزاندار و کەسێکی تر کە خێزانەکەی نییە"""),
+١. (ناو) سێکس لە نێوان کەسێکی خێزاندار و کەسێکی تر کە خێزانی خۆی نییە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

@@ -194,7 +194,7 @@ class EnglishEntryapprove extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بە دایکم گوت قوتابخانە جێدێڵم، بەڵام ڕازی نەبوو."),
+                                      "بە دایکمم گوت واز قوتابخانە دێنم، بەڵام ڕازی نەبوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakApprove907("en-GB"),

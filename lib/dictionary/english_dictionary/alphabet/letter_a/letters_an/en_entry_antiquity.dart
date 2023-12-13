@@ -191,7 +191,8 @@ class EnglishEntryantiquity extends StatelessWidget {
                               //   width: 30,
                               // ),
                               const ExampleSentenceKurdish(
-                                  text: "رستە_رستە_رستە_رستە."),
+                                  text:
+                                      "پەیکەرەکە لە سەردەمانی کۆندا هێنرا بۆ ڕۆما."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAntiquity1151("en-GB"),

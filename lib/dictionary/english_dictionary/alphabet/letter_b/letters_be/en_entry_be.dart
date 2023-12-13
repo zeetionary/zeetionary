@@ -308,7 +308,7 @@ class EnglishEntrybe extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBes3333"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I tried phoning but there was no answer."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBes34(String languageCode) async {
@@ -316,7 +316,7 @@ class EnglishEntrybe extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBes3434"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The town is three miles away."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBes35(String languageCode) async {
@@ -324,7 +324,7 @@ class EnglishEntrybe extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBes3535"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He was killed in the war."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBes36(String languageCode) async {
@@ -332,7 +332,7 @@ class EnglishEntrybe extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBes3636"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("They are to be married in June."); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -517,10 +517,10 @@ class EnglishEntrybe extends StatelessWidget {
                                   text: "تەلەفۆنم کرد بەڵام وەڵام نەدرایەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBes5("en-GB"),
+                                onPressed: () => speakBes33("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBes5("en-US"),
+                                onPressed: () => speakBes33("en-US"),
                               ),
                             ],
                           ),
@@ -553,10 +553,10 @@ class EnglishEntrybe extends StatelessWidget {
                                   text: "شارۆچکەکە سێ میل دوورە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBes6("en-GB"),
+                                onPressed: () => speakBes34("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBes6("en-US"),
+                                onPressed: () => speakBes34("en-US"),
                               ),
                             ],
                           ),
@@ -893,10 +893,10 @@ class EnglishEntrybe extends StatelessWidget {
                                   text: "لە جەنگەکە کوژرا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBes22("en-GB"),
+                                onPressed: () => speakBes35("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBes22("en-US"),
+                                onPressed: () => speakBes35("en-US"),
                               ),
                             ],
                           ),
@@ -990,10 +990,10 @@ class EnglishEntrybe extends StatelessWidget {
                                       "پلان وایە لە حوزەیران ھاوسەرگیری بکەن."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBes26("en-GB"),
+                                onPressed: () => speakBes36("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBes26("en-US"),
+                                onPressed: () => speakBes36("en-US"),
                               ),
                             ],
                           ),

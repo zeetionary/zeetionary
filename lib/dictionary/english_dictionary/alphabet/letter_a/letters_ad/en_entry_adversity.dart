@@ -19,13 +19,14 @@ class EnglishEntryadversity extends StatelessWidget {
     await flutterTts.speak("adversity"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdversity(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdversity
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adversity"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAdversity632(String languageCode) async {
+    // DOPSUM: CHANGE speakAdversity
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("He overcame many personal adversities."); // DOPSUM: CHANGE TEXT
+  }
 
   // Future<void> speakAdversity(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdversity
@@ -136,14 +137,16 @@ class EnglishEntryadversity extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "DOPSUM_WRITE_A_SENTENCE"),
-                              const ExampleSentenceKurdish(text: "رستە."),
+                                  text:
+                                      "He overcame many personal adversities."),
+                              const ExampleSentenceKurdish(
+                                  text: "بەسەر زۆر نەهامەتی کەسیدا زاڵ بوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakAdversity("en-GB"),
+                                onPressed: () => speakAdversity632("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakAdversity(
+                                onPressed: () => speakAdversity632(
                                     // REPLACE: adversity /ədˈvɜːrsəti/
                                     "en-US"),
                               ),

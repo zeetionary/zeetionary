@@ -167,7 +167,7 @@ class EnglishEntrybeginner extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: تازەکار، کەم‌زان، تازەفێر، نۆفێر، بەروەستا، تازەدەس‌پێکردوو
 
-١. (ناو) کەسێک کە تازە دەستی بە فێربوونی شتێک کردووە و ھیشتا بەباشی لێی نازانێت"""),
+١. (ناو) کەسێک کە تازە دەستی بە فێربوونی شتێک کردووە و ھیشتا بە باشی لێی نازانێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

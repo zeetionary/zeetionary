@@ -1645,38 +1645,38 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "biceps",
     "bicker",
     "bicycle",
-    // "bid",
-    // "bidder",
-    // "bidding",
-    // "bidet",
-    // "biennial",
-    // "bifocal",
-    // "bifocals",
-    // "big",
-    // "big game",
-    // "bigamist",
-    // "bigamous",
-    // "bigamy",
-    // "big-head",
-    // "big-headed",
-    // "bigot",
-    // "bigoted",
-    // "bigwig",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "bike",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    "bid",
+    "bidder",
+    "bidding",
+    "bidet",
+    "biennial",
+    "bifocal",
+    "bifocals",
+    "big",
+    "big game",
+    "bigamist",
+    "bigamous",
+    "bigamy",
+    "big-head",
+    "big-headed",
+    "bigot",
+    "bigoted",
+    "bigotry",
+    "bigwig",
+    "bike",
+    "bikini",
+    "bilateral",
+    "bile",
+    "bilge",
+    "bilingual",
+    "bilious",
+    "bill",
+    "billet",
+    "billiards",
+    "billion",
+    "bill of exchange",
+    "bill of lading",
+    "billow",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -8663,129 +8663,129 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-bicycle");
                   }
-                  // if (wordsEnglish == "bid") {
+                  if (wordsEnglish == "bid") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bid");
+                  }
+                  if (wordsEnglish == "bidder") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bidder");
+                  }
+                  if (wordsEnglish == "bidding") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bidding");
+                  }
+                  if (wordsEnglish == "bidet") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bidet");
+                  }
+                  if (wordsEnglish == "biennial") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-biennial");
+                  }
+                  if (wordsEnglish == "bifocals") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bifocals");
+                  }
+                  if (wordsEnglish == "bifocal") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bifocal");
+                  }
+                  if (wordsEnglish == "big") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-big");
+                  }
+                  if (wordsEnglish == "big game") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-big-game");
+                  }
+                  if (wordsEnglish == "big-head") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-big-head");
+                  }
+                  if (wordsEnglish == "big-headed") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-big-headed");
+                  }
+                  if (wordsEnglish == "bigwig") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bigwig");
+                  }
+                  if (wordsEnglish == "bigamy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bigamy");
+                  }
+                  if (wordsEnglish == "bigamist") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bigamist");
+                  }
+                  if (wordsEnglish == "bigamous") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bigamous");
+                  }
+                  if (wordsEnglish == "bigot") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bigot");
+                  }
+                  if (wordsEnglish == "bigoted") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bigoted");
+                  }
+                  if (wordsEnglish == "bigotry") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bigotry");
+                  }
+                  if (wordsEnglish == "bikini") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bikini");
+                  }
+                  if (wordsEnglish == "bilateral") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bilateral");
+                  }
+                  if (wordsEnglish == "bile") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bile");
+                  }
+                  if (wordsEnglish == "bilge") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bilge");
+                  }
+                  if (wordsEnglish == "bilingual") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bilingual");
+                  }
+                  if (wordsEnglish == "bilious") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bilious");
+                  }
+                  if (wordsEnglish == "bill") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bill");
+                  }
+                  if (wordsEnglish == "bill of exchange") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bill-of-exchange");
+                  }
+                  if (wordsEnglish == "bill of lading") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bill-of-lading");
+                  }
+                  if (wordsEnglish == "billet") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-billet");
+                  }
+                  // if (wordsEnglish == "billiards") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bid");
+                  //   Routemaster.of(context).push("/english-billiards");
                   // }
-                  // if (wordsEnglish == "bidder") {
+                  // if (wordsEnglish == "billion") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bidder");
+                  //   Routemaster.of(context).push("/english-billion");
                   // }
-                  // if (wordsEnglish == "bidding") {
+                  // if (wordsEnglish == "billow") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bidding");
-                  // }
-                  // if (wordsEnglish == "bidet") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bidet");
-                  // }
-                  // if (wordsEnglish == "biennial") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-biennial");
-                  // }
-                  // if (wordsEnglish == "bifocals") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bifocals");
-                  // }
-                  // if (wordsEnglish == "bifocal") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bifocal");
-                  // }
-                  // if (wordsEnglish == "big") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-big");
-                  // }
-                  // if (wordsEnglish == "big game") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-big-game");
-                  // }
-                  // if (wordsEnglish == "big-head") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-big-head");
-                  // }
-                  // if (wordsEnglish == "big-headed") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-big-headed");
-                  // }
-                  // if (wordsEnglish == "bigwig") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bigwig");
-                  // }
-                  // if (wordsEnglish == "bigamy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bigamy");
-                  // }
-                  // if (wordsEnglish == "bigamist") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bigamist");
-                  // }
-                  // if (wordsEnglish == "bigamous") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bigamous");
-                  // }
-                  // if (wordsEnglish == "bigot") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bigot");
-                  // }
-                  // if (wordsEnglish == "bigoted") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bigoted");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-billow");
                   // }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);

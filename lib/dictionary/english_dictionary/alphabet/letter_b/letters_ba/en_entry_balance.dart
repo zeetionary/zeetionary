@@ -245,7 +245,7 @@ class EnglishEntrybalance extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەم ڕۆژنامە بێ‌لایەنی خۆی بەباشی دەپارێزێت لە وێناکردنی بەچوونی جیاوازدا."),
+                                      "ئەم ڕۆژنامە بێ‌لایەنی خۆی بە باشی دەپارێزێت لە وێناکردنی بەچوونی جیاوازدا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBalances1("en-GB"),

@@ -187,7 +187,7 @@ class EnglishEntryanchorage extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کەنداوەکە بەباشی وەک بەندەرێکی سەلامەت ناسراوە."),
+                                      "کەنداوەکە بە باشی وەک بەندەرێکی سەلامەت ناسراوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnchorage152("en-GB"),

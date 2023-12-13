@@ -298,7 +298,7 @@ class EnglishEntryanybody extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ھەمووکەس دەیتوانی بەباشی خۆی بپۆشێ بەو ھەموو پارەوە."),
+                                      "ھەمووکەس دەیتوانی بە باشی خۆی بپۆشێ بەو ھەموو پارەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAnybody1059("en-GB"),

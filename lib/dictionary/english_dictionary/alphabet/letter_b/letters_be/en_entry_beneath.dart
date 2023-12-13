@@ -234,7 +234,7 @@ class EnglishEntrybeneath extends StatelessWidget {
                                       "They thought she had married beneath her (= married a man of lower social status)."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "وایان دەفکردی کە ھاوسەرگیری لەگەڵ پیاوێکی نزمتر لە ئاستی خۆی کرد."),
+                                      "وایان دەفکری کە ھاوسەرگیری لەگەڵ پیاوێکی نزمتر لە ئاستی خۆی کرد."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeneaths4("en-GB"),

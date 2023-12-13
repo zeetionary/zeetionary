@@ -396,7 +396,7 @@ class EnglishEntrybid extends StatelessWidget {
                                       "I bade farewell to all the friends I had made in Paris."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ماڵئاواییم لە ھەموو ئەو ھەوڕێیانە کرد کە لە پاریس ناسیبوومن."),
+                                      "ماڵئاواییم لە ھەموو ئەو ھاوڕێیانە کرد کە لە پاریس ناسیبوومن."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBids8("en-GB"),
@@ -442,7 +442,7 @@ class EnglishEntrybid extends StatelessWidget {
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                         ],
                       ),

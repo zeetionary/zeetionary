@@ -42,7 +42,7 @@ class EnglishEntrybed extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("I'll just put the kids to bed."); // DOPSUM: CHANGE TEXT
+        .speak("I'll put the kids to bed."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBeds3(String languageCode) async {
@@ -192,9 +192,9 @@ class EnglishEntrybed extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "I'll just put the kids to bed."),
+                                  text: "I'll put the kids to bed."),
                               const ExampleSentenceKurdish(
-                                  text: "تەنھا منداڵەکان دەبەمە جێگەی خەو."),
+                                  text: "منداڵەکان دەبەمە جێگەی خەو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeds2("en-GB"),

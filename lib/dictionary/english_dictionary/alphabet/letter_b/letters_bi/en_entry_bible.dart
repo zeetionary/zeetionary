@@ -190,7 +190,7 @@ class EnglishEntrybible extends StatelessWidget {
 ٢. (ناو) کتێبی پیرۆزی ئایینی جودایزم"""),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٣. (ناو) کۆپییەکی کتێبی پیرۆزی ئایینی مەسیحییەت و جودایزم"""),
+٣. (ناو) کۆپییەکی کتێبی پیرۆزی ئایینی مەسیحییەت یان جودایزم"""),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) کتێبێک یان گۆڤارێک کە ڕاوێژ و زانیاریی گرنگ دەدات سەبارەت بە بابەتێکی دیاریکراو"""),

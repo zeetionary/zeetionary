@@ -1666,14 +1666,13 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_binge.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_bingo.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_binoculars.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_biochemistry.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_biochemist.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_biodata.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_biodegradable.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_biodiversity.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_biography.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_biographer.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
@@ -3458,10 +3457,13 @@ final loggedInRoute = RouteMap(routes: {
   "/english-bib": (_) => MaterialPage(child: EnglishEntrybib()),
   "/english-bible": (_) => MaterialPage(child: EnglishEntrybible()),
   "/english-biblical": (_) => MaterialPage(child: EnglishEntrybiblical()),
-  "/english-bibliography": (_) => MaterialPage(child: EnglishEntrybibliography()),
-  "/english-bibliographer": (_) => MaterialPage(child: EnglishEntrybibliographer()),
+  "/english-bibliography": (_) =>
+      MaterialPage(child: EnglishEntrybibliography()),
+  "/english-bibliographer": (_) =>
+      MaterialPage(child: EnglishEntrybibliographer()),
   "/english-bicentenary": (_) => MaterialPage(child: EnglishEntrybicentenary()),
-  "/english-bicentennial": (_) => MaterialPage(child: EnglishEntrybicentennial()),
+  "/english-bicentennial": (_) =>
+      MaterialPage(child: EnglishEntrybicentennial()),
   "/english-biceps": (_) => MaterialPage(child: EnglishEntrybiceps()),
   "/english-bicker": (_) => MaterialPage(child: EnglishEntrybicker()),
   "/english-bicycle": (_) => MaterialPage(child: EnglishEntrybicycle()),
@@ -3490,8 +3492,10 @@ final loggedInRoute = RouteMap(routes: {
   "/english-bilingual": (_) => MaterialPage(child: EnglishEntrybilingual()),
   "/english-bilious": (_) => MaterialPage(child: EnglishEntrybilious()),
   "/english-bill": (_) => MaterialPage(child: EnglishEntrybill()),
-  "/english-bill-of-exchange": (_) => MaterialPage(child: EnglishEntrybillofexchange()),
-  "/english-bill-of-lading": (_) => MaterialPage(child: EnglishEntrybilloflading()),
+  "/english-bill-of-exchange": (_) =>
+      MaterialPage(child: EnglishEntrybillofexchange()),
+  "/english-bill-of-lading": (_) =>
+      MaterialPage(child: EnglishEntrybilloflading()),
   "/english-billet": (_) => MaterialPage(child: EnglishEntrybillet()),
   "/english-billiards": (_) => MaterialPage(child: EnglishEntrybilliards()),
   "/english-billion": (_) => MaterialPage(child: EnglishEntrybillion()),
@@ -3506,13 +3510,15 @@ final loggedInRoute = RouteMap(routes: {
   "/english-binge": (_) => MaterialPage(child: EnglishEntrybinge()),
   "/english-bingo": (_) => MaterialPage(child: EnglishEntrybingo()),
   "/english-binoculars": (_) => MaterialPage(child: EnglishEntrybinoculars()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-biochemistry": (_) =>
+      MaterialPage(child: EnglishEntrybiochemistry()),
+  "/english-biochemist": (_) => MaterialPage(child: EnglishEntrybiochemist()),
+  "/english-biodata": (_) => MaterialPage(child: EnglishEntrybiodata()),
+  "/english-biodegradable": (_) =>
+      MaterialPage(child: EnglishEntrybiodegradable()),
+  "/english-biodiversity": (_) => MaterialPage(child: EnglishEntrybiodiversity()),
+  "/english-biography": (_) => MaterialPage(child: EnglishEntrybiography()),
+  "/english-biographer": (_) => MaterialPage(child: EnglishEntrybiographer()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

@@ -293,7 +293,7 @@ class EnglishEntryaverage extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پلەی گەرمی لە سەروو ئاسایین بۆ ئەم کاتەی ساڵ"),
+                                      "پلەی گەرمی لە سەروو ئاسایین بۆ ئەم کاتەی ساڵ."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAverages5("en-GB"),

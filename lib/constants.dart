@@ -83,6 +83,28 @@ class _ZeetionaryAppbarStyleState extends ConsumerState<ZeetionaryAppbarStyle> {
   }
 }
 
+// // Simpler method than above
+
+// class ZeetionaryAppbarStyle extends ConsumerWidget {
+
+//   const ZeetionaryAppbarStyle({super.key});
+
+//   @override
+//   Widget build(BuildContext context, WidgetRef ref) {
+//     final currentTheme = ref.watch(themeNotifierProvider);
+
+//     return Text(
+//       'Zeetionary',
+//       style: TextStyle(
+//         fontSize: 30.0, // Adjust font size as needed
+//         fontWeight: FontWeight.bold, // Adjust font weight as needed
+//         color: currentTheme.primaryColor
+//             .withOpacity(0.8), // Text color (will be masked by the gradient)
+//       ),
+//     );
+//   }
+// }
+
 // class ZeetionaryAppbarStyle extends StatelessWidget {
 //   const ZeetionaryAppbarStyle({
 //     super.key,
@@ -504,7 +526,7 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
     _controller = AnimationController(
       vsync: this,
       duration:
-          const Duration(milliseconds: 1000), // Adjust the duration as needed
+          const Duration(milliseconds: 1300), // Adjust the duration as needed
     )..forward();
   }
 
@@ -520,7 +542,7 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
 
     return Expanded(
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 10.0),
+        padding: const EdgeInsets.symmetric(horizontal: 6.0),
         child: Container(
           decoration: BoxDecoration(
             color: Colors.blue.withOpacity(

@@ -164,7 +164,7 @@ class EnglishEntryadornment extends StatelessWidget {
                                       "Precious stones have been used for the purposes of adornment for over 7000 years."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەردی گرانبەھا بۆ ڕازاندنەوە بەکارھاتوون بۆ زیاتر لە ٧٠٠٠ ساڵ"),
+                                      "بەردی گرانبەھا بۆ ڕازاندنەوە بەکارھاتوون بۆ زیاتر لە ٧٠٠٠ ساڵ."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAd25698("en-GB"),

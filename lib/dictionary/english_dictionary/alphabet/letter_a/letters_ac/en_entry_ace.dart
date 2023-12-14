@@ -180,7 +180,7 @@ class EnglishEntryace extends StatelessWidget {
                                   text: "French ace Mbappé scored a penalty."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بلیمەتەکەی فەرەنسا، مباپێ، لێدانێکی سزای کرد بە گۆڵ"),
+                                      "بلیمەتەکەی فەرەنسا، مباپێ، لێدانێکی سزای کرد بە گۆڵ."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA82694("en-GB"),

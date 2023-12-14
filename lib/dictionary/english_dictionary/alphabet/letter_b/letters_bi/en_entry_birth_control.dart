@@ -5,90 +5,89 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "bin" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
+// Define the word "birth control" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
 
-// replace bin - replace EnglishEntrybin
+// replace birth control - replace EnglishEntrybirthcontrol
 
-// replace speakBin - /bɪn/
+// replace speakBirthcontrol - /ˈbɜːθ kəntrəʊl/
 
 enum TtsState { playing }
 
-class EnglishEntrybin extends StatelessWidget {
+class EnglishEntrybirthcontrol extends StatelessWidget {
 // blank divider
-  EnglishEntrybin({super.key});
+  EnglishEntrybirthcontrol({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBin(String languageCode) async {
-    // DOPSUM: CHANGE speakBin
+  Future<void> speakBirthcontrol(String languageCode) async {
+    // DOPSUM: CHANGE speakBirthcontrol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bin"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("birth control"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBins1(String languageCode) async {
-    // DOPSUM: CHANGE speakBin
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Put the bottles in the recycling bin."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBins2(String languageCode) async {
-    // DOPSUM: CHANGE speakBin
+  Future<void> speakBirthcontrols1(String languageCode) async {
+    // DOPSUM: CHANGE speakBirthcontrol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "All their toys are kept in plastic storage bins under the bed."); // DOPSUM: CHANGE TEXT
+        "Today's methods of birth control make it possible for a couple to choose whether or not to have a child."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBins3(String languageCode) async {
-    // DOPSUM: CHANGE speakBin
+  Future<void> speakBirthcontrols2(String languageCode) async {
+    // DOPSUM: CHANGE speakBirthcontrol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBins33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBirthcontrols22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBins4(String languageCode) async {
-    // DOPSUM: CHANGE speakBin
+  Future<void> speakBirthcontrols3(String languageCode) async {
+    // DOPSUM: CHANGE speakBirthcontrol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBins44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBirthcontrols33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBins5(String languageCode) async {
-    // DOPSUM: CHANGE speakBin
+  Future<void> speakBirthcontrols4(String languageCode) async {
+    // DOPSUM: CHANGE speakBirthcontrol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBins55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBirthcontrols44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBins6(String languageCode) async {
-    // DOPSUM: CHANGE speakBin
+  Future<void> speakBirthcontrols5(String languageCode) async {
+    // DOPSUM: CHANGE speakBirthcontrol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBins66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBirthcontrols55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBins7(String languageCode) async {
-    // DOPSUM: CHANGE speakBin
+  Future<void> speakBirthcontrols6(String languageCode) async {
+    // DOPSUM: CHANGE speakBirthcontrol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBins77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBirthcontrols66"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBirthcontrols7(String languageCode) async {
+    // DOPSUM: CHANGE speakBirthcontrol
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBirthcontrols77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 10, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -105,22 +104,23 @@ class EnglishEntrybin extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bin"),
+                            EntryTitle(word: "birth control"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /bɪn/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbɜːθ kəntrəʊl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBin("en-GB"),
+                              onPressed: () => speakBirthcontrol("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /bɪn/"),
+                            const IPAofEnglish(
+                                text: "IpaUS: /ˈbɜːrθ kəntrəʊl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBin("en-US"),
+                              onPressed: () => speakBirthcontrol("en-US"),
                             ),
                           ],
                         ),
@@ -138,12 +138,12 @@ class EnglishEntrybin extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 10
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
-                  // VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
+                  VideoIconForTab(), // 09
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
@@ -166,44 +166,23 @@ class EnglishEntrybin extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: تەنەکەی خۆڵ و خاک، قوتوو، سنووق(چە)، سیپ، کەندوو، کەنوو 
+کوردی: زاوزێ ڕاگرتن، مەھار یا کۆنتڕۆڵی زاوزێ، مەنع، بەرگیری (لە سکپڕی)
 
-١. (ناو) تەنەکەی زباڵە"""),
+١. (ناو) کردەی کۆنترۆڵکردنی ژمارەی ئەو منداڵانەی کەسێک ھەیەتی بە بەکارھێنانی ژمارەیەک ڕێگای بەرگیری"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Put the bottles in the recycling bin."),
+                                      "Today's methods of birth control make it possible for a couple to choose whether or not to have a child."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بوتڵەکان بخە تەنەکەی دووبارە بەکارھێنانەوەوە."),
+                                      "ڕێگاکانی ئەمڕۆی پێشگیری لە منداڵبوون ئاسانی دەکات بۆ ژن و پیاوێک کە ئایا منداڵیان ھەبێت یان نا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBins1("en-GB"),
+                                onPressed: () => speakBirthcontrols1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBins1("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ناو) جێگەیەک کە سەرێکی ھەیە و شتی تێدەخەیت"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "All their toys are kept in plastic storage bins under the bed."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو یارییە منداڵانەکانیان ھەڵدەگیرێن لە سندووقی پلاستیکی لە ژێر جێخەوەکەدا."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBins2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBins2("en-US"),
+                                onPressed: () => speakBirthcontrols1("en-US"),
                               ),
                             ],
                           ),
@@ -220,9 +199,9 @@ class EnglishEntrybin extends StatelessWidget {
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
-                    // YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddednine(),
+                    YoutubeEmbeddedten(),
+                    YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
@@ -260,22 +239,8 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bin (derived forms: bins)
-1. A container; usually has a lid
- 
-2. The quantity contained in a bin (= binful)
- 
-3. (statistics) one of a series of ranges of values for a particular variable
-"the lowest bin has all values less than 100"
-
-- Verb: bin (derived forms: binning, binned, bins)
-1. Store in bins
- 
-2. (statistics) to convert continuous data into discrete sets with similar values
-"make a plot of the binned values"
-
-- Noun: BIN
-1. An identification number consisting of a two-part code assigned to banks and savings associations; the first part shows the location and the second identifies the bank itself (= bank identification number, ABA transit number)
+- Noun: birth control
+1. Limiting the number of children born (= birth prevention, family planning)
 """,
           )
         ],
@@ -289,12 +254,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "47ODQI0OSOA";
+  static String myVideoId = "zeGkSMVcx7w";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 29, // DOPSUM: CHANGE IT
+      startAt: 26, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -314,12 +279,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "EtgxTKuN018";
+  static String myVideoId = "1ytq6hZ0lok";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 411, // DOPSUM: CHANGE IT
+      startAt: 135, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -339,12 +304,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "sAiTuitN5b8";
+  static String myVideoId = "rT8fM0s1k-o";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 320, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -364,12 +329,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "kUE2fPLOUxo";
+  static String myVideoId = "hJ-GYiKprMU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 92, // DOPSUM: CHANGE IT
+      startAt: 152, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -389,12 +354,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "xf4092nKXas";
+  static String myVideoId = "AMpdw6f0Lu0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 284, // DOPSUM: CHANGE IT
+      startAt: 54, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -414,12 +379,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "cffELv3X1ik";
+  static String myVideoId = "n2CGMlRJF04";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 697, // DOPSUM: CHANGE IT
+      startAt: 33, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -439,12 +404,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "Eqsi8Z2cc8c";
+  static String myVideoId = "ZHdpUVisWR8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 6, // DOPSUM: CHANGE IT
+      startAt: 120, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -464,12 +429,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "wksm1xI1Ms0";
+  static String myVideoId = "i9Af6q05Jhw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1442, // DOPSUM: CHANGE IT
+      startAt: 693, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -489,12 +454,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "lJH4CS8jtf0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -514,12 +479,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "N6P_S6JhxJA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -539,12 +504,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "8xm4yRLcs-Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -786,6 +751,6 @@ class YoutubeEmbeddedtwenty extends StatelessWidget {
   }
 }
 
-// morethan one video, only first autoplay
+// more than one video, only first autoplay
 
-// end bin// TODO Implement this library.
+// end birth control// TODO Implement this library.

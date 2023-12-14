@@ -5,7 +5,7 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "Dopsum1" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
+// Define the word "Dopsum1" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
 
 // replace Dopsum1 - replace EnglishEntry2
 
@@ -751,7 +751,7 @@ class YoutubeEmbeddedtwenty extends StatelessWidget {
   }
 }
 
-// morethan one video, only first autoplay
+// more than one video, only first autoplay
 
 // end Dopsum1
 

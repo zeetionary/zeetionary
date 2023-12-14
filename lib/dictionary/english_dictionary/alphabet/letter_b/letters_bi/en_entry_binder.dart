@@ -32,8 +32,8 @@ class EnglishEntrybinder extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He's filled five binders with notes."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He's filled five binders with notes."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBinders2(String languageCode) async {
@@ -41,7 +41,8 @@ class EnglishEntrybinder extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("A binder skillfully repaired the antique leather cover."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "A binder skillfully repaired the antique leather cover."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBinders3(String languageCode) async {
@@ -49,7 +50,8 @@ class EnglishEntrybinder extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("You can use egg as a binder."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("You can use egg as a binder."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBinders4(String languageCode) async {
@@ -57,7 +59,8 @@ class EnglishEntrybinder extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The way to harvest cereals 50 years ago was to use a binder, that cut the crop and tied it up in sheaves."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The way to harvest cereals 50 years ago was to use a binder, that cut the crop and tied it up in sheaves."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBinders5(String languageCode) async {
@@ -138,7 +141,7 @@ class EnglishEntrybinder extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -167,14 +170,14 @@ class EnglishEntrybinder extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: جزوبەندکار، جزوبەندچی، شیرازەبەند، بەرگ‌تێگر، کلاسۆر، بەست، چەقچەقە
 
-١. (ناو) بەرگێکی بەهێز بۆ گرتنی پەڕە یان گۆڤار پێکەوە"""),
+١. (ناو) بەرگێکی بەھێز بۆ گرتنی پەڕە یان گۆڤار پێکەوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "He's filled five binders with notes."),
+                                  text: "He's filled five binders with notes."),
                               const ExampleSentenceKurdish(
-                                  text: "پێنج بەرگ (مەحفەزە؟)ی پڕکرد لە تێبینی."),
+                                  text:
+                                      "پێنج بەرگ (مەحفەزە؟)ی پڕکرد لە تێبینی."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBinders1("en-GB"),
@@ -194,7 +197,8 @@ class EnglishEntrybinder extends StatelessWidget {
                                   text:
                                       "A binder skillfully repaired the antique leather cover."),
                               const ExampleSentenceKurdish(
-                                  text: "بەرگتێگرێک بە شارەزاییەوە بەرگی چەرمە کۆنەکەی چاککردەوە."),
+                                  text:
+                                      "بەرگتێگرێک بە شارەزاییەوە بەرگی چەرمە کۆنەکەی چاککردەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBinders2("en-GB"),
@@ -211,10 +215,10 @@ class EnglishEntrybinder extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "You can use egg as a binder."),
+                                  text: "You can use egg as a binder."),
                               const ExampleSentenceKurdish(
-                                  text: "دەتوانیت هێلکە وەک نووسێنەر بەکاربێنیت."),
+                                  text:
+                                      "دەتوانیت ھێلکە وەک نووسێنەر بەکاربێنیت."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBinders3("en-GB"),
@@ -234,7 +238,8 @@ class EnglishEntrybinder extends StatelessWidget {
                                   text:
                                       "The way to harvest cereals 50 years ago was to use a binder, that cut the crop and tied it up in sheaves."),
                               const ExampleSentenceKurdish(
-                                  text: "شێوازی دروێنەی خەلە ٥٠ ساڵ پێش ئێستا ئەوە بوو چەقچەقە بەکاربێت کە بەروبووەکەی دەبڕی و کۆیدەکردەوە لە چەپکدا."),
+                                  text:
+                                      "شێوازی دروێنەی خەلە ٥٠ ساڵ پێش ئێستا ئەوە بوو چەقچەقە بەکاربێت کە بەروبووەکەی دەبڕی و کۆیدەکردەوە لە چەپکدا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBinders4("en-GB"),
@@ -297,7 +302,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: binder (Derived forms: binders)
+- Noun: binder (derived forms: binders)
 1. A machine that cuts grain and binds it in sheaves (= reaper binder)
  
 2. Something used to bind separate particles together or facilitate adhesion to a surface
@@ -318,7 +323,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/ZMTOOOnvsv4?t=";
+  static String myVideoId = "ZMTOOOnvsv4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -343,7 +348,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/cbI8xK3hq4s?t=";
+  static String myVideoId = "cbI8xK3hq4s";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -368,7 +373,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/sjgKTS8Eu_Q?t=";
+  static String myVideoId = "sjgKTS8Eu_Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -393,7 +398,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/90SumxmHkx8";
+  static String myVideoId = "90SumxmHkx8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -418,7 +423,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/e91oM00_L28?t=";
+  static String myVideoId = "e91oM00_L28";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -443,7 +448,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/JzKa6wbyMV8";
+  static String myVideoId = "JzKa6wbyMV8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -468,7 +473,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/HYgOez0aDsY?t=";
+  static String myVideoId = "HYgOez0aDsY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -493,7 +498,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/o-o0ibjWpPo?t=";
+  static String myVideoId = "o-o0ibjWpPo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -518,7 +523,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/YF04w4xKpOI?t=";
+  static String myVideoId = "YF04w4xKpOI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -543,7 +548,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/RWJqCRr5RXA?t=";
+  static String myVideoId = "RWJqCRr5RXA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

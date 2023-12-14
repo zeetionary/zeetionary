@@ -41,7 +41,8 @@ class EnglishEntrybiochemistry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Human's biochemistry is almost identical to that of a cat."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Human's biochemistry is almost identical to that of a cat."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBiochemistrys3(String languageCode) async {
@@ -167,7 +168,7 @@ class EnglishEntrybiochemistry extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) لێکۆڵینەوەی زانستی لە پێکهاتە و ڕەفتاری کیمیایی زیندەوەران"""),
+١. (ناو) لێکۆڵینەوەی زانستی لە پێکھاتە و ڕەفتاری کیمیایی زیندەوەران"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -188,7 +189,7 @@ class EnglishEntrybiochemistry extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ناو) پێکهاتە و ڕەفتاری کیمیایی زیندەوەران"""),
+٢. (ناو) پێکھاتە و ڕەفتاری کیمیایی زیندەوەران"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -196,7 +197,7 @@ class EnglishEntrybiochemistry extends StatelessWidget {
                                       "Human's biochemistry is almost identical to that of a cat."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بایۆکیمیای مرۆڤ تا ڕادەیەک لێکچووە لەگەڵ هی پشیلە."),
+                                      "بایۆکیمیای مرۆڤ تا ڕادەیەک لێکچووە لەگەڵ ھی پشیلە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBiochemistrys2("en-GB"),
@@ -259,7 +260,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: biochemistry (Derived forms: biochemistries)
+- Noun: biochemistry (derived forms: biochemistries)
 1. The organic chemistry of compounds and processes occurring in organisms; the effort to understand biology within the context of chemistry
 """,
           )
@@ -274,7 +275,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/w90wFlR53VM?t=";
+  static String myVideoId = "w90wFlR53VM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -299,7 +300,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/XPjq2uxZWnM?t=";
+  static String myVideoId = "XPjq2uxZWnM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -324,7 +325,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/7aB74Av2mFA?t=";
+  static String myVideoId = "7aB74Av2mFA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -349,7 +350,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/6MaMdzo416w?t=";
+  static String myVideoId = "6MaMdzo416w";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -374,7 +375,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/pgISILhdvT0?t=";
+  static String myVideoId = "pgISILhdvT0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -399,7 +400,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/XDVY8qIZQQI?t=";
+  static String myVideoId = "XDVY8qIZQQI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -424,7 +425,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/w24G5TedLzE";
+  static String myVideoId = "w24G5TedLzE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -449,7 +450,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/1NndSjcDrs4?t=";
+  static String myVideoId = "1NndSjcDrs4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -474,7 +475,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/DmudB05qvvI";
+  static String myVideoId = "DmudB05qvvI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -499,7 +500,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/Wf2RS0u-GgA?t=";
+  static String myVideoId = "Wf2RS0u-GgA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

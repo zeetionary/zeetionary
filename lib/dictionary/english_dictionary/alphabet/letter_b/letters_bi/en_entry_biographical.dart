@@ -5,90 +5,90 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "bin" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
+// Define the word "biographical" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
 
-// replace bin - replace EnglishEntrybin
+// replace biographical - replace EnglishEntrybiographical
 
-// replace speakBin - /bɪn/
+// replace speakBiographical - /ˌbaɪəˈɡræfɪkl/
 
 enum TtsState { playing }
 
-class EnglishEntrybin extends StatelessWidget {
+class EnglishEntrybiographical extends StatelessWidget {
 // blank divider
-  EnglishEntrybin({super.key});
+  EnglishEntrybiographical({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBin(String languageCode) async {
-    // DOPSUM: CHANGE speakBin
+  Future<void> speakBiographical(String languageCode) async {
+    // DOPSUM: CHANGE speakBiographical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bin"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("biographical"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBins1(String languageCode) async {
-    // DOPSUM: CHANGE speakBin
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Put the bottles in the recycling bin."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBins2(String languageCode) async {
-    // DOPSUM: CHANGE speakBin
+  Future<void> speakBiographicals1(String languageCode) async {
+    // DOPSUM: CHANGE speakBiographical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "All their toys are kept in plastic storage bins under the bed."); // DOPSUM: CHANGE TEXT
+        "The newspaper published a tribute to the deceased professor, highlighting his biographical achievements."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBins3(String languageCode) async {
-    // DOPSUM: CHANGE speakBin
+  Future<void> speakBiographicals2(String languageCode) async {
+    // DOPSUM: CHANGE speakBiographical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBins33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "There was a biographical note about the author on the back of the book."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBins4(String languageCode) async {
-    // DOPSUM: CHANGE speakBin
+  Future<void> speakBiographicals3(String languageCode) async {
+    // DOPSUM: CHANGE speakBiographical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBins44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBiographicals33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBins5(String languageCode) async {
-    // DOPSUM: CHANGE speakBin
+  Future<void> speakBiographicals4(String languageCode) async {
+    // DOPSUM: CHANGE speakBiographical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBins55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBiographicals44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBins6(String languageCode) async {
-    // DOPSUM: CHANGE speakBin
+  Future<void> speakBiographicals5(String languageCode) async {
+    // DOPSUM: CHANGE speakBiographical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBins66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBiographicals55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBins7(String languageCode) async {
-    // DOPSUM: CHANGE speakBin
+  Future<void> speakBiographicals6(String languageCode) async {
+    // DOPSUM: CHANGE speakBiographical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBins77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBiographicals66"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBiographicals7(String languageCode) async {
+    // DOPSUM: CHANGE speakBiographical
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBiographicals77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 10, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -105,22 +105,22 @@ class EnglishEntrybin extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bin"),
+                            EntryTitle(word: "biographical"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /bɪn/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌbaɪəˈɡræfɪkl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBin("en-GB"),
+                              onPressed: () => speakBiographical("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /bɪn/"),
+                            const IPAofEnglish(text: "IpaUS: /ˌbaɪəˈɡræfɪkl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBin("en-US"),
+                              onPressed: () => speakBiographical("en-US"),
                             ),
                           ],
                         ),
@@ -138,11 +138,11 @@ class EnglishEntrybin extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 10
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
-                  // VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
+                  VideoIconForTab(), // 09
+                  VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
@@ -166,44 +166,42 @@ class EnglishEntrybin extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: تەنەکەی خۆڵ و خاک، قوتوو، سنووق(چە)، سیپ، کەندوو، کەنوو 
-
-١. (ناو) تەنەکەی زباڵە"""),
+١. (ھاوەڵناو) فیلمێک یان ڕۆمانیك کە ژیانی کەسێک دەگێڕێتەوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Put the bottles in the recycling bin."),
+                                      "The newspaper published a tribute to the deceased professor, highlighting his biographical achievements."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بوتڵەکان بخە تەنەکەی دووبارە بەکارھێنانەوەوە."),
+                                      "ڕۆژنامەکە ڕێزلێنانێکی بۆ پڕۆفیسۆرە کۆچکردووەکە بڵاوکردەوە بە تیشکخستنە سەر بەدەستھێنانەکانی ژیانی."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBins1("en-GB"),
+                                onPressed: () => speakBiographicals1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBins1("en-US"),
+                                onPressed: () => speakBiographicals1("en-US"),
                               ),
                             ],
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ناو) جێگەیەک کە سەرێکی ھەیە و شتی تێدەخەیت"""),
+٢. (ھاوەڵناو) پەیوەندیدار بە ژیانی کەسێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "All their toys are kept in plastic storage bins under the bed."),
+                                      "There was a biographical note about the author on the back of the book."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ھەموو یارییە منداڵانەکانیان ھەڵدەگیرێن لە سندووقی پلاستیکی لە ژێر جێخەوەکەدا."),
+                                      "تێبینییەک سەبارەت بە ژیانی نووسەرەکە لە کۆتایی کتێبەکە نووسرابوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBins2("en-GB"),
+                                onPressed: () => speakBiographicals2("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBins2("en-US"),
+                                onPressed: () => speakBiographicals2("en-US"),
                               ),
                             ],
                           ),
@@ -220,8 +218,8 @@ class EnglishEntrybin extends StatelessWidget {
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
-                    // YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
+                    YoutubeEmbeddednine(),
+                    YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
@@ -260,22 +258,9 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bin (derived forms: bins)
-1. A container; usually has a lid
- 
-2. The quantity contained in a bin (= binful)
- 
-3. (statistics) one of a series of ranges of values for a particular variable
-"the lowest bin has all values less than 100"
-
-- Verb: bin (derived forms: binning, binned, bins)
-1. Store in bins
- 
-2. (statistics) to convert continuous data into discrete sets with similar values
-"make a plot of the binned values"
-
-- Noun: BIN
-1. An identification number consisting of a two-part code assigned to banks and savings associations; the first part shows the location and the second identifies the bank itself (= bank identification number, ABA transit number)
+- Adjective: biographical
+1. Of or relating to a person's life, or an account of a person's life (= biographic)
+"biographical data";
 """,
           )
         ],
@@ -289,12 +274,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "47ODQI0OSOA";
+  static String myVideoId = "Df3u46xBVMY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 29, // DOPSUM: CHANGE IT
+      startAt: 821, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -314,12 +299,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "EtgxTKuN018";
+  static String myVideoId = "f2636-6wx_o";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 411, // DOPSUM: CHANGE IT
+      startAt: 749, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -339,12 +324,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "sAiTuitN5b8";
+  static String myVideoId = "hW9DgwTgWwE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 320, // DOPSUM: CHANGE IT
+      startAt: 1375, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -364,12 +349,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "kUE2fPLOUxo";
+  static String myVideoId = "yggmo54EuSM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 92, // DOPSUM: CHANGE IT
+      startAt: 16, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -389,12 +374,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "xf4092nKXas";
+  static String myVideoId = "my5F-ldO1OM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 284, // DOPSUM: CHANGE IT
+      startAt: 352, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -414,12 +399,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "cffELv3X1ik";
+  static String myVideoId = "ZbYInUMpkqs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 697, // DOPSUM: CHANGE IT
+      startAt: 14, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -439,12 +424,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "Eqsi8Z2cc8c";
+  static String myVideoId = "-yWulWUQSFo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 6, // DOPSUM: CHANGE IT
+      startAt: 248, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -464,12 +449,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "wksm1xI1Ms0";
+  static String myVideoId = "r0XFug0yc2A";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1442, // DOPSUM: CHANGE IT
+      startAt: 128, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -489,12 +474,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "HVGr68RzkY0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 7, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -514,12 +499,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "1KcdgFxmnb4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 1810, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -788,4 +773,4 @@ class YoutubeEmbeddedtwenty extends StatelessWidget {
 
 // morethan one video, only first autoplay
 
-// end bin// TODO Implement this library.
+// end biographical// TODO Implement this library.

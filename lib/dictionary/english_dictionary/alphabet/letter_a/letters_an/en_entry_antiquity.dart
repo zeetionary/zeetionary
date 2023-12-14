@@ -192,7 +192,7 @@ class EnglishEntryantiquity extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پەیکەرەکە لە سەردەمانی کۆندا هێنرا بۆ ڕۆما."),
+                                      "پەیکەرەکە لە سەردەمانی کۆندا ھێنرا بۆ ڕۆما."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAntiquity1151("en-GB"),

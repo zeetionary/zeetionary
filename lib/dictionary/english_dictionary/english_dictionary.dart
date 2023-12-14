@@ -1678,22 +1678,39 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "bill of lading",
     "billow",
     "billowy",
-    // "billy goat",
-    // "bin",
-    // "binary",
-    // "bind",
-    // "binder",
-    // "binding",
-    // "binge",
-    // "bingo",
-    // "binoculars",
-    // "biochemist",
-    // "biochemistry",
-    // "biodata",
-    // "biodegradable",
-    // "biodiversity",
-    // "biographer",
-    // "biography",
+    "billy goat",
+    "bin",
+    "binary",
+    "bind",
+    "binder",
+    "binding",
+    "binge",
+    "bingo",
+    "binoculars",
+    "biochemist",
+    "biochemistry",
+    "biodata",
+    "biodegradable",
+    "biodiversity",
+    "biographer",
+    "biographical",
+    "biography",
+    "biohazard",
+    "biological",
+    "biological weapon",
+    "biologist",
+    "biology",
+    "biometric",
+    "bipolar",
+    "bipolar disorder",
+    "birch",
+    "bird",
+    "bird flu",
+    "bird of prey",
+    "Biro",
+    "birth",
+    "birth control",
+    "birthday",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -1940,23 +1957,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    "chicken flu",
     "come of age",
     "contralto",
     "far afield",
@@ -1968,6 +1969,8 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "lead astray",
     "make a beeline for",
     "make amends",
+    "manic depression",
+    "manic-depressive",
     "not come/go amiss",
     "on behalf of",
     "take something amiss",
@@ -6914,6 +6917,14 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-avian-flu");
                   }
+                  if (wordsEnglish == "bird flu") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-avian-flu");
+                  }
+                  if (wordsEnglish == "chicken flu") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-avian-flu");
+                  }
                   if (wordsEnglish == "aviary") {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-aviary");
@@ -8787,142 +8798,146 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-billow");
                   }
-                  // if (wordsEnglish == "billowy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-billowy");
-                  // }
-                  // if (wordsEnglish == "billy goat") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-billy-goat");
-                  // }
-                  // if (wordsEnglish == "bin") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bin");
-                  // }
-                  // if (wordsEnglish == "binary") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-binary");
-                  // }
-                  // if (wordsEnglish == "bind") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bind");
-                  // }
-                  // if (wordsEnglish == "binder") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-binder");
-                  // }
-                  // if (wordsEnglish == "binding") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-binding");
-                  // }
-                  // if (wordsEnglish == "binge") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-binge");
-                  // }
-                  // if (wordsEnglish == "bingo") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bingo");
-                  // }
-                  // if (wordsEnglish == "binoculars") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-binoculars");
-                  // }
-                  // if (wordsEnglish == "biochemistry") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-biochemistry");
-                  // }
-                  // if (wordsEnglish == "biochemist") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-biochemist");
-                  // }
-                  // if (wordsEnglish == "biodata") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-biodata");
-                  // }
-                  // if (wordsEnglish == "biodegradable") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-biodegradable");
-                  // }
-                  // if (wordsEnglish == "biodiversity") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-biodiversity");
-                  // }
-                  // if (wordsEnglish == "biography") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-biography");
-                  // }
-                  // if (wordsEnglish == "biographer") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-biographer");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
+                  if (wordsEnglish == "billowy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-billowy");
+                  }
+                  if (wordsEnglish == "billy goat") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-billy-goat");
+                  }
+                  if (wordsEnglish == "bin") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bin");
+                  }
+                  if (wordsEnglish == "binary") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-binary");
+                  }
+                  if (wordsEnglish == "bind") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bind");
+                  }
+                  if (wordsEnglish == "binder") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-binder");
+                  }
+                  if (wordsEnglish == "binding") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-binding");
+                  }
+                  if (wordsEnglish == "binge") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-binge");
+                  }
+                  if (wordsEnglish == "bingo") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bingo");
+                  }
+                  if (wordsEnglish == "binoculars") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-binoculars");
+                  }
+                  if (wordsEnglish == "biochemistry") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-biochemistry");
+                  }
+                  if (wordsEnglish == "biochemist") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-biochemist");
+                  }
+                  if (wordsEnglish == "biodata") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-biodata");
+                  }
+                  if (wordsEnglish == "biodegradable") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-biodegradable");
+                  }
+                  if (wordsEnglish == "biodiversity") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-biodiversity");
+                  }
+                  if (wordsEnglish == "biography") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-biography");
+                  }
+                  if (wordsEnglish == "biographer") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-biographer");
+                  }
+                  if (wordsEnglish == "biographical") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-biographical");
+                  }
+                  if (wordsEnglish == "biohazard") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-biohazard");
+                  }
+                  if (wordsEnglish == "biology") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-biology");
+                  }
+                  if (wordsEnglish == "biological") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-biological");
+                  }
+                  if (wordsEnglish == "biological weapon") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-biological-weapon");
+                  }
+                  if (wordsEnglish == "biologist") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-biologist");
+                  }
+                  if (wordsEnglish == "biometric") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-biometric");
+                  }
+                  if (wordsEnglish == "bipolar") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bipolar");
+                  }
+                  if (wordsEnglish == "bipolar disorder") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bipolar-disorder");
+                  }
+                  if (wordsEnglish == "manic depression") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bipolar-disorder");
+                  }
+                  if (wordsEnglish == "manic-depressive") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bipolar-disorder");
+                  }
+                  if (wordsEnglish == "birch") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-birch");
+                  }
+                  if (wordsEnglish == "bird") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bird");
+                  }
+                  if (wordsEnglish == "bird of prey") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bird-of-prey");
+                  }
+                  if (wordsEnglish == "Biro") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-biro");
+                  }
+                  if (wordsEnglish == "birth") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-birth");
+                  }
+                  if (wordsEnglish == "birth control") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-birth-control");
+                  }
+                  if (wordsEnglish == "birthday") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-birthday");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");

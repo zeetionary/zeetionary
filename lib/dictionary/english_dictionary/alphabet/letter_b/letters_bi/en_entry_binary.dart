@@ -169,7 +169,7 @@ class EnglishEntrybinary extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: دوودانەیی، دووانەیی، جووتی، دو(و)انی
 
-١. (ھاوەڵناو) بەکارهێنانی تەنها ژمارە سفر و یەک وەک سیستەمی ژمارەیی"""),
+١. (ھاوەڵناو) بەکارھێنانی تەنھا ژمارە سفر و یەک وەک سیستەمی ژمارەیی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -190,7 +190,7 @@ class EnglishEntrybinary extends StatelessWidget {
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-٢. (ھاوەڵناو) شتێک کە لە دوو شت پێکهاتووە"""),
+٢. (ھاوەڵناو) شتێک کە لە دوو شت پێکھاتووە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -198,7 +198,7 @@ class EnglishEntrybinary extends StatelessWidget {
                                       "It's a binary choice, you either accept or you refuse."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەڵبژاردەیەکی دووانییە، یان پەسەندی دەکەیت یان ڕەتی دەکەیتەوە."),
+                                      "ھەڵبژاردەیەکی دووانییە، یان پەسەندی دەکەیت یان ڕەتی دەکەیتەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBinarys2("en-GB"),
@@ -268,7 +268,7 @@ class EnglishMeaning extends StatelessWidget {
 2. Of or pertaining to a number system which has 2 as its base
 "a binary digit"
 
-- Noun: binary (Derived forms: binaries)
+- Noun: binary (derived forms: binaries)
 1. A system of two stars that revolve around each other under their mutual gravitation (= binary star, double star)
  
 2. A pre-compiled, pre-linked program that is ready to run under a given operating system; a binary for one operating system will not run on a different operating system (= binary program)
@@ -286,7 +286,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/D8tPkb98Fkk?t=";
+  static String myVideoId = "D8tPkb98Fkk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -311,7 +311,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/1I1vxu5qIUM?t=";
+  static String myVideoId = "1I1vxu5qIUM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -336,7 +336,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/J-K2yeQylCk?t=";
+  static String myVideoId = "J-K2yeQylCk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -361,7 +361,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/HY_OIwideLg?t=";
+  static String myVideoId = "HY_OIwideLg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -386,7 +386,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/EmT0i0xG6zg?t=";
+  static String myVideoId = "EmT0i0xG6zg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -411,7 +411,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/29n2bv7F6uc?t=";
+  static String myVideoId = "29n2bv7F6uc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -436,7 +436,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/3oBCtTv6yOw?t=";
+  static String myVideoId = "3oBCtTv6yOw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -461,7 +461,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/F-YJSsX-qNk?t=";
+  static String myVideoId = "F-YJSsX-qNk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -486,7 +486,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/gzF7aHxk4Y4?t=";
+  static String myVideoId = "gzF7aHxk4Y4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -511,7 +511,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/vxeyqjEkbr8?t=";
+  static String myVideoId = "vxeyqjEkbr8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -536,7 +536,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/bdMfjfT0lKk?t=";
+  static String myVideoId = "bdMfjfT0lKk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

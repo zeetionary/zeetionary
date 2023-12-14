@@ -220,7 +220,7 @@ class EnglishEntryassertion extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ھیچ بەڵگەت ھەیە وەک پشتگیری لە وتەکانت?."),
+                                      "ھیچ بەڵگەت ھەیە وەک پشتگیری بۆ وتەکانت؟"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAssertion1046("en-GB"),

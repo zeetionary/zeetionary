@@ -167,9 +167,9 @@ class EnglishEntrybiodiversity extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: زیندەفرەجۆری، زیندەهەمەچەشنی
+کوردی: زیندەفرەجۆری، زیندەھەمەچەشنی
 
-١. (ھاوەڵناو) بوونی ژمارەیەکی زۆر لە گیانلەبەر و ڕووەک کە هاوسەنگی ژینگە ڕادەگرن"""),
+١. (ھاوەڵناو) بوونی ژمارەیەکی زۆر لە گیانلەبەر و ڕووەک کە ھاوسەنگی ژینگە ڕادەگرن"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -177,7 +177,7 @@ class EnglishEntrybiodiversity extends StatelessWidget {
                                       "The mining project threatens one of the world’s richest areas of biodiversity."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پڕۆژەی کانەکە هەڕەشە لە یەکێک لە گەورەترین ناوچەکانی زیندەفرەجۆری دەکات."),
+                                      "پڕۆژەی کانەکە ھەڕەشە لە یەکێک لە گەورەترین ناوچەکانی زیندەفرەجۆری دەکات."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBiodiversitys1("en-GB"),
@@ -240,7 +240,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: biodiversity (Derived forms: biodiversities)
+- Noun: biodiversity (derived forms: biodiversities)
 1. The diversity of plant and animal life in a particular habitat (or in the world as a whole)
 "a high level of biodiversity is desirable"
 """,
@@ -256,7 +256,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/wh3vW2V7ucU?t=";
+  static String myVideoId = "wh3vW2V7ucU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -281,7 +281,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/1cvMX82iwRM?t=";
+  static String myVideoId = "1cvMX82iwRM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -306,7 +306,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/hh4OKQYCm1Y?t=";
+  static String myVideoId = "hh4OKQYCm1Y";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -331,7 +331,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/sTVtgFkR3FA?t=";
+  static String myVideoId = "sTVtgFkR3FA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -356,7 +356,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/nzAhdrVNGjU?t=";
+  static String myVideoId = "nzAhdrVNGjU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -381,7 +381,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/WI04_jMBt0A";
+  static String myVideoId = "WI04_jMBt0A";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -406,7 +406,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/gNSQ4lGJ9z4?t=";
+  static String myVideoId = "gNSQ4lGJ9z4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -431,7 +431,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/B90oPvdAfLU?t=";
+  static String myVideoId = "B90oPvdAfLU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -456,7 +456,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/XTC4qiXd36Q";
+  static String myVideoId = "XTC4qiXd36Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -481,7 +481,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/0DUcP__4LD0?t=";
+  static String myVideoId = "0DUcP__4LD0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -506,7 +506,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/jdrv15QoUUc?t=";
+  static String myVideoId = "jdrv15QoUUc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

@@ -186,7 +186,7 @@ class EnglishEntryawakening extends StatelessWidget {
                               // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەگەر چاوەڕێی پێشوازییەکی گەرمیان دەکرد، ئەوا بەھۆشھاتنەوەیەکیان لە پێش بوو."),
+                                      "ئەگەر چاوەڕێی پێشوازییەکی گەرمیان دەکرد، ئەوا زوو دەزانن خراپ بە ھەڵەدا چوونە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwakenings1("en-GB"),

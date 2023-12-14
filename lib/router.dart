@@ -1673,6 +1673,35 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_biodiversity.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_biography.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_biographer.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_biographical.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_biohazard.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_biology.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_biological.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_biological_weapon.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_biologist.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_biometric.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_bipolar.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_bipolar_disorder.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_birch.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_bird.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_bird_of_prey.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_biro.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_birth.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_birth_control.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_birthday.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
@@ -2666,7 +2695,7 @@ final loggedInRoute = RouteMap(routes: {
   "/english-aquatic": (_) => MaterialPage(child: EnglishEntryaquatic()),
   "/english-aqueduct": (_) => MaterialPage(child: EnglishEntryaqueduct()),
   "/english-Arabic": (_) => MaterialPage(child: EnglishEntryarabic()),
-  "/english-Arabic numeral": (_) =>
+  "/english-arabic-numeral": (_) =>
       MaterialPage(child: EnglishEntryarabicnumeral()),
   "/english-arable": (_) => MaterialPage(child: EnglishEntryarable()),
   "/english-arbitrage": (_) => MaterialPage(child: EnglishEntryarbitrage()),
@@ -3519,22 +3548,22 @@ final loggedInRoute = RouteMap(routes: {
   "/english-biodiversity": (_) => MaterialPage(child: EnglishEntrybiodiversity()),
   "/english-biography": (_) => MaterialPage(child: EnglishEntrybiography()),
   "/english-biographer": (_) => MaterialPage(child: EnglishEntrybiographer()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-biographical": (_) => MaterialPage(child: EnglishEntrybiographical()),
+  "/english-biohazard": (_) => MaterialPage(child: EnglishEntrybiohazard()),
+  "/english-biology": (_) => MaterialPage(child: EnglishEntrybiology()),
+  "/english-biological": (_) => MaterialPage(child: EnglishEntrybiological()),
+  "/english-biological-weapon": (_) => MaterialPage(child: EnglishEntrybiologicalweapon()),
+  "/english-biologist": (_) => MaterialPage(child: EnglishEntrybiologist()),
+  "/english-biometric": (_) => MaterialPage(child: EnglishEntrybiometric()),
+  "/english-bipolar": (_) => MaterialPage(child: EnglishEntrybipolar()),
+  "/english-bipolar-disorder": (_) => MaterialPage(child: EnglishEntrybipolardisorder()),
+  "/english-birch": (_) => MaterialPage(child: EnglishEntrybirch()),
+  "/english-bird": (_) => MaterialPage(child: EnglishEntrybird()),
+  "/english-bird-of-prey": (_) => MaterialPage(child: EnglishEntrybirdofprey()),
+  "/english-biro": (_) => MaterialPage(child: EnglishEntrybiro()),
+  "/english-birth": (_) => MaterialPage(child: EnglishEntrybirth()),
+  "/english-birth-control": (_) => MaterialPage(child: EnglishEntrybirthcontrol()),
+  "/english-birthday": (_) => MaterialPage(child: EnglishEntrybirthday()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

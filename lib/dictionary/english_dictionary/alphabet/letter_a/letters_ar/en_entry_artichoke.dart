@@ -114,7 +114,7 @@ class EnglishEntryartichoke extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "artichoke"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːtɪtʃəʊk/
+                                    "artichoke (also: globe artichoke)"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːtɪtʃəʊk/
                             // divvviiider
                             //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),

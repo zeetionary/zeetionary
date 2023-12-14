@@ -32,8 +32,7 @@ class EnglishEntrybind extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She was bound to a chair."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She was bound to a chair."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBinds2(String languageCode) async {
@@ -41,7 +40,8 @@ class EnglishEntrybind extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They bound his hands together."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They bound his hands together."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBinds3(String languageCode) async {
@@ -49,7 +49,8 @@ class EnglishEntrybind extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The prisoner was bound hand and foot."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The prisoner was bound hand and foot."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBinds4(String languageCode) async {
@@ -57,7 +58,7 @@ class EnglishEntrybind extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBinds44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She bound up his wounds."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBinds5(String languageCode) async {
@@ -65,7 +66,8 @@ class EnglishEntrybind extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBinds55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She thought that having his child would bind him to her forever."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBinds6(String languageCode) async {
@@ -73,7 +75,8 @@ class EnglishEntrybind extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBinds66"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He had been bound to secrecy."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBinds7(String languageCode) async {
@@ -81,7 +84,115 @@ class EnglishEntrybind extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBinds77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Add an egg yolk to make the mixture bind."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBinds8(String languageCode) async {
+    // DOPSUM: CHANGE speakBind
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "There are several different ways to bind a book, for example you can stitch or stick the pages together."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBinds9(String languageCode) async {
+    // DOPSUM: CHANGE speakBind
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The edges of the carpet are bound to stop them fraying."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBinds10(String languageCode) async {
+    // DOPSUM: CHANGE speakBind
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Borrowing money may put you in a real bind."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBinds11(String languageCode) async {
+    // DOPSUM: CHANGE speakBind
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBinds1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBinds12(String languageCode) async {
+    // DOPSUM: CHANGE speakBind
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBinds1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBinds13(String languageCode) async {
+    // DOPSUM: CHANGE speakBind
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBinds1313"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBinds14(String languageCode) async {
+    // DOPSUM: CHANGE speakBind
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBinds1414"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBinds15(String languageCode) async {
+    // DOPSUM: CHANGE speakBind
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBinds1515"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBinds16(String languageCode) async {
+    // DOPSUM: CHANGE speakBind
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBinds1616"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBinds17(String languageCode) async {
+    // DOPSUM: CHANGE speakBind
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBinds1717"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBinds18(String languageCode) async {
+    // DOPSUM: CHANGE speakBind
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBinds1818"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBinds19(String languageCode) async {
+    // DOPSUM: CHANGE speakBind
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBinds1919"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBinds20(String languageCode) async {
+    // DOPSUM: CHANGE speakBind
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBinds2020"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -138,7 +249,7 @@ class EnglishEntrybind extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 17
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -171,8 +282,7 @@ class EnglishEntrybind extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "She was bound to a chair."),
+                                  text: "She was bound to a chair."),
                               const ExampleSentenceKurdish(
                                   text: "بەسترا بە کورسییەکەوە."),
                               const CustomSizedBoxForTTS(),
@@ -189,8 +299,7 @@ class EnglishEntrybind extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "They bound his hands together."),
+                                  text: "They bound his hands together."),
                               const ExampleSentenceKurdish(
                                   text: "دەستەکانییان بەست بە یەکەوە."),
                               const CustomSizedBoxForTTS(),
@@ -217,6 +326,150 @@ class EnglishEntrybind extends StatelessWidget {
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () => speakBinds3("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٢. (کردار) بەستنی قوماشێکی نەرمی درێژ لە شتێک"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "She bound up his wounds."),
+                              const ExampleSentenceKurdish(
+                                  text: "برینەکانی بەستەوە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBinds4("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBinds4("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٣. (کردار) وا لە خەڵکی یان دەمەزراوەیەک بکەیت کە هەست بە یەکگرتوویی بکەن بۆ ئەوەی پێکەوە بژین و باشتر و خۆشگوزەرانتر کار بکەن پێکەوە"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She thought that having his child would bind him to her forever."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وای بیرکردەوە کە هەبوونی منداڵەکەی زیاتر بۆ هەمیشە ئەوی پێوە دەبەستێتەوە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBinds5("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBinds5("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٤. (کردار) زۆر لە کەسێک بکەیت شتێک بکات بەوەی بەڵێنی لێ وەربگریت یان بیکەیت بە ئەرک بەسەرییەوە"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He had been bound to secrecy (= made to promise not to tell people about something)."),
+                              const ExampleSentenceKurdish(
+                                  text: "بەڵێنی دابوو بە نهێنی بیپارێزێت."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBinds6("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBinds6("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٥. (کردار) وا لە شت بکەیت پێکەوە بنووسێن"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Add an egg yolk to make the mixture bind."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "زەردێنە هێلکەیەک زیاد بکە بۆ ئەوەی تێکەڵەکە پێکەوە بنووسێت."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBinds7("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBinds7("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٦. (کردار) پێکەوەنانی پەڕاکانی کتێبێک و دانانیان لە بەرگە کتێبێکدا"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "There are several different ways to bind a book, for example you can stitch or stick the pages together."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ژمارەیەک ڕێگای جیاواز هەیە بۆ پێکەوەنانی کتێبێک، بۆ نموونە دەتوانی پەڕەکان بدووری یان بنووسێنی بە یەکەوە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBinds8("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBinds8("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٧. (کردار) دوورینی قوماش بە قەراغەکانی شتێکەوە بۆ جوانی یان بەهێزی"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The edges of the carpet are bound to stop them fraying."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "قەراغەکانی فەرشەکە دووراون بۆ ئەوەی لێک‌هەڵنەوەشێ."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBinds9("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBinds9("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+٨. (ناو) دۆخێکی ناخۆش کە تێیدا ناتوانی چۆنت بوێت ڕەفتار بکەیت"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Borrowing money may put you in a real bind."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "قەرزکردنی پارە ڕەنگە بتخاتە دەردەسەری تەواوەوە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakBinds10("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakBinds10("en-US"),
                               ),
                             ],
                           ),

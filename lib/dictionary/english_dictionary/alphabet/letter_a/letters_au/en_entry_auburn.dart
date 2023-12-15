@@ -182,9 +182,6 @@ class EnglishEntryauburn extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She has a freckled complexion and auburn hair."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕووخساری خاڵاوی و قژی خورمایی ھەیە."),
                               const CustomSizedBoxForTTS(),

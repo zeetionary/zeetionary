@@ -130,9 +130,6 @@ class EnglishEntryailment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I got all the usual childhood ailments."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەموو دەردە باوەکانی منداڵیم گرت."),
                               const CustomSizedBoxForTTS(),

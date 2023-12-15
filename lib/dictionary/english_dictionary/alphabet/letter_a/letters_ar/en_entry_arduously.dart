@@ -178,9 +178,6 @@ class EnglishEntryarduously extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "They searched arduously for clues."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بە تاقەت‌پڕوقێنانە گەڕان بۆ سەرەداو."),
                               const CustomSizedBoxForTTS(),

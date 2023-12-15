@@ -133,9 +133,6 @@ class EnglishEntryaftermath extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The president visited the region in the immediate aftermath of the disaster."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەرۆک سەردانی ھەرێمەکەی کرد لە دەرئەنجامی کارەساتەکە."),

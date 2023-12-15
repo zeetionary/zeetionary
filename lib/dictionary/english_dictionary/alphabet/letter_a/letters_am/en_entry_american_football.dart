@@ -197,9 +197,6 @@ class EnglishEntryamericanfootball extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "American Football doesn't interest me at all."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھیچ حەزم بە تۆپێنی ئەمریکی نییە."),
                               const CustomSizedBoxForTTS(),

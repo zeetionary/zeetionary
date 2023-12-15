@@ -130,9 +130,6 @@ class EnglishEntryalludeto extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The problem had been alluded to briefly in earlier discussions."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە گفتوگۆکانی پێشووتر کێشەکە بە کورتی ئاماژەی پێکراوە."),

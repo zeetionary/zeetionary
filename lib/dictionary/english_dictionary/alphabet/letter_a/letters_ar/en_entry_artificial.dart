@@ -183,9 +183,6 @@ class EnglishEntryartificial extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "All food served in the restaurant is completely free from any artificial colours and flavours."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەموو ئەو خواردنانەی لە چێشتخانەکە پێشکەش‌دەکرێن ھیچ ڕەنگ و تامی دەستکردیان تێدا نییە."),
@@ -209,9 +206,6 @@ class EnglishEntryartificial extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A job interview is a very artificial situation."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "چاوپێکەوتن بۆ کار بارودۆخێکی ناواقیعییە."),
@@ -235,9 +229,6 @@ class EnglishEntryartificial extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The girl's artificial laughs were so believable that she could convince anyone."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێکەنینی ساختەی کچەکە ھێندە باوەڕپێکەر بوو کە دەکرا قەناعەت بە ھەموو کەسێک بکات."),

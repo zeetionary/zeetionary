@@ -175,9 +175,6 @@ class EnglishEntrybackhanded extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "In a backhanded compliment she said he looked very good for his age."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە پەسنێکی دڵپاکانەدا وتی زۆر گەنجە بەپێی تەمەنی خۆی."),

@@ -130,9 +130,6 @@ class EnglishEntryageism extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "At 56, no one would hire her, and she felt she was a victim of ageism."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە تەمەنی ٥٦ ساڵی کەس کاری پێنەدەدا، و ھەستی دەکرد قوربانیەکی تەمەنگەرییە."),

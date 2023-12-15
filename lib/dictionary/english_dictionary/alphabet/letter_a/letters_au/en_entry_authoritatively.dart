@@ -184,9 +184,6 @@ class EnglishEntryauthoritatively extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He authoritatively stated that classic literature was irrelevant to the poor."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەدەستووردەرانەوە وتی ئەدەبی کلاسیک پەیوەندی بە ھەژارانەوە نییە."),
@@ -211,9 +208,6 @@ class EnglishEntryauthoritatively extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She can speak authoritatively on these issues."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەسەر ئەم بابەتانە دەتوانێت بەجێگەی باوەڕەوە قسەبکات."),

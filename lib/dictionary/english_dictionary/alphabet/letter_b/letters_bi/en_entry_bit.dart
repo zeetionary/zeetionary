@@ -360,7 +360,7 @@ class EnglishEntrybit extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: پەنچک، کوت، لەت، پارچە، نەختێ، تۆزقاڵێ، کەمێ، پشکێ، بڕێ، ماوەیێ، بڕێکی زۆر، لۆدە، کۆما، بەش، پشک، سکە، کۆین، تا ئەندازەیێ، تا ڕادەیێ، لەغاو، ئاوخۆری، لغاڤ (ئەسپ)، سەرمەتە، سەرەمەتە، سەرەسمۆ، سمۆ، تیغە، دەم (ڕەندە یان سمۆ)
 
-١. (ناو) هەندێک، کەمێک"""),
+١. (ناو) ھەندێک، کەمێک"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -458,7 +458,7 @@ class EnglishEntrybit extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "I have a bit of good news for you."),
                               const ExampleSentenceKurdish(
-                                  text: "هەندێک هەواڵی خۆشم پێیە بۆت."),
+                                  text: "ھەندێک ھەواڵی خۆشم پێیە بۆت."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBits6("en-GB"),
@@ -499,7 +499,7 @@ class EnglishEntrybit extends StatelessWidget {
                                       "Listen to the interview again and pick out the bits you want to use in the article."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دووبارە گوێ لە چاوپێکەوتنەکە بگرە و ئەو بەشانە هەڵبژێرە کە لە وتارەکەت بەکاریدێنیت."),
+                                      "دووبارە گوێ لە چاوپێکەوتنەکە بگرە و ئەو بەشانە ھەڵبژێرە کە لە وتارەکەت بەکاریدێنیت."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBits8("en-GB"),
@@ -541,7 +541,7 @@ class EnglishEntrybit extends StatelessWidget {
                                       "I bought a 32-bit computer last week."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەفتەی ڕابردوو کۆمپیوتەرێکی ٣٢ بیتیم کڕی."),
+                                      "ھەفتەی ڕابردوو کۆمپیوتەرێکی ٣٢ بیتیم کڕی."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBits10("en-GB"),

@@ -134,9 +134,6 @@ class EnglishEntryalongside extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Nick caught up with me and rode alongside."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نیک گەشتەوە پێم و شان بە شانم لێیخوڕی."),
@@ -159,9 +156,6 @@ class EnglishEntryalongside extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The new pill will be used alongside existing medicines."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "حەبە تازەکە دەکرێت لەگەڵ دەرمانی دیکە بەکاربێت."),
@@ -182,9 +176,6 @@ class EnglishEntryalongside extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Most of the staff refused to work alongside the new team."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆرینەی ستافەکە ڕەتیان کردەوە شان بە شانی تیمە تازەکە کاربکەن."),

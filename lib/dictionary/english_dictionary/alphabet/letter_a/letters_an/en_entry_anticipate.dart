@@ -178,9 +178,6 @@ class EnglishEntryanticipate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Our anticipated arrival time is 8.30."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "کاتی پێشبینیکراوی گەشتنمان ٨:٣٠ یە."),
                               const CustomSizedBoxForTTS(),
@@ -201,9 +198,6 @@ class EnglishEntryanticipate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I don't anticipate it being a problem."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پێشبینی ناکەم ببێتە کێشە."),
                               const CustomSizedBoxForTTS(),
@@ -226,9 +220,6 @@ class EnglishEntryanticipate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Try and anticipate what the interviewers will ask."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەوڵ‌بدە پێشبینی بکە دیدارکاران چی پرسیارێک دەکەن."),
@@ -252,9 +243,6 @@ class EnglishEntryanticipate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We eagerly anticipated the day we would leave school."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە خۆشییەوە بیرمان لەو ڕۆژە دەکردەوە کە قوتابخانە جێدێڵین."),
@@ -278,9 +266,6 @@ class EnglishEntryanticipate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "When Scott reached the South Pole he found that Amundsen had anticipated him."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کە سکۆت گەشتە جەمسەری باشوور زانی ئامندسن پێشی دابوویەوە."),

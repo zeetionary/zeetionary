@@ -193,7 +193,7 @@ class EnglishEntrybiscuit extends StatelessWidget {
                                   text:
                                       "We were offered a cup of tea and some biscuits."),
                               const ExampleSentenceKurdish(
-                                  text: "پێكایەک چا و هەندێک بسکیتیان پێداین."),
+                                  text: "پێكایەک چا و ھەندێک بسکیتیان پێداین."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBiscuits2("en-GB"),

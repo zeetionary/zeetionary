@@ -185,9 +185,6 @@ class EnglishEntryarticulation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The clarity and precision of the articulation of his theory made it easy for even non-experts to understand its implications."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕوونی و وردی دەربڕینی بیرۆکەکەی وا ئاسانی کرد کە تەنانەت ناشارەزاکانیش لە دەرئەنجامەکانی تێ‌بگەن."),
@@ -211,9 +208,6 @@ class EnglishEntryarticulation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The tongue and teeth are both organs of articulation."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زمان و ددان ھەردوویان ئەندامی ئاخاوتنن."),
@@ -237,9 +231,6 @@ class EnglishEntryarticulation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The articulation of the pieces of the puzzle was perfect."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێکەوە بەسترانی بەشەکانی پەزڵەکە تەواو بوو."),
@@ -261,9 +252,6 @@ class EnglishEntryarticulation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The articulation of the shoulder allows for a wide range of motion."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "جومگەی شان ڕێگا بە جووڵەی زۆر دەدات."),
                               const CustomSizedBoxForTTS(),

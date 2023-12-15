@@ -181,9 +181,6 @@ class EnglishEntryaspirin extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Do you have any aspirin?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھیچ ئاسپرینت ھەیە؟"),
                               const CustomSizedBoxForTTS(),
@@ -203,9 +200,6 @@ class EnglishEntryaspirin extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Take two aspirin(s) for a headache."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دوو ئاسپرین بخۆ بۆ سەرێشە."),
                               const CustomSizedBoxForTTS(),

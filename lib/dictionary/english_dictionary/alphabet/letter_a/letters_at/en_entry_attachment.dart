@@ -186,9 +186,6 @@ class EnglishEntryattachment extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "No attachment was included."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھیچ دۆکیومێنتێک نەنێردرابوو."),
                               const CustomSizedBoxForTTS(),
@@ -211,9 +208,6 @@ class EnglishEntryattachment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They had to check the strength of the seat attachments to the floor of the plane."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێویست بوو پشکنین بکەن بۆ توانای لکێنەری کوورسییەکان بە زەویی فڕۆکەکەوە."),
@@ -237,9 +231,6 @@ class EnglishEntryattachment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Prisoners can develop attachments to their guards."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زیندانییان ئەکرێت سۆزیان لا درووستبێت بۆ پاسەوانەکانیان."),
@@ -263,9 +254,6 @@ class EnglishEntryattachment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She is unlikely to give up her lifelong attachment to feminist ideas."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەگەری کەمە واز لە پشتیوانیی لەمێژینەی بھێنێت بۆ فێمینیزم."),
@@ -289,9 +277,6 @@ class EnglishEntryattachment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "This food processor has a special attachment for grinding coffee."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم عەسارەی خواردنە پارچەیەکی تایبەتی ھەیە بۆ ھاڕینی قاوە."),

@@ -183,9 +183,6 @@ class EnglishEntryattendant extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Pool attendants kept a constant watch on the swimmers."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کارمەندانی مەلەوانگەکە بەردەوام چاویان لەسەر مەلەکەرەکان بوو."),
@@ -209,9 +206,6 @@ class EnglishEntryattendant extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There are too many risks attendant on such a large investment of money."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕیسکی زۆر ھەیە لەگەڵ خستنە بەرھەمھێنانی پارەیەکی وەھا زۆر."),

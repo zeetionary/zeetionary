@@ -182,9 +182,6 @@ class EnglishEntryarticulately extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He spoke articulately about each of the paintings."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەڕوونی قسەی‌کرد سەبارەت بە ھەریەکە لە تابلۆکان."),

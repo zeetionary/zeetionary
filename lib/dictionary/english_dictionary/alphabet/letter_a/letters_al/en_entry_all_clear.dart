@@ -133,9 +133,6 @@ class EnglishEntryallclear extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The children hid in the basement until the all-clear sounded."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "منداڵەکان خۆیان لەژێر زەمینەکە شاردەوە تاوەکو ئاماژەی سەلامەتییان پێدرا."),
@@ -158,9 +155,6 @@ class EnglishEntryallclear extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The building was given the all-clear following tests."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بیناکە بە سەلامەت دانرا لە دوای پشکنینەکان."),
@@ -183,9 +177,6 @@ class EnglishEntryallclear extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The ship was given the all-clear to sail."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەشتییەکە مۆڵەتی پێدرا بۆ چوونە دەریا."),

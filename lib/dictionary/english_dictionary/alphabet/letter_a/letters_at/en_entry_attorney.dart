@@ -184,9 +184,6 @@ class EnglishEntryattorney extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Acting on the advice of his attorney, he remained silent."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەسەر داوای پارێزەرەکەی بێ‌دەنگ مایەوە."),
@@ -208,9 +205,6 @@ class EnglishEntryattorney extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The defence attorney requested an adjournment."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پارێزەری داوالێکراو داوای وچانێکی کرد."),
@@ -234,9 +228,6 @@ class EnglishEntryattorney extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She was made her father's attorney when he became ill."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کرا بە بریکاری باوکی کە ئەو نەخۆش کەوت."),

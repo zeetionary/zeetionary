@@ -174,9 +174,6 @@ class EnglishEntryanatomical extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "All medical students are required to do an anatomical dissection of a human body."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەموو خوێندکارانی پزیشکی دەبێت توێکارییەکی یەکاڵاکردنەوەیی جەستەی مرۆڤ بکەن."),

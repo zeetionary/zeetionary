@@ -197,9 +197,6 @@ class EnglishEntryamniocentesis extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Pregnant women over the age of 35 will be offered (an) amniocentesis."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ژنانی سکپڕی سەروو ٣٥ ساڵان ئەمنیۆسێنتێسیسیان بۆ دەکرێت."),

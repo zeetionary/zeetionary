@@ -179,9 +179,6 @@ class EnglishEntryantiperspirant extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Antiperspirant can make you more comfortable on hot days."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە ڕۆژانی گەرمدا دژە-بۆن دەکرێت وابکات زیاتر ئاسوودە بیت."),

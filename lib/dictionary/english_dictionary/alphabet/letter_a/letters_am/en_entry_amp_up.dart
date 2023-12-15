@@ -173,9 +173,6 @@ class EnglishEntryampup extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He knew exactly when to amp the music up."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆرباش دەیزانی کەی دەنگی میوزیککە زیادبکات."),
@@ -198,9 +195,6 @@ class EnglishEntryampup extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We're always looking for ways to amp up productivity in the workplace."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەمیشە ھەوڵ دەدەین ڕێگا بدۆزینەوە بۆ زیادکردنی بەرھەمھێنان لە شوێن‌کارەکەمان."),
@@ -223,9 +217,6 @@ class EnglishEntryampup extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "After amping the crowd up with an impressive light show, the band took to the stage."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە دوای ئەوەی جەماوەرەکەیان خرۆشاند بە نمایشی لایتەکان، باندەکە چوونە سەر ستەیج"),

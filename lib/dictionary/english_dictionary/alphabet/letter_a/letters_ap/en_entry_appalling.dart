@@ -179,9 +179,6 @@ class EnglishEntryappalling extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The prisoners were living in appalling conditions."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "زیندانیان لە دۆخی تۆقێنەردا دەژیان."),
                               const CustomSizedBoxForTTS(),

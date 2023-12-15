@@ -181,9 +181,6 @@ class EnglishEntryappreciative extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The company was very appreciative of my efforts."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کۆمپانیاکە پێزانینی ھەبوو بۆ ھەوڵەکانم."),
@@ -207,9 +204,6 @@ class EnglishEntryappreciative extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The audience was highly appreciative."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "جەماوەرەکە زۆر بە حەماسەت بوون."),
                               const CustomSizedBoxForTTS(),

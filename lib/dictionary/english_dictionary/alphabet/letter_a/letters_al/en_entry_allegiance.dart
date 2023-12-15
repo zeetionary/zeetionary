@@ -132,9 +132,6 @@ class EnglishEntryallegiance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He affirmed his allegiance to the president."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "وەفاداری خۆی بۆ سەرۆک دووپاتکردەوە."),
                               const CustomSizedBoxForTTS(),

@@ -180,9 +180,6 @@ class EnglishEntryapathy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Such attitudes can only lead to apathy."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەڵوێستی وەھا ئەنجامەکەی تەنھا بێ‌ھەستی دەبێت."),
@@ -204,9 +201,6 @@ class EnglishEntryapathy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There is a growing sense of apathy among teens and a feeling that there are no opportunities."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەستی بێ‌دەربەستیی ڕوولەزۆری لەناو گەنجان ھەیە، و ھەستی ئەوەی ھیچ ھەلێک نییە."),

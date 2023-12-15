@@ -188,9 +188,6 @@ class EnglishEntryattraction extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Buckingham Palace is a major tourist attraction."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەکینگھام پاڵاس شوێنێکی گەشتیاری سەرنجڕاکێشە."),
@@ -214,9 +211,6 @@ class EnglishEntryattraction extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She felt an immediate attraction for him."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەستی بە دڵبەستەییەکی دەستبەجێ کرد بۆی."),
@@ -238,9 +232,6 @@ class EnglishEntryattraction extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Sexual attraction is a large part of falling in love."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "حەزی سێکسی یەکێکە لە لایەنە گەورەکانی کەوتنە خۆشەویستی."),
@@ -264,9 +255,6 @@ class EnglishEntryattraction extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "City life holds little attraction for me."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ژیانی شار باڵکێش نییە لام."),
                               const CustomSizedBoxForTTS(),
@@ -287,9 +275,6 @@ class EnglishEntryattraction extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The main attraction of the place is the nightlife."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خاسیەتی دڵڕفێنی شوێنەکە ژیانی شەوانیەتی."),
@@ -313,9 +298,6 @@ class EnglishEntryattraction extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The gravitational attraction between the Earth and the Moon keeps the Moon in orbit."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھێزی کێشکردنی نێوان زەوی و مانگ وادەکات مانگ لە خولگەی خۆیدا بمێنێتەوە."),

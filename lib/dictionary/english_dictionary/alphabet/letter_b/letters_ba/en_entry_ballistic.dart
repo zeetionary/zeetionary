@@ -174,9 +174,6 @@ class EnglishEntryballistic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "None of the defendants could be linked to the fatal gunshot because of a lack of ballistic evidence."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نەدەکرا ھیچ کام لە گومان‌لێ‌کراوان بە شەڕەتەقە کوشندەکەوە ببەسترێتەوە بەھۆی کەمی بەڵگەی ھاوێژەیی."),

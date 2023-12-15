@@ -175,9 +175,6 @@ class EnglishEntryantler extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Poachers in search of antlers prey on red deer."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو ڕاوچیانەی بەشوێن شاخی نێراسک دەگەڕێن سوورئاسک ڕاودەکەن."),

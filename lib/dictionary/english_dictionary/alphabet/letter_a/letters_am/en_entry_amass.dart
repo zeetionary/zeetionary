@@ -131,9 +131,6 @@ class EnglishEntryamass extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They amassed enough evidence to convict her."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەشی پێویست بەڵگەیان کۆکردەوە تاوانباری بکەن."),
@@ -154,9 +151,6 @@ class EnglishEntryamass extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Germany has amassed a large number of troops on the border with France."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەڵمانیا ڕێژەیەکی زۆر سەربازی لەسەر سنووری فەرەنسا کۆکردووەتەوە."),

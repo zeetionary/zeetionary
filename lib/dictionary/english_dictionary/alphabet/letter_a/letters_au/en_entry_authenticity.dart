@@ -183,9 +183,6 @@ class EnglishEntryauthenticity extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The authenticity of the letter is beyond doubt."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕەسەنایەتی نامەکە لە دەرەوەی گومانە."),
                               const CustomSizedBoxForTTS(),

@@ -183,9 +183,6 @@ class EnglishEntryausterely extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Her dress was simple and austerely elegant."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "جلەکەی سادە بوو و ساکارانە شۆخ‌وشەنگ بوو."),
@@ -209,9 +206,6 @@ class EnglishEntryausterely extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She lived austerely and in constant prayer."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە سادەیی و بەردەوام لە نزاکردن دەژیا."),

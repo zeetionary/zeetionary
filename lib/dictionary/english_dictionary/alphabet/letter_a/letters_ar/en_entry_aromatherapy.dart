@@ -178,9 +178,6 @@ class EnglishEntryaromatherapy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Owen received aromatherapy massage weekly for about three months."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئۆون ھەفتانە بۆ نزیکەی سێ مانگ مەساجی ئارۆماسێرەپی دەکرد."),

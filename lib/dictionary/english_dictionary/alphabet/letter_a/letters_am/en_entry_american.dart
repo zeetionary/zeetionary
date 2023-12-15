@@ -198,9 +198,6 @@ class EnglishEntryamerican extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He said he was proud to be an American."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "گوتی شانازییە بۆی خەڵکی ئەمریکا بێت."),
                               const CustomSizedBoxForTTS(),
@@ -221,9 +218,6 @@ class EnglishEntryamerican extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I'm American."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "من ئەمریکیم."),
                               const CustomSizedBoxForTTS(),
@@ -242,9 +236,6 @@ class EnglishEntryamerican extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "They drive a big American car."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئۆتۆمبێلێکی گەورەی ئەمریکییان ھەیە."),
                               const CustomSizedBoxForTTS(),

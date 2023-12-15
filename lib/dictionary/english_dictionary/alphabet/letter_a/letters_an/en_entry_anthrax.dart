@@ -173,9 +173,6 @@ class EnglishEntryanthrax extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Humans can contract anthrax by handling products from infected animals."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "مرۆڤ دەکرێت تووشی ڕەشەبرین ببێت بەھۆی دەستدان لە ئاژەڵی تووشبوو."),

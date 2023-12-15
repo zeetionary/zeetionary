@@ -174,9 +174,6 @@ class EnglishEntryamputation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A boyhood accident led to the amputation of one of his legs."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕووداوێک لە کاتی منداڵی‌یدا بوو بەھۆی بڕینەوەی لاقێکی."),

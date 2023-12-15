@@ -134,9 +134,6 @@ class EnglishEntryalienation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The new policy resulted in the alienation of many voters."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "سیاسەتە تازەکە زۆر دەنگدەری وەلاخست."),
                               const CustomSizedBoxForTTS(),
@@ -158,9 +155,6 @@ class EnglishEntryalienation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Many young people suffer from a sense of alienation."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆر کەسی گەنج بەدەست ھەستی نامۆیی دەناڵێنن."),

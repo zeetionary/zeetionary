@@ -175,9 +175,6 @@ class EnglishEntrybandage extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He had a strip of bandage tied around his head."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پارچە پەڕۆیەکی ئاڵاندووە لەسەری."),
                               const CustomSizedBoxForTTS(),
@@ -199,9 +196,6 @@ class EnglishEntrybandage extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Don't bandage the wound too tightly."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "برینەکە توند مەبەستە."),
                               const CustomSizedBoxForTTS(),

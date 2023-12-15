@@ -183,9 +183,6 @@ class EnglishEntryartichoke extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Cut the artichoke into long quarters and remove the choke (the purple spikes and blond fluff)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئارتیشۆکەکە بکە چوار بەشی یەکسانەوە و ناوەکەی لابدە."),

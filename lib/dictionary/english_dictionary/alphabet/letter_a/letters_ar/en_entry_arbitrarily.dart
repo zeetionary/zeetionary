@@ -182,9 +182,6 @@ class EnglishEntryarbitrarily extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The leaders of the groups were chosen arbitrarily."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەرکردەی گرووپەکان بە ھەڕەمەکییانە ھەڵبژێردران."),
@@ -208,9 +205,6 @@ class EnglishEntryarbitrarily extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The political frontiers in Africa were often arbitrarily drawn up by the old colonial powers."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سنوورە سیاسییەکان لە ئەفریقا زۆرجار بە زۆرەملێیانە لەلایەن دەسەڵاتە داگیرکەرەکانی کۆنەوە دەکێشران."),

@@ -175,9 +175,6 @@ class EnglishEntrybanner extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Protesters carried a banner reading ‘Save our Wildlife’."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خۆپیشاندەران بەیداخێکیان بەدەستەوە بوو کە لەسەری نووسرابوو 'ژیانی سرووشتی بپارێزن'."),
@@ -201,9 +198,6 @@ class EnglishEntrybanner extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They put up a website banner advising customers to order early."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نووسراوێکیان لەسەر وێبسایتەکە دانا کە ئامۆژگاری کڕیارانی دەکرد زوو داواکاریەکانیان بنێرن."),

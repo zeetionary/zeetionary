@@ -174,9 +174,6 @@ class EnglishEntryaviation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Orville and Wilbur Wright were aviation trail blazers."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئۆرڤڵ و ویڵبەر ڕێچکەشکێنی فڕینەوانی بوون."),

@@ -181,9 +181,6 @@ class EnglishEntryassorted extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The meat is served with salad or assorted vegetables."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گۆشتەکە لەگەڵ زەڵاتە یان سەوزەی جۆراوجۆر دەخورێت ."),

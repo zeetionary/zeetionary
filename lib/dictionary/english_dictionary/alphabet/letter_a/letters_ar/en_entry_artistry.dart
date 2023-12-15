@@ -181,9 +181,6 @@ class EnglishEntryartistry extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "You have to admire the artistry of her novels."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دەبێت سەرسامی ھونەری ڕۆمانەکانی بیت."),
                               const CustomSizedBoxForTTS(),

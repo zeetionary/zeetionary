@@ -128,9 +128,6 @@ am not/is not/are not"""),
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Things ain't what they used to be."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "شتەکان وەک جاران نین."),
                               const CustomSizedBoxForTTS(),

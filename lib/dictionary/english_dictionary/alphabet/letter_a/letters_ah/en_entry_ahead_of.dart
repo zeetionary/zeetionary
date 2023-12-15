@@ -145,9 +145,6 @@ class EnglishEntryaheadof extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Two boys were ahead of us."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دوو کوڕ لە پێشمانەوە بوون."),
                               const CustomSizedBoxForTTS(),
@@ -167,9 +164,6 @@ class EnglishEntryaheadof extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Ahead of us lay ten days of intensive training."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دە ڕۆژی پڕ لە ڕاھێنانی سەختمان لە پێشە."),
@@ -192,9 +186,6 @@ class EnglishEntryaheadof extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I finished several days ahead of the deadline."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "چەند ڕۆژێک پێش وادەی دیاریکراو تەواو بووم."),
@@ -217,9 +208,6 @@ class EnglishEntryaheadof extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She was always well ahead of the rest of the class."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەمیشە لەپێش ئەوانی دیکەی پۆلەکە بووە."),

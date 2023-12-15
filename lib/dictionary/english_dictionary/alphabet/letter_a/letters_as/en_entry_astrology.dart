@@ -182,9 +182,6 @@ class EnglishEntryastrology extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Some people still believe in astrology."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەندێک کەس ھێشتا باوەڕیان بە فەلەکناسی ھەیە."),

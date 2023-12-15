@@ -172,9 +172,6 @@ class EnglishEntrybarmaid extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She was working as a barmaid in a pub."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وەک ژنەمەیگێڕێک لە باڕێکدا کاریدەکرد."),

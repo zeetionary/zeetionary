@@ -177,9 +177,6 @@ class EnglishEntryaqualung extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The word 'aqualung' is a combination of 'aqua' for water and 'lung' for breathing."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وشەی 'aqualung' لێکدراوی وشەکانی 'aqua' بە واتای ئاو و 'lung' بە واتای ھەناسەدانە."),

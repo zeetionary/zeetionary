@@ -131,9 +131,6 @@ class EnglishEntryagenda extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We have a very full agenda of issues to discuss."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کارنامەمان بابەتێکی زۆر لەخۆدەگرێت بۆ باسکردن."),
@@ -156,9 +153,6 @@ class EnglishEntryagenda extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Education is now at the top of the government's agenda (= most important)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پەروەردە و فێرکردن لە گرنگترین خاڵەکانی کارنامەی حکومەتە."),

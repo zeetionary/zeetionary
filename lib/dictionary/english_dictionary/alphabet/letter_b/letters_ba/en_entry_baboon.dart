@@ -174,9 +174,6 @@ class EnglishEntrybaboon extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He's got all this thick black hair like a baboon."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "مووی ئەستووری ڕەشی ھەیە وەک بابوون."),
                               const CustomSizedBoxForTTS(),

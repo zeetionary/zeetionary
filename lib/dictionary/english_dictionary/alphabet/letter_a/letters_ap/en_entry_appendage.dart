@@ -180,9 +180,6 @@ class EnglishEntryappendage extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They treat Scotland as a mere appendage of England."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وەک پاشکۆی ئەنگلتەرە مامەڵە لەگەڵ سکۆتلەندە دەکەن."),
@@ -206,9 +203,6 @@ class EnglishEntryappendage extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The two appendages hanging from the insect’s mouth are used to detect and taste food."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو دوو ئەندامەی کە لە دەمی مێرووەکەوە دەرچوون بەکاردێن بۆ ناسینەوە و تام‌کردنی خۆراک."),

@@ -174,9 +174,6 @@ class EnglishEntrybackfire extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Unfortunately the plan backfired."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەداخەوە پلانەکە لێکەوتەی پێچەوانەی ھەبوو."),
@@ -199,9 +196,6 @@ class EnglishEntrybackfire extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I was woken by the sound of a truck backfiring."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خەبەرم‌بووەوە بە دەنگی ئۆتۆمبێلێک کە پێشەسووتەی دەکرد."),

@@ -184,9 +184,6 @@ class EnglishEntryash extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He carefully tapped the cigarette ash into the ashtray."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەوریاییەوە سووتووی جگەرەکەی وەراندە ناو تەپڵەکە."),
@@ -207,9 +204,6 @@ class EnglishEntryash extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Ash from the volcano fell over a wide area."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خۆڵەمێشی گڕکانەکە دابارییە سەر ناوچەیەکی فراوان."),
@@ -233,9 +227,6 @@ class EnglishEntryash extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The town was reduced to ashes in the fighting."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "شارۆچکەکە بوو بە وێرانە لە شەڕەکەدا."),
                               const CustomSizedBoxForTTS(),
@@ -258,9 +249,6 @@ class EnglishEntryash extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She wanted her ashes to be scattered at sea."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەیویست خۆڵەمێشەکەی بڕژێنرێتەوە دەریاوە."),

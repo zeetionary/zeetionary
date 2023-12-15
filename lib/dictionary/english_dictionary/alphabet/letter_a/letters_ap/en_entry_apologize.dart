@@ -177,9 +177,6 @@ class EnglishEntryapologize extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Why should I apologize?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بۆچی دەبێت داوای لێبووردن بکەم؟"),
                               const CustomSizedBoxForTTS(),
@@ -200,9 +197,6 @@ class EnglishEntryapologize extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He wanted to publicly apologize to his victims."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ویستی بەشێوەیەکی گشتی داوای لێبووردن بکات لە قوربانییەکانی."),
@@ -224,9 +218,6 @@ class EnglishEntryapologize extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I apologize unreservedly for any offending remarks I made."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە تەواوی داوای لێبووردن دەکەم ھەر لێدوانێکی بێ‌ڕێزانە کە وتبێتم."),

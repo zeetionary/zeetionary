@@ -176,9 +176,6 @@ class EnglishEntryancient extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Archaeologists are excavating the ruined temples of this ancient civilization."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "شوێنەوارناسان پەرستگا وێرانەکانی ئەم شارستانیەتە کۆنە ھەڵدەدەنەوە."),
@@ -200,9 +197,6 @@ class EnglishEntryancient extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "People have lived in this valley since ancient times."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "خەڵکی لەدێر زەمانەوە لەم دۆڵە ژیاون."),
                               const CustomSizedBoxForTTS(),
@@ -224,9 +218,6 @@ class EnglishEntryancient extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He's got an ancient laptop."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لاپتۆپێکی قەدیمی ھەیە."),
                               const CustomSizedBoxForTTS(),
@@ -249,9 +240,6 @@ class EnglishEntryancient extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The ancients believed in mythical creatures and powerful gods."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زووژیاوان باوەڕیان بە بوونەوەری ئەفسانەیی و کۆمەڵە خواوەندی بەدەسەڵات ھەبوو."),

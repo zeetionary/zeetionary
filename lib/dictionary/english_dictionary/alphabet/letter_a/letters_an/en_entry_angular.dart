@@ -173,9 +173,6 @@ class EnglishEntryangular extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Her features were too angular, her face a little too long for beauty."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕووخساری زۆر ڕەقەڵ بوو و سەری کەمێک زۆر درێژ بوو بەوەی جوان بێت."),

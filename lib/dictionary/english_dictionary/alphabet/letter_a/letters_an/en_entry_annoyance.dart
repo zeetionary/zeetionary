@@ -176,9 +176,6 @@ class EnglishEntryannoyance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He could not conceal his annoyance at being interrupted."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نەیدەتوانی بێزاریی بشارێتەوە بە قسەپێ‌بڕینی."),
@@ -200,9 +197,6 @@ class EnglishEntryannoyance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I dropped out of college, much to the annoyance of my parents."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وازم لە کۆلێژ ھێنا کە بووە ھۆی بێزاریی دایک و باوکم."),
@@ -226,9 +220,6 @@ class EnglishEntryannoyance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "One of the greatest annoyances was being bitten by mosquitoes every night."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "یەکێک لە گەورەترین جاڕسکەرەکان ئەوەبوو مێشوولە ھەموو شەوێک بتگەزێت."),

@@ -182,9 +182,6 @@ class EnglishEntryapprehension extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There is growing apprehension that fighting will begin again."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دڵەخورپەی زیاتر و زیاتر ھەیە کە شەڕ لەوانەیە دووبارە دەست‌پێ‌بکاتەوە."),
@@ -206,9 +203,6 @@ class EnglishEntryapprehension extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He watched the election results with apprehension."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە دڵەخورپەوە سەیری ئەنجامی ھەڵبژاردنەکانی دەکرد."),
@@ -232,9 +226,6 @@ class EnglishEntryapprehension extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Both the army and the police were involved in the apprehension of the terrorists."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەردوو سوپا و پۆلیس بەژداربوون لە دەستگیرکردنی تیرۆریستەکان."),

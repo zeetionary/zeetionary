@@ -176,9 +176,6 @@ class EnglishEntrybailiff extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The bailiffs seized the car and house."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەفسەرەکان ئۆتۆمبێل و خانووەکەیان دەستبەسەرکرد."),
@@ -202,9 +199,6 @@ class EnglishEntrybailiff extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The bailiff managed the sale of the farm's produce."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کێڵگەگێڕەکە سەرپەرشتی فرۆشتنی بەرھەمەکانی کێڵگەکەی دەکرد."),
@@ -228,9 +222,6 @@ class EnglishEntrybailiff extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The bailiff escorted the defendant out of the courtroom."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەرگاوانەکە گومان‌لێ‌کراوی لە ژووری دادگا بردە دەرەوە."),

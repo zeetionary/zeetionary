@@ -178,9 +178,6 @@ class EnglishEntryanchor extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "We raised the anchor and set sail."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەنگەرەکەمان خستەخوارەوە و دەستمان بە گەشت‌کرد."),
@@ -202,9 +199,6 @@ class EnglishEntryanchor extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We weighed anchor (= pulled it out of the water)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لەنگەرەکەمان ھەڵکێشا."),
                               const CustomSizedBoxForTTS(),
@@ -227,9 +221,6 @@ class EnglishEntryanchor extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She was my anchor when things were difficult for me."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کە شتەکان سەخت‌بوون بۆم ئەو پشت‌وپەنام بوو."),
@@ -253,9 +244,6 @@ class EnglishEntryanchor extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She was questioned by a BBC anchor about her trip."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەلایەن پێشکەشکارێکی بی‌بی‌سی‌یەوە پرسیاری لێکرا لەسەر گەشتەکەی."),
@@ -278,9 +266,6 @@ class EnglishEntryanchor extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "We anchored off the coast of Spain."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە کەناراوەکانی ئیسپانیا لەنگەرمان گرت."),
@@ -304,9 +289,6 @@ class EnglishEntryanchor extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The ropes were anchored to the rocks."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "گوریسەکان لە بەردەکان گیرکرابوون."),
                               const CustomSizedBoxForTTS(),
@@ -329,9 +311,6 @@ class EnglishEntryanchor extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Her novels are anchored in everyday experience."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕۆمانەکانی پشت بە ئەزموونی ڕۆژانە دەبەستن."),
@@ -355,9 +334,6 @@ class EnglishEntryanchor extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She anchored the evening news for seven years."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەواڵی ئێوارانی بۆ حەوت ساڵ پێشکەش‌دەکرد."),

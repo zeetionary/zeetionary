@@ -133,9 +133,6 @@ class EnglishEntryalteration extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They are making some alterations to the house."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەندێک گۆڕانکاری لە خانووەکە دەکەن."),
                               const CustomSizedBoxForTTS(),

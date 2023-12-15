@@ -138,9 +138,6 @@ class EnglishEntrycontralto extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She began by singing soprano, then changed to contralto."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەستی پێکرد بە چڕینی سۆپرانۆ، و دواتر گۆڕی بۆ کۆنتراڵتۆ."),

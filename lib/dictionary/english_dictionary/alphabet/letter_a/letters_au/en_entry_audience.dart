@@ -185,9 +185,6 @@ class EnglishEntryaudience extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The audience was/were clapping for 10 minutes."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئامادەبووان بۆ ماوەی ١٠ خولەک چەپڵەیان لێدا."),
@@ -209,9 +206,6 @@ class EnglishEntryaudience extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The museum is trying to attract a wider audience."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "مۆزەخانەکە ھەوڵ دەدات سەردانیکاری زیاتر ڕابکێشێت."),
@@ -235,9 +229,6 @@ class EnglishEntryaudience extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "His book reached an even wider audience when it was made into a movie."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کتێبەکەی گەشت بە ھەواداری زیاتر کە کرا بە فیلم."),
@@ -261,9 +252,6 @@ class EnglishEntryaudience extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She had a private audience with the king."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کۆبوونەوەیەکی تایبەتی ھەبوو لەگەڵ پاشا."),

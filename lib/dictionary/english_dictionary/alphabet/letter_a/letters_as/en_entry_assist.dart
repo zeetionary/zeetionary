@@ -183,9 +183,6 @@ class EnglishEntryassist extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We are looking for people who would be willing to assist in the group's work."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بۆ کەسانێک دەگەڕێین کە ئامادەبن یارمەتیدەربن لە کاری گرووپەکە."),
@@ -207,9 +204,6 @@ class EnglishEntryassist extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "His task is to advise and assist his colleagues."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەرکەکەی ئەوەیە ڕاوێژ بدات بە ھاوکارەکانی و یارمەتییان بدات."),
@@ -233,9 +227,6 @@ class EnglishEntryassist extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Volcanic eruptions like this probably assisted the development of life on this planet."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەقینەوەی گڕکانی وەک ئەمە ئەگەری ھەیە یارمەتیدەر بووبن لە گەشەی ژیان لەسەر زەوی."),

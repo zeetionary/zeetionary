@@ -131,9 +131,6 @@ class EnglishEntryaltitude extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We are flying at an altitude of 6 000 metres."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لە بەرزی ٦٠٠٠ مەتردا دەفڕین."),
                               const CustomSizedBoxForTTS(),

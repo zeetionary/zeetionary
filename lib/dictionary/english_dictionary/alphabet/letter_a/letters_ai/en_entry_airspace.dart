@@ -133,9 +133,6 @@ class EnglishEntryairspace extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The airspace over Europe is becoming more and more crowded."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئاسمانی ئەورووپا زیاتر و زیاتر قەرەباڵغ دەبێت."),
@@ -156,9 +153,6 @@ class EnglishEntryairspace extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The jet entered Chinese airspace without permission."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "فڕۆکەکە چووە ئاسمانی چین بەبێ مۆڵەت."),
                               const CustomSizedBoxForTTS(),

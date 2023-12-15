@@ -174,9 +174,6 @@ class EnglishEntryannihilate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The human race has enough weapons to annihilate itself."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "مرۆڤایەتی ھێندە چەکی ھەیە بە تەواوی خۆی لەناو ببات."),
@@ -200,9 +197,6 @@ class EnglishEntryannihilate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She annihilated her opponent, who failed to win a single game."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕکابەرەکەی تێکشکاند کە نەیتوانی ھیچ یارییەک بباتەوە."),

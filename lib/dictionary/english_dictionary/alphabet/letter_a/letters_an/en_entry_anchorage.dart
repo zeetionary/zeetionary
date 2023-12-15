@@ -174,9 +174,6 @@ class EnglishEntryanchorage extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The bay is well known as a safe anchorage."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەنداوەکە بە باشی وەک بەندەرێکی سەلامەت ناسراوە."),
@@ -199,9 +196,6 @@ class EnglishEntryanchorage extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The plant needs firm anchorage."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕووەکەکە پێویستی بە قایمکردنی توند ھەیە."),

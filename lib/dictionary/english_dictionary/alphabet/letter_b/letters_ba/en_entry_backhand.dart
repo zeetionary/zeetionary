@@ -174,9 +174,6 @@ class EnglishEntrybackhand extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Nadal has one of the finest backhands in tennis."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نادال یەکێک لە باشترین تواناکانی لێدانی بە پشتەدەست ھەیە لە تێنسدا."),

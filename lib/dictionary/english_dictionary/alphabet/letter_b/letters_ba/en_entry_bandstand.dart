@@ -174,9 +174,6 @@ class EnglishEntrybandstand extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The event will include a band performing on the restored bandstand."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بۆنەکە باندێک لەخۆدەگرێت کە گۆرانی دەڵێن لەسەر سەکۆ نۆژەنکراوەکە."),

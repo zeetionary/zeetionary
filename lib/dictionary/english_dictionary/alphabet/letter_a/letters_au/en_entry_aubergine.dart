@@ -182,9 +182,6 @@ class EnglishEntryaubergine extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The chef sliced the aubergine into thin rounds and grilled them."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "شێفەکە باینجانەکەی وەک ئەڵقە ئەڵقەی باریک پاککرد و برژاندنی."),

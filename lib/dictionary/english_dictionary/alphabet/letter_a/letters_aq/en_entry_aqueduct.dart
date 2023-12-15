@@ -179,9 +179,6 @@ class EnglishEntryaqueduct extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Many Roman generals built aqueducts for their army during battles."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆرێک ژەنەراڵی ڕۆم ئاوبارەیان درووست‌دەکرد بۆ سوپاکانیان لە کاتی شەڕدا."),

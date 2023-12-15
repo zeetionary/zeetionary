@@ -182,9 +182,6 @@ class EnglishEntryarmour extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Police put on body armour before confronting the rioters."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پۆلیس زرێپۆشیان لەبەرکرد پێش ڕووبەڕووبوونەوەی ئاژاوەچییەکان."),
@@ -206,9 +203,6 @@ class EnglishEntryarmour extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Monkeys do not have any kind of protective armour and use their brains to solve problems."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "مەیموون ھیچ پارێزەرێکی جەستەیان نییە و مێشکیان بەکاردێنن بۆ چارەسەرکردنی کێشە."),
@@ -231,9 +225,6 @@ class EnglishEntryarmour extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Modern tanks have strong armour."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تانکەکانی ئەم سەردەمە زرێپۆشی بەھێزیان ھەیە."),
@@ -257,9 +248,6 @@ class EnglishEntryarmour extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The troops were backed by tanks, artillery, and other heavy armour."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھێزەکان پشتیوانی دەکران بە تانک و تۆپھاوێژ و زرێپۆشی دیکە."),

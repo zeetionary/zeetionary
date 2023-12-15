@@ -133,9 +133,6 @@ class EnglishEntryamen extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "We ask this through our Lord, Amen."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بۆ ئەمە داوا لە خودا دەکەین، ئامین."),
                               const CustomSizedBoxForTTS(),
@@ -156,9 +153,6 @@ class EnglishEntryamen extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Amen to that (= I certainly agree with that)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "خودا بکات (ئەوە ڕووبدات)."),
                               const CustomSizedBoxForTTS(),

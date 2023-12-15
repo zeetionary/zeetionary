@@ -183,9 +183,6 @@ class EnglishEntryattachecase extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The spy stole the attaché case containing the secret documents."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سیخوڕەکە ئەو جانتایەی دزی کە دۆکیومێنتە نھێنییەکانی تێدابوو."),

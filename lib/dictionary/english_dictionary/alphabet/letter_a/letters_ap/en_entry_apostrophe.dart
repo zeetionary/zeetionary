@@ -182,9 +182,6 @@ class EnglishEntryapostrophe extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "'It's' with an apostrophe means 'it is' or 'it has'."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "'It's' بە کرتێنێکێکەوە دەکرێ واتای it is یان it has بێ."),
@@ -207,9 +204,6 @@ class EnglishEntryapostrophe extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Helen's house is very large."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ماڵ ھێلین زۆر گەورەیە."),
                               const CustomSizedBoxForTTS(),
@@ -231,9 +225,6 @@ class EnglishEntryapostrophe extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "How many 3’s are there in 9?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "چەند دانە ٣ لە ٩دا ھەیە؟"),
                               const CustomSizedBoxForTTS(),
@@ -253,9 +244,6 @@ class EnglishEntryapostrophe extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "There are two m’s in ‘comma’."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دوو m لە وشەی comma دا ھەیە."),
                               const CustomSizedBoxForTTS(),

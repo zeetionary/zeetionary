@@ -182,9 +182,6 @@ class EnglishEntryassess extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Accurately assessing environmental impacts is very complex."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەدرووستی ھەڵسەنگاندنی کاریگەریی ژینگەیی کارێکی زۆر ئاڵۆزە."),
@@ -208,9 +205,6 @@ class EnglishEntryassess extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Damage to the building was assessed at £40 000."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زیان بە بیناکە بە ٤٠,٠٠٠ پاوەند خەمڵێندرا."),

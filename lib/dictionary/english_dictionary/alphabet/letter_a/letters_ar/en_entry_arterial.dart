@@ -179,9 +179,6 @@ class EnglishEntryarterial extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "These symptoms are often the first evidence of arterial disease."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم نیشانانە زۆرجار سەلمێنەری سەرەتایی نەخۆشییە لە خوێنبەرەکان."),

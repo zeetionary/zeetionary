@@ -178,9 +178,6 @@ class EnglishEntryapplaud extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He started to applaud and the others joined in."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەستی بە چەپڵەلێدان کرد و ئەوانی تریش بەدوایدا."),
@@ -204,9 +201,6 @@ class EnglishEntryapplaud extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "His efforts to improve the situation are to be applauded."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەوڵەکانی بۆ باشترکردنی دۆخەکە جێگەی دەستخۆشییە."),

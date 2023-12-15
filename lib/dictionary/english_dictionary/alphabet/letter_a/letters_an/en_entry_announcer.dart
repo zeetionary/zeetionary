@@ -176,9 +176,6 @@ class EnglishEntryannouncer extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The announcer advertised a few forthcoming programmes."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بێژەرەکە ژمارەیەک پڕۆگرامی ڕاگەیاند کە دواتر پێشکەش‌دەکرێن."),
@@ -202,9 +199,6 @@ class EnglishEntryannouncer extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The station announcer warned us that the train was running late."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بانگەوازکەری وێستگەکە پێی ڕاگەیاندین شەمەندەفەرەکە درەنگ دەگات."),
@@ -228,9 +222,6 @@ class EnglishEntryannouncer extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was the announcer for the NBA game."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بێژەری یارییەکەی ئێن-بی-ئەی بوو."),
                               const CustomSizedBoxForTTS(),

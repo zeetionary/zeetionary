@@ -173,9 +173,6 @@ class EnglishEntryankle extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She suffered a serious ankle injury in training."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تووشی گورزێکی کوشندە بوو لە قولەپێ‌یدا لە کاتی ڕاھێنان."),
@@ -196,9 +193,6 @@ class EnglishEntryankle extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "My ankles have swollen."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "قولەپێ‌یەکانم ئاوساون."),
                               const CustomSizedBoxForTTS(),

@@ -130,9 +130,6 @@ class EnglishEntryagonizing extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "His father’s agonizing death devastated her."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "مردنە بەژانەکەی باوکی وێرانی کرد."),
                               const CustomSizedBoxForTTS(),

@@ -141,9 +141,6 @@ class EnglishEntryalcoholic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The fruit juice tasted slightly alcoholic."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "شەربەتەکە کەمێک تامی کحولی دەدا."),
                               const CustomSizedBoxForTTS(),
@@ -165,9 +162,6 @@ class EnglishEntryalcoholic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The guests left in an alcoholic haze."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "میوانەکان بە گێژخواردوویی کحولەوە ڕۆشتن."),
@@ -190,9 +184,6 @@ class EnglishEntryalcoholic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She was taking care of her alcoholic son."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "چاودێری کوڕە ئاڵوودەکەیی دەکرد."),
                               const CustomSizedBoxForTTS(),
@@ -214,9 +205,6 @@ class EnglishEntryalcoholic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I don’t think an alcoholic can dry out without proper medical help."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێم وانییە کەسێکی ئاڵوودە بتوانێت خواردنەوە تەرک بکات بەبێ یارمەتی گونجاوی پزیشکی."),

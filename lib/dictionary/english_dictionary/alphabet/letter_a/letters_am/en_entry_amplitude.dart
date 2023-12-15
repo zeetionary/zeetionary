@@ -174,9 +174,6 @@ class EnglishEntryamplitude extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Sound waves are measured by their amplitude."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "شەپۆلی دەنگی بەپێی کشانیان دەپێورێن."),
                               const CustomSizedBoxForTTS(),
@@ -199,9 +196,6 @@ class EnglishEntryamplitude extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The sheer amplitude of the novel invites comparisons with Tolstoy."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەربڵاویی فراوانی ڕۆمانەکە وادەکات بەوانەی تۆڵستۆی بەراورد بکرێت."),

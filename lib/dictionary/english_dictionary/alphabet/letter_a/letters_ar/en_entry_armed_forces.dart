@@ -179,9 +179,6 @@ class EnglishEntryarmedforces extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Morale in the armed forces was at rock bottom."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ورەی ھێزە چەکدارەکان لەوپەڕی نزمیدا بوو."),

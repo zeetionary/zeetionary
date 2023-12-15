@@ -130,9 +130,6 @@ class EnglishEntryajar extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I'll leave the door ajar."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دەرگاکە بە کەمێک کراوە جێدێڵم."),
                               const CustomSizedBoxForTTS(),

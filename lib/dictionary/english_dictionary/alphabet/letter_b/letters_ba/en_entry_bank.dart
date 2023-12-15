@@ -252,9 +252,6 @@ class EnglishEntrybank extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I don't have much money in the bank at the end of the month."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە کۆتایی مانگەکەدا پارەم زۆر لە بانک نامێنێت."),
@@ -277,9 +274,6 @@ class EnglishEntrybank extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The player's bank was dwindling after several losses."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پارەی یاریزانەکە بەرەو کەمبوون دەچوو لە دوای ژمارەیەک دۆڕان."),
@@ -302,9 +296,6 @@ class EnglishEntrybank extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They intend to establish a bank of information which will be accessible to the public."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەیانەوێت بانکێکی زانیاری درووست بکەن کە بەردەستبێت بۆ خەڵکی."),
@@ -325,9 +316,6 @@ class EnglishEntrybank extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The blood bank is always in need of donations."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بانکی خوێنەکە ھەمیشە پێویستی بە بەخشینە."),
@@ -350,9 +338,6 @@ class EnglishEntrybank extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Take old clothes and shoes to the recycling bank."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "جل و پێڵاوی کۆن ببە بۆ بانکی دووبارەبەکارھێنانەوەکە."),
@@ -375,9 +360,6 @@ class EnglishEntrybank extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The river burst its banks after heavy rain."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕووبارەکە قەراخەکانی پڕکرد لە دوای بارانی خەست."),
@@ -400,9 +382,6 @@ class EnglishEntrybank extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There were low banks of earth between the rice fields."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەپۆلکەی نزمی زەوی ھەبوو لەنێوان کێڵگە برنجەکان."),
@@ -425,9 +404,6 @@ class EnglishEntrybank extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The driver carefully navigated the sharp bend on the banked road."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "شۆفێرەکە بەوریاییەوە دەرچوو بە پێچکردنەوە تیژەکە لەسەر ڕێگا لێژبووەکە."),
@@ -450,9 +426,6 @@ class EnglishEntrybank extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The sun disappeared behind a bank of clouds."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "خۆر کەوتە پشت تۆپەڵە ھەورێک."),
                               const CustomSizedBoxForTTS(),
@@ -474,9 +447,6 @@ class EnglishEntrybank extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She was faced with a huge bank of switches and buttons."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێژەیەکی زۆر لە سویچ و دووگمەی لەپێش بوو."),
@@ -499,9 +469,6 @@ class EnglishEntrybank extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She is believed to have banked (= been paid) £10 million in two years."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "باوەڕوایە ١٠ ملیۆن یۆرۆی قازانج کردبێت (خستبێتە بانک) لە دوو ساڵدا."),
@@ -524,9 +491,6 @@ class EnglishEntrybank extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The family had banked with Bank of America for generations."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خێزانەکە بۆ چەندین نەوەیە ھەژماریان لە بانکی ئەمریکا ھەیە."),
@@ -549,9 +513,6 @@ class EnglishEntrybank extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The pilot banked the plane to give passengers a better look at the mountain."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "فڕۆکەوانەکە فڕۆکەکەی خست بە لادا بۆ ئەوەی دیمەنێکی باشتری شاخەکە بدات بە گەشتیاران."),
@@ -574,9 +535,6 @@ class EnglishEntrybank extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The snow had banked up in the corner of the garden."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەفرەکە کەڵەکەی کردبوو لە سووچی باخچەکە."),
@@ -599,9 +557,6 @@ class EnglishEntrybank extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We banked up the fire (= put more coal on it) to keep it burning all night."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئاگرەکەمان خۆشکردەوە بۆ ئەوەی تەواوی شەوەکە بسوتێت."),

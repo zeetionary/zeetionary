@@ -173,9 +173,6 @@ class EnglishEntryavert extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "A disaster was averted."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕێگە لە کارەساتێک گیردرا."),
                               const CustomSizedBoxForTTS(),
@@ -197,9 +194,6 @@ class EnglishEntryavert extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She averted her eyes from the terrible scene in front of her."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "چاوی لادا لەو ڕووداوە تۆقێنەرەی لە پێشی بوو."),

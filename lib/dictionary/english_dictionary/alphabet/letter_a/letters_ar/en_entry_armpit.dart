@@ -179,9 +179,6 @@ class EnglishEntryarmpit extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "To my mind, a hairless armpit looks unnatural."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بۆ من، بن‌باڵی بێ موو نا سرووشتییە."),
                               const CustomSizedBoxForTTS(),

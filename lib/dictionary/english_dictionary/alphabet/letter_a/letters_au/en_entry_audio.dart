@@ -179,9 +179,6 @@ class EnglishEntryaudio extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The audio quality was poor."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "کوالێتی دەنگەکە خراپ بوو."),
                               const CustomSizedBoxForTTS(),

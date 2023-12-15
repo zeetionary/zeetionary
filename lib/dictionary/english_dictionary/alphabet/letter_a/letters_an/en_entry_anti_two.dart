@@ -180,9 +180,6 @@ class EnglishEntryantitwo extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Just because I won't join you, it doesn't mean that I'm anti you."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەنھا لەبەرئەوەی پەیوەندیت پێوەناکەم واتای ئەوە نییە دژتم."),
@@ -204,9 +201,6 @@ class EnglishEntryantitwo extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Soldiers used an anti-tank weapon to stop the big tank."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەربازەکان چەکێکی دژە تانکیان بەکارھێنا بۆ وەستاندنی دەبابە گەورەکە."),
@@ -230,9 +224,6 @@ class EnglishEntryantitwo extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Shakespeare's plays have different characters, some heroes, and some anti-heroes."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "شانۆکانی شکسپیر کارەکتەری جیاوازیان تێدایە، ھەندێکیان پاڵەوانن و ھەندێکیشیان دژە پاڵەوانن."),
@@ -256,9 +247,6 @@ class EnglishEntryantitwo extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Antifreeze keeps your car's engine from freezing in cold weather."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دژە بەستن ڕێگری لە بزوێنەری ئۆتۆمبێلەکەت دەکات بیبەستێ لە کەشوھەوای سارددا."),

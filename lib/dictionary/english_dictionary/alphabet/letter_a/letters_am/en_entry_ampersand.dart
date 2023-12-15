@@ -173,9 +173,6 @@ class EnglishEntryampersand extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She has worked for both Google & Microsoft."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بۆ ھەردوو گووگڵ و مایکرۆسۆفت کاری‌کردووە."),

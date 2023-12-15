@@ -134,9 +134,6 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I had an abscess in the lower part of my alimentary canal."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دومەڵێکم ھەبوو لە بەشی خوارەوەی جۆگەی ھەرسم."),

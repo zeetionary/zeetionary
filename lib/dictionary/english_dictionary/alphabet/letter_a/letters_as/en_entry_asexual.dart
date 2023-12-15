@@ -180,9 +180,6 @@ class EnglishEntryasexual extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She led an asexual life."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ژیانێکی دوور لە سێکسی بەسەربرد."),
                               const CustomSizedBoxForTTS(),
@@ -205,9 +202,6 @@ class EnglishEntryasexual extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "An asexual individual may choose to engage in sexual activity even while not experiencing sexual attraction."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەسێکی سێکسنەخواز ئەتوانێت سێکس بکات ئەگەرچی دڵیشی نەچێت لە سێکس."),
@@ -231,9 +225,6 @@ class EnglishEntryasexual extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Algae reproduce by both sexual and asexual reproduction."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "قەوزە دەکرێت زاوزێ بکەن بە زۆربوونی سێکسی و بە ناسێکسی."),

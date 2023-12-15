@@ -172,9 +172,6 @@ class EnglishEntryanemone extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "We saw wild anemones in the woods."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گوڵاڵەی دەشتیمان بینی لە دارستانەکان."),

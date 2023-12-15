@@ -180,9 +180,6 @@ class EnglishEntryaura extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She always has an aura of confidence."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەمیشە متمانەبەخۆبوونی لێ‌دەبارێ."),
                               const CustomSizedBoxForTTS(),

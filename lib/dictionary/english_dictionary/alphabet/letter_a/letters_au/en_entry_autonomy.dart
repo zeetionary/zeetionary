@@ -175,9 +175,6 @@ class EnglishEntryautonomy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There is pressure for some degree of autonomy from minorities in the north of the country."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "داوا ھەیە بۆ ھەندێک خۆبەڕێوبەری لەلایەن کەمینەکانی باکووری وڵاتەکەوە."),
@@ -201,9 +198,6 @@ class EnglishEntryautonomy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "One of the aims of modern nursing is to encourage patient autonomy."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "یەکێک لە ئامانجەکانی کاری پەرستاری لەم سەردەمەدا ئەوەیە نەخۆش بتوانێت سەربەخۆ بێت."),

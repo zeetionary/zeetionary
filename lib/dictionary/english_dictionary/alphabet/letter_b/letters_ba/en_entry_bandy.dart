@@ -174,9 +174,6 @@ class EnglishEntrybandy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I couldn't help laughing at his bandy legs."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نەمدەتوانی خۆم بگرم لە پێکەنین بە لاقە چەماوەکانی."),

@@ -172,9 +172,6 @@ class EnglishEntrybanking extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She's thinking about a career in banking."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بیر لە دۆزینەوەی کارێک لە بانکداری دەکاتەوە."),

@@ -175,9 +175,6 @@ class EnglishEntryballoon extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "My balloon has burst!"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "فودانکەکەم تەقی!"),
                               const CustomSizedBoxForTTS(),
@@ -199,9 +196,6 @@ class EnglishEntryballoon extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "We went up in a balloon."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "سواری باڵۆنێک بووین."),
                               const CustomSizedBoxForTTS(),
@@ -223,9 +217,6 @@ class EnglishEntryballoon extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Her skirt ballooned out in the wind."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "تەنوورەکەی لە بایەکەدا خڕبوویەوە."),
                               const CustomSizedBoxForTTS(),
@@ -248,9 +239,6 @@ class EnglishEntryballoon extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Unemployment ballooned to fourteen per cent."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بێکاری ھەڵبەزی بۆ ١٤٪."),
                               const CustomSizedBoxForTTS(),
@@ -273,9 +261,6 @@ class EnglishEntryballoon extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He planned to become the first person to balloon over the North Pole."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پلانی بوو بێت بە یەکەم کەس بەسەر خولگەی باکووری زەویدا بە باڵۆن گەشت بکات."),

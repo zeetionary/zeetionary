@@ -174,9 +174,6 @@ class EnglishEntryannex extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Germany annexed Austria in 1938."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەڵمانیا نەمسای داگیرکرد لە ساڵی ١٩٣٨"),
@@ -200,9 +197,6 @@ class EnglishEntryannex extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Delicate and valuable books are kept in an air-conditioned annex to the main library."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کتێبە ناسک و بەنرخەکان لە ژوورێکی بچووکی کتێبخانە سەرەکییەکەن کە سیستەمی فێنککەرەوەی تێدایە."),

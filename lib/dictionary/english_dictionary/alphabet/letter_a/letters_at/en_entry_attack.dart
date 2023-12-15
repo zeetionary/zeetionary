@@ -317,9 +317,6 @@ class EnglishEntryattack extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Five people were killed in the attacks that took place last night."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێنچ کەس کوژران لەو ھێرشانەی دوێنێ شەو ئەنجام دران."),
@@ -341,9 +338,6 @@ class EnglishEntryattack extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A child is recovering in hospital after a serious attack by a stray dog."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "منداڵێک لە نەخۆشخانە چاکدەبێتەوە لە دوای ھێرشێک بۆسەری لەلایەن سەگێکی بەرەڵاوە."),
@@ -367,9 +361,6 @@ class EnglishEntryattack extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Rebel forces launched an attack on civilian targets."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھێزە یاخییەکان ھێرشێکیان ئەنجامدا بۆ سەر ئامانجی مەدەنی."),
@@ -392,9 +383,6 @@ class EnglishEntryattack extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I had an attack of fever this week."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەم ھەفتەیە ماوەیەک تام ھەبوو."),
                               const CustomSizedBoxForTTS(),
@@ -416,9 +404,6 @@ class EnglishEntryattack extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He suffers from attacks of anxiety."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ماوە ماوە تووشی خەمباری دەبێت."),
                               const CustomSizedBoxForTTS(),
@@ -441,9 +426,6 @@ class EnglishEntryattack extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Doctors have gone on the attack, accusing the government of incompetence."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پزیشکان دەستیان بە ڕەخنە کردووە و حکومەت تۆمەتبار دەکەن."),
@@ -467,9 +449,6 @@ class EnglishEntryattack extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Germany's attack has been weakened by the loss of some key players through injury."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھێرشبردنی ئەڵمانیا لاوازبووە بەھۆی لەدەستدانی ژمارەیەک یاریزانی گرنگ بەھۆی پێکانەوە."),
@@ -493,9 +472,6 @@ class EnglishEntryattack extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There was a sustained attack on the Arsenal goal."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھێرشی بەردەوام لەسەر گۆڵی ئەرسناڵ بوو."),
@@ -519,9 +495,6 @@ class EnglishEntryattack extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The government launched an all-out attack on poverty."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "حکومەت ھەڵمەتێکی فراوانی دژ بە ھەژاری ڕاگەیاند."),
@@ -545,9 +518,6 @@ class EnglishEntryattack extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The roof timbers were affected by rot and insect attack."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دار سەقفەکان کاریگەربوون بە ڕزین و ھێرشی مێروو."),
@@ -571,9 +541,6 @@ class EnglishEntryattack extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Most dogs will not attack unless provoked."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆر سەگ ھێرش ناکەن مەگەر ئەوەی تووڕە بکرێن."),
@@ -596,9 +563,6 @@ class EnglishEntryattack extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Enemy forces attacked at night."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھێزەکانی دووژمن لە شەودا ھێرشیان کرد."),
@@ -622,9 +586,6 @@ class EnglishEntryattack extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "His latest work has been bitterly attacked by the critics."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تازەترین کاری بەتوندی لەلایەن ھەڵسەنگێنەرانەوە ڕەخنەی لێگیراوە."),
@@ -648,9 +609,6 @@ class EnglishEntryattack extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Bacteria act on sugars to form acids which attack the tooth surface."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەکتریا کار لەسەر شەکر دەکەن بۆ درووستکردنی ئەسید کە زیان دەگەیەنێت بە ڕووی ددان."),
@@ -674,9 +632,6 @@ class EnglishEntryattack extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Spain attacked more in the second half and deserved a goal."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئیسپانیا لە گێمی دووەمدا زیاتر ھێرشی کرد و شایەنی گۆڵێک بوون."),
@@ -699,9 +654,6 @@ class EnglishEntryattack extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Let's attack one problem at a time."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "با مامەڵە لەگەڵ یەک کێشە بکەین لە ھەر کاتێکدا."),

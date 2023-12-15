@@ -157,9 +157,6 @@ class EnglishEntryagent extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Our agent in New York deals with all US sales."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نوێنەرەکەمان لە نیویۆرک مامەڵە لەگەڵ ھەموو فرۆشتنەکانمان لە ئەمریکا دەکات."),
@@ -181,9 +178,6 @@ class EnglishEntryagent extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She got the work through an agent."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لە ڕێگەی بریکارێکەوە کارەکەی وەرگرت."),
                               const CustomSizedBoxForTTS(),
@@ -205,9 +199,6 @@ class EnglishEntryagent extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She was operating as an undercover agent in London."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وەک سیخوڕێکی نھێنی کاری دەکرد لە لەندەن."),
@@ -230,9 +221,6 @@ class EnglishEntryagent extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The charity has been an agent for social change."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێکخراوەکە وەسیلەیەکی باش بووە بۆ گۆڕانکاری کۆمەڵایەتی."),

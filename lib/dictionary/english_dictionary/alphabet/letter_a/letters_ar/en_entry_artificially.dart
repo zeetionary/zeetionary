@@ -183,9 +183,6 @@ class EnglishEntryartificially extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Most mushrooms sold in supermarkets have been grown artificially in manure."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆرینەی قارچکەکان  کە لە سوپەرمارکێتەکان  دەفرۆشرێن  بەشێوەی دەستکردانە لە پەییندا سەوزبوونە."),
@@ -209,9 +206,6 @@ class EnglishEntryartificially extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They are keeping their prices artificially low."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نرخەکانیان بەخواستی خۆیان بە نزمی دەھێڵنەوە."),

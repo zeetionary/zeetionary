@@ -132,9 +132,6 @@ class EnglishEntryalbum extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I keep the photographs in an album."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "وێنەکان لە ئەلبومێکدا ھەڵدەگرم."),
                               const CustomSizedBoxForTTS(),
@@ -156,9 +153,6 @@ class EnglishEntryalbum extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They recently released their debut album."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەم نزیکانە یەکەم ئەلبومیان بڵاوکردەوە."),

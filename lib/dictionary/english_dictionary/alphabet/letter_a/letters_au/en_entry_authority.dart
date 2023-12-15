@@ -228,9 +228,6 @@ class EnglishEntryauthority extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She now has authority over the people who used to be her bosses."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئێستا دەسەڵاتی ھەیە بەسەر ئەو کەسانەی کە جاران گەورەی بوون."),
@@ -252,9 +249,6 @@ class EnglishEntryauthority extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Central government has extensive authority over teachers."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "حکومەتی ناوەندی دەسەڵاتی فراوانی ھەیە بەسەر مامۆستایاندا."),
@@ -278,9 +272,6 @@ class EnglishEntryauthority extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Some experts think the agency may have exceeded its authority."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەندێک شارەزا باوەڕیان وایە کە دەزگاکە ئەگەری ھەیە دەسەڵاتی خۆی تێپەڕاندبێ."),
@@ -303,9 +294,6 @@ class EnglishEntryauthority extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He took the car without authority."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئۆتۆمبێلەکەی بەبێ مۆڵەت برد."),
                               const CustomSizedBoxForTTS(),
@@ -328,9 +316,6 @@ class EnglishEntryauthority extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I have to report this to the authorities."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دەبێت ئەمە بە دەسەڵاتداران بڵێم."),
                               const CustomSizedBoxForTTS(),
@@ -353,9 +338,6 @@ class EnglishEntryauthority extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He spoke with authority on the topic."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە جێی‌باوەڕەوە قسەی لەسەر بابەتەکە دەکرد."),
@@ -378,9 +360,6 @@ class EnglishEntryauthority extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She's an authority on criminal law."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەسێکی شارەزایە لەسەر یاسای تاوانبارێتی."),

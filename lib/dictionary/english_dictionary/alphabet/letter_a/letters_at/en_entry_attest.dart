@@ -183,9 +183,6 @@ class EnglishEntryattest extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Contemporary accounts attest to his courage and determination."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەرچاوە ھاوسەردەمەکان گەواھی دەدەن بۆ بوێری و کۆڵنەدانی."),
@@ -209,9 +206,6 @@ class EnglishEntryattest extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I can attest that this treatment really works."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەتوانم شایەتی بدەم کە ئەم چارەسەر کاردەکات."),

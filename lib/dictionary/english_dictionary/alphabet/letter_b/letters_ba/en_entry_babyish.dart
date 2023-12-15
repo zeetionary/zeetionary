@@ -172,9 +172,6 @@ class EnglishEntrybabyish extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Now she’s nine, she thinks toys are babyish and wants a computer."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئێستا کە ٩ ساڵە، وابیردەکاتەوە کایە ھی منداڵانە و کۆمپیوتەرێکی دەوێت."),

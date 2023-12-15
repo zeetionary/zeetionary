@@ -183,9 +183,6 @@ class EnglishEntryassemble extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "All the students were asked to assemble in the main hall."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەموو خوێندکاران داوایان لێ‌کرا لە ھۆڵە سەرەکییەکە کۆببنەوە."),
@@ -207,9 +204,6 @@ class EnglishEntryassemble extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She then addressed the assembled company (= all the people there)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دواتر قسەی بۆ تەواوی کۆمپانیاکە کرد."),
                               const CustomSizedBoxForTTS(),
@@ -232,9 +226,6 @@ class EnglishEntryassemble extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I spent an hour assembling the furniture."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "یەک کاتژمێرم بەسەربرد بە پێکەوەنانی کەلوپەلەکان."),

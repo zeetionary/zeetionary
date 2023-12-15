@@ -132,9 +132,6 @@ class EnglishEntryalgebra extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She is fascinated by algebra while he considers it meaningless nonsense."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کچەکە حەزی بە ئەلجبرەیە لەکاتێکدا کوڕەکە بە ھیچ و پڕووپووچی دادەنا."),

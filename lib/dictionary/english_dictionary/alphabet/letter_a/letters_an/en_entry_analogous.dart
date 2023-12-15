@@ -174,9 +174,6 @@ class EnglishEntryanalogous extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Sleep has often been thought of as being in some way analogous to death."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خەوتن زۆرجار بەجۆرێک لە جۆرەکان بە مردن چوێندراوە."),
@@ -198,9 +195,6 @@ class EnglishEntryanalogous extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The two situations are roughly analogous."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەردوو بارودۆخەکە تاڕادەیەک لێکچوون."),
                               const CustomSizedBoxForTTS(),

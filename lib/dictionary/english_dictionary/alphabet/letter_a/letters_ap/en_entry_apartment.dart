@@ -178,9 +178,6 @@ class EnglishEntryapartment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I was renting a two-bedroom apartment in an old building."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەستەژوورێکی دوو ژووریم بە کرێ گرت‌بوو لە باڵەخانەیەکی کۆن."),
@@ -202,9 +199,6 @@ class EnglishEntryapartment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was evicted from his Manhattan apartment."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لە دەستەژوورەکەی لە مانھاتن دەرکرا."),
                               const CustomSizedBoxForTTS(),

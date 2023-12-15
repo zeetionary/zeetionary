@@ -173,9 +173,6 @@ class EnglishEntrybacknumber extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Readers can easily find back numbers of the magazine they require."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خوێنەران بە ئاسانی دەتوانن کۆپییەکانی پێشووتری گۆڤارەکە بدۆزنەوە کە دەیانەوێت."),

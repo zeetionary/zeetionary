@@ -183,9 +183,6 @@ class EnglishEntryarrive extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I'll wait until they arrive."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "چاوەڕێ دەبم تا دەگەن."),
                               const CustomSizedBoxForTTS(),
@@ -205,9 +202,6 @@ class EnglishEntryarrive extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She'll arrive in New York at noon."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "نیوەڕۆ دەگاتە نیویۆرک."),
                               const CustomSizedBoxForTTS(),
@@ -230,9 +224,6 @@ class EnglishEntryarrive extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A letter arrived for you this morning."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەم بەیانییە نامەیەکت پێ‌گەیشت."),
                               const CustomSizedBoxForTTS(),
@@ -254,9 +245,6 @@ class EnglishEntryarrive extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The wedding day finally arrived."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕۆژی ھاوسەرگیرییەکە لەکۆتاییدا گەشت."),
                               const CustomSizedBoxForTTS(),

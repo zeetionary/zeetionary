@@ -174,9 +174,6 @@ class EnglishEntryamplifier extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Have you connected the speakers to the amplifier?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بڵیندگۆکانت پەیوەست‌کردووە بە دەنگپێدەرەکەوە؟"),

@@ -182,9 +182,6 @@ class EnglishEntryatrocity extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "In the war, both sides committed atrocities."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە جەنگەکەدا، ھەردوو لا تاوانکارییان ئەنجامدا."),

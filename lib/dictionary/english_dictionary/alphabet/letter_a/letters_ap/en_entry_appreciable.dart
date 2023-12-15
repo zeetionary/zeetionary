@@ -180,9 +180,6 @@ class EnglishEntryappreciable extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There has been an appreciable increase in profits."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زیادبوونێکی بەرچاو لە قازانجەکان ھەبووە."),

@@ -179,9 +179,6 @@ class EnglishEntryapplause extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He left the stage to thunderous applause."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ستەیجەکەی جێھێشت لەگەڵ چەپڵەڕێزانێکی زۆر."),

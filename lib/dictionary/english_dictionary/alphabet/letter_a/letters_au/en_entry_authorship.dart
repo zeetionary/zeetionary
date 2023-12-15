@@ -184,9 +184,6 @@ class EnglishEntryauthorship extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The authorship of the poem is unknown."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "نووسەری ھۆنراوەکە نەزانراوە."),
                               const CustomSizedBoxForTTS(),
@@ -209,9 +206,6 @@ class EnglishEntryauthorship extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He published the report in joint authorship with a colleague."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕاپۆرتەکەی بڵاوکردەوە بە نووسەرێتیی ھاوبەشی ھاوکارێکی."),

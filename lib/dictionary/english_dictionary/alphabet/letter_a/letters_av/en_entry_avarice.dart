@@ -174,9 +174,6 @@ class EnglishEntryavarice extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Her business empire brought her wealth beyond the dreams of avarice (= an extremely large amount of money)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئیمپراتۆریەتییە بازرگانییەکەی سامانێکی ھێندە گەورەی پێدا کە زیاتر بێت لەوەی ھەرگیز خەونی پێوەدیبێت."),

@@ -184,9 +184,6 @@ class EnglishEntryaid extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The British government has now suspended humanitarian aid to the area."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "حکومەتی بەریتانیا ھاریکاری مرۆیی بۆ ناوچەکە وەستاندووە."),
@@ -207,9 +204,6 @@ class EnglishEntryaid extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Emergency aid arrived too late for many."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "یارمەتی فریاگوزاری زۆر درەنگ بۆ زۆر کەس گەشت."),
@@ -232,9 +226,6 @@ class EnglishEntryaid extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "One of the staff saw he was in difficulty and came to his aid (= helped him)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "یەکێک لە ستافەکە بینی کە لە کێشەدایە و چوو بە ھانای."),
@@ -256,9 +247,6 @@ class EnglishEntryaid extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Photos make useful teaching aids."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "وێنە یارمەتیدەری باشە لە فێرکردندا."),
                               const CustomSizedBoxForTTS(),
@@ -280,9 +268,6 @@ class EnglishEntryaid extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The charity was established to aid hurricane victims."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێکخراوە خێرخوازییەکە دامەزرا بۆ یارمەتیدانی قوربانیانی گێژەلووکەکە."),
@@ -303,9 +288,6 @@ class EnglishEntryaid extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They were accused of aiding him to escape."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تۆمەتبارکران بە یارمەتیدانی لە ڕاکردندا."),
@@ -328,9 +310,6 @@ class EnglishEntryaid extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "New drugs are now available to aid recovery."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەرمانە تازەکان ئێستا بەردەستن بۆ یارمەتیدانی چاکبوونەوە."),
@@ -350,9 +329,6 @@ class EnglishEntryaid extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Peppermint aids digestion."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "نەعنا یارمەتی ھەرسکردن دەدات."),
                               const CustomSizedBoxForTTS(),

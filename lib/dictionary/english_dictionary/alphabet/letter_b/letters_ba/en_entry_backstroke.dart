@@ -174,9 +174,6 @@ class EnglishEntrybackstroke extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Can you do (the) backstroke?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەتوانی پشتەمەلە بکەیت؟."),
                               const CustomSizedBoxForTTS(),

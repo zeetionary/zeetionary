@@ -182,9 +182,6 @@ class EnglishEntryatheist extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "As an atheist, I do not accept this religious argument."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وەک بێ‌دینێک گفتوگۆ ئاینییەکەی پەسەند ناکەم."),

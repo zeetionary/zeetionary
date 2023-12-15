@@ -133,9 +133,6 @@ class EnglishEntryambitious extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I'm not ambitious enough to try for the top."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھێندە تەماح‌کار نیم ھەوڵ بۆ باشترین بدەم."),
@@ -156,9 +153,6 @@ class EnglishEntryambitious extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The students are all ambitious to do well."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خوێنکاران ھەموویان ئامانجیانە باش بن."),

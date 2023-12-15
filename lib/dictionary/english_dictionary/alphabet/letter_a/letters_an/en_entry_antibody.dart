@@ -175,9 +175,6 @@ class EnglishEntryantibody extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Antibodies found in breast milk protect newborn babies against infection."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو دژەتەنانەی لە شیری سرووشتیدان منداڵی ساوا دەپارێزن لە نەخۆشی."),

@@ -131,9 +131,6 @@ class EnglishEntryallege extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It is alleged that he mistreated the prisoners."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەوترێت خراپ مامەڵەی لەگەڵ زیندانیان دەکرد."),
@@ -154,9 +151,6 @@ class EnglishEntryallege extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The two men allege (that) the police forced them to make false confessions."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دوو پیاوەکە بانگەشەی ئەوە دەکەن کە پۆلیس ناچار بە دانپیانانی ھەڵەی کردوون."),

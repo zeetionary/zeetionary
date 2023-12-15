@@ -174,9 +174,6 @@ class EnglishEntryavoidance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A person's health improves with the avoidance of stress."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەندرووستی کەسێک بەھێز دەبێت ئەگەر خۆی لە خەمخواردن بەدووربگرێت."),

@@ -183,9 +183,6 @@ class EnglishEntryastral extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The astronomer observed the astral bodies through his telescope."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەستێرەناسەکە بە تەلیسکۆبەکەیەوە سەرنجیدایە تەنە ئەستێرەییەکان."),
@@ -209,9 +206,6 @@ class EnglishEntryastral extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She believed that her dreams took her to the astral plane."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وای بیرکردەوە کە خەونەکانی بردنی بۆ جیھانی خەیاڵاوی."),

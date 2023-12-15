@@ -134,9 +134,6 @@ class EnglishEntryaforementioned extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The aforementioned person was seen acting suspiciously."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ناوبراو بینرا کە بە گومانەوە ڕەفتاری دەکرد."),

@@ -179,9 +179,6 @@ class EnglishEntryarguably extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He is arguably the best actor of his generation."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە ئەگەرێکی زۆرەوە باشترین ئەکتەری سەردەمی خۆی بووە."),

@@ -180,9 +180,6 @@ class EnglishEntryassassin extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He was killed by a hired assassin."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لەلایەن بکوژێکی بەکرێگیراو کوژرا."),
                               const CustomSizedBoxForTTS(),

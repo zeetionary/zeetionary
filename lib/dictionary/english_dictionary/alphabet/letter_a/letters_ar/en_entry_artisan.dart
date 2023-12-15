@@ -182,9 +182,6 @@ class EnglishEntryartisan extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "You will learn how eighteenth-century artisans did their work."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "فێردەبیت چۆن پیشەسازانی سەدەی ١٨ کارەکانیان دەکرد."),
@@ -208,9 +205,6 @@ class EnglishEntryartisan extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The artisan bakery's bread is made with only the finest ingredients and is baked in a traditional wood-fired oven."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نانەکانی نانەواخانەی پیشەسازەکە تەنھا بە باشترین ڕەچەتە درووست دەکرێن و بە ڕێگای کۆن دەبرژێندرێن."),

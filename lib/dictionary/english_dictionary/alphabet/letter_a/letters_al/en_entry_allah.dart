@@ -130,9 +130,6 @@ class EnglishEntryallah extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "It is the will of Allah."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەوە ویستی خودایە."),
                               const CustomSizedBoxForTTS(),

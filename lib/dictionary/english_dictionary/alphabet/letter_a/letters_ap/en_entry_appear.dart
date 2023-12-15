@@ -219,9 +219,6 @@ class EnglishEntryappear extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Smoke appeared on the horizon."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دووکەڵ لە ئاسۆدا دەرکەوت."),
                               const CustomSizedBoxForTTS(),
@@ -242,9 +239,6 @@ class EnglishEntryappear extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Symptoms usually start appearing within two to three days."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نیشانەکانی نەخۆشییەکە زۆرجار دەردەکەون لە ماوەی دوو ڕۆژدا."),
@@ -268,9 +262,6 @@ class EnglishEntryappear extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Scientists are unsure when the virus first appeared."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زاناکان دڵنیانین ڤایرۆسەکە بۆ یەکەم جار لە کوێوە دەرکەوت."),
@@ -294,9 +285,6 @@ class EnglishEntryappear extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She didn't appear at all surprised at the news."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھیچ سەرسام دیار نەبوو بە ھەواڵەکە."),
                               const CustomSizedBoxForTTS(),
@@ -316,9 +304,6 @@ class EnglishEntryappear extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Everything appeared normal at first."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەموو شتێک ئاسایی دەرکەوت لە سەرەتادا."),
@@ -342,9 +327,6 @@ class EnglishEntryappear extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "His new book will be appearing in the spring."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کتێبە تازەکەی لە بەھاردا بڵاودەبێتەوە."),
@@ -367,9 +349,6 @@ class EnglishEntryappear extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He has appeared in over 60 movies."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لە زیاتر لە ٦٠ فیلمدا دەرکەوتووە."),
                               const CustomSizedBoxForTTS(),
@@ -392,9 +371,6 @@ class EnglishEntryappear extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A man appeared at the door and asked to see her."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پیاوێک گەشتە بەر دەرگاکە و داوای بینینی کرد."),
@@ -418,9 +394,6 @@ class EnglishEntryappear extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Your name will appear at the front of the book."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ناوت لە بەرگی کتێبەکە دەنووسرێت."),
                               const CustomSizedBoxForTTS(),
@@ -443,9 +416,6 @@ class EnglishEntryappear extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A man will appear in court today charged with the murder."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پیاوێک ئەمڕۆ لە دادگا ئامادە دەبێت کە تۆمەتی کوشتنی لەسەرە."),
@@ -469,9 +439,6 @@ class EnglishEntryappear extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "James Gilbert is the lawyer appearing for the defendant."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "جەیمس گیلبێرت پارێزەری بەرگریکارەکە دەبێت."),

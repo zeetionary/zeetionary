@@ -185,9 +185,6 @@ class EnglishEntryarticle extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Her tweet links to an article posted online by the ‘CNN’."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تویتەکەی لینکی وتارێکی تێدایە کە لەسەر سی-ئێن-ئێن پۆستکراوە."),
@@ -209,9 +206,6 @@ class EnglishEntryarticle extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "According to a recent newspaper article, the company is worth over £20 billion."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەپێی وتارێکی تازەی ڕۆژنامەیەک، کۆمپانیاکە بەھای دەگاتە ٢٠ ملیار پاوەند."),
@@ -235,9 +229,6 @@ class EnglishEntryarticle extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The key articles of the constitution can only be changed by referendum."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "مادە سەرەکییەکانی دەستوور تەنھا بە ڕیفراندۆم دەتوانرێن بگۆڕدرێن."),
@@ -261,9 +252,6 @@ class EnglishEntryarticle extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The articles found in the car helped the police to identify the body."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو شتانەی لە ئۆتۆمبێلەکەدا دۆزرانەوە یارمەتی پۆلیسی دا لە ناسینەوەی تەرمەکە."),
@@ -287,9 +275,6 @@ class EnglishEntryarticle extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Names of countries in English do not usually take an article."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ناوی وڵاتان زۆرجار لە ئینگلیزیدا ئامرازی ناساندن وەرناگرن."),

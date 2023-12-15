@@ -184,9 +184,6 @@ class EnglishEntryattainment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "His scientific attainments are well known."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەدەستھێنانە زانستییەکانی شتێکی زانراوە."),
@@ -210,9 +207,6 @@ class EnglishEntryattainment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She values educational attainment above all else."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەدەستھێنانی خوێندن لە سەروو ھەموو شتێکی دادەنا."),

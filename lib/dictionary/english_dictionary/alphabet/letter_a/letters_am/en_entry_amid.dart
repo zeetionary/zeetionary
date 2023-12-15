@@ -198,9 +198,6 @@ class EnglishEntryamid extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He finished his speech amid tremendous applause."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وتارەکەی تەواوکرد لەناوەڕاستی چەپڵەڕێزانێکی زۆردا."),
@@ -223,9 +220,6 @@ class EnglishEntryamid extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "On the floor, amid mounds of books, were two small envelopes."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەسەر زەوییەکە، و لە ناوەڕاستی یەک کەڵەکە کتێبدا، دوو بەرگەنامە کەوتبوون."),

@@ -132,9 +132,6 @@ class EnglishEntryalimony extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He has to pay alimony to his ex-wife."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێویستە نەفەقە بدات بە ھاوسەری پێشووی."),

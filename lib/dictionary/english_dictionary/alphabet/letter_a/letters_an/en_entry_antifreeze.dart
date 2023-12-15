@@ -175,9 +175,6 @@ class EnglishEntryantifreeze extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Lack of antifreeze is a major cause of highway breakdowns."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەمی دژەبەستن ھۆکارێکی سەرەکی تێکچوونی ڕێگاکانە."),

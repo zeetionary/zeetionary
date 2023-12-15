@@ -181,9 +181,6 @@ class EnglishEntryaspersion extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I wouldn't want to cast aspersions on your honesty."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نامەوێ لێدوانی نابەجێ بدەم لەسەر سەرڕاستیت."),

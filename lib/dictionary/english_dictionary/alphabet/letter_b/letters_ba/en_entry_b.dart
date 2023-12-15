@@ -171,9 +171,6 @@ class EnglishEntryb extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "‘Butter’ begins with (a) B/‘B’."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وشەی ‘Butter’ بە پیتی B دەستپێ‌دەکات."),
@@ -195,9 +192,6 @@ class EnglishEntryb extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She got (a) B in history."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لە مێژوو باشەی ھێنا."),
                               const CustomSizedBoxForTTS(),
@@ -218,9 +212,6 @@ class EnglishEntryb extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Shall we go for plan A or plan B?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پلانی A یان B ھەڵبژێرین؟."),
                               const CustomSizedBoxForTTS(),
@@ -241,9 +232,6 @@ class EnglishEntryb extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Let's pretend A meets B in the park."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "با وادابنێین A لە پارکەکە B دەبینێت."),
                               const CustomSizedBoxForTTS(),

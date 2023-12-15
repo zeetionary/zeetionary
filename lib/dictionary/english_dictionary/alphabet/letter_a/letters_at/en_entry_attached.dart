@@ -185,9 +185,6 @@ class EnglishEntryattached extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Make sure all the wires remain firmly attached."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دڵنیابەرەوە ھەموو وایەرەکان بەتوندی پێکەوەنووساون."),
@@ -211,9 +208,6 @@ class EnglishEntryattached extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We've grown very attached to this house."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گەورەبووینە بەوەی زۆر دڵبەستەی ئەم ماڵە بووینە."),
@@ -237,9 +231,6 @@ class EnglishEntryattached extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It would be nice to meet some more guys who aren't attached."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خۆش ئەبێت ئەگەر ھەندێک پیاوی دیکە ببینین کە ھاوسەرگیریان نەکردووە."),
@@ -263,9 +254,6 @@ class EnglishEntryattached extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The research unit is attached to the university."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "یەکەی توێژینەوەکە بەشێکە لە زانکۆکە."),
                               const CustomSizedBoxForTTS(),

@@ -178,9 +178,6 @@ class EnglishEntryarbitrageur extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He is one of Wall Street’s most famous arbitrageurs."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو یەکێکە لە بەناوبانگترین ئاربیتراژۆرەکانی وۆڵ ستریت."),

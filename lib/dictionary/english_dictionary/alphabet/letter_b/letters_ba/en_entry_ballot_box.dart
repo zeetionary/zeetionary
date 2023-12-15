@@ -174,9 +174,6 @@ class EnglishEntryballotbox extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The voters cast their ballots into the ballot box one by one."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەنگدەران دانەبەدانە پەڕەکانیان دەخەنە ناو سندووقی دەنگدانەکەوە."),
@@ -200,9 +197,6 @@ class EnglishEntryballotbox extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The people make their wishes known through the ballot box."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خەڵکی خواستەکانیان دەردەبڕن لە سیستەمی ھەڵبژاردنەکەدا."),

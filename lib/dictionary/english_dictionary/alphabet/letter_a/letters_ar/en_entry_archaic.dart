@@ -181,9 +181,6 @@ class EnglishEntryarchaic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "‘Thou art’ is an archaic form of ‘you are’."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "‘Thou art’ شێوەیەکی کۆنە بۆ ‘you are’."),
@@ -207,9 +204,6 @@ class EnglishEntryarchaic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The system is archaic and unfair and needs changing."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سیستەمەکە کۆنەباو و نادادپەروەرە و پێویستی بە گۆڕانکارییە."),
@@ -232,9 +226,6 @@ class EnglishEntryarchaic extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Many museums showcase archaic art."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆرێک لە مۆزەخانەکان ھونەری سەردەمانی کۆن نمایش دەکەن."),

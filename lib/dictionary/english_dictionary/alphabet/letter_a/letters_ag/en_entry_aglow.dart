@@ -130,9 +130,6 @@ class EnglishEntryaglow extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "His face was all aglow with excitement."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕووخساری لە خۆشیدا دەدرەوشایەوە."),
                               const CustomSizedBoxForTTS(),

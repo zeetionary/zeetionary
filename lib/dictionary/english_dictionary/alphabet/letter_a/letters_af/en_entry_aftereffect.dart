@@ -131,9 +131,6 @@ class EnglishEntryaftereffect extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Headaches are an aftereffect of this sort of accident."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەرئێشە دەرئەنجامی ئەم جۆرە ڕووداوانەیە."),

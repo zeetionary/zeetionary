@@ -188,9 +188,6 @@ class EnglishEntryanalytic extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She has a clear analytic mind."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "مێشکێکی تەواو بەدیقەتی ھەیە."),
                               const CustomSizedBoxForTTS(),
@@ -211,9 +208,6 @@ class EnglishEntryanalytic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The analytic methods we developed for this project will be useful for our future work."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو ڕێگا شیکارییانەی گەشەمان‌پێدا بۆ ئەم پڕۆژە بەسوود دەبێت بۆ کارەکانی داھاتوومان."),
@@ -237,9 +231,6 @@ class EnglishEntryanalytic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "This book is one of the masterpieces of analytic philosophy."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم کتێبە یەکێکە لە شاکارەکانی فەلسەفەی شیکارانە."),

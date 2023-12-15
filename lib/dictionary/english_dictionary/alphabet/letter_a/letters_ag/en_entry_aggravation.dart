@@ -132,9 +132,6 @@ class EnglishEntryaggravation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I'd complain to the manager but it's not worth the aggravation."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەلای بەڕێوبەر سکاڵا دەکەن، بەڵام ئەوە ناھێنێ (ئەو سەرئێشە تووشی خۆم بکەم)."),
@@ -155,9 +152,6 @@ class EnglishEntryaggravation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Rest the affected leg to avoid further aggravation of the condition."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لاقە تووشبووەکەت بحەسێنەوە بۆ ئەوەی بارودۆخەکە خراپتر نەبێت."),

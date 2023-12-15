@@ -174,9 +174,6 @@ class EnglishEntryannulment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The king sought an annulment of his marriage to Catherine of Aragon."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پاشا ھەوڵی‌دا ھەڵوەشاندنەوەی ھاوسەرگیرییەکەی لەگەڵ کاسرینی ئاراگۆن دا."),

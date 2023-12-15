@@ -180,9 +180,6 @@ class EnglishEntryappend extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Footnotes have been appended to the document."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پەراوێز بۆ دۆکیومێنتەکە دانراوە."),
                               const CustomSizedBoxForTTS(),
@@ -203,9 +200,6 @@ class EnglishEntryappend extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The principal has the right to append comments to the final report."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەڕێوبەرەکە مافی ھەیە لێدوان بۆ کۆتایی ڕاپۆرتەکە زیاد بکات."),

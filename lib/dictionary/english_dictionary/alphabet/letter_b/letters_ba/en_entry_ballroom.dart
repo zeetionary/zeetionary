@@ -174,9 +174,6 @@ class EnglishEntryballroom extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He entered the palatial ballroom and later danced with a beautiful girl."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "چووە سەماخانە کۆشک‌ئاساکە و دواتر سەمای لەگەڵ کچێکی جوان کرد."),

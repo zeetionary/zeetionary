@@ -133,9 +133,6 @@ class EnglishEntryaltruistic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I doubt whether her motives for donating the money are altruistic - she's probably looking for publicity."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گومانم ھەیە مەبەستی لە بەخشینی پارەکە تەنھا لەخۆبردووی بێت، پێدەچێت بۆ ناوبانگ بگەڕێت."),

@@ -179,9 +179,6 @@ class EnglishEntryapparition extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Apparitions of a woman in white robes have been reported."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تارمایی ژنێک بە ڕۆبەی سپییەوە ڕاگەیەندراوە."),

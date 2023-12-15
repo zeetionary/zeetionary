@@ -181,9 +181,6 @@ class EnglishEntryapologetically extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "‘I'm sorry I'm late,’ he murmured apologetically."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە پەشیمانییەوە چرپاندی 'ببوورە کە دواکەوتووم'."),

@@ -134,9 +134,6 @@ class EnglishEntryalgae extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Algae has clogged the intake to the water stem."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "قەوزە ڕێگای ڕێڕەوی ئاوەکەی گرتبوو."),
                               const CustomSizedBoxForTTS(),

@@ -178,9 +178,6 @@ class EnglishEntryapron extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Her apron was speckled with oil."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بەروانکەکەی خاڵ خاڵ ڕۆنی پێوەبوو."),
                               const CustomSizedBoxForTTS(),

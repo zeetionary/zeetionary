@@ -168,9 +168,6 @@ class EnglishEntryalone extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She was sitting all alone in the hall."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بە تەنھا لە ھۆڵەکە دانیشتبوو."),
                               const CustomSizedBoxForTTS(),
@@ -190,9 +187,6 @@ class EnglishEntryalone extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I don't like going out alone at night."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "حەزناکەم شەوانە بە تەنھا دەربچم."),
                               const CustomSizedBoxForTTS(),
@@ -214,9 +208,6 @@ class EnglishEntryalone extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The assassin said he had acted alone."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بکوژەکە گوتی ھەر خۆی بووە."),
                               const CustomSizedBoxForTTS(),
@@ -237,9 +228,6 @@ class EnglishEntryalone extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Carol felt all alone in the world."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کارۆڵ ھەستی بە تەنھایی دەکرد لەم جیھانەدا."),
@@ -262,9 +250,6 @@ class EnglishEntryalone extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "You can't blame anyone else; you alone made the decision."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ناتوانی لۆمەی کەسی تر بکەی؛ خۆت بە تەنھا بڕیارەکەت دا."),

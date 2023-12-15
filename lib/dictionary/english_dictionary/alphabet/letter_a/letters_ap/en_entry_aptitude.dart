@@ -179,9 +179,6 @@ class EnglishEntryaptitude extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She showed a natural aptitude for the work."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بلیمەتیی سرووستی پیشان‌دا بۆ کارەکە."),
                               const CustomSizedBoxForTTS(),

@@ -178,9 +178,6 @@ class EnglishEntryapricot extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I don't like apricot."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "حەزم لە قەیسی نییە."),
                               const CustomSizedBoxForTTS(),
@@ -203,9 +200,6 @@ class EnglishEntryapricot extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The room was painted apricot and white."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ژوورەکە بۆیەکرا بە پرتەقاڵی زەردباو و سپی."),

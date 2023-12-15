@@ -182,9 +182,6 @@ class EnglishEntryasterisk extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I've asterisked the tasks I want you to do first."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەستێرەم لە تەنیشت ئەو ئەرکانە داناوە کە دەمەوێت سەرەتا بیانکەیت."),
@@ -208,9 +205,6 @@ class EnglishEntryasterisk extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I've placed an asterisk next to the tasks I want you to do first."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەستێرەم لە تەنیشت ئەو ئەرکانە داناوە کە دەمەوێت سەرەتا بیانکەیت."),

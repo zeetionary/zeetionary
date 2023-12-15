@@ -109,7 +109,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: شپرزانە، بەشێوەیەکی یەکجار خراپ، زۆر خراپ
 
-١. (هاوەڵکار) بە شێوەیەکی زۆر خراپ"""),
+١. (ھاوەڵکار) بە شێوەیەکی زۆر خراپ"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

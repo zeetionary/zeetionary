@@ -181,9 +181,6 @@ class EnglishEntryattributive extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "In ‘the blue sky’ and ‘a family business’, ‘blue’ and ‘family’ are attributive."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە ‘the blue sky’ و ‘a family business’, ‘blue’ و ‘family’ ھاوەڵناوی پاڵدەرانەن."),

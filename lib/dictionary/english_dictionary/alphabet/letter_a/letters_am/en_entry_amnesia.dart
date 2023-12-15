@@ -197,9 +197,6 @@ class EnglishEntryamnesia extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "After the accident he suffered periods of amnesia."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە دوای ڕووداوەکە تووشی بیرنەمایی ماوە ماوە دەبوو."),

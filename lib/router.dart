@@ -1699,12 +1699,12 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_bistro.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_bit.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_bitch.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_bite.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_biting.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_bite_sized.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_bitmap.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_bitter.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_bitterly.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bi/en_entry_DOPSUM.dart';
@@ -3574,12 +3574,12 @@ final loggedInRoute = RouteMap(routes: {
   "/english-bistro": (_) => MaterialPage(child: EnglishEntrybistro()),
   "/english-bit": (_) => MaterialPage(child: EnglishEntrybit()),
   "/english-bitch": (_) => MaterialPage(child: EnglishEntrybitch()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-bite": (_) => MaterialPage(child: EnglishEntrybite()),
+  "/english-biting": (_) => MaterialPage(child: EnglishEntrybiting()),
+  "/english-bite-sized": (_) => MaterialPage(child: EnglishEntrybitesized()),
+  "/english-bitmap": (_) => MaterialPage(child: EnglishEntrybitmap()),
+  "/english-bitter": (_) => MaterialPage(child: EnglishEntrybitter()),
+  "/english-bitterly": (_) => MaterialPage(child: EnglishEntrybitterly()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

@@ -172,9 +172,6 @@ class EnglishEntrybalti extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I enjoyed a delicious balti chicken dish at an Indian restaurant."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نانێکی بەتامی مریشکی باڵتیم لە چێشتخانەیەکی ھندی خوارد."),

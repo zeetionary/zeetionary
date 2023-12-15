@@ -177,9 +177,6 @@ class EnglishEntryantihistamine extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Antihistamine is often used to treat hay fever and insect bites."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دژە-ھەستیاری زۆرجار بەکاردێت بۆ چارەسەری ھەستیاری بە ھەڵاڵەی گوڵ یان گەستنی مێروو."),

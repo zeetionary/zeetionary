@@ -175,9 +175,6 @@ class EnglishEntrybanish extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was banished to Australia, where he died five years later."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دوورخرایەوە بە ئوسترالیا، شوێنێک کە دوای پێنج ساڵ تێیدا مرد."),
@@ -201,9 +198,6 @@ class EnglishEntrybanish extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The sight of food banished all other thoughts from my mind."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دیمەنی خواردن ھەموو بیرێکی تری لە مێشکی دەرکرد."),

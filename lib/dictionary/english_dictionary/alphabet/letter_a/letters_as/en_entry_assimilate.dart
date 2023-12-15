@@ -183,9 +183,6 @@ class EnglishEntryassimilate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The committee will need time to assimilate this report."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لیژنەکە پێویستی بە کاتە بۆ تێگەشتن لەم ڕاپۆرتە."),
@@ -209,9 +206,6 @@ class EnglishEntryassimilate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "You shouldn't expect immigrants to assimilate into an alien culture immediately."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نابێیت چاوەڕێی ئەوە لە پەنابەران بکەیت بەزویی بتوێنەوە ناو کەلتوورێکی نامۆ بەخۆیان."),
@@ -235,9 +229,6 @@ class EnglishEntryassimilate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "These changes were gradually assimilated into everyday life."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم گۆڕانکارییانە کەم‌کەم لەگەڵ ژیانی ڕۆژانە گونجێندران."),

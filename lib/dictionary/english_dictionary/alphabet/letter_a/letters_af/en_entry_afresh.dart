@@ -129,9 +129,6 @@ class EnglishEntryafresh extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "It was a chance to start afresh."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "شانسێک بوو بۆ ئەوەی سەرلەنوێ دەستپێبکەینەوە."),

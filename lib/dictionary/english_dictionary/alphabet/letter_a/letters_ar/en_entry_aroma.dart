@@ -179,9 +179,6 @@ class EnglishEntryaroma extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A delicious aroma was coming from the kitchen."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بۆن و بەرامەیەکی بەلەزەت لە چێشتخانەکەوە دەھات."),

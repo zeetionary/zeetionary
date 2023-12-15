@@ -178,9 +178,6 @@ class EnglishEntryappoint extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They have appointed a new head teacher at my son's school."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەڕێوبەرێکی تازەیان دیاریکردووە لە قوتابخانەکەی کوڕەکەم."),
@@ -204,9 +201,6 @@ class EnglishEntryappoint extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A date for the meeting is still to be appointed."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دیاریکردنی ڕێکەوتێک بۆ کۆبوونەوەکە ھێشتا قسەی لەسەر دەکرێت."),

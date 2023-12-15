@@ -294,9 +294,6 @@ class EnglishEntryat extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "They arrived late at the airport."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "درەنگ گەشتنە فڕۆکەخانەکە."),
                               const CustomSizedBoxForTTS(),
@@ -315,9 +312,6 @@ class EnglishEntryat extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I'll be at home all morning."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "تەواوی بەیانی لە ماڵەوە دەبم."),
                               const CustomSizedBoxForTTS(),
@@ -339,9 +333,6 @@ class EnglishEntryat extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He's been at the bank longer than anyone else."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زیاتر لە ھەر کەسێکی تر لە بانکەکە کاری کردووە."),
@@ -363,9 +354,6 @@ class EnglishEntryat extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "We left at 2 o'clock."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لە کاتژمێر ٢ ڕۆشتین."),
                               const CustomSizedBoxForTTS(),
@@ -386,9 +374,6 @@ class EnglishEntryat extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She got married at 25."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لە تەمەنی ٢٥ ساڵی ھاوسەرگیری کرد."),
                               const CustomSizedBoxForTTS(),
@@ -410,9 +395,6 @@ class EnglishEntryat extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Somebody threw paint at the prime minister."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "کەسێک بۆیەی گرتە سەرۆک وەزیران."),
                               const CustomSizedBoxForTTS(),
@@ -434,9 +416,6 @@ class EnglishEntryat extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He clutched wildly at the rope as he fell."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "شێتانە دەستی توند کردبوو لە حەبلەکە کە ئەو کەوت."),
@@ -458,9 +437,6 @@ class EnglishEntryat extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I'm good at French."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لە فەرەنسی باشم."),
                               const CustomSizedBoxForTTS(),
@@ -481,9 +457,6 @@ class EnglishEntryat extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He was driving at 70 mph."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەخێرایی ٧٠ میل لە کاتژمێرێکدا لێیدەخوڕی."),
@@ -503,9 +476,6 @@ class EnglishEntryat extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Prices start at £1 000."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نرخەکان لە ١٠٠٠ پاوەندەوە دەستپێ‌دەکەن."),
@@ -528,9 +498,6 @@ class EnglishEntryat extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Can you read a car number plate at fifty metres?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەتوانی ژمارەی ئۆتۆمبێلێک لە دووری ٥٠ مەترەوە بخوێنیتەوە؟"),
@@ -552,9 +519,6 @@ class EnglishEntryat extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The country is now at war."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "وڵاتەکە ئێستا لە جەنگدایە."),
                               const CustomSizedBoxForTTS(),
@@ -573,9 +537,6 @@ class EnglishEntryat extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I felt at a disadvantage."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "وام ھەستکرد لە زیاندا بم."),
                               const CustomSizedBoxForTTS(),
@@ -594,9 +555,6 @@ class EnglishEntryat extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I think Mr Harris is at lunch."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێم‌وایە بەڕێز ھاریس لە خواردنی نیوەڕۆیە."),
@@ -619,9 +577,6 @@ class EnglishEntryat extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The garden's at its most beautiful in June."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "باخچەکە لە جوانترین کاتیدایە لە حوزەیران."),
@@ -643,9 +598,6 @@ class EnglishEntryat extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She was delighted at the result."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دڵخۆش بوو بە ئەنجامەکە."),
                               const CustomSizedBoxForTTS(),
@@ -667,9 +619,6 @@ class EnglishEntryat extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They attended the dinner at the chairman's invitation."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەژداری نانی ئێوارە بوون لەسەر بانگھێشتی بەڕێوبەر."),
@@ -692,9 +641,6 @@ class EnglishEntryat extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "You can reach me at 009001008, extension 770."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەتوانیت پەیوەندیم پێوەبکەیت بە ژمارە تەلەفۆنی ٠٠٩٠٠١٠٠٨، بە کۆدی ٧٧٠."),

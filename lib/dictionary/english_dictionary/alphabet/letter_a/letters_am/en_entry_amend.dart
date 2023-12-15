@@ -132,9 +132,6 @@ class EnglishEntryamend extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Parliament will vote to amend the constitution."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پەرلەمان دەنگ لەسەر ھەمواری دەستوور دەدات."),
@@ -156,9 +153,6 @@ class EnglishEntryamend extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "MPs were urged to amend the law to prevent another oil tanker disaster."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پەرلەمانتاران ھاندران گۆڕانکاری لە یاساکە بکەن بۆ ڕێگری لە کارەساتێکی دیکەی تەنکەری نەوتی."),

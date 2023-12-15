@@ -174,9 +174,6 @@ class EnglishEntrybackside extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Get up off your backside and do some work!"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "سمتت لە ئەرز ھەڵبڕە و کارێک بکە."),
                               const CustomSizedBoxForTTS(),

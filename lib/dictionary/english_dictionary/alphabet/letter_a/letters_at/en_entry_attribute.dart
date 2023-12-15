@@ -185,9 +185,6 @@ class EnglishEntryattribute extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She attributes her success to hard work and a little luck."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەرکەوتنەکەی دەگەڕێنێتەوە بۆ ھەوڵی بەردەوام و کەمێک بەخت."),
@@ -211,9 +208,6 @@ class EnglishEntryattribute extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "This play is usually attributed to Shakespeare."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم شانۆیە زۆرجار دەدرێتە پاڵ شکسپیر."),
@@ -237,9 +231,6 @@ class EnglishEntryattribute extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The committee refused to attribute blame without further information."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لیژنەکە ڕەتیکردەوە لۆمە ببەخشێتەوە بەبێ زانیاریی زیاتر."),
@@ -263,9 +254,6 @@ class EnglishEntryattribute extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Patience is one of the most important attributes in a teacher."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سنگفراوانی یەکێکە لە خاسیەتە ھەرە گرنگەکانی مامۆستا."),

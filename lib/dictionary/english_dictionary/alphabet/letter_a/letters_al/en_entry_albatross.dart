@@ -133,9 +133,6 @@ class EnglishEntryalbatross extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The albatross can stay airborne at sea for days at a time."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەلباتروس دەتوانێت بۆ چەندین ڕۆژ لەیەک کاتدا لە ئاسماندا بمێنێتەوە."),
@@ -158,9 +155,6 @@ class EnglishEntryalbatross extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The national debt is an albatross around the president’s neck."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "قەرزە نیشتیمانییەکان مایەی سەرێشەن بۆ سەرۆک."),

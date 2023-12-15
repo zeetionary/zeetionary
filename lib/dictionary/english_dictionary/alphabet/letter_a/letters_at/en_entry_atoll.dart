@@ -182,9 +182,6 @@ class EnglishEntryatoll extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The Maldives is a group of atolls in the Indian Ocean."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ماڵدیف کۆمەڵە شیلانەدوورگەیەکە لە زەریای ھندی."),

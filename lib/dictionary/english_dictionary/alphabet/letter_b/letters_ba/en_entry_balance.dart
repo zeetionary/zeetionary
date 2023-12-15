@@ -234,9 +234,6 @@ class EnglishEntrybalance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "This newspaper maintains a good balance in its presentation of different opinions."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم ڕۆژنامە بێ‌لایەنی خۆی بە باشی دەپارێزێت لە وێناکردنی بەچوونی جیاوازدا."),
@@ -258,9 +255,6 @@ class EnglishEntrybalance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Try to keep a balance between work and relaxation."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەوڵبدە ھاوسەنگی بپارێزی لەنێوان کارکردن و حەسانەوە."),
@@ -284,9 +278,6 @@ class EnglishEntrybalance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He set his feet wider and adjusted his balance."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێیەکانی بڵاوکردەوە و ھاوسەنگیی ڕێکخست."),
@@ -310,9 +301,6 @@ class EnglishEntrybalance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He asked the cashier for the balance of his current account."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "داوای لە کاشیەرەکە کرد باڵانسی ھەژمارەکەی ئێستای پێ بڵێت."),
@@ -336,9 +324,6 @@ class EnglishEntrybalance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The balance of £500 must be paid within 90 days."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بڕی قەرزی ماوەی ٥٠٠ پاوەند دەبێت لە ماوەی ٩٠ ڕۆژدا بدرێتەوە."),
@@ -362,9 +347,6 @@ class EnglishEntrybalance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He argues that the balance has swung too far in favour of capitalism."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێی‌وایە تەوازن زۆر بەلای سەرمایەداریدا چووە."),
@@ -388,9 +370,6 @@ class EnglishEntrybalance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The scientist used a balance to measure the weight of the sample."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زاناکە تەرازوویەکی بەکارھێنا بۆ پێوانی کێشی نموونەکە."),
@@ -413,9 +392,6 @@ class EnglishEntrybalance extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "How long can you balance on one leg?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "چەندە دەتوانی لەسەر یەک پێ بوەستیت؟."),
                               const CustomSizedBoxForTTS(),
@@ -438,9 +414,6 @@ class EnglishEntrybalance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The song perfectly balances melody and rhythm."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گۆرانییەکە بە تەواوی ھاوسەنگی دەپارێزێت لەنێوان ئاواز و ڕیتم."),
@@ -464,9 +437,6 @@ class EnglishEntrybalance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "This year's profits will balance out our previous losses."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "قازانجەکانی ئەمساڵ زیانەکانی پار قەرەبوو دەکەنەوە."),
@@ -490,9 +460,6 @@ class EnglishEntrybalance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The cost of obtaining legal advice needs to be balanced against its benefits."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تێچووی وەرگرتنی ڕاوێژی یاسایی دەبێت لەبەرچاو بگیردرێت لەگەڵ سوودەکانی (ڕاوێژەکە)."),
@@ -516,9 +483,6 @@ class EnglishEntrybalance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "In order to balance the budget severe spending cuts had to be made."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بۆ ھەڵسوڕاندنی بودجە، دەبوو ڕێژەی خەرجی بە ئاستێکی زۆر کەمبکرێتەوە."),
@@ -542,9 +506,6 @@ class EnglishEntrybalance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I tried to work out why the books wouldn't balance."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نەمدەتوانی تێبگەم بۆچی خەرجی و قازانج یەکناگرنەوە."),

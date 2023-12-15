@@ -183,9 +183,6 @@ class EnglishEntryatom extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Two atoms of hydrogen combine with one atom of oxygen to form a molecule of water."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دوو گەردیلەی ھایدرۆجین یەکدەگرن لەگەڵ یەک گەردیلەی ئۆکسجین بۆ درووستکردنی یەک گەردی ئاو."),
@@ -206,9 +203,6 @@ class EnglishEntryatom extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The scientist Ernest Rutherford was the first person to split the atom."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زانا ئێرنێست ڕەزەرفۆرد یەکەم کەس بوو ئەتۆم کەرت بکات."),

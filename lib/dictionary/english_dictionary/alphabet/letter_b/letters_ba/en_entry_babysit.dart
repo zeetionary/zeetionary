@@ -172,9 +172,6 @@ class EnglishEntrybabysit extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He's babysitting the neighbour's children."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "چاودێری منداڵەکانی دراوسێیەکەیان دەکات."),

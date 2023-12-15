@@ -129,9 +129,6 @@ class EnglishEntryaimless extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "My life seemed aimless."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ژیانم بێ ئامانج دیاربوو."),
                               const CustomSizedBoxForTTS(),
@@ -151,9 +148,6 @@ class EnglishEntryaimless extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She said that her life seemed aimless after her children left home."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گوتی ژیانی بێ ئامانج بوو لە دوای ئەوەی منداڵەکانی ماڵەوەیان جێھێشت."),

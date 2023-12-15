@@ -181,9 +181,6 @@ class EnglishEntryanxiety extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Some hospital patients experience high levels of anxiety."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەندێک لە نەخۆشانی نەخۆشخانە بە دڵەڕاوکێی زۆردا تێپەڕدەبن."),
@@ -205,9 +202,6 @@ class EnglishEntryanxiety extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A lot of anxiety surrounds the issue of human cloning."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دڵەڕاوکێی زۆر ھەیە سەبارەت بۆ کۆپی‌کردنی مرۆڤ."),
@@ -231,9 +225,6 @@ class EnglishEntryanxiety extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Some people are feeling the pressure and suffering from anxiety and depression."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەندێک کەس ھەست بە پەستان و ئازاری دڵەخورپە و بێزاری دەکەن."),
@@ -257,9 +248,6 @@ class EnglishEntryanxiety extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "If you're worried about your health, share your anxieties with your doctor."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەگەر نیگەرانیت بۆ تەندرووستیت، لای دکتۆرەکەت نیگەرانییەکانت باس بکە."),
@@ -283,9 +271,6 @@ class EnglishEntryanxiety extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A couple of photographers fell over themselves in their anxiety to get a shot of her."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ژمارەیەک ڕۆژنامەنووس کەوتن بە مل خۆیاندا لە تامەزرۆییان بۆ گرتنی چەند وێنەیەکی."),

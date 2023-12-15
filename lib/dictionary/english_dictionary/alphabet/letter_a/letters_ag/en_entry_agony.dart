@@ -129,9 +129,6 @@ class EnglishEntryagony extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The soldier died in agony."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "سەربازەکە بە ئازارەوە مرد."),
                               const CustomSizedBoxForTTS(),
@@ -151,9 +148,6 @@ class EnglishEntryagony extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Jack collapsed in agony on the floor."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "جاک لە ئازاردا کەوت بە زەوییەکەدا."),
                               const CustomSizedBoxForTTS(),

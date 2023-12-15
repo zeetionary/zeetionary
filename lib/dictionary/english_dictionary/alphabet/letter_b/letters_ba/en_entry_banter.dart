@@ -175,9 +175,6 @@ class EnglishEntrybanter extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He enjoyed exchanging banter with the customers."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "حەزی لە شۆخیکردن لەگەڵ کڕیاران بوو."),
                               const CustomSizedBoxForTTS(),
@@ -202,9 +199,6 @@ class EnglishEntrybanter extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He bantered with reporters and posed for photographers."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "شۆخی لەگەڵ پەیامنێران کرد و بۆ وێنەگران وەستا."),

@@ -173,9 +173,6 @@ class EnglishEntryamusing extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I didn't find the joke at all amusing."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نوکتەکەم ھیچ بە جێگەی پێکەنین نەبینی."),

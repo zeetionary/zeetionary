@@ -175,9 +175,6 @@ class EnglishEntryavaricious extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She turned out to be a crafty and avaricious politician."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وادەرچوو سیاسەتوانێکی زۆرزان و چاوچنۆک بێت."),

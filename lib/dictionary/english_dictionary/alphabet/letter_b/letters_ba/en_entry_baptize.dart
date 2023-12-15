@@ -170,9 +170,6 @@ class EnglishEntrybaptize extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She was baptized Mary."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "مەراسیمی تەوفنی بۆ کرا و ناونرا ماری."),

@@ -132,9 +132,6 @@ class EnglishEntryalcove extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The bookcase fits neatly into the alcove."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "جێ‌کتێبەکە بە تەواوی لە تاقەکە جێیدەبێتەوە."),

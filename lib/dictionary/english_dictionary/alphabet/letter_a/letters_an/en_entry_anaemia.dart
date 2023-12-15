@@ -173,9 +173,6 @@ class EnglishEntryanaemia extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The main symptoms of anaemia are tiredness and pallor."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نیشانە سەرەکییەکانی ئەنیمیا ماندوێتی و ڕەنگ‌پەڕیویە."),

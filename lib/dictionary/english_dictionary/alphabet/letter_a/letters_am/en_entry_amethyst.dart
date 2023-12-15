@@ -195,9 +195,6 @@ class EnglishEntryamethyst extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Bishops and cardinals used to wear amethyst as a symbol of peace."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گەورە‌قەشە و سەر‌قەشەکان جاران ئەمیتیستیان وەک سمبولی ئاشتی لەبەردەکرد."),

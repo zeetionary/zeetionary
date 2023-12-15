@@ -172,9 +172,6 @@ class EnglishEntrybarcode extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A handheld scanner is used to read bar codes."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سکانەرێکی دەستی بەکاردێت بۆ خوێندنەوەی بارکۆد."),

@@ -182,9 +182,6 @@ class EnglishEntryauditorium extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The auditorium seats over a thousand people."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھۆڵەکە شوێنی زیاتر لە ھەزار کەسی تێدا دەبێتەوە."),
@@ -208,9 +205,6 @@ class EnglishEntryauditorium extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He stood at the back of the packed auditorium."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە دواوەی ئۆدیتۆریۆمە پڕەکە وەستابوو."),

@@ -209,9 +209,6 @@ class EnglishEntryarea extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The farm and surrounding area were flooded."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کێڵگەکە و ناوچەکەی دەورووبەری بەر لافاو کەوتن."),
@@ -233,9 +230,6 @@ class EnglishEntryarea extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Large areas of the city were destroyed in the earthquake."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ناوچەیەکی زۆری شارەکە لە بومەلەرزەکەدا وێران‌بوون."),
@@ -259,9 +253,6 @@ class EnglishEntryarea extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "You can smoke in only designated areas."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەتوانی جگەرە بکێشی تەنھا لە شوێنی دیاریکراوی."),
@@ -285,9 +276,6 @@ class EnglishEntryarea extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The tumour had not spread to other areas of his body."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لووەکە ھێشتا بڵاونەبووبووە بە بەشەکانی تری جەستەیدا."),
@@ -311,9 +299,6 @@ class EnglishEntryarea extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "That's outside my specific area of expertise."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەوە لە دەرەوەی شارەزایی منە."),
                               const CustomSizedBoxForTTS(),
@@ -334,9 +319,6 @@ class EnglishEntryarea extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "More research is needed in this area."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "توێژینەوەی تر پێویستن لەم ڕوانگەیەوە."),
@@ -360,9 +342,6 @@ class EnglishEntryarea extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Britain occupies a total area of 88,798 square miles."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕووبەری بەریتانیا ٨٨,٧٩٨ میلە."),
                               const CustomSizedBoxForTTS(),

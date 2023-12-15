@@ -175,9 +175,6 @@ class EnglishEntrybadtempered extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She gets very bad-tempered when she's tired."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆر بێ تەحەمول دەبێت کە ماندوو دەبێت."),

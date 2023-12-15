@@ -178,9 +178,6 @@ class EnglishEntryantique extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Priceless antiques were destroyed in the fire."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پارچە ئەنتیکی گران‌بەھا لە ئاگرەکەدا لەناوچوون."),
@@ -204,9 +201,6 @@ class EnglishEntryantique extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Some antique jewelry sparkles and shines."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەندێک خشڵی ئەنتیکە ھێشتا بریسکە و درەوشانەوەیان ھەیە."),

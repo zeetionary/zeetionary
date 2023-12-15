@@ -181,9 +181,6 @@ class EnglishEntryassistance extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Can I be of any assistance?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھیچ ھەیە بتوانم یارمەتیدەربم تێیدا؟"),
                               const CustomSizedBoxForTTS(),
@@ -204,9 +201,6 @@ class EnglishEntryassistance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The other passengers went to her assistance."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەرنشینەکانی دیکە چوون بۆ یارمەتیدانی."),

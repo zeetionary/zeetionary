@@ -183,9 +183,6 @@ class EnglishEntrygoastray extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Several letters went astray or were not delivered."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ژمارەیەک نامە ونبوون یان نەگەیەندران."),
@@ -209,9 +206,6 @@ class EnglishEntrygoastray extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Fortunately the gunman's shots went astray."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خۆشبەختانە فیشەکەکانی تەقەکەرەکە بە ھەڵە چوون."),

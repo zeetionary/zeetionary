@@ -176,9 +176,6 @@ class EnglishEntryanger extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She had to find a way to express her pent-up anger."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێویست‌بوو ڕێگایەک بدۆزێتەوە بۆ دەربڕینی توڕەییە خوراوەکەی."),
@@ -200,9 +197,6 @@ class EnglishEntryanger extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The plan provoked anger among local residents."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پلانەکە بوو بەھۆی توڕەیی خەڵکە خۆجێییەکە."),
@@ -225,9 +219,6 @@ class EnglishEntryanger extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The question clearly angered him."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پرسیارەکە بەڕوونی تووڕەی‌کرد."),
                               const CustomSizedBoxForTTS(),
@@ -248,9 +239,6 @@ class EnglishEntryanger extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They were angered that their complaints were dismissed."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تووڕەبوون بەوەی ناڕەزاییەکانیان وەلاخران."),

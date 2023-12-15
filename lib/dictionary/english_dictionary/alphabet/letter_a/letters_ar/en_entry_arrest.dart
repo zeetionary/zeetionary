@@ -188,9 +188,6 @@ class EnglishEntryarrest extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A man has been arrested in connection with the robbery."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەسێک دەستگیرکراوە بەتۆمەتی تێوەگلان لە دزییەکە."),
@@ -212,9 +209,6 @@ class EnglishEntryarrest extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was arrested on corruption charges."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بەتۆمەتی گەندەڵی دەستگیرکرا."),
                               const CustomSizedBoxForTTS(),
@@ -237,9 +231,6 @@ class EnglishEntryarrest extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They failed to arrest the company's decline."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "شکستیان ھێنا لە ڕێگری‌کردن لە داڕووخانی کۆمپانیاکە."),
@@ -261,9 +252,6 @@ class EnglishEntryarrest extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The spread of the disease can be arrested with drugs."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پەرەسەندنی نەخۆشییەکە دەوەستێنرێت بە دەرمان."),
@@ -287,9 +275,6 @@ class EnglishEntryarrest extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "An unusual noise arrested his attention."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەنگە دەنگێکی نائاسایی سەرنجی ڕاکێشا."),
@@ -313,9 +298,6 @@ class EnglishEntryarrest extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He arrested on the way to the hospital."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دڵی لە لێدان کەوت لە ڕێگا بۆ نەخۆشخانە."),
@@ -338,9 +320,6 @@ class EnglishEntryarrest extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The police made several arrests."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پۆلیس ژمارەیەک کەسی دەستگیرکرد."),
                               const CustomSizedBoxForTTS(),
@@ -363,9 +342,6 @@ class EnglishEntryarrest extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He died after suffering a cardiac arrest (= when his heart suddenly stopped)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "گیانی لەدەستدا لە دوای وەستانی دڵی."),
                               const CustomSizedBoxForTTS(),

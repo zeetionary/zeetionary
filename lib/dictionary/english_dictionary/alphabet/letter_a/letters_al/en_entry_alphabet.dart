@@ -132,9 +132,6 @@ class EnglishEntryalphabet extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Alpha is the first letter of the Greek alphabet."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەلفا یەکەم پیتی ئەلفوبێی یۆنانییە."),
                               const CustomSizedBoxForTTS(),

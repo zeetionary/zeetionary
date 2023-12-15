@@ -179,9 +179,6 @@ class EnglishEntryarson extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A cinema was burned out in north London last night. Police suspect arson."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سینەمایەک دوێنێ شەو بە تەواوی لە باکووری لەندەن سووتا. پۆلیس گەمانی ھەیە سوتاندنی بە ئەنقەست بووبێت."),

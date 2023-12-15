@@ -173,9 +173,6 @@ class EnglishEntryangina extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "If you experience angina while exercising, stop."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەگەر تووشی سنگ‌ئێشە دەبیت لە کاتی ڕاھێنان، بوەستە."),

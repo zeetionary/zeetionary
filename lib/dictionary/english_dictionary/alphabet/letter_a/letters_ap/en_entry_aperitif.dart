@@ -177,9 +177,6 @@ class EnglishEntryaperitif extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "This vermouth is a delicious aperitif."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەم ڤرماوسە ئیشتیاکەرەوەیەکی بەتامە."),
                               const CustomSizedBoxForTTS(),

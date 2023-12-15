@@ -133,9 +133,6 @@ class EnglishEntryallegorical extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Every Russian knows the allegorical novel The Master And Margarita."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەموو ڕووسیەک ڕۆمانی ھێمایی 'گەورە و مارگرێتا' دەزانێت."),

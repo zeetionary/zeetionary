@@ -173,9 +173,6 @@ class EnglishEntryawaken extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The dream awakened terrible memories."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خەونەکە یادەوەری تۆقێنەری زیندووکردەوە."),

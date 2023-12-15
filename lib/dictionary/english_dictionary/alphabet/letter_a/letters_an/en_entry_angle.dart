@@ -197,9 +197,6 @@ class EnglishEntryangle extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The interior angles of a square are right angles or angles of 90 degrees."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گۆشەکانی ناوەوەی چوارگۆشەیەک تەواون یان گۆشەی ٩٠ پلەیین."),
@@ -223,9 +220,6 @@ class EnglishEntryangle extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It's a modern building, all brick and glass and sharp angles."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بینایەکی سەردەمیانەیە، ھەموو خشت و شووشە و گۆشەی تیژە."),
@@ -249,9 +243,6 @@ class EnglishEntryangle extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She adjusted the angle of the legs to make the table stand more firmly."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئاراستەی لاقەکانی ڕێکخست بۆ ئەوەی مێزەکە قایمتر بوەستێ."),
@@ -273,9 +264,6 @@ class EnglishEntryangle extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Venus and the Earth orbit the Sun at a slight angle to each other."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زووھرە و زەوی بەدەوری خۆردا دەسووڕێنەوە بە ئاراستەیەک کەمێک بەلای یەکتردا."),
@@ -299,9 +287,6 @@ class EnglishEntryangle extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The painting changes slightly when seen from different angles."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تابلۆکە کەمێک دەگۆڕێت کە لە گۆشەنیگای دیکەوە سەیردەکرێت."),
@@ -325,9 +310,6 @@ class EnglishEntryangle extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "You can look at the issue from many different angles."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بابەتەکە دەتوانرێت لە زۆر گۆشەنیگای جیاوازەوە سەیربکرێت."),
@@ -351,9 +333,6 @@ class EnglishEntryangle extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He angled his chair so that he could sit and watch her."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کورسییەکەی بەلاداخست بۆ ئەوەی دابنیشێت و سەیری بکات."),
@@ -377,9 +356,6 @@ class EnglishEntryangle extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The programme is angled towards younger viewers."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پڕۆگرامەکە بۆ بیسەرانی گەنجە."),
                               const CustomSizedBoxForTTS(),
@@ -402,9 +378,6 @@ class EnglishEntryangle extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "On weekends, they often go angling by the lake."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە ڕۆژانی کۆتایی ھەفتە دەچن بۆ ماسیگرتن لە دەریاچەکە."),

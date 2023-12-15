@@ -175,9 +175,6 @@ class EnglishEntrybaker extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He has to get up at 4 a.m. for his job as a baker."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەبێت کاتژمێر ٤ی بەرەبەیان لە خەو ھەڵبستێت بۆ کارەکەی وەک نانەوایەک."),
@@ -199,9 +196,6 @@ class EnglishEntrybaker extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I'm just going to the baker's."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "تەنھا دەچم بۆ نانەواخانەکە."),
                               const CustomSizedBoxForTTS(),

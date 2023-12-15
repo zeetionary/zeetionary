@@ -183,9 +183,6 @@ class EnglishEntryastuteness extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She is admired for her political astuteness."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕێزلێگیراوە بۆ بیرتیژیی لە سیاسەتدا."),
                               const CustomSizedBoxForTTS(),

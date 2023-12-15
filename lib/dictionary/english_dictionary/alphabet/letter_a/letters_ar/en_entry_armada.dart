@@ -179,9 +179,6 @@ class EnglishEntryarmada extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The Spanish Armada was sent to attack England in 1588."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەشتی‌گەلی ئیسپانیا نێردرا بۆ ھێرشکردنە سەر ئینگلتەرە لە ساڵی ١٥٨٨."),

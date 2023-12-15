@@ -133,9 +133,6 @@ class EnglishEntryally extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Portugal is a traditional ally of England."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پرتوگال بەشێوەیەکی مێژوویی ھاوپەیمانی ئینگلتەرەیە."),
@@ -158,9 +155,6 @@ class EnglishEntryally extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She had found an ally in her old teacher."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "مامۆستا کۆنەکەی بووە بە دۆست و یاوەری."),

@@ -266,9 +266,6 @@ class EnglishEntrybar extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We arranged to meet in a bar called the Flamingo."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کاتمان دانا بۆ یەکتربینین لە باڕێک بە ناوی فلامینگۆ."),
@@ -291,9 +288,6 @@ class EnglishEntrybar extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The hotel has a cocktail bar on the top floor."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھوتێلەکە باڕێکی کۆکتێلی تێدایە لە نھۆمی سەرەوە."),
@@ -316,9 +310,6 @@ class EnglishEntrybar extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It was so crowded I couldn't get to the bar."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆر قەرەباڵغ کە نەمتوانی بگەم بە مێزی خواردنەوەکە."),
@@ -341,9 +332,6 @@ class EnglishEntrybar extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The chef cut the bar of chocolate into small pieces."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "شێفەکە پارچە چکلێتەکەی پارچەپارچەکرد."),
@@ -366,9 +354,6 @@ class EnglishEntrybar extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He smashed the window with an iron bar."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پەنجەرەکەی بە پارچە ئاسنێک شکاند."),
                               const CustomSizedBoxForTTS(),
@@ -390,9 +375,6 @@ class EnglishEntrybar extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I typed my question into the search bar to Google it."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پرسیارەکەم لە بەشی گەڕانەکە نووسی بۆ ئەوەی بۆی بگەڕێم."),
@@ -415,9 +397,6 @@ class EnglishEntrybar extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The battery meter showed one bar of power left."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێوەری باترییەکە تەنھا یەک خەتی ماوەی پیشاندەدا."),
@@ -439,9 +418,6 @@ class EnglishEntrybar extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "His shot hit the bar."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لێدانەکەی لە بەشی سەروەی ستوونەکەی دا."),
@@ -464,9 +440,6 @@ class EnglishEntrybar extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Bars of sunlight slanted down from the tall windows."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھێڵێک لە تیشکی خۆر بە پەنجەرە درێژەکاندا دەھاتە ژوورەوە."),
@@ -489,9 +462,6 @@ class EnglishEntrybar extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "At that time being a woman was a bar to promotion in most professions."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەو کاتەدا ژنبوون ڕێگرییەک بوو لە پلەبەرزبوونەوە لە زۆر پیشەدا."),
@@ -514,9 +484,6 @@ class EnglishEntrybar extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Prisoners are barred by law from voting in general elections."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زیندانیان بەپێی یاسا ڕێگری‌لێ‌کراون لە دەنگدان لە ھەڵبژاردنی گشتی."),
@@ -539,9 +506,6 @@ class EnglishEntrybar extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "All the doors and windows were barred."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەموو دەرگا و پەنجەرەکان کۆتکراون."),
                               const CustomSizedBoxForTTS(),
@@ -562,9 +526,6 @@ class EnglishEntrybar extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "We found our way barred by rocks."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "زانیمان ڕێگاکەمان بە بەرد بەسترابوو."),
                               const CustomSizedBoxForTTS(),
@@ -586,9 +547,6 @@ class EnglishEntrybar extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The students all attended, bar two who were ill."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەموو خوێندکاران بەژداربوون، جگە لە دووان کە نەخۆش بوون."),

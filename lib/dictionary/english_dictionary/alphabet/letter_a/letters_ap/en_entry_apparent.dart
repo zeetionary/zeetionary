@@ -181,9 +181,6 @@ class EnglishEntryapparent extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Then, for no apparent reason, the train suddenly stopped."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دواتر، بەبێ ھیچ ھۆکارێکی ڕوون، شەمەندەفەرەکە وەستا لە کارکردن."),
@@ -205,9 +202,6 @@ class EnglishEntryapparent extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It soon became apparent to everyone that he couldn't sing."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەرزوو بۆ ھەموان ڕوونبووەوە کە توانای گۆرانی‌وتنی نەبوو."),
@@ -231,9 +225,6 @@ class EnglishEntryapparent extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "My parents were concerned at my apparent lack of enthusiasm for school."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دایک و باوکم نیگەران بوون بە کەمی ڕووکەشانەی تامەزرۆییم بۆ قوتابخانە."),

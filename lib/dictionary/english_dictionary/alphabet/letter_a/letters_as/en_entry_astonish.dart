@@ -181,9 +181,6 @@ class EnglishEntryastonish extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The news astonished everyone."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەواڵەکە ھەمووانی حەپەساند."),
                               const CustomSizedBoxForTTS(),

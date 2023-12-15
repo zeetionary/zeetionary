@@ -130,9 +130,6 @@ class EnglishEntryairborne extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Do not leave your seat until the plane is airborne."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کورسییەکەت جێ مەھێڵە تا فڕۆکە دەچێتە ئاسمان (بارودۆخی فڕین)."),

@@ -180,9 +180,6 @@ class EnglishEntryarmchair extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He eased himself into the big armchair."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئیستراحەتی کرد لەسەر قەنەفە گەورەکە."),
                               const CustomSizedBoxForTTS(),
@@ -205,9 +202,6 @@ class EnglishEntryarmchair extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "While fewer people are attending football matches, armchair viewers are growing in number."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەکاتێکدا خەڵکی کەمتر بەژداری یارییەکانی تۆپێن دەکەن، ژمارەی تەماشاکاران لە ماڵەوە زیاد دەکات."),

@@ -178,9 +178,6 @@ class EnglishEntryASCII extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Save the text as an ASCII file."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "نووسراوەکە بە فایلێکی ئاسکی باربکە."),
                               const CustomSizedBoxForTTS(),

@@ -175,9 +175,6 @@ class EnglishEntryanalogy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The teacher drew an analogy between the human heart and a pump."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "مامۆستاکە دڵی مرۆڤی چواند بە پەمپێک."),
                               const CustomSizedBoxForTTS(),
@@ -198,9 +195,6 @@ class EnglishEntryanalogy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The computer is a useful analogy for the brain."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "کۆمپیوتەر لێکچوویەکی باشە بۆ مێشک."),
                               const CustomSizedBoxForTTS(),
@@ -223,9 +217,6 @@ class EnglishEntryanalogy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We can understand this theory by analogy with human beings."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەتوانین لەم بیردۆزە تێ‌بگەین بە بەراوردکردنی بە مرۆڤ."),

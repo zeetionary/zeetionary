@@ -179,9 +179,6 @@ class EnglishEntryapartfrom extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I've finished apart from the last question."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەمووم تەواوکردە جگە لە کۆتا پرسیار."),
                               const CustomSizedBoxForTTS(),
@@ -204,9 +201,6 @@ class EnglishEntryapartfrom extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Apart from their house in London, they also have a villa in Spain."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "جگە لە ماڵەکەیان لە لەندەن، ڤێلایەکیشیان لە ئیسپانیا ھەبوو."),

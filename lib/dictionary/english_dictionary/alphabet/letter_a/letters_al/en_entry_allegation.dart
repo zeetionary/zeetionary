@@ -133,9 +133,6 @@ class EnglishEntryallegation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Several newspapers made allegations of corruption in the city's police department."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ژمارەیەک ڕۆژنامە ئیدعای گەندەڵییان کرد لە پۆلیسخانەی شارەکە."),
@@ -156,9 +153,6 @@ class EnglishEntryallegation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She refused to admit the allegations."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕەتیکردەوە دان بە تۆمەتەکان بنێت."),
                               const CustomSizedBoxForTTS(),

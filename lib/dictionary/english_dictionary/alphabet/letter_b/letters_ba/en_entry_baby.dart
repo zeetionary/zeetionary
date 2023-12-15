@@ -174,9 +174,6 @@ class EnglishEntrybaby extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She had a baby last year."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ساڵی پار منداڵێکی بوو."),
                               const CustomSizedBoxForTTS(),
@@ -197,9 +194,6 @@ class EnglishEntrybaby extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He's the baby of the team."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بچووکترین ئەندامی تیمەکەیە."),
                               const CustomSizedBoxForTTS(),
@@ -221,9 +215,6 @@ class EnglishEntrybaby extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Stop crying and don't be such a baby."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "واز لە گریان بێنە و ھێندە منداڵ مەبە."),
@@ -245,9 +236,6 @@ class EnglishEntrybaby extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Oh baby, I love you."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئاھ ھەناسەکەم، خۆشمدەوێیت."),
                               const CustomSizedBoxForTTS(),
@@ -269,9 +257,6 @@ class EnglishEntrybaby extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The boys were now ten and twelve and didn't want their mother to baby them."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کوڕەکان لە ئێستادا ١٠ ساڵان و ١٢ ساڵان بوون و نەیاندەویست دایکیان وەک منداڵ سەیریان بکات."),

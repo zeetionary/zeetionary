@@ -180,9 +180,6 @@ class EnglishEntryapparently extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Apparently they are getting divorced soon."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "وادیارە بەم‌نزیکانە جیادەبنەوە."),
                               const CustomSizedBoxForTTS(),
@@ -203,9 +200,6 @@ class EnglishEntryapparently extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I thought she had retired, but apparently she hasn't."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وامزانی خانەنشین‌بووە، بەڵام وادیارە وانییە."),

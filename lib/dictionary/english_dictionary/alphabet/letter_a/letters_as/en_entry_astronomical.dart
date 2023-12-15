@@ -184,9 +184,6 @@ class EnglishEntryastronomical extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The astronomical observatory is located on a mountaintop."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕوانگە ئەستێرەناسییەکە لەسەر لوتکەی شاخێکە."),
@@ -209,9 +206,6 @@ class EnglishEntryastronomical extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The costs were astronomical."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "خەرجییەکان زۆر زۆربوون."),
                               const CustomSizedBoxForTTS(),

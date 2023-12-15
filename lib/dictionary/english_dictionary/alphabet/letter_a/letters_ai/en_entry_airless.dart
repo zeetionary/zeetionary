@@ -129,9 +129,6 @@ class EnglishEntryairless extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The night was hot and airless."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "شەوەکە گەرم و بێ با بوو."),
                               const CustomSizedBoxForTTS(),

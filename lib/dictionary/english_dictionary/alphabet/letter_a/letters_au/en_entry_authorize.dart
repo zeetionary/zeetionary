@@ -183,9 +183,6 @@ class EnglishEntryauthorize extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I can authorize payments up to £5 000."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەتوانم مۆڵەتی پێدانی تاوەکو ٥٠٠٠ پاوەند بدەم."),
@@ -207,9 +204,6 @@ class EnglishEntryauthorize extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The police were authorized to record his phone conversations."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پۆلیس مۆڵەتی پێدرا گفتوگۆ تەلەفۆنییەکانی تۆمار بکات."),

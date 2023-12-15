@@ -180,9 +180,6 @@ class EnglishEntryartgallery extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He frequently exhibits at the art gallery."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زوو زوو کارەکانی لە پێشانگای ھونەری نمایش‌دەکات."),

@@ -172,9 +172,6 @@ class EnglishEntrybalsa extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The balsa trees are native to South America and can grow up to 100 feet tall."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "داری بالسا بەسرووشتی لە ئەمریکای باشوور ھەن و تاوەکو ١٠٠ پێ گەشەدەکەن."),

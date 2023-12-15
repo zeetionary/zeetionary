@@ -180,9 +180,6 @@ class EnglishEntryauspiciously extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The day did not begin auspiciously."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕۆژەکە بە ئاماژەیەکی باشەوە دەستی‌پێنەکرد."),

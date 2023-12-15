@@ -247,7 +247,7 @@ class EnglishEntrybirth extends StatelessWidget {
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
                           // const DividerDefinition(),
                         ],
                       ),

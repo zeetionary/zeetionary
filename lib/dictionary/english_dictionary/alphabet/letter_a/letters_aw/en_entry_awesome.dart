@@ -174,9 +174,6 @@ class EnglishEntryawesome extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "As night fell, the volcano presented an awesome sight."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کە شەو دایدا، گڕکانەکە فیمەنێکی ئەفسووناوی پۆشی."),
@@ -197,9 +194,6 @@ class EnglishEntryawesome extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "They had an awesome task ahead."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەرکێکی قورسیان لەپێشە."),
                               const CustomSizedBoxForTTS(),
@@ -222,9 +216,6 @@ class EnglishEntryawesome extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Hey, come look at this! It's awesome!"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھێی، وەرە ئەمە ببینە! زۆرخۆشە!."),
                               const CustomSizedBoxForTTS(),

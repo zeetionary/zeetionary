@@ -181,9 +181,6 @@ class EnglishEntryarmoury extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Several guns had been stolen from the palace armoury."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەندێک چەک دزرابوون لە جبەخانەی کۆشکەکە."),
@@ -210,9 +207,6 @@ class EnglishEntryarmoury extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Doctors have an armoury of drugs available."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دکتۆرەکان گەنجینەیەک لە دەرمانیان لەبەردەستە."),
@@ -236,9 +230,6 @@ class EnglishEntryarmoury extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The two countries signed an agreement to reduce their nuclear armouries."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەردوو وڵات ڕێککەوتنێکیان واژۆکرد بۆ کەمکردنەوەی چەکی ئەتۆمییان."),

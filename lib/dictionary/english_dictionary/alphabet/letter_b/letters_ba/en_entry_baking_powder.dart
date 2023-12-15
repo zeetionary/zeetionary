@@ -175,9 +175,6 @@ class EnglishEntrybakingpowder extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Add one teaspoon of baking powder to the flour and whisk together."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "یەک کەوچک چایی دەرمانی کێک بکە ئاردەکەوە و تێکەڵیان بکە."),

@@ -175,9 +175,6 @@ class EnglishEntryantelope extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The hunter disembowelled the antelope."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕاوچییەکە ئاسکەکێوییەکەی کەوڵ کرد."),
                               const CustomSizedBoxForTTS(),

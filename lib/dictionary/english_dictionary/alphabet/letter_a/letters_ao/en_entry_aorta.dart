@@ -175,9 +175,6 @@ class EnglishEntryaorta extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The blood can dissect up or down the aorta."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خوێن دەکرێت بە شاخوێن‌بەردا دڵ جێبھێڵێت یان بێتە ناوی."),

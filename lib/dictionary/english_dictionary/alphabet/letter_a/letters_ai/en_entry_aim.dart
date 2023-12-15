@@ -168,9 +168,6 @@ class EnglishEntryaim extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We should aim for a bigger share of the market."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەبێت ئامانجمان پشکێکی زیاتری بازاڕ بێت."),
@@ -191,9 +188,6 @@ class EnglishEntryaim extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The government is aiming at a 50% reduction in unemployment."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "حکومەت ئامانجیەتی بە ڕێژەی ٥٠٪ بێکاری کەمبکاتەوە."),
@@ -216,9 +210,6 @@ class EnglishEntryaim extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "These measures are aimed at preventing violent crime."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم ڕێکارانە ئامانجیانە تاوانی توندوتیژی کەمبکەنەوە."),
@@ -240,9 +231,6 @@ class EnglishEntryaim extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "My criticism wasn't aimed at you."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕەخنەکانم ڕوو لە تۆ نەبوون."),
                               const CustomSizedBoxForTTS(),
@@ -264,9 +252,6 @@ class EnglishEntryaim extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I was aiming at the tree but hit the car by mistake."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئامانجم لە دارەکە گرتەوە، بەڵام بە ھەڵە لە ئۆتۆمبێلەکەم دا."),
@@ -289,9 +274,6 @@ class EnglishEntryaim extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "His sole aim in life is to enjoy himself."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەنھا ئامانجی لە ژیان ئەوە بوو خۆشی لە خۆی ببینێت."),
@@ -314,9 +296,6 @@ class EnglishEntryaim extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Her aim was good and she hit the lion with her first shot."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئامانجگرتنەکەی باش بوو و بە یەکەم لێدان لە شێرەکەی دا."),

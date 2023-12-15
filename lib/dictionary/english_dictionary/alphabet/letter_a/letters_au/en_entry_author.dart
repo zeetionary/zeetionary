@@ -185,9 +185,6 @@ class EnglishEntryauthor extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He is the author of three books on art."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "نووسەری سێ کتێبە لەسەر ھونەر."),
                               const CustomSizedBoxForTTS(),
@@ -208,9 +205,6 @@ class EnglishEntryauthor extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The film is based on a novel written by a female author."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "فیلمەکە پشتی بە ڕۆمانێک بەستووە کە ھی ژنەنووسەرێکە."),
@@ -234,9 +228,6 @@ class EnglishEntryauthor extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "As the author of the proposal I cannot agree with you."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وەک خاوەنی پێشنیارەکە ناتوانم لەگەڵم ڕازی بم."),
@@ -259,9 +250,6 @@ class EnglishEntryauthor extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He has authored more than 30 books."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "زیاتر لە ٣٠ کتێبی نووسیوە."),
                               const CustomSizedBoxForTTS(),

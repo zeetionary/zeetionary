@@ -132,9 +132,6 @@ class EnglishEntryalmond extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The almond cake is particularly sublime."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کێکە بادەمەکە بەتایبەتی سەرسوڕھێنەرە."),

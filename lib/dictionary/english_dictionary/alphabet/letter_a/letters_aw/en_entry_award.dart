@@ -178,9 +178,6 @@ class EnglishEntryaward extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was nominated for the best actor award."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کاندیدکرا بۆ خەڵاتی ئۆسکار بۆ باشترین ئەکتەر."),
@@ -203,9 +200,6 @@ class EnglishEntryaward extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "As head of the bank, she got an award of £2.18m."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وەک سەرۆکی بانکەکە، بەخشیشێکی ٢,١٨ ملیۆن دۆلاری وەرگرت."),
@@ -228,9 +222,6 @@ class EnglishEntryaward extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The judge has the power to make damages awards."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دادوەرەکە دەسەڵاتی پێدانی قەرەبووی ھەیە."),
@@ -253,9 +244,6 @@ class EnglishEntryaward extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Satisfactory completion of the course will lead to the award of the Diploma of Social Work."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەواوکردنی گونجاوی کۆرسەکە دەگات بە پێدانی دیپلۆما لە کاری کۆمەڵایەتی."),
@@ -278,9 +266,6 @@ class EnglishEntryaward extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The prize is awarded annually for the best new building."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خەڵاتەکە ساڵانە دەبەخشرێت بۆ باشترین بینای تازە."),

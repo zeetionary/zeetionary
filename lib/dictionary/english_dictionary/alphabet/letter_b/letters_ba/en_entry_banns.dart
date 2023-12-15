@@ -172,9 +172,6 @@ class EnglishEntrybanns extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The banns were published in their parish church."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕاگەیاندنی ھاوسەرگیرییەکە بڵاوکرایەوە لە کڵێسای ناوچەکە."),

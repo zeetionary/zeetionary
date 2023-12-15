@@ -198,9 +198,6 @@ class EnglishEntryamenity extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Many of the houses lacked even basic amenities (= baths, showers, hot water, etc.)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ژمارەیەکی زۆر لە خانووەکان تەنانەت خزمەتگوزارییە سەرەتاییەکانیشیان تێدا نییە."),
@@ -220,9 +217,6 @@ class EnglishEntryamenity extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The hotel has excellent amenities."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھوتێلەکە خزمەتگوزاریی نایابی تێدایە."),
                               const CustomSizedBoxForTTS(),

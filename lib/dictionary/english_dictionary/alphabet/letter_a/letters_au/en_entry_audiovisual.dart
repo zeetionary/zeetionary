@@ -183,9 +183,6 @@ class EnglishEntryaudiovisual extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The audiovisual presentation included slides of the birds and tapes of their songs."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پریزێنتەیشنەکە کە وێنە و دەنگیش بوو سلایدی باڵندە و تۆماری دەنگیانی لەخۆگرتبوو."),

@@ -188,9 +188,6 @@ class EnglishEntryatmosphere extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Volcanoes and hot springs can emit methane into the atmosphere."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گڕکانەکان و کانیاوە گەرمەکان گازی میسان دەخەنە بەرگەھەواوە."),
@@ -212,9 +209,6 @@ class EnglishEntryatmosphere extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The spaceship should re-enter the earth's atmosphere later today."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەشتییە ئاسمانییەکە دەبێت درەنگانی ئەمڕۆ بگەڕێتەوە ناو بەرگەھەوای زەوی."),
@@ -238,9 +232,6 @@ class EnglishEntryatmosphere extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The outermost part of the sun's atmosphere is called the corona."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دوورترین بەشی ڕووی دەرەوەی بەرگەھەوای خۆر پێی دەوترێت کۆرۆنا."),
@@ -264,9 +255,6 @@ class EnglishEntryatmosphere extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "These plants love warm, humid atmospheres."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم ڕووەکانە حەزیان بە ژینگەی گەرم و شێدارە."),
@@ -290,9 +278,6 @@ class EnglishEntryatmosphere extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "City officials have created an atmosphere of fear."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەرپرسانی شارەکە کەشێکی پڕ لە ترسیان درووستکردووە."),
@@ -314,9 +299,6 @@ class EnglishEntryatmosphere extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There was an atmosphere of mutual trust between them."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەشێکی متمانەی ھاوبەش ھەبوو لە نێوانیاندا."),

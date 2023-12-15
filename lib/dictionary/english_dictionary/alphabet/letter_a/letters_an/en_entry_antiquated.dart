@@ -178,9 +178,6 @@ class EnglishEntryantiquated extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The antiquated heating system barely heats the larger rooms."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سیستەمی گەرمییە کۆنەکە بە ئەستەم ژووری گەورە گەرم‌دەکاتەوە."),

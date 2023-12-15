@@ -171,9 +171,6 @@ class EnglishEntryanoint extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The priest anointed her with oil."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "قەشەکە بە ڕۆن چەوری کرد."),
                               const CustomSizedBoxForTTS(),

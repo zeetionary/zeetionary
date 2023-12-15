@@ -174,9 +174,6 @@ class EnglishEntryanthropology extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Social anthropology examines family relationships in detail."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "مرۆڤ‌ناسیی کۆمەڵایەتی بەوردی لێکۆڵینەوە دەکات لە پەیوەندیی خێزانی."),

@@ -174,9 +174,6 @@ class EnglishEntryanorak extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "My Mum made me take my anorak in case it rained."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دایکم زۆری لێ‌کردم پاڵتاوەکەم ببەم نەوەک باران ببارێ."),

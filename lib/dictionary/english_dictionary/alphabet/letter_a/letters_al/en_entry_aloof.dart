@@ -132,9 +132,6 @@ class EnglishEntryaloof extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was a cold man, aloof and distant."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەسێکی ساردوسڕ و گۆشەگیر و دوورەپەرێز بوو."),

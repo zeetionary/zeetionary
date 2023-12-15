@@ -157,9 +157,6 @@ class EnglishEntryagreement extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They had an agreement never to talk about work at home."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێککەوتنێکیان ھەبوو کە ھەرگیز لە ماڵەوە باسی کار نەکەن."),
@@ -180,9 +177,6 @@ class EnglishEntryagreement extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The agreement (= the document recording the agreement) was signed during a meeting at the UN."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێککەوتنەکە واژۆکرا لە کۆبوونەوەیەکدا لە نەتەوە یەکگرتووەکان."),
@@ -204,9 +198,6 @@ class EnglishEntryagreement extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Is everybody in agreement now?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەمووان ھاوڕان؟"),
                               const CustomSizedBoxForTTS(),
@@ -228,9 +219,6 @@ class EnglishEntryagreement extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "You'll have to get your parents' agreement if you want to go on the trip."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێویستە مۆڵەتی دایک و باوکت وەربگری پێش ئەوەی گەشتەکە بکەیت."),

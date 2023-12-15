@@ -182,9 +182,6 @@ class EnglishEntryaunt extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I have an aunt in Australia."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پورێکم ھەیە لە ئوسترالیا."),
                               const CustomSizedBoxForTTS(),
@@ -203,9 +200,6 @@ class EnglishEntryaunt extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Do you want some tea, Aunt Alice?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "چا ئەخۆیتەوە، پورە ئالیس؟."),
                               const CustomSizedBoxForTTS(),

@@ -178,9 +178,6 @@ class EnglishEntrybadge extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She wore a badge saying ‘Vote for Obama’."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "باجێکی پۆشیبوو کە لەسەری نووسرابوو 'دەنگ بدە بە ئۆباما'."),
@@ -201,9 +198,6 @@ class EnglishEntrybadge extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He pulled out a badge and said he was a cop."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "باجێکی دەرھێنا و وتی کەوا پۆلیسە."),
                               const CustomSizedBoxForTTS(),
@@ -225,9 +219,6 @@ class EnglishEntrybadge extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He sewed the school badge neatly onto his uniform."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "باجی قوتابخانەکەی بەجوانی دووری بە جلەکەیەوە."),
@@ -250,9 +241,6 @@ class EnglishEntrybadge extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "His gun was a badge of power for him."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "چەکەکەی ھێمای دەسەڵاتی بوو."),
                               const CustomSizedBoxForTTS(),
@@ -272,9 +260,6 @@ class EnglishEntrybadge extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He saw his injuries as a badge of honour."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "برینەکانی وەک سمبولی شکۆداری دەبینی."),
                               const CustomSizedBoxForTTS(),

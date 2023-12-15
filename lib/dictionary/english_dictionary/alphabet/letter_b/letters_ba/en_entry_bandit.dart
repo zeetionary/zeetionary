@@ -174,9 +174,6 @@ class EnglishEntrybandit extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Buses driving through the mountains have been attacked by bandits."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو پاسانەی کە بە شاخەکاندا گەشت دەکەن لەلایەن ڕێگرەکانەوە ھێرشیان کراوەتەسەر."),

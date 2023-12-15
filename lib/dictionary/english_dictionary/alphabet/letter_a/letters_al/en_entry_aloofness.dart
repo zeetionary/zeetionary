@@ -132,9 +132,6 @@ class EnglishEntryaloofness extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Her cool aloofness was seen as arrogance by some people."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دوورەپەرێزییە ساردوسڕییەکەی وەک خۆبەزلزانی دەبینرا لەلایەن ھەندێک کەسەوە."),

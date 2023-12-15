@@ -186,9 +186,6 @@ class EnglishEntryassault extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Both men were charged with assault."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەردوو پیاوەکە بە ھێرشی تاوانبارکران."),
@@ -210,9 +207,6 @@ class EnglishEntryassault extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A significant number of indecent assaults on women go unreported."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ژمارەیەکی زۆر لە پەلاماری نابەجێ بۆ سەر ژنان بەبێ باسکردن تێدەپەڕێت."),
@@ -236,9 +230,6 @@ class EnglishEntryassault extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "An assault on the capital was launched in the early hours of the morning."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە بەیانی زوودا ھێرشێک بۆ سەر پایتەختەکە ئەنجام‌درا."),
@@ -262,9 +253,6 @@ class EnglishEntryassault extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The government has mounted a new assault on unemployment."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "حکومەت ھەڵمەتێکی تازەی دژ بە بێ‌کاری ڕاگەیاندووە."),
@@ -288,9 +276,6 @@ class EnglishEntryassault extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The paper's assault on the president was totally unjustified."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕەخنەی ڕۆژنامەکە دژ بە سەرۆک تەواو ناڕەوا بوو."),
@@ -314,9 +299,6 @@ class EnglishEntryassault extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He has been charged with assaulting a police officer."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تاوانبارکراوە بە پەلاماردانی ئەفسەرێکی پۆلیس."),
@@ -338,9 +320,6 @@ class EnglishEntryassault extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Four women have been sexually assaulted in the area recently."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "چوار ژن بەم‌نزیکانە لە ناوچەکە پەلاماری سێکسییان بۆسەر ئەنجام دراوە."),

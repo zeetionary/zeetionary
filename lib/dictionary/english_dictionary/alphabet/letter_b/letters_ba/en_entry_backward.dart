@@ -220,9 +220,6 @@ class EnglishEntrybackward extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She left without a backward glance."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕۆشت بەبێ ئەوەی سەیری دواوە بکات."),
                               const CustomSizedBoxForTTS(),
@@ -245,9 +242,6 @@ class EnglishEntrybackward extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She felt that going back to live in her home town would be a backward step."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وای ھەستکرد گەڕانەوە بۆ ژیانکردن لە شارەکەی ھەنگاوێکی بەتاڵ دەبێ."),
@@ -271,9 +265,6 @@ class EnglishEntrybackward extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She's not backward in coming forward (= she's not shy)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ناسڵەمێتەوە لە ھاتنە پێشەوە."),
                               const CustomSizedBoxForTTS(),
@@ -294,9 +285,6 @@ class EnglishEntrybackward extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "People still think of it as a backward country (= one without industry or modern machines)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خەڵکی ھێشتا وەک وڵاتێکی دواکەوتوو بیری‌لێ‌دەکەنەوە."),
@@ -320,9 +308,6 @@ class EnglishEntrybackward extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "When he was a child, his teachers thought he was backward (= unable to learn as much as most children)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کە منداڵ بوو مامۆستاکان وایان دەزانی گەلحۆیە."),
@@ -345,9 +330,6 @@ class EnglishEntrybackward extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He took a step backward."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەنگاوێکی بەرەو دواوە نا."),
                               const CustomSizedBoxForTTS(),
@@ -370,9 +352,6 @@ class EnglishEntrybackward extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "‘Ambulance’ is written backwards so you can read it in the mirror."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وشەی ‘Ambulance’ بەپێچەوانەوە دەنووسرێت بۆ ئەوەی بتوانی بیخوێنیتەوە لە ئاوێنەدا."),
@@ -393,9 +372,6 @@ class EnglishEntrybackward extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "In the movie they take a journey backward through time."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە فیلمەکەدا بەرەو دواوە گەشت بە کاتدا دەکەن."),
@@ -419,9 +395,6 @@ class EnglishEntrybackward extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I felt that going to live with my parents would be a step backward."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەستمکرد گەڕانەوە بۆ ژیانکردن لەگەڵ دایک و باوکم ھەنگاوێک بۆ دواوە دەبێت."),

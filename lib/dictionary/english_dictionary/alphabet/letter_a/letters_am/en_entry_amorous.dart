@@ -197,9 +197,6 @@ class EnglishEntryamorous extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Mary rejected Tony's amorous advances."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ماری ھەوڵە ئەویندارییەکانی تۆنی‌ی ڕەتکردەوە."),

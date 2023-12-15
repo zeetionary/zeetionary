@@ -172,9 +172,6 @@ class EnglishEntrybaptism extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We’re hoping to be able to get to Pasadena for the baptism of our grandson."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەھیواین بتوانین پاسادینا بھێنین بۆ مەراسیمی تەوفنی کوڕەزاکەمان."),

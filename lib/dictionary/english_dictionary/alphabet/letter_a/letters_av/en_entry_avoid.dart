@@ -176,9 +176,6 @@ class EnglishEntryavoid extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We must find a way to avoid similar problems in future."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەبێت ڕێگەیەک بدۆزینەوە بۆ خەدوورگرتن لە کێشەی ھاوشێوە لە داھاتوودا."),
@@ -200,9 +197,6 @@ class EnglishEntryavoid extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He's been avoiding me all week."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "تەواوی ھەفتەکە خۆی لێم دزیوەتەوە."),
                               const CustomSizedBoxForTTS(),
@@ -223,9 +217,6 @@ class EnglishEntryavoid extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The car swerved to avoid a cat."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئۆتۆمبێلەکە خۆیدابەلا بۆ دووربوون لە لێدانی پشیلەکە."),

@@ -182,9 +182,6 @@ class EnglishEntryassassination extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The president survived a number of assassination attempts."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەرۆکەکە لە ژمارەیەک ھەوڵی تیرۆرکردن ڕزگاری‌بوو."),

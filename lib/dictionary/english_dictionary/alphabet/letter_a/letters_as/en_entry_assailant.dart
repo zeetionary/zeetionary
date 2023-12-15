@@ -181,9 +181,6 @@ class EnglishEntryassailant extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The alleged assailants appeared in court."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تۆمەتبارە بانگەشەبۆکراوەکان لە دادگا دەرکەوتن."),

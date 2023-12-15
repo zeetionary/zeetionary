@@ -176,9 +176,6 @@ class EnglishEntryanticlimax extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "When you really look forward to something it's often an anticlimax when it actually happens."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کاتێک زۆر چاوەڕیی شتێک دەکەیت زۆرجار نائومێدییەک ھەیە کە لە ڕاستیدا ڕوودەدات."),

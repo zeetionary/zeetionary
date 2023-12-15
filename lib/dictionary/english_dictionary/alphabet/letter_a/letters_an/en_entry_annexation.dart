@@ -175,9 +175,6 @@ class EnglishEntryannexation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He mentioned the Japanese annexation of Korea in 1910 ."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "داگیرکاریی ژاپۆنی بۆسەر کۆریا لە ساڵی ١٩١٠ ناوھێنا."),
@@ -199,9 +196,6 @@ class EnglishEntryannexation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The country's annexation of its neighbour caused an outcry."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "داگیرکاریی وڵاتەکە بۆسەر دراوسێکەی کاردانەوەی توندی بەدودا ھات."),

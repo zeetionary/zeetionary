@@ -259,9 +259,6 @@ class EnglishEntryart extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "It's a very beautiful piece of art."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پارچەیەکی ھونەری زۆر جوانە."),
                               const CustomSizedBoxForTTS(),
@@ -282,9 +279,6 @@ class EnglishEntryart extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "His art style was less radical than his contemporaries."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ستایلی ھونەریی کەمتر تازەگەریی تێدابوو وەک لەوانەی دیکەی ھاوسەردەمی."),
@@ -308,9 +302,6 @@ class EnglishEntryart extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The castle houses one of the finest art collections in Britain."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "قەڵاکە یەکێک لە باشترین کۆمەڵە کاری ھونەری لە بەریتانیادا تێدایە."),
@@ -333,9 +324,6 @@ class EnglishEntryart extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She's good at art and design."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لە ھونەر و دیزایندا باشە."),
                               const CustomSizedBoxForTTS(),
@@ -358,9 +346,6 @@ class EnglishEntryart extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "More government money is needed for the arts."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پارەی زیاتری حکومەت بۆ ھونەر پێویستە."),
@@ -384,9 +369,6 @@ class EnglishEntryart extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Drama is an art that is traditionally performed in a theatre."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دراما ھونەرێکە زۆرجار لە ھۆڵی شانۆ پێشکەش دەکرێت."),
@@ -410,9 +392,6 @@ class EnglishEntryart extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "At school I was quite good at arts, but hopeless at science."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە قوتابخانە زۆر لە بابەتە ھونەرییەکان باش بووم، بەڵام لە زانست بێ‌ئەمەل بووم."),
@@ -436,9 +415,6 @@ class EnglishEntryart extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I've never mastered the art of making bread."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەرگیز فێری ھونەری نانکردن نەبوومە."),
                               const CustomSizedBoxForTTS(),

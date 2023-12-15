@@ -172,9 +172,6 @@ class EnglishEntryanew extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "They started life anew in Canada."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ژیانیان سەرلەنوێ لە کەنەدا دەست‌پێکرد."),

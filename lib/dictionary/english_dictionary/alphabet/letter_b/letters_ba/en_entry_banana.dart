@@ -172,9 +172,6 @@ class EnglishEntrybanana extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Could you chop up a banana for the salad?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دەتوانی مۆزێک ورد بکەیت بۆ زەڵاتەکە؟"),
                               const CustomSizedBoxForTTS(),

@@ -180,9 +180,6 @@ class EnglishEntryaudibly extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Jets audibly passed overhead but the sky was too overcast for them to be seen."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "فڕۆکە بە دەنگی بیستراو بەسەر سەماندا دەفڕین، بەڵام ئاسمان زۆر ھەوراوی بوو تا ببینرێن."),

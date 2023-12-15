@@ -179,9 +179,6 @@ class EnglishEntryanything extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Would you like anything else?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "حەزت لە ھیچی ترە؟"),
                               const CustomSizedBoxForTTS(),
@@ -202,9 +199,6 @@ class EnglishEntryanything extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There's never anything worth watching on TV."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەرگیز ھیچ لەسەر تەلەفیزیۆن نییە شایەنی سەیرکردن بێ."),
@@ -227,9 +221,6 @@ class EnglishEntryanything extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I'm so hungry, I'll eat anything."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "زۆرم برسییە، ھەرچی ھەبێت ئەیخۆم."),
                               const CustomSizedBoxForTTS(),
@@ -252,9 +243,6 @@ class EnglishEntryanything extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Is there anything (= any truth) in these rumours?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھیچ شتێکی گرنگ لەم دەنگۆیانە ھەیە."),
                               const CustomSizedBoxForTTS(),

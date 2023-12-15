@@ -135,9 +135,6 @@ class EnglishEntryamendment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Parliament passed the bill without further amendment."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پەرلەمان پڕۆژە یاساکەی تێپەڕاند بەبێ گۆڕانکاری زیاتر."),
@@ -159,9 +156,6 @@ class EnglishEntryamendment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The Senate added numerous amendments to the bill."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەنجوومەنی پیران ژمارەیەک گۆڕانکاری بۆ پڕۆژە یاساکە زیادکرد."),
@@ -185,9 +179,6 @@ class EnglishEntryamendment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The 19th Amendment gave women the right to vote."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نۆزدەیەمین گۆڕانکاری بۆ دەستووری ئەمریکا مافی دەنگدانی دا بە ژنان."),

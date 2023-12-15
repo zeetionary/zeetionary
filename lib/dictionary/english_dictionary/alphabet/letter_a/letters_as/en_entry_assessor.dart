@@ -183,9 +183,6 @@ class EnglishEntryassessor extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The government appointed independent assessors to review the viability of the remaining coal mines."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "حکومەت ھەڵسەنگێنەری سەربەخۆی دیاریکرد بۆ لێکۆڵینەوە لە گونجاوی ئەو خەڵووزانەی لە کانەکان مابوونەوە."),
@@ -209,9 +206,6 @@ class EnglishEntryassessor extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The assessor's offices vary in how they determine a home's value."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئۆفیسی نرخێنەرەکان جیاوازن لە شێوازی خەمڵاندنی نرخی خانوو."),
@@ -235,9 +229,6 @@ class EnglishEntryassessor extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The assessor evaluated the student's performance on the exam."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەڵسەنگێنەرەکان توانای خوێندکارانیان لە تاقیکردنەوەکە نرخاند."),

@@ -130,9 +130,6 @@ class EnglishEntryunderage extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It is illegal to sell cigarettes to children who are under age."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "قەدەغەیە جگەرە بە کەسانی منداڵ بفرۆشیت."),

@@ -136,9 +136,6 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Ron Connolly sometimes had to function on four hours of sleep or less when he worked as an air traffic controller."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕۆن کۆنۆڵی پێویست بوو چوار کاتژمێر یان کەمتر بخەوێت کاتێک وەک کۆنترۆڵوانی فڕۆکە کاری دەکرد."),

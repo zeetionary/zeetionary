@@ -130,9 +130,6 @@ class EnglishEntryairfield extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It is not just enough to have a bare airfield."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بوونی تەنھا باڵافڕگەیەک بەس نییە."),
                               const CustomSizedBoxForTTS(),

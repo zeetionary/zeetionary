@@ -214,9 +214,6 @@ class EnglishEntryanybody extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Is there anybody who can help me?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "کەس ھەیە بتوانێ یارمەتیم بدا؟"),
                               const CustomSizedBoxForTTS(),
@@ -236,9 +233,6 @@ class EnglishEntryanybody extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Does anybody else want to come?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "کەسی تر دەیەوێت بێت؟"),
                               const CustomSizedBoxForTTS(),
@@ -259,9 +253,6 @@ class EnglishEntryanybody extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I forbid anybody to touch that clock."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێگە بە کەس نادەم دەست لەو کاتژمێرە بدات."),
@@ -285,9 +276,6 @@ class EnglishEntryanybody extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Anybody could dress well with all that money."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەمووکەس دەیتوانی بە باشی خۆی بپۆشێ بەو ھەموو پارەوە."),
@@ -308,9 +296,6 @@ class EnglishEntryanybody extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Anybody can see that it's wrong."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەموو کەس دەتوانێ ببینێت ئەوە ھەڵەیە."),
@@ -334,9 +319,6 @@ class EnglishEntryanybody extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She wasn't anybody before she got that job."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەسێکی گرنگ نەبوو پێش وەرگرتنی کارەکە."),

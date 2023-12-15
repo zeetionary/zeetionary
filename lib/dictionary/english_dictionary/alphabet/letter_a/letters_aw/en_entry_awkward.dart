@@ -178,9 +178,6 @@ class EnglishEntryawkward extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "There was an awkward silence."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بێ‌دەنگییەکی شەرمھێنەر بوو."),
                               const CustomSizedBoxForTTS(),
@@ -201,9 +198,6 @@ class EnglishEntryawkward extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I felt awkward because they obviously wanted to be alone."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەستم بە شەرم دەکرد چونکە ئاشکرا بوو دەیانویست تەنھا بن."),
@@ -227,9 +221,6 @@ class EnglishEntryawkward extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "You've put me in an awkward position."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "منت خستووەتە بارودۆخێکی نالەبارەوە."),
                               const CustomSizedBoxForTTS(),
@@ -251,9 +242,6 @@ class EnglishEntryawkward extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Have I come at an awkward time?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لە کاتێکی نەگونجاو ھاتووم؟."),
                               const CustomSizedBoxForTTS(),
@@ -276,9 +264,6 @@ class EnglishEntryawkward extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "This box is very awkward for one person to carry."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم سندووقە زۆر نەشیاوە بۆ ھەڵگرتنی لەلایەن یەک کەس."),
@@ -302,9 +287,6 @@ class EnglishEntryawkward extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I must have slept in an awkward position—I'm aching all over."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەبێت لەسەر لایەکی خراپ خەوتبم، تەواوی جەستەم دێشێ."),

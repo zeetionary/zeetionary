@@ -131,9 +131,6 @@ class EnglishEntryagency extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She works for an surveillance agency."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بۆ دەزگایەکی چاودێری کاردەکات."),
                               const CustomSizedBoxForTTS(),
@@ -155,9 +152,6 @@ class EnglishEntryagency extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Some laboratories are operated by government agencies."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەندێک تاقیگە لەلایەن فەرمانگەکانی حکومەتەوە بەڕێوەدەبردرێن."),

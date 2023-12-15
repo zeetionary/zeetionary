@@ -133,9 +133,6 @@ class EnglishEntryalign extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The top and bottom line of each column on the page should align."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھێڵی سەرەوە و خوارەوەی ستوونی سەر پەڕەکە دەبێت لەسەر یەک ھێڵ بن."),
@@ -156,9 +153,6 @@ class EnglishEntryalign extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "This pillar is roughly aligned with the others."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پایەکە تاڕادەیەک تەریبە لەگەڵ ئەوانی تر."),

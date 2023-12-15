@@ -132,9 +132,6 @@ class EnglishEntryaggregate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The three smaller parties gained an aggregate of 25 per cent of the vote."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەر سێ پارتەکە پێکەوە ٢٥٪ دەنگەکانیان بەدەستھێنا."),
@@ -157,9 +154,6 @@ class EnglishEntryaggregate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The company aggregates news and information from a number of sources on its website."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کۆمپانیاکە ھەواڵ و زانیاری لە ژمارەیەک سەرچاوەوە کۆدەکاتەوە لەسەر وێبسایتەکەی."),
@@ -182,9 +176,6 @@ class EnglishEntryaggregate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The seven companies made an aggregate profit of 10 million dollars."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەر حەوت کۆمپانیاکە پێکەوە ١٠ ملیۆن دۆلار قازانجیان کرد."),

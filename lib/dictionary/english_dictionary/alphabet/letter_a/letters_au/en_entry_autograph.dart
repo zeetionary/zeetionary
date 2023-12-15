@@ -182,9 +182,6 @@ class EnglishEntryautograph extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Could I have your autograph?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دەتوانی ئیمزایەکم بۆ بکەیت؟."),
                               const CustomSizedBoxForTTS(),
@@ -207,9 +204,6 @@ class EnglishEntryautograph extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The whole team has autographed a football, which will be used as a prize."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەواوی تیمەکە ئیمزایان لەسەر تۆپێک کردووە کە وەک دیارییەک بەکاردێت."),

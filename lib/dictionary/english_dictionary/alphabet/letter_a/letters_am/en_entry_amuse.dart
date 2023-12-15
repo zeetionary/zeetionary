@@ -171,9 +171,6 @@ class EnglishEntryamuse extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I've brought an article from yesterday's paper that I thought might amuse you."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وتارێکم لە چاپی دوێنێی ڕۆژنامەکە ھێناوە کە پێم‌وایە دەتخاتە پێکەنین."),

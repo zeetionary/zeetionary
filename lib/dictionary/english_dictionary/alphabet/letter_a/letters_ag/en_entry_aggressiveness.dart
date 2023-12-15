@@ -132,9 +132,6 @@ class EnglishEntryaggressiveness extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Our addiction to oil feeds belligerence, aggressiveness, and war. Wherever oil is drilled, people are killed for profit."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خووگرتنمان بە نەوت تەنھا دوژمنایەتی و توندوتیژی و شەڕی لێ دەکەوێتەوە. لە ھەرکوێ نەوت دەربھێندرێت، خەڵکی بۆ پارە دەکوژرێن."),
@@ -157,9 +154,6 @@ class EnglishEntryaggressiveness extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Her talent and aggressiveness make her a tennis star of the future."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەھرە و سەرسەختیی بۆ سەرکەوتن وا دەکات ببێت بە ئەستێرەیەکی تێنس لە داھاتوودا."),

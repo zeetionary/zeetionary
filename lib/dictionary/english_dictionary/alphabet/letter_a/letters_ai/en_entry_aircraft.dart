@@ -129,9 +129,6 @@ class EnglishEntryaircraft extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The aircraft was flown by a young American pilot."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "فڕۆکەکە بە دەستی فڕۆکەوانێکی گەنجی ئەمریکییەوە بوو."),
@@ -152,9 +149,6 @@ class EnglishEntryaircraft extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The aircraft is due to take off at midnight."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "فڕۆکەکە لە نیوەشەودا دەفڕێت."),
                               const CustomSizedBoxForTTS(),

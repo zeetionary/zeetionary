@@ -253,9 +253,6 @@ class EnglishEntryalright extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "We've got to get up early, alright?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دەبێت زوو لە خەو ھەستین، تێگەشتی؟"),
                               const CustomSizedBoxForTTS(),
@@ -276,9 +273,6 @@ class EnglishEntryalright extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "‘Can you do it?’ ‘Oh, alright.’"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دەتوانی بیکەیت؟ ئاھ، بەڵێ."),
                               const CustomSizedBoxForTTS(),
@@ -300,9 +294,6 @@ class EnglishEntryalright extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "‘I'm really sorry.’ ‘That's alright, don't worry.’"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "'زۆر داوای لێبووردن دەکەم'، 'کێشە نییە، نیگەران مەبە."),
@@ -324,9 +315,6 @@ class EnglishEntryalright extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "alright class, turn to page 20."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆرباشە خوێندکاران، بیخەنە سەر پەڕەی ٢٠"),
@@ -349,9 +337,6 @@ class EnglishEntryalright extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Are you getting along alright in your new job?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لە کارە تازەکەت بێ کێشە ھەڵدەکەیت؟"),
                               const CustomSizedBoxForTTS(),
@@ -372,9 +357,6 @@ class EnglishEntryalright extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I hope the children are alright."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھیوادارم منداڵەکان سەلامەت بن."),
                               const CustomSizedBoxForTTS(),
@@ -396,9 +378,6 @@ class EnglishEntryalright extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Your work is alright but I'm sure you could do better."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کارەکەت خراپ نییە بەڵام دڵنیام ئەتتوانی باشتر بیت."),
@@ -421,9 +400,6 @@ class EnglishEntryalright extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Are you sure it's alright for me to leave early?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دڵنیایت کە ئاسایی دەبێت زوو کار جێبھێڵم."),

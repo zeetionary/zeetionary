@@ -133,9 +133,6 @@ class EnglishEntryakin extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "What he felt was more akin to pity than love."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەستەکەی زیاتر لە بەزەیی دەچوو وەک لە خۆشەویستی."),
@@ -156,9 +153,6 @@ class EnglishEntryakin extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They speak a language akin to French."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە زمانێک قسەدەکەن کە نزیکە لە فەرەنسی."),

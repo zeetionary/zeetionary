@@ -183,9 +183,6 @@ class EnglishEntryartificialrespiration extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Rescuers pulled the child from the river, and she was given artificial respiration."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕزگارکەران منداڵەکەیان لە ڕووبارەکە ھێنایە دەرەوە و ھەناسەدانی دەستکردیان بۆ کرد."),

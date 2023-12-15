@@ -131,9 +131,6 @@ class EnglishEntryallegory extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The play can be read as allegory."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "شانۆکە دەکرێت وەک  ھێرۆک ببینرێت."),
                               const CustomSizedBoxForTTS(),

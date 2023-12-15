@@ -173,9 +173,6 @@ class EnglishEntryangelic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She smiled, revealing her angelic face to everyone around."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێکەنی و ڕووخسارە فریشتەئاساکەی پیشانی ھەمووان دا."),

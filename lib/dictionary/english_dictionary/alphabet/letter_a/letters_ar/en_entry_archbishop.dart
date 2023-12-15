@@ -179,9 +179,6 @@ class EnglishEntryarchbishop extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He was made Archbishop of Milan."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "کرا بە قەشەی گەورەی میلان."),
                               const CustomSizedBoxForTTS(),

@@ -132,9 +132,6 @@ class EnglishEntryallergy extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I have an allergy to animal hair."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەستیاریم بە مووی ئاژەڵ ھەیە."),
                               const CustomSizedBoxForTTS(),
@@ -153,9 +150,6 @@ class EnglishEntryallergy extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He developed an allergy to wheat."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەستیاری بە گەنمی بۆ درووست بوو."),
                               const CustomSizedBoxForTTS(),

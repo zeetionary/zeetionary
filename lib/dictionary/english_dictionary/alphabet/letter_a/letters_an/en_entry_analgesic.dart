@@ -175,9 +175,6 @@ class EnglishEntryanalgesic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "This cream contains a mild analgesic to soothe stings and bites."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم کرێمە ئازارشکێنێکی سووکی تێدایە کە پێوەدان و گەستن ھێوردەکاتەوە."),
@@ -200,9 +197,6 @@ class EnglishEntryanalgesic extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Aspirin is a mild analgesic."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەسپرین ئازارشکێنێکی سووکە."),
                               const CustomSizedBoxForTTS(),

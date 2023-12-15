@@ -182,9 +182,6 @@ class EnglishEntryaquamarine extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Beads made of aquamarine can bring luck in love."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "مورووی زومروود دەکرێت بەخت‌ھێنەر بێت لە خۆشەویستیدا."),
@@ -208,9 +205,6 @@ class EnglishEntryaquamarine extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The television screen became a rectangle of icy aquamarine."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "شاشەی تەلەفیزیۆنەکە بوو بە پارچە لاکێشەیەکی سەھۆڵی سەوزی شین‌باو."),
@@ -234,9 +228,6 @@ class EnglishEntryaquamarine extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The aquamarine sea sparkled under the bright sun, creating a breathtaking view."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەریا سەوزە شین‌باوەکە ئەدرەوشایەوە لەژێج خۆرە ڕۆشنەکەدا و دیمەنێکی دڵ‌ڕفێنەری درووستکردبوو."),

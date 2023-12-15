@@ -183,9 +183,6 @@ class EnglishEntryautobiographical extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The novel is largely autobiographical."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕۆمانەکە تاڕادەیەکی زۆر خۆژین‌نامەییە."),

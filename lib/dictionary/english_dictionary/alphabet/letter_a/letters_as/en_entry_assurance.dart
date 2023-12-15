@@ -185,9 +185,6 @@ class EnglishEntryassurance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They called for assurances that the government is committed to its education policy."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "داوای دڵنیاییان کرد کە حکومەت پابەند دەبێت بە پلانی پەروەردەوە."),
@@ -209,9 +206,6 @@ class EnglishEntryassurance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I must have your assurance that there will be no repetition of this conduct."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەبێت بەڵێنم پێ‌بدەیت کە ئەم ڕەفتارە دووبارە نابێتەوە."),
@@ -235,9 +229,6 @@ class EnglishEntryassurance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Even at a very young age she showed a great deal of assurance."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەنانەت لە تەمەنێکی گەنجیشدا لەخۆڕادیتنی زۆری پیشان دەدا."),

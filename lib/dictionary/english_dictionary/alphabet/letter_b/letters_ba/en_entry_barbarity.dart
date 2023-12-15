@@ -174,9 +174,6 @@ class EnglishEntrybarbarity extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The barbarity of the old regime was eventually exposed."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دڕندەیی ڕژێمی پێشوو لەکۆتاییدا ئاشکرابوو."),

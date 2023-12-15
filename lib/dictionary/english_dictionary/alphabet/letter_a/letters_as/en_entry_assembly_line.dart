@@ -180,9 +180,6 @@ class EnglishEntryassemblyline extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The workers on the assembly line worked tirelessly to produce the cars."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کرێکاران لەسەر ھێڵی بەرھەمھێنانەکە ماندوونەناسانە کاریان دەکرد بۆ بەرھەمھێنانی ئۆتۆمبێل."),

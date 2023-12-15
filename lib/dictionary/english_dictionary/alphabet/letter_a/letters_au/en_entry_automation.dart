@@ -183,9 +183,6 @@ class EnglishEntryautomation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Automation meant the loss of many factory jobs."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەخۆکارکردن لەدەستچوونی زۆر کاری لە کارگەکاندا بەدواداھات."),

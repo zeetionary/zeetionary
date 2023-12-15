@@ -180,9 +180,6 @@ class EnglishEntryaristocracy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He married into the French aristocracy."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھاوسەرگیری لەگەڵ ئەندامی خێزانێکی خانەدانی فەرەنسی کرد."),

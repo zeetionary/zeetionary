@@ -181,9 +181,6 @@ class EnglishEntryarabic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Arabic is very difficult to learn for many people."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بۆ زۆر خەڵک عەرەبی گرانە بۆ فێربوون."),
                               const CustomSizedBoxForTTS(),
@@ -204,9 +201,6 @@ class EnglishEntryarabic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Hebrew and Arabic are Semitic languages."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "عیبری و عەرەبی ھەردووکیان زمانی سامین."),
@@ -230,9 +224,6 @@ class EnglishEntryarabic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The themes in Arabic poetry often revolve around love, nature, and cultural identity."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بابەتەکانی ھۆنراوەی عەرەبی زۆرجار باسی خۆشەویستی و سرووشت و ناسنامەی نەتەوەیین."),

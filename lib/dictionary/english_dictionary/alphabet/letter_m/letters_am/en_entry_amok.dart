@@ -197,9 +197,6 @@ class EnglishEntryamok extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The army ran amok after one of its senior officers was killed."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سوپاکە شێت‌وھار بوون لە دوای ئەوەی یەکێک لە سەرکردە باڵاکانیان کوژرا."),

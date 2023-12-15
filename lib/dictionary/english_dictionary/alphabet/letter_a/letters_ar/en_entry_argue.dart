@@ -181,9 +181,6 @@ class EnglishEntryargue extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "My brothers are always arguing."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "براکانم ھەمیشە شەڕەدەمیانە."),
                               const CustomSizedBoxForTTS(),
@@ -204,9 +201,6 @@ class EnglishEntryargue extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I know it was a stupid thing to argue about."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەزانم شتێکی پڕوپووچ بوو مشتومڕمان لەسەر کرد."),
@@ -229,9 +223,6 @@ class EnglishEntryargue extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "They argued for the right to strike."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "مشتومڕیان لەبەرژەوەندی مانگگرتن کرد."),
                               const CustomSizedBoxForTTS(),
@@ -254,9 +245,6 @@ class EnglishEntryargue extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "These latest developments argue a change in government policy."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێشھاتەکانی ئەم دواییە دەرخەری گۆڕانن لە سیاسەتی حکومەت."),

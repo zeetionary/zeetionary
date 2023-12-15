@@ -180,9 +180,6 @@ class EnglishEntryarbitration extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Both sides in the dispute have agreed to go to arbitration."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەردوو لا ڕازی‌بوونە پەنا ببەنەبەر دادوەری‌کردن."),

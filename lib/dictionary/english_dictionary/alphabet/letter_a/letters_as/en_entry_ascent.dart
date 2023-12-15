@@ -182,9 +182,6 @@ class EnglishEntryascent extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The first ascent of Mount Everest, achieved in 1953 by Edmund Hillary and Tenzing Norgay, marked a pivotal moment in mountaineering history."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "یەکەم سەرکەوتن  بەسەر چیای ئێڤرست لە ساڵی ١٩٥٣ لەلایەن ئێدمند ھیلاری و تێنزینگ نۆرگای بوو، و ساتێکی وەرچەرخێنەر بوو لە مێژووی شاخەوانیدا."),
@@ -206,9 +203,6 @@ class EnglishEntryascent extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "As the plane made its ascent, we saw thick smoke coming from one engine."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کە فڕۆکەکە دەستی‌کرد بە بەرزبوونەوە، دووکەڵی ئەستوورمان بینی لە یەکێک لە بزوێنەرەکانەوە."),

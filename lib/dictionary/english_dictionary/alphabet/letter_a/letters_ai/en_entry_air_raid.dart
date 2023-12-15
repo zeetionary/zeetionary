@@ -130,9 +130,6 @@ class EnglishEntryairraid extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The family was killed in an air raid."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خێزانەکە لە ھێرشێکی ئاسمانیدا کوژران."),

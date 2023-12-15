@@ -177,9 +177,6 @@ class EnglishEntrybait extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Live worms are used as bait."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "کرمی زیندوو وەک تامک بەکاردێن."),
                               const CustomSizedBoxForTTS(),
@@ -201,9 +198,6 @@ class EnglishEntrybait extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The police used him as bait to trap the killers."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پۆلیس ئەوی وەک داوێک بەکارھێنا بۆ خستنەتەڵەی بکوژەکان."),
@@ -226,9 +220,6 @@ class EnglishEntrybait extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He baited the trap with a piece of meat."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پارچە گۆشتێکی لەسەر تەڵەکە دانا وەک داو."),
@@ -251,9 +242,6 @@ class EnglishEntrybait extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The soldiers remained calm even though the crowd was baiting them."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەربازەکان بەھێمنی مانەوە ئەگەرچی جەماوەرەکە توڕەیان کردن."),
@@ -276,9 +264,6 @@ class EnglishEntrybait extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The activity of bear-baiting was finally banned in England in the 19th century."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "چالاکی ورچ کوشتن لەکۆتاییدا لە ئینگلتەرە قەدەغەکرا لە سەدەی ١٩."),

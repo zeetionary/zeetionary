@@ -178,9 +178,6 @@ class EnglishEntryapprovingly extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She looked at him approvingly and smiled."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بە قایلانە سەیری‌کرد و پێکەنی."),
                               const CustomSizedBoxForTTS(),

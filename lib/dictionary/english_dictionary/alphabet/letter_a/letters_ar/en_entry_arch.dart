@@ -183,9 +183,6 @@ class EnglishEntryarch extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The bridge they built over the river has three arches."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو پردەی بەسەر ڕووبارەکەدا درووستیان‌کرد سێ قەوسی ھەیە."),
@@ -209,9 +206,6 @@ class EnglishEntryarch extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Go through the arch and follow the path."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە کەوانەکەدا بچۆ ژوورەوە و بە ڕێگاکەدا بەردەوام‌ بە."),
@@ -234,9 +228,6 @@ class EnglishEntryarch extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She has very high arches."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "کەوانەی پێی زۆر بەرزە."),
                               const CustomSizedBoxForTTS(),
@@ -259,9 +250,6 @@ class EnglishEntryarch extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The branches of the trees formed an arch over the bench."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لقی دارەکان قەوسێکیان درووستکردبوو بەسەر کورسییەکەدا."),
@@ -284,9 +272,6 @@ class EnglishEntryarch extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The cat arched its back and hissed."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پشیلەکە پشتی چەماندەوە و فساندی."),
                               const CustomSizedBoxForTTS(),
@@ -308,9 +293,6 @@ class EnglishEntryarch extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Tall trees arched over the path."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دارە بەرزەکان کەوانەیەکیان بەسەر ڕێگاکەدا درووستکرد."),
@@ -334,9 +316,6 @@ class EnglishEntryarch extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Using an arch tone doesn't always mean being mean; it can add humor to discussions."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "قسەکردن بە دەنگێکی لەخۆڕازییانە ھەمیشە بۆ ئەوە نییە کەسی دیکە تووڕە بکەیت؛ ئەکرێت خۆشی بە گفتوگۆ بدات."),

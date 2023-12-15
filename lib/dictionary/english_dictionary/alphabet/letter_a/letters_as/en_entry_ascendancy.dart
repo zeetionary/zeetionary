@@ -183,9 +183,6 @@ class EnglishEntryascendancy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Manchester United gained the ascendancy after half-time."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "مانچستەر یونایتید یارییەکەی کۆنترۆڵ کرد لە دوای گێمی یەکەم."),
@@ -207,9 +204,6 @@ class EnglishEntryascendancy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The opposition party was in the ascendancy (= gaining control)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پارتی ئۆپۆزیسیۆن دەسەڵاتی زیادی‌دەکرد."),
@@ -231,9 +225,6 @@ class EnglishEntryascendancy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The new CEO quickly gained ascendancy over the company."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەڕێوبەرە تازەکە بەزوویی دەسەڵاتی بەسەر کۆمپانیایەکەدا سەپاند."),

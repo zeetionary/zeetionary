@@ -172,9 +172,6 @@ class EnglishEntryagainst extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She was forced to marry against her will."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دژ بە ویستی خۆی ناچار بە ھاوسەرگیری کرا."),
@@ -220,9 +217,6 @@ class EnglishEntryagainst extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Put the piano there, against the wall."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پیانۆکە بخە ئەوێ، لەلای دیوارەکە."),
                               const CustomSizedBoxForTTS(),
@@ -243,9 +237,6 @@ class EnglishEntryagainst extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "They took precautions against fire."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕێکاریان دژ بە ئاگرەکە گرتەبەر."),
                               const CustomSizedBoxForTTS(),

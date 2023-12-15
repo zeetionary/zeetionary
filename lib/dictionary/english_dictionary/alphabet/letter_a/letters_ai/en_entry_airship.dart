@@ -132,9 +132,6 @@ class EnglishEntryairship extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "If necessary, the airship can stay up there for days to keep out of danger."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەگەر پێویست بکات ھەواکەشتییەکە دەتوانێت بۆ چەندین ڕۆژ لەوێ بمێنێتەوە بۆ دووربوون لە مەترسی."),

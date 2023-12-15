@@ -180,9 +180,6 @@ class EnglishEntryappendicitis extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The doctor has cured numerous people of appendicitis."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دکتۆرەکە ژمارەیەکی زۆر نەخۆشی ھەوکردنی پەلەڕیخۆڵەی چارەسەرکردووە."),

@@ -179,9 +179,6 @@ class EnglishEntryappetizing extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The meals he cooked were always nourishing but never particularly appetizing."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو خواردنانەی کە درووستی دەکردن ھەمیشە باش بوون بۆ تەندرووستی بەڵام ھەرگیز بەردڵان نەبوون."),

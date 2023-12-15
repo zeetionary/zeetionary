@@ -178,9 +178,6 @@ class EnglishEntryapprehend extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The police apprehended an armed suspect near the scene of the crime."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پۆلیس گومانلێکراوێکیان بە چەکەوە دەستگیرکرد لە شوێنی تاوانەکە."),
@@ -203,9 +200,6 @@ class EnglishEntryapprehend extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He was slow to apprehend danger."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "درەنگ ھەستی بە مەترسی دەکرد."),
                               const CustomSizedBoxForTTS(),

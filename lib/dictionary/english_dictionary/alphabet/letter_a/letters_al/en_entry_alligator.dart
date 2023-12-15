@@ -131,9 +131,6 @@ class EnglishEntryalligator extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It could be the size of an alligator."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بارستاییەکەی ھێندەی تیمساحێکی ئەمریکی دەبێت."),

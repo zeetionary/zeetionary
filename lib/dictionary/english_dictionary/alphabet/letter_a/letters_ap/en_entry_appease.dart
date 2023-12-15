@@ -178,9 +178,6 @@ class EnglishEntryappease extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The move was widely seen as an attempt to appease critics of the regime."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەنگاوەکە بەشێوەیەکی بەرفراوان بینرا بە ھەوڵێک بۆ ھێمنکردنەوەی ڕەخنەگرانی ڕژێمەکە."),
@@ -202,9 +199,6 @@ class EnglishEntryappease extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was a crucial ally who the country needed to appease."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھاوپەیمانێکی گرنگی وڵاتەکە بوو کە دەبوو دڵی‌ڕابگیردرێ."),

@@ -174,9 +174,6 @@ class EnglishEntryavenge extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He promised to avenge his father's murder."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەڵێنی‌دا تۆڵەی کووشتنی باوکی بکاتەوە."),

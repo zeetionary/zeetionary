@@ -185,9 +185,6 @@ class EnglishEntryashamed extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She was deeply ashamed of her behaviour at the party."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆر شەرمەزاربوو بە ڕەفتاری لە ئاھەنگەکە."),
@@ -209,9 +206,6 @@ class EnglishEntryashamed extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We must stop being afraid or ashamed of what we are."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەبێت وازبێنین لە ترسان یان شەرمەزاربوون لە بوون بەوەی کە ھەین."),
@@ -233,9 +227,6 @@ class EnglishEntryashamed extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "You ought to be thoroughly ashamed of yourselves."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دەبێت تەواو شەرم لە خۆتان بکەنەوە."),
                               const CustomSizedBoxForTTS(),
@@ -258,9 +249,6 @@ class EnglishEntryashamed extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I'm ashamed to say that I lied to her."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "شەرم دەکەم بڵێم درۆم لەگەڵ کرد."),
                               const CustomSizedBoxForTTS(),
@@ -281,9 +269,6 @@ class EnglishEntryashamed extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I cried at the end and I'm not ashamed to admit it."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەکۆتاییدا گریام و شەرمەزر نیم بە وتنی."),

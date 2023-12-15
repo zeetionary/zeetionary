@@ -175,9 +175,6 @@ class EnglishEntryantidote extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There is no known antidote to the poison."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھیچ ژارکوژێک نییە بۆ ژەھرەکە."),
                               const CustomSizedBoxForTTS(),

@@ -201,9 +201,6 @@ class EnglishEntryalarm extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She decided to sound the alarm (= warn people that the situation was dangerous)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بڕیاریدا زەنگی مەترسی لێبدا."),
                               const CustomSizedBoxForTTS(),
@@ -223,9 +220,6 @@ class EnglishEntryalarm extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I hammered on all the doors to raise the alarm."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە ھەموو دەرگاکانم دا بۆ ئاگادارکردنەوە."),
@@ -248,9 +242,6 @@ class EnglishEntryalarm extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A car alarm went off in the middle of the night (= started ringing)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زەنگی ئاگادارکەرەوەی ئۆتۆمبێلێک لە نیوە شەودا دەستی بە لێدان کرد."),
@@ -272,9 +263,6 @@ class EnglishEntryalarm extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The alarm went off at 7 o'clock."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زەنگەکە لە کاتژمێر ٧ دەستی بە لێدان کرد."),
@@ -297,9 +285,6 @@ class EnglishEntryalarm extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The doctor said there was no cause for alarm."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پزیشکەکە وتی ھیچ ھۆکارێک نییە بۆ دڵەخورپە."),
@@ -322,9 +307,6 @@ class EnglishEntryalarm extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It alarms me that nobody takes this problem seriously."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تووشی دڵەخورپە دەبم کە ھیچ کەس ئەم کێشەیە بە جدی وەرناگرێت."),

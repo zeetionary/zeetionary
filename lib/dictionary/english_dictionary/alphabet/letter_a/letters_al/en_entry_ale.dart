@@ -131,9 +131,6 @@ class EnglishEntryale extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "This pub specializes in fine ales."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەم باڕە شارەزایە لە ئەیڵی  فرەخاس."),
                               const CustomSizedBoxForTTS(),

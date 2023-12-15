@@ -134,9 +134,6 @@ class EnglishEntryambition extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "At last he had realized his life's ambition."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەکۆتاییدا لە ئامانجەکانی ژیانی تێگەشت."),
@@ -156,9 +153,6 @@ class EnglishEntryambition extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He had only one ambition in life."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "یەک ئامانجی لە ژیاندا ھەبوو."),
                               const CustomSizedBoxForTTS(),
@@ -179,9 +173,6 @@ class EnglishEntryambition extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She was driven by personal ambition."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بە حەز و ئارەزووی خۆی ھەڵدەسووڕا."),
                               const CustomSizedBoxForTTS(),

@@ -181,9 +181,6 @@ class EnglishEntryathletic extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She looks very athletic."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "زۆر وەرزشی دیارە."),
                               const CustomSizedBoxForTTS(),
@@ -206,9 +203,6 @@ class EnglishEntryathletic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "This college has a long tradition of athletic excellence."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم کۆلێژە تۆمارێکی درێژی نایابییەتی لە وەرزشدا ھەیە."),

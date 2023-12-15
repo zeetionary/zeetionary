@@ -175,9 +175,6 @@ class EnglishEntrybake extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The bread is baking in the oven."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "نانەکە لە فڕنەکەدا دەبرژێت."),
                               const CustomSizedBoxForTTS(),
@@ -196,9 +193,6 @@ class EnglishEntrybake extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I'm baking a birthday cake for Alex."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کێکێکی لەدایکبوون بۆ ئەلێکس دەبرژێنم."),
@@ -221,9 +215,6 @@ class EnglishEntrybake extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The bricks are left in the kiln to bake."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خشتەکان لە کوورەکەدا دانراون بۆ ڕەقبوون."),
@@ -245,9 +236,6 @@ class EnglishEntrybake extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "We sat baking in the sun."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دانیشتبووین گەرمدەبووینەوە لەبەر خۆرەکە."),

@@ -180,9 +180,6 @@ class EnglishEntryattache extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The commercial attaché was tasked with promoting trade between the two countries."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەرپرسە بازرگانییەکە ڕاسپێردرا بە بەھێزکردنی بازرگانی نێوان ھەردوو وڵات."),

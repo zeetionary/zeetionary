@@ -174,9 +174,6 @@ class EnglishEntryancillary extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Ancillary workers support the hospital staff in various non-medical roles."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کارمەندە ئاریکارەکان یارمەتی ستافی نەخۆشخانەکە دەدەن لە ژمارەیەک لایەنی نا-تەندرووستییەوە."),
@@ -200,9 +197,6 @@ class EnglishEntryancillary extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Ancillary rights are often included in entertainment industry contracts for creators."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "مافە لاوەکییەکان زۆرجار لە گرێبەستەکانی پیشەسازی فیلم و میوزیک ھەن بۆ بەرھەمھێنەران."),

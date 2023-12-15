@@ -173,9 +173,6 @@ class EnglishEntryaverse extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I mentioned it to Kate and she wasn't averse to the idea."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بۆ کەیتم باسکرد و لاری‌لێی‌نەبوو."),
                               const CustomSizedBoxForTTS(),
@@ -195,9 +192,6 @@ class EnglishEntryaverse extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He was averse to any change."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دژی ھەموو گۆڕانکارییەک بوو."),
                               const CustomSizedBoxForTTS(),

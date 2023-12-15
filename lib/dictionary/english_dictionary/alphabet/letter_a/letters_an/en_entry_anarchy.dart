@@ -174,9 +174,6 @@ class EnglishEntryanarchy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The overthrow of the military regime was followed by a period of anarchy."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لادانی ڕژێمە سەربازییەکە ماوەیەک لە پاشاگەردانی بەدوادا ھات."),
@@ -198,9 +195,6 @@ class EnglishEntryanarchy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There was complete anarchy in the classroom when their usual teacher was away."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەرکەس بۆخۆی بوو لە پۆلەکەدا کاتێک مامۆستاکەی خۆیان لەوێ نەبوو."),

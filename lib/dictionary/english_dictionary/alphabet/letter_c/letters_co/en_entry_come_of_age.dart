@@ -129,9 +129,6 @@ class EnglishEntrycomeofage extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The money will go to the children when they come of age."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پارەکە دەدرێت بە منداڵەکان کە دەگەن بە تەمەنی یاسایی."),

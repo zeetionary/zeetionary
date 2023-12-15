@@ -180,9 +180,6 @@ class EnglishEntryarmament extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The armaments industry is a major force in the global economy."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پیشەسازی چەک و تەقەمەنی بەشێکی گرنگی ئابووری جیھانە."),
@@ -206,9 +203,6 @@ class EnglishEntryarmament extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "As the country prepares for war, more and more money is being spent on armament."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەھۆی ئەوەی وڵاتەکە ئامادەکاری بۆ جەنگ دەکات، پارەی زیاتر و زیاتر بۆ خۆپڕچەککردن تەرخان‌دەکرێت."),

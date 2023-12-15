@@ -185,9 +185,6 @@ class EnglishEntryattractive extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I like John but I don't find him attractive physically."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "حەزم لە جۆنە بەڵام بە ڕووکەش سەرنجڕاکێشی نابینم."),
@@ -211,9 +208,6 @@ class EnglishEntryattractive extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Your new glasses are very attractive."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "چاویلکە تازەکەت زۆر قەشەنگە."),
                               const CustomSizedBoxForTTS(),
@@ -236,9 +230,6 @@ class EnglishEntryattractive extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The deal is said to be particularly attractive to investors."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێککەوتنەکە وەک دەگوترێت بەتایبەتی دڵگیرە بۆ وەبەرھێنەران."),

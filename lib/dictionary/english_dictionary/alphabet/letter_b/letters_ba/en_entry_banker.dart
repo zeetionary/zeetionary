@@ -175,9 +175,6 @@ class EnglishEntrybanker extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She was a successful banker by the time she was 40."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تا تەمەنی ٤٠ ساڵی بووبوو بە خاوەن بانکێکی سەرکەوتوو."),
@@ -200,9 +197,6 @@ class EnglishEntrybanker extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The banker collected the bets."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "چاودێرەکە پارەی گرەوەکانی کۆکردەوە."),
                               const CustomSizedBoxForTTS(),

@@ -133,9 +133,6 @@ class EnglishEntryalternatively extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The agency will make travel arrangements for you. Alternatively, you can organize your own transport."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئاژانسەکە کاری ڕێکخستنی گەشتەکەت بۆ دەکات. بەجێی‌ئەوە، خۆت دەتوانیت سەفەرەکەت ڕێک بخەیت."),

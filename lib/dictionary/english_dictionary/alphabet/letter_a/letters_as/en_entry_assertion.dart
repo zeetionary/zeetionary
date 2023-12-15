@@ -183,9 +183,6 @@ class EnglishEntryassertion extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was correct in his assertion that the minister had been lying."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕاست بوو لە جەخت‌کردنەوە لەوەی وەزیرەکە درۆی کردبوو."),
@@ -207,9 +204,6 @@ class EnglishEntryassertion extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Do you have any evidence to support your assertions?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھیچ بەڵگەت ھەیە وەک پشتگیری بۆ وتەکانت؟"),
@@ -233,9 +227,6 @@ class EnglishEntryassertion extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The demonstration was an assertion of the right to peaceful protest."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خۆپیشاندانەکە جەختکردنەوەیەک بوو لە مافی ناڕەزایی ھێمنانە."),

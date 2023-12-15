@@ -180,9 +180,6 @@ class EnglishEntryattic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I've got boxes of old clothes in the attic."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ژمارەیەک سندووقی جلی کۆنم لەژێر زەمینەکەیە."),

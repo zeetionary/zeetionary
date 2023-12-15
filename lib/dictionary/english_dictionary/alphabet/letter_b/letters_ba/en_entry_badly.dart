@@ -246,9 +246,6 @@ class EnglishEntrybadly extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The event was really badly organized."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بۆنەکە لەڕاستیدا خراپ ڕێکخرا."),
                               const CustomSizedBoxForTTS(),
@@ -269,9 +266,6 @@ class EnglishEntrybadly extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Things have been going badly."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "شتەکان ئەم ماوە زۆر خراپ بەڕێوەچوونە."),
@@ -293,9 +287,6 @@ class EnglishEntrybadly extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I think he behaved very badly."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پێموایە کە زۆر ناشرین ڕەفتاری کرد."),
                               const CustomSizedBoxForTTS(),
@@ -314,9 +305,6 @@ class EnglishEntrybadly extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I think he was treated very badly."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پێموایە زۆر خراپ مامەڵەی لەگەڵ کرا."),
                               const CustomSizedBoxForTTS(),
@@ -336,9 +324,6 @@ class EnglishEntrybadly extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The kids took the dog's death very badly (= they were very unhappy)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "منداڵەکان زۆر خراپ مامەڵەیان لەگەڵ مردنی سەگەکە کرد."),
@@ -361,9 +346,6 @@ class EnglishEntrybadly extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The country has been badly affected by recession."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وڵاتەکە زۆر خراپ گیرۆدەی قەیرانی دارایی بووە."),
@@ -386,9 +368,6 @@ class EnglishEntrybadly extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The building is badly in need of repair."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بیناکە بەخراپی پێویستی بە نۆژەنکردنەوە ھەیە."),
@@ -411,9 +390,6 @@ class EnglishEntrybadly extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The economic crisis reflects badly on the government's policies."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "قەیرانە ئابوورییەکە وێنایەکی خراپ بۆ سیاسەتی حکومەت درووست‌دەکات."),
@@ -436,9 +412,6 @@ class EnglishEntrybadly extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She felt badly about what she had done."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەستی بە داخ کرد سەبارەت بەوەی کردبووی."),

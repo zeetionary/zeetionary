@@ -172,9 +172,6 @@ class EnglishEntrybamboo extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "In her garden she has bamboos, palm trees and bananas."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە باخچەکەیدا حەیزەران و دار خورما و مۆزی ھەیە."),

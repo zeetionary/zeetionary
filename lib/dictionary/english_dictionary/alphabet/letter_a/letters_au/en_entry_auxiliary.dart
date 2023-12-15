@@ -177,9 +177,6 @@ class EnglishEntryauxiliary extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The auxiliary nurse helped the doctor with patient care."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پەرستارە یارمەتیدەرەکە یارمەتی دکتۆرەکەی دەدا لە چاودێری نەخۆشەکە."),
@@ -203,9 +200,6 @@ class EnglishEntryauxiliary extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The auxiliary engine provided power to the sailboat when the wind died down."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بزوێنەرە یەدەکەکە ھێزی بە بەلەمەکە دا کاتێک بایەکە نەما."),
@@ -229,9 +223,6 @@ class EnglishEntryauxiliary extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "In the question ‘Do you know where he has gone?’, ‘do’ and ‘has’ are auxiliaries."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە ڕستەی ‘Do you know where he has gone?’, ‘do’ و ‘has’ کاری یاریدەدەرن."),
@@ -255,9 +246,6 @@ class EnglishEntryauxiliary extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The firefighters were aided by auxiliaries who helped to evacuate residents from the burning building."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئاگرکوژێنەرەوەکان  لەلایەن پاشکۆکانەوە کۆمەک دەکران کە یارمەتی دەرکردنی ھاوڵاتییەکانیان دا لە بینا سووتاوەکەوە."),

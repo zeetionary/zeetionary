@@ -128,9 +128,6 @@ class EnglishEntryai extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "This new technology uses AI to recognize character features in the same way a human brain does."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم تەکنۆلەژیا تازەیە ژیری دەستکرد بەکاردەھێنێ بۆ ناسینەوەی خاسیەتەکانی کارەکتەرێک وەک ئەوەی مێشکی مرۆڤ دەیکات."),

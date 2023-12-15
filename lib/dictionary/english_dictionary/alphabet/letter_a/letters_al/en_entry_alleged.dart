@@ -132,9 +132,6 @@ class EnglishEntryalleged extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The girl gave evidence in court against her alleged attacker."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کچەکە لە داگا بەڵگەی پێشکەشکرد دژ بە ھێرشکارە تاوانبارکراوەکە."),

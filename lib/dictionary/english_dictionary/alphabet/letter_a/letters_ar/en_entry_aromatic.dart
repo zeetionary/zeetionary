@@ -178,9 +178,6 @@ class EnglishEntryaromatic extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The plant is strongly aromatic."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕووەکەکە بۆنێکی توندی خۆشی ھەیە."),
                               const CustomSizedBoxForTTS(),

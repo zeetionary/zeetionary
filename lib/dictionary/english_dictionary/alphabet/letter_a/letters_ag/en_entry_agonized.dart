@@ -130,9 +130,6 @@ class EnglishEntryagonized extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "After five months of agonized debate they signed the treaty."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە دوای پێنج مانگ مشتومڕی بەسوێ ڕێککەوتنەکەیان واژۆکرد."),

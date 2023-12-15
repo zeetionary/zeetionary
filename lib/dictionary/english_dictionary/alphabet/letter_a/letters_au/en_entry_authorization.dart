@@ -185,9 +185,6 @@ class EnglishEntryauthorization extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Who gave the authorization to release the data?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کێ مۆڵەتی بڵاوکردنەوەی زانیارییەکانی دا؟."),
@@ -209,9 +206,6 @@ class EnglishEntryauthorization extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We cannot act without the explicit authorization of the board."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ناتوانین بەبێ مۆڵەتی ڕوونی دەستەکە ھەنگاو بنێین."),
@@ -234,9 +228,6 @@ class EnglishEntryauthorization extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Can I see your authorization?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دەتوانم مۆڵەتەکەت ببینم؟."),
                               const CustomSizedBoxForTTS(),

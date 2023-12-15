@@ -175,9 +175,6 @@ class EnglishEntryanimated extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Mark was beginning to sound animated."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "مارک خەریک‌بوو دەستی‌دەکرد بەوەی کراوە بێت."),
@@ -198,9 +195,6 @@ class EnglishEntryanimated extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Her face suddenly became animated."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕووخساری لەناکاو گەشایەوە."),
                               const CustomSizedBoxForTTS(),
@@ -223,9 +217,6 @@ class EnglishEntryanimated extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Animated cartoons are popular for entertainment and storytelling."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کارتۆنی ئەنیمەیشن باوە لە چێژبەخشین و چیرۆک‌گێڕانەوە."),

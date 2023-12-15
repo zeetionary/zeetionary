@@ -133,9 +133,6 @@ class EnglishEntryallotment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They eat fresh vegetables from their allotment."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "میوەی تازەی زەوییەکەی خۆیان دەخۆن."),
                               const CustomSizedBoxForTTS(),
@@ -157,9 +154,6 @@ class EnglishEntryallotment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Water allotments to farmers were cut back in the drought."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پشکی ئاو بە جوتیاران کەمکرایەوە لە وشکەساڵییەکە."),

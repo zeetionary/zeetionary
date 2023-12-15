@@ -177,9 +177,6 @@ class EnglishEntryanvil extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A good anvil does not fear the hammer."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "سندانێکی باش باکی بە چەکوش نییە."),
                               const CustomSizedBoxForTTS(),

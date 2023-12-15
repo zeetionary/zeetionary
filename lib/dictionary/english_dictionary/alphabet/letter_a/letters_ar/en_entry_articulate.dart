@@ -188,9 +188,6 @@ class EnglishEntryarticulate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was unusually articulate for a ten-year-old."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەشێوەیەکی سەیر زمان‌ڕەوان بوو بۆ منداڵێکی ١٠ ساڵان."),
@@ -214,9 +211,6 @@ class EnglishEntryarticulate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "All we could hear were loud sobs, but no articulate words."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەموو ئەوەی گوێمان لێ‌بوو نوزەنوزە بوو، بەبێ ھیچ قسەیەکی ڕوون."),
@@ -240,9 +234,6 @@ class EnglishEntryarticulate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She struggled to articulate her thoughts."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کێشەی ھەبوو لە دەربڕینی بیرۆکەکانی بەڕوونی."),
@@ -264,9 +255,6 @@ class EnglishEntryarticulate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She cannot articulate her feelings very well."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ناتوانێت بەڕوونی ھەستەکانی دەرببڕێت."),
                               const CustomSizedBoxForTTS(),
@@ -289,9 +277,6 @@ class EnglishEntryarticulate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was too drunk to articulate properly."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆر سەرخۆش بوو تا بتوانێ بە ڕوونی قسەبکات."),
@@ -315,9 +300,6 @@ class EnglishEntryarticulate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "These courses are designed to articulate with university degrees."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم کۆرسانە دیزاین کراون بۆ ئەوەی لەگەڵ بڕوانامەی زانکۆ ڕێکبکەون."),

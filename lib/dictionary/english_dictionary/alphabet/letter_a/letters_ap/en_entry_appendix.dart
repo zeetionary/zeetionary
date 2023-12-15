@@ -180,9 +180,6 @@ class EnglishEntryappendix extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He had to have his appendix out (= removed)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پێویست بوو پەلەڕیخۆڵەی دەربێنێت."),
                               const CustomSizedBoxForTTS(),
@@ -205,9 +202,6 @@ class EnglishEntryappendix extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Full details are given in Appendix 3."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "وردەکاریی تەواو لە پاشکۆی ٣ دراوە."),
                               const CustomSizedBoxForTTS(),

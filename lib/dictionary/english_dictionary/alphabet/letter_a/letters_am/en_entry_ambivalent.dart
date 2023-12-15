@@ -134,9 +134,6 @@ class EnglishEntryambivalent extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She seems to feel ambivalent about her new job."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وادیاربوو دوودڵ بێت سەبارەت بە کارە تازەکەی."),
@@ -157,9 +154,6 @@ class EnglishEntryambivalent extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The party's position on nuclear weapons is deeply ambivalent."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەڵوێستی پارتەکە سەبارەت بە چەکی ئەتۆمی پێک‌دژانەیە."),

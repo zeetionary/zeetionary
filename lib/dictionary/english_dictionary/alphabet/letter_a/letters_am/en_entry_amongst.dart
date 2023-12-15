@@ -199,9 +199,6 @@ class EnglishEntryamongst extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I saw a few familiar faces amongst the crowd."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "چەند ڕووخسارێکی ناسیاوم بینی لەناو جەماوەرەکەدا."),
@@ -224,9 +221,6 @@ class EnglishEntryamongst extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A British woman was amongst the survivors."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ژنێکی بەریتانی لەناو ڕزگاربووان بوو."),
                               const CustomSizedBoxForTTS(),
@@ -248,9 +242,6 @@ class EnglishEntryamongst extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He divided the country amongst his sons."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وڵاتەکەی لە نێوان کوڕەکانی دابەش‌کرد."),

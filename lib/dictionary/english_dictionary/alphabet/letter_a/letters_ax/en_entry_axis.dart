@@ -177,9 +177,6 @@ class EnglishEntryaxis extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Mars takes longer to revolve on its axis than the Earth."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "مەریخ زیاتر لە زەوی پێدەچێت بۆ سووڕانەوە بەدەوری تەوەرەکەیدا."),
@@ -202,9 +199,6 @@ class EnglishEntryaxis extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The real wage is measured along the horizontal axis and the quantity of labour is measured along the vertical axis."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "مووچەی ڕاستی لەسەر تەوەرەی ئاسۆییە و بڕی کارکردنیش لەسەر تەوەرەی ستوونییە."),
@@ -227,9 +221,6 @@ class EnglishEntryaxis extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The axis of a circle is its diameter."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھێڵی ھاوتایی بازنەیەک بریتییە لە تیرەکەی."),
@@ -252,9 +243,6 @@ class EnglishEntryaxis extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The Franco-British axis has shaped European foreign policy for decades."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێککەوتنی فەرەنسا و بەریتانیا بە چەندین دەیەیە داڕێژەری سیاسەتی دەرەوەی ئەورووپا بووە."),

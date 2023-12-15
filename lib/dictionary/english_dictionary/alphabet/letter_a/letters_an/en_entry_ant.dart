@@ -174,9 +174,6 @@ class EnglishEntryant extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Ants are tiny insects that crawl on the ground in large groups."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "مێروولە مێرووی بچووکن کە بەسەر زەویدا دەڕۆن بە گرووپی زۆرەوە."),

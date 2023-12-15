@@ -133,9 +133,6 @@ class EnglishEntryairingcupboard extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Put the clothes in the airing cupboard."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "جلەکان بخە دۆڵابەکە."),
                               const CustomSizedBoxForTTS(),

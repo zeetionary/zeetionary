@@ -198,9 +198,6 @@ class EnglishEntryamiss extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She sensed something was amiss and called the police."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەستیان‌کرد شتێک گوماناوییە و پەیوەندییان بە پۆلیسەوە کرد."),
@@ -221,9 +218,6 @@ class EnglishEntryamiss extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He shone a light inside and saw nothing amiss."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لایتێکی بۆ ژوورەوە لێدا و ھیچی نائاسایی نەدی."),

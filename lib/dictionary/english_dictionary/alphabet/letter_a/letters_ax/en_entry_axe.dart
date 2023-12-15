@@ -177,9 +177,6 @@ class EnglishEntryaxe extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Julian used an axe to chop down the old apple tree."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "جولیان تەورێکی بەکارھێنا بۆ بڕینەوەی دار سێوە کۆنەکە."),
@@ -202,9 +199,6 @@ class EnglishEntryaxe extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Up to 300 workers are facing the axe."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زیاتر لە ٣٠٠ کەس کارەکانیان لەدەستدەدەن."),
@@ -227,9 +221,6 @@ class EnglishEntryaxe extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The series was axed after only six episodes."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دراماکە کۆتایی پێھێندرا تەنھا لە دوای شەش زنجیرە."),
@@ -251,9 +242,6 @@ class EnglishEntryaxe extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Michael has been axed from the team."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "مایکڵ لە تیمەکە دەرکراوە."),
                               const CustomSizedBoxForTTS(),

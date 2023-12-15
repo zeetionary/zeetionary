@@ -173,9 +173,6 @@ class EnglishEntrybanknote extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "They issue both banknotes and coins."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پارەی کاغەز و دراویش دەردەکەن."),
                               const CustomSizedBoxForTTS(),

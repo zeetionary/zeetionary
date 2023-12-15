@@ -128,9 +128,6 @@ class EnglishEntryairbag extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "In the event of a collision, the airbag stops the driver of the car from hitting his or her chest on the steering wheel."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە حاڵەتی پێکداداندا ئێرباگەکە شۆفێرەکە دەوەستێنێت لە کێشانی سنگی بە سوکانەکەدا."),

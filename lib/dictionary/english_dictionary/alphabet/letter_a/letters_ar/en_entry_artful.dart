@@ -181,9 +181,6 @@ class EnglishEntryartful extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was artful and cunning, and I didn’t really trust him."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەسێکی پڕفێڵ و تەڵەکەباز بوو، و لەڕاستیدا باوەڕم پێی‌نەبوو."),

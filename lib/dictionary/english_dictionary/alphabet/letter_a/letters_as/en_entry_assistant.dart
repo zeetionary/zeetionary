@@ -183,9 +183,6 @@ class EnglishEntryassistant extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "My assistant will now demonstrate the machine in action."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "یاریدەدەرەکەم ئێستا چۆنیەتی کارکردنی ئامێرەکەتان پێ‌پیشان‌دەدات."),
@@ -207,9 +204,6 @@ class EnglishEntryassistant extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was working as a special assistant to the president."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وەک یاریدەدەرێکی تایبەت بۆ سەرۆک کاری دەکرد."),
@@ -233,9 +227,6 @@ class EnglishEntryassistant extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She worked as an assistant in a local bookshop."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وەک فرۆشیارێک لە کتێب‌فرۆشێکی ناوخۆیی کاری دەکرد."),

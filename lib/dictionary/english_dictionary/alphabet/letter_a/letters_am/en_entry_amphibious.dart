@@ -175,9 +175,6 @@ class EnglishEntryamphibious extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Most species of frogs are amphibious."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "زۆرینەی بۆقەکان دووژینەن."),
                               const CustomSizedBoxForTTS(),
@@ -199,9 +196,6 @@ class EnglishEntryamphibious extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A third brigade is at sea, ready for an amphibious assault."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سێیەم لیوا لە دەریان و ئامادەی ھێرشی ئاوین."),
@@ -225,9 +219,6 @@ class EnglishEntryamphibious extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I saw an amphibious plane at the lake yesterday."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دوێنێ فڕۆکەیەکی جووتفڕم بینی لە دەریاچەکەدا."),

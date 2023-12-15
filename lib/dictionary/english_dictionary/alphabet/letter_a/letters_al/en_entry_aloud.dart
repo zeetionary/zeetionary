@@ -133,9 +133,6 @@ class EnglishEntryaloud extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He read the letter aloud to us."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "نامەکەی بە دەنگی بەرز بۆ خوێندینەوە."),
                               const CustomSizedBoxForTTS(),
@@ -155,9 +152,6 @@ class EnglishEntryaloud extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "People are starting to wonder aloud (= question publicly) whether the economic reforms have gone too far."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خەڵکی دەستیان کردووە بە گۆتەگۆت کە ئاخۆ چاکسازییە ئابوورییەکان پەلیان زۆر ھاویشتووە."),
@@ -179,9 +173,6 @@ class EnglishEntryaloud extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She cried aloud in protest."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بە دەنگی بەرز ناڕەزایی دەربڕی."),
                               const CustomSizedBoxForTTS(),

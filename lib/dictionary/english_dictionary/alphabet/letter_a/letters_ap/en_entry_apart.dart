@@ -180,9 +180,6 @@ class EnglishEntryapart extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The two houses stood 500 metres apart."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دوو خانووەکە ٥٠٠ مەتر لە یەکدی دووربوون."),
@@ -204,9 +201,6 @@ class EnglishEntryapart extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Their birthdays are only three days apart."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕۆژی لەدایکبوونیان تەنھا سێ ڕۆژی جیاوازە."),
@@ -229,9 +223,6 @@ class EnglishEntryapart extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "We're living apart now."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئێستا بە جیا دەژین."),
                               const CustomSizedBoxForTTS(),
@@ -254,9 +245,6 @@ class EnglishEntryapart extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Within minutes the ship began to break apart."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەماوەی چەند خولەکێکدا کەشتییەکە دەستی بە پارچە پارچە بوون کرد."),
@@ -280,9 +268,6 @@ class EnglishEntryapart extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Victoria apart, not one of them seems suitable for the job."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "جگە لە ڤیکتۆریا، کەسی تریان گونجاو نین بۆ کارەکە."),

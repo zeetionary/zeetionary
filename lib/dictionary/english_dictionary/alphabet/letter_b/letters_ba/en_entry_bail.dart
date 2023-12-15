@@ -176,9 +176,6 @@ class EnglishEntrybail extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Can anyone put up bail for you?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھیچ کەس دەتوانێت ببێتە کەفیلت؟."),
                               const CustomSizedBoxForTTS(),
@@ -197,9 +194,6 @@ class EnglishEntrybail extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She was released on £2 000 bail."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بە کەفیلی ٢٠٠٠ پاوەند ئازادکرا."),
                               const CustomSizedBoxForTTS(),
@@ -221,9 +215,6 @@ class EnglishEntrybail extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was bailed to appear in court on 15 March."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە کەفالەت ئازادکرا تا دەرکەوتنی لە دادگا لە ڕۆژی ١٥ی ئادار."),
@@ -245,9 +236,6 @@ class EnglishEntrybail extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Sorry, I really have to bail."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ببوورە، بەڕاستی دەبێت بڕۆم."),
                               const CustomSizedBoxForTTS(),

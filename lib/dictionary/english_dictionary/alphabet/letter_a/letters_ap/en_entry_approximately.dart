@@ -181,9 +181,6 @@ class EnglishEntryapproximately extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The journey took approximately seven hours."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گەشتەکە بە نزیکەیی حەوت کاتژمێری پێچوو."),
@@ -206,9 +203,6 @@ class EnglishEntryapproximately extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The two buildings were approximately equal in size."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بیناکان بە نزیکەیی یەکسان بوون لە ئەندازەدا."),

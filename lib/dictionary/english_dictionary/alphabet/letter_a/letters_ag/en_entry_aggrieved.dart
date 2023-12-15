@@ -130,9 +130,6 @@ class EnglishEntryaggrieved extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He had every right to feel aggrieved at the decision."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەموو مافێکی ھەبوو ھەست بە مافخوراوی بکات  بەھۆی بڕیارەکەوە."),

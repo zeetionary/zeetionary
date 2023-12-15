@@ -130,9 +130,6 @@ class EnglishEntryaloft extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She held the glass aloft."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "گڵاسەکەی لەحەوادا گرت."),
                               const CustomSizedBoxForTTS(),

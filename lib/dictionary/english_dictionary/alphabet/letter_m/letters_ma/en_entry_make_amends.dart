@@ -196,9 +196,6 @@ class EnglishEntrymakeamends extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She tried to make amends for what she had said to her mother by buying her some flowers."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەوڵی دا دڵی دایکی ئاشت بکاتەوە لە دوای ئەوەی پێی گوتبوو بە کڕینی گوڵ بۆی."),

@@ -182,9 +182,6 @@ class EnglishEntryass extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She was wearing tight jeans that showed off her ass."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پانتۆڵی تەسکی لەپێ‌کردبوو کە سمتی دەرخستبوو."),
@@ -207,9 +204,6 @@ class EnglishEntryass extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Don't be such an ass!"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھێندە گەمژە مەبە!"),
                               const CustomSizedBoxForTTS(),
@@ -232,9 +226,6 @@ class EnglishEntryass extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The farmer loaded the hay onto the ass's back."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "جوتیارەکە پەڵاشەکەی بارکردە سەر پشتی گوێدرێژەکە."),

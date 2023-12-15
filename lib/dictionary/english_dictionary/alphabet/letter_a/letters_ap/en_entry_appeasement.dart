@@ -181,9 +181,6 @@ class EnglishEntryappeasement extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "When he agreed to talks with the prime minister, he was accused of appeasement."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کە ڕازیبوو بە دانیشتن لەگەڵ سەرۆک وەزیران، بە ھەوڵدان بۆ دانوستان تۆمەتبارکرا."),
@@ -205,9 +202,6 @@ class EnglishEntryappeasement extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The statues were devoted to the glory and appeasement of the gods."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پەیکەرەکان بەخشران بۆ پیاھەڵدان و دڵ‌ڕەواندنەوەی خوداکان."),

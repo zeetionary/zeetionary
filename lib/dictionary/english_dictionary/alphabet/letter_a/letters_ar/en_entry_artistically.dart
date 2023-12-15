@@ -182,9 +182,6 @@ class EnglishEntryartistically extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The film was both commercially and artistically successful."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "فیلمەکە لەلایەنی بازرگانی و ھونەرییەوە سەرکەوتووبوو."),

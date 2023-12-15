@@ -130,9 +130,6 @@ class EnglishEntryageold extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "All the villagers followed the age-old custom of taking a siesta after lunch."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەواوی گوندەکە شوێنی ئەو نەریتە کۆنە دەکەوتن کە دوای نانی نیوەڕۆ سەرخەوێک بشکێنن."),

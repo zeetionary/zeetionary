@@ -177,9 +177,6 @@ class EnglishEntryannual extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She organized this year's annual Christmas dinner dance."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەمای ساڵانەی ئێوارەی کریسمسی بۆ ئەمساڵ ڕێکخست."),
@@ -201,9 +198,6 @@ class EnglishEntryannual extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Companies publish annual reports to inform the public about the previous year's activities."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کۆمپانیاکان ڕاپۆرتی ساڵانە بڵاودەکەنەوە بۆ ئەوەی ڕای‌ گشتی ئاگاداربکەنەوە سەبارەت بە چالاکییەکانی ساڵی پێشوویان."),
@@ -227,9 +221,6 @@ class EnglishEntryannual extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I have decided to take my annual leave to be with my wife and baby."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بڕیارم‌داوە مۆڵەتی ساڵانەم وەربگرم بۆ ئەوەی لەگەڵ ژنەکەم و منداڵەکەم بم."),
@@ -253,9 +244,6 @@ class EnglishEntryannual extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The children usually asked for comic or sporting annuals for Christmas."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "منداڵەکان زۆرجار داوای کتێبی کۆمیک یان وەرزشییان دەکرد بۆ کریسمس."),

@@ -174,9 +174,6 @@ class EnglishEntrybaggy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "My T-shirt went all baggy in the wash."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "فانیلەکەم لە شۆردنەکەدا فش بووەوە."),
                               const CustomSizedBoxForTTS(),

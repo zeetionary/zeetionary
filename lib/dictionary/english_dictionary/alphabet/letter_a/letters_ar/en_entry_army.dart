@@ -183,9 +183,6 @@ class EnglishEntryarmy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The two opposing armies faced each other across the battlefield."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دوو سوپاکە ڕووبەڕووی یەکدی بوونەوە لە مەیدانی شەڕدا."),
@@ -206,9 +203,6 @@ class EnglishEntryarmy extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "A huge army marched on the city."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "سوپایەکی گەورە دای بەسەر شارەکەدا."),
                               const CustomSizedBoxForTTS(),
@@ -230,9 +224,6 @@ class EnglishEntryarmy extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Her sister is in the army."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "خوشکەکەی لە سوپادایە."),
                               const CustomSizedBoxForTTS(),
@@ -253,9 +244,6 @@ class EnglishEntryarmy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       " He served in the French army during the First World War."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە سوپای فەرەنسادا خزمەتی کرد لە جەنگی یەکەمی جیھانی."),
@@ -279,9 +267,6 @@ class EnglishEntryarmy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "NASA maintains a small army of engineers."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ناسا ژمارەیەکی زۆر لە ئەندازیار ڕادەگرێت."),
@@ -303,9 +288,6 @@ class EnglishEntryarmy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "An army of ants marched across the path."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سوپایەک لە مێروولە بە ڕێگاکەدا تێپەڕین."),

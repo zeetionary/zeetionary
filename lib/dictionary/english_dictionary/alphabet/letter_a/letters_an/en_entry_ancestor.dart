@@ -176,9 +176,6 @@ class EnglishEntryancestor extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "His ancestors had come to America from Ireland."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "باوانی لە ئێرلەنداوە ھات‌بوون بۆ ئەمریکا."),
@@ -200,9 +197,6 @@ class EnglishEntryancestor extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There were portraits of his ancestors on the walls of the room."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وێنەی باوانی لەسەر دیواری ژوورەکە بوو."),
@@ -226,9 +220,6 @@ class EnglishEntryancestor extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "These bones come from an animal that is the ancestor of the modern horse."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم ئێسکانە ھی ئاژەڵێکن کە باوانی ئەسپی ئێستایە."),
@@ -252,9 +243,6 @@ class EnglishEntryancestor extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "This wooden instrument is the ancestor of the modern metal flute."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم ئامێرە دارینە شێوەی سەرەتایی فلوتی ئاسنی ئەم سەردەمەیە."),

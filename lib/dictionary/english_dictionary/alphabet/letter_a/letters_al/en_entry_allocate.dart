@@ -131,9 +131,6 @@ class EnglishEntryallocate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A large sum has been allocated for buying new books for the library."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گوژمەیەکی زۆر تەرخانکراوە بۆ کڕینی پەرتووک بۆ پەرتوکخانەکە."),
@@ -154,9 +151,6 @@ class EnglishEntryallocate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "More money should be allocated for famine relief."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەبێت پارەی زیاتر تەرخان بکرێت بۆ سوککردنی وشکەساڵییەکە."),

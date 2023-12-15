@@ -176,9 +176,6 @@ class EnglishEntryawkwardly extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "‘I'm sorry,’ he said awkwardly."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بە شەرمەزارییەوە وتی 'بمبوورە'."),
                               const CustomSizedBoxForTTS(),
@@ -201,9 +198,6 @@ class EnglishEntryawkwardly extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The publication of the economic statistics was awkwardly timed for the government."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بڵاوکردنەوەی ئامارە ئابوورییەکان لەکاتێکی نالەبار بوو بۆ حکومەت."),
@@ -226,9 +220,6 @@ class EnglishEntryawkwardly extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The car was parked awkwardly."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئۆتۆمبێلەکە بەشێوەیەکی خراپ پارک کرابوو."),
@@ -252,9 +243,6 @@ class EnglishEntryawkwardly extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She fell awkwardly and broke her ankle."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بەشێوەیەکی نائاسایی کەوت و لاقی شکا."),
                               const CustomSizedBoxForTTS(),

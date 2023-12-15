@@ -177,9 +177,6 @@ class EnglishEntryarbitrate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He is the official responsible for arbitrating the case of disputed trades."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو دەسەڵاتدارەیە کە بەرپرسە بۆ ناوبژی‌کردنی کەیسی ناکۆکییە بازرگانییەکان."),

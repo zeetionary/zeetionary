@@ -180,9 +180,6 @@ class EnglishEntryarcade extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Families like to spend time together at the shopping arcade on weekends."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خێزانەکان حەزدەکەن پێکەوە کات بەسەر ببەن لە قەیسەرییەکە لە ڕۆژانی کۆتایی ھەفتە."),
@@ -206,9 +203,6 @@ class EnglishEntryarcade extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Playing arcade games can be a fun way to spend time with friends and family."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کردنی یارییە ئارکەیدییەکان دەکرێت ڕێگایەکی خۆش بێت بۆ بەسەربردنی ھەندێک کات لەگەڵ ھاوڕێیان و خێزان."),

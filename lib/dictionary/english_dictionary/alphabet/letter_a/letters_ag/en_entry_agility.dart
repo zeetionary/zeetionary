@@ -131,9 +131,6 @@ class EnglishEntryagility extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He has the agility of a mountain goat."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "گورجوگۆڵی بزنێکی شاخاوی ھەیە."),
                               const CustomSizedBoxForTTS(),
@@ -155,9 +152,6 @@ class EnglishEntryagility extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We underestimate the agility of a child's mind."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بیروھۆشی منداڵ بە کەم سەیر دەکەین."),
                               const CustomSizedBoxForTTS(),

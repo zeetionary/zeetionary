@@ -171,9 +171,6 @@ class EnglishEntrybaldly extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "‘You're lying,’ he said baldly."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بە کورتی وتی 'درۆدەکەیت'."),
                               const CustomSizedBoxForTTS(),

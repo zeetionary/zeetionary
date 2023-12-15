@@ -183,9 +183,6 @@ class EnglishEntryautobiography extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "In his autobiography, he recalls the poverty he grew up in."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە خۆژین‌نامەکەیدا ئەو ساتانەی ھەژاریدا وەبیرێنێتەوە کە تێیدا گەورەبوو."),

@@ -185,9 +185,6 @@ class EnglishEntryaudit extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The company has an audit at the end of each year."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کۆمپانیاکە پێداچوونەوەیەک دەکات لە کۆتایی ھەر ساڵێک."),
@@ -210,9 +207,6 @@ class EnglishEntryaudit extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Managers should undertake an audit of staff performance."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەرپەرشتیاران دەبێت پێداچوونەوەیەک بە توانای ستافدا بکەن."),
@@ -235,9 +229,6 @@ class EnglishEntryaudit extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We have just had our accounts audited."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تۆمارەکانمان تازەگی پێداچوونەوەیان بۆ کرا."),
@@ -260,9 +251,6 @@ class EnglishEntryaudit extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She audited classes at the University of California."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دەچووە وانەکان لە زانکۆی کالیفۆرنیا."),
                               const CustomSizedBoxForTTS(),

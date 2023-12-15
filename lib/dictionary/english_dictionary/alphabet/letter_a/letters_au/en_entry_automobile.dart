@@ -183,9 +183,6 @@ class EnglishEntryautomobile extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Learning to drive an automobile is not easy."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "فێربوونی لێخوڕینی ئۆتۆمبێل ئاسان نییە."),

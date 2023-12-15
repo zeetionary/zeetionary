@@ -264,9 +264,6 @@ class EnglishEntrybag extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was carrying a heavy bag of groceries."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "توورەکەیەکی قورس لە میوەی ھەڵگرتبوو."),
                               const CustomSizedBoxForTTS(),
@@ -286,9 +283,6 @@ class EnglishEntrybag extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She tipped out the contents of her bag (= handbag)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "شتومەکەکانی ناو جانتاکەی بەتاڵکرد."),
                               const CustomSizedBoxForTTS(),
@@ -310,9 +304,6 @@ class EnglishEntrybag extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I packed my bags and left for the airport."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "جانتاکانم کۆکردەوە و بەڕێکەوتم بۆ فڕۆکەخانەکە."),
@@ -334,9 +325,6 @@ class EnglishEntrybag extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She ate a bag of chips."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "کیسەیەک جبسی خوارد."),
                               const CustomSizedBoxForTTS(),
@@ -357,9 +345,6 @@ class EnglishEntrybag extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Get in! There's bags of room."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "وەرە ژوورەوە، جێگەیەکی زۆر ھەیە."),
                               const CustomSizedBoxForTTS(),
@@ -381,9 +366,6 @@ class EnglishEntrybag extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She was considering cosmetic surgery to deal with the bags under her eyes."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بیری لە نەشتەرگەری جوانکاری دەکردەوە بۆ چارەسەری گۆشتی زیادەی ژێر چاوانی."),
@@ -405,9 +387,6 @@ class EnglishEntrybag extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Silly old bag!"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پیرەژنی دەبەنگ!"),
                               const CustomSizedBoxForTTS(),
@@ -428,9 +407,6 @@ class EnglishEntrybag extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "We got a good bag today."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەمڕۆ ڕاوێکی باشمان کرد."),
                               const CustomSizedBoxForTTS(),
@@ -452,9 +428,6 @@ class EnglishEntrybag extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The fruit is washed, sorted and bagged at the farm."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "میوەکان شۆردراون، جتاکراونەتەوە، و لە کیسەکراون لە کێڵگەکە."),
@@ -476,9 +449,6 @@ class EnglishEntrybag extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "We bagged ten fish in two hours."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دە ماسیمان لە دوو کاتژمێردا گرت."),
                               const CustomSizedBoxForTTS(),
@@ -500,9 +470,6 @@ class EnglishEntrybag extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Harkin bagged two goals in last night's win."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھارکین لە بردنەوەکەی دوێنێ شەودا دوو گۆڵی تۆمارکرد."),
@@ -525,9 +492,6 @@ class EnglishEntrybag extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Sally had managed to bag the two best seats."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "سالی دوو باشترین جێگەی گرتبوو."),
                               const CustomSizedBoxForTTS(),
@@ -549,9 +513,6 @@ class EnglishEntrybag extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Stop bagging her (out) - she's doing her best."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "واز لە لۆمەکردنی بێنە، ھەموو ھەوڵی خۆی دەدا."),
@@ -574,9 +535,6 @@ class EnglishEntrybag extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They decided to bag the trip because they were short of cash."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بڕیاریان دا گەشتەکە نەکەن چونکە پارەی کاشیان کەم لەبەردەست بوو."),

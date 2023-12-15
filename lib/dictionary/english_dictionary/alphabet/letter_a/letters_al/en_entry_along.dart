@@ -183,9 +183,6 @@ class EnglishEntryalong extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "They walked slowly along the road."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بەھێواشی بەدرێژایی ڕێگاکە ڕێیان کرد."),
                               const CustomSizedBoxForTTS(),
@@ -207,9 +204,6 @@ class EnglishEntryalong extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Houses had been built along both sides of the river."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خانوو بەدرێژایی ھەردوو لای ڕووبارەکە بنیاتنراون."),
@@ -232,9 +226,6 @@ class EnglishEntryalong extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Somewhere along this road there's a garage."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە شوێنێک بەدرێژایی ئەم شەقامە گەراجێک ھەیە."),
@@ -257,9 +248,6 @@ class EnglishEntryalong extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We were going along at about 50 miles an hour."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بۆ پێشەوە دەچووین بەخێرایی نزاکەی ٥٠ میل لە کاتژمێرێکدا."),
@@ -282,9 +270,6 @@ class EnglishEntryalong extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I'll be along (= I'll join you) in a few minutes."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لە چەند خولەکێکدا دەگەمە لاتان."),
                               const CustomSizedBoxForTTS(),

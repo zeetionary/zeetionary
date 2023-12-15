@@ -181,9 +181,6 @@ class EnglishEntryarchitecture extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She's a professor of architecture at the University of Oregon."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پڕۆفیسۆری بیناسازییە لە زانکۆی ئۆریگۆن."),
@@ -207,9 +204,6 @@ class EnglishEntryarchitecture extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There are examples of most styles of architecture in the town."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نموونەی زۆرێک لە ستایلەکانی بیناسازی لە شارەکە ھەن."),

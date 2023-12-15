@@ -178,9 +178,6 @@ class EnglishEntryball extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He kicked the ball into the net."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "تۆپەکەی ھەڵدایە ناو تۆڕەکەوە."),
                               const CustomSizedBoxForTTS(),
@@ -202,9 +199,6 @@ class EnglishEntryball extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The little girl curled into a ball in her mother's arms."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کچە بچووکەکە خۆی تۆپەڵە کرد لە باوەشی دایکیدا."),
@@ -226,9 +220,6 @@ class EnglishEntryball extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "That's a great ball from Kane."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لێدانێکی جوان بوو لەلایەن کەینەوە."),
                               const CustomSizedBoxForTTS(),
@@ -253,9 +244,6 @@ class EnglishEntryball extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The ball of the hand is the fleshy part at the base of the thumb."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گرمۆڵەی دەست ئەو بەشە گۆشتاوییەی بنی پەنجە گەورەیە."),
@@ -277,9 +265,6 @@ class EnglishEntryball extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He noticed a lump in his left ball."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "تێبینی گرێیەکی کرد لە گونی چەپیدا."),
                               const CustomSizedBoxForTTS(),
@@ -300,9 +285,6 @@ class EnglishEntryball extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She met him at the ball."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لە ئاھەنگەکە بینی."),
                               const CustomSizedBoxForTTS(),
@@ -323,9 +305,6 @@ class EnglishEntryball extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Her hands balled into fists."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دەستەکانی خڕبوونە مشت."),
                               const CustomSizedBoxForTTS(),

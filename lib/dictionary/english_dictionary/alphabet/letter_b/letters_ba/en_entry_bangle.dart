@@ -174,9 +174,6 @@ class EnglishEntrybangle extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The bangles were a traditional part of her culture."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بازنەکان بەشێکی کۆن لە کەلتوورەکەی بوو."),

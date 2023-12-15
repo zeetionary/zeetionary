@@ -183,9 +183,6 @@ class EnglishEntryassessment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We conducted the initial assessments defining the scope of work."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەڵسەنگاندنێکی سەرەتاییمان ئەنجام‌دا بۆ دیاریکردنی ئاستی کارەکە."),
@@ -209,9 +206,6 @@ class EnglishEntryassessment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Needs assessment is crucial if the hospital is to deliver effective healthcare."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەڵسەنگاندنی پێداویستییەکان گرنگە بۆ دابینکردنی خزمەتگوزاریی تەندرووستیی بەرچاو لە نەخۆشخانەکە."),
@@ -235,9 +229,6 @@ class EnglishEntryassessment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The usual means of assessment for our taught courses is by written essay."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەڵسەنگاندنی باو بۆ ئەو کۆرسانەی دەیڵێینەوە بریتییە لە داڕشتنی نووسراو."),

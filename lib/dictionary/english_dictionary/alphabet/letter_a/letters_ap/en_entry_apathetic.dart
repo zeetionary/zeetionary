@@ -179,9 +179,6 @@ class EnglishEntryapathetic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The illness made her apathetic and unwilling to meet people."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نەخۆشییەکە وای‌کرد ساردوسڕ بێ و مەیلی بینینی خەڵکی نەبێت."),

@@ -130,9 +130,6 @@ class EnglishEntryalmost extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I like almost all of them."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بە نزیکەیی حەزم لە ھەموویانە."),
                               const CustomSizedBoxForTTS(),
@@ -152,9 +149,6 @@ class EnglishEntryalmost extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The castle is almost entirely surrounded by water."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "قەڵاکە بە نزیکەیی تەواو بە ئاو دەوردراوە."),
@@ -175,9 +169,6 @@ class EnglishEntryalmost extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The painting is almost certainly a forgery."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "تابلۆکە بە ئەگەری زۆر ساختەیە."),
                               const CustomSizedBoxForTTS(),

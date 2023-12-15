@@ -144,9 +144,6 @@ class EnglishEntryalternative extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The car is too expensive so we're trying to find a cheaper alternative."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئۆتۆمبێلەکە زۆر گرانە بۆیە ھەوڵ دەدەین جێگرەوەیەکی ھەرزانتر بدۆزینەوە."),
@@ -167,9 +164,6 @@ class EnglishEntryalternative extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We had no alternative but to fire Gibson."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھیچ ھەڵبژاردەیەکمان نەبوو جگە لە دەرکردنی گیبسن لە کارەکەی."),
@@ -192,9 +186,6 @@ class EnglishEntryalternative extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The road was closed so we had to find an alternative route."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێگاکە گیرابوو، بۆیە ناچاربووین یەکێکی دیکە بدۆزینەوە."),
@@ -217,9 +208,6 @@ class EnglishEntryalternative extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "In Los Angeles many companies encourage their employees to use alternative means of transportation, rather than the car."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە لۆس ئەنجلس زۆر کۆمپانیا کارمەندانیان ھاندەدەن کە ڕێگای دیکەی گواستنەوە بەکاربێنن لە جیاتی ئۆتۆمبێل."),

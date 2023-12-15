@@ -131,9 +131,6 @@ class EnglishEntryairworthy extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The planes were certified airworthy."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "فڕۆکەکان بە گونجاو بۆ فڕین دانران."),
                               const CustomSizedBoxForTTS(),

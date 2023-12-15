@@ -177,9 +177,6 @@ class EnglishEntrybackstage extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "After the show, we were allowed to go backstage to meet the cast."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە دوای نمایشەکە، ھەموو ڕێگەمان پێدرا بچینە پشتەوەی پەردە بۆ بینینی ئەکتەرەکان."),
@@ -202,9 +199,6 @@ class EnglishEntrybackstage extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The organizers say it's a fair contest but who knows what goes on backstage?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێکخەران دەڵێن پێشبڕکێیەکی دادپەروەرانەیە، بەڵام کێ دەزانێ چی لە پشتەوەی پەردە ڕوودەدات؟"),
@@ -227,9 +221,6 @@ class EnglishEntrybackstage extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The backstage crew worked tirelessly to ensure that the show ran smoothly."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تاقمی پشتەوەی پەردە ماندوونەناسانە کاریان دەکرد بۆ دڵنیاییکردنەوەی ئەوەی نمایشەکە بەبێ کێشەکە بەڕێوەدەچێت"),
@@ -252,9 +243,6 @@ class EnglishEntrybackstage extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The envoy conducted a series of backdoor meetings with rebel leaders to try to broker a ceasefire."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نێردەکە ژمارەیەک کۆبوونەوەی نھێنیی ئەنجامدا لەگەڵ سەرکردەکانی یاخیبووان بۆ ھێنانەئارای ئاگربەستێک"),

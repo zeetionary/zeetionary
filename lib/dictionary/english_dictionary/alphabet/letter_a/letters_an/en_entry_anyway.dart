@@ -181,9 +181,6 @@ class EnglishEntryanyway extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It's too expensive and anyway the colour doesn't suit you."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆر گرانە، لەگەڵ ئەوەش ڕەنگەکەیت پێ ناکەوێ."),
@@ -207,9 +204,6 @@ class EnglishEntryanyway extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It's going to happen anyway, so we won't object to it."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەرچۆنێ بێت ھەر ڕوودەدات، بۆیە دژی نابین."),
@@ -233,9 +227,6 @@ class EnglishEntryanyway extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Anyway, I'd better go now—I'll see you tomorrow."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەرچۆنێ بێت، باشترە ئێستا بچم، سبەی دەتبینمەوە."),
@@ -259,9 +250,6 @@ class EnglishEntryanyway extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I think she's right. I hope so, anyway."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێم‌وایە ڕاستە. یان ھیوادارم ڕاست بێت."),
@@ -283,9 +271,6 @@ class EnglishEntryanyway extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She works in a bank. She did when I last saw her, anyway."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە بانکێک کار دەکات. ڕاستی کە کۆتا جار بینیم ئەوەی وت."),

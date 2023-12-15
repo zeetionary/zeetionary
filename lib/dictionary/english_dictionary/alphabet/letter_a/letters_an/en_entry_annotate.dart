@@ -172,9 +172,6 @@ class EnglishEntryannotate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The text was annotated with her own comments."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "کتێبەکە ڕاڤەکرابوو بە کۆمێنتی خۆی."),
                               const CustomSizedBoxForTTS(),

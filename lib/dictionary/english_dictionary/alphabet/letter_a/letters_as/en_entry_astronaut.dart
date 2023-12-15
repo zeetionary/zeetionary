@@ -182,9 +182,6 @@ class EnglishEntryastronaut extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The astronauts trained for years for their mission to the moon."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئاسمانەوانەکان چەندین ساڵ ڕاھێنانیان کرد بۆ ئەرکەکەیان لە چوونە سەر مانگ."),

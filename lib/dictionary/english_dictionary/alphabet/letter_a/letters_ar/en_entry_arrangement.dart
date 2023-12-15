@@ -187,9 +187,6 @@ class EnglishEntryarrangement extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Travel and accommodation arrangements have been finalized."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێکخستنی کاتی گەشتەکە و شوێنی مانەوە ئەنجام‌دراوە."),
@@ -211,9 +208,6 @@ class EnglishEntryarrangement extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Arrangements for the funeral are complete."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئامادەکارییەکان بۆ مەراسیمی ناشتنەکە تەواوبوونە."),
@@ -237,9 +231,6 @@ class EnglishEntryarrangement extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She's happy with her unusual living arrangements."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دڵخۆشە بە شێوازە نائاساییەکەی ژیانکردنی."),
@@ -263,9 +254,6 @@ class EnglishEntryarrangement extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We can come to an arrangement over the price."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەتوانین بگەینە ڕێککەوتنێک لەسەر نرخەکە."),
@@ -289,9 +277,6 @@ class EnglishEntryarrangement extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Who did this beautiful flower arrangement?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کێ ئەم ڕازاندنەوە جوانەی بۆ ئەم گوڵانە کرد؟"),
@@ -315,9 +300,6 @@ class EnglishEntryarrangement extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "This new arrangement of the piece is for saxophone and piano."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم سازاندنە تازەی پارچە میوزیکەکە بۆ ساکسۆفۆن و پیانۆیە."),

@@ -175,9 +175,6 @@ class EnglishEntryantagonist extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He has always been the prime minister’s most formidable antagonist in Parliament."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەمیشە گەورەترین نەیاری سەرۆک وەزیران بووە لە پەرلەمان."),

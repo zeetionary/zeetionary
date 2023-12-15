@@ -182,9 +182,6 @@ class EnglishEntryarrow extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She aimed carefully at the tree but the arrow missed."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە وریاییەوە ئامانجی لە دارەکە گرتەوە بەڵام تیرەکە لێی‌نەدا."),
@@ -206,9 +203,6 @@ class EnglishEntryarrow extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The people used bows and arrows for hunting."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خەڵکی تیر و کەوانیان بەکاردەھێنا بۆ ڕاوکردن."),
@@ -231,9 +225,6 @@ class EnglishEntryarrow extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Follow the arrows."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پابەندی ھێماکان بە."),
                               const CustomSizedBoxForTTS(),

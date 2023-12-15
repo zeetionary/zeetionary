@@ -180,9 +180,6 @@ class EnglishEntryaspire extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She aspired to a scientific career."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئاواتی ھەبوو کارێکی زانستی ھەبێت."),
                               const CustomSizedBoxForTTS(),

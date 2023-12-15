@@ -176,9 +176,6 @@ class EnglishEntrybald extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He started going bald in his twenties."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەستی بە کەچەڵبوون کرد لە بیستەکانی تەمەنیدا."),
@@ -200,9 +197,6 @@ class EnglishEntrybald extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Our dog has a bald patch on its leg."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەگەکەمان خاڵێکی بێ مووی لەسەر لاقی ھەیە."),
@@ -225,9 +219,6 @@ class EnglishEntrybald extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The bald fact is that we don't need you any longer."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕاستییە ئاشکراکە ئەوەیە چیتر پێویستیمان پێتان نییە."),

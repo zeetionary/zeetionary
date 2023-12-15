@@ -185,9 +185,6 @@ class EnglishEntryassure extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "You think I did it deliberately, but I assure you (that) I did not."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وابیردەکەیتەوە کە بە ئەنقەست کردم، بەڵام دڵنیات دەکەمەوە بەئەنقەست نەبوو."),
@@ -208,9 +205,6 @@ class EnglishEntryassure extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "We assured him of our support."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دڵنیامانکردەوە لە پشتیوانیمان."),
                               const CustomSizedBoxForTTS(),
@@ -233,9 +227,6 @@ class EnglishEntryassure extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She assured herself that the letter was still in the drawer."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دڵنیایی‌کردەوە کە نامەکە ھێشتا لە چەکمەجەکە بوو."),
@@ -259,9 +250,6 @@ class EnglishEntryassure extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Victory would assure them a place in the finals."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بردنەوە شوێنێکیان لە کۆتایی بۆ مسۆگەردەکات."),

@@ -180,9 +180,6 @@ class EnglishEntryanxious extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The bus was late and Sue began to get anxious."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پاسەکە درەنگ کەوتبوو و سوو دەستی‌کرد بە شڵەژان."),
@@ -204,9 +201,6 @@ class EnglishEntryanxious extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I felt very anxious and depressed about the future."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆر ھەستم بە نیگەرانی و بێزاری دەکرد سەبارەت بە داھاتوو."),
@@ -230,9 +224,6 @@ class EnglishEntryanxious extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There were a few anxious moments in the baseball game."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەندێک ساتی ئۆقرەبڕ ھەبوو لە یاری بەیسبۆڵەکە."),
@@ -256,9 +247,6 @@ class EnglishEntryanxious extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She was anxious to finish school and get a job."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تامەزرۆ بوو قوتابجانە تەواو بکات و کارێک بکات."),

@@ -172,9 +172,6 @@ class EnglishEntrybackpack extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He was wearing a heavy backpack."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "جانتایەکی قوورسی لەپشت‌کردبوو."),
                               const CustomSizedBoxForTTS(),
@@ -196,9 +193,6 @@ class EnglishEntrybackpack extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They went backpacking in Spain last year."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ساڵی پار چوون بۆ گەشتکردن بۆ ئیسپانیا."),

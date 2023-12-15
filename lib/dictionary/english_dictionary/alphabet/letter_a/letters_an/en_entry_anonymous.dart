@@ -175,9 +175,6 @@ class EnglishEntryanonymous extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The money was donated by a local businessman who wishes to remain anonymous."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پارەکە بەخشرا لەلایەن بازرگانێکی خۆجێیی کە دەخوازێت بە نھێنی بمێنێتەوە."),
@@ -201,9 +198,6 @@ class EnglishEntryanonymous extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He received an anonymous letter threatening to disclose details of his affair if he didn't pay the money."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نامەیەکی نھێنی پێ‌گەیشت کە ھەڕەشەی ئەوەی لێ‌دەکرد کە وردەکاری پەیوەندییە سۆزدارییەکەی ئاشکرا دەکات ئەگەر پارەکە نەدات."),

@@ -131,9 +131,6 @@ class EnglishEntryalienate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "His comments have alienated a lot of young voters."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لێدوانەکانی ژمارەیەکی زۆر ژمارەیەکی زۆر دەنگدەری گەنجی پەست کردووە."),
@@ -156,9 +153,6 @@ class EnglishEntryalienate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Very talented children may feel alienated from the others in their class."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "منداڵانی زۆر بەھرەمەند لەوانەیە ھەست بە نامۆیی بکەن لەگەل ئەوانی تری پۆلەکانیان."),

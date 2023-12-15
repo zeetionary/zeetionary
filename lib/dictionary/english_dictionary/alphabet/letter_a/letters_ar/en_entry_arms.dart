@@ -178,9 +178,6 @@ class EnglishEntryarms extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The UN imposed an arms embargo on the country."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نەتەوە یەکگرتووەکان گەمارۆی چەک و تەقەمەنی بەسەر وڵاتەکەدا سەپاند."),
@@ -202,9 +199,6 @@ class EnglishEntryarms extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He's the world's most notorious arms dealer."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەناوبانگترین بازرگانی چەک و تەقەمەنییە لە جیھاندا."),

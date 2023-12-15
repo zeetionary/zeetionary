@@ -178,9 +178,6 @@ class EnglishEntryarcher extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The archer can bend a strong bow."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تیراوێژەکە دەتوانێت کەوانێکی بەھێز بچەمێنێتەوە."),

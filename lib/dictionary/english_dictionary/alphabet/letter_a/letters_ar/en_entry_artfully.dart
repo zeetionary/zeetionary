@@ -182,9 +182,6 @@ class EnglishEntryartfully extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "In our conversation, he was artfully vague about his plans."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە گفتوگۆکەماندا بەشێوەیەکی زیرەکانە ناڕوون بوو سەبارەت بە پلانەکانی."),
@@ -208,9 +205,6 @@ class EnglishEntryartfully extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She opened her right hand but artfully concealed the key in her left hand."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەستی ڕاستی کردەوە بەڵام بە زۆڵانە کلیلەکەی لە دەستی چەپی شاردەوە."),

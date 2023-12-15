@@ -179,9 +179,6 @@ class EnglishEntryaplomb extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He delivered the speech with his usual aplomb."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وتارەکەی پێشکەش‌کرد بە باوەڕبەخۆبوونی ھەردەمی."),

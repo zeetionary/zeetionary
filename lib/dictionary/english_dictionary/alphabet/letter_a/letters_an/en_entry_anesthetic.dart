@@ -173,9 +173,6 @@ class EnglishEntryanesthetic extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "How long will I be under anesthetic?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "چەندە لەژێر بەنج دەبم؟"),
                               const CustomSizedBoxForTTS(),

@@ -131,9 +131,6 @@ class EnglishEntryagreeably extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They were agreeably surprised by the quality of the food."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەموو تێکڕا سەرسام بوون بە کوالێتی خواردنەکە."),
@@ -154,9 +151,6 @@ class EnglishEntryagreeably extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The day was agreeably warm after the cool night."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕۆژەکە خۆش و خۆرەتاو بوو لە دوای ئەو شەوە ساردە."),

@@ -175,9 +175,6 @@ class EnglishEntryaware extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "As you're aware, this is not a new problem."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وەک ئاگادارن، ئەمە کێشەیەکی تازە نییە."),
@@ -200,9 +197,6 @@ class EnglishEntryaware extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Young people are very environmentally aware."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "گەنجان زۆر ھۆشیارن سەبارەت بە ژینگە."),
                               const CustomSizedBoxForTTS(),

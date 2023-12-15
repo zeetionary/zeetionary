@@ -181,9 +181,6 @@ class EnglishEntryartefact extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The museum has a superb collection of ancient artefacts from Nubia."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "مۆزەخانەکە کۆمەڵە دەسکارێکی کۆنی ناوازەی نوبیای ھەیە."),

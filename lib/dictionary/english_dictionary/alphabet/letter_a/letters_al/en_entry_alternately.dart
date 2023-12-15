@@ -132,9 +132,6 @@ class EnglishEntryalternately extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He felt alternately hot and cold."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "جار نا جار ھەستی بە گەرما و سەرما دەکرد."),

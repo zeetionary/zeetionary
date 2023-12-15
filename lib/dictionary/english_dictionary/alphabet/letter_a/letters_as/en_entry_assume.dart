@@ -185,9 +185,6 @@ class EnglishEntryassume extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It's probably safe to assume (that) we'll be hearing more about this story."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تاڕادەیەک ئەتوانین وادابنێین کە شتی زیاتر لەسەر ئەم بابەتە دەبیستین."),
@@ -209,9 +206,6 @@ class EnglishEntryassume extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Let us assume for a moment that the plan succeeds."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "با بۆ کەمێک وادابنێین پلانەکە سەرکەوتوو دەبێت."),
@@ -235,9 +229,6 @@ class EnglishEntryassume extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Rebel forces have assumed control of the capital."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھێزە یاخیبووەکان کۆنترۆڵی پایتەختیان گرتووەتە دەست."),
@@ -261,9 +252,6 @@ class EnglishEntryassume extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "In the story the god assumes the form of an eagle."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە چیرۆکەکەدا خودا شێوەی داڵێک لەخۆدەگرێت."),
@@ -287,9 +275,6 @@ class EnglishEntryassume extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Moving to a different town, he assumed a false name."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کە چووە شارۆچکەیەکی تازە، ناوێکی تازەی ھەڵگرتەوە."),

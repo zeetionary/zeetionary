@@ -180,9 +180,6 @@ class EnglishEntryaristocrat extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The castle has been owned by a succession of wealthy aristocrats."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "قەڵاکە لەلایەن ژمارەیەک خانەدانی یەک لە دوای یەک خاوەندارێتی کراوە."),

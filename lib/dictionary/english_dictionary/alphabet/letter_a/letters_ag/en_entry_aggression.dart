@@ -131,9 +131,6 @@ class EnglishEntryaggression extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The research shows that computer games may cause aggression."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "توێژینەوەکە دەریدەخات کە یارییە ئەلیکترۆنییەکان دەکرێت ببنەھۆی شەڕەنگێزی."),
@@ -156,9 +153,6 @@ class EnglishEntryaggression extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The president announced that the country would not tolerate foreign aggressions."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەرۆک ڕایگەیاند کە وڵاتەکە چاوپۆشی ناکات لە ھیچ دەستدرێژییەکی دەرەکی."),

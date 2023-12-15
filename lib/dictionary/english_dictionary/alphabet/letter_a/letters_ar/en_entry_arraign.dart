@@ -178,9 +178,6 @@ class EnglishEntryarraign extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He was arraigned for murder."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھێنرایە دادگا بۆ تاوانبارکردنی بە تۆمەتی کووشتن."),

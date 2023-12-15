@@ -181,9 +181,6 @@ class EnglishEntryasbestos extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The asbestos-laden ceiling tiles were falling apart, so they had to be replaced."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کاشییەکانی سەقفەکە کە ئەزبێستۆسیان لێدرابوو دەکەوتنەخوارەوە، بۆیە دەبوو بگۆڕدرێن."),

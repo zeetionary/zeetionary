@@ -133,9 +133,6 @@ class EnglishEntryalcohol extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was unable to overcome his addiction to alcohol."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نەیدەتوانی زاڵ ببێت بەسەر ئاڵوودەیی بە کحوول."),
@@ -157,9 +154,6 @@ class EnglishEntryalcohol extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Wine contains about 10% alcohol."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بیرە ڕێژەی ١٠٪ کحولی تێدایە."),
                               const CustomSizedBoxForTTS(),

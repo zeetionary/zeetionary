@@ -180,9 +180,6 @@ class EnglishEntryassassinate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The prime minister was assassinated by extremists."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەرۆک وەزیران لەلایەن توندڕەوانەوە کوژرا."),

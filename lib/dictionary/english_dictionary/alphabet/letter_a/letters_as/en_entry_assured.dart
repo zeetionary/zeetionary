@@ -182,9 +182,6 @@ class EnglishEntryassured extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He spoke in a calm, assured voice."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "قسەیکرد بە دەنگێکی لەسەرخۆ و متمانەبەخۆبوونەوە."),
@@ -207,9 +204,6 @@ class EnglishEntryassured extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Success seemed assured."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بردنەوە مسۆگەر دیاربوو."),
                               const CustomSizedBoxForTTS(),
@@ -232,9 +226,6 @@ class EnglishEntryassured extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "You are assured of a warm welcome at this hotel."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەتوانیت دڵنیابیت لە پێشوازییەکی گەرم لەم ھوتێلە."),

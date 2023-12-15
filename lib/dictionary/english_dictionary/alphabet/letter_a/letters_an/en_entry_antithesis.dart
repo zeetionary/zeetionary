@@ -178,9 +178,6 @@ class EnglishEntryantithesis extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Students finishing their education at 16 is the very antithesis of what society needs."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەواوکردنی خوێندن لە تەمەنی ١٦ ساڵی لەلایەن خوێندکارانەوە ڕێک پێچەوانەی ئەوەیە کە کۆمەڵگە پێویستییەتی."),
@@ -204,9 +201,6 @@ class EnglishEntryantithesis extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There is an antithesis between the needs of the state and the needs of the people."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "جیاوازییەک ھەیە لەنێوان خواستەکانی حکومەت و ئەوانەی خەڵکی."),

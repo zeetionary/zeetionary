@@ -173,9 +173,6 @@ class EnglishEntryantagonize extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Not wishing to antagonize her further, he said no more."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بۆ دووربوون لە زیاتر تووڕەکردنی ھیچی دیکەی نەوت."),

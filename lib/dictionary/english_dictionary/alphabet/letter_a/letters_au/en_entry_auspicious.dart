@@ -183,9 +183,6 @@ class EnglishEntryauspicious extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It was an auspicious date for a wedding."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێکەوتێکی پیرۆز بوو بۆ ھاوسەرگیرییەکە."),

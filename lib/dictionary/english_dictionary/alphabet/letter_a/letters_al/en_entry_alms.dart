@@ -132,9 +132,6 @@ class EnglishEntryalms extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "In the past, people thought it was their religious duty to give alms to the poor."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "جاران خەڵکی وایان دەزانی ئەرکی ئاینییانە پارە بە ھەژاران بدەن."),

@@ -175,9 +175,6 @@ class EnglishEntrybale extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The fire destroyed 500 bales of hay."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئاگرەکە ٥٠٠ گورزە وێنجەی وشکی لەناوبرد."),
@@ -200,9 +197,6 @@ class EnglishEntrybale extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The waste paper is baled, then sent for recycling."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کاغەزی زیادە دەکرێت بە گورزەیەک و دەنێردرێت بۆ دووبارە بەکارھێنان."),
@@ -225,9 +219,6 @@ class EnglishEntrybale extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She was yesterday baled for three weeks."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دوێنی بۆ سێ ھەفتە بە کەفالەت ئازادکرا."),

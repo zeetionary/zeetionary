@@ -185,9 +185,6 @@ class EnglishEntryausterity extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "War was followed by many years of austerity."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "جەنگ چەندین ساڵی نەبوونی بەدواداھات."),
                               const CustomSizedBoxForTTS(),
@@ -210,9 +207,6 @@ class EnglishEntryausterity extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The house was decorated in an austere style, with white walls and minimal furniture."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خانووەکە ستایلێکی بە ساکاری دیکۆرات کرابوو، بە دیواری سپی و کەمترین شتومەک."),
@@ -236,9 +230,6 @@ class EnglishEntryausterity extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was noted for his austerity and authoritarianism."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دەناسرا بۆ دژواری و سەرکوتکەری."),
                               const CustomSizedBoxForTTS(),
@@ -261,9 +252,6 @@ class EnglishEntryausterity extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The monks lived a life of austerity, with few possessions and simple meals."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕەبەنەکان ژیانێکی لەخواترسی دەژیان بە کەلوپەلی کەم و خواردنی سادە."),

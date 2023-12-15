@@ -167,7 +167,7 @@ class EnglishEntrybirthrate extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: ڕادەی لەدایک‌بوون، ڕێژەی لەدایک‌بووان
 
-١. (ناو) پێناسەڕێژەی لەدایکبوون لە شوێنێکدا بۆ هەر ١٠٠٠ کەس لە ساڵێکدا"""),
+١. (ناو) پێناسەڕێژەی لەدایکبوون لە شوێنێکدا بۆ ھەر ١٠٠٠ کەس لە ساڵێکدا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -175,7 +175,7 @@ class EnglishEntrybirthrate extends StatelessWidget {
                                       "Educating girls has the effect of lowering birth rates."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پەروەردە و فێرکردنی کچان کاریگەری ئەوەی هەیە ڕێژەی منداڵبوون دادەبەزێت."),
+                                      "پەروەردە و فێرکردنی کچان کاریگەری ئەوەی ھەیە ڕێژەی منداڵبوون دادەبەزێت."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBirthrates1("en-GB"),

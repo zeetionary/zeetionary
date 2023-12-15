@@ -177,9 +177,6 @@ class EnglishEntryannouncement extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We welcome the recent announcement by the Government."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێشوازی لە ڕاگەیاندنە تازەکەی حکومەت دەکەین."),
@@ -201,9 +198,6 @@ class EnglishEntryannouncement extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "An announcement about her future is expected soon."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەم‌زوانە چاوەڕوانی ڕاگەیاندنێک دەکرێت دەربارەی داھاتووی."),
@@ -227,9 +221,6 @@ class EnglishEntryannouncement extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Announcement of the verdict was accompanied by shouts and cheers."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕاگەیاندنی بڕیارەکە ھاوار و قریوەی بەدواداھات."),

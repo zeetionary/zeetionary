@@ -145,9 +145,6 @@ class EnglishEntryamateur extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was an amateur photographer until the age of 40, when he turned professional."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تاوەک تەمەنی ٤٠ ساڵیش ھەر وێنەگرێکی ھەوەس‌کار بوو، لەوەو بەدوا بوو کە بوو بە پڕۆفیشناڵ."),
@@ -170,9 +167,6 @@ class EnglishEntryamateur extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The performance sounded very amateur, I’m afraid."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەداخەوەم بەڵام نمایشەکە زۆر تازەکارانە دیاربوو."),
@@ -195,9 +189,6 @@ class EnglishEntryamateur extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The tournament is open to both amateurs and professionals."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پاڵەوانێتییەکە بۆ حەزکاران و پڕۆفیشناڵان کراوەیە."),
@@ -220,9 +211,6 @@ class EnglishEntryamateur extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "This work was done by a bunch of amateurs!"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم ئیشە لەلایەن ژمارەیەک تازە کارەوە ئەنجام دراوە!"),

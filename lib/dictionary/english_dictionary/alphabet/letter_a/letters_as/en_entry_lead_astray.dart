@@ -181,9 +181,6 @@ class EnglishEntryleadastray extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Jack's parents thought the other boys might lead him astray."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دایک و باوکی جاک وایان دەفکری کوڕەکانی دیکە لەوانەیە گومڕای بکەن."),

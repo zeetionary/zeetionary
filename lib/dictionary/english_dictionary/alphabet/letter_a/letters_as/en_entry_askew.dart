@@ -181,9 +181,6 @@ class EnglishEntryaskew extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "His glasses had been knocked askew by the blow."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "چاویلکەکەی خواروخێچ بووبوو بەھۆی باکەوە."),

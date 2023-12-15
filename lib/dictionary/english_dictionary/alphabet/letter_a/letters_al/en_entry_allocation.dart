@@ -134,9 +134,6 @@ class EnglishEntryallocation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We have spent our entire allocation for the year."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەواوی گوژمەی ئەم ساڵەمان خەرجکردووە."),
@@ -157,9 +154,6 @@ class EnglishEntryallocation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The charity is trying to get its allocation increased for next year."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێکخراوە خێرخوازییەکە ھەوڵ دەدات بودجەکەی بۆ ساڵی داھاتوو زیاد بکات."),
@@ -182,9 +176,6 @@ class EnglishEntryallocation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The allocation of space in this office is unusual."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پێدانی شوێن لەم ئۆفیسەدا نامۆیە."),
                               const CustomSizedBoxForTTS(),

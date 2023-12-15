@@ -133,9 +133,6 @@ class EnglishEntryalmanac extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The almanac says there will be above normal rainfall in the first half of the winter in California."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ساڵنامەکە دەڵێت ئەمساڵ زیاتر لە کاتی ئاسایی باران دەبێت لە نیوەی یەکەمی زستان لە کالیفۆرنیا."),

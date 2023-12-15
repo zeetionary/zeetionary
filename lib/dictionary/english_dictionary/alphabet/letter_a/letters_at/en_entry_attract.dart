@@ -187,9 +187,6 @@ class EnglishEntryattract extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I had always been attracted by the idea of working abroad."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەمیشە حەزم بە بیرۆکەی کارکردن لە دەرەوە بووە."),
@@ -211,9 +208,6 @@ class EnglishEntryattract extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "What first attracted me to her was her sense of humour."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەوەی سەرەتا حەزی لام درووستکرد بۆی گاڵتەوگەپەکەی بوو."),
@@ -236,9 +230,6 @@ class EnglishEntryattract extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I am not attracted to him at all."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھیچ پێی سەرسام نیم."),
                               const CustomSizedBoxForTTS(),
@@ -261,9 +252,6 @@ class EnglishEntryattract extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Officials hope to attract more tourists to the area."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەرپرسان ھیواخوازن گەشتیاری زیاتر ڕابکیشن بۆ ناوچەکە."),
@@ -285,9 +273,6 @@ class EnglishEntryattract extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The exhibition has attracted thousands of visitors."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێشانگاکە ھەزاران سەردانیکەری ھەبووە."),
@@ -311,9 +296,6 @@ class EnglishEntryattract extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "His comments were bound to attract criticism."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لێدوانەکانی شکی تێدانەبوو ڕەخنەی بەدوادا دێت."),

@@ -198,9 +198,6 @@ class EnglishEntryammunition extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A few of the men had run out of ammunition."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەندێک لە پیاوەکان تەقەمەنییان پێ‌نەماوە."),
@@ -223,9 +220,6 @@ class EnglishEntryammunition extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The letter gave her all the ammunition she needed."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نامەکە ھەموو زانیارییەکی پێدا کە پێویستی‌ بوو لە دژی ئەو."),

@@ -184,9 +184,6 @@ class EnglishEntryapplication extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We have received applications from more than 3 000 students."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "داخوازینامەمان لە زیاتر لە ٣٠٠٠ خوێندکارەوە پێگەشتووە."),
@@ -208,9 +205,6 @@ class EnglishEntryapplication extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They submitted an application to the council to build two houses."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "داخوازینامەیەکیان پێشکەشی ئەنجوومەنەکە کرد بۆ درووستکردنی دوو خانوو."),
@@ -234,9 +228,6 @@ class EnglishEntryapplication extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The invention would have a wide range of applications in industry."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "داھێنانەکە بەکارھێنانی کرداریی زۆری دەبێت لە پیشەسازیدا."),
@@ -260,9 +251,6 @@ class EnglishEntryapplication extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It took three applications of paint to cover the graffiti."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سێ چین بۆیەی ویست تاوەکو گرافیتییەکە داپۆشین (بسڕینەوە)."),
@@ -286,9 +274,6 @@ class EnglishEntryapplication extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Judges play a vital role in ensuring the strict application of the law."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دادوەران ڕۆڵی گرنگ دەبینن لە دڵنیایی‌کردنەوەی جێبەجێکردنی توندی یاساکە."),

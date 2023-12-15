@@ -182,9 +182,6 @@ class EnglishEntryaudition extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Auditions will be held from 9–12 on Friday."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نمایشەکان لە کاتژمێر ٩-١٢ لە رۆژی ھەینی دەبێت."),
@@ -208,9 +205,6 @@ class EnglishEntryaudition extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She was auditioning for the role of Lady Macbeth."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "تاقیکرایەوە بۆ ڕۆڵی خاتوو ماکبێس."),
                               const CustomSizedBoxForTTS(),
@@ -233,9 +227,6 @@ class EnglishEntryaudition extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We auditioned over 200 children for the part."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زیاتر لە ٢٠٠ منداڵمان تاقیکردەوە بۆ ڕۆڵەکە."),

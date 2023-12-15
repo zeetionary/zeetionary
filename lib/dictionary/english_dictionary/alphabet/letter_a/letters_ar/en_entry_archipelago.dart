@@ -180,9 +180,6 @@ class EnglishEntryarchipelago extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The Hawaiian archipelago is famous for its unique volcanic landscapes."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کۆدورگەی ھاوایی ناسراوە بۆ دیمەنە گڕکانییە بێ‌ھاوتاکانی."),

@@ -172,9 +172,6 @@ class EnglishEntryanesthetize extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "My doctor said I will not need to be anesthetized during the procedure."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پزیشکەکەم پێی‌وتم پێویست ناکات لە پڕۆسەکەدا بەنج‌بکرێم."),

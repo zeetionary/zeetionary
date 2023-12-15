@@ -175,9 +175,6 @@ class EnglishEntryantagonism extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The antagonism he felt towards his old enemy was still very strong."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو دوژمنایەتییەی دژ بە دووژمنە کۆنەکەی ھەیبوو ھێشتا بەھێز بوو."),

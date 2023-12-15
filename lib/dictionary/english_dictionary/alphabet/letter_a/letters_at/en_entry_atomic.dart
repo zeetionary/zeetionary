@@ -184,9 +184,6 @@ class EnglishEntryatomic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Atomic physics is the study of the structure and properties of atoms."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "فیزیای گەردیلە بریتییە لە لێکۆڵینەوە لە پێکھاتە و خاسیەتەکانی گەردیلە."),
@@ -210,9 +207,6 @@ class EnglishEntryatomic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Atomic energy is a powerful and versatile source of energy."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وزەی ناوەکی سەرچاوەیەکی بەھێز و فرەکارەی وزەیە."),
@@ -235,9 +229,6 @@ class EnglishEntryatomic extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Atomic weapons are very destructive."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "چەکە ئەتۆمییەکان زۆر وێرانکەرن."),
                               const CustomSizedBoxForTTS(),

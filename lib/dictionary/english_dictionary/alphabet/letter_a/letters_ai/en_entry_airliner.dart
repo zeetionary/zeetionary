@@ -128,9 +128,6 @@ class EnglishEntryairliner extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The airliner was hijacked by a group of terrorists."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "فڕۆکەکە لەلایەن ژمارەیەک تیرۆریستەوە ڕفێندرا."),

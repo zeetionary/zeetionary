@@ -173,9 +173,6 @@ class EnglishEntryavianflu extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Veterinarians closely monitored the birds for signs of avian flu."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پزیشکی ئاژەڵان بەوردی چاودێری باڵندەکانیان دەکرد بۆ ئاماژەی ئەنفلۆنزای باڵندە."),

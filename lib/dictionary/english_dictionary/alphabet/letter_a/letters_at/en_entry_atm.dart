@@ -180,9 +180,6 @@ class EnglishEntryatm extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I need to find an ATM to withdraw some cash before the store closes."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێویستە دەزگایەکی خۆکار بدۆزمەوە بۆ ڕاکێشانی ھەندێک کاش پێش ئەوەی فرۆشگاکە دابخرێت."),

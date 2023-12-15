@@ -179,9 +179,6 @@ class EnglishEntryappraise extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The architect gave the exterior an appraising glance."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەندازیارەکە نیگایەکی کرد لە دەرەوەی بیناکە بۆ نرخاندنی."),
@@ -205,9 +202,6 @@ class EnglishEntryappraise extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They appraised the painting at £200 000."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "تابلۆکەیان بە ٢٠٠٠٠٠ پاوەند نرخاند."),
                               const CustomSizedBoxForTTS(),
@@ -229,9 +223,6 @@ class EnglishEntryappraise extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Managers must appraise all staff."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەڕێوبەران دەبێت ھەڵسەنگاندن بۆ تەواوی ستافەکەیان بکەن."),

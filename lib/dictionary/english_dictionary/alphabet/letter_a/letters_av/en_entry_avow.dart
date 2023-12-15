@@ -174,9 +174,6 @@ class EnglishEntryavow extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "An aide avowed that the president had known nothing of the deals."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕاوێژکارێک ڕایگەیاند کە سەرۆک ھیچی نەزانیوە سەبارەت بە ڕێککەوتنەکان."),

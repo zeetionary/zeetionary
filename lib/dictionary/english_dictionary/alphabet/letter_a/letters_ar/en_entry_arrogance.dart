@@ -181,9 +181,6 @@ class EnglishEntryarrogance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He has a reputation for rudeness and intellectual arrogance."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ناسراوە بەوەی کەسێکی بێ‌ڕێزە و خۆی بە زیرەکتر لە کەسانی تر دادەنێت."),

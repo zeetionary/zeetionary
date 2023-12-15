@@ -197,9 +197,6 @@ class EnglishEntryamiably extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They were chatting quite amiably on the phone last night so I assumed everything was okay."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دوێنێ شەو بە تەلەفۆن زۆر بە ڕووخۆشانە قسەیان دەکرد، بۆیە وام‌دانا ھەموو شتێک باشە."),

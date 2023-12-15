@@ -175,9 +175,6 @@ class EnglishEntryantenatal extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Your blood pressure will be monitored at all antenatal checks."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پەستانی خوێنت وەردەگیرێت لە ھەموو پشکنینەکانی دووگیانی."),

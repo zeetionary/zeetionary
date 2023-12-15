@@ -130,9 +130,6 @@ class EnglishEntryagronomy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Agronomy encompasses work in many areas including plant genetics, irrigation, and food production."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کشتوکاڵناسی زۆر شت لەخۆدەگرێت وەک بۆماوەناسی ڕووەک، ئاودێری، و بەرھەمھێنانی خۆراک."),

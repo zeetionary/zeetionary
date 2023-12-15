@@ -134,9 +134,6 @@ class EnglishEntryalternator extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The alternator fails to generate electricity."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "داینەمۆکە تەزووی گۆڕاو درووست ناکات."),
                               const CustomSizedBoxForTTS(),

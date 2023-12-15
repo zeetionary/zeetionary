@@ -133,9 +133,6 @@ class EnglishEntryambidextrous extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I am naturally left-handed, but was not allowed to write with my left hand, with the result that I became ambidextrous."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەشێوەیەکی سرووشتی چەپلەرم، بەڵام ڕێگەم پێ‌نەدرا بە دەستە چەپم بنووسم، و لە ئەنجامدا بوومە دوودەستە."),

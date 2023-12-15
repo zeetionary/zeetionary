@@ -132,9 +132,6 @@ class EnglishEntryaisle extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She looked radiant as she walked down the aisle on her father’s arm."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گەشبین دەردەکەوت کە بە ڕێڕەکەدا تێدەپەڕی دەست لەناو دەستی باوکی."),

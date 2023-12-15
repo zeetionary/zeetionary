@@ -174,9 +174,6 @@ class EnglishEntryannoy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I’m sure she does it just to annoy me."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دڵنیام تەنھا بۆ بێزارکردنی من دەیکات."),

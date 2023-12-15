@@ -133,9 +133,6 @@ class EnglishEntryamateurish extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Their website looks amateurish."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "وێبسایتەکەیان تازەکارانە دیاربوو."),
                               const CustomSizedBoxForTTS(),

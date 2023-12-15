@@ -179,9 +179,6 @@ class EnglishEntryantiquity extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The statue was brought to Rome in antiquity."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پەیکەرەکە لە سەردەمانی کۆندا ھێنرا بۆ ڕۆما."),
@@ -205,9 +202,6 @@ class EnglishEntryantiquity extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Archaeologists found 40 bodies of varying antiquity in the area."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "شوێنەوارناسان ٤٠ جەستەیان دۆزییەوە لە ناوچەکە کە لە تەمەنی جیاوازدا بوون."),
@@ -231,9 +225,6 @@ class EnglishEntryantiquity extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Under Greek law, all antiquities that are discovered in Greece belong to the government."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەپێی یاسای یۆنان ھەموو ئەو پارچە شوێنەوارانەی لە یۆنان دەدۆزرێنەوە دەگەڕێنەوە بۆ حکومەت."),

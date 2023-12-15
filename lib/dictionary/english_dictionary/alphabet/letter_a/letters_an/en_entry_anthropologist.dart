@@ -175,9 +175,6 @@ class EnglishEntryanthropologist extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "An anthropologist dug and found old bones in the ground."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "مرۆڤناسێک ھەڵکۆڵینی کرد و ئێسکی کۆنی دۆزییەوە لە زەوییەکەدا."),

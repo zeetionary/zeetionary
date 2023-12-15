@@ -131,9 +131,6 @@ class EnglishEntryalphabetically extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The names of the contest winners are listed alphabetically."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ناوی براوەکانی پێشبڕکێیەکە بەپێی ئەلفوبێ ڕیزکراون."),

@@ -130,9 +130,6 @@ class EnglishEntryagitate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Her family are agitating to have her transferred to a prison in the UK."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خێزانەکەی بە پەشێوانە ھەوڵ دەدەن بتگوێزنەوە بۆ زیندانێک لە شانشینی یەکگرتوو."),
@@ -155,9 +152,6 @@ class EnglishEntryagitate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I didn't want to agitate her by telling her."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "نامەوێ توورەی بکەم بە پێ وتنی."),
                               const CustomSizedBoxForTTS(),
@@ -179,9 +173,6 @@ class EnglishEntryagitate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Agitate the mixture to dissolve the powder."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تێکەڵەکە تێک بدە بۆ ئەوەی ئاردەڵووکەکە بتوێتەوە."),

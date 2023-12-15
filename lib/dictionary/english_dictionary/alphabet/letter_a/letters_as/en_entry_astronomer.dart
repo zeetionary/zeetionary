@@ -183,9 +183,6 @@ class EnglishEntryastronomer extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Astronomers continue to discover new stars."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەستێرەناسان بەردەوامن لە دۆزینەوەی ئەستێرەی تازە."),

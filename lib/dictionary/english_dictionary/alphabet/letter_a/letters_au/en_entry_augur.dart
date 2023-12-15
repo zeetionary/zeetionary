@@ -182,9 +182,6 @@ class EnglishEntryaugur extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Conflicts among the various groups do not augur well for the future of the peace talks."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێکدادان لە نێوان لایەنەکاندا ئاماژەیەکی باش نابێت بۆ داھاتووی گفتوگۆی ئاشتی."),

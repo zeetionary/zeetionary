@@ -175,9 +175,6 @@ class EnglishEntryanalyse extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The job involves collecting and analysing data."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کارەکە کۆکردنەوە و شیکردنەوەی داتا لەخۆدەگرێت."),
@@ -198,9 +195,6 @@ class EnglishEntryanalyse extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He tried to analyse his feelings."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەوڵی‌دا لە ھەستەکانی تێ‌بگات."),
                               const CustomSizedBoxForTTS(),
@@ -219,9 +213,6 @@ class EnglishEntryanalyse extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "We need to analyse what went wrong."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێویستە لێ‌بکۆڵینەوە لەوەی چی ھەڵە ڕوویدا."),

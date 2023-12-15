@@ -181,9 +181,6 @@ class EnglishEntryarchitectural extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Several architectural styles are being considered for the proposed housing development."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ژمارەیەک ستایلی بیناسازی ڕەچاودەکرێن بۆ پڕۆژەی خانوبەرە پێشنیازکراوەکە."),

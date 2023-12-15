@@ -175,9 +175,6 @@ class EnglishEntryamusement extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She could not hide her amusement at the way he was dancing."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نەیدەتوانی خۆشحاڵی‌ی خۆی بشارێتەوە بە شێوازی سەماکردنی."),
@@ -201,9 +198,6 @@ class EnglishEntryamusement extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "In the past, people had very few amusements to choose from. There was no radio, or television."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "جاران خەڵکی کەم کەرەستەی سەرگەرمییان ھەبوو ھەڵیبژێرن. ھیچ ڕادیۆ و تەلەفیزیۆن نەبوو."),
@@ -227,9 +221,6 @@ class EnglishEntryamusement extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "What do you do for amusement in this town?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لەم شارەدا چی دەکەن بۆ ڕابواردن؟"),
                               const CustomSizedBoxForTTS(),

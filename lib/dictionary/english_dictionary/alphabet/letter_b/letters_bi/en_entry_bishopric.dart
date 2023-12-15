@@ -166,7 +166,7 @@ class EnglishEntrybishopric extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) هەبوونی پلەی قەشەی باڵا"""),
+١. (ناو) ھەبوونی پلەی قەشەی باڵا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

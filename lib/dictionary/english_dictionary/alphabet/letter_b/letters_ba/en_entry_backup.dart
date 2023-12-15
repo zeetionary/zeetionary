@@ -173,9 +173,6 @@ class EnglishEntrybackup extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We can use him as a backup if one of the other players drops out."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەتوانین وەک پشتیوانی بەکاریبێنین ئەگەر یەکێک لە یاریزانەکانی دیکە دابەزێت."),
@@ -198,9 +195,6 @@ class EnglishEntrybackup extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Always make a backup of your work."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەمیشە کۆپییەکی کارەکانت ھەڵبگرە."),
                               const CustomSizedBoxForTTS(),

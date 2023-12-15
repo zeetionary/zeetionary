@@ -179,9 +179,6 @@ class EnglishEntryarmistice extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The armistice was signed on 4 December."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئاگربەستەکە واژۆکرا لە ڕۆژی ٥ی کانوونی یەکەم."),

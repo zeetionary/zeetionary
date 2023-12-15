@@ -178,9 +178,6 @@ class EnglishEntryaptly extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "This word is aptly used here."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەم وشەیە بەجێ بەکارھێنراوە لێرەدا."),
                               const CustomSizedBoxForTTS(),

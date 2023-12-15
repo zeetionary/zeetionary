@@ -174,9 +174,6 @@ class EnglishEntryanomaly extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There are areas of anomaly in the report."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەندێک بەشی نائاسایی لە ڕاپۆرتەکە ھەیە."),

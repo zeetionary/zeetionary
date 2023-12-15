@@ -172,9 +172,6 @@ class EnglishEntryamplify extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "This hall seemed to trap and amplify sounds."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھۆڵەکە وادیاربوو دەنگ تێیدا پەنگبخواتەوە و بەرزی بکات."),
@@ -197,9 +194,6 @@ class EnglishEntryamplify extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "You may need to amplify this point."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕەنگە پێویست بکات ئەم خاڵە ڕوون‌بکەیتەوە."),

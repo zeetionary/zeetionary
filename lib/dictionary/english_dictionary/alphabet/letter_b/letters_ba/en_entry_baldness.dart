@@ -171,9 +171,6 @@ class EnglishEntrybaldness extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He wore a hat to hide his baldness."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کڵاوێکی لەسەرکردبوو بۆ شاردنەوەی کەچەڵییەکەی."),

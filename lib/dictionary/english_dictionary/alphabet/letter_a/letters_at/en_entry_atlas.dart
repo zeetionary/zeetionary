@@ -180,9 +180,6 @@ class EnglishEntryatlas extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "For those of you who don't have an atlas to hand, Newcastle is a city in the northeaeast of England."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بۆ ئەو کەسانەی کە ئەتڵەسێکیان لەبەردەست نییە، نیوکاسڵ دەکەوێتە باکووری خۆرھەڵاتی ئینگلتەرە."),

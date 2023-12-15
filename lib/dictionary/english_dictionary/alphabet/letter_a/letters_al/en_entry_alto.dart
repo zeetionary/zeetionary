@@ -130,9 +130,6 @@ class EnglishEntryalto extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She began by singing soprano, then changed to alto."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەستی پێکرد بە چڕینی سۆپرانۆ، و دواتر گۆڕی بۆ ئالتۆ."),

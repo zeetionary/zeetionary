@@ -176,9 +176,6 @@ class EnglishEntryantibiotic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The doctor put her on antibiotics (= told her to take them)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دکتۆرەکە پێی‌گوت دژەبەکتریا بخوات."),
                               const CustomSizedBoxForTTS(),

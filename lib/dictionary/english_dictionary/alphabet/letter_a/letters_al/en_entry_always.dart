@@ -203,9 +203,6 @@ class EnglishEntryalways extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Always lock your car."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەمیشە ئۆتۆمبێلەکەت دابخە."),
                               const CustomSizedBoxForTTS(),
@@ -225,9 +222,6 @@ class EnglishEntryalways extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The children always seem to be hungry."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "منداڵەکان ھەمیشە برسی دەردەکەون."),
                               const CustomSizedBoxForTTS(),
@@ -249,9 +243,6 @@ class EnglishEntryalways extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "This is the way we've always done it."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەمە ئەو ڕێگایە کە ھەمیشە بەکارمان ھێناوە."),
@@ -273,9 +264,6 @@ class EnglishEntryalways extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I'll always love you."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەمیشە خۆشمدەوێیت."),
                               const CustomSizedBoxForTTS(),
@@ -296,9 +284,6 @@ class EnglishEntryalways extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "That phone's always ringing."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەو موبایلە ھەمیشە زەنگ لێدەدات."),
                               const CustomSizedBoxForTTS(),
@@ -320,9 +305,6 @@ class EnglishEntryalways extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "If he can't help, there's always John."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەگەر بۆی ناکرێت، جۆن ھەردەم ئامادەیە."),

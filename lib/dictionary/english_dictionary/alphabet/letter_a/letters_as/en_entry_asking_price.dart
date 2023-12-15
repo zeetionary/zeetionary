@@ -180,9 +180,6 @@ class EnglishEntryaskingprice extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The asking price for the house was £250,000."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نرخی داواکراو بۆ خانووەکە ٢٥٠,٠٠٠ پاوەند بوو."),

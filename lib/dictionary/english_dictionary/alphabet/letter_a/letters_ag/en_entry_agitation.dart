@@ -131,9 +131,6 @@ class EnglishEntryagitation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She was trying not to show her agitation."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەوڵیدەدا ناڕەحەتیی پیشان نەدات."),
                               const CustomSizedBoxForTTS(),
@@ -155,9 +152,6 @@ class EnglishEntryagitation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There has been mass agitation against the president."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ناڕەزایی زۆر بەرامبەر سەرۆک ھەبووە."),
                               const CustomSizedBoxForTTS(),

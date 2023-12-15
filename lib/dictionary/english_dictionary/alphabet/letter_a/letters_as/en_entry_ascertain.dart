@@ -180,9 +180,6 @@ class EnglishEntryascertain extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It can be difficult to ascertain the facts."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەکرێت سەخت بێ ڕاستییەکان پشت‌ڕاستبکەینەوە."),
@@ -204,9 +201,6 @@ class EnglishEntryascertain extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I ascertained that the driver was not badly hurt."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەکرێت سەخت بێ ڕاستییەکان پشت‌ڕاستبکەینەوە."),

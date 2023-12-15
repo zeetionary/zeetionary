@@ -134,9 +134,6 @@ class EnglishEntryambush extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Two soldiers were killed in a terrorist ambush."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دوو سەرباز لە بۆسەیەکی تیرۆریستی کوژران."),
@@ -160,9 +157,6 @@ class EnglishEntryambush extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The guerrillas ambushed them near the bridge."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "گەریلاکان خستنیانە بۆسەوە."),
                               const CustomSizedBoxForTTS(),

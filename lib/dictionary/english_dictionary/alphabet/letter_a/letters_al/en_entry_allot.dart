@@ -133,20 +133,15 @@ class EnglishEntryallot extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I completed the test within the time allotted."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "تاقیکردنەوەکەم کە لە ماوەی کاتی دیاریکراو تەواوکرد."),
+                                      "تاقیکردنەوەکەم لە ماوەی کاتی دیاریکراو تەواوکرد."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAllot4266("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAllot4266(// REPLACE: allot  /əˈlɑːt/
-                                        "en-US"),
+                                onPressed: () => speakAllot4266("en-US"),
                               ),
                             ],
                           ),
@@ -156,9 +151,6 @@ class EnglishEntryallot extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "How much money has been allotted to us?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "چەندە پارەمان بۆ تەرخانکراوە."),
                               const CustomSizedBoxForTTS(),
@@ -166,9 +158,7 @@ class EnglishEntryallot extends StatelessWidget {
                                 onPressed: () => speakAllot42566("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAllot42566(// REPLACE: allot  /əˈlɑːt/
-                                        "en-US"),
+                                onPressed: () => speakAllot42566("en-US"),
                               ),
                             ],
                           ),

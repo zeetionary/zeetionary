@@ -182,9 +182,6 @@ class EnglishEntryassent extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The director has given her assent to the proposals."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەڕێوبەرەکە ڕەزامەندی لەسەر پێشنیارەکان دەربڕیوە."),
@@ -208,9 +205,6 @@ class EnglishEntryassent extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Nobody would assent to the terms they proposed."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھیچ کەس ڕازی‌نابێت بەو مەرجانەی پێشنیاریان کرد."),

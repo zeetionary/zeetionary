@@ -185,9 +185,6 @@ class EnglishEntryassembly extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Power has been handed over to provincial and regional assemblies."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەسەڵات ڕادەستی ئەنجوومەنی پارێزگا و ھەرێمەکان کراوە."),
@@ -209,9 +206,6 @@ class EnglishEntryassembly extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There is a whole school assembly every Friday morning."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەموو ھەینییەک کۆبوونەوەی گشتی خوێندنگەکە ھەیە."),
@@ -235,9 +229,6 @@ class EnglishEntryassembly extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was to address a public assembly on the issue."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وابڕیاربوو قسە بۆ جەماوەرێکی گشتی لەسەر بابەتەکە."),
@@ -261,9 +252,6 @@ class EnglishEntryassembly extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The deputy head was taking (= leading) school assembly that day."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "جێگری بەڕێوبەرەکە ئەو ڕۆژە سەرپەرشتی کۆبوونەوەی قوتابخانەی دەکرد."),
@@ -287,9 +275,6 @@ class EnglishEntryassembly extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Putting the bookcase together should be a simple assembly job."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێکەوەنانی پارچەکانی کتێبخانەکە دەبێت کارێکی ئاسان بێت."),

@@ -175,9 +175,6 @@ class EnglishEntryannihilation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "During the Cold War the threat of nuclear annihilation was always on people's minds."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە سەردەمی جەنگی سارد ھەڕەشەی قڕبوونی  ئەتۆمی ھەمیشە لە ھزری خەڵکیدا بوو."),
@@ -201,9 +198,6 @@ class EnglishEntryannihilation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The Brazilian needed just 82 minutes to complete the annihilation of his opponent."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "یاریزانە بەرازیلییەکە پێویستی تەنھا بە ٨٢ خولەک بوو بۆ تێکشکاندنی تەواوی ڕکابەرەکەی."),

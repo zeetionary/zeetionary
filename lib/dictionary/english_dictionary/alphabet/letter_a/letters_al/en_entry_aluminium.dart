@@ -134,9 +134,6 @@ class EnglishEntryaluminium extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       " Aluminium is rapidly oxidized in air."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئاڵومینیۆم بەخێرایی ژەنگ دەکات لە ھەوادا."),

@@ -198,9 +198,6 @@ class EnglishEntryamnesty extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The president granted a general amnesty for all political prisoners."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەرۆک لێبووردنی گشتی بۆ ھەموو زیندانیانی سیاسی دەرکرد."),
@@ -223,9 +220,6 @@ class EnglishEntryamnesty extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "2 000 knives have been handed in during the month-long amnesty."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "٢٠٠٠ چەقۆ دران‌بەدەستەوە لە ماوەی مۆڵەتە یەک مانگییەکە."),

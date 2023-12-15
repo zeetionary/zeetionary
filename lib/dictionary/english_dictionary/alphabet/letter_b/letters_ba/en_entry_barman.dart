@@ -172,9 +172,6 @@ class EnglishEntrybarman extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The restaurant's barman was renowned for his ability to make a perfect martini."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "مەیگێڕی چێشتخانەکە ناسرابوو بۆ توانای لە درووستکردنی باشترین مارتینی."),

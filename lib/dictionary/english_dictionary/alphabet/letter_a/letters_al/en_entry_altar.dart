@@ -132,9 +132,6 @@ class EnglishEntryaltar extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He built an altar to God and made a sacrifice."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێش‌نوێژگەیەکی بۆ خودا دانا و قوربانی ئەنجامدا."),

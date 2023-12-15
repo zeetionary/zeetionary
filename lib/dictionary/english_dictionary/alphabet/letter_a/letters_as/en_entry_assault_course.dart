@@ -180,9 +180,6 @@ class EnglishEntryassaultcourse extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The recruits struggled to complete the assault course, but they were determined to succeed."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تازەسەربازان بەئاستەنگ توانیان مەشقەکە تەواو بکەن، بەڵام سووربوون لەسەر سەرکەوتن."),

@@ -133,9 +133,6 @@ class EnglishEntryallrounder extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He is a good all-rounder who likes tennis, cricket, and swimming."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەزارپیشەیەکی باشە کە حەزی بە تێنس و کریکت و مەلەوانی ھەیە."),

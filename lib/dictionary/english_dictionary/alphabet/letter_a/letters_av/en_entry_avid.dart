@@ -175,9 +175,6 @@ class EnglishEntryavid extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She has taken an avid interest in the project (= she is extremely interested in it)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئارەزوویەکی زۆری بۆ پڕۆژەکە لا درووست‌بووە."),
@@ -199,9 +196,6 @@ class EnglishEntryavid extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He was avid for more information."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "تینووی زانیاریی زیاتر بوو."),
                               const CustomSizedBoxForTTS(),

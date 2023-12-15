@@ -174,9 +174,6 @@ class EnglishEntrybanister extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The kids were sliding down the banisters."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "منداڵەکان بەسەر محەجەرەکەدا خلیسکێنەیان دەکرد."),

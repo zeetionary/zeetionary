@@ -181,9 +181,6 @@ class EnglishEntryarthritis extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It is unclear why some people develop arthritis."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھۆکاری بوونی جومگەماسێ لە ھەندێک کەسدا نەزانراوە."),

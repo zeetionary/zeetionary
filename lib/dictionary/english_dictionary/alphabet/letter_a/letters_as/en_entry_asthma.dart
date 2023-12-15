@@ -181,9 +181,6 @@ class EnglishEntryasthma extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We have thousands of asthma cases a year."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ساڵانە ھەزاران کەیسی ھەناسەتوندیمان ھەیە."),

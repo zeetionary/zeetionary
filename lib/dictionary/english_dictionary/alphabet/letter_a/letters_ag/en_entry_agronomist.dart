@@ -131,9 +131,6 @@ class EnglishEntryagronomist extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Agronomists were working on new ways to create healthier food."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "شارەزایانی کشتوکاڵ کاریان لەسەر ڕێگای تازە دەکرد بۆ بەرھەمھێنانی خواردنی تەندرووستتر."),

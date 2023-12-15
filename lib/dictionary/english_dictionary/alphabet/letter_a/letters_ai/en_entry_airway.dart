@@ -132,9 +132,6 @@ class EnglishEntryairway extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Prevent the tongue falling back and obstructing the airway."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێگە لە قوتدانی زمان بگرە لەوەی ڕێڕەوی ھەوا بگرێت."),

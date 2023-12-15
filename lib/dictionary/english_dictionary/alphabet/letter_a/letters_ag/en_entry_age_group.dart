@@ -130,9 +130,6 @@ class EnglishEntryagegroup extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "People in the younger age groups tended to vote less."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو کەسانەی تەمەنیان گەنج بوو کەمتر دەنگیان دا."),

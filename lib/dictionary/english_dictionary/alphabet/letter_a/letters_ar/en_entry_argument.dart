@@ -182,9 +182,6 @@ class EnglishEntryargument extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "After some heated argument a decision was finally taken."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە دوای ھەندێک مشتومڕی گەرم بڕیارێک لە کۆتاییدا دار."),
@@ -206,9 +203,6 @@ class EnglishEntryargument extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She got into an argument with the teacher."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "کەوتە مشتومڕێک لەگەڵ مامۆستاکە."),
                               const CustomSizedBoxForTTS(),
@@ -231,9 +225,6 @@ class EnglishEntryargument extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There are strong arguments for and against euthanasia."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەڵگەھێنانەوەی بەھێز بۆ لەگەڵ‌بوون یان دژایەتی ھوومەرگی (کوشتنی مرۆڤ، بەتایبەتی نەخۆشێک، لەسەر داوای خۆی بە ڕێگای پزیشکی)."),
@@ -257,9 +248,6 @@ class EnglishEntryargument extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Let's assume for the sake of argument (= in order to discuss the problem) that we can't start till March."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە مەبەستی گفتوگۆکردنی بابەتەکە با وادابنێین کە تاوەکو مانگی ئادار دەستپێ‌ناکەین."),

@@ -171,9 +171,6 @@ class EnglishEntrybalding extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Jackson was plump and balding."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "جاکسن خرپەلەیەکی کەچەڵبوو بوو."),
                               const CustomSizedBoxForTTS(),

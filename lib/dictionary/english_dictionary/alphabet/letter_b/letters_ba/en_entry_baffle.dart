@@ -172,9 +172,6 @@ class EnglishEntrybaffle extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "His behaviour baffles me."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕەفتارەکانی سەرم دەسوڕمێنن."),
                               const CustomSizedBoxForTTS(),

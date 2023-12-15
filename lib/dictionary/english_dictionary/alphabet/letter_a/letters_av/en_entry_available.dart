@@ -176,9 +176,6 @@ class EnglishEntryavailable extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We'll send you a copy as soon as it becomes available."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کۆپپیەکت بۆ دەنێرین ھەرکە بەردەست بوو."),
@@ -202,9 +199,6 @@ class EnglishEntryavailable extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Will she be available this afternoon?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەم نیوەڕۆ کاتی دەبێت؟."),
                               const CustomSizedBoxForTTS(),
@@ -226,9 +220,6 @@ class EnglishEntryavailable extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Do you think he's available?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پێت وایە ھێشتا سینگڵ بێ؟."),
                               const CustomSizedBoxForTTS(),

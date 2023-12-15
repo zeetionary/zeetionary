@@ -142,9 +142,6 @@ class EnglishEntryalthough extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Although the sun was shining, it wasn't very warm."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەگەرچی خۆرەکە دەدرەوشایەوە، ھێندە گەرم نەبوو."),
@@ -167,9 +164,6 @@ class EnglishEntryalthough extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I felt he was wrong, although I didn't say so at the time."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەستم کرد ھەڵەبوو، بەڵام/ئەگەرچی ئەوکاتە ئەوەم نەوت."),

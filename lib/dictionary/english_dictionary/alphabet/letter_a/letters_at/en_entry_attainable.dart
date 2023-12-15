@@ -183,9 +183,6 @@ class EnglishEntryattainable extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "This standard is easily attainable by most students."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم پێوەرە بە ئاسانی لەلایەن زۆرینەی خوێندکاران بەدەستدێت."),

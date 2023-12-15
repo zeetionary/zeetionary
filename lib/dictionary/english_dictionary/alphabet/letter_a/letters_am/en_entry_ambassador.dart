@@ -134,9 +134,6 @@ class EnglishEntryambassador extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The US ambassador to Egypt was recalled to Washington in protest."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "باڵیۆزی ئەمریکا لە ناڕەزاییدا کشێندرایەوە لە میسر."),
@@ -157,9 +154,6 @@ class EnglishEntryambassador extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He's former ambassador of Germany to the UN."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نێردەی پێشووتری ئەڵمانیایە بۆ نەتەوە یەکگرتووەکان."),

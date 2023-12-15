@@ -174,9 +174,6 @@ class EnglishEntryaxle extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The mechanic carefully greased the car's axles to prevent friction."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وەستاکە بەوریاییەوە ئەکسڵەکانی ئۆتۆمبێلەکەی گریس کرد بۆ ڕێگری لە لێکخشان."),

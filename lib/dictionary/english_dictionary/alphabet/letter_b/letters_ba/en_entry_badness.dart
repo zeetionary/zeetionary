@@ -172,9 +172,6 @@ class EnglishEntrybadness extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There was not a hint of badness in him."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھیچ ئاماژەی خراپەکاری تێدابوو."),
                               const CustomSizedBoxForTTS(),

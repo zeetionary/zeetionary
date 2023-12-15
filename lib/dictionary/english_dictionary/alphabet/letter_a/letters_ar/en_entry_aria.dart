@@ -177,9 +177,6 @@ class EnglishEntryaria extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Such was the enthusiasm that you might have thought that the singer had just sung an aria."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "جۆشوخرۆشییەکە ھێندە زۆربوو کە وابیرت‌دەکردەوە گۆرانیبێژەکە تازەگی ئاریایەکی وتبێت."),

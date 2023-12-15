@@ -175,9 +175,6 @@ class EnglishEntryballistics extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He is a ballistics expert at the FBI lab in Quantico."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پسپۆڕێکی ھاوێژەناسییە لە تاقیگەی ئێف-بی-ئای لە کوانتیکۆ."),

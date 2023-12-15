@@ -180,9 +180,6 @@ class EnglishEntryarse extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Get off your arse! (= stop sitting around doing nothing)"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەستە ئیشێک بکە."),
                               const CustomSizedBoxForTTS(),

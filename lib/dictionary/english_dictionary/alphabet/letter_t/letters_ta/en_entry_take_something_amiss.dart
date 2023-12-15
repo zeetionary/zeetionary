@@ -197,9 +197,6 @@ class EnglishEntrytakesomethingamiss extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Would she take it amiss if I offered to help?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە ھەڵە تێدەگات ئەگەر یارمەتی پێشکەش بکەم؟"),

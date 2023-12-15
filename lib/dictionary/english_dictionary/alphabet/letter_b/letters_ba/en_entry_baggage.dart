@@ -174,9 +174,6 @@ class EnglishEntrybaggage extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "We loaded our baggage into the car."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "جانتاکانمان سەرخستە ناو ئۆتۆمبێلەکە."),
                               const CustomSizedBoxForTTS(),
@@ -196,9 +193,6 @@ class EnglishEntrybaggage extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Let's claim our baggage first."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "با سەرەتا جانتاکانمان وەربگرینەوە."),
                               const CustomSizedBoxForTTS(),
@@ -221,9 +215,6 @@ class EnglishEntrybaggage extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Extensive baggage trains followed the troops."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "شەمەندەفەری پڕ لە کەلوپەل دوای سەربازەکان گەشتن."),

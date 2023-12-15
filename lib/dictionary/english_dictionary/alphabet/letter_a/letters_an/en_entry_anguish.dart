@@ -173,9 +173,6 @@ class EnglishEntryanguish extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Tears of anguish filled her eyes."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "فرمێسکی ئازار و ناڕەحەتی ھێینابوویە قوڵپی گریان."),
@@ -197,9 +194,6 @@ class EnglishEntryanguish extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He suffered the anguish of watching his son go to prison."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە ناڕەحەتی بینینی بردنی کوڕەکەی بۆ زیندان تێپەڕبوو."),

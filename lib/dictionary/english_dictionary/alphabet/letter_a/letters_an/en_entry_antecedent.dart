@@ -178,9 +178,6 @@ class EnglishEntryantecedent extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The book dealt with the historical antecedents of the Civil War."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کتێبەکە لێکۆڵینەوەی لە پێشھاتەکانی جەنگی ناوخۆیی ئەمریکا دەکرد."),
@@ -204,9 +201,6 @@ class EnglishEntryantecedent extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Many people feel a great curiosity to find out about their antecedents."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆر کەس حەزدەکەن زانیاری لەسەر باپیرانیان بزانن."),
@@ -233,9 +227,6 @@ class EnglishEntryantecedent extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "When the college was established in 1546, it inherited a hall from each of three antecedent institutions."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کاتێک کۆلێژەکە لە ساڵی ١٥٤٦ دامەزرا ھۆڵێکی لە ھەریەک لە سێ پەیمانگاکەی پێشووتر وەرگرت."),

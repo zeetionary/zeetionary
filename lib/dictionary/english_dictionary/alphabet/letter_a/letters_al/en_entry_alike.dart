@@ -150,9 +150,6 @@ class EnglishEntryalike extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They tried to treat all their children alike."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەوڵیان دا وەک یەک مامەڵە لەگەڵ منداڵەکانیان بکەن."),
@@ -175,9 +172,6 @@ class EnglishEntryalike extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Good management benefits employers and employees alike."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەڕێوەبردنی باش سوود بە خاوەنکاران و کرێکاران دەگەیەنێت بە یەکسانی."),
@@ -199,9 +193,6 @@ class EnglishEntryalike extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Airports are all alike to me."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "فڕۆکەخانەکان ھەموو وەکیەکن بۆم."),
                               const CustomSizedBoxForTTS(),

@@ -174,9 +174,6 @@ class EnglishEntryaversion extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He had an aversion to getting up early."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دوژمنایەتی لەگەڵ زوو لەخەوھەستان ھەبوو."),

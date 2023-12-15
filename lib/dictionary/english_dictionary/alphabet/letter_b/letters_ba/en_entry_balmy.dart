@@ -174,9 +174,6 @@ class EnglishEntrybalmy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There was hardly any wind, just a balmy breeze."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە ئەستەم ھیچ با ھەبوو، تەنھا شنەیەکی گەرم."),

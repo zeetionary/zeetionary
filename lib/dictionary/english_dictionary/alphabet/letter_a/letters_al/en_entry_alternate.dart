@@ -168,9 +168,6 @@ class EnglishEntryalternate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Stretch up 30 times with alternate arms as a warm-up exercise."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وەک خۆگەرمکردنەوەیەک ٣٠ جار سترێچ بکە، ھەرجارە و بە دەستێک."),
@@ -193,9 +190,6 @@ class EnglishEntryalternate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He and I clean our room on alternate days."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "من و ئەو ژوورەکەمان ڕۆژ نا ڕۆژێک پاکدەکەینەوە."),
@@ -218,9 +212,6 @@ class EnglishEntryalternate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She alternated between cheerfulness and deep despair."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەردەوام لە نێوان دڵخۆشی و نائومێدی قووڵ بوو."),
@@ -243,9 +234,6 @@ class EnglishEntryalternate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Ambulance crews alternate between emergency and routine work."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تیمەکانی فریاگوزاری بەردەوام لەنێوان کاری ئاسایی ڕۆژانەیان و حاڵەتی نەخوازراون."),
@@ -268,9 +256,6 @@ class EnglishEntryalternate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "David was too sick to attend, so Janet served as his alternate."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەیڤد زۆر نەخۆش بوو کە بتوانێت بەژداربێت، بۆیە جانێت وەک جێگرەوەی کاری کرد."),

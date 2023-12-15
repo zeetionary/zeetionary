@@ -178,9 +178,6 @@ class EnglishEntryapril extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She was born in April."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لە نیسان لەدایکبوو."),
                               const CustomSizedBoxForTTS(),
@@ -200,9 +197,6 @@ class EnglishEntryapril extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "We went to Japan last April."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "نیسانی ڕابردوو چووین بۆ ژاپۆن."),
                               const CustomSizedBoxForTTS(),

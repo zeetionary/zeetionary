@@ -133,9 +133,6 @@ class EnglishEntryairing extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The subject got a thorough airing in the British press."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بابەتەکە گەنگەشەی تەواوی لەسەر کرا لە میدیای بەریتانیا."),
@@ -158,9 +155,6 @@ class EnglishEntryairing extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Open the windows and give the house a good airing."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پەنجەرەکان بکەوە و ھەواگۆڕکێیەکی باش بدە بە ژوورەکە."),

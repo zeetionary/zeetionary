@@ -171,9 +171,6 @@ class EnglishEntryanarchist extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was a poet, an anarchist, and a vegan."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەسێکی شاعیر و حکومەت‌نەویست و گیاخۆر بوو."),

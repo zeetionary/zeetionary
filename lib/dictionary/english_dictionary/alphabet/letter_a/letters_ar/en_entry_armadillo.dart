@@ -178,9 +178,6 @@ class EnglishEntryarmadillo extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I have never seen an armadillo."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەرگیز ئەرمادیلۆیەکم نەدیوە."),
                               const CustomSizedBoxForTTS(),

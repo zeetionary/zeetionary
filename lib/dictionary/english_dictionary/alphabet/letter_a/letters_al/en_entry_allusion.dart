@@ -132,9 +132,6 @@ class EnglishEntryallusion extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "His statement was seen as an allusion to the recent drug-related killings."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وتەکەی وابینرا کە ئاماژەیەک بێت بۆ ئەو کوشتنانەی ئەم ماوە کە پەیوەندیدار بە مادەی ھۆشبەر بوون."),

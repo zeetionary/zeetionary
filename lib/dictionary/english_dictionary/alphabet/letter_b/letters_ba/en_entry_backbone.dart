@@ -176,9 +176,6 @@ class EnglishEntrybackbone extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The doctor examined the patient's backbone for signs of injury."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دکتۆرەکە پشکنینی بۆ بڕبڕەی پشتی نەخۆشەکە کرد بۆ ئاماژەی برین."),
@@ -201,9 +198,6 @@ class EnglishEntrybackbone extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Farming is the backbone of the country's economy."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کشتوکاڵ بڕبڕەی پشتی ئابووری وڵاتەکەیە."),
@@ -226,9 +220,6 @@ class EnglishEntrybackbone extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He doesn't have the backbone to face the truth."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بوێری ئەوەی نییە ڕووبەڕووی ڕاستییەکە ببێتەوە."),

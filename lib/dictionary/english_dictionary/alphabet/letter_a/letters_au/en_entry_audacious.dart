@@ -182,9 +182,6 @@ class EnglishEntryaudacious extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He described the plan as ambitious and audacious."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پلانەکەی بە تەماحکارانە و چاونەترسی ناوھێنا."),

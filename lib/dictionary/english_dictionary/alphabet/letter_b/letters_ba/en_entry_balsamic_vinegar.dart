@@ -173,9 +173,6 @@ class EnglishEntrybalsamicvinegar extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Drizzle some balsamic vinegar over your salad for a touch of sweetness."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەندێک سرکەی بالزامیک بپرژێنە بەسەر زەڵاتەکەدا بۆ ئەوەی ھەندێک شیرینی پێبدا."),

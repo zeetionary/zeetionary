@@ -184,9 +184,6 @@ class EnglishEntryanorexianervosa extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Reports of anorexia nervosa and other eating disorders are on the increase."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕاپۆرت لەسەر بێ‌ئیشتیایی و نەخۆشییەکانی دیکەی پەیوەندیدار بە خواردن لە زیادبووندان."),

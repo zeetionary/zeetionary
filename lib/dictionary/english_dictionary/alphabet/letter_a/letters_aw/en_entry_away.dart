@@ -177,9 +177,6 @@ class EnglishEntryaway extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The beach is a mile away."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "کەنارەکە یەک میل دوورە."),
                               const CustomSizedBoxForTTS(),
@@ -200,9 +197,6 @@ class EnglishEntryaway extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The bright light made her look away."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕۆشناییە توندەکە وایکرد ڕووی وەرگێڕێ."),
@@ -225,9 +219,6 @@ class EnglishEntryaway extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There were ten children away yesterday."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دوێنێ ١٠ منداڵ نەھاتبوون."),
                               const CustomSizedBoxForTTS(),
@@ -249,9 +240,6 @@ class EnglishEntryaway extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They were soon chatting away like old friends."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھێشتا گفتوگۆیان بوو وەک ھاوڕێی کۆن."),
                               const CustomSizedBoxForTTS(),
@@ -272,9 +260,6 @@ class EnglishEntryaway extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The music faded away."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "میوزیکەکە بە تەواوی داگیرسایەوە."),
                               const CustomSizedBoxForTTS(),
@@ -296,9 +281,6 @@ class EnglishEntryaway extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Chelsea are playing away this Saturday."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "چێڵسی ئەم شەممەیە لە یاریگای ڕکابەرەکەی یاری دەکات."),
@@ -321,9 +303,6 @@ class EnglishEntryaway extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We lost the away game but won both home games."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "یارییەکەمان لە یاریگای تیمی بەرامبەر دۆڕاند، بەڵام ھەردوو ئەوەمان بردەوە کە لە یاریگەی خۆمان بوو."),

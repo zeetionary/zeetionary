@@ -344,9 +344,6 @@ class EnglishEntrybad extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I have some bad news for you, I'm afraid."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەداخەوەم ھەندێک ھەواڵی ناخۆشم پێیە بۆت."),
@@ -366,9 +363,6 @@ class EnglishEntrybad extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "War is always a bad thing."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "جەنگ ھەمیشە شتێکی خراپە."),
                               const CustomSizedBoxForTTS(),
@@ -389,9 +383,6 @@ class EnglishEntrybad extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I thought it was a very bad article."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "وامبیرکردەوە وتارێکی زۆر خراپ بێت."),
                               const CustomSizedBoxForTTS(),
@@ -412,9 +403,6 @@ class EnglishEntrybad extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "It was a very bad winter that year."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەو ساڵە زستانێکی زۆر دژوار بوو."),
                               const CustomSizedBoxForTTS(),
@@ -436,9 +424,6 @@ class EnglishEntrybad extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I know that this is a bad time to ask for help."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەزانم کاتێکی نەگونجاوە بۆ داواکردنی یارمەتی."),
@@ -461,9 +446,6 @@ class EnglishEntrybad extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I will not tolerate this bad behaviour."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بەرگەی ئەم ڕەفتارە نابەجێیە ناگرم."),
                               const CustomSizedBoxForTTS(),
@@ -484,9 +466,6 @@ class EnglishEntrybad extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Have you been a bad boy?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "منداڵێکی ھاروھاج بوویت؟."),
                               const CustomSizedBoxForTTS(),
@@ -507,9 +486,6 @@ class EnglishEntrybad extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "You're a bad liar!"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "درۆزنێکی باش نیت (دیارە درۆ دەکەیت)."),
                               const CustomSizedBoxForTTS(),
@@ -529,9 +505,6 @@ class EnglishEntrybad extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He's a bad loser (= he complains when he loses a game)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دۆڕاوێکی خراپی (شکست پەسەند ناکەیت و ناڕەزایی دەردەبڕی)."),
@@ -553,9 +526,6 @@ class EnglishEntrybad extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Those shoes are bad for her feet."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەو پێڵاوانە خراپن بۆ قاچی."),
                               const CustomSizedBoxForTTS(),
@@ -576,9 +546,6 @@ class EnglishEntrybad extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I've got a bad back."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پشت‌ئێشەیەکی بەئازارم ھەیە."),
                               const CustomSizedBoxForTTS(),
@@ -600,9 +567,6 @@ class EnglishEntrybad extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Put the meat in the fridge so it doesn't go bad."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گۆشت بخەرە ساردکەرەوەکەوە بۆ ئەوەی خراپ نەبێت."),
@@ -625,9 +589,6 @@ class EnglishEntrybad extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It put me in a bad mood for the rest of the day."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بۆ تەواوی ڕۆژەکە خستمیە حەوسەلەیەکی خراپەوە."),
@@ -650,9 +611,6 @@ class EnglishEntrybad extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She felt pretty bad about leaving him."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەستی بە داخ کرد بۆ جێھێشتنی."),
                               const CustomSizedBoxForTTS(),
@@ -673,9 +631,6 @@ class EnglishEntrybad extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I'm afraid I'm feeling pretty bad."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەداخەوەم کە ھەست بە نەخۆشییەکی زۆر دەکەم."),
@@ -697,9 +652,6 @@ class EnglishEntrybad extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She wanted it real bad."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "زۆر بە خراپی دەیویست."),
                               const CustomSizedBoxForTTS(),
@@ -721,9 +673,6 @@ class EnglishEntrybad extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "You will always have the bad as well as the good in the world."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەمیشە خەڵکی خراپ و باش لە جیھاندا دەبن."),

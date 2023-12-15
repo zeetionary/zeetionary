@@ -172,9 +172,6 @@ class EnglishEntrybantam extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I see a small difference between a bantam egg and any other egg."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "جیاوازییەکی کەم دەبینم لەنێوان ھێلکەی مریشکی بانتم و ھەر ھێلکەیەکی تر."),

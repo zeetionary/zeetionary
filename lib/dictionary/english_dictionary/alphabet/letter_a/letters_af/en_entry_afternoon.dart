@@ -131,9 +131,6 @@ class EnglishEntryafternoon extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "In the afternoon, they went shopping."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لە نیوەڕواندا دەچوون بۆ بازاڕ."),
                               const CustomSizedBoxForTTS(),
@@ -152,9 +149,6 @@ class EnglishEntryafternoon extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Come over on Sunday afternoon."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "نیوەڕۆی یەکشەمە وەرە."),
                               const CustomSizedBoxForTTS(),

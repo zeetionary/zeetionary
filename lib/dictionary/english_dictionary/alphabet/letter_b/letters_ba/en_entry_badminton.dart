@@ -172,9 +172,6 @@ class EnglishEntrybadminton extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I enjoyed watching the badminton tournament, even though I didn't understand all the rules."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "چێژم بینی لە سەیرکردنی یاری بادمینتۆنەکە، ئەگەرچی لە ھەموو یاساکان تێنەدەگەشتم."),

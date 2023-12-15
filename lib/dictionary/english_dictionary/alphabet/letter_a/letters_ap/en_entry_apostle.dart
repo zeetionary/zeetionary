@@ -180,9 +180,6 @@ class EnglishEntryapostle extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "James was beheaded in Jerusalem, the first apostle to be martyred."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "جەیمس لە قودس سەربڕدرا و بوو بە یەکەم حەواری کە بکوژرێت."),
@@ -206,9 +203,6 @@ class EnglishEntryapostle extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Her mother was a dedicated apostle of healthy eating."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دایکی داکۆکی‌کارێکی سەرسەختی خواردنی تەندرووست بوو."),

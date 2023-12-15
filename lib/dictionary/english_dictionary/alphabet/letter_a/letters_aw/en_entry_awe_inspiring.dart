@@ -173,9 +173,6 @@ class EnglishEntryaweinspiring extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The building was awe-inspiring in size and design."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بیناکە تەواو سەرنجڕاکێش بوو لە ڕووی قەبارە و دیزاینەوە."),

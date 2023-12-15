@@ -180,9 +180,6 @@ class EnglishEntryaromatherapist extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I was interested in alternative medicine and becoming an aromatherapist."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "حەزم لە چارەسەری سرووشتی و گیادەرمانی بوو و بوون بە ئێرۆماسێراپیست."),

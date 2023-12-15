@@ -181,9 +181,6 @@ class EnglishEntryasylumseeker extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The asylum seeker fled her home country due to political violence."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پەناخوازەکە وڵاتی خۆی جێھێشت بەھۆی توندوتیژی سیاسی."),

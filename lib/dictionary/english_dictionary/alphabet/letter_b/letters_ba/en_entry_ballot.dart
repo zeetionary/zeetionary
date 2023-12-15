@@ -178,9 +178,6 @@ class EnglishEntryballot extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The club members decided in a ballot to suspend the captain."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەندامانی یانەکە لە دەنگدانێکدا بڕیاریاندا کاپتنەکە سڕبکەن."),
@@ -204,9 +201,6 @@ class EnglishEntryballot extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "What percentage of voters cast their ballots?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێژەی سەدی چەند لە دەنگدەران پەڕەی دەنگدانیان پڕکردەوە؟"),
@@ -229,9 +223,6 @@ class EnglishEntryballot extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She won 58.8% of the ballot."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕێژەی ٥٨,٨ دەنگەکانی بردەوە."),
                               const CustomSizedBoxForTTS(),
@@ -254,9 +245,6 @@ class EnglishEntryballot extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The union balloted its members on the proposed changes."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "یەکێتییەکە داوای لە ئەندامەکانی کرد دەنگبدەن لەسەر گۆڕانکارییە پێشنیارکراوەکان."),
@@ -279,9 +267,6 @@ class EnglishEntryballot extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The workers balloted for a strike."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "کرێکاران دەنگیان بۆ مانگرتن دا."),
                               const CustomSizedBoxForTTS(),

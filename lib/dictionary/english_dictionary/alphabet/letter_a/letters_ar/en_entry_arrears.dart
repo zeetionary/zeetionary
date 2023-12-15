@@ -182,9 +182,6 @@ class EnglishEntryarrears extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The family is facing eviction over mortgage arrears."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خێزانەکە تووشی مەترسی دەرکردن لە خانووەکە دەبنەوە بەھۆی قەرزی کۆنی وامی خانووبەرە."),
@@ -206,9 +203,6 @@ class EnglishEntryarrears extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The government has agreed to pay all arrears owed to members of the armed forces."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "حکومەت ڕازی‌بووە ھەموو مووچەی پاشەکەوتی ھێزە چەکدارەکان بداتەوە."),

@@ -183,9 +183,6 @@ class EnglishEntryaustere extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Their clothes were always austere."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "جلەکانیان ھەمیشە سادە و ساکار بوون."),
                               const CustomSizedBoxForTTS(),
@@ -207,9 +204,6 @@ class EnglishEntryaustere extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "His father was a tall, austere man."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "باوکی پیاوێکی درێژی ڕووگرژ بوو."),
                               const CustomSizedBoxForTTS(),
@@ -232,9 +226,6 @@ class EnglishEntryaustere extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They had an austere childhood during the war."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە کاتی جەنگەکەدا ژیانێکی دژواریان ھەبوو."),

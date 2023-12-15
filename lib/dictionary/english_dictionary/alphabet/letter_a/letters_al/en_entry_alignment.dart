@@ -152,9 +152,6 @@ class EnglishEntryalignment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A bone in my spine was out of alignment."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئێسکێک لە بڕبڕەی پشتم پلابوو."),
                               const CustomSizedBoxForTTS(),
@@ -174,9 +171,6 @@ class EnglishEntryalignment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The door needs to be in alignment with the frame before you start work on it."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەرگاکە پێویستە لەگەڵ چوارچێوەکەی ڕێک بێت پێش ئەوەی دەست بە کارکردن بکەیت لەسەری."),
@@ -199,9 +193,6 @@ class EnglishEntryalignment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We will implement policies in alignment with our fiscal goals."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو سیاسەت دادەڕێژین کە لەگەل ئامانجەکانی ساڵەکەمان یەکبگرێتەوە."),
@@ -222,9 +213,6 @@ class EnglishEntryalignment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Property prices are too high and need to be brought back into alignment."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نرخی زەوی زۆر بەرزە و پێویستە ڕێکبخرێت."),
@@ -247,9 +235,6 @@ class EnglishEntryalignment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The new prime minister has moved into a much closer alignment with America."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەرۆک وەزیرانە نوێیەکە ھاوپەیمانییەکی زیاتری لەگەڵ ئەمریکادا ھەیە."),

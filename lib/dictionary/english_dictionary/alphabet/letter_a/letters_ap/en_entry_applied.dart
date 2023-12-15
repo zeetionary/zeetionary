@@ -179,9 +179,6 @@ class EnglishEntryapplied extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "In medicine, applied science is vital for developing new treatments and medical technologies."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە دەرمانسازیدا زانستی کرداری گرنگە بۆ چارەسەری تازە و تەکنۆلۆژیای تەندرووستی."),

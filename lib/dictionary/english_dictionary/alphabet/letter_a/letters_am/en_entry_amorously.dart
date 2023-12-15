@@ -124,9 +124,6 @@ class EnglishEntryamorously extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He looked at her amorously."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بە ئەویندارانە سەیری دەکرد."),
                               const CustomSizedBoxForTTS(),

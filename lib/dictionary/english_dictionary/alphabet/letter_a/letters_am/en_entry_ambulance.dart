@@ -133,9 +133,6 @@ class EnglishEntryambulance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The ambulance crew rushed her to the hospital."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ستافی ئەمبولانسەکە خێرا بردیان بۆ نەخۆشخانە."),

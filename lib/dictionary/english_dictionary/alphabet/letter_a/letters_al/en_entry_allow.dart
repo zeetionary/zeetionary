@@ -359,9 +359,6 @@ class EnglishEntryallow extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "His parents won't allow him to stay out late."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دایک و باوکی ڕێگەی پێ نادەن تا درەنگ لە دەرەوە بمێنێتەوە."),
@@ -382,9 +379,6 @@ class EnglishEntryallow extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The law allowed companies to dismiss workers without any reason."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "یاساکە ڕێگە بە کۆمپانیاکان کرێکاران بەبێ ھیچ ھۆکارێک دەربکەن."),
@@ -407,9 +401,6 @@ class EnglishEntryallow extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "You're allowed an hour to complete the test."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "یەک کاتژمێر کاتت ھەیە بۆ وەڵامدانەوەی تاقیکردنەوەکە."),
@@ -432,9 +423,6 @@ class EnglishEntryallow extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They weren't allowed into the country."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕێگەیان پێنەدرا بچنە ناو وڵاتەکە."),
                               const CustomSizedBoxForTTS(),
@@ -456,9 +444,6 @@ class EnglishEntryallow extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The system allows people the opportunity to browse a wide selection of books."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سیستەمەکە ھەلی ئەوە دەگونجێنێت کە خەڵکی لەناو ژمارەیەکی زۆر جیاوازی پەرتووکدا بگەڕێن."),
@@ -481,9 +466,6 @@ class EnglishEntryallow extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She was very helpful when my mother was ill—I'll allow you that."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆر یارمەتیدەر بوو کە دایکم نەخۆش بوو، دان بەوەدا دەنێم."),

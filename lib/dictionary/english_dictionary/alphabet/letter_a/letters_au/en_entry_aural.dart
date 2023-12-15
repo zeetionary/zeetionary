@@ -182,9 +182,6 @@ class EnglishEntryaural extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She doesn’t speak English well, but her aural comprehension is good."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ناتوانێ بە باشی بە ئینگلیزی قسەبکات، بەڵام توانای بیستنی باشە."),

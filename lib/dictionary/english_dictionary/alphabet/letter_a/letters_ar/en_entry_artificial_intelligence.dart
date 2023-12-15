@@ -183,9 +183,6 @@ class EnglishEntryartificialintelligence extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Language is crucial to the development of artificial intelligence."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زمان زۆر گرنگە بۆ پەرەپێدانی ژیریی دەستکرد."),

@@ -173,9 +173,6 @@ class EnglishEntryanguished extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The anguished song at the end was beautiful."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گۆرانییە بەئازارەکە لەکۆتاییدا جوان بوو."),

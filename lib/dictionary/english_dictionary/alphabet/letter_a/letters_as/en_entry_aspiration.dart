@@ -183,9 +183,6 @@ class EnglishEntryaspiration extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I didn't realize you had political aspirations."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نەمزانی‌بوو ئارەزووت بۆ سیاسەت ھەبوو."),
@@ -227,9 +224,6 @@ class EnglishEntryaspiration extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The teacher instructed the student to pay attention to their aspiration when pronouncing certain words."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "مامۆستاکە داوای لە خوێندکارەکانی کرد سەرنج بدەن بە ئەسپیرەیشنیان لە خوێندنەوەی ھەندێک وشەی دیاریکراو."),

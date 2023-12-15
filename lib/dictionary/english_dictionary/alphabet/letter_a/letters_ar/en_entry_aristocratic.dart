@@ -180,9 +180,6 @@ class EnglishEntryaristocratic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They were impressed by his accent and aristocratic manner."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەرسام‌بوون بە ئەکسێنت و ھەڵسوکەوتی خانەدانەی."),

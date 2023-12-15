@@ -176,9 +176,6 @@ class EnglishEntryballet extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Natalie is, without a doubt, the star student in this year's ballet class."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ناتالی، بەبێ گومان، قوتابی ئەستێرەی ئەمساڵی وانەی بالێیە."),
@@ -202,9 +199,6 @@ class EnglishEntryballet extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "By the age of 15 he had already composed his first ballet (= music for a ballet)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە تەمەنی ١٥ ساڵیدا لەمێژبوو یەکەم میوزیکی بالێی خۆی داڕشت بوو."),
@@ -228,9 +222,6 @@ class EnglishEntryballet extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The members of the Royal Ballet are renowned for their grace, athleticism, and artistry."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەندامانی 'بالێی شاھانە' ناسراون بۆ سەنگینی و وەرزشی و کارامەیی ھونەری."),

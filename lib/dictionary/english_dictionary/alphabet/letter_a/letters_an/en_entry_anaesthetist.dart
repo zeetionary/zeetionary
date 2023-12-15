@@ -172,9 +172,6 @@ class EnglishEntryanaesthetist extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The anaesthetist tried three times to insert the anaesthetic."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پسپۆڕی بێ‌ھۆشی سێ جار ھەوڵی‌دا بەنجەکە بکوتێ."),

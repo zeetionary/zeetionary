@@ -1721,11 +1721,11 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "bistro",
     "bit",
     "bitch",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    "bite",
+    "bite-sized",
+    "biting",
+    "bitmap",
+    "bitter",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -8982,26 +8982,26 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-bitch");
                   }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
+                  if (wordsEnglish == "bite") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bite");
+                  }
+                  if (wordsEnglish == "biting") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-biting");
+                  }
+                  if (wordsEnglish == "bite-sized") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bite-sized");
+                  }
+                  if (wordsEnglish == "bitmap") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bitmap");
+                  }
+                  if (wordsEnglish == "bitter") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bitter");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
@@ -9148,7 +9148,8 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     // https://bard.google.com/chat/ad9cccab2b6f39b4
 
     if (englishhistory.contains(word)) {
-      englishhistory.remove(word); // Remove the existing item before adding it again.
+      englishhistory
+          .remove(word); // Remove the existing item before adding it again.
     }
 
     englishhistory.insert(0, word); // Add the item back to the top of the list.

@@ -133,9 +133,6 @@ class EnglishEntryalleviation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Acupuncture might help with the alleviation of headaches."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەرزی ئاژنین لەوانەیە یارمەتیدەر بێت لە سوککردنی سەرێشە."),

@@ -171,9 +171,6 @@ class EnglishEntryanglo extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The term 'Anglo-Canadian' refers to people of English descent living in Canada."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئینگلیزی-بەریتانی واتە کەسێک کە بە ڕەچەڵەک ئینگلیزە بەڵام لە کەنەدا دەژی."),

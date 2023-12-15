@@ -175,9 +175,6 @@ class EnglishEntryanthology extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "This Michael Jackson anthology includes some rare recordings of his best songs."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم گوڵب‌ژێرەی مایکڵ جاکسۆن ھەندێک لە تۆماری دەگمەنی باشترین گۆرانییەکانی تێدایە."),

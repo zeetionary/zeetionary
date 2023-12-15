@@ -174,9 +174,6 @@ class EnglishEntryanonymity extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Names of people in the book were changed to preserve anonymity."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ناوەکانی ناو کتێبەکە گۆڕدران بۆ ھێشتنەوەی بێ‌ناوی."),

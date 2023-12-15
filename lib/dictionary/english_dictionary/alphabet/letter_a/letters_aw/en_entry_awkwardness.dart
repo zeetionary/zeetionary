@@ -177,9 +177,6 @@ class EnglishEntryawkwardness extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She laughed to cover up her feeling of awkwardness."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پێکەنی بۆ شاردنەوەی ھەستی ناڕەحەتیی."),
                               const CustomSizedBoxForTTS(),
@@ -202,9 +199,6 @@ class EnglishEntryawkwardness extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The awkwardness of the shape makes the desk difficult to lift."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نەگونجاوی شێوەی مێزەکە وادەکات ئاسان نەبێت بەرزبکرێتەوە."),
@@ -228,9 +222,6 @@ class EnglishEntryawkwardness extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He outgrew his physical awkwardness and became a leading man in school plays."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خۆی ڕزگارکرد لە جەستە ناڕێکەکەی و بوو بە سەرمەشق لە یارییەکانی قوتابخانە."),

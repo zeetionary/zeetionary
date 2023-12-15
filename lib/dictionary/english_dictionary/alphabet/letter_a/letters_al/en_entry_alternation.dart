@@ -133,9 +133,6 @@ class EnglishEntryalternation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The alternation of sun and snow continued for the rest of the week."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نۆرەکاری خۆرەتاو و بەفربارین بەردەوام بوو تا کۆتایی ھەفتەکە."),

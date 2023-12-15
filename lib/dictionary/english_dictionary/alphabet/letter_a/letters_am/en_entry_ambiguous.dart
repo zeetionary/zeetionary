@@ -132,9 +132,6 @@ class EnglishEntryambiguous extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The paragraph is rendered ambiguous by the writer's careless use of pronouns."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پەرەگرافەکە ناڕوون بووە بەھۆی کەمتەرخەمانە بەکارھێنانی جێناوەکان لەلایەن نووسەرەوە."),

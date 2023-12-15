@@ -128,9 +128,6 @@ class EnglishEntryairforce extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "His parents discouraged him from joining the airforce."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دایک و باوکی ساردیان کردەوە لە پەیوەندیکردن بە ھێزی ئاسمانی."),

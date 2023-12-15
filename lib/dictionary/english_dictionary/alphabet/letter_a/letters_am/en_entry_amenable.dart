@@ -134,9 +134,6 @@ class EnglishEntryamenable extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They had three very amenable children."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "سێ منداڵی گوێگریان ھەبوو."),
                               const CustomSizedBoxForTTS(),
@@ -156,9 +153,6 @@ class EnglishEntryamenable extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He seemed most amenable to my idea."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "زۆر قایل دیاربوو بە بیرۆکەکەم."),
                               const CustomSizedBoxForTTS(),

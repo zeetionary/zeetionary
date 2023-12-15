@@ -183,9 +183,6 @@ class EnglishEntryauthentically extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "These are novels that authentically represent human experience."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەمانە ئەو ڕۆمانەن کە بەشێوەیەکی درووست ئەزموونی ژیان مرۆڤ پیشان دەدەن."),

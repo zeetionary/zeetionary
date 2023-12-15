@@ -171,9 +171,6 @@ class EnglishEntryanglicize extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She married Norwegian immigrant Niels Larsen, who later anglicized his name."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھاوسەرگیری لەگەڵ پەنابەری نەرویجی نیەڵز لارسن کرد کە دواتر ناوەکەی خۆی بە ئینگلیزی کرد."),

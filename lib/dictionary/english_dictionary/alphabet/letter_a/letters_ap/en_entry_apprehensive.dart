@@ -180,9 +180,6 @@ class EnglishEntryapprehensive extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I was a little apprehensive about the effects of what I had said."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەمێک نیگەران بووم سەبارەت بە کاریگەرییەکانی ئەوەی وتم."),

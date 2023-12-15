@@ -174,9 +174,6 @@ class EnglishEntrybaddebt extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The bank expects to lose £703 million of last year's profits as a result of bad debts."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بانکەکە پێشبینی لەدەستدانی ٧٠٣ ملیۆن یۆرۆ دەکات لە قازانجەکانی ساڵی ڕابردوو بەھۆی قەرزی لەدەستچووەوە."),

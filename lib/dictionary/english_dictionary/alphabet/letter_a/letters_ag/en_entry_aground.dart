@@ -130,9 +130,6 @@ class EnglishEntryaground extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The oil tanker ran/went aground off the Spanish coast."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەشتییە نەوتییەکە چەقی لە کەناراوەکانی ئیسپانیا."),

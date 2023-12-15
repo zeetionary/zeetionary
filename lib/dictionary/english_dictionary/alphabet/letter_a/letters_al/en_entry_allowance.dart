@@ -158,9 +158,6 @@ class EnglishEntryallowance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Do you get an allowance for clothing?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پارە وەردەگریت بۆ جلوبەرگ؟"),
                               const CustomSizedBoxForTTS(),
@@ -180,9 +177,6 @@ class EnglishEntryallowance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The weekly allowance for each child is £15."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەفتانەی ھەر منداڵێک ١٥ پاوەندە."),
                               const CustomSizedBoxForTTS(),
@@ -204,9 +198,6 @@ class EnglishEntryallowance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The recommended daily allowance of vitamin C is 60–90 milligrams."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێژەی پێشنیازکراوی ڕۆژانەی ڤیتامین C ٦٠-٩٠ میلیگرامە."),

@@ -184,9 +184,6 @@ class EnglishEntryauthentic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I don't know if the painting is authentic."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زانیاریم نییە ئاخۆ کە تابلۆکە ڕەسەنە."),
@@ -210,9 +207,6 @@ class EnglishEntryauthentic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The historian's painstaking research resulted in an authentic understanding of the events leading up to the revolution."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "توێژینەوەی شەکەتکەری مێژوونووسان ئەنجامەکەی تێگەشتنێکی درووست بوو بۆ ئەو ڕووداوانەی کە گەشتن بە شۆڕشەکە."),
@@ -236,9 +230,6 @@ class EnglishEntryauthentic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The architect's design for the new building was an authentic reproduction of a 19th-century house."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دیزاینی تەلارسازەکە بۆ بینا تازەکە کۆپپیەکی تەواوی خانوویەکی سەدەی ١٩ بوو."),

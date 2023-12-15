@@ -170,9 +170,6 @@ class EnglishEntryalready extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We got there early but Mike had already left."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زوو گەشتینە ئەوێ، بەڵام مایک لەمێژبوو ڕۆشتبوو."),
@@ -194,9 +191,6 @@ class EnglishEntryalready extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "You're not leaving already, are you?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەروا زوو ناڕۆن، وایە؟"),
                               const CustomSizedBoxForTTS(),
@@ -218,9 +212,6 @@ class EnglishEntryalready extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The new company already has an excellent reputation."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کۆمپانیا تازەکە بەری نھا ناوودەنگێکی نایابی ھەیە."),
@@ -243,9 +234,6 @@ class EnglishEntryalready extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Just stop already, no one feels sorry for you."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دە وازبێنە، کەس ھەست بە بەزەیی ناکات بۆت."),

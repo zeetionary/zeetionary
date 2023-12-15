@@ -174,9 +174,6 @@ class EnglishEntryanticyclone extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The anticyclone brought bright sunshine and calm conditions to most areas."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دژە-زریانەکە تیشکی ڕوون و کەشی ھێمنی ھێنا بۆ زۆرێک لە ناوچەکان."),

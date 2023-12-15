@@ -185,9 +185,6 @@ class EnglishEntryautonomous extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The country now has 17 autonomous regions, each with a distinct culture."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وڵاتەکە ئێستا ١٧ ھەرێمی خۆبەڕێوەبەری ھەیە و ھەریەکەیان کەلتووری بۆ خۆی ھەیە."),
@@ -211,9 +208,6 @@ class EnglishEntryautonomous extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Teachers aim to help children become autonomous learners."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "مامۆستایان ئامانجیانە یارمەتی خوێندکاران بدەن ببن بە فێرخوازی سەربەخۆ."),
@@ -237,9 +231,6 @@ class EnglishEntryautonomous extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The development of autonomous vehicles has the potential to revolutionize transportation."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پەرەپێدانی ئۆتۆمبێلی خۆلێخوڕ لەتوانادایە شۆڕشێک درووست بکات لە گواستنەوەدا."),

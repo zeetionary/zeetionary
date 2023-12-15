@@ -132,9 +132,6 @@ class EnglishEntryallowable extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A certain level of error is allowable (= permitted to happen)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێژەیەکی دیاریکراوی ھەڵە ڕێگەپێدراوە."),

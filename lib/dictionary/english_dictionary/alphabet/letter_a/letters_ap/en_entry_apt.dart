@@ -182,9 +182,6 @@ class EnglishEntryapt extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It was a particularly apt name for someone with his skills."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ناوێکی لێوەشاوەی ھەبوو بەپێی شارەزاییەکانی."),
@@ -206,9 +203,6 @@ class EnglishEntryapt extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A skilled writer uses apt descriptions to create a rich and immersive narrative."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نووسەری بەھرەمەند باسکردنی بەجێ بەکاردێنی بۆ بەرھەمھێنانی گێڕانەوەی دەوڵەمەند کە خوێنەر تێیدا ڕۆبچێت."),
@@ -232,9 +226,6 @@ class EnglishEntryapt extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Babies are apt to put objects into their mouths."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "منداڵی بچووک خووی ئەوەیان ھەیە شت بخەنە دەمیان."),
@@ -258,9 +249,6 @@ class EnglishEntryapt extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We have some particularly apt students in the class this year."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەمساڵ چەند خوێندکارێکی بەتایبەت زرنگمان ھەیە لە پۆلدا."),

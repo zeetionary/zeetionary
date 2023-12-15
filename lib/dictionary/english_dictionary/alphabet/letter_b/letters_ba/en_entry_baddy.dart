@@ -174,9 +174,6 @@ class EnglishEntrybaddy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "As usual, the cops get the baddies in the end."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وەک ھەمیشە، پۆلیس لەکۆتاییدا کەسە خراپەکان دەگرن."),

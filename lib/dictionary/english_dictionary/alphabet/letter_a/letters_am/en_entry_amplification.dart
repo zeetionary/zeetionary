@@ -175,9 +175,6 @@ class EnglishEntryamplification extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Amplification of this energy promotes fertilization of the surrounding area."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەھێزکردنی ئەم وزەیە یارمەتیدەرە بۆ پیتاندنی ناوچەی دەورووبەر."),
@@ -201,9 +198,6 @@ class EnglishEntryamplification extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "That comment needs some amplification."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو لێدوانە پێویستی بە ھەندێک ڕوونکردنەوە ھەیە."),

@@ -355,9 +355,6 @@ class EnglishEntryback extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was lying on his back on the sofa."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەسەر پشتی لەسەر قەنەفەکە پاڵکەوتبوو."),
@@ -380,9 +377,6 @@ class EnglishEntryback extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She broke her back in a riding accident."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پشتی شکا لە ڕووداوێکی سوارچاکیدا."),
                               const CustomSizedBoxForTTS(),
@@ -404,9 +398,6 @@ class EnglishEntryback extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The man was refusing to go to the back of the queue."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پیاوەکە ڕەتیدەکردەوە بچێتە دواوەی ڕیزەکە."),
@@ -429,9 +420,6 @@ class EnglishEntryback extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Take a card and write your name on the back."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کاردێک دەربکە و ناوت لە پشتەوەت بنووسە."),
@@ -454,9 +442,6 @@ class EnglishEntryback extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The arts page is usually towards the back of the newspaper."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پەڕەی ھونەر زۆرجار دەکەوێتە کۆتایی ڕۆژنامەکە."),
@@ -479,9 +464,6 @@ class EnglishEntryback extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He put his jacket on the back of his chair (= the part of the chair that you put your back against when you sit on it)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "چاکەتەکەی خستە سەر پشتی کوورسیەکە."),
                               const CustomSizedBoxForTTS(),
@@ -502,9 +484,6 @@ class EnglishEntryback extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He plays at left back."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لە بەشی چەپی بەرگری یاری دەکات."),
                               const CustomSizedBoxForTTS(),
@@ -525,9 +504,6 @@ class EnglishEntryback extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "We were sitting in the back row."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لە ڕیزی دواوە دانیشتبووین."),
                               const CustomSizedBoxForTTS(),
@@ -549,9 +525,6 @@ class EnglishEntryback extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It was mentioned in a a back issue of the magazine."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە ژمارەیەکی پێشووتری گۆڤارەکەدا باسکرا."),
@@ -574,9 +547,6 @@ class EnglishEntryback extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They owe the staff several thousand in back pay."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "چەند ھەزارێکی مووچەی نەدراوی ستافەکە قەرزارن."),
@@ -601,9 +571,6 @@ class EnglishEntryback extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He'll be back on Monday."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕۆژی دووشەممە دەگەڕێتەوە."),
                               const CustomSizedBoxForTTS(),
@@ -624,9 +591,6 @@ class EnglishEntryback extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I moved back to let them pass."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھاتمە دواوە و ڕێگەمدا تێپەڕن."),
                               const CustomSizedBoxForTTS(),
@@ -648,9 +612,6 @@ class EnglishEntryback extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We should have turned left five kilometres back."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێش پێنج کیلۆمەتر دەبوو بە چەپدا لامان دابا."),
@@ -672,9 +633,6 @@ class EnglishEntryback extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "If he hits me, I'll hit him back."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەگەر لێمدا، لێیئەدەمەوە."),
                               const CustomSizedBoxForTTS(),
@@ -695,9 +653,6 @@ class EnglishEntryback extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The barriers kept the crowd back."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەربەستەکان جەماوەرەکەیان دوور ھێشتبوویەوە."),
@@ -719,9 +674,6 @@ class EnglishEntryback extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The cathedral dates back to 1123."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "کڵێساکە بۆ ساڵی ١١٢٣ دەگەڕێتەوە."),
                               const CustomSizedBoxForTTS(),
@@ -743,9 +695,6 @@ class EnglishEntryback extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He could no longer hold back his tears."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "چیتر نەیدەتوانی فرمێسکەکانی کۆنترۆڵ بکات."),
@@ -767,9 +716,6 @@ class EnglishEntryback extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Beards are back."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕیش دووبارە بووە بە باو."),
                               const CustomSizedBoxForTTS(),
@@ -791,9 +737,6 @@ class EnglishEntryback extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Her parents backed her in her choice of career."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دایک و باوکی پاڵپشتیان کرد لە ھەڵبژاردنی کارەکەی."),
@@ -816,9 +759,6 @@ class EnglishEntryback extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Doctors have backed plans to raise the tax on cigarettes."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پزیشکان پاڵپشتی پلانی بەرزکردنەوەی باجن لەسەر جگەرە."),
@@ -841,9 +781,6 @@ class EnglishEntryback extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "All complaints must be backed by evidence."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەموو ناڕەزاییەک دەبێت بەڵگەی پشتیوانی ھەبێت."),
@@ -866,9 +803,6 @@ class EnglishEntryback extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I backed the winner and won fifty pounds."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گرەوم لەسەر براوەکە کرد و پەنجا پاوەندم بردەوە."),
@@ -890,9 +824,6 @@ class EnglishEntryback extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She backed into the garage."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بەکی کردە گەراجەکە."),
                               const CustomSizedBoxForTTS(),
@@ -913,9 +844,6 @@ class EnglishEntryback extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Each piece is backed with vinyl."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەر پارچەیەک بە ڤینیل داپۆشراوە."),
                               const CustomSizedBoxForTTS(),
@@ -936,9 +864,6 @@ class EnglishEntryback extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The house is backed by fields."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "خانووەکە کێڵگەی لە پشتەوەیە."),
                               const CustomSizedBoxForTTS(),

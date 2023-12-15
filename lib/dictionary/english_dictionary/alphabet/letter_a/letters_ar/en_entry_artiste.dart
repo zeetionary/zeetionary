@@ -189,9 +189,6 @@ class EnglishEntryartiste extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "After the band broke up, Joe relaunched his career as a solo artiste."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە دوای ئەوەی باندەکە پارچەپارچە بوون، جۆو دووبارە بە تەنیایی دەستی‌پێکردەوە."),

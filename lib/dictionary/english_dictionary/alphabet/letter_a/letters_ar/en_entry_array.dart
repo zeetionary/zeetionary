@@ -184,9 +184,6 @@ class EnglishEntryarray extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Her writing covers a wide array of topics."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نووسینەکانی کۆمەڵە بابەتێکی زۆر لەخۆیان‌دەگرن."),
@@ -208,9 +205,6 @@ class EnglishEntryarray extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The city has the usual array of social problems."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "شارەکە کێشە دەستەیەک لە کێشەی باوی کۆمەڵایەتی ھەیە."),
@@ -234,9 +228,6 @@ class EnglishEntryarray extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Jars of all shapes and sizes were arrayed on the shelves."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دۆڵکەی ھەموو جۆر و قەبارەیەک لەسەر ڕەفەکان ڕیزکرابوون."),
@@ -260,9 +251,6 @@ class EnglishEntryarray extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The enemy forces arrayed against them."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھێزەکانی دووژمن لەدژیان کەوتنە ئامادەباشییەوە."),

@@ -186,9 +186,6 @@ class EnglishEntryassign extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The two large classrooms have been assigned to us."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دوو پۆلی گەورەمان پێدراوە."),
                               const CustomSizedBoxForTTS(),
@@ -209,9 +206,6 @@ class EnglishEntryassign extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The teacher assigned each of the children a different task."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "مامۆستاکە ئەرکی جیاوازی دا بە ھەر قوتابییەک."),
@@ -235,9 +229,6 @@ class EnglishEntryassign extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They've assigned their best man to the job."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "باشترین کەسیان بۆ کارەکە ڕاسپاردووە."),
                               const CustomSizedBoxForTTS(),
@@ -260,9 +251,6 @@ class EnglishEntryassign extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "All the team were assigned to Poland."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "تەواوی تیمەکە بۆ پۆڵەندا نێردران."),
                               const CustomSizedBoxForTTS(),
@@ -285,9 +273,6 @@ class EnglishEntryassign extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The painting cannot be assigned an exact date."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تابلۆکە ناتوانرێت مێژوویەکی تەواوی بۆ دیاری‌بکرێت."),
@@ -311,9 +296,6 @@ class EnglishEntryassign extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The agreement assigns copyright to the publisher."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێککەوتنەکە مافی کۆپیڕایت دەدات بە دەزگای بڵاوکار."),

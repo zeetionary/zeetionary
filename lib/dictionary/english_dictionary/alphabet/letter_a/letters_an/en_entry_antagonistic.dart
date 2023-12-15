@@ -175,9 +175,6 @@ class EnglishEntryantagonistic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The interview made her antagonistic towards journalists."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "چاوپێکەوتنەکە وای‌کرد دژبەرانە بێت بەرامبەر ڕۆژنامەنووسان."),

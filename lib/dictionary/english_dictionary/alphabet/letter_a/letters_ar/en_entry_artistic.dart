@@ -183,9 +183,6 @@ class EnglishEntryartistic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The artistic talents of the Renaissance painters were truly remarkable."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "توانا ھونەرییەکانی نیگارکێشانی سەردەمی بوژانەوە بەڕاستی ناوازە بوون."),
@@ -209,9 +206,6 @@ class EnglishEntryartistic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "His friends are all artistic - they're painters, musicians, and writers."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھاوڕێکانی ھەموویان دەسڕەنگینن، نیگارکێش و میوزیکژەن و نووسەرن."),
@@ -235,9 +229,6 @@ class EnglishEntryartistic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The decor inside the house was very artistic."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دیکۆری ناو خانووەکە زۆر ھونەرکارانە بوو."),

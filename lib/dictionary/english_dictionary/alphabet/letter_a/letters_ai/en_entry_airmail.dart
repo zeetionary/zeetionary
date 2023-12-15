@@ -127,9 +127,6 @@ class EnglishEntryairmail extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Send it airmail/by airmail."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بە پۆستەی ئاسمانی بینێرە."),
                               const CustomSizedBoxForTTS(),

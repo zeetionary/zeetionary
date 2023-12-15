@@ -182,9 +182,6 @@ class EnglishEntryautomate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The entire manufacturing process has been automated."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەواوی پڕۆسەی بەرھەمھێنانەکە کراوە بە خۆکارانە."),

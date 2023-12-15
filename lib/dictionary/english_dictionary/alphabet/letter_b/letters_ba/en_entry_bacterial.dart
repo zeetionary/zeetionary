@@ -172,9 +172,6 @@ class EnglishEntrybacterial extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "My sore throat came from a bacterial infection."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەڵئاوسانی قوڕگم بەھۆی تووشبوون بە بەکتریاوە بوو."),

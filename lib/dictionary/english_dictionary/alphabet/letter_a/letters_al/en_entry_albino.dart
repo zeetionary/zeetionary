@@ -133,9 +133,6 @@ class EnglishEntryalbino extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I ended up living with this albino guy who was an engineer."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەکۆتاییدا کەوتم لەگەڵ کابرایەکی ئەلباینۆ کە ئەندازیار بوو."),
@@ -158,9 +155,6 @@ class EnglishEntryalbino extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She was not an albino, but nearly so."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەسێکی ئەلباینۆ نەبوو، بەڵام نزیک بوو لێی."),

@@ -184,9 +184,6 @@ class EnglishEntryatrociously extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The movie is badly acted and atrociously directed."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "فیلمەکە خراپ ڕۆڵی تێداگێڕدراوە و شپرزانەش دەرھێنانی بۆکراوە."),
@@ -210,9 +207,6 @@ class EnglishEntryatrociously extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "These prisoners have been treated atrociously."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم زیندانییانە دڵڕەقانە مامەڵەیان لەگەڵ کراوە."),

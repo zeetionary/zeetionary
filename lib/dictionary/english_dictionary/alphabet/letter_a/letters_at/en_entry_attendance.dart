@@ -184,9 +184,6 @@ class EnglishEntryattendance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Attendance at these lectures is not compulsory."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئامادەبوون لەم وانانە ناچاری نییە."),
                               const CustomSizedBoxForTTS(),
@@ -209,9 +206,6 @@ class EnglishEntryattendance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There was an attendance of 42 at the meeting."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "٤٢ کەس لە چاوپێکەوتنەکە بوون."),
                               const CustomSizedBoxForTTS(),

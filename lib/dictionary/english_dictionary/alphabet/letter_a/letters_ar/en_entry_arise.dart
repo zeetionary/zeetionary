@@ -182,9 +182,6 @@ class EnglishEntryarise extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "An opportunity arose to work in the United States."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەلێک ھاتەپێشەوە بۆ کارکردن لە ئەمریکا."),
@@ -206,9 +203,6 @@ class EnglishEntryarise extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A serious problem can arise if the heart stops pumping effectively."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کێشەیەکی گەورە دەکرێت درووست‌ببێت ئەگەر دڵ لە لێدان بکەوێت."),
@@ -232,9 +226,6 @@ class EnglishEntryarise extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Violence typically arises out of anger."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "توندوتیژی زۆرجار لە ئەنجامی تووڕەیی ڕوودەدات."),
@@ -258,9 +249,6 @@ class EnglishEntryarise extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Several new industries arose in the town."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ژمارەیەک کارگەی تازە درووست‌بوون لە شارەکە."),
@@ -283,9 +271,6 @@ class EnglishEntryarise extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He arose at dawn."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لە بەرەبەیاندا ھەستا."),
                               const CustomSizedBoxForTTS(),

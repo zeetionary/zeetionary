@@ -174,9 +174,6 @@ class EnglishEntrybanal extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He knew how banal the question was as soon as he had asked it."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەیزانی پرسیارەکە چەندە ھیچ بوو ھەرکە پرسی."),

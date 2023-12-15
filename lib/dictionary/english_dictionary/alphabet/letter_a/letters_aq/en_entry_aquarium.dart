@@ -180,9 +180,6 @@ class EnglishEntryaquarium extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The aquarium has some interesting specimens of unusual fish."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "مۆژەماسییەکە ھەندێک نموونەی سەرنجڕاکێشی ماسی دەگمەنی تێدایە."),
@@ -205,9 +202,6 @@ class EnglishEntryaquarium extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "We went to the aquarium last week."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەفتەی ڕابردوو چووین بۆ ئەکواریەمەکە."),

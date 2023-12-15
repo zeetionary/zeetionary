@@ -173,9 +173,6 @@ class EnglishEntryanaerobic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Some bacteria can only live in anaerobic conditions."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەندێک بەکتریا تەنھا لە شوێنی بێ‌ئۆکسجیندا دەژین."),

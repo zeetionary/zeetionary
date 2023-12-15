@@ -132,9 +132,6 @@ class EnglishEntryalbeit extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He finally agreed, albeit reluctantly, to help us."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە کۆتاییدا ڕازیبوو یارمەتیمان بدات، ئەگەرچی بەنابەدڵییەوە."),

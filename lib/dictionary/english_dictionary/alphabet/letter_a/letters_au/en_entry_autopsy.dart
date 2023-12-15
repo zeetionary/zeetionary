@@ -174,9 +174,6 @@ class EnglishEntryautopsy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The autopsy revealed that he had been poisoned."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "توێکارییەکە دەریخست ژەھرخواردکراوە."),
                               const CustomSizedBoxForTTS(),

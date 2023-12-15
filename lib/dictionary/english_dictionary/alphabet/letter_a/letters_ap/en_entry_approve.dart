@@ -181,9 +181,6 @@ class EnglishEntryapprove extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I told my mother I wanted to leave school but she didn't approve."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە دایکمم گوت واز لە قوتابخانە دێنم، بەڵام ڕازی نەبوو."),
@@ -204,9 +201,6 @@ class EnglishEntryapprove extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Do you approve of my idea?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بیرۆکەکەمت بەدڵە؟"),
                               const CustomSizedBoxForTTS(),
@@ -229,9 +223,6 @@ class EnglishEntryapprove extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The committee unanimously approved the plan."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لیژنەکە بەتێکڕا پلانەکەی پەسەندکرد."),
                               const CustomSizedBoxForTTS(),
@@ -254,9 +245,6 @@ class EnglishEntryapprove extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "This medicine is not approved for use in children."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم دەرمانە بۆ بەکارھێنان لەسەر منداڵ پەسەند نەکراوە."),

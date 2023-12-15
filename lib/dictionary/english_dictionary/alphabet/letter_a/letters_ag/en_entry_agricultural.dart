@@ -131,9 +131,6 @@ class EnglishEntryagricultural extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She's studying agricultural science."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "زانستی کشتوکاڵ دەخوێنێت."),
                               const CustomSizedBoxForTTS(),

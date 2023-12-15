@@ -198,9 +198,6 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A little luck wouldn't go amiss right now!"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "کەمێک بەخت خراپ نابێت ئێستا!"),
                               const CustomSizedBoxForTTS(),
@@ -221,9 +218,6 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I followed them all the way to make sure nothing went amiss."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەواوی ڕێگاکە شوێنیان کەوتم بۆ ئەوەی دڵنیابم ھیچ شتێک بە ھەڵە نەچوو."),

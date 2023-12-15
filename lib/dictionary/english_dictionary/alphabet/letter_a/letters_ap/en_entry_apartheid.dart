@@ -177,9 +177,6 @@ class EnglishEntryapartheid extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "During the late 1980s and 1990s, South Africa was undergoing its dramatic transition from apartheid to black majority rule."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە ساڵانی ١٩٨٠ و ١٩٩٠ ەکان ئەفریقای باشوور بە بە گۆڕانی بەرچاو تێدەپەڕی لە سیستەمی ئەپارتەیدەوە بۆ سیستەمی زۆرینە ڕەشپێست."),

@@ -175,9 +175,6 @@ class EnglishEntryannotation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It will be published with annotations."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بڵاودەکرێتەوە لەگەڵ پەراوێزدا."),
                               const CustomSizedBoxForTTS(),
@@ -198,9 +195,6 @@ class EnglishEntryannotation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The annotation of literary texts makes them more accessible."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بڵاوکردنەوەی نووسراوی ئەدەبی بە ڕوونکردنەوەوە وادەکات خەڵکی زیاتر بیانخوێننەوە."),

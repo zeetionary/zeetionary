@@ -184,9 +184,6 @@ class EnglishEntryascend extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The air became colder as we ascended."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەشەکە ساردتر بوو کە زیاتر سەرکەوتین."),
@@ -208,9 +205,6 @@ class EnglishEntryascend extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Her heart was thumping as she ascended the stairs."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دڵی بەخێرایی لێی‌دەدا کە بە پەیژەکەدا دەچووە سەرەوە."),
@@ -232,9 +226,6 @@ class EnglishEntryascend extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They slowly ascended the steep path up the mountain."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەھێواشی بە ڕێگا لێژەکەی سەرەوەی شاخەکەدا چوونەسەرەوە."),
@@ -256,9 +247,6 @@ class EnglishEntryascend extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The young prince ascended the throne after the death of his father."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "شازادە گەنجەکە چووەسەر تەختی شاھانە لە دوای مەرگی باوکی."),

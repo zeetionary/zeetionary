@@ -180,9 +180,6 @@ class EnglishEntryapology extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "You owe him an apology for what you said."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لێبور‌دن‌خوازییەک قەرزاری بۆ ئەوەی وتت."),
@@ -203,9 +200,6 @@ class EnglishEntryapology extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Please accept my sincere apologies."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تکایە عوزرماییە پڕ بەدڵەکەم پەسەند بکە."),

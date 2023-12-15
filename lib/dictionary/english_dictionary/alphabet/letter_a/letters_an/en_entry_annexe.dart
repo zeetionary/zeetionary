@@ -181,9 +181,6 @@ class EnglishEntryannexe extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Delicate and valuable books are kept in an air-conditioned annexe to the main library."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کتێبە ناسک و بەنرخەکان لە ژوورێکی بچووکی کتێبخانە سەرەکییەکەن کە سیستەمی فێنککەرەوەی تێدایە."),

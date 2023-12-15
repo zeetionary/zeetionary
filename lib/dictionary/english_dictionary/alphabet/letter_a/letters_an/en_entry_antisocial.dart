@@ -179,9 +179,6 @@ class EnglishEntryantisocial extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Increasingly, smoking is regarded as an antisocial habit."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "جگەرەکێشان زیاتر و زیاتر لەلایەن خەڵکییەوە دادەنرێت بە شتێکی ناکۆمەڵایەتی."),
@@ -205,9 +202,6 @@ class EnglishEntryantisocial extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They'll think you're being antisocial if you don't go."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وابیردەکەنەوە ناکۆمەڵایەتیت ئەگەر نەچیت."),

@@ -134,9 +134,6 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Unlike Edison, George Westinghouse was a proponent of alternating current."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێچەوانەی تۆماس ئەدیسۆن، جۆرج وێستینگھاوس لایەنگیری تەزووی گۆڕاو بوو."),

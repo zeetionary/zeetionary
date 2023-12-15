@@ -176,9 +176,6 @@ class EnglishEntrybacking extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The police gave the proposals their full backing."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پۆلیس پشتگیری تەواوی دا بە پێشنیارەکان."),
@@ -202,9 +199,6 @@ class EnglishEntrybacking extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It's strong cloth - it might be useful as (a) backing."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پارچەیەکی بەھێزە، لەوانەیە بەسوود بێت وەک پارێزەرێک."),
@@ -228,9 +222,6 @@ class EnglishEntrybacking extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She sang as part of an backing group."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وەک بەشێک لە گرووپی یاریدەدەر گۆرانی گوتەوە."),

@@ -174,9 +174,6 @@ class EnglishEntrybalcony extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "We had drinks on the hotel balcony."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لە بەرھەیوانەکە خواردمانەوە."),
                               const CustomSizedBoxForTTS(),
@@ -199,9 +196,6 @@ class EnglishEntrybalcony extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Our seats are in row F of the balcony."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "جێگاکانمان لە ڕیزی Fی لۆژی سەرەوەیە."),
                               const CustomSizedBoxForTTS(),

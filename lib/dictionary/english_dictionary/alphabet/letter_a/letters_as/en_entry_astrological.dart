@@ -181,9 +181,6 @@ class EnglishEntryastrological extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He likes to talk about his astrological sign, which is Leo, and reads his horoscope every day."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "حەزئەکات قسە لەسەر ھێما فەلەکناسییەکەی بکات کە بورجی لیۆیە، و ھەموو ڕۆژێک پێشبینییەکانی دەخوێنێتەوە."),

@@ -197,9 +197,6 @@ class EnglishEntryband extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He plays drums in a band that he formed with some friends."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دومەڵەک لێدەدا لە باندێکدا کە لەگەڵ ژمارەیەک ھاوڕێی درووستیکرد."),
@@ -222,9 +219,6 @@ class EnglishEntryband extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He persuaded a small band of volunteers to help."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەستەیەکی بچوول لە خۆبەخشانی ڕازیکرد کە یارمەتی بدەن."),
@@ -247,9 +241,6 @@ class EnglishEntryband extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "All babies in the hospital have name bands on their wrists."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەموو منداڵانی نەخۆشخانەکان تیزماڵکێک لە مەچەکە کە ناویانی لەسەر نووسراوە."),
@@ -272,9 +263,6 @@ class EnglishEntryband extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The light had expanded in a broad band across the sky."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لایتەکە بە ھێڵێکی فراوان بە ئاسماندا بڵاوبووبوویەوە."),
@@ -297,9 +285,6 @@ class EnglishEntryband extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Short-wave radio uses the 20–50-metre band."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕادیۆی مەودا کورت شەپۆلی ٢٠-٥٠ مەتر بەکاردێنێت."),
@@ -321,9 +306,6 @@ class EnglishEntryband extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Which tax band do you fall into?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەر بە کام دەستەی باجدانی؟ (چەندە باج دەدەیت)."),
@@ -346,9 +328,6 @@ class EnglishEntryband extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We banded the birds (= put bands around their legs) so that we could identify them later."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تیزماڵکمان لە باڵندەکان ئاڵاند بۆ ئەوەی دواتر بیان ناسینەوە."),
@@ -370,9 +349,6 @@ class EnglishEntryband extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Tax is banded according to income."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "باجدان دەستە دەستە دەکرێت بەپێی داھات."),

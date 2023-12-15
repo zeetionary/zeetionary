@@ -186,9 +186,6 @@ class EnglishEntryappropriate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Now that the problem has been identified, appropriate action can be taken."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئێستا کە کێشەکە ناسێنراوە، ھەنگاوی گونجاو دەبێت بگیردرێتە بەر."),
@@ -210,9 +207,6 @@ class EnglishEntryappropriate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Is now an appropriate time to make a speech?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئایا ئێستا کاتێکی باشە بۆ پێشکەش‌کردنی وتارێک؟"),
@@ -234,9 +228,6 @@ class EnglishEntryappropriate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "This may be an appropriate treatment for many patients."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەمە ڕەنگە چارەسەرێکی گونجاو بێت بۆ زۆر نەخۆش."),
@@ -260,9 +251,6 @@ class EnglishEntryappropriate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Some of the opposition party's policies have been appropriated by the government."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەندێک لە سیاسەتەکانی ئۆپۆزسیۆن لەلایەن حکومەتەوە دزراون."),
@@ -284,9 +272,6 @@ class EnglishEntryappropriate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He lost his job when he was found to have appropriated some of the company's money."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە کارەکەی دەرکرا لە دوای ئەوەی زانرا ھەندێک لە پارەی کۆمپانیاکەی بۆ خۆی بەکارھێناوە."),
@@ -310,9 +295,6 @@ class EnglishEntryappropriate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Five million dollars have been appropriated for research into the disease."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێنج ملیۆن دۆلار تەرخان‌کراوە بۆ توێژینەوە لە نەخۆشییەکە."),
@@ -336,9 +318,6 @@ class EnglishEntryappropriate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "As the empire expanded, they eagerly appropriated the artistic styles of their sunjects."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کە ئیمپراتۆریەتییەکە فراوان بوو، ستایلی ھونەریی ژێردەستەکانیان بە پەرۆشییەوە دزی."),

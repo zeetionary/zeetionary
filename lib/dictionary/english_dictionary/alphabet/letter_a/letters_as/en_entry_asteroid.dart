@@ -181,9 +181,6 @@ class EnglishEntryasteroid extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Scientists are tracking an asteroid that could potentially impact Earth."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زاناکان چاودێری ھەسارۆکەیەک دەکەن کە ئەگەری ھەیە کاریگەری لە زەوی بکات."),

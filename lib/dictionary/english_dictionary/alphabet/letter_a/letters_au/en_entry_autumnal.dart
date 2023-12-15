@@ -174,9 +174,6 @@ class EnglishEntryautumnal extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The villages were blazoned with autumnal color."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گوندەکان بە ڕەنگی پاییزە ڕازێندرابوونەوە."),

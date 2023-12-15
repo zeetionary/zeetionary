@@ -182,9 +182,6 @@ class EnglishEntryastutely extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She astutely points out the differences between the two accounts."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەشێوەیەکی بلیمەتانە جیاوازییەکانی نێوان دوو گێڕانەوەکە دەخاتە بەرچاو."),

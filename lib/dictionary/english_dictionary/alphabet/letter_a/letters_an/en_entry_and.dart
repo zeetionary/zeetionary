@@ -203,9 +203,6 @@ class EnglishEntryand extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Sue and I left early."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "من و سوو زوو ڕۆشتین."),
                               const CustomSizedBoxForTTS(),
@@ -227,9 +224,6 @@ class EnglishEntryand extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She came in and took her coat off."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھاتە ژوورەوە و پاڵتاوەکەی داکەند."),
                               const CustomSizedBoxForTTS(),
@@ -251,9 +245,6 @@ class EnglishEntryand extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Go and get me a pen please."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "تکایە بچۆ و پێنووسێکم بۆ بێنە."),
                               const CustomSizedBoxForTTS(),
@@ -276,9 +267,6 @@ class EnglishEntryand extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "‘We talked for hours.’ ‘And what did you decide?’"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "«بۆ چەندین کاتژمێر گفتوگۆمان کرد.» «ئەی چی بڕیارێکتان دا؟»"),
@@ -301,9 +289,6 @@ class EnglishEntryand extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Miss another class and you'll fail."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "یەک وانەی تر نەیەی دەرناچیت."),
                               const CustomSizedBoxForTTS(),
@@ -325,9 +310,6 @@ class EnglishEntryand extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "What's 47 and 16?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "٤٧ کۆی ١٦ چەند دەکات؟"),
                               const CustomSizedBoxForTTS(),
@@ -349,9 +331,6 @@ class EnglishEntryand extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The pain got worse and worse."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئازارەکە خراپتر و خراپتر بوو."),
                               const CustomSizedBoxForTTS(),
@@ -374,9 +353,6 @@ class EnglishEntryand extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I like city life but there are cities and cities."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "حەزم لە ژیانی شارە، بەڵام شار ھەیە و شاری تریش ھەیە."),

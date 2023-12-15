@@ -174,9 +174,6 @@ class EnglishEntryavocado extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Half an avocado contains about 160 calories."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نیوەی ئەڤۆکادۆیەک نزیکەی ١٦٠ کالۆری تێدایە."),

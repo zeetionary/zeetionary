@@ -131,9 +131,6 @@ class EnglishEntryallout extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "We're going all out to win."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بە دڵ و بە گیان دەچین بۆبردنەوە."),
                               const CustomSizedBoxForTTS(),

@@ -133,9 +133,6 @@ class EnglishEntryairterminal extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Passengers are conveyed by bus to the air terminal."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گەشتیاران بە پاس دەگوازرێنەوە دواوێستگەی فڕۆکەخانەکە."),

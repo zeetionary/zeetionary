@@ -134,9 +134,6 @@ class EnglishEntryallied extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Many civilians died as a result of allied bombing."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆر ھاوڵاتی مەدەنی گیانیان لەدەستدا لە ئەنجامی بۆردوومانی ھاوپەیمانان."),
@@ -159,9 +156,6 @@ class EnglishEntryallied extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Italy joined the war on the Allied side in 1915."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئیتالیا لە ساڵی ١٩١٥ لە بەرەی ھاوپەیمانان پەیوەندی بە جەنگەکەوە کرد."),
@@ -184,9 +178,6 @@ class EnglishEntryallied extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Computer science and allied subjects are not taught here."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زانستی کۆمپیوتەر و بابەتە پەیوەندیدارەکانی لێرە ناوترێنەوە."),

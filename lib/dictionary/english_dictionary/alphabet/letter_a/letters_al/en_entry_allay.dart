@@ -132,9 +132,6 @@ class EnglishEntryallay extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The inquiry has done little to allay suspicion."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لێکۆڵینەوەکە کاریگەری کەمی بووە لەسەر دامرکاندنەوەی گومان."),

@@ -132,9 +132,6 @@ class EnglishEntryalarmclock extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I set the alarm clock for 7 o'clock."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زەنگی کاتژمێرەکەم بۆ کاتژمێر ٧ چالاککرد."),

@@ -180,9 +180,6 @@ class EnglishEntryappetite extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He suffered from headaches and loss of appetite."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تووشی سەرئێشە و نەبوونی ئیشتیا بوو بوو."),
@@ -206,9 +203,6 @@ class EnglishEntryappetite extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The BBC recognizes the public appetite for serious information."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بی بی سی لە خواستی خەڵکی بۆ زانیاریی گرنگ تێ‌دەگات."),

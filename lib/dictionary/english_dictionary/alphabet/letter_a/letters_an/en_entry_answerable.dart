@@ -177,9 +177,6 @@ class EnglishEntryanswerable extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She was a free agent, answerable to no one for her behaviour."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سیخوڕێکی سەربەخۆ بوو کە پێویست نەبوو وەڵامی ھیچ کەس بداتەوە بۆ ڕەفتارەکانی."),
@@ -201,9 +198,6 @@ class EnglishEntryanswerable extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Any European central bank should be directly answerable to the European Parliament."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەر بانکێکی ئەورووپی دەبێت ڕاستەوخۆ لەژێر چاودێری/بەرپرسیار بێت بەرامبەر یەکێتیی ئەورووپا بێت."),
@@ -227,9 +221,6 @@ class EnglishEntryanswerable extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Ministers must be made answerable for their decisions."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وەزیرەکان دەبێت بەرپرسیاربن بۆ بڕیارەکانیان."),
@@ -251,9 +242,6 @@ class EnglishEntryanswerable extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Soldiers who obey orders to commit atrocities should be answerable for their crimes."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو سەربازانەی گوێ‌ڕایەڵی ئەنجامدانی تاوانی جەنگ دەکەن دەبێت ئامادەی وەرگرتنی سزابن."),

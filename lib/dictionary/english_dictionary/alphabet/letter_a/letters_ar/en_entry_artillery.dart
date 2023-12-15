@@ -182,9 +182,6 @@ class EnglishEntryartillery extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The town is under heavy artillery fire."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "شارۆچکەکە لەژێر ھێرشی تۆپخانەیە."),
                               const CustomSizedBoxForTTS(),
@@ -207,9 +204,6 @@ class EnglishEntryartillery extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He served in the artillery for twenty years."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بۆ ماوەی ٢٠ ساڵ لە یەکەی تۆپخانە خزمەتی کرد."),

@@ -131,9 +131,6 @@ class EnglishEntryagile extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Monkeys are very agile climbers."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "مەیموون پیاھەڵگژی گورجە."),
                               const CustomSizedBoxForTTS(),
@@ -155,9 +152,6 @@ class EnglishEntryagile extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "For a man of 80, he has a remarkably agile mind."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەگەڵ ئەوەی ٨٠ ساڵە، ھێشتا بیر و ھۆشێکی زرنگی ھەیە."),
@@ -180,9 +174,6 @@ class EnglishEntryagile extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They used agile methods to complete difficult tasks."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە کۆمپانیاکە کارەکانیان بەش بەش دەکرد."),

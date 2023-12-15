@@ -174,9 +174,6 @@ class EnglishEntrybagpipes extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She started learning the bagpipes three years ago."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سێ ساڵ پێش ئێستا دەستیکرد بە فێربوونی باگ‌پایپس."),

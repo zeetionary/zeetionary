@@ -124,10 +124,10 @@ class KurdishHistoryScreen extends StatelessWidget {
                 // History is empty, show message
                 // return const Center(
                 //   child: Text(
-                //       'هیچ لێرە نییە.، تکایە بۆ وشەی کوردی بگەڕێ بۆ ئەوەی لێرە دەربکەوێت'),
+                //       'ھیچ لێرە نییە.، تکایە بۆ وشەی کوردی بگەڕێ بۆ ئەوەی لێرە دەربکەوێت'),
                 // );
                 return const EmptyPageIcon(
-                  text: 'مێژوو چۆڵ‌وهۆڵە',
+                  text: 'مێژوو چۆڵ‌وھۆڵە',
                 );
               } else if (snapshot.hasData) {
                 // Build the list view with history data

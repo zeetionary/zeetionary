@@ -175,9 +175,6 @@ class EnglishEntrybarbarian extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The walled city was attacked by barbarian hordes."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "شارە بە شوورا دەوردراوەکە لە لایەن خێڵە دەشتەکییەکانەوە بەر ھێرش درا."),
@@ -201,9 +198,6 @@ class EnglishEntrybarbarian extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "How can you call those barbarians your friends?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "چۆن ئەو ناشارستانیەتییانە بە ھاوڕێت دادەنێیت؟"),

@@ -173,9 +173,6 @@ class EnglishEntryaye extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "‘Did you see what happened?’ ‘Oh aye, I was there.’"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "'بینیت چی ڕوویدا؟' 'بەڵێ، لەوێ بووم'."),
@@ -197,9 +194,6 @@ class EnglishEntryaye extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I have aye wanted to see London."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەمیشە ویستوومە لەندەن ببینم."),
                               const CustomSizedBoxForTTS(),

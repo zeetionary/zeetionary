@@ -181,9 +181,6 @@ class EnglishEntryasphyxiation extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The cause of death was asphyxiation."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھۆکاری مردنەکە خنکان بوو."),
                               const CustomSizedBoxForTTS(),

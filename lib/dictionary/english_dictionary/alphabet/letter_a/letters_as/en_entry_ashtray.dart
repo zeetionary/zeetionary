@@ -181,9 +181,6 @@ class EnglishEntryashtray extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The ashtrays in the restaurant were emptied and cleaned regularly."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەپڵەکی چێشتخانەکان بەزوویی بەتاڵ و پاک دەکرانەوە."),

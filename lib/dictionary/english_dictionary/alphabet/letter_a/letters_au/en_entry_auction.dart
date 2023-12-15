@@ -183,9 +183,6 @@ class EnglishEntryauction extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The house is up for auction (= will be sold at an auction)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "خانووەکە ھەڕاجکراوە."),
                               const CustomSizedBoxForTTS(),
@@ -208,9 +205,6 @@ class EnglishEntryauction extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The costumes from the movie are to be auctioned for charity."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "جلوبەرگەکانی فیلمەکە لە زیادکردنی ئاشکرادا دەفرۆشرێن بۆ کاری خێرخوازی."),

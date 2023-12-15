@@ -184,9 +184,6 @@ class EnglishEntryauthentication extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "When buying jewellery, make sure you get a certificate of authentication."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە کاتی کڕینی خشڵ، دڵنیابە لەوەی سەنەدی ڕەسەنێتی خشڵەکە وەربگری."),
@@ -211,9 +208,6 @@ class EnglishEntryauthentication extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "User authentication is often performed with passwords."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەلماندنی ناسنامە زۆرجار بە تێپڕەوشە ئەنجام دەدرێت."),

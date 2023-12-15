@@ -175,9 +175,6 @@ class EnglishEntryawake extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I was still awake when he came to bed."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھێشتا بەخەبەر بووم کە ھات بۆ ژووری نووستنەکەم."),
@@ -199,9 +196,6 @@ class EnglishEntryawake extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I awoke from a deep sleep."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لە خەوێکی قووڵ ھەستام."),
                               const CustomSizedBoxForTTS(),
@@ -223,9 +217,6 @@ class EnglishEntryawake extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "His speech is bound to awake old fears and hostilities."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وتارەکەی بە ئەگەری زۆر ترس و ناکۆکی کۆن ھەڵدەداتەوە."),

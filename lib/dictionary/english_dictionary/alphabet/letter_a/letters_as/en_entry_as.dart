@@ -234,9 +234,6 @@ class EnglishEntryas extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The children were all dressed as police officers."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "منداڵەکان ھەموویان وەک ئەفسەری پۆلیس جلیان پۆشیبوو."),
@@ -257,9 +254,6 @@ class EnglishEntryas extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The bomb was disguised as a package."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بۆمبەکە لە شێوەی پاکێجێکدا بوو."),
                               const CustomSizedBoxForTTS(),
@@ -281,9 +275,6 @@ class EnglishEntryas extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Treat me as a friend."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "وەک ھاوڕێیەک بمبینە."),
                               const CustomSizedBoxForTTS(),
@@ -303,9 +294,6 @@ class EnglishEntryas extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The news came as a shock."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەواڵەکە وەک شۆکێک وابوو."),
                               const CustomSizedBoxForTTS(),
@@ -327,9 +315,6 @@ class EnglishEntryas extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "You're as tall as your father."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھێندەی باوکت درێژی."),
                               const CustomSizedBoxForTTS(),
@@ -351,9 +336,6 @@ class EnglishEntryas extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "As always, he said little."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "وەک ھەمیشە، کەمێک قسەی کرد."),
                               const CustomSizedBoxForTTS(),
@@ -376,9 +358,6 @@ class EnglishEntryas extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "As many as 2 million people could be affected."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "تا ٢ ملیۆن کەس دەکرێت کاریگەر بن."),
                               const CustomSizedBoxForTTS(),
@@ -401,9 +380,6 @@ class EnglishEntryas extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He sat watching her as she got ready."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دانیشتوو سەیری کرد کە خۆی دەگۆڕی."),
                               const CustomSizedBoxForTTS(),

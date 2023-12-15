@@ -183,9 +183,6 @@ class EnglishEntryauctioneer extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "‘Yours for £200,’ said the auctioneer."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەڵاڵەکە وتی 'ھی تۆیە بە ٢٠٠ پاوەند'."),

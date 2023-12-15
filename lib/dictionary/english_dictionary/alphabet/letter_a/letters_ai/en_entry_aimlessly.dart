@@ -130,9 +130,6 @@ class EnglishEntryaimlessly extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "While she waited, she walked aimlessly around the car park."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کە چاوەڕێی دەکرد بێ مەبەستانە لە گەراجەکەدا دەسوڕایەوە."),

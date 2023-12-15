@@ -176,9 +176,6 @@ class EnglishEntryanatomy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "An understanding of human anatomy is important to a dancer."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تێگەشتن لە پێکھاتەی درووستبوونی لەشی مرۆڤ گرنگە بۆ سەماکارێک."),
@@ -202,9 +199,6 @@ class EnglishEntryanatomy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The female anatomy includes organs like the ovaries and uterus."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "جەستەی مێینە ئەندامەکانی وەک ھێلکەدان و مناڵ‌دان لەخۆدەگرێت."),
@@ -228,9 +222,6 @@ class EnglishEntryanatomy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Various parts of his anatomy were clearly visible."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ژمارەیەک لە بەشەکانی جەستەی بەڕوونی دیاربوون."),
@@ -254,9 +245,6 @@ class EnglishEntryanatomy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The article explores an anatomy of the current recession's causes."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وتارەکە لێکۆڵینەوەیەکی وردە لە ھۆکارەکانی ئەم قەیرانەی ئێستا."),

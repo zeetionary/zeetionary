@@ -174,9 +174,6 @@ class EnglishEntryanode extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A red wire is often attached to the anode."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وایەرێکی سوور زۆرجار دەلکێنرێت بە جەمسەرە گەرمەکەوە."),

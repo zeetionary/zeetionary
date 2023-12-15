@@ -180,9 +180,6 @@ class EnglishEntryarchaeology extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Daniel is very interested in history and archaeology, and often visits historic sites."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دانیاڵ زۆری حەز بە مێژوو و شوێنەوارناسییە و زۆرجار سەردانی شوێنەوارە مێژووییەکان دەکات."),

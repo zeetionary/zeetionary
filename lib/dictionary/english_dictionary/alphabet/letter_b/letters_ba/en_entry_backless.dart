@@ -174,9 +174,6 @@ class EnglishEntrybackless extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She was wearing a very sexy backless dress."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "جلێکی تەواو سێکسی بێ‌پشتی لەبەرکردبوو."),

@@ -130,9 +130,6 @@ class EnglishEntryaide extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He served as an aide to the former president."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وەک یاریدەدەری سەرۆکی پێشوو کاری کرد."),

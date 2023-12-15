@@ -183,9 +183,6 @@ class EnglishEntryartist extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "In 1942 the city commissioned war artist John Piper to paint its bombed cathedral."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە ساڵی ١٩٤٢ بەرپرسانی شارەکە جۆن پیپەریان ڕاسپارد کە نیگارێکی کڵێسا بۆمب‌لێدراوەکەیان بکێشێ."),
@@ -207,9 +204,6 @@ class EnglishEntryartist extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The artist painted this picture using tiny brushstrokes."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھونەرمەندەکە ئەم وێنەیەی کێشا بە بەکارھێنانی فڵچەی بچووک."),
@@ -233,9 +227,6 @@ class EnglishEntryartist extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "After the band broke up, Joe relaunched his career as a solo artist."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە دوای ئەوەی باندەکە پارچەپارچە بوون، جۆو دووبارە بە تەنیایی دەستی‌پێکردەوە."),

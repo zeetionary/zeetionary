@@ -175,9 +175,6 @@ class EnglishEntryawakening extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "If they had expected a warm welcome, they were in for a rude awakening (= they would soon realize that it would not be warm)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەگەر چاوەڕێی پێشوازییەکی گەرمیان دەکرد، ئەوا زوو دەزانن خراپ بە ھەڵەدا چوونە."),
@@ -201,9 +198,6 @@ class EnglishEntryawakening extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The political awakening that followed the Second World War led to a surge of anti-colonial movements."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو بزووتنەوە سیاسییەی کە لە دوای جەنگی دووەمی جیھانی ڕوویدا بەدوای خۆیدا شەپۆلێک لە بزاڤی دژ بە کۆلۆنیاڵیزمی ھێنا."),

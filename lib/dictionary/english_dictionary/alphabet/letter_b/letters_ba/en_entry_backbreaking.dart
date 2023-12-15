@@ -175,9 +175,6 @@ class EnglishEntrybackbreaking extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She realized with dismay that the task would take weeks of back-breaking work."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە دڵساردییەوە زانی کە ئەرکەکە چەندین ھەفتەی کاری کەمەرشکێنی دەوێت."),

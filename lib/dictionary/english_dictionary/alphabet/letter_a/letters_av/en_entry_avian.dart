@@ -174,9 +174,6 @@ class EnglishEntryavian extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Avian eggs are a nutritious and versatile food source for humans and other animals."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھێلکەی باڵندە سەرچاوەیەکی خۆراکی وزەبەخش و فرەکارەن بۆ مرۆڤ و ئاژەڵەکانی تر."),

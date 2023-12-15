@@ -182,9 +182,6 @@ class EnglishEntryapproximation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "An approximation of the numbers expected to attend would be 350."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێژەی خەمڵێندراوی بەژداربووان پێشبینی‌دەکرێت بگاتە ٣٥٠ کەس."),
@@ -207,9 +204,6 @@ class EnglishEntryapproximation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We do not have the true figures so we will have to make some approximations."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ژمارەی تەواومان لەبەردەست نییە، بۆیە دەبێت خەمڵاندن بکەین."),
@@ -234,9 +228,6 @@ class EnglishEntryapproximation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Our results should be a good approximation of the true state of affairs."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەنجامەکانمان دەبێت ھاوشێوەیەکی باشی ڕاستی بارودۆخەکە بێت."),

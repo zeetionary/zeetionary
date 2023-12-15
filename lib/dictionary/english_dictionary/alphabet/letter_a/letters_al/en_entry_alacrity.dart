@@ -132,9 +132,6 @@ class EnglishEntryalacrity extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They accepted the offer with alacrity."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئۆفەرەکەیان بە جۆشوخرۆشییەوە پەسەندکرد."),

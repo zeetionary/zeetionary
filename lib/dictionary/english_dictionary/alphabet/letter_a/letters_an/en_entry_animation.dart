@@ -175,9 +175,6 @@ class EnglishEntryanimation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The intricate process of creating cartoon animation requires skill and creativity."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پڕۆسەی ئاڵۆزی درووستکردنی ئەنیمەیشنی کارتۆنی پێویستی بە شارەزایی و تازەگەرییە."),
@@ -201,9 +198,6 @@ class EnglishEntryanimation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The electronic dictionary included some animations."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "فەرھەنگە ئەلیکترۆنییەکە ژمارەیەک ئەنیمەیشنی تێدابوو."),
@@ -227,9 +221,6 @@ class EnglishEntryanimation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "His face was drained of all colour and animation."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕووخساری ھیچ ڕەنگ و تین‌وگوڕی تێدانەمابوو."),

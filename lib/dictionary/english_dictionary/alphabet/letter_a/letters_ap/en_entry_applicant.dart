@@ -179,9 +179,6 @@ class EnglishEntryapplicant extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There were over 500 applicants for the job."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "زیاتر لە ٥٠٠ داواکار بۆ کارەکە ھەن."),
                               const CustomSizedBoxForTTS(),

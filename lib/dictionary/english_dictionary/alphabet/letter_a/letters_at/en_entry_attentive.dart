@@ -182,9 +182,6 @@ class EnglishEntryattentive extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He listened, quiet and attentive."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "گوێی گرت بە ئارامی و سەرنجەوە."),
                               const CustomSizedBoxForTTS(),
@@ -207,9 +204,6 @@ class EnglishEntryattentive extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The hotel staff are friendly and attentive."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ستافی ھوتێلەکە زۆر ڕووخۆش و یارمەتیدەرن."),

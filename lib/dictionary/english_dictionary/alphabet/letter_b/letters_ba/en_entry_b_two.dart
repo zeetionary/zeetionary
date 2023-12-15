@@ -169,9 +169,6 @@ class EnglishEntrybtwo extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Emily Clifton, b. 1800"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئێمیڵی کلیفتۆن لەدایکبووی ١٨٠٠."),
                               const CustomSizedBoxForTTS(),

@@ -131,9 +131,6 @@ class EnglishEntryaggressively extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Many drivers behave aggressively on the road."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆر شۆفێر لەسەر شەقامەکان بە توندوتیژی ڕەفتار دەکەن."),
@@ -156,9 +153,6 @@ class EnglishEntryaggressively extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They played more aggressively in the second half."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە گێمی دووەم سەرسەختانەتر یارییان کرد."),

@@ -174,9 +174,6 @@ class EnglishEntryawning extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We sat under the blue and white awning of the cafe."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەژێر ساباتە ڕەنگ شین و سپییەکەی قاوەخانەکە دانیشتین."),

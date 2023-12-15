@@ -171,9 +171,6 @@ class EnglishEntryanalytical extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She has a clear analytical mind."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "مێشکێکی تەواو بەدیقەتی ھەیە."),
                               const CustomSizedBoxForTTS(),

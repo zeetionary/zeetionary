@@ -179,9 +179,6 @@ class EnglishEntryarchitect extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The house was designed by architect Louis Kahn."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خانووەکە لەلایەن بیناساز لویس کاھن دیزاین کرا."),

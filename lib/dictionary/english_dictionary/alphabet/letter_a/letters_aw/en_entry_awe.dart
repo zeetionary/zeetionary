@@ -173,9 +173,6 @@ class EnglishEntryawe extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He speaks of her with awe."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بە ھەیبەتەوە باسی دەکات."),
                               const CustomSizedBoxForTTS(),
@@ -197,9 +194,6 @@ class EnglishEntryawe extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She seemed awed by the presence of so many famous people."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆر سەرسام بوو بە ئامادەبوونی ئەو ھەموو کەسە بەناوبانگانە."),

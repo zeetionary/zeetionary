@@ -174,9 +174,6 @@ class EnglishEntrybandwidth extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The radio station broadcasts on a bandwidth of 92.1 MHz."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وێستگەی ڕادیۆکە لەسەر مەودای ٩٢,١ MHz پەخشدەکات."),
@@ -200,9 +197,6 @@ class EnglishEntrybandwidth extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Upgrade to a higher bandwidth to increase your download limits."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "باندبەرینێکی بەرزتر بەکاربێنە بۆ زیادکردنی سنووری دابەزاندن."),
@@ -226,9 +220,6 @@ class EnglishEntrybandwidth extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The team does not have the bandwidth to take on new projects at the moment."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تیمەکە توانای ئەوەی نییە پڕۆژەی دیکە دەستپێ‌بکات لە ئێستادا."),

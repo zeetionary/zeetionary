@@ -182,9 +182,6 @@ class EnglishEntryaudible extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Her voice was barely audible above the noise."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەنگەکەی بە ئەستەم زیاتر لە ورتەورت بوو."),

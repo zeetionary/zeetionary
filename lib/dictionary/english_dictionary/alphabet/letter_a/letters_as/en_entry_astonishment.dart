@@ -183,9 +183,6 @@ class EnglishEntryastonishment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He stared in astonishment at the stranger."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە سەرسامییەوە لە لە نەناسەکەی دەڕوانی."),

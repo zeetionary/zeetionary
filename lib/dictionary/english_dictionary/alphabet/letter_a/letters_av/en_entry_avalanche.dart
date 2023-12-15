@@ -175,9 +175,6 @@ class EnglishEntryavalanche extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was killed in an avalanche while skiing."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە ھەرەسی شەختەبەفردا مرد لە کاتی بەفرەخلیسکێ."),
@@ -199,9 +196,6 @@ class EnglishEntryavalanche extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The issue has generated an avalanche of controversy."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم بابەتە ڕێژەیەکی زۆر مشتومڕی بەدوای‌خۆیداھێناوە."),

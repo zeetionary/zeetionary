@@ -174,9 +174,6 @@ class EnglishEntrybakery extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "People were stealing bread from those who went to the bakery."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خەڵکی نانیان دەدزی لەو کەسانەی کە دەچوون بۆ نانەواخانەکە."),

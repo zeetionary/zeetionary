@@ -184,9 +184,6 @@ class EnglishEntryappearance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She had never been greatly concerned about her appearance."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەرگیز ھێندە زۆر گرنگی بە ڕواڵەتی نەداوە."),
@@ -208,9 +205,6 @@ class EnglishEntryappearance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Judging by appearances can be misleading."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بڕیاردان بە ڕواڵەت دەکرێت بتخاتە ھەڵەوە."),
@@ -234,9 +228,6 @@ class EnglishEntryappearance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The sudden appearance of a security guard caused them to drop the money and run."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەرکەوتنی لەناکاوی پاسەوانێک بووە ھۆی ئەوەی پارەکە دابنێن و ھەڵبێن."),
@@ -260,9 +251,6 @@ class EnglishEntryappearance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Since its first appearance in the 19th century, cholera has killed millions."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە سەرەتای دەرکەوتنییەوە لە سەدەی نۆزدەوە، کۆلێرا بووە بەھۆی کووشتنی ملیۆنان کەس."),
@@ -286,9 +274,6 @@ class EnglishEntryappearance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The singer's first public appearance was at the age of eight."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "یەکەم دەرکەوتنی گۆرانیبێژەکە لە تەمەنی ھەشت ساڵی بوو."),
@@ -312,9 +297,6 @@ class EnglishEntryappearance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The appearance of claims about the minister's private life in the press has caused a lot of discussions."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بڵاوبوونەوەی دەنگۆکان لەسەر ژیان تایبەتیی وەزیرەکە لە میدیادا قسەی زۆری بەدوادا ھاتووە."),

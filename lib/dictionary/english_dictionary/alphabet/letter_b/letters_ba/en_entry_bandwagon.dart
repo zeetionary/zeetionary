@@ -172,9 +172,6 @@ class EnglishEntrybandwagon extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They seem to have got an anti-government bandwagon rolling."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وادیارن کە بەرەیەکی ناڕەزایی دژ بە حکومەتیان دەستپێ‌کردووە."),

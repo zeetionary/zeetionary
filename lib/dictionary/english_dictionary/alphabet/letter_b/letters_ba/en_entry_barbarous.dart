@@ -174,9 +174,6 @@ class EnglishEntrybarbarous extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "His murder was an outrageous and barbarous act."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تیرۆرەکەی کردەیەکی جەرگبڕ و دڕندانە بوو."),

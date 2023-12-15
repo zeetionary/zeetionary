@@ -131,9 +131,6 @@ class EnglishEntryamoeba extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He is studying the ecology of amoeba."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "توێژینەوە دەکات لەسەر ژینگەناسیی ئەمیبا."),

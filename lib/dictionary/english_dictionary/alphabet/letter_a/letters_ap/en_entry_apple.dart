@@ -178,9 +178,6 @@ class EnglishEntryapple extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I took a bite of the apple."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "قەپێکم لە سێوەکە گرت."),
                               const CustomSizedBoxForTTS(),
@@ -200,9 +197,6 @@ class EnglishEntryapple extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Peel and core the apples."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "سێوەکە پاک بکە و ناوەکەی دەربکە."),
                               const CustomSizedBoxForTTS(),

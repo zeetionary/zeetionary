@@ -228,9 +228,6 @@ class EnglishEntryask extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He asked about her family."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پرسیاری لەسەر خێزانەکەی کرد."),
                               const CustomSizedBoxForTTS(),
@@ -251,9 +248,6 @@ class EnglishEntryask extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Why does everyone keep asking me that?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بۆچی ھەمووان ئەوەم لێ دەپرسن؟"),
                               const CustomSizedBoxForTTS(),
@@ -276,9 +270,6 @@ class EnglishEntryask extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Anyone with information is asked to contact the police."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەرکەس زانیاریی ھەیە داوای لێ‌کراوە پەیوەندی بە پۆلیسەوە بکات."),
@@ -300,9 +291,6 @@ class EnglishEntryask extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "If you ask her nicely, she'll give you a hand."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەگەر بەڕێزەوە داوای لێ‌بکەیت یارمەتیت دەدات."),
@@ -325,9 +313,6 @@ class EnglishEntryask extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Don't be afraid to ask for help."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "مەترسە لە داواکردن بۆ یارمەتی."),
                               const CustomSizedBoxForTTS(),
@@ -347,9 +332,6 @@ class EnglishEntryask extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Why don't you ask his advice?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بۆچی داوای ڕاوێژی لێ ناکەی؟"),
                               const CustomSizedBoxForTTS(),
@@ -371,9 +353,6 @@ class EnglishEntryask extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I asked to see the manager."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "داوای بینینی سەرپرشتیارەکەم کرد."),
                               const CustomSizedBoxForTTS(),
@@ -395,9 +374,6 @@ class EnglishEntryask extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Thank you so much for asking me."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "سوپاس بۆ بانگھێشتکردنم."),
                               const CustomSizedBoxForTTS(),
@@ -420,9 +396,6 @@ class EnglishEntryask extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "How much were they asking for their house?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "داوای چەندیان بۆ خانووەکە دەکرد؟"),
                               const CustomSizedBoxForTTS(),
@@ -444,9 +417,6 @@ class EnglishEntryask extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "You're asking too much of him."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "چاوەڕێی زۆری لێ‌دەکەیت."),
                               const CustomSizedBoxForTTS(),

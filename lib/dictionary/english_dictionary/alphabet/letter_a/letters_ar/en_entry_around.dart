@@ -347,9 +347,6 @@ class EnglishEntryaround extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The house is built around a central courtyard."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خانووەکە بە دەوری حەوشەیەکدا درووست‌کراوە."),
@@ -370,9 +367,6 @@ class EnglishEntryaround extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He put his arms around her."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دەستی‌کردە ملی."),
                               const CustomSizedBoxForTTS(),
@@ -394,9 +388,6 @@ class EnglishEntryaround extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The bus came around the bend."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پاسەکە لە لایەکەی تری سوڕانەکەوە ھات."),
@@ -417,9 +408,6 @@ class EnglishEntryaround extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Our house is just around the corner."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ماڵمان لەوسەری سوچەکەیە."),
                               const CustomSizedBoxForTTS(),
@@ -441,9 +429,6 @@ class EnglishEntryaround extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "They walked around the lake."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بەدەوری دەریاچەکەدا ڕێیان کرد."),
                               const CustomSizedBoxForTTS(),
@@ -466,9 +451,6 @@ class EnglishEntryaround extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They walked around the town looking for a place to eat."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە شارۆچکەکەدا ڕێیان‌کرد بۆ دۆزینەوەی شوێنێک بۆ نان‌خواردن."),
@@ -492,9 +474,6 @@ class EnglishEntryaround extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I can't arrange everything around your timetable!"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ناتوانم ھەموو شتێک لەگەڵ خشتەی کاتی تۆ بگونجێنم!"),
@@ -518,9 +497,6 @@ class EnglishEntryaround extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There are a lot of questions around her motivation."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پرسیاری زۆر ھەیە پەیوەندیدار بە پاڵنەرەکانی."),
@@ -544,9 +520,6 @@ class EnglishEntryaround extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The cost would be somewhere around £1 500."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "تێچووەکەی نزیکەی ١,٥٠٠ پاوەند دەبێت."),
                               const CustomSizedBoxForTTS(),
@@ -568,9 +541,6 @@ class EnglishEntryaround extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I could hear laughter all around."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە ھەموو لایەکەوە گوێم لە پێکەنین بوو."),
@@ -594,9 +564,6 @@ class EnglishEntryaround extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "How do you make the wheels go around?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "چۆن وا لە ویلەکە دەکەیت بسووڕێتەوە؟"),
                               const CustomSizedBoxForTTS(),
@@ -619,9 +586,6 @@ class EnglishEntryaround extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She turned the car around and drove off."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئۆتۆمبێلەکەی سووڕاندەوە و ڕۆشت."),
                               const CustomSizedBoxForTTS(),
@@ -644,9 +608,6 @@ class EnglishEntryaround extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I saw an old tree that was at least ten feet around."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "درەختێکی کۆنم دی کە بە لایەنی کەمەوە ١٠ پێ ئەستوور بوو."),
@@ -670,9 +631,6 @@ class EnglishEntryaround extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There were papers lying around all over the floor."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "کاغەز بە ھەموو زەوییەکەدا کەوتبوو."),
                               const CustomSizedBoxForTTS(),
@@ -695,9 +653,6 @@ class EnglishEntryaround extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There were several young people sitting around looking bored."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەندێک کەسی گەنج دانیشتبوون و بێزاربوون."),
@@ -720,9 +675,6 @@ class EnglishEntryaround extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She must be somewhere around here."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دەبێت لە شوێنێک لێرە بێت."),
                               const CustomSizedBoxForTTS(),
@@ -745,9 +697,6 @@ class EnglishEntryaround extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She's been around as a film director since the early 2000s."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە ساڵانی ٢٠٠ەوە چالاکە وەک دەرھێنەرێکی فیلم."),

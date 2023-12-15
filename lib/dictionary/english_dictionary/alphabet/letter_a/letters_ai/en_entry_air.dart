@@ -265,9 +265,6 @@ class EnglishEntryair extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Let's go out for some fresh air."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "با بچین ھەندێک ھەوای پاک ھەڵمژین."),
                               const CustomSizedBoxForTTS(),
@@ -287,9 +284,6 @@ class EnglishEntryair extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She was gasping for air as she ran out of the burning house."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەناسەبڕکێی بوو بۆ ھەوا کە لە خانووە سووتاوەکەوە ڕایکردە دەرەوە."),
@@ -311,9 +305,6 @@ class EnglishEntryair extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Wave your hands in the air!"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دەست ڕاوەشێنە لە ھەوادا!"),
                               const CustomSizedBoxForTTS(),
@@ -332,9 +323,6 @@ class EnglishEntryair extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I kicked the ball high into the air."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بەرز لە تۆپەکەم ھەڵدا بە ئاسماندا."),
                               const CustomSizedBoxForTTS(),
@@ -356,9 +344,6 @@ class EnglishEntryair extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We watched as the helicopter took to the air."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەیرمان کرد کە ھەلیکۆپتەرەکە فڕییە ئاسمان."),
@@ -381,9 +366,6 @@ class EnglishEntryair extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There was an air of complete confidence about her."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕواڵەتێکی تەواو متمانە بەخۆبوونی تێدا بوو."),
@@ -405,9 +387,6 @@ class EnglishEntryair extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Air the sheets well."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پێخەفەکان باش وشک بکەوە."),
                               const CustomSizedBoxForTTS(),
@@ -429,9 +408,6 @@ class EnglishEntryair extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Leave the window open to air the room."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پەنجەرەکە بە کراوەیی بھێڵەوە بۆ ئەوەی ھەوای پاک بێتە ژوورەکەوە."),
@@ -454,9 +430,6 @@ class EnglishEntryair extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The issues were openly aired and discussed by the group."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بابەتەکان بە ڕاشکاوی دەربڕدران و گەنگەشە کران لەلایەن گرووپەکەوە."),
@@ -478,9 +451,6 @@ class EnglishEntryair extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The program aired last week."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پڕۆگرامەکە ھەفتەی ڕابردوو پێشکەشکرا."),
                               const CustomSizedBoxForTTS(),

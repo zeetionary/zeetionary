@@ -177,9 +177,6 @@ class EnglishEntryantidepressant extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She's been on antidepressants ever since her husband died."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەوەتەی ھاوسەرەکەی مردووە دژە-خەمۆکی دەخوات."),

@@ -177,9 +177,6 @@ class EnglishEntryarchtwo extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He's always been an arch-opponent of the project."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەمیشە دژبەرێکی سەرسەختی پڕۆژەکە بووە."),

@@ -159,9 +159,6 @@ class EnglishEntryaltogether extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The train went slower and slower until it stopped altogether."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "شەمەندەفەرەکە ھێواشتر و ھێواشتر چوو تا بە تەواوی وەستا."),
@@ -182,9 +179,6 @@ class EnglishEntryaltogether extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It was an altogether different situation."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بە تەواوی بارودۆخێکی گونجاو بوو."),
                               const CustomSizedBoxForTTS(),
@@ -205,9 +199,6 @@ class EnglishEntryaltogether extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "You owe me £68 altogether."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "کۆی گشتی ٦٨ پاوەند قەرزارمی."),
                               const CustomSizedBoxForTTS(),
@@ -229,9 +220,6 @@ class EnglishEntryaltogether extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The food was good and we loved the music. Altogether it was a great evening."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خواردنەکە باش بوو حەزیشمان بە میوزیککە بوو. بەکورتی، شەوێکی خۆش بوو."),

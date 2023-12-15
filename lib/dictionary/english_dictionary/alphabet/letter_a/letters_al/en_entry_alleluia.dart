@@ -132,9 +132,6 @@ class EnglishEntryalleluia extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "When the news of their victory came, there was an 'alleluia' of happiness among the team."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کاتێک ھەواڵی سەرکەوتنیان گەشت، شوکرانەیەکی زۆری دڵخۆشی ھەبوو لەناو تیمەکە."),

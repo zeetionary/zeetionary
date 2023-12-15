@@ -188,9 +188,6 @@ class EnglishEntryattach extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I attached a photo to my application form."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وێنەیەکم لکاند بە فۆرمی داخوازینامەکەمەوە."),
@@ -212,9 +209,6 @@ class EnglishEntryattach extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They have attached a number of conditions to the agreement (= said that the conditions must be part of the agreement)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ژمارەیەک مەرجیان زیادکردووە بۆ ڕێککەوتنەکە."),
@@ -238,9 +232,6 @@ class EnglishEntryattach extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I am attaching the image as a PDF file."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "وێنەکە بە فایلێکی پی‌دی‌ئێف دەنێرم."),
                               const CustomSizedBoxForTTS(),
@@ -263,9 +254,6 @@ class EnglishEntryattach extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I attach great importance to this research."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "گرنگی زۆر بەم توێژینەوەیە دەدەم."),
                               const CustomSizedBoxForTTS(),
@@ -288,9 +276,6 @@ class EnglishEntryattach extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He attached himself to me at the party and I couldn't get rid of him."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە ئاھەنگەکە خۆی پێمەوە لکاند و نەمتوانی ڕزگارم بێت لێی."),
@@ -314,9 +299,6 @@ class EnglishEntryattach extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "This does not attach any blame to you."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەمە ھیچ لۆمەیەک ناخاتە سەر تۆ."),
                               const CustomSizedBoxForTTS(),
@@ -337,9 +319,6 @@ class EnglishEntryattach extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "No one is suggesting that any health risks attach to this product."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھیچ‌کەس ناڵێت مەترسی تەندرووستی لەم بەرھەمەدا ھەیە."),

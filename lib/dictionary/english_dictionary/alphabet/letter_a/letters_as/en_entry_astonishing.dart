@@ -183,9 +183,6 @@ class EnglishEntryastonishing extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She ran 100m in an astonishing 10.6 seconds."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "١٠٠ مەتری بڕی بە ڕاکردن لە ١٠,٦ چرکەدا."),

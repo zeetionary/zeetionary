@@ -188,9 +188,6 @@ class EnglishEntryassociate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I always associate the smell of baking with my childhood."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەمیشە بۆنی برژاندن دەبەستمەوە بە منداڵیمەوە."),
@@ -212,9 +209,6 @@ class EnglishEntryassociate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Most people immediately associate addictions with drugs, alcohol and cigarettes."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆرکەس ڕاستەوخۆ ئاڵوودەیی دەبەستنەوە بە مادەی ھۆشبەر و کحول و جگەرە."),
@@ -238,9 +232,6 @@ class EnglishEntryassociate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I don't like you associating with those people."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "حەزم لە تێکەڵبوون لەگەڵ ئەو کەسانە نییە."),
@@ -264,9 +255,6 @@ class EnglishEntryassociate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I associate myself with the prime minister's remarks (= I agree with them)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پشتگیری لێدوانەکانی سەرۆک وەزیران دەکەم."),
@@ -290,9 +278,6 @@ class EnglishEntryassociate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was known to be one of the convicted man’s associates."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو ناسراوە بەوەی یەکێک لە ھاوەڵەکانی پیاوە تاوەنبارەکە بێت."),
@@ -316,9 +301,6 @@ class EnglishEntryassociate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She was only the associate producer of the movie."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەنھا بەرھەمھێنەری یاریدەدەر بوو لە فیلمەکەدا."),

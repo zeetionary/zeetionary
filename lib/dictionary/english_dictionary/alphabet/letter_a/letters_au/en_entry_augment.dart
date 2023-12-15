@@ -180,9 +180,6 @@ class EnglishEntryaugment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He wrote magazine articles in order to augment his income."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وتاری بۆ گۆڤار دەنووسی بۆ زیادکردنی داھاتی."),

@@ -175,9 +175,6 @@ class EnglishEntrybarbed extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The barbed wire fence kept the animals out."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پەرژینە دڕکاوییە وایەرەکە ڕێگەی لە تاوانباران گرت ھەڵبێن."),
@@ -201,9 +198,6 @@ class EnglishEntrybarbed extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Their conversation was filled with barbed banter."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گفتوگۆکەیان پڕبوو لە شۆخی پڕ لە توانج."),

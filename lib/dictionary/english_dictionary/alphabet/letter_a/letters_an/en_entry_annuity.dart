@@ -173,9 +173,6 @@ class EnglishEntryannuity extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She receives a small annuity."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بیمەیەکی بچووکی ساڵانە وەردەگرێت."),
                               const CustomSizedBoxForTTS(),

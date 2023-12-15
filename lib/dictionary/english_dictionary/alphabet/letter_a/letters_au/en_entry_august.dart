@@ -180,9 +180,6 @@ class EnglishEntryaugust extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She was born in August."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لە مانگی ئاب لەدایکبووە."),
                               const CustomSizedBoxForTTS(),

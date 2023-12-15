@@ -182,9 +182,6 @@ class EnglishEntryastronomy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Astronomy is one of the oldest sciences."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەستێرەناسی یەکێکە لە کۆنترین زانستەکان."),

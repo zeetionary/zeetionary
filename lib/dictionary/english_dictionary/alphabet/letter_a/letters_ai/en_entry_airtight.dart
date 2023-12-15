@@ -132,9 +132,6 @@ class EnglishEntryairtight extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Store the cake in an airtight container."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "کێکەکە لە دەفرێکی ھەوانەکێش ھەڵبگرە."),
                               const CustomSizedBoxForTTS(),

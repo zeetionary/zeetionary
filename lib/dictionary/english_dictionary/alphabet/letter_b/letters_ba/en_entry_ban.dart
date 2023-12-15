@@ -177,9 +177,6 @@ class EnglishEntryban extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The law bans smoking in all public places."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "یاساکە جگەرەکێشان لە شوێنە گشتییەکان قەدەغەدەکات."),
@@ -202,9 +199,6 @@ class EnglishEntryban extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She's been banned from leaving the country while the allegations are investigated."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو بەربەستکراوە لە جێھێشتنی وڵاتەکە لەکاتێکدا تۆمەتەکان لێکۆڵینەوەیان لێ دەکرێت."),
@@ -227,9 +221,6 @@ class EnglishEntryban extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A majority of people are against the ban."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆرینەی خەڵکی دژی بڕیاری قەدەغەکردنەکەن."),
@@ -252,9 +243,6 @@ class EnglishEntryban extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "His behaviour led to a life ban from international football."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕەفتارەکەی بوو بەھۆی سڕکردنی ھەمیشەیی لە تۆپێنی نێودەوڵەتیدا."),

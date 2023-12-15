@@ -174,9 +174,6 @@ class EnglishEntryangel extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She looks like an angel."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەڵێی فریشتەیە."),
                               const CustomSizedBoxForTTS(),
@@ -197,9 +194,6 @@ class EnglishEntryangel extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She wore a white costume with big furry angel wings."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "جلێکی سپی لەبەرکرد بە باڵی فریشتەیی پەڕدارەوە."),
@@ -222,9 +216,6 @@ class EnglishEntryangel extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Mary’s children are little angels."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "منداڵەکانی ماری فریشتەی وردیلەن."),
                               const CustomSizedBoxForTTS(),
@@ -246,9 +237,6 @@ class EnglishEntryangel extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Thanks Dad, you're an angel."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "سوپاس باوکە، تۆ فریشتەیت."),
                               const CustomSizedBoxForTTS(),

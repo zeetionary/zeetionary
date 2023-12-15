@@ -179,9 +179,6 @@ class EnglishEntryarduous extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The road back to political stability is long and arduous."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێگای گەشتنەوە بە ئارامی سیاسی زەحمەتە."),
@@ -202,9 +199,6 @@ class EnglishEntryarduous extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The work was arduous."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "کارەکە تاقەت‌پڕوقێن بوو."),
                               const CustomSizedBoxForTTS(),

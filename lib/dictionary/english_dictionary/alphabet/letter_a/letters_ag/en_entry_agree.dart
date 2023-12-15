@@ -164,9 +164,6 @@ class EnglishEntryagree extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "When he said that, I had to agree."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "کە ئەوەی گوت، ناچاربووم ھاوڕابم."),
                               const CustomSizedBoxForTTS(),
@@ -188,9 +185,6 @@ class EnglishEntryagree extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I don't agree with hitting children as a punishment."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لێدانی مناڵ وەک سزادان پەسەند ناکەم."),
                               const CustomSizedBoxForTTS(),
@@ -212,9 +206,6 @@ class EnglishEntryagree extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I asked for a pay rise and she agreed."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "داوای زیادکردنی مووچەکەمم کرد و ئەویش ڕازی بوو."),
@@ -236,9 +227,6 @@ class EnglishEntryagree extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "We agreed to meet on Thursday."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێککەوتین پێنجشەممە چاومان بە یەک بکەوێت."),
@@ -260,9 +248,6 @@ class EnglishEntryagree extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Next year's budget has been agreed."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بودجەی ساڵی داھاتوو پەسەندکراوە."),
                               const CustomSizedBoxForTTS(),
@@ -284,9 +269,6 @@ class EnglishEntryagree extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Your account of the accident does not agree with hers."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گێڕانەوەت بۆ ڕووداوەکە یەکناگرێتەوە لەگەڵ گێڕانەوەی ئەو."),

@@ -175,9 +175,6 @@ class EnglishEntrybalancesheet extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He points out that the company has the strongest balance sheet."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خستییەبەرچاو کە کۆمپانیاکە بەھێزترین تەرازنامەی ھەیە."),

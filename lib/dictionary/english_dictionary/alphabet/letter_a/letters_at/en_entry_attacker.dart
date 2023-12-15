@@ -181,9 +181,6 @@ class EnglishEntryattacker extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She didn't really see her attacker."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لەڕاستیدا ھێرشکارەکەیی نەدیت."),
                               const CustomSizedBoxForTTS(),

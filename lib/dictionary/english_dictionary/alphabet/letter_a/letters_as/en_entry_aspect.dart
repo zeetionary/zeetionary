@@ -187,9 +187,6 @@ class EnglishEntryaspect extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The book aims to cover all aspects of city life."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کتێبەکە ئامانجیەتی ھەموو لایەنەکانی ژیانی شار باس‌بکات."),
@@ -211,9 +208,6 @@ class EnglishEntryaspect extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She felt she had looked at the problem from every aspect."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وای ھەست‌کرد لە ھەموو لایەنێکەوە لە کێشەکەی ڕوانیوە."),
@@ -237,9 +231,6 @@ class EnglishEntryaspect extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The glasses and the beard lend him a rather scholarly aspect."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "چاویلکە و ڕیشەکەی ڕواڵەتی پسپۆڕێکیان پێ‌بەخشی‌بوو."),
@@ -262,9 +253,6 @@ class EnglishEntryaspect extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Our room had a western aspect."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ژوورەکەمان ڕووی لە ڕۆژئاوا بوو."),
                               const CustomSizedBoxForTTS(),
@@ -287,9 +275,6 @@ class EnglishEntryaspect extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "In 'They were laughing', the verb is in the progressive aspect and shows that the action is continuing."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە ڕستەی 'They were laughing' کردارەکە لە شێوەی بەردەوامییە و دەرخەری ئەوەیە کارەکە ھێشتا بەرداوامە."),

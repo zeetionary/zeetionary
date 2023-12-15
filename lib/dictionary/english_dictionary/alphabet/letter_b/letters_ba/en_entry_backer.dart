@@ -174,9 +174,6 @@ class EnglishEntrybacker extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The project receives its money from European backers."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پڕۆژەکە پارە بۆ دابین دەکرێت لە پشتیوانە ئەورووپییەکانەوە."),

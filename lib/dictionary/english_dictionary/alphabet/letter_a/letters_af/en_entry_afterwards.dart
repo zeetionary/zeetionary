@@ -130,9 +130,6 @@ class EnglishEntryafterwards extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Afterwards she was sorry for what she'd said."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دواتر زۆر پەشیمان بۆ ئەوەی گوتی."),
                               const CustomSizedBoxForTTS(),

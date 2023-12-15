@@ -185,9 +185,6 @@ class EnglishEntryappeal extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He made an emotional appeal to voters."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پاڕانەوەیەکی ھەست‌بزوێنی ئاراستەی دەنگدەران کرد."),
@@ -209,9 +206,6 @@ class EnglishEntryappeal extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The police made an appeal to the public to remain calm."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پۆلیس تکای لە خەڵکی کرد بە ھێمنی بمێننەوە."),
@@ -235,9 +229,6 @@ class EnglishEntryappeal extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was beginning to understand the appeal of living in the countryside."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خەریک‌بوو دەستی‌ دەکرد بە تێگەشتن لە دڵڕفێنی ژیان لە لادێ."),
@@ -261,9 +252,6 @@ class EnglishEntryappeal extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The court dismissed his appeal against the verdict."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دادگا داوای پێداچوونەوەکەیی دژ بە بڕیارەکە ڕەتکردەوە."),
@@ -287,9 +275,6 @@ class EnglishEntryappeal extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The government appealed to the British people for help."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "حکومەت تکای لە خەڵکی بەریتانیا کرد بۆ یارمەتی."),
@@ -313,9 +298,6 @@ class EnglishEntryappeal extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "His movies appeal to a broad audience."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "فیلمەکانی سەرنجی بیسەری بەرفراوان ڕادەکێشن."),
@@ -339,9 +321,6 @@ class EnglishEntryappeal extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       " The company is appealing against the ruling."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کۆمپانیاکە داوای پێداچوونەوە بە بڕیارەکە دەکات."),

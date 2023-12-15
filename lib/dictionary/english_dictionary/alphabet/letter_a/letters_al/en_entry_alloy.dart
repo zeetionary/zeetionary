@@ -132,9 +132,6 @@ class EnglishEntryalloy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Brass is an alloy of copper and zinc."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "مسی سپی داڕشتەی مس و زینکە."),
                               const CustomSizedBoxForTTS(),

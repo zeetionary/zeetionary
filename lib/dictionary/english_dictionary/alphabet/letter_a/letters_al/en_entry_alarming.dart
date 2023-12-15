@@ -132,9 +132,6 @@ class EnglishEntryalarming extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The rainforests are disappearing at an alarming rate."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دارستانەکان بە ئاستێکی ترسێنەر کەمدەبن."),

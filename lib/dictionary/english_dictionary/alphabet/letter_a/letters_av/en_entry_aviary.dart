@@ -174,9 +174,6 @@ class EnglishEntryaviary extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Our visitors will find hawks in the aviary."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەردانکەرانمان دەتوانن ھەڵۆ لە قەفەزی باڵندەکان ببینن."),

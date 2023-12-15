@@ -180,9 +180,6 @@ class EnglishEntryarguable extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It is arguable that giving too much detail may actually be confusing."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەکرێت بوترێت بەدەستەوەدانی وردەکاری زۆر دەکرێت سەرلێشێوێنەر بێت."),
@@ -203,9 +200,6 @@ class EnglishEntryarguable extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "It is arguable which way is quicker."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "کام ڕێگەیان خێراترە قسەھەڵدەگرێت."),
                               const CustomSizedBoxForTTS(),

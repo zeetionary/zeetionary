@@ -179,9 +179,6 @@ class EnglishEntryarable extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The small village centre is surrounded by arable farms."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ناوەڕاستی گوندە بچووکەکە بە زەویی بەپیت دەوردراوە."),

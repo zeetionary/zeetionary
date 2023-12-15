@@ -179,9 +179,6 @@ class EnglishEntryardent extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "As an ardent supporter, he cheers for Manchester United in every match."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وەک ھەوادارێکی تامەزرۆ، لە ھەموو یارییەکدا ھاوار بۆ مانچستەر یونایتید دەکات."),

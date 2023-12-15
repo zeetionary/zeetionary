@@ -184,9 +184,6 @@ class EnglishEntryauthoritative extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She has an authoritative manner that at times is almost arrogant."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەڵسوکەوتێکی زۆردارانەی ھەیە کە ھەندێک جار تا ڕادەیەکی زۆر لەخۆڕازییانەیە."),
@@ -210,9 +207,6 @@ class EnglishEntryauthoritative extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Her opinion on the subject was considered authoritative."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بۆچوونی لەسەر بابەتەکە بە باوەڕپێکراو دەدەنرا."),

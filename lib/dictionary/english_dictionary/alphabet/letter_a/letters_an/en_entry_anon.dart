@@ -170,9 +170,6 @@ class EnglishEntryanon extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "See you anon."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "زوو دەتبینمەوە."),
                               const CustomSizedBoxForTTS(),

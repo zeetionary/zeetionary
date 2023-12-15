@@ -173,9 +173,6 @@ class EnglishEntrybacteria extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Food that is contaminated with bacteria may not look or smell bad."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خواردنێک کە بە بەکتریا پیس بووە مەرج نییە شێوە و تامی خراپ بێت."),
@@ -197,9 +194,6 @@ class EnglishEntrybacteria extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "These beneficial bacteria naturally reside in the intestines."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم بەکتریا سوودبەخشانە بەشێوەیەکی سرووشتی لە ڕیخۆڵەدا دەژین."),

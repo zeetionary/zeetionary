@@ -180,9 +180,6 @@ class EnglishEntryappetizer extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Some green olives make a simple appetizer."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەندێک زەیتوونی سەوز بەرخۆراکێکی باش دەبێت."),

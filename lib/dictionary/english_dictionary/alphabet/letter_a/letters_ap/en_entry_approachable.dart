@@ -181,9 +181,6 @@ class EnglishEntryapproachable extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Despite being a big star, she's very approachable."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەگەرچی ئەستێرەیەکی گەورەیە، بەڵام کەسێکی کۆمەڵایەتییە."),
@@ -207,9 +204,6 @@ class EnglishEntryapproachable extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The summit was approachable only from the south."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لوتکەی شاخەکە تەنھا لە باشوورەوە بەردەستە."),

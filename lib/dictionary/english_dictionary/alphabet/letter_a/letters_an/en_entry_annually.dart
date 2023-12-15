@@ -173,9 +173,6 @@ class EnglishEntryannually extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The exhibition is held annually."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پێشانگاکە ساڵی جارێک ئەنجام‌دەدرێت."),
                               const CustomSizedBoxForTTS(),

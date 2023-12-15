@@ -171,9 +171,6 @@ class EnglishEntryamp extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A typical household circuit carries 15 to 50 amps."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سرکتێکی ئاسایی ماڵان ١٥ بۆ ٢٠ ئەمپێر دەگوازێتەوە."),

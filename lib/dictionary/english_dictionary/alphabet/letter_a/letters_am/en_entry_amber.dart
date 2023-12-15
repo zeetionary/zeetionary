@@ -131,9 +131,6 @@ class EnglishEntryamber extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Her amber eyes shone in the dark."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "چاوە عەمبەرییەکانی لە تاریکییەکەدا دەدرەوشانەوە."),
@@ -156,9 +153,6 @@ class EnglishEntryamber extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He has a collection of prehistoric insects preserved in amber."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ژمارەیەک لە مێرووی پێش مێژووی ھەیە کە لە عەمبەردا پاراستوونی."),
@@ -180,9 +174,6 @@ class EnglishEntryamber extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The traffic lights were on amber."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ترافیک لایتەکان لەسەر گڵۆپە زەردەکە بوون."),

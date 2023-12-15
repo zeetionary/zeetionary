@@ -182,9 +182,6 @@ class EnglishEntryarraignment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A date for her arraignment has not yet been set."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێککەوتێک بۆ گوناھبارکردنەکەی دیاریکرا."),

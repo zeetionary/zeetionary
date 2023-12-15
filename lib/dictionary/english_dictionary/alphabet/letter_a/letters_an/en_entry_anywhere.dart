@@ -175,9 +175,6 @@ class EnglishEntryanywhere extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I can't see it anywhere."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لە ھیچ شوێنێک نایبینم."),
                               const CustomSizedBoxForTTS(),
@@ -199,9 +196,6 @@ class EnglishEntryanywhere extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Put the box down anywhere."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "سنووقەکە لە ھەر کوێ دادەنێی دایبنە."),
                               const CustomSizedBoxForTTS(),

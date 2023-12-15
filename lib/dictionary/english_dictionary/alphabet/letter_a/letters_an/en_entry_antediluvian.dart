@@ -176,9 +176,6 @@ class EnglishEntryantediluvian extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "My mother has some hopelessly antediluvian ideas about the role of women."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دایکم ھەندێک بیرۆکەی کۆنەپەرستانەی نائومێدکەری ھەیە دەربارەی ئەرکی ژنان."),

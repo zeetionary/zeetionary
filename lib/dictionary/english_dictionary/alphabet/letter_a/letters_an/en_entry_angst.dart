@@ -173,9 +173,6 @@ class EnglishEntryangst extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The boy’s mysterious disappearance has caused angst and guilt for the family."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دیارنەمانی نادیاری کوڕەکە بووە بەھۆی نیگەرانی و ھەستی خەتاباری بۆ خێزانەکە."),

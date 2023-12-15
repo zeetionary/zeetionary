@@ -182,9 +182,6 @@ class EnglishEntryathletics extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "My daughter wants to compete in athletics."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کچەکەم دەیەوێت بەژداری لە یارییە وەرزشییەکاندا بکات."),

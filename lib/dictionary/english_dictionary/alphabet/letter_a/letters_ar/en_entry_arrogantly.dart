@@ -181,9 +181,6 @@ class EnglishEntryarrogantly extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I think he arrogantly assumed he'd just get away with it."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێم وایە بە خۆبەزلزانییەوە وای‌دانا لەمە دەربازی دەبێت."),

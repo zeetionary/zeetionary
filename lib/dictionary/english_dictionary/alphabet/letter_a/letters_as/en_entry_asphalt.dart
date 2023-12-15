@@ -181,9 +181,6 @@ class EnglishEntryasphalt extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The road was paved with asphalt."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "شەقامەکە قیرتاوکرا."),
                               const CustomSizedBoxForTTS(),
@@ -205,9 +202,6 @@ class EnglishEntryasphalt extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The workers asphalted the road."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "کرێکاران ڕێگاکەیان قیرتاوکرد."),
                               const CustomSizedBoxForTTS(),

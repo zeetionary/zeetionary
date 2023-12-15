@@ -175,9 +175,6 @@ class EnglishEntryawareness extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There seems to be a general awareness that this is not the solution."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وادیارە ئاگایی گشتگیر ھەبێت کە ئەمە چارەسەرەکە نییە."),
@@ -201,9 +198,6 @@ class EnglishEntryawareness extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The group is trying to raise public awareness about homelessness."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گرووپەکە ھەوڵ دەدات ھۆشیاری کۆمەڵگە زیادبکات سەبارەت بە بێ‌لانەیی."),

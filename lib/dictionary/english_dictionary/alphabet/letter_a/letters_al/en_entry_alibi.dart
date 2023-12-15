@@ -133,9 +133,6 @@ class EnglishEntryalibi extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The suspects all had alibis for the day of the robbery."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گومانلێکراوان ھەموویان بەڵگەی بێتاوانی خۆیان ھەبوو."),
@@ -158,9 +155,6 @@ class EnglishEntryalibi extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "After eight years in power, the government can no longer use the previous government's policy as an alibi for its own failure."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە دوای ھەشت ساڵ بوون لە دەسەڵات، حکومەت چیتر ناتوانێت سیاسەتی حکومەتی پێشووتر وەک بیانوو بۆ شکستی خۆی بێنێتەوە."),

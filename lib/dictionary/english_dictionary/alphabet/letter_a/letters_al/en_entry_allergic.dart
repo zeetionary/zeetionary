@@ -134,9 +134,6 @@ class EnglishEntryallergic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I like cats but unfortunately I'm allergic to them."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "حەزم لە پشیلەیە بەڵام ھەستیارم پێی."),
                               const CustomSizedBoxForTTS(),
@@ -158,9 +155,6 @@ class EnglishEntryallergic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He had an allergic reaction after eating the kiwi."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کاردانەوەیەکی ھەستیاری ھەبوو لە دوای خواردنی کیوییەکە."),
@@ -183,9 +177,6 @@ class EnglishEntryallergic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "You could see he was allergic to housework."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەستت پێدەکرد ڕقی زۆری لە ئیشی ماڵەوە بوو."),

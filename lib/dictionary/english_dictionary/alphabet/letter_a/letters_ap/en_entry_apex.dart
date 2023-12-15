@@ -179,9 +179,6 @@ class EnglishEntryapex extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The king was at the apex of society."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پاشا لە لوتکەی کۆمەڵگایە."),
                               const CustomSizedBoxForTTS(),
@@ -202,9 +199,6 @@ class EnglishEntryapex extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "At 37, she'd reached the apex of her career."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە تەمەنی ٣٧ ساڵی لە ترۆپکی کارکردنیدا بوو."),

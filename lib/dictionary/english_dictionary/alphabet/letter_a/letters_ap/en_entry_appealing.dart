@@ -180,9 +180,6 @@ class EnglishEntryappealing extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The large salary made their offer even more appealing to him."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "مووچە بەرزەکە وایکرد ئۆفەرەکەیان زیاتر شیرین بێت."),
@@ -206,9 +203,6 @@ class EnglishEntryappealing extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "‘Would you really help?’ he said with an appealing look."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە ڕووخسارێکی داوێن‌گیرانە وتی 'بەڕاست یارمەتیم دەدەیت؟'."),

@@ -175,9 +175,6 @@ class EnglishEntryantonym extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A dictionary of antonyms is a helpful tool for understanding opposites in a language."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "فەرھەنگی دژواتاکان ئامرازێکی یارمەتیدەرە بۆ تێگەشتن لە دژواتاکان لە زمانێکدا."),

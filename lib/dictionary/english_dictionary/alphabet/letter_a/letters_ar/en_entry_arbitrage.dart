@@ -179,9 +179,6 @@ class EnglishEntryarbitrage extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Traders said a rise in the peso's value made Mexican share prices more expensive compared with shares sold in New York and sparked some arbitrage selling."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بازرگانان وتیان بەرزبوونەوەی نرخی پیزۆ وای‌کرد نرخی پشکە مەکسیکییەکان گرانتر بن بە بەراورد بە ئەوانەی نیویۆرک و ئەمەش وایکرد ھەندێک کڕین و فرۆشتنەوە بە نرخی بەرز ڕووبدات."),

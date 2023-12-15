@@ -179,9 +179,6 @@ class EnglishEntryarchery extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Neither had practised archery before last year."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھیچیان تیراوێژیان نەکردبوو پێش ساڵی پار."),

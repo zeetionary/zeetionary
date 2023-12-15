@@ -173,9 +173,6 @@ class EnglishEntryavatar extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Gautama Buddha is considered an avatar of the god Vishnu."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گوتاما بودا بە ئەڤەتاری خواوەند ڤیشنو دادەنرێت."),
@@ -199,9 +196,6 @@ class EnglishEntryavatar extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The game creates a virtual world where people interact and participate in activities through their avatars."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "یارییەکە جیھانێکی خەیاڵی درووست‌دەکات  کە تێیدا خەڵکی مامەڵە لەگەڵ یەکدەکەن و بەژداری دەکەن لە ڕێگەی ئەقەتارەکانیانەوە."),

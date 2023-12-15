@@ -181,9 +181,6 @@ class EnglishEntryargumentative extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Everyone in the family was argumentative."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەموو ئەندامێکی خێزانەکە چەنەبازن."),
                               const CustomSizedBoxForTTS(),

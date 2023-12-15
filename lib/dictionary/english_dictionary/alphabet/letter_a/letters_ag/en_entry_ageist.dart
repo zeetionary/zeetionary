@@ -130,9 +130,6 @@ class EnglishEntryageist extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The fact is, we live in an ageist society."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕاستییەکە ئەوەیە لە کۆمەڵگایەکدا دەژین کە مامەڵەی لەگەڵ کەسانی پیر خراپە."),

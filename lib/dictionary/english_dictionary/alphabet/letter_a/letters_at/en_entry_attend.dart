@@ -186,9 +186,6 @@ class EnglishEntryattend extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We'd like as many people as possible to attend."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "حەزدەکەین ھەرچەند دەکرێت خەڵک ئامادەبێت."),
@@ -211,9 +208,6 @@ class EnglishEntryattend extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Our children attend the same school."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "منداڵەکانمان دەچنە ھەمان خوێندنگە."),
                               const CustomSizedBoxForTTS(),
@@ -236,9 +230,6 @@ class EnglishEntryattend extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She hadn't been attending during the lesson."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لە کاتی وانەکەدا سەرنجی نەدەدا."),
                               const CustomSizedBoxForTTS(),
@@ -260,9 +251,6 @@ class EnglishEntryattend extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Success attended their hard work."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەرکەوتن دوابەدوای ھەوڵە سەختەکانیان ھات."),
@@ -286,9 +274,6 @@ class EnglishEntryattend extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The president was attended by several members of his staff."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەرۆک یارمەتی دەدرا لەلایەن ژمارەیەک لە ئەندامانی ستافەکەیەوە."),

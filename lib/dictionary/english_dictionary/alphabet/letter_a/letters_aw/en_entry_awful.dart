@@ -176,9 +176,6 @@ class EnglishEntryawful extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I feel awful about forgetting her birthday."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەست بە خراپی دەکەم سەبارەت بە لەبیرچوونی ڕۆژی لەدایکبوونی."),
@@ -201,9 +198,6 @@ class EnglishEntryawful extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It was only later that we learned the awful truth."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەنھا دواتر بوو کە ڕاستییە تاڵەکەمان زانی."),
@@ -226,9 +220,6 @@ class EnglishEntryawful extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It's going to cost an awful lot of money."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پارەیەکی زۆری تێدەچێت."),
                               const CustomSizedBoxForTTS(),
@@ -249,9 +240,6 @@ class EnglishEntryawful extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Clint is awful smart."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "کلینت فرە زیرەکە."),
                               const CustomSizedBoxForTTS(),

@@ -174,9 +174,6 @@ class EnglishEntryamphitheatre extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The amphitheatre is well worth a visit."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "شانۆپانەکە شایەنی سەردانییەکە."),
                               const CustomSizedBoxForTTS(),

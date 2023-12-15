@@ -184,9 +184,6 @@ class EnglishEntryassert extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She continued to assert that she was innocent."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەردەوام بوو لە جەختکردنەوە لە بێ‌تاوانیی."),
@@ -208,9 +205,6 @@ class EnglishEntryassert extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The German Chancellor was anxious to assert her government's commitment to European unity."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕاوێژکاری ئەڵمانیا دوودڵ بوو لە جەختکردنەوە لە پابەندیی حکومەتەکەی بە یەکگرتوویی ئەورووپا."),
@@ -234,9 +228,6 @@ class EnglishEntryassert extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "You’re too timid—you must try to assert yourself more."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆر شەرمن و لەرزۆکی، دەبێت زیاتر خۆت دەربخەیت."),
@@ -260,9 +251,6 @@ class EnglishEntryassert extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She wished to assert her independence from her parents."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەیویست سەربەخۆیی لە دایک و باوکی بسەپێنێ."),

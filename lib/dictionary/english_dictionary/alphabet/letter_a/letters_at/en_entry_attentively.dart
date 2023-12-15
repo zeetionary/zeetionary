@@ -184,9 +184,6 @@ class EnglishEntryattentively extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The children listened attentively to the story."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "منداڵەکان بەوریاییەوە گوێیان دەگرت."),
                               const CustomSizedBoxForTTS(),
@@ -209,9 +206,6 @@ class EnglishEntryattentively extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The landlady cared attentively for her residents."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خاوەنەکە خەمخۆرانە گرنگی دەدا بە کرێچییەکانی."),

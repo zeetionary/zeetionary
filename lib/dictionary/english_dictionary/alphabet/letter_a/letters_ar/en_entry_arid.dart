@@ -180,9 +180,6 @@ class EnglishEntryarid extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Nothing grows in these arid regions."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھیچ گەشە ناکات لەم ناوچە بێ‌بارانە."),
                               const CustomSizedBoxForTTS(),
@@ -204,9 +201,6 @@ class EnglishEntryarid extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I found his writing extremely arid."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "نووسینەکانی وشک‌بوون بەلامەوە."),
                               const CustomSizedBoxForTTS(),
@@ -229,9 +223,6 @@ class EnglishEntryarid extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "After several arid years, the company has started to become successful."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە دوای چەند ساڵێکی بێ‌قازانج، کۆمپانیاکە دەستی‌کردووە بە سەرکەوتن."),

@@ -177,9 +177,6 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Penguins live near the Antarctic Circle where it's very cold."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پەنگوینەکان نزیک لە سووڕگەی ئەنتارکتیک دەژین کە زۆر ساردە."),

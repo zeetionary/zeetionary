@@ -180,9 +180,6 @@ class EnglishEntryarrogant extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I found him arrogant and rude."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە کەسێکی بێ‌ڕێز و لەخۆڕازی ھاتە پێش چاوم."),

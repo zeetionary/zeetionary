@@ -175,9 +175,6 @@ class EnglishEntryanthem extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The European anthem was played at the opening and closing ceremonies."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەنزیمی ئەورووپا لێدرا لە سەرەتا و کۆتایی بۆنەکە."),

@@ -175,9 +175,6 @@ class EnglishEntryballgame extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Ball games and skateboarding are prohibited in this area."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تۆپێن و سکەیتەوانی لەم ناوچە قەدەغەن."),
@@ -200,9 +197,6 @@ class EnglishEntryballgame extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Are you going to the ball game?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەچی بۆ یاری بەیسبۆڵەکە؟."),
                               const CustomSizedBoxForTTS(),

@@ -134,9 +134,6 @@ class EnglishEntryamalgamation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We look towards the amalgamation of some of the neighborhood factories."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە نیازین ژمارەیەک لە کارگەکانی گەڕەکەکە یەکبخەین."),
@@ -158,9 +155,6 @@ class EnglishEntryamalgamation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The proposed amalgamation of the two institutes has mow fallen through."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پڕۆسەی پێشنیازکراوی یەکخستنی دوو پەیمانگاکە شکستی ھێناوە."),

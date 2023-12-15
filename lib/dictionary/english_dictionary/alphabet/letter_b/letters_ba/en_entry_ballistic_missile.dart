@@ -173,9 +173,6 @@ class EnglishEntryballisticmissile extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The regime was planning on developing long-range ballistic missiles that could travel 600 miles or more."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕژێمەکە پلانی گەشەپێدانی موشەکی بالیستیکی مەودا درێژی ھەبوو کە دەیتوانی ٦٠٠ میل یان زیاتر ببڕێت."),

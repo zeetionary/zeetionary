@@ -183,9 +183,6 @@ class EnglishEntryarrange extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The party was arranged quickly."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئاھەنگەکە بە خێرایی ڕێکخرا."),
                               const CustomSizedBoxForTTS(),
@@ -205,9 +202,6 @@ class EnglishEntryarrange extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She arranged a loan with the bank."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وەرگرتنی قەرزێکی ڕێکخست لەگەڵ بانکەکە."),
@@ -231,9 +225,6 @@ class EnglishEntryarrange extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The books are arranged alphabetically by author."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کتێبەکان بەپێی ئەلفوبێی ناوی نووسەرەکانیان ڕیزبەندی کرابوون."),
@@ -257,9 +248,6 @@ class EnglishEntryarrange extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Beethoven's fifth symphony has been arranged for the piano."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێنجەم سیمفۆنی بیتھۆڤن بۆ پیانۆ سازێندراوە."),

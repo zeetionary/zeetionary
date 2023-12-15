@@ -130,9 +130,6 @@ class EnglishEntryailing extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She looked after her ailing father."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "چاودێری باوکە ناساخەکەی دەکات."),
                               const CustomSizedBoxForTTS(),
@@ -154,9 +151,6 @@ class EnglishEntryailing extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Ted asked me if I could help him fix his ailing car."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تێد داوای لێکردم کە یارمەتی بدەم ئۆتۆمبێلە داشقەکەی چاکبکاتەوە."),

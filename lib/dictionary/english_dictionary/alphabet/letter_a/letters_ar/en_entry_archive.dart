@@ -179,9 +179,6 @@ class EnglishEntryarchive extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The BBC's archives are bulging with material."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەرشیفی بی بی سی پڕە لە زانیاری."),
                               const CustomSizedBoxForTTS(),

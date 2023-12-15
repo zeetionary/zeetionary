@@ -181,9 +181,6 @@ class EnglishEntryastound extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "His arrogance astounded her."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "خۆبەزلزانییەکەی سەرسامی کرد."),
                               const CustomSizedBoxForTTS(),

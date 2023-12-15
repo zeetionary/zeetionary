@@ -174,9 +174,6 @@ class EnglishEntryanimate extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "A smile suddenly animated her face."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێکەنینێک ڕووخساری کردەوە (گەشاندەوە)."),
@@ -200,9 +197,6 @@ class EnglishEntryanimate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The much-loved characters have been animated in this new film."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کارەکتەرە زۆر خۆشەویستەکان لەم فیلمە تازەدا وێناکراون."),
@@ -226,9 +220,6 @@ class EnglishEntryanimate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Children quickly learn to distinguish between animate and inanimate motion."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "منداڵان بەزووی فێردەبن جیاوازی بکەن لەنێوان جووڵەی شتی زیندوو و بێ‌گیان."),

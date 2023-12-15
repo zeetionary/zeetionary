@@ -186,9 +186,6 @@ class EnglishEntryassociation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The British Medical Association is/are campaigning for a complete ban on tobacco advertising."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێکخراوی تەندرووستیی بەریتانی ھەوڵ دەدات بۆ قەدەغەی تەواوەتیی ڕیکلام بۆ تۆباکۆ."),
@@ -212,9 +209,6 @@ class EnglishEntryassociation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They have maintained a close association with a college in the US."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەماھەنگی نزیکیان لەگەڵ کۆلێژێکی ئەمریکی ھێشتووەتەوە."),
@@ -238,9 +232,6 @@ class EnglishEntryassociation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "You should teach the child to form an association between good behaviour and rewards."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەبێت منداڵەکە فێربکەیت گرێیەک درووست بکات لەنێوان ڕەفتاری باش و پاداشت."),
@@ -264,9 +255,6 @@ class EnglishEntryassociation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The research showed an association between diet and various diseases."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "توێژینەوە پەیوەندی نێوان خواردن و ژمارەیەک نەخۆشی پیشاندا."),

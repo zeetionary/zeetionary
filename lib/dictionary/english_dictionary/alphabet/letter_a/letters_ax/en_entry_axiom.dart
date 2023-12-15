@@ -174,9 +174,6 @@ class EnglishEntryaxiom extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It is a widely held axiom that governments should not negotiate with terrorists."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەوە ڕێسایەکی بەربڵاوە کە حکومەتەکان نابێت مامەڵە لەگەڵ تیرۆریستان بکەن."),

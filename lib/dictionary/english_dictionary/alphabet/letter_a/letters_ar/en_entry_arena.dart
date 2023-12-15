@@ -180,9 +180,6 @@ class EnglishEntryarena extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The rider has to halt the horse in the arena."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سوارەکە دەبێت ئەسپەکە لە گۆڕەپانەکەدا بوەستێنێت."),
@@ -206,9 +203,6 @@ class EnglishEntryarena extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The company has been very successful in the commercial arena."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کۆمپانیاکە زۆر سەرکەوتوو بووە لەلایەنی بازرگانییەوە."),

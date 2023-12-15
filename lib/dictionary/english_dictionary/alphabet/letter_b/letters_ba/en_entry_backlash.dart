@@ -174,9 +174,6 @@ class EnglishEntrybacklash extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The government is facing an angry backlash from voters over the new tax."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "حکومەت ڕووبەڕووی کاردانەوەی توندی دەنگدەران بووە بەھۆی باجە نوێیەکەوە."),

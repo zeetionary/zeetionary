@@ -174,9 +174,6 @@ class EnglishEntryaxiomatic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It seems axiomatic that everyone would benefit from a better scientific education."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەوە بەڵگەنەویست دیارە کە ھەمووان سوودمەند دەبن لە پەروەردەی زانستیی باشتر."),

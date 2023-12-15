@@ -174,9 +174,6 @@ class EnglishEntryanomalous extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They couldn’t find an explanation for the seemingly anomalous results of the experiment."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نەیان‌دەتوانی ڕوونکردنەوەیەک بدۆزنەوە بۆ ئەنجامە سەیرەکانی تاقیکردنەوەکە."),

@@ -179,9 +179,6 @@ class EnglishEntryarugula extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I love the peppery flavor of arugula in salads."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "حەزم لە چێژی توونی ئوروگولایە لە زەڵاتەدا."),

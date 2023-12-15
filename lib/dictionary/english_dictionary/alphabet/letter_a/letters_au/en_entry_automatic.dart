@@ -186,9 +186,6 @@ class EnglishEntryautomatic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The automatic pilot system on the airplane kept it on course even during turbulence."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سیستەمە لێخوڕە خۆکارەکە لەسەر فڕۆکەکە لەسەر ڕێڕەو ھێشتییەوە تەنانەت لە کاتی ھەڵبەز و دابەز."),
@@ -210,9 +207,6 @@ class EnglishEntryautomatic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The automatic doors opened as I approached the entrance to the store."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەرگا ئۆتۆماتیکییەکان کرانەوە کە گەشتم بە بەردەمی فرۆشگاکە."),
@@ -236,9 +230,6 @@ class EnglishEntryautomatic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Breathing is an automatic function of the body."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەناسەدان ئەرکێکی خۆنەویستانەی لەشە."),
                               const CustomSizedBoxForTTS(),
@@ -261,9 +252,6 @@ class EnglishEntryautomatic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A fine for this offence is automatic."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "سزا بۆ ئەم تاوانە ھەمیشە ھەیە."),
                               const CustomSizedBoxForTTS(),
@@ -286,9 +274,6 @@ class EnglishEntryautomatic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The gunman opened fire with an automatic."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "چەکدارەکە بە چەکێکی خۆکار دەستی بە تەقە کرد."),
@@ -311,9 +296,6 @@ class EnglishEntryautomatic extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Kate drives an automatic."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەیت ئۆتۆمبێلێکی گێڕ ئۆتۆماتیکی ھەیە."),

@@ -182,9 +182,6 @@ class EnglishEntryastute extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It was an astute move to sell the shares then."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "فرۆشتنی پشکەکان ئەوکات ھەنگاوێکی بلیمەتانە بوو."),

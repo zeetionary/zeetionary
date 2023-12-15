@@ -175,9 +175,6 @@ class EnglishEntryamphetamine extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Floyd was banned from racing after a test revealed traces of amphetamine in his urine."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێگری‌کرا لە فلۆید بەژداری لە پێشبڕکێیەکە بکات بەھۆی ئەوەی پشکنینەکە پاشماوەی وزەبەخشی لە میزەکەی ئاشکراکرد."),

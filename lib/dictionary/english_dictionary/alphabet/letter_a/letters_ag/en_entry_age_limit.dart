@@ -130,9 +130,6 @@ class EnglishEntryagelimit extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The lower age limit for buying cigarettes in the UK is 16."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەمترین تەمەن بۆ کڕینی جگەرە لە شانشینی یەکگرتوو ١٦ ساڵییە."),

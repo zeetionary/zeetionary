@@ -177,9 +177,6 @@ class EnglishEntryardently extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He gazed at her ardently."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بە تامەزرۆییەوە لە کچەکەی دەڕوانی."),
                               const CustomSizedBoxForTTS(),

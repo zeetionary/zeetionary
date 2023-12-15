@@ -254,9 +254,6 @@ class EnglishEntryapproach extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She took the wrong approach in her dealings with them."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێگایەکی ھەڵەی گرتە بەر بۆ مامەڵەکردن لەگەڵیان."),
@@ -278,9 +275,6 @@ class EnglishEntryapproach extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The approach they were using no longer seemed to work."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو ڕێگایەی بەکاریان دەھێنا چی دیکە گونجاو نەبوو."),
@@ -304,9 +298,6 @@ class EnglishEntryapproach extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They felt apprehensive about the approach of war."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نیگەران‌بوون سەبارەت بە نزیکبوونەوە لە جەنگ."),
@@ -328,9 +319,6 @@ class EnglishEntryapproach extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The children fell silent at the approach of their teacher."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "منداڵەکان بێ‌دەنگ بوون بە نزیکبوونەوەی مامۆستاکەیان."),
@@ -354,9 +342,6 @@ class EnglishEntryapproach extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The club has made an approach to a local company for sponsorship."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "یانەکە قسەی لەگەڵ کۆمپانیایەکی ناوخۆیی کردووە بۆ ڕیکلام‌کردن."),
@@ -380,9 +365,6 @@ class EnglishEntryapproach extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She resented his persistent approaches."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەرھەڵستی نزیکبوونەوە پێ‌داگیرەکانیی کرد."),
@@ -406,9 +388,6 @@ class EnglishEntryapproach extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "All the approaches to the palace were guarded by troops."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەموو ڕێگاکانی گەشتن بە کۆشکەکە لەلایەن سەربازەکانەوە پاسەوانی دەکران."),
@@ -432,9 +411,6 @@ class EnglishEntryapproach extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Please fasten your seat belts, the plane is now making its final approach (in)to (= is coming near to and preparing to land at) Heathrow."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تکایە پشتێنی سەلامەتی ببەستن، فڕۆکەکە ئێستا کۆتا فڕینی ئەنجام‌دەدا بۆ فڕۆکەخانەی ھیسرۆو."),
@@ -457,9 +433,6 @@ class EnglishEntryapproach extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "We could hear the train approaching."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گوێمان لە دەنگی نزیکبوونەوەی شەمەندەفەرەکە بوو."),
@@ -480,9 +453,6 @@ class EnglishEntryapproach extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Winter is approaching."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "زستان خەریکە نزیک‌دەبێتەوە."),
                               const CustomSizedBoxForTTS(),
@@ -505,9 +475,6 @@ class EnglishEntryapproach extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I'd like to ask his opinion but I find him difficult to approach (= not easy to talk to in a friendly way)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "حەزدەکەم بۆچوونی بخوازم، بەڵام نزیکبوونەوە لێی بە ئاسان نابینم."),
@@ -530,9 +497,6 @@ class EnglishEntryapproach extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Interest rates are approaching zero."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێژەی سوو خەریکە نزیک لە سفر دەبێتەوە."),
@@ -556,9 +520,6 @@ class EnglishEntryapproach extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "What's the best way to approach this problem?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "باشترین ڕێگا چییە بۆ مامەڵەکردن لەگەڵ ئەم کێشەیە؟"),

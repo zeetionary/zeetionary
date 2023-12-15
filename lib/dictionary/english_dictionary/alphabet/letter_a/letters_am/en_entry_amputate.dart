@@ -171,9 +171,6 @@ class EnglishEntryamputate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Her right arm became infected and had to be amputated."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "باڵی ڕاستی تووشی ھەوکردن بوو و ناچاربوون بی‌بڕنەوە."),

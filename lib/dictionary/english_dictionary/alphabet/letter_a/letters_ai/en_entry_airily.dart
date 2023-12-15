@@ -132,9 +132,6 @@ class EnglishEntryairily extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "'He can do what he likes - it doesn't bother me,' she said airily."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو خەمساردییەوە وتی «چی دەکات با بیکات، گرنگ نییە لام»"),

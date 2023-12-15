@@ -179,9 +179,6 @@ class EnglishEntryasphyxiate extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He was asphyxiated by the smoke."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بە دووکەڵەکە خنکا."),
                               const CustomSizedBoxForTTS(),

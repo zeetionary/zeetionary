@@ -178,9 +178,6 @@ class EnglishEntryarmoured extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The tank was heavily armoured."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "تانکەکە بە سەختی زرێپۆش‌کرابوو."),
                               const CustomSizedBoxForTTS(),

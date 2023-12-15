@@ -181,9 +181,6 @@ class EnglishEntryassortment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was dressed in an odd assortment of clothes."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دەستە جلێکی سەیری لەبەرکردبوو."),
                               const CustomSizedBoxForTTS(),

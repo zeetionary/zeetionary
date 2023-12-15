@@ -132,9 +132,6 @@ class EnglishEntryamble extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Mark ambled over to the girls."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "مارک بەھێواشی چوو بۆ لای کچەکان."),
                               const CustomSizedBoxForTTS(),

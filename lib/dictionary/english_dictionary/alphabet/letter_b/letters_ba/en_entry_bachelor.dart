@@ -174,9 +174,6 @@ class EnglishEntrybachelor extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He was 38, and a confirmed bachelor."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەمەنی ٣٨ ساڵ بوو ھیچ ھاوسەرگیری نەکردبوو (و ناشیەوێت)."),
@@ -199,9 +196,6 @@ class EnglishEntrybachelor extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The bachelor of arts graduate was eager to start her career."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەوەی دەرچووی بەکالۆریۆس لە ھونەر بوو بەپەرۆش بوو کارەکەی دەستپێ‌بکات."),

@@ -182,9 +182,6 @@ class EnglishEntryaugusttwo extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He had dared to challenge the views of an august body of imperial historians."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بوێری ئەوەی دژایەتی ڕای لیژنەیەکی بەشکۆی مێژوونووسانی شاھانە بکات."),

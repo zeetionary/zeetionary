@@ -174,9 +174,6 @@ class EnglishEntryantarctic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The protection of the Antarctic from commercial exploitation is an important goal of environmentalists."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پاراستنی خولگەی جەمسەری باشوری زەوی لە بەکارھێنانی بە مەبەستی بازرگانی یەکێکە لە ئامانجە سەرەکییەکانی ژینگەپارێزان."),
@@ -200,9 +197,6 @@ class EnglishEntryantarctic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Scientists went on an Antarctic expedition to study penguins and ice."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زاناکان دەستیان گە گەڕانێکی خولگەی جەمسەری باشوور کرد بۆ لێکۆڵینەوە لە پەنگوینەکان و سەھۆڵ."),

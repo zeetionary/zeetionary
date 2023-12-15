@@ -172,9 +172,6 @@ class EnglishEntrybandaid extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The nurse applied a Band-Aid to the child's scrape after she fell off her bike."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پەرستارەکە لەزگەی خستەسەر داڕووشاوی منداڵەکە لە دوای ئەوەی لە پاسکیلەکەی کەوتبوو."),

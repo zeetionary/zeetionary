@@ -131,9 +131,6 @@ class EnglishEntryafterthought extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They only invited Jack and Sarah as an afterthought."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "جاک و سارایان بانگھێشت کرد تەنھا دوای ئەوەی بیریانکەوتەوە."),

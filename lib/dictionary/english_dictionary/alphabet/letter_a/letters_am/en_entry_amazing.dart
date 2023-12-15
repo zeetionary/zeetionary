@@ -131,9 +131,6 @@ class EnglishEntryamazing extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The amazing thing is, he really believes he'll get away with it."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەوەی سەیرە ئەوەیە پێی‌وایە لەمە دەربازی دەبێت."),
@@ -154,9 +151,6 @@ class EnglishEntryamazing extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I find it amazing that people can be so irresponsible."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لام سەیرە خەڵکی دەکرێت ھێندە نابەرپرسانە بن."),

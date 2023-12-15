@@ -178,9 +178,6 @@ class EnglishEntryarabicnumeral extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "1 and 2 are Arabic numerals."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "1 و 2 ژمارەی عەرەبین."),
                               const CustomSizedBoxForTTS(),

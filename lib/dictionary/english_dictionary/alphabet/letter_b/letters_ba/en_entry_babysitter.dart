@@ -173,9 +173,6 @@ class EnglishEntrybabysitter extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I can't find a babysitter for tonight."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ناتوانم چاودێرێک بۆ ئەمشەو بدۆزمەوە."),
                               const CustomSizedBoxForTTS(),

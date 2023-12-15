@@ -176,9 +176,6 @@ class EnglishEntrybanishment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A period of peace followed the successful banishment of the warlords from the country."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەردەمێک لە ئارامی درووستبوو بەھۆی دوورخستنەوەی سەرکەوتووانەی سەرکردە سەربازییەکانەوە لە وڵاتەکە."),
@@ -200,9 +197,6 @@ class EnglishEntrybanishment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Most area residents are very happy with the banishment of cars from the park."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆرینەی ھاوڵاتیانی ناوچەکە زۆر دڵخۆشن بە قەدەغەکردنی ئۆتۆمبێل لە پارکەکە."),

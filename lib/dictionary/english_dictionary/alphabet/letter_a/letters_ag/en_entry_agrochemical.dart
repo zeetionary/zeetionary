@@ -131,9 +131,6 @@ class EnglishEntryagrochemical extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They produce a wide range of agrochemicals including pesticides, fungicides, and herbicides."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆر مادەی کیمیایی درووست دەکەن، لەوانە مێرووکوژ، کەڕووکوژ، گیاکوژ."),

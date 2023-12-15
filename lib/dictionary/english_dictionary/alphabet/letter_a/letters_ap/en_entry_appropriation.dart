@@ -182,9 +182,6 @@ class EnglishEntryappropriation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The film company sued them over their appropriation of a cartoon character."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کۆمپانیا فیلمییەکە سکاڵای لەسەر تۆمارکردن بەھۆی دزینی کارەکتەرێکی فیلمە کارتۆنییە."),
@@ -208,9 +205,6 @@ class EnglishEntryappropriation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The team scheduled a meeting to discuss the appropriation of funds for the upcoming project."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تیمەکە کۆبوونەوەیەکیان ڕێکخست بۆ گفتوگۆی تەرخانکردنی پارەکە بۆ پڕۆژەکانی داھاتووی نزیک."),
@@ -234,9 +228,6 @@ class EnglishEntryappropriation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The committee approved an appropriation of £20,000 for the payment of debts."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لیژنەکە سەرفکردنی بڕی ٢٠,٠٠٠ پاوەندی پەسەندکرد بۆ دانەوەی قەرزەکان."),

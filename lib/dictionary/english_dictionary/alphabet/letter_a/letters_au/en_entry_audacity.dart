@@ -182,9 +182,6 @@ class EnglishEntryaudacity extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He had the audacity to say I was too fat."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بوێری ئەوەی بوو بڵێت من زۆر قەڵەوم."),
                               const CustomSizedBoxForTTS(),

@@ -184,9 +184,6 @@ class EnglishEntryattitude extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "These societies have to change their attitudes towards women."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم کۆمەڵگایانە دەبێت ھەڵوێستیان بەرامبەر بە ژنان بگۆڕن."),
@@ -210,9 +207,6 @@ class EnglishEntryattitude extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "You'd better get rid of that attitude and shape up, young man."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "باشترە بۆت واز جوڵانەوەیە بێنیت و ڕەفتارت جوان بکەیت، کوڕی گەنج."),
@@ -236,9 +230,6 @@ class EnglishEntryattitude extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Her hands were folded in an attitude of prayer."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەستەکانی نووشتانبوویەوە وەک لە باری نزاکردندا بێ."),

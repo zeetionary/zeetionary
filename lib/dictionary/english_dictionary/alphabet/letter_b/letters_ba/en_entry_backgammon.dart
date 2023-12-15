@@ -175,9 +175,6 @@ class EnglishEntrybackgammon extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I learned to play backgammon from my grandfather, and it has become one of my hobbies."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە باپیرمەوە فێری تاوڵەکردن بووم و بووە بە یەکێک لە حەزەکانم."),

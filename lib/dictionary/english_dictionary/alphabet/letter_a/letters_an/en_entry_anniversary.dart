@@ -174,9 +174,6 @@ class EnglishEntryanniversary extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The company is celebrating its 100-year anniversary this year."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەمساڵ کۆمپانیاکە یادی ١٠٠ھەمین ساڵی دەکاتەوە."),

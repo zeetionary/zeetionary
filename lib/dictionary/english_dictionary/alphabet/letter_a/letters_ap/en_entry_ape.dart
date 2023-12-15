@@ -179,9 +179,6 @@ class EnglishEntryape extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Chimpanzees and gorillas are both apes."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "شیمپانزی و گۆرێلا ھەردووکیان ئەیپن."),
                               const CustomSizedBoxForTTS(),
@@ -204,9 +201,6 @@ class EnglishEntryape extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "For years the British film industry merely aped Hollywood."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بۆ چەندین ساڵ پیشەسازیی فیلمی بەریتانی تەنھا کۆپی خراپی ھۆڵیھوود بوو."),
@@ -230,9 +224,6 @@ class EnglishEntryape extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We used to ape the teacher's southern accent."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "جاران لاسایی ئەکسێنتی باشووریی مامۆستاکەمان دەکردەوە."),

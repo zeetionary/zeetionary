@@ -175,9 +175,6 @@ class EnglishEntrybarb extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The barbed fishing hook caught the fish firmly in its mouth."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "قولابە نوکدارەکەی ماسیگرتن ئاڵا بە دەمی ماسییەکەدا."),
@@ -200,9 +197,6 @@ class EnglishEntrybarb extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I tried to ignore their barbs about my new jacket."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەوڵمدا توانجەکانیان سەبارەت بە چاکەتە تازەکەم پشتگوێ‌ بخەم."),

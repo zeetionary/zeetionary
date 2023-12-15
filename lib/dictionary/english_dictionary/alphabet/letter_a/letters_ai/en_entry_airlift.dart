@@ -129,9 +129,6 @@ class EnglishEntryairlift extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The German authorities are considering an airlift if the situation becomes critical."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەسەڵاتدارانی ئەڵمانیا بیر لە ئۆپەراسیۆنی گواستنەوەی ڕزگارکردن بە فڕۆکە دەکەنەوە لە حاڵەتی خراپبوونی دۆخەکە."),
@@ -154,9 +151,6 @@ class EnglishEntryairlift extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Over 200 residents were airlifted off the island."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زیاتر لە ٢٠٠ کەس لە دوورگەکە بە فڕۆکە ڕزگارکران."),

@@ -131,9 +131,6 @@ class EnglishEntryagoraphobia extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She had agoraphobia and never wanted to go out of the house."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەگۆرافۆبیای ھەبوو و ھەرگیز نەیدەویست لە ماڵەوە دەربچێت."),

@@ -179,9 +179,6 @@ class EnglishEntryartery extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Hardening of the coronary arteries can lead to a heart attack."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕەقبوونی خوێنبەرەکانی ناو دڵ دەکرێت ببێتە ھۆی جەڵدەی دڵ."),

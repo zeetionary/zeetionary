@@ -175,9 +175,6 @@ class EnglishEntrybarbaric extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The way these animals are killed is barbaric."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "شێوازی کووشتنی ئەم ئاژەڵانە ناشارستانیەتانەیە."),
@@ -201,9 +198,6 @@ class EnglishEntrybarbaric extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The tribe lived a barbaric existence, isolated from the rest of the world."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خێڵەکە ژیانێکی ناشارستانی دەژیان، دابڕاو لە جیھانی دەرەوە."),

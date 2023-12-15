@@ -132,9 +132,6 @@ class EnglishEntryalas extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "For many people, alas, hunger is part of everyday life."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بۆ زۆر کەس، بەداخەوە، برسێتی بەشێکە لە ژیانی ڕۆژانە."),

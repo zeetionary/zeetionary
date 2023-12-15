@@ -133,9 +133,6 @@ class EnglishEntryaged extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They have two children aged six and nine."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دوو منداڵیان ھەیە کە تەمەنیان شەش و نۆ ساڵانن."),
@@ -158,9 +155,6 @@ class EnglishEntryaged extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I’m not sure if my aged car can make it up that hill."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دڵنیانیم کە ئەم ئۆتۆمبێلە کۆنەم بتوانێ بەو گردەدا بچێتە سەرەوە."),
@@ -183,9 +177,6 @@ class EnglishEntryaged extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The hospital was built to meet the needs of the aged."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نەخۆشخانەکە بنیادنرا بۆ دابینکردنی پێداویستییەکانی کەسانی بەتەمەن."),

@@ -173,9 +173,6 @@ class EnglishEntryamulet extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The child was wearing a shiny amulet around his neck for good luck."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "منداڵەکە چاوەزارێکی لە دەوری ملی بەستبوو بۆ ھێنانی بەختی باش"),

@@ -130,9 +130,6 @@ class EnglishEntryagreeable extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She did her best to make herself agreeable."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەموو شتێکی کرد بۆ ئەوەی دڵگیر بێت."),
                               const CustomSizedBoxForTTS(),

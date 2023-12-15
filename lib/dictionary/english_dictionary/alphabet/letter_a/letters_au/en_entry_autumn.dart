@@ -174,9 +174,6 @@ class EnglishEntryautumn extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Demand always rises during the autumn and winter months."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خواست ھەمیشە لە پاییز و زستاندا بەرزدەبێتەوە."),

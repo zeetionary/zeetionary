@@ -132,9 +132,6 @@ class EnglishEntryallegedly extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She was arrested for allegedly stealing a car."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەستگیرکرا بەھۆی ئەوە بانگەشە دەکرێت ئۆتۆمبێلێکی دزی بێت."),

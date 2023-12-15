@@ -133,9 +133,6 @@ class EnglishEntryambivalence extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I've never lied about my feelings, including my ambivalence about getting married again."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەرگیز درۆم سەبارەت بە ھەستەکانم نەکردووە، لەنێوانیاندا دوودڵیم سەبارەت بە دووبارە ھاوسەرگیری کردن."),

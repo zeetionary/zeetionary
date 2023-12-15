@@ -174,9 +174,6 @@ class EnglishEntrybackache extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A lot of sitting gives me such backache."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دانیشتنی زۆر تووشی پشتئێشەم دەکات."),
                               const CustomSizedBoxForTTS(),

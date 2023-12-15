@@ -130,9 +130,6 @@ class EnglishEntryaghast extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He stood aghast at the sight of so much blood."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "واق‌وڕماو بوو بە بینینی خوێنێکی زۆر."),
                               const CustomSizedBoxForTTS(),

@@ -178,9 +178,6 @@ class EnglishEntryanticipation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He bought extra food in anticipation of more people coming than he'd invited."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خواردنی زیادەی کڕی لە پێشبینی ھاتنی خەڵکی زیاتر وەک لەوەی بانگھێشتی کردوون."),
@@ -202,9 +199,6 @@ class EnglishEntryanticipation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Parents visit the school in anticipation that action will be taken."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دایکان و باوکان سەردانی قوتابخانەکە دەکەن بەھیوای ئەوەی ھەنگاو بنرێت."),
@@ -228,9 +222,6 @@ class EnglishEntryanticipation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The courtroom was filled with anticipation."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ژووری دادگا پڕ بوو لە تامەزرۆیی."),
                               const CustomSizedBoxForTTS(),

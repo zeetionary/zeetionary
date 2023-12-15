@@ -183,9 +183,6 @@ class EnglishEntryastrologer extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The astrologer consulted her charts to determine the best time for the job interview."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "فەلەکناسەکە سەیری ھێڵکارییەکانی کرد بۆ دیاریکردنی باشترین کات بۆ چاوپێکەوتنەکە."),

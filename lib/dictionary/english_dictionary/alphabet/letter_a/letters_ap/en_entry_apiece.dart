@@ -179,9 +179,6 @@ class EnglishEntryapiece extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Sterling and Walcott scored a goal apiece."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ستێرلینگ و واڵکۆت یەکی گۆڵێکیان تۆمارکرد."),

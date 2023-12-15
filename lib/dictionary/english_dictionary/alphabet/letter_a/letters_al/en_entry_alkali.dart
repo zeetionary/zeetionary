@@ -132,9 +132,6 @@ class EnglishEntryalkali extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "When an acid and an alkali react together the result is a salt and water."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کاتێک ترش و تفت کارلێک دەکەن خوێ و ئاو درووست دەکەن."),

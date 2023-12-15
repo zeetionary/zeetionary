@@ -184,9 +184,6 @@ class EnglishEntryatmospheric extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Plants are the main source of atmospheric oxygen."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕووەکەکان سەرچاوەی سەرەکیی ئۆکسجینی بەرگەھەوان."),
@@ -210,9 +207,6 @@ class EnglishEntryatmospheric extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The new restaurant is highly atmospheric."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "چێشتخانە تازەکە زۆر بزوێنەرە."),
                               const CustomSizedBoxForTTS(),

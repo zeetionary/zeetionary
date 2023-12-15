@@ -180,9 +180,6 @@ class EnglishEntryaupair extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She worked in Paris for six months as an au pair."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە پاریس شەس مانگ وەک ئۆپێرێک کاری کرد."),

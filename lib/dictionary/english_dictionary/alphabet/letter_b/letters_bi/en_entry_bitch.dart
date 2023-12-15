@@ -166,7 +166,7 @@ class EnglishEntrybitch extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: دێڵ، دێڵەسەگ، مێ یان دێڵی گورگ، ڕێوی، سمۆری ئاوی، سکاڵا، پرتەوبۆڵە، کێشەنەرەوە، بێ‌حەیا، ژنی هەرزە و لەش‌فرۆش، سەڵیتە
+کوردی: دێڵ، دێڵەسەگ، مێ یان دێڵی گورگ، ڕێوی، سمۆری ئاوی، سکاڵا، پرتەوبۆڵە، کێشەنەرەوە، بێ‌حەیا، ژنی ھەرزە و لەش‌فرۆش، سەڵیتە
 
 ١. (ناو) سەگی مێینە"""),
                           Row(
@@ -197,7 +197,7 @@ class EnglishEntrybitch extends StatelessWidget {
                                       "She confronted the person who had referred to her as a bitch, demanding an apology."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕووبەڕووی ئەو کەسەوە بووەوە کە پێی گوت هەرزە و داوای لێبووردنخوازی دەکرد."),
+                                      "ڕووبەڕووی ئەو کەسەوە بووەوە کە پێی گوت ھەرزە و داوای لێبووردنخوازی دەکرد."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbitchs2("en-GB"),
@@ -237,7 +237,7 @@ class EnglishEntrybitch extends StatelessWidget {
                                       "We've been having a bitch about our boss."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەمەقاڵێمان هەبووە سەبارەت بە بەڕێوبەرەکەمان."),
+                                      "دەمەقاڵێمان ھەبووە سەبارەت بە بەڕێوبەرەکەمان."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbitchs4("en-GB"),
@@ -322,7 +322,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bitch (Derived forms: bitching, bitches, bitched)
+- Noun: bitch (derived forms: bitching, bitches, bitched)
 1. Female of any member of the dog family
  
 2. [informal] An unpleasant difficulty
@@ -334,7 +334,7 @@ class EnglishMeaning extends StatelessWidget {
 4. [informal] A complaint or act of complaining
 - objection, gripe [informal], kick [informal], beef [informal], squawk [informal]
 
-- Verb: bitch (Derived forms: bitching, bitches, bitched)
+- Verb: bitch (derived forms: bitching, bitches, bitched)
 Usage: informal
 1. Complain (= gripe, grouse, crab [informal], beef [informal], squawk, bellyache [informal], holler [informal])
 "What was he bitching about?";

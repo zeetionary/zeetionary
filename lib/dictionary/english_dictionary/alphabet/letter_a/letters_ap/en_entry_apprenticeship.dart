@@ -180,9 +180,6 @@ class EnglishEntryapprenticeship extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She was in the second year of her apprenticeship as a carpenter."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە دووەم ساڵی شاگردییەکەی بوو وەک دارتاشێک."),

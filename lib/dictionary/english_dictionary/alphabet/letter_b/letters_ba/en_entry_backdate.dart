@@ -173,9 +173,6 @@ class EnglishEntrybackdate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The suspect was accused of backdating the receipt to conceal his involvement in the theft."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گومانلێکراوەکە تاوانبارکرا بە گۆڕینی بەرواری پسوڵەکە بۆ شاردنەوەی تێوەگلانی لە دزییەکە."),
@@ -198,9 +195,6 @@ class EnglishEntrybackdate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The company backdated the employee's start date to make them eligible for a bonus."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کۆمپانیاکە بەرواری سەرەتای کاری کارمەندانی بردە پێشەوە بۆ ئەوەی وابکات پاداشت بیانگرێتەوە."),

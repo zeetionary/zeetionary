@@ -186,9 +186,6 @@ class EnglishEntryalert extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "An anonymous letter alerted police to the possibility of a terrorist attack at the airport."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نامەیەکی نھێنی پۆلیسی ئاگادارکردەوە لە ئەگەری ھێرشێکی تیرۆریستی لە فڕۆکەخانەکە."),
@@ -209,9 +206,6 @@ class EnglishEntryalert extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Neighbours quickly alerted the emergency services."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دراوسێیەکان بەپەلە تیمە فریاگوزارییەکانیان ئاگادارکردەوە."),
@@ -234,9 +228,6 @@ class EnglishEntryalert extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They had been alerted to the possibility of further price rises."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئاگادارکرابوونەوە لە ئەگەری زیادبوونی زیاتری نرخ."),
@@ -259,9 +250,6 @@ class EnglishEntryalert extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "More than 5 000 troops have been placed on (full) alert."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زیاتر لە ٥٠٠٠ سەرباز خراونەتە ئامادابەشیی تەواو"),
@@ -284,9 +272,6 @@ class EnglishEntryalert extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I get text alerts when I have used 80% of my mobile data."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئاگادارکەرەوەیەکی نووسراوم پێدەگات کە زیاتر لە ٨٠٪ ئینتەرنێتی موبایلەکەم بەکاربێنم."),
@@ -309,9 +294,6 @@ class EnglishEntryalert extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Two alert scientists spotted the mistake."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دوو زانای وریا تێبینی ھەڵەکەیان کرد."),
                               const CustomSizedBoxForTTS(),
@@ -333,9 +315,6 @@ class EnglishEntryalert extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We must be alert to the possibility of danger."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پێویستە چاوکراوە بین بۆ مەترسی."),
                               const CustomSizedBoxForTTS(),

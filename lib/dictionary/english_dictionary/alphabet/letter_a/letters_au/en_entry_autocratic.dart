@@ -184,9 +184,6 @@ class EnglishEntryautocratic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The president resigned after 30 years of autocratic rule."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەرۆک دەستی لەکارکێشایەوە لە دوای ٣٠ ساڵ لە حوکمی سەرکوتکەرانە."),
@@ -210,9 +207,6 @@ class EnglishEntryautocratic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The autocratic boss micromanaged his employees and refused to consider their suggestions."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەرۆکە تاکڕەوەکە کارمەندەکانی بەوردی بەڕێوەدەبرد و ھیچ گرنگی بە پێشنیارەکانیان نەدەدا."),

@@ -131,9 +131,6 @@ class EnglishEntryagnostic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Although he was raised a Catholic, he was an agnostic for most of his adult life."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەگەرچی وەک کاسۆلیکێک گەورە کرا، بەڵام زۆرینەی تەمەنی پێگەشتوویی وەک ئەگنۆستیکێک بەسەربرد."),
@@ -156,9 +153,6 @@ class EnglishEntryagnostic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Whether we are religious, atheist, or agnostic, there are some moral values we all share."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەوەی کە ئایینی، بێدین، یان ئەگنۆستیک بوو نازانرێت."),

@@ -179,9 +179,6 @@ class EnglishEntryaptness extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The aptness of his comment was evident, as it precisely addressed the issue at hand."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گونجاوی کۆمێنتەکەی ڕوون بوو، بەھۆی ئەوەی بەڕوونی باسی لە کێشەکەی بەردەستمان کرد."),

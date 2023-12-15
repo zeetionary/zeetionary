@@ -180,9 +180,6 @@ class EnglishEntryarctic extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "No trees grow in the Arctic regions."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھیچ درەختێک لە ناوچەکانی جەمسەری باکوور گەشە ناکات."),
@@ -206,9 +203,6 @@ class EnglishEntryarctic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The North of England has been experiencing Arctic conditions these past few days."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم چەند ڕۆژەی ڕابردوو باکووری ئینگلتەرە بە کەشوھەوای زۆر سارددا تێپەڕیوە."),
@@ -231,9 +225,6 @@ class EnglishEntryarctic extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Polar bears live in the Arctic."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ورچەسپی لە جەمسەری باکوور دەژین."),
                               const CustomSizedBoxForTTS(),

@@ -173,9 +173,6 @@ class EnglishEntryanti extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They’re completely anti the new proposals."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بە تەواوی دژ بە پێشنیازە تازەکانن."),
                               const CustomSizedBoxForTTS(),

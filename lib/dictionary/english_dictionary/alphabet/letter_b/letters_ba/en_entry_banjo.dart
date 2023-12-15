@@ -172,9 +172,6 @@ class EnglishEntrybanjo extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The banjo is often used to accompany singing, and its distinctive sound can add a lively feel to a song."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بانجۆ زۆرجار لەگەڵ گۆرانیدا بەکاردێت، و دەنگە تایبەتەکەی دەکرێت ھەستێکی بەتین بۆ گۆرانییەک زیاد بکات."),

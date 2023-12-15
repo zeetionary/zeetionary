@@ -133,9 +133,6 @@ class EnglishEntryambiguity extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Write clear definitions in order to avoid ambiguity."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێناسەی ڕوون بنووسە بۆ ئەوەی لە ناڕوونی بەدوور بیت."),

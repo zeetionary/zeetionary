@@ -180,9 +180,6 @@ class EnglishEntryaquatic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Many forms of aquatic life inhabit ponds."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ژمارەیەکی زۆری گیانلەبەری ئاوی لە گۆماوەکاندا دەژین."),
@@ -206,9 +203,6 @@ class EnglishEntryaquatic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Aquatic sports include swimming and rowing."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وەرزشی ئاوی مەلەکردن و بەلەمەوانی لەخۆدەگرێت."),

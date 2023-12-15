@@ -180,9 +180,6 @@ class EnglishEntryattn extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Please send all submissions via email attn: Bill Simms."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تکایە ھەموو دۆکیومێنتەکان بە ئیمەیڵ بنێرە، ئاگاداربە بیڵ سیمس."),

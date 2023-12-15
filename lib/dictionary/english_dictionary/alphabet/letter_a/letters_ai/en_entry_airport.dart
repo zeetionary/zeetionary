@@ -132,9 +132,6 @@ class EnglishEntryairport extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She arrived at Sao Paulo international airport on Friday to begin her journey."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕۆژی ھەینی گەشتە فڕۆکەخانەی نێودەڵەتیی ساوپاولۆ بۆ دەستپێکردنی گەشتەکەی."),

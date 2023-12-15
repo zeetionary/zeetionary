@@ -181,9 +181,6 @@ class EnglishEntryassertive extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "You should try and be more assertive."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دەبێت زیاتر خۆسەپێنەر بیت."),
                               const CustomSizedBoxForTTS(),

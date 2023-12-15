@@ -176,9 +176,6 @@ class EnglishEntryavenue extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We walked down a broad avenue lined with trees."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە شەقامێکی فراواندا تێپەڕین کە بە درەخت دەوردرابوو."),
@@ -202,9 +199,6 @@ class EnglishEntryavenue extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A mile-long avenue of lime trees leads to the house."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێگایەکی یەک میل درێژی دەوردراو بە درەختی لیمۆ دەگات بە ماڵەکە."),
@@ -228,9 +222,6 @@ class EnglishEntryavenue extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Only two avenues are open to us - either we accept his offer or we give up the fight completely."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەنھا دوو ھەڵبژاردەمان لەبەردەستە: یان پێشنیارەکەی پەسەند دەکەین، یان بە تەواوی واز لە شەڕەکە دێنین."),

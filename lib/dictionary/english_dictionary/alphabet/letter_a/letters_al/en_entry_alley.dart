@@ -132,9 +132,6 @@ class EnglishEntryalley extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The car was hidden down a narrow alley."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئۆتۆمبێلەکە لە کۆڵانێکی باریک شاردرابوویەوە."),

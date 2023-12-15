@@ -132,9 +132,6 @@ class EnglishEntryallin extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The all-in holiday includes fares, full board and entrance to museums."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پشووەکە کرێی گواستنەوە و ژەمە خواردنەکان و چوونە مۆزەخانەکان لەخۆدەگرێت."),

@@ -198,9 +198,6 @@ class EnglishEntryage extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "When I was your age I was already married."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کە لە تەمەنی تۆ بووم ماوەیەک بوو ھاوسەرگیریم کردبوو."),
@@ -221,9 +218,6 @@ class EnglishEntryage extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The children range in age from 5 to 10."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "منداڵەکان تەمەنیان لە نێوان ٥ بۆ ١٠ ساڵانە."),
@@ -245,9 +239,6 @@ class EnglishEntryage extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I waited for ages."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بۆ ماوەیەکی زۆر چاوەڕێ بووم."),
                               const CustomSizedBoxForTTS(),
@@ -268,9 +259,6 @@ class EnglishEntryage extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She dreaded old age."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لە پیرێتی دەترسا."),
                               const CustomSizedBoxForTTS(),
@@ -291,9 +279,6 @@ class EnglishEntryage extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He lived during the Elizabethan age."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە سەردەمی دەسەڵاتداریی ئیلیزابێس ژیا."),
@@ -337,9 +322,6 @@ class EnglishEntryage extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "My mother has really aged since she became ill."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دایکم ڕەنگی پیربووە لەوەتەی نەخۆش کەوتووە."),

@@ -172,9 +172,6 @@ class EnglishEntrybanquet extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Over 1 600 people attended a banquet in her honour."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زیاتر لە ١٦٠٠ کەس بەژداری میواندارییەکە بوون کە بۆ ڕێزلێنان لێی سازکرابوو."),

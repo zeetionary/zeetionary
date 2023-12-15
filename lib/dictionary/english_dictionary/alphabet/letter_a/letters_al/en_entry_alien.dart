@@ -161,9 +161,6 @@ class EnglishEntryalien extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "During the war, he was imprisoned as an enemy alien."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە کاتی جەنگەکەدا وەک ھاوڵاتییەکی دووژمن زیندانی کرا."),
@@ -186,9 +183,6 @@ class EnglishEntryalien extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Few movies represent intelligent aliens as physically different from humans."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەم فیلم بوونەوەری ئاسمانی لە ڕووی جەستەییەوە جیاواز لە مرۆڤ پیشان دەدەن."),
@@ -211,9 +205,6 @@ class EnglishEntryalien extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "In a world that had suddenly become alien and dangerous, he was her only security."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە جیھانێکدا کە جیاواز و ترسێنەرە، ئەو تەنھا پارێزەریەتی."),
@@ -236,9 +227,6 @@ class EnglishEntryalien extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A part of me still feels alien in this country."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەشێکم ھێشتا ھەست بە بێگانەیی دەکات لەم وڵاتە."),
@@ -260,9 +248,6 @@ class EnglishEntryalien extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The idea is alien to our religion."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بیرۆکەکە نامۆیە بە ئاینەکەمان."),
                               const CustomSizedBoxForTTS(),
@@ -284,9 +269,6 @@ class EnglishEntryalien extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "An alien spacecraft crashed into Earth."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کەشتییەکی ئاسمانی بوونەوەری دیکە کێشای بە زەویدا."),

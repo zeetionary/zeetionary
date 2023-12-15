@@ -181,9 +181,6 @@ class EnglishEntryarcticcircle extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Soviet Union tested atomic bomb in Arctic Circle."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "یەکێتیی سۆڤییەت چەکی ئەتۆمی لە خولگەی جەمسەری باکوور تاقیدەکردەوە."),

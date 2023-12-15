@@ -240,9 +240,6 @@ class EnglishEntryanswer extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I rang the bell, but there was no answer."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "زەنگم لێدا بەڵام وەڵام نەبوو."),
                               const CustomSizedBoxForTTS(),
@@ -263,9 +260,6 @@ class EnglishEntryanswer extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Can't you give me a definitive answer?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دەتوانیت وەڵامێکی تەواوم پێ بدەیت."),
                               const CustomSizedBoxForTTS(),
@@ -286,9 +280,6 @@ class EnglishEntryanswer extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She had no answer to the accusations."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھیچ وەڵامی بۆ تۆمەتەکان نەبوو."),
                               const CustomSizedBoxForTTS(),
@@ -311,9 +302,6 @@ class EnglishEntryanswer extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Write your answers on the sheet provided."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وەڵامەکانت لەسەر ئەو پەڕە بنووسە کە پێت‌دراوە."),
@@ -335,9 +323,6 @@ class EnglishEntryanswer extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Do you know the answer (= the right one) to question 12?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "وەڵامی پرسیاری ١٢یەم دەزانی؟"),
                               const CustomSizedBoxForTTS(),
@@ -360,9 +345,6 @@ class EnglishEntryanswer extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "This may not be the answer for everyone."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەمە ڕەنگە چارەسەر نەبێت بۆ ھەموان."),
                               const CustomSizedBoxForTTS(),
@@ -383,9 +365,6 @@ class EnglishEntryanswer extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The obvious answer would be to cancel the party."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "چارەسەری ڕوون ھەڵوەشاندنەوەی ئاھەنگەکەیە."),
@@ -409,9 +388,6 @@ class EnglishEntryanswer extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I repeated the question, but she didn't answer."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پرسیارەکەم دووبارە کردەوە بەڵام وەڵامی نەداوە."),
@@ -432,9 +408,6 @@ class EnglishEntryanswer extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "You haven't answered my question."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "وەڵامی پرسیارەکەمت نەداوەتەوە."),
                               const CustomSizedBoxForTTS(),
@@ -455,9 +428,6 @@ class EnglishEntryanswer extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He refused to answer the charges against him."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕەتی‌کردەوە وەڵامی تۆمەتەکانی دژی بداتەوە."),
@@ -481,9 +451,6 @@ class EnglishEntryanswer extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was summoned before the council to answer charges of treason."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بانگ‌کرایە پێش ئەنجوومەنەکە بۆ وەڵامدانەوەی تۆمەتی خیانەت."),

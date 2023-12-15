@@ -172,9 +172,6 @@ class EnglishEntryballpoint extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The letter was written in blue ballpoint pen."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "نامەکە بە جافێکی شین نووسرابوو."),
                               const CustomSizedBoxForTTS(),

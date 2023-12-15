@@ -180,9 +180,6 @@ class EnglishEntryarbitrator extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "An outside arbitrator may be appointed in such cases."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەم حاڵەتانەدا ناوبژیکارێکی دەرەکی ڕەنگە دیاری‌بکرێت."),

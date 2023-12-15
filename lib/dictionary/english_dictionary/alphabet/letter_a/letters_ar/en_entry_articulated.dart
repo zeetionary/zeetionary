@@ -180,9 +180,6 @@ class EnglishEntryarticulated extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "An articulated lorry has overturned on the southbound carriageway, shedding its load."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لۆرییەکی بارھەڵگر وەرگەڕاوە لەسەر ئەو سایدەی بەرەو باشوور دەچێت و بارەکەی ڕژاوە."),

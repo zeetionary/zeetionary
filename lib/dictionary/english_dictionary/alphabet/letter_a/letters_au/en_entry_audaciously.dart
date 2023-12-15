@@ -183,9 +183,6 @@ class EnglishEntryaudaciously extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He audaciously applied for a promotion after only two months on the job."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "چاونەترسانە داوای پلەبەرزکردنەوەی کرد تەنھا دوای دوو مانگ لە بوون لە کارەکە."),

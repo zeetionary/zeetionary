@@ -183,9 +183,6 @@ class EnglishEntryasylum extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There was a nationwide debate on whether the asylum laws should be changed."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دیبەیتی سەرتاسەری ھەبوو لەسەر ئەوەی ئاخۆ یاساکانی پەنابەری بگۆڕدرێن."),
@@ -209,9 +206,6 @@ class EnglishEntryasylum extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Conditions in the asylum were deplorable."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بارودۆخی شێتخانەکە جەرگبڕ."),
                               const CustomSizedBoxForTTS(),

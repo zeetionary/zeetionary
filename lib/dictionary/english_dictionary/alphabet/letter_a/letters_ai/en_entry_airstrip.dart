@@ -132,9 +132,6 @@ class EnglishEntryairstrip extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We landed at a tiny airstrip in the middle of the jungle."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەسەر نەختە زەوییەک لە ناوەڕاستی جەنگەڵەکە نیشتینەوە."),

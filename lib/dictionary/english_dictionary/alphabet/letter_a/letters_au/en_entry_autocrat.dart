@@ -182,9 +182,6 @@ class EnglishEntryautocrat extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He governed as an autocrat."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "وەک سەرکوتکەرێک دەسەڵاتداریی دەکرد."),
                               const CustomSizedBoxForTTS(),
@@ -207,9 +204,6 @@ class EnglishEntryautocrat extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The article painted her as an autocrat, angry with her husband and out of touch with her family."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وتارەکە وەک ملھوڕێک وێنای دەکات کە لە ھاوسەرەکەی تووڕەییە و دابڕاوە لە خێزانەکەی."),

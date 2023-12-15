@@ -182,9 +182,6 @@ class EnglishEntryapproval extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I could tell I had earned her approval."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەمتوانی بڵێم ڕەزامەندیی ئەوم بەدەست‌ھێناوە."),
@@ -205,9 +202,6 @@ class EnglishEntryapproval extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He showed his approval by smiling."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕەزامەندیی پیشان‌دا بە پێکەنین‌کردن."),
                               const CustomSizedBoxForTTS(),
@@ -230,9 +224,6 @@ class EnglishEntryapproval extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The plan will be submitted to the committee for official approval."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پلانەکە پێشکەشی لیژنەکە دەکرێت بۆ پەسەندکردنی فەرمی."),
@@ -253,9 +244,6 @@ class EnglishEntryapproval extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He won approval for his project."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پڕۆژەکەی پەسەندکردنی وەرگرت."),
                               const CustomSizedBoxForTTS(),

@@ -176,9 +176,6 @@ class EnglishEntryannounce extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We are pleased to announce that all five candidates were successful."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خۆشحاڵین بە ڕاگەیاندنی ئەوەی ھەر پێنج کاندیدەکە سەرکەوتووبوون."),
@@ -200,9 +197,6 @@ class EnglishEntryannounce extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The government yesterday announced to the media plans to create a million new jobs."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دوێنێ حکومەت پلانی ڕەخساندنی یەک ملیۆن ھەلی کاری بە میدیا ڕاگەیاند."),
@@ -225,9 +219,6 @@ class EnglishEntryannounce extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Has our flight been announced yet?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "گەشتەکەمان ڕاگەیەندراوە؟"),
                               const CustomSizedBoxForTTS(),
@@ -250,9 +241,6 @@ class EnglishEntryannounce extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She announced that she'd given up drinking."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕایگەیاند وازی لە خواردنەوە ھێنا."),
                               const CustomSizedBoxForTTS(),
@@ -275,9 +263,6 @@ class EnglishEntryannounce extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He announced the guests as they arrived. (= called out their names, for example at a formal party)"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھاتنی میوانەکانی ڕاگەیاند کە گەشتن."),
                               const CustomSizedBoxForTTS(),

@@ -174,9 +174,6 @@ class EnglishEntryanecdote extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The book is a rich store of anecdote."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کتێبەکە سەرچاوەیەکی دەوڵەمەندی سەرگوزشتەیە."),
@@ -200,9 +197,6 @@ class EnglishEntryanecdote extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "This research is based on anecdote, not fact."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم توێژینەوەیە پشتی بە سەرگوزشتە بەستووە نەک ڕاستی."),

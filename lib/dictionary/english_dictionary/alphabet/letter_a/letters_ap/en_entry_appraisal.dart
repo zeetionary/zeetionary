@@ -180,9 +180,6 @@ class EnglishEntryappraisal extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The report has been subject to appraisal."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕاپۆرتەکە بە لێکدانەوەدا تێپەڕبووە."),
                               const CustomSizedBoxForTTS(),
@@ -203,9 +200,6 @@ class EnglishEntryappraisal extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A detailed appraisal of the scheme will now be carried out."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەڵسەنگاندنێکی وردی پلانەکە ئەنجام دەدرێت."),
@@ -228,9 +222,6 @@ class EnglishEntryappraisal extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I have my appraisal today."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەمڕۆ ڕۆژی ھەڵسەنگاندنمە."),
                               const CustomSizedBoxForTTS(),

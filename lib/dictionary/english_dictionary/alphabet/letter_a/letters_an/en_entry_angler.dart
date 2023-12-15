@@ -172,9 +172,6 @@ class EnglishEntryangler extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The angler reeled in and went home."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ماسیگرەکە قولابەکەیی کۆکردەوە و چووەوە ماڵەوە."),

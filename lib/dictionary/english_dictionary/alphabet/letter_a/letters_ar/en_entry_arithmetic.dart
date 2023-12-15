@@ -178,9 +178,6 @@ class EnglishEntryarithmetic extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He's not very good at arithmetic."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لە ژمێرەناسیدا زۆر باش نییە."),
                               const CustomSizedBoxForTTS(),

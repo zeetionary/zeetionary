@@ -179,9 +179,6 @@ class EnglishEntryaphid extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Aphids can have babies without mating."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "شۆکەکان دەتوانن وەچە بخەنەوە بەبێ جووتبوون."),

@@ -179,9 +179,6 @@ class EnglishEntryappliance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Always switch off appliances that are not in use."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەمیشە ئەو ئامێرانە بکوژێنەوە کە لە کاردا نین."),

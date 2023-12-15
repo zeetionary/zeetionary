@@ -130,9 +130,6 @@ class EnglishEntryairline extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I'll never fly this airline (= travel with this airline company) again."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەرگیز ئەم ھێڵە ئاسمانییە بەکارناھێنمەوە."),

@@ -130,9 +130,6 @@ class EnglishEntryagrarian extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The central government was urged to adopt a massive public investment programme in the agrarian sector to enhance grain production."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "حکومەتی ناوەندی ھاندرا بۆ دەستپێکردنی پڕۆگرامێکی گەورەی وەبەرھێنانی گشتگیر لە کەرتی کشتوکاڵی بۆ زیادکردنی بەرھەمھێنانی گەنم."),

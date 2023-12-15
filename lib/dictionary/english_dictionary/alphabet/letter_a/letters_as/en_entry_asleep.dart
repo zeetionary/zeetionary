@@ -183,9 +183,6 @@ class EnglishEntryasleep extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I waited until they were all fast asleep (= sleeping deeply)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وەستام تاوەکو ھەموویان خەویان لێ کەوت."),
@@ -207,9 +204,6 @@ class EnglishEntryasleep extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She was still half asleep (= not fully awake) when she arrived at work."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھێشتا چاوی بە خەوەوە بوو کە گەشتە سەر کار."),
@@ -233,9 +227,6 @@ class EnglishEntryasleep extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I couldn't move straight away, as my leg was completely asleep."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نەمتوانی ڕاستەوخۆ بجوڵێم بەھۆی ئەوەی لاقم تەواو سڕبوو بوو."),

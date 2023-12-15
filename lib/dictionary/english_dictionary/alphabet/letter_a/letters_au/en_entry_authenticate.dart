@@ -182,9 +182,6 @@ class EnglishEntryauthenticate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The letter has been authenticated by handwriting experts."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نامەکە دڵنیایی‌لێکراوەتەوە لەلایەن شارەزایانی دەستوخەتەوە."),
@@ -208,9 +205,6 @@ class EnglishEntryauthenticate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Users must authenticate with their credentials to gain access to the internet."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەکارھێنەران دەبێت ناسنامەیان پشڕاستبکەنەوە بە زانیارییەکانیان بۆ بەکارھێنانی ئینتەرنێت."),

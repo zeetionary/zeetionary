@@ -197,9 +197,6 @@ class EnglishEntryammonia extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It is dangerous to inhale ammonia fumes."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەڵمژینی دووکەڵی ئەمۆنیا زیانبەخشە."),
                               const CustomSizedBoxForTTS(),

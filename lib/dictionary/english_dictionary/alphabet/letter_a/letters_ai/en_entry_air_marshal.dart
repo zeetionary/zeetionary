@@ -129,9 +129,6 @@ class EnglishEntryairmarshal extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Her father was an air marshal in the Australian Air Force."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "باوکی ئەفسەری باڵای ھێزی ئاسمانیی ئوسترالیا بوو."),
@@ -154,9 +151,6 @@ class EnglishEntryairmarshal extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "New security measures included increasing the number of air marshals and fortifying cockpit doors."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێکارە تازەکانی ئەمنییەت زیادکردنی ژمارەی ئەفسەرە نھێنییەکان و توندکردنی دەرگای ژووری فڕۆکەوانەکان لەخۆدەگرێت."),

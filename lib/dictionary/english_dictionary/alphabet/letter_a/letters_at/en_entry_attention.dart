@@ -186,9 +186,6 @@ class EnglishEntryattention extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "His attention turned to other matters."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "سەرنجی چوو بەلای پرسی تردا."),
                               const CustomSizedBoxForTTS(),
@@ -209,9 +206,6 @@ class EnglishEntryattention extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She doesn't pay her children much attention."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "زۆر سەرنج نادات بە منداڵەکانی."),
                               const CustomSizedBoxForTTS(),
@@ -234,9 +228,6 @@ class EnglishEntryattention extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He received urgent medical attention."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "چاودێری تایبەتی خێرای وەرگرت."),
                               const CustomSizedBoxForTTS(),
@@ -259,9 +250,6 @@ class EnglishEntryattention extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Her primary aim was to avoid the attentions of the newspapers."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئامانجی سەرەکی ئەوەبوو لە سەرنجی ڕۆژنامەکان بەدووربێت."),
@@ -285,9 +273,6 @@ class EnglishEntryattention extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Attention, please! Passengers for flight KL412 are requested to go to gate 21 immediately."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئاگاداری، تکایە گەشتیارانی گەشتی KL412 داوایان لێدەکرێت دەستبەجێ بچن بۆ دەروازەی ٢١."),

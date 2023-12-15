@@ -174,9 +174,6 @@ class EnglishEntryanalyst extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "City analysts forecast huge profits this year."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "توێژەرانی شارەکە ئەمساڵ پێشبینی قازانجی زەبەلاح دەکەن."),
@@ -197,9 +194,6 @@ class EnglishEntryanalyst extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She is a financial analyst."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لێکۆڵەرێکی ئابوورییە."),
                               const CustomSizedBoxForTTS(),

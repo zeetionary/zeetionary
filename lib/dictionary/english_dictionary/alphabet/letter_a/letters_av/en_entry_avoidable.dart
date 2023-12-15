@@ -174,9 +174,6 @@ class EnglishEntryavoidable extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Many deaths from heart disease are actually avoidable."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆر نەخۆشی دڵ لەڕاستیدا دەکرێت بەریان پێ‌بگیرێت."),

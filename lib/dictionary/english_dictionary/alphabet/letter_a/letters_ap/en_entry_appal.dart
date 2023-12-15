@@ -177,9 +177,6 @@ class EnglishEntryappal extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The idea of sharing a room appalled her."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بیرۆکەی ھاوبەشی‌کردنی ژوورەکە تاساندی."),

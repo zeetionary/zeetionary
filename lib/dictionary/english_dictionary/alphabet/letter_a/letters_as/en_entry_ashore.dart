@@ -180,9 +180,6 @@ class EnglishEntryashore extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "We swam ashore."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بەرەو وشکانی مەلەمان کرد."),
                               const CustomSizedBoxForTTS(),
@@ -203,9 +200,6 @@ class EnglishEntryashore extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A few pieces of wood had washed ashore."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "چەند پارچە تەختەیەک ھاتبوونە سەر وشکانییەکە."),

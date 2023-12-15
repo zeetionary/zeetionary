@@ -210,9 +210,6 @@ class EnglishEntryarm extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She threw her arms around his neck."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دەستەکانی بەدەوری ملیدا بادا."),
                               const CustomSizedBoxForTTS(),
@@ -233,9 +230,6 @@ class EnglishEntryarm extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was running forward, waving his arms."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بۆ پێشەوە ڕای‌دەکرد و دەستەکانی ڕادەوەشاند."),
@@ -258,9 +252,6 @@ class EnglishEntryarm extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The arms will need shortening."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "قۆڵەکەی پێویستیی بە کورتکردنەوە ھەیە."),
@@ -283,9 +274,6 @@ class EnglishEntryarm extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She perched on the arm of his chair."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەسەر جێ‌دەستی کورسییەکەی ئەو دانیشت."),
@@ -309,9 +297,6 @@ class EnglishEntryarm extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The fuel filler door is opened by a robotic arm."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تانکی بەنزینەکە دەکرێتەوە لەلایەن باڵێکی ڕۆبۆتییەوە."),
@@ -335,9 +320,6 @@ class EnglishEntryarm extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A small bridge spans the arm of the river."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پردێکی بچووک بەسەر لقە ئاوەکەدا دەپەڕێتەوە."),
@@ -361,9 +343,6 @@ class EnglishEntryarm extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The bank plans to sell part of its US arm."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بانکەکە پلانی ھەیە بەشێکی لقی ئەمریکای بفرۆشێت."),
@@ -387,9 +366,6 @@ class EnglishEntryarm extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The men armed themselves with sticks and stones."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پیاوەکان بە دار و بەرد خۆیان قایم‌کرد."),
@@ -411,9 +387,6 @@ class EnglishEntryarm extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The country was arming against the enemy."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وڵاتەکە خۆی چەکدار دەکرد دژ بە دووژمنەکەی."),
@@ -437,9 +410,6 @@ class EnglishEntryarm extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She armed herself for the interview by finding out all she could about the company in advance."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێش‌وەختە خۆی ئامادەکرد بۆ چاوپێکەوتنەکە بە دۆزینەوەی ھەر شتێک کە دەیتوانی بیکات سەبارەت بە کۆمپانیاکە."),

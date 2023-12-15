@@ -172,9 +172,6 @@ class EnglishEntryawfully extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I'm awfully sorry about that problem the other day."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆر زۆر بەداخەوەم بۆ ئەو کێشەیەی ئەو ڕۆژەی تر."),

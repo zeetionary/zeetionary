@@ -129,9 +129,6 @@ class EnglishEntryafraid extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Don't be afraid."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(text: "مەترسە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
@@ -149,9 +146,6 @@ class EnglishEntryafraid extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "They know I'm afraid of heights."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دەزانن لە بەرزی دەترسم."),
                               const CustomSizedBoxForTTS(),

@@ -181,9 +181,6 @@ class EnglishEntryascendant extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I’m a Capricorn but my ascendant is Leo."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە بورجی بزنم، بەڵام کەلووگەم بورجی شێرە."),

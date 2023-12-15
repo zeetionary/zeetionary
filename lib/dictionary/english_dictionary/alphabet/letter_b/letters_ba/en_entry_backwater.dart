@@ -175,9 +175,6 @@ class EnglishEntrybackwater extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We tied the boat up in a quiet backwater overnight."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "شەو بەلەمەکەمان لە گۆلاوێکی ھێمندا بەستەوە."),
@@ -199,9 +196,6 @@ class EnglishEntrybackwater extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He grew up in a rural backwater."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لە لاپەڕێکی لادێنشیندا گەورە بوو."),
                               const CustomSizedBoxForTTS(),

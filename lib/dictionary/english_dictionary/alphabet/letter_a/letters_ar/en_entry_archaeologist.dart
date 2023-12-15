@@ -180,9 +180,6 @@ class EnglishEntryarchaeologist extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He's an archaeologist and has been on a dig in Crete for the past year."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "شوێنەوارناسە و بۆ ماوەی یەک ساڵی ڕابردوو خەریکی ھەڵکۆڵینی شوێنەوارێک بووە لە کریت."),

@@ -222,9 +222,6 @@ class EnglishEntrybang extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The baby was banging the table with his spoon."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "منداڵەکە بە کەوچکەکەی زرمەی ھەڵساندبوو لە مێزەکە."),
@@ -246,9 +243,6 @@ class EnglishEntrybang extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She banged the door shut."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دەرگاکەی بەتوندی قەپاتکرد."),
                               const CustomSizedBoxForTTS(),
@@ -270,9 +264,6 @@ class EnglishEntrybang extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He kept banging his chair against the wall."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەردەوام بوو لە کێشانی کورسییەکە بە دیوارەکەدا."),
@@ -295,9 +286,6 @@ class EnglishEntrybang extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She tripped and banged her knee on the desk."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پێی ھەڵکەوت و چۆکی کێشا بە مێزەکەدا."),
                               const CustomSizedBoxForTTS(),
@@ -319,9 +307,6 @@ class EnglishEntrybang extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She had banged a ton of guys by the time she was 25."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سێکسی لەگەڵ یەک دونیا پیاو کردبوو کە تەمەنی ٢٥ ساڵان بوو."),
@@ -343,9 +328,6 @@ class EnglishEntrybang extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The door swung shut with a bang."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دەرگاکە بە زرمیەکەوە قەپات بوو."),
                               const CustomSizedBoxForTTS(),
@@ -367,9 +349,6 @@ class EnglishEntrybang extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I think she must have got a bang on the head."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێم‌وایە دەبێت شتێک کێشابێتی بەسەریدا."),
@@ -391,9 +370,6 @@ class EnglishEntrybang extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She blew her bangs out of her face."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پەرچەمی لەسەر ڕووخساری لادا."),
                               const CustomSizedBoxForTTS(),
@@ -414,9 +390,6 @@ class EnglishEntrybang extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "My estimate was bang on target."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خەمڵاندنەکەم بە تەواوی لەجێی خۆی بوو."),
@@ -439,9 +412,6 @@ class EnglishEntrybang extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "'Bang! Bang! You're dead!' said the child, pointing a plastic gun at me."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کە منداڵە بچووکەکە چەکێکی پلاستیکی ڕووم تێکردبوو وتی 'تەق تەق، تۆ مردووی'."),

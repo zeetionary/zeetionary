@@ -196,9 +196,6 @@ class EnglishEntryamicable extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "An amicable settlement was reached."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕێککەوتنێکی بێ‌مشتومڕ بەدەستھێنرا."),
                               const CustomSizedBoxForTTS(),

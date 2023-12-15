@@ -182,9 +182,6 @@ class EnglishEntryasset extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "In his job, patience is an invaluable asset."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لە کارەکەیدا پشوودرێژی گەوھەرێکە."),
                               const CustomSizedBoxForTTS(),
@@ -205,9 +202,6 @@ class EnglishEntryasset extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Being able to speak a foreign language is a major asset."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەبوونی توانای قسەکردن بە زمانێکی بیانی نیعمەتێکە."),

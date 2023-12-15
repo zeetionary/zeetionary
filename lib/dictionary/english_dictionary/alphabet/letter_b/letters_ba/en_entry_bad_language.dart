@@ -175,9 +175,6 @@ class EnglishEntrybadlanguage extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There's far too much bad language on television."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "قسەی پیس لەسەر تەلەفیزیۆن زۆرە."),
                               const CustomSizedBoxForTTS(),

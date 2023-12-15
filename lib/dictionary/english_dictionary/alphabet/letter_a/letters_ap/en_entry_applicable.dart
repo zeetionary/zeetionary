@@ -182,9 +182,6 @@ class EnglishEntryapplicable extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Much of the form was not applicable (= did not apply) to me."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆرینەی فۆرمەکە پەیوەندی بە منەوە نەبوو."),
@@ -205,9 +202,6 @@ class EnglishEntryapplicable extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The law is applicable to everyone."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "یاساکە بەسەر ھەموواندا جێبەجێ‌دەکرێت."),

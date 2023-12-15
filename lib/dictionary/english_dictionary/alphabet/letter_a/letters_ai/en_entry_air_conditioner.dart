@@ -131,9 +131,6 @@ class EnglishEntryairconditioner extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The room temperature was controlled by using an air conditioner."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پلەی گەرمیی ژوورەکە کۆنترۆڵ کرابوو بە بەکارھێنانی ھەواگۆڕکێیەک/فێنککەرەوەیەک."),

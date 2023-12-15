@@ -172,9 +172,6 @@ class EnglishEntrybacon extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "This bacon is too salty for me."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "گۆشتە بەرازەکە زۆر شۆرە بۆ من."),
                               const CustomSizedBoxForTTS(),
@@ -194,9 +191,6 @@ class EnglishEntrybacon extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The meat produced from a pig is called pork, bacon or ham."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گۆشتی بەراز پێی دەوترێت pork, bacon یان ham."),

@@ -179,9 +179,6 @@ class EnglishEntryapparatus extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Firefighters needed breathing apparatus to enter the burning house."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئاگرکوژێنەرەوەکان پێویستیان بە ھەندێک دەزگای ھەناسەدان ھەبوو بۆ ئەوەی بچنە ناو خانووە سووتاوەکە."),

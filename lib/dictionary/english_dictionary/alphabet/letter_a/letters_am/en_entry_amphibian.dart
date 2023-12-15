@@ -174,9 +174,6 @@ class EnglishEntryamphibian extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Salamanders, frogs, and other amphibian life are particularly sensitive to extreme pH levels."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەلەمەندەر و بۆق گیانەوەرە دووژینەکانی دیکە بەتایبەتی ھەستیارن بە ژینگەی ڕەنووسی ھایدرۆجینی بەرز."),
@@ -199,9 +196,6 @@ class EnglishEntryamphibian extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He flew an amphibian, which he could set down on water in case of an engine problem."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "فڕۆکەیەکی جووتفڕی لێدەخوڕی، کە دەیتوانی لەسەر ئاو بینیشێنێتەوە لە حاڵەتی کێشە لە بزوێنەرەکانی."),

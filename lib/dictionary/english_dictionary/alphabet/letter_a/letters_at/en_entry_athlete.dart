@@ -182,9 +182,6 @@ class EnglishEntryathlete extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The athletes are training hard for the Olympics."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وەرزشوانەکان ماندوونەناسانە ڕاھێنان دەکەن بۆ ئۆڵمپیاد."),

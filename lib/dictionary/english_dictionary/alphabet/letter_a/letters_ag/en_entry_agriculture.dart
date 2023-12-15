@@ -131,9 +131,6 @@ class EnglishEntryagriculture extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Agriculture is still largely based on traditional methods in some countries."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کشتوکاڵ لە زۆر وڵات ھێشتا ھەر پشت بە ڕێگا باوە کۆنەکان دەبەستێت بەزۆری."),

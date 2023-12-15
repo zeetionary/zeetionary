@@ -172,9 +172,6 @@ class EnglishEntryamply extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "His efforts were amply rewarded."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەوڵەکانی بەزیادەوە بەخشیشکران."),
                               const CustomSizedBoxForTTS(),

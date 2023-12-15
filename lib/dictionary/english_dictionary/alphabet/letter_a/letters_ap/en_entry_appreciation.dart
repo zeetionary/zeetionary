@@ -185,9 +185,6 @@ class EnglishEntryappreciation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She shows little appreciation of good music."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "قەدری میوزیکی خۆش نازانێ."),
                               const CustomSizedBoxForTTS(),
@@ -208,9 +205,6 @@ class EnglishEntryappreciation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I have now developed an appreciation of poetry."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەستم‌کردووە بە چێژ وەرگرتن لە ھۆنراوە."),
@@ -234,9 +228,6 @@ class EnglishEntryappreciation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I had no appreciation of the problems they faced."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەواو بێ ئاگا بووم لەو کێشانەی ڕووبەڕووی دەبوونەوە."),
@@ -258,9 +249,6 @@ class EnglishEntryappreciation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There is a growing appreciation of the need for change."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تێگەشتنی زیاتر و زیاتر ھەیە بۆ پێویستیی گۆڕانکاری."),
@@ -284,9 +272,6 @@ class EnglishEntryappreciation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I would like to express my appreciation and thanks to you all."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەمەوێت پێزانین و سوپاسگوزاریم بۆ ھەمووتان دەرببڕم."),
@@ -310,9 +295,6 @@ class EnglishEntryappreciation extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The appreciation in the value of the house has brought joy to the homeowners."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەرزبوونی نرخی خانووەکان خۆشی ھێناوە بۆ خاوەنەکانیان."),

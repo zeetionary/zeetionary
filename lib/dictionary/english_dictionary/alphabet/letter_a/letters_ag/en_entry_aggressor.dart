@@ -130,9 +130,6 @@ class EnglishEntryaggressor extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They are seen as the aggressors in the civil war."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وەک دەساوێژ دەبینرێن لە شەڕە ناوخۆییەکە."),

@@ -132,9 +132,6 @@ class EnglishEntryaging extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There are lots of skin care products which claim to halt the aging process."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ژمارەیەکی زۆر پارێزەری پێسی ھەیە کە بانگەشەی ئەوە دەکەن تەمەنکردن بوەستێنن."),
@@ -156,9 +153,6 @@ class EnglishEntryaging extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He takes care of his aging mother."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "چاودێری دایکە پیرەکەی دەکات."),
                               const CustomSizedBoxForTTS(),

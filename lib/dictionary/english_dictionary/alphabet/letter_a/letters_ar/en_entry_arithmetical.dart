@@ -180,9 +180,6 @@ class EnglishEntryarithmetical extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Figuring the amount is a simple arithmetical calculation."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دۆزینەوەی بڕەکە لێکدانەوەیەکی سادەی ژمێریارییە."),

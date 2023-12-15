@@ -186,9 +186,6 @@ class EnglishEntryarrival extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We apologize for the late arrival of the train."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "داوای لێبووردن ئەکەین بۆ درەنگ گەشتنی شەمەندەفەرەکە."),
@@ -210,9 +207,6 @@ class EnglishEntryarrival extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Our estimated time of arrival is 7.15."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کاتی پێشبینیکراوی گەشتنمان ٧:١٥ خولەکە."),
@@ -235,9 +229,6 @@ class EnglishEntryarrival extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I made my way through arrivals."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بە بەشی گەشتندا تێپەڕیم."),
                               const CustomSizedBoxForTTS(),
@@ -260,9 +251,6 @@ class EnglishEntryarrival extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We're expecting a new arrival (= a baby) in the family soon."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پێشبینی ئەندامێکی تازە بۆ خێزانەکە دەکەین."),
@@ -284,9 +272,6 @@ class EnglishEntryarrival extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The first arrivals at the concert got the best seats."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو کەسانەی سەرەتا گەشتنە کۆنسێرتەکە باشترین جێگاکانیان بەرکەوت."),
@@ -310,9 +295,6 @@ class EnglishEntryarrival extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The arrival (= introduction) of satellite television changed the face of broadcasting."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەرکەوتنی سەتەلایت شێوازی پەخشکردنی تەلەفیزیۆنی گۆڕی."),

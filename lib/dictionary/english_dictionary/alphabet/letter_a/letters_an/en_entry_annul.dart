@@ -172,9 +172,6 @@ class EnglishEntryannul extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Their marriage was annulled after just six months."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھاوسەرگیرییەکەیان ھەڵوەشێندرایەوە لە دوای تەنھا شەش مانگ."),

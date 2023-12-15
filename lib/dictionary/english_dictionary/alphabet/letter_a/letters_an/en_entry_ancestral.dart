@@ -173,9 +173,6 @@ class EnglishEntryancestral extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They had long planned to visit the family's ancestral homeland in the Philippines."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ماوەیەکی زۆر بوو پلانیان بوو سەردانی نیشتیمانی باوانیان بکەن کە لە فلیپین بوو."),

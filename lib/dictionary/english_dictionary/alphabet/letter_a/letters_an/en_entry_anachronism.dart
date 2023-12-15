@@ -175,9 +175,6 @@ class EnglishEntryanachronism extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The monarchy is seen by many people as an anachronism in the modern world."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پاشایەتی لەلایەن زۆر کەس بە بەشێک لە ڕابردوو دادەنرێت لە جیھانی ئەمڕۆدا."),
@@ -201,9 +198,6 @@ class EnglishEntryanachronism extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The book is full of anachronisms which suggests there were parts rewritten in later centuries."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کتێبەکە پڕە لە پاش‌وپێش‌گەری، ئەمەش واتە ھەندێکی دووبارە نووسرایەوە لە سەدەکانی دواتر."),

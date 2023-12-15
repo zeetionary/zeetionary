@@ -175,9 +175,6 @@ class EnglishEntrybackbiting extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was tired of all the backbiting and gossip in the office."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بێزاربوو لەو ھەموو غەیبەت و قسەڵۆکانەی ئۆفیسەکە."),

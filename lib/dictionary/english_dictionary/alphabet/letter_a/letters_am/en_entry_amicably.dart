@@ -198,9 +198,6 @@ class EnglishEntryamicably extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The policeman chatted amicably to the bystanders."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پۆلیسەکان بە ھاوڕێیانە لەگەڵ پیادەکان قسەیان دەکرد."),
@@ -220,9 +217,6 @@ class EnglishEntryamicably extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "I hope we can settle this amicably."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھیوادارم بە تەبایی ئەمە چارەسەر بکەین."),

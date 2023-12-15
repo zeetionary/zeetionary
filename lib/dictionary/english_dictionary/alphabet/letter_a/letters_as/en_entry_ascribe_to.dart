@@ -183,9 +183,6 @@ class EnglishEntryascribeto extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "This play is usually ascribed to Shakespeare."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەم شانۆیە زۆرجار دەدرێتەپاڵ شکسپیر."),
                               const CustomSizedBoxForTTS(),
@@ -207,9 +204,6 @@ class EnglishEntryascribeto extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He ascribed his failure to bad luck."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "شکستەکەیی خستەمل بێ‌بەختی."),
                               const CustomSizedBoxForTTS(),
@@ -232,9 +226,6 @@ class EnglishEntryascribeto extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We ascribe great importance to these policies."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "گرنگی زۆر دەدەین بەم سیاسەتانە."),
                               const CustomSizedBoxForTTS(),
@@ -255,9 +246,6 @@ class EnglishEntryascribeto extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "People like to ascribe human feelings to animals."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خەڵکی حەزدەکەن ھەستی مرۆڤ بە ئاژەڵیشەوە ببەستنەوە."),

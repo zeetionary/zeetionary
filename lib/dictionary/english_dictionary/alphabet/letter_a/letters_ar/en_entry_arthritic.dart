@@ -179,9 +179,6 @@ class EnglishEntryarthritic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Her hands were swollen and arthritic."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەستەکانی ئاوساوبوون و تووشی ھەوکردن بووبوون."),

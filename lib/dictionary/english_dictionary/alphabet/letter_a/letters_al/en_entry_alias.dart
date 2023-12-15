@@ -131,9 +131,6 @@ class EnglishEntryalias extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He travels under (= using) an alias."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لەژێر نازناوێکدا گەشت دەکات."),
                               const CustomSizedBoxForTTS(),
@@ -155,9 +152,6 @@ class EnglishEntryalias extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Paul Kennedy, alias (= also known as) Rupert Sharp, went to prison today."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پاوڵ کەنەدی کە ھەروەھا ناسراوە بە ڕوپرت شارپ ئەمڕۆ چوو بپ زیندان."),

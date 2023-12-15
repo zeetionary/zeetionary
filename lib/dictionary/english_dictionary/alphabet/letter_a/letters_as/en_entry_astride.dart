@@ -184,9 +184,6 @@ class EnglishEntryastride extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She sat proudly astride her new motorbike."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە شانازییەوە گەڵاوگەڵ لەسەر ماتۆڕە تازەکەی دانیشت."),
@@ -208,9 +205,6 @@ class EnglishEntryastride extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The town lies astride (= on either side of) the River Havel."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "شارۆچکەکە لەسەر ڕووباری ھەیڤڵ ھەڵکەوتبوو."),
@@ -233,9 +227,6 @@ class EnglishEntryastride extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He stood there, legs astride."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لەوێ وەستابوو بە لاق بڵاوییەوە."),
                               const CustomSizedBoxForTTS(),

@@ -183,9 +183,6 @@ class EnglishEntryatrocious extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She speaks French with an atrocious accent."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە زمانی فەرەنسی قسەدەکات بە ئەکسێنتێکی زۆر خراپەوە."),
@@ -209,9 +206,6 @@ class EnglishEntryatrocious extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The dictator committed atrocious crimes against his own people."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دیکتاتۆرەکە تاوانی قێزەونی دەرحەق بە خەڵکی خۆی ئەنجامدا."),

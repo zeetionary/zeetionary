@@ -132,9 +132,6 @@ class EnglishEntryalgorithm extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Music apps such as Spotify use algorithms to predict the probability that fans of one particular band will like another."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەپە میوزیکییەکان، بۆ نموونە سپۆتیفای، ئەلگۆریزم بەکاردێنن بۆ ئەوەی پێشبینی ئەگەری حەزی ھەوادارانی باندێک بۆ باندێکی دیکە بکەن."),

@@ -175,9 +175,6 @@ class EnglishEntrybackwards extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He took a step backwards."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەنگاوێکی بەرەو دواوە نا."),
                               const CustomSizedBoxForTTS(),
@@ -200,9 +197,6 @@ class EnglishEntrybackwards extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "‘Ambulance’ is written backwards so you can read it in the mirror."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وشەی ‘Ambulance’ بەپێچەوانەوە دەنووسرێت بۆ ئەوەی بتوانی بیخوێنیتەوە لە ئاوێنەدا."),
@@ -223,9 +217,6 @@ class EnglishEntrybackwards extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "In the movie they take a journey backward through time."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە فیلمەکەدا بەرەو دواوە گەشت بە کاتدا دەکەن."),
@@ -249,9 +240,6 @@ class EnglishEntrybackwards extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I felt that going to live with my parents would be a step backward."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەستمکرد گەڕانەوە بۆ ژیانکردن لەگەڵ دایک و باوکم ھەنگاوێک بۆ دواوە دەبێت."),

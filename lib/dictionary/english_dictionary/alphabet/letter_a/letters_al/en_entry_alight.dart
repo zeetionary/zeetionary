@@ -150,9 +150,6 @@ class EnglishEntryalight extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "A car was overturned and set alight."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئۆتۆمبێلێک وەرگەڕا و ئاگری گرت."),
                               const CustomSizedBoxForTTS(),
@@ -174,9 +171,6 @@ class EnglishEntryalight extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Several birds alighted on the branches of the tree."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ژمارەیەک باڵندە لەسەر لقەکانی دارەکە نیشتنەوە."),
@@ -198,9 +192,6 @@ class EnglishEntryalight extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Do not alight from a moving bus."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە پاسێک دامەبەزە کە ھێشتا لە جووڵە دایە."),

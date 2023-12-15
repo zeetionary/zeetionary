@@ -133,9 +133,6 @@ class EnglishEntryamalgamate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A number of colleges have amalgamated to form the new university."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ژمارەیەک کۆلێژ یەکیان گرتووە بۆ درووستکردنی زانکۆ تازەکە."),
@@ -156,9 +153,6 @@ class EnglishEntryamalgamate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They decided to amalgamate the two schools."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بڕیاریاندا دوو قوتابخانەکە یەکبخەن."),
                               const CustomSizedBoxForTTS(),
@@ -180,9 +174,6 @@ class EnglishEntryamalgamate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "This information will be amalgamated with information obtained earlier."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم زانیارییە یەکدەخرێت لەگەڵ زانیاری پێشووتر بەدەستھێنراو"),

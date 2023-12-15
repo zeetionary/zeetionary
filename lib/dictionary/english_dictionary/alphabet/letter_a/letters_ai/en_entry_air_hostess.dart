@@ -131,9 +131,6 @@ class EnglishEntryairhostess extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "An air hostess announced that the plane had been hijacked."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "یەکێک لە کارگوزاران ڕایگەیاند فڕۆکەکە ڕفێندراوە."),

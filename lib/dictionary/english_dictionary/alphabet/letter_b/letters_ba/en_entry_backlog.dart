@@ -174,9 +174,6 @@ class EnglishEntrybacklog extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "When she eventually returned to work, there was a tremendous backlog of paperwork to catch up on."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کاتێک لە کۆتاییدا گەڕایەوە سەر کار، ژمارەیەکی زۆر کەڵەکەبوونی کاغەزکاری ھەبوو کە دەبوو پێی ڕابگات."),

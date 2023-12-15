@@ -127,9 +127,6 @@ class EnglishEntryaids extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She died of an AIDs-related illness at the age of 54."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە تەمەنی ٥٤ ساڵی بە نەخۆشییەکی پەیوەندیدار بە ئایدز گیانی لەدەستدا."),

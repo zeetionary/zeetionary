@@ -173,9 +173,6 @@ class EnglishEntrybankholiday extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Our offices will be closed for the bank holiday."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئۆفیسەکانمان داخراو دەبن لە پشووە فەرمییەکەدا."),

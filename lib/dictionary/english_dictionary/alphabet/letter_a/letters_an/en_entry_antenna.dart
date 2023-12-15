@@ -176,9 +176,6 @@ class EnglishEntryantenna extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The minister was praised for his acute political antennae (= ability to understand complicated political situations)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وەزیرەکە پەسن‌کرا بۆ بیرتیژیی لە سیاسەتدا."),
@@ -202,9 +199,6 @@ class EnglishEntryantenna extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They installed a dish antenna on the roof."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەحنەی سەتەلایتێکیان لە سەربانەکە دانا."),

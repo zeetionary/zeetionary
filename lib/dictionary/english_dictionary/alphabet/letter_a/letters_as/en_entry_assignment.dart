@@ -183,9 +183,6 @@ class EnglishEntryassignment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Students are required to complete all homework assignments."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "قوتابیان دەبێت ھەموو ئەرکی ماڵەوە تەواو بکەن."),
@@ -207,9 +204,6 @@ class EnglishEntryassignment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She is in Greece on an assignment for one of the Sunday newspapers."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەسەر ئەرکە لە یۆنان بۆ یەکێک لە ڕۆژنامەکانی یەکشەممان."),
@@ -233,9 +227,6 @@ class EnglishEntryassignment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "His two-year assignment to the Mexico office starts in September."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕاسپاردنی بۆ ماوەی دوو ساڵ بۆ ئۆفیسی مەکسیک لە ئەیلوولەوە دەستپێ‌دەکات."),

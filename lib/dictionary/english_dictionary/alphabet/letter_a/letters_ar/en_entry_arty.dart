@@ -181,9 +181,6 @@ class EnglishEntryarty extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Why do you pretend you like those boring, arty films?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بۆچی وا خۆت پیشان دەدەیت کە حەزت لەو فیلمە بێزارکەرانەیە کە خۆیان وەک ھونەر پیشان دەدەن؟"),

@@ -135,9 +135,6 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The most common form of dementia is Alzheimer's disease."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "باوترین جۆری خەڵەفاوی نەخۆشی ئالزایمێرە."),

@@ -182,9 +182,6 @@ class EnglishEntryarsenal extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The treaty requires them to reduce their nuclear arsenal by 30%."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێککەوتنەکە ناچاریان دەکات چەکی ئەتۆمییان بە ڕێژەی ٣٠٪ کەم بکەنەوە."),
@@ -208,9 +205,6 @@ class EnglishEntryarsenal extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The building was used as an arsenal until the eighteenth century."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بیناکە وەک جبەخانەیەک بەکارھات تاوەکو سەدەی ھەژدە."),

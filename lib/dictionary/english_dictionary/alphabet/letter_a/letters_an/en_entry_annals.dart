@@ -174,9 +174,6 @@ class EnglishEntryannals extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "His deeds went down in the annals of British history."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کارەکانی چوونە تۆماری مێژووی بەریتانیاوە."),
@@ -198,9 +195,6 @@ class EnglishEntryannals extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "This is a historic day in the annals of the team."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەمە ڕۆژێکی مێژووییە لە مێژوونامەی تیمەکە."),

@@ -131,9 +131,6 @@ class EnglishEntryamazement extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She looked at him in amazement."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بە سەرسامییەوە سەیری دەکرد."),
                               const CustomSizedBoxForTTS(),

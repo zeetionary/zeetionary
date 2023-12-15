@@ -178,9 +178,6 @@ class EnglishEntryanimal extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The animal began to sicken and soon died."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئاژەڵەکە لاوازبوو و بەزووی مرد."),
                               const CustomSizedBoxForTTS(),
@@ -200,9 +197,6 @@ class EnglishEntryanimal extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "A horse is a large animal."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەسپ ئاژەڵێکی گەورەیە."),
                               const CustomSizedBoxForTTS(),
@@ -225,9 +219,6 @@ class EnglishEntryanimal extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "This product has not been tested on animals."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەم بەرھەمە ھێشتا لەسەر ئاژەڵ تاقی‌نەکراوەتەوە."),
@@ -251,9 +242,6 @@ class EnglishEntryanimal extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Humans are the only animals to have developed speech."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "مرۆڤ تەنھا گیانلەبەرە کە توانای قسەکردنی گەشەپێ‌دابێت."),
@@ -277,9 +265,6 @@ class EnglishEntryanimal extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He's a real animal when he's had too much to drink."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەبێت بە دڕندەیەکی تەواو کە زۆر دەخواتەوە."),
@@ -303,9 +288,6 @@ class EnglishEntryanimal extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She knew that Dave wasn't the right man for her but she couldn't deny the animal attraction between them."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەیزانی دەیڤ کەسێکی شیاو نییە بۆی، بەڵام نەیدەتوانی نکۆڵی بکات لە حەزی جەستەییان بۆ یەکدی."),
@@ -327,9 +309,6 @@ class EnglishEntryanimal extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "As an actor, he has a sort of animal magnetism."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "وەک ئەکتەرێک، کەسێکی دڵبەرە."),
                               const CustomSizedBoxForTTS(),

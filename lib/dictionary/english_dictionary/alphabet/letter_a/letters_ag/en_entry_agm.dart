@@ -128,9 +128,6 @@ class EnglishEntryagm extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Mr Thomson was voted onto the board at the company's AGM two weeks ago."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەڕێز تۆمسن بۆ دەستەی بەڕێوبەرایەتی کۆمپانیا ھەڵبژێردرا دوو ھەفتە پێش ئێستا لە کۆبوونەوەی ساڵانە."),

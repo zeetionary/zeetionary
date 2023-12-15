@@ -172,9 +172,6 @@ class EnglishEntryanimatronics extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Ask them if they can find out who's doing the animatronics."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پرسیاریان لێ‌بکە ئاخۆ دەزانن کێ کاری ئانیماترۆنیکسەکەی کردووە."),

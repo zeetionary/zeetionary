@@ -181,9 +181,6 @@ class EnglishEntryapologetic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They were very apologetic about the trouble they'd caused."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆر بەداخن بۆ ئەو کێشەیەی ھەڵیان‌گیرساند."),
@@ -205,9 +202,6 @@ class EnglishEntryapologetic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was profusely apologetic about the mistake."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "زۆر بەداخ بوو بۆ ھەڵەکە."),
                               const CustomSizedBoxForTTS(),

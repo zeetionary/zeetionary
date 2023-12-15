@@ -183,9 +183,6 @@ class EnglishEntryattain extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He has attained the highest grade in his music exams."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەرزترین نمرەی لە تاقیکردنەوەی میوزیک بەدەستھێناوە."),
@@ -209,9 +206,6 @@ class EnglishEntryattain extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The cheetah can attain speeds of up to 97 kph."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "چیتا دەتوانێت بگاتە خێرایی ٩٧ کم لە کاتژمێرێکدا."),

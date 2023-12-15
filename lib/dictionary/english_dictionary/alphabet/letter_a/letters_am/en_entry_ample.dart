@@ -174,9 +174,6 @@ class EnglishEntryample extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There was ample time to get to the airport."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کاتی پێویست ھەبوو بۆ گەشتن بە فڕۆکەخانەکە."),
@@ -200,9 +197,6 @@ class EnglishEntryample extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "These clothes belonged to a man of more ample girth."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەم جلانە ھی پیاوێکی کەمەر زل‌ترە."),
                               const CustomSizedBoxForTTS(),

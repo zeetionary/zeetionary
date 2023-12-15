@@ -179,9 +179,6 @@ class EnglishEntryarsenic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The doctor found traces of arsenic in his body."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پزیشکەکە پاشماوەی زەرنیخی لە لەشیدا دۆزییەوە."),

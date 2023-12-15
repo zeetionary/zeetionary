@@ -183,9 +183,6 @@ class EnglishEntryasthmatic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The asthmatic patient was admitted to the hospital for treatment."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو نەخۆشەی تووشبوو بە ھەناسەتوندی بوو بردرا بۆ نەخۆشخانە بۆ چارەسەر."),
@@ -209,9 +206,6 @@ class EnglishEntryasthmatic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The asthmatic was unable to participate in strenuous activities."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو نەخۆشەی تووشبوو بە ھەناسەتوندی بوو نەیدەتوانی لە چالاکی سەخت بەژداری بکات."),

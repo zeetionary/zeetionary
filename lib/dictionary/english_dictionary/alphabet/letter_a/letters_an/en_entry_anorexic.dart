@@ -174,9 +174,6 @@ class EnglishEntryanorexic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Not eating makes an anorexic feel in control."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خواردن نەخواردن وا لە کەسێکی بێ‌ئیشتیا دەکات ھەست بکات کۆنترۆڵی کێشی کردووە."),
@@ -199,9 +196,6 @@ class EnglishEntryanorexic extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She looks anorexic to me."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بێ‌ئیشتیا دیارە لام."),
                               const CustomSizedBoxForTTS(),

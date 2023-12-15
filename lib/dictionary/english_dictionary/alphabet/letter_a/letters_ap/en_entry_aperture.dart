@@ -180,9 +180,6 @@ class EnglishEntryaperture extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The soldier fired the rifle through a narrow aperture in a pile of sandbags."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەربازەکە فیشەکێکی تەقاند لە کونێکی بچووکەوە لە کەڵەکەیەک کیسەلمەوە."),
@@ -206,9 +203,6 @@ class EnglishEntryaperture extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Binoculars of this aperture are very expensive."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دووربینەکانی ئەم دەرچەیە زۆر گرانن."),
                               const CustomSizedBoxForTTS(),

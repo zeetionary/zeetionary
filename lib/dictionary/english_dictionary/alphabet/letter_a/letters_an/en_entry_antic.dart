@@ -176,9 +176,6 @@ class EnglishEntryantic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The bank staff got up to all sorts of antics to raise money for charity."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ستافی بانکەکە ھەموو جۆرە کارێکی سەیریان دەکرد بۆ کۆکردنەوەی پارە بۆ ڕێکخراوە خێرخوازییەکە."),
@@ -200,9 +197,6 @@ class EnglishEntryantic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Such an antic comedy does not need to be realistic."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەرھەمێکی کۆمیدی وەھا گاڵتەجاڕی پێویست ناکات ڕاستی وێنا بکات."),

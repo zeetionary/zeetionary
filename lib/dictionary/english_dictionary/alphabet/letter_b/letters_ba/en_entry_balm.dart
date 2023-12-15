@@ -176,9 +176,6 @@ class EnglishEntrybalm extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The ancient Egyptians used balms as part of their religious rituals and cosmetic practices."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "میسرییە کۆنەکان ڕۆنی بامیان بەکاردەھێنا وەک بەشێک لە بۆنەی ئاینی و کاری جوانکاری."),
@@ -200,9 +197,6 @@ class EnglishEntrybalm extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He used a skin balm after shaving."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کرێمێکی پێستی بەکارھێنا لە دوای تەراشەکەی."),
@@ -225,9 +219,6 @@ class EnglishEntrybalm extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The gentle music was a balm to his spirit."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "میوزیکە ئارامبەخشەکە ھێدی‌کەرەوەی ڕۆحی بوو."),

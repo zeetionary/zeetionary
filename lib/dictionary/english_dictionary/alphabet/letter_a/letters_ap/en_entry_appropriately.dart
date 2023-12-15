@@ -178,9 +178,6 @@ class EnglishEntryappropriately extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The government has been accused of not responding appropriately to the needs of the homeless."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "حکومەت تاوانبار کراوە بە وەڵام‌نەدانەوەی گونجاو بۆ پێداویستییەکانی کەسانی بێ‌لانە."),

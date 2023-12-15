@@ -174,9 +174,6 @@ class EnglishEntryanimosity extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He felt no animosity towards his critics."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەستی بە ھیچ ڕقێک بەرامبەر بە ڕەخنەگرانی نەکرد."),
@@ -198,9 +195,6 @@ class EnglishEntryanimosity extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They managed to discuss their past disagreements without animosity."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "توانیان بەبێ ڕق‌وکینە باسی ناکۆکییەکانی ڕابردوویان بکەن."),

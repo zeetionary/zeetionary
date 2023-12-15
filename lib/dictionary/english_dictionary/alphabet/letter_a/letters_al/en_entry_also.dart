@@ -142,9 +142,6 @@ class EnglishEntryalso extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She's fluent in French and German. She also speaks a little Italian."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "فەرەنسی و ئەڵمانی بە پاراوی دەزانێت. ھەروەھا کەمێک ئیتالیش دەزانێت."),
@@ -165,9 +162,6 @@ class EnglishEntryalso extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I didn't like it that much. Also, it was much too expensive."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆرم حەز لێ نەبوو. ھەروەھا زۆریش گران بوو."),

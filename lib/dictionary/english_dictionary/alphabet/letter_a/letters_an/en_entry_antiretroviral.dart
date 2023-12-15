@@ -177,9 +177,6 @@ class EnglishEntryantiretroviral extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Antiretroviral drugs are the only way to treat HIV."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئانتی‌ریترۆڤایرڵ تەنھا ڕێگەی چارەسەری ئایدزە."),

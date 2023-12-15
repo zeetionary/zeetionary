@@ -128,9 +128,6 @@ class EnglishEntryaggravate extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Pollution can aggravate asthma."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پیسبوونی ژینگە ڕبۆ توندتر دەکات."),
                               const CustomSizedBoxForTTS(),
@@ -150,9 +147,6 @@ class EnglishEntryaggravate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Military intervention will only aggravate the conflict even further."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەستوەردانی سەربازی تەنھا پێکدادانەکە ئاڵۆزتر دەکات."),

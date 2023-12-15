@@ -132,9 +132,6 @@ class EnglishEntryaltruism extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Politicians are not necessarily motivated by altruism."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سیاسەتمەداران کارناکەن بە گیانی لەخۆبردووی."),

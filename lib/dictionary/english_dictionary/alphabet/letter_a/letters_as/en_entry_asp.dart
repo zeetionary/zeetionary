@@ -181,9 +181,6 @@ class EnglishEntryasp extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Cleopatra, according to legend, committed suicide by an asp's bite."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەپێی ئەفسانەکان کلیۆپاترا بە گازی ماری ئاسپ خۆی کووشت."),

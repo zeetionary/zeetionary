@@ -174,9 +174,6 @@ class EnglishEntryanesthesia extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The surgery is performed under general anesthesia."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نەشتەرگەرییەکە لەژێر سڕکردنی تەواو دەکرێت (=نەخۆشەکە بێ‌ھۆش دەخرێت)."),

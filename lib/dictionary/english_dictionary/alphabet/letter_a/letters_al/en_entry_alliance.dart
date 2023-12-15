@@ -150,9 +150,6 @@ class EnglishEntryalliance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The government has tried to forge alliances with environmentalists."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "حکومەت ھەوڵیداوە ھاوپەیمانییەک لەگەڵ ژینگەدۆستان ببەستێت."),
@@ -173,9 +170,6 @@ class EnglishEntryalliance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The marriage was meant to cement the alliance between the two countries."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئامانج لە ھاوسەرگیرییەکە ئەوەبوو ھاوپەیمانی لەنێوان دوو وڵاتەکە پتەو بکات."),
@@ -198,9 +192,6 @@ class EnglishEntryalliance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Seven more countries have been invited to join the alliance."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "حەوت وڵاتی دیکە بانگھێشتکراون پەیوەندی بە ھاوپەیمانییەکەوە بکەن."),

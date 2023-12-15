@@ -174,9 +174,6 @@ class EnglishEntryanxiously extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "We waited anxiously by the phone."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بە نیگەرانییەوە لەلای تەلەفۆنەکە چاوەڕێ‌بووین."),

@@ -184,9 +184,6 @@ class EnglishEntryappointment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I've got a dental appointment at 3 o'clock."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "وادەیەکم لای دکتۆری ددان ھەیە."),
                               const CustomSizedBoxForTTS(),
@@ -207,9 +204,6 @@ class EnglishEntryappointment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She made an appointment for her son to see the doctor."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وادەی دانا بۆ کوڕەکەی بۆ بینینی دکتۆر."),
@@ -233,9 +227,6 @@ class EnglishEntryappointment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They announced the appointments of key security officials."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەستنیشانکردنی بەرپرسانی ئاسایشیان ڕاگەیاند."),
@@ -259,9 +250,6 @@ class EnglishEntryappointment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I would like to congratulate you on your appointment."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "پیرۆزبایی پۆستە تازەکەت لێ‌دەکەم."),
                               const CustomSizedBoxForTTS(),
@@ -284,9 +272,6 @@ class EnglishEntryappointment extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Government ministers and other political appointments are frequently replaced."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وەزیرەکانی حکومەت و بەرپرسانی سیاسی دیکە زوو زوو دەگۆڕدرێن."),

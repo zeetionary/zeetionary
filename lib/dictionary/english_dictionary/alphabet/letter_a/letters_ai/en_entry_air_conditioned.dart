@@ -128,9 +128,6 @@ class EnglishEntryairconditioned extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The restaurant is air-conditioned."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "چێشتخانەکە سیستەمی فێنککەرەوەی تێدایە."),

@@ -178,9 +178,6 @@ class EnglishEntrybankrupt extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She lost the house after she was made bankrupt."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خانووەکەی لەدەستدا لە دوای ئەوەی مایەپووچ بوو."),
@@ -202,9 +199,6 @@ class EnglishEntrybankrupt extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "After the war, Britain was weary and bankrupt."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە دوای جەنگەکە بەریتانیا شەکەت و مایەپووچ بوو."),
@@ -228,9 +222,6 @@ class EnglishEntrybankrupt extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He believes that modern society is morally bankrupt."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "باوەڕی وایە کۆمەڵگەی ئێستا لەلایەنی ئەخلاقییەوە مایەپووچە."),
@@ -254,9 +245,6 @@ class EnglishEntrybankrupt extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He later became Britain’s biggest bankrupt."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دواتر بوو بە گەورەترین مایەپووچی بەریتانیا."),
@@ -280,9 +268,6 @@ class EnglishEntrybankrupt extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They feared that the loss would bankrupt them."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ترسان زیانەکە مایەپووچیان بکات."),
                               const CustomSizedBoxForTTS(),

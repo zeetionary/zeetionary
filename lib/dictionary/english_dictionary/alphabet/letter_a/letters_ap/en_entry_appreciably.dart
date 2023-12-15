@@ -180,9 +180,6 @@ class EnglishEntryappreciably extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The risk of infection is appreciably higher among children."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "مەترسی تووشبوون بە شێوەیەکی بەرچاو زیاترە لەناو منداڵاندا."),

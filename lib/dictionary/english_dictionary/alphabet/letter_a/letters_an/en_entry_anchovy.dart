@@ -171,9 +171,6 @@ class EnglishEntryanchovy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Decorate the top of the pizza with anchovies/strips of anchovy."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەرەوەی پیتزاکە بڕازێنەوە بە پارچە ئانچۆڤی."),

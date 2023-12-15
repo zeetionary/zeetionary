@@ -182,9 +182,6 @@ class EnglishEntryapply extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I have decided to apply for this new job."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بڕیارم داوە داخوازینامە بۆ ئەم کارە تازە پێشکەش بکەم."),
@@ -206,9 +203,6 @@ class EnglishEntryapply extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They may apply to the court for the decision to be reversed."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەوانەیە داوا پێشکەشی دادگا بکەن بۆ ھەڵوەشاندنەوەی بڕیارەکە."),
@@ -232,9 +226,6 @@ class EnglishEntryapply extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "What I am saying applies only to some of you."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەوەی دەیڵێم تەنھا بەسەر ھەندێکتان دەچەسپێ."),
@@ -258,9 +249,6 @@ class EnglishEntryapply extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The new technology was applied to farming."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تەکنەلۆژیا تازەکە بەکارھێندرا لە کشتوکاڵدا."),
@@ -282,9 +270,6 @@ class EnglishEntryapply extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Now is the time to apply the insights you have gained from your studies."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئێستا کاتی بەکارھێنانی ئەو توانایانەیە کە لە خوێندن فێریان بوویت."),
@@ -308,9 +293,6 @@ class EnglishEntryapply extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The glue should be applied to both surfaces."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "چەسپەکە دەبێت لە ھەردوو ڕووەکە بدرێت."),

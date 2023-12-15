@@ -180,9 +180,6 @@ class EnglishEntryantiseptic extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Dab the graze with antiseptic."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ڕووشاوییەکە بە خاوێن‌کەر بساوە."),
                               const CustomSizedBoxForTTS(),
@@ -203,9 +200,6 @@ class EnglishEntryantiseptic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Use antiseptic to clean and dress cuts."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خاوێن‌کەر بەکاربێنە بۆ پاککردنەوە و دواتر برینەکە بپێچە."),
@@ -229,9 +223,6 @@ class EnglishEntryantiseptic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "When you get a little cut, you can use antiseptic cream."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کاتێک برینێکی بچووکت دەبێت دەتوانی کرێمی دژە-ھەوکردن بەکاربێنی."),
@@ -255,9 +246,6 @@ class EnglishEntryantiseptic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Cover the burn with an antiseptic dressing."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "برینەکە بە پارچەیەکی زۆرپاک ببەستە."),
                               const CustomSizedBoxForTTS(),

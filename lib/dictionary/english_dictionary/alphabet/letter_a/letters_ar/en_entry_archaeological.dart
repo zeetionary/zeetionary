@@ -181,9 +181,6 @@ class EnglishEntryarchaeological extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Further archaeological excavations are now being carried out."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەڵکۆڵینی شوێنەوارناسییانەی دیکە لە ئێستادا ئەنجام دەدرێن."),

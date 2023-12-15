@@ -181,9 +181,6 @@ class EnglishEntryaseptic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The surgeon used aseptic techniques to prevent infection during the operation."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نەشتەرگەرەکە تەکنیکی خاوێن لە بەکتریای بەکارھێنا بۆ ڕێگری لە بڵاوبوونەوەی نەخۆشی."),

@@ -182,9 +182,6 @@ class EnglishEntryapproximate extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The cost given is only approximate."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئەو نرخەی دراوە بەنزیکەییە."),
                               const CustomSizedBoxForTTS(),
@@ -205,9 +202,6 @@ class EnglishEntryapproximate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The train's approximate time of arrival is 10.30."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کاتی گەشتنی شەمەندەفەرەکە بە نزیکەیی ١٠:٣٠ یە."),
@@ -231,9 +225,6 @@ class EnglishEntryapproximate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The total cost will approximate £15 billion."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "نرخی گشتی نزیک‌دەبێتەوە لە ١٥ ملیار پاوەند."),
@@ -255,9 +246,6 @@ class EnglishEntryapproximate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The animals were reared in conditions which approximated the wild as closely as possible."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئاژەڵەکان گەورەکران لە دۆخێک کە تا دەکرا نزیک‌بوو لە ژینگەی کێوییان."),

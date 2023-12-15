@@ -133,9 +133,6 @@ class EnglishEntryalleviate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "A number of measures were taken to alleviate the problem."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ژمارەیەک ڕێکار گردرانە بەر بۆ سوککردنی کێشەکە."),
@@ -156,9 +153,6 @@ class EnglishEntryalleviate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The drugs did nothing to alleviate her pain/suffering."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "چارەسەرەکان ھیچیان نەکرد بۆ کەمکردنەوەی ئازارەکەی."),

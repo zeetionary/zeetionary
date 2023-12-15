@@ -174,9 +174,6 @@ class EnglishEntryballad extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Adele's 'Someone Like You' is a ballad about lost love."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گۆرانی 'Someone Like You'ی ئەدێڵ لاوژەیەکە سەبارەت بە خۆشەویستی."),

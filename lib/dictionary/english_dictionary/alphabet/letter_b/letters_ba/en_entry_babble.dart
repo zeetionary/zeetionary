@@ -178,9 +178,6 @@ class EnglishEntrybabble extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I could hear the babble of voices in the next room."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گوێم لە قاڵەقاڵ دەبوو لە ژوورەکەی تر."),
@@ -203,9 +200,6 @@ class EnglishEntrybabble extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I can't listen to his constant babble."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ناتوانم گوێبگرم لە چەنەدانی بەردەوامی."),
@@ -228,9 +222,6 @@ class EnglishEntrybabble extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The baby’s babble would soon turn into language."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گڕوگاڵی منداڵەکە ھەرزوو دەبێت بە زمانی تەواو."),
@@ -253,9 +244,6 @@ class EnglishEntrybabble extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I realized I was babbling like an idiot."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "زانیم کە فڵتەفڵتم دەکرد وەک شێتێک."),
                               const CustomSizedBoxForTTS(),
@@ -277,9 +265,6 @@ class EnglishEntrybabble extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They rested a while by a babbling brook."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بۆ ماوەیەک لەلای جۆگەلەیەک وەستان کە خوڕڕەی دەھات."),

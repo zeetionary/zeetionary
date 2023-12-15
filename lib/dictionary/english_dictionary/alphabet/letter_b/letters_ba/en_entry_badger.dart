@@ -175,9 +175,6 @@ class EnglishEntrybadger extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The owl's predators include hawks, larger owls, snakes, and badgers."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئاژەڵە ڕاوکەرەکانی کوندەپەپوو بریتین لە ھەڵۆ، کوندەپەپووی گەورەتر، مار، و گۆڕھەڵکەنە."),
@@ -201,9 +198,6 @@ class EnglishEntrybadger extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I finally badgered him into coming with us."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "لەکۆتاییدا ناچار بە ھاتنم کرد."),
                               const CustomSizedBoxForTTS(),

@@ -174,9 +174,6 @@ class EnglishEntryancestry extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was able to trace his ancestry back over 1 000 years."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەیتوانی ڕەچەڵەکی بەدرێژایی ١٠٠٠ ساڵ بگێڕێتەوە."),
@@ -198,9 +195,6 @@ class EnglishEntryancestry extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "According to science, humans share a common ancestry with chimpanzees."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەپێی زانست مرۆڤ و شیمپانزی ھەمان باوانی ھاوبەشیان ھەیە."),

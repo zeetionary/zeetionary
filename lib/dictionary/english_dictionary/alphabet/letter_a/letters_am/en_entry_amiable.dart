@@ -196,9 +196,6 @@ class EnglishEntryamiable extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Her parents seemed very amiable."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "دایک و باوکی ڕووخۆش بوون."),
                               const CustomSizedBoxForTTS(),

@@ -131,9 +131,6 @@ class EnglishEntryagitator extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "It is thought that the strike was the work of undercover political agitators."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "باوەڕ وایە مانگرتنەکە کاری ئاژاوەگێڕە نھێنییە سیاسییەکان بوو."),

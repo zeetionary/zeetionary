@@ -131,9 +131,6 @@ class EnglishEntryalcoholism extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He finally sought treatment for his alcoholism."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە کۆتاییدا ھەوڵی چارەسەری بۆ ئاڵوودەییەکەی بە کحول دا."),

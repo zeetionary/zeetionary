@@ -182,9 +182,6 @@ class EnglishEntryatheism extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She is torn between atheism and the religious traditions she was raised with."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گیری‌خواردووە لە نێوان ئەیسییزم و ئەو باوەڕە ئاینییانەی لەسەری گەورەکرا."),

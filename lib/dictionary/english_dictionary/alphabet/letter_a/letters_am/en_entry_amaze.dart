@@ -131,9 +131,6 @@ class EnglishEntryamaze extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Just the size of the place amazed her."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گەورەیی شوێنەکە بە تەنھا سەرسامی کرد."),
@@ -154,9 +151,6 @@ class EnglishEntryamaze extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "What amazes me is how long she managed to hide it from us."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەوەی سەرسامم دەکات ئەوەیە کە چەند زۆر توانی لێمان بشارێتەوە."),

@@ -175,9 +175,6 @@ class EnglishEntrybalustrade extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The balustrade of the grand staircase has been painted white."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سیاجی پلەکانە گەورەکە بۆیەی سپی کراوە."),

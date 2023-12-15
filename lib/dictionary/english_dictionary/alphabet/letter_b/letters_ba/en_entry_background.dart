@@ -179,9 +179,6 @@ class EnglishEntrybackground extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We come from very different backgrounds but we get on well."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دوو پێشینەی جیاوازمان ھەیە بەڵام باش پێکەوە ھەڵدەکەین."),
@@ -205,9 +202,6 @@ class EnglishEntrybackground extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The book explains the complex historical background to the war."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کتێبەکە ھەلومەرجی ئاڵۆزی پێش جەنگەکە ڕووندەکاتەوە."),
@@ -231,9 +225,6 @@ class EnglishEntrybackground extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The mountains in the background were capped with snow."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "چیاکانی پشتەوە بە بەفر داپۆشرابوون."),
                               const CustomSizedBoxForTTS(),
@@ -256,9 +247,6 @@ class EnglishEntrybackground extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There was a lot of background noise (= that you could hear, but were not listening to)."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ڕێژەیەکی زۆر ژاوەژاو لە پشتەوە ھەبوو."),
@@ -282,9 +270,6 @@ class EnglishEntrybackground extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The name of the company is written in red on a white background."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ناوی کۆمپانیاکە بە سوور نووسراوە لەسەر باکگراوندێکی سپی."),

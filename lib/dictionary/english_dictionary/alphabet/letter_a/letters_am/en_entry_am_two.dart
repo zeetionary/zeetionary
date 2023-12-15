@@ -128,9 +128,6 @@ class EnglishEntryamtwo extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "It starts at 10 a.m."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە کاتژمێر ١٠ی پێش نیوەڕۆ دەست پێدەکات."),

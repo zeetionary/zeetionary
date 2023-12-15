@@ -175,9 +175,6 @@ class EnglishEntryanalog extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "This is the standard method used to convert analog signals to digital."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەمە ڕێگای ستانداردە بۆ گۆڕینی شەپۆلی ئەنالۆگ بۆ دیجیتاڵ."),
@@ -201,9 +198,6 @@ class EnglishEntryanalog extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "She still uses an old-fashioned analog alarm clock."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھێشتا کاتژمێرێکی ئەنالۆگی کۆنەباو وەک چاڵمە بەکاردێنێت."),
@@ -227,9 +221,6 @@ class EnglishEntryanalog extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Scientists are attempting to compare features of extinct animals with living analogs."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زاناکان ھەوڵ‌دەدەن خاسیەتەکانی ئاژەڵە لەناوچووەکان بەراورد بکەن بە لێکچووە زیندووەکانیان."),

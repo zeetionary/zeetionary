@@ -172,9 +172,6 @@ class EnglishEntryanemic extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "She looks anemic."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "کەم‌خوێن دیارە."),
                               const CustomSizedBoxForTTS(),
@@ -197,9 +194,6 @@ class EnglishEntryanemic extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Both actors gave fairly anemic performances."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەردوو ئەکتەرەکە تاڕادەیەک نمایشی لاوازیان پێشکەش‌کرد."),

@@ -181,9 +181,6 @@ class EnglishEntryarc extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The ball rose in a high arc and fell behind the boundary line."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تۆپەکە لە شێوەی کەوانەیەک بەرزبوویەوە و چووە دەرەوەی یاریگاکە."),
@@ -207,9 +204,6 @@ class EnglishEntryarc extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "They were firing shells in a high arc over our heads."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "گوللە تۆپیان ھەڵدەدا بەسەرماندا لە شێوەی کەوانەیەکدا."),
@@ -233,9 +227,6 @@ class EnglishEntryarc extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The father has the most interesting character arc in the series."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "باوکەکە سەرنجڕاکێشترین چیرۆکی ھەیە لە زنجیرەکەدا."),

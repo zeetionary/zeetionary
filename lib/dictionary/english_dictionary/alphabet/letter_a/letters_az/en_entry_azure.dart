@@ -173,9 +173,6 @@ class EnglishEntryazure extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The sun shone out of a clear azure sky."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "خۆر درەوشایەوە بە ئاسمانێکی شیندا."),
                               const CustomSizedBoxForTTS(),
@@ -197,9 +194,6 @@ class EnglishEntryazure extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was captivated by the azure of the woman's eyes."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دڵی فڕی بە چاوە شینە ئاسمانییەکەی ژنەکە."),

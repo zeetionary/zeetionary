@@ -175,9 +175,6 @@ class EnglishEntrybankruptcy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "There could be further bankruptcies among small farmers."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەگەری ھەیە مایەپووچبوونی زیاتر ڕووبدات لەناو جوتیارە کەمدەرامەتەکاندا."),

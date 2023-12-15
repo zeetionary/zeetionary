@@ -175,9 +175,6 @@ class EnglishEntryballast extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The submarine took in water as ballast to submerge itself fully beneath the surface."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ژێردەریاکە ئاوی ھێنایە ژوورەوە بۆ بەکارھێنانی وەک ھاوسەنگێنە بۆ ئەوەی بە تەواوی خۆی داپۆشێت لەژێر ڕووی دەریاکە."),
@@ -201,9 +198,6 @@ class EnglishEntryballast extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The workers laid a layer of ballast before paving the road with asphalt."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کرێکارەکان چینێک لە چەوڕێژیان دانا پێش ئەوەی ڕێگاکە قیرتاو بکەن."),

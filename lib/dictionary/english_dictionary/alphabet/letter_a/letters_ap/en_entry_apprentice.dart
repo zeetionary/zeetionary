@@ -180,9 +180,6 @@ class EnglishEntryapprentice extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Most of the work was done by apprentices."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "زۆرینەی کارەکە لەلایەن شاگردەکان کرا."),
@@ -206,9 +203,6 @@ class EnglishEntryapprentice extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was apprenticed to his uncle as a carpenter."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "وەک شاگردێکی دارتاشی درا بە خاڵی."),
                               const CustomSizedBoxForTTS(),

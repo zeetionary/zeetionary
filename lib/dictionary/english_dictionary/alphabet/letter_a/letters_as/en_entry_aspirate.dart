@@ -199,9 +199,6 @@ class EnglishEntryaspirate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The word ‘hour’ is pronounced without an initial aspirate."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "وشەی ‘hour’ بەبێ ئەسپیرەیتی سەرەتا دەخوێندرێتەوە."),
@@ -225,9 +222,6 @@ class EnglishEntryaspirate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The teacher instructed the student to aspirate their 't's more forcefully."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "مامۆستاکە داوای لە خوێندکارەکانی کرد پیتی 'ت' بە ھەناسەی زیاترەوە بخوێننەوە."),
@@ -251,9 +245,6 @@ class EnglishEntryaspirate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The drowning victim aspirated water into their lungs."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "قوربانییە نقومبووەکە ئاوی مژییە ناو سنگەکانی."),
@@ -277,9 +268,6 @@ class EnglishEntryaspirate extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The doctor aspirated the fluid from the patient's lungs."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پزیشکەکە شلەکەی لە لەشی نەخۆشەکە دەرکرد."),

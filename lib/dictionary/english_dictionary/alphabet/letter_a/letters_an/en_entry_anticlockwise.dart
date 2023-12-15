@@ -175,9 +175,6 @@ class EnglishEntryanticlockwise extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "'How do I get the top off this bottle?'' 'Push it down and twist it anticlockwise.'"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "«چۆن سەری ئەم بوتڵە بکەمەوە؟» «پاڵی‌بنە خوار و بە پێچەوانەی میلی کاتژمێر بیسووڕێنە»"),
@@ -199,9 +196,6 @@ class EnglishEntryanticlockwise extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Turn the key anticlockwise/in an anticlockwise direction."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کلیلەکە بە ئاراستەی پێچيوانەی میلی کاتژمێر."),

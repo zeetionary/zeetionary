@@ -172,9 +172,6 @@ class EnglishEntryawayday extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The management are having an away day to discuss strategy."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تیمی بەڕێوەبردن ڕۆژێکی گفتوگۆیان ھەیە بۆ باسکردنی ستراتیژییەکە."),

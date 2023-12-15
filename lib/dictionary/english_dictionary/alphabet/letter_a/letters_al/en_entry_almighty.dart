@@ -142,9 +142,6 @@ class EnglishEntryalmighty extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Almighty God, have mercy on us."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "خودای بەدەسەڵات، ڕەحممان پێ بکە."),
                               const CustomSizedBoxForTTS(),
@@ -166,9 +163,6 @@ class EnglishEntryalmighty extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "All of a sudden we heard an almighty crash from the kitchen."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لەناکاو تەقەیەکی بەرزمان لە چێشتخانەکەوە بیست."),
@@ -191,9 +185,6 @@ class EnglishEntryalmighty extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "God Almighty! What the hell do you think you are doing?"),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "بۆ خاتری خودا، پێت وایە چی دەکەیت؟"),
                               const CustomSizedBoxForTTS(),
@@ -215,9 +206,6 @@ class EnglishEntryalmighty extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "We must pray to the Almighty for forgiveness."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دەبێت لای خودا نزا بکەین بۆ لێخۆشبوون."),

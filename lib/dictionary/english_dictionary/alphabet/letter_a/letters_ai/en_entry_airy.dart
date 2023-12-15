@@ -133,9 +133,6 @@ class EnglishEntryairy extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "The office was light and airy."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ئۆفیسەکە ڕۆشن و ھەواخۆش بوو."),
                               const CustomSizedBoxForTTS(),
@@ -156,9 +153,6 @@ class EnglishEntryairy extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "He dismissed her with an airy wave."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ماڵئاوایی لێکرد بە دەستڕاوەشاندنێکی سادە."),
@@ -181,9 +175,6 @@ class EnglishEntryairy extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The airy promises proved empty in practical implementation."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بەڵێنە دەستکردەکانی پڕووپووچ بوون بە کرداری."),

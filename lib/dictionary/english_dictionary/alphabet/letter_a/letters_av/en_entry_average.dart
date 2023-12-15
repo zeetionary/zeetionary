@@ -179,9 +179,6 @@ class EnglishEntryaverage extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The average age of participants was 52 years."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تێکڕای تەمەنی بەژداربووان ٥٢ ساڵ بوو."),
@@ -205,9 +202,6 @@ class EnglishEntryaverage extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "On an average day they sell more than £2 000 worth of vegetables."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "لە ڕۆژێکی ئاساییدا بای ٢٠٠٠ پاوەند سەوزە دەفرۆشن."),
@@ -231,9 +225,6 @@ class EnglishEntryaverage extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I was just an average sort of student."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "خوێندکارێکی مام‌ناوەند بووم."),
                               const CustomSizedBoxForTTS(),
@@ -256,9 +247,6 @@ class EnglishEntryaverage extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Parents spend an average of £220 a year on toys."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "دایکان و باوکان بە تێکڕا ٢٢٠ پاوەند لە کایەی منداڵان خەرج‌دەکەن"),
@@ -282,9 +270,6 @@ class EnglishEntryaverage extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Temperatures are above average for the time of year."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "پلەی گەرمی لە سەروو ئاسایین بۆ ئەم کاتەی ساڵ."),
@@ -308,9 +293,6 @@ class EnglishEntryaverage extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He has averaged 15 goals over the past two seasons."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "تێکڕای ١٥ گۆڵی ھەبووە لە دوو وەرزی ڕابردوودا."),
@@ -334,9 +316,6 @@ class EnglishEntryaverage extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Earnings are averaged over the whole period."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "قازانجەکان تێکڕای تەواوی ماوەکە دەکرێن"),

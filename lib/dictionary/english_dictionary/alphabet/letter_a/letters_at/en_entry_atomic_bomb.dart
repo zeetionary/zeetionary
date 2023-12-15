@@ -181,9 +181,6 @@ class EnglishEntryatomicbomb extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The atomic bombs dropped on Hiroshima and Nagasaki in 1945 caused widespread destruction and loss of life."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ئەو بۆمبە ئەتۆمییانەی لە ساڵی ١٩٤٥ بەسەر ھیرۆشیما و ناگازاکیدا بەردرانەوە بوونە ھۆی وێرانی و لەدەستچوونی ژیانی زۆر."),

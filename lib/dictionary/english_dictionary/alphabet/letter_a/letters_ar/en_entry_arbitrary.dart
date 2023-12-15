@@ -183,9 +183,6 @@ class EnglishEntryarbitrary extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He makes unpredictable, arbitrary decisions."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "بڕیاری پێش‌بینی‌نەکراو و خۆحەزی دەدا."),
@@ -207,9 +204,6 @@ class EnglishEntryarbitrary extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "The choice of players for the team seemed completely arbitrary."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەڵبژاردنی یاریزانەکان بۆ تیمەکە بە تەواوی ھەڕەمەکی دیاربوو."),
@@ -233,9 +227,6 @@ class EnglishEntryarbitrary extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "People will question the arbitrary powers of officials in a democratic society."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "خەڵکی دژی بەکارھێنانی دەسەڵاتی زۆردارانەی دەسەڵاتداران دەوەستنەوە لە کۆمەڵگایەکی دیموکراسیدا."),

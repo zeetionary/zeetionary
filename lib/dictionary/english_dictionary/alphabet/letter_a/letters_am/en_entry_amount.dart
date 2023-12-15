@@ -178,9 +178,6 @@ class EnglishEntryamount extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "I was amazed at the amount he could eat."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "سەرسام‌بووم بەوەی دەتوانێت چەندە بخوات."),
@@ -201,9 +198,6 @@ class EnglishEntryamount extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Try to reduce the amount of energy and water you use at home."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "ھەوڵ‌بدە بڕی وزە و ئاوی بەکارھێندراو لە مەڵەوە کەم‌بکەوە."),
@@ -225,9 +219,6 @@ class EnglishEntryamount extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Everyone has paid the same amount."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەمووان ھەمان بڕیان داوە."),
                               const CustomSizedBoxForTTS(),
@@ -249,9 +240,6 @@ class EnglishEntryamount extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "His earnings are said to amount to £300 000 per annum."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "قازانجەکانی دەبن بە ٣٠٠٠٠٠ پاوەند لە ساڵێکدا."),
@@ -274,9 +262,6 @@ class EnglishEntryamount extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "Their actions in the war amount to genocide."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text:
                                       "کردەوەکانیان لە جەنگەکەدا ھاوتایە بە جینۆساید."),
@@ -298,9 +283,6 @@ class EnglishEntryamount extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "You'll never amount to anything."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "ھەرگیز نابیت بە ھیچ."),
                               const CustomSizedBoxForTTS(),

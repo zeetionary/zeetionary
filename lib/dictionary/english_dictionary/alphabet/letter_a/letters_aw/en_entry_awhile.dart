@@ -172,9 +172,6 @@ class EnglishEntryawhile extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Stay awhile."),
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const ExampleSentenceKurdish(
                                   text: "کەمێک بوەستە."),
                               const CustomSizedBoxForTTS(),

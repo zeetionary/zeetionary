@@ -60,32 +60,102 @@ class KurdishHistoryScreen extends StatelessWidget {
       child: Directionality(
         textDirection: TextDirection.rtl,
         child: Scaffold(
-          body: FutureBuilder<List<String>>(
+          // body: FutureBuilder<List<String>>(
+          //   future: loadKurdishHistory(),
+          //   builder: (context, snapshot) {
+          //     if (snapshot.connectionState == ConnectionState.waiting) {
+          //       return const CircularProgressIndicator();
+          //     } else if (snapshot.hasData) {
+          //       final kurdishhistory = snapshot.data;
+          //       return ListView.builder(
+          //         itemCount: kurdishhistory?.length,
+          //         itemBuilder: (context, index) {
+          //           final word = kurdishhistory![index];
+          //           return ListTile(
+          //             trailing: const Icon(Icons.arrow_forward),
+          //             title: Text(
+          //               word,
+          //               textDirection: TextDirection.rtl,
+          //             ),
+          //             onTap: () {
+          //               // Navigate to the corresponding screen based on the tapped word
+          //               navigateToScreen(context, word);
+          //             },
+          //           );
+          //         },
+          //       );
+          //     } else {
+          //       return const Text('No kurdish history found.');
+          //     }
+          //   },
+          // ),
+          // body: FutureBuilder<Set<String>>(
+          //   // https://bard.google.com/chat/ad9cccab2b6f39b4
+          //   future: loadKurdishHistory(),
+          //   builder: (context, snapshot) {
+          //     if (snapshot.connectionState == ConnectionState.waiting) {
+          //       return const CircularProgressIndicator();
+          //     } else if (snapshot.hasData) {
+          //       final kurdishhistory =
+          //           snapshot.data!; // Access the history as a Set.
+          //       return ListView.builder(
+          //         itemCount: kurdishhistory.length,
+          //         itemBuilder: (context, index) {
+          //           final word = kurdishhistory
+          //               .elementAt(index); // Access items using Set methods.
+          //           return ListTile(
+          //             title: Text(word),
+          //             onTap: () => navigateToScreen(context, word),
+          //           );
+          //         },
+          //       );
+          //     } else {
+          //       return const Text('No history found.');
+          //     }
+          //   },
+          // ),
+          body: FutureBuilder<Set<String>>(
             future: loadKurdishHistory(),
             builder: (context, snapshot) {
               if (snapshot.connectionState == ConnectionState.waiting) {
                 return const CircularProgressIndicator();
-              } else if (snapshot.hasData) {
-                final kurdishhistory = snapshot.data;
-                return ListView.builder(
-                  itemCount: kurdishhistory?.length,
-                  itemBuilder: (context, index) {
-                    final word = kurdishhistory![index];
-                    return ListTile(
-                      trailing: const Icon(Icons.arrow_forward),
-                      title: Text(
-                        word,
-                        textDirection: TextDirection.rtl,
+              } else if (snapshot.hasData && snapshot.data!.isEmpty) {
+                // History is empty, show message
+                // return const Center(
+                //   child: Text(
+                //       'هیچ لێرە نییە.، تکایە بۆ وشەی کوردی بگەڕێ بۆ ئەوەی لێرە دەربکەوێت'),
+                // );
+                return Container(
+                  alignment: Alignment.center,
+                  child: const Column(
+                    mainAxisSize:
+                        MainAxisSize.min, // Centers the icon vertically
+                    children: [
+                      Icon(
+                        Icons.history, // Choose an appropriate icon
+                        size: 48.0, // Adjust icon size as needed
+                        color: Colors
+                            .grey, // Adjust icon color to match your theme
                       ),
-                      onTap: () {
-                        // Navigate to the corresponding screen based on the tapped word
-                        navigateToScreen(context, word);
-                      },
+                      Text("چۆڵ‌وهۆڵ"), // Optional: add text below if desired
+                    ],
+                  ),
+                );
+              } else if (snapshot.hasData) {
+                // Build the list view with history data
+                final kurdishhistory = snapshot.data!;
+                return ListView.builder(
+                  itemCount: kurdishhistory.length,
+                  itemBuilder: (context, index) {
+                    final word = kurdishhistory.elementAt(index);
+                    return ListTile(
+                      title: Text(word),
+                      onTap: () => navigateToScreen(context, word),
                     );
                   },
                 );
               } else {
-                return const Text('No kurdish history found.');
+                return const Text('Error loading history.');
               }
             },
           ),
@@ -107,12 +177,18 @@ class KurdishHistoryScreen extends StatelessWidget {
     );
   }
 
-  Future<List<String>> loadKurdishHistory() async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    List<String> kurdishhistory = prefs.getStringList('kurdish history') ?? [];
+  // Future<List<String>> loadKurdishHistory() async {
+  //   SharedPreferences prefs = await SharedPreferences.getInstance();
+  //   List<String> kurdishhistory = prefs.getStringList('kurdish history') ?? [];
 
-    // Reverse the order of the Kurdish history list
-    return kurdishhistory.reversed.toList();
+  //   // Reverse the order of the Kurdish history list
+  //   return kurdishhistory.reversed.toList();
+  // }
+
+  Future<Set<String>> loadKurdishHistory() async {
+    // https://bard.google.com/chat/ad9cccab2b6f39b4
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    return prefs.getStringList('kurdish history')?.toSet() ?? {};
   }
 
   void navigateToScreen(BuildContext context, String word) {

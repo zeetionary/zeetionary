@@ -9131,14 +9131,30 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     );
   }
 
+  // void saveToHistory(String word) async {
+  //   SharedPreferences prefs = await SharedPreferences.getInstance();
+  //   List<String> englishhistory = prefs.getStringList("english history") ?? [];
+
+  //   if (!englishhistory.contains(word)) {
+  //     englishhistory.add(word);
+  //     await prefs.setStringList("english history", englishhistory);
+  //   }
+  // }
+
   void saveToHistory(String word) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    List<String> englishhistory = prefs.getStringList("english history") ?? [];
+    List<String> englishhistory = prefs.getStringList('english history') ?? [];
 
-    if (!englishhistory.contains(word)) {
-      englishhistory.add(word);
-      await prefs.setStringList("english history", englishhistory);
+    // https://bard.google.com/chat/ad9cccab2b6f39b4
+
+    if (englishhistory.contains(word)) {
+      englishhistory.remove(word); // Remove the existing item before adding it again.
     }
+
+    englishhistory.insert(0, word); // Add the item back to the top of the list.
+    await prefs.setStringList('english history', englishhistory);
+
+    setState(() {}); // Rebuild the list view with the updated order.
   }
 
   // https://chat.openai.com/c/1b6a5ca9-fbb4-4eb2-8a47-8df7b4085fdc

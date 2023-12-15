@@ -58,29 +58,93 @@ class EnglishHistoryScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Material(
       child: Scaffold(
-        body: FutureBuilder<List<String>>(
+        // body: FutureBuilder<Set<String>>(
+        //   future: loadEnglishHistory(),
+        //   builder: (context, snapshot) {
+        //     if (snapshot.connectionState == ConnectionState.waiting) {
+        //       return const CircularProgressIndicator();
+        //     } else if (snapshot.hasData) {
+        //       final englishhistory =
+        //           snapshot.data!; // Access the history as a Set.
+        //       return ListView.builder(
+        //         itemCount: englishhistory.length,
+        //         itemBuilder: (context, index) {
+        //           final word = englishhistory
+        //               .elementAt(index); // Access items using Set methods.
+        //           return ListTile(
+        //             title: Text(word),
+        //             onTap: () => navigateToScreen(context, word),
+        //           );
+        //         },
+        //       );
+        //     } else {
+        //       return const Text('No history found.');
+        //     }
+        //   },
+        // ),
+        // body: FutureBuilder<Set<String>>(
+        //   // https://bard.google.com/chat/ad9cccab2b6f39b4
+        //   future: loadEnglishHistory(),
+        //   builder: (context, snapshot) {
+        //     if (snapshot.connectionState == ConnectionState.waiting) {
+        //       return const CircularProgressIndicator();
+        //     } else if (snapshot.hasData) {
+        //       final englishhistory =
+        //           snapshot.data!; // Access the history as a Set.
+        //       return ListView.builder(
+        //         itemCount: englishhistory.length,
+        //         itemBuilder: (context, index) {
+        //           final word = englishhistory
+        //               .elementAt(index); // Access items using Set methods.
+        //           return ListTile(
+        //             title: Text(word),
+        //             onTap: () => navigateToScreen(context, word),
+        //           );
+        //         },
+        //       );
+        //     } else {
+        //       return const Text('No history found.');
+        //     }
+        //   },
+        // ),
+        body: FutureBuilder<Set<String>>(
           future: loadEnglishHistory(),
           builder: (context, snapshot) {
             if (snapshot.connectionState == ConnectionState.waiting) {
               return const CircularProgressIndicator();
+            } else if (snapshot.hasData && snapshot.data!.isEmpty) {
+              // History is empty, show message
+              return Container(
+                alignment: Alignment.center,
+                child: const Column(
+                  mainAxisSize: MainAxisSize.min, // Centers the icon vertically
+                  children: [
+                    Icon(
+                      Icons.history, // Choose an appropriate icon
+                      size: 48.0, // Adjust icon size as needed
+                      color:
+                          Colors.grey, // Adjust icon color to match your theme
+                    ),
+                    Text(
+                        'Empty history'), // Optional: add text below if desired
+                  ],
+                ),
+              );
             } else if (snapshot.hasData) {
-              final englishhistory = snapshot.data;
+              // Build the list view with history data
+              final englishhistory = snapshot.data!;
               return ListView.builder(
-                itemCount: englishhistory?.length,
+                itemCount: englishhistory.length,
                 itemBuilder: (context, index) {
-                  final word = englishhistory![index];
+                  final word = englishhistory.elementAt(index);
                   return ListTile(
-                    trailing: const Icon(Icons.arrow_forward),
                     title: Text(word),
-                    onTap: () {
-                      // Navigate to the corresponding screen based on the tapped word
-                      navigateToScreen(context, word);
-                    },
+                    onTap: () => navigateToScreen(context, word),
                   );
                 },
               );
             } else {
-              return const Text('No english history found.');
+              return const Text('Error loading history.');
             }
           },
         ),
@@ -94,12 +158,18 @@ class EnglishHistoryScreen extends StatelessWidget {
     );
   }
 
-  Future<List<String>> loadEnglishHistory() async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    List<String> englishhistory = prefs.getStringList('english history') ?? [];
+  // Future<List<String>> loadEnglishHistory() async {
+  //   SharedPreferences prefs = await SharedPreferences.getInstance();
+  //   List<String> englishhistory = prefs.getStringList('english history') ?? [];
 
-    // Reverse the order of the english history list
-    return englishhistory.reversed.toList();
+  //   // Reverse the order of the english history list
+  //   return englishhistory.reversed.toList();
+  // }
+
+  Future<Set<String>> loadEnglishHistory() async {
+    // https://bard.google.com/chat/ad9cccab2b6f39b4
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    return prefs.getStringList('english history')?.toSet() ?? {};
   }
 
   void navigateToScreen(BuildContext context, String word) {

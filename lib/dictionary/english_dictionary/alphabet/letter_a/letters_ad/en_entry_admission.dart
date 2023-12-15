@@ -83,22 +83,14 @@ class EnglishEntryadmission extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "admission"), // DOPSUM: CHANGE WORD ENTRY - Find /ədˈmɪʃn/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "admission"), // Find /ədˈmɪʃn/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ədˈmɪʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdmission(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAdmission("en-GB"),
                             ),
                           ],
                         ),
@@ -108,8 +100,7 @@ class EnglishEntryadmission extends StatelessWidget {
                                 text:
                                     "IpaUS: /ədˈmɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdmission(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdmission("en-US"),
                             ),
                           ],
                         ),
@@ -160,7 +151,7 @@ class EnglishEntryadmission extends StatelessWidget {
                                       "Hospital admission is not necessary in most cases."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "چوونە نەخۆشخانە لە زۆر حاڵەتدا پێویست نییە."),
+                                      "بردنە نەخۆشخانە لە زۆر حاڵەتدا پێویست نییە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdmiss836541("en-GB"),

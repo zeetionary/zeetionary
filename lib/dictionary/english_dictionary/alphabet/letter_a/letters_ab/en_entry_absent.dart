@@ -50,19 +50,13 @@ class EnglishEntryabsent extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word: "absent"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈæbsənt/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAbsent(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAbsent("en-GB"),
                             ),
                           ],
                         ),
@@ -72,8 +66,7 @@ class EnglishEntryabsent extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæbsənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbsent(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbsent("en-US"),
                             ),
                           ],
                         ),

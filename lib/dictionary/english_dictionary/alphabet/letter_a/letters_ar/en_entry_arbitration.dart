@@ -111,12 +111,8 @@ class EnglishEntryarbitration extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "arbitration"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌɑːbɪˈtreɪʃn/
+                                word: "arbitration"), // Find /ˌɑːbɪˈtreɪʃn/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +121,7 @@ class EnglishEntryarbitration extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɑːbɪˈtreɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArbitration(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakArbitration("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +131,7 @@ class EnglishEntryarbitration extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɑːrbɪˈtreɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArbitration(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArbitration("en-US"),
                             ),
                           ],
                         ),

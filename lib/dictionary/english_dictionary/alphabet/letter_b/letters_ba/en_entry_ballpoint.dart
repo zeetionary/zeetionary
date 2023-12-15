@@ -107,9 +107,6 @@ class EnglishEntryballpoint extends StatelessWidget {
                             EntryTitle(
                                 word: "ballpoint"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -118,9 +115,7 @@ class EnglishEntryballpoint extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbɔːlpɔɪnt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBallpoint(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakBallpoint("en-GB"),
                             ),
                           ],
                         ),
@@ -130,8 +125,7 @@ class EnglishEntryballpoint extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbɔːlpɔɪnt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBallpoint(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakBallpoint("en-US"),
                             ),
                           ],
                         ),

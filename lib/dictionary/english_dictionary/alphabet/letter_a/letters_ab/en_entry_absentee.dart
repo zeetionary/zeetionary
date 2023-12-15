@@ -50,19 +50,13 @@ class EnglishEntryabsentee extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word: "absentee"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌæbsənˈtiː/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAbsentee(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAbsentee("en-GB"),
                             ),
                           ],
                         ),
@@ -72,8 +66,7 @@ class EnglishEntryabsentee extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæbsənˈtiː/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbsentee(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbsentee("en-US"),
                             ),
                           ],
                         ),

@@ -51,10 +51,6 @@ class EnglishEntryabsentminded extends StatelessWidget {
                             EntryTitle(
                                 word:
                                     "absentminded"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -62,9 +58,7 @@ class EnglishEntryabsentminded extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ˌæbsənt ˈmaɪndɪd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAbsentminded(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAbsentminded("en-GB"),
                             ),
                           ],
                         ),
@@ -74,8 +68,7 @@ class EnglishEntryabsentminded extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæbsənt ˈmaɪndɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbsentminded(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbsentminded("en-US"),
                             ),
                           ],
                         ),

@@ -50,19 +50,13 @@ class EnglishEntryabolition extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word: "abolition"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌæbəˈlɪʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAbolition(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAbolition("en-GB"),
                             ),
                           ],
                         ),
@@ -72,8 +66,7 @@ class EnglishEntryabolition extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæbəˈlɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbolition(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbolition("en-US"),
                             ),
                           ],
                         ),

@@ -128,13 +128,8 @@ class EnglishEntryammonia extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "ammonia"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈməʊniə/
+                            EntryTitle(word: "ammonia"), // Find /əˈməʊniə/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -143,9 +138,7 @@ class EnglishEntryammonia extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈməʊniə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAmmonia(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAmmonia("en-GB"),
                             ),
                           ],
                         ),
@@ -155,8 +148,7 @@ class EnglishEntryammonia extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈməʊniə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmmonia(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAmmonia("en-US"),
                             ),
                           ],
                         ),

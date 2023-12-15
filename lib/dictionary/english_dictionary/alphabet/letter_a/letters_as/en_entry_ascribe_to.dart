@@ -116,12 +116,8 @@ class EnglishEntryascribeto extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "ascribe to"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈskraɪb tə/
+                                word: "ascribe to"), // Find /əˈskraɪb tə/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -130,9 +126,7 @@ class EnglishEntryascribeto extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈskraɪb tə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAscribeto(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAscribeto("en-GB"),
                             ),
                           ],
                         ),
@@ -142,8 +136,7 @@ class EnglishEntryascribeto extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈskraɪb tə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAscribeto(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAscribeto("en-US"),
                             ),
                           ],
                         ),

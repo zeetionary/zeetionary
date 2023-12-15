@@ -64,22 +64,14 @@ class EnglishEntryaffidavit extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "affidavit"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌæfəˈdeɪvɪt/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "affidavit"), // Find /ˌæfəˈdeɪvɪt/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌæfəˈdeɪvɪt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAffidavit(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAffidavit("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryaffidavit extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæfəˈdeɪvɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAffidavit(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAffidavit("en-US"),
                             ),
                           ],
                         ),

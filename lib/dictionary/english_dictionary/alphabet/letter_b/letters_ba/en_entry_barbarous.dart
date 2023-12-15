@@ -107,9 +107,6 @@ class EnglishEntrybarbarous extends StatelessWidget {
                             EntryTitle(
                                 word: "barbarous"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -118,9 +115,7 @@ class EnglishEntrybarbarous extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbɑːbərəs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBarbarous(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakBarbarous("en-GB"),
                             ),
                           ],
                         ),
@@ -130,8 +125,7 @@ class EnglishEntrybarbarous extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbɑːrbərəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBarbarous(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakBarbarous("en-US"),
                             ),
                           ],
                         ),

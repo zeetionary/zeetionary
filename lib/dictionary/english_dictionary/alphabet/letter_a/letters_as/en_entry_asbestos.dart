@@ -112,13 +112,8 @@ class EnglishEntryasbestos extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "asbestos"), // DOPSUM: CHANGE WORD ENTRY - Find /æsˈbestɒs/
+                            EntryTitle(word: "asbestos"), // Find /æsˈbestɒs/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +122,7 @@ class EnglishEntryasbestos extends StatelessWidget {
                                 text:
                                     "IpaUK: /æsˈbestɒs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAsbestos(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAsbestos("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +132,7 @@ class EnglishEntryasbestos extends StatelessWidget {
                                 text:
                                     "IpaUS: /æzˈbestəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAsbestos(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAsbestos("en-US"),
                             ),
                           ],
                         ),

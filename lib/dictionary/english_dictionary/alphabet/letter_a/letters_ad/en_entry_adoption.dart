@@ -66,22 +66,14 @@ class EnglishEntryadoption extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "adoption"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈdɒpʃn/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "adoption"), // Find /əˈdɒpʃn/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈdɒpʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAdoption(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAdoption("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +83,7 @@ class EnglishEntryadoption extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈdɑːpʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdoption(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdoption("en-US"),
                             ),
                           ],
                         ),

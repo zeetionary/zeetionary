@@ -66,11 +66,7 @@ class EnglishEntryairconditioner extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "air conditioner"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeə kəndɪʃənə(r)/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                    "air conditioner"), // Find /ˈeə kəndɪʃənə(r)/
                           ],
                         ),
                         Row(
@@ -78,9 +74,7 @@ class EnglishEntryairconditioner extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ˈeə kəndɪʃənə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAirconditioner(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAirconditioner("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +84,7 @@ class EnglishEntryairconditioner extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈer kəndɪʃənər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAirconditioner(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAirconditioner("en-US"),
                             ),
                           ],
                         ),

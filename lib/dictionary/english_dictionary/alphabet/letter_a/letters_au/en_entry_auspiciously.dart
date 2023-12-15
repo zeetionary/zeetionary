@@ -116,9 +116,6 @@ class EnglishEntryauspiciously extends StatelessWidget {
                                 word:
                                     "auspiciously"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +124,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɔːˈspɪʃəsli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAuspiciously(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAuspiciously("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +134,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɔːˈspɪʃəsli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAuspiciously(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAuspiciously("en-US"),
                             ),
                           ],
                         ),

@@ -108,11 +108,8 @@ class EnglishEntryantidepressant extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "antidepressant"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌæntidɪˈpresnt/
+                                    "antidepressant"), // Find /ˌæntidɪˈpresnt/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -121,9 +118,7 @@ class EnglishEntryantidepressant extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæntidɪˈpresnt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntidepressant(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAntidepressant("en-GB"),
                             ),
                           ],
                         ),
@@ -133,8 +128,7 @@ class EnglishEntryantidepressant extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæntidɪˈpresnt/,  /ˌæntaɪdɪˈpresnt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntidepressant(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAntidepressant("en-US"),
                             ),
                           ],
                         ),

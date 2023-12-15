@@ -165,12 +165,8 @@ class EnglishEntryas extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "as"), // DOPSUM: CHANGE WORD ENTRY - Find /əz/, strong form  /æz/
+                                word: "as"), // Find /əz/, strong form  /æz/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -179,9 +175,7 @@ class EnglishEntryas extends StatelessWidget {
                                 text:
                                     "IpaUK: /əz/, strong form  /æz/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAs(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAs("en-GB"),
                             ),
                           ],
                         ),
@@ -191,8 +185,7 @@ class EnglishEntryas extends StatelessWidget {
                                 text:
                                     "IpaUS: /əz/, strong form  /æz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAs(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAs("en-US"),
                             ),
                           ],
                         ),

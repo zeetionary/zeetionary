@@ -108,9 +108,6 @@ class EnglishEntryavatar extends StatelessWidget {
                             EntryTitle(
                                 word: "avatar"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -119,9 +116,7 @@ class EnglishEntryavatar extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈævətɑː(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAvatar(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAvatar("en-GB"),
                             ),
                           ],
                         ),
@@ -131,8 +126,7 @@ class EnglishEntryavatar extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈævətɑːr/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAvatar(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAvatar("en-US"),
                             ),
                           ],
                         ),

@@ -110,11 +110,8 @@ class EnglishEntryapartheid extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "apartheid"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈpɑːtaɪt/,  /əˈpɑːteɪt/
+                                    "apartheid"), // Find /əˈpɑːtaɪt/,  /əˈpɑːteɪt/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -123,9 +120,7 @@ class EnglishEntryapartheid extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈpɑːtaɪt/,  /əˈpɑːteɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApartheid(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakApartheid("en-GB"),
                             ),
                           ],
                         ),
@@ -135,8 +130,7 @@ class EnglishEntryapartheid extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈpɑːrtaɪt/,  /əˈpɑːrteɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApartheid(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakApartheid("en-US"),
                             ),
                           ],
                         ),

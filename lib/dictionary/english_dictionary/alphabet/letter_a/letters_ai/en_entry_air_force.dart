@@ -64,22 +64,14 @@ class EnglishEntryairforce extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "air force"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeə fɔːs/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "air force"), // Find /ˈeə fɔːs/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈeə fɔːs/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAirforce(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAirforce("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryairforce extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈer fɔːrs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAirforce(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAirforce("en-US"),
                             ),
                           ],
                         ),

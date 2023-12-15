@@ -51,19 +51,13 @@ class EnglishEntryabstemious extends StatelessWidget {
                             EntryTitle(
                                 word:
                                     "abstemious"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əbˈstiːmiəs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAbstemious(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAbstemious("en-GB"),
                             ),
                           ],
                         ),
@@ -73,8 +67,7 @@ class EnglishEntryabstemious extends StatelessWidget {
                                 text:
                                     "IpaUS: /əbˈstiːmiəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbstemious(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbstemious("en-US"),
                             ),
                           ],
                         ),
@@ -123,7 +116,9 @@ class EnglishEntryabstemious extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was a hard-working man with abstemious habits."),
-                              const ExampleSentenceKurdish(text: "پیاوێکی زەحمەتکێش بوو کە خۆی لە حەز و ویستەکانی بەدووردەگرت."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پیاوێکی زەحمەتکێش بوو کە خۆی لە حەز و ویستەکانی بەدووردەگرت."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAb75891("en-GB"),

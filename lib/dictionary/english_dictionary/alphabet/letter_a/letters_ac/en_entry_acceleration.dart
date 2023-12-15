@@ -60,19 +60,13 @@ class EnglishEntryacceleration extends StatelessWidget {
                             EntryTitle(
                                 word:
                                     "acceleration"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əkˌseləˈreɪʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcceleration(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAcceleration("en-GB"),
                             ),
                           ],
                         ),
@@ -82,8 +76,7 @@ class EnglishEntryacceleration extends StatelessWidget {
                                 text:
                                     "IpaUS: /əkˌseləˈreɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcceleration(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAcceleration("en-US"),
                             ),
                           ],
                         ),

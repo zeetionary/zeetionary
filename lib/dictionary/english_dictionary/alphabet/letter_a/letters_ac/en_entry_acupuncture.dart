@@ -65,12 +65,7 @@ class EnglishEntryacupuncture extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "acupuncture"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈækjupʌŋktʃə(r)/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "acupuncture"), // Find /ˈækjupʌŋktʃə(r)/
                           ],
                         ),
                         Row(
@@ -78,9 +73,7 @@ class EnglishEntryacupuncture extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ˈækjupʌŋktʃə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcupuncture(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAcupuncture("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +83,7 @@ class EnglishEntryacupuncture extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈækjupʌŋktʃər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcupuncture(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAcupuncture("en-US"),
                             ),
                           ],
                         ),

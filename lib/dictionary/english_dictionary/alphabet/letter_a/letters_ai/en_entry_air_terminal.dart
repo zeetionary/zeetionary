@@ -65,12 +65,7 @@ class EnglishEntryairterminal extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "air terminal"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeə tɜːmɪnl/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "air terminal"), // Find /ˈeə tɜːmɪnl/
                           ],
                         ),
                         Row(
@@ -79,9 +74,7 @@ class EnglishEntryairterminal extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈeə tɜːmɪnl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAirterminal(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAirterminal("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +84,7 @@ class EnglishEntryairterminal extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈer tɜːrmɪnl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAirterminal(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAirterminal("en-US"),
                             ),
                           ],
                         ),

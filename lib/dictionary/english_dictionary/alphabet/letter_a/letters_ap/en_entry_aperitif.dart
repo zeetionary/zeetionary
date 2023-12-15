@@ -110,13 +110,8 @@ class EnglishEntryaperitif extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "aperitif"), // DOPSUM: CHANGE WORD ENTRY - Find /əˌperəˈtiːf/
+                            EntryTitle(word: "aperitif"), // Find /əˌperəˈtiːf/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +120,7 @@ class EnglishEntryaperitif extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˌperəˈtiːf/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAperitif(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAperitif("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +130,7 @@ class EnglishEntryaperitif extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌperəˈtiːf/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAperitif(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAperitif("en-US"),
                             ),
                           ],
                         ),

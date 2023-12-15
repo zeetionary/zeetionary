@@ -111,12 +111,8 @@ class EnglishEntryappropriately extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "appropriately"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈprəʊpriətli/
+                                word: "appropriately"), // Find /əˈprəʊpriətli/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +121,7 @@ class EnglishEntryappropriately extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈprəʊpriətli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAppropriately(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAppropriately("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +131,7 @@ class EnglishEntryappropriately extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈprəʊpriətli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAppropriately(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAppropriately("en-US"),
                             ),
                           ],
                         ),

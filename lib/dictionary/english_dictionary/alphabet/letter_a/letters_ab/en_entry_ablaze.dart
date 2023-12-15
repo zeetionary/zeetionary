@@ -86,19 +86,13 @@ class EnglishEntryablaze extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word: "ablaze"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈbleɪz/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAblaze(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAblaze("en-GB"),
                             ),
                           ],
                         ),
@@ -108,8 +102,7 @@ class EnglishEntryablaze extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈbleɪz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAblaze(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAblaze("en-US"),
                             ),
                           ],
                         ),

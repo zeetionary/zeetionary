@@ -64,22 +64,14 @@ class EnglishEntryagronomy extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "agronomy"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈɡrɒnəmi/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "agronomy"), // Find /əˈɡrɒnəmi/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈɡrɒnəmi/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAgronomy(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAgronomy("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryagronomy extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈɡrɑːnəmi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgronomy(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAgronomy("en-US"),
                             ),
                           ],
                         ),

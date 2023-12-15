@@ -117,9 +117,6 @@ class EnglishEntryattendance extends StatelessWidget {
                                 word:
                                     "attendance"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -128,9 +125,7 @@ class EnglishEntryattendance extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈtendəns/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAttendance(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAttendance("en-GB"),
                             ),
                           ],
                         ),
@@ -140,8 +135,7 @@ class EnglishEntryattendance extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈtendəns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAttendance(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAttendance("en-US"),
                             ),
                           ],
                         ),

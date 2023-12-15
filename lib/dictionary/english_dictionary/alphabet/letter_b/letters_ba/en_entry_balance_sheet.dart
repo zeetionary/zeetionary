@@ -108,9 +108,6 @@ class EnglishEntrybalancesheet extends StatelessWidget {
                                 word:
                                     "balance sheet"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -119,9 +116,7 @@ class EnglishEntrybalancesheet extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbæləns ʃiːt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBalancesheet(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakBalancesheet("en-GB"),
                             ),
                           ],
                         ),
@@ -131,8 +126,7 @@ class EnglishEntrybalancesheet extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbæləns ʃiːt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBalancesheet(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakBalancesheet("en-US"),
                             ),
                           ],
                         ),

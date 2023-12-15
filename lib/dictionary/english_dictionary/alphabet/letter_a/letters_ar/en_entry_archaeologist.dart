@@ -111,12 +111,8 @@ class EnglishEntryarchaeologist extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "archaeologist"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌɑːkiˈɒlədʒɪst/
+                                word: "archaeologist"), // Find /ˌɑːkiˈɒlədʒɪst/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +121,7 @@ class EnglishEntryarchaeologist extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɑːkiˈɒlədʒɪst/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArchaeologist(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakArchaeologist("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +131,7 @@ class EnglishEntryarchaeologist extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɑːrkiˈɑːlədʒɪst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArchaeologist(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArchaeologist("en-US"),
                             ),
                           ],
                         ),

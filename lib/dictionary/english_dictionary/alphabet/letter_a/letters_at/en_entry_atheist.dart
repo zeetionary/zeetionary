@@ -115,9 +115,6 @@ class EnglishEntryatheist extends StatelessWidget {
                             EntryTitle(
                                 word: "atheist"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -126,9 +123,7 @@ class EnglishEntryatheist extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈeɪθiɪst/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAtheist(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAtheist("en-GB"),
                             ),
                           ],
                         ),
@@ -138,8 +133,7 @@ class EnglishEntryatheist extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈeɪθiɪst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAtheist(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAtheist("en-US"),
                             ),
                           ],
                         ),

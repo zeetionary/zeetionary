@@ -108,9 +108,6 @@ class EnglishEntrybackup extends StatelessWidget {
                             EntryTitle(
                                 word: "backup"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -119,9 +116,7 @@ class EnglishEntrybackup extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbækʌp/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakBackup(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakBackup("en-GB"),
                             ),
                           ],
                         ),
@@ -131,8 +126,7 @@ class EnglishEntrybackup extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbækʌp/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBackup(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakBackup("en-US"),
                             ),
                           ],
                         ),

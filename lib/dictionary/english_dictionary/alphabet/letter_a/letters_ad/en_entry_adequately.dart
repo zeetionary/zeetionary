@@ -64,22 +64,14 @@ class EnglishEntryadequately extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "adequately"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈædɪkwətli/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "adequately"), // Find /ˈædɪkwətli/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈædɪkwətli/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdequately(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAdequately("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryadequately extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈædɪkwətli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdequately(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdequately("en-US"),
                             ),
                           ],
                         ),

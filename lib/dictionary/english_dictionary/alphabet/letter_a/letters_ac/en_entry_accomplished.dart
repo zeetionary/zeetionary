@@ -42,19 +42,13 @@ class EnglishEntryaccomplished extends StatelessWidget {
                             EntryTitle(
                                 word:
                                     "accomplished"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkʌmplɪʃt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAccomplished(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAccomplished("en-GB"),
                             ),
                           ],
                         ),
@@ -64,8 +58,7 @@ class EnglishEntryaccomplished extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkɑːmplɪʃt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAccomplished(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAccomplished("en-US"),
                             ),
                           ],
                         ),

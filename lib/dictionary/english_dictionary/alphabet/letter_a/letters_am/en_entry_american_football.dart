@@ -130,11 +130,8 @@ class EnglishEntryamericanfootball extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "American football"), // DOPSUM: CHANGE WORD ENTRY - Find /əˌmerɪkən ˈfʊtbɔːl/
+                                    "American football"), // Find /əˌmerɪkən ˈfʊtbɔːl/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -143,9 +140,7 @@ class EnglishEntryamericanfootball extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˌmerɪkən ˈfʊtbɔːl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmericanfootball(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAmericanfootball("en-GB"),
                             ),
                           ],
                         ),
@@ -155,8 +150,7 @@ class EnglishEntryamericanfootball extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌmerɪkən ˈfʊtbɔːl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmericanfootball(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAmericanfootball("en-US"),
                             ),
                           ],
                         ),

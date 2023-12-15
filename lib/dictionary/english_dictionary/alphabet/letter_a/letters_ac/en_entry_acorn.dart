@@ -63,22 +63,14 @@ class EnglishEntryacorn extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "acorn"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeɪkɔːn/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "acorn"), // Find /ˈeɪkɔːn/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈeɪkɔːn/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAcorn(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAcorn("en-GB"),
                             ),
                           ],
                         ),
@@ -88,8 +80,7 @@ class EnglishEntryacorn extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈeɪkɔːrn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcorn(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAcorn("en-US"),
                             ),
                           ],
                         ),

@@ -65,21 +65,14 @@ class EnglishEntryacrimonious extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "acrimonious"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌækrɪˈməʊniəs/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "acrimonious"), // Find /ˌækrɪˈməʊniəs/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌækrɪˈməʊniəs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcrimonious(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAcrimonious("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +82,7 @@ class EnglishEntryacrimonious extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌækrɪˈməʊniəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcrimonious(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAcrimonious("en-US"),
                             ),
                           ],
                         ),

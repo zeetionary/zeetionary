@@ -63,13 +63,7 @@ class EnglishEntryajar extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "ajar"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈdʒɑː(r)/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "ajar"), // Find /əˈdʒɑː(r)/
                           ],
                         ),
                         Row(
@@ -78,9 +72,7 @@ class EnglishEntryajar extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈdʒɑː(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAjar(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAjar("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +82,7 @@ class EnglishEntryajar extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈdʒɑːr/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAjar(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAjar("en-US"),
                             ),
                           ],
                         ),

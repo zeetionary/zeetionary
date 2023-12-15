@@ -65,21 +65,14 @@ class EnglishEntryagronomist extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "agronomist"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈɡrɒnəmɪst/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "agronomist"), // Find /əˈɡrɒnəmɪst/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈɡrɒnəmɪst/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAgronomist(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAgronomist("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +82,7 @@ class EnglishEntryagronomist extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈɡrɑːnəmɪst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgronomist(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAgronomist("en-US"),
                             ),
                           ],
                         ),

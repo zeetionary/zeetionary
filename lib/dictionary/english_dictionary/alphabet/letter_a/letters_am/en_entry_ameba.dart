@@ -64,13 +64,8 @@ class EnglishEntryameba extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "ameba"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈmiːbə/
+                            EntryTitle(word: "ameba"), // Find /əˈmiːbə/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -79,9 +74,7 @@ class EnglishEntryameba extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈmiːbə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAmeba(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAmeba("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +84,7 @@ class EnglishEntryameba extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈmiːbə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmeba(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAmeba("en-US"),
                             ),
                           ],
                         ),

@@ -116,9 +116,6 @@ class EnglishEntryleadastray extends StatelessWidget {
                                 word:
                                     "lead astray"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +124,7 @@ class EnglishEntryleadastray extends StatelessWidget {
                                 text:
                                     "IpaUK: /liːd əˈstreɪ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAeadastray(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAeadastray("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +134,7 @@ class EnglishEntryleadastray extends StatelessWidget {
                                 text:
                                     "IpaUS: /liːd əˈstreɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAeadastray(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAeadastray("en-US"),
                             ),
                           ],
                         ),

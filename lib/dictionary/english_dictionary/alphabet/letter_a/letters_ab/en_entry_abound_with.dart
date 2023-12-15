@@ -51,19 +51,13 @@ class EnglishEntryaboundwith extends StatelessWidget {
                             EntryTitle(
                                 word:
                                     "abound with (or abound in)"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈbaʊnd wɪð/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAboundin(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAboundin("en-GB"),
                             ),
                           ],
                         ),
@@ -73,8 +67,7 @@ class EnglishEntryaboundwith extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈbaʊnd wɪð/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAboundin(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAboundin("en-US"),
                             ),
                           ],
                         ),

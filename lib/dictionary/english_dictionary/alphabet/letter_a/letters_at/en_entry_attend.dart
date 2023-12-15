@@ -119,9 +119,6 @@ class EnglishEntryattend extends StatelessWidget {
                             EntryTitle(
                                 word: "attend"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -130,9 +127,7 @@ class EnglishEntryattend extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈtend/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAttend(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAttend("en-GB"),
                             ),
                           ],
                         ),
@@ -142,8 +137,7 @@ class EnglishEntryattend extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈtend/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAttend(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAttend("en-US"),
                             ),
                           ],
                         ),

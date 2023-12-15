@@ -106,13 +106,8 @@ class EnglishEntryantibody extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "antibody"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæntibɒdi/
+                            EntryTitle(word: "antibody"), // Find /ˈæntibɒdi/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -121,9 +116,7 @@ class EnglishEntryantibody extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæntibɒdi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAntibody(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAntibody("en-GB"),
                             ),
                           ],
                         ),
@@ -133,8 +126,7 @@ class EnglishEntryantibody extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæntibɑːdi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntibody(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAntibody("en-US"),
                             ),
                           ],
                         ),

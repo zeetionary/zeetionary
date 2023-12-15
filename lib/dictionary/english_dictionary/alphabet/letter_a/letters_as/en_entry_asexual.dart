@@ -112,13 +112,8 @@ class EnglishEntryasexual extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "asexual"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌeɪˈsekʃuəl/
+                            EntryTitle(word: "asexual"), // Find /ˌeɪˈsekʃuəl/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +122,7 @@ class EnglishEntryasexual extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌeɪˈsekʃuəl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAsexual(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAsexual("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +132,7 @@ class EnglishEntryasexual extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌeɪˈsekʃuəl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAsexual(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAsexual("en-US"),
                             ),
                           ],
                         ),

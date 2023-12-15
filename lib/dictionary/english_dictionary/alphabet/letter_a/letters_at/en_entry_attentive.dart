@@ -116,9 +116,6 @@ class EnglishEntryattentive extends StatelessWidget {
                             EntryTitle(
                                 word: "attentive"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +124,7 @@ class EnglishEntryattentive extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈtentɪv/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAttentive(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAttentive("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +134,7 @@ class EnglishEntryattentive extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈtentɪv"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAttentive(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAttentive("en-US"),
                             ),
                           ],
                         ),

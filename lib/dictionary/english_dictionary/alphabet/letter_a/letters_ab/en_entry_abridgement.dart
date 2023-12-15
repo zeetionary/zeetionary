@@ -51,19 +51,13 @@ class EnglishEntryabridgement extends StatelessWidget {
                             EntryTitle(
                                 word:
                                     "abridgement"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈbrɪdʒmənt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAbridgement(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAbridgement("en-GB"),
                             ),
                           ],
                         ),
@@ -73,8 +67,7 @@ class EnglishEntryabridgement extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈbrɪdʒmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbridgement(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbridgement("en-US"),
                             ),
                           ],
                         ),

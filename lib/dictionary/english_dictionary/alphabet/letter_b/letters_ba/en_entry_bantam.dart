@@ -107,9 +107,6 @@ class EnglishEntrybantam extends StatelessWidget {
                             EntryTitle(
                                 word: "bantam"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -118,9 +115,7 @@ class EnglishEntrybantam extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbæntəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakBantam(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakBantam("en-GB"),
                             ),
                           ],
                         ),
@@ -130,8 +125,7 @@ class EnglishEntrybantam extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbæntəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBantam(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakBantam("en-US"),
                             ),
                           ],
                         ),

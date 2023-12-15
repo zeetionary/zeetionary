@@ -111,12 +111,8 @@ class EnglishEntryappreciable extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "appreciable"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈpriːʃəbl/
+                                word: "appreciable"), // Find /əˈpriːʃəbl/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +121,7 @@ class EnglishEntryappreciable extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈpriːʃəbl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAppreciable(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAppreciable("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +131,7 @@ class EnglishEntryappreciable extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈpriːʃəbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAppreciable(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAppreciable("en-US"),
                             ),
                           ],
                         ),

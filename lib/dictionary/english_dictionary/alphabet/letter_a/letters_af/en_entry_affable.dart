@@ -64,22 +64,14 @@ class EnglishEntryaffable extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "affable"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæfəbl/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "affable"), // Find /ˈæfəbl/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈæfəbl/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAffable(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAffable("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryaffable extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæfəbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAffable(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAffable("en-US"),
                             ),
                           ],
                         ),

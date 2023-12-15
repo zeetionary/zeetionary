@@ -116,9 +116,6 @@ class EnglishEntryautomobile extends StatelessWidget {
                                 word:
                                     "automobile"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +124,7 @@ class EnglishEntryautomobile extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɔːtəməbiːl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAutomobile(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAutomobile("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +134,7 @@ class EnglishEntryautomobile extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɔːtəməbiːl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAutomobile(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAutomobile("en-US"),
                             ),
                           ],
                         ),

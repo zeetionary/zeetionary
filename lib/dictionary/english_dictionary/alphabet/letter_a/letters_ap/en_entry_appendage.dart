@@ -111,13 +111,8 @@ class EnglishEntryappendage extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "appendage"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈpendɪdʒ/
+                            EntryTitle(word: "appendage"), // Find /əˈpendɪdʒ/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -126,9 +121,7 @@ class EnglishEntryappendage extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈpendɪdʒ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAppendage(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAppendage("en-GB"),
                             ),
                           ],
                         ),
@@ -138,8 +131,7 @@ class EnglishEntryappendage extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈpendɪdʒ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAppendage(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAppendage("en-US"),
                             ),
                           ],
                         ),

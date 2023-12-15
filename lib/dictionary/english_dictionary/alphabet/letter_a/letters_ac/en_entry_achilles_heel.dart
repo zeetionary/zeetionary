@@ -66,20 +66,14 @@ class EnglishEntryachillesheel extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "Achilles' heel"), // DOPSUM: CHANGE WORD ENTRY - Find /əˌkɪliːz ˈhiːl/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                    "Achilles' heel"), // Find /əˌkɪliːz ˈhiːl/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˌkɪliːz ˈhiːl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAchillesheel(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAchillesheel("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +83,7 @@ class EnglishEntryachillesheel extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌkɪliːz ˈhiːl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAchillesheel(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAchillesheel("en-US"),
                             ),
                           ],
                         ),

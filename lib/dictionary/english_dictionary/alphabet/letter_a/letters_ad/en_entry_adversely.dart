@@ -66,11 +66,7 @@ class EnglishEntryadversely extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "adversely"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈædvɜːsli/,  /ədˈvɜːsli/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                    "adversely"), // Find /ˈædvɜːsli/,  /ədˈvɜːsli/
                           ],
                         ),
                         Row(
@@ -78,9 +74,7 @@ class EnglishEntryadversely extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ˈædvɜːsli/,  /ədˈvɜːsli/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdversely(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAdversely("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +84,7 @@ class EnglishEntryadversely extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈædvɜːrsli/,  /ədˈvɜːrsli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdversely(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdversely("en-US"),
                             ),
                           ],
                         ),

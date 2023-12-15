@@ -50,19 +50,13 @@ class EnglishEntryabseil extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word: "abseil"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈæbseɪl/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAbseil(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAbseil("en-GB"),
                             ),
                           ],
                         ),
@@ -72,8 +66,7 @@ class EnglishEntryabseil extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæbseɪl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbseil(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbseil("en-US"),
                             ),
                           ],
                         ),

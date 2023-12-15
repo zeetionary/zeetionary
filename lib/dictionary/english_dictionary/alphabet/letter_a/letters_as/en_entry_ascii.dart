@@ -112,13 +112,8 @@ class EnglishEntryASCII extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "ASCII"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæski/
+                            EntryTitle(word: "ASCII"), // Find /ˈæski/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +122,7 @@ class EnglishEntryASCII extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæski/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAscii(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAscii("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +132,7 @@ class EnglishEntryASCII extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæski/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAscii(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAscii("en-US"),
                             ),
                           ],
                         ),

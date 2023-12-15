@@ -64,22 +64,14 @@ class EnglishEntryaffluent extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "affluent"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæfluənt/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "affluent"), // Find /ˈæfluənt/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈæfluənt/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAffluent(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAffluent("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryaffluent extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæfluənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAffluent(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAffluent("en-US"),
                             ),
                           ],
                         ),

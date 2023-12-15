@@ -66,20 +66,14 @@ class EnglishEntryadministrative extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "administrative"), // DOPSUM: CHANGE WORD ENTRY - Find /ədˈmɪnɪstrətɪv/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                    "administrative"), // Find /ədˈmɪnɪstrətɪv/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ədˈmɪnɪstrətɪv/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdministrative(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAdministrative("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +83,7 @@ class EnglishEntryadministrative extends StatelessWidget {
                                 text:
                                     "IpaUS: /ədˈmɪnɪstreɪtɪv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdministrative(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdministrative("en-US"),
                             ),
                           ],
                         ),

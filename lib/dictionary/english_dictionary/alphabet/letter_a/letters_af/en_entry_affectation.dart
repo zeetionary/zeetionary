@@ -66,21 +66,14 @@ class EnglishEntryaffectation extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "affectation"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌæfekˈteɪʃn/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "affectation"), // Find /ˌæfekˈteɪʃn/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌæfekˈteɪʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAffectation(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAffectation("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +83,7 @@ class EnglishEntryaffectation extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæfekˈteɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAffectation(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAffectation("en-US"),
                             ),
                           ],
                         ),

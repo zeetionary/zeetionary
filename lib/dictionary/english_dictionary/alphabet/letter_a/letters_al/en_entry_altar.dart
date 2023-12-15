@@ -64,13 +64,7 @@ class EnglishEntryaltar extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "altar"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈɔːltə(r)/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "altar"), // Find /ˈɔːltə(r)/
                           ],
                         ),
                         Row(
@@ -79,9 +73,7 @@ class EnglishEntryaltar extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɔːltə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAltar(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAltar("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +83,7 @@ class EnglishEntryaltar extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɔːltər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAltar(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAltar("en-US"),
                             ),
                           ],
                         ),

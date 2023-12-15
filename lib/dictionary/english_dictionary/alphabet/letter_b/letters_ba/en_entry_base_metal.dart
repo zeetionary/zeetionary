@@ -168,7 +168,7 @@ class EnglishEntrybasemetal extends StatelessWidget {
                                       "Iron, copper, and zinc are among the most common base metals in the world."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئاسن و مس و زینک لەناو بەربڵاوترین کانزا نزمەکانی جیھانن."),
+                                      "ئاسن و مس و زینک لەناو بەربڵاوترین کانزا نرخ نزمەکانی جیھانن."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBasemetals1("en-GB"),

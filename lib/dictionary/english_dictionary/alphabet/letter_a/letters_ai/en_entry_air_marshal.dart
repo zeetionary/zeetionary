@@ -65,22 +65,14 @@ class EnglishEntryairmarshal extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "air marshal"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeə mɑːʃl/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "air marshal"), // Find /ˈeə mɑːʃl/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈeə mɑːʃl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAirmarshal(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAirmarshal("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +82,7 @@ class EnglishEntryairmarshal extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈer mɑːrʃl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAirmarshal(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAirmarshal("en-US"),
                             ),
                           ],
                         ),

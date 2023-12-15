@@ -112,13 +112,8 @@ class EnglishEntryarrogantly extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "arrogantly"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈærəɡəntli/
+                            EntryTitle(word: "arrogantly"), // Find /ˈærəɡəntli/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +122,7 @@ class EnglishEntryarrogantly extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈærəɡəntli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArrogantly(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakArrogantly("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +132,7 @@ class EnglishEntryarrogantly extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈærəɡəntli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArrogantly(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArrogantly("en-US"),
                             ),
                           ],
                         ),

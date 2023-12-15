@@ -117,9 +117,6 @@ class EnglishEntryauthentic extends StatelessWidget {
                             EntryTitle(
                                 word: "authentic"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -128,9 +125,7 @@ class EnglishEntryauthentic extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɔːˈθentɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAuthentic(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAuthentic("en-GB"),
                             ),
                           ],
                         ),
@@ -140,8 +135,7 @@ class EnglishEntryauthentic extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɔːˈθentɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAuthentic(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAuthentic("en-US"),
                             ),
                           ],
                         ),

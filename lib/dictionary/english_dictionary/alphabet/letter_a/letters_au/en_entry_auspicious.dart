@@ -116,9 +116,6 @@ class EnglishEntryauspicious extends StatelessWidget {
                                 word:
                                     "auspicious"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +124,7 @@ class EnglishEntryauspicious extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɔːˈspɪʃəs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAuspicious(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAuspicious("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +134,7 @@ class EnglishEntryauspicious extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɔːˈspɪʃəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAuspicious(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAuspicious("en-US"),
                             ),
                           ],
                         ),

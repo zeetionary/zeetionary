@@ -75,13 +75,7 @@ class EnglishEntryalmighty extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "almighty"), // DOPSUM: CHANGE WORD ENTRY - Find /ɔːlˈmaɪti/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "almighty"), // Find /ɔːlˈmaɪti/
                           ],
                         ),
                         Row(
@@ -90,9 +84,7 @@ class EnglishEntryalmighty extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɔːlˈmaɪti/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAlmighty(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAlmighty("en-GB"),
                             ),
                           ],
                         ),
@@ -102,8 +94,7 @@ class EnglishEntryalmighty extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɔːlˈmaɪti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlmighty(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlmighty("en-US"),
                             ),
                           ],
                         ),

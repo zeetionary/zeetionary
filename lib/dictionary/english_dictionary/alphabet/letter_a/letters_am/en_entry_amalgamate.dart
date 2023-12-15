@@ -67,12 +67,7 @@ class EnglishEntryamalgamate extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "amalgamate"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈmælɡəmeɪt/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "amalgamate"), // Find /əˈmælɡəmeɪt/
                           ],
                         ),
                         Row(
@@ -81,9 +76,7 @@ class EnglishEntryamalgamate extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈmælɡəmeɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmalgamate(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAmalgamate("en-GB"),
                             ),
                           ],
                         ),
@@ -93,8 +86,7 @@ class EnglishEntryamalgamate extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈmælɡəmeɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmalgamate(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAmalgamate("en-US"),
                             ),
                           ],
                         ),

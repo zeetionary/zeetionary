@@ -108,9 +108,6 @@ class EnglishEntrybalustrade extends StatelessWidget {
                                 word:
                                     "balustrade"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -119,9 +116,7 @@ class EnglishEntrybalustrade extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌbæləˈstreɪd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBalustrade(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakBalustrade("en-GB"),
                             ),
                           ],
                         ),
@@ -131,8 +126,7 @@ class EnglishEntrybalustrade extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbæləstreɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBalustrade(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakBalustrade("en-US"),
                             ),
                           ],
                         ),

@@ -115,9 +115,6 @@ class EnglishEntryaudibly extends StatelessWidget {
                             EntryTitle(
                                 word: "audibly"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -126,9 +123,7 @@ class EnglishEntryaudibly extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɔːdəbli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAudibly(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAudibly("en-GB"),
                             ),
                           ],
                         ),
@@ -138,8 +133,7 @@ class EnglishEntryaudibly extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɔːdəbli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAudibly(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAudibly("en-US"),
                             ),
                           ],
                         ),

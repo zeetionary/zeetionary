@@ -117,9 +117,6 @@ class EnglishEntryaustere extends StatelessWidget {
                             EntryTitle(
                                 word: "austere"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -128,9 +125,7 @@ class EnglishEntryaustere extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɒˈstɪə(r)/,  /ɔːˈstɪə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAustere(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAustere("en-GB"),
                             ),
                           ],
                         ),
@@ -140,8 +135,7 @@ class EnglishEntryaustere extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɔːˈstɪr/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAustere(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAustere("en-US"),
                             ),
                           ],
                         ),

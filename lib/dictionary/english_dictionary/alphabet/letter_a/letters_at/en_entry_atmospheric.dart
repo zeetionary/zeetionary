@@ -117,9 +117,6 @@ class EnglishEntryatmospheric extends StatelessWidget {
                                 word:
                                     "atmospheric"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -128,9 +125,7 @@ class EnglishEntryatmospheric extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌætməsˈferɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAtmospheric(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAtmospheric("en-GB"),
                             ),
                           ],
                         ),
@@ -140,8 +135,7 @@ class EnglishEntryatmospheric extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌætməsˈfɪrɪk/,  /ˌætməsˈferɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAtmospheric(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAtmospheric("en-US"),
                             ),
                           ],
                         ),

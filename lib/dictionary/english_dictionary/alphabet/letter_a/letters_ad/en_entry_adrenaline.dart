@@ -64,22 +64,14 @@ class EnglishEntryadrenaline extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "adrenaline"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈdrenəlɪn/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "adrenaline"), // Find /əˈdrenəlɪn/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈdrenəlɪn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdrenaline(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAdrenaline("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryadrenaline extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈdrenəlɪn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdrenaline(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdrenaline("en-US"),
                             ),
                           ],
                         ),

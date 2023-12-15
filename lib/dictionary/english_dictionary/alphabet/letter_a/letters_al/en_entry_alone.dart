@@ -100,13 +100,7 @@ class EnglishEntryalone extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "alone"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈləʊn/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "alone"), // Find /əˈləʊn/
                           ],
                         ),
                         Row(
@@ -115,9 +109,7 @@ class EnglishEntryalone extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈləʊn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAlone(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAlone("en-GB"),
                             ),
                           ],
                         ),
@@ -127,8 +119,7 @@ class EnglishEntryalone extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈləʊn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlone(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlone("en-US"),
                             ),
                           ],
                         ),

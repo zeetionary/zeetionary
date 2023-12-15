@@ -105,13 +105,8 @@ class EnglishEntryanorexic extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "anorexic"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌænəˈreksɪk/
+                            EntryTitle(word: "anorexic"), // Find /ˌænəˈreksɪk/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -120,9 +115,7 @@ class EnglishEntryanorexic extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌænəˈreksɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAnorexic(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAnorexic("en-GB"),
                             ),
                           ],
                         ),
@@ -132,8 +125,7 @@ class EnglishEntryanorexic extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌænəˈreksɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnorexic(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAnorexic("en-US"),
                             ),
                           ],
                         ),

@@ -128,13 +128,8 @@ class EnglishEntryamnesia extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "amnesia"), // DOPSUM: CHANGE WORD ENTRY - Find /æmˈniːziə/
+                            EntryTitle(word: "amnesia"), // Find /æmˈniːziə/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -143,9 +138,7 @@ class EnglishEntryamnesia extends StatelessWidget {
                                 text:
                                     "IpaUK: /æmˈniːziə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAmnesia(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAmnesia("en-GB"),
                             ),
                           ],
                         ),
@@ -155,8 +148,7 @@ class EnglishEntryamnesia extends StatelessWidget {
                                 text:
                                     "IpaUS: /æmˈniːʒə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmnesia(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAmnesia("en-US"),
                             ),
                           ],
                         ),

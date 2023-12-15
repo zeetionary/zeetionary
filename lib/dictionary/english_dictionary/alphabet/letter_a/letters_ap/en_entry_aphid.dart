@@ -110,13 +110,8 @@ class EnglishEntryaphid extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "aphid"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeɪfɪd/
+                            EntryTitle(word: "aphid"), // Find /ˈeɪfɪd/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +120,7 @@ class EnglishEntryaphid extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈeɪfɪd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAphid(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAphid("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +130,7 @@ class EnglishEntryaphid extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈeɪfɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAphid(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAphid("en-US"),
                             ),
                           ],
                         ),

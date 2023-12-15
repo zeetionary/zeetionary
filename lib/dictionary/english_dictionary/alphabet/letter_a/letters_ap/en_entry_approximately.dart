@@ -112,12 +112,8 @@ class EnglishEntryapproximately extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "approximately"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈprɒksɪmətli/
+                                word: "approximately"), // Find /əˈprɒksɪmətli/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -126,9 +122,7 @@ class EnglishEntryapproximately extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈprɒksɪmətli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApproximately(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakApproximately("en-GB"),
                             ),
                           ],
                         ),
@@ -138,8 +132,7 @@ class EnglishEntryapproximately extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈprɑːksɪmətli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApproximately(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakApproximately("en-US"),
                             ),
                           ],
                         ),

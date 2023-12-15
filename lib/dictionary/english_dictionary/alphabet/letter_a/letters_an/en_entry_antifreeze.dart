@@ -106,13 +106,8 @@ class EnglishEntryantifreeze extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "antifreeze"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæntifriːz/
+                            EntryTitle(word: "antifreeze"), // Find /ˈæntifriːz/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -121,9 +116,7 @@ class EnglishEntryantifreeze extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæntifriːz/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntifreeze(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAntifreeze("en-GB"),
                             ),
                           ],
                         ),
@@ -133,8 +126,7 @@ class EnglishEntryantifreeze extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæntifriːz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntifreeze(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAntifreeze("en-US"),
                             ),
                           ],
                         ),

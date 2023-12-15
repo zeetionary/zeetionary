@@ -106,13 +106,8 @@ class EnglishEntryanimation extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "animation"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌænɪˈmeɪʃn/
+                            EntryTitle(word: "animation"), // Find /ˌænɪˈmeɪʃn/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -121,9 +116,7 @@ class EnglishEntryanimation extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌænɪˈmeɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnimation(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAnimation("en-GB"),
                             ),
                           ],
                         ),
@@ -133,8 +126,7 @@ class EnglishEntryanimation extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌænɪˈmeɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnimation(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAnimation("en-US"),
                             ),
                           ],
                         ),

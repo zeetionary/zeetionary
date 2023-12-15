@@ -113,12 +113,8 @@ class EnglishEntryassassination extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "assassination"), // DOPSUM: CHANGE WORD ENTRY - Find /əˌsæsɪˈneɪʃn/
+                                word: "assassination"), // Find /əˌsæsɪˈneɪʃn/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +123,7 @@ class EnglishEntryassassination extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˌsæsɪˈneɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAssassination(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAssassination("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +133,7 @@ class EnglishEntryassassination extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌsæsɪˈneɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAssassination(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAssassination("en-US"),
                             ),
                           ],
                         ),

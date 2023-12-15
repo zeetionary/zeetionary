@@ -60,19 +60,13 @@ class EnglishEntryaccordingto extends StatelessWidget {
                             EntryTitle(
                                 word:
                                     "according to"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkɔːdɪŋ tə/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAccordingto(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAccordingto("en-GB"),
                             ),
                           ],
                         ),
@@ -82,8 +76,7 @@ class EnglishEntryaccordingto extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkɔːrdɪŋ tə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAccordingto(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAccordingto("en-US"),
                             ),
                           ],
                         ),

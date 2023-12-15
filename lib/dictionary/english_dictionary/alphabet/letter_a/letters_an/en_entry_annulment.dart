@@ -105,13 +105,8 @@ class EnglishEntryannulment extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "annulment"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈnʌlmənt/
+                            EntryTitle(word: "annulment"), // Find /əˈnʌlmənt/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -120,9 +115,7 @@ class EnglishEntryannulment extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈnʌlmənt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnnulment(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAnnulment("en-GB"),
                             ),
                           ],
                         ),
@@ -132,8 +125,7 @@ class EnglishEntryannulment extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈnʌlmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnnulment(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAnnulment("en-US"),
                             ),
                           ],
                         ),

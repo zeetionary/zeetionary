@@ -59,19 +59,13 @@ class EnglishEntryabusive extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word: "abusive"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈbjuːsɪv/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAbusive(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAbusive("en-GB"),
                             ),
                           ],
                         ),
@@ -81,8 +75,7 @@ class EnglishEntryabusive extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈbjuːsɪv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbusive(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbusive("en-US"),
                             ),
                           ],
                         ),

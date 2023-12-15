@@ -42,19 +42,13 @@ class EnglishEntryaboveyourself extends StatelessWidget {
                             EntryTitle(
                                 word:
                                     "above yourself"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈbʌv jɔːˈsɛlf/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAboveyourself(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAboveyourself("en-GB"),
                             ),
                           ],
                         ),
@@ -64,8 +58,7 @@ class EnglishEntryaboveyourself extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈbʌv jɔːrˈsɛlf/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAboveyourself(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAboveyourself("en-US"),
                             ),
                           ],
                         ),

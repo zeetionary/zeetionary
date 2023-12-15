@@ -110,9 +110,6 @@ class EnglishEntryaxis extends StatelessWidget {
                             EntryTitle(
                                 word: "axis"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -121,9 +118,7 @@ class EnglishEntryaxis extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæksɪs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAxis(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAxis("en-GB"),
                             ),
                           ],
                         ),
@@ -133,8 +128,7 @@ class EnglishEntryaxis extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæksɪs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAxis(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAxis("en-US"),
                             ),
                           ],
                         ),

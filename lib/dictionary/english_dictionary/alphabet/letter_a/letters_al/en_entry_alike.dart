@@ -82,13 +82,7 @@ class EnglishEntryalike extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "alike"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈlaɪk/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "alike"), // Find /əˈlaɪk/
                           ],
                         ),
                         Row(
@@ -97,9 +91,7 @@ class EnglishEntryalike extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈlaɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAlike(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAlike("en-GB"),
                             ),
                           ],
                         ),
@@ -109,8 +101,7 @@ class EnglishEntryalike extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈlaɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlike(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlike("en-US"),
                             ),
                           ],
                         ),

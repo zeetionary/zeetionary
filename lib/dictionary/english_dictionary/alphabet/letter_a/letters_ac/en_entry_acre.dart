@@ -64,22 +64,14 @@ class EnglishEntryacre extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "acre"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeɪkə(r)/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "acre"), // Find /ˈeɪkə(r)/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈeɪkə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAcre(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAcre("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryacre extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈeɪkər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcre(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAcre("en-US"),
                             ),
                           ],
                         ),

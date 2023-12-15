@@ -65,21 +65,14 @@ class EnglishEntryacquiescence extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "acquiescence"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌækwiˈesns/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "acquiescence"), // Find /ˌækwiˈesns/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌækwiˈesns/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcquiescence(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAcquiescence("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +82,7 @@ class EnglishEntryacquiescence extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌækwiˈesns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcquiescence(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAcquiescence("en-US"),
                             ),
                           ],
                         ),

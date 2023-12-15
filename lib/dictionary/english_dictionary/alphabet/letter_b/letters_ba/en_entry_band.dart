@@ -130,9 +130,6 @@ class EnglishEntryband extends StatelessWidget {
                             EntryTitle(
                                 word: "band"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -141,9 +138,7 @@ class EnglishEntryband extends StatelessWidget {
                                 text:
                                     "IpaUK: /bænd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakBand(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakBand("en-GB"),
                             ),
                           ],
                         ),
@@ -153,8 +148,7 @@ class EnglishEntryband extends StatelessWidget {
                                 text:
                                     "IpaUS: /bænd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBand(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakBand("en-US"),
                             ),
                           ],
                         ),

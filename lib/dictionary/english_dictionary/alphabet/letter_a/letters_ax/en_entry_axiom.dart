@@ -107,9 +107,6 @@ class EnglishEntryaxiom extends StatelessWidget {
                             EntryTitle(
                                 word: "axiom"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -118,9 +115,7 @@ class EnglishEntryaxiom extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæksiəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAxiom(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAxiom("en-GB"),
                             ),
                           ],
                         ),
@@ -130,8 +125,7 @@ class EnglishEntryaxiom extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæksiəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAxiom(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAxiom("en-US"),
                             ),
                           ],
                         ),

@@ -64,13 +64,7 @@ class EnglishEntryalludeto extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "allude to"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈluːd tə/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "allude to"), // Find /əˈluːd tə/
                           ],
                         ),
                         Row(
@@ -79,9 +73,7 @@ class EnglishEntryalludeto extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈluːd tə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAlludeto(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAlludeto("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +83,7 @@ class EnglishEntryalludeto extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈluːd tə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlludeto(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlludeto("en-US"),
                             ),
                           ],
                         ),

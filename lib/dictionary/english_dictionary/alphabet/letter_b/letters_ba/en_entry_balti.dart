@@ -107,9 +107,6 @@ class EnglishEntrybalti extends StatelessWidget {
                             EntryTitle(
                                 word: "balti"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -118,9 +115,7 @@ class EnglishEntrybalti extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbɔːlti/,  /ˈbɒlti/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakBalti(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakBalti("en-GB"),
                             ),
                           ],
                         ),
@@ -130,8 +125,7 @@ class EnglishEntrybalti extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbɑːlti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBalti(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakBalti("en-US"),
                             ),
                           ],
                         ),

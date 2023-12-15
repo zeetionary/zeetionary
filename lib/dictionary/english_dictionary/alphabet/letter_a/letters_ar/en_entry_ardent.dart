@@ -110,13 +110,8 @@ class EnglishEntryardent extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "ardent"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːdnt/
+                            EntryTitle(word: "ardent"), // Find /ˈɑːdnt/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +120,7 @@ class EnglishEntryardent extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːdnt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakArdent(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakArdent("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +130,7 @@ class EnglishEntryardent extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrdnt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArdent(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArdent("en-US"),
                             ),
                           ],
                         ),

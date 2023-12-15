@@ -112,13 +112,8 @@ class EnglishEntryarsenic extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "arsenic"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːsnɪk/
+                            EntryTitle(word: "arsenic"), // Find /ˈɑːsnɪk/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +122,7 @@ class EnglishEntryarsenic extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːsnɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakArsenic(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakArsenic("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +132,7 @@ class EnglishEntryarsenic extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrsnɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArsenic(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArsenic("en-US"),
                             ),
                           ],
                         ),

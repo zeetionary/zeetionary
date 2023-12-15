@@ -64,22 +64,14 @@ class EnglishEntryagonizing extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "agonizing"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæɡənaɪzɪŋ/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "agonizing"), // Find /ˈæɡənaɪzɪŋ/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈæɡənaɪzɪŋ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAgonizing(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAgonizing("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryagonizing extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæɡənaɪzɪŋ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgonizing(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAgonizing("en-US"),
                             ),
                           ],
                         ),

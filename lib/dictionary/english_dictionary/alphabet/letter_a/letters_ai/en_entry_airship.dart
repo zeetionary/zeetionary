@@ -64,13 +64,7 @@ class EnglishEntryairship extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "airship"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeəʃɪp/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "airship"), // Find /ˈeəʃɪp/
                           ],
                         ),
                         Row(
@@ -79,9 +73,7 @@ class EnglishEntryairship extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈeəʃɪp/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAirship(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAirship("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +83,7 @@ class EnglishEntryairship extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈerʃɪp/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAirship(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAirship("en-US"),
                             ),
                           ],
                         ),

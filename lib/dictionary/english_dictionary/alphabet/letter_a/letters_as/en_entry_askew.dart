@@ -112,13 +112,8 @@ class EnglishEntryaskew extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "askew"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈskjuː/
+                            EntryTitle(word: "askew"), // Find /əˈskjuː/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +122,7 @@ class EnglishEntryaskew extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈskjuː/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAskew(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAskew("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +132,7 @@ class EnglishEntryaskew extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈskjuː/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAskew(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAskew("en-US"),
                             ),
                           ],
                         ),

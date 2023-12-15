@@ -64,13 +64,7 @@ class EnglishEntryalbeit extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "albeit"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌɔːlˈbiːɪt/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "albeit"), // Find /ˌɔːlˈbiːɪt/
                           ],
                         ),
                         Row(
@@ -79,9 +73,7 @@ class EnglishEntryalbeit extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɔːlˈbiːɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAlbeit(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAlbeit("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +83,7 @@ class EnglishEntryalbeit extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɔːlˈbiːɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlbeit(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlbeit("en-US"),
                             ),
                           ],
                         ),

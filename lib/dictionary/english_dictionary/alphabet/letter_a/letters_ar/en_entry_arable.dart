@@ -110,13 +110,8 @@ class EnglishEntryarable extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "arable"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈærəbl/
+                            EntryTitle(word: "arable"), // Find /ˈærəbl/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +120,7 @@ class EnglishEntryarable extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈærəbl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakArable(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakArable("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +130,7 @@ class EnglishEntryarable extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈærəbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArable(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArable("en-US"),
                             ),
                           ],
                         ),

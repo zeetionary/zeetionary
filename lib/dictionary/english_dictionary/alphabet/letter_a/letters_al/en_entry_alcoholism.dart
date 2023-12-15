@@ -65,12 +65,7 @@ class EnglishEntryalcoholism extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "alcoholism"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈælkəhɒlɪzəm/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "alcoholism"), // Find /ˈælkəhɒlɪzəm/
                           ],
                         ),
                         Row(
@@ -79,9 +74,7 @@ class EnglishEntryalcoholism extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈælkəhɒlɪzəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlcoholism(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAlcoholism("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +84,7 @@ class EnglishEntryalcoholism extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈælkəhɑːlɪzəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlcoholism(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlcoholism("en-US"),
                             ),
                           ],
                         ),

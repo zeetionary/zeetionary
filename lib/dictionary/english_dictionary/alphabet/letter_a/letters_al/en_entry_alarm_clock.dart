@@ -65,12 +65,7 @@ class EnglishEntryalarmclock extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "alarm clock"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈlɑːm klɒk/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "alarm clock"), // Find /əˈlɑːm klɒk/
                           ],
                         ),
                         Row(
@@ -79,9 +74,7 @@ class EnglishEntryalarmclock extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈlɑːm klɒk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlarmclock(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAlarmclock("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +84,7 @@ class EnglishEntryalarmclock extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈlɑːrm klɑːk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlarmclock(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlarmclock("en-US"),
                             ),
                           ],
                         ),

@@ -64,13 +64,7 @@ class EnglishEntryalleluia extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "alleluia"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌælɪˈluːjə/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "alleluia"), // Find /ˌælɪˈluːjə/
                           ],
                         ),
                         Row(
@@ -79,9 +73,7 @@ class EnglishEntryalleluia extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌælɪˈluːjə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAlleluia(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAlleluia("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +83,7 @@ class EnglishEntryalleluia extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌælɪˈluːjə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlleluia(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlleluia("en-US"),
                             ),
                           ],
                         ),

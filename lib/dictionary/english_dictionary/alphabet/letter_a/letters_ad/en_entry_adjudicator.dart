@@ -65,12 +65,7 @@ class EnglishEntryadjudicator extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "adjudicator"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈdʒuːdɪkeɪtə(r)/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "adjudicator"), // Find /əˈdʒuːdɪkeɪtə(r)/
                           ],
                         ),
                         Row(
@@ -78,9 +73,7 @@ class EnglishEntryadjudicator extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /əˈdʒuːdɪkeɪtə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdjudicator(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAdjudicator("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +83,7 @@ class EnglishEntryadjudicator extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈdʒuːdɪkeɪtər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdjudicator(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdjudicator("en-US"),
                             ),
                           ],
                         ),

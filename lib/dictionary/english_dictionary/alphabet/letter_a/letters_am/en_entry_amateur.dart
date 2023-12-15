@@ -77,11 +77,7 @@ class EnglishEntryamateur extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "amateur"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæmətə(r)/,  /ˈæmətʃə(r)/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                    "amateur"), // Find /ˈæmətə(r)/,  /ˈæmətʃə(r)/
                           ],
                         ),
                         Row(
@@ -90,9 +86,7 @@ class EnglishEntryamateur extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæmətə(r)/,  /ˈæmətʃə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAmateur(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAmateur("en-GB"),
                             ),
                           ],
                         ),
@@ -102,8 +96,7 @@ class EnglishEntryamateur extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæmətər/,  /ˈæmətʃər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmateur(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAmateur("en-US"),
                             ),
                           ],
                         ),

@@ -66,20 +66,14 @@ class EnglishEntryfarafield extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "far afield (or farther/further afield)"), // DOPSUM: CHANGE WORD ENTRY - Find /fɑː(r) əˈfiːld/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                    "far afield (or farther/further afield)"), // Find /fɑː(r) əˈfiːld/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /fɑː(r) əˈfiːld/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakFarafield(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakFarafield("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +83,7 @@ class EnglishEntryfarafield extends StatelessWidget {
                                 text:
                                     "IpaUS: /fɑːr əˈfiːld/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakFarafield(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakFarafield("en-US"),
                             ),
                           ],
                         ),

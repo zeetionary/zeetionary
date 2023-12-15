@@ -65,22 +65,14 @@ class EnglishEntryagreeably extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "agreeably"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈɡriːəbli/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "agreeably"), // Find /əˈɡriːəbli/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈɡriːəbli/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAgreeably(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAgreeably("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +82,7 @@ class EnglishEntryagreeably extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈɡriːəbli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgreeably(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAgreeably("en-US"),
                             ),
                           ],
                         ),

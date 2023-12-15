@@ -51,19 +51,13 @@ class EnglishEntryabhorrence extends StatelessWidget {
                             EntryTitle(
                                 word:
                                     "abhorrence"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əbˈhɒrəns/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAbhorrence(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAbhorrence("en-GB"),
                             ),
                           ],
                         ),
@@ -73,8 +67,7 @@ class EnglishEntryabhorrence extends StatelessWidget {
                                 text:
                                     "IpaUS: /əbˈhɔːrəns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbhorrence(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbhorrence("en-US"),
                             ),
                           ],
                         ),

@@ -63,13 +63,7 @@ class EnglishEntryaltitude extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "altitude"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæltɪtjuːd/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "altitude"), // Find /ˈæltɪtjuːd/
                           ],
                         ),
                         Row(
@@ -78,9 +72,7 @@ class EnglishEntryaltitude extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæltɪtjuːd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAltitude(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAltitude("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +82,7 @@ class EnglishEntryaltitude extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæltɪtuːd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAltitude(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAltitude("en-US"),
                             ),
                           ],
                         ),

@@ -91,22 +91,14 @@ class EnglishEntryagreement extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "agreement"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈɡriːmənt/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "agreement"), // Find /əˈɡriːmənt/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈɡriːmənt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAgreement(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAgreement("en-GB"),
                             ),
                           ],
                         ),
@@ -116,8 +108,7 @@ class EnglishEntryagreement extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈɡriːmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgreement(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAgreement("en-US"),
                             ),
                           ],
                         ),

@@ -65,22 +65,14 @@ class EnglishEntryaddictive extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "addictive"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈdɪktɪv/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "addictive"), // Find /əˈdɪktɪv/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈdɪktɪv/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAddictive(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAddictive("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +82,7 @@ class EnglishEntryaddictive extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈdɪktɪv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAddictive(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAddictive("en-US"),
                             ),
                           ],
                         ),

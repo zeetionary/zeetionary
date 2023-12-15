@@ -105,9 +105,6 @@ class EnglishEntrybtwo extends StatelessWidget {
                           children: [
                             EntryTitle(word: "b."), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -116,9 +113,7 @@ class EnglishEntrybtwo extends StatelessWidget {
                                 text:
                                     "IpaUK: /biː/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakBtwo(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakBtwo("en-GB"),
                             ),
                           ],
                         ),
@@ -128,8 +123,7 @@ class EnglishEntrybtwo extends StatelessWidget {
                                 text:
                                     "IpaUS: /biː"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBtwo(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakBtwo("en-US"),
                             ),
                           ],
                         ),

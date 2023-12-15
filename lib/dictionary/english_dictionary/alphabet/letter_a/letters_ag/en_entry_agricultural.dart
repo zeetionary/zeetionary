@@ -65,12 +65,7 @@ class EnglishEntryagricultural extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "agricultural"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌæɡrɪˈkʌltʃərəl/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "agricultural"), // Find /ˌæɡrɪˈkʌltʃərəl/
                           ],
                         ),
                         Row(
@@ -78,9 +73,7 @@ class EnglishEntryagricultural extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ˌæɡrɪˈkʌltʃərəl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAgricultural(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAgricultural("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +83,7 @@ class EnglishEntryagricultural extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæɡrɪˈkʌltʃərəl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgricultural(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAgricultural("en-US"),
                             ),
                           ],
                         ),

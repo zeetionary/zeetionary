@@ -50,19 +50,13 @@ class EnglishEntryabiding extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word: "abiding"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈbaɪdɪŋ/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAbiding(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAbiding("en-GB"),
                             ),
                           ],
                         ),
@@ -72,8 +66,7 @@ class EnglishEntryabiding extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈbaɪdɪŋ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbiding(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbiding("en-US"),
                             ),
                           ],
                         ),

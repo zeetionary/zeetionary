@@ -64,13 +64,7 @@ class EnglishEntryairless extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "airless"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeələs/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "airless"), // Find /ˈeələs/
                           ],
                         ),
                         Row(
@@ -79,9 +73,7 @@ class EnglishEntryairless extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈeələs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAirless(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAirless("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +83,7 @@ class EnglishEntryairless extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈerləs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAirless(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAirless("en-US"),
                             ),
                           ],
                         ),

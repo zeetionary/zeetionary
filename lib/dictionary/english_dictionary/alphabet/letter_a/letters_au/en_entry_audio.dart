@@ -115,9 +115,6 @@ class EnglishEntryaudio extends StatelessWidget {
                             EntryTitle(
                                 word: "audio"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -126,9 +123,7 @@ class EnglishEntryaudio extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɔːdiəʊ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAudio(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAudio("en-GB"),
                             ),
                           ],
                         ),
@@ -138,8 +133,7 @@ class EnglishEntryaudio extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɔːdiəʊ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAudio(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAudio("en-US"),
                             ),
                           ],
                         ),

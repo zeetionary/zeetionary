@@ -112,13 +112,8 @@ class EnglishEntryarchaic extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "archaic"), // DOPSUM: CHANGE WORD ENTRY - Find /ɑːˈkeɪɪk/
+                            EntryTitle(word: "archaic"), // Find /ɑːˈkeɪɪk/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +122,7 @@ class EnglishEntryarchaic extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɑːˈkeɪɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakArchaic(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakArchaic("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +132,7 @@ class EnglishEntryarchaic extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɑːrˈkeɪɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArchaic(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArchaic("en-US"),
                             ),
                           ],
                         ),

@@ -112,13 +112,8 @@ class EnglishEntryasparagus extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "asparagus"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈspærəɡəs/
+                            EntryTitle(word: "asparagus"), // Find /əˈspærəɡəs/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +122,7 @@ class EnglishEntryasparagus extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈspærəɡəs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAsparagus(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAsparagus("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +132,7 @@ class EnglishEntryasparagus extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈspærəɡəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAsparagus(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAsparagus("en-US"),
                             ),
                           ],
                         ),

@@ -109,9 +109,6 @@ class EnglishEntryballet extends StatelessWidget {
                             EntryTitle(
                                 word: "ballet"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -120,9 +117,7 @@ class EnglishEntryballet extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbæleɪ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakBallet(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakBallet("en-GB"),
                             ),
                           ],
                         ),
@@ -132,8 +127,7 @@ class EnglishEntryballet extends StatelessWidget {
                                 text:
                                     "IpaUS: /bæˈleɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBallet(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakBallet("en-US"),
                             ),
                           ],
                         ),

@@ -106,9 +106,6 @@ class EnglishEntryawhile extends StatelessWidget {
                             EntryTitle(
                                 word: "awhile"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -117,9 +114,7 @@ class EnglishEntryawhile extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈwaɪl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAwhile(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAwhile("en-GB"),
                             ),
                           ],
                         ),
@@ -129,8 +124,7 @@ class EnglishEntryawhile extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈwaɪl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAwhile(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAwhile("en-US"),
                             ),
                           ],
                         ),

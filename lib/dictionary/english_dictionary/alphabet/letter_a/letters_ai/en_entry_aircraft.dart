@@ -65,22 +65,14 @@ class EnglishEntryaircraft extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "aircraft"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeəkrɑːft/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "aircraft"), // Find /ˈeəkrɑːft/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈeəkrɑːft/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAircraft(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAircraft("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +82,7 @@ class EnglishEntryaircraft extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈerkræft/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAircraft(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAircraft("en-US"),
                             ),
                           ],
                         ),

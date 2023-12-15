@@ -106,9 +106,6 @@ class EnglishEntryavidly extends StatelessWidget {
                             EntryTitle(
                                 word: "avidly"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -117,9 +114,7 @@ class EnglishEntryavidly extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈævɪdli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAvidly(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAvidly("en-GB"),
                             ),
                           ],
                         ),
@@ -129,8 +124,7 @@ class EnglishEntryavidly extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈævɪdli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAvidly(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAvidly("en-US"),
                             ),
                           ],
                         ),

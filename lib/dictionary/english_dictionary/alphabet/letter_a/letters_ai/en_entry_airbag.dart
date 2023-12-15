@@ -64,22 +64,14 @@ class EnglishEntryairbag extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "airbag"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeəbæɡ/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "airbag"), // Find /ˈeəbæɡ/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈeəbæɡ/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAirbag(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAirbag("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryairbag extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈerbæɡ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAirbag(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAirbag("en-US"),
                             ),
                           ],
                         ),

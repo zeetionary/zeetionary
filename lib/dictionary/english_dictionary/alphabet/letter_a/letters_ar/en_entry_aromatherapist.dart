@@ -112,11 +112,8 @@ class EnglishEntryaromatherapist extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "aromatherapist"), // DOPSUM: CHANGE WORD ENTRY - Find /əˌrəʊməˈθerəpɪst/
+                                    "aromatherapist"), // Find /əˌrəʊməˈθerəpɪst/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +122,7 @@ class EnglishEntryaromatherapist extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˌrəʊməˈθerəpɪst/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAromatherapist(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAromatherapist("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +132,7 @@ class EnglishEntryaromatherapist extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌrəʊməˈθerəpɪst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAromatherapist(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAromatherapist("en-US"),
                             ),
                           ],
                         ),

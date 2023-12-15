@@ -106,9 +106,6 @@ class EnglishEntrybaffle extends StatelessWidget {
                             EntryTitle(
                                 word: "baffle"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -117,9 +114,7 @@ class EnglishEntrybaffle extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbæfl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakBaffle(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakBaffle("en-GB"),
                             ),
                           ],
                         ),
@@ -129,8 +124,7 @@ class EnglishEntrybaffle extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbæfl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBaffle(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakBaffle("en-US"),
                             ),
                           ],
                         ),

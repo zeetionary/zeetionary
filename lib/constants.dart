@@ -859,3 +859,76 @@ class CustomSizedBoxForTTS extends StatelessWidget {
     );
   }
 }
+
+class EmptyPageIcon extends StatefulWidget {
+  final String text;
+
+  // https://chat.openai.com/c/ab801473-3515-4870-bb46-1526257466b9
+
+  const EmptyPageIcon({super.key, required this.text});
+
+  @override
+  // ignore: library_private_types_in_public_api
+  _EmptyPageIconState createState() => _EmptyPageIconState();
+}
+
+class _EmptyPageIconState extends State<EmptyPageIcon>
+    with SingleTickerProviderStateMixin {
+  late AnimationController _controller;
+  late Animation<double> _animation;
+
+  @override
+  void initState() {
+    super.initState();
+
+    _controller = AnimationController(
+      vsync: this,
+      duration: const Duration(seconds: 2),
+    );
+
+    _animation = CurvedAnimation(
+      parent: _controller,
+      curve: Curves.easeInOut,
+    );
+
+    // Repeat the animation for a while
+    _controller.repeat(reverse: true);
+
+    // Stop the rotation after 5 seconds
+    Future.delayed(const Duration(seconds: 5), () {
+      _controller.stop();
+    });
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      alignment: Alignment.center,
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          AnimatedBuilder(
+            animation: _animation,
+            builder: (context, child) {
+              return Transform.rotate(
+                angle: _animation.value * 2 * 3.141,
+                child: const Icon(
+                  Icons.history,
+                  size: 66.0,
+                  // color: Colors.blue,
+                ),
+              );
+            },
+          ),
+          Text(widget.text),
+        ],
+      ),
+    );
+  }
+}

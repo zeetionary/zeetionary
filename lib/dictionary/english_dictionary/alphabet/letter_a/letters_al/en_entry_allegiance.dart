@@ -64,13 +64,7 @@ class EnglishEntryallegiance extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "allegiance"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈliːdʒəns/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "allegiance"), // Find /əˈliːdʒəns/
                           ],
                         ),
                         Row(
@@ -79,9 +73,7 @@ class EnglishEntryallegiance extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈliːdʒəns/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAllegiance(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAllegiance("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +83,7 @@ class EnglishEntryallegiance extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈliːdʒəns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAllegiance(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAllegiance("en-US"),
                             ),
                           ],
                         ),

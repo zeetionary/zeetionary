@@ -66,21 +66,14 @@ class EnglishEntryaffirmative extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "affirmative"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈfɜːmətɪv/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "affirmative"), // Find /əˈfɜːmətɪv/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈfɜːmətɪv/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAffirmative(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAffirmative("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +83,7 @@ class EnglishEntryaffirmative extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈfɜːrmətɪv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAffirmative(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAffirmative("en-US"),
                             ),
                           ],
                         ),

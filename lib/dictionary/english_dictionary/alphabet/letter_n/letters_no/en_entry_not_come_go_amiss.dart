@@ -131,11 +131,8 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "not come/go amiss"), // DOPSUM: CHANGE WORD ENTRY - Find /nɒt kʌm/ɡəʊ əˈmɪs/
+                                    "not come/go amiss"), // Find /nɒt kʌm/ɡəʊ əˈmɪs/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -144,9 +141,7 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
                                 text:
                                     "IpaUK: /nɒt kʌm/ɡəʊ əˈmɪs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakNotcomegoamiss(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakNotcomegoamiss("en-GB"),
                             ),
                           ],
                         ),
@@ -156,8 +151,7 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
                                 text:
                                     "IpaUS: /nɑːt kʌm/ɡəʊ əˈmɪs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakNotcomegoamiss(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakNotcomegoamiss("en-US"),
                             ),
                           ],
                         ),

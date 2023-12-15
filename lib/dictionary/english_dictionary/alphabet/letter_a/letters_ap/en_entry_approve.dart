@@ -112,13 +112,8 @@ class EnglishEntryapprove extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "approve"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈpruːv/
+                            EntryTitle(word: "approve"), // Find /əˈpruːv/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +122,7 @@ class EnglishEntryapprove extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈpruːv/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakApprove(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakApprove("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +132,7 @@ class EnglishEntryapprove extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈpruːv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApprove(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakApprove("en-US"),
                             ),
                           ],
                         ),

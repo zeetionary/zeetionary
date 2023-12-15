@@ -91,12 +91,7 @@ class EnglishEntryaltogether extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "altogether"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌɔːltəˈɡeðə(r)/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "altogether"), // Find /ˌɔːltəˈɡeðə(r)/
                           ],
                         ),
                         Row(
@@ -105,9 +100,7 @@ class EnglishEntryaltogether extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɔːltəˈɡeðə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAltogether(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAltogether("en-GB"),
                             ),
                           ],
                         ),
@@ -117,8 +110,7 @@ class EnglishEntryaltogether extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɔːltəˈɡeðər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAltogether(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAltogether("en-US"),
                             ),
                           ],
                         ),

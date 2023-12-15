@@ -66,11 +66,7 @@ class EnglishEntryalmanac extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "almanac"), // DOPSUM: CHANGE WORD ENTRY - Find  /ˈɔːlmənæk/,  /ˈælmənæk/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                    "almanac"), // Find  /ˈɔːlmənæk/,  /ˈælmənæk/
                           ],
                         ),
                         Row(
@@ -78,9 +74,7 @@ class EnglishEntryalmanac extends StatelessWidget {
                             const Text(
                                 "IpaUK:  /ˈɔːlmənæk/,  /ˈælmənæk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAlmanac(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAlmanac("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +84,7 @@ class EnglishEntryalmanac extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɔːlmənæk/,  /ˈælmənæk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlmanac(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlmanac("en-US"),
                             ),
                           ],
                         ),

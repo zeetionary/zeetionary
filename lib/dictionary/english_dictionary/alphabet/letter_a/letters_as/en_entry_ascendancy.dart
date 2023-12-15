@@ -114,13 +114,8 @@ class EnglishEntryascendancy extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "ascendancy"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈsendənsi/
+                            EntryTitle(word: "ascendancy"), // Find /əˈsendənsi/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -129,9 +124,7 @@ class EnglishEntryascendancy extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈsendənsi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAscendancy(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAscendancy("en-GB"),
                             ),
                           ],
                         ),
@@ -141,8 +134,7 @@ class EnglishEntryascendancy extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈsendənsi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAscendancy(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAscendancy("en-US"),
                             ),
                           ],
                         ),

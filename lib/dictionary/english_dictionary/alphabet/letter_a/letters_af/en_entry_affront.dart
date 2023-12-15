@@ -65,22 +65,14 @@ class EnglishEntryaffront extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "affront"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈfrʌnt/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "affront"), // Find /əˈfrʌnt/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈfrʌnt/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAffront(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAffront("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +82,7 @@ class EnglishEntryaffront extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈfrʌnt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAffront(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAffront("en-US"),
                             ),
                           ],
                         ),

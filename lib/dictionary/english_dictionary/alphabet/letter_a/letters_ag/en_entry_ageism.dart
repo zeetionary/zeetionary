@@ -64,22 +64,14 @@ class EnglishEntryageism extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "ageism"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeɪdʒɪzəm/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "ageism"), // Find /ˈeɪdʒɪzəm/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈeɪdʒɪzəm/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAgeism(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAgeism("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryageism extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈeɪdʒɪzəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgeism(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAgeism("en-US"),
                             ),
                           ],
                         ),

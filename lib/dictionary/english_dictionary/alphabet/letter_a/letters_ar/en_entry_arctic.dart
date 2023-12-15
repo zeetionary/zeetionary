@@ -112,13 +112,8 @@ class EnglishEntryarctic extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "Arctic"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːktɪk/
+                            EntryTitle(word: "Arctic"), // Find /ˈɑːktɪk/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +122,7 @@ class EnglishEntryarctic extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːktɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakArctic(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakArctic("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +132,7 @@ class EnglishEntryarctic extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrktɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArctic(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArctic("en-US"),
                             ),
                           ],
                         ),

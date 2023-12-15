@@ -65,13 +65,7 @@ class EnglishEntryallocate extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "allocate"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæləkeɪt/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "allocate"), // Find /ˈæləkeɪt/
                           ],
                         ),
                         Row(
@@ -80,9 +74,7 @@ class EnglishEntryallocate extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæləkeɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAllocate(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAllocate("en-GB"),
                             ),
                           ],
                         ),
@@ -92,8 +84,7 @@ class EnglishEntryallocate extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæləkeɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAllocate(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAllocate("en-US"),
                             ),
                           ],
                         ),

@@ -111,9 +111,6 @@ class EnglishEntryballot extends StatelessWidget {
                             EntryTitle(
                                 word: "ballot"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -122,9 +119,7 @@ class EnglishEntryballot extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbælət/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakBallot(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakBallot("en-GB"),
                             ),
                           ],
                         ),
@@ -134,8 +129,7 @@ class EnglishEntryballot extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbælət/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBallot(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakBallot("en-US"),
                             ),
                           ],
                         ),

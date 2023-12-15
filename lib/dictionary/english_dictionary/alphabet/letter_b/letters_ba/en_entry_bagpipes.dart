@@ -107,9 +107,6 @@ class EnglishEntrybagpipes extends StatelessWidget {
                             EntryTitle(
                                 word: "bagpipes"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -118,9 +115,7 @@ class EnglishEntrybagpipes extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbæɡpaɪps/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakBagpipes(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakBagpipes("en-GB"),
                             ),
                           ],
                         ),
@@ -130,8 +125,7 @@ class EnglishEntrybagpipes extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbæɡpaɪps/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBagpipes(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakBagpipes("en-US"),
                             ),
                           ],
                         ),

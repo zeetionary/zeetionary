@@ -112,13 +112,8 @@ class EnglishEntryaseptic extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "aseptic"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌeɪˈseptɪk/
+                            EntryTitle(word: "aseptic"), // Find /ˌeɪˈseptɪk/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +122,7 @@ class EnglishEntryaseptic extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌeɪˈseptɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAseptic(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAseptic("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +132,7 @@ class EnglishEntryaseptic extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌeɪˈseptɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAseptic(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAseptic("en-US"),
                             ),
                           ],
                         ),

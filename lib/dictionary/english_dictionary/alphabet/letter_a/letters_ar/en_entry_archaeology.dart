@@ -111,12 +111,8 @@ class EnglishEntryarchaeology extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "archaeology"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌɑːkiˈɒlədʒi/
+                                word: "archaeology"), // Find /ˌɑːkiˈɒlədʒi/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +121,7 @@ class EnglishEntryarchaeology extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɑːkiˈɒlədʒi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArchaeology(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakArchaeology("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +131,7 @@ class EnglishEntryarchaeology extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɑːrkiˈɑːlədʒi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArchaeology(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArchaeology("en-US"),
                             ),
                           ],
                         ),

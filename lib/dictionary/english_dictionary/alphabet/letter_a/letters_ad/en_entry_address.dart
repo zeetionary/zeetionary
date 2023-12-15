@@ -126,22 +126,14 @@ class EnglishEntryaddress extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "address"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈdres/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "address"), // Find /əˈdres/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈdres/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAddress(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAddress("en-GB"),
                             ),
                           ],
                         ),
@@ -151,8 +143,7 @@ class EnglishEntryaddress extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈdres/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAddress(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAddress("en-US"),
                             ),
                           ],
                         ),

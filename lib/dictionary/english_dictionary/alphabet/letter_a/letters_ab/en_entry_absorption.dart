@@ -69,19 +69,13 @@ class EnglishEntryabsorption extends StatelessWidget {
                             EntryTitle(
                                 word:
                                     "absorption"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əbˈzɔːpʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAbsorption(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAbsorption("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +85,7 @@ class EnglishEntryabsorption extends StatelessWidget {
                                 text:
                                     "IpaUS: /əbˈzɔːrpʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbsorption(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbsorption("en-US"),
                             ),
                           ],
                         ),

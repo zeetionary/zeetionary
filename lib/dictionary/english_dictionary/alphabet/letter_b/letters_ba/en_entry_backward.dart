@@ -154,9 +154,6 @@ class EnglishEntrybackward extends StatelessWidget {
                             EntryTitle(
                                 word: "backward"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -165,9 +162,7 @@ class EnglishEntrybackward extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbækwəd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakBackward(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakBackward("en-GB"),
                             ),
                           ],
                         ),
@@ -177,8 +172,7 @@ class EnglishEntrybackward extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbækwərd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBackward(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakBackward("en-US"),
                             ),
                           ],
                         ),

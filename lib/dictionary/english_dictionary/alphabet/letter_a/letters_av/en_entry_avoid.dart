@@ -109,9 +109,6 @@ class EnglishEntryavoid extends StatelessWidget {
                             EntryTitle(
                                 word: "avoid"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -120,9 +117,7 @@ class EnglishEntryavoid extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈvɔɪd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAvoid(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAvoid("en-GB"),
                             ),
                           ],
                         ),
@@ -132,8 +127,7 @@ class EnglishEntryavoid extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈvɔɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAvoid(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAvoid("en-US"),
                             ),
                           ],
                         ),

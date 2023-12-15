@@ -50,19 +50,13 @@ class EnglishEntryabduct extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word: "abduct"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /æbˈdʌkt/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAbduct(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAbduct("en-GB"),
                             ),
                           ],
                         ),
@@ -72,8 +66,7 @@ class EnglishEntryabduct extends StatelessWidget {
                                 text:
                                     "IpaUS: /æbˈdʌkt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbduct(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbduct("en-US"),
                             ),
                           ],
                         ),

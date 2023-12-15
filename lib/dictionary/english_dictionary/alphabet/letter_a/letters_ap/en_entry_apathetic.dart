@@ -110,13 +110,8 @@ class EnglishEntryapathetic extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "apathetic"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌæpəˈθetɪk/
+                            EntryTitle(word: "apathetic"), // Find /ˌæpəˈθetɪk/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +120,7 @@ class EnglishEntryapathetic extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæpəˈθetɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApathetic(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakApathetic("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +130,7 @@ class EnglishEntryapathetic extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæpəˈθetɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApathetic(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakApathetic("en-US"),
                             ),
                           ],
                         ),

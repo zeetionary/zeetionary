@@ -111,12 +111,8 @@ class EnglishEntryarbitrageur extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "arbitrageur"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌɑːbɪtrɑːˈʒɜː(r)/
+                                word: "arbitrageur"), // Find /ˌɑːbɪtrɑːˈʒɜː(r)/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +121,7 @@ class EnglishEntryarbitrageur extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɑːbɪtrɑːˈʒɜː(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArbitrageur(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakArbitrageur("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +131,7 @@ class EnglishEntryarbitrageur extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɑːrbɪtrɑːˈʒɜːr/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArbitrageur(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArbitrageur("en-US"),
                             ),
                           ],
                         ),

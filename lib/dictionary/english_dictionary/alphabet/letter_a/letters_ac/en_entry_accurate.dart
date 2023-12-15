@@ -77,19 +77,13 @@ class EnglishEntryaccurate extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word: "accurate"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈækjərət/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAccurate(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAccurate("en-GB"),
                             ),
                           ],
                         ),
@@ -99,8 +93,7 @@ class EnglishEntryaccurate extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈækjərət/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAccurate(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAccurate("en-US"),
                             ),
                           ],
                         ),

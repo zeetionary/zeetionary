@@ -114,13 +114,8 @@ class EnglishEntryasleep extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "asleep"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈsliːp/
+                            EntryTitle(word: "asleep"), // Find /əˈsliːp/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -129,9 +124,7 @@ class EnglishEntryasleep extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈsliːp/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAsleep(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAsleep("en-GB"),
                             ),
                           ],
                         ),
@@ -141,8 +134,7 @@ class EnglishEntryasleep extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈsliːp/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAsleep(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAsleep("en-US"),
                             ),
                           ],
                         ),

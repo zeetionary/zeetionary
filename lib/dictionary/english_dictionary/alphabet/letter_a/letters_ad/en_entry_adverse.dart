@@ -65,12 +65,7 @@ class EnglishEntryadverse extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "adverse"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈædvɜːs/,  /ədˈvɜːs/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "adverse"), // Find /ˈædvɜːs/,  /ədˈvɜːs/
                           ],
                         ),
                         Row(
@@ -78,9 +73,7 @@ class EnglishEntryadverse extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ˈædvɜːs/,  /ədˈvɜːs/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAdverse(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAdverse("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +83,7 @@ class EnglishEntryadverse extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈædvɜːrs/,  /ədˈvɜːrs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdverse(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdverse("en-US"),
                             ),
                           ],
                         ),

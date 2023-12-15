@@ -112,13 +112,8 @@ class EnglishEntryarugula extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "arugula"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈruːɡjʊlə/
+                            EntryTitle(word: "arugula"), // Find /əˈruːɡjʊlə/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +122,7 @@ class EnglishEntryarugula extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈruːɡjʊlə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakArugula(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakArugula("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +132,7 @@ class EnglishEntryarugula extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈruːɡələ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArugula(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArugula("en-US"),
                             ),
                           ],
                         ),

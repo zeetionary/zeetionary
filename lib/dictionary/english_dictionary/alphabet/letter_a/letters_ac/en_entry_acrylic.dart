@@ -63,22 +63,14 @@ class EnglishEntryacrylic extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "acrylic"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈkrɪlɪk/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "acrylic"), // Find /əˈkrɪlɪk/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkrɪlɪk/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAcrylic(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAcrylic("en-GB"),
                             ),
                           ],
                         ),
@@ -88,8 +80,7 @@ class EnglishEntryacrylic extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkrɪlɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcrylic(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAcrylic("en-US"),
                             ),
                           ],
                         ),

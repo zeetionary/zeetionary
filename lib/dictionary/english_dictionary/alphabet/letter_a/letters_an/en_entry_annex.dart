@@ -106,12 +106,8 @@ class EnglishEntryannex extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "annex"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæneks/,  /əˈneks/
+                                word: "annex"), // Find /ˈæneks/,  /əˈneks/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -120,9 +116,7 @@ class EnglishEntryannex extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæneks/,  /əˈneks/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAnnex(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAnnex("en-GB"),
                             ),
                           ],
                         ),
@@ -132,8 +126,7 @@ class EnglishEntryannex extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæneks/,  /əˈneks/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnnex(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAnnex("en-US"),
                             ),
                           ],
                         ),

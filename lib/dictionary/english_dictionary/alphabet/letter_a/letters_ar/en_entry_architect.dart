@@ -110,13 +110,8 @@ class EnglishEntryarchitect extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "architect"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːkɪtekt/
+                            EntryTitle(word: "architect"), // Find /ˈɑːkɪtekt/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +120,7 @@ class EnglishEntryarchitect extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːkɪtekt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArchitect(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakArchitect("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +130,7 @@ class EnglishEntryarchitect extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrkɪtekt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArchitect(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArchitect("en-US"),
                             ),
                           ],
                         ),

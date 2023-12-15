@@ -107,12 +107,8 @@ class EnglishEntryantediluvian extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "antediluvian"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌæntidɪˈluːviən/
+                                word: "antediluvian"), // Find /ˌæntidɪˈluːviən/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -121,9 +117,7 @@ class EnglishEntryantediluvian extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæntidɪˈluːviən/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntediluvian(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAntediluvian("en-GB"),
                             ),
                           ],
                         ),
@@ -133,8 +127,7 @@ class EnglishEntryantediluvian extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæntidɪˈluːviən/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntediluvian(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAntediluvian("en-US"),
                             ),
                           ],
                         ),

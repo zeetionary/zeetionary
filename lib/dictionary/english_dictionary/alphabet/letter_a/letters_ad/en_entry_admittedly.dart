@@ -64,22 +64,14 @@ class EnglishEntryadmittedly extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "admittedly"), // DOPSUM: CHANGE WORD ENTRY - Find /ədˈmɪtɪdli/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "admittedly"), // Find /ədˈmɪtɪdli/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ədˈmɪtɪdli/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdmittedly(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAdmittedly("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryadmittedly extends StatelessWidget {
                                 text:
                                     "IpaUS: /ədˈmɪtɪdli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdmittedly(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdmittedly("en-US"),
                             ),
                           ],
                         ),

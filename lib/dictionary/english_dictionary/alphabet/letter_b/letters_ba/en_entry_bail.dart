@@ -110,9 +110,6 @@ class EnglishEntrybail extends StatelessWidget {
                             EntryTitle(
                                 word: "bail"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -121,9 +118,7 @@ class EnglishEntrybail extends StatelessWidget {
                                 text:
                                     "IpaUK: /beɪl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakBail(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakBail("en-GB"),
                             ),
                           ],
                         ),
@@ -133,8 +128,7 @@ class EnglishEntrybail extends StatelessWidget {
                                 text:
                                     "IpaUS: /beɪl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBail(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakBail("en-US"),
                             ),
                           ],
                         ),

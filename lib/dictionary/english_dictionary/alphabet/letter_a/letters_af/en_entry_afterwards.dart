@@ -64,22 +64,14 @@ class EnglishEntryafterwards extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "afterwards"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːftəwədz/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "afterwards"), // Find /ˈɑːftəwədz/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈɑːftəwədz/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAfterwards(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAfterwards("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryafterwards extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːftərwədz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAfterwards(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAfterwards("en-US"),
                             ),
                           ],
                         ),

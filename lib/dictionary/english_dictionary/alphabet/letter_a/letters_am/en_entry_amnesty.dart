@@ -129,13 +129,8 @@ class EnglishEntryamnesty extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "amnesty"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæmnəsti/
+                            EntryTitle(word: "amnesty"), // Find /ˈæmnəsti/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -144,9 +139,7 @@ class EnglishEntryamnesty extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæmnəsti/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAmnesty(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAmnesty("en-GB"),
                             ),
                           ],
                         ),
@@ -156,8 +149,7 @@ class EnglishEntryamnesty extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæmnəsti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmnesty(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAmnesty("en-US"),
                             ),
                           ],
                         ),

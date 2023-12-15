@@ -108,9 +108,6 @@ class EnglishEntrybankruptcy extends StatelessWidget {
                                 word:
                                     "bankruptcy"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -119,9 +116,7 @@ class EnglishEntrybankruptcy extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbæŋkrʌptsi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBankruptcy(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakBankruptcy("en-GB"),
                             ),
                           ],
                         ),
@@ -131,8 +126,7 @@ class EnglishEntrybankruptcy extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbæŋkrʌptsi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBankruptcy(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakBankruptcy("en-US"),
                             ),
                           ],
                         ),

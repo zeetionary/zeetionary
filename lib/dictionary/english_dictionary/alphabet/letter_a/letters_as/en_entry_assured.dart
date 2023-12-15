@@ -114,12 +114,8 @@ class EnglishEntryassured extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "assured"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈʃʊəd/,  /əˈʃɔːd/
+                                word: "assured"), // Find /əˈʃʊəd/,  /əˈʃɔːd/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -128,9 +124,7 @@ class EnglishEntryassured extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈʃʊəd/,  /əˈʃɔːd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAssured(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAssured("en-GB"),
                             ),
                           ],
                         ),
@@ -140,8 +134,7 @@ class EnglishEntryassured extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈʃʊrd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAssured(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAssured("en-US"),
                             ),
                           ],
                         ),

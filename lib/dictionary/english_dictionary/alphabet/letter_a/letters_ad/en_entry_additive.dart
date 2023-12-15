@@ -64,22 +64,14 @@ class EnglishEntryadditive extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "additive"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈædətɪv/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "additive"), // Find /ˈædətɪv/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈædətɪv/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAdditive(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAdditive("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryadditive extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈædətɪv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdditive(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdditive("en-US"),
                             ),
                           ],
                         ),

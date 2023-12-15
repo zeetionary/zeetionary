@@ -110,11 +110,8 @@ class EnglishEntryantiperspirant extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "antiperspirant"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌæntiˈpɜːspərənt/
+                                    "antiperspirant"), // Find /ˌæntiˈpɜːspərənt/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -123,9 +120,7 @@ class EnglishEntryantiperspirant extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæntiˈpɜːspərənt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntiperspirant(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAntiperspirant("en-GB"),
                             ),
                           ],
                         ),
@@ -135,8 +130,7 @@ class EnglishEntryantiperspirant extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæntiˈpɜːrspərənt/,  /ˌæntaɪˈpɜːrspərənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntiperspirant(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAntiperspirant("en-US"),
                             ),
                           ],
                         ),

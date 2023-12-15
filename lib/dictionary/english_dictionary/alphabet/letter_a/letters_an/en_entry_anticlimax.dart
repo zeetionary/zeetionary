@@ -107,12 +107,8 @@ class EnglishEntryanticlimax extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "anticlimax"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌæntiˈklaɪmæks/
+                                word: "anticlimax"), // Find /ˌæntiˈklaɪmæks/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -121,9 +117,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæntiˈklaɪmæks/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnticlimax(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAnticlimax("en-GB"),
                             ),
                           ],
                         ),
@@ -133,8 +127,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæntiˈklaɪmæks/,  /ˌæntaɪˈklaɪmæks/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnticlimax(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAnticlimax("en-US"),
                             ),
                           ],
                         ),

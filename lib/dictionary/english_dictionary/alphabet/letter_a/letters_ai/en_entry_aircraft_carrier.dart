@@ -65,11 +65,7 @@ class EnglishEntryaircraftcarrier extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "aircraft carrier"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeəkrɑːft kæriə(r)/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                    "aircraft carrier"), // Find /ˈeəkrɑːft kæriə(r)/
                           ],
                         ),
                         Row(
@@ -77,9 +73,7 @@ class EnglishEntryaircraftcarrier extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ˈeəkrɑːft kæriə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAircraftcarrier(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAircraftcarrier("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +83,7 @@ class EnglishEntryaircraftcarrier extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈerkræft kæriər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAircraftcarrier(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAircraftcarrier("en-US"),
                             ),
                           ],
                         ),

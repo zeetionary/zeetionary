@@ -112,11 +112,8 @@ class EnglishEntryarabicnumeral extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "Arabic numeral"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌærəbɪk ˈnjuːmərəl/
+                                    "Arabic numeral"), // Find /ˌærəbɪk ˈnjuːmərəl/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +122,7 @@ class EnglishEntryarabicnumeral extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌærəbɪk ˈnjuːmərəl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArabicnumeral(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakArabicnumeral("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +132,7 @@ class EnglishEntryarabicnumeral extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌærəbɪk ˈnuːmərəl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArabicnumeral(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArabicnumeral("en-US"),
                             ),
                           ],
                         ),

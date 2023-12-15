@@ -64,13 +64,7 @@ class EnglishEntryalgebra extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "algebra"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈældʒɪbrə/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "algebra"), // Find /ˈældʒɪbrə/
                           ],
                         ),
                         Row(
@@ -79,9 +73,7 @@ class EnglishEntryalgebra extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈældʒɪbrə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAlgebra(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAlgebra("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +83,7 @@ class EnglishEntryalgebra extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈældʒɪbrə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlgebra(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlgebra("en-US"),
                             ),
                           ],
                         ),

@@ -65,22 +65,14 @@ class EnglishEntryadjourn extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "adjourn"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈdʒɜːn/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "adjourn"), // Find /əˈdʒɜːn/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈdʒɜːn/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAdjourn(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAdjourn("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +82,7 @@ class EnglishEntryadjourn extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈdʒɜːrn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdjourn(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdjourn("en-US"),
                             ),
                           ],
                         ),

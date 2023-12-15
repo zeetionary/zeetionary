@@ -116,9 +116,6 @@ class EnglishEntryasylumseeker extends StatelessWidget {
                                 word:
                                     "asylum seeker"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +124,7 @@ class EnglishEntryasylumseeker extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈsaɪləm siːkə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAsylumseeker(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAsylumseeker("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +134,7 @@ class EnglishEntryasylumseeker extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈsaɪləm siːkər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAsylumseeker(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAsylumseeker("en-US"),
                             ),
                           ],
                         ),

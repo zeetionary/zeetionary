@@ -65,22 +65,14 @@ class EnglishEntryaerial extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "aerial"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeəriəl/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "aerial"), // Find /ˈeəriəl/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈeəriəl/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAerial(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAerial("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +82,7 @@ class EnglishEntryaerial extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈeriəl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAerial(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAerial("en-US"),
                             ),
                           ],
                         ),

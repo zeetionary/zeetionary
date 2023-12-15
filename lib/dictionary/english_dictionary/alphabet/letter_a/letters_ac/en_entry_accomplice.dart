@@ -51,19 +51,13 @@ class EnglishEntryaccomplice extends StatelessWidget {
                             EntryTitle(
                                 word:
                                     "accomplice"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkʌmplɪs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAccomplice(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAccomplice("en-GB"),
                             ),
                           ],
                         ),
@@ -73,8 +67,7 @@ class EnglishEntryaccomplice extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkɑːmplɪs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAccomplice(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAccomplice("en-US"),
                             ),
                           ],
                         ),

@@ -118,9 +118,6 @@ class EnglishEntryauthorization extends StatelessWidget {
                                 word:
                                     "authorization"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -129,9 +126,7 @@ class EnglishEntryauthorization extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɔːθəraɪˈzeɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAuthorization(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAuthorization("en-GB"),
                             ),
                           ],
                         ),
@@ -141,8 +136,7 @@ class EnglishEntryauthorization extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɔːθərəˈzeɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAuthorization(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAuthorization("en-US"),
                             ),
                           ],
                         ),

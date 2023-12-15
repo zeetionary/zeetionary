@@ -51,19 +51,13 @@ class EnglishEntryabbreviation extends StatelessWidget {
                             EntryTitle(
                                 word:
                                     "abbreviation"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˌbriːviˈeɪʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAbbreviation(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAbbreviation("en-GB"),
                             ),
                           ],
                         ),
@@ -73,8 +67,7 @@ class EnglishEntryabbreviation extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌbriːviˈeɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbbreviation(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbbreviation("en-US"),
                             ),
                           ],
                         ),

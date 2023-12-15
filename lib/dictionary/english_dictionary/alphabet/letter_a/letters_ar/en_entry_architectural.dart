@@ -112,11 +112,8 @@ class EnglishEntryarchitectural extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "architectural"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌɑːkɪˈtektʃərəl/
+                                    "architectural"), // Find /ˌɑːkɪˈtektʃərəl/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +122,7 @@ class EnglishEntryarchitectural extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɑːkɪˈtektʃərəl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArchitectural(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakArchitectural("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +132,7 @@ class EnglishEntryarchitectural extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɑːrkɪˈtektʃərəl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArchitectural(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArchitectural("en-US"),
                             ),
                           ],
                         ),

@@ -75,22 +75,14 @@ class EnglishEntryadvantage extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "advantage"), // DOPSUM: CHANGE WORD ENTRY - Find /ədˈvɑːntɪdʒ/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "advantage"), // Find /ədˈvɑːntɪdʒ/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ədˈvɑːntɪdʒ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdvantage(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAdvantage("en-GB"),
                             ),
                           ],
                         ),
@@ -100,8 +92,7 @@ class EnglishEntryadvantage extends StatelessWidget {
                                 text:
                                     "IpaUS: /ədˈvæntɪdʒ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdvantage(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdvantage("en-US"),
                             ),
                           ],
                         ),

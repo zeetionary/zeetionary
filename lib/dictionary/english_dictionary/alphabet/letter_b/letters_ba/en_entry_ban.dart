@@ -110,9 +110,6 @@ class EnglishEntryban extends StatelessWidget {
                             EntryTitle(
                                 word: "ban"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -121,9 +118,7 @@ class EnglishEntryban extends StatelessWidget {
                                 text:
                                     "IpaUK: /bæn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakBan(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakBan("en-GB"),
                             ),
                           ],
                         ),
@@ -133,8 +128,7 @@ class EnglishEntryban extends StatelessWidget {
                                 text:
                                     "IpaUS: /bæn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBan(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakBan("en-US"),
                             ),
                           ],
                         ),

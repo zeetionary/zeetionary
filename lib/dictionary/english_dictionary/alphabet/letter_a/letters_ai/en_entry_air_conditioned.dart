@@ -65,21 +65,14 @@ class EnglishEntryairconditioned extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "air-conditioned"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeə kəndɪʃnd/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "air-conditioned"), // Find /ˈeə kəndɪʃnd/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈeə kəndɪʃnd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAirconditioned(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAirconditioned("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +82,7 @@ class EnglishEntryairconditioned extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈer kəndɪʃnd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAirconditioned(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAirconditioned("en-US"),
                             ),
                           ],
                         ),

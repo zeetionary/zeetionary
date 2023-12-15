@@ -82,22 +82,14 @@ class EnglishEntryaffinity extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "affinity"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈfɪnəti/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "affinity"), // Find /əˈfɪnəti/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈfɪnəti/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAffinity(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAffinity("en-GB"),
                             ),
                           ],
                         ),
@@ -107,8 +99,7 @@ class EnglishEntryaffinity extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈfɪnəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAffinity(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAffinity("en-US"),
                             ),
                           ],
                         ),

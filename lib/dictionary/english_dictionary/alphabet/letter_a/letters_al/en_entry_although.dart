@@ -74,13 +74,7 @@ class EnglishEntryalthough extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "although"), // DOPSUM: CHANGE WORD ENTRY - Find /ɔːlˈðəʊ/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "although"), // Find /ɔːlˈðəʊ/
                           ],
                         ),
                         Row(
@@ -89,9 +83,7 @@ class EnglishEntryalthough extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɔːlˈðəʊ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAlthough(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAlthough("en-GB"),
                             ),
                           ],
                         ),
@@ -101,8 +93,7 @@ class EnglishEntryalthough extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɔːlˈðəʊ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlthough(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlthough("en-US"),
                             ),
                           ],
                         ),

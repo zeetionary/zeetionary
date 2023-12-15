@@ -64,22 +64,14 @@ class EnglishEntryaccuser extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "accuser"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈkjuːzə(r)/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "accuser"), // Find /əˈkjuːzə(r)/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkjuːzə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAccuser(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAccuser("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryaccuser extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkjuːzər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAccuser(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAccuser("en-US"),
                             ),
                           ],
                         ),

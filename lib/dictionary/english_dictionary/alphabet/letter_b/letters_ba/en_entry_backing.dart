@@ -109,9 +109,6 @@ class EnglishEntrybacking extends StatelessWidget {
                             EntryTitle(
                                 word: "backing"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -120,9 +117,7 @@ class EnglishEntrybacking extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbækɪŋ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakBacking(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakBacking("en-GB"),
                             ),
                           ],
                         ),
@@ -132,8 +127,7 @@ class EnglishEntrybacking extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbækɪŋ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBacking(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakBacking("en-US"),
                             ),
                           ],
                         ),

@@ -64,13 +64,7 @@ class EnglishEntryalkali extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "alkali"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈælkəlaɪ/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "alkali"), // Find /ˈælkəlaɪ/
                           ],
                         ),
                         Row(
@@ -79,9 +73,7 @@ class EnglishEntryalkali extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈælkəlaɪ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAlkali(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAlkali("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +83,7 @@ class EnglishEntryalkali extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈælkəlaɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlkali(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlkali("en-US"),
                             ),
                           ],
                         ),

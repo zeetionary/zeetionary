@@ -110,13 +110,8 @@ class EnglishEntryaroma extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "aroma"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈrəʊmə/
+                            EntryTitle(word: "aroma"), // Find /əˈrəʊmə/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +120,7 @@ class EnglishEntryaroma extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈrəʊmə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAroma(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAroma("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +130,7 @@ class EnglishEntryaroma extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈrəʊmə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAroma(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAroma("en-US"),
                             ),
                           ],
                         ),

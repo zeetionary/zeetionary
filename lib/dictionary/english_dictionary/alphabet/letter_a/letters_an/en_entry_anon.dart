@@ -104,13 +104,8 @@ class EnglishEntryanon extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "anon"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈnɒn/
+                            EntryTitle(word: "anon"), // Find /əˈnɒn/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -119,9 +114,7 @@ class EnglishEntryanon extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈnɒn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAnon(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAnon("en-GB"),
                             ),
                           ],
                         ),
@@ -131,8 +124,7 @@ class EnglishEntryanon extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈnɑːn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnon(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAnon("en-US"),
                             ),
                           ],
                         ),

@@ -65,12 +65,7 @@ class EnglishEntryambidextrous extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "ambidextrous"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌæmbiˈdekstrəs/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "ambidextrous"), // Find /ˌæmbiˈdekstrəs/
                           ],
                         ),
                         Row(
@@ -79,9 +74,7 @@ class EnglishEntryambidextrous extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæmbiˈdekstrəs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmbidextrous(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAmbidextrous("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +84,7 @@ class EnglishEntryambidextrous extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæmbiˈdekstrəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmbidextrous(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAmbidextrous("en-US"),
                             ),
                           ],
                         ),

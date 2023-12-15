@@ -110,13 +110,8 @@ class EnglishEntryantiquity extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "antiquity"), // DOPSUM: CHANGE WORD ENTRY - Find /ænˈtɪkwəti/
+                            EntryTitle(word: "antiquity"), // Find /ænˈtɪkwəti/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +120,7 @@ class EnglishEntryantiquity extends StatelessWidget {
                                 text:
                                     "IpaUK: /ænˈtɪkwəti/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntiquity(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAntiquity("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +130,7 @@ class EnglishEntryantiquity extends StatelessWidget {
                                 text:
                                     "IpaUS: /ænˈtɪkwəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntiquity(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAntiquity("en-US"),
                             ),
                           ],
                         ),

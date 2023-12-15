@@ -117,9 +117,6 @@ class EnglishEntryautocratic extends StatelessWidget {
                                 word:
                                     "autocratic"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -128,9 +125,7 @@ class EnglishEntryautocratic extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɔːtəˈkrætɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAutocratic(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAutocratic("en-GB"),
                             ),
                           ],
                         ),
@@ -140,8 +135,7 @@ class EnglishEntryautocratic extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɔːtəˈkrætɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAutocratic(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAutocratic("en-US"),
                             ),
                           ],
                         ),

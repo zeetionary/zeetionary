@@ -106,12 +106,8 @@ class EnglishEntryanachronism extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "anachronism"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈnækrənɪzəm/
+                                word: "anachronism"), // Find /əˈnækrənɪzəm/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -120,9 +116,7 @@ class EnglishEntryanachronism extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈnækrənɪzəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnachronism(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAnachronism("en-GB"),
                             ),
                           ],
                         ),
@@ -132,8 +126,7 @@ class EnglishEntryanachronism extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈnækrənɪzəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnachronism(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAnachronism("en-US"),
                             ),
                           ],
                         ),

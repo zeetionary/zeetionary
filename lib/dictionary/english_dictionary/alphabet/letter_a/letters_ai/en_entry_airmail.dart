@@ -64,22 +64,14 @@ class EnglishEntryairmail extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "airmail"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeəmeɪl/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "airmail"), // Find /ˈeəmeɪl/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈeəmeɪl/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAirmail(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAirmail("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryairmail extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈermeɪl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAirmail(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAirmail("en-US"),
                             ),
                           ],
                         ),

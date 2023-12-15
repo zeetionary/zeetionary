@@ -109,9 +109,6 @@ class EnglishEntrybald extends StatelessWidget {
                             EntryTitle(
                                 word: "bald"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -120,9 +117,7 @@ class EnglishEntrybald extends StatelessWidget {
                                 text:
                                     "IpaUK: /bɔːld/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakBald(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakBald("en-GB"),
                             ),
                           ],
                         ),
@@ -132,8 +127,7 @@ class EnglishEntrybald extends StatelessWidget {
                                 text:
                                     "IpaUS: /bɔːld/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBald(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakBald("en-US"),
                             ),
                           ],
                         ),

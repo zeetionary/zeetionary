@@ -65,22 +65,14 @@ class EnglishEntryactively extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "actively"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæktɪvli/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "actively"), // Find /ˈæktɪvli/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈæktɪvli/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakActively(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakActively("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +82,7 @@ class EnglishEntryactively extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæktɪvli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakActively(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakActively("en-US"),
                             ),
                           ],
                         ),

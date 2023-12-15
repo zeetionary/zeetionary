@@ -200,22 +200,14 @@ class EnglishEntryair extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "air"), // DOPSUM: CHANGE WORD ENTRY - Find /eə(r)/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "air"), // Find /eə(r)/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /eə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAir(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAir("en-GB"),
                             ),
                           ],
                         ),
@@ -225,8 +217,7 @@ class EnglishEntryair extends StatelessWidget {
                                 text:
                                     "IpaUS: /er/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAir(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAir("en-US"),
                             ),
                           ],
                         ),

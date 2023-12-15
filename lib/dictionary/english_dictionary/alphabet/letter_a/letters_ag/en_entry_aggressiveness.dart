@@ -66,21 +66,14 @@ class EnglishEntryaggressiveness extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "aggressiveness"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈɡresɪvnəs/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "aggressiveness"), // Find /əˈɡresɪvnəs/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈɡresɪvnəs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAggressiveness(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAggressiveness("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +83,7 @@ class EnglishEntryaggressiveness extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈɡresɪvnəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAggressiveness(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAggressiveness("en-US"),
                             ),
                           ],
                         ),

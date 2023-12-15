@@ -113,12 +113,8 @@ class EnglishEntryaquamarine extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "aquamarine"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌækwəməˈriːn/
+                                word: "aquamarine"), // Find /ˌækwəməˈriːn/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +123,7 @@ class EnglishEntryaquamarine extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌækwəməˈriːn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAquamarine(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAquamarine("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +133,7 @@ class EnglishEntryaquamarine extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɑːkwəməˈriːn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAquamarine(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAquamarine("en-US"),
                             ),
                           ],
                         ),

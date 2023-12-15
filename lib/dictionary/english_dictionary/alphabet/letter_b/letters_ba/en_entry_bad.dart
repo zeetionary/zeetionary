@@ -277,9 +277,6 @@ class EnglishEntrybad extends StatelessWidget {
                             EntryTitle(
                                 word: "bad"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -288,9 +285,7 @@ class EnglishEntrybad extends StatelessWidget {
                                 text:
                                     "IpaUK: /bæd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakBad(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakBad("en-GB"),
                             ),
                           ],
                         ),
@@ -300,8 +295,7 @@ class EnglishEntrybad extends StatelessWidget {
                                 text:
                                     "IpaUS: /bæd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBad(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakBad("en-US"),
                             ),
                           ],
                         ),

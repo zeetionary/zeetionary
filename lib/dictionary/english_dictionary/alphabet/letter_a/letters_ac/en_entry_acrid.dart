@@ -64,22 +64,14 @@ class EnglishEntryacrid extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "acrid"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈækrɪd/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "acrid"), // Find /ˈækrɪd/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈækrɪd/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAacrid(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAacrid("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryacrid extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈækrɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAacrid(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAacrid("en-US"),
                             ),
                           ],
                         ),

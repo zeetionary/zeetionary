@@ -65,22 +65,14 @@ class EnglishEntryailing extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "ailing"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeɪlɪŋ/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "ailing"), // Find /ˈeɪlɪŋ/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈeɪlɪŋ/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAiling(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAiling("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +82,7 @@ class EnglishEntryailing extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈeɪlɪŋ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAiling(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAiling("en-US"),
                             ),
                           ],
                         ),

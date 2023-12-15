@@ -250,9 +250,6 @@ class EnglishEntryattack extends StatelessWidget {
                             EntryTitle(
                                 word: "attack"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -261,9 +258,7 @@ class EnglishEntryattack extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈtæk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAttack(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAttack("en-GB"),
                             ),
                           ],
                         ),
@@ -273,8 +268,7 @@ class EnglishEntryattack extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈtæk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAttack(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAttack("en-US"),
                             ),
                           ],
                         ),

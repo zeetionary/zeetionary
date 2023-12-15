@@ -64,22 +64,14 @@ class EnglishEntryadvisable extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "advisable"), // DOPSUM: CHANGE WORD ENTRY - Find /ədˈvaɪzəbl/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "advisable"), // Find /ədˈvaɪzəbl/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ədˈvaɪzəbl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdvisable(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAdvisable("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryadvisable extends StatelessWidget {
                                 text:
                                     "IpaUS: /ədˈvaɪzəbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdvisable(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdvisable("en-US"),
                             ),
                           ],
                         ),

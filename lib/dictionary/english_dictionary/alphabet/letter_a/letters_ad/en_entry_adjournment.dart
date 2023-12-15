@@ -65,21 +65,14 @@ class EnglishEntryadjournment extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "adjournment"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈdʒɜːnmənt/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "adjournment"), // Find /əˈdʒɜːnmənt/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈdʒɜːnmənt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdjournment(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAdjournment("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +82,7 @@ class EnglishEntryadjournment extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈdʒɜːrnmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdjournment(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdjournment("en-US"),
                             ),
                           ],
                         ),

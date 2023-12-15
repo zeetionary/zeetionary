@@ -112,11 +112,8 @@ class EnglishEntryargumentative extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "argumentative"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌɑːɡjuˈmentətɪv/
+                                    "argumentative"), // Find /ˌɑːɡjuˈmentətɪv/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +122,7 @@ class EnglishEntryargumentative extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɑːɡjuˈmentətɪv/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArgumentative(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakArgumentative("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +132,7 @@ class EnglishEntryargumentative extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɑːrɡjuˈmentətɪv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArgumentative(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArgumentative("en-US"),
                             ),
                           ],
                         ),

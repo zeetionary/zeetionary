@@ -60,19 +60,13 @@ class EnglishEntryacademically extends StatelessWidget {
                             EntryTitle(
                                 word:
                                     "academically"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌækəˈdemɪkli/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcademically(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAcademically("en-GB"),
                             ),
                           ],
                         ),
@@ -82,8 +76,7 @@ class EnglishEntryacademically extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌækəˈdemɪkli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcademically(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAcademically("en-US"),
                             ),
                           ],
                         ),

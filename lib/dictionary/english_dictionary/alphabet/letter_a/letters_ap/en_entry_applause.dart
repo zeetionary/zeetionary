@@ -110,13 +110,8 @@ class EnglishEntryapplause extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "applause"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈplɔːz/
+                            EntryTitle(word: "applause"), // Find /əˈplɔːz/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +120,7 @@ class EnglishEntryapplause extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈplɔːz/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakApplause(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakApplause("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +130,7 @@ class EnglishEntryapplause extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈplɔːz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApplause(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakApplause("en-US"),
                             ),
                           ],
                         ),

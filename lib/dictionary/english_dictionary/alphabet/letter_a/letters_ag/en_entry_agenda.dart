@@ -65,22 +65,14 @@ class EnglishEntryagenda extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "agenda"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈdʒendə/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "agenda"), // Find /əˈdʒendə/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈdʒendə/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAgenda(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAgenda("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +82,7 @@ class EnglishEntryagenda extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈdʒendə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgenda(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAgenda("en-US"),
                             ),
                           ],
                         ),

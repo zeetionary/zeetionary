@@ -50,19 +50,13 @@ class EnglishEntryabscond extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word: "abscond"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əbˈskɒnd/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAbscond(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAbscond("en-GB"),
                             ),
                           ],
                         ),
@@ -72,8 +66,7 @@ class EnglishEntryabscond extends StatelessWidget {
                                 text:
                                     "IpaUS: /əbˈskɑːnd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbscond(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbscond("en-US"),
                             ),
                           ],
                         ),

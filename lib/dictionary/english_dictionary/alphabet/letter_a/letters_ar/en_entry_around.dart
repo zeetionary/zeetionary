@@ -278,13 +278,8 @@ class EnglishEntryaround extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "around"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈraʊnd/
+                            EntryTitle(word: "around"), // Find /əˈraʊnd/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -293,9 +288,7 @@ class EnglishEntryaround extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈraʊnd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAround(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAround("en-GB"),
                             ),
                           ],
                         ),
@@ -305,8 +298,7 @@ class EnglishEntryaround extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈraʊnd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAround(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAround("en-US"),
                             ),
                           ],
                         ),

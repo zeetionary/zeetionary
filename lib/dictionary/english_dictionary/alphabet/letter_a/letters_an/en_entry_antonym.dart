@@ -108,13 +108,8 @@ class EnglishEntryantonym extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "antonym"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæntənɪm/
+                            EntryTitle(word: "antonym"), // Find /ˈæntənɪm/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -123,9 +118,7 @@ class EnglishEntryantonym extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæntənɪm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAntonym(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAntonym("en-GB"),
                             ),
                           ],
                         ),
@@ -135,8 +128,7 @@ class EnglishEntryantonym extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæntənɪm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntonym(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAntonym("en-US"),
                             ),
                           ],
                         ),

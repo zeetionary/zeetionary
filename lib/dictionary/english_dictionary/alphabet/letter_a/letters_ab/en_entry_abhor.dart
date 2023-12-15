@@ -59,19 +59,13 @@ class EnglishEntryabhor extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word: "abhor"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əbˈhɔː(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAbhor(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAbhor("en-GB"),
                             ),
                           ],
                         ),
@@ -81,8 +75,7 @@ class EnglishEntryabhor extends StatelessWidget {
                                 text:
                                     "IpaUS: /əbˈhɔːr/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbhor(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbhor("en-US"),
                             ),
                           ],
                         ),

@@ -105,13 +105,8 @@ class EnglishEntryancillary extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "ancillary"), // DOPSUM: CHANGE WORD ENTRY - Find /ænˈsɪləri/
+                            EntryTitle(word: "ancillary"), // Find /ænˈsɪləri/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -120,9 +115,7 @@ class EnglishEntryancillary extends StatelessWidget {
                                 text:
                                     "IpaUK: /ænˈsɪləri/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAncillary(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAncillary("en-GB"),
                             ),
                           ],
                         ),
@@ -132,8 +125,7 @@ class EnglishEntryancillary extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈænsəleri/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAncillary(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAncillary("en-US"),
                             ),
                           ],
                         ),

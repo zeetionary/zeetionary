@@ -65,13 +65,7 @@ class EnglishEntryalbino extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "albino"), // DOPSUM: CHANGE WORD ENTRY - Find /ælˈbiːnəʊ/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "albino"), // Find /ælˈbiːnəʊ/
                           ],
                         ),
                         Row(
@@ -80,9 +74,7 @@ class EnglishEntryalbino extends StatelessWidget {
                                 text:
                                     "IpaUK: /ælˈbiːnəʊ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAlbino(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAlbino("en-GB"),
                             ),
                           ],
                         ),
@@ -92,8 +84,7 @@ class EnglishEntryalbino extends StatelessWidget {
                                 text:
                                     "IpaUS: /ælˈbaɪnəʊ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlbino(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlbino("en-US"),
                             ),
                           ],
                         ),

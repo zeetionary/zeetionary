@@ -65,21 +65,14 @@ class EnglishEntryunderage extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "under age"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈʌndə(r) eɪdʒ/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "under age"), // Find /ˈʌndə(r) eɪdʒ/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈʌndə(r) eɪdʒ/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakUnderage(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakUnderage("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +82,7 @@ class EnglishEntryunderage extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈʌndər eɪdʒ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakUnderage(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakUnderage("en-US"),
                             ),
                           ],
                         ),

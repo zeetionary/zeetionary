@@ -51,19 +51,13 @@ class EnglishEntryabdication extends StatelessWidget {
                             EntryTitle(
                                 word:
                                     "abdication"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌæbdɪˈkeɪʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAbdication(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAbdication("en-GB"),
                             ),
                           ],
                         ),
@@ -73,8 +67,7 @@ class EnglishEntryabdication extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæbdɪˈkeɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbdication(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbdication("en-US"),
                             ),
                           ],
                         ),

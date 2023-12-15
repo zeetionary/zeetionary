@@ -51,10 +51,6 @@ class EnglishEntryabsolutezero extends StatelessWidget {
                             EntryTitle(
                                 word:
                                     "absolute zero"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -62,9 +58,7 @@ class EnglishEntryabsolutezero extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ˌæbsəluːt ˈzɪərəʊ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAbsolutezero(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAbsolutezero("en-GB"),
                             ),
                           ],
                         ),
@@ -74,8 +68,7 @@ class EnglishEntryabsolutezero extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæbsəluːt ˈzɪrəʊ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbsolutezero(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbsolutezero("en-US"),
                             ),
                           ],
                         ),

@@ -65,21 +65,14 @@ class EnglishEntryaerobatics extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "aerobatics"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌeərəˈbætɪks/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "aerobatics"), // Find /ˌeərəˈbætɪks/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌeərəˈbætɪks/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAerobatics(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAerobatics("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +82,7 @@ class EnglishEntryaerobatics extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌerəˈbætɪks/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAerobatics(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAerobatics("en-US"),
                             ),
                           ],
                         ),

@@ -64,13 +64,7 @@ class EnglishEntryalto extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "alto"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæltəʊ/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "alto"), // Find /ˈæltəʊ/
                           ],
                         ),
                         Row(
@@ -79,9 +73,7 @@ class EnglishEntryalto extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæltəʊ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAlto(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAlto("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +83,7 @@ class EnglishEntryalto extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæltəʊ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlto(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlto("en-US"),
                             ),
                           ],
                         ),

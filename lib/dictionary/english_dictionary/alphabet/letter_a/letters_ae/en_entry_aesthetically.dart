@@ -67,11 +67,7 @@ class EnglishEntryaesthetically extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "aesthetically"), // DOPSUM: CHANGE WORD ENTRY - Find /iːsˈθetɪkli/,  /esˈθetɪkli/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                    "aesthetically"), // Find /iːsˈθetɪkli/,  /esˈθetɪkli/
                           ],
                         ),
                         Row(
@@ -79,9 +75,7 @@ class EnglishEntryaesthetically extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /iːsˈθetɪkli/,  /esˈθetɪkli/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAesthetically(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAesthetically("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +85,7 @@ class EnglishEntryaesthetically extends StatelessWidget {
                                 text:
                                     "IpaUS: /esˈθetɪkli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAesthetically(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAesthetically("en-US"),
                             ),
                           ],
                         ),

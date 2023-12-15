@@ -116,12 +116,8 @@ class EnglishEntryassure extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "assure"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈʃʊə(r)/,  /əˈʃɔː(r)/
+                                word: "assure"), // Find /əˈʃʊə(r)/,  /əˈʃɔː(r)/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -130,9 +126,7 @@ class EnglishEntryassure extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈʃʊə(r)/,  /əˈʃɔː(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAssure(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAssure("en-GB"),
                             ),
                           ],
                         ),
@@ -142,8 +136,7 @@ class EnglishEntryassure extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈʃʊə(r)/,  /əˈʃɔː(r)/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAssure(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAssure("en-US"),
                             ),
                           ],
                         ),

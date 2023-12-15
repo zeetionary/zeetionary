@@ -107,13 +107,8 @@ class EnglishEntryantenna extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "antenna"), // DOPSUM: CHANGE WORD ENTRY - Find /ænˈtenə/
+                            EntryTitle(word: "antenna"), // Find /ænˈtenə/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -122,9 +117,7 @@ class EnglishEntryantenna extends StatelessWidget {
                                 text:
                                     "IpaUK: /ænˈtenə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAntenna(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAntenna("en-GB"),
                             ),
                           ],
                         ),
@@ -134,8 +127,7 @@ class EnglishEntryantenna extends StatelessWidget {
                                 text:
                                     "IpaUS: /ænˈtenə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntenna(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAntenna("en-US"),
                             ),
                           ],
                         ),

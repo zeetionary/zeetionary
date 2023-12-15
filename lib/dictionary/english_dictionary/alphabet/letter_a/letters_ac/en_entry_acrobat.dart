@@ -63,22 +63,14 @@ class EnglishEntryacrobat extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "acrobat"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈækrəbæt/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "acrobat"), // Find /ˈækrəbæt/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈækrəbæt/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAacrobat(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAacrobat("en-GB"),
                             ),
                           ],
                         ),
@@ -88,8 +80,7 @@ class EnglishEntryacrobat extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈækrəbæt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAacrobat(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAacrobat("en-US"),
                             ),
                           ],
                         ),

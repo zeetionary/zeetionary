@@ -109,9 +109,6 @@ class EnglishEntrybandwidth extends StatelessWidget {
                             EntryTitle(
                                 word: "bandwidth"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -120,9 +117,7 @@ class EnglishEntrybandwidth extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbændwɪdθ/,  /ˈbændwɪtθ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBandwidth(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakBandwidth("en-GB"),
                             ),
                           ],
                         ),
@@ -132,8 +127,7 @@ class EnglishEntrybandwidth extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbændwɪdθ/,  /ˈbændwɪtθ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBandwidth(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakBandwidth("en-US"),
                             ),
                           ],
                         ),

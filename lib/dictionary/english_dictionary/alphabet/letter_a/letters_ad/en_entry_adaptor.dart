@@ -65,20 +65,14 @@ class EnglishEntryadaptor extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "adaptor (or adapter)"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈdæptə(r)/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                    "adaptor (or adapter)"), // Find /əˈdæptə(r)/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈdæptə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAdaptor(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAdaptor("en-GB"),
                             ),
                           ],
                         ),
@@ -88,8 +82,7 @@ class EnglishEntryadaptor extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈdæptər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdaptor(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdaptor("en-US"),
                             ),
                           ],
                         ),

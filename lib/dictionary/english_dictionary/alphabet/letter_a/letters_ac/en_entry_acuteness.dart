@@ -65,22 +65,14 @@ class EnglishEntryacuteness extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "acuteness"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈkjuːtnəs/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "acuteness"), // Find /əˈkjuːtnəs/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkjuːtnəs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcuteness(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAcuteness("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +82,7 @@ class EnglishEntryacuteness extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkjuːtnəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcuteness(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAcuteness("en-US"),
                             ),
                           ],
                         ),

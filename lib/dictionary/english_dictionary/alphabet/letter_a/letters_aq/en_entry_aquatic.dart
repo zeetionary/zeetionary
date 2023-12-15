@@ -111,13 +111,8 @@ class EnglishEntryaquatic extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "aquatic"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈkwætɪk/
+                            EntryTitle(word: "aquatic"), // Find /əˈkwætɪk/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -126,9 +121,7 @@ class EnglishEntryaquatic extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈkwætɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAquatic(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAquatic("en-GB"),
                             ),
                           ],
                         ),
@@ -138,8 +131,7 @@ class EnglishEntryaquatic extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkwɑːtɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAquatic(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAquatic("en-US"),
                             ),
                           ],
                         ),

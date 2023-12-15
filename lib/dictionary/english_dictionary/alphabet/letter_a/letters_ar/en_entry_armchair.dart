@@ -111,13 +111,8 @@ class EnglishEntryarmchair extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "armchair"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːmtʃeə(r)/
+                            EntryTitle(word: "armchair"), // Find /ˈɑːmtʃeə(r)/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -126,9 +121,7 @@ class EnglishEntryarmchair extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːmtʃeə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakArmchair(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakArmchair("en-GB"),
                             ),
                           ],
                         ),
@@ -138,8 +131,7 @@ class EnglishEntryarmchair extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrmtʃer/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArmchair(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArmchair("en-US"),
                             ),
                           ],
                         ),

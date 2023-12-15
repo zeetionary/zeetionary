@@ -64,22 +64,14 @@ class EnglishEntryafar extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "from afar"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈfɑː(r)/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "from afar"), // Find /əˈfɑː(r)/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /frəm əˈfɑː(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAfar(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAfar("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryafar extends StatelessWidget {
                                 text:
                                     "IpaUS: /frəm əˈfɑːr/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAfar(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAfar("en-US"),
                             ),
                           ],
                         ),

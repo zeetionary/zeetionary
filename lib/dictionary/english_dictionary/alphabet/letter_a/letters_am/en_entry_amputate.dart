@@ -104,13 +104,8 @@ class EnglishEntryamputate extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "amputate"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæmpjuteɪt/
+                            EntryTitle(word: "amputate"), // Find /ˈæmpjuteɪt/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -119,9 +114,7 @@ class EnglishEntryamputate extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæmpjuteɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAmputate(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAmputate("en-GB"),
                             ),
                           ],
                         ),
@@ -131,8 +124,7 @@ class EnglishEntryamputate extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæmpjuteɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmputate(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAmputate("en-US"),
                             ),
                           ],
                         ),

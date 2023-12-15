@@ -112,12 +112,8 @@ class EnglishEntryapologetic extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "apologetic"), // DOPSUM: CHANGE WORD ENTRY - Find /əˌpɒləˈdʒetɪk/
+                                word: "apologetic"), // Find /əˌpɒləˈdʒetɪk/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -126,9 +122,7 @@ class EnglishEntryapologetic extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˌpɒləˈdʒetɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApologetic(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakApologetic("en-GB"),
                             ),
                           ],
                         ),
@@ -138,8 +132,7 @@ class EnglishEntryapologetic extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌpɑːləˈdʒetɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApologetic(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakApologetic("en-US"),
                             ),
                           ],
                         ),

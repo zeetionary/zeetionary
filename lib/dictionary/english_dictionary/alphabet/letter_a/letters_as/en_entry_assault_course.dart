@@ -113,12 +113,8 @@ class EnglishEntryassaultcourse extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "assault course"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈsɔːlt kɔːs/
+                                word: "assault course"), // Find /əˈsɔːlt kɔːs/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +123,7 @@ class EnglishEntryassaultcourse extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈsɔːlt kɔːs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAssaultcourse(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAssaultcourse("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +133,7 @@ class EnglishEntryassaultcourse extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈsɔːlt kɔːrs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAssaultcourse(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAssaultcourse("en-US"),
                             ),
                           ],
                         ),

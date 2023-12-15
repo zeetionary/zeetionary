@@ -112,13 +112,8 @@ class EnglishEntryasteroid extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "asteroid"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæstərɔɪd/
+                            EntryTitle(word: "asteroid"), // Find /ˈæstərɔɪd/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +122,7 @@ class EnglishEntryasteroid extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæstərɔɪd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAsteroid(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAsteroid("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +132,7 @@ class EnglishEntryasteroid extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæstərɔɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAsteroid(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAsteroid("en-US"),
                             ),
                           ],
                         ),

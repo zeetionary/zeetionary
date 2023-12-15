@@ -111,13 +111,8 @@ class EnglishEntryapostle extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "apostle"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈpɒsl/
+                            EntryTitle(word: "apostle"), // Find /əˈpɒsl/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -126,9 +121,7 @@ class EnglishEntryapostle extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈpɒsl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakApostle(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakApostle("en-GB"),
                             ),
                           ],
                         ),
@@ -138,8 +131,7 @@ class EnglishEntryapostle extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈpɑːsl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApostle(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakApostle("en-US"),
                             ),
                           ],
                         ),

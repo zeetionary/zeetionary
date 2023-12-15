@@ -110,9 +110,6 @@ class EnglishEntryawkwardly extends StatelessWidget {
                             EntryTitle(
                                 word: "awkwardly"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -121,9 +118,7 @@ class EnglishEntryawkwardly extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɔːkwədli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAwkwardly(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAwkwardly("en-GB"),
                             ),
                           ],
                         ),
@@ -133,8 +128,7 @@ class EnglishEntryawkwardly extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɔːkwərdli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAwkwardly(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAwkwardly("en-US"),
                             ),
                           ],
                         ),

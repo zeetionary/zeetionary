@@ -105,13 +105,8 @@ class EnglishEntryanomaly extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "anomaly"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈnɒməli/
+                            EntryTitle(word: "anomaly"), // Find /əˈnɒməli/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -120,9 +115,7 @@ class EnglishEntryanomaly extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈnɒməli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAnomaly(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAnomaly("en-GB"),
                             ),
                           ],
                         ),
@@ -132,8 +125,7 @@ class EnglishEntryanomaly extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈnɑːməli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnomaly(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAnomaly("en-US"),
                             ),
                           ],
                         ),

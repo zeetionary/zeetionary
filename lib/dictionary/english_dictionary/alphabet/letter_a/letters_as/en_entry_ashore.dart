@@ -112,13 +112,8 @@ class EnglishEntryashore extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "ashore"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈʃɔː(r)/
+                            EntryTitle(word: "ashore"), // Find /əˈʃɔː(r)/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +122,7 @@ class EnglishEntryashore extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈʃɔː(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAshore(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAshore("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +132,7 @@ class EnglishEntryashore extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈʃɔːr/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAshore(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAshore("en-US"),
                             ),
                           ],
                         ),

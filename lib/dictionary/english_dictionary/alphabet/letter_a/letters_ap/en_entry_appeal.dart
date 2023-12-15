@@ -116,13 +116,8 @@ class EnglishEntryappeal extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "appeal"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈpiːl/
+                            EntryTitle(word: "appeal"), // Find /əˈpiːl/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -131,9 +126,7 @@ class EnglishEntryappeal extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈpiːl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAppeal(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAppeal("en-GB"),
                             ),
                           ],
                         ),
@@ -143,8 +136,7 @@ class EnglishEntryappeal extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈpiːl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAppeal(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAppeal("en-US"),
                             ),
                           ],
                         ),

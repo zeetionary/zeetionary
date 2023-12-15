@@ -64,22 +64,14 @@ class EnglishEntryagony extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "agony"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæɡəni/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "agony"), // Find /ˈæɡəni/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈæɡəni/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAgony(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAgony("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryagony extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæɡəni/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgony(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAgony("en-US"),
                             ),
                           ],
                         ),

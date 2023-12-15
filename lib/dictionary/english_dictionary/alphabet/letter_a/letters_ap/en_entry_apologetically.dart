@@ -112,11 +112,8 @@ class EnglishEntryapologetically extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "apologetically"), // DOPSUM: CHANGE WORD ENTRY - Find /əˌpɒləˈdʒetɪkli/
+                                    "apologetically"), // Find /əˌpɒləˈdʒetɪkli/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +122,7 @@ class EnglishEntryapologetically extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˌpɒləˈdʒetɪkli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApologetically(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakApologetically("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +132,7 @@ class EnglishEntryapologetically extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌpɑːləˈdʒetɪkli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApologetically(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakApologetically("en-US"),
                             ),
                           ],
                         ),

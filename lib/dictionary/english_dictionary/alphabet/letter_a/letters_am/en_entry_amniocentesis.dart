@@ -130,11 +130,8 @@ class EnglishEntryamniocentesis extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "amniocentesis"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌæmniəʊsenˈtiːsɪs/
+                                    "amniocentesis"), // Find /ˌæmniəʊsenˈtiːsɪs/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -143,9 +140,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæmniəʊsenˈtiːsɪs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmniocentesis(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAmniocentesis("en-GB"),
                             ),
                           ],
                         ),
@@ -155,8 +150,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæmniəʊsenˈtiːsɪs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmniocentesis(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAmniocentesis("en-US"),
                             ),
                           ],
                         ),

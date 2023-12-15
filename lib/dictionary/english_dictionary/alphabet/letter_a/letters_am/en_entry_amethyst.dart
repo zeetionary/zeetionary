@@ -128,13 +128,8 @@ class EnglishEntryamethyst extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "amethyst"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæməθɪst/
+                            EntryTitle(word: "amethyst"), // Find /ˈæməθɪst/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -143,9 +138,7 @@ class EnglishEntryamethyst extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæməθɪst/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAmethyst(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAmethyst("en-GB"),
                             ),
                           ],
                         ),
@@ -155,8 +148,7 @@ class EnglishEntryamethyst extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæməθɪst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmethyst(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAmethyst("en-US"),
                             ),
                           ],
                         ),

@@ -59,19 +59,13 @@ class EnglishEntryabstain extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word: "abstain"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əbˈsteɪn/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAbstain(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAbstain("en-GB"),
                             ),
                           ],
                         ),
@@ -81,8 +75,7 @@ class EnglishEntryabstain extends StatelessWidget {
                                 text:
                                     "IpaUS: /əbˈsteɪn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbstain(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbstain("en-US"),
                             ),
                           ],
                         ),

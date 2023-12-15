@@ -115,13 +115,8 @@ class EnglishEntryash extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "ash"), // DOPSUM: CHANGE WORD ENTRY - Find /æʃ/
+                            EntryTitle(word: "ash"), // Find /æʃ/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -130,9 +125,7 @@ class EnglishEntryash extends StatelessWidget {
                                 text:
                                     "IpaUK: /æʃ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAsh(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAsh("en-GB"),
                             ),
                           ],
                         ),
@@ -142,8 +135,7 @@ class EnglishEntryash extends StatelessWidget {
                                 text:
                                     "IpaUS: /æʃ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAsh(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAsh("en-US"),
                             ),
                           ],
                         ),

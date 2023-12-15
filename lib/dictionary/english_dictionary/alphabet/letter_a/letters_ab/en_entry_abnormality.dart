@@ -51,19 +51,13 @@ class EnglishEntryabnormality extends StatelessWidget {
                             EntryTitle(
                                 word:
                                     "abnormality"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌæbnɔːˈmæləti/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAbnormality(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAbnormality("en-GB"),
                             ),
                           ],
                         ),
@@ -73,8 +67,7 @@ class EnglishEntryabnormality extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæbnɔːrˈmæləti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbnormality(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbnormality("en-US"),
                             ),
                           ],
                         ),

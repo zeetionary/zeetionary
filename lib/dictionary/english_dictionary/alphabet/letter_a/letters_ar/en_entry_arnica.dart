@@ -109,13 +109,8 @@ class EnglishEntryarnica extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "arnica"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːnɪkə/
+                            EntryTitle(word: "arnica"), // Find /ˈɑːnɪkə/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -124,9 +119,7 @@ class EnglishEntryarnica extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːnɪkə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakArnica(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakArnica("en-GB"),
                             ),
                           ],
                         ),
@@ -136,8 +129,7 @@ class EnglishEntryarnica extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrnɪkə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArnica(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArnica("en-US"),
                             ),
                           ],
                         ),

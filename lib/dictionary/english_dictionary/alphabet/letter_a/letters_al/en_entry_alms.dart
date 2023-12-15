@@ -64,13 +64,7 @@ class EnglishEntryalms extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "alms"), // DOPSUM: CHANGE WORD ENTRY - Find /ɑːmz/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "alms"), // Find /ɑːmz/
                           ],
                         ),
                         Row(
@@ -79,9 +73,7 @@ class EnglishEntryalms extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɑːmz/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAlms(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAlms("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +83,7 @@ class EnglishEntryalms extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɑːmz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlms(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlms("en-US"),
                             ),
                           ],
                         ),

@@ -51,10 +51,6 @@ class EnglishEntryabsolutemajority extends StatelessWidget {
                             EntryTitle(
                                 word:
                                     "absolute majority"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -62,9 +58,7 @@ class EnglishEntryabsolutemajority extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ˌæbsəluːt məˈdʒɒrəti/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAbsolutemajority(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAbsolutemajority("en-GB"),
                             ),
                           ],
                         ),
@@ -74,8 +68,7 @@ class EnglishEntryabsolutemajority extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæbsəluːt məˈdʒɔːrəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbsolutemajority(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbsolutemajority("en-US"),
                             ),
                           ],
                         ),

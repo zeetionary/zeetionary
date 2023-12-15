@@ -65,21 +65,14 @@ class EnglishEntryafterthought extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "afterthought"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːftəθɔːt/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "afterthought"), // Find /ˈɑːftəθɔːt/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈɑːftəθɔːt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAfterthought(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAfterthought("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +82,7 @@ class EnglishEntryafterthought extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːftərθɔːt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAfterthought(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAfterthought("en-US"),
                             ),
                           ],
                         ),

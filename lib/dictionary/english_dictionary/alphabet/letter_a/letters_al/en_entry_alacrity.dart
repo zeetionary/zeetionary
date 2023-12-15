@@ -64,13 +64,7 @@ class EnglishEntryalacrity extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "alacrity"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈlækrəti/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "alacrity"), // Find /əˈlækrəti/
                           ],
                         ),
                         Row(
@@ -79,9 +73,7 @@ class EnglishEntryalacrity extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈlækrəti/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAlacrity(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAlacrity("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +83,7 @@ class EnglishEntryalacrity extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈlækrəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlacrity(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlacrity("en-US"),
                             ),
                           ],
                         ),

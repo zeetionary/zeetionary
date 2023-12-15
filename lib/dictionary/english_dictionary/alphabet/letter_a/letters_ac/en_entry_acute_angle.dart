@@ -64,21 +64,14 @@ class EnglishEntryacuteangle extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "acute angle"), // DOPSUM: CHANGE WORD ENTRY - Find /əˌkjuːt ˈæŋɡl/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "acute angle"), // Find /əˌkjuːt ˈæŋɡl/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˌkjuːt ˈæŋɡl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcuteangle(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAcuteangle("en-GB"),
                             ),
                           ],
                         ),
@@ -88,8 +81,7 @@ class EnglishEntryacuteangle extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌkjuːt ˈæŋɡl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcuteangle(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAcuteangle("en-US"),
                             ),
                           ],
                         ),

@@ -110,13 +110,8 @@ class EnglishEntryarmada extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "armada"), // DOPSUM: CHANGE WORD ENTRY - Find /ɑːˈmɑːdə/
+                            EntryTitle(word: "armada"), // Find /ɑːˈmɑːdə/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +120,7 @@ class EnglishEntryarmada extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɑːˈmɑːdə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakArmada(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakArmada("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +130,7 @@ class EnglishEntryarmada extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɑːrˈmɑːdə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArmada(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArmada("en-US"),
                             ),
                           ],
                         ),

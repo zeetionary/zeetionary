@@ -110,13 +110,8 @@ class EnglishEntryarmadillo extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "armadillo"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌɑːməˈdɪləʊ/
+                            EntryTitle(word: "armadillo"), // Find /ˌɑːməˈdɪləʊ/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +120,7 @@ class EnglishEntryarmadillo extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɑːməˈdɪləʊ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArmadillo(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakArmadillo("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +130,7 @@ class EnglishEntryarmadillo extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɑːrməˈdɪləʊ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArmadillo(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArmadillo("en-US"),
                             ),
                           ],
                         ),

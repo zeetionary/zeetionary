@@ -63,13 +63,7 @@ class EnglishEntryallah extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "Allah"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈælə/,  /əˈlɑː/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "Allah"), // Find /ˈælə/,  /əˈlɑː/
                           ],
                         ),
                         Row(
@@ -78,9 +72,7 @@ class EnglishEntryallah extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈælə/,  /əˈlɑː/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAllah(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAllah("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +82,7 @@ class EnglishEntryallah extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈælə/,  /ˈɑːlə/,  /ɑːˈlɑː/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAllah(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAllah("en-US"),
                             ),
                           ],
                         ),

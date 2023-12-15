@@ -109,12 +109,8 @@ class EnglishEntryantiquated extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "antiquated"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæntɪkweɪtɪd/
+                                word: "antiquated"), // Find /ˈæntɪkweɪtɪd/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -123,9 +119,7 @@ class EnglishEntryantiquated extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæntɪkweɪtɪd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntiquated(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAntiquated("en-GB"),
                             ),
                           ],
                         ),
@@ -135,8 +129,7 @@ class EnglishEntryantiquated extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæntɪkweɪtɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntiquated(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAntiquated("en-US"),
                             ),
                           ],
                         ),

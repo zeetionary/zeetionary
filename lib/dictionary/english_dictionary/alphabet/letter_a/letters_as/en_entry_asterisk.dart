@@ -113,13 +113,8 @@ class EnglishEntryasterisk extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "asterisk"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæstərɪsk/
+                            EntryTitle(word: "asterisk"), // Find /ˈæstərɪsk/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -128,9 +123,7 @@ class EnglishEntryasterisk extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæstərɪsk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAsterisk(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAsterisk("en-GB"),
                             ),
                           ],
                         ),
@@ -140,8 +133,7 @@ class EnglishEntryasterisk extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæstərɪsk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAsterisk(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAsterisk("en-US"),
                             ),
                           ],
                         ),

@@ -129,13 +129,8 @@ class EnglishEntryamicably extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "amicably"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæmɪkəbli/
+                            EntryTitle(word: "amicably"), // Find /ˈæmɪkəbli/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -144,9 +139,7 @@ class EnglishEntryamicably extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæmɪkəbli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAmicably(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAmicably("en-GB"),
                             ),
                           ],
                         ),
@@ -156,8 +149,7 @@ class EnglishEntryamicably extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæmɪkəbli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmicably(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAmicably("en-US"),
                             ),
                           ],
                         ),

@@ -116,9 +116,6 @@ class EnglishEntryautobiography extends StatelessWidget {
                                 word:
                                     "autobiography"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +124,7 @@ class EnglishEntryautobiography extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɔːtəbaɪˈɒɡrəfi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAutobiography(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAutobiography("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +134,7 @@ class EnglishEntryautobiography extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɔːtəbaɪˈɑːɡrəfi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAutobiography(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAutobiography("en-US"),
                             ),
                           ],
                         ),

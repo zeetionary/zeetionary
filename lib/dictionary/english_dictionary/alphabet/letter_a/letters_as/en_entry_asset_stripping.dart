@@ -113,11 +113,8 @@ class EnglishEntryassetstripping extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "asset-stripping"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæset strɪpɪŋ/
+                                    "asset-stripping"), // Find /ˈæset strɪpɪŋ/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -126,9 +123,7 @@ class EnglishEntryassetstripping extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæset strɪpɪŋ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAssetstripping(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAssetstripping("en-GB"),
                             ),
                           ],
                         ),
@@ -138,8 +133,7 @@ class EnglishEntryassetstripping extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæset strɪpɪŋ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAssetstripping(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAssetstripping("en-US"),
                             ),
                           ],
                         ),

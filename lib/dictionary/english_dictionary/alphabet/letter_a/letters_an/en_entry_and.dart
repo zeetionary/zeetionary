@@ -135,11 +135,8 @@ class EnglishEntryand extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "and"), // DOPSUM: CHANGE WORD ENTRY - Find /ənd/,  /ən/,  /n/, strong form  /ænd/
+                                    "and"), // Find /ənd/,  /ən/,  /n/, strong form  /ænd/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -148,9 +145,7 @@ class EnglishEntryand extends StatelessWidget {
                                 text:
                                     "IpaUK: /ənd/,  /ən/,  /n/, strong form  /ænd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAnd(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAnd("en-GB"),
                             ),
                           ],
                         ),
@@ -160,8 +155,7 @@ class EnglishEntryand extends StatelessWidget {
                                 text:
                                     "IpaUS: /ənd/,  /ən/,  /n/, strong form  /ænd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnd(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAnd("en-US"),
                             ),
                           ],
                         ),

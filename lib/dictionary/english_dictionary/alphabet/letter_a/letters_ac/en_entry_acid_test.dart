@@ -64,22 +64,14 @@ class EnglishEntryacidtest extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "acid test"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌæsɪd ˈtest/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "acid test"), // Find /ˌæsɪd ˈtest/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌæsɪd ˈtest/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAcidtest(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAcidtest("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryacidtest extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæsɪd ˈtest/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcidtest(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAcidtest("en-US"),
                             ),
                           ],
                         ),

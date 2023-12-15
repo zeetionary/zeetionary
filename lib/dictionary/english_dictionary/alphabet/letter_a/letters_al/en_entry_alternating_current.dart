@@ -66,11 +66,7 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "alternating current"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌɔːltəneɪtɪŋ ˈkʌrənt/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                    "alternating current"), // Find /ˌɔːltəneɪtɪŋ ˈkʌrənt/
                           ],
                         ),
                         Row(
@@ -79,9 +75,7 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɔːltəneɪtɪŋ ˈkʌrənt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlternatingcurrent(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAlternatingcurrent("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +85,7 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɔːltərneɪtɪŋ ˈkɜːrənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlternatingcurrent(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlternatingcurrent("en-US"),
                             ),
                           ],
                         ),

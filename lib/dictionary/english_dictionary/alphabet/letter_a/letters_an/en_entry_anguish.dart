@@ -105,13 +105,8 @@ class EnglishEntryanguish extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "anguish"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæŋɡwɪʃ/
+                            EntryTitle(word: "anguish"), // Find /ˈæŋɡwɪʃ/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -120,9 +115,7 @@ class EnglishEntryanguish extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæŋɡwɪʃ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAnguish(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAnguish("en-GB"),
                             ),
                           ],
                         ),
@@ -132,8 +125,7 @@ class EnglishEntryanguish extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæŋɡwɪʃ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnguish(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAnguish("en-US"),
                             ),
                           ],
                         ),

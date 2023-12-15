@@ -63,22 +63,14 @@ class EnglishEntryadverbial extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "adverbial"), // DOPSUM: CHANGE WORD ENTRY - Find /ædˈvɜːbiəl/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "adverbial"), // Find /ædˈvɜːbiəl/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ædˈvɜːbiəl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdverbial(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAdverbial("en-GB"),
                             ),
                           ],
                         ),
@@ -88,8 +80,7 @@ class EnglishEntryadverbial extends StatelessWidget {
                                 text:
                                     "IpaUS: /ædˈvɜːrbiəl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdverbial(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdverbial("en-US"),
                             ),
                           ],
                         ),

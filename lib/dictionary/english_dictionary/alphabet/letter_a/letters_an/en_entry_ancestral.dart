@@ -104,13 +104,8 @@ class EnglishEntryancestral extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "ancestral"), // DOPSUM: CHANGE WORD ENTRY - Find /ænˈsestrəl/
+                            EntryTitle(word: "ancestral"), // Find /ænˈsestrəl/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -119,9 +114,7 @@ class EnglishEntryancestral extends StatelessWidget {
                                 text:
                                     "IpaUK: /ænˈsestrəl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAncestral(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAncestral("en-GB"),
                             ),
                           ],
                         ),
@@ -131,8 +124,7 @@ class EnglishEntryancestral extends StatelessWidget {
                                 text:
                                     "IpaUS: /ænˈsestrəl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAncestral(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAncestral("en-US"),
                             ),
                           ],
                         ),

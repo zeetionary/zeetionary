@@ -107,12 +107,8 @@ class EnglishEntryantibiotic extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "antibiotic"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌæntibaɪˈɒtɪk/
+                                word: "antibiotic"), // Find /ˌæntibaɪˈɒtɪk/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -121,9 +117,7 @@ class EnglishEntryantibiotic extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæntibaɪˈɒtɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntibiotic(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAntibiotic("en-GB"),
                             ),
                           ],
                         ),
@@ -133,8 +127,7 @@ class EnglishEntryantibiotic extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæntibaɪˈɑːtɪk/,  /ˌæntaɪbaɪˈɑːtɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntibiotic(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAntibiotic("en-US"),
                             ),
                           ],
                         ),

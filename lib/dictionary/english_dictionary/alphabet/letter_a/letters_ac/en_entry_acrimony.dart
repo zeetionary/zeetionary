@@ -64,22 +64,14 @@ class EnglishEntryacrimony extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "acrimony"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈækrɪməni/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "acrimony"), // Find /ˈækrɪməni/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈækrɪməni/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcrimony(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAcrimony("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryacrimony extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈækrɪməʊni/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcrimony(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAcrimony("en-US"),
                             ),
                           ],
                         ),

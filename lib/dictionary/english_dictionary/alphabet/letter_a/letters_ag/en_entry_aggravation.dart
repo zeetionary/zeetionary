@@ -66,21 +66,14 @@ class EnglishEntryaggravation extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "aggravation"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌæɡrəˈveɪʃn/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "aggravation"), // Find /ˌæɡrəˈveɪʃn/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌæɡrəˈveɪʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAggravation(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAggravation("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +83,7 @@ class EnglishEntryaggravation extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæɡrəˈveɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAggravation(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAggravation("en-US"),
                             ),
                           ],
                         ),

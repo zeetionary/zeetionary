@@ -116,11 +116,8 @@ class EnglishEntryassurance extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "assurance"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈʃʊərəns/,  /əˈʃɔːrəns/
+                                    "assurance"), // Find /əˈʃʊərəns/,  /əˈʃɔːrəns/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -129,9 +126,7 @@ class EnglishEntryassurance extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈʃʊərəns/,  /əˈʃɔːrəns/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAssurance(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAssurance("en-GB"),
                             ),
                           ],
                         ),
@@ -141,8 +136,7 @@ class EnglishEntryassurance extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈʃʊrəns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAssurance(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAssurance("en-US"),
                             ),
                           ],
                         ),

@@ -116,13 +116,7 @@ class EnglishEntryalong extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "along"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈlɒŋ/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "along"), // Find /əˈlɒŋ/
                           ],
                         ),
                         Row(
@@ -131,9 +125,7 @@ class EnglishEntryalong extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈlɒŋ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAlong(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAlong("en-GB"),
                             ),
                           ],
                         ),
@@ -143,8 +135,7 @@ class EnglishEntryalong extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈlɔːŋ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlong(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlong("en-US"),
                             ),
                           ],
                         ),

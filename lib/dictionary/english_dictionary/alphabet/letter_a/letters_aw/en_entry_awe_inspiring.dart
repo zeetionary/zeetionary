@@ -108,9 +108,6 @@ class EnglishEntryaweinspiring extends StatelessWidget {
                                 word:
                                     "awe-inspiring"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -119,9 +116,7 @@ class EnglishEntryaweinspiring extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɔː ɪnspaɪərɪŋ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAweinspiring(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAweinspiring("en-GB"),
                             ),
                           ],
                         ),
@@ -131,8 +126,7 @@ class EnglishEntryaweinspiring extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɔː ɪnspaɪərɪŋ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAweinspiring(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAweinspiring("en-US"),
                             ),
                           ],
                         ),

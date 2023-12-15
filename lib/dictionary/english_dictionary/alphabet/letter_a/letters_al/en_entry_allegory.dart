@@ -64,13 +64,7 @@ class EnglishEntryallegory extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "allegory"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæləɡəri/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "allegory"), // Find /ˈæləɡəri/
                           ],
                         ),
                         Row(
@@ -79,9 +73,7 @@ class EnglishEntryallegory extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæləɡəri/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAllegory(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAllegory("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +83,7 @@ class EnglishEntryallegory extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæləɡɔːri/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAllegory(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAllegory("en-US"),
                             ),
                           ],
                         ),

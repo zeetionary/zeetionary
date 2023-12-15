@@ -109,13 +109,8 @@ class EnglishEntryamount extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "amount"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈmaʊnt/
+                            EntryTitle(word: "amount"), // Find /əˈmaʊnt/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -124,9 +119,7 @@ class EnglishEntryamount extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈmaʊnt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAmount(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAmount("en-GB"),
                             ),
                           ],
                         ),
@@ -136,8 +129,7 @@ class EnglishEntryamount extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈmaʊnt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmount(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAmount("en-US"),
                             ),
                           ],
                         ),

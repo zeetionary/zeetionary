@@ -64,13 +64,8 @@ class EnglishEntryambulance extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "ambulance"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæmbjələns/
+                            EntryTitle(word: "ambulance"), // Find /ˈæmbjələns/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -79,9 +74,7 @@ class EnglishEntryambulance extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæmbjələns/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmbulance(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAmbulance("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +84,7 @@ class EnglishEntryambulance extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæmbjələns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmbulance(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAmbulance("en-US"),
                             ),
                           ],
                         ),

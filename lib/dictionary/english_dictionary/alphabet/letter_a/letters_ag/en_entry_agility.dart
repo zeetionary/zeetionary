@@ -65,22 +65,14 @@ class EnglishEntryagility extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "agility"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈdʒɪləti/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "agility"), // Find /əˈdʒɪləti/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈdʒɪləti/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAgility(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAgility("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +82,7 @@ class EnglishEntryagility extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈdʒɪləti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgility(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAgility("en-US"),
                             ),
                           ],
                         ),

@@ -51,19 +51,13 @@ class EnglishEntryaccreditation extends StatelessWidget {
                             EntryTitle(
                                 word:
                                     "accreditation"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˌkredɪˈteɪʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAccreditation(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAccreditation("en-GB"),
                             ),
                           ],
                         ),
@@ -73,8 +67,7 @@ class EnglishEntryaccreditation extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌkredɪˈteɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAccreditation(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAccreditation("en-US"),
                             ),
                           ],
                         ),

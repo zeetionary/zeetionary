@@ -65,21 +65,14 @@ class EnglishEntryadjudicate extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "adjudicate"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈdʒuːdɪkeɪt/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "adjudicate"), // Find /əˈdʒuːdɪkeɪt/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈdʒuːdɪkeɪt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdjudicate(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAdjudicate("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +82,7 @@ class EnglishEntryadjudicate extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈdʒuːdɪkeɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdjudicate(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdjudicate("en-US"),
                             ),
                           ],
                         ),

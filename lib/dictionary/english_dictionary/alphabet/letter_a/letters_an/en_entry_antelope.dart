@@ -106,13 +106,8 @@ class EnglishEntryantelope extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "antelope"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæntɪləʊp/
+                            EntryTitle(word: "antelope"), // Find /ˈæntɪləʊp/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -121,9 +116,7 @@ class EnglishEntryantelope extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæntɪləʊp/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAntelope(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAntelope("en-GB"),
                             ),
                           ],
                         ),
@@ -133,8 +126,7 @@ class EnglishEntryantelope extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæntɪləʊp/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntelope(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAntelope("en-US"),
                             ),
                           ],
                         ),

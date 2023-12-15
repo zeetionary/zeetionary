@@ -64,13 +64,7 @@ class EnglishEntryairstrip extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "airstrip"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeəstrɪp/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "airstrip"), // Find /ˈeəstrɪp/
                           ],
                         ),
                         Row(
@@ -79,9 +73,7 @@ class EnglishEntryairstrip extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈeəstrɪp/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAirstrip(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAirstrip("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +83,7 @@ class EnglishEntryairstrip extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈerstrɪp/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAirstrip(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAirstrip("en-US"),
                             ),
                           ],
                         ),

@@ -64,22 +64,14 @@ class EnglishEntryaggrieved extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "aggrieved"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈɡriːvd/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "aggrieved"), // Find /əˈɡriːvd/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈɡriːvd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAggrieved(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAggrieved("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryaggrieved extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈɡriːvd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAggrieved(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAggrieved("en-US"),
                             ),
                           ],
                         ),

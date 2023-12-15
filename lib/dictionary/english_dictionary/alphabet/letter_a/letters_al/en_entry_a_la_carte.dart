@@ -64,12 +64,7 @@ class EnglishEntryalacarte extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "à la carte"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌɑː lɑː ˈkɑːt/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "à la carte"), // Find /ˌɑː lɑː ˈkɑːt/
                           ],
                         ),
                         Row(
@@ -78,9 +73,7 @@ class EnglishEntryalacarte extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɑː lɑː ˈkɑːt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAlacarte(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAlacarte("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +83,7 @@ class EnglishEntryalacarte extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɑː lɑː ˈkɑːrt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlacarte(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlacarte("en-US"),
                             ),
                           ],
                         ),

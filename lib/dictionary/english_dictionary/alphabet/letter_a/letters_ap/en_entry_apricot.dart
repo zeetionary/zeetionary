@@ -110,13 +110,8 @@ class EnglishEntryapricot extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "apricot"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeɪprɪkɒt/
+                            EntryTitle(word: "apricot"), // Find /ˈeɪprɪkɒt/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +120,7 @@ class EnglishEntryapricot extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈeɪprɪkɒt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakApricot(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakApricot("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +130,7 @@ class EnglishEntryapricot extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæprɪkɑːt/,  /ˈeɪprɪkɑːt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApricot(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakApricot("en-US"),
                             ),
                           ],
                         ),

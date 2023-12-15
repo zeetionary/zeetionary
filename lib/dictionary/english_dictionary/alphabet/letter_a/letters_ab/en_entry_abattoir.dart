@@ -50,19 +50,13 @@ class EnglishEntryAbattoir extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word: "abattoir"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈæbətwɑː(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAbattoir(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAbattoir("en-GB"),
                             ),
                           ],
                         ),
@@ -72,8 +66,7 @@ class EnglishEntryAbattoir extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæbətwɑːr/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbattoir(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbattoir("en-US"),
                             ),
                           ],
                         ),

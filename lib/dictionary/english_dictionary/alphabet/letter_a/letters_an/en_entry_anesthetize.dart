@@ -105,12 +105,8 @@ class EnglishEntryanesthetize extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "anesthetize"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈniːsθətaɪz/
+                                word: "anesthetize"), // Find /əˈniːsθətaɪz/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -119,9 +115,7 @@ class EnglishEntryanesthetize extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈniːsθətaɪz/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakanesthetize(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakanesthetize("en-GB"),
                             ),
                           ],
                         ),
@@ -131,8 +125,7 @@ class EnglishEntryanesthetize extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈnesθətaɪz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakanesthetize(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakanesthetize("en-US"),
                             ),
                           ],
                         ),

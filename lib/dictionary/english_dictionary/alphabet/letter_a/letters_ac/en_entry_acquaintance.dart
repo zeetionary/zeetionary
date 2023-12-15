@@ -66,21 +66,14 @@ class EnglishEntryacquaintance extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "acquaintance"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈkweɪntəns/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "acquaintance"), // Find /əˈkweɪntəns/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkweɪntəns/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcquaintance(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAcquaintance("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +83,7 @@ class EnglishEntryacquaintance extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkweɪntəns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcquaintance(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAcquaintance("en-US"),
                             ),
                           ],
                         ),

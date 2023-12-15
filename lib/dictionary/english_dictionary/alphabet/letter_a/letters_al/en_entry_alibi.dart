@@ -65,13 +65,7 @@ class EnglishEntryalibi extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "alibi"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæləbaɪ/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "alibi"), // Find /ˈæləbaɪ/
                           ],
                         ),
                         Row(
@@ -80,9 +74,7 @@ class EnglishEntryalibi extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæləbaɪ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAlibi(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAlibi("en-GB"),
                             ),
                           ],
                         ),
@@ -92,8 +84,7 @@ class EnglishEntryalibi extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæləbaɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlibi(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlibi("en-US"),
                             ),
                           ],
                         ),

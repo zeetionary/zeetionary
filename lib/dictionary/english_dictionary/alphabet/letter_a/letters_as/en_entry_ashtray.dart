@@ -112,13 +112,8 @@ class EnglishEntryashtray extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "ashtray"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæʃtreɪ/
+                            EntryTitle(word: "ashtray"), // Find /ˈæʃtreɪ/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +122,7 @@ class EnglishEntryashtray extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæʃtreɪ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAshtray(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAshtray("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +132,7 @@ class EnglishEntryashtray extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæʃtreɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAshtray(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAshtray("en-US"),
                             ),
                           ],
                         ),

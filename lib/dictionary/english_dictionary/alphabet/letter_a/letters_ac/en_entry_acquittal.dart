@@ -64,22 +64,14 @@ class EnglishEntryacquittal extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "acquittal"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈkwɪtl/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "acquittal"), // Find /əˈkwɪtl/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkwɪtl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcquittal(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAcquittal("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryacquittal extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkwɪtl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcquittal(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAcquittal("en-US"),
                             ),
                           ],
                         ),

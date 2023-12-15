@@ -109,12 +109,8 @@ class EnglishEntryantecedent extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "antecedent"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌæntɪˈsiːdnt/
+                                word: "antecedent"), // Find /ˌæntɪˈsiːdnt/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -123,9 +119,7 @@ class EnglishEntryantecedent extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæntɪˈsiːdnt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntecedent(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAntecedent("en-GB"),
                             ),
                           ],
                         ),
@@ -135,8 +129,7 @@ class EnglishEntryantecedent extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæntɪˈsiːdnt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntecedent(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAntecedent("en-US"),
                             ),
                           ],
                         ),

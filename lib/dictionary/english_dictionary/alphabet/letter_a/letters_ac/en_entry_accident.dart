@@ -68,19 +68,13 @@ class EnglishEntryaccident extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word: "accident"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈæksɪdənt/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAccident(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAccident("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +84,7 @@ class EnglishEntryaccident extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæksɪdənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAccident(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAccident("en-US"),
                             ),
                           ],
                         ),

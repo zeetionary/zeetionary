@@ -113,11 +113,8 @@ class EnglishEntryapplicable extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "applicable"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈplɪkəbl/,  /ˈæplɪkəbl/
+                                    "applicable"), // Find /əˈplɪkəbl/,  /ˈæplɪkəbl/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -126,9 +123,7 @@ class EnglishEntryapplicable extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈplɪkəbl/,  /ˈæplɪkəbl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApplicable(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakApplicable("en-GB"),
                             ),
                           ],
                         ),
@@ -138,8 +133,7 @@ class EnglishEntryapplicable extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæplɪkəbl/,  /əˈplɪkəbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApplicable(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakApplicable("en-US"),
                             ),
                           ],
                         ),

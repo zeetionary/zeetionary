@@ -67,11 +67,7 @@ class EnglishEntryadhesive extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "adhesive"), // DOPSUM: CHANGE WORD ENTRY - Find /ədˈhiːsɪv/, /ədˈhiːzɪv/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                    "adhesive"), // Find /ədˈhiːsɪv/, /ədˈhiːzɪv/
                           ],
                         ),
                         Row(
@@ -79,9 +75,7 @@ class EnglishEntryadhesive extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ədˈhiːsɪv/, /ədˈhiːzɪv/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAdhesive(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAdhesive("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +85,7 @@ class EnglishEntryadhesive extends StatelessWidget {
                                 text:
                                     "IpaUS: /ədˈhiːsɪv/, /ədˈhiːzɪv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdhesive(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdhesive("en-US"),
                             ),
                           ],
                         ),

@@ -63,13 +63,7 @@ class EnglishEntryaloft extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "aloft"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈlɒft/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "aloft"), // Find /əˈlɒft/
                           ],
                         ),
                         Row(
@@ -78,9 +72,7 @@ class EnglishEntryaloft extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈlɒft/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAloft(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAloft("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +82,7 @@ class EnglishEntryaloft extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈlɔːft/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAloft(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAloft("en-US"),
                             ),
                           ],
                         ),

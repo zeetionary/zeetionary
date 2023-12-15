@@ -112,9 +112,6 @@ class EnglishEntryaverage extends StatelessWidget {
                             EntryTitle(
                                 word: "average"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -123,9 +120,7 @@ class EnglishEntryaverage extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈævərɪdʒ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAverage(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAverage("en-GB"),
                             ),
                           ],
                         ),
@@ -135,8 +130,7 @@ class EnglishEntryaverage extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈævərɪdʒ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAverage(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAverage("en-US"),
                             ),
                           ],
                         ),

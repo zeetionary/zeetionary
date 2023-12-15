@@ -66,22 +66,14 @@ class EnglishEntryagile extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "agile"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈædʒaɪl/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "agile"), // Find /ˈædʒaɪl/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈædʒaɪl/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAgile(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAgile("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +83,7 @@ class EnglishEntryagile extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈædʒl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgile(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAgile("en-US"),
                             ),
                           ],
                         ),

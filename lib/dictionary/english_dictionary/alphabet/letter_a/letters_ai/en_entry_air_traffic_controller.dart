@@ -66,11 +66,7 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "air traffic controller"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌeə træfɪk kənˈtrəʊlə(r)/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                    "air traffic controller"), // Find /ˌeə træfɪk kənˈtrəʊlə(r)/
                           ],
                         ),
                         Row(
@@ -79,9 +75,8 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌeə træfɪk kənˈtrəʊlə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAirtrafficcontroller(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakAirtrafficcontroller("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +86,8 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌer træfɪk kənˈtrəʊlər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAirtrafficcontroller(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () =>
+                                  speakAirtrafficcontroller("en-US"),
                             ),
                           ],
                         ),

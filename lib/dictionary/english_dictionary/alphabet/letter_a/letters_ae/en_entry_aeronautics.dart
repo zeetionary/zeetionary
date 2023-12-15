@@ -64,21 +64,14 @@ class EnglishEntryaeronautics extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "aeronautics"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌeərəˈnɔːtɪks/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "aeronautics"), // Find /ˌeərəˈnɔːtɪks/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌeərəˈnɔːtɪks/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAeronautics(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAeronautics("en-GB"),
                             ),
                           ],
                         ),
@@ -88,8 +81,7 @@ class EnglishEntryaeronautics extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌerəˈnɔːtɪks/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAeronautics(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAeronautics("en-US"),
                             ),
                           ],
                         ),

@@ -49,19 +49,13 @@ class EnglishEntryabdominal extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word: "abdominal"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /æbˈdɒmɪnl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAbdominal(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAbdominal("en-GB"),
                             ),
                           ],
                         ),
@@ -71,8 +65,7 @@ class EnglishEntryabdominal extends StatelessWidget {
                                 text:
                                     "IpaUS: /æbˈdɑːmɪnl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbdominal(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbdominal("en-US"),
                             ),
                           ],
                         ),

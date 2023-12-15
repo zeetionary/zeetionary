@@ -64,21 +64,14 @@ class EnglishEntryadamsapple extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "Adam's apple"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌædəmz ˈæpl/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "Adam's apple"), // Find /ˌædəmz ˈæpl/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌædəmz ˈæpl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdamsapple(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAdamsapple("en-GB"),
                             ),
                           ],
                         ),
@@ -88,8 +81,7 @@ class EnglishEntryadamsapple extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌædəmz ˈæpl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdamsapple(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdamsapple("en-US"),
                             ),
                           ],
                         ),

@@ -60,19 +60,13 @@ class EnglishEntryaberration extends StatelessWidget {
                             EntryTitle(
                                 word:
                                     "aberration"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌæbəˈreɪʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAberration(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAberration("en-GB"),
                             ),
                           ],
                         ),
@@ -82,8 +76,7 @@ class EnglishEntryaberration extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæbəˈreɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAberration(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAberration("en-US"),
                             ),
                           ],
                         ),

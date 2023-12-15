@@ -111,9 +111,6 @@ class EnglishEntrybait extends StatelessWidget {
                             EntryTitle(
                                 word: "bait"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -122,9 +119,7 @@ class EnglishEntrybait extends StatelessWidget {
                                 text:
                                     "IpaUK: /beɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakBait(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakBait("en-GB"),
                             ),
                           ],
                         ),
@@ -134,8 +129,7 @@ class EnglishEntrybait extends StatelessWidget {
                                 text:
                                     "IpaUS: /beɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBait(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakBait("en-US"),
                             ),
                           ],
                         ),

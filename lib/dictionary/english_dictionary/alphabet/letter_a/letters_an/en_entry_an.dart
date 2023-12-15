@@ -90,7 +90,7 @@ class EnglishEntryan extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(word: "an"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
+
                             //   '(indefinite article)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -100,9 +100,7 @@ class EnglishEntryan extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ən/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakA(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakA("en-GB"),
                             ),
                           ],
                         ),
@@ -112,8 +110,7 @@ class EnglishEntryan extends StatelessWidget {
                                 text:
                                     "IpaUS: /ən/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakA(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakA("en-US"),
                             ),
                           ],
                         ),

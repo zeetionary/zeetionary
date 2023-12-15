@@ -66,11 +66,7 @@ class EnglishEntryairhostess extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "air hostess"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeə həʊstəs/,  /ˈeə həʊstes/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                    "air hostess"), // Find /ˈeə həʊstəs/,  /ˈeə həʊstes/
                           ],
                         ),
                         Row(
@@ -78,9 +74,7 @@ class EnglishEntryairhostess extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ˈeə həʊstəs/,  /ˈeə həʊstes/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAirhostess(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAirhostess("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +84,7 @@ class EnglishEntryairhostess extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈer həʊstəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAirhostess(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAirhostess("en-US"),
                             ),
                           ],
                         ),

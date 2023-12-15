@@ -105,12 +105,8 @@ class EnglishEntryanaesthetist extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "anaesthetist"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈniːsθətɪst/
+                                word: "anaesthetist"), // Find /əˈniːsθətɪst/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -119,9 +115,7 @@ class EnglishEntryanaesthetist extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈniːsθətɪst/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnaesthetist(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAnaesthetist("en-GB"),
                             ),
                           ],
                         ),
@@ -131,8 +125,7 @@ class EnglishEntryanaesthetist extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈnesθətɪst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnaesthetist(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAnaesthetist("en-US"),
                             ),
                           ],
                         ),

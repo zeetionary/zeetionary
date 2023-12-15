@@ -185,9 +185,6 @@ class EnglishEntrybank extends StatelessWidget {
                             EntryTitle(
                                 word: "bank"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -196,9 +193,7 @@ class EnglishEntrybank extends StatelessWidget {
                                 text:
                                     "IpaUK: /bæŋk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakBank(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakBank("en-GB"),
                             ),
                           ],
                         ),
@@ -208,8 +203,7 @@ class EnglishEntrybank extends StatelessWidget {
                                 text:
                                     "IpaUS: /bæŋk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBank(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakBank("en-US"),
                             ),
                           ],
                         ),

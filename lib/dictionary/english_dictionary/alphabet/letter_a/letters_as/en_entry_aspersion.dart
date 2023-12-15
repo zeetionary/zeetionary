@@ -112,13 +112,8 @@ class EnglishEntryaspersion extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "aspersion"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈspɜːʃnz/
+                            EntryTitle(word: "aspersion"), // Find /əˈspɜːʃnz/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +122,7 @@ class EnglishEntryaspersion extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈspɜːʃnz/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAspersion(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAspersion("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +132,7 @@ class EnglishEntryaspersion extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈspɜːrʒnz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAspersion(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAspersion("en-US"),
                             ),
                           ],
                         ),

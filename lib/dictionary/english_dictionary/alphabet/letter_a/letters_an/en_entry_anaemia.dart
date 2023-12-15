@@ -104,13 +104,8 @@ class EnglishEntryanaemia extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "anaemia"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈniːmiə/
+                            EntryTitle(word: "anaemia"), // Find /əˈniːmiə/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -119,9 +114,7 @@ class EnglishEntryanaemia extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈniːmiə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAnaemia(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAnaemia("en-GB"),
                             ),
                           ],
                         ),
@@ -131,8 +124,7 @@ class EnglishEntryanaemia extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈniːmiə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnaemia(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAnaemia("en-US"),
                             ),
                           ],
                         ),

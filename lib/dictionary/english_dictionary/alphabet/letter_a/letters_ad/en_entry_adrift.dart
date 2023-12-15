@@ -66,22 +66,14 @@ class EnglishEntryadrift extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "adrift"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈdrɪft/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "adrift"), // Find /əˈdrɪft/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈdrɪft/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAdrift(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAdrift("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +83,7 @@ class EnglishEntryadrift extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈdrɪft/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdrift(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdrift("en-US"),
                             ),
                           ],
                         ),

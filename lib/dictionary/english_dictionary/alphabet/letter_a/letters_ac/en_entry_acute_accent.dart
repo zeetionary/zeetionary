@@ -64,12 +64,7 @@ class EnglishEntryacuteaccent extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "acute accent"), // DOPSUM: CHANGE WORD ENTRY - Find /əˌkjuːt ˈæksent/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "acute accent"), // Find /əˌkjuːt ˈæksent/
                           ],
                         ),
                         Row(
@@ -77,9 +72,7 @@ class EnglishEntryacuteaccent extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /əˌkjuːt ˈæksent/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcuteaccent(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAcuteaccent("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +82,7 @@ class EnglishEntryacuteaccent extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌkjuːt ˈæksent/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcuteaccent(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAcuteaccent("en-US"),
                             ),
                           ],
                         ),

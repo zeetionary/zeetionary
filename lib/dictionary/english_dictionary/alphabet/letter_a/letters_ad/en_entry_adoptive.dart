@@ -64,22 +64,14 @@ class EnglishEntryadoptive extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "adoptive"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈdɒptɪv/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "adoptive"), // Find /əˈdɒptɪv/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈdɒptɪv/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAdoptive(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAdoptive("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryadoptive extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈdɑːptɪv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdoptive(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdoptive("en-US"),
                             ),
                           ],
                         ),

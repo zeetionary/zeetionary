@@ -64,13 +64,7 @@ class EnglishEntryalloy extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "alloy"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈælɔɪ/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "alloy"), // Find /ˈælɔɪ/
                           ],
                         ),
                         Row(
@@ -79,9 +73,7 @@ class EnglishEntryalloy extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈælɔɪ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAlloy(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAlloy("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +83,7 @@ class EnglishEntryalloy extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈælɔɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlloy(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlloy("en-US"),
                             ),
                           ],
                         ),

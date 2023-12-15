@@ -65,22 +65,14 @@ class EnglishEntryafternoon extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "afternoon"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌɑːftəˈnuːn/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "afternoon"), // Find /ˌɑːftəˈnuːn/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌɑːftəˈnuːn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAfternoon(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAfternoon("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +82,7 @@ class EnglishEntryafternoon extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɑːftərˈnuːn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAfternoon(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAfternoon("en-US"),
                             ),
                           ],
                         ),

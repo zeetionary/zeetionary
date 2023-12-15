@@ -1711,17 +1711,16 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "birth",
     "birth control",
     "birthday",
-    // "birthmark",
-    // "birth rate",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    "birthmark",
+    "birth rate",
+    "biscuit",
+    "bisect",
+    "bishop",
+    "bishopric",
+    "bison",
+    "bistro",
+    "bit",
+    "bitch",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -1960,6 +1959,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "chicken flu",
     "come of age",
     "contralto",
+    "cookie",
     "far afield",
     "from afar",
     "globe artichoke",
@@ -8938,50 +8938,50 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-birthday");
                   }
-                  // if (wordsEnglish == "birthmark") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-birthmark");
-                  // }
-                  // if (wordsEnglish == "birth rate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-birth-rate");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
+                  if (wordsEnglish == "birthmark") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-birthmark");
+                  }
+                  if (wordsEnglish == "birth rate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-birth-rate");
+                  }
+                  if (wordsEnglish == "biscuit") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-biscuit");
+                  }
+                  if (wordsEnglish == "cookie") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-biscuit");
+                  }
+                  if (wordsEnglish == "bisect") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bisect");
+                  }
+                  if (wordsEnglish == "bishop") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bishop");
+                  }
+                  if (wordsEnglish == "bishopric") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bishopric");
+                  }
+                  if (wordsEnglish == "bison") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bison");
+                  }
+                  if (wordsEnglish == "bistro") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bistro");
+                  }
+                  if (wordsEnglish == "bit") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bit");
+                  }
+                  if (wordsEnglish == "bitch") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bitch");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");

@@ -65,22 +65,14 @@ class EnglishEntryaffirm extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "affirm"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈfɜːm/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "affirm"), // Find /əˈfɜːm/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈfɜːm/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAffirm(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAffirm("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +82,7 @@ class EnglishEntryaffirm extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈfɜːrm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAffirm(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAffirm("en-US"),
                             ),
                           ],
                         ),

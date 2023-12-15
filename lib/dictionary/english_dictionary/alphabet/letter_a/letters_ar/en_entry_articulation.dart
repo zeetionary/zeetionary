@@ -116,12 +116,8 @@ class EnglishEntryarticulation extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "articulation"), // DOPSUM: CHANGE WORD ENTRY - Find /ɑːˌtɪkjuˈleɪʃn/
+                                word: "articulation"), // Find /ɑːˌtɪkjuˈleɪʃn/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -130,9 +126,7 @@ class EnglishEntryarticulation extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɑːˌtɪkjuˈleɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArticulation(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakArticulation("en-GB"),
                             ),
                           ],
                         ),
@@ -142,8 +136,7 @@ class EnglishEntryarticulation extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɑːrˌtɪkjuˈleɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArticulation(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArticulation("en-US"),
                             ),
                           ],
                         ),

@@ -64,22 +64,14 @@ class EnglishEntryacumen extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "acumen"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈækjəmən/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "acumen"), // Find /ˈækjəmən/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈækjəmən/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAcumen(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAcumen("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryacumen extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈækjəmən/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcumen(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAcumen("en-US"),
                             ),
                           ],
                         ),

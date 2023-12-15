@@ -111,12 +111,8 @@ class EnglishEntryaristocracy extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "aristocracy"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌærɪˈstɒkrəsi/
+                                word: "aristocracy"), // Find /ˌærɪˈstɒkrəsi/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +121,7 @@ class EnglishEntryaristocracy extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌærɪˈstɒkrəsi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAristocracy(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAristocracy("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +131,7 @@ class EnglishEntryaristocracy extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌærɪˈstɑːkrəsi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAristocracy(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAristocracy("en-US"),
                             ),
                           ],
                         ),

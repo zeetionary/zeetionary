@@ -59,19 +59,13 @@ class EnglishEntryabide extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word: "abide"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈbaɪd/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAbide(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAbide("en-GB"),
                             ),
                           ],
                         ),
@@ -81,8 +75,7 @@ class EnglishEntryabide extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈbaɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbide(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbide("en-US"),
                             ),
                           ],
                         ),

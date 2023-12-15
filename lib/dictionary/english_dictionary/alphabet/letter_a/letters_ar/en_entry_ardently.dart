@@ -109,13 +109,8 @@ class EnglishEntryardently extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "ardently"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːdntli/
+                            EntryTitle(word: "ardently"), // Find /ˈɑːdntli/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -124,9 +119,7 @@ class EnglishEntryardently extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːdntli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakArdently(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakArdently("en-GB"),
                             ),
                           ],
                         ),
@@ -136,8 +129,7 @@ class EnglishEntryardently extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrdntli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArdently(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArdently("en-US"),
                             ),
                           ],
                         ),

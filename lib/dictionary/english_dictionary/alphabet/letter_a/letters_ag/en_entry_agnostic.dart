@@ -65,22 +65,14 @@ class EnglishEntryagnostic extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "agnostic"), // DOPSUM: CHANGE WORD ENTRY - Find /æɡˈnɒstɪk/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "agnostic"), // Find /æɡˈnɒstɪk/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /æɡˈnɒstɪk/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAgnostic(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAgnostic("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +82,7 @@ class EnglishEntryagnostic extends StatelessWidget {
                                 text:
                                     "IpaUS: /æɡˈnɑːstɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgnostic(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAgnostic("en-US"),
                             ),
                           ],
                         ),

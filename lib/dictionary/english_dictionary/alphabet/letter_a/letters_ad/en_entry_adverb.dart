@@ -63,22 +63,14 @@ class EnglishEntryadverb extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "adverb"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈædvɜːb/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "adverb"), // Find /ˈædvɜːb/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈædvɜːb/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAdverb(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAdverb("en-GB"),
                             ),
                           ],
                         ),
@@ -88,8 +80,7 @@ class EnglishEntryadverb extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈædvɜːrb/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdverb(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdverb("en-US"),
                             ),
                           ],
                         ),

@@ -42,10 +42,6 @@ class EnglishEntryabovebelowthefold extends StatelessWidget {
                             EntryTitle(
                                 word:
                                     "above/below the fold"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -53,9 +49,7 @@ class EnglishEntryabovebelowthefold extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /əˈbʌv/bɪˈləʊ ðə fəʊld/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAbovebelowthefold(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAbovebelowthefold("en-GB"),
                             ),
                           ],
                         ),
@@ -65,8 +59,7 @@ class EnglishEntryabovebelowthefold extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈbʌv/bɪˈloʊ ðə foʊld/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbovebelowthefold(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbovebelowthefold("en-US"),
                             ),
                           ],
                         ),

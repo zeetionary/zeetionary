@@ -109,13 +109,8 @@ class EnglishEntryantithesis extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "antithesis"), // DOPSUM: CHANGE WORD ENTRY - Find /ænˈtɪθəsɪs/
+                            EntryTitle(word: "antithesis"), // Find /ænˈtɪθəsɪs/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -124,9 +119,7 @@ class EnglishEntryantithesis extends StatelessWidget {
                                 text:
                                     "IpaUK: /ænˈtɪθəsɪs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntithesis(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAntithesis("en-GB"),
                             ),
                           ],
                         ),
@@ -136,8 +129,7 @@ class EnglishEntryantithesis extends StatelessWidget {
                                 text:
                                     "IpaUS: /ænˈtɪθəsɪs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntithesis(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAntithesis("en-US"),
                             ),
                           ],
                         ),

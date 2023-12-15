@@ -65,13 +65,7 @@ class EnglishEntryalmost extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "almost"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈɔːlməʊst/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "almost"), // Find /ˈɔːlməʊst/
                           ],
                         ),
                         Row(
@@ -80,9 +74,7 @@ class EnglishEntryalmost extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɔːlməʊst/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAlmost(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAlmost("en-GB"),
                             ),
                           ],
                         ),
@@ -92,8 +84,7 @@ class EnglishEntryalmost extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɔːlməʊst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlmost(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlmost("en-US"),
                             ),
                           ],
                         ),

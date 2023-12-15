@@ -66,11 +66,7 @@ class EnglishEntryaforementioned extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "aforementioned"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈfɔːmenʃənd/,  /əˌfɔːˈmenʃənd/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                    "aforementioned"), // Find /əˈfɔːmenʃənd/,  /əˌfɔːˈmenʃənd/
                           ],
                         ),
                         Row(
@@ -79,9 +75,7 @@ class EnglishEntryaforementioned extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈfɔːmenʃənd/,  /əˌfɔːˈmenʃənd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAforementioned(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAforementioned("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +85,7 @@ class EnglishEntryaforementioned extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈfɔːrmenʃənd/,  /əˌfɔːˈrmenʃənd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAforementioned(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAforementioned("en-US"),
                             ),
                           ],
                         ),

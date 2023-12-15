@@ -186,11 +186,7 @@ class EnglishEntryallright extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "all right (or alright)"), // DOPSUM: CHANGE WORD ENTRY - Find /ɔːl ˈraɪt/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                    "all right (or alright)"), // Find /ɔːl ˈraɪt/
                           ],
                         ),
                         Row(
@@ -199,9 +195,7 @@ class EnglishEntryallright extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɔːl ˈraɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAllright(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAllright("en-GB"),
                             ),
                           ],
                         ),
@@ -211,8 +205,7 @@ class EnglishEntryallright extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɔːl ˈraɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAllright(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAllright("en-US"),
                             ),
                           ],
                         ),

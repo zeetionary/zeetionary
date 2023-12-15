@@ -64,13 +64,7 @@ class EnglishEntryaltruism extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "altruism"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæltruɪzəm/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "altruism"), // Find /ˈæltruɪzəm/
                           ],
                         ),
                         Row(
@@ -79,9 +73,7 @@ class EnglishEntryaltruism extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæltruɪzəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAltruism(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAltruism("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +83,7 @@ class EnglishEntryaltruism extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæltruɪzəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAltruism(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAltruism("en-US"),
                             ),
                           ],
                         ),

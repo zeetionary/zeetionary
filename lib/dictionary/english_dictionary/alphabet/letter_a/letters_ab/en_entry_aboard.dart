@@ -59,19 +59,13 @@ class EnglishEntryaboard extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word: "aboard"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈbɔːd/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAboard(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAboard("en-GB"),
                             ),
                           ],
                         ),
@@ -81,8 +75,7 @@ class EnglishEntryaboard extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈbɔːrd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAboard(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAboard("en-US"),
                             ),
                           ],
                         ),

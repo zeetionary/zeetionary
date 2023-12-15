@@ -64,13 +64,7 @@ class EnglishEntryalimony extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "alimony"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈælɪməni/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "alimony"), // Find /ˈælɪməni/
                           ],
                         ),
                         Row(
@@ -79,9 +73,7 @@ class EnglishEntryalimony extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈælɪməni/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAlimony(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAlimony("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +83,7 @@ class EnglishEntryalimony extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈælɪməʊni/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlimony(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlimony("en-US"),
                             ),
                           ],
                         ),

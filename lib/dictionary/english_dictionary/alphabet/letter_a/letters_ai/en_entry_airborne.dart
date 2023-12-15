@@ -64,22 +64,14 @@ class EnglishEntryairborne extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "airborne"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeəbɔːn/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "airborne"), // Find /ˈeəbɔːn/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈeəbɔːn/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAirborne(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAirborne("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryairborne extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈeəbɔːrn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAirborne(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAirborne("en-US"),
                             ),
                           ],
                         ),

@@ -114,11 +114,8 @@ class EnglishEntryartichoke extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "artichoke (also: globe artichoke)"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːtɪtʃəʊk/
+                                    "artichoke (also: globe artichoke)"), // Find /ˈɑːtɪtʃəʊk/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +124,7 @@ class EnglishEntryartichoke extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːtɪtʃəʊk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArtichoke(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakArtichoke("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +134,7 @@ class EnglishEntryartichoke extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrtɪtʃəʊk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArtichoke(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArtichoke("en-US"),
                             ),
                           ],
                         ),

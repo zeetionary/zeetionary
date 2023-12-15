@@ -67,12 +67,7 @@ class EnglishEntryallclear extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "all-clear"), // DOPSUM: CHANGE WORD ENTRY - Find /ði ˌɔːl ˈklɪə(r)/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "all-clear"), // Find /ði ˌɔːl ˈklɪə(r)/
                           ],
                         ),
                         Row(
@@ -81,9 +76,7 @@ class EnglishEntryallclear extends StatelessWidget {
                                 text:
                                     "IpaUK: /ði ˌɔːl ˈklɪə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAllclear(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAllclear("en-GB"),
                             ),
                           ],
                         ),
@@ -93,8 +86,7 @@ class EnglishEntryallclear extends StatelessWidget {
                                 text:
                                     "IpaUS: /ði ˌɔːl ˈklɪr/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAllclear(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAllclear("en-US"),
                             ),
                           ],
                         ),

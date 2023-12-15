@@ -64,22 +64,14 @@ class EnglishEntryadjunct extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "adjunct"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈædʒʌŋkt/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "adjunct"), // Find /ˈædʒʌŋkt/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈædʒʌŋkt/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAdjunct(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAdjunct("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryadjunct extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈædʒʌŋkt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdjunct(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdjunct("en-US"),
                             ),
                           ],
                         ),

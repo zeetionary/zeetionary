@@ -114,13 +114,8 @@ class EnglishEntryassumption extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "assumption"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈsʌmpʃn/
+                            EntryTitle(word: "assumption"), // Find /əˈsʌmpʃn/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -129,9 +124,7 @@ class EnglishEntryassumption extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈsʌmpʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAssumption(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAssumption("en-GB"),
                             ),
                           ],
                         ),
@@ -141,8 +134,7 @@ class EnglishEntryassumption extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈsʌmpʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAssumption(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAssumption("en-US"),
                             ),
                           ],
                         ),

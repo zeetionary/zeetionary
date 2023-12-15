@@ -60,19 +60,13 @@ class EnglishEntryaccumulate extends StatelessWidget {
                             EntryTitle(
                                 word:
                                     "accumulate"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkjuːmjəleɪt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAccumulate(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAccumulate("en-GB"),
                             ),
                           ],
                         ),
@@ -82,8 +76,7 @@ class EnglishEntryaccumulate extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkjuːmjəleɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAccumulate(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAccumulate("en-US"),
                             ),
                           ],
                         ),

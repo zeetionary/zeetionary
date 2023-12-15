@@ -66,11 +66,7 @@ class EnglishEntryalgae extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "algae (the singular of algae is alga)"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈældʒiː/,  /ˈælɡiː/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                    "algae (the singular of algae is alga)"), // Find /ˈældʒiː/,  /ˈælɡiː/
                           ],
                         ),
                         Row(
@@ -79,9 +75,7 @@ class EnglishEntryalgae extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈældʒiː/,  /ˈælɡiː/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAlgae(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAlgae("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +85,7 @@ class EnglishEntryalgae extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈældʒiː/,  /ˈælɡiː/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlgae(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlgae("en-US"),
                             ),
                           ],
                         ),

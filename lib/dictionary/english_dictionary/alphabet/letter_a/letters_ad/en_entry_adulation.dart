@@ -64,22 +64,14 @@ class EnglishEntryadulation extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "adulation"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌædjuˈleɪʃn/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "adulation"), // Find /ˌædjuˈleɪʃn/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌædjuˈleɪʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdulation(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAdulation("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryadulation extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌædʒəˈleɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdulation(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdulation("en-US"),
                             ),
                           ],
                         ),

@@ -103,13 +103,8 @@ class EnglishEntryanagram extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "anagram"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈænəɡræm/
+                            EntryTitle(word: "anagram"), // Find /ˈænəɡræm/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -118,9 +113,7 @@ class EnglishEntryanagram extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈænəɡræm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAnagram(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAnagram("en-GB"),
                             ),
                           ],
                         ),
@@ -130,8 +123,7 @@ class EnglishEntryanagram extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈænəɡræm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnagram(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAnagram("en-US"),
                             ),
                           ],
                         ),

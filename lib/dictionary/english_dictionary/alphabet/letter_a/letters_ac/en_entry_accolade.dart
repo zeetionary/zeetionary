@@ -50,19 +50,13 @@ class EnglishEntryaccolade extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word: "accolade"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈækəleɪd/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAccolade(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAccolade("en-GB"),
                             ),
                           ],
                         ),
@@ -72,8 +66,7 @@ class EnglishEntryaccolade extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈækəleɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAccolade(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAccolade("en-US"),
                             ),
                           ],
                         ),

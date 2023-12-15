@@ -108,11 +108,8 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "the Antarctic Circle"), // DOPSUM: CHANGE WORD ENTRY - Find /ði ænˌtɑːktɪk ˈsɜːkl/
+                                    "the Antarctic Circle"), // Find /ði ænˌtɑːktɪk ˈsɜːkl/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -121,9 +118,7 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
                                 text:
                                     "IpaUK: /ði ænˌtɑːktɪk ˈsɜːkl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntarcticcircle(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAntarcticcircle("en-GB"),
                             ),
                           ],
                         ),
@@ -133,8 +128,7 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
                                 text:
                                     "IpaUS: /ði ænˌtɑːrktɪk ˈsɜːekl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntarcticcircle(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAntarcticcircle("en-US"),
                             ),
                           ],
                         ),

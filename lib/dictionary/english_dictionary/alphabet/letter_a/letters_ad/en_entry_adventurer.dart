@@ -65,21 +65,14 @@ class EnglishEntryadventurer extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "adventurer"), // DOPSUM: CHANGE WORD ENTRY - Find /ədˈventʃərə(r)/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "adventurer"), // Find /ədˈventʃərə(r)/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ədˈventʃərə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdventurer(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAdventurer("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +82,7 @@ class EnglishEntryadventurer extends StatelessWidget {
                                 text:
                                     "IpaUS: /ədˈventʃərər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdventurer(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdventurer("en-US"),
                             ),
                           ],
                         ),

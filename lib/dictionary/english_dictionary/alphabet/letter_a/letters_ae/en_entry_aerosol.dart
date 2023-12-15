@@ -64,22 +64,14 @@ class EnglishEntryaerosol extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "aerosol"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeərəsɒl/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "aerosol"), // Find /ˈeərəsɒl/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈeərəsɒl/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAerosol(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAerosol("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryaerosol extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈerəsɒl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAerosol(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAerosol("en-US"),
                             ),
                           ],
                         ),

@@ -64,22 +64,14 @@ class EnglishEntryadhoc extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "ad hoc"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌæd ˈhɒk/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "ad hoc"), // Find /ˌæd ˈhɒk/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌæd ˈhɒk/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAdhoc(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAdhoc("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryadhoc extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæd ˈhɑːk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdhoc(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdhoc("en-US"),
                             ),
                           ],
                         ),

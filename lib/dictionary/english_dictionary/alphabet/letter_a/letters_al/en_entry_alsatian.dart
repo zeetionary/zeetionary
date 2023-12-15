@@ -63,13 +63,7 @@ class EnglishEntryalsatian extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "alsatian"), // DOPSUM: CHANGE WORD ENTRY - Find /ælˈseɪʃn/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "alsatian"), // Find /ælˈseɪʃn/
                           ],
                         ),
                         Row(
@@ -78,9 +72,7 @@ class EnglishEntryalsatian extends StatelessWidget {
                                 text:
                                     "IpaUK: /ælˈseɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAlsatian(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAlsatian("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +82,7 @@ class EnglishEntryalsatian extends StatelessWidget {
                                 text:
                                     "IpaUS: /ælˈseɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlsatian(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlsatian("en-US"),
                             ),
                           ],
                         ),

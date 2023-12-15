@@ -51,19 +51,13 @@ class EnglishEntryaccompanist extends StatelessWidget {
                             EntryTitle(
                                 word:
                                     "accompanist"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkʌmpənɪst/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAccompanist(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAccompanist("en-GB"),
                             ),
                           ],
                         ),
@@ -73,8 +67,7 @@ class EnglishEntryaccompanist extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkʌmpənɪst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAccompanist(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAccompanist("en-US"),
                             ),
                           ],
                         ),

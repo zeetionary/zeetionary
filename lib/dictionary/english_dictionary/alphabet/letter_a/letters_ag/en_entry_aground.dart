@@ -64,22 +64,14 @@ class EnglishEntryaground extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "aground"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈɡraʊnd/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "aground"), // Find /əˈɡraʊnd/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈɡraʊnd/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAground(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAground("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryaground extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈɡraʊnd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAground(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAground("en-US"),
                             ),
                           ],
                         ),

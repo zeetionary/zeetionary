@@ -111,12 +111,8 @@ class EnglishEntryarchipelago extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "archipelago"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌɑːkɪˈpeləɡəʊ/
+                                word: "archipelago"), // Find /ˌɑːkɪˈpeləɡəʊ/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +121,7 @@ class EnglishEntryarchipelago extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɑːkɪˈpeləɡəʊ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArchipelago(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakArchipelago("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +131,7 @@ class EnglishEntryarchipelago extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɑːrkɪˈpeləɡəʊ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArchipelago(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArchipelago("en-US"),
                             ),
                           ],
                         ),

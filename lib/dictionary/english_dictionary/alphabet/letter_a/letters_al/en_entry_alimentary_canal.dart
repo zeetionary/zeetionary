@@ -66,11 +66,7 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "alimentary canal"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌælɪmentəri kəˈnæl/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                    "alimentary canal"), // Find /ˌælɪmentəri kəˈnæl/
                           ],
                         ),
                         Row(
@@ -79,9 +75,7 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌælɪmentəri kəˈnæl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlimentarycanal(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAlimentarycanal("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +85,7 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌælɪmentəri kəˈnæl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlimentarycanal(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlimentarycanal("en-US"),
                             ),
                           ],
                         ),

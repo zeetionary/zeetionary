@@ -51,19 +51,13 @@ class EnglishEntryaboutturn extends StatelessWidget {
                             EntryTitle(
                                 word:
                                     "about turn"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˌbaʊt ˈtɜːn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAboutturn(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAboutturn("en-GB"),
                             ),
                           ],
                         ),
@@ -73,8 +67,7 @@ class EnglishEntryaboutturn extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌbaʊt ˈtɜːrn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAboutturn(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAboutturn("en-US"),
                             ),
                           ],
                         ),

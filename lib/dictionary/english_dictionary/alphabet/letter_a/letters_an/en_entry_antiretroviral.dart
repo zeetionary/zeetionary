@@ -110,11 +110,8 @@ class EnglishEntryantiretroviral extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "antiretroviral"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌæntiˌretrəʊˈvaɪrəl/
+                                    "antiretroviral"), // Find /ˌæntiˌretrəʊˈvaɪrəl/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -123,9 +120,7 @@ class EnglishEntryantiretroviral extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæntiˌretrəʊˈvaɪrəl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntiretroviral(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAntiretroviral("en-GB"),
                             ),
                           ],
                         ),
@@ -135,8 +130,7 @@ class EnglishEntryantiretroviral extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæntiˌretrəʊˈvaɪrəl/,  /ˌæntaɪˌretrəʊˈvaɪrəl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntiretroviral(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAntiretroviral("en-US"),
                             ),
                           ],
                         ),

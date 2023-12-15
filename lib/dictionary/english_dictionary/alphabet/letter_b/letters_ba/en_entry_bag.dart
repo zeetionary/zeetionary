@@ -197,9 +197,6 @@ class EnglishEntrybag extends StatelessWidget {
                             EntryTitle(
                                 word: "bag"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -208,9 +205,7 @@ class EnglishEntrybag extends StatelessWidget {
                                 text:
                                     "IpaUK: /bæɡ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakBag(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakBag("en-GB"),
                             ),
                           ],
                         ),
@@ -220,8 +215,7 @@ class EnglishEntrybag extends StatelessWidget {
                                 text:
                                     "IpaUS: /bæɡ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBag(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakBag("en-US"),
                             ),
                           ],
                         ),

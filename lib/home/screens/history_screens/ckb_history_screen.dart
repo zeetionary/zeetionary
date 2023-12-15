@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:routemaster/routemaster.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:zeetionary/constants.dart';
 
 class KurdishHistoryScreen extends StatelessWidget {
   const KurdishHistoryScreen({super.key});
@@ -125,21 +126,8 @@ class KurdishHistoryScreen extends StatelessWidget {
                 //   child: Text(
                 //       'هیچ لێرە نییە.، تکایە بۆ وشەی کوردی بگەڕێ بۆ ئەوەی لێرە دەربکەوێت'),
                 // );
-                return Container(
-                  alignment: Alignment.center,
-                  child: const Column(
-                    mainAxisSize:
-                        MainAxisSize.min, // Centers the icon vertically
-                    children: [
-                      Icon(
-                        Icons.history, // Choose an appropriate icon
-                        size: 48.0, // Adjust icon size as needed
-                        color: Colors
-                            .grey, // Adjust icon color to match your theme
-                      ),
-                      Text("چۆڵ‌وهۆڵ"), // Optional: add text below if desired
-                    ],
-                  ),
+                return const EmptyPageIcon(
+                  text: 'مێژوو چۆڵ‌وهۆڵە',
                 );
               } else if (snapshot.hasData) {
                 // Build the list view with history data

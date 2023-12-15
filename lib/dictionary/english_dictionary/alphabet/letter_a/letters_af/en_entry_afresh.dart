@@ -64,22 +64,14 @@ class EnglishEntryafresh extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "afresh"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈfreʃ/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "afresh"), // Find /əˈfreʃ/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈfreʃ/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAfresh(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAfresh("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryafresh extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈfreʃ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAfresh(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAfresh("en-US"),
                             ),
                           ],
                         ),

@@ -75,7 +75,7 @@ class EnglishEntryabandon extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word: "abandon"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
+
                             //   '(verb)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -85,9 +85,7 @@ class EnglishEntryabandon extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈbændən/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAbandon(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAbandon("en-GB"),
                             ),
                           ],
                         ),
@@ -97,8 +95,7 @@ class EnglishEntryabandon extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈbændən/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbandon(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbandon("en-US"),
                             ),
                           ],
                         ),

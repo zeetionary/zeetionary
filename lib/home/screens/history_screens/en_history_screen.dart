@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:routemaster/routemaster.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:zeetionary/constants.dart';
 
 class EnglishHistoryScreen extends StatelessWidget {
   const EnglishHistoryScreen({super.key});
@@ -114,21 +115,8 @@ class EnglishHistoryScreen extends StatelessWidget {
               return const CircularProgressIndicator();
             } else if (snapshot.hasData && snapshot.data!.isEmpty) {
               // History is empty, show message
-              return Container(
-                alignment: Alignment.center,
-                child: const Column(
-                  mainAxisSize: MainAxisSize.min, // Centers the icon vertically
-                  children: [
-                    Icon(
-                      Icons.history, // Choose an appropriate icon
-                      size: 48.0, // Adjust icon size as needed
-                      color:
-                          Colors.grey, // Adjust icon color to match your theme
-                    ),
-                    Text(
-                        'Empty history'), // Optional: add text below if desired
-                  ],
-                ),
+              return const EmptyPageIcon(
+                text: 'History is empty',
               );
             } else if (snapshot.hasData) {
               // Build the list view with history data

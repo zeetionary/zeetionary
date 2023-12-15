@@ -64,22 +64,14 @@ class EnglishEntryactivist extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "activist"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæktɪvɪst/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "activist"), // Find /ˈæktɪvɪst/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈæktɪvɪst/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakActivist(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakActivist("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryactivist extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæktɪvɪst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakActivist(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakActivist("en-US"),
                             ),
                           ],
                         ),

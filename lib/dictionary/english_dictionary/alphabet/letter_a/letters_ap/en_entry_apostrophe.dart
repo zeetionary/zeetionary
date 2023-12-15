@@ -113,13 +113,8 @@ class EnglishEntryapostrophe extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "apostrophe"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈpɒstrəfi/
+                            EntryTitle(word: "apostrophe"), // Find /əˈpɒstrəfi/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -128,9 +123,7 @@ class EnglishEntryapostrophe extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈpɒstrəfi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApostrophe(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakApostrophe("en-GB"),
                             ),
                           ],
                         ),
@@ -140,8 +133,7 @@ class EnglishEntryapostrophe extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈpɑːstrəfi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApostrophe(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakApostrophe("en-US"),
                             ),
                           ],
                         ),

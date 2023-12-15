@@ -65,13 +65,7 @@ class EnglishEntryallege extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "allege"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈledʒ/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "allege"), // Find /əˈledʒ/
                           ],
                         ),
                         Row(
@@ -80,9 +74,7 @@ class EnglishEntryallege extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈledʒ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAllege(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAllege("en-GB"),
                             ),
                           ],
                         ),
@@ -92,8 +84,7 @@ class EnglishEntryallege extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈledʒ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAllege(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAllege("en-US"),
                             ),
                           ],
                         ),

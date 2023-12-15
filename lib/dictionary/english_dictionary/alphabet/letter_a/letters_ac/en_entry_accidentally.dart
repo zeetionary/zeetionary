@@ -51,19 +51,13 @@ class EnglishEntryaccidentally extends StatelessWidget {
                             EntryTitle(
                                 word:
                                     "accidentally"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌæksɪˈdentəli/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAccidentally(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAccidentally("en-GB"),
                             ),
                           ],
                         ),
@@ -73,8 +67,7 @@ class EnglishEntryaccidentally extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæksɪˈdentəli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAccidentally(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAccidentally("en-US"),
                             ),
                           ],
                         ),

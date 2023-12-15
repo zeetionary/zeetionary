@@ -136,13 +136,7 @@ class EnglishEntryalways extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "always"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈɔːlweɪz/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "always"), // Find /ˈɔːlweɪz/
                           ],
                         ),
                         Row(
@@ -151,9 +145,7 @@ class EnglishEntryalways extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɔːlweɪz/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAlways(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAlways("en-GB"),
                             ),
                           ],
                         ),
@@ -163,8 +155,7 @@ class EnglishEntryalways extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɔːlweɪz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlways(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlways("en-US"),
                             ),
                           ],
                         ),

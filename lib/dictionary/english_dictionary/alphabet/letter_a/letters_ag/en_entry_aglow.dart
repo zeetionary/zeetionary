@@ -64,22 +64,14 @@ class EnglishEntryaglow extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "aglow"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈɡləʊ/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "aglow"), // Find /əˈɡləʊ/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈɡləʊ/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAglow(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAglow("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryaglow extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈɡləʊ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAglow(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAglow("en-US"),
                             ),
                           ],
                         ),

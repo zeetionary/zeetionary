@@ -106,11 +106,8 @@ class EnglishEntryamphetamine extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "amphetamine"), // DOPSUM: CHANGE WORD ENTRY - Find /æmˈfetəmiːn/,  /æmˈfetəmɪn/
+                                    "amphetamine"), // Find /æmˈfetəmiːn/,  /æmˈfetəmɪn/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -119,9 +116,7 @@ class EnglishEntryamphetamine extends StatelessWidget {
                                 text:
                                     "IpaUK: /æmˈfetəmiːn/,  /æmˈfetəmɪn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmphetamine(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAmphetamine("en-GB"),
                             ),
                           ],
                         ),
@@ -131,8 +126,7 @@ class EnglishEntryamphetamine extends StatelessWidget {
                                 text:
                                     "IpaUS: /æmˈfetəmiːn/,  /æmˈfetəmɪn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmphetamine(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAmphetamine("en-US"),
                             ),
                           ],
                         ),

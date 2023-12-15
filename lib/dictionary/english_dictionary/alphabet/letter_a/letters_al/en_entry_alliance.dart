@@ -82,13 +82,7 @@ class EnglishEntryalliance extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "alliance"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈlaɪəns/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "alliance"), // Find /əˈlaɪəns/
                           ],
                         ),
                         Row(
@@ -97,9 +91,7 @@ class EnglishEntryalliance extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈlaɪəns/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAlliance(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAlliance("en-GB"),
                             ),
                           ],
                         ),
@@ -109,8 +101,7 @@ class EnglishEntryalliance extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈlaɪəns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlliance(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlliance("en-US"),
                             ),
                           ],
                         ),

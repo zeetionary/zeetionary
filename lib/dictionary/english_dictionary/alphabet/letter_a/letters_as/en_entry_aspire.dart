@@ -112,13 +112,8 @@ class EnglishEntryaspire extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "aspire"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈspaɪə(r)/
+                            EntryTitle(word: "aspire"), // Find /əˈspaɪə(r)/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +122,7 @@ class EnglishEntryaspire extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈspaɪə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAspire(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAspire("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +132,7 @@ class EnglishEntryaspire extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈspaɪər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAspire(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAspire("en-US"),
                             ),
                           ],
                         ),

@@ -51,19 +51,13 @@ class EnglishEntryaccommodating extends StatelessWidget {
                             EntryTitle(
                                 word:
                                     "accommodating"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkɒmədeɪtɪŋ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAccommodating(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAccommodating("en-GB"),
                             ),
                           ],
                         ),
@@ -73,8 +67,7 @@ class EnglishEntryaccommodating extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkɑːmədeɪtɪŋ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAccommodating(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAccommodating("en-US"),
                             ),
                           ],
                         ),

@@ -114,12 +114,8 @@ class EnglishEntryassimilation extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "assimilation"), // DOPSUM: CHANGE WORD ENTRY - Find /əˌsɪməˈleɪʃn/
+                                word: "assimilation"), // Find /əˌsɪməˈleɪʃn/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -128,9 +124,7 @@ class EnglishEntryassimilation extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˌsɪməˈleɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAssimilation(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAssimilation("en-GB"),
                             ),
                           ],
                         ),
@@ -140,8 +134,7 @@ class EnglishEntryassimilation extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌsɪməˈleɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAssimilation(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAssimilation("en-US"),
                             ),
                           ],
                         ),

@@ -51,19 +51,13 @@ class EnglishEntryaccountable extends StatelessWidget {
                             EntryTitle(
                                 word:
                                     "accountable"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkaʊntəbl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAccountable(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAccountable("en-GB"),
                             ),
                           ],
                         ),
@@ -73,8 +67,7 @@ class EnglishEntryaccountable extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkaʊntəbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAccountable(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAccountable("en-US"),
                             ),
                           ],
                         ),

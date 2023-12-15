@@ -104,13 +104,8 @@ class EnglishEntryanarchist extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "anarchist"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈænəkɪst/
+                            EntryTitle(word: "anarchist"), // Find /ˈænəkɪst/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -119,9 +114,7 @@ class EnglishEntryanarchist extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈænəkɪst/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnarchist(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAnarchist("en-GB"),
                             ),
                           ],
                         ),
@@ -131,8 +124,7 @@ class EnglishEntryanarchist extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈænərkɪst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnarchist(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAnarchist("en-US"),
                             ),
                           ],
                         ),

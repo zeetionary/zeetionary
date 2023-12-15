@@ -64,22 +64,14 @@ class EnglishEntryagegroup extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "age group"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeɪdʒ ɡruːp/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "age group"), // Find /ˈeɪdʒ ɡruːp/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈeɪdʒ ɡruːp/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAgegroup(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAgegroup("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryagegroup extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈeɪdʒ ɡruːp/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgegroup(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAgegroup("en-US"),
                             ),
                           ],
                         ),

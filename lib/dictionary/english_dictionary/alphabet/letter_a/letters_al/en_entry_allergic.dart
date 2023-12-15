@@ -66,13 +66,7 @@ class EnglishEntryallergic extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "allergic"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈlɜːdʒɪk/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "allergic"), // Find /əˈlɜːdʒɪk/
                           ],
                         ),
                         Row(
@@ -81,9 +75,7 @@ class EnglishEntryallergic extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈlɜːdʒɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAllergic(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAllergic("en-GB"),
                             ),
                           ],
                         ),
@@ -93,8 +85,7 @@ class EnglishEntryallergic extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈlɜːrdʒɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAllergic(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAllergic("en-US"),
                             ),
                           ],
                         ),

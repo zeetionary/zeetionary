@@ -111,12 +111,8 @@ class EnglishEntryarchbishop extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "archbishop"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌɑːtʃˈbɪʃəp/
+                                word: "archbishop"), // Find /ˌɑːtʃˈbɪʃəp/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +121,7 @@ class EnglishEntryarchbishop extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɑːtʃˈbɪʃəp/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArchbishop(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakArchbishop("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +131,7 @@ class EnglishEntryarchbishop extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɑːrtʃˈbɪʃəp/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArchbishop(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArchbishop("en-US"),
                             ),
                           ],
                         ),

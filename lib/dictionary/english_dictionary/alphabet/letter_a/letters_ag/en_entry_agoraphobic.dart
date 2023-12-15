@@ -65,21 +65,14 @@ class EnglishEntryagoraphobic extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "agoraphobic"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌæɡərəˈfəʊbɪk/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "agoraphobic"), // Find /ˌæɡərəˈfəʊbɪk/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌæɡərəˈfəʊbɪk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAgoraphobic(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAgoraphobic("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +82,7 @@ class EnglishEntryagoraphobic extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæɡərəˈfəʊbɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgoraphobic(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAgoraphobic("en-US"),
                             ),
                           ],
                         ),

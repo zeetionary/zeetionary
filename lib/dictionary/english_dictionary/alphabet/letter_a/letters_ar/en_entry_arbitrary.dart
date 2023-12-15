@@ -114,11 +114,8 @@ class EnglishEntryarbitrary extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "arbitrary"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːbɪtrəri/,  /ˈɑːbɪtri/
+                                    "arbitrary"), // Find /ˈɑːbɪtrəri/,  /ˈɑːbɪtri/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +124,7 @@ class EnglishEntryarbitrary extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːbɪtrəri/,  /ˈɑːbɪtri/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArbitrary(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakArbitrary("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +134,7 @@ class EnglishEntryarbitrary extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrbɪtreri/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArbitrary(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArbitrary("en-US"),
                             ),
                           ],
                         ),

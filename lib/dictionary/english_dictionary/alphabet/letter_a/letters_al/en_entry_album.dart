@@ -65,13 +65,7 @@ class EnglishEntryalbum extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "album"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈælbəm/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "album"), // Find /ˈælbəm/
                           ],
                         ),
                         Row(
@@ -80,9 +74,7 @@ class EnglishEntryalbum extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈælbəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAlbum(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAlbum("en-GB"),
                             ),
                           ],
                         ),
@@ -92,8 +84,7 @@ class EnglishEntryalbum extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈælbəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlbum(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlbum("en-US"),
                             ),
                           ],
                         ),

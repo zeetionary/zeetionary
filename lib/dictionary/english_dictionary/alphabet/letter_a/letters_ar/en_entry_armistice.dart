@@ -110,13 +110,8 @@ class EnglishEntryarmistice extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "armistice"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːmɪstɪs/
+                            EntryTitle(word: "armistice"), // Find /ˈɑːmɪstɪs/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +120,7 @@ class EnglishEntryarmistice extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːmɪstɪs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArmistice(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakArmistice("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +130,7 @@ class EnglishEntryarmistice extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrmɪstɪs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArmistice(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArmistice("en-US"),
                             ),
                           ],
                         ),

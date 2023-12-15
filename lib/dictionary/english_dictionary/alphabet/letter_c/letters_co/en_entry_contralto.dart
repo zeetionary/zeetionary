@@ -72,13 +72,7 @@ class EnglishEntrycontralto extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "contralto"), // DOPSUM: CHANGE WORD ENTRY - Find /kənˈtræltəʊ/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "contralto"), // Find /kənˈtræltəʊ/
                           ],
                         ),
                         Row(
@@ -87,9 +81,7 @@ class EnglishEntrycontralto extends StatelessWidget {
                                 text:
                                     "IpaUK: /kənˈtræltəʊ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakContralto(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakContralto("en-GB"),
                             ),
                           ],
                         ),
@@ -99,8 +91,7 @@ class EnglishEntrycontralto extends StatelessWidget {
                                 text:
                                     "IpaUS: /kənˈtræltəʊ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakContralto(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakContralto("en-US"),
                             ),
                           ],
                         ),

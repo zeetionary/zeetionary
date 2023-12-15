@@ -110,13 +110,8 @@ class EnglishEntryaqueduct extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "aqueduct"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈækwɪdʌkt/
+                            EntryTitle(word: "aqueduct"), // Find /ˈækwɪdʌkt/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +120,7 @@ class EnglishEntryaqueduct extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈækwɪdʌkt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAqueduct(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAqueduct("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +130,7 @@ class EnglishEntryaqueduct extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈækwɪdʌkt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAqueduct(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAqueduct("en-US"),
                             ),
                           ],
                         ),

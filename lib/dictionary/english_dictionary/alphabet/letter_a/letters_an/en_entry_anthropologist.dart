@@ -108,11 +108,8 @@ class EnglishEntryanthropologist extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "anthropologist"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌænθrəˈpɒlədʒɪst/
+                                    "anthropologist"), // Find /ˌænθrəˈpɒlədʒɪst/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -121,9 +118,7 @@ class EnglishEntryanthropologist extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌænθrəˈpɒlədʒɪst/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnthropologist(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAnthropologist("en-GB"),
                             ),
                           ],
                         ),
@@ -133,8 +128,7 @@ class EnglishEntryanthropologist extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌænθrəˈpɑːlədʒɪst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnthropologist(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAnthropologist("en-US"),
                             ),
                           ],
                         ),

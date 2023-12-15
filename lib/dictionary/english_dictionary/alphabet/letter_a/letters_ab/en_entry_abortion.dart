@@ -68,19 +68,13 @@ class EnglishEntryabortion extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word: "abortion"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈbɔːʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAbortion(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAbortion("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +84,7 @@ class EnglishEntryabortion extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈbɔːrʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbortion(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbortion("en-US"),
                             ),
                           ],
                         ),

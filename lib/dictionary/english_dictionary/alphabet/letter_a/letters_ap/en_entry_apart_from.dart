@@ -110,12 +110,8 @@ class EnglishEntryapartfrom extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "apart from"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈpɑːt frəm/
+                                word: "apart from"), // Find /əˈpɑːt frəm/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -124,9 +120,7 @@ class EnglishEntryapartfrom extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈpɑːt frəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApartfrom(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakApartfrom("en-GB"),
                             ),
                           ],
                         ),
@@ -136,8 +130,7 @@ class EnglishEntryapartfrom extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈpɑːrt frəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApartfrom(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakApartfrom("en-US"),
                             ),
                           ],
                         ),

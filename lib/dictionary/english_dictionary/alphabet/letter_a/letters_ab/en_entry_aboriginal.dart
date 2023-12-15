@@ -60,19 +60,13 @@ class EnglishEntryaboriginal extends StatelessWidget {
                             EntryTitle(
                                 word:
                                     "aboriginal"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌæbəˈrɪdʒənl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAboriginal(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAboriginal("en-GB"),
                             ),
                           ],
                         ),
@@ -82,8 +76,7 @@ class EnglishEntryaboriginal extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæbəˈrɪdʒənl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAboriginal(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAboriginal("en-US"),
                             ),
                           ],
                         ),

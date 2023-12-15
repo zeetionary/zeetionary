@@ -64,22 +64,14 @@ class EnglishEntryacoustic extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "acoustic"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈkuːstɪk/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "acoustic"), // Find /əˈkuːstɪk/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkuːstɪk/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAcoustic(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAcoustic("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryacoustic extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkuːstɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcoustic(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAcoustic("en-US"),
                             ),
                           ],
                         ),

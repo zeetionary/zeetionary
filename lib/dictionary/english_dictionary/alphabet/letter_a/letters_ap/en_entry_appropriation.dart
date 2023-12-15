@@ -113,12 +113,8 @@ class EnglishEntryappropriation extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "appropriation"), // DOPSUM: CHANGE WORD ENTRY - Find /əˌprəʊpriˈeɪʃn/
+                                word: "appropriation"), // Find /əˌprəʊpriˈeɪʃn/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +123,7 @@ class EnglishEntryappropriation extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˌprəʊpriˈeɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAppropriation(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAppropriation("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +133,7 @@ class EnglishEntryappropriation extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌprəʊpriˈeɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAppropriation(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAppropriation("en-US"),
                             ),
                           ],
                         ),

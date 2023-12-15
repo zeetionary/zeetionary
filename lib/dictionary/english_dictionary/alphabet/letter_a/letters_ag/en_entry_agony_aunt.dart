@@ -64,21 +64,14 @@ class EnglishEntryagonyaunt extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "agony aunt"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæɡəni ɑːnt/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "agony aunt"), // Find /ˈæɡəni ɑːnt/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈæɡəni ɑːnt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAgonyaunt(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAgonyaunt("en-GB"),
                             ),
                           ],
                         ),
@@ -88,8 +81,7 @@ class EnglishEntryagonyaunt extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæɡəni ænt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgonyaunt(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAgonyaunt("en-US"),
                             ),
                           ],
                         ),

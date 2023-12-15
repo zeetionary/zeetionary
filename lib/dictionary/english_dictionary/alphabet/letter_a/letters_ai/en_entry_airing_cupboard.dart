@@ -65,12 +65,7 @@ class EnglishEntryairingcupboard extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "airing cupboard"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeərɪŋ kʌbəd/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "airing cupboard"), // Find /ˈeərɪŋ kʌbəd/
                           ],
                         ),
                         Row(
@@ -79,9 +74,7 @@ class EnglishEntryairingcupboard extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈeərɪŋ kʌbəd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAiringcupboard(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAiringcupboard("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +84,7 @@ class EnglishEntryairingcupboard extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈerɪŋ kʌbərd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAiringcupboard(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAiringcupboard("en-US"),
                             ),
                           ],
                         ),

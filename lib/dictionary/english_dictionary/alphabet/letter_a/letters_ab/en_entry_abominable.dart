@@ -69,19 +69,13 @@ class EnglishEntryabominable extends StatelessWidget {
                             EntryTitle(
                                 word:
                                     "abominable"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈbɒmɪnəbl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAbominable(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAbominable("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +85,7 @@ class EnglishEntryabominable extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈbɑːmɪnəbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbominable(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbominable("en-US"),
                             ),
                           ],
                         ),

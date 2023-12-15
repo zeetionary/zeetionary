@@ -110,13 +110,8 @@ class EnglishEntryaplomb extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "aplomb"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈplɒm/
+                            EntryTitle(word: "aplomb"), // Find /əˈplɒm/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +120,7 @@ class EnglishEntryaplomb extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈplɒm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAplomb(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAplomb("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +130,7 @@ class EnglishEntryaplomb extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈplɒm/av"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAplomb(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAplomb("en-US"),
                             ),
                           ],
                         ),

@@ -50,19 +50,13 @@ class EnglishEntryabatement extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word: "abatement"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈbeɪtmənt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAbatement(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAbatement("en-GB"),
                             ),
                           ],
                         ),
@@ -72,8 +66,7 @@ class EnglishEntryabatement extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈbeɪtmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbatement(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbatement("en-US"),
                             ),
                           ],
                         ),

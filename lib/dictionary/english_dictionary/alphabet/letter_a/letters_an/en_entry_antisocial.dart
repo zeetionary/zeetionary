@@ -110,12 +110,8 @@ class EnglishEntryantisocial extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "antisocial"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌæntiˈsəʊʃl/
+                                word: "antisocial"), // Find /ˌæntiˈsəʊʃl/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -124,9 +120,7 @@ class EnglishEntryantisocial extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæntiˈsəʊʃl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntisocial(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAntisocial("en-GB"),
                             ),
                           ],
                         ),
@@ -136,8 +130,7 @@ class EnglishEntryantisocial extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæntiˈsəʊʃl/,  /ˌæntaɪˈsəʊʃl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntisocial(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAntisocial("en-US"),
                             ),
                           ],
                         ),

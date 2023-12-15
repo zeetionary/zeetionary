@@ -119,22 +119,14 @@ class EnglishEntryacross extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "across"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈkrɒs/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "across"), // Find /əˈkrɒs/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkrɒs/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAcross(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAcross("en-GB"),
                             ),
                           ],
                         ),
@@ -144,8 +136,7 @@ class EnglishEntryacross extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkrɔːs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcross(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAcross("en-US"),
                             ),
                           ],
                         ),

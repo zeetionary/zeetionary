@@ -51,19 +51,13 @@ class EnglishEntryacclimatize extends StatelessWidget {
                             EntryTitle(
                                 word:
                                     "acclimatize"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈklaɪmətaɪz/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcclimatize(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAcclimatize("en-GB"),
                             ),
                           ],
                         ),
@@ -73,8 +67,7 @@ class EnglishEntryacclimatize extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈklaɪmətaɪz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcclimatize(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAcclimatize("en-US"),
                             ),
                           ],
                         ),

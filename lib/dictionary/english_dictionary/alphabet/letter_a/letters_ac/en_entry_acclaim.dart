@@ -59,19 +59,13 @@ class EnglishEntryacclaim extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word: "acclaim"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkleɪm/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAcclaim(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAcclaim("en-GB"),
                             ),
                           ],
                         ),
@@ -81,8 +75,7 @@ class EnglishEntryacclaim extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkleɪm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcclaim(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAcclaim("en-US"),
                             ),
                           ],
                         ),

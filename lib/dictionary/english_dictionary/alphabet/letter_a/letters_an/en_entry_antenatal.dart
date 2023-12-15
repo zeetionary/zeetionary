@@ -106,13 +106,8 @@ class EnglishEntryantenatal extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "antenatal"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌæntiˈneɪtl/
+                            EntryTitle(word: "antenatal"), // Find /ˌæntiˈneɪtl/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -121,9 +116,7 @@ class EnglishEntryantenatal extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæntiˈneɪtl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntenatal(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAntenatal("en-GB"),
                             ),
                           ],
                         ),
@@ -133,8 +126,7 @@ class EnglishEntryantenatal extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæntiˈneɪtl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntenatal(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAntenatal("en-US"),
                             ),
                           ],
                         ),

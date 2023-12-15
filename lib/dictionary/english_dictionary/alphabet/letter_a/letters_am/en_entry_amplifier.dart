@@ -105,12 +105,8 @@ class EnglishEntryamplifier extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "amplifier"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæmplɪfaɪə(r)/
+                                word: "amplifier"), // Find /ˈæmplɪfaɪə(r)/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -119,9 +115,7 @@ class EnglishEntryamplifier extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæmplɪfaɪə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmplifier(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAmplifier("en-GB"),
                             ),
                           ],
                         ),
@@ -131,8 +125,7 @@ class EnglishEntryamplifier extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæmplɪfaɪər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmplifier(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAmplifier("en-US"),
                             ),
                           ],
                         ),

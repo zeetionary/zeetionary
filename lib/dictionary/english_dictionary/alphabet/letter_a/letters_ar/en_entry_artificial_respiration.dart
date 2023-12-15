@@ -114,11 +114,8 @@ class EnglishEntryartificialrespiration extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "artificial respiration"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌɑːtɪfɪʃl respəˈreɪʃn/
+                                    "artificial respiration"), // Find /ˌɑːtɪfɪʃl respəˈreɪʃn/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +124,8 @@ class EnglishEntryartificialrespiration extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɑːtɪfɪʃl respəˈreɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArtificialrespiration(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakArtificialrespiration("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +135,8 @@ class EnglishEntryartificialrespiration extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɑːrtɪfɪʃl respəˈreɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArtificialrespiration(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () =>
+                                  speakArtificialrespiration("en-US"),
                             ),
                           ],
                         ),

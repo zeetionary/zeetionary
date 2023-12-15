@@ -64,22 +64,14 @@ class EnglishEntryadultery extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "adultery"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈdʌltəri/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "adultery"), // Find /əˈdʌltəri/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈdʌltəri/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAdultery(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAdultery("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryadultery extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈdʌltəri/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdultery(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdultery("en-US"),
                             ),
                           ],
                         ),

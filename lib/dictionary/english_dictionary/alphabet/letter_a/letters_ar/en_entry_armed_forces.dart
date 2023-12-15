@@ -112,11 +112,8 @@ class EnglishEntryarmedforces extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "armed forces"), // DOPSUM: CHANGE WORD ENTRY - Find /ði ˌɑːmd ˈfɔːsɪz/
+                                    "armed forces"), // Find /ði ˌɑːmd ˈfɔːsɪz/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +122,7 @@ class EnglishEntryarmedforces extends StatelessWidget {
                                 text:
                                     "IpaUK: /ði ˌɑːmd ˈfɔːsɪz/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArmedforces(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakArmedforces("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +132,7 @@ class EnglishEntryarmedforces extends StatelessWidget {
                                 text:
                                     "IpaUS: /ði ˌɑːrmd ˈfɔːrsɪz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArmedforces(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArmedforces("en-US"),
                             ),
                           ],
                         ),

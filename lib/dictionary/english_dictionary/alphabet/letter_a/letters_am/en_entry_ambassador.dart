@@ -66,12 +66,7 @@ class EnglishEntryambassador extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "ambassador"), // DOPSUM: CHANGE WORD ENTRY - Find /æmˈbæsədə(r)/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "ambassador"), // Find /æmˈbæsədə(r)/
                           ],
                         ),
                         Row(
@@ -80,9 +75,7 @@ class EnglishEntryambassador extends StatelessWidget {
                                 text:
                                     "IpaUK: /æmˈbæsədə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmbassador(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAmbassador("en-GB"),
                             ),
                           ],
                         ),
@@ -92,8 +85,7 @@ class EnglishEntryambassador extends StatelessWidget {
                                 text:
                                     "IpaUS: /æmˈbæsədər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmbassador(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAmbassador("en-US"),
                             ),
                           ],
                         ),

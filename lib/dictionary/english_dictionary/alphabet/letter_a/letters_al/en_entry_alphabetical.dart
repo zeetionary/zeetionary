@@ -65,12 +65,7 @@ class EnglishEntryalphabetical extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "alphabetical"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌælfəˈbetɪkl/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "alphabetical"), // Find /ˌælfəˈbetɪkl/
                           ],
                         ),
                         Row(
@@ -79,9 +74,7 @@ class EnglishEntryalphabetical extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌælfəˈbetɪkl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlphabetical(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAlphabetical("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +84,7 @@ class EnglishEntryalphabetical extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌælfəˈbetɪkl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlphabetical(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlphabetical("en-US"),
                             ),
                           ],
                         ),

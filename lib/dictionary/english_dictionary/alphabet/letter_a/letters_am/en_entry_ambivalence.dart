@@ -65,12 +65,7 @@ class EnglishEntryambivalence extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "ambivalence"), // DOPSUM: CHANGE WORD ENTRY - Find /æmˈbɪvələns/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "ambivalence"), // Find /æmˈbɪvələns/
                           ],
                         ),
                         Row(
@@ -79,9 +74,7 @@ class EnglishEntryambivalence extends StatelessWidget {
                                 text:
                                     "IpaUK: /æmˈbɪvələns/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmbivalence(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAmbivalence("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +84,7 @@ class EnglishEntryambivalence extends StatelessWidget {
                                 text:
                                     "IpaUS: /æmˈbɪvələns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmbivalence(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAmbivalence("en-US"),
                             ),
                           ],
                         ),

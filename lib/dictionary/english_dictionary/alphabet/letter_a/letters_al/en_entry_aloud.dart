@@ -66,13 +66,7 @@ class EnglishEntryaloud extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "aloud"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈlaʊd/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "aloud"), // Find /əˈlaʊd/
                           ],
                         ),
                         Row(
@@ -81,9 +75,7 @@ class EnglishEntryaloud extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈlaʊd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAloud(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAloud("en-GB"),
                             ),
                           ],
                         ),
@@ -93,8 +85,7 @@ class EnglishEntryaloud extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈlaʊd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAloud(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAloud("en-US"),
                             ),
                           ],
                         ),

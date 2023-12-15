@@ -129,12 +129,8 @@ class EnglishEntrymakeamends extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "make amends"), // DOPSUM: CHANGE WORD ENTRY - Find /meɪk əˈmendz/
+                                word: "make amends"), // Find /meɪk əˈmendz/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -143,9 +139,7 @@ class EnglishEntrymakeamends extends StatelessWidget {
                                 text:
                                     "IpaUK: /meɪk əˈmendz/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakMakeamends(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakMakeamends("en-GB"),
                             ),
                           ],
                         ),
@@ -155,8 +149,7 @@ class EnglishEntrymakeamends extends StatelessWidget {
                                 text:
                                     "IpaUS: /meɪk əˈmendz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakMakeamends(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakMakeamends("en-US"),
                             ),
                           ],
                         ),

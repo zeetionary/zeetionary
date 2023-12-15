@@ -65,13 +65,7 @@ class EnglishEntryalbatross extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "albatross"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈælbətrɒs/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "albatross"), // Find /ˈælbətrɒs/
                           ],
                         ),
                         Row(
@@ -80,9 +74,7 @@ class EnglishEntryalbatross extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈælbətrɒs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlbatross(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAlbatross("en-GB"),
                             ),
                           ],
                         ),
@@ -92,8 +84,7 @@ class EnglishEntryalbatross extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈælbətrɑːs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlbatross(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlbatross("en-US"),
                             ),
                           ],
                         ),

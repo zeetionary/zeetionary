@@ -106,13 +106,8 @@ class EnglishEntryanthology extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "anthology"), // DOPSUM: CHANGE WORD ENTRY - Find /ænˈθɒlədʒi/
+                            EntryTitle(word: "anthology"), // Find /ænˈθɒlədʒi/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -121,9 +116,7 @@ class EnglishEntryanthology extends StatelessWidget {
                                 text:
                                     "IpaUK: /ænˈθɒlədʒi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnthology(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAnthology("en-GB"),
                             ),
                           ],
                         ),
@@ -133,8 +126,7 @@ class EnglishEntryanthology extends StatelessWidget {
                                 text:
                                     "IpaUS: /ænˈθɑːlədʒi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnthology(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAnthology("en-US"),
                             ),
                           ],
                         ),

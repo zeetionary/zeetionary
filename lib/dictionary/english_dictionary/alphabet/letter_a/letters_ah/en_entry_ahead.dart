@@ -99,22 +99,14 @@ class EnglishEntryahead extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "ahead"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈhed/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "ahead"), // Find /əˈhed/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈhed/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAhead(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAhead("en-GB"),
                             ),
                           ],
                         ),
@@ -124,8 +116,7 @@ class EnglishEntryahead extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈhed/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAhead(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAhead("en-US"),
                             ),
                           ],
                         ),

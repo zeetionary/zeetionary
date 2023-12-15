@@ -83,22 +83,14 @@ class EnglishEntryaffect extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "affect"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈfekt/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "affect"), // Find /əˈfekt/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈfekt/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAffect(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAffect("en-GB"),
                             ),
                           ],
                         ),
@@ -108,8 +100,7 @@ class EnglishEntryaffect extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈfekt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAffect(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAffect("en-US"),
                             ),
                           ],
                         ),

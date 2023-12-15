@@ -64,22 +64,14 @@ class EnglishEntryacidrain extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "acid rain"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌæsɪd ˈreɪn/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "acid rain"), // Find /ˌæsɪd ˈreɪn/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌæsɪd ˈreɪn/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAcidrain(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAcidrain("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryacidrain extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæsɪd ˈreɪn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcidrain(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAcidrain("en-US"),
                             ),
                           ],
                         ),

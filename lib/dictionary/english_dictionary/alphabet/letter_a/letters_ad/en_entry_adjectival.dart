@@ -64,21 +64,14 @@ class EnglishEntryadjectival extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "adjectival"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌædʒekˈtaɪvl/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "adjectival"), // Find /ˌædʒekˈtaɪvl/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌædʒekˈtaɪvl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdjectival(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAdjectival("en-GB"),
                             ),
                           ],
                         ),
@@ -88,8 +81,7 @@ class EnglishEntryadjectival extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌædʒekˈtaɪvl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdjectival(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdjectival("en-US"),
                             ),
                           ],
                         ),

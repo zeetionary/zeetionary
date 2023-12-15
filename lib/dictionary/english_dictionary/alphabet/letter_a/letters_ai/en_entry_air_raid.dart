@@ -64,13 +64,7 @@ class EnglishEntryairraid extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "air raid"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeə reɪd/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "air raid"), // Find /ˈeə reɪd/
                           ],
                         ),
                         Row(
@@ -79,9 +73,7 @@ class EnglishEntryairraid extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈeə reɪd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAirraid(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAirraid("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +83,7 @@ class EnglishEntryairraid extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈer reɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAirraid(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAirraid("en-US"),
                             ),
                           ],
                         ),

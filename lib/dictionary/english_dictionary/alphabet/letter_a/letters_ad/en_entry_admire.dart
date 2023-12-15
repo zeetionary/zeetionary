@@ -65,22 +65,14 @@ class EnglishEntryadmire extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "admire"), // DOPSUM: CHANGE WORD ENTRY - Find /ədˈmaɪə(r)/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "admire"), // Find /ədˈmaɪə(r)/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ədˈmaɪə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAdmire(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAdmire("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +82,7 @@ class EnglishEntryadmire extends StatelessWidget {
                                 text:
                                     "IpaUS: /ədˈmaɪər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdmire(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdmire("en-US"),
                             ),
                           ],
                         ),

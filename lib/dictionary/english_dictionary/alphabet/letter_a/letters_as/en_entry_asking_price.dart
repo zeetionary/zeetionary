@@ -113,12 +113,8 @@ class EnglishEntryaskingprice extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "asking price"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːskɪŋ praɪs/
+                                word: "asking price"), // Find /ˈɑːskɪŋ praɪs/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +123,7 @@ class EnglishEntryaskingprice extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːskɪŋ praɪs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAskingprice(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAskingprice("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +133,7 @@ class EnglishEntryaskingprice extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæskɪŋ praɪs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAskingprice(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAskingprice("en-US"),
                             ),
                           ],
                         ),

@@ -112,13 +112,8 @@ class EnglishEntryarthritic extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "arthritic"), // DOPSUM: CHANGE WORD ENTRY - Find /ɑːˈθrɪtɪk/
+                            EntryTitle(word: "arthritic"), // Find /ɑːˈθrɪtɪk/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +122,7 @@ class EnglishEntryarthritic extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɑːˈθrɪtɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArthritic(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakArthritic("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +132,7 @@ class EnglishEntryarthritic extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɑːrˈθrɪtɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArthritic(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArthritic("en-US"),
                             ),
                           ],
                         ),

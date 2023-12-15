@@ -113,13 +113,8 @@ class EnglishEntryasphalt extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "asphalt"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæsfælt/
+                            EntryTitle(word: "asphalt"), // Find /ˈæsfælt/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -128,9 +123,7 @@ class EnglishEntryasphalt extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæsfælt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAsphalt(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAsphalt("en-GB"),
                             ),
                           ],
                         ),
@@ -140,8 +133,7 @@ class EnglishEntryasphalt extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæsfɔːlt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAsphalt(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAsphalt("en-US"),
                             ),
                           ],
                         ),

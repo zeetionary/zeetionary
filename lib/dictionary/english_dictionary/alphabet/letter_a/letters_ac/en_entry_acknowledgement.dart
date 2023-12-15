@@ -68,20 +68,14 @@ class EnglishEntryacknowledgement extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "acknowledgement"), // DOPSUM: CHANGE WORD ENTRY - Find /əkˈnɒlɪdʒmənt/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                    "acknowledgement"), // Find /əkˈnɒlɪdʒmənt/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əkˈnɒlɪdʒmənt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcknowledgement(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAcknowledgement("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +85,7 @@ class EnglishEntryacknowledgement extends StatelessWidget {
                                 text:
                                     "IpaUS: /əkˈnɑːlɪdʒmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcknowledgement(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAcknowledgement("en-US"),
                             ),
                           ],
                         ),

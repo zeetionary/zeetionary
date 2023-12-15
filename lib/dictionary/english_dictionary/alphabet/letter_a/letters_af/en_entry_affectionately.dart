@@ -65,21 +65,14 @@ class EnglishEntryaffectionately extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "affectionately"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈfekʃənətli/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "affectionately"), // Find /əˈfekʃənətli/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈfekʃənətli/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAffectionately(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAffectionately("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +82,7 @@ class EnglishEntryaffectionately extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈfekʃənətli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAffectionately(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAffectionately("en-US"),
                             ),
                           ],
                         ),

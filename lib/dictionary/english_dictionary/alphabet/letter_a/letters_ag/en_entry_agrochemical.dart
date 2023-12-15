@@ -65,21 +65,14 @@ class EnglishEntryagrochemical extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "agrochemical"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌæɡrəʊˈkemɪkl/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "agrochemical"), // Find /ˌæɡrəʊˈkemɪkl/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌæɡrəʊˈkemɪkl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAgrochemical(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAgrochemical("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +82,7 @@ class EnglishEntryagrochemical extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæɡrəʊˈkemɪkl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgrochemical(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAgrochemical("en-US"),
                             ),
                           ],
                         ),

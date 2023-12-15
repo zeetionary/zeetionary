@@ -110,13 +110,8 @@ class EnglishEntryarithmetic extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "arithmetic"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈrɪθmətɪk/
+                            EntryTitle(word: "arithmetic"), // Find /əˈrɪθmətɪk/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +120,7 @@ class EnglishEntryarithmetic extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈrɪθmətɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakArithmetic(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakArithmetic("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +130,7 @@ class EnglishEntryarithmetic extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈrɪθmətɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArithmetic(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArithmetic("en-US"),
                             ),
                           ],
                         ),

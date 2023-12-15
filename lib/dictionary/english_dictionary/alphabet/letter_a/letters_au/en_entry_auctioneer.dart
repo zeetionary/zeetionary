@@ -116,9 +116,6 @@ class EnglishEntryauctioneer extends StatelessWidget {
                                 word:
                                     "auctioneer"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +124,7 @@ class EnglishEntryauctioneer extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɔːkʃəˈnɪə(r)/,  /ˌɒkʃəˈnɪə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAuctioneer(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAuctioneer("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +134,7 @@ class EnglishEntryauctioneer extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɔːkʃəˈnɪr/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAuctioneer(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAuctioneer("en-US"),
                             ),
                           ],
                         ),

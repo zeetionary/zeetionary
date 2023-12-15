@@ -140,13 +140,8 @@ class EnglishEntryarea extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "area"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeəriə/
+                            EntryTitle(word: "area"), // Find /ˈeəriə/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -155,9 +150,7 @@ class EnglishEntryarea extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈeəriə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakArea(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakArea("en-GB"),
                             ),
                           ],
                         ),
@@ -167,8 +160,7 @@ class EnglishEntryarea extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈeriə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArea(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArea("en-US"),
                             ),
                           ],
                         ),

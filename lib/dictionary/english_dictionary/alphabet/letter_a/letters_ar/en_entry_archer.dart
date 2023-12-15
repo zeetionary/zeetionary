@@ -110,13 +110,8 @@ class EnglishEntryarcher extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "archer"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːtʃə(r)/
+                            EntryTitle(word: "archer"), // Find /ˈɑːtʃə(r)/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +120,7 @@ class EnglishEntryarcher extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːtʃə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakArcher(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakArcher("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +130,7 @@ class EnglishEntryarcher extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrtʃər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArcher(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArcher("en-US"),
                             ),
                           ],
                         ),

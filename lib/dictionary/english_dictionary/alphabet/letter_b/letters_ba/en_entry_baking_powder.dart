@@ -108,9 +108,6 @@ class EnglishEntrybakingpowder extends StatelessWidget {
                                 word:
                                     "baking powder"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -119,9 +116,7 @@ class EnglishEntrybakingpowder extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbeɪkɪŋ paʊdə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBakingpowder(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakBakingpowder("en-GB"),
                             ),
                           ],
                         ),
@@ -131,8 +126,7 @@ class EnglishEntrybakingpowder extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbeɪkɪŋ paʊdər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBakingpowder(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakBakingpowder("en-US"),
                             ),
                           ],
                         ),

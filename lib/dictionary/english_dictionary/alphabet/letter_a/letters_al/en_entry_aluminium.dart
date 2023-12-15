@@ -66,11 +66,7 @@ class EnglishEntryaluminium extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "aluminium"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌæljəˈmɪniəm/,  /ˌæləˈmɪniəm/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                    "aluminium"), // Find /ˌæljəˈmɪniəm/,  /ˌæləˈmɪniəm/
                           ],
                         ),
                         Row(
@@ -79,9 +75,7 @@ class EnglishEntryaluminium extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæljəˈmɪniəm/,  /ˌæləˈmɪniəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAluminium(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAluminium("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +85,7 @@ class EnglishEntryaluminium extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæljəˈmɪniəm/,  /ˌæləˈmɪniəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAluminium(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAluminium("en-US"),
                             ),
                           ],
                         ),

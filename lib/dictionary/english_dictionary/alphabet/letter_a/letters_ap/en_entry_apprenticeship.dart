@@ -111,12 +111,8 @@ class EnglishEntryapprenticeship extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "apprenticeship"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈprentɪʃɪp/
+                                word: "apprenticeship"), // Find /əˈprentɪʃɪp/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +121,7 @@ class EnglishEntryapprenticeship extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈprentɪʃɪp/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApprenticeship(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakApprenticeship("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +131,7 @@ class EnglishEntryapprenticeship extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈprentɪʃɪp/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApprenticeship(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakApprenticeship("en-US"),
                             ),
                           ],
                         ),

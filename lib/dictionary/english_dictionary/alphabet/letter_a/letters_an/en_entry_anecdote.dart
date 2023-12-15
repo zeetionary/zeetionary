@@ -105,13 +105,8 @@ class EnglishEntryanecdote extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "anecdote"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈænɪkdəʊt/
+                            EntryTitle(word: "anecdote"), // Find /ˈænɪkdəʊt/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -120,9 +115,7 @@ class EnglishEntryanecdote extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈænɪkdəʊt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAnecdote(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAnecdote("en-GB"),
                             ),
                           ],
                         ),
@@ -132,8 +125,7 @@ class EnglishEntryanecdote extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈænɪkdəʊt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnecdote(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAnecdote("en-US"),
                             ),
                           ],
                         ),

@@ -48,7 +48,7 @@ class EnglishEntryabacus extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word: "abacus"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
+
                             //   '(noun - plural: abacuses)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -58,9 +58,7 @@ class EnglishEntryabacus extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈæbəkəs/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAbacus(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAbacus("en-GB"),
                             ),
                           ],
                         ),
@@ -70,8 +68,7 @@ class EnglishEntryabacus extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæbəkəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbacus(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbacus("en-US"),
                             ),
                           ],
                         ),

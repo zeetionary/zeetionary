@@ -102,13 +102,7 @@ class EnglishEntryalready extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "already"), // DOPSUM: CHANGE WORD ENTRY - Find /ɔːlˈredi/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "already"), // Find /ɔːlˈredi/
                           ],
                         ),
                         Row(
@@ -117,9 +111,7 @@ class EnglishEntryalready extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɔːlˈredi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAlready(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAlready("en-GB"),
                             ),
                           ],
                         ),
@@ -129,8 +121,7 @@ class EnglishEntryalready extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɔːlˈredi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlready(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlready("en-US"),
                             ),
                           ],
                         ),

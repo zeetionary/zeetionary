@@ -50,19 +50,13 @@ class EnglishEntryabreast extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word: "abreast"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈbrest/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAbreast(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAbreast("en-GB"),
                             ),
                           ],
                         ),
@@ -72,8 +66,7 @@ class EnglishEntryabreast extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈbrest/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbreast(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbreast("en-US"),
                             ),
                           ],
                         ),

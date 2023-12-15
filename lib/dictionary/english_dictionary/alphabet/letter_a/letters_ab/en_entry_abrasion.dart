@@ -59,19 +59,13 @@ class EnglishEntryabrasion extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word: "abrasion"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈbreɪʒn/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAbrasion(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAbrasion("en-GB"),
                             ),
                           ],
                         ),
@@ -81,8 +75,7 @@ class EnglishEntryabrasion extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈbreɪʒn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAbrasion(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAbrasion("en-US"),
                             ),
                           ],
                         ),

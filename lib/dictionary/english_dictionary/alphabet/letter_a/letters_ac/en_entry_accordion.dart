@@ -41,19 +41,13 @@ class EnglishEntryaccordion extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word: "accordion"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkɔːdiən/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAaccordion(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAaccordion("en-GB"),
                             ),
                           ],
                         ),
@@ -63,8 +57,7 @@ class EnglishEntryaccordion extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkɔːrdiən/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAaccordion(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAaccordion("en-US"),
                             ),
                           ],
                         ),

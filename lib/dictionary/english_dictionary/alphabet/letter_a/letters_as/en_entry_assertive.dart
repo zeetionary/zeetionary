@@ -112,13 +112,8 @@ class EnglishEntryassertive extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "assertive"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈsɜːtɪv/
+                            EntryTitle(word: "assertive"), // Find /əˈsɜːtɪv/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +122,7 @@ class EnglishEntryassertive extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈsɜːtɪv/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAssertive(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAssertive("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +132,7 @@ class EnglishEntryassertive extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈsɜːrtɪv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAssertive(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAssertive("en-US"),
                             ),
                           ],
                         ),

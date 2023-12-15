@@ -65,12 +65,7 @@ class EnglishEntryallrounder extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "all-rounder"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌɔːl ˈraʊndə(r)/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "all-rounder"), // Find /ˌɔːl ˈraʊndə(r)/
                           ],
                         ),
                         Row(
@@ -79,9 +74,7 @@ class EnglishEntryallrounder extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌɔːl ˈraʊndə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAllrounder(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAllrounder("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +84,7 @@ class EnglishEntryallrounder extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌɔːl ˈraʊndər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAllrounder(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAllrounder("en-US"),
                             ),
                           ],
                         ),

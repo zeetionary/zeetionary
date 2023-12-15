@@ -107,9 +107,6 @@ class EnglishEntryballroom extends StatelessWidget {
                             EntryTitle(
                                 word: "ballroom"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -118,9 +115,7 @@ class EnglishEntryballroom extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈbɔːlruːm/,  /ˈbɔːlrʊm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakBallroom(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakBallroom("en-GB"),
                             ),
                           ],
                         ),
@@ -130,8 +125,7 @@ class EnglishEntryballroom extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈbɔːlruːm/,  /ˈbɔːlrʊm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBallroom(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakBallroom("en-US"),
                             ),
                           ],
                         ),

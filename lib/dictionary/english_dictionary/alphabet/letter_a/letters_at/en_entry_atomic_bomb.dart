@@ -116,9 +116,6 @@ class EnglishEntryatomicbomb extends StatelessWidget {
                                 word:
                                     "atomic bomb"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +124,7 @@ class EnglishEntryatomicbomb extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˌtɒmɪk ˈbɒm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAtomicbomb(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAtomicbomb("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +134,7 @@ class EnglishEntryatomicbomb extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌtɑːmɪk ˈbɑːm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAtomicbomb(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAtomicbomb("en-US"),
                             ),
                           ],
                         ),

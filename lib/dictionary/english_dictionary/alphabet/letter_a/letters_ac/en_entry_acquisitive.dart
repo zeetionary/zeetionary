@@ -65,21 +65,14 @@ class EnglishEntryacquisitive extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "acquisitive"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈkwɪzətɪv/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "acquisitive"), // Find /əˈkwɪzətɪv/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈkwɪzətɪv/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcquisitive(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAcquisitive("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +82,7 @@ class EnglishEntryacquisitive extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈkwɪzətɪv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcquisitive(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAcquisitive("en-US"),
                             ),
                           ],
                         ),

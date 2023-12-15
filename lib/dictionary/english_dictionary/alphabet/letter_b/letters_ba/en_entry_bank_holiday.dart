@@ -108,9 +108,6 @@ class EnglishEntrybankholiday extends StatelessWidget {
                                 word:
                                     "bank holiday"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -119,9 +116,7 @@ class EnglishEntrybankholiday extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌbæŋk ˈhɒlədeɪ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakBankholiday(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakBankholiday("en-GB"),
                             ),
                           ],
                         ),
@@ -131,8 +126,7 @@ class EnglishEntrybankholiday extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌbæŋk ˈhɑːlədeɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBankholiday(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakBankholiday("en-US"),
                             ),
                           ],
                         ),

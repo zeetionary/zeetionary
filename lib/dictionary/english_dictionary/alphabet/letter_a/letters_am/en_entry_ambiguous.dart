@@ -64,13 +64,7 @@ class EnglishEntryambiguous extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "ambiguous"), // DOPSUM: CHANGE WORD ENTRY - Find /æmˈbɪɡjuəs/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "ambiguous"), // Find /æmˈbɪɡjuəs/
                           ],
                         ),
                         Row(
@@ -79,9 +73,7 @@ class EnglishEntryambiguous extends StatelessWidget {
                                 text:
                                     "IpaUK: /æmˈbɪɡjuəs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmbiguous(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAmbiguous("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +83,7 @@ class EnglishEntryambiguous extends StatelessWidget {
                                 text:
                                     "IpaUS: /æmˈbɪɡjuəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmbiguous(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAmbiguous("en-US"),
                             ),
                           ],
                         ),

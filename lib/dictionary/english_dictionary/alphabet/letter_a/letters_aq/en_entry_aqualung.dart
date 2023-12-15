@@ -110,13 +110,8 @@ class EnglishEntryaqualung extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "aqualung"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈækwəlʌŋ/
+                            EntryTitle(word: "aqualung"), // Find /ˈækwəlʌŋ/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +120,7 @@ class EnglishEntryaqualung extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈækwəlʌŋ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAqualung(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAqualung("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +130,7 @@ class EnglishEntryaqualung extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːkwəlʌŋ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAqualung(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAqualung("en-US"),
                             ),
                           ],
                         ),

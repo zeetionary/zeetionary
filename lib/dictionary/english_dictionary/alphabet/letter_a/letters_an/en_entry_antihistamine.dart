@@ -108,11 +108,8 @@ class EnglishEntryantihistamine extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "antihistamine"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌæntiˈhɪstəmiːn/
+                                    "antihistamine"), // Find /ˌæntiˈhɪstəmiːn/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -121,9 +118,7 @@ class EnglishEntryantihistamine extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæntiˈhɪstəmiːn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAntihistamine(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAntihistamine("en-GB"),
                             ),
                           ],
                         ),
@@ -133,8 +128,7 @@ class EnglishEntryantihistamine extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæntiˈhɪstəmiːn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAntihistamine(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAntihistamine("en-US"),
                             ),
                           ],
                         ),

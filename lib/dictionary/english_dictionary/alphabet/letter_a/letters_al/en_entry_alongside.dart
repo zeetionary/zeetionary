@@ -66,13 +66,7 @@ class EnglishEntryalongside extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "alongside"), // DOPSUM: CHANGE WORD ENTRY - Find /əˌlɒŋˈsaɪd/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "alongside"), // Find /əˌlɒŋˈsaɪd/
                           ],
                         ),
                         Row(
@@ -81,9 +75,7 @@ class EnglishEntryalongside extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˌlɒŋˈsaɪd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlongside(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAlongside("en-GB"),
                             ),
                           ],
                         ),
@@ -93,8 +85,7 @@ class EnglishEntryalongside extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌlɔːŋˈsaɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlongside(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlongside("en-US"),
                             ),
                           ],
                         ),

@@ -66,11 +66,7 @@ class EnglishEntryadulthood extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "adulthood"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈædʌlthʊd/, /əˈdʌlthʊd/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                    "adulthood"), // Find /ˈædʌlthʊd/, /əˈdʌlthʊd/
                           ],
                         ),
                         Row(
@@ -78,9 +74,7 @@ class EnglishEntryadulthood extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ˈædʌlthʊd/, /əˈdʌlthʊd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdulthood(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAdulthood("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +84,7 @@ class EnglishEntryadulthood extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈædʌlthʊd/, /əˈdʌlthʊd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdulthood(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdulthood("en-US"),
                             ),
                           ],
                         ),

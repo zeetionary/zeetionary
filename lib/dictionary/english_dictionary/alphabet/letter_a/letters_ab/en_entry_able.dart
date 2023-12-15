@@ -68,19 +68,13 @@ class EnglishEntryable extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word: "able"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈeɪbl/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAble(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAble("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +84,7 @@ class EnglishEntryable extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈeɪbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAble(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAble("en-US"),
                             ),
                           ],
                         ),

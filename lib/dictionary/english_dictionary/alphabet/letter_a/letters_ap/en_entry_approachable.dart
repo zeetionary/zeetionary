@@ -112,12 +112,8 @@ class EnglishEntryapproachable extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "approachable"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈprəʊtʃəbl/
+                                word: "approachable"), // Find /əˈprəʊtʃəbl/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -126,9 +122,7 @@ class EnglishEntryapproachable extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈprəʊtʃəbl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakApproachable(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakApproachable("en-GB"),
                             ),
                           ],
                         ),
@@ -138,8 +132,7 @@ class EnglishEntryapproachable extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈprəʊtʃəbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakApproachable(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakApproachable("en-US"),
                             ),
                           ],
                         ),

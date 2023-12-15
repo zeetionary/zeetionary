@@ -78,19 +78,13 @@ class EnglishEntryacceptance extends StatelessWidget {
                             EntryTitle(
                                 word:
                                     "acceptance"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əkˈseptəns/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAcceptance(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAcceptance("en-GB"),
                             ),
                           ],
                         ),
@@ -100,8 +94,7 @@ class EnglishEntryacceptance extends StatelessWidget {
                                 text:
                                     "IpaUS: /əkˈseptəns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAcceptance(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAcceptance("en-US"),
                             ),
                           ],
                         ),

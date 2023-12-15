@@ -64,22 +64,14 @@ class EnglishEntryadversity extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "adversity"), // DOPSUM: CHANGE WORD ENTRY - Find /ədˈvɜːsəti/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "adversity"), // Find /ədˈvɜːsəti/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ədˈvɜːsəti/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdversity(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAdversity("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryadversity extends StatelessWidget {
                                 text:
                                     "IpaUS: /ədˈvɜːrsəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdversity(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdversity("en-US"),
                             ),
                           ],
                         ),

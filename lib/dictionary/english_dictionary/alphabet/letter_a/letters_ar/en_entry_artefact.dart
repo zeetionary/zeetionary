@@ -112,13 +112,8 @@ class EnglishEntryartefact extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "artefact"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːtɪfækt/
+                            EntryTitle(word: "artefact"), // Find /ˈɑːtɪfækt/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +122,7 @@ class EnglishEntryartefact extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːtɪfækt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakArtefact(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakArtefact("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +132,7 @@ class EnglishEntryartefact extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrtɪfækt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArtefact(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArtefact("en-US"),
                             ),
                           ],
                         ),

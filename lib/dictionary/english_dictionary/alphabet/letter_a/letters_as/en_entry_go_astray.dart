@@ -116,9 +116,6 @@ class EnglishEntrygoastray extends StatelessWidget {
                             EntryTitle(
                                 word: "go astray"), // DOPSUM: CHANGE WORD ENTRY
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -127,9 +124,7 @@ class EnglishEntrygoastray extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɡəʊ əˈstreɪ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakGoastray(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakGoastray("en-GB"),
                             ),
                           ],
                         ),
@@ -139,8 +134,7 @@ class EnglishEntrygoastray extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɡəʊ əˈstreɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakGoastray(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakGoastray("en-US"),
                             ),
                           ],
                         ),

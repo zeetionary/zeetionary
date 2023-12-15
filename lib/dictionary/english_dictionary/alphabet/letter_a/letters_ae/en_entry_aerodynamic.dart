@@ -64,12 +64,7 @@ class EnglishEntryaerodynamic extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "aerodynamic"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌeərəʊdaɪˈnæmɪk/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "aerodynamic"), // Find /ˌeərəʊdaɪˈnæmɪk/
                           ],
                         ),
                         Row(
@@ -77,9 +72,7 @@ class EnglishEntryaerodynamic extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ˌeərəʊdaɪˈnæmɪk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAerodynamic(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAerodynamic("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +82,7 @@ class EnglishEntryaerodynamic extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌerəʊdaɪˈnæmɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAerodynamic(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAerodynamic("en-US"),
                             ),
                           ],
                         ),

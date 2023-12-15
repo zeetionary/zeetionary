@@ -66,21 +66,14 @@ class EnglishEntryachievement extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "achievement"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈtʃiːvmənt/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "achievement"), // Find /əˈtʃiːvmənt/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈtʃiːvmənt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAchievement(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAchievement("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +83,7 @@ class EnglishEntryachievement extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈtʃiːvmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAchievement(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAchievement("en-US"),
                             ),
                           ],
                         ),

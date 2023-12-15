@@ -110,13 +110,8 @@ class EnglishEntryarguably extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "arguably"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːɡjuəbli/
+                            EntryTitle(word: "arguably"), // Find /ˈɑːɡjuəbli/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +120,7 @@ class EnglishEntryarguably extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːɡjuəbli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakArguably(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakArguably("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +130,7 @@ class EnglishEntryarguably extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrɡjuəbli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArguably(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArguably("en-US"),
                             ),
                           ],
                         ),

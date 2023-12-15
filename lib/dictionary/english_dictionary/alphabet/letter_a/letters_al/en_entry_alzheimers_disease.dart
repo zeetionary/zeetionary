@@ -66,11 +66,8 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "Alzheimer's disease"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæltshaɪməz dɪziːz/,  /ˈɔːltshaɪməz dɪziːz/
+                                    "Alzheimer's disease"), // Find /ˈæltshaɪməz dɪziːz/,  /ˈɔːltshaɪməz dɪziːz/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -79,9 +76,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæltshaɪməz dɪziːz/,  /ˈɔːltshaɪməz dɪziːz/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAlzheimersdisease(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAlzheimersdisease("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +86,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːltshaɪmərz dɪziːz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlzheimersdisease(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlzheimersdisease("en-US"),
                             ),
                           ],
                         ),

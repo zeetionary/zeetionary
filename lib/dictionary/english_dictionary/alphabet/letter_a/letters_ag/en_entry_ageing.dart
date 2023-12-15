@@ -66,21 +66,14 @@ class EnglishEntryageing extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "ageing (or aging)"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeɪdʒɪŋ/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "ageing (or aging)"), // Find /ˈeɪdʒɪŋ/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈeɪdʒɪŋ/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAgeing(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAgeing("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +83,7 @@ class EnglishEntryageing extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈeɪdʒɪŋ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgeing(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAgeing("en-US"),
                             ),
                           ],
                         ),

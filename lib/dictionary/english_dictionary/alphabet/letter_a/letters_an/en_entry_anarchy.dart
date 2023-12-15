@@ -105,13 +105,8 @@ class EnglishEntryanarchy extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "anarchy"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈænəki/
+                            EntryTitle(word: "anarchy"), // Find /ˈænəki/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -120,9 +115,7 @@ class EnglishEntryanarchy extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈænəki/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAnarchy(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAnarchy("en-GB"),
                             ),
                           ],
                         ),
@@ -132,8 +125,7 @@ class EnglishEntryanarchy extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈænərki/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnarchy(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAnarchy("en-US"),
                             ),
                           ],
                         ),

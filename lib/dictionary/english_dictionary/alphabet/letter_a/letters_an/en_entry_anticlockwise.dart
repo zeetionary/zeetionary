@@ -108,12 +108,8 @@ class EnglishEntryanticlockwise extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "anticlockwise"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌæntiˈklɒkwaɪz/
+                                word: "anticlockwise"), // Find /ˌæntiˈklɒkwaɪz/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -122,9 +118,7 @@ class EnglishEntryanticlockwise extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌæntiˈklɒkwaɪz/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnticlockwise(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAnticlockwise("en-GB"),
                             ),
                           ],
                         ),
@@ -134,8 +128,7 @@ class EnglishEntryanticlockwise extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæntiˈklɑːkwaɪz/,  /ˌæntaɪˈklɑːkwaɪz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnticlockwise(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAnticlockwise("en-US"),
                             ),
                           ],
                         ),

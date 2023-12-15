@@ -116,13 +116,8 @@ class EnglishEntryashamed extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "ashamed"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈʃeɪmd/
+                            EntryTitle(word: "ashamed"), // Find /əˈʃeɪmd/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -131,9 +126,7 @@ class EnglishEntryashamed extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈʃeɪmd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAshamed(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAshamed("en-GB"),
                             ),
                           ],
                         ),
@@ -143,8 +136,7 @@ class EnglishEntryashamed extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈʃeɪmd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAshamed(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAshamed("en-US"),
                             ),
                           ],
                         ),

@@ -111,12 +111,8 @@ class EnglishEntryappendicitis extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "appendicitis"), // DOPSUM: CHANGE WORD ENTRY - Find /əˌpendəˈsaɪtɪs/
+                                word: "appendicitis"), // Find /əˌpendəˈsaɪtɪs/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +121,7 @@ class EnglishEntryappendicitis extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˌpendəˈsaɪtɪs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAppendicitis(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAppendicitis("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +131,7 @@ class EnglishEntryappendicitis extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˌpendəˈsaɪtɪs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAppendicitis(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAppendicitis("en-US"),
                             ),
                           ],
                         ),

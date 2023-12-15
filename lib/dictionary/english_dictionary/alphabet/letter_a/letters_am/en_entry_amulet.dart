@@ -104,13 +104,8 @@ class EnglishEntryamulet extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "amulet"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæmjʊlət/
+                            EntryTitle(word: "amulet"), // Find /ˈæmjʊlət/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -119,9 +114,7 @@ class EnglishEntryamulet extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæmjʊlət/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAmulet(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAmulet("en-GB"),
                             ),
                           ],
                         ),
@@ -131,8 +124,7 @@ class EnglishEntryamulet extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæmjʊlət/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmulet(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAmulet("en-US"),
                             ),
                           ],
                         ),

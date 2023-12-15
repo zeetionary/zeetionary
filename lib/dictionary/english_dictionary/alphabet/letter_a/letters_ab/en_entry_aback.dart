@@ -48,7 +48,7 @@ class EnglishEntryaback extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word: "aback"), // DOPSUM: CHANGE WORD ENTRY
-                            // nothing heereee
+
                             //   '(adverb)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
@@ -58,9 +58,7 @@ class EnglishEntryaback extends StatelessWidget {
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈbæk/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAback(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAback("en-GB"),
                             ),
                           ],
                         ),
@@ -70,8 +68,7 @@ class EnglishEntryaback extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈbæk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAback(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAback("en-US"),
                             ),
                           ],
                         ),

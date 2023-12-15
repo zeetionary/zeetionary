@@ -82,22 +82,14 @@ class EnglishEntryaheadof extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "ahead of"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈhed əv/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "ahead of"), // Find /əˈhed əv/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /əˈhed əv/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAheadof(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAheadof("en-GB"),
                             ),
                           ],
                         ),
@@ -107,8 +99,7 @@ class EnglishEntryaheadof extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈhed əv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAheadof(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAheadof("en-US"),
                             ),
                           ],
                         ),

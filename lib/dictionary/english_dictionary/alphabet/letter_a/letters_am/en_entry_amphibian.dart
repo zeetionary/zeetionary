@@ -105,13 +105,8 @@ class EnglishEntryamphibian extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "amphibian"), // DOPSUM: CHANGE WORD ENTRY - Find /æmˈfɪbiən/
+                            EntryTitle(word: "amphibian"), // Find /æmˈfɪbiən/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -120,9 +115,7 @@ class EnglishEntryamphibian extends StatelessWidget {
                                 text:
                                     "IpaUK: /æmˈfɪbiən/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmphibian(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAmphibian("en-GB"),
                             ),
                           ],
                         ),
@@ -132,8 +125,7 @@ class EnglishEntryamphibian extends StatelessWidget {
                                 text:
                                     "IpaUS: /æmˈfɪbiən/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmphibian(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAmphibian("en-US"),
                             ),
                           ],
                         ),

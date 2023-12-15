@@ -108,13 +108,8 @@ class EnglishEntryaorta extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "aorta"), // DOPSUM: CHANGE WORD ENTRY - Find /eɪˈɔːtə/
+                            EntryTitle(word: "aorta"), // Find /eɪˈɔːtə/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -123,9 +118,7 @@ class EnglishEntryaorta extends StatelessWidget {
                                 text:
                                     "IpaUK: /eɪˈɔːtə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAorta(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAorta("en-GB"),
                             ),
                           ],
                         ),
@@ -135,8 +128,7 @@ class EnglishEntryaorta extends StatelessWidget {
                                 text:
                                     "IpaUS: /eɪˈɔːrtə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAorta(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAorta("en-US"),
                             ),
                           ],
                         ),

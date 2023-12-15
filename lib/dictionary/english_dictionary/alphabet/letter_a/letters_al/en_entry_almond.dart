@@ -64,13 +64,7 @@ class EnglishEntryalmond extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "almond"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːmənd/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "almond"), // Find /ˈɑːmənd/
                           ],
                         ),
                         Row(
@@ -79,9 +73,7 @@ class EnglishEntryalmond extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːmənd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAlmond(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAlmond("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +83,7 @@ class EnglishEntryalmond extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːmənd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlmond(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlmond("en-US"),
                             ),
                           ],
                         ),

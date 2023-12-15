@@ -67,11 +67,7 @@ class EnglishEntryadministrator extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "administrator"), // DOPSUM: CHANGE WORD ENTRY - Find /ədˈmɪnɪstreɪtə(r)/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                    "administrator"), // Find /ədˈmɪnɪstreɪtə(r)/
                           ],
                         ),
                         Row(
@@ -79,9 +75,7 @@ class EnglishEntryadministrator extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ədˈmɪnɪstreɪtə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdministrator(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAdministrator("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +85,7 @@ class EnglishEntryadministrator extends StatelessWidget {
                                 text:
                                     "IpaUS: /ədˈmɪnɪstreɪtər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdministrator(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdministrator("en-US"),
                             ),
                           ],
                         ),

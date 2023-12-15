@@ -86,11 +86,7 @@ class EnglishEntryadministration extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "administration"), // DOPSUM: CHANGE WORD ENTRY - Find /ədˌmɪnɪˈstreɪʃn/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                    "administration"), // Find /ədˌmɪnɪˈstreɪʃn/
                           ],
                         ),
                         Row(
@@ -98,9 +94,7 @@ class EnglishEntryadministration extends StatelessWidget {
                             const IPAofEnglish(
                                 text: "IpaUK: /ədˌmɪnɪˈstreɪʃn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdministration(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAdministration("en-GB"),
                             ),
                           ],
                         ),
@@ -110,8 +104,7 @@ class EnglishEntryadministration extends StatelessWidget {
                                 text:
                                     "IpaUS: /ədˌmɪnɪˈstreɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdministration(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdministration("en-US"),
                             ),
                           ],
                         ),

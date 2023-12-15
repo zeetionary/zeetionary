@@ -65,21 +65,14 @@ class EnglishEntryadnauseam extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "ad nauseam"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌæd ˈnɔːziəm/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "ad nauseam"), // Find /ˌæd ˈnɔːziəm/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˌæd ˈnɔːziəm/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAdnauseam(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAdnauseam("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +82,7 @@ class EnglishEntryadnauseam extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌæd ˈnɔːziəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdnauseam(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdnauseam("en-US"),
                             ),
                           ],
                         ),

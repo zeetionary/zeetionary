@@ -65,21 +65,14 @@ class EnglishEntrycomeofage extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "come of age"), // DOPSUM: CHANGE WORD ENTRY - Find /kʌm əv eɪdʒ/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                word: "come of age"), // Find /kʌm əv eɪdʒ/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /kʌm əv eɪdʒ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakComeofage(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakComeofage("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +82,7 @@ class EnglishEntrycomeofage extends StatelessWidget {
                                 text:
                                     "IpaUS: /kʌm əv eɪdʒ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakComeofage(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakComeofage("en-US"),
                             ),
                           ],
                         ),

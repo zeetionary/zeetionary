@@ -65,22 +65,14 @@ class EnglishEntryairlift extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "airlift"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈeəlɪft/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "airlift"), // Find /ˈeəlɪft/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ˈeəlɪft/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAirlift(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAirlift("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +82,7 @@ class EnglishEntryairlift extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈerlɪft/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAirlift(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAirlift("en-US"),
                             ),
                           ],
                         ),

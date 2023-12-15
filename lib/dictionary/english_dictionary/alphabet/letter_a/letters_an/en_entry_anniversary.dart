@@ -105,12 +105,8 @@ class EnglishEntryanniversary extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "anniversary"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌænɪˈvɜːsəri/
+                                word: "anniversary"), // Find /ˌænɪˈvɜːsəri/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -119,9 +115,7 @@ class EnglishEntryanniversary extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌænɪˈvɜːsəri/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnniversary(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAnniversary("en-GB"),
                             ),
                           ],
                         ),
@@ -131,8 +125,7 @@ class EnglishEntryanniversary extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌænɪˈvɜːrsəri/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnniversary(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAnniversary("en-US"),
                             ),
                           ],
                         ),

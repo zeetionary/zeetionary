@@ -111,13 +111,8 @@ class EnglishEntryarcade extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "arcade"), // DOPSUM: CHANGE WORD ENTRY - Find /ɑːˈkeɪd/
+                            EntryTitle(word: "arcade"), // Find /ɑːˈkeɪd/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -126,9 +121,7 @@ class EnglishEntryarcade extends StatelessWidget {
                                 text:
                                     "IpaUK: /ɑːˈkeɪd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakArcade(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakArcade("en-GB"),
                             ),
                           ],
                         ),
@@ -138,8 +131,7 @@ class EnglishEntryarcade extends StatelessWidget {
                                 text:
                                     "IpaUS: /ɑːrˈkeɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArcade(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArcade("en-US"),
                             ),
                           ],
                         ),

@@ -104,13 +104,8 @@ class EnglishEntryanchovy extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "anchovy"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæntʃəvi/
+                            EntryTitle(word: "anchovy"), // Find /ˈæntʃəvi/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -119,9 +114,7 @@ class EnglishEntryanchovy extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæntʃəvi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAnchovy(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAnchovy("en-GB"),
                             ),
                           ],
                         ),
@@ -131,8 +124,7 @@ class EnglishEntryanchovy extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæntʃəʊvi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnchovy(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAnchovy("en-US"),
                             ),
                           ],
                         ),

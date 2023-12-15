@@ -110,13 +110,8 @@ class EnglishEntryarduous extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "arduous"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːdʒuəs/
+                            EntryTitle(word: "arduous"), // Find /ˈɑːdʒuəs/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -125,9 +120,7 @@ class EnglishEntryarduous extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈɑːdʒuəs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakArduous(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakArduous("en-GB"),
                             ),
                           ],
                         ),
@@ -137,8 +130,7 @@ class EnglishEntryarduous extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈɑːrdʒuəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArduous(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakArduous("en-US"),
                             ),
                           ],
                         ),

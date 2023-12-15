@@ -64,22 +64,14 @@ class EnglishEntryadherent extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "adherent"), // DOPSUM: CHANGE WORD ENTRY - Find /ədˈhɪərənt/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "adherent"), // Find /ədˈhɪərənt/
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(text: "IpaUK: /ədˈhɪərənt/"),
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAdherent(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAdherent("en-GB"),
                             ),
                           ],
                         ),
@@ -89,8 +81,7 @@ class EnglishEntryadherent extends StatelessWidget {
                                 text:
                                     "IpaUS: /ədˈhɪrənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAdherent(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAdherent("en-US"),
                             ),
                           ],
                         ),

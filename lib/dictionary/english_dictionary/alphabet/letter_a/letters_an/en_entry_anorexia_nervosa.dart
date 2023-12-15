@@ -115,11 +115,8 @@ class EnglishEntryanorexianervosa extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "anorexia nervosa"), // DOPSUM: CHANGE WORD ENTRY - Find /ˌænəˌreksiə nɜːˈvəʊsə/
+                                    "anorexia nervosa"), // Find /ˌænəˌreksiə nɜːˈvəʊsə/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -128,9 +125,7 @@ class EnglishEntryanorexianervosa extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˌænəˌreksiə nɜːˈvəʊsə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () => speakAnorexianervosa(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAnorexianervosa("en-GB"),
                             ),
                           ],
                         ),
@@ -140,8 +135,7 @@ class EnglishEntryanorexianervosa extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˌænəˌreksiə nɜːrˈvəʊsə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAnorexianervosa(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAnorexianervosa("en-US"),
                             ),
                           ],
                         ),

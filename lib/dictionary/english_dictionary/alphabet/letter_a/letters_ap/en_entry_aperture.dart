@@ -111,13 +111,8 @@ class EnglishEntryaperture extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "aperture"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæpətʃə(r)/
+                            EntryTitle(word: "aperture"), // Find /ˈæpətʃə(r)/
                             // divvviiider
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
                           ],
                         ),
                         Row(
@@ -126,9 +121,7 @@ class EnglishEntryaperture extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæpətʃə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAperture(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAperture("en-GB"),
                             ),
                           ],
                         ),
@@ -138,8 +131,7 @@ class EnglishEntryaperture extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæpərtʃʊr/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAperture(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAperture("en-US"),
                             ),
                           ],
                         ),

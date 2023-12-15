@@ -65,11 +65,7 @@ class EnglishEntryagritourism extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "agritourism"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈæɡrɪtʊərɪzəm/,  /ˈæɡrɪtɔːrɪzəm/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                                    "agritourism"), // Find /ˈæɡrɪtʊərɪzəm/,  /ˈæɡrɪtɔːrɪzəm/
                           ],
                         ),
                         Row(
@@ -78,9 +74,7 @@ class EnglishEntryagritourism extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈæɡrɪtʊərɪzəm/,  /ˈæɡrɪtɔːrɪzəm/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAgritourism(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () => speakAgritourism("en-GB"),
                             ),
                           ],
                         ),
@@ -90,8 +84,7 @@ class EnglishEntryagritourism extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈæɡrɪtʊrɪzəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAgritourism(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAgritourism("en-US"),
                             ),
                           ],
                         ),

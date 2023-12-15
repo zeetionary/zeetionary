@@ -64,13 +64,7 @@ class EnglishEntryaloof extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "aloof"), // DOPSUM: CHANGE WORD ENTRY - Find /əˈluːf/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "aloof"), // Find /əˈluːf/
                           ],
                         ),
                         Row(
@@ -79,9 +73,7 @@ class EnglishEntryaloof extends StatelessWidget {
                                 text:
                                     "IpaUK: /əˈluːf/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAloof(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAloof("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +83,7 @@ class EnglishEntryaloof extends StatelessWidget {
                                 text:
                                     "IpaUS: /əˈluːf/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAloof(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAloof("en-US"),
                             ),
                           ],
                         ),

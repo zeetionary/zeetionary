@@ -64,13 +64,7 @@ class EnglishEntryalcove extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "alcove"), // DOPSUM: CHANGE WORD ENTRY - Find /ˈælkəʊv/
-                            // nothing heereee
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                            EntryTitle(word: "alcove"), // Find /ˈælkəʊv/
                           ],
                         ),
                         Row(
@@ -79,9 +73,7 @@ class EnglishEntryalcove extends StatelessWidget {
                                 text:
                                     "IpaUK: /ˈælkəʊv/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                             CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakAlcove(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAlcove("en-GB"),
                             ),
                           ],
                         ),
@@ -91,8 +83,7 @@ class EnglishEntryalcove extends StatelessWidget {
                                 text:
                                     "IpaUS: /ˈælkəʊv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAlcove(
-                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
+                              onPressed: () => speakAlcove("en-US"),
                             ),
                           ],
                         ),

@@ -30,7 +30,8 @@ class EnglishEntryarchive extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The BBC's archives are bulging with material."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The BBC's archives are bulging with material."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakArchive(String languageCode) async {
@@ -196,9 +197,9 @@ class EnglishEntryarchive extends StatelessWidget {
                                 onPressed: () => speakArchive1050("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakArchive1050(// REPLACE: archive /ˈɑːrkaɪv/
-                                        "en-US"),
+                                onPressed: () => speakArchive1050(
+                                    // REPLACE: archive /ˈɑːrkaɪv/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -220,7 +221,7 @@ class EnglishEntryarchive extends StatelessWidget {
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddedfourteen(),
+                    // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
                   ],
                 ),

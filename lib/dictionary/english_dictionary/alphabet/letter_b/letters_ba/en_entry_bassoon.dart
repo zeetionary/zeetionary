@@ -168,7 +168,7 @@ class EnglishEntrybassoon extends StatelessWidget {
                                       "The young musician struggled to master the complex fingering of the bassoon."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "میوزیکژەنە گەنجەکە تەقەلای‌بوو لە فێربوونی پەنجەژەنینی ئاڵۆزی بەسوونەکە."),
+                                      "میوزیکژەنە گەنجەکە تەقەڵای‌بوو لە فێربوونی پەنجەژەنینی ئاڵۆزی بەسوونەکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBassoons1("en-GB"),
@@ -196,7 +196,7 @@ class EnglishEntrybassoon extends StatelessWidget {
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddedfourteen(),
+                    // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
                   ],
                 ),

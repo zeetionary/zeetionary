@@ -181,7 +181,7 @@ class EnglishEntryarchaeology extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: شوێنەوارناسی، باستان‌ناسی، کۆنەوارناسی، باستانەوانی
 
-١. (ناو) توێژینەوە لە کەلتوورە کۆنەکان و بە مێژوو بە ھەڵکۆڵینی ئەو شوێنەوارانەی لە زەویدا دەدۆزرێنەوە"""),
+١. (ناو) توێژینەوە لە کەلتوورە کۆنەکان و مێژوو و ھەڵکۆڵینی ئەو شوێنەوارانەی لە زەویدا دەدۆزرێنەوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -222,7 +222,7 @@ class EnglishEntryarchaeology extends StatelessWidget {
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddedfourteen(),
+                    // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
                   ],
                 ),

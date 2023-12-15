@@ -75,7 +75,8 @@ class EnglishEntryagritourism extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "/ˈæɡrɪtʊərɪzəm/,  /ˈæɡrɪtɔːrɪzəm/"),
+                                text:
+                                    "IpaUK: /ˈæɡrɪtʊərɪzəm/,  /ˈæɡrɪtɔːrɪzəm/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAgritourism(
                                   // DOPSUM: CHANGE THE WORD ABOVE
@@ -147,7 +148,7 @@ class EnglishEntryagritourism extends StatelessWidget {
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddedfourteen(),
+                    // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
                   ],
                 ),

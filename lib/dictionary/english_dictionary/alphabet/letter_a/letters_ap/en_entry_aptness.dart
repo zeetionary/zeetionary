@@ -181,7 +181,7 @@ class EnglishEntryaptness extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: گونجاوی، لەباری، لێوەشاوی، توانایی، بەبەھرەیی
 
-١. (ھاوەڵناو) پێناسە"""),
+١. (ناو) گونجاوی و شیاوی لە دۆخێکدا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -222,7 +222,7 @@ class EnglishEntryaptness extends StatelessWidget {
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddedfourteen(),
+                    // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
                   ],
                 ),

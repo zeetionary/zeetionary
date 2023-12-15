@@ -77,7 +77,7 @@ class EnglishEntryadhesive extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "/ədˈhiːsɪv/, /ədˈhiːzɪv/"),
+                                text: "IpaUK: /ədˈhiːsɪv/, /ədˈhiːzɪv/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAdhesive(// DOPSUM: CHANGE THE WORD ABOVE
@@ -193,7 +193,7 @@ class EnglishEntryadhesive extends StatelessWidget {
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddedfourteen(),
+                    // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
                   ],
                 ),

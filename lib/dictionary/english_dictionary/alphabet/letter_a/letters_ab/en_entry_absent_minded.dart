@@ -60,7 +60,7 @@ class EnglishEntryabsentminded extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK:/ˌæbsənt ˈmaɪndɪd/"),
+                                text: "IpaUK: /ˌæbsənt ˈmaɪndɪd/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAbsentminded(
                                   // DOPSUM: CHANGE THE WORD ABOVE
@@ -149,7 +149,7 @@ class EnglishEntryabsentminded extends StatelessWidget {
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddedfourteen(),
+                    // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
                   ],
                 ),

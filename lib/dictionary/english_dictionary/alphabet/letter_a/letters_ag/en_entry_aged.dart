@@ -78,7 +78,7 @@ class EnglishEntryaged extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK:/eɪdʒd/, /ˈeɪdʒɪd/"),
+                                text: "IpaUK: /eɪdʒd/, /ˈeɪdʒɪd/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAged(// DOPSUM: CHANGE THE WORD ABOVE
@@ -225,7 +225,7 @@ class EnglishEntryaged extends StatelessWidget {
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddedfourteen(),
+                    // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
                   ],
                 ),

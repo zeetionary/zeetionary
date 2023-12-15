@@ -116,7 +116,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: شپرزانە، بەشێوەیەکی یەکجار خراپ، زۆر خراپ
 
-١. پێناسە"""),
+١. (هاوەڵکار) بە شێوەیەکی زۆر خراپ"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -150,7 +150,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddedfourteen(),
+                    // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
                   ],
                 ),

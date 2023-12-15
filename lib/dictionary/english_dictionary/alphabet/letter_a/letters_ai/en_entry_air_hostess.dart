@@ -76,7 +76,7 @@ class EnglishEntryairhostess extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "/ˈeə həʊstəs/,  /ˈeə həʊstes/"),
+                                text: "IpaUK: /ˈeə həʊstəs/,  /ˈeə həʊstes/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAirhostess(
                                   // DOPSUM: CHANGE THE WORD ABOVE
@@ -171,7 +171,7 @@ class EnglishEntryairhostess extends StatelessWidget {
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddedfourteen(),
+                    // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
                   ],
                 ),

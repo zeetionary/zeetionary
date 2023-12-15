@@ -76,7 +76,7 @@ class EnglishEntryadverse extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK:/ˈædvɜːs/,  /ədˈvɜːs/"),
+                                text: "IpaUK: /ˈædvɜːs/,  /ədˈvɜːs/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAdverse(// DOPSUM: CHANGE THE WORD ABOVE
@@ -170,7 +170,7 @@ class EnglishEntryadverse extends StatelessWidget {
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddedfourteen(),
+                    // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
                   ],
                 ),

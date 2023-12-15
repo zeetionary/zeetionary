@@ -76,7 +76,7 @@ class EnglishEntryaftermath extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "/ˈɑːftəmæθ/,  /ˈɑːftəmɑːθ/"),
+                                text: "IpaUK: /ˈɑːftəmæθ/,  /ˈɑːftəmɑːθ/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAftermath(
                                   // DOPSUM: CHANGE THE WORD ABOVE
@@ -173,7 +173,7 @@ class EnglishEntryaftermath extends StatelessWidget {
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddedfourteen(),
+                    // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
                   ],
                 ),

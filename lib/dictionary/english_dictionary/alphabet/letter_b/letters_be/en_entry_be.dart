@@ -169,8 +169,7 @@ class EnglishEntrybe extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Money isn't everything."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Money isn't everything."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBes18(String languageCode) async {
@@ -308,7 +307,8 @@ class EnglishEntrybe extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I tried phoning but there was no answer."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I tried phoning but there was no answer."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBes34(String languageCode) async {
@@ -316,7 +316,8 @@ class EnglishEntrybe extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The town is three miles away."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The town is three miles away."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBes35(String languageCode) async {
@@ -332,7 +333,8 @@ class EnglishEntrybe extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They are to be married in June."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They are to be married in June."); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -1114,12 +1116,12 @@ class EnglishEntrybe extends StatelessWidget {
                     YoutubeEmbeddedeleven(),
                     YoutubeEmbeddedtwelve(),
                     YoutubeEmbeddedthirteen(),
-                    YoutubeEmbeddedfourteen(),
+                    YoutubeEmbeddeddfourteen(),
                     YoutubeEmbeddedfifteen(),
-                    YoutubeEmbeddedsixteen(),
-                    YoutubeEmbeddedseventeen(),
-                    YoutubeEmbeddedeighteen(),
-                    YoutubeEmbeddednineteen(),
+                    YoutubeEmbeddeddsixteen(),
+                    YoutubeEmbeddeddseventeen(),
+                    YoutubeEmbeddeddeighteen(),
+                    YoutubeEmbeddeddnineteen(),
                     YoutubeEmbeddedtwenty(),
                     // YoutubeEmbeddedmulti(),
                   ],
@@ -1525,8 +1527,8 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedfourteen extends StatelessWidget {
-  YoutubeEmbeddedfourteen({super.key});
+class YoutubeEmbeddeddfourteen extends StatelessWidget {
+  YoutubeEmbeddeddfourteen({super.key});
 
   static String myVideoId = "3MOFv_8A3S0";
 
@@ -1575,8 +1577,8 @@ class YoutubeEmbeddedfifteen extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedsixteen extends StatelessWidget {
-  YoutubeEmbeddedsixteen({super.key});
+class YoutubeEmbeddeddsixteen extends StatelessWidget {
+  YoutubeEmbeddeddsixteen({super.key});
 
   static String myVideoId = "R_fZjGm2OrM";
 
@@ -1600,8 +1602,8 @@ class YoutubeEmbeddedsixteen extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedseventeen extends StatelessWidget {
-  YoutubeEmbeddedseventeen({super.key});
+class YoutubeEmbeddeddseventeen extends StatelessWidget {
+  YoutubeEmbeddeddseventeen({super.key});
 
   static String myVideoId = "iEKLFS-aKcw";
 
@@ -1625,8 +1627,8 @@ class YoutubeEmbeddedseventeen extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeighteen extends StatelessWidget {
-  YoutubeEmbeddedeighteen({super.key});
+class YoutubeEmbeddeddeighteen extends StatelessWidget {
+  YoutubeEmbeddeddeighteen({super.key});
 
   static String myVideoId = "CleUrqPLCzU";
 
@@ -1650,8 +1652,8 @@ class YoutubeEmbeddedeighteen extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddednineteen extends StatelessWidget {
-  YoutubeEmbeddednineteen({super.key});
+class YoutubeEmbeddeddnineteen extends StatelessWidget {
+  YoutubeEmbeddeddnineteen({super.key});
 
   static String myVideoId = "ZQy89tZ-mRU";
 

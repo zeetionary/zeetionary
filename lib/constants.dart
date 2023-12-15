@@ -156,8 +156,8 @@ class CustomTabBar extends ConsumerWidget {
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
           colors: [
-            currentTheme.primaryColor.withOpacity(0.07),
-            currentTheme.primaryColor.withOpacity(0.02),
+            currentTheme.primaryColor.withOpacity(0.08),
+            currentTheme.primaryColor.withOpacity(0.05),
           ],
         ),
       ),
@@ -165,15 +165,54 @@ class CustomTabBar extends ConsumerWidget {
         isScrollable: true,
         tabs: tabs,
         indicator: BoxDecoration(
-          color: currentTheme.scaffoldBackgroundColor.withOpacity(0.7),
-          borderRadius: BorderRadius.circular(12.0),
+          gradient: LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [
+              currentTheme.scaffoldBackgroundColor.withOpacity(0.25),
+              currentTheme.scaffoldBackgroundColor.withOpacity(0.45),
+              // Colors.red.shade800.withOpacity(0.09),
+              // Colors.red.shade800.withOpacity(0.07),
+              // currentTheme.primaryColor.withOpacity(0.08),
+              // currentTheme.primaryColor.withOpacity(0.05),
+            ],
+          ),
+          // color: currentTheme.primaryColor.withOpacity(0.1),
+          borderRadius: const BorderRadius.only(
+            topLeft: Radius.circular(12.0),
+            bottomRight: Radius.circular(12.0),
+          ),
+          border: Border.all(
+            color: currentTheme.primaryColor.withOpacity(0.18),
+            width: 2.0,
+            style: BorderStyle.solid,
+          ),
         ),
+        // decoration: BoxDecoration(
+        //   color: Colors.blue.shade800.withOpacity(0.1),
+        //   // color: Colors.blue.withOpacity(
+        //   //     0.05), // Replace with your desired background color
+        //   borderRadius: const BorderRadius.only(
+        //     topLeft: Radius.circular(12.0),
+        //     bottomRight: Radius.circular(12.0),
+        //   ),
+        //   border: Border.all(
+        //     color: currentTheme.primaryColor.withOpacity(0.5),
+        //     // color: currentTheme.scaffoldBackgroundColor.withOpacity(0.9),
+        //     width: 2.0,
+        //   ),
+        // ),
         indicatorSize: TabBarIndicatorSize.tab,
         indicatorPadding: const EdgeInsets.all(4.0),
       ),
     );
   }
 }
+
+// indicator: BoxDecoration(
+//   color: currentTheme.scaffoldBackgroundColor.withOpacity(0.7),
+//   borderRadius: BorderRadius.circular(12.0),
+// ),
 
 // class CustomTabBar extends ConsumerWidget {
 //   final List<Widget> tabs;
@@ -545,10 +584,38 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
         padding: const EdgeInsets.symmetric(horizontal: 6.0),
         child: Container(
           decoration: BoxDecoration(
-            color: Colors.blue.withOpacity(
-                0.05), // Replace with your desired background color
-            borderRadius: BorderRadius.circular(12.0),
+            color: Colors.blue.shade800.withOpacity(0.1),
+            // color: Colors.blue.withOpacity(
+            //     0.05), // Replace with your desired background color
+            borderRadius: const BorderRadius.only(
+              topLeft: Radius.circular(12.0),
+              bottomRight: Radius.circular(12.0),
+            ),
+            border: Border.all(
+              color: currentTheme.primaryColor.withOpacity(0.5),
+              // color: currentTheme.scaffoldBackgroundColor.withOpacity(0.9),
+              width: 2.0,
+            ),
           ),
+          //   BoxDecoration(
+          //   gradient: LinearGradient(
+          //     colors: [
+          //       Colors.blue.shade200.withOpacity(0.1),
+          //       Colors.blue.shade700.withOpacity(0.2)
+          //       // currentTheme.scaffoldBackgroundColor.withOpacity(0.3),
+          //       // currentTheme.scaffoldBackgroundColor.withOpacity(0.1),
+          //     ],
+          //   ),
+          //   borderRadius: const BorderRadius.only(
+          //     topLeft: Radius.circular(12.0),
+          //     bottomRight: Radius.circular(12.0),
+          //   ),
+          //   border: Border.all(
+          //     color: Colors.blue.shade800.withOpacity(0.4),
+          //     // color: currentTheme.scaffoldBackgroundColor.withOpacity(0.9),
+          //     width: 2.0,
+          //   ),
+          // ),
           child: Center(
             child: AnimatedBuilder(
               animation: _controller,

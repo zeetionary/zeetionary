@@ -140,7 +140,7 @@ class EnglishEntryadversity extends StatelessWidget {
                                   text:
                                       "He overcame many personal adversities."),
                               const ExampleSentenceKurdish(
-                                  text: "بەسەر زۆر نەھامەتی کەسیدا زاڵ بوو."),
+                                  text: "بەسەر زۆر نەھامەتیی کەسیدا زاڵ بوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAdversity632("en-GB"),
@@ -168,7 +168,7 @@ class EnglishEntryadversity extends StatelessWidget {
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddedfourteen(),
+                    // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
                   ],
                 ),

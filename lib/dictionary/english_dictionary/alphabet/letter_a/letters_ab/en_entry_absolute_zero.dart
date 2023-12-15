@@ -60,7 +60,7 @@ class EnglishEntryabsolutezero extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK:/ˌæbsəluːt ˈzɪərəʊ/"),
+                                text: "IpaUK: /ˌæbsəluːt ˈzɪərəʊ/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAbsolutezero(
                                   // DOPSUM: CHANGE THE WORD ABOVE
@@ -152,7 +152,7 @@ class EnglishEntryabsolutezero extends StatelessWidget {
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddedfourteen(),
+                    // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
                   ],
                 ),

@@ -76,7 +76,7 @@ class EnglishEntryadjudicator extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK:/əˈdʒuːdɪkeɪtə(r)/"),
+                                text: "IpaUK: /əˈdʒuːdɪkeɪtə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAdjudicator(
                                   // DOPSUM: CHANGE THE WORD ABOVE
@@ -168,7 +168,7 @@ class EnglishEntryadjudicator extends StatelessWidget {
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddedfourteen(),
+                    // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
                   ],
                 ),

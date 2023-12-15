@@ -51,7 +51,7 @@ class EnglishEntryabovebelowthefold extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK:/əˈbʌv/bɪˈləʊ ðə fəʊld/"),
+                                text: "IpaUK: /əˈbʌv/bɪˈləʊ ðə fəʊld/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAbovebelowthefold(
                                   // DOPSUM: CHANGE THE WORD ABOVE
@@ -123,7 +123,7 @@ class EnglishEntryabovebelowthefold extends StatelessWidget {
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddedfourteen(),
+                    // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
                   ],
                 ),

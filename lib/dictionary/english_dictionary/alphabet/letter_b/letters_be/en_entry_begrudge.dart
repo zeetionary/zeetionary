@@ -262,12 +262,12 @@ class EnglishEntrybegrudge extends StatelessWidget {
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddedfourteen(),
+                    // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
-                    // YoutubeEmbeddedsixteen(),
-                    // YoutubeEmbeddedseventeen(),
-                    // YoutubeEmbeddedeighteen(),
-                    // YoutubeEmbeddednineteen(),
+                    // YoutubeEmbeddeddsixteen(),
+                    // YoutubeEmbeddeddseventeen(),
+                    // YoutubeEmbeddeddeighteen(),
+                    // YoutubeEmbeddeddnineteen(),
                     // YoutubeEmbeddedtwenty(),
                     // YoutubeEmbeddedmulti(),
                   ],
@@ -636,8 +636,8 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedfourteen extends StatelessWidget {
-  YoutubeEmbeddedfourteen({super.key});
+class YoutubeEmbeddeddfourteen extends StatelessWidget {
+  YoutubeEmbeddeddfourteen({super.key});
 
   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
@@ -686,8 +686,8 @@ class YoutubeEmbeddedfifteen extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedsixteen extends StatelessWidget {
-  YoutubeEmbeddedsixteen({super.key});
+class YoutubeEmbeddeddsixteen extends StatelessWidget {
+  YoutubeEmbeddeddsixteen({super.key});
 
   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
@@ -711,8 +711,8 @@ class YoutubeEmbeddedsixteen extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedseventeen extends StatelessWidget {
-  YoutubeEmbeddedseventeen({super.key});
+class YoutubeEmbeddeddseventeen extends StatelessWidget {
+  YoutubeEmbeddeddseventeen({super.key});
 
   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
@@ -736,8 +736,8 @@ class YoutubeEmbeddedseventeen extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeighteen extends StatelessWidget {
-  YoutubeEmbeddedeighteen({super.key});
+class YoutubeEmbeddeddeighteen extends StatelessWidget {
+  YoutubeEmbeddeddeighteen({super.key});
 
   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
@@ -761,8 +761,8 @@ class YoutubeEmbeddedeighteen extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddednineteen extends StatelessWidget {
-  YoutubeEmbeddednineteen({super.key});
+class YoutubeEmbeddeddnineteen extends StatelessWidget {
+  YoutubeEmbeddeddnineteen({super.key});
 
   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 

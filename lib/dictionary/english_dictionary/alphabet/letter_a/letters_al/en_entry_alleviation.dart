@@ -135,7 +135,7 @@ class EnglishEntryalleviation extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: ھێورکردنەوە، دامرکاندنەوە، سوککردن
 
-١. (ھاوەڵناو) پێناسە"""),
+١. (ناو) وا لە سەختی شتێک بکەیت کەم ببێتەوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -174,7 +174,7 @@ class EnglishEntryalleviation extends StatelessWidget {
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddedfourteen(),
+                    // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
                   ],
                 ),

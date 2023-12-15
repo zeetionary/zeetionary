@@ -75,7 +75,7 @@ class EnglishEntryaerodynamics extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK:/ˌeərəʊdaɪˈnæmɪks/"),
+                                text: "IpaUK: /ˌeərəʊdaɪˈnæmɪks/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAerodynamics(
                                   // DOPSUM: CHANGE THE WORD ABOVE
@@ -147,7 +147,7 @@ class EnglishEntryaerodynamics extends StatelessWidget {
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddedfourteen(),
+                    // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
                   ],
                 ),

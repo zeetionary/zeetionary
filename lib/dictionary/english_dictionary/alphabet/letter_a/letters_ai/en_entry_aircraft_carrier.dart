@@ -75,7 +75,7 @@ class EnglishEntryaircraftcarrier extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK:/ˈeəkrɑːft kæriə(r)/"),
+                                text: "IpaUK: /ˈeəkrɑːft kæriə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAircraftcarrier(
                                   // DOPSUM: CHANGE THE WORD ABOVE
@@ -147,7 +147,7 @@ class EnglishEntryaircraftcarrier extends StatelessWidget {
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddedfourteen(),
+                    // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
                   ],
                 ),

@@ -158,7 +158,7 @@ class EnglishEntryafloat extends StatelessWidget {
                                       "They were struggling to keep the boat afloat."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "تەقەلایان بوو بۆ ئەوەی بەلەمەکە سەراوکەوتە بھێڵنەوە."),
+                                      "تەقەڵایان بوو بۆ ئەوەی بەلەمەکە سەراوکەوتە بھێڵنەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAflo45("en-GB"),
@@ -180,7 +180,7 @@ class EnglishEntryafloat extends StatelessWidget {
                                       "Many small businesses are struggling to stay afloat."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ژمارەیەکی زۆر بزنسی بچووک تەقەلایانە ئیفلاس نەکەن."),
+                                      "ژمارەیەکی زۆر بزنسی بچووک تەقەڵایانە ئیفلاس نەکەن."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAfl5988("en-GB"),
@@ -208,7 +208,7 @@ class EnglishEntryafloat extends StatelessWidget {
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddedfourteen(),
+                    // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
                   ],
                 ),

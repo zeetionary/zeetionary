@@ -86,7 +86,7 @@ class EnglishEntryaccent extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK:/ˈæksent/ /ˈæksənt/"),
+                                text: "IpaUK: /ˈæksent/ /ˈæksənt/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakAccent(// DOPSUM: CHANGE THE WORD ABOVE
@@ -235,7 +235,7 @@ class EnglishEntryaccent extends StatelessWidget {
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddedfourteen(),
+                    // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
                   ],
                 ),

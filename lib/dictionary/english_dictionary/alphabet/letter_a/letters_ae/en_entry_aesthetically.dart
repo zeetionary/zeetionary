@@ -77,7 +77,7 @@ class EnglishEntryaesthetically extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "/iːsˈθetɪkli/,  /esˈθetɪkli/"),
+                                text: "IpaUK: /iːsˈθetɪkli/,  /esˈθetɪkli/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAesthetically(
                                   // DOPSUM: CHANGE THE WORD ABOVE
@@ -191,7 +191,7 @@ class EnglishEntryaesthetically extends StatelessWidget {
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddedfourteen(),
+                    // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
                   ],
                 ),

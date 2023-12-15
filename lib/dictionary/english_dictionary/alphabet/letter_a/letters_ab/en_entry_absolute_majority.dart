@@ -60,7 +60,7 @@ class EnglishEntryabsolutemajority extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUK:/ˌæbsəluːt məˈdʒɒrəti/"),
+                                text: "IpaUK: /ˌæbsəluːt məˈdʒɒrəti/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAbsolutemajority(
                                   // DOPSUM: CHANGE THE WORD ABOVE
@@ -152,7 +152,7 @@ class EnglishEntryabsolutemajority extends StatelessWidget {
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddedfourteen(),
+                    // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
                   ],
                 ),

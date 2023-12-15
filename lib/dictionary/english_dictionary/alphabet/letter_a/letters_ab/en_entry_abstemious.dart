@@ -123,7 +123,7 @@ class EnglishEntryabstemious extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text:
                                       "He was a hard-working man with abstemious habits."),
-                              const ExampleSentenceKurdish(text: "رستە."),
+                              const ExampleSentenceKurdish(text: "پیاوێکی زەحمەتکێش بوو کە خۆی لە حەز و ویستەکانی بەدووردەگرت."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAb75891("en-GB"),

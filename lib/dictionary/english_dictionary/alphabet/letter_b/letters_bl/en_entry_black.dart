@@ -380,9 +380,8 @@ class EnglishEntryblack extends StatelessWidget {
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                           const DividerSentences(),
+                          // const DividerDefinition(),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -400,9 +399,8 @@ class EnglishEntryblack extends StatelessWidget {
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                           const DividerSentences(),
+                          // const DividerDefinition(),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -543,7 +541,7 @@ class EnglishEntryblack extends StatelessWidget {
                             ],
                           ),
                           // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٦. (ھاوەڵناو) پڕ لە ڕق و تووڕەیی"),
                           Row(
@@ -564,7 +562,7 @@ class EnglishEntryblack extends StatelessWidget {
                             ],
                           ),
                           // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٧. (ھاوەڵناو) زۆر بێزار و نائومێدکەر"),
                           Row(
@@ -583,7 +581,7 @@ class EnglishEntryblack extends StatelessWidget {
                             ],
                           ),
                           // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: "٨. (ناو) ڕەنگی ڕەش"),
                           Row(
                             children: [
@@ -644,7 +642,7 @@ class EnglishEntryblack extends StatelessWidget {
                             ],
                           ),
                           // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "١٠. (کردار) رەتکردنەوەی مامەڵە لەگەڵ کەسێک وەک ناڕەزایی سیاسی"),
@@ -666,7 +664,7 @@ class EnglishEntryblack extends StatelessWidget {
                             ],
                           ),
                           // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "١١. (کردار) ڕەشکردنی شتێک"),
                           Row(

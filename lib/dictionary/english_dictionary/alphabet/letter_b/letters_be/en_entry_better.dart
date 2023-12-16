@@ -461,7 +461,7 @@ class EnglishEntrybetter extends StatelessWidget {
                             ],
                           ),
                           // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ھاوەڵناو) لە دۆخێکی تەندرووستی باشتر"""),
                           Row(

@@ -493,7 +493,7 @@ class EnglishEntrybite extends StatelessWidget {
                             ],
                           ),
                           // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "١٠. (ناو) تامێکی بەھێزی خۆش"),
                           Row(

@@ -182,7 +182,6 @@ class EnglishEntrydopsum1 extends StatelessWidget {
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           // const DividerDefinition(),
                         ],
                       ),

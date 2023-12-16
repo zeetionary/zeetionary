@@ -184,7 +184,7 @@ class EnglishEntryblacken extends StatelessWidget {
                             ],
                           ),
                           // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (کردار) وتنی شتی خراپ لەسەر خەڵکی کە دەبێتە هۆی ناشرینبوونی وێنایان"),

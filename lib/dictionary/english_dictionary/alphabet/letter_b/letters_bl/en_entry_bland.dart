@@ -173,7 +173,7 @@ class EnglishEntrybland extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "I find chicken a little bland."),
                               const ExampleSentenceKurdish(
-                                  text: "مریشکم لا بێ‌تامە."),
+                                  text: "مریشکم کەمێک لا بێ‌تامە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblands1("en-GB"),

@@ -5,145 +5,89 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "below" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
+// Define the word "bitterness" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
 
-// replace below - replace EnglishEntrybelow
-
-// replace speakBelow - /bɪˈləʊ/
+// replace bitterness - /ˈbɪtənəs/
 
 enum TtsState { playing }
 
-class EnglishEntrybelow extends StatelessWidget {
+class EnglishEntrybitterness extends StatelessWidget {
 // blank divider
-  EnglishEntrybelow({super.key});
+  EnglishEntrybitterness({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBelow(String languageCode) async {
-    // DOPSUM: CHANGE speakBelow
+  Future<void> speakbitterness(String languageCode) async {
+    // DOPSUM: CHANGE speakbitterness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("below"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bitterness"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelows1(String languageCode) async {
-    // DOPSUM: CHANGE speakBelow
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("They live on the floor below."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBelows2(String languageCode) async {
-    // DOPSUM: CHANGE speakBelow
+  Future<void> speakbitternesss1(String languageCode) async {
+    // DOPSUM: CHANGE speakbitterness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I could still see the airport buildings far below."); // DOPSUM: CHANGE TEXT
+        "He was full of bitterness after he lost his job."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelows3(String languageCode) async {
-    // DOPSUM: CHANGE speakBelow
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("See below for references."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBelows4(String languageCode) async {
-    // DOPSUM: CHANGE speakBelow
+  Future<void> speakbitternesss2(String languageCode) async {
+    // DOPSUM: CHANGE speakbitterness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This ruling applies to the ranks of officers and below."); // DOPSUM: CHANGE TEXT
+        "The bitterness of the argument left a lasting impact on their relationship."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelows5(String languageCode) async {
-    // DOPSUM: CHANGE speakBelow
+  Future<void> speakbitternesss3(String languageCode) async {
+    // DOPSUM: CHANGE speakbitterness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The thermometer had dropped to a record 40 below."); // DOPSUM: CHANGE TEXT
+        "The medicine had a strong bitterness that lingered on the tongue."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelows6(String languageCode) async {
-    // DOPSUM: CHANGE speakBelow
+  Future<void> speakbitternesss4(String languageCode) async {
+    // DOPSUM: CHANGE speakbitterness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Please do not write below this line."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbitternesss44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelows7(String languageCode) async {
-    // DOPSUM: CHANGE speakBelow
+  Future<void> speakbitternesss5(String languageCode) async {
+    // DOPSUM: CHANGE speakbitterness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He dived below the surface of the water."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbitternesss55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelows8(String languageCode) async {
-    // DOPSUM: CHANGE speakBelow
+  Future<void> speakbitternesss6(String languageCode) async {
+    // DOPSUM: CHANGE speakbitterness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "In this school, skirts will be worn below the knee."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbitternesss66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBelows9(String languageCode) async {
-    // DOPSUM: CHANGE speakBelow
+  Future<void> speakbitternesss7(String languageCode) async {
+    // DOPSUM: CHANGE speakbitterness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The temperatures remained below freezing all day."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBelows10(String languageCode) async {
-    // DOPSUM: CHANGE speakBelow
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She held a position below manager in the company."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBelows11(String languageCode) async {
-    // DOPSUM: CHANGE speakBelow
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBelows1111"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBelows12(String languageCode) async {
-    // DOPSUM: CHANGE speakBelow
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBelows1212"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBelows13(String languageCode) async {
-    // DOPSUM: CHANGE speakBelow
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBelows1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbitternesss77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 18, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -160,22 +104,22 @@ class EnglishEntrybelow extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "below"),
+                            EntryTitle(word: "bitterness"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /bɪˈləʊ/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbɪtənəs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBelow("en-GB"),
+                              onPressed: () => speakbitterness("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /bɪˈləʊ/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbɪtərnəs/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBelow("en-US"),
+                              onPressed: () => speakbitterness("en-US"),
                             ),
                           ],
                         ),
@@ -193,17 +137,17 @@ class EnglishEntrybelow extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 18
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
                   VideoIconForTab(), // 11
                   VideoIconForTab(), // 12
-                  VideoIconForTab(), // 13
-                  VideoIconForTab(), // 14
-                  VideoIconForTab(), // 15
-                  VideoIconForTab(), // 16
+                  // VideoIconForTab(), // 13
+                  // VideoIconForTab(), // 14
+                  // VideoIconForTab(), // 15
+                  // VideoIconForTab(), // 16
                   // VideoIconForTab(), // 17
                   // VideoIconForTab(), // 18
                   // VideoIconForTab(), // 19
@@ -221,198 +165,66 @@ class EnglishEntrybelow extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ژێر، بنەوە، ژێرەوە، خواروو، ژێروو، خوارەوە، خوارتر، خوارتر لە، لە بنەوە، بە بن، بە ژێر، لە ژێرەوە، (دەریاوانی) لەژێر پشتی کەشتی‌یەوە، بن یان ژێر سیفر (تێمپراچێری ھەوا)، کەمتر لە، لەژێر، لە خوارووی، دوورتر، ئەولاتر
+کوردی: توندی، تاڵی، ناخۆشی، سەختی
 
-١. (ھاوەڵکار) لە خوارەوە یان بەرەو خوارەوە"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They live on the floor below."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە نھۆمی خوارەوە دەژین."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelows1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelows1("en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
+١. (ناو) هەستی تووڕەیی و دڵتەنگی بەهۆی ئەوەی پێت وایە خراپ مامەڵەت لەگەڵ کراوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "I could still see the airport buildings far below."),
+                                      "He was full of bitterness after he lost his job."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ھێشتا دەمتوانی بیناکانی فڕۆکەخانەکە کە زۆر لە خوارەوە بوون ببینم."),
+                                      "پڕ لە تووڕەیی بوو لە کارەکەی لەدەستدا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBelows2("en-GB"),
+                                onPressed: () => speakbitternesss1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBelows2("en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "See below (= at the bottom of the page) for references."),
-                              const ExampleSentenceKurdish(
-                                  text: "سەیری خوارەوە بکە بۆ سەرچاوەکان."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelows3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelows3("en-US"),
+                                onPressed: () => speakbitternesss1("en-US"),
                               ),
                             ],
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ھاوەڵکار) لە پلەیەکی نزمتر"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) گفتوگۆیەک یان مشتومڕێکی توند بەهۆی ئەوەی ڕق و تووڕەیی زۆرەوە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "This ruling applies to the ranks of officers and below."),
+                                      "The bitterness of the argument left a lasting impact on their relationship."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەم بڕیارە ئەفسەران و ئەوانەی نزمتر لێیان دەگرێتەوە."),
+                                      "تاڵی مشتومڕەکە کاریگەرییەکی بەردەوامی لەسەر پەیوەندییان جێهێشت."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBelows4("en-GB"),
+                                onPressed: () => speakbitternesss2("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBelows4("en-US"),
+                                onPressed: () => speakbitternesss2("en-US"),
                               ),
                             ],
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (ھاوەڵکار) نزمتر لە سفر"""),
+                          const DefinitionKurdish(
+                              text: "٣. (ناو) شتێک، بۆ نموونە خواردن، کە تاڵە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The thermometer had dropped to a record 40 below (= −40 degrees)."),
+                                      "The medicine had a strong bitterness that lingered on the tongue."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "گەرمی‌پێوەکە دابەزیوە بۆ ٤٠ی ژێر سفر."),
+                                      "دەرمانەکە تاڵییەکی توندی هەبوو کە لەسەر زمان مایەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBelows5("en-GB"),
+                                onPressed: () => speakbitternesss3("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBelows5("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٤. (ئامراز) لە ئاست یان جێگەیەکی خوارتر وەک لە کەسێکی تر"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Please do not write below this line."),
-                              const ExampleSentenceKurdish(
-                                  text: "تکایە لە خوار ئەم ھێڵەوە مەنووسە."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelows6("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelows6("en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He dived below the surface of the water."),
-                              const ExampleSentenceKurdish(
-                                  text: "دابەزییە ژێر ئاوەکە."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelows7("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelows7("en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In this school, skirts will be worn below (= long enough to cover) the knee."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەم قوتابخانەیە، تەنوورە دەبێت لەخوار ئەژنۆوە بێت."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelows8("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelows8("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٥. (ئامراز) لە ئاستێک یان ستانداردی کەمتر"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The temperatures remained below freezing all day."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پلەی گەرمی تەواوی ڕۆژەکە لەژێر پلەی بەستن مایەوە."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelows9("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelows9("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٦. (ئامراز) لە پلەیەکی نزمتر"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She held a position below manager in the company."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پلەیەکی ھەبوو کە لە خوار سەرپەرشتیارەوە بوو لە کۆمپانیاکە."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBelows10("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBelows10("en-US"),
+                                onPressed: () => speakbitternesss3("en-US"),
                               ),
                             ],
                           ),
@@ -433,10 +245,10 @@ class EnglishEntrybelow extends StatelessWidget {
                     YoutubeEmbeddedten(),
                     YoutubeEmbeddedeleven(),
                     YoutubeEmbeddedtwelve(),
-                    YoutubeEmbeddedthirteen(),
-                    YoutubeEmbeddeddfourteen(),
-                    YoutubeEmbeddedfifteen(),
-                    YoutubeEmbeddeddsixteen(),
+                    // YoutubeEmbeddedthirteen(),
+                    // YoutubeEmbeddeddfourteen(),
+                    // YoutubeEmbeddedfifteen(),
+                    // YoutubeEmbeddeddsixteen(),
                     // YoutubeEmbeddeddseventeen(),
                     // YoutubeEmbeddeddeighteen(),
                     // YoutubeEmbeddeddnineteen(),
@@ -469,27 +281,15 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Adverb: below
-1. In or to a place that is lower (= at a lower place, to a lower place, beneath)
+- Noun: bitterness
+1. A feeling of deep and bitter anger and ill-will (= resentment, gall, rancor [US], rancour [Brit, Cdn], ill feeling, hard feelings, acrimoniousness, bile)
+"his bitterness took the form of extreme hostility";
  
-2. (in writing) at a later place (= infra)
-"see below";
+2. A rough and bitter manner (= acrimony, acerbity, jaundice, tartness, thorniness)
  
-3. On a lower storey (= downstairs, down the stairs, on a lower floor)
-"the tenants live below";
+3. The taste experience when quinine or coffee is taken into the mouth (= bitter)
  
-4. Further down (= under)
-"see below for further discussion";
-
-- Preposition: below
-1. At a position directly lower than (with the subject just above) (= neath [archaic], beneath, underneath, under)
-"the floor below the table";
-
-2. In a position lower than
- 
-3. Lower in value than
- 
-4. Unsuitable to the rank or dignity of
+4. The property of having a harsh unpleasant taste (= bitter)
 """,
           )
         ],
@@ -503,12 +303,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "hFZFjoX2cGg";
+  static String myVideoId = "https://youtu.be/n4bucphC9r4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 229, // DOPSUM: CHANGE IT
+      startAt: 156, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -528,12 +328,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "e09xig209cQ";
+  static String myVideoId = "https://youtu.be/FYVvE4tr2BI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 652, // DOPSUM: CHANGE IT
+      startAt: 511, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -553,12 +353,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "HDntl7yzzVI";
+  static String myVideoId = "https://youtu.be/V4Uuxg6jmbo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1815, // DOPSUM: CHANGE IT
+      startAt: 713, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -578,12 +378,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "XEZfGlyLQnA";
+  static String myVideoId = "https://youtu.be/ihwAF-zahsA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 451, // DOPSUM: CHANGE IT
+      startAt: 1127, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -603,12 +403,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "FY6KvRmlp14";
+  static String myVideoId = "https://youtu.be/pb29jzOCONY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 20, // DOPSUM: CHANGE IT
+      startAt: 558, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -628,12 +428,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "eIQuuoTQIoc";
+  static String myVideoId = "https://youtu.be/C-qYgs_yOXA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 42, // DOPSUM: CHANGE IT
+      startAt: 7194, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -653,12 +453,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "0E0rarldXK0";
+  static String myVideoId = "https://youtu.be/TudhYwBrgYg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 59, // DOPSUM: CHANGE IT
+      startAt: 621, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -678,12 +478,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "S3ksC_8jGuc";
+  static String myVideoId = "https://youtu.be/yDp3cB5fHXQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 346, // DOPSUM: CHANGE IT
+      startAt: 10165, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -703,12 +503,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "QbDuBTWrU-o";
+  static String myVideoId = "https://youtu.be/ZgIVfU0xBjA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 40, // DOPSUM: CHANGE IT
+      startAt: 497, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -728,12 +528,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "RXXMJAU6vY8";
+  static String myVideoId = "https://youtu.be/9PUWQQ-joKE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1389, // DOPSUM: CHANGE IT
+      startAt: 74, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -753,12 +553,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "CtWqv0Z3ErM";
+  static String myVideoId = "https://youtu.be/BfDLoIvb0w4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 507, // DOPSUM: CHANGE IT
+      startAt: 89, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -778,12 +578,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "_dH5MsC_rtM";
+  static String myVideoId = "https://youtu.be/9kMkhFeHP90?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1472, // DOPSUM: CHANGE IT
+      startAt: 1001, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -803,12 +603,12 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 class YoutubeEmbeddedthirteen extends StatelessWidget {
   YoutubeEmbeddedthirteen({super.key});
 
-  static String myVideoId = "qEV9qoup2mQ";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 188, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -828,12 +628,12 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
 class YoutubeEmbeddeddfourteen extends StatelessWidget {
   YoutubeEmbeddeddfourteen({super.key});
 
-  static String myVideoId = "giQ_EUUEv1g";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 739, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -853,12 +653,12 @@ class YoutubeEmbeddeddfourteen extends StatelessWidget {
 class YoutubeEmbeddedfifteen extends StatelessWidget {
   YoutubeEmbeddedfifteen({super.key});
 
-  static String myVideoId = "qD6bPNZRRbQ";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 167, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -878,12 +678,12 @@ class YoutubeEmbeddedfifteen extends StatelessWidget {
 class YoutubeEmbeddeddsixteen extends StatelessWidget {
   YoutubeEmbeddeddsixteen({super.key});
 
-  static String myVideoId = "3oIakJekCZU";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 19, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1000,6 +800,6 @@ class YoutubeEmbeddedtwenty extends StatelessWidget {
   }
 }
 
-// morethan one video, only first autoplay
+// more than one video, only first autoplay
 
-// end below// TODO Implement this library.
+// end bitterness// TODO Implement this library.

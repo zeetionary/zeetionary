@@ -5,81 +5,82 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "blab" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
+// Define the word "blandness" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
 
-// replace blab - /blæb/
+// replace blandness - /ˈblændnəs/
 
 enum TtsState { playing }
 
-class EnglishEntryblab extends StatelessWidget {
+class EnglishEntryblandness extends StatelessWidget {
 // blank divider
-  EnglishEntryblab({super.key});
+  EnglishEntryblandness({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakblab(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblandness(String languageCode) async {
+    // DOPSUM: CHANGE speakblandness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("blab"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("blandness"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblabs1(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblandnesss1(String languageCode) async {
+    // DOPSUM: CHANGE speakblandness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Someone must have blabbed to the police."); // DOPSUM: CHANGE TEXT
+        "My usual enthusiasm for life was replaced by blandness."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblabs2(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblandnesss2(String languageCode) async {
+    // DOPSUM: CHANGE speakblandness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblabs22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He made a joke about the blandness of the food."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblabs3(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblandnesss3(String languageCode) async {
+    // DOPSUM: CHANGE speakblandness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblabs33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblandnesss33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblabs4(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblandnesss4(String languageCode) async {
+    // DOPSUM: CHANGE speakblandness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblabs44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblandnesss44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblabs5(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblandnesss5(String languageCode) async {
+    // DOPSUM: CHANGE speakblandness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblabs55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblandnesss55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblabs6(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblandnesss6(String languageCode) async {
+    // DOPSUM: CHANGE speakblandness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblabs66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblandnesss66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblabs7(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblandnesss7(String languageCode) async {
+    // DOPSUM: CHANGE speakblandness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblabs77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblandnesss77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -102,22 +103,22 @@ class EnglishEntryblab extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "blab"),
+                            EntryTitle(word: "blandness"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /blæb/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈblændnəs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakblab("en-GB"),
+                              onPressed: () => speakblandness("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /blæb/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈblændnəs/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakblab("en-US"),
+                              onPressed: () => speakblandness("en-US"),
                             ),
                           ],
                         ),
@@ -163,39 +164,45 @@ class EnglishEntryblab extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (کردار) وتنی زانیاری بە کەسێک کە دەبێت بە نهێنی بهێڵدرێتەوە، زۆرجار لەکاتی قسەزۆری"""),
+کوردی: هێمنی، ئارامی، نەرمی، خۆشی، نیانی
+
+١. (ناو) بوونی کەمی لە ڕەنگ، جۆشوخرۆشی، یان حەز و ئارەزوو"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Someone must have blabbed to the police."),
+                                      "My usual enthusiasm for life was replaced by blandness."),
                               const ExampleSentenceKurdish(
-                                  text: "دەبێت کەسێک بە پۆلیسی وتبێت."),
+                                  text:
+                                      "تامەزرۆیی زۆرم بۆ ژیان گۆڕاوەتەوە بە بێ‌هیوایی."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakblabs1("en-GB"),
+                                onPressed: () => speakblandnesss1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakblabs1("en-US"),
+                                onPressed: () => speakblandnesss1("en-US"),
                               ),
                             ],
                           ),
                           // const DividerSentences(),
-                          // const DividerDefinition(),
-                          const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) نەبوونی تامێکی بەهێز یان بەلەزەت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "Try not to blab the whole story."),
+                                  text:
+                                      "He made a joke about the blandness of the food."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەوڵ بدە دەمشڕی نەکەیت و تەواوی چیرۆکەکە ئاشکرا بکەیت."),
+                                      "نوکتەیەکی گێڕایەوە سەبارەت بە بێ‌تامی خواردنەکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakblabs2("en-GB"),
+                                onPressed: () => speakblandnesss2("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakblabs2("en-US"),
+                                onPressed: () => speakblandnesss2("en-US"),
                               ),
                             ],
                           ),
@@ -252,12 +259,13 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-Verb: blab (derived forms: blabbing, blabbed, blabs)
-Usage: informal
-1. Divulge confidential information or secrets (= spill the beans, let the cat out of the bag, talk, tattle, peach [informal], babble, sing [informal], babble out, blab out [informal], give the game away)
-"Be careful--his secretary blabs";
+- Noun: blandness
+1. The trait of exhibiting no personal embarrassment or concern
+"the blandness of his confession enraged the judge"
  
-2. Speak (about unimportant matters) rapidly and incessantly (= chatter, piffle, palaver [informal], prate, tittle-tattle, twaddle [informal], clack [informal], maunder, prattle, gibber, tattle, blabber [informal], gabble, vapour [Brit, Cdn], rabbit [Brit, informal], vapor [US], twattle [UK, dialect], witter [Brit, informal], yabber [Brit, informal], yatter [Brit, informal])
+2. Lacking any distinctive or interesting taste property (= insipidity, insipidness)
+ 
+3. The quality of being bland and gracious or ingratiating in manner (= suavity, suaveness, smoothness)
 """,
           )
         ],
@@ -271,12 +279,12 @@ Usage: informal
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "RgpJPVoDZf8";
+  static String myVideoId = "vB3r4FvcQcA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 482, // DOPSUM: CHANGE IT
+      startAt: 266, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -296,12 +304,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "Wc5aBPYFjFI";
+  static String myVideoId = "zO5qtrG_ln4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1503, // DOPSUM: CHANGE IT
+      startAt: 2658, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -321,12 +329,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "LqhHDlFlk8E";
+  static String myVideoId = "_PEXdJ4NsBQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 115, // DOPSUM: CHANGE IT
+      startAt: 928, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -346,12 +354,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "BRbzqEsFj8E";
+  static String myVideoId = "06GJ2kUFpOE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 152, // DOPSUM: CHANGE IT
+      startAt: 345, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -371,12 +379,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "tI_klcS90yw";
+  static String myVideoId = "RiQNWp-fHwA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 85, // DOPSUM: CHANGE IT
+      startAt: 315, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -396,12 +404,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "K2TaSGgITtE";
+  static String myVideoId = "Nz6m_vE1F30";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 690, // DOPSUM: CHANGE IT
+      startAt: 1453, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -421,12 +429,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "i4YqpAeGgNg";
+  static String myVideoId = "zeGwrGQbOpA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 889, // DOPSUM: CHANGE IT
+      startAt: 943, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -446,12 +454,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "kotoNOAvNGk";
+  static String myVideoId = "km0Hq8100OA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2925, // DOPSUM: CHANGE IT
+      startAt: 223, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -471,12 +479,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "ocC79Nbk2Zw";
+  static String myVideoId = "XTmx5DPRcy0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 469, // DOPSUM: CHANGE IT
+      startAt: 350, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -496,12 +504,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "V8wmuX7VutE";
+  static String myVideoId = "iG3zODaVKyU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 22, // DOPSUM: CHANGE IT
+      startAt: 62, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -521,12 +529,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "_mKA1ERWYqM";
+  static String myVideoId = "TMhoMBeNaI4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 164, // DOPSUM: CHANGE IT
+      startAt: 514, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -546,12 +554,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "0ujMKUrYlM4";
+  static String myVideoId = "KMbZkR9vOrw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1149, // DOPSUM: CHANGE IT
+      startAt: 2838, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -770,4 +778,4 @@ class YoutubeEmbeddedtwenty extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end blab// TODO Implement this library.
+// end blandness// TODO Implement this library.

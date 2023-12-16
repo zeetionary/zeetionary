@@ -5,89 +5,192 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "bitterness" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
+// Define the word "blank" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
 
-// replace bitterness - /ˈbɪtənəs/
+// replace blank - /blæŋk/
 
 enum TtsState { playing }
 
-class EnglishEntrybitterness extends StatelessWidget {
+class EnglishEntryblank extends StatelessWidget {
 // blank divider
-  EnglishEntrybitterness({super.key});
+  EnglishEntryblank({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbitterness(String languageCode) async {
-    // DOPSUM: CHANGE speakbitterness
+  Future<void> speakblank(String languageCode) async {
+    // DOPSUM: CHANGE speakblank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bitterness"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("blank"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbitternesss1(String languageCode) async {
-    // DOPSUM: CHANGE speakbitterness
+  Future<void> speakblanks1(String languageCode) async {
+    // DOPSUM: CHANGE speakblank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He was full of bitterness after he lost his job."); // DOPSUM: CHANGE TEXT
+        "Sign your name in the blank space below."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbitternesss2(String languageCode) async {
-    // DOPSUM: CHANGE speakbitterness
+  Future<void> speakblanks2(String languageCode) async {
+    // DOPSUM: CHANGE speakblank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The bitterness of the argument left a lasting impact on their relationship."); // DOPSUM: CHANGE TEXT
+        "Write on one side of the paper and leave the other side blank."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbitternesss3(String languageCode) async {
-    // DOPSUM: CHANGE speakbitterness
+  Future<void> speakblanks3(String languageCode) async {
+    // DOPSUM: CHANGE speakblank
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Suddenly the screen went blank."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblanks4(String languageCode) async {
+    // DOPSUM: CHANGE speakblank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The medicine had a strong bitterness that lingered on the tongue."); // DOPSUM: CHANGE TEXT
+        "She stared at me with a blank expression on her face."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbitternesss4(String languageCode) async {
-    // DOPSUM: CHANGE speakbitterness
+  Future<void> speakblanks5(String languageCode) async {
+    // DOPSUM: CHANGE speakblank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbitternesss44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He maintained a blank denial of any involvement in the crime."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbitternesss5(String languageCode) async {
-    // DOPSUM: CHANGE speakbitterness
+  Future<void> speakblanks6(String languageCode) async {
+    // DOPSUM: CHANGE speakblank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbitternesss55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "If you can't answer the question, leave a blank."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbitternesss6(String languageCode) async {
-    // DOPSUM: CHANGE speakbitterness
+  Future<void> speakblanks7(String languageCode) async {
+    // DOPSUM: CHANGE speakblank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbitternesss66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "My mind was a blank and I couldn't remember her name."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbitternesss7(String languageCode) async {
-    // DOPSUM: CHANGE speakbitterness
+  Future<void> speakblanks8(String languageCode) async {
+    // DOPSUM: CHANGE speakblank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbitternesss77"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The troops fired blanks in the air."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblanks9(String languageCode) async {
+    // DOPSUM: CHANGE speakblank
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "I saw her on the bus this morning, but she totally blanked me."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblanks10(String languageCode) async {
+    // DOPSUM: CHANGE speakblank
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "I knew the answer, but I totally blanked during the test."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblanks11(String languageCode) async {
+    // DOPSUM: CHANGE speakblank
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakblanks1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblanks12(String languageCode) async {
+    // DOPSUM: CHANGE speakblank
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakblanks1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblanks13(String languageCode) async {
+    // DOPSUM: CHANGE speakblank
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakblanks1313"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblanks14(String languageCode) async {
+    // DOPSUM: CHANGE speakblank
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakblanks1414"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblanks15(String languageCode) async {
+    // DOPSUM: CHANGE speakblank
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakblanks1515"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblanks16(String languageCode) async {
+    // DOPSUM: CHANGE speakblank
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakblanks1616"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblanks17(String languageCode) async {
+    // DOPSUM: CHANGE speakblank
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakblanks1717"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblanks18(String languageCode) async {
+    // DOPSUM: CHANGE speakblank
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakblanks1818"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblanks19(String languageCode) async {
+    // DOPSUM: CHANGE speakblank
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakblanks1919"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 15, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -104,22 +207,22 @@ class EnglishEntrybitterness extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bitterness"),
+                            EntryTitle(word: "blank"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbɪtənəs/"),
+                            const IPAofEnglish(text: "IpaUK: /blæŋk/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbitterness("en-GB"),
+                              onPressed: () => speakblank("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbɪtərnəs/"),
+                            const IPAofEnglish(text: "IpaUS: /blæŋk/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbitterness("en-US"),
+                              onPressed: () => speakblank("en-US"),
                             ),
                           ],
                         ),
@@ -137,14 +240,14 @@ class EnglishEntrybitterness extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 15
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
                   VideoIconForTab(), // 11
                   VideoIconForTab(), // 12
-                  // VideoIconForTab(), // 13
+                  VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                   // VideoIconForTab(), // 16
@@ -165,23 +268,43 @@ class EnglishEntrybitterness extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: توندی، تاڵی، ناخۆشی، سەختی
+کوردی: سپی، نەنووسراو، بێ‌نیشان، بەتاڵ، (چەک) سپی، پارەتیانەنووسراو، کەمتەرم، بەتەنگەوەنەبوو، بێ‌خەیاڵ، بۆش، واڵا، پووچەڵ، پووچ، بەتاڵ، چۆڵ، بێ‌ناوەرۆک، هێچ‌تیانەبوو، لێڵ، نادیار، تەژمە(لە باس‌کردنی دیواردا) بێ‌درگاوپەنجێرە، تەواو، ڕەها، جێگای بەتاڵ، مەودا یا جێگای سپی و خاڵی، جێگای نەنووسراو، سپیایی، فەرامۆشی، لەبیرچوونەوە، داخوازی‌نامە، بۆشایی، ڤالاهی، بۆشی، گوللەی مەشقی، فیشەکەدرۆزنە
 
-١. (ناو) هەستی تووڕەیی و دڵتەنگی بەهۆی ئەوەی پێت وایە خراپ مامەڵەت لەگەڵ کراوە"""),
+١. (ھاوەڵناو) بەتاڵ، بە بێ ئەوەی هیچی لەسەر نووسرابیت یان چاپکرابێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "He was full of bitterness after he lost his job."),
+                                      "Sign your name in the blank space below."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پڕ لە تووڕەیی بوو لە کارەکەی لەدەستدا."),
+                                      "ناوت واژۆ بکە لە بۆشاییە بەتاڵەکەی خوارەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakbitternesss1("en-GB"),
+                                onPressed: () => speakblanks1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakbitternesss1("en-US"),
+                                onPressed: () => speakblanks1("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          // const DividerDefinition(),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Write on one side of the paper and leave the other side blank."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لەسەر لایەکی پەڕەکە بنووسە و لایەکەی دیکەی بە بەتاڵی جێبهێڵە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblanks2("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblanks2("en-US"),
                               ),
                             ],
                           ),
@@ -189,42 +312,170 @@ class EnglishEntrybitterness extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) گفتوگۆیەک یان مشتومڕێکی توند بەهۆی ئەوەی ڕق و تووڕەیی زۆرەوە"),
+                                  "٢. (ھاوەڵناو) دیوارێک یان شاشەیەک کە هیچی لەسەر نییە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "The bitterness of the argument left a lasting impact on their relationship."),
+                                  text: "Suddenly the screen went blank."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "تاڵی مشتومڕەکە کاریگەرییەکی بەردەوامی لەسەر پەیوەندییان جێهێشت."),
+                                  text: "شاشەکە لەناکاو ڕەش بوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakbitternesss2("en-GB"),
+                                onPressed: () => speakblanks3("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakbitternesss2("en-US"),
+                                onPressed: () => speakblanks3("en-US"),
                               ),
                             ],
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (ناو) شتێک، بۆ نموونە خواردن، کە تاڵە"),
+                              text:
+                                  "٣. (ھاوەڵناو) بە بێ پیشاندانی هەست، تێگەشتن، یان پەرۆشی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The medicine had a strong bitterness that lingered on the tongue."),
+                                      "She stared at me with a blank expression on her face."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەرمانەکە تاڵییەکی توندی هەبوو کە لەسەر زمان مایەوە."),
+                                      "لێی دەڕوانیم بە دەربڕینێکی وشکەوە لەسەر ڕووخساری."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakbitternesss3("en-GB"),
+                                onPressed: () => speakblanks4("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakbitternesss3("en-US"),
+                                onPressed: () => speakblanks4("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٤. (ھاوەڵناو) بەتەواوی"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "He maintained a blank denial of any involvement in the crime."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "سوور بوو لەسەر ئەوەی کە هیچ بەژداری نەبووە لە تاوانەکە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblanks5("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblanks5("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٥. (ناو) ناوچەیەکی بەتاڵ لەسەر پەڕەیەک کە زانیاری یان وەڵامی تێدا دەنووسی"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "If you can't answer the question, leave a blank."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەگەر ناتوانی وەڵامی پرسیارەکە بدەیتەوە، بە بەتاڵی جێیبهێڵە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblanks6("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblanks6("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٦. (ناو) دۆخی بێ تانایی لە بیرکەوتنەوەی هیچ شتێک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "My mind was a blank and I couldn't remember her name."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "مێشکم سفر بوو و دەمدەتوانی ناویم بیربکەوێتەوە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblanks7("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblanks7("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٧. (ناو) قەباغێک لە چەکێکدا کە کە تەقەمەنی تێدایە بەڵام فیشەکی تێدا نییە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "The troops fired blanks in the air."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "سەربازەکان فیشەکەدرۆزنە تەقاندە ئاسمان."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblanks8("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblanks8("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٨. (کردار) فەرامۆشکردنی کەسێک بە تەواوی"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I saw her on the bus this morning, but she totally blanked me."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەم بەیانییە لە پاسەکەدا بینیم، بەڵام تەواو پشتگوێی خستم."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblanks9("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblanks9("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٩. (کردار) لەناکاو بێ توانا بیت شتێکت بیربکەوێتەوە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I knew the answer, but I totally blanked during the test."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "وەڵامەکەم دەزانی، بەڵام بە تەواوی بیرمچوو لەکاتی تاقیکردنەوەکە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblanks10("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblanks10("en-US"),
                               ),
                             ],
                           ),
@@ -245,7 +496,7 @@ class EnglishEntrybitterness extends StatelessWidget {
                     YoutubeEmbeddedten(),
                     YoutubeEmbeddedeleven(),
                     YoutubeEmbeddedtwelve(),
-                    // YoutubeEmbeddedthirteen(),
+                    YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
                     // YoutubeEmbeddeddsixteen(),
@@ -281,15 +532,37 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bitterness
-1. A feeling of deep and bitter anger and ill-will (= resentment, gall, rancor [US], rancour [Brit, Cdn], ill feeling, hard feelings, acrimoniousness, bile)
-"his bitterness took the form of extreme hostility";
+- Adjective: blank (derived forms: blankest, blanker)
+1. (of a surface) not written or printed on (= clean, white)
+"blank pages"; "fill in the blank spaces";
  
-2. A rough and bitter manner (= acrimony, acerbity, jaundice, tartness, thorniness)
+2. Without comprehension
+"When I called her name, she gave me a blank look, as though she didn't know me"
  
-3. The taste experience when quinine or coffee is taken into the mouth (= bitter)
+3. Not charged with a bullet
+"a blank cartridge"
  
-4. The property of having a harsh unpleasant taste (= bitter)
+4. Complete and absolute (= utter)
+"blank stupidity";
+
+- Noun: blank (derived forms: blanks)
+1. A blank character used to separate successive words in writing or printing (= space)
+"he said the blank is the most important character in the alphabet";
+ 
+2. A blank gap or missing part (= lacuna)
+ 
+3. A piece of material ready to be made into something
+ 
+4. A cartridge containing an explosive charge but no bullet (= dummy, blank shell)
+
+- Verb: blank (derived forms: blanking, blanked, blanks)
+1. [N. Amer, informal] Keep the opposing (baseball) team from winning
+ 
+2. Make or become blank (= blank out)
+"blank the screen";
+ 
+3. [Brit, informal] Ignore or not acknowledge someone
+"I stupidly waved to her but she blanked me and walked past without a word"
 """,
           )
         ],
@@ -303,12 +576,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "n4bucphC9r4";
+  static String myVideoId = "VrKW58MS12g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 156, // DOPSUM: CHANGE IT
+      startAt: 522, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -328,12 +601,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "FYVvE4tr2BI";
+  static String myVideoId = "hS2x1zl4rn0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 511, // DOPSUM: CHANGE IT
+      startAt: 1308, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -353,12 +626,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "V4Uuxg6jmbo";
+  static String myVideoId = "_wNsZEqpKUA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 713, // DOPSUM: CHANGE IT
+      startAt: 1011, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -378,12 +651,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "ihwAF-zahsA";
+  static String myVideoId = "qWAagS_MANg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1127, // DOPSUM: CHANGE IT
+      startAt: 807, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -403,12 +676,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "pb29jzOCONY";
+  static String myVideoId = "fbVRnlR_6BM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 558, // DOPSUM: CHANGE IT
+      startAt: 194, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -428,12 +701,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "C-qYgs_yOXA";
+  static String myVideoId = "1RBUAEARqoY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 7194, // DOPSUM: CHANGE IT
+      startAt: 10, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -453,12 +726,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "TudhYwBrgYg";
+  static String myVideoId = "S-4rhjO6xYg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 621, // DOPSUM: CHANGE IT
+      startAt: 495, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -478,12 +751,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "yDp3cB5fHXQ";
+  static String myVideoId = "dqcSk-EDrRo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 10165, // DOPSUM: CHANGE IT
+      startAt: 295, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -503,12 +776,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "ZgIVfU0xBjA";
+  static String myVideoId = "SEZu7K5tGxw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 497, // DOPSUM: CHANGE IT
+      startAt: 333, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -528,12 +801,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "9PUWQQ-joKE";
+  static String myVideoId = "yFCs_C_syas";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 74, // DOPSUM: CHANGE IT
+      startAt: 1894, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -553,12 +826,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "BfDLoIvb0w4";
+  static String myVideoId = "yDp3cB5fHXQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 89, // DOPSUM: CHANGE IT
+      startAt: 5172, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -578,12 +851,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "9kMkhFeHP90";
+  static String myVideoId = "VP8DD9TGNlU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1001, // DOPSUM: CHANGE IT
+      startAt: 15, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -603,12 +876,12 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 class YoutubeEmbeddedthirteen extends StatelessWidget {
   YoutubeEmbeddedthirteen({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "qrra18TChxY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 1816, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -802,4 +1075,4 @@ class YoutubeEmbeddedtwenty extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end bitterness// TODO Implement this library.
+// end blank// TODO Implement this library.

@@ -5,87 +5,87 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "blab" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
+// Define the word "black sheep" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
 
-// replace blab - /blæb/
+// replace black sheep - /ˌblæk ˈʃiːp/
 
 enum TtsState { playing }
 
-class EnglishEntryblab extends StatelessWidget {
+class EnglishEntryblacksheep extends StatelessWidget {
 // blank divider
-  EnglishEntryblab({super.key});
+  EnglishEntryblacksheep({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakblab(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblacksheep(String languageCode) async {
+    // DOPSUM: CHANGE speakblacksheep
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("blab"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("black sheep"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblabs1(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblacksheeps1(String languageCode) async {
+    // DOPSUM: CHANGE speakblacksheep
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Someone must have blabbed to the police."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He's the black sheep of the family."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblabs2(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblacksheeps2(String languageCode) async {
+    // DOPSUM: CHANGE speakblacksheep
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblabs22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblacksheeps22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblabs3(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblacksheeps3(String languageCode) async {
+    // DOPSUM: CHANGE speakblacksheep
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblabs33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblacksheeps33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblabs4(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblacksheeps4(String languageCode) async {
+    // DOPSUM: CHANGE speakblacksheep
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblabs44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblacksheeps44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblabs5(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblacksheeps5(String languageCode) async {
+    // DOPSUM: CHANGE speakblacksheep
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblabs55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblacksheeps55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblabs6(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblacksheeps6(String languageCode) async {
+    // DOPSUM: CHANGE speakblacksheep
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblabs66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblacksheeps66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblabs7(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblacksheeps7(String languageCode) async {
+    // DOPSUM: CHANGE speakblacksheep
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblabs77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblacksheeps77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -102,22 +102,22 @@ class EnglishEntryblab extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "blab"),
+                            EntryTitle(word: "black sheep"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /blæb/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌblæk ˈʃiːp/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakblab("en-GB"),
+                              onPressed: () => speakblacksheep("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /blæb/"),
+                            const IPAofEnglish(text: "IpaUS: /ˌblæk ˈʃiːp/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakblab("en-US"),
+                              onPressed: () => speakblacksheep("en-US"),
                             ),
                           ],
                         ),
@@ -135,13 +135,13 @@ class EnglishEntryblab extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -163,39 +163,21 @@ class EnglishEntryblab extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (کردار) وتنی زانیاری بە کەسێک کە دەبێت بە نهێنی بهێڵدرێتەوە، زۆرجار لەکاتی قسەزۆری"""),
+کوردی: مایەی ئابڕووچوون یان سەرشۆڕی خێزان، مایەی ڕووڕەشی، نەنگ
+
+١. (ناو) کەسێک کە جیاوازە لە ئەندامانی دیکەی خێزانەکەی و بە خراپ و مایەی ئابڕووچوون و شەرمەزاری دادەنرێت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "Someone must have blabbed to the police."),
+                                  text: "He's the black sheep of the family."),
                               const ExampleSentenceKurdish(
-                                  text: "دەبێت کەسێک بە پۆلیسی وتبێت."),
+                                  text: "مایەی نەنگی خێزانەکەی بوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakblabs1("en-GB"),
+                                onPressed: () => speakblacksheeps1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakblabs1("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Try not to blab the whole story."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هەوڵ بدە دەمشڕی نەکەیت و تەواوی چیرۆکەکە ئاشکرا بکەیت."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblabs2("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblabs2("en-US"),
+                                onPressed: () => speakblacksheeps1("en-US"),
                               ),
                             ],
                           ),
@@ -214,8 +196,8 @@ class EnglishEntryblab extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -252,12 +234,10 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-Verb: blab (derived forms: blabbing, blabbed, blabs)
-Usage: informal
-1. Divulge confidential information or secrets (= spill the beans, let the cat out of the bag, talk, tattle, peach [informal], babble, sing [informal], babble out, blab out [informal], give the game away)
-"Be careful--his secretary blabs";
+- Noun: black sheep (derived forms: black sheep)
+1. A reckless and unprincipled reprobate (= scapegrace [archaic])
  
-2. Speak (about unimportant matters) rapidly and incessantly (= chatter, piffle, palaver [informal], prate, tittle-tattle, twaddle [informal], clack [informal], maunder, prattle, gibber, tattle, blabber [informal], gabble, vapour [Brit, Cdn], rabbit [Brit, informal], vapor [US], twattle [UK, dialect], witter [Brit, informal], yabber [Brit, informal], yatter [Brit, informal])
+2. Sheep with a black coat
 """,
           )
         ],
@@ -271,12 +251,12 @@ Usage: informal
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "RgpJPVoDZf8";
+  static String myVideoId = "BD44SVoCIFo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 482, // DOPSUM: CHANGE IT
+      startAt: 271, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -296,12 +276,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "Wc5aBPYFjFI";
+  static String myVideoId = "b7Plu03Fp7I";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1503, // DOPSUM: CHANGE IT
+      startAt: 361, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -321,12 +301,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "LqhHDlFlk8E";
+  static String myVideoId = "bnnRIrxGGX8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 115, // DOPSUM: CHANGE IT
+      startAt: 1782, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -346,12 +326,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "BRbzqEsFj8E";
+  static String myVideoId = "UvrIy2SHEcs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 152, // DOPSUM: CHANGE IT
+      startAt: 283, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -371,12 +351,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "tI_klcS90yw";
+  static String myVideoId = "G1FLUuDKRYI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 85, // DOPSUM: CHANGE IT
+      startAt: 731, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -396,12 +376,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "K2TaSGgITtE";
+  static String myVideoId = "JxoFSuAsZY8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 690, // DOPSUM: CHANGE IT
+      startAt: 27, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -421,12 +401,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "i4YqpAeGgNg";
+  static String myVideoId = "gxFluuXfBOg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 889, // DOPSUM: CHANGE IT
+      startAt: 41, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -446,12 +426,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "kotoNOAvNGk";
+  static String myVideoId = "KAIz7k5If24";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2925, // DOPSUM: CHANGE IT
+      startAt: 367, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -471,12 +451,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "ocC79Nbk2Zw";
+  static String myVideoId = "3QhMqymjnNM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 469, // DOPSUM: CHANGE IT
+      startAt: 397, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -496,12 +476,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "V8wmuX7VutE";
+  static String myVideoId = "AY89a_zXi9s";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 22, // DOPSUM: CHANGE IT
+      startAt: 35, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -521,12 +501,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "_mKA1ERWYqM";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 164, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -546,12 +526,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "0ujMKUrYlM4";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1149, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -770,4 +750,4 @@ class YoutubeEmbeddedtwenty extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end blab// TODO Implement this library.
+// end black sheep// TODO Implement this library.

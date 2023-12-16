@@ -5,87 +5,90 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "blab" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
+// Define the word "blackout" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
 
-// replace blab - /blæb/
+// replace blackout - /ˈblækaʊt/
 
 enum TtsState { playing }
 
-class EnglishEntryblab extends StatelessWidget {
+class EnglishEntryblackout extends StatelessWidget {
 // blank divider
-  EnglishEntryblab({super.key});
+  EnglishEntryblackout({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakblab(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblackout(String languageCode) async {
+    // DOPSUM: CHANGE speakblackout
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("blab"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("blackout"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblabs1(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblackouts1(String languageCode) async {
+    // DOPSUM: CHANGE speakblackout
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Someone must have blabbed to the police."); // DOPSUM: CHANGE TEXT
+        "The storm caused blackouts in many areas."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblabs2(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblackouts2(String languageCode) async {
+    // DOPSUM: CHANGE speakblackout
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblabs22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The government imposed a news blackout during the crisis."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblabs3(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblackouts3(String languageCode) async {
+    // DOPSUM: CHANGE speakblackout
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblabs33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "It used to take hours to travel home in the blackout."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblabs4(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblackouts4(String languageCode) async {
+    // DOPSUM: CHANGE speakblackout
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblabs44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She had a blackout and couldn't remember anything about the accident."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblabs5(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblackouts5(String languageCode) async {
+    // DOPSUM: CHANGE speakblackout
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblabs55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblackouts55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblabs6(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblackouts6(String languageCode) async {
+    // DOPSUM: CHANGE speakblackout
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblabs66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblackouts66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblabs7(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblackouts7(String languageCode) async {
+    // DOPSUM: CHANGE speakblackout
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblabs77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblackouts77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 15, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -102,22 +105,22 @@ class EnglishEntryblab extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "blab"),
+                            EntryTitle(word: "blackout"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /blæb/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈblækaʊt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakblab("en-GB"),
+                              onPressed: () => speakblackout("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /blæb/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈblækaʊt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakblab("en-US"),
+                              onPressed: () => speakblackout("en-US"),
                             ),
                           ],
                         ),
@@ -135,14 +138,14 @@ class EnglishEntryblab extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 15
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
                   VideoIconForTab(), // 11
                   VideoIconForTab(), // 12
-                  // VideoIconForTab(), // 13
+                  VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                   // VideoIconForTab(), // 16
@@ -163,39 +166,89 @@ class EnglishEntryblab extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (کردار) وتنی زانیاری بە کەسێک کە دەبێت بە نهێنی بهێڵدرێتەوە، زۆرجار لەکاتی قسەزۆری"""),
+کوردی: تاریکی، چراکوژانەوە، لە هۆش‌چوون یان لەبیرچوونەوەی کاتی، سانسۆڕ
+
+١. (ناو) ماوەی تاریکی بەهۆی بێ کارەبایی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Someone must have blabbed to the police."),
+                                      "The storm caused blackouts in many areas."),
                               const ExampleSentenceKurdish(
-                                  text: "دەبێت کەسێک بە پۆلیسی وتبێت."),
+                                  text:
+                                      "زریانەکە بوو بەهۆی بێ کارەبایی لە ژمارەیەکی زۆر ناوچە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakblabs1("en-GB"),
+                                onPressed: () => speakblackouts1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakblabs1("en-US"),
+                                onPressed: () => speakblackouts1("en-US"),
                               ),
                             ],
                           ),
                           // const DividerSentences(),
-                          // const DividerDefinition(),
-                          const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) دۆخێک کە تێیدا حکومەت یاب پۆلیس ڕێگا نادەن هیچ زانیارییەک بدرێت بە ڕای گشتی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "Try not to blab the whole story."),
+                                  text:
+                                      "The government imposed a news blackout during the crisis."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەوڵ بدە دەمشڕی نەکەیت و تەواوی چیرۆکەکە ئاشکرا بکەیت."),
+                                      "حکومەت سانسۆری لەسەر هەواڵ دانا لە کاتی قەیرانەکەدا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakblabs2("en-GB"),
+                                onPressed: () => speakblackouts2("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakblabs2("en-US"),
+                                onPressed: () => speakblackouts2("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) ماوەیەک لە کاتی جەنگدا کە هەموو ڕۆشناییەک دەبێت بکوژێنرێتەوە لە شەودا بۆ ئەوەی دووژمن لە ئاسمانەوە سوودی لێ نەبینێت بۆ هێرش"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "It used to take hours to travel home in the blackout."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "جاران چەندین کاتژمێری پێ دەچوو بۆ ئەوەی بگەڕێیتەوە ماڵەوە لە بێ کارەباییەکەدا."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblackouts3("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblackouts3("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (ناو) لەبیرچوونەوە، لەدەستدانی بینایی، یان هزر بۆ ماوەیەکی کاتی"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She had a blackout and couldn't remember anything about the accident."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لەهۆشچوونی بەسەر هات و نەیدەتوانی هیچی لەسەر ڕووداوەکە بیربێتەوە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblackouts4("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblackouts4("en-US"),
                               ),
                             ],
                           ),
@@ -216,7 +269,7 @@ class EnglishEntryblab extends StatelessWidget {
                     YoutubeEmbeddedten(),
                     YoutubeEmbeddedeleven(),
                     YoutubeEmbeddedtwelve(),
-                    // YoutubeEmbeddedthirteen(),
+                    YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
                     // YoutubeEmbeddeddsixteen(),
@@ -252,12 +305,17 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-Verb: blab (derived forms: blabbing, blabbed, blabs)
-Usage: informal
-1. Divulge confidential information or secrets (= spill the beans, let the cat out of the bag, talk, tattle, peach [informal], babble, sing [informal], babble out, blab out [informal], give the game away)
-"Be careful--his secretary blabs";
+- Noun: blackout (derived forms: blackouts)
+1. Darkness resulting from the extinction of lights (as in a city invisible to enemy aircraft) (= brownout, dimout)
  
-2. Speak (about unimportant matters) rapidly and incessantly (= chatter, piffle, palaver [informal], prate, tittle-tattle, twaddle [informal], clack [informal], maunder, prattle, gibber, tattle, blabber [informal], gabble, vapour [Brit, Cdn], rabbit [Brit, informal], vapor [US], twattle [UK, dialect], witter [Brit, informal], yabber [Brit, informal], yatter [Brit, informal])
+2. The failure of electric power for a general region
+ 
+3. A suspension of radio or tv broadcasting
+ 
+4. A momentary loss of consciousness
+ 
+5. Partial or total loss of memory (= amnesia, memory loss)
+"he has a total blackout for events of the evening";
 """,
           )
         ],
@@ -271,12 +329,12 @@ Usage: informal
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "RgpJPVoDZf8";
+  static String myVideoId = "raSeaAeryWE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 482, // DOPSUM: CHANGE IT
+      startAt: 2615, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -296,12 +354,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "Wc5aBPYFjFI";
+  static String myVideoId = "f7QWMUCMYOE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1503, // DOPSUM: CHANGE IT
+      startAt: 461, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -321,12 +379,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "LqhHDlFlk8E";
+  static String myVideoId = "W2hRTTTpmr8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 115, // DOPSUM: CHANGE IT
+      startAt: 546, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -346,12 +404,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "BRbzqEsFj8E";
+  static String myVideoId = "cAfYtXB-qN4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 152, // DOPSUM: CHANGE IT
+      startAt: 843, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -371,12 +429,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "tI_klcS90yw";
+  static String myVideoId = "6ta_sftSfIw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 85, // DOPSUM: CHANGE IT
+      startAt: 516, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -396,12 +454,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "K2TaSGgITtE";
+  static String myVideoId = "dUYWsZcuBgo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 690, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -421,12 +479,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "i4YqpAeGgNg";
+  static String myVideoId = "sSgT5p8dN80";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 889, // DOPSUM: CHANGE IT
+      startAt: 119, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -446,12 +504,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "kotoNOAvNGk";
+  static String myVideoId = "GBp_NgrrtPM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2925, // DOPSUM: CHANGE IT
+      startAt: 163, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -471,12 +529,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "ocC79Nbk2Zw";
+  static String myVideoId = "FksEGpBLfis";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 469, // DOPSUM: CHANGE IT
+      startAt: 830, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -496,12 +554,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "V8wmuX7VutE";
+  static String myVideoId = "hg04cxvsAsY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 22, // DOPSUM: CHANGE IT
+      startAt: 54, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -521,12 +579,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "_mKA1ERWYqM";
+  static String myVideoId = "AWJefmqseaQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 164, // DOPSUM: CHANGE IT
+      startAt: 68, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -546,12 +604,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "0ujMKUrYlM4";
+  static String myVideoId = "iReCAG7a0LY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1149, // DOPSUM: CHANGE IT
+      startAt: 13, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -571,12 +629,12 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 class YoutubeEmbeddedthirteen extends StatelessWidget {
   YoutubeEmbeddedthirteen({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "3AXupc7oE-g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 735, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -770,4 +828,4 @@ class YoutubeEmbeddedtwenty extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end blab// TODO Implement this library.
+// end blackout// TODO Implement this library.

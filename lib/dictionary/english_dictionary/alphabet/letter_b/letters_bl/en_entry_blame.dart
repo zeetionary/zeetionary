@@ -5,81 +5,84 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "blab" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
+// Define the word "blame" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
 
-// replace blab - /blæb/
+// replace blame - /bleɪm/
 
 enum TtsState { playing }
 
-class EnglishEntryblab extends StatelessWidget {
+class EnglishEntryblame extends StatelessWidget {
 // blank divider
-  EnglishEntryblab({super.key});
+  EnglishEntryblame({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakblab(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblame(String languageCode) async {
+    // DOPSUM: CHANGE speakblame
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("blab"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("blame"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblabs1(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblames1(String languageCode) async {
+    // DOPSUM: CHANGE speakblame
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Someone must have blabbed to the police."); // DOPSUM: CHANGE TEXT
+        "She doesn't blame anyone for her father's death."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblabs2(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblames2(String languageCode) async {
+    // DOPSUM: CHANGE speakblame
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblabs22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Why is he blaming others for his problems?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblabs3(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblames3(String languageCode) async {
+    // DOPSUM: CHANGE speakblame
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblabs33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Why do I always get the blame for everything that goes wrong?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblabs4(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblames4(String languageCode) async {
+    // DOPSUM: CHANGE speakblame
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblabs44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The government will have to take the blame for the riots."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblabs5(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblames5(String languageCode) async {
+    // DOPSUM: CHANGE speakblame
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblabs55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblames55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblabs6(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblames6(String languageCode) async {
+    // DOPSUM: CHANGE speakblame
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblabs66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblames66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblabs7(String languageCode) async {
-    // DOPSUM: CHANGE speakblab
+  Future<void> speakblames7(String languageCode) async {
+    // DOPSUM: CHANGE speakblame
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblabs77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblames77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -102,22 +105,22 @@ class EnglishEntryblab extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "blab"),
+                            EntryTitle(word: "blame"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /blæb/"),
+                            const IPAofEnglish(text: "IpaUK: /bleɪm/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakblab("en-GB"),
+                              onPressed: () => speakblame("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /blæb/"),
+                            const IPAofEnglish(text: "IpaUS: /bleɪm/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakblab("en-US"),
+                              onPressed: () => speakblame("en-US"),
                             ),
                           ],
                         ),
@@ -163,20 +166,22 @@ class EnglishEntryblab extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (کردار) وتنی زانیاری بە کەسێک کە دەبێت بە نهێنی بهێڵدرێتەوە، زۆرجار لەکاتی قسەزۆری"""),
+کوردی: گوناهـ، خەتا، سووچ، سەرکۆنەم، بەرپرسایەتی (بۆ هەڵە یان گوناهێ)
+
+١. (کردار) لۆمەکردنی کەسێک بە شتێکی خراپ"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Someone must have blabbed to the police."),
+                                      "She doesn't blame anyone for her father's death."),
                               const ExampleSentenceKurdish(
-                                  text: "دەبێت کەسێک بە پۆلیسی وتبێت."),
+                                  text: "لۆمەی کەس ناکات بۆ مەرگی باوکی."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakblabs1("en-GB"),
+                                onPressed: () => speakblames1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakblabs1("en-US"),
+                                onPressed: () => speakblames1("en-US"),
                               ),
                             ],
                           ),
@@ -186,16 +191,59 @@ class EnglishEntryblab extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "Try not to blab the whole story."),
+                                  text:
+                                      "Why is he blaming others for his problems?"),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەوڵ بدە دەمشڕی نەکەیت و تەواوی چیرۆکەکە ئاشکرا بکەیت."),
+                                      "بۆچی لۆمەی کەسانی تر دەکات بۆ کێشەکانی؟"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakblabs2("en-GB"),
+                                onPressed: () => speakblames2("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakblabs2("en-US"),
+                                onPressed: () => speakblames2("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) بەرپرسیاریەتی بۆ شتێکی بە خراپی یان هەڵە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Why do I always get the blame for everything that goes wrong?"),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بۆچی هەمیشە سەرزەنشت دەخرێتە سەر من بۆ هەر شتێک کە هەڵە ڕوودەدات؟"),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblames3("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblames3("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          // const DividerDefinition(),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The government will have to take the blame for the riots."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "حکومەت دەبێت بەرپرسیاریەتی هەڵبگرێت بۆ ئاژاوەکان."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblames4("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblames4("en-US"),
                               ),
                             ],
                           ),
@@ -252,12 +300,25 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-Verb: blab (derived forms: blabbing, blabbed, blabs)
-Usage: informal
-1. Divulge confidential information or secrets (= spill the beans, let the cat out of the bag, talk, tattle, peach [informal], babble, sing [informal], babble out, blab out [informal], give the game away)
-"Be careful--his secretary blabs";
+- Noun: blame (derived forms: blames)
+1. An accusation that you are responsible for some lapse or misdeed (= incrimination, inculpation [archaic])
+"the police laid the blame on the driver";
+
+2. A reproach for some lapse or misdeed (= rap)
+"he took the blame for it";
+
+- Verb: blame (derived forms: blames, blamed, blaming)
+1. Put or pin the blame on (= fault)
  
-2. Speak (about unimportant matters) rapidly and incessantly (= chatter, piffle, palaver [informal], prate, tittle-tattle, twaddle [informal], clack [informal], maunder, prattle, gibber, tattle, blabber [informal], gabble, vapour [Brit, Cdn], rabbit [Brit, informal], vapor [US], twattle [UK, dialect], witter [Brit, informal], yabber [Brit, informal], yatter [Brit, informal])
+2. Harass with constant criticism (= find fault, pick)
+ 
+3. Attribute responsibility to (= charge)
+"We blamed the accident on her";
+
+- Adjective: blame
+Usage: N. Amer
+1. Expletive used informally as an intensifier (= blasted, blamed, blessed, damn, damned, darned, deuced, goddam, goddamn, goddamned, infernal, dashed [Brit, informal], doggone [N. Amer, informal])
+"a blame cold winter";
 """,
           )
         ],
@@ -271,12 +332,12 @@ Usage: informal
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "RgpJPVoDZf8";
+  static String myVideoId = "y1sF6ZeASU0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 482, // DOPSUM: CHANGE IT
+      startAt: 33, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -296,12 +357,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "Wc5aBPYFjFI";
+  static String myVideoId = "DEFD9TSHg_A";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1503, // DOPSUM: CHANGE IT
+      startAt: 207, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -321,12 +382,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "LqhHDlFlk8E";
+  static String myVideoId = "QLq6GEiHqR8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 115, // DOPSUM: CHANGE IT
+      startAt: 133, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -346,12 +407,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "BRbzqEsFj8E";
+  static String myVideoId = "AAGIi62-sAU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 152, // DOPSUM: CHANGE IT
+      startAt: 1606, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -371,12 +432,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "tI_klcS90yw";
+  static String myVideoId = "Cqbleas1mmo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 85, // DOPSUM: CHANGE IT
+      startAt: 709, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -396,12 +457,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "K2TaSGgITtE";
+  static String myVideoId = "zZM57oTu9Ng";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 690, // DOPSUM: CHANGE IT
+      startAt: 14, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -421,12 +482,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "i4YqpAeGgNg";
+  static String myVideoId = "ZDIvj1GvH64";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 889, // DOPSUM: CHANGE IT
+      startAt: 392, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -446,12 +507,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "kotoNOAvNGk";
+  static String myVideoId = "5_uSZcXMV7s";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2925, // DOPSUM: CHANGE IT
+      startAt: 280, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -471,12 +532,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "ocC79Nbk2Zw";
+  static String myVideoId = "sfY7n6uJ-0E";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 469, // DOPSUM: CHANGE IT
+      startAt: 120, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -496,12 +557,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "V8wmuX7VutE";
+  static String myVideoId = "W2hRTTTpmr8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 22, // DOPSUM: CHANGE IT
+      startAt: 541, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -521,12 +582,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "_mKA1ERWYqM";
+  static String myVideoId = "qrra18TChxY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 164, // DOPSUM: CHANGE IT
+      startAt: 812, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -546,12 +607,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "0ujMKUrYlM4";
+  static String myVideoId = "Xdaj7MY1N9M";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1149, // DOPSUM: CHANGE IT
+      startAt: 510, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -770,4 +831,4 @@ class YoutubeEmbeddedtwenty extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end blab// TODO Implement this library.
+// end blame// TODO Implement this library.

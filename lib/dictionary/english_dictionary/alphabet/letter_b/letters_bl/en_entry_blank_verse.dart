@@ -5,91 +5,87 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "bellow" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
+// Define the word "blank verse" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
 
-// replace bellow - replace EnglishEntrybellow
-
-// replace speakBellow - /ˈbeləʊ/
+// replace blank verse - /ˌblæŋk ˈvɜːs/
 
 enum TtsState { playing }
 
-class EnglishEntrybellow extends StatelessWidget {
+class EnglishEntryblankverse extends StatelessWidget {
 // blank divider
-  EnglishEntrybellow({super.key});
+  EnglishEntryblankverse({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBellow(String languageCode) async {
-    // DOPSUM: CHANGE speakBellow
+  Future<void> speakblankverse(String languageCode) async {
+    // DOPSUM: CHANGE speakblankverse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bellow"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("blank verse"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBellows1(String languageCode) async {
-    // DOPSUM: CHANGE speakBellow
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("They bellowed at her to stop."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBellows2(String languageCode) async {
-    // DOPSUM: CHANGE speakBellow
+  Future<void> speakblankverses1(String languageCode) async {
+    // DOPSUM: CHANGE speakblankverse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He fell to the floor, bellowing with pain and rage."); // DOPSUM: CHANGE TEXT
+        "The playwright chose to write the entire play in blank verse for a more natural and conversational tone."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBellows3(String languageCode) async {
-    // DOPSUM: CHANGE speakBellow
+  Future<void> speakblankverses2(String languageCode) async {
+    // DOPSUM: CHANGE speakblankverse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The bull bellowed in pain."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblankverses22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBellows4(String languageCode) async {
-    // DOPSUM: CHANGE speakBellow
+  Future<void> speakblankverses3(String languageCode) async {
+    // DOPSUM: CHANGE speakblankverse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He gave a bellow of rage."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblankverses33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBellows5(String languageCode) async {
-    // DOPSUM: CHANGE speakBellow
+  Future<void> speakblankverses4(String languageCode) async {
+    // DOPSUM: CHANGE speakblankverse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He saw blood around the cow's mouth and heard the rasp of its breath between each anguished bellow."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblankverses44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBellows6(String languageCode) async {
-    // DOPSUM: CHANGE speakBellow
+  Future<void> speakblankverses5(String languageCode) async {
+    // DOPSUM: CHANGE speakblankverse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBellows66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblankverses55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBellows7(String languageCode) async {
-    // DOPSUM: CHANGE speakBellow
+  Future<void> speakblankverses6(String languageCode) async {
+    // DOPSUM: CHANGE speakblankverse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBellows77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblankverses66"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblankverses7(String languageCode) async {
+    // DOPSUM: CHANGE speakblankverse
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakblankverses77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 15, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -106,22 +102,22 @@ class EnglishEntrybellow extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bellow"),
+                            EntryTitle(word: "blank verse"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbeləʊ/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌblæŋk ˈvɜːs/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBellow("en-GB"),
+                              onPressed: () => speakblankverse("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbeləʊ/"),
+                            const IPAofEnglish(text: "IpaUS: /ˌblæŋk ˈvɜːrs/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBellow("en-US"),
+                              onPressed: () => speakblankverse("en-US"),
                             ),
                           ],
                         ),
@@ -139,14 +135,14 @@ class EnglishEntrybellow extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 15
-                  VideoIconForTab(), // 07 --- FIND:
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
+                  VideoIconForTab(), // 07 --- FIND: 
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
                   VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
-                  VideoIconForTab(), // 13
+                  // VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                   // VideoIconForTab(), // 16
@@ -167,103 +163,23 @@ class EnglishEntrybellow extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: نەڕڕە، گوڕڕە، بۆڕە، نەڕاندن، ھۆڕاندن، بۆڕاندن
-
-١. (کردار) ھاوارکردن بە دەنگی بەرز بەھۆی ئەوەی تووڕەی"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They bellowed at her to stop."),
-                              const ExampleSentenceKurdish(
-                                  text: "نەڕاندیان بەسەریدا تا بوەستێت."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBellows1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBellows1("en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
+١. (ناو) هەڵبەستی سپی یان ئازاد، هۆنراوەی یان شێعری بێ‌سەروا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "He fell to the floor, bellowing with pain and rage."),
+                                      "The playwright chose to write the entire play in blank verse for a more natural and conversational tone."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "کەوت بەسەر زەوییەکەدا و بۆڕەی دەھات لە ئازار و توڕەییدا."),
+                                  text: "شانۆنووسەکە بڕیاریدا تەواوی شانۆکە بە هەڵبەستی ئازاد بنووسێت بۆ پێدانی تۆنێکی سرووشتی و گفتوگۆیانە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBellows2("en-GB"),
+                                onPressed: () => speakblankverses1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBellows2("en-US"),
+                                onPressed: () => speakblankverses1("en-US"),
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (کردار) کە ئاژەڵێک، بۆ نموونە نێرەگایەک، دەنگێکی بەرز دەردەکات"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The bull bellowed in pain."),
-                              const ExampleSentenceKurdish(
-                                  text: "نێرەگاکە نەڕەی بوو لە ئازاردا."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBellows3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBellows3("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (ناو) ھاوارێک بە دەنگی بەرز"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He gave a bellow of rage."),
-                              const ExampleSentenceKurdish(
-                                  text: "نەڕەیەکی کرد لە تووڕەییدا."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBellows4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBellows4("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٤. (کردار) دەنگی بەرزی ئاژەڵێک، بۆ نموونە ھی نێرەگایەک"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He saw blood around the cow's mouth and heard the rasp of its breath between each anguished bellow."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خوێنی لە دەمی مانگاکەوە دی و گوێی لە دەنگی ھەناسەی بوو لەگەڵ ھەر نەڕەیەکی لەتاو ئازاردا."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBellows5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBellows5("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
                           // const DividerDefinition(),
                         ],
                       ),
@@ -279,8 +195,8 @@ class EnglishEntrybellow extends StatelessWidget {
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
                     YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
-                    YoutubeEmbeddedthirteen(),
+                    // YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
                     // YoutubeEmbeddeddsixteen(),
@@ -316,18 +232,8 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Verb: bellow (derived forms: bellowed, bellowing, bellows)
-1. Shout loudly and without restraint (= bawl)
- 
-2. Make a loud noise, as of an animal (= roar)
-"The bull bellowed";
-
-- Noun: bellow (derived forms: bellows)
-1. A very loud utterance (like the sound of an animal) (= bellowing, holla [archaic], holler [informal], hollering [informal], hollo [non-standard], holloa [rare], roar, roaring, yowl)
-"his bellow filled the hallway";
-
-- Noun: Bellow (derived forms: Bellows)
-1. United States author (born in Canada) whose novels influenced American literature after World War II (1915-2005) (= Saul Bellow, Solomon Bellow)
+- Noun: blank verse (Derived forms: blank verses)
+1. Unrhymed verse (usually in iambic pentameter)
 """,
           )
         ],
@@ -341,12 +247,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "_vy5IjC4LTM";
+  static String myVideoId = "https://youtu.be/laAOxU3TSog?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 903, // DOPSUM: CHANGE IT
+      startAt: 25, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -366,12 +272,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "576HwhU6PMM";
+  static String myVideoId = "https://youtu.be/HgmPXrGgeRs?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 47, // DOPSUM: CHANGE IT
+      startAt: 502, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -391,12 +297,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "UOc7xdRhAAY";
+  static String myVideoId = "https://youtu.be/snJpYLV7bYA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 144, // DOPSUM: CHANGE IT
+      startAt: 305, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -416,12 +322,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "-4z7g7qaDbs";
+  static String myVideoId = "https://youtu.be/UX6LCzgXYFA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 316, // DOPSUM: CHANGE IT
+      startAt: 209, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -441,12 +347,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "TCxoZlFqzwA";
+  static String myVideoId = "https://youtu.be/rC_iFGN2dV4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 907, // DOPSUM: CHANGE IT
+      startAt: 1620, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -466,12 +372,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "HpV85d1hm6I";
+  static String myVideoId = "https://youtu.be/x3d8mI0O0Rk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 137, // DOPSUM: CHANGE IT
+      startAt: 2101, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -491,12 +397,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "TILjzuBGkRc";
+  static String myVideoId = "https://youtu.be/GbvNW-c45es?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 152, // DOPSUM: CHANGE IT
+      startAt: 27, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -516,12 +422,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "pxqZbb6CdX0";
+  static String myVideoId = "https://youtu.be/5g3l1E1gHiM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 392, // DOPSUM: CHANGE IT
+      startAt: 921, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -541,12 +447,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "-IjKRK-ORSs";
+  static String myVideoId = "https://youtu.be/poHXO8Ttxb0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 776, // DOPSUM: CHANGE IT
+      startAt: 115, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -566,12 +472,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "RFLqlHFoI3M";
+  static String myVideoId = "https://youtu.be/y94RsqtEADQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 868, // DOPSUM: CHANGE IT
+      startAt: 1098, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -591,12 +497,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "A_ESR5zoGYQ";
+  static String myVideoId = "https://youtu.be/RpgXEUIR5oA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 530, // DOPSUM: CHANGE IT
+      startAt: 250, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -616,12 +522,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "U9jDNEtg8JY";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 112, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -641,12 +547,12 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 class YoutubeEmbeddedthirteen extends StatelessWidget {
   YoutubeEmbeddedthirteen({super.key});
 
-  static String myVideoId = "fpS4B5oMhgo";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 251, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -838,6 +744,6 @@ class YoutubeEmbeddedtwenty extends StatelessWidget {
   }
 }
 
-// morethan one video, only first autoplay
+// more than one video, only first autoplay
 
-// end bellow// TODO Implement this library.
+// end blank verse

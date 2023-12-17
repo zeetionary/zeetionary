@@ -5,91 +5,92 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "bellow" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
+// Define the word "blanket" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
 
-// replace bellow - replace EnglishEntrybellow
-
-// replace speakBellow - /ˈbeləʊ/
+// replace blanket - /ˈblæŋkɪt/
 
 enum TtsState { playing }
 
-class EnglishEntrybellow extends StatelessWidget {
+class EnglishEntryblanket extends StatelessWidget {
 // blank divider
-  EnglishEntrybellow({super.key});
+  EnglishEntryblanket({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBellow(String languageCode) async {
-    // DOPSUM: CHANGE speakBellow
+  Future<void> speakblanket(String languageCode) async {
+    // DOPSUM: CHANGE speakblanket
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bellow"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("blanket"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBellows1(String languageCode) async {
-    // DOPSUM: CHANGE speakBellow
+  Future<void> speakblankets1(String languageCode) async {
+    // DOPSUM: CHANGE speakblanket
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "It’s cold tonight—can I have another blanket?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblankets2(String languageCode) async {
+    // DOPSUM: CHANGE speakblanket
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("They bellowed at her to stop."); // DOPSUM: CHANGE TEXT
+        .speak("The baby was wrapped in a blanket."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBellows2(String languageCode) async {
-    // DOPSUM: CHANGE speakBellow
+  Future<void> speakblankets3(String languageCode) async {
+    // DOPSUM: CHANGE speakblanket
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He fell to the floor, bellowing with pain and rage."); // DOPSUM: CHANGE TEXT
+        "The sun was breaking through the blanket of mist."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBellows3(String languageCode) async {
-    // DOPSUM: CHANGE speakBellow
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The bull bellowed in pain."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBellows4(String languageCode) async {
-    // DOPSUM: CHANGE speakBellow
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He gave a bellow of rage."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBellows5(String languageCode) async {
-    // DOPSUM: CHANGE speakBellow
+  Future<void> speakblankets4(String languageCode) async {
+    // DOPSUM: CHANGE speakblanket
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He saw blood around the cow's mouth and heard the rasp of its breath between each anguished bellow."); // DOPSUM: CHANGE TEXT
+        "The trial was conducted under a blanket of secrecy."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBellows6(String languageCode) async {
-    // DOPSUM: CHANGE speakBellow
+  Future<void> speakblankets5(String languageCode) async {
+    // DOPSUM: CHANGE speakblanket
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBellows66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "What I object to most is the blanket opposition to change."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBellows7(String languageCode) async {
-    // DOPSUM: CHANGE speakBellow
+  Future<void> speakblankets6(String languageCode) async {
+    // DOPSUM: CHANGE speakblanket
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBellows77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The ground was soon blanketed with snow."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblankets7(String languageCode) async {
+    // DOPSUM: CHANGE speakblanket
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakblankets77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 15, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 16, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -106,22 +107,22 @@ class EnglishEntrybellow extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bellow"),
+                            EntryTitle(word: "blanket"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbeləʊ/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈblæŋkɪt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBellow("en-GB"),
+                              onPressed: () => speakblanket("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbeləʊ/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈblæŋkɪt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBellow("en-US"),
+                              onPressed: () => speakblanket("en-US"),
                             ),
                           ],
                         ),
@@ -139,7 +140,7 @@ class EnglishEntrybellow extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 15
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 16
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
@@ -147,7 +148,7 @@ class EnglishEntrybellow extends StatelessWidget {
                   VideoIconForTab(), // 11
                   VideoIconForTab(), // 12
                   VideoIconForTab(), // 13
-                  // VideoIconForTab(), // 14
+                  VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                   // VideoIconForTab(), // 16
                   // VideoIconForTab(), // 17
@@ -167,99 +168,121 @@ class EnglishEntrybellow extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: نەڕڕە، گوڕڕە، بۆڕە، نەڕاندن، ھۆڕاندن، بۆڕاندن
+کوردی: پەتۆ، فانیلە، پێخەف، بەتانیە، بەڕە (تەشکەبەرە: بەڕەی درێژۆکە)، توێ، چین، گەرداڵ، توێژاڵ، (وڵاخ) جل، هەمووگر، گشتگر، گشت‌لایەنە، دیاری‌نەکراو، گشتی، بێ‌ئاوارتە
 
-١. (کردار) ھاوارکردن بە دەنگی بەرز بەھۆی ئەوەی تووڕەی"""),
+١. (ناو) داپۆشەرێکی گەورە کە لەکاتی خەودا دەدرێت بە خۆدا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "They bellowed at her to stop."),
+                                  text:
+                                      "It’s cold tonight—can I have another blanket?"),
                               const ExampleSentenceKurdish(
-                                  text: "نەڕاندیان بەسەریدا تا بوەستێت."),
+                                  text:
+                                      "ئەمشەو ساردە، دەکرێت بەتانییەکی ترم بۆ بێنیت؟"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBellows1("en-GB"),
+                                onPressed: () => speakblankets1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBellows1("en-US"),
+                                onPressed: () => speakblankets1("en-US"),
                               ),
                             ],
                           ),
-                          const DividerSentences(),
                           // const DividerDefinition(),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "He fell to the floor, bellowing with pain and rage."),
+                                  text: "The baby was wrapped in a blanket."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کەوت بەسەر زەوییەکەدا و بۆڕەی دەھات لە ئازار و توڕەییدا."),
+                                      "منداڵەکە لە بەتانییەکدا پێچرابوویەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBellows2("en-GB"),
+                                onPressed: () => speakblankets2("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBellows2("en-US"),
+                                onPressed: () => speakblankets2("en-US"),
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (کردار) کە ئاژەڵێک، بۆ نموونە نێرەگایەک، دەنگێکی بەرز دەردەکات"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The bull bellowed in pain."),
-                              const ExampleSentenceKurdish(
-                                  text: "نێرەگاکە نەڕەی بوو لە ئازاردا."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBellows3("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBellows3("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (ناو) ھاوارێک بە دەنگی بەرز"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He gave a bellow of rage."),
-                              const ExampleSentenceKurdish(
-                                  text: "نەڕەیەکی کرد لە تووڕەییدا."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBellows4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBellows4("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٤. (کردار) دەنگی بەرزی ئاژەڵێک، بۆ نموونە ھی نێرەگایەک"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) توێژاڵ یان چینێکی ئەستوور لە شتێک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "He saw blood around the cow's mouth and heard the rasp of its breath between each anguished bellow."),
+                                      "The sun was breaking through the blanket of mist."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "خوێنی لە دەمی مانگاکەوە دی و گوێی لە دەنگی ھەناسەی بوو لەگەڵ ھەر نەڕەیەکی لەتاو ئازاردا."),
+                                  text: "خۆر دەدرەوشایەوە بە چینێک لە تەمدا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBellows5("en-GB"),
+                                onPressed: () => speakblankets3("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBellows5("en-US"),
+                                onPressed: () => speakblankets3("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerDefinition(),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The trial was conducted under a blanket of secrecy."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "(بەکارهێنانی خوازراو) دادگاییەکە ئەنجامدرا لە تەمومژێکی نهێنیدا."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblankets4("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblankets4("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ھاوەڵناو) خاسیەتی هەبوونی کاریگەری یان گرتنەخۆی هەموو کەیسەکان، دۆخ، و خەڵکی"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "What I object to most is the blanket opposition to change."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەوەی زیاتر لە هەموو شتێک دژیم دژبەری کوێرانەیە بۆ گۆڕانکاری."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblankets5("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblankets5("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (کردار) داپۆشینی شتێک بە چینێکی ئەستوور"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The ground was soon blanketed with snow."),
+                              const ExampleSentenceKurdish(
+                                  text: "زەوییەکە هەرزوو داپۆشرا بە بەفر."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblankets6("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblankets6("en-US"),
                               ),
                             ],
                           ),
@@ -281,7 +304,7 @@ class EnglishEntrybellow extends StatelessWidget {
                     YoutubeEmbeddedeleven(),
                     YoutubeEmbeddedtwelve(),
                     YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddeddfourteen(),
+                    YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
                     // YoutubeEmbeddeddsixteen(),
                     // YoutubeEmbeddeddseventeen(),
@@ -316,18 +339,24 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Verb: bellow (derived forms: bellowed, bellowing, bellows)
-1. Shout loudly and without restraint (= bawl)
+- Noun: blanket (Derived forms: blanketed, blankets, blanketing)
+1. Bedding that keeps a person warm in bed (= cover)
+"he pulled the blankets over his head and went to sleep";
  
-2. Make a loud noise, as of an animal (= roar)
-"The bull bellowed";
+2. Anything that covers (= mantle)
+"there was a blanket of snow";
+ 
+3. A layer of lead surrounding the highly reactive core of a nuclear reactor
 
-- Noun: bellow (derived forms: bellows)
-1. A very loud utterance (like the sound of an animal) (= bellowing, holla [archaic], holler [informal], hollering [informal], hollo [non-standard], holloa [rare], roar, roaring, yowl)
-"his bellow filled the hallway";
+- Verb: blanket
+1. Cover as if with a blanket
+"snow blanketed the fields"
+ 
+2. Form a blanket-like cover (over)
 
-- Noun: Bellow (derived forms: Bellows)
-1. United States author (born in Canada) whose novels influenced American literature after World War II (1915-2005) (= Saul Bellow, Solomon Bellow)
+- Adjective: blanket
+1. Broad in scope or content (= across-the-board, all-embracing, all-encompassing, all-inclusive, broad, encompassing, extensive, panoptic, wide)
+"blanket sanctions against human-rights violators";
 """,
           )
         ],
@@ -341,12 +370,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "_vy5IjC4LTM";
+  static String myVideoId = "https://youtu.be/pNH6P5FaoZA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 903, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -366,12 +395,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "576HwhU6PMM";
+  static String myVideoId = "https://youtu.be/QaiLSKHse58?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 47, // DOPSUM: CHANGE IT
+      startAt: 75, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -391,12 +420,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "UOc7xdRhAAY";
+  static String myVideoId = "https://youtu.be/YDA2Y8O7XgI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 144, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -416,12 +445,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "-4z7g7qaDbs";
+  static String myVideoId = "https://youtu.be/LylEWbxAhA4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 316, // DOPSUM: CHANGE IT
+      startAt: 4, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -441,12 +470,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "TCxoZlFqzwA";
+  static String myVideoId = "https://youtu.be/saMq36vh9ls?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 907, // DOPSUM: CHANGE IT
+      startAt: 10, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -466,12 +495,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "HpV85d1hm6I";
+  static String myVideoId = "https://youtu.be/TtXmuARqg38?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 137, // DOPSUM: CHANGE IT
+      startAt: 19, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -491,12 +520,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "TILjzuBGkRc";
+  static String myVideoId = "https://youtu.be/Tg3ImN2-9_8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 152, // DOPSUM: CHANGE IT
+      startAt: 135, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -516,12 +545,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "pxqZbb6CdX0";
+  static String myVideoId = "https://youtu.be/odE2IkwaRsk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 392, // DOPSUM: CHANGE IT
+      startAt: 18, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -541,12 +570,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "-IjKRK-ORSs";
+  static String myVideoId = "https://youtu.be/LnHAtQlXlY0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 776, // DOPSUM: CHANGE IT
+      startAt: 808, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -566,12 +595,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "RFLqlHFoI3M";
+  static String myVideoId = "https://youtu.be/eKcyjHqOUkE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 868, // DOPSUM: CHANGE IT
+      startAt: 44, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -591,12 +620,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "A_ESR5zoGYQ";
+  static String myVideoId = "https://youtu.be/5G-O4ZtKQP0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 530, // DOPSUM: CHANGE IT
+      startAt: 311, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -616,12 +645,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "U9jDNEtg8JY";
+  static String myVideoId = "https://youtu.be/W8FyilDVOoU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 112, // DOPSUM: CHANGE IT
+      startAt: 713, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -641,12 +670,12 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 class YoutubeEmbeddedthirteen extends StatelessWidget {
   YoutubeEmbeddedthirteen({super.key});
 
-  static String myVideoId = "fpS4B5oMhgo";
+  static String myVideoId = "https://youtu.be/A_ESR5zoGYQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 251, // DOPSUM: CHANGE IT
+      startAt: 367, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -666,12 +695,12 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
 class YoutubeEmbeddeddfourteen extends StatelessWidget {
   YoutubeEmbeddeddfourteen({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/p1Zb90MFf20?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 5173, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -838,6 +867,6 @@ class YoutubeEmbeddedtwenty extends StatelessWidget {
   }
 }
 
-// morethan one video, only first autoplay
+// more than one video, only first autoplay
 
-// end bellow// TODO Implement this library.
+// end blanket// TODO Implement this library.

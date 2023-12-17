@@ -361,7 +361,7 @@ class EnglishEntryblack extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ڕەش، تەواو ڕەش، ڕەشی ڕەش، تاریک، ئەنگوستەچاو، بێ‌ڕووناکی، (سەربە) ڕەش‌پێستەکان، بێ‌شیر (قاوە و چایی)، پیس، چڵکن، گڵاو، چەپەڵ، ڕق‌هەستاو، تووڕە، هیوابڕ، ناهومێدکەر، خراپ، ڕەش، بەد، دڵپڕ، کز، خەمبار، بەزیان، بەوەی، بەزەڕ، ڕەشی، سیان، قورم، ڕەنگی ڕەش، ڕەش‌پێست، چەرم‌ڕەش، بەرگی ڕەش، بەرگ یان جلی ماتەم
+کوردی: ڕەش، تەواو ڕەش، ڕەشی ڕەش، تاریک، ئەنگوستەچاو، بێ‌ڕووناکی، (سەربە) ڕەش‌پێستەکان، بێ‌شیر (قاوە و چایی)، پیس، چڵکن، گڵاو، چەپەڵ، ڕق‌ھەستاو، تووڕە، ھیوابڕ، ناھومێدکەر، خراپ، ڕەش، بەد، دڵپڕ، کز، خەمبار، بەزیان، بەوەی، بەزەڕ، ڕەشی، سیان، قورم، ڕەنگی ڕەش، ڕەش‌پێست، چەرم‌ڕەش، بەرگی ڕەش، بەرگ یان جلی ماتەم
 
 ١. (ھاوەڵناو) ڕەنگی ڕەش"""),
                           Row(
@@ -370,7 +370,7 @@ class EnglishEntryblack extends StatelessWidget {
                                   text:
                                       "She had curly black hair and blue eyes."),
                               const ExampleSentenceKurdish(
-                                  text: "قژی ڕەشی لوول و چاوی شینی هەبوو."),
+                                  text: "قژی ڕەشی لوول و چاوی شینی ھەبوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblacks1("en-GB"),
@@ -389,7 +389,7 @@ class EnglishEntryblack extends StatelessWidget {
                                       "I wanted a simple black dress, nothing fancy."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "تەنها جلێکی ڕەشی سادەم دەویست، شتێکی دڵبەر نا."),
+                                      "تەنھا جلێکی ڕەشی سادەم دەویست، شتێکی دڵبەر نا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblacks2("en-GB"),
@@ -429,7 +429,7 @@ class EnglishEntryblack extends StatelessWidget {
                                       "My head banged on a rock and everything went black."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سەرم دای بە بەردێکدا و هەموو شتێک تاریک بوو."),
+                                      "سەرم دای بە بەردێکدا و ھەموو شتێک تاریک بوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblacks4("en-GB"),
@@ -449,7 +449,7 @@ class EnglishEntryblack extends StatelessWidget {
                                       "Through the black night came the sound of thunder."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەدرێژایی شەوە تاریکەکە دەنگی هەورەگرمە دەهات."),
+                                      "بەدرێژایی شەوە تاریکەکە دەنگی ھەورەگرمە دەھات."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblacks5("en-GB"),
@@ -491,7 +491,7 @@ class EnglishEntryblack extends StatelessWidget {
                                       "There's a large Black community living in this area."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کۆمەڵگەیەکی گەورەی کەسانی ڕەشپێست هەیە لەم ناوچە."),
+                                      "کۆمەڵگەیەکی گەورەی کەسانی ڕەشپێست ھەیە لەم ناوچە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblacks7("en-GB"),
@@ -570,7 +570,7 @@ class EnglishEntryblack extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "The future looks pretty black."),
                               const ExampleSentenceKurdish(
-                                  text: "داهاتوو زۆر بێ هیوابڕ دیارە."),
+                                  text: "داھاتوو زۆر بێ ھیوابڕ دیارە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblacks11("en-GB"),
@@ -590,7 +590,7 @@ class EnglishEntryblack extends StatelessWidget {
                                       "Everyone at the funeral was dressed in black."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەموو ئەوانەی لە مەراسیمی ناشتنەکە بوون جلی ڕەشیان پۆشیبوو."),
+                                      "ھەموو ئەوانەی لە مەراسیمی ناشتنەکە بوون جلی ڕەشیان پۆشیبوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblacks12("en-GB"),
@@ -623,7 +623,7 @@ class EnglishEntryblack extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٩. (ناو) کەسانی ڕەشپێست (بەکارهێنانی وشەکە بەم واتایە وەک ناو باش نییە. باشترە وەک هاوەڵناو بەکاربێت)"),
+                                  "٩. (ناو) کەسانی ڕەشپێست (بەکارھێنانی وشەکە بەم واتایە وەک ناو باش نییە. باشترە وەک ھاوەڵناو بەکاربێت)"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -631,7 +631,7 @@ class EnglishEntryblack extends StatelessWidget {
                                       "The museum exhibit featured portraits of influential blacks who shaped history."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پێشانگای مۆزەخانەکە ژمارەیەک وێنەی کەسانی کاریگەری ڕەشپێست نمایش دەکات کە کاریگەرییان لەسەر مێژوو هەبووە."),
+                                      "پێشانگای مۆزەخانەکە ژمارەیەک وێنەی کەسانی کاریگەری ڕەشپێست نمایش دەکات کە کاریگەرییان لەسەر مێژوو ھەبووە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblacks14("en-GB"),
@@ -653,7 +653,7 @@ class EnglishEntryblack extends StatelessWidget {
                                       "The countries have blacked all imports from Russia."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "وڵاتەکان هەموو هاوردەیەکیان لە ڕووسیاوە ڕاگرتووە."),
+                                      "وڵاتەکان ھەموو ھاوردەیەکیان لە ڕووسیاوە ڕاگرتووە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblacks15("en-GB"),
@@ -674,7 +674,7 @@ class EnglishEntryblack extends StatelessWidget {
                                       "The artist decided to black out the background to emphasize the central figure."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هونەرمەندەکە بڕیاری دا پشتەوە ڕەش بکاتەوە بۆ ئەوەی سەرنج بخاتە سەر ئەو کەسەی لە ناوەڕاست بوو."),
+                                      "ھونەرمەندەکە بڕیاری دا پشتەوە ڕەش بکاتەوە بۆ ئەوەی سەرنج بخاتە سەر ئەو کەسەی لە ناوەڕاست بوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblacks16("en-GB"),

@@ -164,9 +164,9 @@ class EnglishEntryblanch extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ڕەنگ‌پەڕین، سپی هەڵگەڕان
+کوردی: ڕەنگ‌پەڕین، سپی ھەڵگەڕان
 
-١. (کردار) ڕەنگپەڕین بەهۆی ئەوەی شۆک بویتە یان ترساویت"""),
+١. (کردار) ڕەنگپەڕین بەھۆی ئەوەی شۆک بویتە یان ترساویت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -174,7 +174,7 @@ class EnglishEntryblanch extends StatelessWidget {
                                       "He blanched visibly when he heard the news."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بە ئاشکرایی رەنگی پەڕی کە هەواڵەکەی بیست."),
+                                      "بە ئاشکرایی رەنگی پەڕی کە ھەواڵەکەی بیست."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblanchs1("en-GB"),

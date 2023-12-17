@@ -173,7 +173,7 @@ class EnglishEntrybeachwear extends StatelessWidget {
                                       "In most tourist destinations, there are plenty of shops selling beachwear."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە زۆرێک لە شوێنە گەشتیارییەکان فرۆشگای زۆر ھەیە بۆ فرۆشتنی جلی کەناراو و ."),
+                                      "لە زۆرێک لە شوێنە گەشتیارییەکان فرۆشگای زۆر ھەیە بۆ فرۆشتنی جلی کەناراو و."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeachwears1("en-GB"),

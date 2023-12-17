@@ -166,9 +166,9 @@ class EnglishEntryblackout extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: تاریکی، چراکوژانەوە، لە هۆش‌چوون یان لەبیرچوونەوەی کاتی، سانسۆڕ
+کوردی: تاریکی، چراکوژانەوە، لە ھۆش‌چوون یان لەبیرچوونەوەی کاتی، سانسۆڕ
 
-١. (ناو) ماوەی تاریکی بەهۆی بێ کارەبایی"""),
+١. (ناو) ماوەی تاریکی بەھۆی بێ کارەبایی"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -176,7 +176,7 @@ class EnglishEntryblackout extends StatelessWidget {
                                       "The storm caused blackouts in many areas."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "زریانەکە بوو بەهۆی بێ کارەبایی لە ژمارەیەکی زۆر ناوچە."),
+                                      "زریانەکە بوو بەھۆی بێ کارەبایی لە ژمارەیەکی زۆر ناوچە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblackouts1("en-GB"),
@@ -190,7 +190,7 @@ class EnglishEntryblackout extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) دۆخێک کە تێیدا حکومەت یاب پۆلیس ڕێگا نادەن هیچ زانیارییەک بدرێت بە ڕای گشتی"),
+                                  "٢. (ناو) دۆخێک کە تێیدا حکومەت یاب پۆلیس ڕێگا نادەن ھیچ زانیارییەک بدرێت بە ڕای گشتی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -198,7 +198,7 @@ class EnglishEntryblackout extends StatelessWidget {
                                       "The government imposed a news blackout during the crisis."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "حکومەت سانسۆری لەسەر هەواڵ دانا لە کاتی قەیرانەکەدا."),
+                                      "حکومەت سانسۆری لەسەر ھەواڵ دانا لە کاتی قەیرانەکەدا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblackouts2("en-GB"),
@@ -212,7 +212,7 @@ class EnglishEntryblackout extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) ماوەیەک لە کاتی جەنگدا کە هەموو ڕۆشناییەک دەبێت بکوژێنرێتەوە لە شەودا بۆ ئەوەی دووژمن لە ئاسمانەوە سوودی لێ نەبینێت بۆ هێرش"),
+                                  "٣. (ناو) ماوەیەک لە کاتی جەنگدا کە ھەموو ڕۆشناییەک دەبێت بکوژێنرێتەوە لە شەودا بۆ ئەوەی دووژمن لە ئاسمانەوە سوودی لێ نەبینێت بۆ ھێرش"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -234,7 +234,7 @@ class EnglishEntryblackout extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) لەبیرچوونەوە، لەدەستدانی بینایی، یان هزر بۆ ماوەیەکی کاتی"),
+                                  "٤. (ناو) لەبیرچوونەوە، لەدەستدانی بینایی، یان ھزر بۆ ماوەیەکی کاتی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -242,7 +242,7 @@ class EnglishEntryblackout extends StatelessWidget {
                                       "She had a blackout and couldn't remember anything about the accident."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لەهۆشچوونی بەسەر هات و نەیدەتوانی هیچی لەسەر ڕووداوەکە بیربێتەوە."),
+                                      "لەھۆشچوونی بەسەر ھات و نەیدەتوانی ھیچی لەسەر ڕووداوەکە بیربێتەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblackouts4("en-GB"),

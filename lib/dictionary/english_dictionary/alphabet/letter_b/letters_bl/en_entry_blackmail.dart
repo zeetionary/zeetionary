@@ -165,9 +165,9 @@ class EnglishEntryblackmail extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بێ‌دەنگانە، باج‌سێنی، باج‌وەرگرتن، خاوە، بەرتیل، زۆربۆهێنان، سەنگی خستنەسەر، زۆرسێنی، کەڵەگایی، هەڕەشە، گەف
+کوردی: بێ‌دەنگانە، باج‌سێنی، باج‌وەرگرتن، خاوە، بەرتیل، زۆربۆھێنان، سەنگی خستنەسەر، زۆرسێنی، کەڵەگایی، ھەڕەشە، گەف
 
-١. (ناو) تاوانی وەرگرتنی پارە لە کەسێک بە هەڕەشە لێ کردنی بەوەی نهێنییەک لەسەری بە کەسێکی تر دەڵێیت """),
+١. (ناو) تاوانی وەرگرتنی پارە لە کەسێک بە ھەڕەشە لێ کردنی بەوەی نھێنییەک لەسەری بە کەسێکی تر دەڵێیت """),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -175,7 +175,7 @@ class EnglishEntryblackmail extends StatelessWidget {
                                       "If you are in a position of authority, any weakness leaves you open to blackmail."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەگەر لە پلەی دەسەڵاتداری بیت، هەر لاوازییەک دەکرێت گەفکردن پێت ئاسان بکات."),
+                                      "ئەگەر لە پلەی دەسەڵاتداری بیت، ھەر لاوازییەک دەکرێت گەفکردن پێت ئاسان بکات."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblackmails1("en-GB"),
@@ -189,7 +189,7 @@ class EnglishEntryblackmail extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کردەی پەستان خستنەسەر کەسێک یان گرووپێک بۆ کردنی شتێک کە نایانەوێت بیکەن، بۆ نموونە بە هەڕەشەکردن لێیان"),
+                                  "٢. (ناو) کردەی پەستان خستنەسەر کەسێک یان گرووپێک بۆ کردنی شتێک کە نایانەوێت بیکەن، بۆ نموونە بە ھەڕەشەکردن لێیان"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -211,7 +211,7 @@ class EnglishEntryblackmail extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) زۆرکردن لە کەسێک کە پارەت پێ بدات یان شتێکت بۆ بکات بە هەڕەشەکردن لێی، بۆ نموونە بەوەی نهێنییەکانی ئەدرکێنی لەلای خەڵکی دیکە"),
+                                  "٣. (کردار) زۆرکردن لە کەسێک کە پارەت پێ بدات یان شتێکت بۆ بکات بە ھەڕەشەکردن لێی، بۆ نموونە بەوەی نھێنییەکانی ئەدرکێنی لەلای خەڵکی دیکە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -219,7 +219,7 @@ class EnglishEntryblackmail extends StatelessWidget {
                                       "She blackmailed him for years by threatening to tell the newspapers about their affair."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بۆ چەندین ساڵ گەفی پێ دەگێڕا بە هەڕەشەکردنی ئەوەی ڕۆژنامەکان ئاگادار دەکاتەوە لە پەیوەندییەکەیان."),
+                                      "بۆ چەندین ساڵ گەفی پێ دەگێڕا بە ھەڕەشەکردنی ئەوەی ڕۆژنامەکان ئاگادار دەکاتەوە لە پەیوەندییەکەیان."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblackmails3("en-GB"),

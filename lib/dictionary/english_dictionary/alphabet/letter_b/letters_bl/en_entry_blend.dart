@@ -5,88 +5,92 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "bitmap" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
+// Define the word "blend" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
 
-// replace bitmap - /ˈbɪtmæp/
+// replace blend - /blend/
 
 enum TtsState { playing }
 
-class EnglishEntrybitmap extends StatelessWidget {
+class EnglishEntryblend extends StatelessWidget {
 // blank divider
-  EnglishEntrybitmap({super.key});
+  EnglishEntryblend({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbitmap(String languageCode) async {
-    // DOPSUM: CHANGE speakbitmap
+  Future<void> speakblend(String languageCode) async {
+    // DOPSUM: CHANGE speakblend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bitmap"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("blend"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbitmaps1(String languageCode) async {
-    // DOPSUM: CHANGE speakbitmap
+  Future<void> speakblends1(String languageCode) async {
+    // DOPSUM: CHANGE speakblend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The artist decided to bitmap the image to achieve a more detailed visual effect."); // DOPSUM: CHANGE TEXT
+        "Blend together the eggs, sugar and flour."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbitmaps2(String languageCode) async {
-    // DOPSUM: CHANGE speakbitmap
+  Future<void> speakblends2(String languageCode) async {
+    // DOPSUM: CHANGE speakblend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The digital photograph was stored as a bitmap, allowing precise control over individual pixels."); // DOPSUM: CHANGE TEXT
+        "I have very little idea of how to blend colours."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbitmaps3(String languageCode) async {
-    // DOPSUM: CHANGE speakbitmap
+  Future<void> speakblends3(String languageCode) async {
+    // DOPSUM: CHANGE speakblend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbitmaps33"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Oil does not blend with water."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbitmaps4(String languageCode) async {
-    // DOPSUM: CHANGE speakbitmap
+  Future<void> speakblends4(String languageCode) async {
+    // DOPSUM: CHANGE speakblend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbitmaps44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The old and new buildings blend together perfectly."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbitmaps5(String languageCode) async {
-    // DOPSUM: CHANGE speakbitmap
+  Future<void> speakblends5(String languageCode) async {
+    // DOPSUM: CHANGE speakblend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbitmaps55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Their music is a blend of jazz and African rhythms."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbitmaps6(String languageCode) async {
-    // DOPSUM: CHANGE speakbitmap
+  Future<void> speakblends6(String languageCode) async {
+    // DOPSUM: CHANGE speakblend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbitmaps66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "This charming hotel is a delightful blend of the old and the new."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbitmaps7(String languageCode) async {
-    // DOPSUM: CHANGE speakbitmap
+  Future<void> speakblends7(String languageCode) async {
+    // DOPSUM: CHANGE speakblend
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbitmaps77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblends77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -103,22 +107,22 @@ class EnglishEntrybitmap extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bitmap"),
+                            EntryTitle(word: "blend"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbɪtmæp/"),
+                            const IPAofEnglish(text: "IpaUK: /blend/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbitmap("en-GB"),
+                              onPressed: () => speakblend("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbɪtmæp/"),
+                            const IPAofEnglish(text: "IpaUS: /blend/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbitmap("en-US"),
+                              onPressed: () => speakblend("en-US"),
                             ),
                           ],
                         ),
@@ -136,13 +140,13 @@ class EnglishEntrybitmap extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
                   VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -164,21 +168,61 @@ class EnglishEntrybitmap extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (کردار) بیتمەپ؛ کۆگاکردنی وێنەیەک بە ژمارەیەکی دیاریکراوەوە لە بیت (یەکەی زانیاری) بۆ ھەر یەکەیەکی وێنەکە"""),
+کوردی: تێکەڵە، ئاوێتە، ئامێتە، وشەی تێکەڵ یان لێکدراو، تێکەڵ‌وشە
+
+١. (کردار) تێکەڵکردنی دوو مادە یان زیاتر"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The artist decided to bitmap the image to achieve a more detailed visual effect."),
+                                      "Blend together the eggs, sugar and flour."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ھونەرمەندەکە بڕیاری دا وێنەکە بە بیتماپ کۆگا بکات بۆ بەدەستھێنانی وێنایەکی دیداری وردتر."),
+                                      "ھێلکەکان و شەکرەکە و ئاردەکە تێکەڵ بکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakbitmaps1("en-GB"),
+                                onPressed: () => speakblends1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakbitmaps1("en-US"),
+                                onPressed: () => speakblends1("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I have very little idea of how to blend colours."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "زانیاریی زۆر کەمم ھەیە لەسەر تێکەڵکردنی ڕەنگ."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblends2("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblends2("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerDefinition(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (کردار) درووستکردنی تێکەڵەیەک لەگەڵ شتێک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Oil does not blend with water."),
+                              const ExampleSentenceKurdish(
+                                  text: "ڕۆن تێکەڵ بە ئاو نابێت."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblends3("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblends3("en-US"),
                               ),
                             ],
                           ),
@@ -186,25 +230,67 @@ class EnglishEntrybitmap extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) ڕێگای کۆگاکردنی وێنەیەک بە ژمارەیەکی دیاریکراوەوە لە بیت (یەکەی زانیاری) بۆ ھەر یەکەیەکی وێنەکە"),
+                                  "٣. (کردار) پێکەوەگونجانی دوو شت بەشێوەیەکی جوان"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The digital photograph was stored as a bitmap, allowing precise control over individual pixels."),
+                                      "The old and new buildings blend together perfectly."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "وێنە دیجیتاڵییەکە بە بیتماپ کۆگاکرا کە ڕێگا بە کۆنترۆڵی ورد دەدات بەسەر دانە بە دانەی پیکسڵەکانی."),
+                                      "بینا کۆن و تازەکان بێ‌خەوشانە پێکەوە دەگونجێن."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakbitmaps2("en-GB"),
+                                onPressed: () => speakblends4("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakbitmaps2("en-US"),
+                                onPressed: () => speakblends4("en-US"),
                               ),
                             ],
                           ),
                           // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (ناو) تێکەڵەی ژمارەیەک جۆری جیاوازی ھەمان شت"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Their music is a blend of jazz and African rhythms."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "میوزیکەکە تێکەڵەیەکی جاز و ڕیتمی ئەفریقییە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblends5("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblends5("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٥. (ناو) یەکگرتنی جوان و بەسوودی ژمارەیەک شت"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "This charming hotel is a delightful blend of the old and the new."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئەم ھوتێلە نازدارە تێکەڵەیەکی جوانی کۆنەکە و تازەکەیە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblends6("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblends6("en-US"),
+                              ),
+                            ],
+                          ),
                           // const DividerDefinition(),
                         ],
                       ),
@@ -220,7 +306,7 @@ class EnglishEntrybitmap extends StatelessWidget {
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
                     YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -257,11 +343,23 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bitmap (derived forms: bitmaps)
-1. An image represented as a two dimensional array of brightness values for pixels (= electronic image)
+- Verb: blend (derived forms: blending, blended, blends)
+1. Combine into one (= intermix, immingle, intermingle)
+"blend the nuts and raisins together"; "he blends in with the crowd";
+ 
+2. Fit in well or harmonize (= go, blend in)
+"This flavour will blend with those in your dish";
+ 
+3. Add together different elements (= flux, mix, conflate, commingle, immix, fuse, coalesce, meld, combine, merge)
+"The colours blend well";
 
-- Verb: bitmap (derived forms: bitmapped, bitmapping, bitmaps)
-1. Represent as a bitmap
+- Noun: blend (derived forms: blends)
+1. An occurrence of thorough mixing
+ 
+2. A new word formed by joining two others and combining their meanings (= portmanteau word, portmanteau)
+"'smog' is a blend of 'smoke' and 'fog'";
+
+3. The act of blending components together thoroughly (= blending)
 """,
           )
         ],
@@ -275,12 +373,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "-2iRm1PC2Jw";
+  static String myVideoId = "lVoGZiL-kns";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 72, // DOPSUM: CHANGE IT
+      startAt: 328, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -300,12 +398,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "kjapiUQOi2s";
+  static String myVideoId = "u7xKImi2804";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 626, // DOPSUM: CHANGE IT
+      startAt: 290, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -325,12 +423,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "U4GpOlExK98";
+  static String myVideoId = "AMUpYqKwu3k";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 730, // DOPSUM: CHANGE IT
+      startAt: 879, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -350,12 +448,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "wfFeCfp_xPk";
+  static String myVideoId = "ae36ZcPjPJA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 428, // DOPSUM: CHANGE IT
+      startAt: 237, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -375,12 +473,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "fTKckoSj-OE";
+  static String myVideoId = "qWAagS_MANg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 261, // DOPSUM: CHANGE IT
+      startAt: 1072, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -400,12 +498,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "XRgiSyxrMn0";
+  static String myVideoId = "9TugA_z5vQE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 435, // DOPSUM: CHANGE IT
+      startAt: 145, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -425,12 +523,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "m2OLhp9Whp0";
+  static String myVideoId = "lGSOWwUvJiU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 542, // DOPSUM: CHANGE IT
+      startAt: 1049, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -450,12 +548,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "htjxFdG78M0";
+  static String myVideoId = "diAxiWkwlC0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 255, // DOPSUM: CHANGE IT
+      startAt: 798, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -475,12 +573,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "P1TsVW4P5DI";
+  static String myVideoId = "o1Y4Z0oh1GE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 92, // DOPSUM: CHANGE IT
+      startAt: 43, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -500,12 +598,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "3c2jhh1f5FE";
+  static String myVideoId = "kh1Hz1HIJDE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 385, // DOPSUM: CHANGE IT
+      startAt: 78, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -525,12 +623,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "D16hTnDGweo";
+  static String myVideoId = "Ml1QR9YfReE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 715, // DOPSUM: CHANGE IT
+      startAt: 439, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -549,206 +647,6 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
-
-  static String myVideoId = "M1c5TcdITVs";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 83, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedthirteen extends StatelessWidget {
-  YoutubeEmbeddedthirteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddeddfourteen extends StatelessWidget {
-  YoutubeEmbeddeddfourteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedfifteen extends StatelessWidget {
-  YoutubeEmbeddedfifteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddeddsixteen extends StatelessWidget {
-  YoutubeEmbeddeddsixteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddeddseventeen extends StatelessWidget {
-  YoutubeEmbeddeddseventeen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddeddeighteen extends StatelessWidget {
-  YoutubeEmbeddeddeighteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddeddnineteen extends StatelessWidget {
-  YoutubeEmbeddeddnineteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwenty extends StatelessWidget {
-  YoutubeEmbeddedtwenty({super.key});
 
   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
@@ -774,4 +672,4 @@ class YoutubeEmbeddedtwenty extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end bitmap// TODO Implement this library.
+// end blend

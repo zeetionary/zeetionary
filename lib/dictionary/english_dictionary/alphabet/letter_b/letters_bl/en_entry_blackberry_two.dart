@@ -165,7 +165,7 @@ class EnglishEntryblackberrytwo extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: توودڕک، تووترک، دوودلقی، تووەڕەشە
 
-١. (ناو) میوەیەکی نەرمی ڕەشی بچووک کە لەسەر هێشوویەک دەڕوێت لە باخچەیەکدا """),
+١. (ناو) میوەیەکی نەرمی ڕەشی بچووک کە لەسەر ھێشوویەک دەڕوێت لە باخچەیەکدا """),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -173,7 +173,7 @@ class EnglishEntryblackberrytwo extends StatelessWidget {
                                       "The children eagerly picked blackberries from the bushes during their summer outing."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "منداڵەکان بە پەرۆشییەوە تووەڕەشەیان لە هێشووەکان لێ دەکردەوە لە کاتی جوونەدەرەوەی هاوینەیان."),
+                                      "منداڵەکان بە پەرۆشییەوە تووەڕەشەیان لە ھێشووەکان لێ دەکردەوە لە کاتی جوونەدەرەوەی ھاوینەیان."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblackberrys1("en-GB"),

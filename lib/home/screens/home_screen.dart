@@ -80,11 +80,17 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
           //   onChanged: (val) => toggleTheme(ref),
           // ),
           IconButton(
-            // https://chat.openai.com/c/deea79e0-f329-41ba-9801-aec1802b62ab
-            icon: ref.watch(themeNotifierProvider.notifier).mode ==
-                    ThemeMode.dark
-                ? const Icon(Icons.nightlight_round) // Moon icon for dark theme
-                : const Icon(Icons.wb_sunny), // Sun icon for light theme
+            icon:
+                ref.watch(themeNotifierProvider.notifier).mode == ThemeMode.dark
+                    ? const Icon(
+                        // https://chat.openai.com/c/deea79e0-f329-41ba-9801-aec1802b62ab
+                        Icons.nightlight_round,
+                        // color: Colors.yellow, // Customize the moon color
+                      )
+                    : const Icon(
+                        Icons.wb_sunny,
+                        // color: Colors.red, // Customize the sun color
+                      ),
             onPressed: () => toggleTheme(ref),
           ),
           IconButton(

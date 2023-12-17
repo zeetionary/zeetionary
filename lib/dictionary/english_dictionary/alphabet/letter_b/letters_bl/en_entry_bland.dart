@@ -165,9 +165,9 @@ class EnglishEntrybland extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: نەرم، نیان، خۆش، بێ‌تام، بێ‌بۆن‌وچێژ، بێ‌خوێ، لەسەرەخۆ، هێمن، هێدی، ئارام، ناخۆش، بێ‌تام، بێ‌تایبەتمەندی، بێ‌سەنگ‌وڕەنگ، ناسەرنج‌ڕاکیش
+کوردی: نەرم، نیان، خۆش، بێ‌تام، بێ‌بۆن‌وچێژ، بێ‌خوێ، لەسەرەخۆ، ھێمن، ھێدی، ئارام، ناخۆش، بێ‌تام، بێ‌تایبەتمەندی، بێ‌سەنگ‌وڕەنگ، ناسەرنج‌ڕاکیش
 
-١. (ھاوەڵناو) نەبوونی تام یان کەسایەتیی بەهێز، یان بەتاڵ لە مەیل و وزە"""),
+١. (ھاوەڵناو) نەبوونی تام یان کەسایەتیی بەھێز، یان بەتاڵ لە مەیل و وزە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -205,7 +205,7 @@ class EnglishEntrybland extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو) شتێک کە هەست و جۆشوخرۆشی تێدا نییە"),
+                                  "٢. (ھاوەڵناو) شتێک کە ھەست و جۆشوخرۆشی تێدا نییە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

@@ -165,7 +165,7 @@ class EnglishEntryblankcheque extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: چەکی سپی، دەسەڵاتی ڕەبەق، ڕەها، یان تەواو
+کوردی: چەکی سپی، دەسەڵاتی ڕەبەق، ڕەھا، یان تەواو
 
 ١. (ناو) چەکێک کە بڕی پارەکەی تێدا نەنووسراوە"""),
                           Row(
@@ -188,7 +188,7 @@ class EnglishEntryblankcheque extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) دەسەڵات یان مۆڵەت بۆ کردنی هەر شتێک کە پێویستە"),
+                                  "٢. (ناو) دەسەڵات یان مۆڵەت بۆ کردنی ھەر شتێک کە پێویستە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -196,7 +196,7 @@ class EnglishEntryblankcheque extends StatelessWidget {
                                       "The President was given a blank check by Congress to continue the war."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سەرۆک دەسەڵاتی ڕەهای پێدرا لەلایەن کۆنگرێسەوە بۆ بەردەوامی دان بە جەنگەکە."),
+                                      "سەرۆک دەسەڵاتی ڕەھای پێدرا لەلایەن کۆنگرێسەوە بۆ بەردەوامی دان بە جەنگەکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblankcheques2("en-GB"),
@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: blank cheque (Derived forms: blank cheques)
+- Noun: blank cheque (derived forms: blank cheques)
 Usage: Brit, Cdn (US: blank check)
 1. A check that has been signed but with the amount payable left blank (= blank check [US])
  
@@ -277,7 +277,7 @@ Usage: Brit, Cdn (US: blank check)
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/Solb9uA-tgQ?t=";
+  static String myVideoId = "Solb9uA-tgQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -302,7 +302,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/Hkxf4SC_SBk?t=";
+  static String myVideoId = "Hkxf4SC_SBk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -327,7 +327,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/mtKJTulTrAs?t=";
+  static String myVideoId = "mtKJTulTrAs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -352,7 +352,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/GyNVIUpGTWM?t=";
+  static String myVideoId = "GyNVIUpGTWM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -377,7 +377,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/RKIEX3I9lxY?t=";
+  static String myVideoId = "RKIEX3I9lxY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -402,7 +402,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/8d2FQhplCCI?t=";
+  static String myVideoId = "8d2FQhplCCI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -427,7 +427,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/8QGyuCLQRFU?t=";
+  static String myVideoId = "8QGyuCLQRFU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -452,7 +452,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/cK43gsND4GQ?t=";
+  static String myVideoId = "cK43gsND4GQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -477,7 +477,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/U_5g2eOxTqs?t=";
+  static String myVideoId = "U_5g2eOxTqs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

@@ -163,9 +163,9 @@ class EnglishEntryblackleg extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: مانبڕ، مانشکێن، درێژەبەکاردەر، ماندڕ، پاڕەشە (جۆرێ نەخۆشی ماڵات، لاقیان ڕەش دادەگەڕا، بەهۆی بەکتریایێکی خاکی)
+کوردی: مانبڕ، مانشکێن، درێژەبەکاردەر، ماندڕ، پاڕەشە (جۆرێ نەخۆشی ماڵات، لاقیان ڕەش دادەگەڕا، بەھۆی بەکتریایێکی خاکی)
 
-١. (ناو) کەسێک کە بەردەوامە لە کارکردن لە کاتێکدا هاوکارەکانی مانیان گرتووە لە کارکردن"""),
+١. (ناو) کەسێک کە بەردەوامە لە کارکردن لە کاتێکدا ھاوکارەکانی مانیان گرتووە لە کارکردن"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -173,7 +173,7 @@ class EnglishEntryblackleg extends StatelessWidget {
                                       "Some workers viewed blacklegs with disdain, considering them traitors to the collective cause."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەندێک کرێکار مانبڕەکانیان ڕێزی کەمەوە و بە خیانەتکار لە ئامانجە گشتییەکەیان دەیانبینن."),
+                                      "ھەندێک کرێکار مانبڕەکانیان ڕێزی کەمەوە و بە خیانەتکار لە ئامانجە گشتییەکەیان دەیانبینن."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblacklegs1("en-GB"),

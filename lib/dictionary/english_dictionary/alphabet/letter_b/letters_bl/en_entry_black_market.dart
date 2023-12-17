@@ -174,7 +174,7 @@ class EnglishEntryblackmarket extends StatelessWidget {
                                       "You can buy anything you needed on the black market."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەتوانی هەر شتێک کە دەتەوێت بیکڕی لە بازاڕی ڕەشدا."),
+                                      "دەتوانی ھەر شتێک کە دەتەوێت بیکڕی لە بازاڕی ڕەشدا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblackmarkets1("en-GB"),
@@ -194,7 +194,7 @@ class EnglishEntryblackmarket extends StatelessWidget {
                                       "During the war, there was a thriving black market in food."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە کاتی جەنگەکەدا بازاری ڕەشی بەبرەو هەبوو بۆ خۆراک."),
+                                      "لە کاتی جەنگەکەدا بازاری ڕەشی بەبرەو ھەبوو بۆ خۆراک."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblackmarkets2("en-GB"),

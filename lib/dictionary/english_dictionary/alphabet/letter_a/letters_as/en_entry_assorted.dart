@@ -183,7 +183,7 @@ class EnglishEntryassorted extends StatelessWidget {
                                       "The meat is served with salad or assorted vegetables."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "گۆشتەکە لەگەڵ زەڵاتە یان سەوزەی جۆراوجۆر دەخورێت ."),
+                                      "گۆشتەکە لەگەڵ زەڵاتە یان سەوزەی جۆراوجۆر دەخورێت."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAssorted822("en-GB"),

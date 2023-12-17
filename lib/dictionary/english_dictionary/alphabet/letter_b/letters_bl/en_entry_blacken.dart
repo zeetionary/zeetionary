@@ -187,7 +187,7 @@ class EnglishEntryblacken extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) وتنی شتی خراپ لەسەر خەڵکی کە دەبێتە هۆی ناشرینبوونی وێنایان"),
+                                  "٢. (کردار) وتنی شتی خراپ لەسەر خەڵکی کە دەبێتە ھۆی ناشرینبوونی وێنایان"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -195,7 +195,7 @@ class EnglishEntryblacken extends StatelessWidget {
                                       "He accused the newspaper of trying to blacken his name."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕۆژنامەکەی تاوانبارکرد بە هەوڵدان بۆ ناوزڕاندنی."),
+                                      "ڕۆژنامەکەی تاوانبارکرد بە ھەوڵدان بۆ ناوزڕاندنی."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblackens2("en-GB"),

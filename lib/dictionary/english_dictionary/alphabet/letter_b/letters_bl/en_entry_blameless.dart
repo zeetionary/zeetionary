@@ -164,7 +164,7 @@ class EnglishEntryblameless extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بێ‌خەتا، بێ‌گوناهـ، بێ‌قەباحەت، بێ‌قوسوور، خاوێن، پاک
+کوردی: بێ‌خەتا، بێ‌گوناھـ، بێ‌قەباحەت، بێ‌قوسوور، خاوێن، پاک
 
 ١. (ھاوەڵناو) بێ‌تاوان"""),
                           Row(
@@ -174,7 +174,7 @@ class EnglishEntryblameless extends StatelessWidget {
                                       "None of us is entirely blameless in this matter."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هیچ کەسمان بە تەواوی بێ‌گوناح نییە لەم بابەتەدا."),
+                                      "ھیچ کەسمان بە تەواوی بێ‌گوناح نییە لەم بابەتەدا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblamelesss1("en-GB"),

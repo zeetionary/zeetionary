@@ -174,7 +174,7 @@ class EnglishEntryblandly extends StatelessWidget {
                                       "Their home is blandly but expensively decorated."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ماڵەکەیان بە سادەیی بەڵام گرانبەهایی دیکۆرات کراوە."),
+                                      "ماڵەکەیان بە سادەیی بەڵام گرانبەھایی دیکۆرات کراوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblandlys1("en-GB"),
@@ -188,7 +188,7 @@ class EnglishEntryblandly extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵکار) بەبێ پیشاندانی هەست و جۆشوخرۆشی"),
+                                  "٢. (ھاوەڵکار) بەبێ پیشاندانی ھەست و جۆشوخرۆشی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

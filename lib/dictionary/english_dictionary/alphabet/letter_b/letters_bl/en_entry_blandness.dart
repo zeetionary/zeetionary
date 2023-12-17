@@ -164,7 +164,7 @@ class EnglishEntryblandness extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: هێمنی، ئارامی، نەرمی، خۆشی، نیانی
+کوردی: ھێمنی، ئارامی، نەرمی، خۆشی، نیانی
 
 ١. (ناو) بوونی کەمی لە ڕەنگ، جۆشوخرۆشی، یان حەز و ئارەزوو"""),
                           Row(
@@ -174,7 +174,7 @@ class EnglishEntryblandness extends StatelessWidget {
                                       "My usual enthusiasm for life was replaced by blandness."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "تامەزرۆیی زۆرم بۆ ژیان گۆڕاوەتەوە بە بێ‌هیوایی."),
+                                      "تامەزرۆیی زۆرم بۆ ژیان گۆڕاوەتەوە بە بێ‌ھیوایی."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblandnesss1("en-GB"),
@@ -188,7 +188,7 @@ class EnglishEntryblandness extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) نەبوونی تامێکی بەهێز یان بەلەزەت"),
+                                  "٢. (ناو) نەبوونی تامێکی بەھێز یان بەلەزەت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(

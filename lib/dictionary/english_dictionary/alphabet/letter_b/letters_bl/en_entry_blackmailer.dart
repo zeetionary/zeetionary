@@ -165,7 +165,7 @@ class EnglishEntryblackmailer extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: باج‌سێن، خاوەگر، کەڵەگا، وەیگێڕ
 
-١. (ناو) کەسێک کە هەوڵی وەرگرتنی پارە دەدات لە کەسێک بە هەڕەشە لێ کردنی بەوەی نهێنییەک لەسەری بە کەسێکی تر دەڵێیت"""),
+١. (ناو) کەسێک کە ھەوڵی وەرگرتنی پارە دەدات لە کەسێک بە ھەڕەشە لێ کردنی بەوەی نھێنییەک لەسەری بە کەسێکی تر دەڵێیت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -173,7 +173,7 @@ class EnglishEntryblackmailer extends StatelessWidget {
                                       "Blackmailers threatened Helen with the video they secretly made."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "وەیگێڕەکان هەڕەشەیان لە هێلین کرد بەو ڤیدیۆیەی بە دزییەوە گرتیان."),
+                                      "وەیگێڕەکان ھەڕەشەیان لە ھێلین کرد بەو ڤیدیۆیەی بە دزییەوە گرتیان."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblackmailers1("en-GB"),

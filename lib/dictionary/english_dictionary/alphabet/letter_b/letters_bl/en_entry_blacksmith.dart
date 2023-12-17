@@ -173,7 +173,7 @@ class EnglishEntryblacksmith extends StatelessWidget {
                                       "In medieval times, the blacksmith played a crucial role in producing weapons for the kingdom."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە سەردەمی ناوەڕاستدا، ئاسنگەران ڕۆڵی گرنگیان دەبینی لە بەرهەمهێنانی چەک بۆ شانشینەکە."),
+                                      "لە سەردەمی ناوەڕاستدا، ئاسنگەران ڕۆڵی گرنگیان دەبینی لە بەرھەمھێنانی چەک بۆ شانشینەکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblacksmiths1("en-GB"),

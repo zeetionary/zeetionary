@@ -194,7 +194,7 @@ class EnglishEntrybishopric extends StatelessWidget {
                                       "The bishopric of Canterbury encompassed numerous villages and towns in medieval England."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "مەڵبەندی سەرقەشەی کانتبری ژمارەیەک لە گوند و شارۆچکەی لەخۆدەگرت لە سەدەکانی ناوەڕاستی ئینگلتەرە (ساڵانی ١٠٠٠ بۆ ١٤٥٠ی زاینی) ."),
+                                      "مەڵبەندی سەرقەشەی کانتبری ژمارەیەک لە گوند و شارۆچکەی لەخۆدەگرت لە سەدەکانی ناوەڕاستی ئینگلتەرە (ساڵانی ١٠٠٠ بۆ ١٤٥٠ی زاینی)."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBishoprics2("en-GB"),

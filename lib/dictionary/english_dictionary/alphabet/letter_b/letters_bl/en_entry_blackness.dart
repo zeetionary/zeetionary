@@ -175,7 +175,7 @@ class EnglishEntryblackness extends StatelessWidget {
                                       "In such complete blackness, we couldn’t see a thing."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لە تاریکی تەواوی وەهادا، نەماندەتوانی هیچ ببینین."),
+                                      "لە تاریکی تەواوی وەھادا، نەماندەتوانی ھیچ ببینین."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblacknesss1("en-GB"),
@@ -189,7 +189,7 @@ class EnglishEntryblackness extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) پڕ لە توڕەیی و ڕق، یان بێ‌هیوایی و بێزاری"),
+                                  "٢. (ناو) پڕ لە توڕەیی و ڕق، یان بێ‌ھیوایی و بێزاری"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -197,7 +197,7 @@ class EnglishEntryblackness extends StatelessWidget {
                                       "Her eyes reflected the blackness of her grief, the loss still raw and unhealed."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "چاوەکانی بێزاریی شیوەنەکەیی تێدا دەبینرا، لەدەستچوونەکە هێشتا تازە و ساڕێژنەبوو بوو."),
+                                      "چاوەکانی بێزاریی شیوەنەکەیی تێدا دەبینرا، لەدەستچوونەکە ھێشتا تازە و ساڕێژنەبوو بوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblacknesss2("en-GB"),

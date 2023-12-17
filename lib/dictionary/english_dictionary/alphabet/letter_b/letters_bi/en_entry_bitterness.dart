@@ -167,7 +167,7 @@ class EnglishEntrybitterness extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: توندی، تاڵی، ناخۆشی، سەختی
 
-١. (ناو) هەستی تووڕەیی و دڵتەنگی بەهۆی ئەوەی پێت وایە خراپ مامەڵەت لەگەڵ کراوە"""),
+١. (ناو) ھەستی تووڕەیی و دڵتەنگی بەھۆی ئەوەی پێت وایە خراپ مامەڵەت لەگەڵ کراوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -175,7 +175,7 @@ class EnglishEntrybitterness extends StatelessWidget {
                                       "He was full of bitterness after he lost his job."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پڕ لە تووڕەیی بوو لە کارەکەی لەدەستدا."),
+                                      "پڕ لە تووڕەیی بوو کە کارەکەی لەدەستدا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbitternesss1("en-GB"),
@@ -189,7 +189,7 @@ class EnglishEntrybitterness extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) گفتوگۆیەک یان مشتومڕێکی توند بەهۆی ئەوەی ڕق و تووڕەیی زۆرەوە"),
+                                  "٢. (ناو) گفتوگۆیەک یان مشتومڕێکی توند بەھۆی ئەوەی ڕق و تووڕەیی زۆرەوە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -197,7 +197,7 @@ class EnglishEntrybitterness extends StatelessWidget {
                                       "The bitterness of the argument left a lasting impact on their relationship."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "تاڵی مشتومڕەکە کاریگەرییەکی بەردەوامی لەسەر پەیوەندییان جێهێشت."),
+                                      "تاڵی مشتومڕەکە کاریگەرییەکی بەردەوامی لەسەر پەیوەندییان جێھێشت."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbitternesss2("en-GB"),
@@ -218,7 +218,7 @@ class EnglishEntrybitterness extends StatelessWidget {
                                       "The medicine had a strong bitterness that lingered on the tongue."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەرمانەکە تاڵییەکی توندی هەبوو کە لەسەر زمان مایەوە."),
+                                      "دەرمانەکە تاڵییەکی توندی ھەبوو کە لەسەر زمان مایەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbitternesss3("en-GB"),

@@ -199,7 +199,7 @@ class EnglishEntrybearer extends StatelessWidget {
                                       "I'm sorry to be the bearer of bad news."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەداخم بۆ بوون بە ھێنەری ھەواڵی خراپ ."),
+                                      "بەداخم بۆ بوون بە ھێنەری ھەواڵی خراپ."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBearers2("en-GB"),

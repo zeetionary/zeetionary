@@ -163,9 +163,9 @@ class EnglishEntryblameworthy extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: شیاوی سەرکۆنە، گوناهبار، خەتابار
+کوردی: شیاوی سەرکۆنە، گوناھبار، خەتابار
 
-١. (ھاوەڵناو) شایەنی سەرکۆنە و کۆمە بەهۆی کردنی شتێکی خراپ"""),
+١. (ھاوەڵناو) شایەنی سەرکۆنە و کۆمە بەھۆی کردنی شتێکی خراپ"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -173,7 +173,7 @@ class EnglishEntryblameworthy extends StatelessWidget {
                                       "Blameworthy or not, his father should pay some of the costs of repairing the damage."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "خەتابار یان نا، باوکی دەبێت هەندێک لە تێچووی چاککردنەوەی زیانەکە بدات."),
+                                      "خەتابار یان نا، باوکی دەبێت ھەندێک لە تێچووی چاککردنەوەی زیانەکە بدات."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblameworthys1("en-GB"),

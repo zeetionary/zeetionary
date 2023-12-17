@@ -5,192 +5,221 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "blank" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
+// Define the word "blast" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
 
-// replace blank - /blæŋk/
+// replace blast - /blɑːst/
 
 enum TtsState { playing }
 
-class EnglishEntryblank extends StatelessWidget {
+class EnglishEntryblast extends StatelessWidget {
 // blank divider
-  EnglishEntryblank({super.key});
+  EnglishEntryblast({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakblank(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
+  Future<void> speakblast(String languageCode) async {
+    // DOPSUM: CHANGE speakblast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("blank"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("blast"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblanks1(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Sign your name in the blank space below."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakblanks2(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
+  Future<void> speakblasts1(String languageCode) async {
+    // DOPSUM: CHANGE speakblast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Write on one side of the paper and leave the other side blank."); // DOPSUM: CHANGE TEXT
+        "27 schoolchildren were injured in the blast."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblanks3(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
+  Future<void> speakblasts2(String languageCode) async {
+    // DOPSUM: CHANGE speakblast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Suddenly the screen went blank."); // DOPSUM: CHANGE TEXT
+        .speak("The blast ripped through the building."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblanks4(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
+  Future<void> speakblasts3(String languageCode) async {
+    // DOPSUM: CHANGE speakblast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She stared at me with a blank expression on her face."); // DOPSUM: CHANGE TEXT
+        "A blast of hot air hit us as we stepped off the plane."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblanks5(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
+  Future<void> speakblasts4(String languageCode) async {
+    // DOPSUM: CHANGE speakblast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He maintained a blank denial of any involvement in the crime."); // DOPSUM: CHANGE TEXT
+        "The driver opened the door letting out a blast of Taylor Swift."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblanks6(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
+  Future<void> speakblasts5(String languageCode) async {
+    // DOPSUM: CHANGE speakblast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "If you can't answer the question, leave a blank."); // DOPSUM: CHANGE TEXT
+        "The administration was blasted for failing to create jobs."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblanks7(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "My mind was a blank and I couldn't remember her name."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakblanks8(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
+  Future<void> speakblasts6(String languageCode) async {
+    // DOPSUM: CHANGE speakblast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The troops fired blanks in the air."); // DOPSUM: CHANGE TEXT
+        .speak("We had a blast at the party."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblanks9(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
+  Future<void> speakblasts7(String languageCode) async {
+    // DOPSUM: CHANGE speakblast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I saw her on the bus this morning, but she totally blanked me."); // DOPSUM: CHANGE TEXT
+        "They sent out email blasts and posted information on all their websites."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblanks10(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
+  Future<void> speakblasts8(String languageCode) async {
+    // DOPSUM: CHANGE speakblast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I knew the answer, but I totally blanked during the test."); // DOPSUM: CHANGE TEXT
+        "They had to blast a tunnel through the mountain."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblanks11(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
+  Future<void> speakblasts9(String languageCode) async {
+    // DOPSUM: CHANGE speakblast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblanks1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "All the windows were blasted inwards with the force of the explosion."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblanks12(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
+  Future<void> speakblasts10(String languageCode) async {
+    // DOPSUM: CHANGE speakblast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblanks1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Music suddenly blasted out from the speakers."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblanks13(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
+  Future<void> speakblasts11(String languageCode) async {
+    // DOPSUM: CHANGE speakblast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblanks1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The movie was blasted by all the critics."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblanks14(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
+  Future<void> speakblasts12(String languageCode) async {
+    // DOPSUM: CHANGE speakblast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblanks1414"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He blasted the policeman right between the eyes."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblanks15(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
+  Future<void> speakblasts13(String languageCode) async {
+    // DOPSUM: CHANGE speakblast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblanks1515"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Police blasted the demonstrators with water cannons."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblanks16(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
+  Future<void> speakblasts14(String languageCode) async {
+    // DOPSUM: CHANGE speakblast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblanks1616"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Their whole crop had been blasted by a late frost."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblanks17(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
+  Future<void> speakblasts15(String languageCode) async {
+    // DOPSUM: CHANGE speakblast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblanks1717"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Oh blast! The car won't start."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblanks18(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
+  Future<void> speakblasts16(String languageCode) async {
+    // DOPSUM: CHANGE speakblast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblanks1818"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblasts1616"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblanks19(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
+  Future<void> speakblasts17(String languageCode) async {
+    // DOPSUM: CHANGE speakblast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblanks1919"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblasts1717"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblasts18(String languageCode) async {
+    // DOPSUM: CHANGE speakblast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakblasts1818"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblasts19(String languageCode) async {
+    // DOPSUM: CHANGE speakblast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakblasts1919"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblasts20(String languageCode) async {
+    // DOPSUM: CHANGE speakblast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakblasts2020"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblasts21(String languageCode) async {
+    // DOPSUM: CHANGE speakblast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakblasts2121"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblasts22(String languageCode) async {
+    // DOPSUM: CHANGE speakblast
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakblasts2222"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 15, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -207,22 +236,22 @@ class EnglishEntryblank extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "blank"),
+                            EntryTitle(word: "blast"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /blæŋk/"),
+                            const IPAofEnglish(text: "IpaUK: /blɑːst/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakblank("en-GB"),
+                              onPressed: () => speakblast("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /blæŋk/"),
+                            const IPAofEnglish(text: "IpaUS: /blæst/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakblank("en-US"),
+                              onPressed: () => speakblast("en-US"),
                             ),
                           ],
                         ),
@@ -240,14 +269,14 @@ class EnglishEntryblank extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 15
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
                   VideoIconForTab(), // 11
                   VideoIconForTab(), // 12
-                  VideoIconForTab(), // 13
+                  // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                   // VideoIconForTab(), // 16
@@ -268,43 +297,221 @@ class EnglishEntryblank extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: سپی، نەنووسراو، بێ‌نیشان، بەتاڵ، (چەک) سپی، پارەتیانەنووسراو، کەمتەرم، بەتەنگەوەنەبوو، بێ‌خەیاڵ، بۆش، واڵا، پووچەڵ، پووچ، بەتاڵ، چۆڵ، بێ‌ناوەرۆک، ھێچ‌تیانەبوو، لێڵ، نادیار، تەژمە(لە باس‌کردنی دیواردا) بێ‌درگاوپەنجێرە، تەواو، ڕەھا، جێگای بەتاڵ، مەودا یا جێگای سپی و خاڵی، جێگای نەنووسراو، سپیایی، فەرامۆشی، لەبیرچوونەوە، داخوازی‌نامە، بۆشایی، ڤالاھی، بۆشی، گوللەی مەشقی، فیشەکەدرۆزنە
+کوردی: ھەڵکردن، تەوژمی با یان ھەوا، تەوژمی ھەڵم، ھاتنی با، توندەبا، ھەڵکردنی بای توند و ناکاو، فوو، با، تەقینەوە، پەقین، شەپۆل یان بای تەقینەوە، دەنگی بەرز و ناخۆش، دەنگی بۆڕی یان شەیپوور، ڕەخنەی توند، پیاھەڵشاخان، وزە، خێرایی، تف، ئەھ
 
-١. (ھاوەڵناو) بەتاڵ، بە بێ ئەوەی ھیچی لەسەر نووسرابیت یان چاپکرابێت"""),
+١. (ناو) تەقینەوە یان جوڵەیەکی بەھێزی ھەوا بەھۆی تەقینەوەوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Sign your name in the blank space below."),
+                                      "27 schoolchildren were injured in the blast."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ناوت واژۆ بکە لە بۆشاییە بەتاڵەکەی خوارەوە."),
+                                      "٢٧ منداڵی قوتابخانە برینداربوون لە تەقینەوەکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakblanks1("en-GB"),
+                                onPressed: () => speakblasts1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakblanks1("en-US"),
+                                onPressed: () => speakblasts1("en-US"),
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           // const DividerDefinition(),
                           const DividerSentences(),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Write on one side of the paper and leave the other side blank."),
+                                      "The blast ripped through the building."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "لەسەر لایەکی پەڕەکە بنووسە و لایەکەی دیکەی بە بەتاڵی جێبھێڵە."),
+                                  text: "تەقینەوەکە بیناکەی ھەژاند."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakblanks2("en-GB"),
+                                onPressed: () => speakblasts2("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakblanks2("en-US"),
+                                onPressed: () => speakblasts2("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٢. (ناو) جوڵەیەکی بەھێزی لەناکاوی ھەوا"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "A blast of hot air hit us as we stepped off the plane."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "گڕەیەکی ھەوای گەرم لێمانی دا کە لە فڕۆکەکە دابەزین."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblasts3("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblasts3("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) دەنگێکی بەھێز، بەتایبەتی یەکێک کە درووست دەبێت لەلایەن ئامێرێکی میوزیکی، فیکەیەک، یان ھۆرنی ئۆتۆمبێل"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The driver opened the door letting out a blast of Taylor Swift."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "شۆفێرەکە دەرگاکەی کردەوە و دەنگی بەرزی تایلەر سویفت بە بەرزی ھات."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblasts4("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblasts4("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "٤. (ناو) ڕەخنەی توند"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The administration was blasted for failing to create jobs."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کابینەکە ڕەخنەی توندی لێ گیرا بۆ شکستھێنان لە ڕەخساندنی ھەلی کار."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblasts5("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblasts5("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "٥. (ناو) جەوێکی خۆش"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "We had a blast at the party."),
+                              const ExampleSentenceKurdish(
+                                  text: "جەوێکی خۆشمان  ھەبوو لە ئاھەنگەکە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblasts6("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblasts6("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٦. (ناو) زانیارییەک یان ڕیکلامێک کە دەنێردرێت بۆ ژمارەیەکی زۆری خەڵکی لە یەک کاتدا"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "They sent out email blasts and posted information on all their websites."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ئیمەیڵیان بە کۆمەڵ نارد و زانیارییان لەسەر تەواوی وێبسایتەکەیان پۆستکرد."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblasts7("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblasts7("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٧. (کردار) وێرانکردن یان پارچەپارچەکردنی شتیک بە تەقەمەنی"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "They had to blast a tunnel through the mountain."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دەبوو تونێلێک لێ بدەن (بە بەکارھێنانی تەقەمەنی) بە چیاکەدا."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblasts8("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblasts8("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "All the windows were blasted inwards with the force of the explosion."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "تەواوی پەنجەرەکان شکێبران بە ناوەوەدا بە ھێزی تەقینەوەکە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblasts9("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblasts9("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerDefinition(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٨. (کردار) درووستکردنی دەنگێکی بەھێز"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Music suddenly blasted out from the speakers."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لەناکاو میوزیک لە بڵندگۆیەکانەوە دەستیان پێکرد."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblasts10("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblasts10("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٩. (کردار) ڕەخنەگرتن بە توندی"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The movie was blasted by all the critics."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "فیلمەکە لەلایەن ھەموو ڕەخنەگرانەوە ڕەخنەی توندی لێ گیرا."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblasts11("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblasts11("en-US"),
                               ),
                             ],
                           ),
@@ -312,19 +519,21 @@ class EnglishEntryblank extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو) دیوارێک یان شاشەیەک کە ھیچی لەسەر نییە"),
+                                  "١٠. (کردار) لێدان لە کەسێک بەھێزێکی زۆرەوە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "Suddenly the screen went blank."),
+                                  text:
+                                      "He blasted (= shot) the policeman right between the eyes."),
                               const ExampleSentenceKurdish(
-                                  text: "شاشەکە لەناکاو ڕەش بوو."),
+                                  text:
+                                      "لە پۆلیسەکەی دا ڕێک لە نێوانی چاوانی."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakblanks3("en-GB"),
+                                onPressed: () => speakblasts12("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakblanks3("en-US"),
+                                onPressed: () => speakblasts12("en-US"),
                               ),
                             ],
                           ),
@@ -332,42 +541,21 @@ class EnglishEntryblank extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ھاوەڵناو) بە بێ پیشاندانی ھەست، تێگەشتن، یان پەرۆشی"),
+                                  "١١. (کردار) وەشاندنی شتێک (بۆ نموونە ھەوا یان ئاو) لە خەڵکی یان شتێک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "She stared at me with a blank expression on her face."),
+                                      "Police blasted the demonstrators with water cannons."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لێی دەڕوانیم بە دەربڕینێکی وشکەوە لەسەر ڕووخساری."),
+                                      "پۆلیس لە خۆپیشاندەرانی دا بە دەزگای ئاوپرژاندن."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakblanks4("en-GB"),
+                                onPressed: () => speakblasts13("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakblanks4("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٤. (ھاوەڵناو) بەتەواوی"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He maintained a blank denial of any involvement in the crime."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سوور بوو لەسەر ئەوەی کە ھیچ بەژداری نەبووە لە تاوانەکە."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblanks5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblanks5("en-US"),
+                                onPressed: () => speakblasts13("en-US"),
                               ),
                             ],
                           ),
@@ -375,21 +563,21 @@ class EnglishEntryblank extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (ناو) ناوچەیەکی بەتاڵ لەسەر پەڕەیەک کە زانیاری یان وەڵامی تێدا دەنووسی"),
+                                  "١٢. (کردار) لەناوبردنی شتێکی وەک ڕووەک بە نەخۆشی یان سەرما و گەرمان"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "If you can't answer the question, leave a blank."),
+                                      "Their whole crop had been blasted by a late frost."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەگەر ناتوانی وەڵامی پرسیارەکە بدەیتەوە، بە بەتاڵی جێیبھێڵە."),
+                                      "تەواوی دەغڵەکەیان وێرانبووە بەھۆی سەرمایەکی درەنگوەختە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakblanks6("en-GB"),
+                                onPressed: () => speakblasts14("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakblanks6("en-US"),
+                                onPressed: () => speakblasts14("en-US"),
                               ),
                             ],
                           ),
@@ -397,85 +585,19 @@ class EnglishEntryblank extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (ناو) دۆخی بێ تانایی لە بیرکەوتنەوەی ھیچ شتێک"),
+                                  "١٣. (سەرسوڕمان) خەڵکی ھەندێک جار ئەم وشە دەڵێن کە تووڕەن بەدەست شتێکەوە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "My mind was a blank and I couldn't remember her name."),
+                                  text: "Oh blast! The car won't start."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "مێشکم سفر بوو و دەمدەتوانی ناویم بیربکەوێتەوە."),
+                                  text: "ئەھ تف! ئۆتۆمبێلەکە ئیش ناکات."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakblanks7("en-GB"),
+                                onPressed: () => speakblasts15("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakblanks7("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٧. (ناو) قەباغێک لە چەکێکدا کە کە تەقەمەنی تێدایە بەڵام فیشەکی تێدا نییە"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The troops fired blanks in the air."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەربازەکان فیشەکەدرۆزنە تەقاندە ئاسمان."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblanks8("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblanks8("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٨. (کردار) فەرامۆشکردنی کەسێک بە تەواوی"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I saw her on the bus this morning, but she totally blanked me."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم بەیانییە لە پاسەکەدا بینیم، بەڵام تەواو پشتگوێی خستم."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblanks9("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblanks9("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٩. (کردار) لەناکاو بێ توانا بیت شتێکت بیربکەوێتەوە"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I knew the answer, but I totally blanked during the test."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەڵامەکەم دەزانی، بەڵام بە تەواوی بیرمچوو لەکاتی تاقیکردنەوەکە."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblanks10("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblanks10("en-US"),
+                                onPressed: () => speakblasts15("en-US"),
                               ),
                             ],
                           ),
@@ -496,7 +618,7 @@ class EnglishEntryblank extends StatelessWidget {
                     YoutubeEmbeddedten(),
                     YoutubeEmbeddedeleven(),
                     YoutubeEmbeddedtwelve(),
-                    YoutubeEmbeddedthirteen(),
+                    // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
                     // YoutubeEmbeddeddsixteen(),
@@ -532,37 +654,51 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Adjective: blank (derived forms: blankest, blanker)
-1. (of a surface) not written or printed on (= clean, white)
-"blank pages"; "fill in the blank spaces";
+- Noun: blast (derived forms: blasts) 
+1. A strong current of air (= gust, blow)
+"the tree was bent almost double by the blast";
  
-2. Without comprehension
-"When I called her name, she gave me a blank look, as though she didn't know me"
+2. A sudden very loud noise (= bang, clap, eruption, bam)
  
-3. Not charged with a bullet
-"a blank cartridge"
+3. An explosion (as of dynamite)
  
-4. Complete and absolute (= utter)
-"blank stupidity";
+4. [informal] A highly pleasurable or exciting experience (= good time, ball [informal], craic [Ireland], crack [Ireland])
+"celebrating after the game was a blast";
+ 
+5. [informal] Intense adverse criticism (= fire, attack, flak [informal], flack, stick [Brit, informal])
+"he published an unexpected blast on my work";
 
-- Noun: blank (derived forms: blanks)
-1. A blank character used to separate successive words in writing or printing (= space)
-"he said the blank is the most important character in the alphabet";
+- Verb: blast (derived forms: blasts, blasted, blasting)
+1. Make a strident sound (= blare)
+"She tended to blast when speaking into a microphone";
  
-2. A blank gap or missing part (= lacuna)
+2. Hit with great force (= smash, nail, boom)
+"He blasted a 3-run homer";
  
-3. A piece of material ready to be made into something
+3. Use explosives on (= shell)
+"The enemy has been blasting us all day";
  
-4. A cartridge containing an explosive charge but no bullet (= dummy, blank shell)
+4. Blow a strong draft or wind
+"the air conditioning was blasting cold air at us"
+ 
+5. Create by using explosives (= shell)
+"blast a passage through the mountain";
+ 
+6. Make with or as if with an explosion
+"blast a tunnel through the Alps"
+ 
+7. Fire a shot; release (= shoot)
+"the gunman blasted away";
+ 
+8. [informal] Criticize harshly or violently (= savage, pillory, crucify)
+"The press blasted the new President";
+ 
+9. Shatter as if by explosion (= knock down)
+ 
+10. Shrivel, wither or mature imperfectly
 
-- Verb: blank (derived forms: blanking, blanked, blanks)
-1. [N. Amer, informal] Keep the opposing (baseball) team from winning
- 
-2. Make or become blank (= blank out)
-"blank the screen";
- 
-3. [Brit, informal] Ignore or not acknowledge someone
-"I stupidly waved to her but she blanked me and walked past without a word"
+- Interjection: blast
+1. Exclamation of annoyance (= bother [Brit], botheration, bummer [informal], curses, dang [N. Amer, informal], damn, damnation, dammit [informal], damn it [informal], darn [informal], dash [Brit, informal], durn [US, dialect], drat [informal], hang [informal], tarnation [N. Amer, informal], shoot [N. Amer, informal])
 """,
           )
         ],
@@ -576,12 +712,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "VrKW58MS12g";
+  static String myVideoId = "_GFkHA5EZdE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 522, // DOPSUM: CHANGE IT
+      startAt: 304, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -601,12 +737,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "hS2x1zl4rn0";
+  static String myVideoId = "qWAagS_MANg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1308, // DOPSUM: CHANGE IT
+      startAt: 617, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -626,12 +762,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "_wNsZEqpKUA";
+  static String myVideoId = "zqllxbPWKNI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1011, // DOPSUM: CHANGE IT
+      startAt: 778, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -651,12 +787,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "qWAagS_MANg";
+  static String myVideoId = "ZDIvj1GvH64";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 807, // DOPSUM: CHANGE IT
+      startAt: 651, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -676,12 +812,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "fbVRnlR_6BM";
+  static String myVideoId = "SrDEtSlqJC4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 194, // DOPSUM: CHANGE IT
+      startAt: 1708, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -701,12 +837,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "1RBUAEARqoY";
+  static String myVideoId = "W2hRTTTpmr8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 10, // DOPSUM: CHANGE IT
+      startAt: 420, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -726,12 +862,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "S-4rhjO6xYg";
+  static String myVideoId = "raSeaAeryWE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 495, // DOPSUM: CHANGE IT
+      startAt: 1409, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -751,12 +887,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "dqcSk-EDrRo";
+  static String myVideoId = "iEKLFS-aKcw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 295, // DOPSUM: CHANGE IT
+      startAt: 170, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -776,12 +912,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "SEZu7K5tGxw";
+  static String myVideoId = "qD6bPNZRRbQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 333, // DOPSUM: CHANGE IT
+      startAt: 146, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -801,12 +937,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "yFCs_C_syas";
+  static String myVideoId = "s4-gMgdsnHQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1894, // DOPSUM: CHANGE IT
+      startAt: 885, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -826,12 +962,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "yDp3cB5fHXQ";
+  static String myVideoId = "gzF7aHxk4Y4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 5172, // DOPSUM: CHANGE IT
+      startAt: 1691, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -851,212 +987,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "VP8DD9TGNlU";
+  static String myVideoId = "p1Zb90MFf20";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 15, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedthirteen extends StatelessWidget {
-  YoutubeEmbeddedthirteen({super.key});
-
-  static String myVideoId = "qrra18TChxY";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 1816, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddeddfourteen extends StatelessWidget {
-  YoutubeEmbeddeddfourteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedfifteen extends StatelessWidget {
-  YoutubeEmbeddedfifteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddeddsixteen extends StatelessWidget {
-  YoutubeEmbeddeddsixteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddeddseventeen extends StatelessWidget {
-  YoutubeEmbeddeddseventeen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddeddeighteen extends StatelessWidget {
-  YoutubeEmbeddeddeighteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddeddnineteen extends StatelessWidget {
-  YoutubeEmbeddeddnineteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwenty extends StatelessWidget {
-  YoutubeEmbeddedtwenty({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 2985, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1075,4 +1011,4 @@ class YoutubeEmbeddedtwenty extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end blank// TODO Implement this library.
+// end blast// TODO Implement this library.

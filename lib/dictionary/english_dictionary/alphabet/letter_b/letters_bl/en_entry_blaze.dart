@@ -5,91 +5,199 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "blade" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
+// Define the word "blaze" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
 
-// replace blade - /bleɪd/
+// replace blaze - /bleɪz/
 
 enum TtsState { playing }
 
-class EnglishEntryblade extends StatelessWidget {
+class EnglishEntryblaze extends StatelessWidget {
 // blank divider
-  EnglishEntryblade({super.key});
+  EnglishEntryblaze({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakblade(String languageCode) async {
-    // DOPSUM: CHANGE speakblade
+  Future<void> speakblaze(String languageCode) async {
+    // DOPSUM: CHANGE speakblaze
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("blade"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("blaze"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblades1(String languageCode) async {
-    // DOPSUM: CHANGE speakblade
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Knife blades are generally made of stainless steel."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakblades2(String languageCode) async {
-    // DOPSUM: CHANGE speakblade
+  Future<void> speakblazes1(String languageCode) async {
+    // DOPSUM: CHANGE speakblaze
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The prisoner used a hacksaw blade to cut through the bars."); // DOPSUM: CHANGE TEXT
+        "A huge fire was blazing in the fireplace."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblades3(String languageCode) async {
-    // DOPSUM: CHANGE speakblade
+  Future<void> speakblazes2(String languageCode) async {
+    // DOPSUM: CHANGE speakblaze
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The helicopter's blades whirred as it lifted off the ground."); // DOPSUM: CHANGE TEXT
+        "Within minutes the whole building was blazing."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblades4(String languageCode) async {
-    // DOPSUM: CHANGE speakblade
+  Future<void> speakblazes3(String languageCode) async {
+    // DOPSUM: CHANGE speakblaze
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The rower dipped the blade of the oar into the water, propelling the boat forward."); // DOPSUM: CHANGE TEXT
+        "The sun blazed down from a clear blue sky."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblades5(String languageCode) async {
-    // DOPSUM: CHANGE speakblade
+  Future<void> speakblazes4(String languageCode) async {
+    // DOPSUM: CHANGE speakblaze
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Not a blade of grass stirred."); // DOPSUM: CHANGE TEXT
+        .speak("Her eyes were blazing with fury."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblades6(String languageCode) async {
-    // DOPSUM: CHANGE speakblade
+  Future<void> speakblazes5(String languageCode) async {
+    // DOPSUM: CHANGE speakblaze
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblades66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The story was blazed all over the daily papers."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblades7(String languageCode) async {
-    // DOPSUM: CHANGE speakblade
+  Future<void> speakblazes6(String languageCode) async {
+    // DOPSUM: CHANGE speakblaze
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblades77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "In the distance machine guns were seen blazing."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblazes7(String languageCode) async {
+    // DOPSUM: CHANGE speakblaze
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Five people died in the blaze."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblazes8(String languageCode) async {
+    // DOPSUM: CHANGE speakblaze
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Dry wood makes a good blaze."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblazes9(String languageCode) async {
+    // DOPSUM: CHANGE speakblaze
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("The gardens are a blaze of colour."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblazes10(String languageCode) async {
+    // DOPSUM: CHANGE speakblaze
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakblazes1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblazes11(String languageCode) async {
+    // DOPSUM: CHANGE speakblaze
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakblazes1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblazes12(String languageCode) async {
+    // DOPSUM: CHANGE speakblaze
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakblazes1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblazes13(String languageCode) async {
+    // DOPSUM: CHANGE speakblaze
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakblazes1313"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblazes14(String languageCode) async {
+    // DOPSUM: CHANGE speakblaze
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakblazes1414"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblazes15(String languageCode) async {
+    // DOPSUM: CHANGE speakblaze
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakblazes1515"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblazes16(String languageCode) async {
+    // DOPSUM: CHANGE speakblaze
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakblazes1616"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblazes17(String languageCode) async {
+    // DOPSUM: CHANGE speakblaze
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakblazes1717"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblazes18(String languageCode) async {
+    // DOPSUM: CHANGE speakblaze
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakblazes1818"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblazes19(String languageCode) async {
+    // DOPSUM: CHANGE speakblaze
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakblazes1919"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakblazes20(String languageCode) async {
+    // DOPSUM: CHANGE speakblaze
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakblazes2020"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -106,22 +214,22 @@ class EnglishEntryblade extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "blade"),
+                            EntryTitle(word: "blaze"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /bleɪd/"),
+                            const IPAofEnglish(text: "IpaUK: /bleɪz/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakblade("en-GB"),
+                              onPressed: () => speakblaze("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /bleɪd/"),
+                            const IPAofEnglish(text: "IpaUS: /bleɪz/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakblade("en-US"),
+                              onPressed: () => speakblaze("en-US"),
                             ),
                           ],
                         ),
@@ -139,13 +247,13 @@ class EnglishEntryblade extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -167,64 +275,81 @@ class EnglishEntryblade extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: تیغ، گوێزان، تیغە، تیخ، ڕوونە، دەم، مەودا، دم، پەڕە، شمشێر، شیر، بەشی پانایی سەول، دەمەسەوڵ، بێڵە، پانایی یان بەرینایی گەڵا، ئێسکی پان، ئێسکی شان، گەنجی بەکار و پڕجم‌وجۆڵ
+کوردی: گڕ، گڵ، گڵپە، کڵپە، بڵێسە، سۆڵە، زمانە، سنجر، نێرگە، ئاگر، ئاور، ئاورگرتن، ئاورتێبەربوون، سووتمان، سووتان، داگیرسان، ھەڵبوون، سوورەوەبوون، ھەڵچوون، بریقەدانەوە، تیشک‌دانەوە، درەوشانەوە، چروسان، شەوق‌دانەوە، ورشانەوە، ڕووناکی، شەوق
 
-١. (ناو) دەمی چەقۆیەک یان ئامێرێک کە بەکاردێت بۆ بڕین"""),
+١. (کردار) سووتان بە ڕووناکی زۆر و گوڕەوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Knife blades are generally made of stainless steel."),
+                                      "A huge fire was blazing in the fireplace."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەمی چەقۆ بەشێوەیەکی گشتی لە پۆڵای ژەنگنەھێن درووست دەکرێت."),
+                                      "ئاگرێکی گەورە کڵپەی سەندبوو لە ئاگردانەکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakblades1("en-GB"),
+                                onPressed: () => speakblazes1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakblades1("en-US"),
+                                onPressed: () => speakblazes1("en-US"),
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                           const DividerSentences(),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The prisoner used a hacksaw blade to cut through the bars."),
+                                      "Within minutes the whole building was blazing."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "زیندانییەکە دەمی ھەڕەیەکی بەکارھێنا بۆ دەربازبوون بە بەربەستەکاندا."),
+                                      "لە ماوەی خولەکێکدا تەواوی بیناکە گڕی گرتبوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakblades2("en-GB"),
+                                onPressed: () => speakblazes2("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakblades2("en-US"),
+                                onPressed: () => speakblazes2("en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerDefinition(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٢. (کردار) درەوشانەوە بە ڕەونەقەوە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The sun blazed down from a clear blue sky."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "خۆر دەدرەوشایەوە با ئاسمانێکی شینی ساماڵدا."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblazes3("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblazes3("en-US"),
                               ),
                             ],
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) باڵی پانکەیەک یان بزوێنەرێک"),
+                              text: "٣. (کردار) چاوێک کە تووڕەیی پێوە دیارە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "The helicopter's blades whirred as it lifted off the ground."),
+                                  text: "Her eyes were blazing with fury."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "باڵەکانی ھەلیکۆپتەرەکە ھاژەی دەھات کە بەرزدەبوویەوە لە زەوی."),
+                                  text: "چاوەکانی تووڕەییان لێ دەباری."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakblades3("en-GB"),
+                                onPressed: () => speakblazes4("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakblades3("en-US"),
+                                onPressed: () => speakblazes4("en-US"),
                               ),
                             ],
                           ),
@@ -232,44 +357,102 @@ class EnglishEntryblade extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) ئەو بەشەی سەوڵ کە دەخرێتە ئاوەوە بۆ جوڵان"),
+                                  "٤. (کردار) بڵاوکردنەوەی ھەواڵ بە بەرفراوانی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The rower dipped the blade of the oar into the water, propelling the boat forward."),
+                                      "The story was blazed all over the daily papers."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سەوڵلێدەرەکە دەمی سەوڵەکەی خستە ناو ئاوەکە و بەلەمەکە بۆ پێشەوە جوڵا."),
+                                      "چیرۆکەکە بە تەواوی ڕۆژنامە ڕۆژانەییەکاندا بڵاوکرایەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakblades4("en-GB"),
+                                onPressed: () => speakblazes5("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakblades4("en-US"),
+                                onPressed: () => speakblazes5("en-US"),
                               ),
                             ],
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٤. (ناو) یەک دەنکە گەڵای گیایەک"),
+                              text:
+                                  "٥. (کردار) تەقاندنی فیشەک لە چەکێکەوە بە بەردەوامی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "Not a blade of grass stirred."),
+                                  text:
+                                      "In the distance machine guns were seen blazing."),
                               const ExampleSentenceKurdish(
-                                  text: "یەک دەنکە گەڵاش نەجوڵا."),
+                                  text:
+                                      "لە دوورەوە ڕەشاش دەبینرا سەلەی دەکرد (فیشەکی زۆری پێکەوە دەھاویشت)."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakblades5("en-GB"),
+                                onPressed: () => speakblazes6("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakblades5("en-US"),
+                                onPressed: () => speakblazes6("en-US"),
                               ),
                             ],
                           ),
                           // const DividerSentences(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٦. (ناو) ئاگرێکی گەورە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Five people died in the blaze."),
+                              const ExampleSentenceKurdish(
+                                  text: "پێنج کەس لە ئاگرەکەدا مردن."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblazes7("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblazes7("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "٧. (ناو) گڕی ئاگر"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Dry wood makes a good blaze."),
+                              const ExampleSentenceKurdish(
+                                  text: "داری وشک گڕێکی باشی دەبێت."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblazes8("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblazes8("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٨. (ناو) نمایشی شتێک کە کاریگەرە و سەرنج ڕادەکێشێت"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "The gardens are a blaze of colour."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "باخچەکە درەوشاناوەیەک لە ڕووناکی بوو."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblazes9("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblazes9("en-US"),
+                              ),
+                            ],
+                          ),
                           // const DividerDefinition(),
                         ],
                       ),
@@ -284,8 +467,8 @@ class EnglishEntryblade extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -322,29 +505,37 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: blade (derived forms: blades)
-1. The flat part of a tool or weapon that (usually) has a cutting edge
- 
-2. Especially a leaf of grass or the broad portion of a leaf as distinct from the petiole (= leaf blade)
- 
-3. A dashing young man
-"gay young blades bragged of their amorous adventures"
- 
-4. Something long and thin resembling a blade of grass
-"a blade of lint on his suit"
- 
-5. A cutting or thrusting weapon that has a long metal blade and a hilt with a hand guard (= sword, brand, steel)
- 
-6. A cut of beef from the shoulder blade
- 
-7. A broad flat body part (as of the shoulder or tongue)
- 
-8. The part of the skate that slides on the ice
- 
-9. Flat surface that rotates and pushes against air or water (= vane)
+- Noun: blaze (derived forms: blazes)
+1. A strong fire that burns brightly (= blazing)
+"the blaze spread rapidly";
 
-- Verb: blade (derived forms: blading, blades, bladed)
-1. (sport) travel on shoes with a single line of rubber wheels attached to their soles (= Rollerblade)
+2. A cause of difficulty and suffering (= hell)
+"go to blazes";
+
+3. Noisy and unrestrained mischief (= hell)
+"raising blazes";
+
+4. A light within the field of vision that is brighter than the brightness to which the eyes are adapted (= glare, brilliance)
+"a blaze of sunlight";
+ 
+5. A light-coloured marking
+"they chipped off bark to mark the trail with blazes"; "the horse had a blaze between its eyes"
+
+- Verb: blaze (derived forms: blazed, blazes, blazing)
+1. Shine brightly and intensively
+"Meteors blazed across the atmosphere"
+ 
+2. Shoot rapidly and repeatedly (= blaze away)
+"He blazed away at the men";
+
+3. Burn brightly and intensely
+"The summer sun alone can cause a pine to blaze"
+ 
+4. Move rapidly and as if blazing (= blaze out)
+"The spaceship blazed out into space";
+ 
+5. Indicate by marking trees with blazes
+"blaze a trail"
 """,
           )
         ],
@@ -358,12 +549,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "VzRtp4fWWIU";
+  static String myVideoId = "LXhLlWQtdt0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 58, // DOPSUM: CHANGE IT
+      startAt: 1024, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -383,32 +574,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "-GlJFVTzEsI";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 7, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedthree extends StatelessWidget {
-  YoutubeEmbeddedthree({super.key});
-
-  static String myVideoId = "X4TpulSVDE8";
+  static String myVideoId = "fxGI8r8vAFk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -430,15 +596,40 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedfour extends StatelessWidget {
-  YoutubeEmbeddedfour({super.key});
+class YoutubeEmbeddedthree extends StatelessWidget {
+  YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "IbCe8SxwmGE";
+  static String myVideoId = "nyVOi3X53bk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 391, // DOPSUM: CHANGE IT
+      startAt: 247, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedfour extends StatelessWidget {
+  YoutubeEmbeddedfour({super.key});
+
+  static String myVideoId = "SsuWS6yE478";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 457, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -458,12 +649,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "15D_LWIguL8";
+  static String myVideoId = "j3DuONZb3Ik";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 46, // DOPSUM: CHANGE IT
+      startAt: 160, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -483,12 +674,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "xHrqHulxK7c";
+  static String myVideoId = "Y2VlTpe4srk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 176, // DOPSUM: CHANGE IT
+      startAt: 523, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -508,12 +699,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "H3jJ29oE8Zg";
+  static String myVideoId = "ElQdUHSXkME";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 152, // DOPSUM: CHANGE IT
+      startAt: 17, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -533,12 +724,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "uUST_IQYp-o";
+  static String myVideoId = "vntKopJeeuo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 177, // DOPSUM: CHANGE IT
+      startAt: 136, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -558,12 +749,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "qrra18TChxY";
+  static String myVideoId = "rbhx3UNpV64";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1284, // DOPSUM: CHANGE IT
+      startAt: 80, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -583,12 +774,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "6atvaHyJco0";
+  static String myVideoId = "4hRNhosh8Lk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 504, // DOPSUM: CHANGE IT
+      startAt: 497, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -608,12 +799,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "9QcdijaKdAY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 191, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -633,212 +824,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "e50YrXo2Tes";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedthirteen extends StatelessWidget {
-  YoutubeEmbeddedthirteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddeddfourteen extends StatelessWidget {
-  YoutubeEmbeddeddfourteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedfifteen extends StatelessWidget {
-  YoutubeEmbeddedfifteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddeddsixteen extends StatelessWidget {
-  YoutubeEmbeddeddsixteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddeddseventeen extends StatelessWidget {
-  YoutubeEmbeddeddseventeen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddeddeighteen extends StatelessWidget {
-  YoutubeEmbeddeddeighteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddeddnineteen extends StatelessWidget {
-  YoutubeEmbeddeddnineteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwenty extends StatelessWidget {
-  YoutubeEmbeddedtwenty({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 32, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -857,4 +848,4 @@ class YoutubeEmbeddedtwenty extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end blade// TODO Implement this library.
+// end blaze// TODO Implement this library.

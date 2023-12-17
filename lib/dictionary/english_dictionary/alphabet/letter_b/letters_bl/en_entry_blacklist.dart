@@ -166,7 +166,7 @@ class EnglishEntryblacklist extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: لیستی ڕەش، ڕەشەلیست
 
-١. (ناو) لیستی کەسانێک، ژمارەیەک کۆمپانیا، بەرهەم، یان وڵات کە دامەزراوەیەک یان حکومەتێک کە بەدڵیانی نییە و لییان دووردەکەوێتەوە"""),
+١. (ناو) لیستی کەسانێک، ژمارەیەک کۆمپانیا، بەرھەم، یان وڵات کە دامەزراوەیەک یان حکومەتێک کە بەدڵیانی نییە و لییان دووردەکەوێتەوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -174,7 +174,7 @@ class EnglishEntryblacklist extends StatelessWidget {
                                       "The company maintained a blacklist of individuals who had violated the code of conduct."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کۆمپانیاکە لیستی ڕەشی ئەو کەسانەی هەڵدەگرت کە یاساکانیان شکاندبوو."),
+                                      "کۆمپانیاکە لیستی ڕەشی ئەو کەسانەی ھەڵدەگرت کە یاساکانیان شکاندبوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblacklists1("en-GB"),
@@ -188,7 +188,7 @@ class EnglishEntryblacklist extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) زیادکردنی ناوی کەسێک، کۆمپانیایەک، بەرهەمێک، یان وڵاتێک بۆ لیستی ڕەش"),
+                                  "٢. (کردار) زیادکردنی ناوی کەسێک، کۆمپانیایەک، بەرھەمێک، یان وڵاتێک بۆ لیستی ڕەش"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -196,7 +196,7 @@ class EnglishEntryblacklist extends StatelessWidget {
                                       "She was blacklisted by all the major Hollywood studios because of her political views."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "خرایە لیستی ڕەشی هەموو ستۆدیۆکانی هۆڵیوودەوە بەهۆی بیروڕا سیاسییەکانی."),
+                                      "خرایە لیستی ڕەشی ھەموو ستۆدیۆکانی ھۆڵیوودەوە بەھۆی بیروڕا سیاسییەکانی."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblacklists2("en-GB"),

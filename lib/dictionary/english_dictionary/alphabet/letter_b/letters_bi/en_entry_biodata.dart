@@ -186,27 +186,6 @@ class EnglishEntrybiodata extends StatelessWidget {
                             ],
                           ),
                           // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ناو) زانیاری لەسەر کەسێک و ئەوەی کردوویانە لە ژیاندا"""),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The website displayed the biodata of all team members, showcasing their individual roles and contributions."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وێبسایتەکە کورتە ژیانی ھەموو ئاندامانی تیمەکەی تێدابوو، لەگەڵ پیشاندانی ئەرکیان و کارەکانیان."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakBiodatas1("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakBiodatas1("en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
                           // const DividerDefinition(),
                         ],
                       ),

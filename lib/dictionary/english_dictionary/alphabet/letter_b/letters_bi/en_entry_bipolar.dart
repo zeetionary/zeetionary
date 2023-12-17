@@ -196,7 +196,7 @@ class EnglishEntrybipolar extends StatelessWidget {
                                       "She has three children, including a bipolar daughter."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سێ منداڵی ھەیە، لە نێوانیاندا کچێک کە دووجەمسەری ھەیە ."),
+                                      "سێ منداڵی ھەیە، لە نێوانیاندا کچێک کە دووجەمسەری ھەیە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBipolars2("en-GB"),

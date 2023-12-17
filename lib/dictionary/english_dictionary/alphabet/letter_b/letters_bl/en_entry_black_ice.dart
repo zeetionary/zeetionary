@@ -163,9 +163,9 @@ class EnglishEntryblackice extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: توێیەکی سەهۆڵ بەسەر ڕێگاوە، سەهۆڵەڕەشە، بەستوویی
+کوردی: توێیەکی سەھۆڵ بەسەر ڕێگاوە، سەھۆڵەڕەشە، بەستوویی
 
-١. (ناو) توێژی باریکی سەهۆڵ لەسەر ڕێگا"""),
+١. (ناو) توێژی باریکی سەھۆڵ لەسەر ڕێگا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -173,7 +173,7 @@ class EnglishEntryblackice extends StatelessWidget {
                                       "Motorists have been warned about black ice on the roads."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ماتۆڕسواران ئاگادارکراونەتەوە سەبارەت بە سەهۆڵەڕيشە لەسەر ڕێگاکان."),
+                                      "ماتۆڕسواران ئاگادارکراونەتەوە سەبارەت بە سەھۆڵەڕيشە لەسەر ڕێگاکان."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblackices1("en-GB"),

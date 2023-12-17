@@ -166,7 +166,7 @@ class EnglishEntryblame extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: گوناهـ، خەتا، سووچ، سەرکۆنەم، بەرپرسایەتی (بۆ هەڵە یان گوناهێ)
+کوردی: گوناھـ، خەتا، سووچ، سەرکۆنەم، بەرپرسایەتی (بۆ ھەڵە یان گوناھێ)
 
 ١. (کردار) لۆمەکردنی کەسێک بە شتێکی خراپ"""),
                           Row(
@@ -209,7 +209,7 @@ class EnglishEntryblame extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) بەرپرسیاریەتی بۆ شتێکی بە خراپی یان هەڵە"),
+                                  "٢. (ناو) بەرپرسیاریەتی بۆ شتێکی بە خراپی یان ھەڵە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -217,7 +217,7 @@ class EnglishEntryblame extends StatelessWidget {
                                       "Why do I always get the blame for everything that goes wrong?"),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بۆچی هەمیشە سەرزەنشت دەخرێتە سەر من بۆ هەر شتێک کە هەڵە ڕوودەدات؟"),
+                                      "بۆچی ھەمیشە سەرزەنشت دەخرێتە سەر من بۆ ھەر شتێک کە ھەڵە ڕوودەدات؟"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblames3("en-GB"),
@@ -237,7 +237,7 @@ class EnglishEntryblame extends StatelessWidget {
                                       "The government will have to take the blame for the riots."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "حکومەت دەبێت بەرپرسیاریەتی هەڵبگرێت بۆ ئاژاوەکان."),
+                                      "حکومەت دەبێت بەرپرسیاریەتی ھەڵبگرێت بۆ ئاژاوەکان."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblames4("en-GB"),

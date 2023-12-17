@@ -172,7 +172,7 @@ class EnglishEntrybivouac extends StatelessWidget {
                                       "The soldiers hastily set up a bivouac in the forest for the night."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سەربازەکان بەخێرایی پەناگەیەکیان هەڵخست بۆ شەوەکە لە دارستانەکە."),
+                                      "سەربازەکان بەخێرایی پەناگەیەکیان ھەڵخست بۆ شەوەکە لە دارستانەکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbivouacs1("en-GB"),

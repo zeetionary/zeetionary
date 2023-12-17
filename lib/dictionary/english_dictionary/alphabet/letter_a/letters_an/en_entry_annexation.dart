@@ -25,7 +25,7 @@ class EnglishEntryannexation extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He mentioned the Japanese annexation of Korea in 1910 ."); // DOPSUM: CHANGE TEXT
+        "He mentioned the Japanese annexation of Korea in 1910."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAnnexation1151(String languageCode) async {
@@ -174,7 +174,7 @@ class EnglishEntryannexation extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "He mentioned the Japanese annexation of Korea in 1910 ."),
+                                      "He mentioned the Japanese annexation of Korea in 1910."),
                               const ExampleSentenceKurdish(
                                   text:
                                       "داگیرکاریی ژاپۆنی بۆسەر کۆریا لە ساڵی ١٩١٠ ناوھێنا."),

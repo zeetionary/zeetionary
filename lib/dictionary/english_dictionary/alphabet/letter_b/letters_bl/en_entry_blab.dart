@@ -163,7 +163,7 @@ class EnglishEntryblab extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (کردار) وتنی زانیاری بە کەسێک کە دەبێت بە نهێنی بهێڵدرێتەوە، زۆرجار لەکاتی قسەزۆری"""),
+١. (کردار) وتنی زانیاری بە کەسێک کە دەبێت بە نھێنی بھێڵدرێتەوە، زۆرجار لەکاتی قسەزۆری"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -189,7 +189,7 @@ class EnglishEntryblab extends StatelessWidget {
                                   text: "Try not to blab the whole story."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەوڵ بدە دەمشڕی نەکەیت و تەواوی چیرۆکەکە ئاشکرا بکەیت."),
+                                      "ھەوڵ بدە دەمشڕی نەکەیت و تەواوی چیرۆکەکە ئاشکرا بکەیت."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblabs2("en-GB"),

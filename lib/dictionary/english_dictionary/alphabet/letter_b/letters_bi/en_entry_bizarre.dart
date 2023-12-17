@@ -172,7 +172,7 @@ class EnglishEntrybizarre extends StatelessWidget {
                                   text:
                                       "He made some totally bizarre comments."),
                               const ExampleSentenceKurdish(
-                                  text: "هەندێک لێدوانی تەواو سەیری دا."),
+                                  text: "ھەندێک لێدوانی تەواو سەیری دا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbizarres1("en-GB"),

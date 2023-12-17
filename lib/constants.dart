@@ -26,6 +26,72 @@ class Constants {
   // ];
 }
 
+
+// class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
+//   const ZeetionaryAppbar({super.key});
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return const ZeetionaryAppbarTwo();
+//   }
+
+//   @override
+//   Size get preferredSize => const Size.fromHeight(kToolbarHeight);
+// }
+
+
+// class ZeetionaryAppbarTwo extends ConsumerStatefulWidget {
+//   const ZeetionaryAppbarTwo({super.key});
+
+//   @override
+//   ConsumerState<ConsumerStatefulWidget> createState() => _ZeetionaryAppbarTwoState();
+// }
+
+// class _ZeetionaryAppbarTwoState extends ConsumerState<ZeetionaryAppbarTwo> {
+
+//   void toggleTheme(WidgetRef ref) {
+//     ref.read(themeNotifierProvider.notifier).toggleTheme();
+//   }
+
+//   @override
+//   Widget build(BuildContext context) {
+//     // final currentTheme = ref.watch(themeNotifierProvider);
+//     return AppBar(
+//       // centerTitle: true,
+//       scrolledUnderElevation: 0,
+//       title: const ZeetionaryAppbarStyle(),
+//       leading: IconButton(
+//         icon: const Icon(Icons.arrow_back_rounded),
+//         onPressed: () {
+//           Routemaster.of(context).pop();
+//         },
+//       ),
+//       actions: [
+//         IconButton(
+//             icon:
+//                 ref.watch(themeNotifierProvider.notifier).mode == ThemeMode.dark
+//                     ? const Icon(
+//                         // https://chat.openai.com/c/deea79e0-f329-41ba-9801-aec1802b62ab
+//                         Icons.nightlight_round,
+//                         // color: Colors.yellow, // Customize the moon color
+//                       )
+//                     : const Icon(
+//                         Icons.wb_sunny,
+//                         // color: Colors.red, // Customize the sun color
+//                       ),
+//             onPressed: () => toggleTheme(ref),
+//           ),
+//         IconButton(
+//           icon: const Icon(Icons.history),
+//           onPressed: () {
+//             Routemaster.of(context).push('/history-screen');
+//           },
+//         ),
+//       ],
+//     );
+//   }
+// }
+
 class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
   const ZeetionaryAppbar({super.key});
 

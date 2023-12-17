@@ -235,7 +235,7 @@ class EnglishEntrybathe extends StatelessWidget {
                                       "The moon bathed the countryside in a beautiful light."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "مانگ دەشت‌ودەری ڕووناککردەوە بە ڕۆشناییەکی جوان ."),
+                                      "مانگ دەشت‌ودەری ڕووناککردەوە بە ڕۆشناییەکی جوان."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBathes4("en-GB"),
@@ -256,7 +256,7 @@ class EnglishEntrybathe extends StatelessWidget {
                                       "The children took a bathe in the sea every day of their summer vacation."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "منداڵەکان ھەموو ڕۆژێکی پشووی ھاوینەیان مەلەیان دەکرد لە دەریاکە ."),
+                                      "منداڵەکان ھەموو ڕۆژێکی پشووی ھاوینەیان مەلەیان دەکرد لە دەریاکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBathes5("en-GB"),

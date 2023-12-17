@@ -136,7 +136,7 @@ class EnglishEntryblankverse extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -163,14 +163,15 @@ class EnglishEntryblankverse extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) هەڵبەستی سپی یان ئازاد، هۆنراوەی یان شێعری بێ‌سەروا"""),
+١. (ناو) ھەڵبەستی سپی یان ئازاد، ھۆنراوەی یان شێعری بێ‌سەروا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
                                       "The playwright chose to write the entire play in blank verse for a more natural and conversational tone."),
                               const ExampleSentenceKurdish(
-                                  text: "شانۆنووسەکە بڕیاریدا تەواوی شانۆکە بە هەڵبەستی ئازاد بنووسێت بۆ پێدانی تۆنێکی سرووشتی و گفتوگۆیانە."),
+                                  text:
+                                      "شانۆنووسەکە بڕیاریدا تەواوی شانۆکە بە ھەڵبەستی ئازاد بنووسێت بۆ پێدانی تۆنێکی سرووشتی و گفتوگۆیانە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblankverses1("en-GB"),
@@ -232,7 +233,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: blank verse (Derived forms: blank verses)
+- Noun: blank verse (derived forms: blank verses)
 1. Unrhymed verse (usually in iambic pentameter)
 """,
           )
@@ -247,7 +248,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/laAOxU3TSog?t=";
+  static String myVideoId = "laAOxU3TSog";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -272,7 +273,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/HgmPXrGgeRs?t=";
+  static String myVideoId = "HgmPXrGgeRs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -297,7 +298,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/snJpYLV7bYA?t=";
+  static String myVideoId = "snJpYLV7bYA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -322,7 +323,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/UX6LCzgXYFA?t=";
+  static String myVideoId = "UX6LCzgXYFA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -347,7 +348,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/rC_iFGN2dV4?t=";
+  static String myVideoId = "rC_iFGN2dV4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -372,7 +373,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/x3d8mI0O0Rk?t=";
+  static String myVideoId = "x3d8mI0O0Rk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -397,7 +398,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/GbvNW-c45es?t=";
+  static String myVideoId = "GbvNW-c45es";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -422,7 +423,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/5g3l1E1gHiM?t=";
+  static String myVideoId = "5g3l1E1gHiM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -447,7 +448,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/poHXO8Ttxb0?t=";
+  static String myVideoId = "poHXO8Ttxb0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -472,7 +473,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/y94RsqtEADQ?t=";
+  static String myVideoId = "y94RsqtEADQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -497,7 +498,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/RpgXEUIR5oA?t=";
+  static String myVideoId = "RpgXEUIR5oA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

@@ -192,7 +192,7 @@ class EnglishEntrybattalion extends StatelessWidget {
                                       "The battalion of scientists made a discovery that changed the world."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "تیمە زانستییەکە دۆزینەوەیەکیان ئەنجامدا کە جیھانی گۆڕی ."),
+                                      "تیمە زانستییەکە دۆزینەوەیەکیان ئەنجامدا کە جیھانی گۆڕی."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBattalions2("en-GB"),

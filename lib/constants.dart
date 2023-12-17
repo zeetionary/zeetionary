@@ -584,19 +584,43 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
         padding: const EdgeInsets.symmetric(horizontal: 6.0),
         child: Container(
           decoration: BoxDecoration(
-            color: Colors.blue.shade800.withOpacity(0.1),
-            // color: Colors.blue.withOpacity(
-            //     0.05), // Replace with your desired background color
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                currentTheme.primaryColor.withOpacity(0.05),
+                currentTheme.primaryColor.withOpacity(0.09),
+                // Colors.red.shade800.withOpacity(0.09),
+                // Colors.red.shade800.withOpacity(0.07),
+                // currentTheme.primaryColor.withOpacity(0.08),
+                // currentTheme.primaryColor.withOpacity(0.05),
+              ],
+            ),
+            // color: currentTheme.primaryColor.withOpacity(0.1),
             borderRadius: const BorderRadius.only(
               topLeft: Radius.circular(12.0),
               bottomRight: Radius.circular(12.0),
             ),
             border: Border.all(
-              color: currentTheme.primaryColor.withOpacity(0.5),
-              // color: currentTheme.scaffoldBackgroundColor.withOpacity(0.9),
+              color: currentTheme.primaryColor.withOpacity(0.28),
               width: 2.0,
+              style: BorderStyle.solid,
             ),
           ),
+          // decoration: BoxDecoration(
+          //   color: Colors.blue.shade800.withOpacity(0.1),
+          //   // color: Colors.blue.withOpacity(
+          //   //     0.05), // Replace with your desired background color
+          //   borderRadius: const BorderRadius.only(
+          //     topLeft: Radius.circular(12.0),
+          //     bottomRight: Radius.circular(12.0),
+          //   ),
+          //   border: Border.all(
+          //     color: currentTheme.primaryColor.withOpacity(0.5),
+          //     // color: currentTheme.scaffoldBackgroundColor.withOpacity(0.9),
+          //     width: 2.0,
+          //   ),
+          // ),
           //   BoxDecoration(
           //   gradient: LinearGradient(
           //     colors: [
@@ -782,7 +806,7 @@ class CustomIconButtonBritish extends StatelessWidget {
         child: const Icon(
           Icons.record_voice_over,
           color: Colors.blue,
-          size: 16.0, // Adjust size as needed
+          size: 18.0, // Adjust size as needed
         ),
       ),
       onPressed: onPressed,
@@ -812,7 +836,7 @@ class CustomIconButtonAmerican extends StatelessWidget {
         child: const Icon(
           Icons.record_voice_over,
           color: Color.fromARGB(182, 255, 0, 0),
-          size: 16.0, // Adjust size as needed
+          size: 18.0, // Adjust size as needed
         ),
       ),
       onPressed: onPressed,

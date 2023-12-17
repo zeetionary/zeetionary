@@ -109,7 +109,8 @@ class EnglishEntryabuse extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "noun > /əˈbjuːs/, verb > /əˈbjuːz/"),
+                                text:
+                                    "IpaUK: noun > /əˈbjuːs/, verb > /əˈbjuːz/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakAbuse("en-GB"),
                             ),
@@ -288,8 +289,7 @@ class EnglishEntryabuse extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "The boy had been sexually abused."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "کوڕەکە دەستدرێژیی سێکسیی کرابووە سەر."),
+                                  text: "کوڕەکە دەستدرێژیی سێکسی کرابووە سەر."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakA5741("en-GB"),

@@ -175,7 +175,7 @@ class EnglishEntryblackmail extends StatelessWidget {
                                       "If you are in a position of authority, any weakness leaves you open to blackmail."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەگەر لە پلەی دەسەڵاتداریت، هەر لاوازییەک دەکرێت گەفکردن پێت ئاسان بکات."),
+                                      "ئەگەر لە پلەی دەسەڵاتداری بیت، هەر لاوازییەک دەکرێت گەفکردن پێت ئاسان بکات."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblackmails1("en-GB"),

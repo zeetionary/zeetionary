@@ -26,6 +26,10 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     Scaffold.of(context).openDrawer();
   }
 
+  void toggleTheme(WidgetRef ref) {
+    ref.read(themeNotifierProvider.notifier).toggleTheme();
+  }
+
   void goToHistory(BuildContext context) {
     Navigator.of(context).push(
       MaterialPageRoute(
@@ -70,6 +74,19 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
           );
         }),
         actions: [
+          // Switch.adaptive(
+          //   value: ref.watch(themeNotifierProvider.notifier).mode ==
+          //       ThemeMode.dark,
+          //   onChanged: (val) => toggleTheme(ref),
+          // ),
+          IconButton(
+            // https://chat.openai.com/c/deea79e0-f329-41ba-9801-aec1802b62ab
+            icon: ref.watch(themeNotifierProvider.notifier).mode ==
+                    ThemeMode.dark
+                ? const Icon(Icons.nightlight_round) // Moon icon for dark theme
+                : const Icon(Icons.wb_sunny), // Sun icon for light theme
+            onPressed: () => toggleTheme(ref),
+          ),
           IconButton(
             icon: const Icon(Icons.history),
             onPressed: () {

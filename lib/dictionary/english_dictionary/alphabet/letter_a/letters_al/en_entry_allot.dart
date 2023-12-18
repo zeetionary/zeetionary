@@ -37,14 +37,6 @@ class EnglishEntryallot extends StatelessWidget {
         "How much money has been allotted to us?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllot42566(String languageCode) async {
-    // DOPSUM: CHANGE speakAllot
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAllot341"); // DOPSUM: CHANGE TEXT
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -155,10 +147,10 @@ class EnglishEntryallot extends StatelessWidget {
                                   text: "چەندە پارەمان بۆ تەرخانکراوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakAllot42566("en-GB"),
+                                onPressed: () => speakAllot341("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakAllot42566("en-US"),
+                                onPressed: () => speakAllot341("en-US"),
                               ),
                             ],
                           ),

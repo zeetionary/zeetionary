@@ -5,87 +5,91 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "blender" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
+// Define the word "blockade" and provide five simple and short example sentences for each meaning. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
 
-// replace blender - /ˈblendə(r)/
+// replace blockade - /blɒˈkeɪd/
 
 enum TtsState { playing }
 
-class EnglishEntryblender extends StatelessWidget {
+class EnglishEntryblockade extends StatelessWidget {
 // blank divider
-  EnglishEntryblender({super.key});
+  EnglishEntryblockade({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakblender(String languageCode) async {
-    // DOPSUM: CHANGE speakblender
+  Future<void> speakblockade(String languageCode) async {
+    // DOPSUM: CHANGE speakblockade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("blender"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("blockade"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblenders1(String languageCode) async {
-    // DOPSUM: CHANGE speakblender
+  Future<void> speakblockades1(String languageCode) async {
+    // DOPSUM: CHANGE speakblockade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Combine the milk and eggs in a blender."); // DOPSUM: CHANGE TEXT
+        "The president imposed a complete blockade on the island's harbours."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblenders2(String languageCode) async {
-    // DOPSUM: CHANGE speakblender
+  Future<void> speakblockades2(String languageCode) async {
+    // DOPSUM: CHANGE speakblockade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblenders22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They attempted to break the blockade by using submarines."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblenders3(String languageCode) async {
-    // DOPSUM: CHANGE speakblender
+  Future<void> speakblockades3(String languageCode) async {
+    // DOPSUM: CHANGE speakblockade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblenders33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The police set up blockades on highways leading out of the city."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblenders4(String languageCode) async {
-    // DOPSUM: CHANGE speakblender
+  Future<void> speakblockades4(String languageCode) async {
+    // DOPSUM: CHANGE speakblockade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblenders44"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("All the ports had been blockaded."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblenders5(String languageCode) async {
-    // DOPSUM: CHANGE speakblender
+  Future<void> speakblockades5(String languageCode) async {
+    // DOPSUM: CHANGE speakblockade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblenders55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Employees blockaded the entrance to the offices."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblenders6(String languageCode) async {
-    // DOPSUM: CHANGE speakblender
+  Future<void> speakblockades6(String languageCode) async {
+    // DOPSUM: CHANGE speakblockade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblenders66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblockades66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblenders7(String languageCode) async {
-    // DOPSUM: CHANGE speakblender
+  Future<void> speakblockades7(String languageCode) async {
+    // DOPSUM: CHANGE speakblockade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblenders77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblockades77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -102,22 +106,22 @@ class EnglishEntryblender extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "blender"),
+                            EntryTitle(word: "blockade"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈblendə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /blɒˈkeɪd/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakblender("en-GB"),
+                              onPressed: () => speakblockade("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈblendər/"),
+                            const IPAofEnglish(text: "IpaUS: /blɑːˈkeɪd/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakblender("en-US"),
+                              onPressed: () => speakblockade("en-US"),
                             ),
                           ],
                         ),
@@ -135,13 +139,13 @@ class EnglishEntryblender extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -163,26 +167,101 @@ class EnglishEntryblender extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: لێکدەر، تێکەڵ‌کەرە، عەسارە
+کوردی: گەماڕۆ، دەوردان، ئابڵۆقە (دەریا)، ھێزی گەماڕۆدان، نەھێشتنی چوونەنێو و دەرەوەچوون، لەمپەر، بەربەست، کۆسپ، ڕێبەند
 
-١. (ناو) ئەمێرێکی کارەبایی کە بۆ تێکەڵکردنی خواردنی نەرم و شلە بەکاردێت"""),
+١. (ناو) ئابڵووقە؛ کردەی دەوردان یان گرتنی شوێنێک، بەتایبەتی بەندەرێک، بۆ وەستاندنی ھاتووچۆی خەڵکی و کەلوپەل"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Combine the milk and eggs in a blender."),
+                                      "The president imposed a complete blockade on the island's harbours."),
                               const ExampleSentenceKurdish(
-                                  text: "شیر و ھێلکەکە بکە عەسارەکەوە."),
+                                  text:
+                                      "سەرۆک ئابڵووقەی تەواوی سەپاند بەسەر بەندەرەکانی دوورگەکەدا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakblenders1("en-GB"),
+                                onPressed: () => speakblockades1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakblenders1("en-US"),
+                                onPressed: () => speakblockades1("en-US"),
                               ),
                             ],
                           ),
-                          // const DividerDefinition(),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "They attempted to break the blockade by using submarines."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەوڵیان دا ئابڵووقەکە بشکێنن بە بەکارھێنانی ژێر دەریا."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblockades2("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblockades2("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) بەربەستێک کە ڕێگری لە خەڵکی و ئۆتۆمبێل دەکات بچنە شوێنێک یان جێی بھێڵن"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The police set up blockades on highways leading out of the city."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "پۆلیس بەربەستی دانا لەو ڕێگایانەی بۆ دەرەوەی شارەکە دەچوون."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblockades3("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblockades3("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٣. (کردار) ئابڵووقەدانی شوێنێک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "All the ports had been blockaded."),
+                              const ExampleSentenceKurdish(
+                                  text: "تەواوی بەندەرەکان ئابڵووقە دراون."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblockades4("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblockades4("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Employees blockaded the entrance to the offices."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کارمەندان ڕێگای چوونە ناو ئۆفیسەکانیان بەربەست کرد."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblockades5("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblockades5("en-US"),
+                              ),
+                            ],
+                          ),
                         ],
                       ),
                     ),
@@ -195,9 +274,9 @@ class EnglishEntryblender extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedten(),
+                    YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -234,8 +313,21 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: blender (derived forms: blenders)
-1. An electrically powered mixer with whirling blades that mix, chop or liquefy foods (= liquidizer, liquidiser [Brit])
+- Noun: blockade (derived forms: blockades)
+1. (military) a war measure that isolates some area of importance to the enemy (= encirclement)
+ 
+2. Prevents access or progress
+
+- Verb: blockade (derived forms: blockading, blockaded, blockades)
+1. Hinder or prevent the progress or accomplishment of (= obstruct, block, hinder, stymie, stymy [rare], embarrass)
+"His brother blockaded him at every turn";
+
+2. Render unsuitable for passage (= barricade, block, stop, block off, block up, bar)
+"blockade the streets";
+
+3. Obstruct access to (= block off)
+ 
+4. Impose a blockade on (= seal off)
 """,
           )
         ],
@@ -249,14 +341,70 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "o8F2ZKZ5XsQ";
+  static String myVideoId = "zqllxbPWKNI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 30, // DOPSUM: CHANGE IT
+      startAt: 880, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  static String myVideoIdTwo = "tsxmyL7TUJg";
+
+  final YoutubePlayerController _controllertwo = YoutubePlayerController(
+    initialVideoId: myVideoIdTwo,
+    flags: const YoutubePlayerFlags(
+      startAt: 977, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: false,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  static String myVideoIdThree = "mY3SEMTROas";
+
+  final YoutubePlayerController _controllerthree = YoutubePlayerController(
+    initialVideoId: myVideoIdThree,
+    flags: const YoutubePlayerFlags(
+      startAt: 180, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: false,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  static String myVideoIdFour = "yRmOWcWdQAo";
+
+  final YoutubePlayerController _controllerfour = YoutubePlayerController(
+    initialVideoId: myVideoIdFour,
+    flags: const YoutubePlayerFlags(
+      startAt: 1314, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: false,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  static String myVideoIdFive = "hRSGxw2AQnk";
+
+  final YoutubePlayerController _controllerfive = YoutubePlayerController(
+    initialVideoId: myVideoIdFive,
+    flags: const YoutubePlayerFlags(
+      startAt: 779, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: false,
       enableCaption: true,
       loop: true,
       mute: false,
@@ -266,7 +414,17 @@ class YoutubeEmbeddedone extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            YouTubeContainerDesign(controller: _controller),
+            YouTubeContainerDesign(controller: _controllertwo),
+            YouTubeContainerDesign(controller: _controllerthree),
+            YouTubeContainerDesign(controller: _controllerfour),
+            YouTubeContainerDesign(controller: _controllerfive),
+          ],
+        ),
+      ),
     );
   }
 }
@@ -274,12 +432,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "xW8rx1nTdN4";
+  static String myVideoId = "OP7l1n_8Lh4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 64, // DOPSUM: CHANGE IT
+      startAt: 321, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -299,12 +457,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "bBmC0j2pc5I";
+  static String myVideoId = "VNZ0so0LCoM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 16, // DOPSUM: CHANGE IT
+      startAt: 753, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -324,12 +482,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "S-gUFvpRQoU";
+  static String myVideoId = "NuBt9A2iMGA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 22, // DOPSUM: CHANGE IT
+      startAt: 416, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -349,12 +507,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "zY8TvmF9Q6I";
+  static String myVideoId = "dOyJqGtP-wU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 27, // DOPSUM: CHANGE IT
+      startAt: 186, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -374,12 +532,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "8t3Q3Fkw-OU";
+  static String myVideoId = "QmOF0crdyRU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 480, // DOPSUM: CHANGE IT
+      startAt: 5302, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -399,12 +557,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "iNtMoAAcdkU";
+  static String myVideoId = "plHRRFHZ_f0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 99, // DOPSUM: CHANGE IT
+      startAt: 883, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -424,12 +582,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "oL2am_9xvYs";
+  static String myVideoId = "DE4YiRlKajs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 136, // DOPSUM: CHANGE IT
+      startAt: 1507, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -449,12 +607,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "CWXNUKUx9FY";
+  static String myVideoId = "b9_QDqpXCE0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 11, // DOPSUM: CHANGE IT
+      startAt: 129, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -474,12 +632,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "EjGB-69sYjM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 288, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -499,12 +657,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "p--VdXM6OvQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 182, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -524,12 +682,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "3ZdkqqjosCM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 147, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -548,4 +706,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end blender
+// end blockade

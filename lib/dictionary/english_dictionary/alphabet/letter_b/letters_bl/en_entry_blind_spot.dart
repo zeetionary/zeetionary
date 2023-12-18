@@ -5,87 +5,89 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "blender" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
+// Define the word "blind spot" and provide five simple and short example sentences for each meaning. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
 
-// replace blender - /ˈblendə(r)/
+// replace blind spot - /ˈblaɪnd spɒt/
 
 enum TtsState { playing }
 
-class EnglishEntryblender extends StatelessWidget {
+class EnglishEntryblindspot extends StatelessWidget {
 // blank divider
-  EnglishEntryblender({super.key});
+  EnglishEntryblindspot({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakblender(String languageCode) async {
-    // DOPSUM: CHANGE speakblender
+  Future<void> speakblindspot(String languageCode) async {
+    // DOPSUM: CHANGE speakblindspot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("blender"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("blind spot"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblenders1(String languageCode) async {
-    // DOPSUM: CHANGE speakblender
+  Future<void> speakblindspots1(String languageCode) async {
+    // DOPSUM: CHANGE speakblindspot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Combine the milk and eggs in a blender."); // DOPSUM: CHANGE TEXT
+        "The rear-view mirror helps to reduce blind spots on both sides of the car."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblenders2(String languageCode) async {
-    // DOPSUM: CHANGE speakblender
+  Future<void> speakblindspots2(String languageCode) async {
+    // DOPSUM: CHANGE speakblindspot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblenders22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I have a blind spot where maths is concerned."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblenders3(String languageCode) async {
-    // DOPSUM: CHANGE speakblender
+  Future<void> speakblindspots3(String languageCode) async {
+    // DOPSUM: CHANGE speakblindspot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblenders33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I am pretty good at English, but I have a blind spot where spelling is concerned."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblenders4(String languageCode) async {
-    // DOPSUM: CHANGE speakblender
+  Future<void> speakblindspots4(String languageCode) async {
+    // DOPSUM: CHANGE speakblindspot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblenders44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblindspots44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblenders5(String languageCode) async {
-    // DOPSUM: CHANGE speakblender
+  Future<void> speakblindspots5(String languageCode) async {
+    // DOPSUM: CHANGE speakblindspot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblenders55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblindspots55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblenders6(String languageCode) async {
-    // DOPSUM: CHANGE speakblender
+  Future<void> speakblindspots6(String languageCode) async {
+    // DOPSUM: CHANGE speakblindspot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblenders66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblindspots66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblenders7(String languageCode) async {
-    // DOPSUM: CHANGE speakblender
+  Future<void> speakblindspots7(String languageCode) async {
+    // DOPSUM: CHANGE speakblindspot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblenders77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblindspots77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -102,22 +104,22 @@ class EnglishEntryblender extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "blender"),
+                            EntryTitle(word: "blind spot"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈblendə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈblaɪnd spɒt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakblender("en-GB"),
+                              onPressed: () => speakblindspot("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈblendər/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈblaɪnd spɑːt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakblender("en-US"),
+                              onPressed: () => speakblindspot("en-US"),
                             ),
                           ],
                         ),
@@ -135,12 +137,12 @@ class EnglishEntryblender extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
@@ -163,26 +165,64 @@ class EnglishEntryblender extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: لێکدەر، تێکەڵ‌کەرە، عەسارە
+کوردی: خاڵی کوێری، لاوازی، خاڵی لاوازی، عەیب
 
-١. (ناو) ئەمێرێکی کارەبایی کە بۆ تێکەڵکردنی خواردنی نەرم و شلە بەکاردێت"""),
+١. (ناو) ناوچەیەک کە کەسێک ناوانێت بیبینێت، بەتایبەتی ناوچەیەکی ڕێگایەک لە کاتی شۆفێریدا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Combine the milk and eggs in a blender."),
+                                      "The rear-view mirror helps to reduce blind spots on both sides of the car."),
                               const ExampleSentenceKurdish(
-                                  text: "شیر و ھێلکەکە بکە عەسارەکەوە."),
+                                  text:
+                                      "ئاوێنەی پێشەوە یارمەتیدەرە بۆ کەمکردنەوەی ناوچەی کوێر لە ھەردوو لای ئۆتۆمبێلێکەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakblenders1("en-GB"),
+                                onPressed: () => speakblindspots1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakblenders1("en-US"),
+                                onPressed: () => speakblindspots1("en-US"),
                               ),
                             ],
                           ),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) کاتێک کەسێک شتێک پشتگوێ دەخات، یان توانای نییە، یان ئامادە نییە فێربێت لەسەری"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I have a blind spot where maths is concerned."),
+                              const ExampleSentenceKurdish(
+                                  text: "دوو چاوی ھەیە بیرکاری نابینن."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblindspots2("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblindspots2("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "I am pretty good at English, but I have a blind spot where spelling is concerned."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لە ئینگلیزی باشم، بەڵام حساب بۆ ڕێنووس ناکەم (یان ناتوانم فێری ببم)."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblindspots3("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblindspots3("en-US"),
+                              ),
+                            ],
+                          ),
                         ],
                       ),
                     ),
@@ -195,8 +235,8 @@ class EnglishEntryblender extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedten(),
+                    YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
@@ -234,8 +274,11 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: blender (derived forms: blenders)
-1. An electrically powered mixer with whirling blades that mix, chop or liquefy foods (= liquidizer, liquidiser [Brit])
+- Noun: blind spot (derived forms: blind spots)
+1. A subject about which you are ignorant or prejudiced and fail to exercise good judgment
+"golf is one of his blind spots and he's proud of it"
+ 
+2. The point where the optic nerve enters the retina; not sensitive to light (= optic disc, optic disk)
 """,
           )
         ],
@@ -249,12 +292,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "o8F2ZKZ5XsQ";
+  static String myVideoId = "Rvey9g0VgY0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 30, // DOPSUM: CHANGE IT
+      startAt: 19, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -274,12 +317,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "xW8rx1nTdN4";
+  static String myVideoId = "_TM3lnF58Hc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 64, // DOPSUM: CHANGE IT
+      startAt: 1059, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -299,12 +342,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "bBmC0j2pc5I";
+  static String myVideoId = "DxREm3s1scA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 16, // DOPSUM: CHANGE IT
+      startAt: 4269, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -324,12 +367,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "S-gUFvpRQoU";
+  static String myVideoId = "XvVCc1Ts0MA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 22, // DOPSUM: CHANGE IT
+      startAt: 184, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -349,12 +392,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "zY8TvmF9Q6I";
+  static String myVideoId = "v8o-Vd__I-A";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 27, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -374,12 +417,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "8t3Q3Fkw-OU";
+  static String myVideoId = "YkS1U5lfSRw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 480, // DOPSUM: CHANGE IT
+      startAt: 516, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -399,12 +442,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "iNtMoAAcdkU";
+  static String myVideoId = "ba-HMvDn_vU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 99, // DOPSUM: CHANGE IT
+      startAt: 3517, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -424,12 +467,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "oL2am_9xvYs";
+  static String myVideoId = "bmf1znpMjbI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 136, // DOPSUM: CHANGE IT
+      startAt: 150, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -449,12 +492,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "CWXNUKUx9FY";
+  static String myVideoId = "Zb3F5WE6KBI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 11, // DOPSUM: CHANGE IT
+      startAt: 9227, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -474,12 +517,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "fc61Q_Z4GEs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 281, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -499,12 +542,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "wGXmiTzyp2k";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 205, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -548,4 +591,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end blender
+// end blind spot

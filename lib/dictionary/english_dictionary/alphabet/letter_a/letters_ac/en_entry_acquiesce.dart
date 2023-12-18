@@ -187,8 +187,8 @@ class EnglishMeaning extends StatelessWidget {
           EnglishMeaningConst(
             text: """
 - Verb: acquiesce (derived forms: acquiesced, acquiescing, acquiesces)
-1. To agree or express agreement
-"The Maestro acquiesced to the request for an encore"; (= assent, accede)
+1. To agree or express agreement (= assent, accede)
+"The Maestro acquiesced to the request for an encore"; 
 """,
           )
         ],

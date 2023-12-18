@@ -426,7 +426,7 @@ class EnglishEntryblank extends StatelessWidget {
                                   text: "The troops fired blanks in the air."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سەربازەکان فیشەکەدرۆزنە تەقاندە ئاسمان."),
+                                      "سەربازەکان فیشەکەدرۆزنەیان تەقاندە ئاسمان."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblanks8("en-GB"),

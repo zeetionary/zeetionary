@@ -5,7 +5,7 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "dopsum1" and provide five simple and short example sentences for each meaning. Use Merriam Webster style. Provide at least 5 meanings or more.
+// Define the word "dopsum1" and provide five simple and short example sentences for each meaning. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
 
 // replace dopsum1 - haʊʊʊʊʊʊʊ4
 
@@ -182,7 +182,6 @@ class EnglishEntrydopsum1 extends StatelessWidget {
                               ),
                             ],
                           ),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
@@ -548,8 +547,6 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
   }
 }
 
-
-
 // more than one video, only first autoplay
 
 // end dopsum1
@@ -666,7 +663,6 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
     );
   }
 }
-
 
 // divider
 // divider
@@ -863,10 +859,6 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
 //     await flutterTts.setSpeechRate(0.5);
 //     await flutterTts.speak("speakbands3030"); // DOPSUM: CHANGE TEXT
 //   }
-
-
-
-
 
 // v v
 

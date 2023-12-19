@@ -5,85 +5,86 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "blitz" and provide five simple and short example sentences for each meaning. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
+// Define the word "bloom" and provide five 10-words or less long example sentences for each meaning. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
 
-// replace blitz - /blɪts/
+// replace bloom - /bluːm/
 
 enum TtsState { playing }
 
-class EnglishEntryblitz extends StatelessWidget {
+class EnglishEntrybloom extends StatelessWidget {
 // blank divider
-  EnglishEntryblitz({super.key});
+  EnglishEntrybloom({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakblitz(String languageCode) async {
-    // DOPSUM: CHANGE speakblitz
+  Future<void> speakbloom(String languageCode) async {
+    // DOPSUM: CHANGE speakbloom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("blitz"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bloom"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblitzs1(String languageCode) async {
-    // DOPSUM: CHANGE speakblitz
+  Future<void> speakblooms1(String languageCode) async {
+    // DOPSUM: CHANGE speakbloom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Five shops were damaged in a firebomb blitz."); // DOPSUM: CHANGE TEXT
+        "The plant produced a single white bloom."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblitzs2(String languageCode) async {
-    // DOPSUM: CHANGE speakblitz
+  Future<void> speakblooms2(String languageCode) async {
+    // DOPSUM: CHANGE speakbloom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Many people died in the London Blitz."); // DOPSUM: CHANGE TEXT
+        .speak("The small pink blooms appear in May."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblitzs3(String languageCode) async {
-    // DOPSUM: CHANGE speakblitz
+  Future<void> speakblooms3(String languageCode) async {
+    // DOPSUM: CHANGE speakbloom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("I've had a blitz on the house."); // DOPSUM: CHANGE TEXT
+        .speak("He was 19, in the full bloom of youth."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblitzs4(String languageCode) async {
-    // DOPSUM: CHANGE speakblitz
+  Future<void> speakblooms4(String languageCode) async {
+    // DOPSUM: CHANGE speakbloom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("London was heavily blitzed in the war."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Most roses will begin to bloom from late May."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblitzs5(String languageCode) async {
-    // DOPSUM: CHANGE speakblitz
+  Future<void> speakblooms5(String languageCode) async {
+    // DOPSUM: CHANGE speakbloom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Blitz until smooth and creamy."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Tulips were blooming as far as the eye could see."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblitzs6(String languageCode) async {
-    // DOPSUM: CHANGE speakblitz
+  Future<void> speakblooms6(String languageCode) async {
+    // DOPSUM: CHANGE speakbloom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblitzs66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The children had bloomed during their stay on the farm."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblitzs7(String languageCode) async {
-    // DOPSUM: CHANGE speakblitz
+  Future<void> speakblooms7(String languageCode) async {
+    // DOPSUM: CHANGE speakbloom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblitzs77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakblooms77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -106,22 +107,22 @@ class EnglishEntryblitz extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "blitz"),
+                            EntryTitle(word: "bloom"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /blɪts/"),
+                            const IPAofEnglish(text: "IpaUK: /bluːm/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakblitz("en-GB"),
+                              onPressed: () => speakbloom("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /blɪts/"),
+                            const IPAofEnglish(text: "IpaUS: /bluːm/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakblitz("en-US"),
+                              onPressed: () => speakbloom("en-US"),
                             ),
                           ],
                         ),
@@ -167,105 +168,116 @@ class EnglishEntryblitz extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ھێرشی کت‌وپڕ، ھێرشی میلیتاری خەست‌وخۆڵی ناکاو، پەلامار، حەولێکی ھاوبەش و کوت‌وپڕ
+کوردی: گوڵ، شکۆفە، خونچە، جەنگە، هەڕەت، گەرمە، بن‌دەق، گوڵ‌کردن، خونچەکردن، پشکوتن، سەروبەند یان قۆناخی گوڵ‌کردن، تەڕوتازەیی، ڕەنگ‌وبۆ، (لەسەر میوە، گەڵا و لاسک) کوڵکە، وردەتووک، کۆبوونەوەی قەوزەکان لەسەر ئاو 
 
-١. (ناو) ھێرشی لەناکاو"""),
+١. (ناو) گوڵ، بەتایبەتی گوڵێک کە لەسەر ڕووەکێکە کە خەڵکی زیاتر بەهۆی گوڵەکەی حەزیان پێیە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Five shops were damaged in a firebomb blitz."),
+                                      "The plant produced a single white bloom."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "پێنج فرۆشگا زیانیان پێگەیشت لە ھێرشێکی لەناکاوی بۆمبی ئاگرین."),
+                                  text: "ڕووەکەکە تاکە گوڵێکی لێ ڕووا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakblitzs1("en-GB"),
+                                onPressed: () => speakblooms1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakblitzs1("en-US"),
+                                onPressed: () => speakblooms1("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "The small pink blooms appear in May."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "خونچە پەمەییە بچووکەکان لە مایسدا دەپشکوون."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblooms2("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblooms2("en-US"),
                               ),
                             ],
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text:
-                                  "٢. (ناو) ھێرشی لەناکاوی ئەڵمانیا بۆ سەر بەریتانیا لە ساڵانی ١٩٤٠-١٩٤١"),
+                              text: "٢. (ناو) ڕواڵەتێکی تەندرووست و وزەدار"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Many people died in the London Blitz."),
+                                      "He was 19, in the full bloom of youth."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "زۆر کەس ژیانیان لەدەستدا لە ھێرشی لەناکاوی سەر لەندەن (ھێرشی ئەڵمانیا بۆ سەر لەندەن لە ١٩٤٠-١٩٤١)."),
+                                      "تەمەنی ١٩ ساڵان بوو لە هەڕەتی تەواوی لاوییدا بوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakblitzs2("en-GB"),
+                                onPressed: () => speakblooms3("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakblitzs2("en-US"),
+                                onPressed: () => speakblooms3("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "٣. (کردار) گوڵگرتن"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Most roses will begin to bloom from late May."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "زۆرینەی گوڵەکان دەست بە گوڵگرتن دەکەن لە مایسدا."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblooms4("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblooms4("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Tulips were blooming as far as the eye could see."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "گوڵباخ گاڵی دەگرت هەڕچەندە چاو بڕی بکردایە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblooms5("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblooms5("en-US"),
                               ),
                             ],
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text:
-                                  "٣. (ناو) ھەوڵێکی لەناکاوی ڕێکخراو بۆ مامەڵەکردن لەگەڵ شتێک یان بەدەستھێنانی شتێک"),
+                              text: "٤. (کردار) تەندرووست یان دڵخۆش بوون"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "I've had a blitz on the house (= cleaned it very thoroughly)."),
+                                      "The children had bloomed during their stay on the farm."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ھەڵمەتێکی پاککردنەوەی ماڵەکەم ئەنجام دا."),
+                                      "منداڵەکان هۆشیان کردبووەوە لەکاتی مانەوەیان لە کێڵگەکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakblitzs3("en-GB"),
+                                onPressed: () => speakblooms6("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakblitzs3("en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (کردار) ھێرشکردنە سەر شارێک بە بەردانەوەی ژمارەیەکی زۆر بۆمب لە ماوەیەکی کەمدا"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "London was heavily blitzed in the war."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەندەن بە سەختی لە جەنگەکەدا بە سەختی ھێرشی لەناکاوی کرایە سەر."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblitzs4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblitzs4("en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٥. (کردار) تێکەڵکردن یان وردکردنی خواردن بە ئامێرێکی کارەبایی"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Blitz until smooth and creamy."),
-                              const ExampleSentenceKurdish(
-                                  text: "تێکی بدە تا لووس و کرێمدار دەبێت."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblitzs5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblitzs5("en-US"),
+                                onPressed: () => speakblooms6("en-US"),
                               ),
                             ],
                           ),
@@ -320,21 +332,25 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: blitz (derived forms: blitzes)
-1. (military) a swift and violent military offensive with intensive aerial bombardment (= blitzkrieg)
- 
-2. (American football) defensive players try to break through the offensive line (= safety blitz, linebacker blitzing)
- 
-3. [informal] A sudden concerted effort to do something
+- Verb: bloom (Derived forms: bloomed, blooming, blooms)
+1. Produce or yield flowers (= blossom, flower)
+"The cherry tree bloomed";
 
-- Verb: blitz (derived forms: blitzes, blitzed, blitzing)
-1. Attack suddenly and without warning
-"Hitler blitzed Poland"
- 
-2. [informal] Blend food in a food processor
+2. Make steady progress; be at the high point in one's career or reach a high point in historical significance or importance (= thrive, prosper, fly high, flourish, flower)
 
-- Noun: Blitz
-1. The series of air raids launched on various cities in Britain (including London) by the German airforce 1940-1941 (= The Blitz)
+- Noun: bloom (Derived forms: blooms)
+1. The organic process of bearing flowers (= blooming)
+"you will stop all bloom if you let the flowers go to seed";
+ 
+2. Reproductive organ of angiosperm plants especially one having showy or colourful parts (= flower, blossom)
+ 
+3. The best time of youth (= bloom of youth, salad days)
+ 
+4. A rosy colour (especially in the cheeks) taken as a sign of good health (= blush, flush, rosiness)
+ 
+5. The period of greatest prosperity or productivity (= flower, prime, peak, heyday, blossom, efflorescence, flush)
+ 
+6. A powdery deposit on a surface (= efflorescence)
 """,
           )
         ],
@@ -348,12 +364,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "bIDKhZ_4jLQ";
+  static String myVideoId = "https://youtu.be/nEUdhHrqOf8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 76, // DOPSUM: CHANGE IT
+      startAt: 456, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -373,12 +389,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "oD9BaNAH-eE";
+  static String myVideoId = "https://youtu.be/QaxBsqBvfNA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2205, // DOPSUM: CHANGE IT
+      startAt: 522, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -398,12 +414,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "OPVZcsdy9RY";
+  static String myVideoId = "https://youtu.be/mzEKn81QrNU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 876, // DOPSUM: CHANGE IT
+      startAt: 616, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -423,12 +439,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "4zDZV-jGJ6w";
+  static String myVideoId = "https://youtu.be/RsnXNHsecI8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 755, // DOPSUM: CHANGE IT
+      startAt: 80, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -448,12 +464,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "KV-SUOpW408";
+  static String myVideoId = "https://youtu.be/VqASdcme4e8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 640, // DOPSUM: CHANGE IT
+      startAt: 611, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -473,12 +489,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "BriBDiBxaMY";
+  static String myVideoId = "https://youtu.be/meIkhnNh4CU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2429, // DOPSUM: CHANGE IT
+      startAt: 348, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -498,12 +514,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "RVEm5Am-tYc";
+  static String myVideoId = "https://youtu.be/_Q0FYoCl4Cs?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 187, // DOPSUM: CHANGE IT
+      startAt: 27, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -523,12 +539,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "akA_Z9Xmnvc";
+  static String myVideoId = "https://youtu.be/gO_gm74yiUY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 69, // DOPSUM: CHANGE IT
+      startAt: 63, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -548,12 +564,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "wEIWMfij7_U";
+  static String myVideoId = "https://youtu.be/pdPX91sYtfc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 29, // DOPSUM: CHANGE IT
+      startAt: 482, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -573,12 +589,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "uWSOJMcvDec";
+  static String myVideoId = "https://youtu.be/0ksdjJMWIpE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 75, // DOPSUM: CHANGE IT
+      startAt: 88, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -598,12 +614,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "ZijqVV1NqYQ";
+  static String myVideoId = "https://youtu.be/1i18ZutJV8c?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 746, // DOPSUM: CHANGE IT
+      startAt: 189, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -623,12 +639,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "2_5jjUmlh6I";
+  static String myVideoId = "https://youtu.be/NVGuFdX5guE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2247, // DOPSUM: CHANGE IT
+      startAt: 336, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -647,4 +663,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end blitz
+// end bloom

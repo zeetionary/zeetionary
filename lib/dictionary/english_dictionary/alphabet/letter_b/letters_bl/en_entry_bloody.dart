@@ -5,85 +5,85 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "blitz" and provide five simple and short example sentences for each meaning. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
+// Define the word "bloody" and provide five 10-words or less long example sentences for each meaning. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
 
-// replace blitz - /blɪts/
+// replace bloody - /ˈblʌdi/
 
 enum TtsState { playing }
 
-class EnglishEntryblitz extends StatelessWidget {
+class EnglishEntrybloody extends StatelessWidget {
 // blank divider
-  EnglishEntryblitz({super.key});
+  EnglishEntrybloody({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakblitz(String languageCode) async {
-    // DOPSUM: CHANGE speakblitz
+  Future<void> speakbloody(String languageCode) async {
+    // DOPSUM: CHANGE speakbloody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("blitz"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bloody"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblitzs1(String languageCode) async {
-    // DOPSUM: CHANGE speakblitz
+  Future<void> speakbloodys1(String languageCode) async {
+    // DOPSUM: CHANGE speakbloody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Don't be such a bloody fool."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbloodys2(String languageCode) async {
+    // DOPSUM: CHANGE speakbloody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("That was a bloody good meal!"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbloodys3(String languageCode) async {
+    // DOPSUM: CHANGE speakbloody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("She did bloody well to win that race."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbloodys4(String languageCode) async {
+    // DOPSUM: CHANGE speakbloody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Five shops were damaged in a firebomb blitz."); // DOPSUM: CHANGE TEXT
+        "The terrorists have halted their bloody campaign of violence."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblitzs2(String languageCode) async {
-    // DOPSUM: CHANGE speakblitz
+  Future<void> speakbloodys5(String languageCode) async {
+    // DOPSUM: CHANGE speakbloody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Many people died in the London Blitz."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The injured soldier's uniform was torn and bloody."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblitzs3(String languageCode) async {
-    // DOPSUM: CHANGE speakblitz
+  Future<void> speakbloodys6(String languageCode) async {
+    // DOPSUM: CHANGE speakbloody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I've had a blitz on the house."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbloodys66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakblitzs4(String languageCode) async {
-    // DOPSUM: CHANGE speakblitz
+  Future<void> speakbloodys7(String languageCode) async {
+    // DOPSUM: CHANGE speakbloody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("London was heavily blitzed in the war."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakblitzs5(String languageCode) async {
-    // DOPSUM: CHANGE speakblitz
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Blitz until smooth and creamy."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakblitzs6(String languageCode) async {
-    // DOPSUM: CHANGE speakblitz
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblitzs66"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakblitzs7(String languageCode) async {
-    // DOPSUM: CHANGE speakblitz
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakblitzs77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbloodys77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -106,22 +106,22 @@ class EnglishEntryblitz extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "blitz"),
+                            EntryTitle(word: "bloody"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /blɪts/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈblʌdi/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakblitz("en-GB"),
+                              onPressed: () => speakbloody("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /blɪts/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈblʌdi/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakblitz("en-US"),
+                              onPressed: () => speakbloody("en-US"),
                             ),
                           ],
                         ),
@@ -167,105 +167,96 @@ class EnglishEntryblitz extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ھێرشی کت‌وپڕ، ھێرشی میلیتاری خەست‌وخۆڵی ناکاو، پەلامار، حەولێکی ھاوبەش و کوت‌وپڕ
+کوردی: شەڵاڵی خوێن، خەڵتانی خوێن، گۆنین، خوێنین، گەوزاوی خوێن، خوون‌گرتی، دڵڕەشانە، خوێناوی، شپرزە، سەخت، قورس، لەگەڵ توندوتیژی
 
-١. (ناو) ھێرشی لەناکاو"""),
+١. (ھاوەڵناو) وشەیەک کە زۆر کەس بە ناپەسەندی دەبینن و بەکاردێت بۆ جەختکردنەووە لە لێدوانێک یان یان دەربڕینێکی تووڕە"""),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Don't be such a bloody fool."),
+                              const ExampleSentenceKurdish(
+                                  text: "هێندە گەمژە مەبە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbloodys1("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbloodys1("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "That was a bloody good meal!"),
+                              const ExampleSentenceKurdish(
+                                  text: "خواردنێکی تەواو خۆش بوو."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbloodys2("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbloodys2("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Five shops were damaged in a firebomb blitz."),
+                                      "She did bloody well to win that race."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پێنج فرۆشگا زیانیان پێگەیشت لە ھێرشێکی لەناکاوی بۆمبی ئاگرین."),
+                                      "زۆر باش هەوڵیدا بۆ بردنەوەی پێشبڕکێیەکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakblitzs1("en-GB"),
+                                onPressed: () => speakbloodys3("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakblitzs1("en-US"),
+                                onPressed: () => speakbloodys3("en-US"),
                               ),
                             ],
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) ھێرشی لەناکاوی ئەڵمانیا بۆ سەر بەریتانیا لە ساڵانی ١٩٤٠-١٩٤١"),
+                                  "٢. (ھاوەڵناو) لەخۆگرتنی توندوتیژی و کوشتنی زۆر"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Many people died in the London Blitz."),
+                                      "The terrorists have halted their bloody campaign of violence."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "زۆر کەس ژیانیان لەدەستدا لە ھێرشی لەناکاوی سەر لەندەن (ھێرشی ئەڵمانیا بۆ سەر لەندەن لە ١٩٤٠-١٩٤١)."),
+                                      "تیرۆریستەکان کەمپینی خوێناویی توندوتیژیان وەستاندووە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakblitzs2("en-GB"),
+                                onPressed: () => speakbloodys4("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakblitzs2("en-US"),
+                                onPressed: () => speakbloodys4("en-US"),
                               ),
                             ],
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text:
-                                  "٣. (ناو) ھەوڵێکی لەناکاوی ڕێکخراو بۆ مامەڵەکردن لەگەڵ شتێک یان بەدەستھێنانی شتێک"),
+                              text: "٣. (ھاوەڵناو) داپۆشراو بە خوێن"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "I've had a blitz on the house (= cleaned it very thoroughly)."),
+                                      "The injured soldier's uniform was torn and bloody."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ھەڵمەتێکی پاککردنەوەی ماڵەکەم ئەنجام دا."),
+                                      "جلی سەربازە بریندارەکە دڕابوو و خوێناوی بوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakblitzs3("en-GB"),
+                                onPressed: () => speakbloodys5("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakblitzs3("en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (کردار) ھێرشکردنە سەر شارێک بە بەردانەوەی ژمارەیەکی زۆر بۆمب لە ماوەیەکی کەمدا"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "London was heavily blitzed in the war."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەندەن بە سەختی لە جەنگەکەدا بە سەختی ھێرشی لەناکاوی کرایە سەر."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblitzs4("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblitzs4("en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٥. (کردار) تێکەڵکردن یان وردکردنی خواردن بە ئامێرێکی کارەبایی"),
-                          Row(
-                            children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Blitz until smooth and creamy."),
-                              const ExampleSentenceKurdish(
-                                  text: "تێکی بدە تا لووس و کرێمدار دەبێت."),
-                              const CustomSizedBoxForTTS(),
-                              CustomIconButtonBritish(
-                                onPressed: () => speakblitzs5("en-GB"),
-                              ),
-                              CustomIconButtonAmerican(
-                                onPressed: () => speakblitzs5("en-US"),
+                                onPressed: () => speakbloodys5("en-US"),
                               ),
                             ],
                           ),
@@ -320,21 +311,23 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: blitz (derived forms: blitzes)
-1. (military) a swift and violent military offensive with intensive aerial bombardment (= blitzkrieg)
+- Adjective: bloody (Derived forms: bloodier, bloodiest)
+1. Having or covered with or accompanied by blood
+"a bloody nose"; "your scarf is all bloody"; "the effects will be violent and probably bloody"; "a bloody fight"
  
-2. (American football) defensive players try to break through the offensive line (= safety blitz, linebacker blitzing)
+2. [Brit, informal] Informal intensifier (= bally [Brit, informal], blinking [Brit, informal], blooming [Brit, informal], crashing, flaming, freaking [informal], effing [Brit, informal])
+"what a bloody nuisance"; "a bloody fool";
  
-3. [informal] A sudden concerted effort to do something
+3. [Brit, informal] Used for disapproving emphasis (= bleeding [Brit, informal], bleedin' [Brit, informal])
+"he's a bloody idiot";
 
-- Verb: blitz (derived forms: blitzes, blitzed, blitzing)
-1. Attack suddenly and without warning
-"Hitler blitzed Poland"
- 
-2. [informal] Blend food in a food processor
+- Verb: bloody (Derived forms: bloodied, bloodying, bloodies)
+1. Cover with blood
+"bloody your hands"
 
-- Noun: Blitz
-1. The series of air raids launched on various cities in Britain (including London) by the German airforce 1940-1941 (= The Blitz)
+- Adverb: bloody
+1. Extremely (= damn, all-fired, all-firedly [US, informal])
+"you are bloody right";
 """,
           )
         ],
@@ -348,12 +341,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "bIDKhZ_4jLQ";
+  static String myVideoId = "https://youtu.be/Kou7ur5xt_4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 76, // DOPSUM: CHANGE IT
+      startAt: 356, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -373,12 +366,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "oD9BaNAH-eE";
+  static String myVideoId = "https://youtu.be/rRymSi8SmqA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2205, // DOPSUM: CHANGE IT
+      startAt: 831, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -398,12 +391,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "OPVZcsdy9RY";
+  static String myVideoId = "https://youtu.be/v6yg4ImnYwA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 876, // DOPSUM: CHANGE IT
+      startAt: 588, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -423,12 +416,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "4zDZV-jGJ6w";
+  static String myVideoId = "https://youtu.be/BZbChKzedEk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 755, // DOPSUM: CHANGE IT
+      startAt: 281, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -448,12 +441,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "KV-SUOpW408";
+  static String myVideoId = "https://youtu.be/yRmOWcWdQAo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 640, // DOPSUM: CHANGE IT
+      startAt: 39, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -473,12 +466,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "BriBDiBxaMY";
+  static String myVideoId = "https://youtu.be/0jltioeaEyY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2429, // DOPSUM: CHANGE IT
+      startAt: 248, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -498,12 +491,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "RVEm5Am-tYc";
+  static String myVideoId = "https://youtu.be/B3VHd2D-SLM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 187, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -523,12 +516,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "akA_Z9Xmnvc";
+  static String myVideoId = "https://youtu.be/c0Hllx5Xf1A?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 69, // DOPSUM: CHANGE IT
+      startAt: 64, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -548,12 +541,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "wEIWMfij7_U";
+  static String myVideoId = "https://youtu.be/Ukfjla_32DM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 29, // DOPSUM: CHANGE IT
+      startAt: 7, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -573,12 +566,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "uWSOJMcvDec";
+  static String myVideoId = "https://youtu.be/zDdAPHuRGN0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 75, // DOPSUM: CHANGE IT
+      startAt: 426, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -598,12 +591,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "ZijqVV1NqYQ";
+  static String myVideoId = "https://youtu.be/3YR4CseY9pk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 746, // DOPSUM: CHANGE IT
+      startAt: 310, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -623,12 +616,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "2_5jjUmlh6I";
+  static String myVideoId = "https://youtu.be/Y5yCbi4qcpk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2247, // DOPSUM: CHANGE IT
+      startAt: 104, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -647,4 +640,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end blitz
+// end bloody

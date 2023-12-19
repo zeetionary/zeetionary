@@ -1822,6 +1822,22 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_bloom.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_blossom.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_blot.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_blotter.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_blotting_paper.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_blotch.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_blouse.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_blow.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_blowlamp.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_blowout.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_blow_up.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_blow_by_blow.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_blubber.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_bludgeon.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_blue.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_bluebell.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_blue_blooded.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_bluebottle.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_DOPSUM.dart';
@@ -3712,11 +3728,14 @@ final loggedInRoute = RouteMap(routes: {
   "/english-bizarre": (_) => MaterialPage(child: EnglishEntrybizarre()),
   "/english-blab": (_) => MaterialPage(child: EnglishEntryblab()),
   "/english-black": (_) => MaterialPage(child: EnglishEntryblack()),
-  "/english-blackberry-one": (_) => MaterialPage(child: EnglishEntryblackberryone()),
-  "/english-blackberry-two": (_) => MaterialPage(child: EnglishEntryblackberrytwo()),
+  "/english-blackberry-one": (_) =>
+      MaterialPage(child: EnglishEntryblackberryone()),
+  "/english-blackberry-two": (_) =>
+      MaterialPage(child: EnglishEntryblackberrytwo()),
   "/english-blackbird": (_) => MaterialPage(child: EnglishEntryblackbird()),
   "/english-blackboard": (_) => MaterialPage(child: EnglishEntryblackboard()),
-  "/english-blackcurrant": (_) => MaterialPage(child: EnglishEntryblackcurrant()),
+  "/english-blackcurrant": (_) =>
+      MaterialPage(child: EnglishEntryblackcurrant()),
   "/english-blacken": (_) => MaterialPage(child: EnglishEntryblacken()),
   "/english-black-eye": (_) => MaterialPage(child: EnglishEntryblackeye()),
   "/english-blackhead": (_) => MaterialPage(child: EnglishEntryblackhead()),
@@ -3726,7 +3745,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-blackly": (_) => MaterialPage(child: EnglishEntryblackly()),
   "/english-blackmail": (_) => MaterialPage(child: EnglishEntryblackmail()),
   "/english-blackmailer": (_) => MaterialPage(child: EnglishEntryblackmailer()),
-  "/english-black-market": (_) => MaterialPage(child: EnglishEntryblackmarket()),
+  "/english-black-market": (_) =>
+      MaterialPage(child: EnglishEntryblackmarket()),
   "/english-blackness": (_) => MaterialPage(child: EnglishEntryblackness()),
   "/english-blackout": (_) => MaterialPage(child: EnglishEntryblackout()),
   "/english-black-sheep": (_) => MaterialPage(child: EnglishEntryblacksheep()),
@@ -3742,7 +3762,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-blandly": (_) => MaterialPage(child: EnglishEntryblandly()),
   "/english-blandness": (_) => MaterialPage(child: EnglishEntryblandness()),
   "/english-blank": (_) => MaterialPage(child: EnglishEntryblank()),
-  "/english-blank-cheque": (_) => MaterialPage(child: EnglishEntryblankcheque()),
+  "/english-blank-cheque": (_) =>
+      MaterialPage(child: EnglishEntryblankcheque()),
   "/english-blankly": (_) => MaterialPage(child: EnglishEntryblankly()),
   "/english-blank-verse": (_) => MaterialPage(child: EnglishEntryblankverse()),
   "/english-blanket": (_) => MaterialPage(child: EnglishEntryblanket()),
@@ -3752,7 +3773,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-blasphemous": (_) => MaterialPage(child: EnglishEntryblasphemous()),
   "/english-blasphemy": (_) => MaterialPage(child: EnglishEntryblasphemy()),
   "/english-blast": (_) => MaterialPage(child: EnglishEntryblast()),
-  "/english-blast-furnace": (_) => MaterialPage(child: EnglishEntryblastfurnace()),
+  "/english-blast-furnace": (_) =>
+      MaterialPage(child: EnglishEntryblastfurnace()),
   "/english-blast-off": (_) => MaterialPage(child: EnglishEntryblastoff()),
   "/english-blatant": (_) => MaterialPage(child: EnglishEntryblatant()),
   "/english-blatantly": (_) => MaterialPage(child: EnglishEntryblatantly()),
@@ -3793,7 +3815,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-blob": (_) => MaterialPage(child: EnglishEntryblob()),
   "/english-bloc": (_) => MaterialPage(child: EnglishEntrybloc()),
   "/english-block": (_) => MaterialPage(child: EnglishEntryblock()),
-  "/english-block-capitals": (_) => MaterialPage(child: EnglishEntryblockcapitals()),
+  "/english-block-capitals": (_) =>
+      MaterialPage(child: EnglishEntryblockcapitals()),
   "/english-blockade": (_) => MaterialPage(child: EnglishEntryblockade()),
   "/english-blockage": (_) => MaterialPage(child: EnglishEntryblockage()),
   "/english-blog": (_) => MaterialPage(child: EnglishEntryblog()),
@@ -3803,41 +3826,49 @@ final loggedInRoute = RouteMap(routes: {
   "/english-blonde": (_) => MaterialPage(child: EnglishEntryblonde()),
   "/english-blood": (_) => MaterialPage(child: EnglishEntryblood()),
   "/english-bloodbath": (_) => MaterialPage(child: EnglishEntrybloodbath()),
-  "/english-blood-curdling": (_) => MaterialPage(child: EnglishEntrybloodcurdling()),
+  "/english-blood-curdling": (_) =>
+      MaterialPage(child: EnglishEntrybloodcurdling()),
   "/english-blood-donor": (_) => MaterialPage(child: EnglishEntryblooddonor()),
   "/english-blood-group": (_) => MaterialPage(child: EnglishEntrybloodgroup()),
   "/english-bloodhound": (_) => MaterialPage(child: EnglishEntrybloodhound()),
   "/english-bloodless": (_) => MaterialPage(child: EnglishEntrybloodless()),
-  "/english-blood-poisoning": (_) => MaterialPage(child: EnglishEntrybloodpoisoning()),
-  "/english-blood-pressure": (_) => MaterialPage(child: EnglishEntrybloodpressure()),
+  "/english-blood-poisoning": (_) =>
+      MaterialPage(child: EnglishEntrybloodpoisoning()),
+  "/english-blood-pressure": (_) =>
+      MaterialPage(child: EnglishEntrybloodpressure()),
   "/english-bloodshed": (_) => MaterialPage(child: EnglishEntrybloodshed()),
   "/english-bloodshot": (_) => MaterialPage(child: EnglishEntrybloodshot()),
-  "/english-bloodstained": (_) => MaterialPage(child: EnglishEntrybloodstained()),
+  "/english-bloodstained": (_) =>
+      MaterialPage(child: EnglishEntrybloodstained()),
   "/english-bloodstream": (_) => MaterialPage(child: EnglishEntrybloodstream()),
   "/english-bloodsucker": (_) => MaterialPage(child: EnglishEntrybloodsucker()),
-  "/english-bloodthirsty": (_) => MaterialPage(child: EnglishEntrybloodthirsty()),
-  "/english-blood-vessel": (_) => MaterialPage(child: EnglishEntrybloodvessel()),
+  "/english-bloodthirsty": (_) =>
+      MaterialPage(child: EnglishEntrybloodthirsty()),
+  "/english-blood-vessel": (_) =>
+      MaterialPage(child: EnglishEntrybloodvessel()),
   "/english-bloody": (_) => MaterialPage(child: EnglishEntrybloody()),
   "/english-bloodily": (_) => MaterialPage(child: EnglishEntrybloodily()),
-  "/english-bloody-minded": (_) => MaterialPage(child: EnglishEntrybloodyminded()),
+  "/english-bloody-minded": (_) =>
+      MaterialPage(child: EnglishEntrybloodyminded()),
   "/english-bloom": (_) => MaterialPage(child: EnglishEntrybloom()),
   "/english-blossom": (_) => MaterialPage(child: EnglishEntryblossom()),
   "/english-blot": (_) => MaterialPage(child: EnglishEntryblot()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-blotter": (_) => MaterialPage(child: EnglishEntryblotter()),
+  "/english-blotting-paper": (_) =>
+      MaterialPage(child: EnglishEntryblottingpaper()),
+  "/english-blotch": (_) => MaterialPage(child: EnglishEntryblotch()),
+  "/english-blouse": (_) => MaterialPage(child: EnglishEntryblouse()),
+  "/english-blow": (_) => MaterialPage(child: EnglishEntryblow()),
+  "/english-blowlamp": (_) => MaterialPage(child: EnglishEntryblowlamp()),
+  "/english-blowout": (_) => MaterialPage(child: EnglishEntryblowout()),
+  "/english-blow-up": (_) => MaterialPage(child: EnglishEntryblowup()),
+  "/english-blow-by-blow": (_) => MaterialPage(child: EnglishEntryblowbyblow()),
+  "/english-blubber": (_) => MaterialPage(child: EnglishEntryblubber()),
+  "/english-bludgeon": (_) => MaterialPage(child: EnglishEntrybludgeon()),
+  "/english-blue": (_) => MaterialPage(child: EnglishEntryblue()),
+  "/english-bluebell": (_) => MaterialPage(child: EnglishEntrybluebell()),
+  "/english-blue-blooded": (_) => MaterialPage(child: EnglishEntryblueblooded()),
+  "/english-bluebottle": (_) => MaterialPage(child: EnglishEntrybluebottle()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

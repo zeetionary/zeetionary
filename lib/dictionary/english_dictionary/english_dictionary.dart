@@ -1846,22 +1846,22 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     // "bloom",
     // "blossom",
     // "blot",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "blotch",
+    // "blotter",
+    // "blotting paper",
+    // "blouse",
+    // "blow",
+    // "blowlamp",
+    // "blowout",
+    // "blowtorch",
+    // "blow-up",
+    // "blow-by-blow",
+    // "blubber",
+    // "bludgeon",
+    // "blue",
+    // "bluebell",
+    // "blue-blooded",
+    // "bluebottle",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -9492,73 +9492,73 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-blot");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "blotter") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-blotter");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "blotting paper") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-blotting-paper");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "blotch") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-blotch");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "blouse") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-blouse");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "blow") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-blow");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "blowlamp") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-blowlamp");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "blowtorch") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-blowlamp");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "blowout") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-blowout");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "blow-up") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-blow-up");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "blow-by-blow") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-blow-by-blow");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "blubber") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-blubber");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "bludgeon") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-bludgeon");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "blue") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-blue");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "bluebell") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-bluebell");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "blue-blooded") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-blue-blooded");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "bluebottle") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-bluebottle");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "bluebottle") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-bluebottle");
                   // }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);

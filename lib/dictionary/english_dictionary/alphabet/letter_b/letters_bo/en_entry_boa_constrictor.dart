@@ -5,92 +5,82 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "automate" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
+// Define the word "boa constrictor" and for each meaning provide five example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
 
-// replace automate - replace EnglishEntryautomate
-
-// replace speakAutomate - /ˈɔːtəmeɪt/ - find WORD_WEB
+// replace boa constrictor - /ˌbəʊə kənˈstrɪktə(r)/
 
 enum TtsState { playing }
 
-class EnglishEntryautomate extends StatelessWidget {
-  // blank divider
-  EnglishEntryautomate({super.key});
-  // blank divider
+class EnglishEntryboaconstrictor extends StatelessWidget {
+// blank divider
+  EnglishEntryboaconstrictor({super.key});
+// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAutomate(String languageCode) async {
-    // DOPSUM: CHANGE speakAutomate
+  Future<void> speakboaconstrictor(String languageCode) async {
+    // DOPSUM: CHANGE speakboaconstrictor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("automate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("boa constrictor"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAutomate1012(String languageCode) async {
-    // DOPSUM: CHANGE speakAutomate
+  Future<void> speakboaconstrictors1(String languageCode) async {
+    // DOPSUM: CHANGE speakboaconstrictor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The entire manufacturing process has been automated."); // DOPSUM: CHANGE TEXT
+        "A boa constrictor's diet mainly consists of small mammals and birds."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAutomate(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAutomate
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("automate"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakboaconstrictors2(String languageCode) async {
+    // DOPSUM: CHANGE speakboaconstrictor
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakboaconstrictors22"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAutomate(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAutomate
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("automate"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakboaconstrictors3(String languageCode) async {
+    // DOPSUM: CHANGE speakboaconstrictor
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakboaconstrictors33"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAutomate(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAutomate
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("automate"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakboaconstrictors4(String languageCode) async {
+    // DOPSUM: CHANGE speakboaconstrictor
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakboaconstrictors44"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAutomate(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAutomate
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("automate"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakboaconstrictors5(String languageCode) async {
+    // DOPSUM: CHANGE speakboaconstrictor
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakboaconstrictors55"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAutomate(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAutomate
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("automate"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakboaconstrictors6(String languageCode) async {
+    // DOPSUM: CHANGE speakboaconstrictor
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakboaconstrictors66"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAutomate(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAutomate
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("automate"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAutomate(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAutomate
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("automate"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakboaconstrictors7(String languageCode) async {
+    // DOPSUM: CHANGE speakboaconstrictor
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakboaconstrictors77"); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -112,28 +102,24 @@ class EnglishEntryautomate extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "automate"), // DOPSUM: CHANGE WORD ENTRY
-                            // divvviiider
+                            EntryTitle(word: "boa constrictor"),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈɔːtəmeɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                text: "IpaUK: /ˌbəʊə kənˈstrɪktə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAutomate("en-GB"),
+                              onPressed: () => speakboaconstrictor("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈɔːtəmeɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                text: "IpaUS: /ˌbəʊə kənˈstrɪktər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAutomate("en-US"),
+                              onPressed: () => speakboaconstrictor("en-US"),
                             ),
                           ],
                         ),
@@ -152,7 +138,7 @@ class EnglishEntryautomate extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 10
-                  VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   // VideoIconForTab(), // 09
                   // VideoIconForTab(), // 10
@@ -161,6 +147,11 @@ class EnglishEntryautomate extends StatelessWidget {
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
+                  // VideoIconForTab(), // 16
+                  // VideoIconForTab(), // 17
+                  // VideoIconForTab(), // 18
+                  // VideoIconForTab(), // 19
+                  // VideoIconForTab(), // 20
                 ],
               ),
               Expanded(
@@ -174,34 +165,28 @@ class EnglishEntryautomate extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: خۆبەکاربەرین، بە خۆکارکردن، کۆمپیوتەریکردن، ماشینیکردن
-
-١. (کردار) بەکارھێنانی ئامێر و کۆمپیوتەر بۆ کردنی کار لە جیاتی مرۆڤ"""),
+١. (ناو) مارێکی گەورەی ئەمریکای باشوور کە ئاژەڵ دەکوژێت بۆ خواردن بە سووڕدانی لاشە درێژەکەی بە توندی بە دەوریاندا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The entire manufacturing process has been automated."),
+                                      "A boa constrictor's diet mainly consists of small mammals and birds."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "تەواوی پڕۆسەی بەرھەمھێنانەکە کراوە بە خۆکارانە."),
+                                      "خواردنی ماری بووا بەزۆری پێکدێت لە شیردەری بچووک و باڵندە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakAutomate1012("en-GB"),
+                                onPressed: () => speakboaconstrictors1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () =>
-                                    speakAutomate1012(// REPLACE: automate
-                                        "en-US"),
+                                onPressed: () => speakboaconstrictors1("en-US"),
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                    YoutubeEmbeddedone(),
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
@@ -216,6 +201,12 @@ class EnglishEntryautomate extends StatelessWidget {
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
+                    // YoutubeEmbeddeddsixteen(),
+                    // YoutubeEmbeddeddseventeen(),
+                    // YoutubeEmbeddeddeighteen(),
+                    // YoutubeEmbeddeddnineteen(),
+                    // YoutubeEmbeddedtwenty(),
+                    // YoutubeEmbeddedmulti(),
                   ],
                 ),
               ),
@@ -243,9 +234,8 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Verb: automate (derived forms: automating, automates, automated)
-1. Make automatic, control or operate automatically (= automatize, automatise [Brit])
-"automate the movement of the robot";
+- Noun: boa constrictor (Derived forms: boa constrictors)
+1. Very large boa of tropical America and West Indies (= Constrictor constrictor)
 """,
           )
         ],
@@ -257,12 +247,14 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "IgF3OX8nT0w";
+  YoutubeEmbeddedone({super.key});
+
+  static String myVideoId = "https://youtu.be/fdf1AqxhVoM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 461, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -270,8 +262,6 @@ class YoutubeEmbeddedone extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedone({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -282,12 +272,14 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "3i1lNJPY-4Q";
+  YoutubeEmbeddedtwo({super.key});
+
+  static String myVideoId = "https://youtu.be/vr_HRkpzv8s?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 447, // DOPSUM: CHANGE IT
+      startAt: 990, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -295,8 +287,6 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedtwo({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -307,12 +297,14 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "tlezBUdD53w";
+  YoutubeEmbeddedthree({super.key});
+
+  static String myVideoId = "https://youtu.be/dbINBBZyVX0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 108, // DOPSUM: CHANGE IT
+      startAt: 193, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -320,8 +312,6 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedthree({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -332,12 +322,14 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "-iqiRCQWRmA";
+  YoutubeEmbeddedfour({super.key});
+
+  static String myVideoId = "https://youtu.be/1aehZR5XzU0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 226, // DOPSUM: CHANGE IT
+      startAt: 1043, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -345,8 +337,6 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedfour({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -357,12 +347,14 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "RSTNhvDGbYI";
+  YoutubeEmbeddedfive({super.key});
+
+  static String myVideoId = "https://youtu.be/P9CGoBWXmyY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 511, // DOPSUM: CHANGE IT
+      startAt: 214, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -370,8 +362,6 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedfive({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -382,12 +372,14 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "UiS27feX8o0";
+  YoutubeEmbeddedsix({super.key});
+
+  static String myVideoId = "https://youtu.be/mTj6CN2XZvE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 85, // DOPSUM: CHANGE IT
+      startAt: 57, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -395,8 +387,6 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedsix({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -407,12 +397,14 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "L_Guz73e6fw";
+  YoutubeEmbeddedseven({super.key});
+
+  static String myVideoId = "https://youtu.be/PI-5fBzMHQo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 3105, // DOPSUM: CHANGE IT
+      startAt: 1510, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -420,8 +412,6 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedseven({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -432,12 +422,14 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "RM9GY-n6PEA";
+  YoutubeEmbeddedeight({super.key});
+
+  static String myVideoId = "https://youtu.be/U1jVmqddSVI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 46, // DOPSUM: CHANGE IT
+      startAt: 73, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -445,8 +437,6 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedeight({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -457,6 +447,8 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
+  YoutubeEmbeddednine({super.key});
+
   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
@@ -470,8 +462,6 @@ class YoutubeEmbeddednine extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddednine({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -482,6 +472,8 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
+  YoutubeEmbeddedten({super.key});
+
   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
@@ -495,8 +487,6 @@ class YoutubeEmbeddedten extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedten({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -507,6 +497,8 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
+  YoutubeEmbeddedeleven({super.key});
+
   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
@@ -520,8 +512,6 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedeleven({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -532,6 +522,8 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
+  YoutubeEmbeddedtwelve({super.key});
+
   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
@@ -546,8 +538,6 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
     ),
   );
 
-  YoutubeEmbeddedtwelve({super.key});
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -556,65 +546,6 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
   }
 }
 
-// morethan one video, only first autoplay
+// more than one video, only first autoplay
 
-// class YoutubeEmbeddedthirteen extends StatelessWidget {
-//   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-//   static String myVideoIdTwo = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-//   static String myVideoIdThree = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-//   final YoutubePlayerController _controller = YoutubePlayerController(
-//     initialVideoId: myVideoId,
-//     flags: const YoutubePlayerFlags(
-//       autoPlay: true,
-//       enableCaption: true,
-//       loop: true,
-//       mute: false,
-//       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
-//     ),
-//   );
-
-//   final YoutubePlayerController _controllertwo = YoutubePlayerController(
-//     initialVideoId: myVideoIdTwo,
-//     flags: const YoutubePlayerFlags(
-      // autoPlay: false,
-//       enableCaption: true,
-//       loop: true,
-//       mute: false,
-//       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
-//     ),
-//   );
-
-//   final YoutubePlayerController _controllerthree = YoutubePlayerController(
-//     initialVideoId: myVideoIdThree,
-//     flags: const YoutubePlayerFlags(
-//       autoPlay: false,
-//       enableCaption: true,
-//       loop: true,
-//       mute: false,
-//       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
-//     ),
-//   );
-
-//   YoutubeEmbeddedthirteen({super.key});
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       body: SingleChildScrollView(
-//         child: Column(
-//           children: [
-//             YouTubeContainerDesign(controller: _controller),
-//             YouTubeContainerDesign(controller: _controllertwo),
-//             YouTubeContainerDesign(controller: _controllerthree),
-//           ],
-//         ),
-//       ),
-//     );
-//   }
-// }
-
-// end automate // TODO Implement this library.
+// end boa constrictor

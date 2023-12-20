@@ -124,7 +124,6 @@ class EnglishEntryadvent extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: دەرکەوتن، سەرھەڵدان، پەیدابوون، چوونەنێو، ھاتن، ھاتنەوەی (پێغەمبەر) مەسیح (چوار حەوتوو پێش کریسمەس لە ئایینی کریستانیەت‌دا)
 
-
 ١. (ناو) گەشتنی کەسێک، بۆنەیەک، یان داھێنانێک"""),
                           Row(
                             children: [

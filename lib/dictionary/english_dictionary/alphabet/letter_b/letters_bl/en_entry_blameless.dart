@@ -193,7 +193,7 @@ class EnglishEntryblameless extends StatelessWidget {
                                   text:
                                       "In her father's eyes, she was blameless."),
                               const ExampleSentenceKurdish(
-                                  text: "لە ڕوانگەت باوکییەوە بێ‌راوان بوو."),
+                                  text: "لە ڕوانگەی باوکییەوە بێ‌تاوان بوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblamelesss2("en-GB"),

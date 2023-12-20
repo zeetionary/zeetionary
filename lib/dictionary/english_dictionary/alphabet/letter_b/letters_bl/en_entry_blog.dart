@@ -189,7 +189,7 @@ class EnglishEntryblog extends StatelessWidget {
                                       "You can post a comment on my blog here."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەتوانیت لێرە کۆمێنتێک بنووسیت لەسەر بلگۆەکەم."),
+                                      "دەتوانیت لێرە کۆمێنتێک بنووسیت لەسەر بلۆگەکەم."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblogs2("en-GB"),

@@ -174,7 +174,7 @@ class EnglishEntrybloodstream extends StatelessWidget {
                                       "They injected the drug directly into her bloodstream."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەرمانەکەیان ڕاستەوخۆ کرد ناو سووووڕی خوێنییەوە."),
+                                      "دەرمانەکەیان ڕاستەوخۆ کردە ناو سووڕی خوێنییەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbloodstreams1("en-GB"),

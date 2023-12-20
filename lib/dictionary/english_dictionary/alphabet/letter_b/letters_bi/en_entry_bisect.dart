@@ -173,7 +173,7 @@ class EnglishEntrybisect extends StatelessWidget {
                                   text: "A busy road bisects the village."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕێگایەکی قەرەباڵگ گوندەکەی دابەش دەکرد."),
+                                      "ڕێگایەکی قەرەباڵغ گوندەکەی دابەش دەکرد."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBisects1("en-GB"),

@@ -164,9 +164,9 @@ class EnglishEntryblotter extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ئاوهەڵچنە، وشکێنە، زوهانگ
+کوردی: ئاوھەڵچنە، وشکێنە، زوھانگ
 
-١. (ھاوەڵناو) پارچەیەکی گەورە لە وشککەرەوە کە لایەکی توند و جیڕە و بەکاردێت بۆ هەڵمژینی مەرەکەب، زۆرجار لەسەر مێزێک دادەنرێت بۆ پاراستنی لە کاتی نووسیندا"""),
+١. (ھاوەڵناو) پارچەیەکی گەورە لە وشککەرەوە کە لایەکی توند و جیڕە و بەکاردێت بۆ ھەڵمژینی مەرەکەب، زۆرجار لەسەر مێزێک دادەنرێت بۆ پاراستنی لە کاتی نووسیندا"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -174,7 +174,7 @@ class EnglishEntryblotter extends StatelessWidget {
                                       "She kept a fresh blotter on her desk."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئاوهەڵچنەیەکی پاکی لەسەر مێزەکەی دادەنا."),
+                                      "ئاوھەڵچنەیەکی پاکی لەسەر مێزەکەی دادەنا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblotters1("en-GB"),
@@ -256,7 +256,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: blotter (Derived forms: blotters)
+- Noun: blotter (derived forms: blotters)
 1. Absorbent paper used to dry ink (= blotting paper)
  
 2. The daily written record of events (as arrests) in a police station (= day book, police blotter, rap sheet, charge sheet)
@@ -273,7 +273,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/7MKeljf6LeE?t=";
+  static String myVideoId = "7MKeljf6LeE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -298,7 +298,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/5cGV1C5jwlM?t=";
+  static String myVideoId = "5cGV1C5jwlM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -323,7 +323,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/R6moRys9aZw?t=";
+  static String myVideoId = "R6moRys9aZw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -348,7 +348,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/LVKasemZyg0?t=";
+  static String myVideoId = "LVKasemZyg0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -373,7 +373,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/8DuskrZhd6A?t=";
+  static String myVideoId = "8DuskrZhd6A";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -398,7 +398,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/CMD2nNTtCYk?t=";
+  static String myVideoId = "CMD2nNTtCYk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -423,7 +423,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/7NF7o5vRGA0?t=";
+  static String myVideoId = "7NF7o5vRGA0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -448,7 +448,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/vpOybD-67GE?t=";
+  static String myVideoId = "vpOybD-67GE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -473,7 +473,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/g2sio7bqhfY?t=";
+  static String myVideoId = "g2sio7bqhfY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -498,7 +498,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/rNzipy5Wp7w?t=";
+  static String myVideoId = "rNzipy5Wp7w";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -523,7 +523,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/NxGHGXwZvxQ?t=";
+  static String myVideoId = "NxGHGXwZvxQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -548,7 +548,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/jaf1Yoga2OY?t=";
+  static String myVideoId = "jaf1Yoga2OY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

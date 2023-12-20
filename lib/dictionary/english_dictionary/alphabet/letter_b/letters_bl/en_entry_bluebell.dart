@@ -163,7 +163,7 @@ class EnglishEntrybluebell extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) گوڵێک کە لە باخچەدا یان بە سرووشتی دەڕوێت و قەدێکی کورتی هەیە و گوڵی بچووکی شین و سپی دەگرێت کە لە شێوەی زەنگدان"""),
+١. (ناو) گوڵێک کە لە باخچەدا یان بە سرووشتی دەڕوێت و قەدێکی کورتی ھەیە و گوڵی بچووکی شین و سپی دەگرێت کە لە شێوەی زەنگدان"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -171,7 +171,7 @@ class EnglishEntrybluebell extends StatelessWidget {
                                       "The bluebell carpeted the forest floor in spring."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "گوڵە گەزیزە دارستانەکەی داپۆشیبوو لە بەهاردا."),
+                                      "گوڵە گەزیزە دارستانەکەی داپۆشیبوو لە بەھاردا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbluebells1("en-GB"),
@@ -232,7 +232,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bluebell (Derived forms: bluebells)
+- Noun: bluebell (derived forms: bluebells)
 1. Sometimes placed in genus Scilla (= wild hyacinth, wood hyacinth, harebell, Hyacinthoides nonscripta, Scilla nonscripta)
  
 2. One of the most handsome prairie wildflowers having large erect bell-shaped bluish flowers; of moist places in prairies and fields from eastern Colorado and Nebraska south to New Mexico and Texas (= prairie gentian, tulip gentian, Eustoma grandiflorum)
@@ -251,7 +251,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/-NjskYPyGNU?t=";
+  static String myVideoId = "-NjskYPyGNU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -276,7 +276,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/2b0trjfaRok?t=";
+  static String myVideoId = "2b0trjfaRok";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -301,7 +301,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/K-dLQ16w6cQ?t=";
+  static String myVideoId = "K-dLQ16w6cQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -326,7 +326,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/QaVI0BW2AgY?t=";
+  static String myVideoId = "QaVI0BW2AgY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -351,7 +351,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/1Eohim8co50?t=";
+  static String myVideoId = "1Eohim8co50";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -376,7 +376,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/-HdqwFYg8U4?t=";
+  static String myVideoId = "-HdqwFYg8U4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -401,7 +401,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/UhCQjiRmNfI?t=";
+  static String myVideoId = "UhCQjiRmNfI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -426,7 +426,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/nlKmKHIdaKg?t=";
+  static String myVideoId = "nlKmKHIdaKg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -451,7 +451,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/6Phkv35VVUc?t=";
+  static String myVideoId = "6Phkv35VVUc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -476,7 +476,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/R7Ok9m7KNZE?t=";
+  static String myVideoId = "R7Ok9m7KNZE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -501,7 +501,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/0nB1mpgvOKc?t=";
+  static String myVideoId = "0nB1mpgvOKc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

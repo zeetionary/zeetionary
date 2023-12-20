@@ -30,8 +30,8 @@ class EnglishEntrybludgeon extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She had been bludgeoned to death."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She had been bludgeoned to death."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbludgeons2(String languageCode) async {
@@ -39,7 +39,8 @@ class EnglishEntrybludgeon extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They tried to bludgeon me into joining their protest."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They tried to bludgeon me into joining their protest."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbludgeons3(String languageCode) async {
@@ -136,7 +137,7 @@ class EnglishEntrybludgeon extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -169,8 +170,7 @@ class EnglishEntrybludgeon extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "She had been bludgeoned to death."),
+                                  text: "She had been bludgeoned to death."),
                               const ExampleSentenceKurdish(
                                   text: "کوتەک کاری کرا تا مردن."),
                               const CustomSizedBoxForTTS(),
@@ -183,22 +183,25 @@ class EnglishEntrybludgeon extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (کردار) زۆرکردن لە کەسێک تا شتێک بکات، بە تایبەتی بە مشتومڕکردن لەگەڵی"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (کردار) زۆرکردن لە کەسێک تا شتێک بکات، بە تایبەتی بە مشتومڕکردن لەگەڵی"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "They tried to bludgeon me into joining their protest."),
-                          const ExampleSentenceKurdish(
-                          text: "هەوڵیان دا پەلکێشم بکەنە ناو ناڕەزاییەتییەکەیانەوە."),
-                          const CustomSizedBoxForTTS(),
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbludgeons2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbludgeons2("en-US"),
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "They tried to bludgeon me into joining their protest."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ھەوڵیان دا پەلکێشم بکەنە ناو ناڕەزاییەتییەکەیانەوە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbludgeons2("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbludgeons2("en-US"),
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -251,10 +254,10 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bludgeon (Derived forms: bludgeons)
+- Noun: bludgeon (derived forms: bludgeons)
 1. A club used as a weapon
 
-- Verb: bludgeon (Derived forms: bludgeoned, bludgeons, bludgeoning)
+- Verb: bludgeon (derived forms: bludgeoned, bludgeons, bludgeoning)
 1. Overcome or coerce as if by using a heavy club
 "The teacher bludgeoned the students into learning the maths formulas"
  
@@ -272,7 +275,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/AAGIi62-sAU?t=";
+  static String myVideoId = "AAGIi62-sAU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -297,7 +300,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/0jltioeaEyY?t=";
+  static String myVideoId = "0jltioeaEyY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -322,7 +325,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/7eM7pb5M5DU?t=";
+  static String myVideoId = "7eM7pb5M5DU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -347,7 +350,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/OZ_xhkg32nk?t=";
+  static String myVideoId = "OZ_xhkg32nk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -372,7 +375,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/_BbaiH17hOU?t=";
+  static String myVideoId = "_BbaiH17hOU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -397,7 +400,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/x629nYBuLpY?t=";
+  static String myVideoId = "x629nYBuLpY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -422,7 +425,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/aABFIzfg72A?t=";
+  static String myVideoId = "aABFIzfg72A";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -447,7 +450,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/gft6dWYlVpQ?t=";
+  static String myVideoId = "gft6dWYlVpQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -472,7 +475,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/jzNc8Njf9Qs?t=";
+  static String myVideoId = "jzNc8Njf9Qs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -497,7 +500,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/pItv71bg0Cs?t=";
+  static String myVideoId = "pItv71bg0Cs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -522,7 +525,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/LonYUdhqqSU?t=";
+  static String myVideoId = "LonYUdhqqSU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -547,7 +550,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/JGf41TAFvTw?t=";
+  static String myVideoId = "JGf41TAFvTw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

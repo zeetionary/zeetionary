@@ -166,7 +166,7 @@ class EnglishEntryblowout extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: تەقینی پێچکە یان تایە، کون‌بوونێ تایە، پەنچەری، سووتان یان دەرپەڕینی فیوز، فیشقە، هەڵچوون، کوفارە (چاڵە نەوت یان گاز)، میوانی‌یەکی گەورە یان بۆنەیەکی کۆمەڵایەتی، سەرکەوتنی ئاسان
+کوردی: تەقینی پێچکە یان تایە، کون‌بوونێ تایە، پەنچەری، سووتان یان دەرپەڕینی فیوز، فیشقە، ھەڵچوون، کوفارە (چاڵە نەوت یان گاز)، میوانی‌یەکی گەورە یان بۆنەیەکی کۆمەڵایەتی، سەرکەوتنی ئاسان
 
 ١. (ناو) تەقینی تایە"""),
                           Row(
@@ -208,7 +208,7 @@ class EnglishEntryblowout extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (ناو) ئاهەنگێکی گەورە"),
+                              text: "٣. (ناو) ئاھەنگێکی گەورە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -216,7 +216,7 @@ class EnglishEntryblowout extends StatelessWidget {
                                       "They threw a blowout party to celebrate their graduation."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئاهەنگێکی گەورەیان ڕێکخست بۆ ئاهەنگگێڕانی تەواوکردنی زانکۆ."),
+                                      "ئاھەنگێکی گەورەیان ڕێکخست بۆ ئاھەنگگێڕانی تەواوکردنی زانکۆ."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblowouts2("en-GB"),
@@ -295,7 +295,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: blowout (Derived forms: blowouts)
+- Noun: blowout (derived forms: blowouts)
 1. A sudden malfunction of a part or apparatus
 "the right front tire had a blowout"; "as a result of the blowout we lost all the lights"
  
@@ -317,7 +317,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/i7mqjhOYL-8?t=";
+  static String myVideoId = "i7mqjhOYL-8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -342,7 +342,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/M73XCOzZAU0?t=";
+  static String myVideoId = "M73XCOzZAU0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -367,7 +367,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/pBk4NYhWNMM?t=";
+  static String myVideoId = "pBk4NYhWNMM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -392,7 +392,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/Q5_nUQaVO-U?t=";
+  static String myVideoId = "Q5_nUQaVO-U";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -417,7 +417,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/vvyvwXedeZE?t=";
+  static String myVideoId = "vvyvwXedeZE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -442,7 +442,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/H-iM_JhNzIQ?t=";
+  static String myVideoId = "H-iM_JhNzIQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -467,7 +467,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/PlDbfq2HKuA?t=";
+  static String myVideoId = "PlDbfq2HKuA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -492,7 +492,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/wO2lWmgEK1Y?t=";
+  static String myVideoId = "wO2lWmgEK1Y";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -517,7 +517,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/cK43gsND4GQ?t=";
+  static String myVideoId = "cK43gsND4GQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -542,7 +542,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/nbSrp0nz1TI?t=";
+  static String myVideoId = "nbSrp0nz1TI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

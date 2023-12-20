@@ -1837,11 +1837,11 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_bluebell.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_blue_blooded.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_bluebottle.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_blue_collar.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_blueprint.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_blue_sky.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_bluetooth.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_bluish.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bl/en_entry_DOPSUM.dart';
@@ -3867,13 +3867,14 @@ final loggedInRoute = RouteMap(routes: {
   "/english-bludgeon": (_) => MaterialPage(child: EnglishEntrybludgeon()),
   "/english-blue": (_) => MaterialPage(child: EnglishEntryblue()),
   "/english-bluebell": (_) => MaterialPage(child: EnglishEntrybluebell()),
-  "/english-blue-blooded": (_) => MaterialPage(child: EnglishEntryblueblooded()),
+  "/english-blue-blooded": (_) =>
+      MaterialPage(child: EnglishEntryblueblooded()),
   "/english-bluebottle": (_) => MaterialPage(child: EnglishEntrybluebottle()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-blue-collar": (_) => MaterialPage(child: EnglishEntrybluecollar()),
+  "/english-blueprint": (_) => MaterialPage(child: EnglishEntryblueprint()),
+  "/english-blue-sky": (_) => MaterialPage(child: EnglishEntrybluesky()),
+  "/english-bluetooth": (_) => MaterialPage(child: EnglishEntrybluetooth()),
+  "/english-bluish": (_) => MaterialPage(child: EnglishEntrybluish()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

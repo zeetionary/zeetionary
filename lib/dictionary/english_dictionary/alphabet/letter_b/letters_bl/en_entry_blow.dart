@@ -371,7 +371,7 @@ class EnglishEntryblow extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: هەڵکردن، هاتن (با)، وەشان، با، فوو، هوو، (لووت) فن، هن، لێدان، ژەندن، گەرای مێش، هەواخۆری، نافەرمی گیابەنگ، مەریوانە، گوڵەلێوە،لێدان، تەق، گورز، جەزرەبە، کارەسات، دومات، ناڕەحەتی، ئاپۆر، گرگاشە، مەینەتی، نەهامەتی، بەڵا، گوڵ‌کردن، پشکوتن، سەروبەندی خونچەکردن، دەمەترەک(بوون)
+کوردی: ھەڵکردن، ھاتن (با)، وەشان، با، فوو، ھوو، (لووت) فن، ھن، لێدان، ژەندن، گەرای مێش، ھەواخۆری، نافەرمی گیابەنگ، مەریوانە، گوڵەلێوە،لێدان، تەق، گورز، جەزرەبە، کارەسات، دومات، ناڕەحەتی، ئاپۆر، گرگاشە، مەینەتی، نەھامەتی، بەڵا، گوڵ‌کردن، پشکوتن، سەروبەندی خونچەکردن، دەمەترەک(بوون)
 
 ١. (کردار) فووکردن"""),
                           Row(
@@ -397,7 +397,7 @@ class EnglishEntryblow extends StatelessWidget {
                                       "The policeman asked me to blow into the breathalyser."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پۆلیسەکە داوای لێکردم فوو بکەم بە ئەلکهول‌پێوەکە."),
+                                      "پۆلیسەکە داوای لێکردم فوو بکەم بە ئەلکھول‌پێوەکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblows2("en-GB"),
@@ -415,7 +415,7 @@ class EnglishEntryblow extends StatelessWidget {
                                       "He drew on his cigarette and blew out a stream of smoke."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "قومێکی لە جگەرەکەی دا و دووکەڵەکەی کرد بە هەوادا."),
+                                      "قومێکی لە جگەرەکەی دا و دووکەڵەکەی کرد بە ھەوادا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblows3("en-GB"),
@@ -434,7 +434,7 @@ class EnglishEntryblow extends StatelessWidget {
                                       "The birds were singing and a warm wind was blowing."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "باڵندەکان دەیان چریکاند و بایەکی گەرم هەڵیکردبوو."),
+                                      "باڵندەکان دەیان چریکاند و بایەکی گەرم ھەڵیکردبوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblows4("en-GB"),
@@ -450,7 +450,7 @@ class EnglishEntryblow extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "A cold wind blew from the east."),
                               const ExampleSentenceKurdish(
-                                  text: "بایەکی سارد لە ڕۆژهەڵاتەوە هەڵیکرد."),
+                                  text: "بایەکی سارد لە ڕۆژھەڵاتەوە ھەڵیکرد."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblows5("en-GB"),
@@ -463,7 +463,7 @@ class EnglishEntryblow extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) جوڵان بە با، هەناسەی کەسێک، هتد"),
+                                  "٣. (کردار) جوڵان بە با، ھەناسەی کەسێک، ھتد"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -518,7 +518,7 @@ class EnglishEntryblow extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (کردار) پاککردنەوەی لووتت بە تێپەڕاندنی هەوا پێیدا بۆ دەرەوە بۆ ناو کلێنسێک یان دەستەسڕێک"),
+                                  "٥. (کردار) پاککردنەوەی لووتت بە تێپەڕاندنی ھەوا پێیدا بۆ دەرەوە بۆ ناو کلێنسێک یان دەستەسڕێک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -547,7 +547,7 @@ class EnglishEntryblow extends StatelessWidget {
                                       "As I finished my speech, she blew me a kiss from the audience."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کە وتارەکەمم تەواوکرد، ماچێکی بۆ هاویشتم لەناو جەماوەرەکەوە."),
+                                      "کە وتارەکەمم تەواوکرد، ماچێکی بۆ ھاویشتم لەناو جەماوەرەکەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblows10("en-GB"),
@@ -617,14 +617,14 @@ class EnglishEntryblow extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "١٠. (کردار) ئاشکراکردنی نهێنی"),
+                              text: "١٠. (کردار) ئاشکراکردنی نھێنی"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
                                       "One mistake could blow your cover (= make your real name, job, intentions, etc. known)."),
                               const ExampleSentenceKurdish(
-                                  text: "یەک هەڵە ڕەنگە ناسنامەت ئاشکرا بکات."),
+                                  text: "یەک ھەڵە ڕەنگە ناسنامەت ئاشکرا بکات."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblows14("en-GB"),
@@ -637,7 +637,7 @@ class EnglishEntryblow extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١١. (کردار) بەهەدەردانی ژمارەیەکی زۆر پارە لە شتێکدا"),
+                                  "١١. (کردار) بەھەدەردانی ژمارەیەکی زۆر پارە لە شتێکدا"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -645,7 +645,7 @@ class EnglishEntryblow extends StatelessWidget {
                                       "He inherited over a million dollars and blew it all on drink and gambling."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "سەروو یەک ملیۆن دۆلاری بە میراتی بۆ جێما و هەمووی لە خواردنەوە و قوماردا بەهەدەردا."),
+                                      "سەروو یەک ملیۆن دۆلاری بە میراتی بۆ جێما و ھەمووی لە خواردنەوە و قوماردا بەھەدەردا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblows15("en-GB"),
@@ -657,7 +657,7 @@ class EnglishEntryblow extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "١٢. (کردار) لەدەستدانی هەلێک"),
+                              text: "١٢. (کردار) لەدەستدانی ھەلێک"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -665,7 +665,7 @@ class EnglishEntryblow extends StatelessWidget {
                                       "She blew her chances by arriving late for the interview."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەلەکانی لەدەستدا بە فرەنگ گەشتن بە چاوپێکەوتنەکە."),
+                                      "ھەلەکانی لەدەستدا بە فرەنگ گەشتن بە چاوپێکەوتنەکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblows16("en-GB"),
@@ -702,7 +702,7 @@ class EnglishEntryblow extends StatelessWidget {
                                       "I'm blowed if I'm going to (= I certainly will not) let him treat you like that."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەڵبەتە مردووم ئەگەر بهێڵم وەها مامەڵەت لەگەڵ بکات."),
+                                      "ھەڵبەتە مردووم ئەگەر بھێڵم وەھا مامەڵەت لەگەڵ بکات."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblows18("en-GB"),
@@ -714,7 +714,7 @@ class EnglishEntryblow extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "١٤. (کردار) جێهێشتنی شوێنێک لەناکاو"),
+                              text: "١٤. (کردار) جێھێشتنی شوێنێک لەناکاو"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -733,7 +733,7 @@ class EnglishEntryblow extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٥. (ناو) لێدانێکی بەهێز بە دەست، چەک، هتد"),
+                                  "١٥. (ناو) لێدانێکی بەھێز بە دەست، چەک، ھتد"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -812,7 +812,7 @@ class EnglishEntryblow extends StatelessWidget {
                                       "The news came as a bitter blow to the staff."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەواڵەکە وەک گورزێکی تاڵ بوو بۆ ستافەکە."),
+                                      "ھەواڵەکە وەک گورزێکی تاڵ بوو بۆ ستافەکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblows24("en-GB"),
@@ -831,7 +831,7 @@ class EnglishEntryblow extends StatelessWidget {
                                       "Try to put the candles out in one blow."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەوڵ بدە مۆمەکان بە یەک فوو بکوژێنیتەوە."),
+                                      "ھەوڵ بدە مۆمەکان بە یەک فوو بکوژێنیتەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblows25("en-GB"),
@@ -928,7 +928,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: blow (Derived forms: blows)
+- Noun: blow (derived forms: blows)
 1. A powerful stroke with the fist or a weapon
 "a blow on the head"
  
@@ -948,7 +948,7 @@ class EnglishMeaning extends StatelessWidget {
 
 7. [slang] A street name for cocaine (= coke [slang], nose candy [slang], snow [slang], C [slang])
 
-- Verb: blow (Derived forms: blown, blew, blows, blowing)
+- Verb: blow (derived forms: blown, blew, blows, blowing)
 1. Exhale hard
 "blow on the soup to cool it down"
  
@@ -1028,7 +1028,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/GDMel6oO2fU?t=";
+  static String myVideoId = "GDMel6oO2fU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1053,7 +1053,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/hFZFjoX2cGg?t=";
+  static String myVideoId = "hFZFjoX2cGg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1078,7 +1078,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/DPZzrlFCD_I?t=";
+  static String myVideoId = "DPZzrlFCD_I";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1103,7 +1103,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/e09xig209cQ?t=";
+  static String myVideoId = "e09xig209cQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1128,7 +1128,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/JqDf1X2eIbE?t=";
+  static String myVideoId = "JqDf1X2eIbE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1153,7 +1153,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/MGO4_8YRKro?t=";
+  static String myVideoId = "MGO4_8YRKro";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1178,7 +1178,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/03VAIrkmrD0?t=";
+  static String myVideoId = "03VAIrkmrD0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1203,7 +1203,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/IVRS7xWo9ik?t=";
+  static String myVideoId = "IVRS7xWo9ik";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1228,7 +1228,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/zqllxbPWKNI?t=";
+  static String myVideoId = "zqllxbPWKNI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1253,7 +1253,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/uSTdUqgIdyk?t=";
+  static String myVideoId = "uSTdUqgIdyk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1278,7 +1278,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/XtNni2wLFR4?t=";
+  static String myVideoId = "XtNni2wLFR4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1303,7 +1303,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/qD6bPNZRRbQ?t=";
+  static String myVideoId = "qD6bPNZRRbQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

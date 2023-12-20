@@ -5,87 +5,87 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "blood poisoning" and provide five 10-words or less long example sentences for each meaning. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
+// Define the word "Bluetooth" and for each meaning provide five example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
 
-// replace blood poisoning - /ˈblʌd pɔɪzənɪŋ/
+// replace Bluetooth - /ˈbluːtuːθ/
 
 enum TtsState { playing }
 
-class EnglishEntrybloodpoisoning extends StatelessWidget {
+class EnglishEntrybluetooth extends StatelessWidget {
 // blank divider
-  EnglishEntrybloodpoisoning({super.key});
+  EnglishEntrybluetooth({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbloodpoisoning(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodpoisoning
+  Future<void> speakBluetooth(String languageCode) async {
+    // DOPSUM: CHANGE speakBluetooth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("blood poisoning"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Bluetooth"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbloodpoisonings1(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodpoisoning
+  Future<void> speakBluetooths1(String languageCode) async {
+    // DOPSUM: CHANGE speakBluetooth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The wound became infected, leading to a severe blood poisoning."); // DOPSUM: CHANGE TEXT
+        "Pair your phone with Bluetooth speakers."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbloodpoisonings2(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodpoisoning
+  Future<void> speakBluetooths2(String languageCode) async {
+    // DOPSUM: CHANGE speakBluetooth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbloodpoisonings22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBluetooths22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbloodpoisonings3(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodpoisoning
+  Future<void> speakBluetooths3(String languageCode) async {
+    // DOPSUM: CHANGE speakBluetooth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbloodpoisonings33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBluetooths33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbloodpoisonings4(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodpoisoning
+  Future<void> speakBluetooths4(String languageCode) async {
+    // DOPSUM: CHANGE speakBluetooth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbloodpoisonings44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBluetooths44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbloodpoisonings5(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodpoisoning
+  Future<void> speakBluetooths5(String languageCode) async {
+    // DOPSUM: CHANGE speakBluetooth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbloodpoisonings55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBluetooths55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbloodpoisonings6(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodpoisoning
+  Future<void> speakBluetooths6(String languageCode) async {
+    // DOPSUM: CHANGE speakBluetooth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbloodpoisonings66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBluetooths66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbloodpoisonings7(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodpoisoning
+  Future<void> speakBluetooths7(String languageCode) async {
+    // DOPSUM: CHANGE speakBluetooth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbloodpoisonings77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBluetooths77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 9, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -102,22 +102,22 @@ class EnglishEntrybloodpoisoning extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "blood poisoning"),
+                            EntryTitle(word: "Bluetooth"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈblʌd pɔɪzənɪŋ/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbluːtuːθ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbloodpoisoning("en-GB"),
+                              onPressed: () => speakBluetooth("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈblʌd pɔɪzənɪŋ/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbluːtuːθ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbloodpoisoning("en-US"),
+                              onPressed: () => speakBluetooth("en-US"),
                             ),
                           ],
                         ),
@@ -135,10 +135,10 @@ class EnglishEntrybloodpoisoning extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 9
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
                   VideoIconForTab(), // 07 --- FIND:
-                  // VideoIconForTab(), // 08
-                  // VideoIconForTab(), // 09
+                  VideoIconForTab(), // 08
+                  VideoIconForTab(), // 09
                   // VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
@@ -163,23 +163,21 @@ class EnglishEntrybloodpoisoning extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ژەھراویبوونی خوێن، خوێن‌ژاراوی‌بوون
-
-١. (ناو) نەخۆشییەک کە تێیدا بەکتریا دەچێتە ناو خوێنەوە"""),
+١. (ناو) تەکنەلۆژیایەکی ڕادیۆیی کە ڕێگە دەدات موبایل و کۆمپیوتەر و ئامێری ئەلیکترۆنی دیکە لە مەودایەکی نزیک لە یەکدی پێکەوە لە پەیوەندیدا بن بەبێ بەکارھێنانی وایەر"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The wound became infected, leading to a severe blood poisoning."),
+                                      "Pair your phone with Bluetooth speakers."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "برینەکە تووشی ھەوکردن بوو و بوو بەھۆی ژەھراویبوونی توندی خوێن."),
+                                      "موبایلەکەت ببەستەوە بە بڵندگۆی بلوتوزەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakbloodpoisonings1("en-GB"),
+                                onPressed: () => speakBluetooths1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakbloodpoisonings1("en-US"),
+                                onPressed: () => speakBluetooths1("en-US"),
                               ),
                             ],
                           ),
@@ -193,8 +191,8 @@ class EnglishEntrybloodpoisoning extends StatelessWidget {
                     YoutubeEmbeddedfive(),
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
-                    // YoutubeEmbeddedeight(),
-                    // YoutubeEmbeddednine(),
+                    YoutubeEmbeddedeight(),
+                    YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
@@ -234,8 +232,8 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: blood poisoning (derived forms: blood poisonings)
-1. Invasion of the bloodstream by virulent microorganisms from a focus of infection (= septicemia [N. Amer], septicaemia [Brit, Cdn])
+- Noun: Bluetooth
+1. (computing, trademark) a short range wireless technology for connecting different devices such as computers and mobile phones
 """,
           )
         ],
@@ -249,12 +247,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "2-jXXiAoFOA";
+  static String myVideoId = "1I1vxu5qIUM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 321, // DOPSUM: CHANGE IT
+      startAt: 26, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -274,12 +272,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "BJom56r1iTk";
+  static String myVideoId = "Ni9ccFfnOJg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 533, // DOPSUM: CHANGE IT
+      startAt: 8, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -299,12 +297,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "VPm4856Frag";
+  static String myVideoId = "jTwaaDRpbb8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 205, // DOPSUM: CHANGE IT
+      startAt: 5, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -324,12 +322,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "ZWzt7UqkFeI";
+  static String myVideoId = "CHMpzGbL_Xw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1843, // DOPSUM: CHANGE IT
+      startAt: 48, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -349,12 +347,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "8u0qB_K40AE";
+  static String myVideoId = "3W7oVF5dkmU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1930, // DOPSUM: CHANGE IT
+      startAt: 10, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -374,12 +372,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "lhiy_GAyG74";
+  static String myVideoId = "3yiT_WMlosg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 774, // DOPSUM: CHANGE IT
+      startAt: 1008, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -399,12 +397,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "OzbKgtRV-sM";
+  static String myVideoId = "sW48BlzeR6A";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1559, // DOPSUM: CHANGE IT
+      startAt: 39, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -424,12 +422,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "chJiBdVRxg8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -449,12 +447,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "APdIwJyni6s";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -548,4 +546,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end blood poisoning
+// end Bluetooth

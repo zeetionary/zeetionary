@@ -171,7 +171,7 @@ class EnglishEntryblowbyblow extends StatelessWidget {
                                       "He insisted on giving us a blow-by-blow account of what had happened."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پێداگری کرد لەوەی سات بە ساتی بەسەرهاتەکەمان بۆ بگێڕێتەوە کە چی ڕوویدا."),
+                                      "پێداگری کرد لەوەی سات بە ساتی بەسەرھاتەکەمان بۆ بگێڕێتەوە کە چی ڕوویدا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblowbyblows1("en-GB"),
@@ -248,7 +248,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/-N294x4NEZw?t=";
+  static String myVideoId = "-N294x4NEZw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -273,7 +273,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/C1KT8PS6Zs4?t=";
+  static String myVideoId = "C1KT8PS6Zs4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -298,7 +298,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/_cWH2UPLQgU?t=";
+  static String myVideoId = "_cWH2UPLQgU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -323,7 +323,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/ZVS1YrH_Lfc?t=";
+  static String myVideoId = "ZVS1YrH_Lfc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -348,7 +348,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/C8BXwbM7HU0?t=";
+  static String myVideoId = "C8BXwbM7HU0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -373,7 +373,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/18hun1Ra_U4?t=";
+  static String myVideoId = "18hun1Ra_U4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -398,7 +398,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/j0rkUbrPo3k?t=";
+  static String myVideoId = "j0rkUbrPo3k";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -423,7 +423,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/vVBbd4G_EbY?t=";
+  static String myVideoId = "vVBbd4G_EbY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -448,7 +448,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/VHjoflBCgPc?t=";
+  static String myVideoId = "VHjoflBCgPc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

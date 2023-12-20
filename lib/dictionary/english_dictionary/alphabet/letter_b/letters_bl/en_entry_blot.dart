@@ -166,7 +166,7 @@ class EnglishEntryblot extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: لکە، لەکە، پەڵە، نەنگ، پینە، نێوزڕاوی، پەڵە جەوهەر، کەم‌وکوڕی، عەیب، خەوش، گەرد، (زیندەکیمیا) لەکە، پەڵە
+کوردی: لکە، لەکە، پەڵە، نەنگ، پینە، نێوزڕاوی، پەڵە جەوھەر، کەم‌وکوڕی، عەیب، خەوش، گەرد، (زیندەکیمیا) لەکە، پەڵە
 
 ١. (کردار) وشککردنەوەی شوێنێکی تەڕ، نووسین بە بۆیە، یان سووراو، بە دانانی شتێکی نەرم لەسەری"""),
                           Row(
@@ -218,7 +218,7 @@ class EnglishEntryblot extends StatelessWidget {
                                       "There were ink blots all over the paper."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "خاڵ خاڵی مەرەکەب لەسەر هەموو پەڕەکە بوو."),
+                                      "خاڵ خاڵی مەرەکەب لەسەر ھەموو پەڕەکە بوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblots3("en-GB"),
@@ -239,7 +239,7 @@ class EnglishEntryblot extends StatelessWidget {
                                       "Her involvement in the fraud has left a serious blot on her character."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "تێوەگلانی لە فێڵبازییەکە خەوشێکی گرنگی لەسەر کەسایەتیی جێهێشتووە."),
+                                      "تێوەگلانی لە فێڵبازییەکە خەوشێکی گرنگی لەسەر کەسایەتیی جێھێشتووە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblots4("en-GB"),
@@ -300,13 +300,13 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: blot (Derived forms: blots)
+- Noun: blot (derived forms: blots)
 1. A blemish made by dirt (= smudge, spot, daub, smear, smirch, slur)
  
 2. An act that brings discredit to the person who does it (= smear, smirch, spot, stain)
 "he made a huge blot on his copybook";
 
-- Verb: blot (Derived forms: blots, blotted, blotting)
+- Verb: blot (derived forms: blots, blotted, blotting)
 1. Dry (ink) with blotting paper
  
 2. Make a spot or mark onto (= spot, fleck, blob)
@@ -324,7 +324,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/WUjVPIEtJd0?t=";
+  static String myVideoId = "WUjVPIEtJd0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -349,7 +349,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/X5oD_thIk3c?t=";
+  static String myVideoId = "X5oD_thIk3c";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -374,7 +374,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/XMCZEJVlyRY?t=";
+  static String myVideoId = "XMCZEJVlyRY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -399,7 +399,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/AKGPrRtSu04";
+  static String myVideoId = "AKGPrRtSu04";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -424,7 +424,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/B4Jlofn3qZI?t=";
+  static String myVideoId = "B4Jlofn3qZI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -449,7 +449,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/y3eR8QLPjlc?t=";
+  static String myVideoId = "y3eR8QLPjlc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -474,7 +474,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/uF7Z_de2ELQ?t=";
+  static String myVideoId = "uF7Z_de2ELQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -499,7 +499,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/PtrF9hx0ygw?t=";
+  static String myVideoId = "PtrF9hx0ygw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -524,7 +524,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/WO4A8OcT6B0?t=";
+  static String myVideoId = "WO4A8OcT6B0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -549,7 +549,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/qp2cqDkAU-0?t=";
+  static String myVideoId = "qp2cqDkAU-0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -574,7 +574,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/UBfhBtT6QJE?t=";
+  static String myVideoId = "UBfhBtT6QJE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -599,7 +599,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/tcL3UyXB5k0?t=";
+  static String myVideoId = "tcL3UyXB5k0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

@@ -166,7 +166,7 @@ class EnglishEntryblossom extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: خونچە، گوڵ، ول، چرۆ، کلووک، پژک(ووژ)، پشکۆژ، هەڕاڵە، پۆخ(ڵە)، دۆخ یا ماوەی گوڵ‌کردن، هەڕەت، جەنگە، تاف 
+کوردی: خونچە، گوڵ، ول، چرۆ، کلووک، پژک(ووژ)، پشکۆژ، ھەڕاڵە، پۆخ(ڵە)، دۆخ یا ماوەی گوڵ‌کردن، ھەڕەت، جەنگە، تاف 
 
 ١. (ناو) گوڵێک یان ژۆمەڵە گوڵێک، بەتایبەتی لەسەر رووەکێک کە میوە دەگرێت یان بنجدارە"""),
                           Row(
@@ -175,7 +175,7 @@ class EnglishEntryblossom extends StatelessWidget {
                                   text:
                                       "She loved the spring, when the blossom was out."),
                               const ExampleSentenceKurdish(
-                                  text: "حەزی لە بەهار بوو کە گوڵ بەدەرەوەیە."),
+                                  text: "حەزی لە بەھار بوو کە گوڵ بەدەرەوەیە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblossoms1("en-GB"),
@@ -193,7 +193,7 @@ class EnglishEntryblossom extends StatelessWidget {
                                       "Hopefully the tree will produce some blossom next year."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بە هیواوە دارەکە هەندێک بەردەگرێت ساڵی داهاتوو."),
+                                      "بە ھیواوە دارەکە ھەندێک بەردەگرێت ساڵی داھاتوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblossoms2("en-GB"),
@@ -233,7 +233,7 @@ class EnglishEntryblossom extends StatelessWidget {
                                       "She has visibly blossomed over the last few months."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دیار بوو لە ماوەی چەند مانگی ڕابردوودا هۆشی کردبووەوە."),
+                                      "دیار بوو لە ماوەی چەند مانگی ڕابردوودا ھۆشی کردبووەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblossoms4("en-GB"),
@@ -294,7 +294,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: blossom (Derived forms: blossoming, blossoms, blossomed)
+- Noun: blossom (derived forms: blossoming, blossoms, blossomed)
 1. Reproductive organ of angiosperm plants especially one having showy or colourful parts (= flower, bloom)
  
 2. The period of greatest prosperity or productivity (= flower, prime, peak, heyday, bloom, efflorescence, flush)
@@ -318,7 +318,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/sCyEKXjNBb4?t=";
+  static String myVideoId = "sCyEKXjNBb4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -343,7 +343,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/3mm3vhVoPhE?t=";
+  static String myVideoId = "3mm3vhVoPhE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -368,7 +368,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/xsdXzrLvh1w?t=";
+  static String myVideoId = "xsdXzrLvh1w";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -393,7 +393,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/1FmWpQUEAv8?t=";
+  static String myVideoId = "1FmWpQUEAv8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -418,7 +418,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/cITI_nd-2EI?t=";
+  static String myVideoId = "cITI_nd-2EI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -443,7 +443,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/bWF7Gzv8myI?t=";
+  static String myVideoId = "bWF7Gzv8myI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -468,7 +468,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/vds2kq-KEEY?t=";
+  static String myVideoId = "vds2kq-KEEY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -493,7 +493,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/pdPX91sYtfc?t=";
+  static String myVideoId = "pdPX91sYtfc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -518,7 +518,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/WHfKjWPZXyM?t=";
+  static String myVideoId = "WHfKjWPZXyM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -543,7 +543,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/IBZbjNUesHI?t=";
+  static String myVideoId = "IBZbjNUesHI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -568,7 +568,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/u0Me96RiM5c?t=";
+  static String myVideoId = "u0Me96RiM5c";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -593,7 +593,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/yiPB7n6ELc4?t=";
+  static String myVideoId = "yiPB7n6ELc4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

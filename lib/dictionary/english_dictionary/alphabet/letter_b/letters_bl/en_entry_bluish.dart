@@ -5,87 +5,88 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "blood poisoning" and provide five 10-words or less long example sentences for each meaning. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
+// Define the word "bluish" and for each meaning provide five example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
 
-// replace blood poisoning - /ˈblʌd pɔɪzənɪŋ/
+// replace bluish - /ˈbluːɪʃ/
 
 enum TtsState { playing }
 
-class EnglishEntrybloodpoisoning extends StatelessWidget {
+class EnglishEntrybluish extends StatelessWidget {
 // blank divider
-  EnglishEntrybloodpoisoning({super.key});
+  EnglishEntrybluish({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbloodpoisoning(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodpoisoning
+  Future<void> speakbluish(String languageCode) async {
+    // DOPSUM: CHANGE speakbluish
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("blood poisoning"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bluish"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbloodpoisonings1(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodpoisoning
+  Future<void> speakbluishs1(String languageCode) async {
+    // DOPSUM: CHANGE speakbluish
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("The bluish flowers bloomed in spring."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbluishs2(String languageCode) async {
+    // DOPSUM: CHANGE speakbluish
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The wound became infected, leading to a severe blood poisoning."); // DOPSUM: CHANGE TEXT
+        "The sky turned a bluish hue as night fell."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbloodpoisonings2(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodpoisoning
+  Future<void> speakbluishs3(String languageCode) async {
+    // DOPSUM: CHANGE speakbluish
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbloodpoisonings22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbluishs33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbloodpoisonings3(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodpoisoning
+  Future<void> speakbluishs4(String languageCode) async {
+    // DOPSUM: CHANGE speakbluish
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbloodpoisonings33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbluishs44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbloodpoisonings4(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodpoisoning
+  Future<void> speakbluishs5(String languageCode) async {
+    // DOPSUM: CHANGE speakbluish
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbloodpoisonings44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbluishs55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbloodpoisonings5(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodpoisoning
+  Future<void> speakbluishs6(String languageCode) async {
+    // DOPSUM: CHANGE speakbluish
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbloodpoisonings55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbluishs66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbloodpoisonings6(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodpoisoning
+  Future<void> speakbluishs7(String languageCode) async {
+    // DOPSUM: CHANGE speakbluish
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbloodpoisonings66"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakbloodpoisonings7(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodpoisoning
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbloodpoisonings77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbluishs77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 9, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -102,22 +103,22 @@ class EnglishEntrybloodpoisoning extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "blood poisoning"),
+                            EntryTitle(word: "bluish"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈblʌd pɔɪzənɪŋ/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbluːɪʃ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbloodpoisoning("en-GB"),
+                              onPressed: () => speakbluish("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈblʌd pɔɪzənɪŋ/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbluːɪʃ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbloodpoisoning("en-US"),
+                              onPressed: () => speakbluish("en-US"),
                             ),
                           ],
                         ),
@@ -135,13 +136,13 @@ class EnglishEntrybloodpoisoning extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 9
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
                   VideoIconForTab(), // 07 --- FIND:
-                  // VideoIconForTab(), // 08
-                  // VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
+                  VideoIconForTab(), // 08
+                  VideoIconForTab(), // 09
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -163,23 +164,40 @@ class EnglishEntrybloodpoisoning extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ژەھراویبوونی خوێن، خوێن‌ژاراوی‌بوون
+کوردی: شینکار، شینکی، شینباو، ئاماڵ‌شین، مەیلەوشین
 
-١. (ناو) نەخۆشییەک کە تێیدا بەکتریا دەچێتە ناو خوێنەوە"""),
+١. (ھاوەڵناو) ڕەنگێک کە تا ڕادەیەک شینە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "The wound became infected, leading to a severe blood poisoning."),
+                                      "The bluish flowers bloomed in spring."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "برینەکە تووشی ھەوکردن بوو و بوو بەھۆی ژەھراویبوونی توندی خوێن."),
+                                      "گوڵە شینباوەکان لە بەھاردا گوڵیان گرت."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakbloodpoisonings1("en-GB"),
+                                onPressed: () => speakbluishs1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakbloodpoisonings1("en-US"),
+                                onPressed: () => speakbluishs1("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The sky turned a bluish hue as night fell."),
+                              const ExampleSentenceKurdish(
+                                  text: "ئاسمان بوو بە شینباو کە شەو داھات."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbluishs2("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbluishs2("en-US"),
                               ),
                             ],
                           ),
@@ -193,11 +211,11 @@ class EnglishEntrybloodpoisoning extends StatelessWidget {
                     YoutubeEmbeddedfive(),
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
-                    // YoutubeEmbeddedeight(),
-                    // YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedeight(),
+                    YoutubeEmbeddednine(),
+                    YoutubeEmbeddedten(),
+                    YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -234,8 +252,9 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: blood poisoning (derived forms: blood poisonings)
-1. Invasion of the bloodstream by virulent microorganisms from a focus of infection (= septicemia [N. Amer], septicaemia [Brit, Cdn])
+- Adjective: bluish
+1. Of the colour intermediate between green and violet; having a colour similar to that of a clear unclouded sky (= blue, blueish, bluey)
+"October's bright bluish weather";
 """,
           )
         ],
@@ -249,12 +268,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "2-jXXiAoFOA";
+  static String myVideoId = "T4gRYEjiyzQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 321, // DOPSUM: CHANGE IT
+      startAt: 447, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -274,12 +293,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "BJom56r1iTk";
+  static String myVideoId = "TnkdoEZhTbc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 533, // DOPSUM: CHANGE IT
+      startAt: 970, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -299,12 +318,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "VPm4856Frag";
+  static String myVideoId = "X-EIkF5GF7k";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 205, // DOPSUM: CHANGE IT
+      startAt: 149, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -324,12 +343,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "ZWzt7UqkFeI";
+  static String myVideoId = "DgTJ3-WMAWY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1843, // DOPSUM: CHANGE IT
+      startAt: 141, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -349,12 +368,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "8u0qB_K40AE";
+  static String myVideoId = "gQmiqmxJMtA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1930, // DOPSUM: CHANGE IT
+      startAt: 6388, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -374,12 +393,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "lhiy_GAyG74";
+  static String myVideoId = "9UsfNQy6Y8I";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 774, // DOPSUM: CHANGE IT
+      startAt: 1135, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -399,12 +418,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "OzbKgtRV-sM";
+  static String myVideoId = "ex1V3hsi_Nc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1559, // DOPSUM: CHANGE IT
+      startAt: 1227, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -424,12 +443,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "a4_lwhCxz1E";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 973, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -449,12 +468,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "MqmVfSv4OrI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 100, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -474,12 +493,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "DP3G2THU7CE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 1427, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -499,12 +518,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "MXSQnffDuEg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 13, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -524,12 +543,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "tCmC0XOKO5Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 4, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -548,4 +567,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end blood poisoning
+// end bluish

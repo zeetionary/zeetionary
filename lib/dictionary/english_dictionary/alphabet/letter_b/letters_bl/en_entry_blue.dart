@@ -56,7 +56,8 @@ class EnglishEntryblue extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("His lips were turning blue."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("His lips were turning blue."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakblues5(String languageCode) async {
@@ -64,7 +65,8 @@ class EnglishEntryblue extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He'd been feeling blue all week."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He'd been feeling blue all week."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakblues6(String languageCode) async {
@@ -72,7 +74,8 @@ class EnglishEntryblue extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The movie is a bit too blue for children."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The movie is a bit too blue for children."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakblues7(String languageCode) async {
@@ -80,7 +83,8 @@ class EnglishEntryblue extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("California has mostly been a blue state in recent history."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "California has mostly been a blue state in recent history."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakblues8(String languageCode) async {
@@ -88,7 +92,8 @@ class EnglishEntryblue extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The room was decorated in blues and yellows."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The room was decorated in blues and yellows."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakblues9(String languageCode) async {
@@ -316,7 +321,7 @@ class EnglishEntryblue extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: شین، کەو، نیلی، هەش، ئاسمانی، مات، خەمبار، کز، دڵتەنگ، پیس، ناشیرین، هەرزە، (نافەرمی، بریتانیا، لە باری سیاسی‌یەوە) کۆنەپارێز، ڕەنگی شین، بەرگی شین، دەریا، زەریا، ئاسمان
+کوردی: شین، کەو، نیلی، ھەش، ئاسمانی، مات، خەمبار، کز، دڵتەنگ، پیس، ناشیرین، ھەرزە، (نافەرمی، بریتانیا، لە باری سیاسی‌یەوە) کۆنەپارێز، ڕەنگی شین، بەرگی شین، دەریا، زەریا، ئاسمان
 
 ١. (ھاوەڵناو) ڕەنگی شین؛ ڕەنگی ئاسمانی ساماڵ یان دەریا لە ڕۆژێکی پاکدا"""),
                           Row(
@@ -369,147 +374,155 @@ class EnglishEntryblue extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ھاوەڵناو) کەسێک کە ڕەنگی شین بووەتەوە بەهۆی تەنگەنەفەسی یان سەرما"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ھاوەڵناو) کەسێک کە ڕەنگی شین بووەتەوە بەھۆی تەنگەنەفەسی یان سەرما"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "His lips were turning blue."),
-                          const ExampleSentenceKurdish(
-                          text: "لێوەکانی شین دەبوونەوە."),
-                          const CustomSizedBoxForTTS(),
-                          CustomIconButtonBritish(
-                          onPressed: () => speakblues4("en-GB"),
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "His lips were turning blue."),
+                              const ExampleSentenceKurdish(
+                                  text: "لێوەکانی شین دەبوونەوە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblues4("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblues4("en-US"),
+                              ),
+                            ],
                           ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakblues4("en-US"),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "٣. (ھاوەڵناو) دڵتەنگ"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "He'd been feeling blue all week."),
+                              const ExampleSentenceKurdish(
+                                  text: "تەواوی ھەفتەکە دڵتەنگ بووە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblues5("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblues5("en-US"),
+                              ),
+                            ],
                           ),
-                          ],
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (ھاوەڵناو) فیلم، نووکتە، یان چیرۆک کە دەربارەی سێکسە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The movie is a bit too blue for children."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "فیلمەکە کەمێک بەدەر لە سنوور بۆ منداڵان باسی سێکس دەکات."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblues6("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblues6("en-US"),
+                              ),
+                            ],
                           ),
-                        const DividerDefinition(),
-                        const DefinitionKurdish(text: "٣. (ھاوەڵناو) دڵتەنگ"),
-                        Row(
-                        children: [
-                        const ExampleSentenceEnglish(
-                        text:
-                        "He'd been feeling blue all week."),
-                        const ExampleSentenceKurdish(
-                        text: "تەواوی هەفتەکە دڵتەنگ بووە."),
-                        const CustomSizedBoxForTTS(),
-                        CustomIconButtonBritish(
-                        onPressed: () => speakblues5("en-GB"),
-                        ),
-                        CustomIconButtonAmerican(
-                        onPressed: () => speakblues5("en-US"),
-                        ),
-                        ],
-                        ),
-                        const DividerDefinition(),
-                        const DefinitionKurdish(text: "٤. (ھاوەڵناو) فیلم، نووکتە، یان چیرۆک کە دەربارەی سێکسە"),
-                        Row(
-                        children: [
-                        const ExampleSentenceEnglish(
-                        text:
-                        "The movie is a bit too blue for children."),
-                        const ExampleSentenceKurdish(
-                        text: "فیلمەکە کەمێک بەدەر لە سنوور بۆ منداڵان باسی سێکس دەکات."),
-                        const CustomSizedBoxForTTS(),
-                        CustomIconButtonBritish(
-                        onPressed: () => speakblues6("en-GB"),
-                        ),
-                        CustomIconButtonAmerican(
-                        onPressed: () => speakblues6("en-US"),
-                        ),
-                        ],
-                        ),
-                        const DividerDefinition(),
-                        const DefinitionKurdish(text: "٥. (ھاوەڵناو) ناوچەیەکی ئەمریکا کە دەنگدەری پارتی دیموکرات تێیدا زیاترە وەک لە کۆماری"),
-                        Row(
-                        children: [
-                        const ExampleSentenceEnglish(
-                        text:
-                        "California has mostly been a blue state in recent history."),
-                        const ExampleSentenceKurdish(
-                        text: "لەمێژووی نزیکدا کالیفۆرنیا زۆرجار ویلایەتێکی دەنگدەری دیموکراتەکان بووە."),
-                        const CustomSizedBoxForTTS(),
-                        CustomIconButtonBritish(
-                        onPressed: () => speakblues7("en-GB"),
-                        ),
-                        CustomIconButtonAmerican(
-                        onPressed: () => speakblues7("en-US"),
-                        ),
-                        ],
-                        ),
-                        const DividerDefinition(),
-                        const DefinitionKurdish(text: "٦. (ناو) ڕەنگی شین؛ ڕەنگی ئاسمانی ساماڵ یان دەریا لە ڕۆژێکی پاکدا"),
-                        Row(
-                        children: [
-                        const ExampleSentenceEnglish(
-                        text:
-                        "The room was decorated in blues and yellows."),
-                        const ExampleSentenceKurdish(
-                        text: "ژوورەکە بە شین و زەرد دیکۆراتی بۆ کرابوو."),
-                        const CustomSizedBoxForTTS(),
-                        CustomIconButtonBritish(
-                        onPressed: () => speakblues8("en-GB"),
-                        ),
-                        CustomIconButtonAmerican(
-                        onPressed: () => speakblues8("en-US"),
-                        ),
-                        ],
-                        ),
-                        const DividerSentences(),
-                        Row(
-                        children: [
-                        const ExampleSentenceEnglish(
-                        text:
-                        "She was dressed in blue."),
-                        const ExampleSentenceKurdish(
-                        text: "ڕەنگی شینی لەبەرکردبوو."),
-                        const CustomSizedBoxForTTS(),
-                        CustomIconButtonBritish(
-                        onPressed: () => speakblues9("en-GB"),
-                        ),
-                        CustomIconButtonAmerican(
-                        onPressed: () => speakblues9("en-US"),
-                        ),
-                        ],
-                        ),
-                        const DividerSentences(),
-                        Row(
-                        children: [
-                        const ExampleSentenceEnglish(
-                        text:
-                        "I'm very fond of blue."),
-                        const ExampleSentenceKurdish(
-                        text: "زۆرم حەز بە شینە."),
-                        const CustomSizedBoxForTTS(),
-                        CustomIconButtonBritish(
-                        onPressed: () => speakblues10("en-GB"),
-                        ),
-                        CustomIconButtonAmerican(
-                        onPressed: () => speakblues10("en-US"),
-                        ),
-                        ],
-                        ),
-                        const DividerDefinition(),
-                        const DefinitionKurdish(text: "٧. (ناو) کەسێک کە یارییەکی وەرزشی دیاریکراوی بۆ زانکۆی ئۆکسفۆرد یان کامبریج کردووە"),
-                        Row(
-                        children: [
-                        const ExampleSentenceEnglish(
-                        text:
-                        "He’s an Oxford rugby blue."),
-                        const ExampleSentenceKurdish(
-                        text: "یاریزانێکی ڕەگبی ئۆکسفۆردە."),
-                        const CustomSizedBoxForTTS(),
-                        CustomIconButtonBritish(
-                        onPressed: () => speakblues11("en-GB"),
-                        ),
-                        CustomIconButtonAmerican(
-                        onPressed: () => speakblues11("en-US"),
-                        ),
-                        ],
-                        ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٥. (ھاوەڵناو) ناوچەیەکی ئەمریکا کە دەنگدەری پارتی دیموکرات تێیدا زیاترە وەک لە کۆماری"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "California has mostly been a blue state in recent history."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لەمێژووی نزیکدا کالیفۆرنیا زۆرجار ویلایەتێکی دەنگدەری دیموکراتەکان بووە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblues7("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblues7("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٦. (ناو) ڕەنگی شین؛ ڕەنگی ئاسمانی ساماڵ یان دەریا لە ڕۆژێکی پاکدا"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The room was decorated in blues and yellows."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ژوورەکە بە شین و زەرد دیکۆراتی بۆ کرابوو."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblues8("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblues8("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "She was dressed in blue."),
+                              const ExampleSentenceKurdish(
+                                  text: "ڕەنگی شینی لەبەرکردبوو."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblues9("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblues9("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "I'm very fond of blue."),
+                              const ExampleSentenceKurdish(
+                                  text: "زۆرم حەز بە شینە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblues10("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblues10("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٧. (ناو) کەسێک کە یارییەکی وەرزشی دیاریکراوی بۆ زانکۆی ئۆکسفۆرد یان کامبریج کردووە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "He’s an Oxford rugby blue."),
+                              const ExampleSentenceKurdish(
+                                  text: "یاریزانێکی ڕەگبی ئۆکسفۆردە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakblues11("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakblues11("en-US"),
+                              ),
+                            ],
+                          ),
                         ],
                       ),
                     ),
@@ -561,7 +574,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Adjective: blue (Derived forms: bluer, bluest)
+- Adjective: blue (derived forms: bluer, bluest)
 1. Of the colour intermediate between green and violet; having a colour similar to that of a clear unclouded sky (= bluish, blueish, bluey)
 "October's bright blue weather"; "a blue flame"; "blue haze of tobacco smoke";
  
@@ -589,7 +602,7 @@ class EnglishMeaning extends StatelessWidget {
 9. [Brit, informal] Believing in or supporting tenets of the political right
 - rightist, right-wing, Conservative
 
-- Noun: blue (Derived forms: blues)
+- Noun: blue (derived forms: blues)
 1. Blue colour or pigment; resembling the colour of the clear sky in the daytime (= blueness)
 "he had eyes of bright blue";
 
@@ -615,7 +628,7 @@ class EnglishMeaning extends StatelessWidget {
  
 10. [Austral, NZ, informal] An embarrassing mistake (= blunder, blooper [N. Amer, informal], bloomer [informal], bungle, pratfall [informal], foul-up, flub [N. Amer, informal], botch, boner [N. Amer, informal], boo-boo [informal], goof [informal], boob [Brit, informal])
 
-- Verb: blue ((Derived forms: blues, blued, bluing))
+- Verb: blue ((derived forms: blues, blued, bluing))
 1. Turn blue
 """,
           )
@@ -630,7 +643,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/rPe4yziWiOg?t=";
+  static String myVideoId = "rPe4yziWiOg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -655,7 +668,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/FHJ3CMWnVxY?t=";
+  static String myVideoId = "FHJ3CMWnVxY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -680,7 +693,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/_wNsZEqpKUA?t=";
+  static String myVideoId = "_wNsZEqpKUA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -705,7 +718,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/dJOz8SYbN28?t=";
+  static String myVideoId = "dJOz8SYbN28";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -730,7 +743,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/KJy7T24rhg0?t=";
+  static String myVideoId = "KJy7T24rhg0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -755,7 +768,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/dqcSk-EDrRo?t=";
+  static String myVideoId = "dqcSk-EDrRo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -780,7 +793,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/58XEfDtU0Z4?t=";
+  static String myVideoId = "58XEfDtU0Z4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -805,7 +818,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/1p8r-2ffK_c?t=";
+  static String myVideoId = "1p8r-2ffK_c";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -830,7 +843,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/Mhlpk5ZrYLM?t=";
+  static String myVideoId = "Mhlpk5ZrYLM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -855,7 +868,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/URv0JwrR1eQ?t=";
+  static String myVideoId = "URv0JwrR1eQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -880,7 +893,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/bqGa8Y6CXiY?t=";
+  static String myVideoId = "bqGa8Y6CXiY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -905,7 +918,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/NTf2rki0AcI?t=";
+  static String myVideoId = "NTf2rki0AcI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

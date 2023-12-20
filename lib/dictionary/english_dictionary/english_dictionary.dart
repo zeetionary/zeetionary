@@ -1825,48 +1825,48 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "blonde",
     "blood",
     "bloodbath",
-    // "blood-curdling",
-    // "blood donor",
-    // "blood group",
-    // "blood type",
-    // "bloodhound",
-    // "bloodless",
-    // "blood poisoning",
-    // "blood pressure",
-    // "bloodshed",
-    // "bloodshot",
-    // "bloodstained",
-    // "bloodstream",
-    // "bloodsucker",
-    // "bloodthirsty",
-    // "blood vessel",
-    // "bloody",
-    // "bloodily",
-    // "bloody-minded",
-    // "bloom",
-    // "blossom",
-    // "blot",
-    // "blotch",
-    // "blotter",
-    // "blotting paper",
-    // "blouse",
-    // "blow",
-    // "blowlamp",
-    // "blowout",
-    // "blowtorch",
-    // "blow-up",
-    // "blow-by-blow",
-    // "blubber",
-    // "bludgeon",
-    // "blue",
-    // "bluebell",
-    // "blue-blooded",
-    // "bluebottle",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    "blood-curdling",
+    "blood donor",
+    "blood group",
+    "blood type",
+    "bloodhound",
+    "bloodless",
+    "blood poisoning",
+    "blood pressure",
+    "bloodshed",
+    "bloodshot",
+    "bloodstained",
+    "bloodstream",
+    "bloodsucker",
+    "bloodthirsty",
+    "blood vessel",
+    "bloody",
+    "bloodily",
+    "bloody-minded",
+    "bloom",
+    "blossom",
+    "blot",
+    "blotch",
+    "blotter",
+    "blotting paper",
+    "blouse",
+    "blow",
+    "blowlamp",
+    "blowout",
+    "blowtorch",
+    "blow-up",
+    "blow-by-blow",
+    "blubber",
+    "bludgeon",
+    "blue",
+    "bluebell",
+    "blue-blooded",
+    "bluebottle",
+    "blue-collar",
+    "blueprint",
+    "blue-sky",
+    "Bluetooth",
+    "bluish",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -9408,174 +9408,174 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-bloodbath");
                   }
-                  // if (wordsEnglish == "blood-curdling") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-blood-curdling");
-                  // }
-                  // if (wordsEnglish == "blood donor") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-blood-donor");
-                  // }
-                  // if (wordsEnglish == "blood group") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-blood-group");
-                  // }
-                  // if (wordsEnglish == "blood type") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-blood-group");
-                  // }
-                  // if (wordsEnglish == "bloodhound") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bloodhound");
-                  // }
-                  // if (wordsEnglish == "bloodless") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bloodless");
-                  // }
-                  // if (wordsEnglish == "blood poisoning") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-blood-poisoning");
-                  // }
-                  // if (wordsEnglish == "blood pressure") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-blood-pressure");
-                  // }
-                  // if (wordsEnglish == "bloodshed") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bloodshed");
-                  // }
-                  // if (wordsEnglish == "bloodshot") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bloodshot");
-                  // }
-                  // if (wordsEnglish == "bloodstained") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bloodstained");
-                  // }
-                  // if (wordsEnglish == "bloodstream") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bloodstream");
-                  // }
-                  // if (wordsEnglish == "bloodsucker") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bloodsucker");
-                  // }
-                  // if (wordsEnglish == "bloodthirsty") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bloodthirsty");
-                  // }
-                  // if (wordsEnglish == "blood vessel") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-blood vessel");
-                  // }
-                  // if (wordsEnglish == "bloody") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bloody");
-                  // }
-                  // if (wordsEnglish == "bloodily") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bloodily");
-                  // }
-                  // if (wordsEnglish == "bloody-minded") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bloody-minded");
-                  // }
-                  // if (wordsEnglish == "bloom") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bloom");
-                  // }
-                  // if (wordsEnglish == "blossom") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-blossom");
-                  // }
-                  // if (wordsEnglish == "blot") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-blot");
-                  // }
-                  // if (wordsEnglish == "blotter") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-blotter");
-                  // }
-                  // if (wordsEnglish == "blotting paper") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-blotting-paper");
-                  // }
-                  // if (wordsEnglish == "blotch") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-blotch");
-                  // }
-                  // if (wordsEnglish == "blouse") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-blouse");
-                  // }
-                  // if (wordsEnglish == "blow") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-blow");
-                  // }
-                  // if (wordsEnglish == "blowlamp") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-blowlamp");
-                  // }
-                  // if (wordsEnglish == "blowtorch") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-blowlamp");
-                  // }
-                  // if (wordsEnglish == "blowout") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-blowout");
-                  // }
-                  // if (wordsEnglish == "blow-up") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-blow-up");
-                  // }
-                  // if (wordsEnglish == "blow-by-blow") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-blow-by-blow");
-                  // }
-                  // if (wordsEnglish == "blubber") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-blubber");
-                  // }
-                  // if (wordsEnglish == "bludgeon") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bludgeon");
-                  // }
-                  // if (wordsEnglish == "blue") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-blue");
-                  // }
-                  // if (wordsEnglish == "bluebell") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bluebell");
-                  // }
-                  // if (wordsEnglish == "blue-blooded") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-blue-blooded");
-                  // }
-                  // if (wordsEnglish == "bluebottle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bluebottle");
-                  // }
-                  // if (wordsEnglish == "bluebottle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bluebottle");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
+                  if (wordsEnglish == "blood-curdling") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blood-curdling");
+                  }
+                  if (wordsEnglish == "blood donor") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blood-donor");
+                  }
+                  if (wordsEnglish == "blood group") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blood-group");
+                  }
+                  if (wordsEnglish == "blood type") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blood-group");
+                  }
+                  if (wordsEnglish == "bloodhound") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bloodhound");
+                  }
+                  if (wordsEnglish == "bloodless") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bloodless");
+                  }
+                  if (wordsEnglish == "blood poisoning") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blood-poisoning");
+                  }
+                  if (wordsEnglish == "blood pressure") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blood-pressure");
+                  }
+                  if (wordsEnglish == "bloodshed") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bloodshed");
+                  }
+                  if (wordsEnglish == "bloodshot") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bloodshot");
+                  }
+                  if (wordsEnglish == "bloodstained") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bloodstained");
+                  }
+                  if (wordsEnglish == "bloodstream") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bloodstream");
+                  }
+                  if (wordsEnglish == "bloodsucker") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bloodsucker");
+                  }
+                  if (wordsEnglish == "bloodthirsty") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bloodthirsty");
+                  }
+                  if (wordsEnglish == "blood vessel") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blood vessel");
+                  }
+                  if (wordsEnglish == "bloody") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bloody");
+                  }
+                  if (wordsEnglish == "bloodily") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bloodily");
+                  }
+                  if (wordsEnglish == "bloody-minded") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bloody-minded");
+                  }
+                  if (wordsEnglish == "bloom") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bloom");
+                  }
+                  if (wordsEnglish == "blossom") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blossom");
+                  }
+                  if (wordsEnglish == "blot") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blot");
+                  }
+                  if (wordsEnglish == "blotter") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blotter");
+                  }
+                  if (wordsEnglish == "blotting paper") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blotting-paper");
+                  }
+                  if (wordsEnglish == "blotch") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blotch");
+                  }
+                  if (wordsEnglish == "blouse") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blouse");
+                  }
+                  if (wordsEnglish == "blow") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blow");
+                  }
+                  if (wordsEnglish == "blowlamp") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blowlamp");
+                  }
+                  if (wordsEnglish == "blowtorch") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blowlamp");
+                  }
+                  if (wordsEnglish == "blowout") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blowout");
+                  }
+                  if (wordsEnglish == "blow-up") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blow-up");
+                  }
+                  if (wordsEnglish == "blow-by-blow") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blow-by-blow");
+                  }
+                  if (wordsEnglish == "blubber") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blubber");
+                  }
+                  if (wordsEnglish == "bludgeon") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bludgeon");
+                  }
+                  if (wordsEnglish == "blue") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blue");
+                  }
+                  if (wordsEnglish == "bluebell") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bluebell");
+                  }
+                  if (wordsEnglish == "blue-blooded") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blue-blooded");
+                  }
+                  if (wordsEnglish == "bluebottle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bluebottle");
+                  }
+                  if (wordsEnglish == "blue-collar") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blue-collar");
+                  }
+                  if (wordsEnglish == "blueprint") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blueprint");
+                  }
+                  if (wordsEnglish == "blue-sky") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blue-sky");
+                  }
+                  if (wordsEnglish == "Bluetooth") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bluetooth");
+                  }
+                  if (wordsEnglish == "bluish") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bluish");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");

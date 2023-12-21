@@ -198,7 +198,7 @@ class EnglishEntryballgame extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "Are you going to the ball game?"),
                               const ExampleSentenceKurdish(
-                                  text: "ئەچی بۆ یاری بەیسبۆڵەکە؟."),
+                                  text: "ئەچی بۆ یاری بەیسبۆڵەکە؟"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBallgames2("en-GB"),

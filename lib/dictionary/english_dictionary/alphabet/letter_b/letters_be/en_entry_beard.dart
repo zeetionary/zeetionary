@@ -190,7 +190,7 @@ class EnglishEntrybeard extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "Do you like men with beards?"),
                               const ExampleSentenceKurdish(
-                                  text: "حەزت لە پیاوی ڕیشدارە؟."),
+                                  text: "حەزت لە پیاوی ڕیشدارە؟"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeards2("en-GB"),

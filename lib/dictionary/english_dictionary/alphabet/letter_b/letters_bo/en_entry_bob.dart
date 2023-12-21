@@ -5,93 +5,91 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "bathe" and provide five simple example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings or more.
+// Define the word "bob" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
 
-// replace bathe - replace EnglishEntrybathe
-
-// replace speakBathe - /beɪð/
+// replace bob - /bɒb/
 
 enum TtsState { playing }
 
-class EnglishEntrybathe extends StatelessWidget {
+class EnglishEntrybob extends StatelessWidget {
 // blank divider
-  EnglishEntrybathe({super.key});
+  EnglishEntrybob({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBathe(String languageCode) async {
-    // DOPSUM: CHANGE speakBathe
+  Future<void> speakbob(String languageCode) async {
+    // DOPSUM: CHANGE speakbob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bathe"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bob"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBathes1(String languageCode) async {
-    // DOPSUM: CHANGE speakBathe
+  Future<void> speakbobs1(String languageCode) async {
+    // DOPSUM: CHANGE speakbob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Bathe the wound and apply a clean dressing."); // DOPSUM: CHANGE TEXT
+        "Tiny boats bobbed up and down in the harbour."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBathes2(String languageCode) async {
-    // DOPSUM: CHANGE speakBathe
+  Future<void> speakbobs2(String languageCode) async {
+    // DOPSUM: CHANGE speakbob
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "She got her hair bobbed in a new style."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbobs3(String languageCode) async {
+    // DOPSUM: CHANGE speakbob
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "She acknowledged me with a quick bob of her head."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbobs4(String languageCode) async {
+    // DOPSUM: CHANGE speakbob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Have you bathed the baby yet?"); // DOPSUM: CHANGE TEXT
+        .speak("She wears her hair in a bob."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBathes3(String languageCode) async {
-    // DOPSUM: CHANGE speakBathe
+  Future<void> speakbobs5(String languageCode) async {
+    // DOPSUM: CHANGE speakbob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We love to go bathe in the ocean whenever we visit the beach."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("That coat cost me ten bob in 1956."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBathes4(String languageCode) async {
-    // DOPSUM: CHANGE speakBathe
+  Future<void> speakbobs6(String languageCode) async {
+    // DOPSUM: CHANGE speakbob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The moon bathed the countryside in a beautiful light."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbobs66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBathes5(String languageCode) async {
-    // DOPSUM: CHANGE speakBathe
+  Future<void> speakbobs7(String languageCode) async {
+    // DOPSUM: CHANGE speakbob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The children took a bathe in the sea every day of their summer vacation."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBathes6(String languageCode) async {
-    // DOPSUM: CHANGE speakBathe
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBathes66"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBathes7(String languageCode) async {
-    // DOPSUM: CHANGE speakBathe
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBathes77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbobs77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -108,22 +106,22 @@ class EnglishEntrybathe extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bathe"),
+                            EntryTitle(word: "bob"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /beɪð/"),
+                            const IPAofEnglish(text: "IpaUK: /bɒb/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakBathe("en-GB"),
+                              onPressed: () => speakbob("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /beɪð/"),
+                            const IPAofEnglish(text: "IpaUS: /bɑːb/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakBathe("en-US"),
+                              onPressed: () => speakbob("en-US"),
                             ),
                           ],
                         ),
@@ -141,16 +139,21 @@ class EnglishEntrybathe extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
+                  // VideoIconForTab(), // 16
+                  // VideoIconForTab(), // 17
+                  // VideoIconForTab(), // 18
+                  // VideoIconForTab(), // 19
+                  // VideoIconForTab(), // 20
                 ],
               ),
               Expanded(
@@ -164,110 +167,106 @@ class EnglishEntrybathe extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: خۆشتن، مەلێ، سۆبایی، سۆباھی
+کوردی: هەڵبەزودابەز، تەکان، لەقین، ڕاوەشان، جووڵە، داهاتنەوە، کوڕنش (کەم)، شێوازێکی داهێنانی قژی ژنان، قاش‌کردن، قورسایی، سەنگ، قورسە، شاقوڵ، شاغوڵ، گوڵنگ، گووفک، کلکی بڕاو، کلکی کوڵ (ئەسپ)، هێشوو، بۆڵ
 
-١. (کردار) ششتنی شتێک لە ئاودا"""),
+١. (کردار) جوڵان یان جوڵاندنی شتێک بەرەو سەرەوە و خوارەوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Bathe the wound and apply a clean dressing."),
+                                      "Tiny boats bobbed up and down in the harbour."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "برینەکە بشۆ و بە پارچەیەکی پاک دایپۆشە."),
+                                      "بەلەمەکان هەڵبەز و دابەزیان بوو لە بەندەرەکەدا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBathes1("en-GB"),
+                                onPressed: () => speakbobs1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBathes1("en-US"),
+                                onPressed: () => speakbobs1("en-US"),
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (کردار) ششتنی کەسێک"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (کردار) بڕینی قژی کەسێک بە شێوەیەک کە لە هەموو لایەکەوە هەمان درێژی هەیە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text: "Have you bathed the baby yet?"),
+                                  text:
+                                      "She got her hair bobbed in a new style."),
                               const ExampleSentenceKurdish(
-                                  text: "منداڵەکەت شۆردووە؟"),
+                                  text:
+                                      "پرچی داهێنا بە هەمان درێژی بەشێوەیەکی ستایلی تازە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBathes2("en-GB"),
+                                onPressed: () => speakbobs2("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBathes2("en-US"),
+                                onPressed: () => speakbobs2("en-US"),
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (کردار) چوون بۆ مەلەکردن لە دەریادا بۆ خۆشی"""),
+                          const DefinitionKurdish(
+                              text: "٣. (ناو) جوڵەی خێرای سەروو و خوار"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "We love to go bathe in the ocean whenever we visit the beach."),
+                                      "She acknowledged me with a quick bob of her head."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "حەزدەکەین بچین بۆ مەلەوانی لە زەریاکەدا ھەرکاتێک دەچینە کەناراوەکە."),
+                                      "ئاماژەی کرد کە ئاگادارە لێرەم بە لەقاندنێکی خێرای سەری."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBathes3("en-GB"),
+                                onPressed: () => speakbobs3("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBathes3("en-US"),
+                                onPressed: () => speakbobs3("en-US"),
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٤. (کردار) ڕووناککردنەوە"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (ناو) جۆرە پرچبڕینێک کە لە هەموو لایەکەوە بە کورتی یان مام‌ناوەندی دەبڕدرێت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "The moon bathed the countryside in a beautiful light."),
+                                  text: "She wears her hair in a bob."),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "مانگ دەشت‌ودەری ڕووناککردەوە بە ڕۆشناییەکی جوان."),
+                                  text: "پرچی بە شێوەی بۆبی دادەهێنێت."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBathes4("en-GB"),
+                                onPressed: () => speakbobs4("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBathes4("en-US"),
+                                onPressed: () => speakbobs4("en-US"),
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٥. (ناو) مەلەکردن لە دەریادا بۆ خۆشی"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٥. (ناو) دراوێکی بەریتانی کە لە ڕابردوودا بەکاردەهات"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "The children took a bathe in the sea every day of their summer vacation."),
+                                  text: "That coat cost me ten bob in 1956."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "منداڵەکان ھەموو ڕۆژێکی پشووی ھاوینەیان مەلەیان دەکرد لە دەریاکە."),
+                                      "پاڵتاوەکە ١٠ بۆبی تێچوو لەسەرم لە ١٩٥٦."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakBathes5("en-GB"),
+                                onPressed: () => speakbobs5("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakBathes5("en-US"),
+                                onPressed: () => speakbobs5("en-US"),
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
@@ -280,9 +279,9 @@ class EnglishEntrybathe extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedten(),
+                    YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -319,18 +318,36 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Verb: bathe (derived forms: bathes, bathed, bathing)
-1. Cleanse the entire body
-"bathe daily"
- 
-2. Suffuse or envelope with something
-"The room was bathed in sunlight"; "I was bathed in a cold sweat"; "veal bathed in a rich creamy sauce"
- 
-3. Swim for pleasure or recreation
+- Verb: bob (Derived forms: bobs, bobbed, bobbing)
+1. Move up and down repeatedly in a quick, short movement (= jig)
+"her rucksack bobbed gently on her back";
 
-- Noun: bathe (derived forms: bathes)
-1. The act of swimming for pleasure or recreation
-"the Englishman said he had a good bathe"
+2. (sport) ride a bobsleigh (= bobsled [N. Amer], bobsleigh [Brit])
+"The boys bobbed down the hill screaming with pleasure";
+ 
+3. Remove or shorten the tail of an animal (= dock, tail)
+ 
+4.Make a curtsy; usually done only by girls and women; as a sign of respect (= curtsy)
+"She bobbed when she shook the Queen's hand";
+
+5. Cut hair in the style of a bob
+"Bernice bobs her hair these days!"
+
+- Noun: bob (Derived forms: bobs, bobbed, bobbing)
+1. [UK, informal] A former monetary unit in Great Britain (= British shilling, shilling)
+ 
+2. A hair style for women and children; a short haircut all around
+ 
+3. A long racing sled (for 2 or more people) with a steering mechanism (= bobsled [N. Amer], bobsleigh [Brit])
+ 
+4. A hanging weight, especially a metal ball on a string
+ 
+5. A small float usually made of cork; attached to a fishing line (= bobber, cork, bobfloat)
+ 
+6. A short or shortened tail of certain animals (= bobtail, dock)
+ 
+7. A short abrupt inclination (as of the head)
+"he gave me a short bob of acknowledgement"
 """,
           )
         ],
@@ -344,12 +361,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "VyEf4EBXe8o";
+  static String myVideoId = "https://youtu.be/1Pk5sw2YbEA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 554, // DOPSUM: CHANGE IT
+      startAt: 169, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -369,12 +386,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "lGSOWwUvJiU";
+  static String myVideoId = "https://youtu.be/kNUmSJqdbhY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 923, // DOPSUM: CHANGE IT
+      startAt: 1977, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -394,12 +411,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "Pon4Zux5MaQ";
+  static String myVideoId = "https://youtu.be/wHEkXRiQhgM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 145, // DOPSUM: CHANGE IT
+      startAt: 378, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -419,12 +436,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "cCP9vjp4kSg";
+  static String myVideoId = "https://youtu.be/iaIqwPCsQZ4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 382, // DOPSUM: CHANGE IT
+      startAt: 69, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -444,12 +461,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "0yv6smozK9M";
+  static String myVideoId = "https://youtu.be/mRVH1hpjak0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 231, // DOPSUM: CHANGE IT
+      startAt: 377, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -469,12 +486,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "J0mZYeb4C8k";
+  static String myVideoId = "https://youtu.be/5Ew04a_z3k8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1201, // DOPSUM: CHANGE IT
+      startAt: 500, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -494,12 +511,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "P0eg44MJ-qg";
+  static String myVideoId = "https://youtu.be/ZQy89tZ-mRU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 439, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -519,12 +536,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "Tq0Wbu2s2d4";
+  static String myVideoId = "https://youtu.be/h0jMpNZukjg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 294, // DOPSUM: CHANGE IT
+      startAt: 747, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -544,12 +561,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "cyGjr1dzRdU";
+  static String myVideoId = "https://youtu.be/C67cIgsYOVg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 187, // DOPSUM: CHANGE IT
+      startAt: 622, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -569,12 +586,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/LG0y9swWgm4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 1304, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -594,12 +611,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/MWhwWywwE54?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 52, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -619,12 +636,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/b9O6iCM4vCg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 201, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -641,206 +658,6 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedthirteen extends StatelessWidget {
-  YoutubeEmbeddedthirteen({super.key});
+// more than one video, only first autoplay
 
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddeddfourteen extends StatelessWidget {
-  YoutubeEmbeddeddfourteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedfifteen extends StatelessWidget {
-  YoutubeEmbeddedfifteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddeddsixteen extends StatelessWidget {
-  YoutubeEmbeddeddsixteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddeddseventeen extends StatelessWidget {
-  YoutubeEmbeddeddseventeen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddeddeighteen extends StatelessWidget {
-  YoutubeEmbeddeddeighteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddeddnineteen extends StatelessWidget {
-  YoutubeEmbeddeddnineteen({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwenty extends StatelessWidget {
-  YoutubeEmbeddedtwenty({super.key});
-
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-// morethan one video, only first autoplay
-
-// end bathe// TODO Implement this library.
+// end bob

@@ -215,7 +215,7 @@ class EnglishEntrybequeath extends StatelessWidget {
                                       "The previous government had bequeathed a legacy of lots of problems."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "حکومەتی پێشوو ژمارەیەکی زۆر کێشەی وەک میراتی جێھێشت."),
+                                      "حکومەتی پێشوو ژمارەیەکی زۆر کێشەی وەک میراتی جێھێشت بوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBequeaths3("en-GB"),

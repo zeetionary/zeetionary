@@ -393,7 +393,7 @@ class EnglishEntrybalance extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "How long can you balance on one leg?"),
                               const ExampleSentenceKurdish(
-                                  text: "چەندە دەتوانی لەسەر یەک پێ بوەستیت؟."),
+                                  text: "چەندە دەتوانی لەسەر یەک پێ بوەستیت؟"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBalances8("en-GB"),

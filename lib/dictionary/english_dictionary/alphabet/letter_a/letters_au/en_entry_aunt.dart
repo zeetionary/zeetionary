@@ -201,7 +201,7 @@ class EnglishEntryaunt extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "Do you want some tea, Aunt Alice?"),
                               const ExampleSentenceKurdish(
-                                  text: "چا ئەخۆیتەوە، پورە ئالیس؟."),
+                                  text: "چا ئەخۆیتەوە، پورە ئالیس؟"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAunt353("en-GB"),

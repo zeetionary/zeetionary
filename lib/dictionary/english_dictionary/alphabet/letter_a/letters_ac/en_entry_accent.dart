@@ -182,7 +182,7 @@ class EnglishEntryaccent extends StatelessWidget {
                                       "On which syllable do you place the accent in this word?"),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لەم وشەیەدا ھێز دەخەیتە سەر کام بڕگە؟."),
+                                      "لەم وشەیەدا ھێز دەخەیتە سەر کام بڕگە؟"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAc25663("en-GB"),

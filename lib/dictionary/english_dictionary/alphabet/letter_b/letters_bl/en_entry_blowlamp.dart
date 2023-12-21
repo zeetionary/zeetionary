@@ -171,7 +171,7 @@ class EnglishEntryblowlamp extends StatelessWidget {
                                       "The plumber employed a blowlamp to thaw a frozen pipe."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بپڕیچییەکە پەرەمێزێکی بەکارھێنا بۆ گەرمکردنی بۆڕییە بەستووەکە."),
+                                      "بۆڕیچییەکە پەرەمێزێکی بەکارھێنا بۆ گەرمکردنی بۆڕییە بەستووەکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblowlamps1("en-GB"),

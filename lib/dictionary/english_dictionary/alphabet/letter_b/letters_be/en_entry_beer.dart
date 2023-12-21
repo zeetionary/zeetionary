@@ -173,7 +173,7 @@ class EnglishEntrybeer extends StatelessWidget {
                             children: [
                               const ExampleSentenceEnglish(
                                   text: "Are you a beer drinker?"),
-                              const ExampleSentenceKurdish(text: "بیرەخۆریت؟."),
+                              const ExampleSentenceKurdish(text: "بیرەخۆریت؟"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBeers1("en-GB"),

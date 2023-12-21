@@ -467,7 +467,7 @@ class EnglishEntrybad extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "Have you been a bad boy?"),
                               const ExampleSentenceKurdish(
-                                  text: "منداڵێکی ھاروھاج بوویت؟."),
+                                  text: "منداڵێکی ھاروھاج بوویت؟"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBads7("en-GB"),

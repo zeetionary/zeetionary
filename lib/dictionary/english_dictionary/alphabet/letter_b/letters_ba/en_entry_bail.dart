@@ -177,7 +177,7 @@ class EnglishEntrybail extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "Can anyone put up bail for you?"),
                               const ExampleSentenceKurdish(
-                                  text: "ھیچ کەس دەتوانێت ببێتە کەفیلت؟."),
+                                  text: "ھیچ کەس دەتوانێت ببێتە کەفیلت؟"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBails1("en-GB"),

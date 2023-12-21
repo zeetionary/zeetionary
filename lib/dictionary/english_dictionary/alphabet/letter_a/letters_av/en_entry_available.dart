@@ -200,7 +200,7 @@ class EnglishEntryavailable extends StatelessWidget {
                                   text:
                                       "Will she be available this afternoon?"),
                               const ExampleSentenceKurdish(
-                                  text: "ئەم نیوەڕۆ کاتی دەبێت؟."),
+                                  text: "ئەم نیوەڕۆ کاتی دەبێت؟"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAvailables2("en-GB"),
@@ -221,7 +221,7 @@ class EnglishEntryavailable extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "Do you think he's available?"),
                               const ExampleSentenceKurdish(
-                                  text: "پێت وایە ھێشتا سینگڵ بێ؟."),
+                                  text: "پێت وایە ھێشتا سینگڵ بێ؟"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAvailables3("en-GB"),

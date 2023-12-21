@@ -183,7 +183,7 @@ class EnglishEntryautograph extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "Could I have your autograph?"),
                               const ExampleSentenceKurdish(
-                                  text: "دەتوانی ئیمزایەکم بۆ بکەیت؟."),
+                                  text: "دەتوانی ئیمزایەکم بۆ بکەیت؟"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAutograph1002("en-GB"),

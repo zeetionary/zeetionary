@@ -213,7 +213,7 @@ class EnglishEntryb extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "Shall we go for plan A or plan B?"),
                               const ExampleSentenceKurdish(
-                                  text: "پلانی A یان B ھەڵبژێرین؟."),
+                                  text: "پلانی A یان B ھەڵبژێرین؟"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBs3("en-GB"),

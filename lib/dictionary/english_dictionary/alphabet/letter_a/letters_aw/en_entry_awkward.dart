@@ -243,7 +243,7 @@ class EnglishEntryawkward extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "Have I come at an awkward time?"),
                               const ExampleSentenceKurdish(
-                                  text: "لە کاتێکی نەگونجاو ھاتووم؟."),
+                                  text: "لە کاتێکی نەگونجاو ھاتووم؟"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAwkwards4("en-GB"),

@@ -187,7 +187,7 @@ class EnglishEntryauthorization extends StatelessWidget {
                                       "Who gave the authorization to release the data?"),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کێ مۆڵەتی بڵاوکردنەوەی زانیارییەکانی دا؟."),
+                                      "کێ مۆڵەتی بڵاوکردنەوەی زانیارییەکانی دا؟"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuthorization850("en-GB"),
@@ -229,7 +229,7 @@ class EnglishEntryauthorization extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "Can I see your authorization?"),
                               const ExampleSentenceKurdish(
-                                  text: "دەتوانم مۆڵەتەکەت ببینم؟."),
+                                  text: "دەتوانم مۆڵەتەکەت ببینم؟"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakAuthorization853("en-GB"),

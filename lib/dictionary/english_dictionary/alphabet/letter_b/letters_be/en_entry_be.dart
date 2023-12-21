@@ -533,7 +533,7 @@ class EnglishEntrybe extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "Is there a country called Canada?"),
                               const ExampleSentenceKurdish(
-                                  text: "وڵاتێک ھەیە بەناوی کەنەدا؟."),
+                                  text: "وڵاتێک ھەیە بەناوی کەنەدا؟"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBes6("en-GB"),
@@ -856,7 +856,7 @@ class EnglishEntrybe extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "You're not hungry, are you?"),
                               const ExampleSentenceKurdish(
-                                  text: "برسیت نییە، وایە؟."),
+                                  text: "برسیت نییە، وایە؟"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBes21("en-GB"),
@@ -873,7 +873,7 @@ class EnglishEntrybe extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "Ben's coming, isn't he?"),
                               const ExampleSentenceKurdish(
-                                  text: "بێن دێت، وایە؟."),
+                                  text: "بێن دێت، وایە؟"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBes22("en-GB"),
@@ -909,7 +909,7 @@ class EnglishEntrybe extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "Where were they made?"),
                               const ExampleSentenceKurdish(
-                                  text: "لەکوێ درووستکران؟."),
+                                  text: "لەکوێ درووستکران؟"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBes23("en-GB"),
@@ -1069,7 +1069,7 @@ class EnglishEntrybe extends StatelessWidget {
                                       "If we were to offer you more money, would you stay?"),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەگەر پارەی زیاترت پێ بدەین، دەمێنیتەوە؟."),
+                                      "ئەگەر پارەی زیاترت پێ بدەین، دەمێنیتەوە؟"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBes30("en-GB"),
@@ -1088,7 +1088,7 @@ class EnglishEntrybe extends StatelessWidget {
                                       "Were we to offer you more money, would you stay?"),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەگەر پارەی زیاترت پێ بدەین، دەمێنیتەوە؟."),
+                                      "ئەگەر پارەی زیاترت پێ بدەین، دەمێنیتەوە؟"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakBes31("en-GB"),

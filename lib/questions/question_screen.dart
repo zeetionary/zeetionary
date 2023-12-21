@@ -24,7 +24,7 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
     filteredquestions = List.from(allQuestions);
   }
 
-  void filterquestions(String query) {
+  void filterResults(String query) {
     setState(() {
       filteredquestions = allQuestions
           .where((question) =>
@@ -35,7 +35,7 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
 
   void clearSearch() {
     _searchController.clear();
-    filterquestions('');
+    filterResults('');
   }
 
   @override
@@ -54,7 +54,7 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
                 height: 60,
                 child: TextField(
                   controller: _searchController,
-                  onChanged: filterquestions,
+                  onChanged: filterResults,
                   decoration: InputDecoration(
                     labelText: "Search here",
                     prefixIcon: const Icon(Icons.search),

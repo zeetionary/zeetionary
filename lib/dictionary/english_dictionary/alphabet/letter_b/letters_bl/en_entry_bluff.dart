@@ -57,7 +57,8 @@ class EnglishEntrybluff extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Despite her bluff manner, she's actually a very kind woman."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Despite her bluff manner, she's actually a very kind woman."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbluffs5(String languageCode) async {
@@ -165,9 +166,9 @@ class EnglishEntrybluff extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: قسەلەڕوو، لاف‌لێدەر، بەلاف، تڕلێدەر، بەفڕوفیشاڵ، لاف، هەڵدێر، هەڵەت (پاڵ ئاو)، سەر، لووتکە، (لە کەنەدا) کۆڕەدار، مێشە، بێشەڵان
+کوردی: قسەلەڕوو، لاف‌لێدەر، بەلاف، تڕلێدەر، بەفڕوفیشاڵ، لاف، ھەڵدێر، ھەڵەت (پاڵ ئاو)، سەر، لووتکە، (لە کەنەدا) کۆڕەدار، مێشە، بێشەڵان
 
-١. (کردار) هەوڵدان بۆ قایلکردنی کەسێک کە شتێک دەکەیت کە لە ڕاستیدا ناتەوێت بیکەیت، یان ئەوەی شتێک دەزانیت کە نایزایت"""),
+١. (کردار) ھەوڵدان بۆ قایلکردنی کەسێک کە شتێک دەکەیت کە لە ڕاستیدا ناتەوێت بیکەیت، یان ئەوەی شتێک دەزانیت کە نایزایت"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -175,7 +176,7 @@ class EnglishEntrybluff extends StatelessWidget {
                                       "I don't think he'll shoot—I think he's just bluffing."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "پێم وانییە تەقە بکات، تەنها لاف لێدەدات."),
+                                      "پێم وانییە تەقە بکات، تەنھا لاف لێدەدات."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbluffs1("en-GB"),
@@ -188,7 +189,7 @@ class EnglishEntrybluff extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) هەوڵدانێک بۆ بۆ قایلکردنی کەسێک کە شتێک دەکەیت کە لە ڕاستیدا ناتەوێت بیکەیت، یان ئەوەی شتێک دەزانیت کە نایزایت"),
+                                  "٢. (ناو) ھەوڵدانێک بۆ بۆ قایلکردنی کەسێک کە شتێک دەکەیت کە لە ڕاستیدا ناتەوێت بیکەیت، یان ئەوەی شتێک دەزانیت کە نایزایت"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -196,7 +197,7 @@ class EnglishEntrybluff extends StatelessWidget {
                                       "He said he would resign if he didn't get more money, but it was only a bluff."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "وتی دەست لەکاردەکێشێتەوە ئەگەر پارەی زیاتری پێ نەدرێت، بەڵام تەنها لاف‌لێدان بوو."),
+                                      "وتی دەست لەکاردەکێشێتەوە ئەگەر پارەی زیاتری پێ نەدرێت، بەڵام تەنھا لاف‌لێدان بوو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbluffs2("en-GB"),
@@ -214,7 +215,7 @@ class EnglishEntrybluff extends StatelessWidget {
                               const ExampleSentenceEnglish(
                                   text: "The eagles nested on the bluff."),
                               const ExampleSentenceKurdish(
-                                  text: "داڵەکان لەسەر هەڵدێرەکە نیشتنەوە."),
+                                  text: "داڵەکان لەسەر ھەڵدێرەکە نیشتنەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbluffs3("en-GB"),
@@ -225,22 +226,25 @@ class EnglishEntrybluff extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٤. (ھاوەڵناو) قسەلەڕوو یان زۆر ڕاستگۆ، بەشێوەیەک کە خەڵکی بە بێ‌ڕێزی دەبینن"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (ھاوەڵناو) قسەلەڕوو یان زۆر ڕاستگۆ، بەشێوەیەک کە خەڵکی بە بێ‌ڕێزی دەبینن"),
                           Row(
-                          children: [
-                          const ExampleSentenceEnglish(
-                          text:
-                          "Despite her bluff manner, she's actually a very kind woman."),
-                          const ExampleSentenceKurdish(
-                          text: "سەرەڕای هەڵسوکەوتی قسەلەڕوویی، لەڕاستیدا ژنێکی زۆر میهرەبان بوو."),
-                          const CustomSizedBoxForTTS(),
-                          CustomIconButtonBritish(
-                          onPressed: () => speakbluffs4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakbluffs4("en-US"),
-                          ),
-                          ],
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Despite her bluff manner, she's actually a very kind woman."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "سەرەڕای ھەڵسوکەوتی قسەلەڕوویی، لەڕاستیدا ژنێکی زۆر میھرەبان بوو."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbluffs4("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbluffs4("en-US"),
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -293,7 +297,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bluff (Derived forms: bluffs)
+- Noun: bluff (derived forms: bluffs)
 1. A high steep bank (usually formed by river erosion)
  
 2. Pretence that your position is stronger than it really is
@@ -301,12 +305,12 @@ class EnglishMeaning extends StatelessWidget {
  
 3. The act of bluffing in poker; deception by a false show of confidence in the strength of your cards (= four flush)
 
-- Verb: bluff (Derived forms: bluffed, bluffs, bluffing)
+- Verb: bluff (derived forms: bluffed, bluffs, bluffing)
 1. (card game) deceive an opponent by a bold bet on an inferior hand with the result that the opponent withdraws a winning hand (= bluff out)
  
 2. Frighten someone by pretending to be stronger than one really is
 
-- Adjective: bluff (Derived forms: bluffer, bluffest)
+- Adjective: bluff (derived forms: bluffer, bluffest)
 1. Very steep; having a prominent and almost vertical front (= bold, sheer)
 "a bluff headland";
 
@@ -325,7 +329,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/wVNbd7mC4Jg?t=";
+  static String myVideoId = "wVNbd7mC4Jg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -350,7 +354,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/oOAyQUBithQ?t=";
+  static String myVideoId = "oOAyQUBithQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -375,7 +379,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/rHvCQEr_ETk?t=";
+  static String myVideoId = "rHvCQEr_ETk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -400,7 +404,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/BvHCpWixZRA?t=";
+  static String myVideoId = "BvHCpWixZRA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -425,7 +429,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/4IaOeVgZ-wc?t=";
+  static String myVideoId = "4IaOeVgZ-wc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -450,7 +454,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/SHfqtaa0VI8?t=";
+  static String myVideoId = "SHfqtaa0VI8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -475,7 +479,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/BEd5p68GUXw?t=";
+  static String myVideoId = "BEd5p68GUXw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -500,7 +504,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/cN9twIfnTu8?t=";
+  static String myVideoId = "cN9twIfnTu8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -525,7 +529,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/iYCAwk5oxFE?t=";
+  static String myVideoId = "iYCAwk5oxFE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -550,7 +554,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/pv-c70rrKZI?t=";
+  static String myVideoId = "pv-c70rrKZI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

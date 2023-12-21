@@ -24,7 +24,7 @@ class _GrammarScreenState extends State<GrammarScreen> {
     filteredsubjects = List.from(allGrammarSubjects);
   }
 
-  void filtersubjects(String query) {
+  void filterResults(String query) {
     setState(() {
       filteredsubjects = allGrammarSubjects
           .where(
@@ -35,7 +35,7 @@ class _GrammarScreenState extends State<GrammarScreen> {
 
   void clearSearch() {
     _searchController.clear();
-    filtersubjects('');
+    filterResults('');
   }
 
   @override
@@ -54,7 +54,7 @@ class _GrammarScreenState extends State<GrammarScreen> {
                 height: 60,
                 child: TextField(
                   controller: _searchController,
-                  onChanged: filtersubjects,
+                  onChanged: filterResults,
                   decoration: InputDecoration(
                     labelText: "Search here",
                     prefixIcon: const Icon(Icons.search),

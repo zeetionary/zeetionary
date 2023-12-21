@@ -19,15 +19,15 @@ class SignInButton extends ConsumerWidget {
         onPressed: () => signInWithGoogle(context, ref),
         icon: Image.asset(
           Constants.googlePath,
-          width: 35,
+          width: 52,
         ),
         label: const Text(
           'بچۆ ژوورەوە بە گووگڵ',
-          style: TextStyle(fontSize: 18, color: Colors.white),
+          style: TextStyle(fontSize: 20, color: Colors.white),
         ),
         style: ElevatedButton.styleFrom(
           backgroundColor: Pallete.greyColor,
-          minimumSize: const Size(double.infinity, 50),
+          minimumSize: const Size(double.infinity, 60),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(20),
           ),

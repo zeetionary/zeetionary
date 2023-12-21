@@ -1867,48 +1867,48 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "blue-sky",
     "Bluetooth",
     "bluish",
-    // "bluff",
-    // "blunder",
-    // "blunt",
-    // "bluntness",
-    // "blur",
-    // "blurb",
-    // "blush",
-    // "bluster",
-    // "blustery",
-    // "boa",
-    // "boa constrictor",
-    // "boar",
-    // "board",
-    // "boarder",
-    // "boarding card",
-    // "boarding house",
-    // "boarding school",
-    // "boast",
-    // "boastful",
-    // "boastfully",
-    // "boat",
-    // "boathouse",
-    // "boating",
-    // "boat train",
-    // "bob",
-    // "bobbin",
-    // "bobsled",
-    // "bobsleigh",
-    // "bode well/ill",
-    // "bodice",
-    // "bodily",
-    // "body",
-    // "bodyboard",
-    // "bodyboarding",
-    // "bodyguard",
-    // "bodywork",
-    // "bog",
-    // "bogey",
-    // "boggle",
-    // "boggy",
-    // "bogy",
-    // "BOGOF",
+    "bluff",
+    "blunder",
+    "blunt",
+    "bluntness",
+    "blur",
+    "blurb",
+    "blush",
+    "bluster",
+    "blustery",
+    "boa",
+    "boa constrictor",
+    "boar",
+    "board",
+    "boarder",
+    "boarding card",
+    "boarding house",
+    "boarding school",
+    "boast",
+    "boastful",
+    "boastfully",
+    "boat",
+    "boathouse",
+    "boating",
+    "boat train",
+    "bob",
+    "bobbin",
+    "bobsled",
+    "bobsleigh",
+    "bode well/ill",
+    "bodice",
+    "bodily",
+    "body",
+    "bodyboard",
+    "bodyboarding",
+    "bodyguard",
+    "bodywork",
+    "bog",
+    "bogey",
+    "boggle",
+    "boggy",
+    "bogy",
+    "BOGOF",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -1990,7 +1990,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     filteredWords = List.from(allWordsEnglish);
   }
 
-  // void filterWords(String query) {
+  // void filterResults(String query) {
   //   setState(() {
   //     filteredWords = allWordsEnglish
   //         .where((word) => word.toLowerCase().contains(query.toLowerCase()))
@@ -1998,7 +1998,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
   //   });
   // }
 
-  void filterWords(String query) {
+  void filterResults(String query) {
     setState(() {
       if (query.isEmpty) {
         // If the query is empty, show all words
@@ -2028,7 +2028,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
 
   void clearSearch() {
     _searchController.clear();
-    filterWords("");
+    filterResults("");
   }
 
   @override
@@ -2047,7 +2047,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                 height: 60,
                 child: TextField(
                   controller: _searchController,
-                  onChanged: filterWords,
+                  onChanged: filterResults,
                   decoration: InputDecoration(
                     labelText: "Search here",
                     prefixIcon: const Icon(Icons.search),
@@ -9578,178 +9578,178 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-bluish");
                   }
-                  // if (wordsEnglish == "bluff") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bluff");
-                  // }
-                  // if (wordsEnglish == "blunder") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-blunder");
-                  // }
-                  // if (wordsEnglish == "blunt") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-blunt");
-                  // }
-                  // if (wordsEnglish == "bluntness") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bluntness");
-                  // }
-                  // if (wordsEnglish == "blur") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-blur");
-                  // }
-                  // if (wordsEnglish == "blurb") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-blurb");
-                  // }
-                  // if (wordsEnglish == "blush") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-blush");
-                  // }
-                  // if (wordsEnglish == "bluster") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bluster");
-                  // }
-                  // if (wordsEnglish == "blustery") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-blustery");
-                  // }
-                  // if (wordsEnglish == "boa") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-boa-constrictor");
-                  // }
-                  // if (wordsEnglish == "boa constrictor") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-boa-constrictor");
-                  // }
-                  // if (wordsEnglish == "boar") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-boar");
-                  // }
-                  // if (wordsEnglish == "board") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-board");
-                  // }
-                  // if (wordsEnglish == "boarder") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-boarder");
-                  // }
-                  // if (wordsEnglish == "boarding card") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-boarding-card");
-                  // }
-                  // if (wordsEnglish == "boarding house") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-boarding-house");
-                  // }
-                  // if (wordsEnglish == "boarding school") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-boarding-school");
-                  // }
-                  // if (wordsEnglish == "boast") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-boast");
-                  // }
-                  // if (wordsEnglish == "boastful") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-boastful");
-                  // }
-                  // if (wordsEnglish == "boastfully") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-boastfully");
-                  // }
-                  // if (wordsEnglish == "boat") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-boat");
-                  // }
-                  // if (wordsEnglish == "boathouse") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-boathouse");
-                  // }
-                  // if (wordsEnglish == "boating") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-boating");
-                  // }
-                  // if (wordsEnglish == "boat train") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-boat-train");
-                  // }
-                  // if (wordsEnglish == "bob") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bob");
-                  // }
-                  // if (wordsEnglish == "bobbin") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bobbin");
-                  // }
-                  // if (wordsEnglish == "bobsleigh") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bobsleigh");
-                  // }
-                  // if (wordsEnglish == "bobsled") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bobsleigh");
-                  // }
-                  // if (wordsEnglish == "bode well/ill") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bode-well-ill");
-                  // }
-                  // if (wordsEnglish == "bodice") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bodice");
-                  // }
-                  // if (wordsEnglish == "bodily") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bodily");
-                  // }
-                  // if (wordsEnglish == "body") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-body");
-                  // }
-                  // if (wordsEnglish == "bodyboard") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bodyboard");
-                  // }
-                  // if (wordsEnglish == "bodyboarding") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bodyboarding");
-                  // }
-                  // if (wordsEnglish == "bodyguard") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bodyguard");
-                  // }
-                  // if (wordsEnglish == "bodywork") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bodywork");
-                  // }
-                  // if (wordsEnglish == "bog") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bog");
-                  // }
-                  // if (wordsEnglish == "boggy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-boggy");
-                  // }
-                  // if (wordsEnglish == "bogey") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bogey");
-                  // }
-                  // if (wordsEnglish == "bogey") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bogey");
-                  // }
-                  // if (wordsEnglish == "bogy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bogey");
-                  // }
-                  // if (wordsEnglish == "boggle") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-boggle");
-                  // }
-                  // if (wordsEnglish == "BOGOF") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bogof");
-                  // }
+                  if (wordsEnglish == "bluff") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bluff");
+                  }
+                  if (wordsEnglish == "blunder") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blunder");
+                  }
+                  if (wordsEnglish == "blunt") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blunt");
+                  }
+                  if (wordsEnglish == "bluntness") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bluntness");
+                  }
+                  if (wordsEnglish == "blur") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blur");
+                  }
+                  if (wordsEnglish == "blurb") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blurb");
+                  }
+                  if (wordsEnglish == "blush") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blush");
+                  }
+                  if (wordsEnglish == "bluster") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bluster");
+                  }
+                  if (wordsEnglish == "blustery") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-blustery");
+                  }
+                  if (wordsEnglish == "boa") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boa-constrictor");
+                  }
+                  if (wordsEnglish == "boa constrictor") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boa-constrictor");
+                  }
+                  if (wordsEnglish == "boar") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boar");
+                  }
+                  if (wordsEnglish == "board") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-board");
+                  }
+                  if (wordsEnglish == "boarder") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boarder");
+                  }
+                  if (wordsEnglish == "boarding card") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boarding-card");
+                  }
+                  if (wordsEnglish == "boarding house") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boarding-house");
+                  }
+                  if (wordsEnglish == "boarding school") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boarding-school");
+                  }
+                  if (wordsEnglish == "boast") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boast");
+                  }
+                  if (wordsEnglish == "boastful") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boastful");
+                  }
+                  if (wordsEnglish == "boastfully") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boastfully");
+                  }
+                  if (wordsEnglish == "boat") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boat");
+                  }
+                  if (wordsEnglish == "boathouse") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boathouse");
+                  }
+                  if (wordsEnglish == "boating") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boating");
+                  }
+                  if (wordsEnglish == "boat train") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boat-train");
+                  }
+                  if (wordsEnglish == "bob") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bob");
+                  }
+                  if (wordsEnglish == "bobbin") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bobbin");
+                  }
+                  if (wordsEnglish == "bobsleigh") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bobsleigh");
+                  }
+                  if (wordsEnglish == "bobsled") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bobsleigh");
+                  }
+                  if (wordsEnglish == "bode well/ill") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bode-well-ill");
+                  }
+                  if (wordsEnglish == "bodice") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bodice");
+                  }
+                  if (wordsEnglish == "bodily") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bodily");
+                  }
+                  if (wordsEnglish == "body") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-body");
+                  }
+                  if (wordsEnglish == "bodyboard") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bodyboard");
+                  }
+                  if (wordsEnglish == "bodyboarding") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bodyboarding");
+                  }
+                  if (wordsEnglish == "bodyguard") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bodyguard");
+                  }
+                  if (wordsEnglish == "bodywork") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bodywork");
+                  }
+                  if (wordsEnglish == "bog") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bog");
+                  }
+                  if (wordsEnglish == "boggy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boggy");
+                  }
+                  if (wordsEnglish == "bogey") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bogey");
+                  }
+                  if (wordsEnglish == "bogey") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bogey");
+                  }
+                  if (wordsEnglish == "bogy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bogey");
+                  }
+                  if (wordsEnglish == "boggle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-boggle");
+                  }
+                  if (wordsEnglish == "BOGOF") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bogof");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");

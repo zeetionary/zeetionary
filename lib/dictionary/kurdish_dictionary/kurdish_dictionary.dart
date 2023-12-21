@@ -26,7 +26,7 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
     filteredWords = List.from(allwordsKurdish);
   }
 
-  void filterWords(String query) {
+  void filterResults(String query) {
     setState(() {
       filteredWords = allwordsKurdish
           .where((word) => word.toLowerCase().contains(query.toLowerCase()))
@@ -36,7 +36,7 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
 
   void clearSearch() {
     _searchController.clear();
-    filterWords('');
+    filterResults('');
   }
 
   @override
@@ -56,7 +56,7 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
                 height: 60,
                 child: TextField(
                   controller: _searchController,
-                  onChanged: filterWords,
+                  onChanged: filterResults,
                   decoration: InputDecoration(
                     labelText: "لێرە بگەڕێ",
                     prefixIcon: const Icon(Icons.search),
@@ -121,7 +121,8 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
     // https://bard.google.com/chat/ad9cccab2b6f39b4
 
     if (kurdishhistory.contains(word)) {
-      kurdishhistory.remove(word); // Remove the existing item before adding it again.
+      kurdishhistory
+          .remove(word); // Remove the existing item before adding it again.
     }
 
     kurdishhistory.insert(0, word); // Add the item back to the top of the list.

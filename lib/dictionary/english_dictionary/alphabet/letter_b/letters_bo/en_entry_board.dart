@@ -366,7 +366,7 @@ class EnglishEntryboard extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: تەختە(دار)، تەتە، کژورەک، دەپ، تابڵۆ، تەختەی ئاگاداری، مقەبا، تەختەڕەشە، سابوورە، تەختەی شەترەنج، تەختەدامە، نان، خۆراک، چێشت، دەستەی بەڕێوەبەری، لیژنە، کومیتە، ئەنجومەن، جڤات، لێواری کەشتی، لا(پاڵ)ی کەشتی، شانۆ، سێن، (کتێب) بەرگ
 
-١. (کردار) چوونە ناو فڕۆکەیەک، کەشتییەک، شەمەندەفەرێک، پاسێک، هتد"""),
+١. (کردار) چوونە ناو فڕۆکەیەک، کەشتییەک، شەمەندەفەرێک، پاسێک، ھتد"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -432,7 +432,7 @@ class EnglishEntryboard extends StatelessWidget {
                                       "She always had one or two students boarding with her."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەمیشە یەک یان دوو خوێندکاری لابوو کە لەگەڵی دەژیان."),
+                                      "ھەمیشە یەک یان دوو خوێندکاری لابوو کە لەگەڵی دەژیان."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakboards4("en-GB"),
@@ -471,7 +471,7 @@ class EnglishEntryboard extends StatelessWidget {
                                       "When you went to school were you a day student or did you board?"),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کە لە قوتابخانە بوویت هاتووچۆت دەکرد ڕۆژانە یان دەمایتەوە لە قوتابخانە (داخلی)؟"),
+                                      "کە لە قوتابخانە بوویت ھاتووچۆت دەکرد ڕۆژانە یان دەمایتەوە لە قوتابخانە (داخلی)؟"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakboards6("en-GB"),
@@ -527,7 +527,7 @@ class EnglishEntryboard extends StatelessWidget {
                                       "He had ripped up the carpet, leaving only the bare boards."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "فەرشەکەی لێکردەوە و تەنها تەختەکانی بە تەنها هێشتەوە."),
+                                      "فەرشەکەی لێکردەوە و تەنھا تەختەکانی بە تەنھا ھێشتەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakboards9("en-GB"),
@@ -583,7 +583,7 @@ class EnglishEntryboard extends StatelessWidget {
                                       "Choose the appropriate board for skateboarding."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "تەختەیەکی گونجاو هەڵبژێرە بۆسەکیتەوانی."),
+                                      "تەختەیەکی گونجاو ھەڵبژێرە بۆسەکیتەوانی."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakboards12("en-GB"),
@@ -596,7 +596,7 @@ class EnglishEntryboard extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٨. (ناو) ژمارەیەک کەس کە دەسەڵاتی بڕیاردانیان هەیە و کۆنترۆڵی کۆمپانیایەک یان دامەزراوەیەک دەکەن"),
+                                  "٨. (ناو) ژمارەیەک کەس کە دەسەڵاتی بڕیاردانیان ھەیە و کۆنترۆڵی کۆمپانیایەک یان دامەزراوەیەک دەکەن"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -604,7 +604,7 @@ class EnglishEntryboard extends StatelessWidget {
                                       "She has a seat on the board of directors."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کورسیەکی هەیە لە دەستەی بەڕێوەبەرایەتی."),
+                                      "کورسیەکی ھەیە لە دەستەی بەڕێوەبەرایەتی."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakboards13("en-GB"),
@@ -622,7 +622,7 @@ class EnglishEntryboard extends StatelessWidget {
                                       "Board members will vote on the measures at their meeting tomorrow."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ئەندامانی دەستەکە دەنگ لەسەر هەنگاوەکان دەدەن لە کۆبوونەوەکەی سبەینێ."),
+                                      "ئەندامانی دەستەکە دەنگ لەسەر ھەنگاوەکان دەدەن لە کۆبوونەوەکەی سبەینێ."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakboards14("en-GB"),
@@ -656,7 +656,7 @@ class EnglishEntryboard extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٠. (ناو) ئەو خواردنانەی کە پێشکەش دەکرێن کە لە هوتێلێک، میوانخانەیەک، هتد. دەمێنیتەوە"),
+                                  "١٠. (ناو) ئەو خواردنانەی کە پێشکەش دەکرێن کە لە ھوتێلێک، میوانخانەیەک، ھتد. دەمێنیتەوە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -664,7 +664,7 @@ class EnglishEntryboard extends StatelessWidget {
                                       "He pays £90 a week board and lodging."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "٩٠ پاوەند لە هەفتەیەکدا دەدات بۆ خواردن و شوێنی مانەوە."),
+                                      "٩٠ پاوەند لە ھەفتەیەکدا دەدات بۆ خواردن و شوێنی مانەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakboards16("en-GB"),
@@ -783,7 +783,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: board (Derived forms: boards)
+- Noun: board (derived forms: boards)
 1. A committee having supervisory powers
 "the board has seven members"
  
@@ -810,7 +810,7 @@ class EnglishMeaning extends StatelessWidget {
 
 10. Sheet of slate; for writing with chalk (= blackboard, chalkboard [N. Amer])
 
-- Verb: board (Derived forms: boards, boarded, boarding)
+- Verb: board (derived forms: boards, boarded, boarding)
 1. Get on board of (trains, buses, ships, aircraft, etc.) (= get on)
  
 2. Live and take one's meals at or in (= room)
@@ -833,7 +833,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/hFZFjoX2cGg?t=";
+  static String myVideoId = "hFZFjoX2cGg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -858,7 +858,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/a_TSR_v07m0?t=";
+  static String myVideoId = "a_TSR_v07m0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -883,7 +883,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/lVoGZiL-kns?t=";
+  static String myVideoId = "lVoGZiL-kns";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -908,7 +908,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/UHAnf9lkkAY?t=";
+  static String myVideoId = "UHAnf9lkkAY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -933,7 +933,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/JcuDwD2CzIc?t=";
+  static String myVideoId = "JcuDwD2CzIc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -958,7 +958,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/vZH-z99uRas?t=";
+  static String myVideoId = "vZH-z99uRas";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -983,7 +983,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/_GFkHA5EZdE?t=";
+  static String myVideoId = "_GFkHA5EZdE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1008,7 +1008,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/h4CyhQqAPpk?t=";
+  static String myVideoId = "h4CyhQqAPpk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1033,7 +1033,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/ALaTm6VzTBw?t=";
+  static String myVideoId = "ALaTm6VzTBw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1058,7 +1058,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/thOifuHs6eY?t=";
+  static String myVideoId = "thOifuHs6eY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1083,7 +1083,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/hbWeSHbL-rM?t=";
+  static String myVideoId = "hbWeSHbL-rM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1108,7 +1108,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/D2RrRsBgbv0";
+  static String myVideoId = "D2RrRsBgbv0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

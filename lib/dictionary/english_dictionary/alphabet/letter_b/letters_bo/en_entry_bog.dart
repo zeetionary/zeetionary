@@ -192,7 +192,7 @@ class EnglishEntrybog extends StatelessWidget {
                                       "The more she struggled the deeper she sank into the bog."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەرچەندە بەرهەڵستی دەکرد ئەوەندە زیاتر دەکەوتە ناو زەلکاوەکەوە."),
+                                      "ھەرچەندە بەرھەڵستی دەکرد ئەوەندە زیاتر دەکەوتە ناو زەلکاوەکەوە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbogs2("en-GB"),
@@ -210,7 +210,7 @@ class EnglishEntrybog extends StatelessWidget {
                                   text:
                                       "Have you got any bog roll (= toilet paper)?"),
                               const ExampleSentenceKurdish(
-                                  text: "هیچ کاغەزی دەسبەئاوت پێیە؟"),
+                                  text: "ھیچ کاغەزی دەسبەئاوت پێیە؟"),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbogs3("en-GB"),
@@ -287,12 +287,12 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bog (Derived forms: bogs)
+- Noun: bog (derived forms: bogs)
 1. Wet spongy ground of decomposing vegetation; has poorer drainage than a swamp; soil is unfit for cultivation but can be cut and dried and used for fuel (= peat bog)
  
 2. [Brit, informal] A room or building equipped with one or more toilets (= toilet, lavatory, lav [informal], can [N. Amer, informal], john [informal], bathroom, water closet [Brit, archaic], closet [archaic], W.C. [Brit], loo [Brit, informal], jacks [Ireland, informal])
 
-- Verb: bog (Derived forms: bogs, bogging, bogged)
+- Verb: bog (derived forms: bogs, bogging, bogged)
 1. Cause to slow down or get stuck (= bog down)
 "The vote would bog down the house";
  
@@ -311,7 +311,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/mY3SEMTROas?t=";
+  static String myVideoId = "mY3SEMTROas";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -336,7 +336,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/Gv4Af83KFrE?t=";
+  static String myVideoId = "Gv4Af83KFrE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -361,7 +361,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/U38i32CpYow?t=";
+  static String myVideoId = "U38i32CpYow";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -386,7 +386,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/qg2nGY1aqlg?t=";
+  static String myVideoId = "qg2nGY1aqlg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -411,7 +411,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/N3uNPHmKkjc?t=";
+  static String myVideoId = "N3uNPHmKkjc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -436,7 +436,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/TJ7ar0Hp0Ug?t=";
+  static String myVideoId = "TJ7ar0Hp0Ug";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -461,7 +461,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/H8BoxSDk0Ag?t=";
+  static String myVideoId = "H8BoxSDk0Ag";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -486,7 +486,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/-9c782blnEw?t=";
+  static String myVideoId = "-9c782blnEw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -511,7 +511,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/1uEmX5XClPY?t=";
+  static String myVideoId = "1uEmX5XClPY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -536,7 +536,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/wCxRHueX6jQ?t=";
+  static String myVideoId = "wCxRHueX6jQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -561,7 +561,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/6zX3GAngHrw?t=";
+  static String myVideoId = "6zX3GAngHrw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -586,7 +586,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/qW_XnT-MjtU?t=";
+  static String myVideoId = "qW_XnT-MjtU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

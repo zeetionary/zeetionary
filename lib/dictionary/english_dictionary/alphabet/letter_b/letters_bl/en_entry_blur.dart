@@ -177,7 +177,7 @@ class EnglishEntryblur extends StatelessWidget {
                                       "Everything is a blur when I take my glasses off."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەموو شت لێڵاییە کە چاویلکەکەم لادەدەم."),
+                                      "ھەموو شت لێڵاییە کە چاویلکەکەم لادەدەم."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblurs1("en-GB"),
@@ -217,7 +217,7 @@ class EnglishEntryblur extends StatelessWidget {
                                       "As she drifted into sleep, the doctor's face began to blur and fade."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "کە دەستیکرد بە بێهۆشکەوتن، ڕووخساری پزیشکەکە دەستیکرد بە تەڵخبوون و نەمان."),
+                                      "کە دەستیکرد بە بێھۆشکەوتن، ڕووخساری پزیشکەکە دەستیکرد بە تەڵخبوون و نەمان."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblurs3("en-GB"),
@@ -256,7 +256,7 @@ class EnglishEntryblur extends StatelessWidget {
                                       "The differences between art and life seem to have blurred."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "جیاوازی نێوان هونەر و ژیان وا دەردەکەوێت کە کەمبووبێت."),
+                                      "جیاوازی نێوان ھونەر و ژیان وا دەردەکەوێت کە کەمبووبێت."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblurs5("en-GB"),
@@ -274,7 +274,7 @@ class EnglishEntryblur extends StatelessWidget {
                                       "She tends to blur the distinction between her friends and her colleagues."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "حەزدەکات جیاوازی لە نێوان هاوڕێکانی و هاوکارەکانی پیشان نەدات."),
+                                      "حەزدەکات جیاوازی لە نێوان ھاوڕێکانی و ھاوکارەکانی پیشان نەدات."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakblurs6("en-GB"),
@@ -335,11 +335,11 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: blur (Derived forms: blurs)
+- Noun: blur (derived forms: blurs)
 1. A hazy or indistinct representation (= fuzz)
 "it happened so fast it was just a blur";
 
-- Verb: blur (Derived forms: blurred, blurring, blurs)
+- Verb: blur (derived forms: blurred, blurring, blurs)
 1. Become glassy; lose clear vision (= film over, glaze over)
 "Her eyes blurred from lack of sleep";
  
@@ -369,7 +369,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/M0wpTx6kUPE?t=";
+  static String myVideoId = "M0wpTx6kUPE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -394,7 +394,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/zdfj5CtuQ7M?t=";
+  static String myVideoId = "zdfj5CtuQ7M";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -419,7 +419,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/n3NniavNOIM?t=";
+  static String myVideoId = "n3NniavNOIM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -444,7 +444,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/b1reY72ktEc?t=";
+  static String myVideoId = "b1reY72ktEc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -469,7 +469,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/EM4SJlhsXSE?t=";
+  static String myVideoId = "EM4SJlhsXSE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -494,7 +494,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/LqU9CdPs6ek?t=";
+  static String myVideoId = "LqU9CdPs6ek";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -519,7 +519,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/yDp3cB5fHXQ?t=";
+  static String myVideoId = "yDp3cB5fHXQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -544,7 +544,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/DkaJ6iK2CJc?t=";
+  static String myVideoId = "DkaJ6iK2CJc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -569,7 +569,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/i4XshvdGyP4?t=";
+  static String myVideoId = "i4XshvdGyP4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

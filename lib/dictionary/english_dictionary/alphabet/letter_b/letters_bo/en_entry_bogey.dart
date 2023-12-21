@@ -165,7 +165,7 @@ class EnglishEntrybogey extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) شتێک کە دەبێتە هۆی ترس"""),
+١. (ناو) شتێک کە دەبێتە ھۆی ترس"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -193,7 +193,7 @@ class EnglishEntrybogey extends StatelessWidget {
                                       "The child picked a bogey from his nose."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "منداڵەکە پارچە چڵمێکی وشکی لە لووتی دەرهێنا."),
+                                      "منداڵەکە پارچە چڵمێکی وشکی لە لووتی دەرھێنا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbogeys2("en-GB"),
@@ -214,7 +214,7 @@ class EnglishEntrybogey extends StatelessWidget {
                                       "The children believed in the friendly bogey that lived under the bed."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "منداڵەکان باوەڕیان هەبوو بە دێوەزمە دۆستەکەی کە لە ژێر جێ‌خەوەکە دەژیا."),
+                                      "منداڵەکان باوەڕیان ھەبوو بە دێوەزمە دۆستەکەی کە لە ژێر جێ‌خەوەکە دەژیا."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbogeys3("en-GB"),
@@ -295,7 +295,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bogey (Derived forms: bogeys)
+- Noun: bogey (derived forms: bogeys)
 1. A bogle or goblin; where used as a proper name, the Devil (= bogy, bogie)
  
 2. (golf) a score of one stroke over par on a hole
@@ -304,7 +304,7 @@ class EnglishMeaning extends StatelessWidget {
  
 4. [Brit, informal] Dried nasal mucus (= booger [N. Amer, informal], bogy [Brit, informal])
 
-- Verb: bogey (Derived forms: bogeyed, bogeying, bogeys)
+- Verb: bogey (derived forms: bogeyed, bogeying, bogeys)
 1. (golf) shoot in one stroke over par
 """,
           )
@@ -319,7 +319,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/TVKNpjnqeg0?t=";
+  static String myVideoId = "TVKNpjnqeg0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -344,7 +344,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/l3xmc0pzzJI?t=";
+  static String myVideoId = "l3xmc0pzzJI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -369,7 +369,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/_4seGfFmfgw?t=";
+  static String myVideoId = "_4seGfFmfgw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -394,7 +394,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/i1S5CMxtKlw?t=";
+  static String myVideoId = "i1S5CMxtKlw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -419,7 +419,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/Ug-HzOS5dc8?t=";
+  static String myVideoId = "Ug-HzOS5dc8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -444,7 +444,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/EPkjTZj8sv8?t=";
+  static String myVideoId = "EPkjTZj8sv8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -469,7 +469,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/zVsPamehPhU?t=";
+  static String myVideoId = "zVsPamehPhU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -494,7 +494,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/YCz2Ayo__-o?t=";
+  static String myVideoId = "YCz2Ayo__-o";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -519,7 +519,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/wHjm4KIYmsA?t=";
+  static String myVideoId = "wHjm4KIYmsA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -544,7 +544,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/IcaFTHeVQ7w?t=";
+  static String myVideoId = "IcaFTHeVQ7w";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

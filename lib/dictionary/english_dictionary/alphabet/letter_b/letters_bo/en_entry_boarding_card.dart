@@ -30,8 +30,8 @@ class EnglishEntryboardingcard extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Show your boarding card at the gate."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Show your boarding card at the gate."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakboardingcards2(String languageCode) async {
@@ -136,7 +136,7 @@ class EnglishEntryboardingcard extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 10
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   // VideoIconForTab(), // 09
                   // VideoIconForTab(), // 10
@@ -167,10 +167,10 @@ class EnglishEntryboardingcard extends StatelessWidget {
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
-                                  text:
-                                      "Show your boarding card at the gate."),
+                                  text: "Show your boarding card at the gate."),
                               const ExampleSentenceKurdish(
-                                  text: "کارتی سواربوونت لە دەروازەکە پیشان بدە."),
+                                  text:
+                                      "کارتی سواربوونت لە دەروازەکە پیشان بدە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakboardingcards1("en-GB"),
@@ -231,7 +231,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: boarding card (Derived forms: boarding cards)
+- Noun: boarding card (derived forms: boarding cards)
 1. A pass that allows you to board a ship or plane (= boarding pass)
 """,
           )
@@ -246,7 +246,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/D65zVYWyLqg";
+  static String myVideoId = "D65zVYWyLqg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -271,7 +271,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/GZ2xoWlJJj4?t=";
+  static String myVideoId = "GZ2xoWlJJj4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -296,7 +296,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/jp8qydberwo?t=";
+  static String myVideoId = "jp8qydberwo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -321,7 +321,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/CIxjhTPEEeA?t=";
+  static String myVideoId = "CIxjhTPEEeA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -346,7 +346,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/7l8FTV5ziZY?t=";
+  static String myVideoId = "7l8FTV5ziZY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -371,7 +371,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/LLt6kmRKXd4?t=";
+  static String myVideoId = "LLt6kmRKXd4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -396,7 +396,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/ytIlvPhTt6Y?t=";
+  static String myVideoId = "ytIlvPhTt6Y";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -421,7 +421,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/qx-lyJ-ddd0?t=";
+  static String myVideoId = "qx-lyJ-ddd0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

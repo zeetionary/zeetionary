@@ -371,7 +371,7 @@ class EnglishEntrybody extends StatelessWidget {
                                   text:
                                       "The human body is a complex structure."),
                               const ExampleSentenceKurdish(
-                                  text: "لەشی مرۆڤ پێکهاتەیەکی ئاڵۆزە."),
+                                  text: "لەشی مرۆڤ پێکھاتەیەکی ئاڵۆزە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbodys1("en-GB"),
@@ -389,7 +389,7 @@ class EnglishEntrybody extends StatelessWidget {
                                       "The virus can affect all parts of the body."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڤایرۆسەکە دەکرێت کار بکاتە سەر هەموو بەشەکانی جەستە."),
+                                      "ڤایرۆسەکە دەکرێت کار بکاتە سەر ھەموو بەشەکانی جەستە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbodys2("en-GB"),
@@ -409,7 +409,7 @@ class EnglishEntrybody extends StatelessWidget {
                                   text:
                                       "She had injuries to her head and body."),
                               const ExampleSentenceKurdish(
-                                  text: "برینی هەبوو لەسەر سەری و جەستەی."),
+                                  text: "برینی ھەبوو لەسەر سەری و جەستەی."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbodys3("en-GB"),
@@ -426,7 +426,7 @@ class EnglishEntrybody extends StatelessWidget {
                                   text: "He has a large body, but thin legs."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "لاشەیەکی گەورەی هەیە، بەڵام لاقەکانی باریکن."),
+                                      "لاشەیەکی گەورەی ھەیە، بەڵام لاقەکانی باریکن."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbodys4("en-GB"),
@@ -459,14 +459,14 @@ class EnglishEntrybody extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) بەشی سەرەکیی شتێک، بەتایبەتی بینایەک، ئامرازێکی گواستنەوە، کتێبێک، وتارێک، هتد"),
+                                  "٤. (ناو) بەشی سەرەکیی شتێک، بەتایبەتی بینایەک، ئامرازێکی گواستنەوە، کتێبێک، وتارێک، ھتد"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
                                       "The bar is in the main body of the hotel."),
                               const ExampleSentenceKurdish(
-                                  text: "باڕەکە بەشی سەرەکی هوتێلەکەیە."),
+                                  text: "باڕەکە بەشی سەرەکی ھوتێلەکەیە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbodys6("en-GB"),
@@ -484,7 +484,7 @@ class EnglishEntrybody extends StatelessWidget {
                                       "There are some references in the main body of the text."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەندێک سەرچاوە هەن لە بەشی سەرەکیی نووسراوەکە."),
+                                      "ھەندێک سەرچاوە ھەن لە بەشی سەرەکیی نووسراوەکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbodys7("en-GB"),
@@ -523,7 +523,7 @@ class EnglishEntrybody extends StatelessWidget {
                                       "An independent body has been set up to investigate the affair."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەستەیەکی سەربەخۆ پێکهێنراوە بۆ لێکۆڵینەوە لە بابەتەکە."),
+                                      "دەستەیەکی سەربەخۆ پێکھێنراوە بۆ لێکۆڵینەوە لە بابەتەکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbodys9("en-GB"),
@@ -543,7 +543,7 @@ class EnglishEntrybody extends StatelessWidget {
                                       "There is a powerful body of opinion against the ruling."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "ڕێژەیەکی بەهێز لە بۆچوون هەیە دژ بە بڕیارەکە."),
+                                      "ڕێژەیەکی بەھێز لە بۆچوون ھەیە دژ بە بڕیارەکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbodys10("en-GB"),
@@ -607,7 +607,7 @@ class EnglishEntrybody extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٨. (ناو) کوالێتی بەهێز یان ئەستوور"),
+                              text: "٨. (ناو) کوالێتی بەھێز یان ئەستوور"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -615,7 +615,7 @@ class EnglishEntrybody extends StatelessWidget {
                                       "Regular use of conditioner is supposed to give your hair more body."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "بەکارهێنانی بەردەوامی نەرم‌کەرەوە دەبێت ئەستووری زیاتر بە قژت بدات."),
+                                      "بەکارھێنانی بەردەوامی نەرم‌کەرەوە دەبێت ئەستووری زیاتر بە قژت بدات."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbodys14("en-GB"),
@@ -632,7 +632,7 @@ class EnglishEntrybody extends StatelessWidget {
                                   text:
                                       "This wine has plenty of body (= strong flavour)."),
                               const ExampleSentenceKurdish(
-                                  text: "ئەم بیرەیە تامی بەهێزی هەیە."),
+                                  text: "ئەم بیرەیە تامی بەھێزی ھەیە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbodys15("en-GB"),
@@ -645,7 +645,7 @@ class EnglishEntrybody extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٠. (ناو) هەبوونی ئەو جۆرە لاشەیەی کە باسکراوە"),
+                                  "١٠. (ناو) ھەبوونی ئەو جۆرە لاشەیەی کە باسکراوە"),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
@@ -653,7 +653,7 @@ class EnglishEntrybody extends StatelessWidget {
                                       "Every able-bodied man had to fight for his country."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "هەموو پیاوێکی لاشە ساخ دەبوو شەڕ بۆ وڵاتەکەی بکات."),
+                                      "ھەموو پیاوێکی لاشە ساخ دەبوو شەڕ بۆ وڵاتەکەی بکات."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbodys16("en-GB"),
@@ -714,7 +714,7 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: body (Derived forms: bodies)
+- Noun: body (derived forms: bodies)
 1. The entire physical structure of an organism (an animal, plant, or human being) (= organic structure)
 "he felt as if his whole body were on fire";
 
@@ -746,7 +746,7 @@ class EnglishMeaning extends StatelessWidget {
 11. The external structure of a vehicle
 "the body of the car was badly rusted"
 
-- Verb: body (Derived forms: bodied, bodies, bodying)
+- Verb: body (derived forms: bodied, bodies, bodying)
 1. Invest with or as with a body; give body to (= personify)
 """,
           )
@@ -761,7 +761,7 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/10FiSsim_a4?t=";
+  static String myVideoId = "10FiSsim_a4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -786,7 +786,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/Pon4Zux5MaQ?t=";
+  static String myVideoId = "Pon4Zux5MaQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -811,7 +811,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/vhmtoAYVRSo?t=";
+  static String myVideoId = "vhmtoAYVRSo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -836,7 +836,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/y4TAuIuC2Gg?t=";
+  static String myVideoId = "y4TAuIuC2Gg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -861,7 +861,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/GLy2rYHwUqY?t=";
+  static String myVideoId = "GLy2rYHwUqY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -886,7 +886,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/O9ifAYdKDG4?t=";
+  static String myVideoId = "O9ifAYdKDG4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -911,7 +911,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/DG8rPBlbOrY?t=";
+  static String myVideoId = "DG8rPBlbOrY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -936,7 +936,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/e5WJ5_0Z7Ww?t=";
+  static String myVideoId = "e5WJ5_0Z7Ww";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -961,7 +961,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/JljeqZ4iei8?t=";
+  static String myVideoId = "JljeqZ4iei8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -986,7 +986,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/Jt5WpKRPIlE?t=";
+  static String myVideoId = "Jt5WpKRPIlE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1011,7 +1011,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/il1SqNg_ZAw";
+  static String myVideoId = "il1SqNg_ZAw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1036,7 +1036,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/Y0VQyEY-B2I?t=";
+  static String myVideoId = "Y0VQyEY-B2I";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

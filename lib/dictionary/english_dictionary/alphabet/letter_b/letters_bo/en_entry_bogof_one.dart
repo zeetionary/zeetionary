@@ -5,87 +5,87 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "boat train" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
+// Define the word "BOGOF" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
 
-// replace boat train - /ˈbəʊt treɪn/
+// replace BOGOF - /ˈbɒɡɒf/
 
 enum TtsState { playing }
 
-class EnglishEntryboattrain extends StatelessWidget {
+class EnglishEntrybogof extends StatelessWidget {
 // blank divider
-  EnglishEntryboattrain({super.key});
+  EnglishEntrybogof({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakboattrain(String languageCode) async {
-    // DOPSUM: CHANGE speakboattrain
+  Future<void> speakbogof(String languageCode) async {
+    // DOPSUM: CHANGE speakbogof
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("boat train"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("BOGOF"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboattrains1(String languageCode) async {
-    // DOPSUM: CHANGE speakboattrain
+  Future<void> speakbogofs1(String languageCode) async {
+    // DOPSUM: CHANGE speakbogof
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We will take the 7.30 p.m. boat train to Harwich."); // DOPSUM: CHANGE TEXT
+        "The store is running a BOGOF sale on selected shoes."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboattrains2(String languageCode) async {
-    // DOPSUM: CHANGE speakboattrain
+  Future<void> speakbogofs2(String languageCode) async {
+    // DOPSUM: CHANGE speakbogof
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboattrains22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbogofs22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboattrains3(String languageCode) async {
-    // DOPSUM: CHANGE speakboattrain
+  Future<void> speakbogofs3(String languageCode) async {
+    // DOPSUM: CHANGE speakbogof
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboattrains33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbogofs33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboattrains4(String languageCode) async {
-    // DOPSUM: CHANGE speakboattrain
+  Future<void> speakbogofs4(String languageCode) async {
+    // DOPSUM: CHANGE speakbogof
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboattrains44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbogofs44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboattrains5(String languageCode) async {
-    // DOPSUM: CHANGE speakboattrain
+  Future<void> speakbogofs5(String languageCode) async {
+    // DOPSUM: CHANGE speakbogof
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboattrains55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbogofs55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboattrains6(String languageCode) async {
-    // DOPSUM: CHANGE speakboattrain
+  Future<void> speakbogofs6(String languageCode) async {
+    // DOPSUM: CHANGE speakbogof
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboattrains66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbogofs66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakboattrains7(String languageCode) async {
-    // DOPSUM: CHANGE speakboattrain
+  Future<void> speakbogofs7(String languageCode) async {
+    // DOPSUM: CHANGE speakbogof
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakboattrains77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbogofs77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 7, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -102,22 +102,22 @@ class EnglishEntryboattrain extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "boat train"),
+                            EntryTitle(word: "BOGOF"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbəʊt treɪn/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbɒɡɒf/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakboattrain("en-GB"),
+                              onPressed: () => speakbogof("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbəʊt treɪn/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbɑːɡɑːf/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakboattrain("en-US"),
+                              onPressed: () => speakbogof("en-US"),
                             ),
                           ],
                         ),
@@ -135,10 +135,10 @@ class EnglishEntryboattrain extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
-                  VideoIconForTab(), // 07 --- FIND:
-                  VideoIconForTab(), // 08
-                  VideoIconForTab(), // 09
+                  // VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 7
+                  // VideoIconForTab(), // 07 --- FIND:
+                  // VideoIconForTab(), // 08
+                  // VideoIconForTab(), // 09
                   // VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
@@ -163,21 +163,21 @@ class EnglishEntryboattrain extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) شەمەندەفەرێک کە گەشتیار دەگوازێتەوە بۆ شوێنێک یان لێیەوە کە بەلەم دەگەن یان جێیدێڵن"""),
+١. (کورتکراوە) کورتکراوەیەکە بە واتای یەکێک بکڕە و یەکێک بە دیاری وەربگرە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "We will take the 7.30 p.m. boat train to Harwich."),
+                                      "The store is running a BOGOF sale on selected shoes."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "دەچینە ئەو شەمەندەفەرەی کە ٧:٣٠ ی ئێوارە دەچێت بۆ هارویچ."),
+                                      "فرۆشگاکە ھەڕاجی یەکێک بکڕە و یەکێک بە دیاری وەربگرەی ڕاگەیاندووە بۆ ژمارەیەک پێڵاوی دیاریکراو."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakboattrains1("en-GB"),
+                                onPressed: () => speakbogofs1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakboattrains1("en-US"),
+                                onPressed: () => speakbogofs1("en-US"),
                               ),
                             ],
                           ),
@@ -189,10 +189,10 @@ class EnglishEntryboattrain extends StatelessWidget {
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
                     YoutubeEmbeddedfive(),
-                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                    YoutubeEmbeddedseven(),
-                    YoutubeEmbeddedeight(),
-                    YoutubeEmbeddednine(),
+                    // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    // YoutubeEmbeddedseven(),
+                    // YoutubeEmbeddedeight(),
+                    // YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
@@ -232,8 +232,9 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: boat train (Derived forms: boat trains)
-1. A train taking passengers to or from a port
+- Abbreviation: BOGOF
+Usage: Brit
+1. Buy one, get one free (a retail promotion in which consumers can purchase two things for the price of one)
 """,
           )
         ],
@@ -247,12 +248,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/gIoxcsYrqMw?t=";
+  static String myVideoId = "HnVLYifXzUE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 992, // DOPSUM: CHANGE IT
+      startAt: 129, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -272,12 +273,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/LPa8MrlrGNQ?t=";
+  static String myVideoId = "vsCoRd5a9_Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1257, // DOPSUM: CHANGE IT
+      startAt: 305, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -297,12 +298,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/JKFyCjExUnQ?t=";
+  static String myVideoId = "bnW7KY11vYs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1026, // DOPSUM: CHANGE IT
+      startAt: 262, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -322,12 +323,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/aPnFncp67z0?t=";
+  static String myVideoId = "8emPcpfqPRU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 498, // DOPSUM: CHANGE IT
+      startAt: 1365, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -347,12 +348,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/bdCTvEt7NIw?t=";
+  static String myVideoId = "0CP4gvqcMsQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 152, // DOPSUM: CHANGE IT
+      startAt: 250, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -372,12 +373,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/Bq0aA9RZ1ls?t=";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 326, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -397,12 +398,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/pWdRPgyPshs?t=";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1298, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -422,12 +423,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/kFPUuPemTCM?t=";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 606, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -447,12 +448,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/bv3U2MycRpE?t=";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 96, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -546,4 +547,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end boat train
+// end BOGOF

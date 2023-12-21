@@ -5,81 +5,85 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "bodice" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
+// Define the word "bodily" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
 
-// replace bodice - /ˈbɒdɪs/
+// replace bodily - /ˈbɒdɪli/
 
 enum TtsState { playing }
 
-class EnglishEntrybodice extends StatelessWidget {
+class EnglishEntrybodily extends StatelessWidget {
 // blank divider
-  EnglishEntrybodice({super.key});
+  EnglishEntrybodily({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbodice(String languageCode) async {
-    // DOPSUM: CHANGE speakbodice
+  Future<void> speakbodily(String languageCode) async {
+    // DOPSUM: CHANGE speakbodily
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bodice"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bodily"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbodices1(String languageCode) async {
-    // DOPSUM: CHANGE speakbodice
+  Future<void> speakbodilys1(String languageCode) async {
+    // DOPSUM: CHANGE speakbodily
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She was wearing a ballgown with a fitted bodice."); // DOPSUM: CHANGE TEXT
+        "The virus can be passed from person to person through bodily fluids such as blood and saliva."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbodices2(String languageCode) async {
-    // DOPSUM: CHANGE speakbodice
+  Future<void> speakbodilys2(String languageCode) async {
+    // DOPSUM: CHANGE speakbodily
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbodices22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "As you get older, you begin to lose control of your bodily functions."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbodices3(String languageCode) async {
-    // DOPSUM: CHANGE speakbodice
+  Future<void> speakbodilys3(String languageCode) async {
+    // DOPSUM: CHANGE speakbodily
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbodices33"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He carried her bodily up the stairs."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbodices4(String languageCode) async {
-    // DOPSUM: CHANGE speakbodice
+  Future<void> speakbodilys4(String languageCode) async {
+    // DOPSUM: CHANGE speakbodily
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbodices44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The force of the blast hurled us bodily to the ground."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbodices5(String languageCode) async {
-    // DOPSUM: CHANGE speakbodice
+  Future<void> speakbodilys5(String languageCode) async {
+    // DOPSUM: CHANGE speakbodily
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbodices55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The monument was moved bodily to a new site."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbodices6(String languageCode) async {
-    // DOPSUM: CHANGE speakbodice
+  Future<void> speakbodilys6(String languageCode) async {
+    // DOPSUM: CHANGE speakbodily
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbodices66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbodilys66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbodices7(String languageCode) async {
-    // DOPSUM: CHANGE speakbodice
+  Future<void> speakbodilys7(String languageCode) async {
+    // DOPSUM: CHANGE speakbodily
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbodices77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbodilys77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -102,22 +106,22 @@ class EnglishEntrybodice extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bodice"),
+                            EntryTitle(word: "bodily"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbɒdɪs/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbɒdɪli/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbodice("en-GB"),
+                              onPressed: () => speakbodily("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbɑːdɪs/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbɑːdɪli/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbodice("en-US"),
+                              onPressed: () => speakbodily("en-US"),
                             ),
                           ],
                         ),
@@ -163,23 +167,98 @@ class EnglishEntrybodice extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: (ژنانە) سیخمە، سوخمە، کۆڵۆنجە، مەمک‌بەند
+کوردی: لەشی، جەستەیی، تەنی، تەنانی، بەتەواوەتی، یەک‌تەکان، یەک‌پارچە، بەگشتی
 
-١. (ناو) بەشی سەرەوەی جلی ژنانە، لە کەمەرەوە بۆ مل"""),
+١. (ھاوەڵناو) پەیوەندیدار بە جەستەی مرۆڤەوە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "She was wearing a ballgown with a fitted bodice."),
+                                      "The virus can be passed from person to person through bodily fluids such as blood and saliva."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "جلێکی ئاهەنگی لەبەرکردبوو کە مەمک‌بەندێکی پڕبەبەری هەبوو."),
+                                      "ڤایرۆسەکە دەکرێت بگوازرێتەوە لە کەسێکەوە بۆ یەکێکی تر لە ڕێگەی شلەی جەستەوە وەک خوێن و تف."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakbodices1("en-GB"),
+                                onPressed: () => speakbodilys1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakbodices1("en-US"),
+                                onPressed: () => speakbodilys1("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "As you get older, you begin to lose control of your bodily functions."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "کە بەتەمەنتر دەبیت، دەست دەکەیت بە لەدەستدانی توانات بەسەر ئەرکەکانی جەستەت."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbodilys2("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbodilys2("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ھاوەڵکار) بە بەرزکردنەوەی تەواوی جەستەی کەسێک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "He carried her bodily up the stairs."),
+                              const ExampleSentenceKurdish(
+                                  text: "بە باوەش هەڵیگرت بەسەر پەیژەکەدا."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbodilys3("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbodilys3("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The force of the blast hurled us bodily to the ground."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "هێزی تەقینەوەکە بەجەستەوە کوتامانی بە زەویدا."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbodilys4("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbodilys4("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٣. (ھاوەڵکار) بە یەک پارچە، بە تەواوی"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The monument was moved bodily to a new site."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "مۆنومێنتەکە بە تەواوی گوازرایەوە بۆ شوێنێکی تازە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbodilys5("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbodilys5("en-US"),
                               ),
                             ],
                           ),
@@ -234,8 +313,19 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bodice (Derived forms: bodices)
-1. Part of a dress above the waist
+- Adjective: bodily
+1. Affecting or characteristic of the body as opposed to the mind or spirit (= corporal, corporeal, somatic, corp. [informal])
+"bodily needs";
+
+2. Having or relating to a physical material body
+"bodily existence"
+ 
+3. Of or relating to or belonging to the body
+"a bodily organ"; "bodily functions"
+
+- Adverb: bodily
+1. In bodily form
+"he was translated bodily to heaven"
 """,
           )
         ],
@@ -249,12 +339,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/9TugA_z5vQE?t=";
+  static String myVideoId = "https://youtu.be/8eq2vGEEbB4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 404, // DOPSUM: CHANGE IT
+      startAt: 411, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -274,12 +364,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/WUjVPIEtJd0?t=";
+  static String myVideoId = "https://youtu.be/HmtdGWoDMHE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1259, // DOPSUM: CHANGE IT
+      startAt: 386, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -299,12 +389,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/mcZdTvOqmvI?t=";
+  static String myVideoId = "https://youtu.be/Sbp_EeBk-As?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 960, // DOPSUM: CHANGE IT
+      startAt: 60, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -324,12 +414,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/0zXfDafyyao?t=";
+  static String myVideoId = "https://youtu.be/SwQhKFMxmDY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1295, // DOPSUM: CHANGE IT
+      startAt: 1759, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -349,7 +439,107 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/8WQ5MsroXxE?t=";
+  static String myVideoId = "https://youtu.be/8jNs5G88TiI?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 179, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedsix extends StatelessWidget {
+  YoutubeEmbeddedsix({super.key});
+
+  static String myVideoId = "https://youtu.be/8PJGIEz5YJ4?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 1912, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedseven extends StatelessWidget {
+  YoutubeEmbeddedseven({super.key});
+
+  static String myVideoId = "https://youtu.be/OFh5Z-DL8_8?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 2244, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedeight extends StatelessWidget {
+  YoutubeEmbeddedeight({super.key});
+
+  static String myVideoId = "https://youtu.be/UpnwWP3fOSA?t=";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 16, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddednine extends StatelessWidget {
+  YoutubeEmbeddednine({super.key});
+
+  static String myVideoId = "https://youtu.be/F-YJSsX-qNk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -371,115 +561,15 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedsix extends StatelessWidget {
-  YoutubeEmbeddedsix({super.key});
-
-  static String myVideoId = "https://youtu.be/3yi0FNwOYiI?t=";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 215, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  YoutubeEmbeddedseven({super.key});
-
-  static String myVideoId = "https://youtu.be/ZFRnQ-Ti6Is?t=";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 173, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  static String myVideoId = "https://youtu.be/ploiiCA7fwc?t=";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 248, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  static String myVideoId = "https://youtu.be/Ky1c6d7v0pQ?t=";
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      startAt: 440, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-      autoPlay: true,
-      enableCaption: true,
-      loop: true,
-      mute: false,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/UpnwWP3fOSA?t=";
+  static String myVideoId = "https://youtu.be/Y0VQyEY-B2I?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 259, // DOPSUM: CHANGE IT
+      startAt: 201, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -499,12 +589,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/uIod2n234Zw?t=";
+  static String myVideoId = "https://youtu.be/d5E2AQKuCyU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 80, // DOPSUM: CHANGE IT
+      startAt: 14565, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -524,12 +614,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/hJ5Z6awBSb8?t=";
+  static String myVideoId = "https://youtu.be/IOhFk05xASY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 69, // DOPSUM: CHANGE IT
+      startAt: 462, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -548,4 +638,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end bodice
+// end bodily

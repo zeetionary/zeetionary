@@ -5,81 +5,81 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "bodice" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
+// Define the word "body" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
 
-// replace bodice - /ˈbɒdɪs/
+// replace body - /ˈbɒdi/
 
 enum TtsState { playing }
 
-class EnglishEntrybodice extends StatelessWidget {
+class EnglishEntrybody extends StatelessWidget {
 // blank divider
-  EnglishEntrybodice({super.key});
+  EnglishEntrybody({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbodice(String languageCode) async {
-    // DOPSUM: CHANGE speakbodice
+  Future<void> speakbody(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bodice"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("body"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbodices1(String languageCode) async {
-    // DOPSUM: CHANGE speakbodice
+  Future<void> speakbodys1(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She was wearing a ballgown with a fitted bodice."); // DOPSUM: CHANGE TEXT
+        "speakbodys111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbodices2(String languageCode) async {
-    // DOPSUM: CHANGE speakbodice
+  Future<void> speakbodys2(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbodices22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbodys22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbodices3(String languageCode) async {
-    // DOPSUM: CHANGE speakbodice
+  Future<void> speakbodys3(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbodices33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbodys33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbodices4(String languageCode) async {
-    // DOPSUM: CHANGE speakbodice
+  Future<void> speakbodys4(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbodices44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbodys44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbodices5(String languageCode) async {
-    // DOPSUM: CHANGE speakbodice
+  Future<void> speakbodys5(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbodices55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbodys55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbodices6(String languageCode) async {
-    // DOPSUM: CHANGE speakbodice
+  Future<void> speakbodys6(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbodices66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbodys66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbodices7(String languageCode) async {
-    // DOPSUM: CHANGE speakbodice
+  Future<void> speakbodys7(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbodices77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbodys77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -102,22 +102,22 @@ class EnglishEntrybodice extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bodice"),
+                            EntryTitle(word: "body"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈbɒdɪs/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbɒdi/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbodice("en-GB"),
+                              onPressed: () => speakbody("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈbɑːdɪs/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbɑːdi/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbodice("en-US"),
+                              onPressed: () => speakbody("en-US"),
                             ),
                           ],
                         ),
@@ -136,7 +136,7 @@ class EnglishEntrybodice extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
-                  VideoIconForTab(), // 07 --- FIND:
+                  VideoIconForTab(), // 07 --- FIND: 
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -163,23 +163,22 @@ class EnglishEntrybodice extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: (ژنانە) سیخمە، سوخمە، کۆڵۆنجە، مەمک‌بەند
+کوردی: لەش، تەن، جەستە، ئەندام، گیان، قەلبەند، کەلەخ، کەلاک، جەندەک، تەرم، لاشە، بەشی سەرەکی، (ماشێن) بەدەنە، لاشە، گروپ، دەستە، تیپ، تاقم، کۆمەڵە، کۆمەڵ، کۆما، کۆگا، لۆدەتەن، ژمارە، چۆنیەتی، باشی، بنیادەم، پیاو، مرۆ، (مەی) خەستی
 
-١. (ناو) بەشی سەرەوەی جلی ژنانە، لە کەمەرەوە بۆ مل"""),
+١. (ناو) پێنناسە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "She was wearing a ballgown with a fitted bodice."),
+                                      "speakbodys111111111111111111111111111111111"),
                               const ExampleSentenceKurdish(
-                                  text:
-                                      "جلێکی ئاهەنگی لەبەرکردبوو کە مەمک‌بەندێکی پڕبەبەری هەبوو."),
+                                  text: "رستە_رستە_رستە_رستە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakbodices1("en-GB"),
+                                onPressed: () => speakbodys1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakbodices1("en-US"),
+                                onPressed: () => speakbodys1("en-US"),
                               ),
                             ],
                           ),
@@ -234,8 +233,40 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bodice (Derived forms: bodices)
-1. Part of a dress above the waist
+- Noun: body (Derived forms: bodies)
+1. The entire physical structure of an organism (an animal, plant, or human being) (= organic structure)
+"he felt as if his whole body were on fire";
+
+2. A group of persons associated by some common tie or occupation and regarded as an entity
+"the whole body filed out of the auditorium"; "the student body"; "administrative body"
+ 
+3. A natural object consisting of a dead animal or person (= dead body)
+"they found the body in the lake";
+
+4. An individual 3-dimensional object that has mass and that is distinguishable from other objects
+"heavenly body"
+ 
+5. The body excluding the head and neck and limbs (= torso, trunk)
+"they moved their arms and legs and bodies";
+
+6. A collection of particulars considered as a system
+"a body of law"; "a body of doctrine"; "a body of precedents"
+ 
+7. The property of holding together and retaining its shape (= consistency, consistence, substance)
+"wool has more body than rayon";
+
+8. The central message of a communication
+"the body of the message was short"
+ 
+9. The main mass of a thing
+ 
+10. A resonating chamber in a musical instrument (as the body of a violin) (= soundbox)
+ 
+11. The external structure of a vehicle
+"the body of the car was badly rusted"
+
+- Verb: body (Derived forms: bodied, bodies, bodying)
+1. Invest with or as with a body; give body to (= personify)
 """,
           )
         ],
@@ -249,12 +280,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "https://youtu.be/9TugA_z5vQE?t=";
+  static String myVideoId = "https://youtu.be/10FiSsim_a4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 404, // DOPSUM: CHANGE IT
+      startAt: 59, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -274,12 +305,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "https://youtu.be/WUjVPIEtJd0?t=";
+  static String myVideoId = "https://youtu.be/Pon4Zux5MaQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1259, // DOPSUM: CHANGE IT
+      startAt: 109, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -299,12 +330,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "https://youtu.be/mcZdTvOqmvI?t=";
+  static String myVideoId = "https://youtu.be/vhmtoAYVRSo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 960, // DOPSUM: CHANGE IT
+      startAt: 25, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -324,12 +355,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "https://youtu.be/0zXfDafyyao?t=";
+  static String myVideoId = "https://youtu.be/y4TAuIuC2Gg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1295, // DOPSUM: CHANGE IT
+      startAt: 158, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -349,12 +380,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "https://youtu.be/8WQ5MsroXxE?t=";
+  static String myVideoId = "https://youtu.be/GLy2rYHwUqY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 886, // DOPSUM: CHANGE IT
+      startAt: 118, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -374,12 +405,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "https://youtu.be/3yi0FNwOYiI?t=";
+  static String myVideoId = "https://youtu.be/O9ifAYdKDG4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 215, // DOPSUM: CHANGE IT
+      startAt: 16, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -399,12 +430,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "https://youtu.be/ZFRnQ-Ti6Is?t=";
+  static String myVideoId = "https://youtu.be/DG8rPBlbOrY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 173, // DOPSUM: CHANGE IT
+      startAt: 23, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -424,12 +455,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "https://youtu.be/ploiiCA7fwc?t=";
+  static String myVideoId = "https://youtu.be/e5WJ5_0Z7Ww?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 248, // DOPSUM: CHANGE IT
+      startAt: 14, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -449,12 +480,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "https://youtu.be/Ky1c6d7v0pQ?t=";
+  static String myVideoId = "https://youtu.be/JljeqZ4iei8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 440, // DOPSUM: CHANGE IT
+      startAt: 83, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -474,12 +505,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "https://youtu.be/UpnwWP3fOSA?t=";
+  static String myVideoId = "https://youtu.be/Jt5WpKRPIlE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 259, // DOPSUM: CHANGE IT
+      startAt: 12, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -499,12 +530,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "https://youtu.be/uIod2n234Zw?t=";
+  static String myVideoId = "https://youtu.be/il1SqNg_ZAw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 80, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -524,12 +555,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "https://youtu.be/hJ5Z6awBSb8?t=";
+  static String myVideoId = "https://youtu.be/Y0VQyEY-B2I?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 69, // DOPSUM: CHANGE IT
+      startAt: 131, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -548,4 +579,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end bodice
+// end body

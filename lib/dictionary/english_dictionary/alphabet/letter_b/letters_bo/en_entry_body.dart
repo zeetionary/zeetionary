@@ -30,8 +30,8 @@ class EnglishEntrybody extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "speakbodys111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The human body is a complex structure."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbodys2(String languageCode) async {
@@ -39,7 +39,8 @@ class EnglishEntrybody extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbodys22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The virus can affect all parts of the body."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbodys3(String languageCode) async {
@@ -47,7 +48,8 @@ class EnglishEntrybody extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbodys33"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She had injuries to her head and body."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbodys4(String languageCode) async {
@@ -55,7 +57,8 @@ class EnglishEntrybody extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbodys44"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He has a large body, but thin legs."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbodys5(String languageCode) async {
@@ -63,7 +66,8 @@ class EnglishEntrybody extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbodys55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The family of the missing girl has been called in by the police to identify the body."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbodys6(String languageCode) async {
@@ -71,7 +75,8 @@ class EnglishEntrybody extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbodys66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The bar is in the main body of the hotel."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakbodys7(String languageCode) async {
@@ -79,7 +84,201 @@ class EnglishEntrybody extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbodys77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "There are some references in the main body of the text."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbodys8(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The governing body of the school is/are concerned about discipline."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbodys9(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "An independent body has been set up to investigate the affair."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbodys10(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "There is a powerful body of opinion against the ruling."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbodys11(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The two islands are separated by a large body of water."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbodys12(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "They removed a foreign body from her eye."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbodys13(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Stars are celestial bodies."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbodys14(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Regular use of conditioner is supposed to give your hair more body."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbodys15(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("This wine has plenty of body."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbodys16(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Every able-bodied man had to fight for his country."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbodys17(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbodys1717"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbodys18(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbodys1818"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbodys19(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbodys1919"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbodys20(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbodys2020"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbodys21(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbodys2121"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbodys22(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbodys2222"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbodys23(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbodys2323"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbodys24(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbodys2424"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbodys25(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbodys2525"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbodys26(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbodys2626"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbodys27(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbodys2727"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbodys28(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbodys2828"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbodys29(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbodys2929"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakbodys30(String languageCode) async {
+    // DOPSUM: CHANGE speakbody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakbodys3030"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -136,7 +335,7 @@ class EnglishEntrybody extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
-                  VideoIconForTab(), // 07 --- FIND: 
+                  VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -165,20 +364,302 @@ class EnglishEntrybody extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: لەش، تەن، جەستە، ئەندام، گیان، قەلبەند، کەلەخ، کەلاک، جەندەک، تەرم، لاشە، بەشی سەرەکی، (ماشێن) بەدەنە، لاشە، گروپ، دەستە، تیپ، تاقم، کۆمەڵە، کۆمەڵ، کۆما، کۆگا، لۆدەتەن، ژمارە، چۆنیەتی، باشی، بنیادەم، پیاو، مرۆ، (مەی) خەستی
 
-١. (ناو) پێنناسە"""),
+١. (ناو) لەش، جەستە"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "speakbodys111111111111111111111111111111111"),
+                                      "The human body is a complex structure."),
                               const ExampleSentenceKurdish(
-                                  text: "رستە_رستە_رستە_رستە."),
+                                  text: "لەشی مرۆڤ پێکهاتەیەکی ئاڵۆزە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
                                 onPressed: () => speakbodys1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
                                 onPressed: () => speakbodys1("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The virus can affect all parts of the body."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڤایرۆسەکە دەکرێت کار بکاتە سەر هەموو بەشەکانی جەستە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbodys2("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbodys2("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) بەشی سەرەکی جەستە بەبێ سەر، یان بەبێ سەر و باڵ و لاق"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "She had injuries to her head and body."),
+                              const ExampleSentenceKurdish(
+                                  text: "برینی هەبوو لەسەر سەری و جەستەی."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbodys3("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbodys3("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "He has a large body, but thin legs."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "لاشەیەکی گەورەی هەیە، بەڵام لاقەکانی باریکن."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbodys4("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbodys4("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٣. (ناو) لاشەی کەسێک یان ئاژەڵێکی مردوو"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The family of the missing girl has been called in by the police to identify the body."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "خێزانی کچە ونبووەکە بانگکراون لەلایەن پۆلیسەوە بۆ ناسینەوەی لاشەکە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbodys5("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbodys5("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (ناو) بەشی سەرەکیی شتێک، بەتایبەتی بینایەک، ئامرازێکی گواستنەوە، کتێبێک، وتارێک، هتد"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The bar is in the main body of the hotel."),
+                              const ExampleSentenceKurdish(
+                                  text: "باڕەکە بەشی سەرەکی هوتێلەکەیە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbodys6("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbodys6("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "There are some references in the main body of the text."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "هەندێک سەرچاوە هەن لە بەشی سەرەکیی نووسراوەکە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbodys7("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbodys7("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٥. (ناو) کۆمەڵێک لە خەڵکی کە پێکەوە کاردەکەن، زۆرجار بۆ مەبەستێکی فەرمی، یان ئەوەی بە شێوەیەک پێکەوە پەیوەندیدارن"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The governing body of the school is/are concerned about discipline."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دەستەی بەڕێوبەری قوتابخانەکە نیگەرانن سەبارەت بە گوێرایەڵی (خوێندکاران)."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbodys8("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbodys8("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "An independent body has been set up to investigate the affair."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دەستەیەکی سەربەخۆ پێکهێنراوە بۆ لێکۆڵینەوە لە بابەتەکە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbodys9("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbodys9("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٦. (ناو) ڕێژەیەکی زۆر لە شتێک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "There is a powerful body of opinion against the ruling."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "ڕێژەیەکی بەهێز لە بۆچوون هەیە دژ بە بڕیارەکە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbodys10("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbodys10("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "The two islands are separated by a large body of water."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "دوو دوورگەکە جیاکراونەتەوە بە بڕێکی زۆر لە ئاو."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbodys11("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbodys11("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "٧. (ناو) شتێک"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "They removed a foreign body from her eye."),
+                              const ExampleSentenceKurdish(
+                                  text: "شتێکی دەرەکییان لە چاوی دەرکرد."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbodys12("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbodys12("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text: "Stars are celestial bodies."),
+                              const ExampleSentenceKurdish(
+                                  text: "ئەستێرەکان تەنی ئاسمانین."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbodys13("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbodys13("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٨. (ناو) کوالێتی بەهێز یان ئەستوور"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Regular use of conditioner is supposed to give your hair more body."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "بەکارهێنانی بەردەوامی نەرم‌کەرەوە دەبێت ئەستووری زیاتر بە قژت بدات."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbodys14("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbodys14("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "This wine has plenty of body (= strong flavour)."),
+                              const ExampleSentenceKurdish(
+                                  text: "ئەم بیرەیە تامی بەهێزی هەیە."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbodys15("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbodys15("en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٠. (ناو) هەبوونی ئەو جۆرە لاشەیەی کە باسکراوە"),
+                          Row(
+                            children: [
+                              const ExampleSentenceEnglish(
+                                  text:
+                                      "Every able-bodied man had to fight for his country."),
+                              const ExampleSentenceKurdish(
+                                  text:
+                                      "هەموو پیاوێکی لاشە ساخ دەبوو شەڕ بۆ وڵاتەکەی بکات."),
+                              const CustomSizedBoxForTTS(),
+                              CustomIconButtonBritish(
+                                onPressed: () => speakbodys16("en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () => speakbodys16("en-US"),
                               ),
                             ],
                           ),

@@ -1880,7 +1880,7 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_boggy.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_bogey.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_boggle.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_BOGOF.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_BOGOF.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_bo/en_entry_DOPSUM.dart';
@@ -3924,13 +3924,17 @@ final loggedInRoute = RouteMap(routes: {
   "/english-blush": (_) => MaterialPage(child: EnglishEntryblush()),
   "/english-bluster": (_) => MaterialPage(child: EnglishEntrybluster()),
   "/english-blustery": (_) => MaterialPage(child: EnglishEntryblustery()),
-  "/english-boa-constrictor": (_) => MaterialPage(child: EnglishEntryboaconstrictor()),
+  "/english-boa-constrictor": (_) =>
+      MaterialPage(child: EnglishEntryboaconstrictor()),
   "/english-boar": (_) => MaterialPage(child: EnglishEntryboar()),
   "/english-board": (_) => MaterialPage(child: EnglishEntryboard()),
   "/english-boarder": (_) => MaterialPage(child: EnglishEntryboarder()),
-  "/english-boarding-card": (_) => MaterialPage(child: EnglishEntryboardingcard()),
-  "/english-boarding-house": (_) => MaterialPage(child: EnglishEntryboardinghouse()),
-  "/english-boarding-school": (_) => MaterialPage(child: EnglishEntryboardingschool()),
+  "/english-boarding-card": (_) =>
+      MaterialPage(child: EnglishEntryboardingcard()),
+  "/english-boarding-house": (_) =>
+      MaterialPage(child: EnglishEntryboardinghouse()),
+  "/english-boarding-school": (_) =>
+      MaterialPage(child: EnglishEntryboardingschool()),
   "/english-boast": (_) => MaterialPage(child: EnglishEntryboast()),
   "/english-boastful": (_) => MaterialPage(child: EnglishEntryboastful()),
   "/english-boastfully": (_) => MaterialPage(child: EnglishEntryboastfully()),
@@ -3941,19 +3945,21 @@ final loggedInRoute = RouteMap(routes: {
   "/english-bob": (_) => MaterialPage(child: EnglishEntrybob()),
   "/english-bobbin": (_) => MaterialPage(child: EnglishEntrybobbin()),
   "/english-bobsleigh": (_) => MaterialPage(child: EnglishEntrybobsleigh()),
-  "/english-bode-well-ill": (_) => MaterialPage(child: EnglishEntrybodewellill()),
+  "/english-bode-well-ill": (_) =>
+      MaterialPage(child: EnglishEntrybodewellill()),
   "/english-bodice": (_) => MaterialPage(child: EnglishEntrybodice()),
   "/english-bodily": (_) => MaterialPage(child: EnglishEntrybodily()),
   "/english-body": (_) => MaterialPage(child: EnglishEntrybody()),
   "/english-bodyboard": (_) => MaterialPage(child: EnglishEntrybodyboard()),
-  "/english-bodyboarding": (_) => MaterialPage(child: EnglishEntrybodyboarding()),
+  "/english-bodyboarding": (_) =>
+      MaterialPage(child: EnglishEntrybodyboarding()),
   "/english-bodyguard": (_) => MaterialPage(child: EnglishEntrybodyguard()),
   "/english-bodywork": (_) => MaterialPage(child: EnglishEntrybodywork()),
   "/english-bog": (_) => MaterialPage(child: EnglishEntrybog()),
   "/english-boggy": (_) => MaterialPage(child: EnglishEntryboggy()),
   "/english-bogey": (_) => MaterialPage(child: EnglishEntrybogey()),
   "/english-boggle": (_) => MaterialPage(child: EnglishEntryboggle()),
-  "/english-bogof": (_) => MaterialPage(child: EnglishEntrybogof()),
+  // "/english-bogof": (_) => MaterialPage(child: EnglishEntrybogof()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

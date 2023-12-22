@@ -1925,13 +1925,13 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "bolster",
     "bolt",
     "bomb",
-    // "bomber",
-    // "bombard",
-    // "bombardment",
-    // "bombshell",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    "bomber",
+    "bombard",
+    "bombardment",
+    "bombshell",
+    "bona fide",
+    "bond",
+    // "bone",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -9816,33 +9816,33 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-bomb");
                   }
-                  // if (wordsEnglish == "bomber") {
+                  if (wordsEnglish == "bomber") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bomber");
+                  }
+                  if (wordsEnglish == "bombshell") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bombshell");
+                  }
+                  if (wordsEnglish == "bombard") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bombard");
+                  }
+                  if (wordsEnglish == "bombardment") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bombardment");
+                  }
+                  if (wordsEnglish == "bona fide") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bona-fide");
+                  }
+                  if (wordsEnglish == "bond") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bond");
+                  }
+                  // if (wordsEnglish == "bone") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bomber");
-                  // }
-                  // if (wordsEnglish == "bombshell") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bombshell");
-                  // }
-                  // if (wordsEnglish == "bombard") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bombard");
-                  // }
-                  // if (wordsEnglish == "bombardment") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bombardment");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-bone");
                   // }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);

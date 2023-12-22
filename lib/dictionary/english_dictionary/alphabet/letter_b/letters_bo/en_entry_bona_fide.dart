@@ -5,88 +5,88 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 // More sentences is NOT done
 
-// Define the word "bombard" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
+// Define the word "bona fide" and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more for each types of speech that the word has.
 
-// replace bombard - /bɒmˈbɑːd/
+// replace bona fide - /ˌbəʊnə ˈfaɪdiːz/
 
 enum TtsState { playing }
 
-class EnglishEntrybombard extends StatelessWidget {
+class EnglishEntrybonafide extends StatelessWidget {
 // blank divider
-  EnglishEntrybombard({super.key});
+  EnglishEntrybonafide({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbombard(String languageCode) async {
-    // DOPSUM: CHANGE speakbombard
+  Future<void> speakbonafide(String languageCode) async {
+    // DOPSUM: CHANGE speakbonafide
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bombard"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bona fide"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbombards1(String languageCode) async {
-    // DOPSUM: CHANGE speakbombard
+  Future<void> speakbonafides1(String languageCode) async {
+    // DOPSUM: CHANGE speakbonafide
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Madrid was heavily bombarded for several months."); // DOPSUM: CHANGE TEXT
+        "Make sure you are dealing with a bona fide company."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbombards2(String languageCode) async {
-    // DOPSUM: CHANGE speakbombard
+  Future<void> speakbonafides2(String languageCode) async {
+    // DOPSUM: CHANGE speakbonafide
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We have been bombarded with letters of complaint."); // DOPSUM: CHANGE TEXT
+        "You’re a bona fide member of the team now."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbombards3(String languageCode) async {
-    // DOPSUM: CHANGE speakbombard
+  Future<void> speakbonafides3(String languageCode) async {
+    // DOPSUM: CHANGE speakbonafide
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbombards33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbonafides33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbombards4(String languageCode) async {
-    // DOPSUM: CHANGE speakbombard
+  Future<void> speakbonafides4(String languageCode) async {
+    // DOPSUM: CHANGE speakbonafide
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbombards44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbonafides44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbombards5(String languageCode) async {
-    // DOPSUM: CHANGE speakbombard
+  Future<void> speakbonafides5(String languageCode) async {
+    // DOPSUM: CHANGE speakbonafide
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbombards55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbonafides55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbombards6(String languageCode) async {
-    // DOPSUM: CHANGE speakbombard
+  Future<void> speakbonafides6(String languageCode) async {
+    // DOPSUM: CHANGE speakbonafide
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbombards66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbonafides66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbombards7(String languageCode) async {
-    // DOPSUM: CHANGE speakbombard
+  Future<void> speakbonafides7(String languageCode) async {
+    // DOPSUM: CHANGE speakbonafide
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbombards77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakbonafides77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -103,22 +103,24 @@ class EnglishEntrybombard extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "bombard"),
+                            EntryTitle(word: "bona fide"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /bɒmˈbɑːd/"),
+                            const IPAofEnglish(
+                                text: "IpaUK: //ˌbəʊnə ˈfaɪdi//"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbombard("en-GB"),
+                              onPressed: () => speakbonafide("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /bɑːmˈbɑːrd/"),
+                            const IPAofEnglish(
+                                text: "IpaUS: //ˌbəʊnə ˈfaɪdi//"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbombard("en-US"),
+                              onPressed: () => speakbonafide("en-US"),
                             ),
                           ],
                         ),
@@ -136,13 +138,13 @@ class EnglishEntrybombard extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
                   VideoIconForTab(), // 07 --- FIND:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -164,43 +166,40 @@ class EnglishEntrybombard extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: 
+کوردی: ڕاست، دروست، بێ‌فروفێڵ، بێ‌گەرد، بێ‌خەوش، ڕاستەقینە، ڕەسەن، قانوونی، ڕاستینە
 
-١. (کردار) هێرشکردنە سەر شوێنێک بە هاویشتن یان بەردانەوەی بۆمبێکی زۆر"""),
+١. (ناو) ڕاستی، یاسایی، درووست"""),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "Madrid was heavily bombarded for several months."),
+                                      "Make sure you are dealing with a bona fide company."),
                               const ExampleSentenceKurdish(
                                   text:
-                                      "مەدرید بۆ چەند مانگێک بە سەختی بۆمباران کرا."),
+                                      "دڵنیابەرەوە مامەڵە لەگەڵ کۆمپانیایەکی ڕاست دەکەیت."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakbombards1("en-GB"),
+                                onPressed: () => speakbonafides1("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakbombards1("en-US"),
+                                onPressed: () => speakbonafides1("en-US"),
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (کردار) ئاراستەکردنی ژمارەیەکی زۆر لە پرسیار، ڕەخنە، هتد لە کەسێک یان پێدانی ڕێژەیەکی زۆر لە زانیاری یان شتێک"),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const ExampleSentenceEnglish(
                                   text:
-                                      "We have been bombarded with letters of complaint."),
+                                      "You’re a bona fide member of the team now."),
                               const ExampleSentenceKurdish(
-                                  text: "دراوینەتە بەر نامەی ناڕەزایی."),
+                                  text: "ئێستا ئەندامێکی یاساییت لە تیمەکە."),
                               const CustomSizedBoxForTTS(),
                               CustomIconButtonBritish(
-                                onPressed: () => speakbombards2("en-GB"),
+                                onPressed: () => speakbonafides2("en-GB"),
                               ),
                               CustomIconButtonAmerican(
-                                onPressed: () => speakbombards2("en-US"),
+                                onPressed: () => speakbonafides2("en-US"),
                               ),
                             ],
                           ),
@@ -217,8 +216,8 @@ class EnglishEntrybombard extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddeddfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -255,20 +254,12 @@ class EnglishMeaning extends StatelessWidget {
           DividerDefinition(),
           EnglishMeaningConst(
             text: """
-- Noun: bombard (Derived forms: bombards)
-1. A large shawm; the bass member of the shawm family (= bombardon)
-
-- Verb: bombard (Derived forms: bombarded, bombards, bombarding)
-1. Cast, hurl, or throw repeatedly with some missile (= pelt)
-"They bombarded each other with snowballs";
-
-2. Throw bombs at or attack with bombs (= bomb)
-"The Americans bombarded Dresden";
-
-3. Address with continuously or persistently, as if with a barrage (= barrage)
-"The governor was bombarded with requests to grant a pardon to the convicted killer";
+- Adjective: bona fide
+1. Undertaken in good faith
+"a bona fide offer"
  
-4. (physics) direct high energy particles or radiation against
+2. Not counterfeit or copied (= authentic, unquestionable, veritable)
+"a bona fide manuscript";
 """,
           )
         ],
@@ -282,12 +273,12 @@ class EnglishMeaning extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
-  static String myVideoId = "NDaxPYAQq7Y";
+  static String myVideoId = "uxIuDJyzvDY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 307, // DOPSUM: CHANGE IT
+      startAt: 237, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -307,12 +298,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
-  static String myVideoId = "Xzv84ZdtlE0";
+  static String myVideoId = "Q8-ujJWxP9Y";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 463, // DOPSUM: CHANGE IT
+      startAt: 366, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -332,12 +323,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
-  static String myVideoId = "VjFFrYEZsAQ";
+  static String myVideoId = "oADU2PIzhD0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 273, // DOPSUM: CHANGE IT
+      startAt: 1282, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -357,12 +348,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
-  static String myVideoId = "WD8DWUPUesc";
+  static String myVideoId = "XbySo5U5vW0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1133, // DOPSUM: CHANGE IT
+      startAt: 418, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -382,12 +373,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
-  static String myVideoId = "8mTt14PLP2Y";
+  static String myVideoId = "TVzrKOSjkJs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1900, // DOPSUM: CHANGE IT
+      startAt: 462, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -407,12 +398,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
-  static String myVideoId = "uaaC57tcci0";
+  static String myVideoId = "SDXuzswruiI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 87, // DOPSUM: CHANGE IT
+      startAt: 123, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -432,12 +423,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
-  static String myVideoId = "ty1NHNbL1n4";
+  static String myVideoId = "p1Zb90MFf20";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 67, // DOPSUM: CHANGE IT
+      startAt: 8, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -457,12 +448,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
-  static String myVideoId = "NIOYdwhp12Q";
+  static String myVideoId = "j2aAPyFcPUc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 983, // DOPSUM: CHANGE IT
+      startAt: 499, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -482,12 +473,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
-  static String myVideoId = "vO1bpod0vKM";
+  static String myVideoId = "9GOEvPvruiQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 635, // DOPSUM: CHANGE IT
+      startAt: 519, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -507,12 +498,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
-  static String myVideoId = "5CsD8I396wo";
+  static String myVideoId = "656sUmDzvjI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1006, // DOPSUM: CHANGE IT
+      startAt: 32, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -532,12 +523,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
-  static String myVideoId = "TA5bDK2RTBQ";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 8153, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -557,12 +548,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   YoutubeEmbeddedtwelve({super.key});
 
-  static String myVideoId = "7tTaQ69KEc0?t=";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 630, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -581,4 +572,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // more than one video, only first autoplay
 
-// end bombard
+// end bona fide

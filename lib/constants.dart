@@ -1072,9 +1072,17 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
       elevation: 3,
       shadowColor: Colors.grey.withOpacity(0.5),
       margin: const EdgeInsets.all(8.0),
+      // shape: RoundedRectangleBorder(
+      //   borderRadius: BorderRadius.circular(16.0), // Adjust the border radius
+      //   side: BorderSide(color: Colors.blue.withOpacity(0.7)),
+      // ),
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(16.0), // Adjust the border radius
-        side: BorderSide(color: Colors.blue.withOpacity(0.7)),
+        side: _isExpanded
+            ? BorderSide(color: Colors.blue.withOpacity(0.7))
+            : BorderSide(
+                color: Colors.blue
+                    .withOpacity(0.3)), // Conditionally apply the border
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
